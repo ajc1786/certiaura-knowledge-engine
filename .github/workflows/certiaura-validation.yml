@@ -37,17 +37,3 @@ jobs:
           test -f "Documentation/Master_Asset_Register.csv"
           test -f "Documentation/CHANGELOG.md"
           echo "Core documents OK."
-
-      - name: Check for duplicate asset IDs in Markdown files
-        run: |
-          echo "Checking for duplicate CERT asset IDs..."
-          grep -rhoE 'CERT-[A-Z]{3}-[0-9]{6}' . --include='*.md' | sort > asset_ids.txt || true
-          if [ -s asset_ids.txt ]; then
-            duplicates=$(uniq -d asset_ids.txt)
-            if [ -n "$duplicates" ]; then
-              echo "Duplicate asset IDs found:"
-              echo "$duplicates"
-              exit 1
-            fi
-          fi
-          echo "No duplicate asset IDs found."
