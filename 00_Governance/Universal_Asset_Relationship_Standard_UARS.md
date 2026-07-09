@@ -1,0 +1,5 @@
+# Universal Asset & Relationship Standard (UARS)
+
+Every asset uses a permanent Universal Asset Identifier and standard relationship codes.
+
+Core codes: HAS_MECHANISM, ACTS_ON, HAS_RECEPTOR, HAS_BIOMARKER, HAS_CONDITION, SUPPORTS_GOAL, HAS_MONITORING, HAS_SAFETY, HAS_EVIDENCE, HAS_REPORT, HAS_PRODUCT, HAS_PASSPORT, GENERATES, COMPARES_WITH, RELATED_TO, PARENT_OF, CHILD_OF, REQUIRES, SUPERSEDES.

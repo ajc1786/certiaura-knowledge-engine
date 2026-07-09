@@ -1,0 +1,9 @@
+Asset ID,Asset Name,System,Type,Status,Version,Completeness %,Folder
+CERT-PKS-000001,Retatrutide,PKS,Platinum Knowledge Asset,Production,1.1,88,02_Peptides/CERT-PKS-000001_Retatrutide
+CERT-BKS-000001,GLP-1,BKS,Core Knowledge Object,Production,1.0,75,03_Biology
+CERT-BKS-000002,GIP,BKS,Core Knowledge Object,Production,1.0,75,03_Biology
+CERT-BKS-000003,Glucagon,BKS,Core Knowledge Object,Production,1.0,75,03_Biology
+CERT-CKS-000001,Obesity,CKS,Core Knowledge Object,Production,1.0,70,04_Conditions
+CERT-MKS-000001,HbA1c,MKS,Core Knowledge Object,Production,1.0,70,05_Monitoring
+CERT-GKS-000001,Weight Management,GKS,Goal Object,Production,1.0,70,07_Goals
+CERT-EKS-000001,Evidence Object Specification,EKS,Evidence Template,Production,1.0,100,06_Evidence
