@@ -1,0 +1,48 @@
+{
+  "asset_id": "CERT-PKS-000002",
+  "asset_name": "BPC-157",
+  "knowledge_system": "PKS",
+  "asset_type": "Peptide Knowledge Asset",
+  "version": "0.1.0",
+  "status": "Bootstrapped — Preclinical-Dominant Evidence Base — Not Platinum Certified",
+  "owner": "Aidan Coleman",
+  "last_review": "2026-07-14",
+  "identity": {
+    "canonical_name": "BPC-157",
+    "alternative_names": [
+      "BPC 157",
+      "Body Protection Compound 157",
+      "PL 14736"
+    ],
+    "sequence": "Gly-Glu-Pro-Pro-Pro-Gly-Lys-Pro-Ala-Asp-Asp-Ala-Gly-Leu-Val",
+    "sequence_length_amino_acids": 15
+  },
+  "plain_english_summary": "BPC-157 is a synthetic 15-amino-acid peptide with a large preclinical literature covering tissue repair, vascular signalling and gastrointestinal protection, but only sparse and methodologically limited human evidence. Certiaura therefore treats it as a preclinical-dominant research asset rather than an established human therapy.",
+  "evidence_links": [
+    "CERT-EKS-000015",
+    "CERT-EKS-000016",
+    "CERT-EKS-000017",
+    "CERT-EKS-000018",
+    "CERT-EKS-000019",
+    "CERT-EKS-000020",
+    "CERT-EKS-000021",
+    "CERT-EKS-000022"
+  ],
+  "safety_links": [
+    "CERT-SKS-000006",
+    "CERT-SKS-000007"
+  ],
+  "human_evidence_status": "Sparse and not confirmatory",
+  "validated_human_dosing_protocol": false,
+  "platinum_certified": false,
+  "certification_blockers": [
+    "Insufficient high-quality human efficacy evidence",
+    "Insufficient long-term human safety evidence",
+    "Direct primary-source extraction incomplete for the bootstrap evidence set",
+    "Human knee-pain evidence requires methodological appraisal",
+    "Human interstitial-cystitis pilot requires methodological appraisal",
+    "Regulatory status requires jurisdiction-specific current review",
+    "Anti-doping implications require explicit user warning",
+    "Independent replication and confirmatory trials are limited"
+  ]
+}

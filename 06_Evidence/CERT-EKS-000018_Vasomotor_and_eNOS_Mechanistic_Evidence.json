@@ -1,0 +1,30 @@
+{
+  "asset_id": "CERT-EKS-000018",
+  "asset_name": "BPC-157 Vasomotor and eNOS Mechanistic Evidence",
+  "knowledge_system": "EKS",
+  "asset_type": "Evidence Object",
+  "version": "0.5.0",
+  "status": "PRIMARY PUBLICATION IDENTIFIED — DIRECT EXTRACTION PENDING",
+  "owner": "Aidan Coleman",
+  "last_review": "2026-07-14",
+  "study": {
+    "publication_title": "Modulatory effects of BPC 157 on vasomotor tone and the activation of Src-Caveolin-1-endothelial nitric oxide synthase pathway",
+    "journal": "Scientific Reports",
+    "year": 2020,
+    "domain": "Vascular signalling / nitric oxide",
+    "model": "Preclinical mechanistic research",
+    "evidence_level": "Preclinical"
+  },
+  "evidence_summary": "The publication identity supports investigation of vascular tone and Src–Caveolin-1–eNOS signalling.",
+  "limitations": [
+    "Mechanistic signalling evidence does not establish a therapeutic effect in humans.",
+    "Clinical relevance and long-term consequences remain unresolved."
+  ],
+  "relationships": [
+    {
+      "source": "CERT-PKS-000002",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000018"
+    }
+  ]
+}

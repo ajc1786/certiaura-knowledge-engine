@@ -1,6 +1,6 @@
 # CERTIAURA PRODUCTION DASHBOARD
 
-**Build:** 0008  
+**Build:** 0009  
 **Date:** 2026-07-14
 
 ## Current flagship
@@ -9,52 +9,42 @@
 
 **Status:** Consolidated — Not Platinum Certified
 
-## Build 0008 status
+## New production asset
 
-**Reusable Peptide Flagship Template:** Ready for import
+`CERT-PKS-000002 — BPC-157`
 
-## Build 0008 outputs
+**Status:** Bootstrapped — Preclinical-Dominant Evidence Base — Not Platinum Certified
 
-- Peptide Flagship Bootstrap Workflow
-- Template Token Standard
-- Flagship Knowledge Asset Markdown template
-- Flagship Knowledge Asset JSON template
-- Executive Summary template
-- Module Assembly Map template
-- Claim Control Matrix Markdown and CSV templates
-- Certification Gap Register template
-- User Layer Map template
-- Evidence-to-Module Map template
-- Knowledge Graph template
-- Evidence Index template
-- Safety Evidence Matrix template
-- Monitoring Evidence Matrix template
-- Primary Source Closure Register template
-- Production Quality Gate
-- Bootstrap Manifest template
-- Filename Pattern Reference
-- Template Validation Report
+## Build 0009 outputs
 
-## Formal asset count
+- Permanent UAI allocation
+- BPC-157 flagship bootstrap Markdown and JSON
+- 8 Evidence Objects
+- 2 Safety Knowledge System assets
+- Evidence Index
+- Primary Source Closure Register
+- Claim Control Matrix
+- Safety Evidence Matrix
+- Certification Gap Register
+- Regulatory / Anti-Doping Watch
+- Source Status Register
+- Knowledge Graph
+- Module Assembly Map
+- Evidence Maturity Assessment
+- Updated Master Asset Register
+- Updated Production Dashboard
+- Updated Change Log
 
-No new formal UAI is allocated by Build 0008.
+## Evidence balance
 
-## Production impact
+- Preclinical evidence foundation: 6 objects
+- Limited human evidence leads: 2 objects
+- Confirmatory human randomized evidence captured: 0
 
-The Retatrutide architecture can now be reused without rebuilding the structure from scratch.
+## Immediate next production queue
 
-## Next production step
-
-Select the next peptide from the existing backlog and allocate its permanent UAI through the established asset-control process before creating its bootstrap build.
-
-Existing backlog includes:
-
-- BPC-157
-- Tesamorelin
-- CJC-1295
-- Ipamorelin
-- MOTS-c
-- GHK-Cu
-- Thymosin Beta-4 / TB-500
-- Melanotan II
-- Epitalon
+1. Directly capture and extract the highest-value BPC-157 primary sources.
+2. Appraise the two limited human publications in detail.
+3. Establish a source-backed mechanism map.
+4. Resolve current regulatory and anti-doping authoritative sources.
+5. Do not create a validated human dosing module unless human evidence supports it.

@@ -1,0 +1,70 @@
+{
+  "root_asset": "CERT-PKS-000002",
+  "asset_name": "BPC-157",
+  "version": "0.1.0",
+  "edge_count": 12,
+  "edges": [
+    {
+      "source": "CERT-PKS-000002",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000015"
+    },
+    {
+      "source": "CERT-PKS-000002",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000016"
+    },
+    {
+      "source": "CERT-PKS-000002",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000017"
+    },
+    {
+      "source": "CERT-PKS-000002",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000018"
+    },
+    {
+      "source": "CERT-PKS-000002",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000019"
+    },
+    {
+      "source": "CERT-PKS-000002",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000020"
+    },
+    {
+      "source": "CERT-PKS-000002",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000021"
+    },
+    {
+      "source": "CERT-PKS-000002",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000022"
+    },
+    {
+      "source": "CERT-PKS-000002",
+      "relationship": "HAS_SAFETY",
+      "target": "CERT-SKS-000006"
+    },
+    {
+      "source": "CERT-PKS-000002",
+      "relationship": "HAS_SAFETY",
+      "target": "CERT-SKS-000007"
+    },
+    {
+      "source": "CERT-PKS-000002",
+      "relationship": "SUPPORTS_GOAL",
+      "target": "CERT-GKS-000001",
+      "status": "Research relevance only; human efficacy not established"
+    },
+    {
+      "source": "CERT-PKS-000002",
+      "relationship": "SUPPORTS_GOAL",
+      "target": "CERT-GKS-000002",
+      "status": "Research relevance only"
+    }
+  ]
+}

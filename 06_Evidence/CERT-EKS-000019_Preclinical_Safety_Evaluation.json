@@ -1,0 +1,30 @@
+{
+  "asset_id": "CERT-EKS-000019",
+  "asset_name": "BPC-157 Preclinical Safety Evaluation",
+  "knowledge_system": "EKS",
+  "asset_type": "Evidence Object",
+  "version": "0.5.0",
+  "status": "PRIMARY PUBLICATION IDENTIFIED — DIRECT EXTRACTION PENDING",
+  "owner": "Aidan Coleman",
+  "last_review": "2026-07-14",
+  "study": {
+    "publication_title": "Preclinical safety evaluation of body protective compound-157, a potential drug for treating various wounds",
+    "journal": "Regulatory Toxicology and Pharmacology",
+    "year": 2020,
+    "domain": "Preclinical toxicology",
+    "model": "Preclinical safety programme",
+    "evidence_level": "Preclinical safety"
+  },
+  "evidence_summary": "A dedicated preclinical safety publication has been identified. It cannot substitute for adequately powered long-term human safety evidence.",
+  "limitations": [
+    "Animal toxicology is not equivalent to human clinical safety.",
+    "Full protocol, dose margins and detailed findings require direct primary extraction."
+  ],
+  "relationships": [
+    {
+      "source": "CERT-PKS-000002",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000019"
+    }
+  ]
+}

@@ -1,54 +1,54 @@
 # CERTIAURA CHANGE LOG
 
-## Build 0008 — Reusable Peptide Flagship Template
+## Build 0009 — BPC-157 Asset Bootstrap & Evidence Foundation
 **Date:** 2026-07-14
+
+Allocated:
+
+- `CERT-PKS-000002` — BPC-157
 
 Added:
 
-- Reusable Peptide Flagship Bootstrap Workflow.
-- Template Token Standard.
-- Flagship Knowledge Asset Markdown template.
-- Flagship Knowledge Asset JSON template.
-- Executive Summary template.
-- Module Assembly Map template.
-- Claim Control Matrix Markdown and CSV templates.
-- Certification Gap Register template.
-- User Layer Map template.
-- Evidence-to-Module Map template.
-- Knowledge Graph template.
-- Evidence Index template.
-- Safety Evidence Matrix template.
-- Monitoring Evidence Matrix template.
-- Primary Source Closure Register template.
-- Primary Source Closure Guide.
-- Peptide Flagship Production Quality Gate.
-- Bootstrap Manifest template.
-- Filename Pattern Reference.
-- Build 0008 Template Validation Report.
+- BPC-157 Flagship Bootstrap Markdown and JSON.
+- CERT-EKS-000015 Achilles Tendon Healing Preclinical Evidence.
+- CERT-EKS-000016 Tendon Cell Migration / Outgrowth Mechanistic Evidence.
+- CERT-EKS-000017 Ligament Healing Preclinical Evidence.
+- CERT-EKS-000018 Vasomotor / eNOS Mechanistic Evidence.
+- CERT-EKS-000019 Preclinical Safety Evaluation.
+- CERT-EKS-000020 PK / ADME in Rats and Dogs.
+- CERT-EKS-000021 Human Knee Pain Evidence Lead.
+- CERT-EKS-000022 Human Interstitial Cystitis Pilot Evidence Lead.
+- CERT-SKS-000006 Human Safety Evidence Insufficiency.
+- CERT-SKS-000007 Long-Term Angiogenic Risk Uncertainty.
+- BPC-157 Evidence Index.
+- Primary Source Closure Register.
+- Claim Control Matrix.
+- Safety Evidence Matrix.
+- Certification Gap Register.
+- Regulatory and Anti-Doping Watch.
+- Source Status Register.
+- Knowledge Graph.
+- Module Assembly Map.
+- Evidence Maturity Assessment.
+- Updated Master Asset Register.
 - Updated Production Dashboard.
 
-Key outcome:
+Key scientific position:
 
-The proven Retatrutide flagship structure is now reusable for future peptide production.
+BPC-157 is classified as:
 
-No new peptide identifier was allocated.
+**Preclinical-Dominant Evidence Base — Not Platinum Certified**
 
-No new governance layer was created.
+No validated universal human dosing protocol is claimed.
+
+## Build 0008
+- Added reusable peptide flagship template.
 
 ## Build 0007
-- Consolidated CERT-PKS-000001 Retatrutide into the first flagship knowledge asset.
+- Consolidated Retatrutide flagship.
 
-## Build 0006
-- Added primary-source closure standard and integrity gate.
-
-## Build 0005
-- Added Safety and Monitoring Knowledge System expansion.
-
-## Build 0004
-- Added Retatrutide evidence expansion and source-tier separation.
-
-## Build 0003
-- Added first structured Retatrutide Evidence Objects.
+## Builds 0003–0006
+- Built Retatrutide evidence, safety, monitoring and source-integrity layers.
 
 ## Build 0002
 - Established preservation and migration baseline.

@@ -1,0 +1,30 @@
+{
+  "asset_id": "CERT-EKS-000017",
+  "asset_name": "BPC-157 Ligament Healing Preclinical Evidence",
+  "knowledge_system": "EKS",
+  "asset_type": "Evidence Object",
+  "version": "0.5.0",
+  "status": "PRIMARY PUBLICATION IDENTIFIED — DIRECT EXTRACTION PENDING",
+  "owner": "Aidan Coleman",
+  "last_review": "2026-07-14",
+  "study": {
+    "publication_title": "Pentadecapeptide BPC 157 (PL 14736) improves ligament healing in the rat",
+    "journal": "Journal of Orthopaedic Research",
+    "year": 2010,
+    "domain": "Ligament healing",
+    "model": "Rat ligament injury model",
+    "evidence_level": "Preclinical"
+  },
+  "evidence_summary": "The publication identity supports a preclinical ligament-healing research domain.",
+  "limitations": [
+    "Rat ligament healing does not establish human clinical efficacy.",
+    "Detailed dose, endpoint and effect-size extraction remains pending direct source capture."
+  ],
+  "relationships": [
+    {
+      "source": "CERT-PKS-000002",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000017"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "asset_id": "CERT-EKS-000020",
+  "asset_name": "BPC-157 Pharmacokinetics, Distribution, Metabolism and Excretion",
+  "knowledge_system": "EKS",
+  "asset_type": "Evidence Object",
+  "version": "0.5.0",
+  "status": "PRIMARY PUBLICATION IDENTIFIED — DIRECT EXTRACTION PENDING",
+  "owner": "Aidan Coleman",
+  "last_review": "2026-07-14",
+  "study": {
+    "publication_title": "Pharmacokinetics, distribution, metabolism, and excretion of body-protective compound 157, a potential drug for treating various wounds, in rats and dogs",
+    "journal": "Frontiers in Pharmacology",
+    "year": 2022,
+    "domain": "PK / ADME",
+    "model": "Rats and dogs",
+    "evidence_level": "Preclinical pharmacology"
+  },
+  "evidence_summary": "The publication identity supports a preclinical PK/ADME evidence domain in rats and dogs.",
+  "limitations": [
+    "Animal pharmacokinetics must not be converted into a validated human dosing schedule.",
+    "Route-specific and quantitative PK extraction remains pending."
+  ],
+  "relationships": [
+    {
+      "source": "CERT-PKS-000002",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000020"
+    }
+  ]
+}

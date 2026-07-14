@@ -1,0 +1,30 @@
+{
+  "asset_id": "CERT-EKS-000016",
+  "asset_name": "BPC-157 Tendon Cell Migration and Outgrowth Mechanistic Evidence",
+  "knowledge_system": "EKS",
+  "asset_type": "Evidence Object",
+  "version": "0.5.0",
+  "status": "PRIMARY PUBLICATION IDENTIFIED — DIRECT EXTRACTION PENDING",
+  "owner": "Aidan Coleman",
+  "last_review": "2026-07-14",
+  "study": {
+    "publication_title": "The promoting effect of pentadecapeptide BPC 157 on tendon healing involves tendon outgrowth, cell survival, and cell migration",
+    "journal": "Journal of Applied Physiology",
+    "year": 2011,
+    "domain": "Tendon cell biology",
+    "model": "Preclinical / in-vitro tendon model",
+    "evidence_level": "Preclinical"
+  },
+  "evidence_summary": "The publication identity supports mechanistic investigation of tendon outgrowth, cell survival and migration.",
+  "limitations": [
+    "Mechanistic preclinical evidence cannot be translated directly into a clinical healing claim.",
+    "Direct primary quantitative extraction remains open."
+  ],
+  "relationships": [
+    {
+      "source": "CERT-PKS-000002",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000016"
+    }
+  ]
+}

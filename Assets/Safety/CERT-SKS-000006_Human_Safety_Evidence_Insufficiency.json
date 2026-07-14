@@ -1,0 +1,24 @@
+{
+  "asset_id": "CERT-SKS-000006",
+  "asset_name": "BPC-157 Human Safety Evidence Insufficiency",
+  "knowledge_system": "SKS",
+  "asset_type": "Safety Knowledge Object",
+  "version": "1.0.0",
+  "status": "Material unresolved safety domain",
+  "owner": "Aidan Coleman",
+  "last_review": "2026-07-14",
+  "summary": "Published human safety evidence is too limited to establish a robust long-term human safety profile.",
+  "evidence_links": [
+    "CERT-EKS-000019",
+    "CERT-EKS-000021",
+    "CERT-EKS-000022"
+  ],
+  "certainty_statement": "High certainty that the evidence base is insufficient; low certainty about the true long-term human risk profile.",
+  "relationships": [
+    {
+      "source": "CERT-PKS-000002",
+      "relationship": "HAS_SAFETY",
+      "target": "CERT-SKS-000006"
+    }
+  ]
+}

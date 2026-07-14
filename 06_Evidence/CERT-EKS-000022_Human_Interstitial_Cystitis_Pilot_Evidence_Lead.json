@@ -1,0 +1,30 @@
+{
+  "asset_id": "CERT-EKS-000022",
+  "asset_name": "BPC-157 Human Interstitial Cystitis Pilot Evidence Lead",
+  "knowledge_system": "EKS",
+  "asset_type": "Evidence Object",
+  "version": "0.5.0",
+  "status": "HUMAN PUBLICATION IDENTIFIED — METHODOLOGICAL AND PRIMARY-SOURCE REVIEW PENDING",
+  "owner": "Aidan Coleman",
+  "last_review": "2026-07-14",
+  "study": {
+    "publication_title": "Effect of BPC-157 on Symptoms in Patients with Interstitial Cystitis: A Pilot Study",
+    "journal": "Alternative Therapies in Health and Medicine",
+    "year": 2024,
+    "domain": "Human urological evidence",
+    "model": "Human pilot study",
+    "evidence_level": "Limited human evidence"
+  },
+  "evidence_summary": "A pilot human publication has been identified. It is preserved as a human evidence lead, not as proof of established efficacy.",
+  "limitations": [
+    "Pilot evidence cannot establish broad efficacy or safety.",
+    "Study design, sample size, controls and full adverse-event reporting require direct appraisal."
+  ],
+  "relationships": [
+    {
+      "source": "CERT-PKS-000002",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000022"
+    }
+  ]
+}
