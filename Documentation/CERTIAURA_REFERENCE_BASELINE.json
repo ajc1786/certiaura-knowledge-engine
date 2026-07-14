@@ -1,0 +1,53 @@
+{
+  "version": "1.0.0",
+  "baseline_date": "2026-07-14",
+  "status": "active_reference_baseline",
+  "working_name": "Certiaura",
+  "operating_model": {
+    "production_percent": 80,
+    "platform_improvement_percent": 15,
+    "innovation_percent": 5
+  },
+  "source_of_truth": {
+    "canonical": "GitHub",
+    "backup_working_storage": "OneDrive",
+    "production_environment": "ChatGPT",
+    "automation_platform": "Project Genesis"
+  },
+  "repository": "ajc1786/certiaura-knowledge-engine",
+  "knowledge_systems": [
+    "PKS",
+    "BKS",
+    "CKS",
+    "MKS",
+    "SKS",
+    "EKS",
+    "GKS",
+    "RKS",
+    "CIS",
+    "PPS",
+    "MPS",
+    "AKS",
+    "SYS"
+  ],
+  "next_planned_feature": "Project Genesis v1.1 \u2014 Build Pack Import",
+  "do_not_repropose_as_new": [
+    "Governance Continuity Standard",
+    "Decision Log",
+    "Master Asset Register",
+    "Production Dashboard",
+    "Completeness Scoring",
+    "UARS",
+    "Universal Relationship Engine direction",
+    "Repository Structure",
+    "Naming Standard",
+    "Versioning Standard",
+    "Release Policy"
+  ],
+  "known_unlocked_items": [
+    "Library Knowledge System (LKS)",
+    "Final legal/regulatory route for direct peptide sales",
+    "Final Project Genesis technology stack",
+    "Migration away from current asset identifier format"
+  ]
+}
