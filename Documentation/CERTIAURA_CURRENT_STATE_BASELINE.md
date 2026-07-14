@@ -1,6 +1,7 @@
 # CERTIAURA CURRENT STATE BASELINE
 
-**Baseline date:** 2026-07-14
+**Baseline date:** 2026-07-14  
+**Revision:** Build 0002
 
 ## Repository
 
@@ -9,50 +10,31 @@
 
 Local path:
 
-```text
-C:\Users\enqui\OneDrive\Documents\CERTIAURA\Repository\certiaura-knowledge-engine
-```
+`C:\Users\enqui\OneDrive\Documents\CERTIAURA\Repository\certiaura-knowledge-engine`
 
-## Completed repository milestones
+## Completed milestones
 
-- Repository created.
-- OneDrive-backed local clone established.
-- Core repository folder structure created.
+- Repository and OneDrive-backed local clone established.
+- Core folder structure created.
 - Build 0001 pushed.
 - Repository foundation documents pushed.
-- Project Genesis v0.1 repository automation pushed.
-- Project Genesis v1.0 desktop scaffold pushed.
-- GitHub Actions repository validation configured.
-- Checkout action updated to v7.
-- Latest repository validation passed.
+- Master Reference & Charter Pack added.
+- GitHub Actions validation configured and passing.
+- Project Genesis v0.1 automation proof of concept added.
+- Project Genesis v1.0 desktop scaffold added.
+- Project Genesis v1.1 Build Pack Import implemented and proven.
+- Project Genesis v1.2 Commit & Push implemented and proven end-to-end.
+- Python cache exclusions added through `.gitignore`.
 
-## Current Project Genesis position
+## Current production priority
 
-### Existing
-- PowerShell repository automation proof of concept.
-- Python / Tkinter desktop scaffold.
-- Repository selector.
-- Basic repository validation.
-- Basic repository dashboard.
-- Master Asset Register opener.
-
-### Planned next
-- Project Genesis v1.1 — Build Pack Import.
-
-### Not yet complete
-- Full one-click end-to-end automation.
-- Automated asset register updates.
-- Automated change log updates.
-- Automatic build numbering.
-- In-app commit and push.
-- Release creation.
-- Full relationship validation.
-- Full completeness scoring automation.
+1. Commit and validate Build 0002.
+2. Continue migration of any remaining material historic Certiaura IP.
+3. Build real study-level Evidence Objects for Retatrutide.
+4. Resume substantive scientific asset production.
 
 ## Preservation status
 
-The repository is a reliable foundation, but it is not yet a complete archival reconstruction of all historic Certiaura work.
+The repository is a reliable operational foundation.
 
-The preservation objective remains:
-
-> Material project knowledge should be moved out of chat-only history and into permanent repository-backed assets.
+It is **not yet a complete archival reconstruction of every useful item previously discussed in chat**.

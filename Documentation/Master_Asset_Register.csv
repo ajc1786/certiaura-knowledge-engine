@@ -1,9 +1,29 @@
-Asset ID,Asset Name,System,Type,Status,Version,Completeness %,Folder
-CERT-PKS-000001,Retatrutide,PKS,Platinum Knowledge Asset,Production,1.1,88,02_Peptides/CERT-PKS-000001_Retatrutide
-CERT-BKS-000001,GLP-1,BKS,Core Knowledge Object,Production,1.0,75,03_Biology
-CERT-BKS-000002,GIP,BKS,Core Knowledge Object,Production,1.0,75,03_Biology
-CERT-BKS-000003,Glucagon,BKS,Core Knowledge Object,Production,1.0,75,03_Biology
-CERT-CKS-000001,Obesity,CKS,Core Knowledge Object,Production,1.0,70,04_Conditions
-CERT-MKS-000001,HbA1c,MKS,Core Knowledge Object,Production,1.0,70,05_Monitoring
-CERT-GKS-000001,Weight Management,GKS,Goal Object,Production,1.0,70,07_Goals
-CERT-EKS-000001,Evidence Object Specification,EKS,Evidence Template,Production,1.0,100,06_Evidence
+Universal Asset Identifier,Asset Name,Knowledge System,Asset Type,Status,Owner,Completion %,Parent Assets,Child Assets,Relationship List,Evidence Links,Report Links,Marketplace Links,Last Review,Next Review,Notes
+CERT-PKS-000001,Retatrutide,PKS,Peptide Knowledge Asset,In Production,Aidan Coleman,,,,,,,,2026-07-14,,Prior completion percentages are draft estimates only.
+CERT-BKS-000001,GLP-1,BKS,Biology Knowledge Object,Preserved,Aidan Coleman,,,,,,,,2026-07-14,,
+CERT-BKS-000002,GIP,BKS,Biology Knowledge Object,Preserved,Aidan Coleman,,,,,,,,2026-07-14,,
+CERT-BKS-000003,Glucagon,BKS,Biology Knowledge Object,Preserved,Aidan Coleman,,,,,,,,2026-07-14,,
+CERT-BKS-000010,GLP-1 Receptor,BKS,Biology Knowledge Object,Skeleton,Aidan Coleman,,,,,,,,2026-07-14,,
+CERT-BKS-000011,GIP Receptor,BKS,Biology Knowledge Object,Skeleton,Aidan Coleman,,,,,,,,2026-07-14,,
+CERT-BKS-000012,Glucagon Receptor,BKS,Biology Knowledge Object,Skeleton,Aidan Coleman,,,,,,,,2026-07-14,,
+CERT-BKS-000020,Insulin Secretion,BKS,Biology Knowledge Object,Skeleton,Aidan Coleman,,,,,,,,2026-07-14,,
+CERT-BKS-000021,Satiety,BKS,Biology Knowledge Object,Skeleton,Aidan Coleman,,,,,,,,2026-07-14,,
+CERT-BKS-000022,Gastric Emptying,BKS,Biology Knowledge Object,Skeleton,Aidan Coleman,,,,,,,,2026-07-14,,
+CERT-BKS-000023,Energy Homeostasis,BKS,Biology Knowledge Object,Skeleton,Aidan Coleman,,,,,,,,2026-07-14,,
+CERT-CKS-000001,Obesity,CKS,Condition Knowledge Object,Preserved,Aidan Coleman,,,,,,,,2026-07-14,,
+CERT-CKS-000002,Type 2 Diabetes Mellitus,CKS,Condition Knowledge Object,Skeleton,Aidan Coleman,,,,,,,,2026-07-14,,
+CERT-CKS-000003,Metabolic Syndrome,CKS,Condition Knowledge Object,Skeleton,Aidan Coleman,,,,,,,,2026-07-14,,
+CERT-MKS-000001,HbA1c,MKS,Monitoring Knowledge Object,Preserved,Aidan Coleman,,,,,,,,2026-07-14,,
+CERT-MKS-000002,Fasting Plasma Glucose,MKS,Monitoring Knowledge Object,Skeleton,Aidan Coleman,,,,,,,,2026-07-14,,
+CERT-MKS-000003,Body Weight,MKS,Monitoring Knowledge Object,Skeleton,Aidan Coleman,,,,,,,,2026-07-14,,
+CERT-MKS-000004,Fasting Insulin,MKS,Monitoring Knowledge Object,Skeleton,Aidan Coleman,,,,,,,,2026-07-14,,
+CERT-MKS-000005,HOMA-IR,MKS,Monitoring Knowledge Object,Skeleton,Aidan Coleman,,,,,,,,2026-07-14,,
+CERT-GKS-000001,Weight Management,GKS,Goal Knowledge Object,Preserved,Aidan Coleman,,,,,,,,2026-07-14,,
+CERT-GKS-000002,Metabolic Health,GKS,Goal Knowledge Object,Skeleton,Aidan Coleman,,,,,,,,2026-07-14,,
+CERT-GKS-000003,Fat Loss,GKS,Goal Knowledge Object,Skeleton,Aidan Coleman,,,,,,,,2026-07-14,,
+CERT-EKS-000001,Evidence Object Specification,EKS,Evidence System Asset,Preserved,Aidan Coleman,,,,,,,,2026-07-14,,
+CERT-EKS-000002,RCT Evidence Template,EKS,Evidence Template,Skeleton,Aidan Coleman,,,,,,,,2026-07-14,,
+CERT-EKS-000003,Meta-analysis Evidence Template,EKS,Evidence Template,Skeleton,Aidan Coleman,,,,,,,,2026-07-14,,
+CERT-EKS-000004,Guideline Evidence Template,EKS,Evidence Template,Skeleton,Aidan Coleman,,,,,,,,2026-07-14,,
+CERT-EKS-000005,Safety Signal Object,EKS,Evidence System Asset,Skeleton,Aidan Coleman,,,,,,,,2026-07-14,,
+CERT-EKS-000006,Evidence Relationship Engine,EKS,Evidence System Asset,Skeleton,Aidan Coleman,,,,,,,,2026-07-14,,
