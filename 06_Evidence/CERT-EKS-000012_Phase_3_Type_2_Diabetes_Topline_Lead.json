@@ -1,0 +1,48 @@
+{
+  "asset_id": "CERT-EKS-000012",
+  "asset_name": "Retatrutide Phase 3 Type 2 Diabetes Topline Evidence Lead",
+  "version": "0.5.0",
+  "status": "Tier C evidence lead; primary source pending",
+  "evidence_tier": "C",
+  "source": {
+    "type": "credible secondary report",
+    "publisher": "Reuters",
+    "date": "2026-03-19",
+    "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/lillys-next-gen-obesity-drug-shows-reduction-blood-sugar-levels-trial-2026-03-19/"
+  },
+  "reported_trial_characteristics": {
+    "duration_weeks": 40,
+    "population": "People with type 2 diabetes inadequately controlled with diet and exercise alone"
+  },
+  "reported_results": {
+    "a1c_reduction_across_doses_percent_range": "1.7 to 2.0",
+    "placebo_a1c_reduction_percent": 0.8,
+    "weight_loss_up_to_percent_including_intercurrent_events": 15.3,
+    "highest_dose_nausea_percent": 26.5,
+    "highest_dose_diarrhea_percent": 22.8,
+    "highest_dose_vomiting_percent": 17.6
+  },
+  "verification_rule": "Do not promote to Tier A or B until the underlying sponsor release, registry result or peer-reviewed publication is captured.",
+  "relationships": [
+    {
+      "source": "CERT-PKS-000001",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000012"
+    },
+    {
+      "source": "CERT-EKS-000012",
+      "relationship": "HAS_CONDITION",
+      "target": "CERT-CKS-000002"
+    },
+    {
+      "source": "CERT-EKS-000012",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000001"
+    },
+    {
+      "source": "CERT-EKS-000012",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000003"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+Evidence ID,Source,Date,Tier,URL,Primary Source Captured,Status
+CERT-EKS-000010,Lancet Diabetes & Endocrinology publication identified,2025,A,,No direct page,Quantitative extraction pending
+CERT-EKS-000011,Eli Lilly and Company press release via PR Newswire,2026-05-21,B,https://www.prnewswire.com/news-releases/lillys-triple-agonist-retatrutide-delivered-powerful-weight-loss-in-pivotal-phase-3-obesity-trial-302778859.html,Yes,Topline captured
+CERT-EKS-000012,Reuters report,2026-03-19,C,https://www.reuters.com/business/healthcare-pharmaceuticals/lillys-next-gen-obesity-drug-shows-reduction-blood-sugar-levels-trial-2026-03-19/,No,Primary source pending
+CERT-EKS-000013,Reuters report,2025-12-11,C,https://www.reuters.com/business/healthcare-pharmaceuticals/lillys-next-gen-drug-tops-zepbound-weight-loss-late-stage-osteoarthritis-trial-2025-12-11/,No,Primary source pending
+CERT-EKS-000014,Reuters Health Rounds report,2024-09-06,C,https://www.reuters.com/business/healthcare-pharmaceuticals/health-rounds-next-generation-lilly-weight-loss-drug-shows-added-heart-liver-2024-09-06/,No,Primary source pending

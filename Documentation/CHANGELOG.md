@@ -1,42 +1,39 @@
 # CERTIAURA CHANGE LOG
 
-## Build 0003 — Retatrutide Evidence Layer
+## Build 0004 — Retatrutide Evidence Expansion
 **Date:** 2026-07-14
 
 Added:
-
-- `CERT-EKS-000007` — Retatrutide Discovery to Clinical Proof of Concept.
-- `CERT-EKS-000008` — Retatrutide Phase 2 Obesity Trial.
-- `CERT-EKS-000009` — Retatrutide Phase 2 Type 2 Diabetes Trial.
-- Markdown and JSON twins for each new Evidence Object.
-- Retatrutide Evidence Index.
-- Retatrutide Evidence Map CSV.
+- Evidence Status Tier Standard.
+- CERT-EKS-000010 Body Composition Substudy.
+- CERT-EKS-000011 TRIUMPH-1 Phase 3 Obesity Topline.
+- CERT-EKS-000012 Phase 3 Type 2 Diabetes Evidence Lead.
+- CERT-EKS-000013 TRIUMPH-4 Evidence Lead.
+- CERT-EKS-000014 Liver-Fat / MASLD Evidence Lead.
+- Retatrutide Safety Evidence Matrix.
+- Retatrutide Monitoring Evidence Matrix.
+- Updated Evidence Index.
+- Updated Evidence Status Register.
+- Updated Evidence Map.
 - Updated Master Asset Register.
 - Updated Production Dashboard.
+- Updated Preservation Gap Register.
 
-Evidence principles applied:
+Evidence-governance improvement:
+- Introduced explicit Tier A / B / C source-status separation.
+- Prevented lower-tier leads from being silently treated as peer-reviewed evidence.
 
-- Primary-source-first capture.
-- Persistent identifiers recorded.
-- Study design and population recorded.
-- Key outcomes separated from interpretation.
-- Limitations and sponsor context recorded.
-- No blanket scientific-completeness claim.
+## Build 0003 — Retatrutide Evidence Layer
+- Added first three study-level Evidence Objects.
 
 ## Build 0002 — Preservation & Migration Baseline
-**Date:** 2026-07-14
-
-- Preserved known formal asset IDs.
-- Added missing skeleton assets.
-- Added commercial requirement references.
-- Added Preservation Gap Register.
-- Updated project baselines.
+- Preserved project IP and known asset identities.
 
 ## Project Genesis v1.2
-- Commit & Push implemented and proven.
+- Commit & Push operational.
 
 ## Project Genesis v1.1
-- Build Pack Import implemented and proven.
+- Build Pack Import operational.
 
 ## Build 0001
-- Initial repository scaffold and core asset baseline.
+- Initial repository scaffold.

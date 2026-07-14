@@ -1,0 +1,9 @@
+Evidence ID,Title,Tier,Status,Primary Source Captured,Next Action
+CERT-EKS-000007,Discovery to Clinical Proof of Concept,A,Captured,Yes,Maintain
+CERT-EKS-000008,Phase 2 Obesity Trial,A,Captured,Yes / certification review remains open,Formal line-by-line certification
+CERT-EKS-000009,Phase 2 Type 2 Diabetes Trial,A,Captured,Yes,Maintain
+CERT-EKS-000010,Body Composition Substudy,A,Publication identified,No direct page,Capture DOI/full primary publication
+CERT-EKS-000011,TRIUMPH-1 Phase 3 Obesity Topline,B,Sponsor topline captured,Yes,Replace/augment with peer-reviewed publication
+CERT-EKS-000012,Phase 3 Type 2 Diabetes Topline,C,Evidence lead,No,Capture sponsor/registry/publication
+CERT-EKS-000013,TRIUMPH-4 Obesity + Knee OA,C,Evidence lead,No,Capture sponsor/registry/publication
+CERT-EKS-000014,Liver-Fat / MASLD Substudy,C,Evidence lead,No,Capture abstract/publication

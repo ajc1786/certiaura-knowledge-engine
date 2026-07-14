@@ -1,0 +1,30 @@
+{
+  "asset_id": "CERT-EKS-000014",
+  "asset_name": "Retatrutide Liver-Fat and MASLD Substudy Evidence Lead",
+  "version": "0.4.0",
+  "status": "Tier C evidence lead; primary publication or conference source pending",
+  "evidence_tier": "C",
+  "source": {
+    "publisher": "Reuters",
+    "date": "2024-09-06",
+    "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/health-rounds-next-generation-lilly-weight-loss-drug-shows-added-heart-liver-2024-09-06/"
+  },
+  "reported_findings": [
+    "Substantial liver-fat improvement was reported in participants with obesity.",
+    "Additional cardiometabolic biomarker improvements were reported.",
+    "The primary conference abstract or peer-reviewed substudy publication still requires direct capture."
+  ],
+  "verification_rule": "No precise liver-fat normalisation percentage is promoted into the canonical evidence layer until the primary source is directly captured.",
+  "relationships": [
+    {
+      "source": "CERT-PKS-000001",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000014"
+    },
+    {
+      "source": "CERT-EKS-000014",
+      "relationship": "RELATED_TO",
+      "target": "CERT-CKS-000003"
+    }
+  ]
+}

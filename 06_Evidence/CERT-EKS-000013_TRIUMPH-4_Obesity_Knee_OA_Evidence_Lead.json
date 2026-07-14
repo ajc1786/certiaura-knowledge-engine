@@ -1,0 +1,39 @@
+{
+  "asset_id": "CERT-EKS-000013",
+  "asset_name": "TRIUMPH-4 Phase 3 Obesity and Knee Osteoarthritis Evidence Lead",
+  "version": "0.5.0",
+  "status": "Tier C evidence lead; primary source pending",
+  "evidence_tier": "C",
+  "source": {
+    "publisher": "Reuters",
+    "date": "2025-12-11",
+    "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/lillys-next-gen-drug-tops-zepbound-weight-loss-late-stage-osteoarthritis-trial-2025-12-11/"
+  },
+  "reported_results": {
+    "highest_dose_mean_weight_loss_percent": 28.7,
+    "highest_dose_mean_weight_loss_lb": 71.2,
+    "duration_weeks": 68,
+    "highest_dose_discontinuation_due_to_adverse_events_percent": 18.2,
+    "placebo_discontinuation_percent": 4.0,
+    "highest_dose_dysesthesia_percent": 20.9,
+    "knee_pain_result": "Substantial reduction reported; full primary result capture pending"
+  },
+  "verification_rule": "Retain as evidence lead until sponsor primary release, registry results or full publication is captured.",
+  "relationships": [
+    {
+      "source": "CERT-PKS-000001",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000013"
+    },
+    {
+      "source": "CERT-EKS-000013",
+      "relationship": "HAS_CONDITION",
+      "target": "CERT-CKS-000001"
+    },
+    {
+      "source": "CERT-EKS-000013",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000003"
+    }
+  ]
+}

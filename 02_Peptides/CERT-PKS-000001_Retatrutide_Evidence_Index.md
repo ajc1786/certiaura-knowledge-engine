@@ -1,35 +1,36 @@
 # CERT-PKS-000001 — RETATRUTIDE EVIDENCE INDEX
 
-**Version:** 1.0.0  
-**Date:** 2026-07-14  
-**Status:** Active evidence index
+## Current Evidence Objects
 
-## Current study-level Evidence Objects
-
-| Evidence ID | Study | Stage | Core contribution |
+| Evidence ID | Evidence | Tier | Status |
 |---|---|---|---|
-| CERT-EKS-000007 | Coskun et al., Cell Metabolism 2022 | Preclinical + Phase 1 | Receptor pharmacology, mechanism, pharmacokinetic rationale and early proof of concept |
-| CERT-EKS-000008 | Jastreboff et al., NEJM 2023 | Phase 2 obesity | Dose-ranging weight-loss efficacy and safety in adults without diabetes |
-| CERT-EKS-000009 | Rosenstock et al., Lancet 2023 | Phase 2 type 2 diabetes | Glycaemic efficacy, weight outcomes and safety in type 2 diabetes |
+| CERT-EKS-000007 | Discovery to clinical proof of concept | A | Captured |
+| CERT-EKS-000008 | Phase 2 obesity trial | A | Captured |
+| CERT-EKS-000009 | Phase 2 type 2 diabetes trial | A | Captured |
+| CERT-EKS-000010 | Body composition substudy | A | Publication identified; quantitative extraction pending |
+| CERT-EKS-000011 | TRIUMPH-1 phase 3 obesity topline | B | Primary sponsor topline captured |
+| CERT-EKS-000012 | Phase 3 type 2 diabetes topline | C | Evidence lead; primary source pending |
+| CERT-EKS-000013 | TRIUMPH-4 obesity + knee OA | C | Evidence lead; primary source pending |
+| CERT-EKS-000014 | Liver-fat / MASLD substudy | C | Evidence lead; primary source pending |
 
-## Current evidence relationships
+## Evidence maturity
 
-- `CERT-PKS-000001 HAS_EVIDENCE CERT-EKS-000007`
-- `CERT-PKS-000001 HAS_EVIDENCE CERT-EKS-000008`
-- `CERT-PKS-000001 HAS_EVIDENCE CERT-EKS-000009`
+Retatrutide now has:
 
-## Evidence maturity statement
+- Mechanistic / phase 1 evidence
+- Phase 2 obesity evidence
+- Phase 2 type 2 diabetes evidence
+- Identified body-composition publication
+- Phase 3 obesity sponsor topline evidence
+- Late-stage type 2 diabetes evidence lead
+- Late-stage obesity + knee osteoarthritis evidence lead
+- Liver-fat / MASLD evidence lead
 
-This index establishes a genuine primary-evidence layer.
+## Remaining priorities
 
-It does **not** mean the Retatrutide Platinum Knowledge Asset is scientifically complete.
-
-Further evidence still needs structured capture, including:
-
-- Additional phase 1 multiple-dose evidence
-- Liver-fat / MASLD evidence
-- Body-composition evidence
-- Phase 3 trial publications and primary trial reports
-- Longer-term safety evidence
-- Regulatory assessments if and when available
-- Independent replication and post-approval evidence if and when applicable
+1. Capture primary body-composition publication directly.
+2. Capture primary late-stage type 2 diabetes source.
+3. Capture primary TRIUMPH-4 source.
+4. Capture primary liver-fat / MASLD source.
+5. Replace Tier B topline evidence with full peer-reviewed publication when available.
+6. Expand long-term safety evidence.

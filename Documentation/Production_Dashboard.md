@@ -1,52 +1,37 @@
 # CERTIAURA PRODUCTION DASHBOARD
 
-**Build:** 0003  
+**Build:** 0004  
 **Date:** 2026-07-14
 
 ## Operating allocation
-
 - Production: 80%
 - Platform improvement: 15%
 - Innovation / future opportunities: 5%
 
-## Repository and automation
-
-- GitHub canonical repository: Operational
-- GitHub Actions validation: Passing
-- Project Genesis v1.2 Build Pack Import + Commit & Push: Operational
-- Build 0002 preservation baseline: Complete
-- Build 0003 Retatrutide evidence layer: Ready for import
-
-## Known formal asset IDs after Build 0003
-
-**Total:** 31
-
-## Retatrutide evidence layer
-
-| Evidence ID | Status |
-|---|---|
-| CERT-EKS-000007 | Evidence Captured |
-| CERT-EKS-000008 | Evidence Captured; full-text certification review still required |
-| CERT-EKS-000009 | Evidence Captured |
-
 ## Current flagship
-
 `CERT-PKS-000001 — Retatrutide`
 
-### Evidence maturity
+## Evidence Objects
+**Total formal Retatrutide study/evidence objects:** 8
 
-The flagship now has a structured primary-evidence foundation.
+| Tier | Count | Meaning |
+|---|---:|---|
+| A | 4 | Peer-reviewed primary evidence / publication identified |
+| B | 1 | Primary sponsor topline |
+| C | 3 | Evidence leads pending primary-source capture |
 
-It is **not yet Platinum-certified** and should not be represented as scientifically complete.
+## Build 0004 outputs
+- 5 new Evidence Objects
+- Safety Evidence Matrix
+- Monitoring Evidence Matrix
+- Evidence Status Tier Standard
+- Updated Evidence Index
+- Updated Evidence Map
+- Updated Asset Register
 
 ## Immediate production queue
-
-1. Commit and validate Build 0003.
-2. Capture additional Retatrutide evidence:
-   - phase 1 multiple-dose evidence;
-   - MASLD / liver-fat evidence;
-   - body-composition evidence;
-   - phase 3 primary publications / official trial reports.
-3. Build the Retatrutide safety evidence matrix.
-4. Build the Retatrutide monitoring evidence matrix.
-5. Recalculate completeness only after evidence criteria are formally satisfied.
+1. Capture missing primary sources for Tier C objects.
+2. Directly capture and quantitatively extract the body-composition publication.
+3. Expand Retatrutide safety into structured Safety Knowledge Objects where justified.
+4. Allocate new Monitoring Knowledge Object IDs only through the established asset-control process.
+5. Replace topline evidence with peer-reviewed primary publications when available.

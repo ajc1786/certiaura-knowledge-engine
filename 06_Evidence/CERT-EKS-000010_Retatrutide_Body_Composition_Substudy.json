@@ -1,0 +1,46 @@
+{
+  "asset_id": "CERT-EKS-000010",
+  "asset_name": "Retatrutide Body Composition Substudy",
+  "version": "0.5.0",
+  "status": "Tier A publication identified; quantitative extraction pending",
+  "evidence_tier": "A",
+  "study": {
+    "title": "Effects of retatrutide on body composition in people with type 2 diabetes: a substudy of a phase 2, double-blind, parallel-group, placebo-controlled, randomised trial",
+    "authors": [
+      "T. Coskun",
+      "Q. Wu",
+      "N. C. Schloot",
+      "A. Haupt",
+      "Z. Milicevic",
+      "C. Khouli",
+      "C. Harris"
+    ],
+    "journal": "The Lancet Diabetes & Endocrinology",
+    "year": 2025,
+    "doi": null,
+    "parent_trial_relationship": "Substudy of the phase 2 type 2 diabetes programme represented by CERT-EKS-000009"
+  },
+  "verification": {
+    "publication_identity": "identified",
+    "direct_primary_page_captured": false,
+    "quantitative_extraction": "pending",
+    "rule": "Do not infer or import detailed effect sizes until the primary publication is directly captured."
+  },
+  "relationships": [
+    {
+      "source": "CERT-PKS-000001",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000010"
+    },
+    {
+      "source": "CERT-EKS-000010",
+      "relationship": "RELATED_TO",
+      "target": "CERT-EKS-000009"
+    },
+    {
+      "source": "CERT-EKS-000010",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000003"
+    }
+  ]
+}

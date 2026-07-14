@@ -1,0 +1,73 @@
+{
+  "asset_id": "CERT-EKS-000011",
+  "asset_name": "TRIUMPH-1 Phase 3 Obesity Topline Results",
+  "version": "1.0.0",
+  "status": "Tier B primary sponsor topline evidence",
+  "evidence_tier": "B",
+  "source": {
+    "issuer": "Eli Lilly and Company",
+    "date": "2026-05-21",
+    "url": "https://www.prnewswire.com/news-releases/lillys-triple-agonist-retatrutide-delivered-powerful-weight-loss-in-pivotal-phase-3-obesity-trial-302778859.html",
+    "peer_reviewed": false
+  },
+  "study": {
+    "name": "TRIUMPH-1",
+    "phase": 3,
+    "population": "Adults with obesity or overweight and at least one weight-related comorbidity, without diabetes",
+    "participants": 2339,
+    "main_duration_weeks": 80,
+    "extension_duration_weeks": 104,
+    "doses_mg": [
+      4,
+      9,
+      12
+    ]
+  },
+  "efficacy_estimand_week_80": {
+    "4_mg_weight_change_percent": -19.0,
+    "9_mg_weight_change_percent": -25.9,
+    "12_mg_weight_change_percent": -28.3,
+    "placebo_weight_change_percent": -2.2,
+    "12_mg_at_least_30_percent_weight_loss_percent": 45.3,
+    "12_mg_at_least_35_percent_weight_loss_percent": 27.2,
+    "12_mg_bmi_below_30_percent": 65.3
+  },
+  "extension_week_104": {
+    "population_note": "Prespecified blinded extension in participants with baseline BMI >=35 who completed the main study and tolerated assigned medication",
+    "participants": 532,
+    "4_mg_to_mtd_weight_change_percent": -27.9,
+    "9_mg_to_mtd_weight_change_percent": -29.5,
+    "12_mg_to_mtd_weight_change_percent": -30.3
+  },
+  "limitations": [
+    "Topline sponsor-issued results; not yet treated as peer-reviewed primary publication.",
+    "Full protocol, statistical analysis details and complete adverse-event tables should be captured from a primary publication or regulatory review when available."
+  ],
+  "relationships": [
+    {
+      "source": "CERT-PKS-000001",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000011"
+    },
+    {
+      "source": "CERT-EKS-000011",
+      "relationship": "HAS_CONDITION",
+      "target": "CERT-CKS-000001"
+    },
+    {
+      "source": "CERT-EKS-000011",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000003"
+    },
+    {
+      "source": "CERT-EKS-000011",
+      "relationship": "SUPPORTS_GOAL",
+      "target": "CERT-GKS-000001"
+    },
+    {
+      "source": "CERT-EKS-000011",
+      "relationship": "SUPPORTS_GOAL",
+      "target": "CERT-GKS-000003"
+    }
+  ]
+}

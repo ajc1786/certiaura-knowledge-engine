@@ -1,5 +1,5 @@
 Universal Asset Identifier,Asset Name,Knowledge System,Asset Type,Status,Owner,Completion %,Parent Assets,Child Assets,Relationship List,Evidence Links,Report Links,Marketplace Links,Last Review,Next Review,Notes
-CERT-PKS-000001,Retatrutide,PKS,Peptide Knowledge Asset,In Production,Aidan Coleman,,,,,CERT-EKS-000007; CERT-EKS-000008; CERT-EKS-000009,,,2026-07-14,,Prior chat completion percentages remain draft estimates.
+CERT-PKS-000001,Retatrutide,PKS,Peptide Knowledge Asset,In Production,Aidan Coleman,,,,,CERT-EKS-000007; CERT-EKS-000008; CERT-EKS-000009; CERT-EKS-000010; CERT-EKS-000011; CERT-EKS-000012; CERT-EKS-000013; CERT-EKS-000014,,,2026-07-14,,
 CERT-BKS-000001,GLP-1,BKS,Biology Knowledge Object,Preserved,Aidan Coleman,,,,,,,,2026-07-14,,
 CERT-BKS-000002,GIP,BKS,Biology Knowledge Object,Preserved,Aidan Coleman,,,,,,,,2026-07-14,,
 CERT-BKS-000003,Glucagon,BKS,Biology Knowledge Object,Preserved,Aidan Coleman,,,,,,,,2026-07-14,,
@@ -27,6 +27,11 @@ CERT-EKS-000003,Meta-analysis Evidence Template,EKS,Evidence Template,Skeleton,A
 CERT-EKS-000004,Guideline Evidence Template,EKS,Evidence Template,Skeleton,Aidan Coleman,,,,,,,,2026-07-14,,
 CERT-EKS-000005,Safety Signal Object,EKS,Evidence System Asset,Skeleton,Aidan Coleman,,,,,,,,2026-07-14,,
 CERT-EKS-000006,Evidence Relationship Engine,EKS,Evidence System Asset,Skeleton,Aidan Coleman,,,,,,,,2026-07-14,,
-CERT-EKS-000007,Retatrutide Discovery to Clinical Proof of Concept,EKS,Evidence Object,Evidence Captured,Aidan Coleman,,CERT-PKS-000001,,,,,,2026-07-14,,
-CERT-EKS-000008,Retatrutide Phase 2 Obesity Trial,EKS,Evidence Object,Evidence Captured,Aidan Coleman,,CERT-PKS-000001,,,,,,2026-07-14,,
-CERT-EKS-000009,Retatrutide Phase 2 Type 2 Diabetes Trial,EKS,Evidence Object,Evidence Captured,Aidan Coleman,,CERT-PKS-000001,,,,,,2026-07-14,,
+CERT-EKS-000007,Retatrutide Discovery to Clinical Proof of Concept,EKS,Evidence Object,Evidence Captured,Aidan Coleman,,,,,,,,2026-07-14,,
+CERT-EKS-000008,Retatrutide Phase 2 Obesity Trial,EKS,Evidence Object,Evidence Captured,Aidan Coleman,,,,,,,,2026-07-14,,
+CERT-EKS-000009,Retatrutide Phase 2 Type 2 Diabetes Trial,EKS,Evidence Object,Evidence Captured,Aidan Coleman,,,,,,,,2026-07-14,,
+CERT-EKS-000010,Retatrutide Body Composition Substudy,EKS,Evidence Object,Publication Identified,Aidan Coleman,,CERT-PKS-000001,,,,,,2026-07-14,,
+CERT-EKS-000011,TRIUMPH-1 Phase 3 Obesity Topline Results,EKS,Evidence Object,Tier B Topline Captured,Aidan Coleman,,CERT-PKS-000001,,,,,,2026-07-14,,
+CERT-EKS-000012,Phase 3 Type 2 Diabetes Topline Evidence Lead,EKS,Evidence Object,Tier C Lead,Aidan Coleman,,CERT-PKS-000001,,,,,,2026-07-14,,
+CERT-EKS-000013,TRIUMPH-4 Obesity + Knee OA Evidence Lead,EKS,Evidence Object,Tier C Lead,Aidan Coleman,,CERT-PKS-000001,,,,,,2026-07-14,,
+CERT-EKS-000014,Liver-Fat / MASLD Substudy Evidence Lead,EKS,Evidence Object,Tier C Lead,Aidan Coleman,,CERT-PKS-000001,,,,,,2026-07-14,,
