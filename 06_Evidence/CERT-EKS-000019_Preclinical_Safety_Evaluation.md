@@ -1,39 +1,44 @@
 # CERT-EKS-000019 — BPC-157 Preclinical Safety Evaluation
 
-**Version:** 0.5.0  
-**Status:** PRIMARY PUBLICATION IDENTIFIED — DIRECT EXTRACTION PENDING  
-**Evidence level:** Preclinical safety  
+**Version:** 0.6.0  
+**Status:** PRIMARY PUBLICATION IDENTIFIED — DIRECT EXTRACTION BLOCKED  
+**Evidence level:** Preclinical toxicology  
 **Last Review:** 2026-07-14
 
-## Publication identity
+## Primary source
 
-**Title:** Preclinical safety evaluation of body protective compound-157, a potential drug for treating various wounds  
+**Title:** Preclinical safety evaluation of body protective compound-157, a potential drug for treating various wounds
+
 **Journal:** Regulatory Toxicology and Pharmacology  
-**Year:** 2020
+**Volume:** 114  
+**Article:** 104665  
+**DOI:** `10.1016/j.yrtph.2020.104665`
 
-## Domain
+## Build 0010 status
 
-Preclinical toxicology
+The primary identifier is now confirmed.
 
-## Model / study type
+Direct full quantitative extraction was not completed.
 
-Preclinical safety programme
+## Interpretation
 
-## Evidence summary
+This study can support a **preclinical toxicology evidence domain**.
 
-A dedicated preclinical safety publication has been identified. It cannot substitute for adequately powered long-term human safety evidence.
+It cannot establish:
 
-## Limitations
+- long-term human safety;
+- safety of grey-market products;
+- safety of a specific human dose or route;
+- safety in people with specific diseases or medicines.
 
-- Animal toxicology is not equivalent to human clinical safety.
-- Full protocol, dose margins and detailed findings require direct primary extraction.
+## Required next action
 
-## Relationship
+Obtain direct primary full text and extract:
 
-`CERT-PKS-000002 HAS_EVIDENCE CERT-EKS-000019`
-
-## Integrity rule
-
-This Evidence Object records the current source and evidence status.
-
-It must not be silently upgraded beyond the underlying evidence design.
+- species;
+- study duration;
+- dose levels;
+- NOAEL / toxicity findings where reported;
+- pathology;
+- reproductive / genotoxicity scope if applicable;
+- limitations.

@@ -1,0 +1,50 @@
+{
+  "asset_id": "CERT-EKS-000024",
+  "asset_name": "BPC-157 VEGFR2-Linked Pro-Angiogenic Mechanistic Evidence",
+  "knowledge_system": "EKS",
+  "asset_type": "Evidence Object",
+  "version": "1.0.0",
+  "status": "PRIMARY ABSTRACT DIRECTLY EXTRACTED — FULL TEXT PARTIALLY ACCESS-RESTRICTED",
+  "owner": "Aidan Coleman",
+  "last_review": "2026-07-14",
+  "primary_source": {
+    "title": "Therapeutic potential of pro-angiogenic BPC157 is associated with VEGFR2 activation and up-regulation",
+    "journal": "Journal of Molecular Medicine",
+    "published": "2016-11-15",
+    "issue_year": 2017,
+    "volume": 95,
+    "pages": "323-333",
+    "doi": "10.1007/s00109-016-1488-y",
+    "url": "https://link.springer.com/article/10.1007/s00109-016-1488-y"
+  },
+  "models": [
+    "Chick chorioallantoic membrane assay",
+    "Endothelial tube formation assay",
+    "Rat hind-limb ischemia model",
+    "Human vascular endothelial cell experiments"
+  ],
+  "key_findings": [
+    "The abstract reports increased vessel density in CAM and endothelial tube-formation assays.",
+    "The abstract reports accelerated blood-flow recovery and increased vessel number in the rat hind-limb ischemia model.",
+    "BPC-157 increased VEGFR2 mRNA and protein expression in human vascular endothelial cells in vitro, but not VEGF-A.",
+    "The study reports VEGFR2 internalization and activation of the VEGFR2-Akt-eNOS pathway."
+  ],
+  "limitations": [
+    "No human clinical efficacy study.",
+    "Human cells in vitro are not equivalent to treatment of humans.",
+    "Full article content was subscription-restricted during Build 0010.",
+    "Pro-angiogenic signalling is a mechanistic finding and does not prove either clinical benefit or causal cancer risk."
+  ],
+  "relationships": [
+    {
+      "source": "CERT-PKS-000002",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000024"
+    },
+    {
+      "source": "CERT-EKS-000024",
+      "relationship": "RELATED_TO",
+      "target": "CERT-SKS-000007"
+    }
+  ]
+}

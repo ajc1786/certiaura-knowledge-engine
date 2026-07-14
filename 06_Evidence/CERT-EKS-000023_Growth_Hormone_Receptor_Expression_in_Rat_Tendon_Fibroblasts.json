@@ -1,0 +1,55 @@
+{
+  "asset_id": "CERT-EKS-000023",
+  "asset_name": "BPC-157 Growth Hormone Receptor Expression in Rat Tendon Fibroblasts",
+  "knowledge_system": "EKS",
+  "asset_type": "Evidence Object",
+  "version": "1.0.0",
+  "status": "PRIMARY SOURCE DIRECTLY EXTRACTED",
+  "owner": "Aidan Coleman",
+  "last_review": "2026-07-14",
+  "primary_source": {
+    "title": "Pentadecapeptide BPC 157 Enhances the Growth Hormone Receptor Expression in Tendon Fibroblasts",
+    "journal": "Molecules",
+    "date": "2014-11-19",
+    "doi": "10.3390/molecules191119066",
+    "url": "https://www.mdpi.com/1420-3049/19/11/19066"
+  },
+  "model": "Primary rat Achilles tendon fibroblast culture",
+  "intervention": {
+    "bpc157_concentrations_ug_per_ml": [
+      0,
+      0.1,
+      0.25,
+      0.5
+    ],
+    "duration_days": [
+      1,
+      2,
+      3
+    ]
+  },
+  "key_findings": [
+    "Growth hormone receptor expression increased in a dose- and time-dependent pattern at mRNA and protein levels.",
+    "The paper reported up to approximately sevenfold increase in growth hormone receptor expression by day 3 in the described experimental system.",
+    "Growth hormone added after BPC-157 pretreatment increased viable cell number and PCNA expression.",
+    "Growth hormone stimulation increased phosphorylated JAK2 in BPC-157-pretreated tendon fibroblasts."
+  ],
+  "limitations": [
+    "In-vitro rat tendon fibroblast model.",
+    "No human participants.",
+    "Mechanistic findings do not establish clinical tendon-healing efficacy.",
+    "The experimental system cannot reproduce the full multicellular environment of an injured tendon."
+  ],
+  "relationships": [
+    {
+      "source": "CERT-PKS-000002",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000023"
+    },
+    {
+      "source": "CERT-EKS-000023",
+      "relationship": "RELATED_TO",
+      "target": "CERT-EKS-000016"
+    }
+  ]
+}

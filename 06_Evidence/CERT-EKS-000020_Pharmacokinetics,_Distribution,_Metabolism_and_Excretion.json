@@ -3,22 +3,92 @@
   "asset_name": "BPC-157 Pharmacokinetics, Distribution, Metabolism and Excretion",
   "knowledge_system": "EKS",
   "asset_type": "Evidence Object",
-  "version": "0.5.0",
-  "status": "PRIMARY PUBLICATION IDENTIFIED — DIRECT EXTRACTION PENDING",
+  "version": "1.0.0",
+  "status": "PRIMARY SOURCE DIRECTLY EXTRACTED",
   "owner": "Aidan Coleman",
   "last_review": "2026-07-14",
-  "study": {
-    "publication_title": "Pharmacokinetics, distribution, metabolism, and excretion of body-protective compound 157, a potential drug for treating various wounds, in rats and dogs",
+  "primary_source": {
+    "title": "Pharmacokinetics, distribution, metabolism, and excretion of body-protective compound 157, a potential drug for treating various wounds, in rats and dogs",
     "journal": "Frontiers in Pharmacology",
-    "year": 2022,
-    "domain": "PK / ADME",
-    "model": "Rats and dogs",
-    "evidence_level": "Preclinical pharmacology"
+    "date": "2022-12-14",
+    "doi": "10.3389/fphar.2022.1026182",
+    "url": "https://www.frontiersin.org/journals/pharmacology/articles/10.3389/fphar.2022.1026182/full"
   },
-  "evidence_summary": "The publication identity supports a preclinical PK/ADME evidence domain in rats and dogs.",
+  "study_type": "Preclinical pharmacokinetic / ADME study",
+  "species": [
+    "Sprague-Dawley rats",
+    "Beagle dogs"
+  ],
+  "rat_pk": {
+    "iv_dose_ug_per_kg": 20,
+    "iv_half_life_min": 15.2,
+    "im_doses_ug_per_kg": [
+      20,
+      100,
+      500
+    ],
+    "im_tmax_min": [
+      3.0,
+      3.0,
+      3.0
+    ],
+    "im_cmax_ng_per_ml": [
+      12.3,
+      48.9,
+      141.0
+    ],
+    "im_half_life_min": [
+      7.87,
+      17.1,
+      29.7
+    ],
+    "im_absolute_bioavailability_percent": [
+      18.82,
+      14.49,
+      19.35
+    ]
+  },
+  "dog_pk": {
+    "iv_dose_ug_per_kg": 6,
+    "iv_half_life_min": 5.27,
+    "im_doses_ug_per_kg": [
+      6,
+      30,
+      150
+    ],
+    "im_tmax_min": [
+      6.33,
+      8.67,
+      8.17
+    ],
+    "im_cmax_ng_per_ml": [
+      1.05,
+      3.3,
+      26.1
+    ],
+    "im_absolute_bioavailability_percent": [
+      45.27,
+      47.64,
+      50.56
+    ]
+  },
+  "additional_findings": [
+    "Prototype BPC-157 was not detectable four hours after administration in the reported rat and dog experiments.",
+    "The reported elimination half-life of prototype BPC-157 was less than 30 minutes across the studied animal conditions.",
+    "Urine and bile were reported as major excretory pathways in radiolabel studies.",
+    "BPC-157 was rapidly metabolized into smaller peptide fragments and amino acids."
+  ],
+  "critical_translation_limit": "This is animal pharmacokinetic evidence. The authors' proposed clinical-dose assumption and body-surface-area conversions do not constitute a validated human dosing protocol.",
+  "funding": [
+    "National Natural Science Foundation of China",
+    "Natural Science Foundation of Shaanxi",
+    "Key Research and Development Program of Shaanxi Province"
+  ],
+  "conflict_of_interest": "Authors declared no commercial or financial relationships that could be construed as a potential conflict of interest.",
   "limitations": [
-    "Animal pharmacokinetics must not be converted into a validated human dosing schedule.",
-    "Route-specific and quantitative PK extraction remains pending."
+    "No human pharmacokinetic participants.",
+    "Species differences make direct human dose translation invalid without human clinical pharmacology.",
+    "The study itself notes limited tissue metabolite analysis and a small sample size for some analyses."
   ],
   "relationships": [
     {

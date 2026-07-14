@@ -1,9 +1,11 @@
-Evidence ID,Publication,Year,Evidence Level,Primary Source State,Direct Full Text Extracted,Closure State,Next Action
-CERT-EKS-000015,Gastric pentadecapeptide BPC 157 accelerates healing of transected rat Achilles tendon and in vitro stimulates tendocytes growth,2003,Preclinical,PRIMARY PUBLICATION IDENTIFIED — DIRECT EXTRACTION PENDING,No,OPEN / IDENTIFIED,Capture and appraise direct primary source
-CERT-EKS-000016,"The promoting effect of pentadecapeptide BPC 157 on tendon healing involves tendon outgrowth, cell survival, and cell migration",2011,Preclinical,PRIMARY PUBLICATION IDENTIFIED — DIRECT EXTRACTION PENDING,No,OPEN / IDENTIFIED,Capture and appraise direct primary source
-CERT-EKS-000017,Pentadecapeptide BPC 157 (PL 14736) improves ligament healing in the rat,2010,Preclinical,PRIMARY PUBLICATION IDENTIFIED — DIRECT EXTRACTION PENDING,No,OPEN / IDENTIFIED,Capture and appraise direct primary source
-CERT-EKS-000018,Modulatory effects of BPC 157 on vasomotor tone and the activation of Src-Caveolin-1-endothelial nitric oxide synthase pathway,2020,Preclinical,PRIMARY PUBLICATION IDENTIFIED — DIRECT EXTRACTION PENDING,No,OPEN / IDENTIFIED,Capture and appraise direct primary source
-CERT-EKS-000019,"Preclinical safety evaluation of body protective compound-157, a potential drug for treating various wounds",2020,Preclinical safety,PRIMARY PUBLICATION IDENTIFIED — DIRECT EXTRACTION PENDING,No,OPEN / IDENTIFIED,Capture and appraise direct primary source
-CERT-EKS-000020,"Pharmacokinetics, distribution, metabolism, and excretion of body-protective compound 157, a potential drug for treating various wounds, in rats and dogs",2022,Preclinical pharmacology,PRIMARY PUBLICATION IDENTIFIED — DIRECT EXTRACTION PENDING,No,OPEN / IDENTIFIED,Capture and appraise direct primary source
-CERT-EKS-000021,Intra-Articular Injection of BPC 157 for Multiple Types of Knee Pain,2021,Limited human evidence,HUMAN PUBLICATION IDENTIFIED — METHODOLOGICAL AND PRIMARY-SOURCE REVIEW PENDING,No,OPEN / IDENTIFIED,Capture and appraise direct primary source
-CERT-EKS-000022,Effect of BPC-157 on Symptoms in Patients with Interstitial Cystitis: A Pilot Study,2024,Limited human evidence,HUMAN PUBLICATION IDENTIFIED — METHODOLOGICAL AND PRIMARY-SOURCE REVIEW PENDING,No,OPEN / IDENTIFIED,Capture and appraise direct primary source
+Evidence ID,Domain,Primary Identifier / State,Direct Access,Closure State,Next Action
+CERT-EKS-000015,Achilles tendon healing,Primary publication identified,No,OPEN,Capture direct primary source
+CERT-EKS-000016,Tendon migration / outgrowth,DOI confirmed,Publisher 403,IDENTIFIED — EXTRACTION BLOCKED,Obtain full primary access
+CERT-EKS-000017,Ligament healing,Primary publication identified,No,OPEN,Capture direct primary source
+CERT-EKS-000018,Vasomotor / eNOS mechanism,Primary publication identified,No,OPEN,Capture direct primary source
+CERT-EKS-000019,Preclinical safety,DOI 10.1016/j.yrtph.2020.104665,Blocked,IDENTIFIED — EXTRACTION BLOCKED,Obtain full primary access
+CERT-EKS-000020,PK / ADME,DOI 10.3389/fphar.2022.1026182,Yes,CLOSED FOR CORE EXTRACTION,Maintain / deeper extraction if required
+CERT-EKS-000021,Human knee pain,Publication identified,No,OPEN — HUMAN APPRAISAL INCOMPLETE,Obtain full article
+CERT-EKS-000022,Human interstitial cystitis pilot,Publication identified,No,OPEN — HUMAN APPRAISAL INCOMPLETE,Obtain full article
+CERT-EKS-000023,GHR signalling,DOI 10.3390/molecules191119066,Yes,CLOSED FOR CORE EXTRACTION,Maintain
+CERT-EKS-000024,VEGFR2 / angiogenesis,DOI 10.1007/s00109-016-1488-y,Abstract direct; full text restricted,CLOSED FOR ABSTRACT / FULL TEXT OPEN,Obtain full article if deeper extraction needed

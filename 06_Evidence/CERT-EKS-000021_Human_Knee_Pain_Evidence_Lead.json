@@ -1,30 +1,24 @@
 {
   "asset_id": "CERT-EKS-000021",
   "asset_name": "BPC-157 Human Knee Pain Evidence Lead",
-  "knowledge_system": "EKS",
-  "asset_type": "Evidence Object",
-  "version": "0.5.0",
-  "status": "HUMAN PUBLICATION IDENTIFIED — METHODOLOGICAL AND PRIMARY-SOURCE REVIEW PENDING",
-  "owner": "Aidan Coleman",
+  "version": "0.7.0",
+  "status": "HUMAN PUBLICATION IDENTIFIED — DIRECT PRIMARY APPRAISAL INCOMPLETE",
   "last_review": "2026-07-14",
-  "study": {
-    "publication_title": "Intra-Articular Injection of BPC 157 for Multiple Types of Knee Pain",
+  "publication": {
+    "title": "Intra-Articular Injection of BPC 157 for Multiple Types of Knee Pain",
     "journal": "Alternative Therapies in Health and Medicine",
-    "year": 2021,
-    "domain": "Human musculoskeletal evidence",
-    "model": "Human clinical report / observational evidence lead",
-    "evidence_level": "Limited human evidence"
+    "year": 2021
   },
-  "evidence_summary": "A human knee-pain publication has been identified, but it is not treated as confirmatory efficacy evidence in this bootstrap build.",
-  "limitations": [
-    "Study design, control group, sample size, outcome validation and bias require direct appraisal.",
-    "This evidence must not be represented as randomized confirmatory clinical evidence."
-  ],
-  "relationships": [
-    {
-      "source": "CERT-PKS-000002",
-      "relationship": "HAS_EVIDENCE",
-      "target": "CERT-EKS-000021"
-    }
+  "appraisal": {
+    "human_evidence": true,
+    "confirmatory": false,
+    "direct_full_text_appraisal_completed": false,
+    "current_certiaura_weight": "Very low / unresolved until direct methodological appraisal",
+    "permitted_use": "Evidence lead and source-retrieval priority only"
+  },
+  "not_permitted": [
+    "Use as proof of established efficacy",
+    "Use to define a universal dosing protocol",
+    "Use to establish long-term safety"
   ]
 }

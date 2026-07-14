@@ -1,54 +1,42 @@
 # CERTIAURA CHANGE LOG
 
-## Build 0009 — BPC-157 Asset Bootstrap & Evidence Foundation
+## Build 0010 — BPC-157 Primary Source Extraction & Human Evidence Appraisal
 **Date:** 2026-07-14
-
-Allocated:
-
-- `CERT-PKS-000002` — BPC-157
 
 Added:
 
-- BPC-157 Flagship Bootstrap Markdown and JSON.
-- CERT-EKS-000015 Achilles Tendon Healing Preclinical Evidence.
-- CERT-EKS-000016 Tendon Cell Migration / Outgrowth Mechanistic Evidence.
-- CERT-EKS-000017 Ligament Healing Preclinical Evidence.
-- CERT-EKS-000018 Vasomotor / eNOS Mechanistic Evidence.
-- CERT-EKS-000019 Preclinical Safety Evaluation.
-- CERT-EKS-000020 PK / ADME in Rats and Dogs.
-- CERT-EKS-000021 Human Knee Pain Evidence Lead.
-- CERT-EKS-000022 Human Interstitial Cystitis Pilot Evidence Lead.
-- CERT-SKS-000006 Human Safety Evidence Insufficiency.
-- CERT-SKS-000007 Long-Term Angiogenic Risk Uncertainty.
-- BPC-157 Evidence Index.
-- Primary Source Closure Register.
-- Claim Control Matrix.
-- Safety Evidence Matrix.
-- Certification Gap Register.
-- Regulatory and Anti-Doping Watch.
-- Source Status Register.
-- Knowledge Graph.
-- Module Assembly Map.
-- Evidence Maturity Assessment.
-- Updated Master Asset Register.
+- Direct primary extraction of CERT-EKS-000020 PK / ADME.
+- New CERT-EKS-000023 Growth Hormone Receptor Expression evidence object.
+- New CERT-EKS-000024 VEGFR2-Linked Pro-Angiogenic Mechanistic evidence object.
+- Strengthened source identifier and access status for CERT-EKS-000016.
+- Strengthened DOI and closure status for CERT-EKS-000019.
+- Structured appraisal status for CERT-EKS-000021 human knee-pain evidence.
+- Structured appraisal status for CERT-EKS-000022 interstitial-cystitis pilot.
+- BPC-157 Human Evidence Appraisal.
+- BPC-157 Clinical Translation Gap.
+- Updated Claim Control Matrix.
+- Updated Safety Evidence Matrix.
+- Updated Evidence Index.
+- Updated Evidence Maturity Assessment.
+- Updated BPC-157 Flagship Bootstrap to v0.2.0.
+- Updated Primary Source Closure Register.
+- Build 0010 Source Verification Report.
 - Updated Production Dashboard.
+- Updated Master Asset Register.
 
-Key scientific position:
+Key scientific outcome:
 
-BPC-157 is classified as:
+Animal PK data and preclinical mechanisms are now more directly evidenced.
 
-**Preclinical-Dominant Evidence Base — Not Platinum Certified**
+The human-evidence bottleneck remains unresolved and visible.
 
-No validated universal human dosing protocol is claimed.
+No validated human dosing protocol is claimed.
+
+## Build 0009
+- Created CERT-PKS-000002 BPC-157 and its initial evidence foundation.
 
 ## Build 0008
 - Added reusable peptide flagship template.
 
 ## Build 0007
 - Consolidated Retatrutide flagship.
-
-## Builds 0003–0006
-- Built Retatrutide evidence, safety, monitoring and source-integrity layers.
-
-## Build 0002
-- Established preservation and migration baseline.

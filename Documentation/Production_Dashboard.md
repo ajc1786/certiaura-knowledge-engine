@@ -1,6 +1,6 @@
 # CERTIAURA PRODUCTION DASHBOARD
 
-**Build:** 0009  
+**Build:** 0010  
 **Date:** 2026-07-14
 
 ## Current flagship
@@ -9,42 +9,44 @@
 
 **Status:** Consolidated — Not Platinum Certified
 
-## New production asset
+## BPC-157
 
 `CERT-PKS-000002 — BPC-157`
 
-**Status:** Bootstrapped — Preclinical-Dominant Evidence Base — Not Platinum Certified
+**Status:** Evidence Foundation Expanded — Preclinical-Dominant — Not Platinum Certified
 
-## Build 0009 outputs
+## Build 0010 outputs
 
-- Permanent UAI allocation
-- BPC-157 flagship bootstrap Markdown and JSON
-- 8 Evidence Objects
-- 2 Safety Knowledge System assets
-- Evidence Index
-- Primary Source Closure Register
-- Claim Control Matrix
-- Safety Evidence Matrix
-- Certification Gap Register
-- Regulatory / Anti-Doping Watch
-- Source Status Register
-- Knowledge Graph
-- Module Assembly Map
-- Evidence Maturity Assessment
+- Direct PK / ADME extraction
+- Direct tendon-fibroblast GHR mechanism extraction
+- Direct VEGFR2 / angiogenesis primary abstract extraction
+- Strengthened DOI / source status for tendon migration and preclinical safety studies
+- Structured human evidence appraisal
+- Clinical Translation Gap analysis
+- Updated Claim Control Matrix
+- Updated Safety Matrix
+- Updated Evidence Index
+- Updated Evidence Maturity Assessment
+- Updated Flagship Bootstrap
+- Updated Primary Source Closure Register
 - Updated Master Asset Register
-- Updated Production Dashboard
 - Updated Change Log
 
-## Evidence balance
+## Evidence closure progress
 
-- Preclinical evidence foundation: 6 objects
-- Limited human evidence leads: 2 objects
-- Confirmatory human randomized evidence captured: 0
+### Directly extracted / core-closed
+- CERT-EKS-000020
+- CERT-EKS-000023
 
-## Immediate next production queue
+### Primary abstract directly extracted
+- CERT-EKS-000024
 
-1. Directly capture and extract the highest-value BPC-157 primary sources.
-2. Appraise the two limited human publications in detail.
-3. Establish a source-backed mechanism map.
-4. Resolve current regulatory and anti-doping authoritative sources.
-5. Do not create a validated human dosing module unless human evidence supports it.
+### Human appraisal still open
+- CERT-EKS-000021
+- CERT-EKS-000022
+
+## Highest-value next step
+
+Obtain and directly appraise the two human publications before any BPC-157 flagship consolidation.
+
+Do not substitute more animal studies for the missing human evidence layer.

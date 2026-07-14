@@ -1,8 +1,7 @@
 # CERT-EKS-000022 — BPC-157 Human Interstitial Cystitis Pilot Evidence Lead
 
-**Version:** 0.5.0  
-**Status:** HUMAN PUBLICATION IDENTIFIED — METHODOLOGICAL AND PRIMARY-SOURCE REVIEW PENDING  
-**Evidence level:** Limited human evidence  
+**Version:** 0.7.0  
+**Status:** HUMAN PILOT PUBLICATION IDENTIFIED — DIRECT PRIMARY APPRAISAL INCOMPLETE  
 **Last Review:** 2026-07-14
 
 ## Publication identity
@@ -11,29 +10,43 @@
 **Journal:** Alternative Therapies in Health and Medicine  
 **Year:** 2024
 
-## Domain
+## Current human-evidence appraisal
 
-Human urological evidence
+- Human evidence: **Yes**
+- Confirmatory evidence: **No**
+- Direct full-text methodological appraisal completed: **No**
+- Current Certiaura evidence weight: **Very low / unresolved**
 
-## Model / study type
+## Known study character
 
-Human pilot study
+Human pilot study; full design not directly extracted in Build 0010
 
-## Evidence summary
+## Why this is not upgraded
 
-A pilot human publication has been identified. It is preserved as a human evidence lead, not as proof of established efficacy.
+Build 0010 did not obtain and directly extract the full primary article.
 
-## Limitations
+Therefore Certiaura does not invent:
 
-- Pilot evidence cannot establish broad efficacy or safety.
-- Study design, sample size, controls and full adverse-event reporting require direct appraisal.
+- participant count;
+- control-group structure;
+- blinding;
+- validated outcome measures;
+- effect size;
+- adverse-event rate;
+- follow-up completeness.
 
-## Relationship
+## Permitted use
 
-`CERT-PKS-000002 HAS_EVIDENCE CERT-EKS-000022`
+- Human evidence lead
+- Source-retrieval priority
+- Evidence-gap documentation
 
-## Integrity rule
+## Not permitted
 
-This Evidence Object records the current source and evidence status.
+- Proof of established efficacy
+- A validated human dosing protocol
+- Proof of long-term human safety
 
-It must not be silently upgraded beyond the underlying evidence design.
+## Next action
+
+Obtain the full primary article and complete a structured risk-of-bias and methodology appraisal.

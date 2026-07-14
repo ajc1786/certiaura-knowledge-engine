@@ -1,30 +1,19 @@
 {
   "asset_id": "CERT-EKS-000019",
   "asset_name": "BPC-157 Preclinical Safety Evaluation",
-  "knowledge_system": "EKS",
-  "asset_type": "Evidence Object",
-  "version": "0.5.0",
-  "status": "PRIMARY PUBLICATION IDENTIFIED — DIRECT EXTRACTION PENDING",
-  "owner": "Aidan Coleman",
+  "version": "0.6.0",
+  "status": "PRIMARY PUBLICATION IDENTIFIED — DIRECT EXTRACTION BLOCKED",
   "last_review": "2026-07-14",
-  "study": {
-    "publication_title": "Preclinical safety evaluation of body protective compound-157, a potential drug for treating various wounds",
+  "primary_source": {
+    "title": "Preclinical safety evaluation of body protective compound-157, a potential drug for treating various wounds",
     "journal": "Regulatory Toxicology and Pharmacology",
-    "year": 2020,
-    "domain": "Preclinical toxicology",
-    "model": "Preclinical safety programme",
-    "evidence_level": "Preclinical safety"
+    "volume": 114,
+    "article_number": "104665",
+    "doi": "10.1016/j.yrtph.2020.104665"
   },
-  "evidence_summary": "A dedicated preclinical safety publication has been identified. It cannot substitute for adequately powered long-term human safety evidence.",
-  "limitations": [
-    "Animal toxicology is not equivalent to human clinical safety.",
-    "Full protocol, dose margins and detailed findings require direct primary extraction."
-  ],
-  "relationships": [
-    {
-      "source": "CERT-PKS-000002",
-      "relationship": "HAS_EVIDENCE",
-      "target": "CERT-EKS-000019"
-    }
-  ]
+  "appraisal": {
+    "evidence_level": "Preclinical toxicology",
+    "human_safety_inference": "Insufficient to establish long-term human safety",
+    "direct_quantitative_extraction": "Not completed"
+  }
 }

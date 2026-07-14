@@ -1,8 +1,7 @@
 # CERT-EKS-000021 — BPC-157 Human Knee Pain Evidence Lead
 
-**Version:** 0.5.0  
-**Status:** HUMAN PUBLICATION IDENTIFIED — METHODOLOGICAL AND PRIMARY-SOURCE REVIEW PENDING  
-**Evidence level:** Limited human evidence  
+**Version:** 0.7.0  
+**Status:** HUMAN PUBLICATION IDENTIFIED — DIRECT PRIMARY APPRAISAL INCOMPLETE  
 **Last Review:** 2026-07-14
 
 ## Publication identity
@@ -11,29 +10,43 @@
 **Journal:** Alternative Therapies in Health and Medicine  
 **Year:** 2021
 
-## Domain
+## Current human-evidence appraisal
 
-Human musculoskeletal evidence
+- Human evidence: **Yes**
+- Confirmatory evidence: **No**
+- Direct full-text methodological appraisal completed: **No**
+- Current Certiaura evidence weight: **Very low / unresolved**
 
-## Model / study type
+## Known study character
 
-Human clinical report / observational evidence lead
+Human clinical publication; full design not directly extracted in Build 0010
 
-## Evidence summary
+## Why this is not upgraded
 
-A human knee-pain publication has been identified, but it is not treated as confirmatory efficacy evidence in this bootstrap build.
+Build 0010 did not obtain and directly extract the full primary article.
 
-## Limitations
+Therefore Certiaura does not invent:
 
-- Study design, control group, sample size, outcome validation and bias require direct appraisal.
-- This evidence must not be represented as randomized confirmatory clinical evidence.
+- participant count;
+- control-group structure;
+- blinding;
+- validated outcome measures;
+- effect size;
+- adverse-event rate;
+- follow-up completeness.
 
-## Relationship
+## Permitted use
 
-`CERT-PKS-000002 HAS_EVIDENCE CERT-EKS-000021`
+- Human evidence lead
+- Source-retrieval priority
+- Evidence-gap documentation
 
-## Integrity rule
+## Not permitted
 
-This Evidence Object records the current source and evidence status.
+- Proof of established efficacy
+- A validated human dosing protocol
+- Proof of long-term human safety
 
-It must not be silently upgraded beyond the underlying evidence design.
+## Next action
+
+Obtain the full primary article and complete a structured risk-of-bias and methodology appraisal.
