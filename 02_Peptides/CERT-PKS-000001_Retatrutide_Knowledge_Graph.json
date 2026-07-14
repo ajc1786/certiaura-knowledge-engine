@@ -1,0 +1,235 @@
+{
+  "root_asset": "CERT-PKS-000001",
+  "version": "0.7.0",
+  "edge_count": 44,
+  "edges": [
+    {
+      "source": "CERT-PKS-000001",
+      "relationship": "HAS_MECHANISM",
+      "target": "CERT-BKS-000001"
+    },
+    {
+      "source": "CERT-PKS-000001",
+      "relationship": "HAS_MECHANISM",
+      "target": "CERT-BKS-000002"
+    },
+    {
+      "source": "CERT-PKS-000001",
+      "relationship": "HAS_MECHANISM",
+      "target": "CERT-BKS-000003"
+    },
+    {
+      "source": "CERT-PKS-000001",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000010"
+    },
+    {
+      "source": "CERT-PKS-000001",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000011"
+    },
+    {
+      "source": "CERT-PKS-000001",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000012"
+    },
+    {
+      "source": "CERT-PKS-000001",
+      "relationship": "RELATED_TO",
+      "target": "CERT-BKS-000020"
+    },
+    {
+      "source": "CERT-PKS-000001",
+      "relationship": "RELATED_TO",
+      "target": "CERT-BKS-000021"
+    },
+    {
+      "source": "CERT-PKS-000001",
+      "relationship": "RELATED_TO",
+      "target": "CERT-BKS-000022"
+    },
+    {
+      "source": "CERT-PKS-000001",
+      "relationship": "RELATED_TO",
+      "target": "CERT-BKS-000023"
+    },
+    {
+      "source": "CERT-PKS-000001",
+      "relationship": "HAS_CONDITION",
+      "target": "CERT-CKS-000001"
+    },
+    {
+      "source": "CERT-PKS-000001",
+      "relationship": "HAS_CONDITION",
+      "target": "CERT-CKS-000002"
+    },
+    {
+      "source": "CERT-PKS-000001",
+      "relationship": "HAS_CONDITION",
+      "target": "CERT-CKS-000003"
+    },
+    {
+      "source": "CERT-PKS-000001",
+      "relationship": "SUPPORTS_GOAL",
+      "target": "CERT-GKS-000001"
+    },
+    {
+      "source": "CERT-PKS-000001",
+      "relationship": "SUPPORTS_GOAL",
+      "target": "CERT-GKS-000002"
+    },
+    {
+      "source": "CERT-PKS-000001",
+      "relationship": "SUPPORTS_GOAL",
+      "target": "CERT-GKS-000003"
+    },
+    {
+      "source": "CERT-PKS-000001",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000007",
+      "source_state": "CLOSED"
+    },
+    {
+      "source": "CERT-PKS-000001",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000008",
+      "source_state": "CLOSED FOR CORE EXTRACTION"
+    },
+    {
+      "source": "CERT-PKS-000001",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000009",
+      "source_state": "CLOSED"
+    },
+    {
+      "source": "CERT-PKS-000001",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000010",
+      "source_state": "OPEN — PRIMARY NOT CAPTURED"
+    },
+    {
+      "source": "CERT-PKS-000001",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000011",
+      "source_state": "CLOSED FOR TOPLINE / OPEN FOR FULL PUBLICATION"
+    },
+    {
+      "source": "CERT-PKS-000001",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000012",
+      "source_state": "IDENTIFIED — EXTRACTION BLOCKED"
+    },
+    {
+      "source": "CERT-PKS-000001",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000013",
+      "source_state": "OPEN — PRIMARY NOT CAPTURED"
+    },
+    {
+      "source": "CERT-PKS-000001",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000014",
+      "source_state": "OPEN — PRIMARY NOT CAPTURED"
+    },
+    {
+      "source": "CERT-PKS-000001",
+      "relationship": "HAS_SAFETY",
+      "target": "CERT-SKS-000001"
+    },
+    {
+      "source": "CERT-PKS-000001",
+      "relationship": "HAS_SAFETY",
+      "target": "CERT-SKS-000002"
+    },
+    {
+      "source": "CERT-PKS-000001",
+      "relationship": "HAS_SAFETY",
+      "target": "CERT-SKS-000003"
+    },
+    {
+      "source": "CERT-PKS-000001",
+      "relationship": "HAS_SAFETY",
+      "target": "CERT-SKS-000004"
+    },
+    {
+      "source": "CERT-PKS-000001",
+      "relationship": "HAS_SAFETY",
+      "target": "CERT-SKS-000005"
+    },
+    {
+      "source": "CERT-PKS-000001",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000001"
+    },
+    {
+      "source": "CERT-PKS-000001",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000002"
+    },
+    {
+      "source": "CERT-PKS-000001",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000003"
+    },
+    {
+      "source": "CERT-PKS-000001",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000004"
+    },
+    {
+      "source": "CERT-PKS-000001",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000005"
+    },
+    {
+      "source": "CERT-PKS-000001",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000006"
+    },
+    {
+      "source": "CERT-PKS-000001",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000007"
+    },
+    {
+      "source": "CERT-PKS-000001",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000008"
+    },
+    {
+      "source": "CERT-PKS-000001",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000009"
+    },
+    {
+      "source": "CERT-PKS-000001",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000010"
+    },
+    {
+      "source": "CERT-SKS-000001",
+      "relationship": "REQUIRES_MONITORING",
+      "target": "CERT-MKS-000007"
+    },
+    {
+      "source": "CERT-SKS-000002",
+      "relationship": "REQUIRES_MONITORING",
+      "target": "CERT-MKS-000006"
+    },
+    {
+      "source": "CERT-SKS-000003",
+      "relationship": "REQUIRES_MONITORING",
+      "target": "CERT-MKS-000008"
+    },
+    {
+      "source": "CERT-SKS-000004",
+      "relationship": "REQUIRES_MONITORING",
+      "target": "CERT-MKS-000009"
+    },
+    {
+      "source": "CERT-SKS-000005",
+      "relationship": "REQUIRES_MONITORING",
+      "target": "CERT-MKS-000001"
+    }
+  ]
+}

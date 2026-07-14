@@ -1,34 +1,46 @@
 # CERTIAURA CHANGE LOG
 
-## Build 0006 — Retatrutide Primary Source Closure & Integrity Gate
+## Build 0007 — Retatrutide Flagship Knowledge Asset Consolidation
 **Date:** 2026-07-14
 
 Added:
 
-- Primary Source Closure Standard.
-- Retatrutide Evidence Integrity Gate.
-- Retatrutide Primary Source Access Log.
-- Retatrutide Primary Source Closure Register.
-- Retatrutide Evidence Source Integrity Summary.
-- CERT-EKS-000012 Source Closure Status v1.1.0.
-- Updated Retatrutide Evidence Index.
-- Updated Evidence Maturity Assessment.
-- Primary Source Closure Queue.
-- Updated Preservation Gap Register.
+- CERT-PKS-000001 Retatrutide Flagship Knowledge Asset Markdown.
+- CERT-PKS-000001 Retatrutide Flagship Knowledge Asset JSON.
+- Retatrutide Executive Summary.
+- Retatrutide Module Assembly Map.
+- Retatrutide Claim Control Matrix.
+- Retatrutide Certification Gap Register.
+- Retatrutide User Layer Map.
+- Retatrutide Evidence-to-Module Map.
+- Retatrutide Knowledge Graph.
+- Retatrutide Cross-System Integration Map.
+- Retatrutide Safety Asset Index.
+- Retatrutide Monitoring Asset Index.
+- Retatrutide Flagship Synthesis Report.
+- Build 0007 Assembly Validation Report.
 - Updated Production Dashboard.
+- Updated Preservation Gap Register.
+- Updated Master Asset Register.
 
-Key integrity outcome:
+Key outcome:
 
-- CERT-EKS-000012 primary Lancet article identity remains preserved.
-- Direct automated full-text extraction returned HTTP 403.
-- The object remains **Identified — Extraction Blocked**, not falsely marked Closed.
-- CERT-EKS-000010, 000013 and 000014 remain visibly open.
+`CERT-PKS-000001 — Retatrutide`
+
+is now:
+
+**Consolidated — Not Platinum Certified**
+
+No unresolved evidence was silently upgraded.
+
+## Build 0006
+- Added primary-source closure standard and integrity gate.
 
 ## Build 0005
-- Added evidence verification and Safety / Monitoring expansion.
+- Added Safety and Monitoring Knowledge System expansion.
 
 ## Build 0004
-- Added evidence expansion and source-tier separation.
+- Added Retatrutide evidence expansion and source-tier separation.
 
 ## Build 0003
 - Added first structured Retatrutide Evidence Objects.

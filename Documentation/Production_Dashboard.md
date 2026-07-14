@@ -1,45 +1,49 @@
 # CERTIAURA PRODUCTION DASHBOARD
 
-**Build:** 0006  
+**Build:** 0007  
 **Date:** 2026-07-14
 
-## Build 0006 objective
+## Current flagship
 
-Primary Source Closure & Integrity Gate.
+`CERT-PKS-000001 — Retatrutide`
 
-## Source closure status
+**Status:** Consolidated — Not Platinum Certified
 
-| State | Count |
-|---|---:|
-| Closed | 2 |
-| Closed for core extraction | 1 |
-| Closed for sponsor topline only | 1 |
-| Identified — extraction blocked | 1 |
-| Open — primary not captured | 3 |
+## Build 0007 outputs
 
-## High-priority next action
-
-`CERT-EKS-000012`
-
-The primary Lancet article is identified but direct full-text extraction remains blocked.
-
-## Build 0006 production output
-
-- Primary Source Closure Standard
-- Evidence Integrity Gate
-- Primary Source Access Log
-- Primary Source Closure Register
-- Source Integrity Summary
-- Updated CERT-EKS-000012 closure status
-- Updated Evidence Index
-- Updated Evidence Maturity Assessment
-- Primary Source Closure Queue
-- Updated Preservation Gap Register
-- Updated Production Dashboard
+- Flagship Knowledge Asset Markdown
+- Flagship Knowledge Asset JSON
+- Executive Summary
+- Module Assembly Map
+- Claim Control Matrix
+- Certification Gap Register
+- User Layer Map
+- Evidence-to-Module Map
+- Knowledge Graph
+- Cross-System Integration Map
+- Safety Asset Index
+- Monitoring Asset Index
+- Flagship Synthesis Report
+- Assembly Validation Report
+- Updated Asset Register
+- Updated Gap Register
 - Updated Change Log
 
-## Decision
+## Evidence source-closure position
 
-Do not begin a new peptide flagship merely to avoid difficult source closure.
+- Closed: CERT-EKS-000007, CERT-EKS-000009
+- Core extraction closed: CERT-EKS-000008
+- Sponsor topline closed / full publication open: CERT-EKS-000011
+- Identified / extraction blocked: CERT-EKS-000012
+- Open primary-source gaps: CERT-EKS-000010, CERT-EKS-000013, CERT-EKS-000014
 
-Continue Retatrutide source closure until the highest-value accessible gaps are resolved, then reassess production priority under the 80 / 15 / 5 model.
+## Current production decision
+
+The Retatrutide asset is now sufficiently consolidated to function as a coherent flagship reference.
+
+The next work should be selected from two production paths:
+
+1. **Source closure:** continue resolving the remaining high-value Retatrutide evidence gaps.
+2. **Reusable platform production:** use the Retatrutide flagship as the template for the next peptide asset.
+
+No new governance layer is required.

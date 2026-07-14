@@ -1,18 +1,20 @@
 # PRESERVATION GAP REGISTER
 
-## Build 0006 source-closure gaps
+## Build 0007 flagship gaps
 
-| Evidence ID | Gap | Current state | Required action |
+| Priority | Gap | Current state | Required action |
 |---|---|---|---|
-| CERT-EKS-000010 | Direct body-composition primary source | Open | Capture primary page and persistent identifier |
-| CERT-EKS-000011 | Full phase 3 obesity publication | Open beyond sponsor topline | Add peer-reviewed full publication |
-| CERT-EKS-000012 | Direct full-text extraction | Primary article identified; access blocked | Obtain direct access and extract |
-| CERT-EKS-000013 | TRIUMPH-4 primary source | Open | Capture primary source |
-| CERT-EKS-000014 | Liver-fat / MASLD primary source | Open | Capture primary source |
-| Retatrutide overall | Long-term safety | Open | Continue longitudinal evidence capture |
-| Retatrutide overall | Regulatory assessment | Open | Add when available |
-| Retatrutide overall | Independent replication | Limited | Track external research |
+| 1 | Phase 3 T2D direct full-text extraction | Identified — extraction blocked | Obtain direct primary access and extract |
+| 2 | Body-composition primary source | Open | Capture primary publication and persistent identifier |
+| 3 | TRIUMPH-4 primary source | Open | Capture sponsor source, registry result or publication |
+| 4 | Liver-fat / MASLD primary source | Open | Capture primary abstract, registry result or publication |
+| 5 | Full phase 3 obesity publication | Sponsor topline only | Add full peer-reviewed publication |
+| 6 | Long-term safety | Incomplete | Continue longitudinal evidence capture |
+| 7 | Regulatory assessment | Not captured | Add when available |
+| 8 | Independent replication | Limited | Track and capture external evidence |
+| 9 | Live Cost Intelligence | Not certified | Add date- and source-specific pricing only |
+| 10 | Validated Product Passport | Not attached | Add only after product-level validation |
 
-## Integrity rule
+## Rule
 
-An unresolved source gap must remain visible until it is actually resolved.
+The consolidated flagship must display its unresolved gaps rather than hide them.
