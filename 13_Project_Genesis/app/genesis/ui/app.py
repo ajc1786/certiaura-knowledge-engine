@@ -4,15 +4,16 @@ from pathlib import Path
 
 from genesis.core.repository import RepositoryManager
 from genesis.core.build_importer import BuildPackImporter
+from genesis.core.git_manager import GitManager, GitOperationError
 
 
 class GenesisApp:
-    VERSION = "1.1.0"
+    VERSION = "1.2.0"
 
     def __init__(self):
         self.root = tk.Tk()
         self.root.title(f"Project Genesis — Certiaura Repository Manager v{self.VERSION}")
-        self.root.geometry("760x520")
+        self.root.geometry("800x560")
 
         self.repo_path = tk.StringVar()
         self.status_text = tk.StringVar(value="Repository not selected")
@@ -83,13 +84,13 @@ class GenesisApp:
             buttons,
             text="Commit & Push",
             width=24,
-            command=self.commit_push_placeholder,
+            command=self.open_commit_push_dialog,
         ).grid(row=1, column=1, padx=8, pady=6)
 
         dashboard = tk.LabelFrame(self.root, text="Repository Dashboard")
         dashboard.pack(fill="both", expand=True, padx=24, pady=16)
 
-        self.dashboard_text = tk.Text(dashboard, height=10)
+        self.dashboard_text = tk.Text(dashboard, height=12)
         self.dashboard_text.pack(fill="both", expand=True, padx=8, pady=8)
         self._set_dashboard_text("Select the Certiaura repository folder to begin.\n")
 
@@ -110,6 +111,9 @@ class GenesisApp:
 
     def manager(self):
         return RepositoryManager(Path(self.repo_path.get()))
+
+    def git_manager(self):
+        return GitManager(Path(self.repo_path.get()))
 
     def validate_repository(self):
         if not self.repo_path.get():
@@ -142,6 +146,21 @@ class GenesisApp:
         manager = self.manager()
         summary = manager.summary()
 
+        git_lines = []
+        try:
+            git = self.git_manager()
+            git_summary = git.summary()
+            git_lines = [
+                f"Git available: True",
+                f"Git branch: {git_summary['branch']}",
+                f"Uncommitted changes: {git_summary['change_count']}",
+            ]
+        except Exception as exc:
+            git_lines = [
+                "Git available: False",
+                f"Git status: {exc}",
+            ]
+
         text = (
             f"Repository: {summary['repo']}\n"
             f"Markdown files: {summary['markdown_files']}\n"
@@ -149,6 +168,8 @@ class GenesisApp:
             f"Asset register present: {summary['asset_register_present']}\n"
             f"Change log present: {summary['changelog_present']}\n"
             f"Validation status: {summary['validation_status']}\n"
+            + "\n".join(git_lines)
+            + "\n"
         )
         self._set_dashboard_text(text)
 
@@ -231,11 +252,172 @@ class GenesisApp:
             ),
         )
 
-    def commit_push_placeholder(self):
-        messagebox.showinfo(
-            "Coming next",
-            "Commit and push controls will be added in Project Genesis v1.2.",
+    def open_commit_push_dialog(self):
+        if not self.repo_path.get():
+            messagebox.showwarning(
+                "No repository",
+                "Please select the repository folder first.",
+            )
+            return
+
+        try:
+            git = self.git_manager()
+            changes = git.status_short()
+        except GitOperationError as exc:
+            messagebox.showerror("Git error", str(exc))
+            return
+
+        if not changes:
+            messagebox.showinfo(
+                "No changes",
+                "There are no uncommitted repository changes to commit.",
+            )
+            self.refresh_dashboard()
+            return
+
+        dialog = tk.Toplevel(self.root)
+        dialog.title("Review Changes — Commit & Push")
+        dialog.geometry("760x520")
+        dialog.transient(self.root)
+        dialog.grab_set()
+
+        tk.Label(
+            dialog,
+            text="Review Repository Changes",
+            font=("Segoe UI", 16, "bold"),
+        ).pack(pady=(16, 8))
+
+        info = tk.Label(
+            dialog,
+            text=(
+                "All listed changes will be staged, committed and pushed to the "
+                "current Git branch after confirmation."
+            ),
+            wraplength=700,
+            justify="left",
         )
+        info.pack(fill="x", padx=20, pady=(0, 8))
+
+        changes_frame = tk.LabelFrame(dialog, text="Git status")
+        changes_frame.pack(fill="both", expand=True, padx=20, pady=8)
+
+        changes_text = tk.Text(changes_frame, height=14)
+        changes_text.pack(fill="both", expand=True, padx=8, pady=8)
+        changes_text.insert("end", "\n".join(changes))
+        changes_text.configure(state="disabled")
+
+        message_frame = tk.Frame(dialog)
+        message_frame.pack(fill="x", padx=20, pady=8)
+
+        tk.Label(message_frame, text="Commit message:").pack(anchor="w")
+        commit_message = tk.Entry(message_frame)
+        commit_message.pack(fill="x", pady=(4, 0))
+        commit_message.focus_set()
+
+        button_frame = tk.Frame(dialog)
+        button_frame.pack(pady=14)
+
+        def refresh_changes():
+            try:
+                refreshed = git.status_short()
+                changes_text.configure(state="normal")
+                changes_text.delete("1.0", "end")
+                changes_text.insert(
+                    "end",
+                    "\n".join(refreshed) if refreshed else "No uncommitted changes.",
+                )
+                changes_text.configure(state="disabled")
+            except GitOperationError as exc:
+                messagebox.showerror("Git error", str(exc), parent=dialog)
+
+        def perform_commit_push():
+            message = commit_message.get().strip()
+
+            if not message:
+                messagebox.showwarning(
+                    "Commit message required",
+                    "Enter a clear commit message before continuing.",
+                    parent=dialog,
+                )
+                return
+
+            latest_changes = git.status_short()
+            if not latest_changes:
+                messagebox.showinfo(
+                    "No changes",
+                    "There are no uncommitted changes to commit.",
+                    parent=dialog,
+                )
+                dialog.destroy()
+                self.refresh_dashboard()
+                return
+
+            confirmation = (
+                f"Branch: {git.current_branch()}\n"
+                f"Files / change entries: {len(latest_changes)}\n\n"
+                f"Commit message:\n{message}\n\n"
+                "Genesis will now:\n"
+                "1. Fetch the remote repository.\n"
+                "2. Check that the local branch is not behind.\n"
+                "3. Stage all current changes.\n"
+                "4. Create the commit.\n"
+                "5. Push the current branch to origin.\n\n"
+                "Proceed?"
+            )
+
+            if not messagebox.askyesno(
+                "Confirm Commit & Push",
+                confirmation,
+                parent=dialog,
+            ):
+                return
+
+            try:
+                result = git.commit_and_push(message)
+            except GitOperationError as exc:
+                messagebox.showerror(
+                    "Commit & Push failed",
+                    str(exc),
+                    parent=dialog,
+                )
+                refresh_changes()
+                self.refresh_dashboard()
+                return
+
+            self.status_text.set("Commit and push completed successfully")
+            self.refresh_dashboard()
+            dialog.destroy()
+
+            messagebox.showinfo(
+                "Commit & Push complete",
+                (
+                    f"Commit created: {result['commit']}\n"
+                    f"Branch: {result['branch']}\n"
+                    f"Remote: {result['remote']}\n\n"
+                    "The repository changes were committed and pushed successfully."
+                ),
+            )
+
+        tk.Button(
+            button_frame,
+            text="Refresh Changes",
+            width=18,
+            command=refresh_changes,
+        ).grid(row=0, column=0, padx=6)
+
+        tk.Button(
+            button_frame,
+            text="Commit & Push",
+            width=18,
+            command=perform_commit_push,
+        ).grid(row=0, column=1, padx=6)
+
+        tk.Button(
+            button_frame,
+            text="Cancel",
+            width=18,
+            command=dialog.destroy,
+        ).grid(row=0, column=2, padx=6)
 
     def run(self):
         self.root.mainloop()
