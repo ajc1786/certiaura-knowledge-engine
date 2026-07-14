@@ -1,42 +1,37 @@
 # CERTIAURA CHANGE LOG
 
-## Build 0005 — Evidence Verification & Safety Expansion
+## Build 0006 — Retatrutide Primary Source Closure & Integrity Gate
 **Date:** 2026-07-14
 
 Added:
 
-- Evidence verification amendment for CERT-EKS-000012.
-- Primary Lancet article identifier for the phase 3 T2D programme.
-- CERT-SKS-000001 Gastrointestinal Adverse Events.
-- CERT-SKS-000002 Heart Rate Increase.
-- CERT-SKS-000003 Dysesthesia / Abnormal Skin Sensation.
-- CERT-SKS-000004 Treatment Discontinuation and Tolerability.
-- CERT-SKS-000005 Hypoglycaemia Context.
-- CERT-MKS-000006 Heart Rate.
-- CERT-MKS-000007 Gastrointestinal Tolerability.
-- CERT-MKS-000008 Dysesthesia Monitoring.
-- CERT-MKS-000009 Treatment Discontinuation.
-- CERT-MKS-000010 Body Composition.
-- Retatrutide Evidence Maturity Assessment.
-- Updated Safety Evidence Matrix.
-- Updated Monitoring Evidence Matrix.
-- Updated Evidence Index.
-- Updated Evidence Status Register.
-- Updated Master Asset Register.
-- Updated Production Dashboard.
+- Primary Source Closure Standard.
+- Retatrutide Evidence Integrity Gate.
+- Retatrutide Primary Source Access Log.
+- Retatrutide Primary Source Closure Register.
+- Retatrutide Evidence Source Integrity Summary.
+- CERT-EKS-000012 Source Closure Status v1.1.0.
+- Updated Retatrutide Evidence Index.
+- Updated Evidence Maturity Assessment.
+- Primary Source Closure Queue.
 - Updated Preservation Gap Register.
+- Updated Production Dashboard.
 
-Governance principle applied:
+Key integrity outcome:
 
-- Primary publication identification and full-text extraction are tracked separately.
-- Provisional late-stage safety signals remain provisional.
-- No headline completeness percentage was assigned.
+- CERT-EKS-000012 primary Lancet article identity remains preserved.
+- Direct automated full-text extraction returned HTTP 403.
+- The object remains **Identified — Extraction Blocked**, not falsely marked Closed.
+- CERT-EKS-000010, 000013 and 000014 remain visibly open.
+
+## Build 0005
+- Added evidence verification and Safety / Monitoring expansion.
 
 ## Build 0004
-- Expanded Retatrutide evidence and introduced evidence-tier separation.
+- Added evidence expansion and source-tier separation.
 
 ## Build 0003
-- Added first structured study-level Retatrutide Evidence Objects.
+- Added first structured Retatrutide Evidence Objects.
 
 ## Build 0002
 - Established preservation and migration baseline.

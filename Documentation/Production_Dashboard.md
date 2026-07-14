@@ -1,38 +1,45 @@
 # CERTIAURA PRODUCTION DASHBOARD
 
-**Build:** 0005  
+**Build:** 0006  
 **Date:** 2026-07-14
 
-## Build 0005 outputs
+## Build 0006 objective
 
-- Evidence verification amendment for CERT-EKS-000012
-- 5 formal Safety Knowledge System assets
-- 5 new Monitoring Knowledge System assets
-- Updated safety matrix
-- Updated monitoring matrix
-- Evidence Maturity Assessment
+Primary Source Closure & Integrity Gate.
+
+## Source closure status
+
+| State | Count |
+|---|---:|
+| Closed | 2 |
+| Closed for core extraction | 1 |
+| Closed for sponsor topline only | 1 |
+| Identified — extraction blocked | 1 |
+| Open — primary not captured | 3 |
+
+## High-priority next action
+
+`CERT-EKS-000012`
+
+The primary Lancet article is identified but direct full-text extraction remains blocked.
+
+## Build 0006 production output
+
+- Primary Source Closure Standard
+- Evidence Integrity Gate
+- Primary Source Access Log
+- Primary Source Closure Register
+- Source Integrity Summary
+- Updated CERT-EKS-000012 closure status
 - Updated Evidence Index
-- Updated Evidence Status Register
-- Updated Master Asset Register
+- Updated Evidence Maturity Assessment
+- Primary Source Closure Queue
+- Updated Preservation Gap Register
+- Updated Production Dashboard
+- Updated Change Log
 
-## Formal assets after Build 0005
+## Decision
 
-**Total:** 46
+Do not begin a new peptide flagship merely to avoid difficult source closure.
 
-## Retatrutide maturity
-
-The evidence base is materially stronger but remains incomplete.
-
-Primary remaining gaps:
-
-1. Direct full-text extraction of the identified phase 3 T2D Lancet paper.
-2. Direct capture of the body-composition primary publication.
-3. Primary source capture for TRIUMPH-4.
-4. Primary source capture for liver-fat / MASLD evidence.
-5. Long-term safety.
-6. Regulatory assessment.
-7. Independent replication.
-
-## Next production direction
-
-Complete primary-source verification gaps before moving Retatrutide toward certification.
+Continue Retatrutide source closure until the highest-value accessible gaps are resolved, then reassess production priority under the 80 / 15 / 5 model.

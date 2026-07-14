@@ -1,0 +1,17 @@
+File,Size Bytes,Build
+02_Peptides/CERT-PKS-000001_Retatrutide_Evidence_Index.md,917,0006
+02_Peptides/CERT-PKS-000001_Retatrutide_Evidence_Maturity_Assessment.md,1565,0006
+02_Peptides/CERT-PKS-000001_Retatrutide_Evidence_Source_Integrity_Summary.md,1234,0006
+06_Evidence/CERT-EKS-000012_Phase_3_Type_2_Diabetes_Source_Closure_Status.json,1075,0006
+06_Evidence/CERT-EKS-000012_Phase_3_Type_2_Diabetes_Source_Closure_Status.md,978,0006
+06_Evidence/PRIMARY_SOURCE_CLOSURE_STANDARD.md,1593,0006
+06_Evidence/RETATRUTIDE_EVIDENCE_INTEGRITY_GATE.md,1467,0006
+06_Evidence/RETATRUTIDE_PRIMARY_SOURCE_ACCESS_LOG.md,1171,0006
+06_Evidence/RETATRUTIDE_PRIMARY_SOURCE_CLOSURE_QUEUE.md,1260,0006
+06_Evidence/RETATRUTIDE_PRIMARY_SOURCE_CLOSURE_REGISTER.csv,1632,0006
+BUILD_0006_READ_ME.md,1986,0006
+Documentation/BUILD_0006_SOURCE_VERIFICATION_REGISTER.csv,692,0006
+Documentation/CHANGELOG.md,1146,0006
+Documentation/Master_Asset_Register.csv,5825,0006
+Documentation/PRESERVATION_GAP_REGISTER.md,1022,0006
+Documentation/Production_Dashboard.md,1159,0006

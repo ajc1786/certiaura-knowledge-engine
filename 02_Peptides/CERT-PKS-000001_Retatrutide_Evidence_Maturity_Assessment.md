@@ -1,35 +1,34 @@
 # CERT-PKS-000001 — RETATRUTIDE EVIDENCE MATURITY ASSESSMENT
 
-| Domain | Current maturity |
-|---|---|
-| Receptor pharmacology / mechanism | Strong primary foundation |
-| Early clinical pharmacology | Primary evidence captured |
-| Phase 2 obesity efficacy | Primary evidence captured |
-| Phase 2 type 2 diabetes efficacy | Primary evidence captured |
-| Body composition | Primary publication identified; detailed extraction pending |
-| Phase 3 obesity efficacy | Sponsor topline captured; peer-reviewed full publication pending |
-| Phase 3 type 2 diabetes efficacy | Primary Lancet publication identified; direct full-text extraction pending |
-| Liver-fat / MASLD | Evidence lead; primary source capture incomplete |
-| Gastrointestinal safety | Established evidence domain |
-| Heart-rate signal | Primary phase 2 evidence captured |
-| Dysesthesia | Emerging late-stage signal; complete primary safety tables incomplete |
-| Long-term safety | Incomplete |
-| Regulatory assessment | Not yet captured |
-| Independent replication | Limited |
-| Post-approval evidence | Not applicable / not yet available in repository |
+## Domain maturity
 
-## Overall assessment
+| Domain | Evidence maturity | Source-closure status |
+|---|---|---|
+| Mechanism / receptor pharmacology | Strong primary foundation | Closed |
+| Early clinical pharmacology | Primary evidence captured | Closed |
+| Phase 2 obesity efficacy | Primary evidence captured | Core extraction closed |
+| Phase 2 type 2 diabetes | Primary evidence captured | Closed |
+| Body composition | Publication identity known | Open |
+| Phase 3 obesity efficacy | Sponsor topline captured | Topline closed; full publication open |
+| Phase 3 type 2 diabetes | Primary article identified | Extraction blocked |
+| TRIUMPH-4 obesity + knee OA | Evidence lead | Open |
+| Liver-fat / MASLD | Evidence lead | Open |
+| Gastrointestinal safety | Established evidence domain | Mixed-source closure |
+| Heart-rate signal | Primary phase 2 evidence captured | Closed for source |
+| Dysesthesia | Emerging late-stage signal | Primary source gap remains |
+| Long-term safety | Incomplete | Open |
+| Regulatory assessment | Not captured | Open |
+| Independent replication | Limited | Open |
 
-Retatrutide has a substantial and expanding evidence base.
+## Overall
 
-The asset is **not yet Platinum-certified** because important gaps remain in:
+Retatrutide has a substantial evidence base, but source closure remains incomplete across several important late-stage and substudy domains.
 
-- complete phase 3 primary-source extraction;
-- long-term safety;
-- regulatory assessment;
-- independent replication;
-- complete source capture for several substudies.
+## Certification rule
 
-## No-percentage rule
+Do not assign Platinum status while material evidence domains remain:
 
-Do not assign a headline completeness percentage until the Platinum Asset Standard has explicit weighted criteria and all required evidence domains can be scored reproducibly.
+- primary-source unresolved;
+- extraction blocked;
+- dependent only on sponsor toplines where full publication is required;
+- lacking long-term safety and regulatory review.

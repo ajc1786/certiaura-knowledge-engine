@@ -1,0 +1,9 @@
+Evidence ID,Evidence,Primary Source State,Primary Identifier,Direct Access,Quantitative Extraction,Closure State,Required Next Action
+CERT-EKS-000007,Discovery to clinical proof of concept,Primary source captured,DOI 10.1016/j.cmet.2022.07.013,Yes,Captured,CLOSED,Maintain / periodic review
+CERT-EKS-000008,Phase 2 obesity trial,Primary source captured,DOI 10.1056/NEJMoa2301972,Yes,Core extraction captured; formal certification review remains,CLOSED FOR CORE EXTRACTION,Complete formal certification review
+CERT-EKS-000009,Phase 2 type 2 diabetes trial,Primary source captured,DOI 10.1016/S0140-6736(23)01053-X,Yes,Captured,CLOSED,Maintain / periodic review
+CERT-EKS-000010,Body composition substudy,Publication identity preserved,,No,No,OPEN — PRIMARY NOT CAPTURED,Capture direct primary page and DOI
+CERT-EKS-000011,TRIUMPH-1 phase 3 obesity,Primary sponsor topline captured,Sponsor-issued release,Yes,Topline extracted,CLOSED FOR TOPLINE / OPEN FOR FULL PUBLICATION,Add full peer-reviewed publication when available
+CERT-EKS-000012,Phase 3 type 2 diabetes,Primary publication identified,PII S0140-6736(26)00967-0,Blocked — HTTP 403,No direct full-text extraction,IDENTIFIED — EXTRACTION BLOCKED,Obtain direct full-text access and extract
+CERT-EKS-000013,TRIUMPH-4 obesity + knee osteoarthritis,Evidence lead only,,No,No primary extraction,OPEN — PRIMARY NOT CAPTURED,"Capture sponsor primary release, registry result or publication"
+CERT-EKS-000014,Liver-fat / MASLD substudy,Evidence lead only,,No,No primary extraction,OPEN — PRIMARY NOT CAPTURED,"Capture primary abstract, registry result or publication"

@@ -1,0 +1,26 @@
+{
+  "asset_id": "CERT-EKS-000012",
+  "asset_name": "Retatrutide Phase 3 Type 2 Diabetes Trial",
+  "knowledge_system": "EKS",
+  "asset_type": "Evidence Object",
+  "version": "1.1.0",
+  "status": "Primary publication identified; extraction blocked",
+  "last_review": "2026-07-14",
+  "primary_source": {
+    "journal": "The Lancet",
+    "pii": "S0140-6736(26)00967-0",
+    "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736%2826%2900967-0/fulltext"
+  },
+  "access_status": {
+    "direct_access_attempted": true,
+    "result": "HTTP 403 Forbidden during automated retrieval",
+    "full_text_extracted": false,
+    "closure_state": "IDENTIFIED \u2014 EXTRACTION BLOCKED"
+  },
+  "integrity_rules": [
+    "Primary publication identity is not equivalent to full-text extraction.",
+    "Secondary-reported quantitative values remain provisional until checked against the primary article.",
+    "The object must not be marked Closed until direct extraction is completed."
+  ],
+  "next_action": "Obtain direct full-text access and complete structured extraction."
+}

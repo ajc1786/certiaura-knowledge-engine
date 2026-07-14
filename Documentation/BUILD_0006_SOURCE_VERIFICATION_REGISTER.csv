@@ -1,0 +1,5 @@
+Evidence ID,Source,Identifier,Direct Retrieval Result,Closure State,Integrity Treatment
+CERT-EKS-000012,The Lancet primary article record,PII S0140-6736(26)00967-0,HTTP 403 Forbidden,IDENTIFIED — EXTRACTION BLOCKED,Preserve identity; do not claim full extraction
+CERT-EKS-000010,Body composition primary publication,,Direct primary source not captured,OPEN — PRIMARY NOT CAPTURED,No quantitative primary extraction
+CERT-EKS-000013,TRIUMPH-4 primary source,,Not captured,OPEN — PRIMARY NOT CAPTURED,Keep secondary reporting as evidence lead only
+CERT-EKS-000014,Liver-fat / MASLD primary source,,Not captured,OPEN — PRIMARY NOT CAPTURED,Do not promote precise quantitative claims
