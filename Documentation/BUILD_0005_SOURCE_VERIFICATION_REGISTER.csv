@@ -1,0 +1,4 @@
+Item,Source Type,Identifier / URL,Verification Status,Build 0005 Use
+Phase 3 Type 2 Diabetes Lancet publication,Primary journal record,PII S0140-6736(26)00967-0 | https://www.thelancet.com/journals/lancet/article/PIIS0140-6736%2826%2900967-0/fulltext,Primary record identified; full-text automated retrieval blocked,Upgrade CERT-EKS-000012 source-identification status
+Phase 3 Type 2 Diabetes results context,Contemporaneous reporting,Reuters 2026-03-19,Secondary context only,Retain provisional quantitative context pending primary extraction
+TRIUMPH-4 safety context,Contemporaneous reporting,Reuters 2025-12-11,Secondary evidence lead,Support provisional dysesthesia and discontinuation tracking only

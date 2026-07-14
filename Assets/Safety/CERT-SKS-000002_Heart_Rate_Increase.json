@@ -1,0 +1,33 @@
+{
+  "asset_id": "CERT-SKS-000002",
+  "asset_name": "Heart Rate Increase",
+  "knowledge_system": "SKS",
+  "asset_type": "Safety Knowledge Object",
+  "version": "1.0.0",
+  "status": "Primary evidence supported",
+  "owner": "Aidan Coleman",
+  "last_review": "2026-07-14",
+  "summary": "A dose-dependent heart-rate increase was reported in the phase 2 obesity trial, peaking around week 24 and declining thereafter.",
+  "evidence_links": [
+    "CERT-EKS-000008"
+  ],
+  "certainty_statement": "Established phase 2 signal; longer-term clinical significance remains under evaluation.",
+  "monitoring_link": "CERT-MKS-000006",
+  "relationships": [
+    {
+      "source": "CERT-PKS-000001",
+      "relationship": "HAS_SAFETY",
+      "target": "CERT-SKS-000002"
+    },
+    {
+      "source": "CERT-SKS-000002",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000008"
+    },
+    {
+      "source": "CERT-SKS-000002",
+      "relationship": "REQUIRES_MONITORING",
+      "target": "CERT-MKS-000006"
+    }
+  ]
+}

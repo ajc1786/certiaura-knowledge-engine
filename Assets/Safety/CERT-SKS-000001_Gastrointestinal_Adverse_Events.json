@@ -1,0 +1,51 @@
+{
+  "asset_id": "CERT-SKS-000001",
+  "asset_name": "Gastrointestinal Adverse Events",
+  "knowledge_system": "SKS",
+  "asset_type": "Safety Knowledge Object",
+  "version": "1.0.0",
+  "status": "Primary evidence supported",
+  "owner": "Aidan Coleman",
+  "last_review": "2026-07-14",
+  "summary": "Nausea, diarrhoea, vomiting and other gastrointestinal adverse events recur across the Retatrutide clinical programme. Frequency and burden remain dose-, escalation- and study-specific.",
+  "evidence_links": [
+    "CERT-EKS-000008",
+    "CERT-EKS-000009",
+    "CERT-EKS-000012",
+    "CERT-EKS-000013"
+  ],
+  "certainty_statement": "Established safety domain; exact incidence must remain study-specific.",
+  "monitoring_link": "CERT-MKS-000007",
+  "relationships": [
+    {
+      "source": "CERT-PKS-000001",
+      "relationship": "HAS_SAFETY",
+      "target": "CERT-SKS-000001"
+    },
+    {
+      "source": "CERT-SKS-000001",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000008"
+    },
+    {
+      "source": "CERT-SKS-000001",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000009"
+    },
+    {
+      "source": "CERT-SKS-000001",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000012"
+    },
+    {
+      "source": "CERT-SKS-000001",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000013"
+    },
+    {
+      "source": "CERT-SKS-000001",
+      "relationship": "REQUIRES_MONITORING",
+      "target": "CERT-MKS-000007"
+    }
+  ]
+}

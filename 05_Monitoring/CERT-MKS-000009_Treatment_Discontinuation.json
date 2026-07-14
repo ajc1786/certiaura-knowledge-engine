@@ -1,0 +1,17 @@
+{
+  "asset_id": "CERT-MKS-000009",
+  "asset_name": "Treatment Discontinuation",
+  "knowledge_system": "MKS",
+  "asset_type": "Monitoring Knowledge Object",
+  "version": "1.0.0",
+  "status": "Evidence-linked monitoring asset",
+  "owner": "Aidan Coleman",
+  "last_review": "2026-07-14",
+  "purpose": "Track whether and why participants discontinue treatment, including adverse events and tolerability.",
+  "linked_asset": "CERT-SKS-000004",
+  "evidence_links": [
+    "CERT-EKS-000008",
+    "CERT-EKS-000009",
+    "CERT-EKS-000013"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "asset_id": "CERT-MKS-000010",
+  "asset_name": "Body Composition",
+  "knowledge_system": "MKS",
+  "asset_type": "Monitoring Knowledge Object",
+  "version": "1.0.0",
+  "status": "Evidence-linked monitoring asset",
+  "owner": "Aidan Coleman",
+  "last_review": "2026-07-14",
+  "purpose": "Track fat mass, lean mass and the composition of total weight change when measured.",
+  "linked_asset": "CERT-EKS-000010",
+  "evidence_links": [
+    "CERT-EKS-000010"
+  ]
+}

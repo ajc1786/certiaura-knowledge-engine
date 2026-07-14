@@ -1,9 +1,9 @@
-Evidence ID,Title,Tier,Status,Primary Source Captured,Next Action
-CERT-EKS-000007,Discovery to Clinical Proof of Concept,A,Captured,Yes,Maintain
-CERT-EKS-000008,Phase 2 Obesity Trial,A,Captured,Yes / certification review remains open,Formal line-by-line certification
-CERT-EKS-000009,Phase 2 Type 2 Diabetes Trial,A,Captured,Yes,Maintain
-CERT-EKS-000010,Body Composition Substudy,A,Publication identified,No direct page,Capture DOI/full primary publication
-CERT-EKS-000011,TRIUMPH-1 Phase 3 Obesity Topline,B,Sponsor topline captured,Yes,Replace/augment with peer-reviewed publication
-CERT-EKS-000012,Phase 3 Type 2 Diabetes Topline,C,Evidence lead,No,Capture sponsor/registry/publication
-CERT-EKS-000013,TRIUMPH-4 Obesity + Knee OA,C,Evidence lead,No,Capture sponsor/registry/publication
-CERT-EKS-000014,Liver-Fat / MASLD Substudy,C,Evidence lead,No,Capture abstract/publication
+Evidence ID,Title,Source Status,Primary Identifier,Direct Full Text Captured,Next Action
+CERT-EKS-000007,Discovery to Clinical Proof of Concept,Primary captured,DOI 10.1016/j.cmet.2022.07.013,Yes,Maintain
+CERT-EKS-000008,Phase 2 Obesity Trial,Primary captured,DOI 10.1056/NEJMoa2301972,Certification review open,Complete formal certification
+CERT-EKS-000009,Phase 2 Type 2 Diabetes Trial,Primary captured,DOI 10.1016/S0140-6736(23)01053-X,Yes,Maintain
+CERT-EKS-000010,Body Composition Substudy,Primary publication identified,,No,Capture primary page and DOI
+CERT-EKS-000011,TRIUMPH-1 Phase 3 Obesity,Primary sponsor topline,Sponsor release,Yes,Replace/augment with full publication
+CERT-EKS-000012,Phase 3 Type 2 Diabetes,Primary Lancet publication identified,PII S0140-6736(26)00967-0,No,Direct full-text extraction
+CERT-EKS-000013,TRIUMPH-4 Obesity + Knee OA,Evidence lead,Secondary report,No,Capture primary source
+CERT-EKS-000014,Liver-Fat / MASLD Substudy,Evidence lead,Secondary report,No,Capture primary source

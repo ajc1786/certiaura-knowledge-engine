@@ -1,19 +1,17 @@
 # PRESERVATION GAP REGISTER
 
-## Current Retatrutide evidence gaps
-
-| Gap | Status | Required action |
+| Gap | Current status | Required action |
 |---|---|---|
-| Body composition DOI/full primary page | Open | Capture primary publication directly |
-| Phase 3 T2D primary source | Open | Capture sponsor release, registry results or publication |
-| TRIUMPH-4 primary source | Open | Capture sponsor release, registry results or publication |
-| Liver-fat / MASLD primary source | Open | Capture primary abstract or publication |
-| Long-term safety | Open | Continue longitudinal evidence capture |
-| Regulatory review | Not yet available / not captured | Add when applicable |
-| Full phase 3 peer-reviewed publications | Incomplete | Replace/augment topline objects when published |
+| Phase 3 T2D Lancet article | Primary record identified; full text not extracted | Direct article extraction |
+| Body-composition publication | Publication identified; DOI/full page not captured | Capture primary page |
+| TRIUMPH-4 | Primary source not captured | Capture sponsor release, registry or publication |
+| Liver-fat / MASLD | Primary source not captured | Capture abstract or publication |
+| Long-term safety | Incomplete | Continue evidence capture |
+| Regulatory assessment | Not captured | Add when available |
+| Independent replication | Limited | Track external studies |
 
 ## Rule
 
-A source gap must remain visible.
+A source gap stays visible until resolved.
 
-Do not fill it by copying unsupported numbers from lower-tier sources into a higher-tier Evidence Object.
+Do not substitute confidence for evidence.

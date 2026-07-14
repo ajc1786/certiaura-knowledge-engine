@@ -1,0 +1,18 @@
+{
+  "asset_id": "CERT-MKS-000007",
+  "asset_name": "Gastrointestinal Tolerability",
+  "knowledge_system": "MKS",
+  "asset_type": "Monitoring Knowledge Object",
+  "version": "1.0.0",
+  "status": "Evidence-linked monitoring asset",
+  "owner": "Aidan Coleman",
+  "last_review": "2026-07-14",
+  "purpose": "Track gastrointestinal symptom burden, severity, persistence and effect on treatment continuation.",
+  "linked_asset": "CERT-SKS-000001",
+  "evidence_links": [
+    "CERT-EKS-000008",
+    "CERT-EKS-000009",
+    "CERT-EKS-000012",
+    "CERT-EKS-000013"
+  ]
+}

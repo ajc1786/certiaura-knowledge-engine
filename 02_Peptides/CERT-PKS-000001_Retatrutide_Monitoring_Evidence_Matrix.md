@@ -1,27 +1,20 @@
 # CERT-PKS-000001 — RETATRUTIDE MONITORING EVIDENCE MATRIX
 
-## Established monitoring assets
-
-| Monitoring domain | Asset | Evidence basis |
+| Monitoring domain | Asset | Evidence relationship |
 |---|---|---|
-| HbA1c | CERT-MKS-000001 | Phase 2 T2D primary endpoint and later-stage evidence lead |
-| Body weight | CERT-MKS-000003 | Core efficacy measure across phase 2 and phase 3 programmes |
-
-## Additional monitoring concepts requiring formal asset allocation
-
-| Monitoring concept | Why it matters | Evidence source |
-|---|---|---|
-| Heart rate | Dose-dependent increase reported in phase 2 obesity trial | CERT-EKS-000008 |
-| Gastrointestinal tolerability | Nausea, diarrhoea, vomiting and constipation recur across trials | CERT-EKS-000008, 000009, 000012, 000013 |
-| Dysesthesia / abnormal skin sensation | Emerging late-stage signal | CERT-EKS-000013 and later TRIUMPH-1 safety reporting |
-| Treatment discontinuation | Important measure of real tolerability | CERT-EKS-000013 |
-| Body composition | Needed to distinguish fat-mass and lean-mass change | CERT-EKS-000010 |
-| Liver fat | Potential MASLD relevance | CERT-EKS-000014 |
-| Waist circumference | Cardiometabolic outcome in TRIUMPH-1 | CERT-EKS-000011 |
-| Lipids / blood pressure / inflammatory markers | Cardiometabolic outcome tracking | CERT-EKS-000011 |
+| HbA1c | CERT-MKS-000001 | Phase 2 and phase 3 T2D programme |
+| Fasting plasma glucose | CERT-MKS-000002 | Metabolic monitoring context |
+| Body weight | CERT-MKS-000003 | Core obesity and diabetes efficacy outcome |
+| Fasting insulin | CERT-MKS-000004 | Metabolic monitoring context |
+| HOMA-IR | CERT-MKS-000005 | Insulin-resistance context |
+| Heart rate | CERT-MKS-000006 | Phase 2 obesity safety signal |
+| Gastrointestinal tolerability | CERT-MKS-000007 | Recurring adverse-event domain |
+| Dysesthesia / abnormal skin sensation | CERT-MKS-000008 | Emerging late-stage safety signal |
+| Treatment discontinuation | CERT-MKS-000009 | Cross-study tolerability outcome |
+| Body composition | CERT-MKS-000010 | Identified body-composition substudy |
 
 ## Rule
 
-This matrix identifies evidence-supported monitoring domains.
+A monitoring asset records what the evidence indicates should be observed.
 
-It does not automatically create new permanent MKS identifiers. New IDs should be allocated through the established asset-control process.
+It does not automatically define a universal frequency, threshold or clinical intervention.

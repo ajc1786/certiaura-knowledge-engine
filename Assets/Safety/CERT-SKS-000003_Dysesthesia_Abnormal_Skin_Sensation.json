@@ -1,0 +1,39 @@
+{
+  "asset_id": "CERT-SKS-000003",
+  "asset_name": "Dysesthesia / Abnormal Skin Sensation",
+  "knowledge_system": "SKS",
+  "asset_type": "Safety Knowledge Object",
+  "version": "1.0.0",
+  "status": "Emerging late-stage safety signal",
+  "owner": "Aidan Coleman",
+  "last_review": "2026-07-14",
+  "summary": "Dysesthesia has emerged in late-stage reporting. The canonical signal remains provisional until complete primary trial safety data are captured.",
+  "evidence_links": [
+    "CERT-EKS-000013",
+    "CERT-EKS-000011"
+  ],
+  "certainty_statement": "Emerging signal; source tier and study context must be preserved.",
+  "monitoring_link": "CERT-MKS-000008",
+  "relationships": [
+    {
+      "source": "CERT-PKS-000001",
+      "relationship": "HAS_SAFETY",
+      "target": "CERT-SKS-000003"
+    },
+    {
+      "source": "CERT-SKS-000003",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000013"
+    },
+    {
+      "source": "CERT-SKS-000003",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000011"
+    },
+    {
+      "source": "CERT-SKS-000003",
+      "relationship": "REQUIRES_MONITORING",
+      "target": "CERT-MKS-000008"
+    }
+  ]
+}

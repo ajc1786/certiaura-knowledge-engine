@@ -1,0 +1,33 @@
+{
+  "asset_id": "CERT-SKS-000005",
+  "asset_name": "Hypoglycaemia Context",
+  "knowledge_system": "SKS",
+  "asset_type": "Safety Knowledge Object",
+  "version": "1.0.0",
+  "status": "Primary evidence contextual asset",
+  "owner": "Aidan Coleman",
+  "last_review": "2026-07-14",
+  "summary": "No severe hypoglycaemia was reported in the phase 2 type 2 diabetes trial represented by CERT-EKS-000009. This does not prove zero risk in all populations or treatment combinations.",
+  "evidence_links": [
+    "CERT-EKS-000009"
+  ],
+  "certainty_statement": "Context-specific evidence only.",
+  "monitoring_link": "CERT-MKS-000001",
+  "relationships": [
+    {
+      "source": "CERT-PKS-000001",
+      "relationship": "HAS_SAFETY",
+      "target": "CERT-SKS-000005"
+    },
+    {
+      "source": "CERT-SKS-000005",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000009"
+    },
+    {
+      "source": "CERT-SKS-000005",
+      "relationship": "REQUIRES_MONITORING",
+      "target": "CERT-MKS-000001"
+    }
+  ]
+}
