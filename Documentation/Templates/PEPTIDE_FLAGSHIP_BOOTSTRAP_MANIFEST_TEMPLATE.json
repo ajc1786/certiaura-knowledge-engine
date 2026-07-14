@@ -1,0 +1,28 @@
+{
+  "template_version": "1.0.0",
+  "peptide_uai": "{{PEPTIDE_UAI}}",
+  "peptide_name": "{{PEPTIDE_NAME}}",
+  "build_number": "{{BUILD_NUMBER}}",
+  "build_date": "{{BUILD_DATE}}",
+  "owner": "{{OWNER}}",
+  "files_to_create": [
+    "Flagship Knowledge Asset Markdown",
+    "Flagship Knowledge Asset JSON",
+    "Executive Summary",
+    "Module Assembly Map",
+    "Claim Control Matrix",
+    "Certification Gap Register",
+    "User Layer Map",
+    "Evidence-to-Module Map",
+    "Knowledge Graph",
+    "Evidence Index",
+    "Safety Evidence Matrix",
+    "Monitoring Evidence Matrix"
+  ],
+  "canonical_dependencies": {
+    "evidence_standard": "Existing EKS specifications and templates",
+    "source_closure_standard": "Existing Primary Source Closure Standard",
+    "relationship_standard": "Existing UARS / URE direction",
+    "governance": "Existing Certiaura governance and continuity baseline"
+  }
+}

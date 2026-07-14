@@ -1,0 +1,22 @@
+{
+  "root_asset": "{{PEPTIDE_UAI}}",
+  "asset_name": "{{PEPTIDE_NAME}}",
+  "version": "{{ASSET_VERSION}}",
+  "edges": [
+    {
+      "source": "{{PEPTIDE_UAI}}",
+      "relationship": "HAS_EVIDENCE",
+      "target": "{{EVIDENCE_UAI}}"
+    },
+    {
+      "source": "{{PEPTIDE_UAI}}",
+      "relationship": "HAS_SAFETY",
+      "target": "{{SAFETY_UAI}}"
+    },
+    {
+      "source": "{{PEPTIDE_UAI}}",
+      "relationship": "HAS_MONITORING",
+      "target": "{{MONITORING_UAI}}"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 # CERTIAURA PRODUCTION DASHBOARD
 
-**Build:** 0007  
+**Build:** 0008  
 **Date:** 2026-07-14
 
 ## Current flagship
@@ -9,41 +9,52 @@
 
 **Status:** Consolidated — Not Platinum Certified
 
-## Build 0007 outputs
+## Build 0008 status
 
-- Flagship Knowledge Asset Markdown
-- Flagship Knowledge Asset JSON
-- Executive Summary
-- Module Assembly Map
-- Claim Control Matrix
-- Certification Gap Register
-- User Layer Map
-- Evidence-to-Module Map
-- Knowledge Graph
-- Cross-System Integration Map
-- Safety Asset Index
-- Monitoring Asset Index
-- Flagship Synthesis Report
-- Assembly Validation Report
-- Updated Asset Register
-- Updated Gap Register
-- Updated Change Log
+**Reusable Peptide Flagship Template:** Ready for import
 
-## Evidence source-closure position
+## Build 0008 outputs
 
-- Closed: CERT-EKS-000007, CERT-EKS-000009
-- Core extraction closed: CERT-EKS-000008
-- Sponsor topline closed / full publication open: CERT-EKS-000011
-- Identified / extraction blocked: CERT-EKS-000012
-- Open primary-source gaps: CERT-EKS-000010, CERT-EKS-000013, CERT-EKS-000014
+- Peptide Flagship Bootstrap Workflow
+- Template Token Standard
+- Flagship Knowledge Asset Markdown template
+- Flagship Knowledge Asset JSON template
+- Executive Summary template
+- Module Assembly Map template
+- Claim Control Matrix Markdown and CSV templates
+- Certification Gap Register template
+- User Layer Map template
+- Evidence-to-Module Map template
+- Knowledge Graph template
+- Evidence Index template
+- Safety Evidence Matrix template
+- Monitoring Evidence Matrix template
+- Primary Source Closure Register template
+- Production Quality Gate
+- Bootstrap Manifest template
+- Filename Pattern Reference
+- Template Validation Report
 
-## Current production decision
+## Formal asset count
 
-The Retatrutide asset is now sufficiently consolidated to function as a coherent flagship reference.
+No new formal UAI is allocated by Build 0008.
 
-The next work should be selected from two production paths:
+## Production impact
 
-1. **Source closure:** continue resolving the remaining high-value Retatrutide evidence gaps.
-2. **Reusable platform production:** use the Retatrutide flagship as the template for the next peptide asset.
+The Retatrutide architecture can now be reused without rebuilding the structure from scratch.
 
-No new governance layer is required.
+## Next production step
+
+Select the next peptide from the existing backlog and allocate its permanent UAI through the established asset-control process before creating its bootstrap build.
+
+Existing backlog includes:
+
+- BPC-157
+- Tesamorelin
+- CJC-1295
+- Ipamorelin
+- MOTS-c
+- GHK-Cu
+- Thymosin Beta-4 / TB-500
+- Melanotan II
+- Epitalon

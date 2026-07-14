@@ -1,0 +1,16 @@
+{
+  "asset_id": "{{PEPTIDE_UAI}}",
+  "asset_name": "{{PEPTIDE_NAME}}",
+  "version": "{{ASSET_VERSION}}",
+  "modules": {
+    "mechanism": [],
+    "pharmacology": [],
+    "efficacy_or_outcomes": [],
+    "safety": [],
+    "monitoring": [],
+    "conditions": [],
+    "goals": [],
+    "cost_intelligence": [],
+    "product_passports": []
+  }
+}

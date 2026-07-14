@@ -1,0 +1,33 @@
+{
+  "asset_id": "{{PEPTIDE_UAI}}",
+  "asset_name": "{{PEPTIDE_NAME}}",
+  "knowledge_system": "PKS",
+  "asset_type": "Flagship Peptide Knowledge Asset",
+  "version": "{{ASSET_VERSION}}",
+  "status": "{{STATUS}}",
+  "owner": "{{OWNER}}",
+  "last_review": "{{BUILD_DATE}}",
+  "identity": {
+    "canonical_name": "{{PEPTIDE_NAME}}",
+    "development_code": "{{DEVELOPMENT_CODE}}"
+  },
+  "plain_english_summary": "{{PLAIN_ENGLISH_SUMMARY}}",
+  "mechanism_summary": "{{MECHANISM_SUMMARY}}",
+  "evidence_links": [],
+  "safety_links": [],
+  "monitoring_links": [],
+  "condition_links": [],
+  "goal_links": [],
+  "controlled_claims": [],
+  "commercial_integration": {
+    "cost_intelligence": "Link canonical CIS assets when available.",
+    "product_passport": "Link validated PPS assets only.",
+    "marketplace": "Preserve evidence, quality and legal/regulatory controls."
+  },
+  "certification_status": {
+    "platinum_certified": false,
+    "blocking_domains": [],
+    "headline_completion_percentage": null,
+    "reason_no_percentage": "Do not assign a headline percentage until weighted criteria are reproducible."
+  }
+}

@@ -1,37 +1,42 @@
 # CERTIAURA CHANGE LOG
 
-## Build 0007 — Retatrutide Flagship Knowledge Asset Consolidation
+## Build 0008 — Reusable Peptide Flagship Template
 **Date:** 2026-07-14
 
 Added:
 
-- CERT-PKS-000001 Retatrutide Flagship Knowledge Asset Markdown.
-- CERT-PKS-000001 Retatrutide Flagship Knowledge Asset JSON.
-- Retatrutide Executive Summary.
-- Retatrutide Module Assembly Map.
-- Retatrutide Claim Control Matrix.
-- Retatrutide Certification Gap Register.
-- Retatrutide User Layer Map.
-- Retatrutide Evidence-to-Module Map.
-- Retatrutide Knowledge Graph.
-- Retatrutide Cross-System Integration Map.
-- Retatrutide Safety Asset Index.
-- Retatrutide Monitoring Asset Index.
-- Retatrutide Flagship Synthesis Report.
-- Build 0007 Assembly Validation Report.
+- Reusable Peptide Flagship Bootstrap Workflow.
+- Template Token Standard.
+- Flagship Knowledge Asset Markdown template.
+- Flagship Knowledge Asset JSON template.
+- Executive Summary template.
+- Module Assembly Map template.
+- Claim Control Matrix Markdown and CSV templates.
+- Certification Gap Register template.
+- User Layer Map template.
+- Evidence-to-Module Map template.
+- Knowledge Graph template.
+- Evidence Index template.
+- Safety Evidence Matrix template.
+- Monitoring Evidence Matrix template.
+- Primary Source Closure Register template.
+- Primary Source Closure Guide.
+- Peptide Flagship Production Quality Gate.
+- Bootstrap Manifest template.
+- Filename Pattern Reference.
+- Build 0008 Template Validation Report.
 - Updated Production Dashboard.
-- Updated Preservation Gap Register.
-- Updated Master Asset Register.
 
 Key outcome:
 
-`CERT-PKS-000001 — Retatrutide`
+The proven Retatrutide flagship structure is now reusable for future peptide production.
 
-is now:
+No new peptide identifier was allocated.
 
-**Consolidated — Not Platinum Certified**
+No new governance layer was created.
 
-No unresolved evidence was silently upgraded.
+## Build 0007
+- Consolidated CERT-PKS-000001 Retatrutide into the first flagship knowledge asset.
 
 ## Build 0006
 - Added primary-source closure standard and integrity gate.
