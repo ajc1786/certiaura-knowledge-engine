@@ -1,0 +1,65 @@
+{
+  "asset_id": "CERT-EKS-000007",
+  "asset_name": "Retatrutide Discovery to Clinical Proof of Concept",
+  "knowledge_system": "EKS",
+  "asset_type": "Evidence Object",
+  "version": "1.0.0",
+  "status": "Evidence Captured",
+  "owner": "Aidan Coleman",
+  "last_review": "2026-07-14",
+  "study": {
+    "citation": "Coskun T, Urva S, Roell WC, et al. LY3437943, a novel triple glucagon, GIP, and GLP-1 receptor agonist for glycemic control and weight loss: From discovery to clinical proof of concept. Cell Metabolism. 2022;34(9):1234-1247.e9.",
+    "doi": "10.1016/j.cmet.2022.07.013",
+    "url": "https://doi.org/10.1016/j.cmet.2022.07.013",
+    "publication_type": "Clinical and Translational Report",
+    "publication_year": 2022
+  },
+  "design": {
+    "scope": "Preclinical pharmacology plus first-in-human phase 1 single-ascending-dose evidence",
+    "human_stage": "Phase 1",
+    "randomized_controlled": true,
+    "primary_purpose": "Mechanistic characterisation, safety/tolerability, pharmacokinetics and early proof of concept"
+  },
+  "key_findings": [
+    "LY3437943 (retatrutide) demonstrated agonist activity at glucagon, GIP and GLP-1 receptors.",
+    "Preclinical experiments linked glucagon receptor activity to increased energy expenditure in the model studied.",
+    "The phase 1 clinical component reported a pharmacokinetic profile compatible with once-weekly dosing.",
+    "The paper reported body-weight reduction persisting through day 43 after a single dose in the phase 1 study."
+  ],
+  "limitations": [
+    "The human clinical evidence was early phase and not designed to establish long-term efficacy.",
+    "Much of the mechanistic evidence was preclinical and should not be treated as direct proof of long-term human clinical outcomes.",
+    "The publication includes authors affiliated with the developer, Eli Lilly and Company."
+  ],
+  "relationships": [
+    {
+      "source": "CERT-PKS-000001",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000007",
+      "strength": "Direct primary source"
+    },
+    {
+      "source": "CERT-EKS-000007",
+      "relationship": "RELATED_TO",
+      "target": "CERT-BKS-000010",
+      "strength": "Mechanistic"
+    },
+    {
+      "source": "CERT-EKS-000007",
+      "relationship": "RELATED_TO",
+      "target": "CERT-BKS-000011",
+      "strength": "Mechanistic"
+    },
+    {
+      "source": "CERT-EKS-000007",
+      "relationship": "RELATED_TO",
+      "target": "CERT-BKS-000012",
+      "strength": "Mechanistic"
+    }
+  ],
+  "source_verification": {
+    "primary_source": true,
+    "source_accessed": true,
+    "verification_note": "Primary journal article page reviewed for title, authors, DOI, study scope, highlights and summary."
+  }
+}

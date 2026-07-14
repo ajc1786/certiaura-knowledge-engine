@@ -1,0 +1,82 @@
+{
+  "asset_id": "CERT-EKS-000008",
+  "asset_name": "Retatrutide Phase 2 Obesity Trial",
+  "knowledge_system": "EKS",
+  "asset_type": "Evidence Object",
+  "version": "1.0.0",
+  "status": "Evidence Captured",
+  "owner": "Aidan Coleman",
+  "last_review": "2026-07-14",
+  "study": {
+    "citation": "Jastreboff AM, Kaplan LM, Frias JP, et al. Triple-Hormone-Receptor Agonist Retatrutide for Obesity \u2014 A Phase 2 Trial. New England Journal of Medicine. 2023.",
+    "doi": "10.1056/NEJMoa2301972",
+    "url": "https://doi.org/10.1056/NEJMoa2301972",
+    "clinicaltrials_id": "NCT04881760",
+    "registry_url": "https://clinicaltrials.gov/study/NCT04881760",
+    "publication_type": "Phase 2 randomized controlled trial",
+    "publication_year": 2023
+  },
+  "design": {
+    "phase": "2",
+    "randomized": true,
+    "double_blind": true,
+    "placebo_controlled": true,
+    "duration_weeks": 48,
+    "participants": 338,
+    "population": "Adults with obesity, or overweight with at least one weight-related condition, without diabetes"
+  },
+  "key_findings": [
+    "Weight reduction was dose dependent.",
+    "At 24 weeks, the highest-dose groups produced mean weight reductions around 17%.",
+    "At 48 weeks, the 12 mg group had a mean body-weight reduction of 24.2%, compared with 2.1% with placebo.",
+    "Weight loss had not clearly plateaued by week 48 in the higher-dose groups."
+  ],
+  "safety": [
+    "The most frequent adverse events were gastrointestinal.",
+    "Adverse events were generally described as mild to moderate and were more common during dose escalation.",
+    "Heart rate increased in a dose-dependent manner, peaked around week 24, and then declined thereafter."
+  ],
+  "limitations": [
+    "Phase 2 dose-ranging trial rather than confirmatory phase 3 evidence.",
+    "Duration was 48 weeks; longer-term benefit-risk balance requires longer follow-up.",
+    "The trial excluded people with diabetes, limiting direct generalisation to that population.",
+    "Sponsor involvement and author conflicts should be considered when interpreting results."
+  ],
+  "relationships": [
+    {
+      "source": "CERT-PKS-000001",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000008",
+      "strength": "Direct primary trial"
+    },
+    {
+      "source": "CERT-EKS-000008",
+      "relationship": "HAS_CONDITION",
+      "target": "CERT-CKS-000001",
+      "strength": "Direct population"
+    },
+    {
+      "source": "CERT-EKS-000008",
+      "relationship": "SUPPORTS_GOAL",
+      "target": "CERT-GKS-000001",
+      "strength": "Direct outcome"
+    },
+    {
+      "source": "CERT-EKS-000008",
+      "relationship": "SUPPORTS_GOAL",
+      "target": "CERT-GKS-000003",
+      "strength": "Direct outcome"
+    },
+    {
+      "source": "CERT-EKS-000008",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000003",
+      "strength": "Primary efficacy outcome"
+    }
+  ],
+  "source_verification": {
+    "primary_source": true,
+    "source_accessed": "Persistent DOI and trial registry identifiers captured",
+    "verification_note": "Evidence Object records the primary NEJM publication and registered phase 2 trial. Detailed source extraction should be rechecked against the full publication during formal scientific review."
+  }
+}

@@ -1,30 +1,42 @@
 # CERTIAURA CHANGE LOG
 
+## Build 0003 — Retatrutide Evidence Layer
+**Date:** 2026-07-14
+
+Added:
+
+- `CERT-EKS-000007` — Retatrutide Discovery to Clinical Proof of Concept.
+- `CERT-EKS-000008` — Retatrutide Phase 2 Obesity Trial.
+- `CERT-EKS-000009` — Retatrutide Phase 2 Type 2 Diabetes Trial.
+- Markdown and JSON twins for each new Evidence Object.
+- Retatrutide Evidence Index.
+- Retatrutide Evidence Map CSV.
+- Updated Master Asset Register.
+- Updated Production Dashboard.
+
+Evidence principles applied:
+
+- Primary-source-first capture.
+- Persistent identifiers recorded.
+- Study design and population recorded.
+- Key outcomes separated from interpretation.
+- Limitations and sponsor context recorded.
+- No blanket scientific-completeness claim.
+
 ## Build 0002 — Preservation & Migration Baseline
 **Date:** 2026-07-14
 
-- Added comprehensive known-asset Master Asset Register baseline.
-- Added missing known asset skeletons.
-- Preserved peptide production backlog without inventing IDs.
-- Added Cost Intelligence™ locked requirements.
-- Added Product Passport™ locked requirements.
-- Added marketplace and commercial model locked reference.
-- Added canonical Knowledge Systems reference.
+- Preserved known formal asset IDs.
+- Added missing skeleton assets.
+- Added commercial requirement references.
 - Added Preservation Gap Register.
-- Updated Production Dashboard.
-- Updated Current State Baseline.
-- Updated machine-readable Reference Baseline.
-- Added Charter status amendment.
-- Added Project Genesis v1.2 current-state document.
+- Updated project baselines.
 
 ## Project Genesis v1.2
-- Commit & Push implemented and proven end-to-end.
+- Commit & Push implemented and proven.
 
 ## Project Genesis v1.1
 - Build Pack Import implemented and proven.
-
-## Repository Reference Baseline
-- Master reference and continuity documents stored.
 
 ## Build 0001
 - Initial repository scaffold and core asset baseline.

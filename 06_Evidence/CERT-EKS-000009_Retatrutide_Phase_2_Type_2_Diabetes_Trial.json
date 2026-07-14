@@ -1,0 +1,110 @@
+{
+  "asset_id": "CERT-EKS-000009",
+  "asset_name": "Retatrutide Phase 2 Type 2 Diabetes Trial",
+  "knowledge_system": "EKS",
+  "asset_type": "Evidence Object",
+  "version": "1.0.0",
+  "status": "Evidence Captured",
+  "owner": "Aidan Coleman",
+  "last_review": "2026-07-14",
+  "study": {
+    "citation": "Rosenstock J, Frias J, Jastreboff AM, et al. Retatrutide, a GIP, GLP-1 and glucagon receptor agonist, for people with type 2 diabetes: a randomised, double-blind, placebo and active-controlled, parallel-group, phase 2 trial conducted in the USA. The Lancet. 2023;402(10401):529-544.",
+    "doi": "10.1016/S0140-6736(23)01053-X",
+    "url": "https://doi.org/10.1016/S0140-6736(23)01053-X",
+    "clinicaltrials_id": "NCT04867785",
+    "registry_url": "https://clinicaltrials.gov/study/NCT04867785",
+    "publication_type": "Phase 2 randomized controlled trial",
+    "publication_year": 2023
+  },
+  "design": {
+    "phase": "2",
+    "randomized": true,
+    "double_blind": true,
+    "double_dummy": true,
+    "placebo_controlled": true,
+    "active_comparator": "Dulaglutide 1.5 mg",
+    "centres": 42,
+    "country": "USA",
+    "participants_randomized": 281,
+    "participants_efficacy_analysis": 275,
+    "duration_weeks": 36,
+    "primary_endpoint": "Change in HbA1c from baseline to week 24"
+  },
+  "population": {
+    "age_range_years": "18\u201375",
+    "condition": "Type 2 diabetes",
+    "hba1c_range_percent": "7.0\u201310.5",
+    "bmi_range_kg_m2": "25\u201350",
+    "background_treatment": "Diet and exercise alone or stable metformin"
+  },
+  "key_findings": {
+    "hba1c_week_24": {
+      "retatrutide_0_5_mg": "-0.43%",
+      "retatrutide_4_mg_escalation": "-1.39%",
+      "retatrutide_4_mg": "-1.30%",
+      "retatrutide_8_mg_slow_escalation": "-1.99%",
+      "retatrutide_8_mg_fast_escalation": "-1.88%",
+      "retatrutide_12_mg": "-2.02%",
+      "placebo": "-0.01%",
+      "dulaglutide_1_5_mg": "-1.41%"
+    },
+    "bodyweight_week_36": {
+      "retatrutide_0_5_mg": "-3.19%",
+      "retatrutide_4_mg_escalation": "-7.92%",
+      "retatrutide_4_mg": "-10.37%",
+      "retatrutide_8_mg_slow_escalation": "-16.81%",
+      "retatrutide_8_mg_fast_escalation": "-16.34%",
+      "retatrutide_12_mg": "-16.94%",
+      "placebo": "-3.00%",
+      "dulaglutide_1_5_mg": "-2.02%"
+    }
+  },
+  "safety": [
+    "Mild-to-moderate gastrointestinal adverse events were reported in 35% of participants across retatrutide groups.",
+    "No severe hypoglycaemia was reported.",
+    "No deaths occurred during the study."
+  ],
+  "limitations": [
+    "Phase 2 development evidence rather than confirmatory phase 3 evidence.",
+    "The trial lasted 36 weeks.",
+    "The active comparator was dulaglutide 1.5 mg, which affects cross-drug interpretation against other modern therapies.",
+    "The study was funded by Eli Lilly and Company."
+  ],
+  "relationships": [
+    {
+      "source": "CERT-PKS-000001",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000009",
+      "strength": "Direct primary trial"
+    },
+    {
+      "source": "CERT-EKS-000009",
+      "relationship": "HAS_CONDITION",
+      "target": "CERT-CKS-000002",
+      "strength": "Direct population"
+    },
+    {
+      "source": "CERT-EKS-000009",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000001",
+      "strength": "Primary endpoint"
+    },
+    {
+      "source": "CERT-EKS-000009",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000003",
+      "strength": "Secondary outcome"
+    },
+    {
+      "source": "CERT-EKS-000009",
+      "relationship": "SUPPORTS_GOAL",
+      "target": "CERT-GKS-000002",
+      "strength": "Direct cardiometabolic outcomes"
+    }
+  ],
+  "source_verification": {
+    "primary_source": true,
+    "source_accessed": true,
+    "verification_note": "Primary Lancet/ScienceDirect article page reviewed for study design, population, trial registration, efficacy, safety, funding and interpretation."
+  }
+}

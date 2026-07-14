@@ -1,0 +1,4 @@
+Evidence ID,Primary Asset,Study,Year,Stage,Population,Primary Source,DOI,Trial ID,Source Verified,Primary Contribution
+CERT-EKS-000007,CERT-PKS-000001,LY3437943 discovery to clinical proof of concept,2022,Preclinical + Phase 1,Preclinical models plus early human phase 1,Cell Metabolism,10.1016/j.cmet.2022.07.013,,Yes,"Mechanism, receptor pharmacology, PK rationale, early proof of concept"
+CERT-EKS-000008,CERT-PKS-000001,Triple-Hormone-Receptor Agonist Retatrutide for Obesity,2023,Phase 2,"Adults with obesity or overweight with weight-related condition, without diabetes",New England Journal of Medicine,10.1056/NEJMoa2301972,NCT04881760,Identifiers captured; full-text certification review pending,Dose-ranging obesity efficacy and safety
+CERT-EKS-000009,CERT-PKS-000001,Retatrutide for people with type 2 diabetes,2023,Phase 2,Adults with type 2 diabetes,The Lancet,10.1016/S0140-6736(23)01053-X,NCT04867785,Yes,"Glycaemic efficacy, weight outcomes and safety"
