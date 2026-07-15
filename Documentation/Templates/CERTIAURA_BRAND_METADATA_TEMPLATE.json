@@ -1,0 +1,12 @@
+{
+  "brand": "CertiAura",
+  "tagline": "EVIDENCE. CLARITY. CONFIDENCE.",
+  "brand_standard_version": "1.0.0",
+  "header_asset_light": "Assets/Brand/CertiAura_Logo_Light_UI.png",
+  "header_asset_dark": "Assets/Brand/CertiAura_Brand_Dark_Banner.png",
+  "footer_asset": "Assets/Brand/CertiAura_Footer_Mark.png",
+  "application_icon": "Assets/Brand/CertiAura_App_Icon_512.png",
+  "palette": "Assets/Brand/CertiAura_Brand_Palette.json",
+  "branding_required": true,
+  "unbranded_exception_reason": null
+}

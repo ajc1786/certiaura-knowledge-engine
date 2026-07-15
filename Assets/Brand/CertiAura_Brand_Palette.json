@@ -1,0 +1,29 @@
+{
+  "brand": "CertiAura",
+  "tagline": "EVIDENCE. CLARITY. CONFIDENCE.",
+  "version": "1.0.0",
+  "colors": {
+    "midnight_navy": "#071127",
+    "deep_navy": "#101B3F",
+    "slate_navy": "#24345F",
+    "electric_blue": "#168BFF",
+    "aura_cyan": "#00C8E8",
+    "aura_violet": "#8C62FF",
+    "soft_violet": "#B7A0FF",
+    "silver": "#CBD2E1",
+    "pearl": "#F8F9FD",
+    "white": "#FFFFFF",
+    "success": "#169B45",
+    "warning": "#C78600",
+    "error": "#C83A45"
+  },
+  "typography": {
+    "preferred_ui": "Segoe UI",
+    "preferred_document": "Aptos",
+    "fallback": [
+      "Arial",
+      "Helvetica",
+      "sans-serif"
+    ]
+  }
+}

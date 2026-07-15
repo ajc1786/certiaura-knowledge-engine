@@ -1,39 +1,24 @@
 # CERTIAURA PRODUCTION DASHBOARD
 
-**Build:** 0013  
+**Build:** 0014  
 **Date:** 2026-07-15
 
-## Regulatory & Status Intelligence
+## Branding integration
+**Status:** READY FOR INSTALLATION
 
-Universal framework: **ACTIVE**
+### Project Genesis
+- Branded launcher created
+- Header/footer runtime created
+- Windows icon created
+- Safe installer and restore utility created
+- Approved UI reference preserved
 
-## CERT-PKS-000001 — Retatrutide
+### Future templates
+Branding is now the locked default for peptide/compound templates, reports, printable outputs, Academy materials, Product Passport™ and Cost Intelligence™ outputs.
 
-**Regulatory module:** ACTIVE  
-**Overall regulatory position:** INVESTIGATIONAL / LATE-STAGE DEVELOPMENT — NO APPROVAL CLAIM MADE
-
-Monitoring:
-
-- FDA — ACTIVE
-- MHRA — ACTIVE
-- EMA / European Commission — ACTIVE
-- WADA — ACTIVE
-
-Open closure gaps:
-
-- direct asset-specific FDA authoritative status
-- direct asset-specific MHRA authoritative status
-- direct asset-specific EMA authoritative status
-- direct asset-specific WADA status
-
-## CERT-PKS-000002 — BPC-157
-
-Existing FDA regulatory condition watch remains active.
-
-## Next planned production task
-
-Return to the BPC-157 scientific production queue after the universal regulatory framework and Retatrutide backfill are operational.
-
-Highest-value BPC-157 task:
-
-**Primary-source closure of the remaining core preclinical evidence, prioritising tendon / ligament and preclinical safety sources.**
+## Installation sequence
+1. Import Build 0014.
+2. Commit and push.
+3. Close Project Genesis.
+4. Run `13_Project_Genesis/app/INSTALL_PROJECT_GENESIS_BRANDING.bat`.
+5. Reopen Project Genesis and verify the branded interface.

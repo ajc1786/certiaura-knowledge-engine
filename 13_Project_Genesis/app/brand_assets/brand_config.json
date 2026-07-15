@@ -1,0 +1,24 @@
+{
+  "brand_name": "CertiAura",
+  "product_name": "Project Genesis",
+  "application_title": "Project Genesis — CertiAura Repository Manager v1.2.0",
+  "tagline": "EVIDENCE. CLARITY. CONFIDENCE.",
+  "header_image": "CertiAura_Project_Genesis_Header.png",
+  "icon_png": "CertiAura_App_Icon_512.png",
+  "icon_ico": "CertiAura_Project_Genesis.ico",
+  "palette": {
+    "midnight_navy": "#071127",
+    "deep_navy": "#101B3F",
+    "slate_navy": "#24345F",
+    "electric_blue": "#168BFF",
+    "aura_cyan": "#00C8E8",
+    "aura_violet": "#8C62FF",
+    "soft_violet": "#B7A0FF",
+    "silver": "#CBD2E1",
+    "pearl": "#F8F9FD",
+    "white": "#FFFFFF",
+    "success": "#169B45",
+    "warning": "#C78600",
+    "error": "#C83A45"
+  }
+}

@@ -1,33 +1,10 @@
 # CERTIAURA CHANGE LOG
 
-## Build 0013 — Retatrutide Current Regulatory Status & Monitoring Activation
+## Build 0014 — Branding Integration for Project Genesis & Future Templates
 **Date:** 2026-07-15
 
-Added:
+Added the locked brand standard, canonical artwork, UI variants, app icon, branding runtime, safe installer, restore utility, approved interface reference, brand register, branded report/header templates and brand metadata.
 
-- Retatrutide Universal Regulatory Status Record v1.0.0.
-- Retatrutide Regulatory Status Matrix.
-- Retatrutide Regulatory Source Register.
-- Retatrutide Regulatory Review Trigger Register.
-- Retatrutide Regulatory Monitoring Specification.
-- Retatrutide Commercial Use Boundary.
-- Retatrutide Regulatory Claim Control Matrix.
-- Retatrutide Current Status Card.
-- Retatrutide Regulatory Status Module.
-- Build 0013 Source Verification Report.
+Updated the future Peptide Flagship Knowledge Asset template and Production Dashboard.
 
-Updated:
-
-- Universal Regulatory Status Master Register.
-- Production Dashboard.
-
-Key outcome:
-
-Retatrutide is no longer merely marked “regulatory review required.”
-
-It now has a dated active regulatory-status module and monitoring specification.
-
-No FDA, MHRA, EMA or WADA status is invented where direct authoritative asset-specific closure remains open.
-
-## Build 0012
-- Made regulatory and status intelligence universal across all peptides and compounds.
+No scientific, regulatory or certification status was changed.
