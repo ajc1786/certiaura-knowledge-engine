@@ -3,23 +3,26 @@
   "asset_name": "BPC-157 Vasomotor and eNOS Mechanistic Evidence",
   "knowledge_system": "EKS",
   "asset_type": "Evidence Object",
-  "version": "0.5.0",
-  "status": "PRIMARY PUBLICATION IDENTIFIED — DIRECT EXTRACTION PENDING",
+  "version": "0.8.0",
+  "status": "PRIMARY PUBLICATION IDENTITY CONFIRMED — DIRECT FULL-TEXT EXTRACTION OPEN",
   "owner": "Aidan Coleman",
-  "last_review": "2026-07-14",
-  "study": {
-    "publication_title": "Modulatory effects of BPC 157 on vasomotor tone and the activation of Src-Caveolin-1-endothelial nitric oxide synthase pathway",
+  "last_review": "2026-07-15",
+  "publication": {
+    "title": "Modulatory effects of BPC 157 on vasomotor tone and the activation of Src-Caveolin-1-endothelial nitric oxide synthase pathway",
     "journal": "Scientific Reports",
     "year": 2020,
-    "domain": "Vascular signalling / nitric oxide",
-    "model": "Preclinical mechanistic research",
-    "evidence_level": "Preclinical"
+    "doi": null
   },
-  "evidence_summary": "The publication identity supports investigation of vascular tone and Src–Caveolin-1–eNOS signalling.",
-  "limitations": [
-    "Mechanistic signalling evidence does not establish a therapeutic effect in humans.",
-    "Clinical relevance and long-term consequences remain unresolved."
+  "domain": "Vasomotor tone / Src–Caveolin-1–eNOS signalling",
+  "model": "Preclinical vascular and mechanistic experimental systems",
+  "direct_full_text_extraction_completed": false,
+  "permitted_summary": "The publication identity supports investigation of BPC-157 in vasomotor-tone and Src–Caveolin-1–eNOS signalling systems.",
+  "not_permitted": [
+    "Clinical cardiovascular benefit claims",
+    "Human vascular safety claims",
+    "Precise pathway or dose-response claims beyond directly extracted primary data"
   ],
+  "required_next_action": "Capture the full article and extract models, BPC-157 concentrations or doses, comparator conditions, vascular endpoints and pathway assays.",
   "relationships": [
     {
       "source": "CERT-PKS-000002",

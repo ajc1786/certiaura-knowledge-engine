@@ -1,19 +1,33 @@
 {
   "asset_id": "CERT-EKS-000019",
   "asset_name": "BPC-157 Preclinical Safety Evaluation",
-  "version": "0.6.0",
-  "status": "PRIMARY PUBLICATION IDENTIFIED — DIRECT EXTRACTION BLOCKED",
-  "last_review": "2026-07-14",
-  "primary_source": {
+  "knowledge_system": "EKS",
+  "asset_type": "Evidence Object",
+  "version": "0.9.0",
+  "status": "PRIMARY DOI CONFIRMED — DIRECT FULL-TEXT EXTRACTION OPEN",
+  "owner": "Aidan Coleman",
+  "last_review": "2026-07-15",
+  "publication": {
     "title": "Preclinical safety evaluation of body protective compound-157, a potential drug for treating various wounds",
     "journal": "Regulatory Toxicology and Pharmacology",
-    "volume": 114,
-    "article_number": "104665",
+    "year": 2020,
     "doi": "10.1016/j.yrtph.2020.104665"
   },
-  "appraisal": {
-    "evidence_level": "Preclinical toxicology",
-    "human_safety_inference": "Insufficient to establish long-term human safety",
-    "direct_quantitative_extraction": "Not completed"
-  }
+  "domain": "Preclinical toxicology",
+  "model": "Preclinical safety programme",
+  "direct_full_text_extraction_completed": false,
+  "permitted_summary": "A dedicated preclinical safety publication exists and its DOI is confirmed. It supports the existence of a formal animal toxicology evidence domain.",
+  "not_permitted": [
+    "Long-term human safety claims",
+    "Claims that a NOAEL or animal safety margin validates a human dose",
+    "Claims that grey-market products match the tested material"
+  ],
+  "required_next_action": "Obtain full text and extract species, study duration, dose levels, exposure margins, clinical observations, pathology and reported toxicity conclusions.",
+  "relationships": [
+    {
+      "source": "CERT-PKS-000002",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000019"
+    }
+  ]
 }

@@ -1,32 +1,48 @@
+<div align="center">
+
+<img src="../Assets/Brand/CertiAura_Brand_Master.png" alt="CertiAura — Evidence. Clarity. Confidence." width="700">
+
+</div>
+
+---
+
 # CERT-EKS-000018 — BPC-157 Vasomotor and eNOS Mechanistic Evidence
 
-**Version:** 0.5.0  
-**Status:** PRIMARY PUBLICATION IDENTIFIED — DIRECT EXTRACTION PENDING  
-**Evidence level:** Preclinical  
-**Last Review:** 2026-07-14
+**Status:** PRIMARY PUBLICATION IDENTITY CONFIRMED — DIRECT FULL-TEXT EXTRACTION OPEN  
+**Knowledge System:** EKS  
+**Last Review:** 2026-07-15
 
-## Publication identity
+## Primary publication identity
 
 **Title:** Modulatory effects of BPC 157 on vasomotor tone and the activation of Src-Caveolin-1-endothelial nitric oxide synthase pathway  
 **Journal:** Scientific Reports  
-**Year:** 2020
+**Year:** 2020  
 
 ## Domain
 
-Vascular signalling / nitric oxide
+Vasomotor tone / Src–Caveolin-1–eNOS signalling
 
-## Model / study type
+## Model
 
-Preclinical mechanistic research
+Preclinical vascular and mechanistic experimental systems
 
-## Evidence summary
+## Current permitted summary
 
-The publication identity supports investigation of vascular tone and Src–Caveolin-1–eNOS signalling.
+The publication identity supports investigation of BPC-157 in vasomotor-tone and Src–Caveolin-1–eNOS signalling systems.
 
-## Limitations
+## Direct extraction state
 
-- Mechanistic signalling evidence does not establish a therapeutic effect in humans.
-- Clinical relevance and long-term consequences remain unresolved.
+**Complete:** No
+
+## Not permitted
+
+- Clinical cardiovascular benefit claims
+- Human vascular safety claims
+- Precise pathway or dose-response claims beyond directly extracted primary data
+
+## Required next action
+
+Capture the full article and extract models, BPC-157 concentrations or doses, comparator conditions, vascular endpoints and pathway assays.
 
 ## Relationship
 
@@ -34,6 +50,4 @@ The publication identity supports investigation of vascular tone and Src–Caveo
 
 ## Integrity rule
 
-This Evidence Object records the current source and evidence status.
-
-It must not be silently upgraded beyond the underlying evidence design.
+Publication identity is not equivalent to completed quantitative extraction.

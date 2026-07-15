@@ -1,11 +1,11 @@
-Evidence ID,Domain,Closure State,Integrity Note,Next Action
-CERT-EKS-000015,Achilles tendon healing,OPEN,Primary identified; direct extraction incomplete,Capture primary
-CERT-EKS-000016,Tendon migration / outgrowth,IDENTIFIED — EXTRACTION BLOCKED,Publisher access blocked,Obtain primary
-CERT-EKS-000017,Ligament healing,OPEN,Primary identified,Capture primary
-CERT-EKS-000018,Vasomotor / eNOS,OPEN,Primary identified,Capture primary
-CERT-EKS-000019,Preclinical safety,IDENTIFIED — EXTRACTION BLOCKED,DOI confirmed,Obtain primary
-CERT-EKS-000020,PK / ADME,CLOSED FOR CORE EXTRACTION,Animal evidence only,Maintain
-CERT-EKS-000021,Human knee pain,APPRAISAL-CLOSED AT CURRENT ACCESS LEVEL / PRIMARY OPEN,Secondary outcome discrepancy logged,Obtain primary full text
-CERT-EKS-000022,Human interstitial cystitis,APPRAISAL-CLOSED AT CURRENT ACCESS LEVEL / PRIMARY OPEN,Pilot status preserved,Obtain primary full text
-CERT-EKS-000023,GHR signalling,CLOSED FOR CORE EXTRACTION,Preclinical mechanism,Maintain
-CERT-EKS-000024,VEGFR2 / angiogenesis,CLOSED FOR ABSTRACT / FULL TEXT OPEN,Primary abstract directly extracted,Obtain full text if needed
+Evidence ID,Domain,Primary Identity,Direct Full Text,Closure State,Permitted Use,Next Action
+CERT-EKS-000015,Achilles tendon,Confirmed,No,OPEN — FULL TEXT NOT EXTRACTED,Preclinical domain statement only,Capture complete primary article
+CERT-EKS-000016,Tendon migration / outgrowth,Confirmed,Blocked,IDENTIFIED — EXTRACTION BLOCKED,Preclinical mechanism statement only,Obtain access
+CERT-EKS-000017,Ligament healing,Confirmed,No,OPEN — FULL TEXT NOT EXTRACTED,Preclinical domain statement only,Capture complete primary article
+CERT-EKS-000018,Vasomotor / eNOS,Confirmed,No,OPEN — FULL TEXT NOT EXTRACTED,Mechanistic domain statement only,Capture complete primary article
+CERT-EKS-000019,Preclinical safety,DOI confirmed,No,OPEN — FULL TEXT NOT EXTRACTED,Existence of formal preclinical safety programme,Capture complete primary article
+CERT-EKS-000020,PK / ADME,Confirmed,Yes,CLOSED FOR CORE EXTRACTION,Animal PK / ADME claims,Maintain
+CERT-EKS-000021,Human knee pain,Confirmed,No,APPRAISAL-CLOSED AT CURRENT ACCESS / PRIMARY OPEN,Very-low-certainty evidence lead,Capture complete primary article
+CERT-EKS-000022,Human interstitial cystitis,Confirmed,No,APPRAISAL-CLOSED AT CURRENT ACCESS / PRIMARY OPEN,Very-low-certainty pilot lead,Capture complete primary article
+CERT-EKS-000023,GHR signalling,Confirmed,Yes,CLOSED FOR CORE EXTRACTION,Preclinical mechanism claims,Maintain
+CERT-EKS-000024,VEGFR2 / angiogenesis,Confirmed,Partial,CLOSED FOR ABSTRACT / FULL TEXT OPEN,Primary-abstract mechanism claims,Capture full article if required

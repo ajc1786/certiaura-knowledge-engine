@@ -1,0 +1,26 @@
+File,Size Bytes,Build
+02_Peptides/CERT-PKS-000002_BPC-157_Claim_Control_Matrix.md,1798,0015
+02_Peptides/CERT-PKS-000002_BPC-157_Evidence_Index.md,1530,0015
+02_Peptides/CERT-PKS-000002_BPC-157_Evidence_Maturity_Assessment.md,1183,0015
+02_Peptides/CERT-PKS-000002_BPC-157_Flagship_Bootstrap.json,1480,0015
+02_Peptides/CERT-PKS-000002_BPC-157_Flagship_Bootstrap.md,1243,0015
+02_Peptides/CERT-PKS-000002_BPC-157_Musculoskeletal_Evidence_Chain.md,1077,0015
+02_Peptides/CERT-PKS-000002_BPC-157_Preclinical_Safety_Translation_Matrix.md,1323,0015
+06_Evidence/BPC157_PRECLINICAL_SOURCE_CLOSURE_DECISION_LOG.md,1140,0015
+06_Evidence/BPC157_PRIMARY_SOURCE_CLOSURE_REGISTER.csv,1557,0015
+06_Evidence/CERT-EKS-000015_Achilles_Tendon_Healing_Preclinical_Evidence.json,1464,0015
+06_Evidence/CERT-EKS-000015_Achilles_Tendon_Healing_Preclinical_Evidence.md,1471,0015
+06_Evidence/CERT-EKS-000017_Ligament_Healing_Preclinical_Evidence.json,1287,0015
+06_Evidence/CERT-EKS-000017_Ligament_Healing_Preclinical_Evidence.md,1294,0015
+06_Evidence/CERT-EKS-000018_Vasomotor_and_eNOS_Mechanistic_Evidence.json,1424,0015
+06_Evidence/CERT-EKS-000018_Vasomotor_and_eNOS_Mechanistic_Evidence.md,1431,0015
+06_Evidence/CERT-EKS-000019_Preclinical_Safety_Evaluation.json,1411,0015
+06_Evidence/CERT-EKS-000019_Preclinical_Safety_Evaluation.md,1434,0015
+Assets/Brand/CertiAura_Brand_Master.png,2371046,0015
+Assets/Safety/CERT-SKS-000006_BPC-157_Human_Safety_Evidence_Insufficiency.md,860,0015
+Assets/Safety/CERT-SKS-000007_BPC-157_Long-Term_Angiogenic_Risk_Uncertainty.md,804,0015
+BUILD_0015_READ_ME.md,1597,0015
+Documentation/BUILD_0015_VALIDATION_REPORT.md,731,0015
+Documentation/CHANGELOG.md,1041,0015
+Documentation/Master_Asset_Register.csv,4963,0015
+Documentation/Production_Dashboard.md,1096,0015

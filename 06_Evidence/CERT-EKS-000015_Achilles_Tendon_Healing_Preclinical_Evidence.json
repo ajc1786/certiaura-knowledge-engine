@@ -3,23 +3,26 @@
   "asset_name": "BPC-157 Achilles Tendon Healing Preclinical Evidence",
   "knowledge_system": "EKS",
   "asset_type": "Evidence Object",
-  "version": "0.5.0",
-  "status": "PRIMARY PUBLICATION IDENTIFIED — DIRECT EXTRACTION PENDING",
+  "version": "0.8.0",
+  "status": "PRIMARY PUBLICATION IDENTITY CONFIRMED — FULL-TEXT EXTRACTION OPEN",
   "owner": "Aidan Coleman",
-  "last_review": "2026-07-14",
-  "study": {
-    "publication_title": "Gastric pentadecapeptide BPC 157 accelerates healing of transected rat Achilles tendon and in vitro stimulates tendocytes growth",
+  "last_review": "2026-07-15",
+  "publication": {
+    "title": "Gastric pentadecapeptide BPC 157 accelerates healing of transected rat Achilles tendon and in vitro stimulates tendocytes growth",
     "journal": "Journal of Orthopaedic Research",
     "year": 2003,
-    "domain": "Tendon healing",
-    "model": "Rat Achilles tendon injury plus in-vitro tendocyte work",
-    "evidence_level": "Preclinical"
+    "doi": null
   },
-  "evidence_summary": "Primary publication identity supports a preclinical tendon-healing research domain. Detailed quantitative extraction remains pending direct source capture.",
-  "limitations": [
-    "Animal and in-vitro evidence does not establish human efficacy.",
-    "Direct primary full-text extraction has not been completed in this build."
+  "domain": "Achilles tendon healing",
+  "model": "Rat transected Achilles tendon model with associated in-vitro tendocyte work",
+  "direct_full_text_extraction_completed": false,
+  "permitted_summary": "The primary publication identity supports a preclinical research domain involving a transected rat Achilles tendon model and in-vitro tendocyte experiments.",
+  "not_permitted": [
+    "Precise effect-size claims without direct primary extraction",
+    "Human tendon-healing efficacy claims",
+    "Validated human dose, route or treatment-cycle claims"
   ],
+  "required_next_action": "Obtain the complete primary article and extract design, animal numbers, dose groups, timing, biomechanics, histology and in-vitro methods.",
   "relationships": [
     {
       "source": "CERT-PKS-000002",

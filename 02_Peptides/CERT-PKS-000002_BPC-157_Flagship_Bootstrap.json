@@ -3,40 +3,47 @@
   "asset_name": "BPC-157",
   "knowledge_system": "PKS",
   "asset_type": "Peptide Knowledge Asset",
-  "version": "0.3.0",
-  "status": "Human Evidence Appraised / Regulatory Snapshot Added — Preclinical-Dominant — Not Platinum Certified",
+  "version": "0.4.0",
+  "status": "Preclinical Evidence Structured — Human Evidence Sparse — Not Platinum Certified",
   "owner": "Aidan Coleman",
-  "last_review": "2026-07-14",
-  "human_evidence": {
-    "CERT-EKS-000021": {
-      "domain": "Knee pain",
-      "evidence_weight": "Very low",
-      "primary_full_text_closed": false,
-      "secondary_outcome_discrepancy_logged": true
-    },
-    "CERT-EKS-000022": {
-      "domain": "Interstitial cystitis",
-      "evidence_weight": "Very low / unresolved",
-      "primary_full_text_closed": false
-    }
+  "last_review": "2026-07-15",
+  "branding": {
+    "brand": "CertiAura",
+    "tagline": "EVIDENCE. CLARITY. CONFIDENCE.",
+    "header_asset": "Assets/Brand/CertiAura_Brand_Master.png"
   },
-  "regulatory_snapshot": {
-    "date": "2026-07-14",
-    "united_states": {
-      "fda_approved": false,
-      "compounding_review": "Active",
-      "next_material_event": "2026-07-23 Pharmacy Compounding Advisory Committee review"
-    },
-    "united_kingdom": {
-      "bpc157_specific_marketing_authorisation_identified": false,
-      "commercial_route": "Dedicated legal / MHRA review required"
-    },
-    "wada": {
-      "prohibited": true,
-      "category": "S0 — Non-Approved Substances",
-      "direct_wada_page_extraction": "Blocked by site JavaScript / anti-bot layer"
-    }
+  "preclinical_source_closure": {
+    "closed_for_core_extraction": [
+      "CERT-EKS-000020",
+      "CERT-EKS-000023"
+    ],
+    "primary_abstract_extracted": [
+      "CERT-EKS-000024"
+    ],
+    "primary_identity_confirmed_full_text_open": [
+      "CERT-EKS-000015",
+      "CERT-EKS-000017",
+      "CERT-EKS-000018",
+      "CERT-EKS-000019"
+    ],
+    "access_blocked": [
+      "CERT-EKS-000016"
+    ]
+  },
+  "human_evidence": {
+    "CERT-EKS-000021": "Very low certainty; primary open",
+    "CERT-EKS-000022": "Very low / unresolved; primary open"
   },
   "validated_human_dosing_protocol": false,
-  "platinum_certified": false
+  "human_pharmacokinetics_established": false,
+  "long_term_human_safety_established": false,
+  "platinum_certified": false,
+  "principal_blockers": [
+    "Confirmatory human efficacy",
+    "Human pharmacokinetics",
+    "Long-term human safety",
+    "Direct full-text extraction of core preclinical papers",
+    "Direct methodological closure of human reports",
+    "Independent clinical replication"
+  ]
 }

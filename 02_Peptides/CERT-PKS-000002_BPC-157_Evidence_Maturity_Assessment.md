@@ -1,27 +1,33 @@
-# BPC-157 EVIDENCE MATURITY ASSESSMENT — BUILD 0011
+<div align="center">
 
-| Domain | Maturity |
+<img src="../Assets/Brand/CertiAura_Brand_Master.png" alt="CertiAura — Evidence. Clarity. Confidence." width="700">
+
+</div>
+
+---
+
+# BPC-157 EVIDENCE MATURITY ASSESSMENT — BUILD 0015
+
+| Domain | Current maturity |
 |---|---|
-| Preclinical biology | Developed |
 | Animal PK / ADME | Directly extracted |
-| Tendon / ligament research | Preclinical, partially source-closed |
-| GHR signalling | Directly extracted preclinical mechanism |
-| VEGFR2 / angiogenesis | Direct primary mechanistic evidence |
-| Human knee pain | Very low certainty |
-| Human interstitial cystitis | Very low / unresolved pilot evidence |
-| Confirmatory randomized human efficacy | Not established |
+| Tendon fibroblast GHR signalling | Directly extracted |
+| VEGFR2 / angiogenic signalling | Primary abstract extracted |
+| Achilles tendon injury | Publication identity confirmed; primary extraction open |
+| Ligament injury | Publication identity confirmed; primary extraction open |
+| Vasomotor / eNOS evidence | Publication identity confirmed; primary extraction open |
+| Preclinical toxicology | DOI confirmed; full extraction open |
+| Human knee-pain evidence | Very low certainty |
+| Human interstitial-cystitis evidence | Very low / unresolved |
+| Confirmatory human efficacy | Not established |
 | Human PK | Not established |
 | Validated human dosing | Not established |
 | Long-term human safety | Inadequate |
-| FDA approval | Not approved |
-| U.S. compounding route | Active review as of 14 July 2026 |
-| WADA | Prohibited |
-| UK human-use commercial route | Unresolved; legal / MHRA review required |
 
-## Overall
+## Overall classification
 
-The scientific position remains:
+**Preclinical Evidence Structured — Human Evidence Sparse**
 
-**Preclinical-dominant with sparse human evidence.**
+## No-percentage rule
 
-The regulatory position is now more structured but remains time-sensitive.
+No arbitrary headline completeness percentage is assigned.

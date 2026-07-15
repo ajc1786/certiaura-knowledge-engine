@@ -1,59 +1,61 @@
+<div align="center">
+
+<img src="../Assets/Brand/CertiAura_Brand_Master.png" alt="CertiAura — Evidence. Clarity. Confidence." width="700">
+
+</div>
+
+---
+
 # CERT-PKS-000002 — BPC-157
 
-**Version:** 0.3.0  
-**Status:** Human Evidence Appraised / Regulatory Snapshot Added — Preclinical-Dominant — Not Platinum Certified  
-**Last Review:** 2026-07-14
+**Version:** 0.4.0  
+**Status:** Preclinical Evidence Structured — Human Evidence Sparse — Not Platinum Certified  
+**Last Review:** 2026-07-15
 
-## Current scientific position
+## Current position
 
-BPC-157 has:
+BPC-157 now has a structured preclinical evidence chain covering:
 
-- substantial preclinical research;
-- directly extracted animal PK / ADME evidence;
-- directly extracted mechanistic evidence;
-- sparse human publications.
+- tendon injury;
+- tendon-cell mechanisms;
+- ligament injury;
+- vascular signalling;
+- animal PK / ADME;
+- preclinical toxicology.
 
-It does not have a mature confirmatory human clinical evidence base.
+## Source maturity
 
-## Human evidence
+### Closed for core extraction
 
-### Knee pain
+- `CERT-EKS-000020` — Animal PK / ADME
+- `CERT-EKS-000023` — Tendon fibroblast GHR signalling
 
-A very small human report exists.
+### Primary abstract extracted
 
-Primary full-text closure remains incomplete.
+- `CERT-EKS-000024` — VEGFR2 / angiogenesis
 
-Current secondary summaries do not agree on the shorthand response figure, so Certiaura does not promote either number as the definitive primary result.
+### Full-text extraction still open
 
-### Interstitial cystitis
+- `CERT-EKS-000015`
+- `CERT-EKS-000017`
+- `CERT-EKS-000018`
+- `CERT-EKS-000019`
 
-A human pilot publication exists.
+### Human evidence still sparse
 
-Primary full-text methodological closure remains incomplete.
+- `CERT-EKS-000021`
+- `CERT-EKS-000022`
 
-## Regulatory snapshot
+## Human dosing
 
-### United States
+**Validated universal human protocol:** No
 
-- FDA-approved: **No**
-- Compounding review: **Active**
-- Next material event: **23 July 2026 FDA Pharmacy Compounding Advisory Committee review**
+## Human safety
 
-### United Kingdom
-
-- BPC-157-specific marketing authorisation identified: **No**
-- Human-use commercial route: **Dedicated legal / MHRA review required**
-
-### WADA
-
-- Competitive sport status: **Prohibited**
-- Established category: **S0 — Non-Approved Substances**
-- Current WADA page should be rechecked before athlete-facing publication
-
-## Dosing
-
-**Validated universal human dosing protocol:** No
+**Long-term human safety established:** No
 
 ## Certification
 
 **Platinum Certified:** No
+
+The main bottleneck remains human clinical validation, not the number of preclinical publications.

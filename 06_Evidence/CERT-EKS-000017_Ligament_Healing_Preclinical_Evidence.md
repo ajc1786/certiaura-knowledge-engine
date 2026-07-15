@@ -1,32 +1,48 @@
+<div align="center">
+
+<img src="../Assets/Brand/CertiAura_Brand_Master.png" alt="CertiAura — Evidence. Clarity. Confidence." width="700">
+
+</div>
+
+---
+
 # CERT-EKS-000017 — BPC-157 Ligament Healing Preclinical Evidence
 
-**Version:** 0.5.0  
-**Status:** PRIMARY PUBLICATION IDENTIFIED — DIRECT EXTRACTION PENDING  
-**Evidence level:** Preclinical  
-**Last Review:** 2026-07-14
+**Status:** PRIMARY PUBLICATION IDENTITY CONFIRMED — FULL-TEXT EXTRACTION OPEN  
+**Knowledge System:** EKS  
+**Last Review:** 2026-07-15
 
-## Publication identity
+## Primary publication identity
 
 **Title:** Pentadecapeptide BPC 157 (PL 14736) improves ligament healing in the rat  
 **Journal:** Journal of Orthopaedic Research  
-**Year:** 2010
+**Year:** 2010  
 
 ## Domain
 
 Ligament healing
 
-## Model / study type
+## Model
 
 Rat ligament injury model
 
-## Evidence summary
+## Current permitted summary
 
-The publication identity supports a preclinical ligament-healing research domain.
+The primary publication identity supports a preclinical rat ligament-healing research domain.
 
-## Limitations
+## Direct extraction state
 
-- Rat ligament healing does not establish human clinical efficacy.
-- Detailed dose, endpoint and effect-size extraction remains pending direct source capture.
+**Complete:** No
+
+## Not permitted
+
+- Precise biomechanical or histological effect-size claims without direct extraction
+- Human ligament-healing efficacy claims
+- Validated human treatment protocol claims
+
+## Required next action
+
+Capture the complete article and extract injury model, animal count, allocation, dose, route, endpoints, time points and limitations.
 
 ## Relationship
 
@@ -34,6 +50,4 @@ The publication identity supports a preclinical ligament-healing research domain
 
 ## Integrity rule
 
-This Evidence Object records the current source and evidence status.
-
-It must not be silently upgraded beyond the underlying evidence design.
+Publication identity is not equivalent to completed quantitative extraction.

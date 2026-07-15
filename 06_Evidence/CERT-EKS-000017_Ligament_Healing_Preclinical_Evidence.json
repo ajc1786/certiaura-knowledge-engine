@@ -3,23 +3,26 @@
   "asset_name": "BPC-157 Ligament Healing Preclinical Evidence",
   "knowledge_system": "EKS",
   "asset_type": "Evidence Object",
-  "version": "0.5.0",
-  "status": "PRIMARY PUBLICATION IDENTIFIED — DIRECT EXTRACTION PENDING",
+  "version": "0.8.0",
+  "status": "PRIMARY PUBLICATION IDENTITY CONFIRMED — FULL-TEXT EXTRACTION OPEN",
   "owner": "Aidan Coleman",
-  "last_review": "2026-07-14",
-  "study": {
-    "publication_title": "Pentadecapeptide BPC 157 (PL 14736) improves ligament healing in the rat",
+  "last_review": "2026-07-15",
+  "publication": {
+    "title": "Pentadecapeptide BPC 157 (PL 14736) improves ligament healing in the rat",
     "journal": "Journal of Orthopaedic Research",
     "year": 2010,
-    "domain": "Ligament healing",
-    "model": "Rat ligament injury model",
-    "evidence_level": "Preclinical"
+    "doi": null
   },
-  "evidence_summary": "The publication identity supports a preclinical ligament-healing research domain.",
-  "limitations": [
-    "Rat ligament healing does not establish human clinical efficacy.",
-    "Detailed dose, endpoint and effect-size extraction remains pending direct source capture."
+  "domain": "Ligament healing",
+  "model": "Rat ligament injury model",
+  "direct_full_text_extraction_completed": false,
+  "permitted_summary": "The primary publication identity supports a preclinical rat ligament-healing research domain.",
+  "not_permitted": [
+    "Precise biomechanical or histological effect-size claims without direct extraction",
+    "Human ligament-healing efficacy claims",
+    "Validated human treatment protocol claims"
   ],
+  "required_next_action": "Capture the complete article and extract injury model, animal count, allocation, dose, route, endpoints, time points and limitations.",
   "relationships": [
     {
       "source": "CERT-PKS-000002",

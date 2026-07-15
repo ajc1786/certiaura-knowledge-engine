@@ -1,44 +1,54 @@
+<div align="center">
+
+<img src="../Assets/Brand/CertiAura_Brand_Master.png" alt="CertiAura — Evidence. Clarity. Confidence." width="700">
+
+</div>
+
+---
+
 # CERT-EKS-000019 — BPC-157 Preclinical Safety Evaluation
 
-**Version:** 0.6.0  
-**Status:** PRIMARY PUBLICATION IDENTIFIED — DIRECT EXTRACTION BLOCKED  
-**Evidence level:** Preclinical toxicology  
-**Last Review:** 2026-07-14
+**Status:** PRIMARY DOI CONFIRMED — DIRECT FULL-TEXT EXTRACTION OPEN  
+**Knowledge System:** EKS  
+**Last Review:** 2026-07-15
 
-## Primary source
+## Primary publication identity
 
-**Title:** Preclinical safety evaluation of body protective compound-157, a potential drug for treating various wounds
-
+**Title:** Preclinical safety evaluation of body protective compound-157, a potential drug for treating various wounds  
 **Journal:** Regulatory Toxicology and Pharmacology  
-**Volume:** 114  
-**Article:** 104665  
-**DOI:** `10.1016/j.yrtph.2020.104665`
+**Year:** 2020  
+**DOI:** `10.1016/j.yrtph.2020.104665`  
 
-## Build 0010 status
+## Domain
 
-The primary identifier is now confirmed.
+Preclinical toxicology
 
-Direct full quantitative extraction was not completed.
+## Model
 
-## Interpretation
+Preclinical safety programme
 
-This study can support a **preclinical toxicology evidence domain**.
+## Current permitted summary
 
-It cannot establish:
+A dedicated preclinical safety publication exists and its DOI is confirmed. It supports the existence of a formal animal toxicology evidence domain.
 
-- long-term human safety;
-- safety of grey-market products;
-- safety of a specific human dose or route;
-- safety in people with specific diseases or medicines.
+## Direct extraction state
+
+**Complete:** No
+
+## Not permitted
+
+- Long-term human safety claims
+- Claims that a NOAEL or animal safety margin validates a human dose
+- Claims that grey-market products match the tested material
 
 ## Required next action
 
-Obtain direct primary full text and extract:
+Obtain full text and extract species, study duration, dose levels, exposure margins, clinical observations, pathology and reported toxicity conclusions.
 
-- species;
-- study duration;
-- dose levels;
-- NOAEL / toxicity findings where reported;
-- pathology;
-- reproductive / genotoxicity scope if applicable;
-- limitations.
+## Relationship
+
+`CERT-PKS-000002 HAS_EVIDENCE CERT-EKS-000019`
+
+## Integrity rule
+
+Publication identity is not equivalent to completed quantitative extraction.

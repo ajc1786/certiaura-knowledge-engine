@@ -1,32 +1,48 @@
+<div align="center">
+
+<img src="../Assets/Brand/CertiAura_Brand_Master.png" alt="CertiAura — Evidence. Clarity. Confidence." width="700">
+
+</div>
+
+---
+
 # CERT-EKS-000015 — BPC-157 Achilles Tendon Healing Preclinical Evidence
 
-**Version:** 0.5.0  
-**Status:** PRIMARY PUBLICATION IDENTIFIED — DIRECT EXTRACTION PENDING  
-**Evidence level:** Preclinical  
-**Last Review:** 2026-07-14
+**Status:** PRIMARY PUBLICATION IDENTITY CONFIRMED — FULL-TEXT EXTRACTION OPEN  
+**Knowledge System:** EKS  
+**Last Review:** 2026-07-15
 
-## Publication identity
+## Primary publication identity
 
 **Title:** Gastric pentadecapeptide BPC 157 accelerates healing of transected rat Achilles tendon and in vitro stimulates tendocytes growth  
 **Journal:** Journal of Orthopaedic Research  
-**Year:** 2003
+**Year:** 2003  
 
 ## Domain
 
-Tendon healing
+Achilles tendon healing
 
-## Model / study type
+## Model
 
-Rat Achilles tendon injury plus in-vitro tendocyte work
+Rat transected Achilles tendon model with associated in-vitro tendocyte work
 
-## Evidence summary
+## Current permitted summary
 
-Primary publication identity supports a preclinical tendon-healing research domain. Detailed quantitative extraction remains pending direct source capture.
+The primary publication identity supports a preclinical research domain involving a transected rat Achilles tendon model and in-vitro tendocyte experiments.
 
-## Limitations
+## Direct extraction state
 
-- Animal and in-vitro evidence does not establish human efficacy.
-- Direct primary full-text extraction has not been completed in this build.
+**Complete:** No
+
+## Not permitted
+
+- Precise effect-size claims without direct primary extraction
+- Human tendon-healing efficacy claims
+- Validated human dose, route or treatment-cycle claims
+
+## Required next action
+
+Obtain the complete primary article and extract design, animal numbers, dose groups, timing, biomechanics, histology and in-vitro methods.
 
 ## Relationship
 
@@ -34,6 +50,4 @@ Primary publication identity supports a preclinical tendon-healing research doma
 
 ## Integrity rule
 
-This Evidence Object records the current source and evidence status.
-
-It must not be silently upgraded beyond the underlying evidence design.
+Publication identity is not equivalent to completed quantitative extraction.
