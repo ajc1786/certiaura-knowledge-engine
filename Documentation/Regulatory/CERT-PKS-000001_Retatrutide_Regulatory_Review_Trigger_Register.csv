@@ -1,0 +1,6 @@
+Asset UAI,Jurisdiction,Trigger,Expected Date / Condition,Monitoring State,Required Action
+CERT-PKS-000001,United States,FDA submission / acceptance / approval / rejection,When announced,ACTIVE,Update U.S. status record and claim controls
+CERT-PKS-000001,United Kingdom,MHRA authorisation / safety / enforcement action,When published,ACTIVE,Update UK status and commercial boundary
+CERT-PKS-000001,European Union,EMA submission / CHMP opinion / European Commission action,When published,ACTIVE,Update EU status and commercial boundary
+CERT-PKS-000001,International sport,WADA list update / asset-specific clarification,Annual or material event,ACTIVE,Update athlete-facing warning
+CERT-PKS-000001,Global,Material safety warning / recall / enforcement action,When published,ACTIVE,"Update safety, claims and commercial controls"

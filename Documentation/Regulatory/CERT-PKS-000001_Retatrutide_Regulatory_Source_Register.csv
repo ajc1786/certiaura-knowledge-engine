@@ -1,0 +1,7 @@
+Asset UAI,Jurisdiction,Authority,Source / Reference,Source Type,Source Date,Closure State,Use,Next Action
+CERT-PKS-000001,Global development,Eli Lilly / CertiAura EKS,CERT-EKS-000011,Primary sponsor topline evidence already preserved,2026-05-21,CLOSED FOR SPONSOR TOPLINE,Confirms ongoing late-stage development context,Capture later regulatory submission / approval sources when available
+CERT-PKS-000001,United States,Current public reporting,Reuters May 21 and June 8 2026 development reporting,High-quality current reporting,2026-06-08,TEMPORARY CURRENT CORROBORATION,Supports investigational / future submission context,Replace or supplement with direct FDA asset-specific source
+CERT-PKS-000001,United States,FDA,Asset-specific approval / application source,Authoritative regulator,,OPEN — NOT CAPTURED,Approval / submission closure,Monitor and capture when available
+CERT-PKS-000001,United Kingdom,MHRA,Asset-specific authorisation source,Authoritative regulator,,OPEN — NOT CAPTURED,UK status closure,Monitor and capture
+CERT-PKS-000001,European Union,EMA / European Commission,Asset-specific authorisation source,Authoritative regulator,,OPEN — NOT CAPTURED,EU status closure,Monitor and capture
+CERT-PKS-000001,International sport,WADA,Asset-specific current prohibited-list assessment,Authoritative anti-doping source,,OPEN — NOT CAPTURED,Athlete-facing status,Monitor and capture

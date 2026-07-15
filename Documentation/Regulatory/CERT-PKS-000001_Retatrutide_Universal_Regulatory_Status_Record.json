@@ -2,35 +2,75 @@
   "asset_uai": "CERT-PKS-000001",
   "asset_name": "Retatrutide",
   "framework_version": "1.0.0",
-  "record_status": "BACKFILLED — CURRENT AUTHORITATIVE REVIEW REQUIRED",
+  "record_version": "1.0.0",
+  "status_date": "2026-07-15",
   "last_verified": "2026-07-15",
+  "overall_status": "INVESTIGATIONAL / LATE-STAGE DEVELOPMENT — NO APPROVAL CLAIM MADE",
   "regulatory_records": [
     {
       "jurisdiction": "United States",
       "authority": "FDA",
       "status_category": "Approval / Authorisation",
-      "current_status": "Current authoritative verification required",
-      "status_date": "2026-07-15",
-      "monitoring_state": "MANUAL REVIEW",
-      "next_review_trigger": "Immediate current-status capture"
+      "current_status": "No FDA approval is claimed by CertiAura. Current public reporting describes retatrutide as investigational and discusses future regulatory submission / potential launch.",
+      "source_basis": [
+        "Existing sponsor topline evidence preserved in CERT-EKS-000011",
+        "Current high-quality 2026 reporting"
+      ],
+      "source_closure_state": "HIGH-QUALITY CURRENT CORROBORATION / DIRECT ASSET-SPECIFIC FDA APPROVAL RECORD NOT CAPTURED",
+      "freshness_state": "CURRENT WITH AUTHORITATIVE CLOSURE GAP",
+      "monitoring_state": "ACTIVE",
+      "commercial_implication": "Do not market, describe or sell retatrutide as FDA-approved.",
+      "next_review_trigger": "FDA submission, acceptance, advisory action, approval, rejection, safety action or other material regulatory development"
     },
     {
       "jurisdiction": "United Kingdom",
       "authority": "MHRA",
-      "status_category": "Approval / Authorisation",
-      "current_status": "Current authoritative verification required",
-      "status_date": "2026-07-15",
-      "monitoring_state": "MANUAL REVIEW",
-      "next_review_trigger": "Immediate current-status capture"
+      "status_category": "Approval / Authorisation / Human-use commercial route",
+      "current_status": "No MHRA marketing authorisation is claimed by CertiAura. A dedicated asset-specific authoritative MHRA status record remains open.",
+      "source_closure_state": "OPEN — ASSET-SPECIFIC AUTHORITATIVE MHRA SOURCE NOT CAPTURED",
+      "freshness_state": "REVIEW DUE",
+      "monitoring_state": "ACTIVE",
+      "commercial_implication": "Do not represent retatrutide as MHRA-approved or launch a UK human-use therapeutic route on the basis of research-use labelling.",
+      "next_review_trigger": "MHRA authorisation, safety, enforcement or other material UK regulatory action"
+    },
+    {
+      "jurisdiction": "European Union",
+      "authority": "EMA / European Commission",
+      "status_category": "Marketing Authorisation",
+      "current_status": "No EMA / European Commission marketing authorisation is claimed by CertiAura. Direct asset-specific authoritative closure remains open.",
+      "source_closure_state": "OPEN — ASSET-SPECIFIC AUTHORITATIVE EMA SOURCE NOT CAPTURED",
+      "freshness_state": "REVIEW DUE",
+      "monitoring_state": "ACTIVE",
+      "commercial_implication": "Do not represent retatrutide as EU-authorised.",
+      "next_review_trigger": "EMA submission, CHMP opinion, European Commission authorisation or other material EU action"
     },
     {
       "jurisdiction": "International sport",
       "authority": "WADA",
       "status_category": "Anti-doping",
-      "current_status": "Current list applicability requires verification",
-      "status_date": "2026-07-15",
-      "monitoring_state": "MANUAL REVIEW",
-      "next_review_trigger": "Before athlete-facing publication and annual list update"
+      "current_status": "Asset-specific current classification has not been directly captured. Because retatrutide is an investigational pharmacologically active compound, athlete-facing use requires authoritative current WADA verification.",
+      "source_closure_state": "OPEN — CURRENT ASSET-SPECIFIC WADA STATUS NOT DIRECTLY CAPTURED",
+      "freshness_state": "REVIEW DUE",
+      "monitoring_state": "ACTIVE",
+      "commercial_implication": "Do not provide athlete-facing reassurance that retatrutide is permitted without a current authoritative anti-doping check.",
+      "next_review_trigger": "Current WADA list verification, annual list update or material anti-doping clarification"
     }
-  ]
+  ],
+  "material_change_monitoring": {
+    "required": true,
+    "state": "ACTIVE",
+    "notify_only_on_material_change": true,
+    "material_events": [
+      "Regulatory submission",
+      "Application acceptance",
+      "Approval",
+      "Rejection",
+      "Advisory committee action",
+      "Safety warning",
+      "Recall",
+      "Enforcement action",
+      "Anti-doping classification change",
+      "Commercial-launch authorisation"
+    ]
+  }
 }

@@ -1,6 +1,6 @@
 Universal Asset Identifier,Asset Name,Knowledge System,Asset Type,Status,Owner,Completion %,Parent Assets,Child Assets,Relationship List,Evidence Links,Report Links,Marketplace Links,Last Review,Next Review,Notes
-CERT-PKS-000001,Retatrutide,PKS,Flagship Peptide Knowledge Asset,Consolidated — Not Platinum Certified,Aidan Coleman,,,,,,,,2026-07-15,,Universal regulatory record backfilled; current authoritative review required
-CERT-PKS-000002,BPC-157,PKS,Peptide Knowledge Asset,Human Evidence Appraised / Regulatory Snapshot Added — Preclinical-Dominant — Not Platinum Certified,Aidan Coleman,,,,,,,,2026-07-15,,Universal regulatory record backfilled from Build 0011; U.S. watch active
+CERT-PKS-000001,Retatrutide,PKS,Flagship Peptide Knowledge Asset,Consolidated — Not Platinum Certified,Aidan Coleman,,,,,,,,2026-07-15,,Build 0013 regulatory module active
+CERT-PKS-000002,BPC-157,PKS,Peptide Knowledge Asset,Preclinical-Dominant — Not Platinum Certified,Aidan Coleman,,,,,,,,2026-07-15,,Build 0011 regulatory snapshot; monitoring active
 CERT-EKS-000001,Evidence Asset 01,EKS,Evidence Object,Existing,Aidan Coleman,,,,,,,,2026-07-15,,
 CERT-EKS-000002,Evidence Asset 02,EKS,Evidence Object,Existing,Aidan Coleman,,,,,,,,2026-07-15,,
 CERT-EKS-000003,Evidence Asset 03,EKS,Evidence Object,Existing,Aidan Coleman,,,,,,,,2026-07-15,,

@@ -1,33 +1,39 @@
 # CERTIAURA PRODUCTION DASHBOARD
 
-**Build:** 0012  
+**Build:** 0013  
 **Date:** 2026-07-15
 
 ## Regulatory & Status Intelligence
-**Universal framework:** ACTIVE
 
-Applies to all current and future peptides and compounds.
+Universal framework: **ACTIVE**
 
-### CERT-PKS-000001 — Retatrutide
-Universal structure: **Backfilled**  
-Current status maturity: **Authoritative current review required**
+## CERT-PKS-000001 — Retatrutide
 
-### CERT-PKS-000002 — BPC-157
-Universal structure: **Backfilled from Build 0011**  
-- U.S. regulatory watch active
-- WADA control recorded
-- UK route requires dedicated review
+**Regulatory module:** ACTIVE  
+**Overall regulatory position:** INVESTIGATIONAL / LATE-STAGE DEVELOPMENT — NO APPROVAL CLAIM MADE
 
-## Template status
-Reusable flagship template and production quality gate now require:
-- dated regulatory status;
-- jurisdiction-specific records;
-- monitoring state;
-- next review trigger;
-- commercial implications.
+Monitoring:
 
-## Immediate actions
-1. Keep BPC-157 FDA watch active.
-2. Update BPC-157 after the 23 July 2026 FDA event if materially changed.
-3. Create dedicated current authoritative regulatory-status capture for Retatrutide.
-4. Apply the framework to every new peptide or compound bootstrap.
+- FDA — ACTIVE
+- MHRA — ACTIVE
+- EMA / European Commission — ACTIVE
+- WADA — ACTIVE
+
+Open closure gaps:
+
+- direct asset-specific FDA authoritative status
+- direct asset-specific MHRA authoritative status
+- direct asset-specific EMA authoritative status
+- direct asset-specific WADA status
+
+## CERT-PKS-000002 — BPC-157
+
+Existing FDA regulatory condition watch remains active.
+
+## Next planned production task
+
+Return to the BPC-157 scientific production queue after the universal regulatory framework and Retatrutide backfill are operational.
+
+Highest-value BPC-157 task:
+
+**Primary-source closure of the remaining core preclinical evidence, prioritising tendon / ligament and preclinical safety sources.**

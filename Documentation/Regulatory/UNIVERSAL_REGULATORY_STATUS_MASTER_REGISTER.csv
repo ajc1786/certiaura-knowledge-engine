@@ -1,7 +1,8 @@
-Asset UAI,Asset Name,Jurisdiction,Authority,Status Summary,Status Date,Monitoring State,Next Review Trigger,Record State
-CERT-PKS-000001,Retatrutide,United States,FDA,Current authoritative verification required,2026-07-15,MANUAL REVIEW,Immediate current-status capture,BACKFILLED — REVIEW REQUIRED
-CERT-PKS-000001,Retatrutide,United Kingdom,MHRA,Current authoritative verification required,2026-07-15,MANUAL REVIEW,Immediate current-status capture,BACKFILLED — REVIEW REQUIRED
-CERT-PKS-000001,Retatrutide,International sport,WADA,Current list applicability requires verification,2026-07-15,MANUAL REVIEW,Before athlete-facing publication / annual update,BACKFILLED — REVIEW REQUIRED
+Asset UAI,Asset Name,Jurisdiction,Authority,Current Status Summary,Status Date,Monitoring State,Next Review Trigger,Record State
+CERT-PKS-000001,Retatrutide,United States,FDA,No approval claim; investigational late-stage development; direct authoritative asset-specific closure open,2026-07-15,ACTIVE,FDA submission / approval / other material action,CURRENT WITH CLOSURE GAP
+CERT-PKS-000001,Retatrutide,United Kingdom,MHRA,No authorisation claim; asset-specific authoritative closure open,2026-07-15,ACTIVE,MHRA authorisation / safety / enforcement action,REVIEW DUE
+CERT-PKS-000001,Retatrutide,European Union,EMA / European Commission,No authorisation claim; asset-specific authoritative closure open,2026-07-15,ACTIVE,EMA / CHMP / European Commission action,REVIEW DUE
+CERT-PKS-000001,Retatrutide,International sport,WADA,Asset-specific current classification requires authoritative verification,2026-07-15,ACTIVE,WADA verification / annual update,REVIEW DUE
 CERT-PKS-000002,BPC-157,United States,FDA,Not FDA-approved; active review as of 2026-07-14,2026-07-14,ACTIVE,2026-07-23 advisory review and later formal action,BACKFILLED FROM BUILD 0011
 CERT-PKS-000002,BPC-157,International sport,WADA,Prohibited under Build 0011 snapshot,2026-07-14,EVENT-TRIGGERED,Annual list update or earlier material change,BACKFILLED FROM BUILD 0011
 CERT-PKS-000002,BPC-157,United Kingdom,MHRA / UK legal framework,No BPC-specific marketing authorisation identified in Build 0011,2026-07-14,MANUAL REVIEW,Before UK human-use launch or new authority action,BACKFILLED FROM BUILD 0011

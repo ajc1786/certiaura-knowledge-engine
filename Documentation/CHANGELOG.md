@@ -1,28 +1,33 @@
 # CERTIAURA CHANGE LOG
 
-## Build 0012 — Universal Regulatory & Status Intelligence Framework
+## Build 0013 — Retatrutide Current Regulatory Status & Monitoring Activation
 **Date:** 2026-07-15
 
 Added:
-- Locked universal regulatory-status requirement.
-- Universal framework and JSON schema.
-- Controlled vocabulary.
-- Freshness and review standard.
-- Material-change trigger standard.
-- Monitoring automation standard.
-- Commercial decision gate.
-- Regulatory status record templates.
-- Universal status master register.
-- Retatrutide regulatory backfill.
-- BPC-157 regulatory backfill.
-- Regulatory coverage audit.
+
+- Retatrutide Universal Regulatory Status Record v1.0.0.
+- Retatrutide Regulatory Status Matrix.
+- Retatrutide Regulatory Source Register.
+- Retatrutide Regulatory Review Trigger Register.
+- Retatrutide Regulatory Monitoring Specification.
+- Retatrutide Commercial Use Boundary.
+- Retatrutide Regulatory Claim Control Matrix.
+- Retatrutide Current Status Card.
+- Retatrutide Regulatory Status Module.
+- Build 0013 Source Verification Report.
 
 Updated:
-- Reusable flagship Markdown and JSON templates.
-- Bootstrap workflow.
-- Production quality gate.
-- Production dashboard.
 
-**Key outcome:** Regulatory and status intelligence is now mandatory for every CertiAura peptide and compound.
+- Universal Regulatory Status Master Register.
+- Production Dashboard.
 
-No new permanent peptide UAI was allocated.
+Key outcome:
+
+Retatrutide is no longer merely marked “regulatory review required.”
+
+It now has a dated active regulatory-status module and monitoring specification.
+
+No FDA, MHRA, EMA or WADA status is invented where direct authoritative asset-specific closure remains open.
+
+## Build 0012
+- Made regulatory and status intelligence universal across all peptides and compounds.
