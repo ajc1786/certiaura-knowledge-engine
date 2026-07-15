@@ -1,0 +1,79 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CertiAura Universal Regulatory Status Record",
+  "version": "1.0.0",
+  "type": "object",
+  "required": [
+    "asset_uai",
+    "asset_name",
+    "jurisdiction",
+    "authority",
+    "status_category",
+    "current_status",
+    "status_date",
+    "source",
+    "commercial_implication",
+    "next_review_trigger",
+    "monitoring_state",
+    "last_verified"
+  ],
+  "properties": {
+    "asset_uai": {
+      "type": "string"
+    },
+    "asset_name": {
+      "type": "string"
+    },
+    "jurisdiction": {
+      "type": "string"
+    },
+    "authority": {
+      "type": "string"
+    },
+    "status_category": {
+      "type": "string"
+    },
+    "current_status": {
+      "type": "string"
+    },
+    "status_date": {
+      "type": "string",
+      "format": "date"
+    },
+    "source": {
+      "type": "object",
+      "required": [
+        "type",
+        "closure_state"
+      ]
+    },
+    "commercial_implication": {
+      "type": "string"
+    },
+    "user_warning": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "next_review_trigger": {
+      "type": "string"
+    },
+    "next_review_date": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "monitoring_state": {
+      "type": "string"
+    },
+    "last_verified": {
+      "type": "string",
+      "format": "date"
+    },
+    "change_history": {
+      "type": "array"
+    }
+  }
+}

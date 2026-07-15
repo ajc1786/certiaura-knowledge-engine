@@ -1,0 +1,36 @@
+{
+  "asset_uai": "CERT-PKS-000001",
+  "asset_name": "Retatrutide",
+  "framework_version": "1.0.0",
+  "record_status": "BACKFILLED — CURRENT AUTHORITATIVE REVIEW REQUIRED",
+  "last_verified": "2026-07-15",
+  "regulatory_records": [
+    {
+      "jurisdiction": "United States",
+      "authority": "FDA",
+      "status_category": "Approval / Authorisation",
+      "current_status": "Current authoritative verification required",
+      "status_date": "2026-07-15",
+      "monitoring_state": "MANUAL REVIEW",
+      "next_review_trigger": "Immediate current-status capture"
+    },
+    {
+      "jurisdiction": "United Kingdom",
+      "authority": "MHRA",
+      "status_category": "Approval / Authorisation",
+      "current_status": "Current authoritative verification required",
+      "status_date": "2026-07-15",
+      "monitoring_state": "MANUAL REVIEW",
+      "next_review_trigger": "Immediate current-status capture"
+    },
+    {
+      "jurisdiction": "International sport",
+      "authority": "WADA",
+      "status_category": "Anti-doping",
+      "current_status": "Current list applicability requires verification",
+      "status_date": "2026-07-15",
+      "monitoring_state": "MANUAL REVIEW",
+      "next_review_trigger": "Before athlete-facing publication and annual list update"
+    }
+  ]
+}

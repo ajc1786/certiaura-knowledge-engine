@@ -1,53 +1,33 @@
 # CERTIAURA PRODUCTION DASHBOARD
 
-**Build:** 0011  
-**Date:** 2026-07-14
+**Build:** 0012  
+**Date:** 2026-07-15
 
-## Retatrutide
+## Regulatory & Status Intelligence
+**Universal framework:** ACTIVE
 
-`CERT-PKS-000001`
+Applies to all current and future peptides and compounds.
 
-**Status:** Consolidated — Not Platinum Certified
+### CERT-PKS-000001 — Retatrutide
+Universal structure: **Backfilled**  
+Current status maturity: **Authoritative current review required**
 
-## BPC-157
+### CERT-PKS-000002 — BPC-157
+Universal structure: **Backfilled from Build 0011**  
+- U.S. regulatory watch active
+- WADA control recorded
+- UK route requires dedicated review
 
-`CERT-PKS-000002`
+## Template status
+Reusable flagship template and production quality gate now require:
+- dated regulatory status;
+- jurisdiction-specific records;
+- monitoring state;
+- next review trigger;
+- commercial implications.
 
-**Status:** Human Evidence Appraised / Regulatory Snapshot Added — Preclinical-Dominant — Not Platinum Certified
-
-## Build 0011 outputs
-
-- Updated human knee-pain Evidence Object
-- Updated interstitial-cystitis Evidence Object
-- Human Evidence Closure Report
-- U.S. FDA Status Snapshot
-- WADA / Anti-Doping Status Snapshot
-- UK MHRA / legal-framework Status Snapshot
-- Cross-Jurisdiction Regulatory Matrix
-- Regulatory Source Register
-- Regulatory Review Trigger Register
-- Updated Claim Control Matrix
-- Commercial Use Boundary
-- Current Status Card
-- Updated Evidence Maturity Assessment
-- Updated BPC-157 Flagship Bootstrap
-- Updated Primary Source Closure Register
-- Source Verification Report
-- Updated Change Log
-- Updated Master Asset Register
-
-## Immediate review trigger
-
-**23 July 2026 — FDA Pharmacy Compounding Advisory Committee review of BPC-157**
-
-The U.S. regulatory snapshot must be updated after that event.
-
-## Current scientific bottleneck
-
-Human clinical validation remains weak.
-
-## Current regulatory bottleneck
-
-The U.S. compounding position is still in motion.
-
-The UK direct-sale route remains unresolved.
+## Immediate actions
+1. Keep BPC-157 FDA watch active.
+2. Update BPC-157 after the 23 July 2026 FDA event if materially changed.
+3. Create dedicated current authoritative regulatory-status capture for Retatrutide.
+4. Apply the framework to every new peptide or compound bootstrap.

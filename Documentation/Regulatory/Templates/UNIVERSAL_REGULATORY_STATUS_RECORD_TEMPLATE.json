@@ -1,0 +1,23 @@
+{
+  "asset_uai": "{{ASSET_UAI}}",
+  "asset_name": "{{ASSET_NAME}}",
+  "jurisdiction": "{{JURISDICTION}}",
+  "authority": "{{AUTHORITY}}",
+  "status_category": "{{STATUS_CATEGORY}}",
+  "current_status": "{{CURRENT_STATUS}}",
+  "status_date": "{{STATUS_DATE}}",
+  "source": {
+    "type": "{{SOURCE_TYPE}}",
+    "url": "{{SOURCE_URL}}",
+    "identifier": "{{SOURCE_IDENTIFIER}}",
+    "closure_state": "{{SOURCE_CLOSURE_STATE}}"
+  },
+  "commercial_implication": "{{COMMERCIAL_IMPLICATION}}",
+  "user_warning": "{{USER_WARNING}}",
+  "next_review_trigger": "{{NEXT_REVIEW_TRIGGER}}",
+  "next_review_date": "{{NEXT_REVIEW_DATE}}",
+  "monitoring_state": "{{MONITORING_STATE}}",
+  "freshness_state": "{{FRESHNESS_STATE}}",
+  "last_verified": "{{LAST_VERIFIED}}",
+  "change_history": []
+}

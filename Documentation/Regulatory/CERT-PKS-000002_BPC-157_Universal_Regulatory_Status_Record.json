@@ -1,0 +1,33 @@
+{
+  "asset_uai": "CERT-PKS-000002",
+  "asset_name": "BPC-157",
+  "framework_version": "1.0.0",
+  "record_status": "BACKFILLED FROM BUILD 0011",
+  "last_verified": "2026-07-14",
+  "regulatory_records": [
+    {
+      "jurisdiction": "United States",
+      "authority": "FDA",
+      "status_category": "Approval / Compounding",
+      "current_status": "Not FDA-approved; compounding review active as of 2026-07-14; advisory review scheduled 2026-07-23",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "2026-07-23 advisory review and subsequent formal FDA action"
+    },
+    {
+      "jurisdiction": "International sport",
+      "authority": "WADA",
+      "status_category": "Anti-doping",
+      "current_status": "Prohibited under Build 0011 snapshot",
+      "monitoring_state": "EVENT-TRIGGERED",
+      "next_review_trigger": "Annual list update or earlier material change"
+    },
+    {
+      "jurisdiction": "United Kingdom",
+      "authority": "MHRA / UK legal framework",
+      "status_category": "Commercial / Human-use route",
+      "current_status": "No BPC-157-specific UK marketing authorisation identified in Build 0011",
+      "monitoring_state": "MANUAL REVIEW",
+      "next_review_trigger": "Before any UK human-use launch or new authority action"
+    }
+  ]
+}

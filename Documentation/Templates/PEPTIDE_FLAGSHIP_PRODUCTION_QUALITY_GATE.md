@@ -1,23 +1,23 @@
-# PEPTIDE FLAGSHIP PRODUCTION QUALITY GATE
+# PEPTIDE / COMPOUND FLAGSHIP PRODUCTION QUALITY GATE
 
 | Check | Requirement | Complete |
 |---|---|---|
-| Permanent PKS UAI allocated through existing process | Required | ☐ |
+| Permanent UAI allocated | Required | ☐ |
 | Canonical name confirmed | Required | ☐ |
-| No duplicate canonical objects created | Required | ☐ |
-| Evidence Objects use existing EKS standards | Required | ☐ |
-| Source status recorded | Required | ☐ |
-| Primary source gaps visible | Required | ☐ |
-| Safety domains linked to SKS assets | Required where applicable | ☐ |
-| Monitoring domains linked to MKS assets | Required where applicable | ☐ |
+| Evidence source status recorded | Required | ☐ |
+| Safety linked where applicable | Required | ☐ |
+| Monitoring linked where applicable | Required | ☐ |
 | Claim Control Matrix completed | Required | ☐ |
-| Knowledge graph relationships populated | Required | ☐ |
-| Certification blockers recorded | Required | ☐ |
-| No arbitrary completion percentage | Required | ☐ |
+| Jurisdictions identified | Required | ☐ |
+| Competent authorities identified | Required | ☐ |
+| Dated regulatory records created | Required | ☐ |
+| Approval and compounding separated | Required | ☐ |
+| Anti-doping checked where applicable | Required | ☐ |
+| Regulatory source register created | Required | ☐ |
+| Review trigger recorded | Required | ☐ |
+| Monitoring state recorded | Required | ☐ |
+| Commercial implications recorded | Required | ☐ |
 | No unsupported regulatory claim | Required | ☐ |
-| No unsupported universal price claim | Required | ☐ |
-| No unvalidated Product Passport attached | Required | ☐ |
+| No arbitrary completion percentage | Required | ☐ |
 
-## Release rule
-
-A new flagship build should not be committed as consolidated until the required quality checks are complete or explicitly recorded as open blockers.
+A flagship is not current and consolidated unless regulatory status is dated, jurisdiction-specific and monitored.
