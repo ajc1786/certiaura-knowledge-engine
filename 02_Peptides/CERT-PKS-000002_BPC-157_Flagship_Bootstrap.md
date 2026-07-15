@@ -1,52 +1,59 @@
 # CERT-PKS-000002 — BPC-157
 
-**Version:** 0.2.0  
-**Status:** Evidence Foundation Expanded — Preclinical-Dominant — Not Platinum Certified  
+**Version:** 0.3.0  
+**Status:** Human Evidence Appraised / Regulatory Snapshot Added — Preclinical-Dominant — Not Platinum Certified  
 **Last Review:** 2026-07-14
 
-## Current Certiaura position
+## Current scientific position
 
-BPC-157 now has directly extracted primary evidence in three important domains:
+BPC-157 has:
 
-1. Animal pharmacokinetics / ADME
-2. Growth hormone receptor signalling in rat tendon fibroblasts
-3. VEGFR2-linked pro-angiogenic signalling
+- substantial preclinical research;
+- directly extracted animal PK / ADME evidence;
+- directly extracted mechanistic evidence;
+- sparse human publications.
 
-The human evidence base remains sparse and unresolved.
+It does not have a mature confirmatory human clinical evidence base.
 
-## Directly extracted evidence
+## Human evidence
 
-- `CERT-EKS-000020` — Animal PK / ADME
-- `CERT-EKS-000023` — Growth Hormone Receptor Expression in Rat Tendon Fibroblasts
-- `CERT-EKS-000024` — VEGFR2-Linked Pro-Angiogenic Mechanistic Evidence
+### Knee pain
 
-## Human evidence leads
+A very small human report exists.
 
-- `CERT-EKS-000021` — Knee Pain
-- `CERT-EKS-000022` — Interstitial Cystitis Pilot
+Primary full-text closure remains incomplete.
 
-These remain low-certainty evidence leads until direct methodological appraisal is completed.
+Current secondary summaries do not agree on the shorthand response figure, so Certiaura does not promote either number as the definitive primary result.
 
-## Dosing status
+### Interstitial cystitis
+
+A human pilot publication exists.
+
+Primary full-text methodological closure remains incomplete.
+
+## Regulatory snapshot
+
+### United States
+
+- FDA-approved: **No**
+- Compounding review: **Active**
+- Next material event: **23 July 2026 FDA Pharmacy Compounding Advisory Committee review**
+
+### United Kingdom
+
+- BPC-157-specific marketing authorisation identified: **No**
+- Human-use commercial route: **Dedicated legal / MHRA review required**
+
+### WADA
+
+- Competitive sport status: **Prohibited**
+- Established category: **S0 — Non-Approved Substances**
+- Current WADA page should be rechecked before athlete-facing publication
+
+## Dosing
 
 **Validated universal human dosing protocol:** No
-
-The 2022 animal PK paper includes animal dose ranges and an author-stated proposed clinical-dose assumption used for translational planning.
-
-Certiaura does **not** convert that into a validated human dosing protocol.
-
-## Safety status
-
-- Human long-term safety remains inadequately established.
-- Preclinical safety evidence exists but is not equivalent to human safety.
-- Pro-angiogenic / VEGFR2 signalling is documented experimentally.
-- The long-term human implications of that signalling remain uncertain.
-- No causal cancer claim is supported.
 
 ## Certification
 
 **Platinum Certified:** No
-
-The principal gap is not lack of interesting biology.
-
-It is lack of mature confirmatory human clinical evidence.

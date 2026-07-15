@@ -1,0 +1,14 @@
+{
+  "asset": "CERT-PKS-000002",
+  "jurisdiction": "United Kingdom",
+  "authority": "MHRA / Human Medicines Regulations 2012",
+  "as_of": "2026-07-14",
+  "bpc157_specific_marketing_authorisation_identified": false,
+  "commercial_status": "Unresolved — dedicated legal and MHRA regulatory review required before human-use commercialisation",
+  "core_controls": [
+    "Do not claim UK approval unless an actual marketing authorisation is verified.",
+    "Do not assume a 'research use only' label neutralises medicinal-product regulation where the product is promoted or supplied for human treatment.",
+    "Any direct-sale strategy for human therapeutic use requires dedicated regulatory and legal analysis."
+  ],
+  "primary_legal_framework": "https://www.legislation.gov.uk/uksi/2012/1916/contents"
+}

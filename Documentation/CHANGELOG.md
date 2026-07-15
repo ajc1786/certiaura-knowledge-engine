@@ -1,42 +1,45 @@
 # CERTIAURA CHANGE LOG
 
-## Build 0010 — BPC-157 Primary Source Extraction & Human Evidence Appraisal
+## Build 0011 — BPC-157 Human Evidence Closure & Regulatory Status
 **Date:** 2026-07-14
+
+Updated:
+
+- CERT-EKS-000021 Human Knee Pain Evidence Lead to v0.9.0.
+- CERT-EKS-000022 Human Interstitial Cystitis Pilot Evidence Lead to v0.9.0.
+- BPC-157 Flagship Bootstrap to v0.3.0.
+- Claim Control Matrix.
+- Evidence Maturity Assessment.
+- Primary Source Closure Register.
+- Production Dashboard.
+- Master Asset Register.
 
 Added:
 
-- Direct primary extraction of CERT-EKS-000020 PK / ADME.
-- New CERT-EKS-000023 Growth Hormone Receptor Expression evidence object.
-- New CERT-EKS-000024 VEGFR2-Linked Pro-Angiogenic Mechanistic evidence object.
-- Strengthened source identifier and access status for CERT-EKS-000016.
-- Strengthened DOI and closure status for CERT-EKS-000019.
-- Structured appraisal status for CERT-EKS-000021 human knee-pain evidence.
-- Structured appraisal status for CERT-EKS-000022 interstitial-cystitis pilot.
-- BPC-157 Human Evidence Appraisal.
-- BPC-157 Clinical Translation Gap.
-- Updated Claim Control Matrix.
-- Updated Safety Evidence Matrix.
-- Updated Evidence Index.
-- Updated Evidence Maturity Assessment.
-- Updated BPC-157 Flagship Bootstrap to v0.2.0.
-- Updated Primary Source Closure Register.
-- Build 0010 Source Verification Report.
-- Updated Production Dashboard.
-- Updated Master Asset Register.
+- Human Evidence Closure Report.
+- U.S. FDA Status Snapshot.
+- WADA / Anti-Doping Status Snapshot.
+- UK Regulatory Status Snapshot.
+- Cross-Jurisdiction Regulatory Matrix.
+- Regulatory Source Register.
+- Regulatory Review Trigger Register.
+- Commercial Use Boundary.
+- Current Status Card.
+- Build 0011 Source Verification Report.
 
-Key scientific outcome:
+Key integrity findings:
 
-Animal PK data and preclinical mechanisms are now more directly evidenced.
+1. Current secondary summaries of the knee study use different headline response figures.
+2. Neither figure is promoted as the definitive primary-study result.
+3. The interstitial-cystitis publication remains pilot-level evidence.
+4. BPC-157 is not FDA-approved.
+5. U.S. compounding review remains active as of 14 July 2026.
+6. WADA prohibition remains an athlete-facing control.
+7. No BPC-157-specific UK marketing authorisation was identified.
+8. No validated universal human dosing protocol is claimed.
 
-The human-evidence bottleneck remains unresolved and visible.
-
-No validated human dosing protocol is claimed.
+## Build 0010
+- Expanded direct primary extraction and human evidence appraisal.
 
 ## Build 0009
-- Created CERT-PKS-000002 BPC-157 and its initial evidence foundation.
-
-## Build 0008
-- Added reusable peptide flagship template.
-
-## Build 0007
-- Consolidated Retatrutide flagship.
+- Created CERT-PKS-000002 BPC-157 and initial evidence foundation.

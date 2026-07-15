@@ -1,52 +1,53 @@
 # CERTIAURA PRODUCTION DASHBOARD
 
-**Build:** 0010  
+**Build:** 0011  
 **Date:** 2026-07-14
 
-## Current flagship
+## Retatrutide
 
-`CERT-PKS-000001 — Retatrutide`
+`CERT-PKS-000001`
 
 **Status:** Consolidated — Not Platinum Certified
 
 ## BPC-157
 
-`CERT-PKS-000002 — BPC-157`
+`CERT-PKS-000002`
 
-**Status:** Evidence Foundation Expanded — Preclinical-Dominant — Not Platinum Certified
+**Status:** Human Evidence Appraised / Regulatory Snapshot Added — Preclinical-Dominant — Not Platinum Certified
 
-## Build 0010 outputs
+## Build 0011 outputs
 
-- Direct PK / ADME extraction
-- Direct tendon-fibroblast GHR mechanism extraction
-- Direct VEGFR2 / angiogenesis primary abstract extraction
-- Strengthened DOI / source status for tendon migration and preclinical safety studies
-- Structured human evidence appraisal
-- Clinical Translation Gap analysis
+- Updated human knee-pain Evidence Object
+- Updated interstitial-cystitis Evidence Object
+- Human Evidence Closure Report
+- U.S. FDA Status Snapshot
+- WADA / Anti-Doping Status Snapshot
+- UK MHRA / legal-framework Status Snapshot
+- Cross-Jurisdiction Regulatory Matrix
+- Regulatory Source Register
+- Regulatory Review Trigger Register
 - Updated Claim Control Matrix
-- Updated Safety Matrix
-- Updated Evidence Index
+- Commercial Use Boundary
+- Current Status Card
 - Updated Evidence Maturity Assessment
-- Updated Flagship Bootstrap
+- Updated BPC-157 Flagship Bootstrap
 - Updated Primary Source Closure Register
-- Updated Master Asset Register
+- Source Verification Report
 - Updated Change Log
+- Updated Master Asset Register
 
-## Evidence closure progress
+## Immediate review trigger
 
-### Directly extracted / core-closed
-- CERT-EKS-000020
-- CERT-EKS-000023
+**23 July 2026 — FDA Pharmacy Compounding Advisory Committee review of BPC-157**
 
-### Primary abstract directly extracted
-- CERT-EKS-000024
+The U.S. regulatory snapshot must be updated after that event.
 
-### Human appraisal still open
-- CERT-EKS-000021
-- CERT-EKS-000022
+## Current scientific bottleneck
 
-## Highest-value next step
+Human clinical validation remains weak.
 
-Obtain and directly appraise the two human publications before any BPC-157 flagship consolidation.
+## Current regulatory bottleneck
 
-Do not substitute more animal studies for the missing human evidence layer.
+The U.S. compounding position is still in motion.
+
+The UK direct-sale route remains unresolved.

@@ -1,24 +1,37 @@
 {
   "asset_id": "CERT-EKS-000022",
   "asset_name": "BPC-157 Human Interstitial Cystitis Pilot Evidence Lead",
-  "version": "0.7.0",
-  "status": "HUMAN PILOT PUBLICATION IDENTIFIED — DIRECT PRIMARY APPRAISAL INCOMPLETE",
+  "version": "0.9.0",
+  "status": "HUMAN PILOT PUBLICATION IDENTIFIED — PRIMARY FULL-TEXT CLOSURE INCOMPLETE",
   "last_review": "2026-07-14",
   "publication": {
     "title": "Effect of BPC-157 on Symptoms in Patients with Interstitial Cystitis: A Pilot Study",
     "journal": "Alternative Therapies in Health and Medicine",
     "year": 2024
   },
-  "appraisal": {
-    "human_evidence": true,
-    "confirmatory": false,
-    "direct_full_text_appraisal_completed": false,
-    "current_certiaura_weight": "Very low / unresolved until direct methodological appraisal",
-    "permitted_use": "Evidence lead and source-retrieval priority only"
-  },
+  "study_design_label": "Pilot study",
+  "direct_primary_methodology_extracted": false,
+  "certiaura_interpretation": "The pilot publication is evidence that human investigation has occurred, but no confirmatory efficacy or safety conclusion is made until the primary article is directly captured and methodologically appraised.",
+  "evidence_weight": "Very low / unresolved",
+  "confirmatory": false,
   "not_permitted": [
-    "Use as proof of established efficacy",
-    "Use to define a universal dosing protocol",
-    "Use to establish long-term safety"
+    "BPC-157 is proven to treat interstitial cystitis",
+    "BPC-157 is clinically established for bladder disease",
+    "The pilot validates a universal dose",
+    "The pilot establishes long-term safety"
+  ],
+  "required_extraction": [
+    "Sample size",
+    "Study design",
+    "Prospective / retrospective status",
+    "Comparator",
+    "Randomisation",
+    "Blinding",
+    "Dose and route",
+    "Outcome instruments",
+    "Effect size",
+    "Adverse events",
+    "Follow-up",
+    "Funding and conflicts"
   ]
 }

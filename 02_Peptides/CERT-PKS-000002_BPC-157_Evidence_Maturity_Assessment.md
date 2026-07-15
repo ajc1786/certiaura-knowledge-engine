@@ -1,29 +1,27 @@
-# BPC-157 EVIDENCE MATURITY ASSESSMENT — BUILD 0010
+# BPC-157 EVIDENCE MATURITY ASSESSMENT — BUILD 0011
 
-| Domain | Current maturity |
+| Domain | Maturity |
 |---|---|
-| Animal PK / ADME | Stronger preclinical domain; directly extracted |
-| Tendon fibroblast GHR signalling | Direct primary mechanistic evidence |
-| VEGFR2-linked angiogenesis | Direct primary mechanistic evidence |
-| Tendon healing | Preclinical evidence identified; source closure incomplete |
-| Ligament healing | Preclinical evidence identified; source closure incomplete |
-| Preclinical toxicology | Primary DOI confirmed; extraction incomplete |
-| Human knee-pain evidence | Very low / unresolved |
-| Human interstitial-cystitis evidence | Very low / unresolved |
+| Preclinical biology | Developed |
+| Animal PK / ADME | Directly extracted |
+| Tendon / ligament research | Preclinical, partially source-closed |
+| GHR signalling | Directly extracted preclinical mechanism |
+| VEGFR2 / angiogenesis | Direct primary mechanistic evidence |
+| Human knee pain | Very low certainty |
+| Human interstitial cystitis | Very low / unresolved pilot evidence |
 | Confirmatory randomized human efficacy | Not established |
-| Human pharmacokinetics | Not established |
+| Human PK | Not established |
 | Validated human dosing | Not established |
 | Long-term human safety | Inadequate |
-| Independent clinical replication | Inadequate |
+| FDA approval | Not approved |
+| U.S. compounding route | Active review as of 14 July 2026 |
+| WADA | Prohibited |
+| UK human-use commercial route | Unresolved; legal / MHRA review required |
 
 ## Overall
 
-BPC-157 now has stronger directly captured primary mechanistic and animal pharmacology evidence.
+The scientific position remains:
 
-The key bottleneck remains unchanged:
+**Preclinical-dominant with sparse human evidence.**
 
-**Human clinical validation is weak and incomplete.**
-
-## No-percentage rule
-
-No headline completeness percentage is assigned.
+The regulatory position is now more structured but remains time-sensitive.

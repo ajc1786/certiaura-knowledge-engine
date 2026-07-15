@@ -1,0 +1,6 @@
+Trigger,Expected Date / Condition,Action
+FDA Pharmacy Compounding Advisory Committee meeting,2026-07-23,Re-run U.S. regulatory review
+FDA publishes recommendation / decision,After 2026-07-23,Update U.S. status snapshot
+New annual WADA Prohibited List,Annual / when published,Re-verify anti-doping status
+MHRA BPC-157-specific action,If published,Update UK status
+Certiaura prepares direct UK sale route,Before launch,Obtain formal legal / regulatory opinion

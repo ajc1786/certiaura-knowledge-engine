@@ -1,7 +1,7 @@
 # CERT-EKS-000022 — BPC-157 Human Interstitial Cystitis Pilot Evidence Lead
 
-**Version:** 0.7.0  
-**Status:** HUMAN PILOT PUBLICATION IDENTIFIED — DIRECT PRIMARY APPRAISAL INCOMPLETE  
+**Version:** 0.9.0  
+**Status:** HUMAN PILOT PUBLICATION IDENTIFIED — PRIMARY FULL-TEXT CLOSURE INCOMPLETE  
 **Last Review:** 2026-07-14
 
 ## Publication identity
@@ -10,43 +10,44 @@
 **Journal:** Alternative Therapies in Health and Medicine  
 **Year:** 2024
 
-## Current human-evidence appraisal
+## Current appraisal
 
-- Human evidence: **Yes**
-- Confirmatory evidence: **No**
-- Direct full-text methodological appraisal completed: **No**
-- Current Certiaura evidence weight: **Very low / unresolved**
+The paper is explicitly described as a **pilot study**.
 
-## Known study character
+That is evidence that human investigation has occurred.
 
-Human pilot study; full design not directly extracted in Build 0010
+It is not, by itself, proof of established efficacy.
 
-## Why this is not upgraded
+## Direct primary closure
 
-Build 0010 did not obtain and directly extract the full primary article.
+**Completed:** No
 
-Therefore Certiaura does not invent:
+## Current evidence weight
 
-- participant count;
-- control-group structure;
-- blinding;
-- validated outcome measures;
-- effect size;
-- adverse-event rate;
-- follow-up completeness.
-
-## Permitted use
-
-- Human evidence lead
-- Source-retrieval priority
-- Evidence-gap documentation
+**Very low / unresolved**
 
 ## Not permitted
 
-- Proof of established efficacy
-- A validated human dosing protocol
-- Proof of long-term human safety
+- “BPC-157 is proven to treat interstitial cystitis.”
+- “BPC-157 is clinically established for bladder disease.”
+- “The pilot validates a universal dose.”
+- “The pilot establishes long-term safety.”
 
-## Next action
+## Required direct extraction
 
-Obtain the full primary article and complete a structured risk-of-bias and methodology appraisal.
+- Sample size
+- Study design
+- Prospective / retrospective status
+- Comparator
+- Randomisation
+- Blinding
+- Dose and route
+- Outcome instruments
+- Effect size
+- Adverse events
+- Follow-up
+- Funding and conflicts
+
+## Certiaura position
+
+This remains a human evidence lead until the primary article is directly captured and appraised.

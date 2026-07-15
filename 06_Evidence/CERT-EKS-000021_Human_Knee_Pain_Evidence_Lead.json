@@ -1,24 +1,45 @@
 {
   "asset_id": "CERT-EKS-000021",
   "asset_name": "BPC-157 Human Knee Pain Evidence Lead",
-  "version": "0.7.0",
-  "status": "HUMAN PUBLICATION IDENTIFIED — DIRECT PRIMARY APPRAISAL INCOMPLETE",
+  "version": "0.9.0",
+  "status": "HUMAN PUBLICATION IDENTIFIED — PRIMARY FULL-TEXT CLOSURE INCOMPLETE — SECONDARY OUTCOME DISCREPANCY LOGGED",
   "last_review": "2026-07-14",
   "publication": {
     "title": "Intra-Articular Injection of BPC 157 for Multiple Types of Knee Pain",
     "journal": "Alternative Therapies in Health and Medicine",
     "year": 2021
   },
-  "appraisal": {
-    "human_evidence": true,
-    "confirmatory": false,
-    "direct_full_text_appraisal_completed": false,
-    "current_certiaura_weight": "Very low / unresolved until direct methodological appraisal",
-    "permitted_use": "Evidence lead and source-retrieval priority only"
+  "known_human_scope": {
+    "sample_size_reported_in_secondary_sources": 12,
+    "intervention_character": "Intra-articular BPC-157 injection",
+    "population_character": "Patients with chronic / multiple forms of knee pain"
   },
+  "secondary_source_discrepancy": [
+    {
+      "source": "https://www.menshealth.com/fitness/a70398841/bpc-157-what-to-know-now/",
+      "reported_summary": "7 of 12 patients reportedly experienced relief lasting more than six months"
+    },
+    {
+      "source": "https://nypost.com/2025/06/05/health/joe-rogan-among-the-fans-of-revolutionary-anti-aging-peptide/",
+      "reported_summary": "11 of 12 subjects reportedly experienced improvement; source also notes lack of validated survey tools"
+    }
+  ],
+  "certiaura_interpretation": "The discrepancy between current secondary summaries prevents promotion of either shorthand figure as the definitive primary-study result. The study remains uncontrolled / low-certainty human evidence until the primary article is directly extracted.",
+  "risk_of_bias_status": {
+    "randomized": "Not established",
+    "controlled": "Not established",
+    "blinded": "Not established",
+    "validated_outcome_instrument": "Secondary reporting raises concern that validated survey tools were not used",
+    "sample_size": "Very small",
+    "long_term_safety": "Not established"
+  },
+  "evidence_weight": "Very low",
+  "confirmatory": false,
+  "permitted_claim": "A very small human knee-pain report has been published; it does not establish confirmatory efficacy.",
   "not_permitted": [
-    "Use as proof of established efficacy",
-    "Use to define a universal dosing protocol",
-    "Use to establish long-term safety"
+    "BPC-157 is proven to treat knee pain",
+    "BPC-157 is proven to repair knee tissue in humans",
+    "The study establishes a universal intra-articular dose",
+    "The study establishes long-term safety"
   ]
 }

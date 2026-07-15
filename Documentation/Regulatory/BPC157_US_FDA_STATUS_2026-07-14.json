@@ -1,0 +1,24 @@
+{
+  "asset": "CERT-PKS-000002",
+  "jurisdiction": "United States",
+  "authority": "U.S. Food and Drug Administration",
+  "as_of": "2026-07-14",
+  "approval_status": "Not FDA-approved",
+  "compounding_status": "Under active 503A bulk-substance review; final position not settled as of the review date",
+  "scheduled_event": {
+    "event": "Pharmacy Compounding Advisory Committee review of BPC-157",
+    "date": "2026-07-23",
+    "status_on_review_date": "Upcoming"
+  },
+  "current_operational_interpretation": [
+    "Do not claim FDA approval.",
+    "Do not claim that broad lawful compounding permission is finally established.",
+    "Do not assume removal from a restrictive category equals inclusion on a positive compounding list.",
+    "Recheck after the 23 July 2026 advisory meeting and any later formal FDA action."
+  ],
+  "sources": [
+    "https://www.reuters.com/business/healthcare-pharmaceuticals/us-fda-staff-highlights-peptide-risks-says-little-evidence-benefits-2026-06-30/",
+    "https://apnews.com/article/37bf2f94f0e8a57da76e67a03b58ff0f",
+    "https://www.reuters.com/business/healthcare-pharmaceuticals/us-fda-convene-expert-panel-decide-broader-access-some-peptides-2026-04-15/"
+  ]
+}

@@ -1,11 +1,11 @@
-Evidence ID,Domain,Primary Identifier / State,Direct Access,Closure State,Next Action
-CERT-EKS-000015,Achilles tendon healing,Primary publication identified,No,OPEN,Capture direct primary source
-CERT-EKS-000016,Tendon migration / outgrowth,DOI confirmed,Publisher 403,IDENTIFIED — EXTRACTION BLOCKED,Obtain full primary access
-CERT-EKS-000017,Ligament healing,Primary publication identified,No,OPEN,Capture direct primary source
-CERT-EKS-000018,Vasomotor / eNOS mechanism,Primary publication identified,No,OPEN,Capture direct primary source
-CERT-EKS-000019,Preclinical safety,DOI 10.1016/j.yrtph.2020.104665,Blocked,IDENTIFIED — EXTRACTION BLOCKED,Obtain full primary access
-CERT-EKS-000020,PK / ADME,DOI 10.3389/fphar.2022.1026182,Yes,CLOSED FOR CORE EXTRACTION,Maintain / deeper extraction if required
-CERT-EKS-000021,Human knee pain,Publication identified,No,OPEN — HUMAN APPRAISAL INCOMPLETE,Obtain full article
-CERT-EKS-000022,Human interstitial cystitis pilot,Publication identified,No,OPEN — HUMAN APPRAISAL INCOMPLETE,Obtain full article
-CERT-EKS-000023,GHR signalling,DOI 10.3390/molecules191119066,Yes,CLOSED FOR CORE EXTRACTION,Maintain
-CERT-EKS-000024,VEGFR2 / angiogenesis,DOI 10.1007/s00109-016-1488-y,Abstract direct; full text restricted,CLOSED FOR ABSTRACT / FULL TEXT OPEN,Obtain full article if deeper extraction needed
+Evidence ID,Domain,Closure State,Integrity Note,Next Action
+CERT-EKS-000015,Achilles tendon healing,OPEN,Primary identified; direct extraction incomplete,Capture primary
+CERT-EKS-000016,Tendon migration / outgrowth,IDENTIFIED — EXTRACTION BLOCKED,Publisher access blocked,Obtain primary
+CERT-EKS-000017,Ligament healing,OPEN,Primary identified,Capture primary
+CERT-EKS-000018,Vasomotor / eNOS,OPEN,Primary identified,Capture primary
+CERT-EKS-000019,Preclinical safety,IDENTIFIED — EXTRACTION BLOCKED,DOI confirmed,Obtain primary
+CERT-EKS-000020,PK / ADME,CLOSED FOR CORE EXTRACTION,Animal evidence only,Maintain
+CERT-EKS-000021,Human knee pain,APPRAISAL-CLOSED AT CURRENT ACCESS LEVEL / PRIMARY OPEN,Secondary outcome discrepancy logged,Obtain primary full text
+CERT-EKS-000022,Human interstitial cystitis,APPRAISAL-CLOSED AT CURRENT ACCESS LEVEL / PRIMARY OPEN,Pilot status preserved,Obtain primary full text
+CERT-EKS-000023,GHR signalling,CLOSED FOR CORE EXTRACTION,Preclinical mechanism,Maintain
+CERT-EKS-000024,VEGFR2 / angiogenesis,CLOSED FOR ABSTRACT / FULL TEXT OPEN,Primary abstract directly extracted,Obtain full text if needed

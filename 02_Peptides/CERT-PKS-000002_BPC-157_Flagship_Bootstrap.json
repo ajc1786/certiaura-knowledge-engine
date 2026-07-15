@@ -3,47 +3,40 @@
   "asset_name": "BPC-157",
   "knowledge_system": "PKS",
   "asset_type": "Peptide Knowledge Asset",
-  "version": "0.2.0",
-  "status": "Evidence Foundation Expanded — Preclinical-Dominant — Not Platinum Certified",
+  "version": "0.3.0",
+  "status": "Human Evidence Appraised / Regulatory Snapshot Added — Preclinical-Dominant — Not Platinum Certified",
   "owner": "Aidan Coleman",
   "last_review": "2026-07-14",
-  "plain_english_summary": "BPC-157 has a substantial preclinical evidence base and now includes directly extracted animal pharmacokinetic and mechanistic evidence in Certiaura. Human evidence remains sparse and insufficiently appraised to establish confirmatory efficacy, a validated universal dosing protocol, or long-term safety.",
-  "evidence_links": [
-    "CERT-EKS-000015",
-    "CERT-EKS-000016",
-    "CERT-EKS-000017",
-    "CERT-EKS-000018",
-    "CERT-EKS-000019",
-    "CERT-EKS-000020",
-    "CERT-EKS-000021",
-    "CERT-EKS-000022",
-    "CERT-EKS-000023",
-    "CERT-EKS-000024"
-  ],
-  "safety_links": [
-    "CERT-SKS-000006",
-    "CERT-SKS-000007"
-  ],
-  "direct_primary_extractions": [
-    "CERT-EKS-000020",
-    "CERT-EKS-000023",
-    "CERT-EKS-000024"
-  ],
-  "human_evidence_leads": [
-    "CERT-EKS-000021",
-    "CERT-EKS-000022"
-  ],
+  "human_evidence": {
+    "CERT-EKS-000021": {
+      "domain": "Knee pain",
+      "evidence_weight": "Very low",
+      "primary_full_text_closed": false,
+      "secondary_outcome_discrepancy_logged": true
+    },
+    "CERT-EKS-000022": {
+      "domain": "Interstitial cystitis",
+      "evidence_weight": "Very low / unresolved",
+      "primary_full_text_closed": false
+    }
+  },
+  "regulatory_snapshot": {
+    "date": "2026-07-14",
+    "united_states": {
+      "fda_approved": false,
+      "compounding_review": "Active",
+      "next_material_event": "2026-07-23 Pharmacy Compounding Advisory Committee review"
+    },
+    "united_kingdom": {
+      "bpc157_specific_marketing_authorisation_identified": false,
+      "commercial_route": "Dedicated legal / MHRA review required"
+    },
+    "wada": {
+      "prohibited": true,
+      "category": "S0 — Non-Approved Substances",
+      "direct_wada_page_extraction": "Blocked by site JavaScript / anti-bot layer"
+    }
+  },
   "validated_human_dosing_protocol": false,
-  "human_pharmacokinetics_established": false,
-  "platinum_certified": false,
-  "certification_blockers": [
-    "Confirmatory human efficacy evidence",
-    "Direct methodological appraisal of existing human publications",
-    "Long-term human safety",
-    "Human pharmacokinetics",
-    "Validated human dose / route / frequency",
-    "Primary-source closure for remaining preclinical studies",
-    "Current regulatory-status closure",
-    "Independent clinical replication"
-  ]
+  "platinum_certified": false
 }

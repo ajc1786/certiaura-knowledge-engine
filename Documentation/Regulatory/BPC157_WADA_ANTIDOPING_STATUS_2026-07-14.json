@@ -1,0 +1,15 @@
+{
+  "asset": "CERT-PKS-000002",
+  "jurisdiction": "International sport",
+  "authority": "World Anti-Doping Agency",
+  "as_of": "2026-07-14",
+  "status": "Prohibited for WADA-governed athletes",
+  "category": "S0 — Non-Approved Substances",
+  "direct_authoritative_page": "https://www.wada-ama.org/en/prohibited-list",
+  "direct_access_status": "Authoritative page identified; automated extraction blocked by JavaScript / anti-bot challenge",
+  "corroboration": [
+    "https://apnews.com/article/60dc626b6e9870292746e3c16ad5df4c",
+    "https://apnews.com/article/37bf2f94f0e8a57da76e67a03b58ff0f"
+  ],
+  "operational_rule": "Competitive athletes subject to WADA rules should treat BPC-157 as prohibited and verify the current list before use."
+}
