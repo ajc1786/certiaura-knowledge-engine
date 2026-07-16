@@ -1,28 +1,32 @@
 # CERTIAURA CHANGE LOG
 
-## Build 0017 — Peptide Batch B Asset Bootstrap & Evidence Foundation
+## Build 0018 — Batch A Primary-Source Extraction & Evidence Expansion
 **Date:** 2026-07-16
 
-Allocated:
+Directly extracted:
 
-- CERT-PKS-000007 — GHK-Cu
-- CERT-PKS-000008 — Thymosin Beta-4 / TB-500 Identity Family
-- CERT-PKS-000009 — Melanotan II
-- CERT-PKS-000010 — Epitalon
+- CERT-EKS-000028
+- CERT-EKS-000029
+- CERT-EKS-000031
+- CERT-EKS-000032
+- CERT-EKS-000034
+- CERT-EKS-000035
 
-Added:
+Partially upgraded:
 
-- four branded flagship assets;
+- CERT-EKS-000026
+- CERT-EKS-000027
+- CERT-EKS-000033
+
+Updated:
+
+- four Batch A flagship assets to v0.2.0;
 - four claim-control matrices;
-- four commercial-use boundaries;
-- twelve evidence objects;
-- four safety objects;
-- supporting biology, condition, monitoring and goal objects;
-- four regulatory-status profiles;
-- batch registers;
-- identity and duplication controls;
-- evidence-maturity comparison.
+- primary source register;
+- primary source closure register;
+- evidence translation matrix;
+- production dashboard.
 
-Key outcome:
+Key result:
 
-The first ten permanent CertiAura peptide assets are now allocated and structured.
+Batch A now distinguishes human therapeutic evidence, human pharmacology, negative clinical efficacy and animal/translational evidence with model-specific precision.

@@ -1,0 +1,101 @@
+[
+  {
+    "id": "SRC-0018-001",
+    "asset": "CERT-EKS-000026",
+    "title": "Metabolic effects of a growth hormone-releasing factor in patients with HIV",
+    "journal": "New England Journal of Medicine",
+    "year": 2007,
+    "doi": "10.1056/NEJMoa072375",
+    "pmid": null,
+    "url": "https://doi.org/10.1056/NEJMoa072375",
+    "closure": "PRIMARY IDENTITY CONFIRMED — COMPLETE DIRECT EXTRACTION OPEN"
+  },
+  {
+    "id": "SRC-0018-002",
+    "asset": "CERT-EKS-000027",
+    "title": "Effect of tesamorelin on visceral fat and liver fat in HIV-infected patients with abdominal fat accumulation: a randomized clinical trial",
+    "journal": "JAMA",
+    "year": 2014,
+    "doi": "10.1001/jama.2014.8334",
+    "pmid": "25038357",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/25038357/",
+    "closure": "PRIMARY IDENTITY AND METADATA CONFIRMED — COMPLETE DIRECT EXTRACTION OPEN"
+  },
+  {
+    "id": "SRC-0018-003",
+    "asset": "CERT-EKS-000028",
+    "title": "Prolonged stimulation of growth hormone and insulin-like growth factor I secretion by CJC-1295 in healthy adults",
+    "journal": "Journal of Clinical Endocrinology & Metabolism",
+    "year": 2006,
+    "doi": "10.1210/jc.2005-1536",
+    "pmid": "16352683",
+    "url": "https://doi.org/10.1210/jc.2005-1536",
+    "closure": "PRIMARY ABSTRACT DIRECTLY EXTRACTED"
+  },
+  {
+    "id": "SRC-0018-004",
+    "asset": "CERT-EKS-000029",
+    "title": "Pulsatile secretion of growth hormone persists during continuous stimulation by CJC-1295",
+    "journal": "Journal of Clinical Endocrinology & Metabolism",
+    "year": 2006,
+    "doi": "10.1210/jc.2006-1702",
+    "pmid": "17018654",
+    "url": "https://doi.org/10.1210/jc.2006-1702",
+    "closure": "PRIMARY ABSTRACT DIRECTLY EXTRACTED"
+  },
+  {
+    "id": "SRC-0018-005",
+    "asset": "CERT-EKS-000031",
+    "title": "Pharmacokinetic-pharmacodynamic modeling of ipamorelin in human volunteers",
+    "journal": "Pharmaceutical Research",
+    "year": 1999,
+    "doi": "10.1023/A:1018955126402",
+    "pmid": "10496658",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/10496658/",
+    "closure": "PRIMARY ABSTRACT DIRECTLY EXTRACTED"
+  },
+  {
+    "id": "SRC-0018-006",
+    "asset": "CERT-EKS-000032",
+    "title": "Prospective randomized controlled proof-of-concept study of ipamorelin for postoperative ileus",
+    "journal": "International Journal of Colorectal Disease",
+    "year": 2014,
+    "doi": "10.1007/s00384-014-2030-8",
+    "pmid": "25331030",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/25331030/",
+    "closure": "PRIMARY ABSTRACT DIRECTLY EXTRACTED"
+  },
+  {
+    "id": "SRC-0018-007",
+    "asset": "CERT-EKS-000033",
+    "title": "Ipamorelin, the first selective growth hormone secretagogue",
+    "journal": "European Journal of Endocrinology",
+    "year": 1998,
+    "doi": "10.1530/eje.0.1390552",
+    "pmid": "9849822",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/9849822/",
+    "closure": "PRIMARY IDENTITY CONFIRMED — DIRECT ABSTRACT EXTRACTION OPEN"
+  },
+  {
+    "id": "SRC-0018-008",
+    "asset": "CERT-EKS-000034",
+    "title": "The mitochondrial-derived peptide MOTS-c promotes metabolic homeostasis and reduces obesity and insulin resistance",
+    "journal": "Cell Metabolism",
+    "year": 2015,
+    "doi": "10.1016/j.cmet.2015.02.009",
+    "pmid": "25738459",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/25738459/",
+    "closure": "PRIMARY ABSTRACT AND FIGURE-LEVEL METHODS DIRECTLY EXTRACTED"
+  },
+  {
+    "id": "SRC-0018-009",
+    "asset": "CERT-EKS-000035",
+    "title": "MOTS-c is an exercise-induced mitochondrial-encoded regulator of age-dependent physical decline and muscle homeostasis",
+    "journal": "Nature Communications",
+    "year": 2021,
+    "doi": "10.1038/s41467-020-20790-0",
+    "pmid": null,
+    "url": "https://www.nature.com/articles/s41467-020-20790-0",
+    "closure": "PRIMARY FULL-TEXT WEB EXTRACTION COMPLETED FOR CORE CLAIMS"
+  }
+]

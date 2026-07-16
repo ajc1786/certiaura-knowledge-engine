@@ -8,60 +8,35 @@
 
 # CERT-PKS-000003 — Tesamorelin
 
-**Version:** 0.1.0  
-**Status:** BOOTSTRAPPED — NOT PLATINUM CERTIFIED  
+**Version:** 0.2.0  
+**Status:** HUMAN CLINICAL EVIDENCE IDENTIFIED — DIRECT SOURCE CLOSURE PARTIAL — NOT PLATINUM CERTIFIED  
 **Last Review:** 2026-07-16
-
-## Plain-English summary
-
-Synthetic growth-hormone-releasing hormone analogue.
-
-## Aliases
-
-TH9507, Egrifta, Egrifta SV
-
-## Mechanism
-
-Growth-hormone-releasing hormone receptor agonism with downstream growth hormone and insulin-like growth factor 1 signalling.
 
 ## Evidence maturity
 
-Approved U.S. indication plus multiple human clinical studies
+Defined U.S. approved context and substantial human evidence; pivotal primary extraction remains partial in Build 0018.
 
-## Evidence foundation
+## Closed evidence
 
-- `CERT-EKS-000025`
+- None
+
+## Partially closed evidence
+
 - `CERT-EKS-000026`
 - `CERT-EKS-000027`
 
-## Safety foundation
+## Open evidence
 
-- `CERT-SKS-000008`
+- `CERT-EKS-000025`
 
-## Monitoring foundation
+## Translation boundary
 
-- `CERT-MKS-000011`
-- `CERT-MKS-000012`
-- `CERT-MKS-000013`
-- `CERT-MKS-000014`
-- `CERT-MKS-000015`
+Population-specific clinical evidence must not be broadened to ordinary obesity or cosmetic fat loss.
 
-## Regulatory headline
+## Validated universal human dosing protocol
 
-**APPROVED IN A DEFINED U.S. CONTEXT / OTHER CONTEXTS REQUIRE REVIEW**
+**No**
 
-United States approval exists for a defined HIV-associated lipodystrophy indication; all other jurisdictions and uses require separate verification.
+## Platinum Certified
 
-## Human dosing
-
-**Validated universal protocol:** No
-
-## Certification blockers
-
-- Jurisdiction-specific status outside the United States
-- Clear separation of labelled indication from off-label and research contexts
-- Current product-specific label and safety surveillance review
-
-## Certification
-
-**Platinum Certified:** No
+**No**

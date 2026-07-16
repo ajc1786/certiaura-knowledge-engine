@@ -1,113 +1,21 @@
 {
   "asset_id": "CERT-PKS-000003",
   "asset_name": "Tesamorelin",
-  "knowledge_system": "PKS",
-  "asset_type": "Peptide Knowledge Asset",
-  "version": "0.1.0",
-  "status": "BOOTSTRAPPED — NOT PLATINUM CERTIFIED",
-  "owner": "Aidan Coleman",
+  "version": "0.2.0",
+  "status": "HUMAN CLINICAL EVIDENCE IDENTIFIED — DIRECT SOURCE CLOSURE PARTIAL — NOT PLATINUM CERTIFIED",
   "last_review": "2026-07-16",
-  "aliases": [
-    "TH9507",
-    "Egrifta",
-    "Egrifta SV"
-  ],
-  "classification": "Synthetic growth-hormone-releasing hormone analogue",
-  "mechanism_summary": "Growth-hormone-releasing hormone receptor agonism with downstream growth hormone and insulin-like growth factor 1 signalling.",
-  "evidence_maturity": "Approved U.S. indication plus multiple human clinical studies",
-  "regulatory_status": {
-    "headline": "United States approval exists for a defined HIV-associated lipodystrophy indication; all other jurisdictions and uses require separate verification.",
-    "state": "APPROVED IN A DEFINED U.S. CONTEXT / OTHER CONTEXTS REQUIRE REVIEW",
-    "status_as_of": "2026-07-16",
-    "monitoring_required": true
+  "evidence_maturity": "Defined U.S. approved context and substantial human evidence; pivotal primary extraction remains partial in Build 0018.",
+  "source_closure": {
+    "closed": [],
+    "partial": [
+      "CERT-EKS-000026",
+      "CERT-EKS-000027"
+    ],
+    "open": [
+      "CERT-EKS-000025"
+    ]
   },
-  "relationships": [
-    {
-      "source": "CERT-PKS-000003",
-      "relationship": "ACTS_ON",
-      "target": "CERT-BKS-000024"
-    },
-    {
-      "source": "CERT-PKS-000003",
-      "relationship": "ACTS_ON",
-      "target": "CERT-BKS-000025"
-    },
-    {
-      "source": "CERT-PKS-000003",
-      "relationship": "ACTS_ON",
-      "target": "CERT-BKS-000026"
-    },
-    {
-      "source": "CERT-PKS-000003",
-      "relationship": "ACTS_ON",
-      "target": "CERT-BKS-000027"
-    },
-    {
-      "source": "CERT-PKS-000003",
-      "relationship": "HAS_CONDITION",
-      "target": "CERT-CKS-000004"
-    },
-    {
-      "source": "CERT-PKS-000003",
-      "relationship": "SUPPORTS_GOAL",
-      "target": "CERT-GKS-000004"
-    },
-    {
-      "source": "CERT-PKS-000003",
-      "relationship": "SUPPORTS_GOAL",
-      "target": "CERT-GKS-000005"
-    },
-    {
-      "source": "CERT-PKS-000003",
-      "relationship": "HAS_MONITORING",
-      "target": "CERT-MKS-000011"
-    },
-    {
-      "source": "CERT-PKS-000003",
-      "relationship": "HAS_MONITORING",
-      "target": "CERT-MKS-000012"
-    },
-    {
-      "source": "CERT-PKS-000003",
-      "relationship": "HAS_MONITORING",
-      "target": "CERT-MKS-000013"
-    },
-    {
-      "source": "CERT-PKS-000003",
-      "relationship": "HAS_MONITORING",
-      "target": "CERT-MKS-000014"
-    },
-    {
-      "source": "CERT-PKS-000003",
-      "relationship": "HAS_MONITORING",
-      "target": "CERT-MKS-000015"
-    },
-    {
-      "source": "CERT-PKS-000003",
-      "relationship": "HAS_SAFETY",
-      "target": "CERT-SKS-000008"
-    },
-    {
-      "source": "CERT-PKS-000003",
-      "relationship": "HAS_EVIDENCE",
-      "target": "CERT-EKS-000025"
-    },
-    {
-      "source": "CERT-PKS-000003",
-      "relationship": "HAS_EVIDENCE",
-      "target": "CERT-EKS-000026"
-    },
-    {
-      "source": "CERT-PKS-000003",
-      "relationship": "HAS_EVIDENCE",
-      "target": "CERT-EKS-000027"
-    }
-  ],
+  "key_translation_boundary": "Population-specific clinical evidence must not be broadened to ordinary obesity or cosmetic fat loss.",
   "validated_universal_human_dosing_protocol": false,
-  "platinum_certified": false,
-  "certification_blockers": [
-    "Jurisdiction-specific status outside the United States",
-    "Clear separation of labelled indication from off-label and research contexts",
-    "Current product-specific label and safety surveillance review"
-  ]
+  "platinum_certified": false
 }

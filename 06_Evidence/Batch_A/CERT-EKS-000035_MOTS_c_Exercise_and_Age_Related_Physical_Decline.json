@@ -1,21 +1,46 @@
 {
   "asset_id": "CERT-EKS-000035",
   "asset_name": "MOTS-c Exercise and Age-Related Physical Decline",
+  "root_asset": "CERT-PKS-000006",
   "knowledge_system": "EKS",
   "asset_type": "Evidence Object",
-  "version": "0.1.0",
-  "status": "PRIMARY PUBLICATION IDENTIFIED — EXTRACTION PLANNED",
-  "root_asset_name": "MOTS-c",
-  "publication_or_source": "MOTS-c is an exercise-induced mitochondrial-encoded regulator of age-dependent physical decline and muscle homeostasis",
-  "evidence_type": "Preclinical and translational study",
-  "doi": "10.1038/s41467-020-20790-0",
-  "direct_extraction_completed": false,
+  "version": "1.0.0",
+  "status": "CLOSED FOR CORE PRIMARY FULL-TEXT EXTRACTION",
   "last_review": "2026-07-16",
-  "permitted_use": "Evidence-domain mapping and cautious high-level description only until extraction closes.",
-  "prohibited_use": [
-    "Precise quantitative promotion before direct extraction",
-    "Universal human dosing",
-    "Human efficacy beyond the actual study population and design",
-    "Approval claims not supported by current authoritative records"
-  ]
+  "publication": {
+    "title": "MOTS-c is an exercise-induced mitochondrial-encoded regulator of age-dependent physical decline and muscle homeostasis",
+    "journal": "Nature Communications",
+    "year": 2021,
+    "doi": "10.1038/s41467-020-20790-0",
+    "pmid": null
+  },
+  "study_design": "Open-access translational study combining human exercise sampling, mouse intervention experiments and cell models.",
+  "population_or_model": "Ten healthy young men in the exercise-expression component; young, middle-aged and old mice; C2C12 cells.",
+  "intervention_or_exposure": "Human exercise sampling measured endogenous MOTS-c. Exogenous MOTS-c intervention outcomes were tested primarily in mice and cells.",
+  "outcomes": [
+    "In the ten-man human exercise component, skeletal-muscle MOTS-c rose 11.9-fold after exercise and circulating levels rose about 1.5–1.6-fold during/after exercise.",
+    "Exogenous MOTS-c improved multiple physical-performance outcomes in mouse models.",
+    "Old treated mice ran approximately twofold longer and 2.16-fold farther in one reported experiment.",
+    "Late-life intermittent treatment improved several healthspan measures in mice.",
+    "Overall lifespan results were not statistically conclusive; the overall curve was reported as p=0.23.",
+    "The human component measured endogenous response, not therapeutic efficacy of injected MOTS-c."
+  ],
+  "limitations": [
+    "Human sample was small and observational with respect to endogenous exercise response.",
+    "Treatment efficacy was established in mice, not humans.",
+    "Multiple animal doses and models do not create a human protocol.",
+    "Longevity findings require larger cohorts."
+  ],
+  "permitted_claims": [
+    "Exercise increased endogenous MOTS-c in a small human study.",
+    "Exogenous MOTS-c improved physical-capacity outcomes in several mouse models.",
+    "The study did not establish injected MOTS-c efficacy in humans."
+  ],
+  "prohibited_claims": [
+    "Human exercise-performance enhancement claims from injections.",
+    "Human longevity claims.",
+    "Conversion of mouse regimens into human dosing."
+  ],
+  "source_closure": "PRIMARY FULL-TEXT WEB EXTRACTION COMPLETED FOR CORE CLAIMS",
+  "study_design_not_user_protocol": true
 }

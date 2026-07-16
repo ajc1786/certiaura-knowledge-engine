@@ -1,21 +1,37 @@
 {
   "asset_id": "CERT-EKS-000027",
   "asset_name": "Tesamorelin Visceral and Liver Fat Randomised Clinical Evidence",
+  "root_asset": "CERT-PKS-000003",
   "knowledge_system": "EKS",
   "asset_type": "Evidence Object",
-  "version": "0.1.0",
-  "status": "PRIMARY PUBLICATION IDENTIFIED — EXTRACTION PLANNED",
-  "root_asset_name": "Tesamorelin",
-  "publication_or_source": "Effect of tesamorelin on visceral fat and liver fat in HIV-infected patients with abdominal fat accumulation",
-  "evidence_type": "Randomised clinical trial",
-  "doi": "10.1001/jama.2014.8334",
-  "direct_extraction_completed": false,
+  "version": "0.5.0",
+  "status": "PRIMARY METADATA CONFIRMED — COMPLETE EXTRACTION OPEN",
   "last_review": "2026-07-16",
-  "permitted_use": "Evidence-domain mapping and cautious high-level description only until extraction closes.",
-  "prohibited_use": [
-    "Precise quantitative promotion before direct extraction",
-    "Universal human dosing",
-    "Human efficacy beyond the actual study population and design",
-    "Approval claims not supported by current authoritative records"
-  ]
+  "publication": {
+    "title": "Effect of tesamorelin on visceral fat and liver fat in HIV-infected patients with abdominal fat accumulation: a randomized clinical trial",
+    "journal": "JAMA",
+    "year": 2014,
+    "doi": "10.1001/jama.2014.8334",
+    "pmid": "25038357"
+  },
+  "study_design": "Randomised clinical trial evaluating visceral adipose tissue and hepatic fat in HIV-infected adults with abdominal fat accumulation.",
+  "population_or_model": "Adults living with HIV and abdominal fat accumulation.",
+  "intervention_or_exposure": "Tesamorelin versus placebo; detailed treatment schedule remains tied to the primary article and is not reproduced as guidance.",
+  "outcomes": [
+    "The publication supports study of both visceral and hepatic fat outcomes.",
+    "Precise effect sizes remain open pending complete direct extraction."
+  ],
+  "limitations": [
+    "Full primary article was not captured in Build 0018.",
+    "Population-specific evidence does not validate general anti-obesity or anti-ageing use."
+  ],
+  "permitted_claims": [
+    "Tesamorelin has randomised human evidence involving visceral and liver-fat outcomes in a defined HIV population."
+  ],
+  "prohibited_claims": [
+    "Unqualified liver-fat treatment claims.",
+    "Transfer to non-HIV populations without separate evidence."
+  ],
+  "source_closure": "PRIMARY IDENTITY, DOI AND PMID CONFIRMED — COMPLETE DIRECT EXTRACTION OPEN",
+  "study_design_not_user_protocol": true
 }

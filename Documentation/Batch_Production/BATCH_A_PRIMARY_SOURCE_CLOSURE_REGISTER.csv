@@ -1,13 +1,13 @@
-Evidence ID,Root Asset,Source,DOI,Closure State,Next Action
-CERT-EKS-000025,Tesamorelin,Official U.S. prescribing information / approval context,,AUTHORITATIVE SOURCE IDENTIFIED — CURRENT LABEL CAPTURE TO BE VERIFIED,Direct primary extraction
-CERT-EKS-000026,Tesamorelin,Metabolic effects of a growth hormone-releasing factor in patients with HIV,10.1056/NEJMoa072375,PRIMARY PUBLICATION IDENTIFIED — EXTRACTION PLANNED,Direct primary extraction
-CERT-EKS-000027,Tesamorelin,Effect of tesamorelin on visceral fat and liver fat in HIV-infected patients with abdominal fat accumulation,10.1001/jama.2014.8334,PRIMARY PUBLICATION IDENTIFIED — EXTRACTION PLANNED,Direct primary extraction
-CERT-EKS-000028,CJC-1295,Prolonged stimulation of growth hormone and insulin-like growth factor I secretion by CJC-1295 in healthy adults,10.1210/jc.2005-1536,PRIMARY PUBLICATION IDENTIFIED — EXTRACTION PLANNED,Direct primary extraction
-CERT-EKS-000029,CJC-1295,Pulsatile secretion of growth hormone persists during continuous stimulation by CJC-1295,,PRIMARY PUBLICATION IDENTIFIED — EXTRACTION PLANNED,Direct primary extraction
-CERT-EKS-000030,CJC-1295,"Clinical-development, serious-adverse-event and programme-status source set",,OPEN — PRIMARY DEVELOPMENT RECORDS REQUIRED,Direct primary extraction
-CERT-EKS-000031,Ipamorelin,Pharmacokinetic-pharmacodynamic modelling of ipamorelin in human volunteers,,PRIMARY PUBLICATION IDENTIFIED — EXTRACTION PLANNED,Direct primary extraction
-CERT-EKS-000032,Ipamorelin,Prospective randomised controlled proof-of-concept study of ipamorelin for postoperative ileus,,PRIMARY PUBLICATION IDENTIFIED — EXTRACTION PLANNED,Direct primary extraction
-CERT-EKS-000033,Ipamorelin,"Ipamorelin, the first selective growth hormone secretagogue",,PRIMARY PUBLICATION IDENTIFIED — EXTRACTION PLANNED,Direct primary extraction
-CERT-EKS-000034,MOTS-c,The mitochondrial-derived peptide MOTS-c promotes metabolic homeostasis and reduces obesity and insulin resistance,10.1016/j.cmet.2015.02.009,PRIMARY PUBLICATION IDENTIFIED — EXTRACTION PLANNED,Direct primary extraction
-CERT-EKS-000035,MOTS-c,MOTS-c is an exercise-induced mitochondrial-encoded regulator of age-dependent physical decline and muscle homeostasis,10.1038/s41467-020-20790-0,PRIMARY PUBLICATION IDENTIFIED — EXTRACTION PLANNED,Direct primary extraction
-CERT-EKS-000036,MOTS-c,"Human trial, exposure, safety and regulatory development source set",,OPEN — DIRECT HUMAN PRIMARY SOURCES REQUIRED,Direct primary extraction
+Evidence ID,Root Asset,Closure State,Quantitative Claims Permitted,Next Action
+CERT-EKS-000025,Tesamorelin,OPEN — CURRENT LABEL NOT CAPTURED,No,Capture current authoritative U.S. label
+CERT-EKS-000026,Tesamorelin,PRIMARY IDENTITY CONFIRMED — COMPLETE EXTRACTION OPEN,No,Capture full article
+CERT-EKS-000027,Tesamorelin,PRIMARY METADATA CONFIRMED — COMPLETE EXTRACTION OPEN,No,Capture full article
+CERT-EKS-000028,CJC-1295,PRIMARY ABSTRACT DIRECTLY EXTRACTED,"Yes, abstract-scoped",Capture full article if deeper safety detail required
+CERT-EKS-000029,CJC-1295,PRIMARY ABSTRACT DIRECTLY EXTRACTED,"Yes, abstract-scoped",Maintain
+CERT-EKS-000030,CJC-1295,OPEN — DEVELOPMENT RECORDS REQUIRED,No,Capture sponsor and regulatory history
+CERT-EKS-000031,Ipamorelin,PRIMARY ABSTRACT DIRECTLY EXTRACTED,"Yes, abstract-scoped",Maintain
+CERT-EKS-000032,Ipamorelin,PRIMARY ABSTRACT DIRECTLY EXTRACTED,"Yes, abstract-scoped",Maintain negative efficacy finding
+CERT-EKS-000033,Ipamorelin,PRIMARY IDENTITY CONFIRMED — DIRECT EXTRACTION OPEN,No,Capture complete primary source
+CERT-EKS-000034,MOTS-c,CORE PRIMARY EXTRACTION CLOSED,"Yes, model-specific",Maintain animal/human boundary
+CERT-EKS-000035,MOTS-c,CORE PRIMARY FULL-TEXT EXTRACTION CLOSED,"Yes, model-specific",Maintain human expression versus animal treatment distinction
+CERT-EKS-000036,MOTS-c,OPEN — DIRECT HUMAN INTERVENTION EVIDENCE REQUIRED,No,Monitor human trial and safety evidence

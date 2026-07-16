@@ -1,21 +1,43 @@
 {
   "asset_id": "CERT-EKS-000032",
   "asset_name": "Ipamorelin Postoperative Ileus Randomised Study",
+  "root_asset": "CERT-PKS-000005",
   "knowledge_system": "EKS",
   "asset_type": "Evidence Object",
-  "version": "0.1.0",
-  "status": "PRIMARY PUBLICATION IDENTIFIED — EXTRACTION PLANNED",
-  "root_asset_name": "Ipamorelin",
-  "publication_or_source": "Prospective randomised controlled proof-of-concept study of ipamorelin for postoperative ileus",
-  "evidence_type": "Randomised proof-of-concept study",
-  "doi": null,
-  "direct_extraction_completed": false,
+  "version": "1.0.0",
+  "status": "CLOSED FOR PRIMARY ABSTRACT EXTRACTION",
   "last_review": "2026-07-16",
-  "permitted_use": "Evidence-domain mapping and cautious high-level description only until extraction closes.",
-  "prohibited_use": [
-    "Precise quantitative promotion before direct extraction",
-    "Universal human dosing",
-    "Human efficacy beyond the actual study population and design",
-    "Approval claims not supported by current authoritative records"
-  ]
+  "publication": {
+    "title": "Prospective, randomized, controlled, proof-of-concept study of the ghrelin mimetic ipamorelin for postoperative ileus",
+    "journal": "International Journal of Colorectal Disease",
+    "year": 2014,
+    "doi": "10.1007/s00384-014-2030-8",
+    "pmid": "25331030"
+  },
+  "study_design": "Multicentre, double-blind, placebo-controlled phase 2 proof-of-concept trial.",
+  "population_or_model": "Adults undergoing open or laparoscopic small- or large-bowel resection.",
+  "intervention_or_exposure": "Intravenous 0.03 mg/kg study infusions twice daily from postoperative day 1 through day 7 or discharge.",
+  "outcomes": [
+    "117 patients enrolled; 114 formed the safety and modified intention-to-treat populations.",
+    "Median time to first tolerated standardised meal was 25.3 hours with ipamorelin and 32.6 hours with placebo; p=0.15.",
+    "Treatment-emergent adverse events occurred in 87.5% and 94.8% respectively.",
+    "No significant difference was found in key or secondary efficacy analyses.",
+    "The authors characterised the study regimen as well tolerated in this short inpatient setting."
+  ],
+  "limitations": [
+    "Small proof-of-concept study.",
+    "Broad surgical population.",
+    "Primary efficacy endpoint was not statistically significant.",
+    "Short-duration inpatient exposure."
+  ],
+  "permitted_claims": [
+    "The phase 2 postoperative-ileus trial did not demonstrate significant efficacy over placebo.",
+    "Short study exposure was described as well tolerated."
+  ],
+  "prohibited_claims": [
+    "Claim that ipamorelin treats postoperative ileus.",
+    "Use of the study regimen as a general dosing protocol."
+  ],
+  "source_closure": "PRIMARY ABSTRACT DIRECTLY EXTRACTED",
+  "study_design_not_user_protocol": true
 }

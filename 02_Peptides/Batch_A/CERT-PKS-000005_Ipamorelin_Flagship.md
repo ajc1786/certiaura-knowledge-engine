@@ -8,60 +8,35 @@
 
 # CERT-PKS-000005 — Ipamorelin
 
-**Version:** 0.1.0  
-**Status:** BOOTSTRAPPED — NOT PLATINUM CERTIFIED  
+**Version:** 0.2.0  
+**Status:** HUMAN PK-PD AND NEGATIVE PHASE 2 EFFICACY EXTRACTED — NOT PLATINUM CERTIFIED  
 **Last Review:** 2026-07-16
-
-## Plain-English summary
-
-Selective ghrelin / growth-hormone-secretagogue receptor agonist.
-
-## Aliases
-
-NNC 26-0161
-
-## Mechanism
-
-Ghrelin receptor agonism with stimulation of growth hormone secretion.
 
 ## Evidence maturity
 
-Human pharmacology and discontinued clinical-development evidence
+Human PK/PD is established at early-study level; the phase 2 postoperative ileus trial did not show significant efficacy.
 
-## Evidence foundation
+## Closed evidence
 
 - `CERT-EKS-000031`
 - `CERT-EKS-000032`
+
+## Partially closed evidence
+
 - `CERT-EKS-000033`
 
-## Safety foundation
+## Open evidence
 
-- `CERT-SKS-000010`
+- None
 
-## Monitoring foundation
+## Translation boundary
 
-- `CERT-MKS-000011`
-- `CERT-MKS-000012`
-- `CERT-MKS-000014`
-- `CERT-MKS-000016`
+A pharmacodynamic GH response is not evidence of body-composition, recovery or longevity efficacy.
 
-## Regulatory headline
+## Validated universal human dosing protocol
 
-**INVESTIGATIONAL / NO APPROVAL CLAIM**
+**No**
 
-No approved therapeutic status claimed; human development evidence does not establish a current licensed treatment.
+## Platinum Certified
 
-## Human dosing
-
-**Validated universal protocol:** No
-
-## Certification blockers
-
-- No approved indication
-- Limited and dated human evidence
-- Long-term human safety
-- No validated wellness or performance protocol
-
-## Certification
-
-**Platinum Certified:** No
+**No**

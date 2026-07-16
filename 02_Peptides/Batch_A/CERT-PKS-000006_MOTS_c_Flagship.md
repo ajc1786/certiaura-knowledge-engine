@@ -8,62 +8,35 @@
 
 # CERT-PKS-000006 — MOTS-c
 
-**Version:** 0.1.0  
-**Status:** BOOTSTRAPPED — NOT PLATINUM CERTIFIED  
+**Version:** 0.2.0  
+**Status:** CORE PRECLINICAL AND TRANSLATIONAL EVIDENCE EXTRACTED — HUMAN INTERVENTION GAP — NOT PLATINUM CERTIFIED  
 **Last Review:** 2026-07-16
-
-## Plain-English summary
-
-Mitochondrial-derived peptide.
-
-## Aliases
-
-Mitochondrial open reading frame of the 12S rRNA-c
-
-## Mechanism
-
-Mitochondrial stress-signalling and metabolic homeostasis research involving AMP-activated protein kinase and skeletal-muscle pathways.
 
 ## Evidence maturity
 
-Preclinical-dominant with emerging human observational and early-development interest
+Core metabolic and exercise studies are extracted; injected-human efficacy and safety remain unestablished.
 
-## Evidence foundation
+## Closed evidence
 
 - `CERT-EKS-000034`
 - `CERT-EKS-000035`
+
+## Partially closed evidence
+
+- None
+
+## Open evidence
+
 - `CERT-EKS-000036`
 
-## Safety foundation
+## Translation boundary
 
-- `CERT-SKS-000011`
+The human evidence measured endogenous exercise response; treatment effects were primarily demonstrated in mice.
 
-## Monitoring foundation
+## Validated universal human dosing protocol
 
-- `CERT-MKS-000002`
-- `CERT-MKS-000003`
-- `CERT-MKS-000005`
-- `CERT-MKS-000010`
-- `CERT-MKS-000017`
+**No**
 
-## Regulatory headline
+## Platinum Certified
 
-**EXPERIMENTAL / PRECLINICAL-DOMINANT / NO APPROVAL CLAIM**
-
-No approved therapeutic status claimed; anti-doping and compounding positions require active authoritative monitoring.
-
-## Human dosing
-
-**Validated universal protocol:** No
-
-## Certification blockers
-
-- Confirmatory human efficacy
-- Human pharmacokinetics and dose selection
-- Long-term human safety
-- Current anti-doping and regulatory closure
-- Product identity and quality validation
-
-## Certification
-
-**Platinum Certified:** No
+**No**

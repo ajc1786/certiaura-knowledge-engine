@@ -8,60 +8,35 @@
 
 # CERT-PKS-000004 — CJC-1295
 
-**Version:** 0.1.0  
-**Status:** BOOTSTRAPPED — NOT PLATINUM CERTIFIED  
+**Version:** 0.2.0  
+**Status:** HUMAN PHARMACOLOGY EXTRACTED — NO THERAPEUTIC EFFICACY — NOT PLATINUM CERTIFIED  
 **Last Review:** 2026-07-16
-
-## Plain-English summary
-
-Long-acting growth-hormone-releasing hormone analogue with drug-affinity-complex modification.
-
-## Aliases
-
-CJC-1295 with DAC, DAC:GRF
-
-## Mechanism
-
-Growth-hormone-releasing hormone receptor agonism with prolonged growth hormone and insulin-like growth factor 1 stimulation.
 
 ## Evidence maturity
 
-Early human pharmacology evidence; no approved therapeutic status claimed
+Two primary human endocrine-pharmacology abstracts directly extracted.
 
-## Evidence foundation
+## Closed evidence
 
 - `CERT-EKS-000028`
 - `CERT-EKS-000029`
+
+## Partially closed evidence
+
+- None
+
+## Open evidence
+
 - `CERT-EKS-000030`
 
-## Safety foundation
+## Translation boundary
 
-- `CERT-SKS-000009`
+The evidence applies to CJC-1295 with DAC and does not establish clinical benefit or long-term safety.
 
-## Monitoring foundation
+## Validated universal human dosing protocol
 
-- `CERT-MKS-000011`
-- `CERT-MKS-000012`
-- `CERT-MKS-000013`
-- `CERT-MKS-000014`
+**No**
 
-## Regulatory headline
+## Platinum Certified
 
-**INVESTIGATIONAL / NO APPROVAL CLAIM**
-
-Investigational / unapproved status control; CJC-1295 with DAC must be distinguished from modified GRF (1-29) sold as 'CJC without DAC'.
-
-## Human dosing
-
-**Validated universal protocol:** No
-
-## Certification blockers
-
-- Limited clinical programme
-- No approved indication
-- Long-term human safety
-- Commercial product identity confusion between DAC and non-DAC products
-
-## Certification
-
-**Platinum Certified:** No
+**No**

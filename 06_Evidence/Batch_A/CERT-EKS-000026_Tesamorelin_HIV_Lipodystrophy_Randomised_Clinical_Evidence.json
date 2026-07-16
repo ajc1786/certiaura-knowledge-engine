@@ -1,21 +1,37 @@
 {
   "asset_id": "CERT-EKS-000026",
   "asset_name": "Tesamorelin HIV Lipodystrophy Randomised Clinical Evidence",
+  "root_asset": "CERT-PKS-000003",
   "knowledge_system": "EKS",
   "asset_type": "Evidence Object",
-  "version": "0.1.0",
-  "status": "PRIMARY PUBLICATION IDENTIFIED — EXTRACTION PLANNED",
-  "root_asset_name": "Tesamorelin",
-  "publication_or_source": "Metabolic effects of a growth hormone-releasing factor in patients with HIV",
-  "evidence_type": "Randomised clinical trial",
-  "doi": "10.1056/NEJMoa072375",
-  "direct_extraction_completed": false,
+  "version": "0.5.0",
+  "status": "PRIMARY IDENTITY CONFIRMED — COMPLETE EXTRACTION OPEN",
   "last_review": "2026-07-16",
-  "permitted_use": "Evidence-domain mapping and cautious high-level description only until extraction closes.",
-  "prohibited_use": [
-    "Precise quantitative promotion before direct extraction",
-    "Universal human dosing",
-    "Human efficacy beyond the actual study population and design",
-    "Approval claims not supported by current authoritative records"
-  ]
+  "publication": {
+    "title": "Metabolic effects of a growth hormone-releasing factor in patients with HIV",
+    "journal": "New England Journal of Medicine",
+    "year": 2007,
+    "doi": "10.1056/NEJMoa072375",
+    "pmid": null
+  },
+  "study_design": "Randomised clinical evidence in adults with HIV-associated abdominal fat accumulation.",
+  "population_or_model": "Adults living with HIV and abdominal adiposity / lipodystrophy.",
+  "intervention_or_exposure": "Tesamorelin versus placebo in the source trial; exact design details remain open pending complete primary capture.",
+  "outcomes": [
+    "The primary trial identity supports clinically studied visceral-adipose-tissue reduction in the defined HIV-associated population.",
+    "Precise numerical extraction remains open in this build."
+  ],
+  "limitations": [
+    "Complete direct article extraction not completed.",
+    "Findings cannot be generalised to ordinary obesity or cosmetic fat loss."
+  ],
+  "permitted_claims": [
+    "Tesamorelin was studied in randomised trials for HIV-associated abdominal adiposity."
+  ],
+  "prohibited_claims": [
+    "Precise numerical claims from this build alone.",
+    "Universal weight-loss or general obesity claims."
+  ],
+  "source_closure": "PRIMARY PUBLICATION IDENTITY CONFIRMED — DIRECT COMPLETE EXTRACTION OPEN",
+  "study_design_not_user_protocol": true
 }

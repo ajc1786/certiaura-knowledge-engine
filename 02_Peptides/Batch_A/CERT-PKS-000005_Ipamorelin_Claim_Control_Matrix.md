@@ -6,15 +6,13 @@
 
 ---
 
-# IPAMORELIN CLAIM CONTROL MATRIX
+# IPAMORELIN CLAIM CONTROL MATRIX — BUILD 0018
 
-| Claim | Status | Permission |
-|---|---|---|
-| Ipamorelin is a selective ghrelin / growth-hormone-secretagogue receptor agonist. | Identity-supported | Allowed |
-| Ipamorelin has the same regulatory status in every jurisdiction. | False | Not allowed |
-| Online availability proves lawful or approved human use. | False | Not allowed |
-| A universal human dosing protocol is validated. | Not established | Not allowed |
-| Evidence maturity is: Human pharmacology and discontinued clinical-development evidence. | Current controlled assessment | Allowed |
-| The asset is Platinum Certified. | False | Not allowed |
+| Claim | Permission |
+|---|---|
+| Ipamorelin has direct human PK/PD evidence. | Allowed |
+| The phase 2 postoperative ileus trial showed significant efficacy. | Not allowed |
+| The trial found no significant difference in key or secondary efficacy analyses. | Allowed |
+| Short-term tolerability proves chronic-use safety. | Not allowed |
 
 **Status as of:** 2026-07-16

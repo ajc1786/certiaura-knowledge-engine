@@ -1,21 +1,42 @@
 {
   "asset_id": "CERT-EKS-000034",
   "asset_name": "MOTS-c Discovery and Metabolic Homeostasis",
+  "root_asset": "CERT-PKS-000006",
   "knowledge_system": "EKS",
   "asset_type": "Evidence Object",
-  "version": "0.1.0",
-  "status": "PRIMARY PUBLICATION IDENTIFIED — EXTRACTION PLANNED",
-  "root_asset_name": "MOTS-c",
-  "publication_or_source": "The mitochondrial-derived peptide MOTS-c promotes metabolic homeostasis and reduces obesity and insulin resistance",
-  "evidence_type": "Preclinical discovery study",
-  "doi": "10.1016/j.cmet.2015.02.009",
-  "direct_extraction_completed": false,
+  "version": "1.0.0",
+  "status": "CLOSED FOR CORE PRIMARY EXTRACTION",
   "last_review": "2026-07-16",
-  "permitted_use": "Evidence-domain mapping and cautious high-level description only until extraction closes.",
-  "prohibited_use": [
-    "Precise quantitative promotion before direct extraction",
-    "Universal human dosing",
-    "Human efficacy beyond the actual study population and design",
-    "Approval claims not supported by current authoritative records"
-  ]
+  "publication": {
+    "title": "The mitochondrial-derived peptide MOTS-c promotes metabolic homeostasis and reduces obesity and insulin resistance",
+    "journal": "Cell Metabolism",
+    "year": 2015,
+    "doi": "10.1016/j.cmet.2015.02.009",
+    "pmid": "25738459"
+  },
+  "study_design": "Discovery study combining molecular, cell and mouse experiments.",
+  "population_or_model": "Cell systems and multiple mouse metabolic models; endogenous peptide detection included human samples.",
+  "intervention_or_exposure": "Experimental MOTS-c exposure in cells and mice; mouse studies included intraperitoneal treatment.",
+  "outcomes": [
+    "Identified a mitochondrial 12S-rRNA short open reading frame encoding a 16-amino-acid peptide.",
+    "Mechanistic data implicated folate/purine metabolism and AMPK activation.",
+    "Skeletal muscle was a principal target in the study.",
+    "Mouse treatment prevented age- and high-fat-diet-related insulin resistance and diet-induced obesity in the reported models.",
+    "The evidence was not a human therapeutic intervention trial."
+  ],
+  "limitations": [
+    "Predominantly cell and animal evidence.",
+    "Mouse injection data do not establish human dosing.",
+    "No human efficacy or long-term safety conclusion."
+  ],
+  "permitted_claims": [
+    "MOTS-c is a mitochondrial-derived 16-amino-acid peptide studied in metabolic cell and mouse models.",
+    "The study linked MOTS-c to AMPK-related metabolic signalling."
+  ],
+  "prohibited_claims": [
+    "Claim that MOTS-c reverses human obesity or diabetes.",
+    "Translation of animal study dosing into human use."
+  ],
+  "source_closure": "PRIMARY ABSTRACT AND FIGURE-LEVEL CORE METHODS DIRECTLY EXTRACTED",
+  "study_design_not_user_protocol": true
 }

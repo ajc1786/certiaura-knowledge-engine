@@ -6,15 +6,13 @@
 
 ---
 
-# MOTS-C CLAIM CONTROL MATRIX
+# MOTS-C CLAIM CONTROL MATRIX — BUILD 0018
 
-| Claim | Status | Permission |
-|---|---|---|
-| MOTS-c is a mitochondrial-derived peptide. | Identity-supported | Allowed |
-| MOTS-c has the same regulatory status in every jurisdiction. | False | Not allowed |
-| Online availability proves lawful or approved human use. | False | Not allowed |
-| A universal human dosing protocol is validated. | Not established | Not allowed |
-| Evidence maturity is: Preclinical-dominant with emerging human observational and early-development interest. | Current controlled assessment | Allowed |
-| The asset is Platinum Certified. | False | Not allowed |
+| Claim | Permission |
+|---|---|
+| MOTS-c has a mitochondrial-encoded metabolic discovery evidence base. | Allowed |
+| Exercise increased endogenous MOTS-c in a small human study. | Allowed |
+| Injected MOTS-c improves physical performance in humans. | Not established / not allowed |
+| Mouse metabolic and performance dosing can be converted into a human protocol. | Not allowed |
 
 **Status as of:** 2026-07-16

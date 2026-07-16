@@ -1,21 +1,44 @@
 {
   "asset_id": "CERT-EKS-000028",
   "asset_name": "CJC-1295 First-in-Human GH and IGF-1 Pharmacology",
+  "root_asset": "CERT-PKS-000004",
   "knowledge_system": "EKS",
   "asset_type": "Evidence Object",
-  "version": "0.1.0",
-  "status": "PRIMARY PUBLICATION IDENTIFIED — EXTRACTION PLANNED",
-  "root_asset_name": "CJC-1295",
-  "publication_or_source": "Prolonged stimulation of growth hormone and insulin-like growth factor I secretion by CJC-1295 in healthy adults",
-  "evidence_type": "Human pharmacology study",
-  "doi": "10.1210/jc.2005-1536",
-  "direct_extraction_completed": false,
+  "version": "1.0.0",
+  "status": "CLOSED FOR PRIMARY ABSTRACT EXTRACTION",
   "last_review": "2026-07-16",
-  "permitted_use": "Evidence-domain mapping and cautious high-level description only until extraction closes.",
-  "prohibited_use": [
-    "Precise quantitative promotion before direct extraction",
-    "Universal human dosing",
-    "Human efficacy beyond the actual study population and design",
-    "Approval claims not supported by current authoritative records"
-  ]
+  "publication": {
+    "title": "Prolonged stimulation of growth hormone and insulin-like growth factor I secretion by CJC-1295 in healthy adults",
+    "journal": "Journal of Clinical Endocrinology & Metabolism",
+    "year": 2006,
+    "doi": "10.1210/jc.2005-1536",
+    "pmid": "16352683"
+  },
+  "study_design": "Two randomised, placebo-controlled, double-blind ascending-dose trials lasting 28 and 49 days.",
+  "population_or_model": "Healthy adults aged 21–61 years at two investigational sites.",
+  "intervention_or_exposure": "Subcutaneous single ascending doses followed by weekly or biweekly repeated-dose cohorts.",
+  "outcomes": [
+    "Single-dose CJC-1295 produced dose-dependent mean GH increases of approximately 2- to 10-fold for at least 6 days.",
+    "Mean IGF-1 increased approximately 1.5- to 3-fold for 9–11 days.",
+    "Estimated half-life was 5.8–8.1 days.",
+    "After multiple doses, mean IGF-1 remained above baseline for up to 28 days.",
+    "No serious adverse reactions were reported in these small short-duration trials."
+  ],
+  "limitations": [
+    "Healthy volunteer pharmacology, not therapeutic efficacy.",
+    "Small early-phase trials.",
+    "No long-term safety conclusion.",
+    "The studied DAC compound is not modified GRF (1-29)."
+  ],
+  "permitted_claims": [
+    "CJC-1295 with DAC produced sustained GH and IGF-1 elevation in early healthy-adult trials.",
+    "The compound had a multi-day estimated half-life in the study."
+  ],
+  "prohibited_claims": [
+    "Approved treatment claims.",
+    "Long-term safety claims.",
+    "Transfer of results to non-DAC products or blends."
+  ],
+  "source_closure": "PRIMARY ABSTRACT DIRECTLY EXTRACTED",
+  "study_design_not_user_protocol": true
 }

@@ -1,21 +1,41 @@
 {
   "asset_id": "CERT-EKS-000029",
   "asset_name": "CJC-1295 Growth Hormone Pulsatility Study",
+  "root_asset": "CERT-PKS-000004",
   "knowledge_system": "EKS",
   "asset_type": "Evidence Object",
-  "version": "0.1.0",
-  "status": "PRIMARY PUBLICATION IDENTIFIED — EXTRACTION PLANNED",
-  "root_asset_name": "CJC-1295",
-  "publication_or_source": "Pulsatile secretion of growth hormone persists during continuous stimulation by CJC-1295",
-  "evidence_type": "Human endocrine pharmacology study",
-  "doi": null,
-  "direct_extraction_completed": false,
+  "version": "1.0.0",
+  "status": "CLOSED FOR PRIMARY ABSTRACT EXTRACTION",
   "last_review": "2026-07-16",
-  "permitted_use": "Evidence-domain mapping and cautious high-level description only until extraction closes.",
-  "prohibited_use": [
-    "Precise quantitative promotion before direct extraction",
-    "Universal human dosing",
-    "Human efficacy beyond the actual study population and design",
-    "Approval claims not supported by current authoritative records"
-  ]
+  "publication": {
+    "title": "Pulsatile secretion of growth hormone persists during continuous stimulation by CJC-1295",
+    "journal": "Journal of Clinical Endocrinology & Metabolism",
+    "year": 2006,
+    "doi": "10.1210/jc.2006-1702",
+    "pmid": "17018654"
+  },
+  "study_design": "Overnight 12-hour intensive sampling before and one week after a single CJC-1295 injection.",
+  "population_or_model": "Healthy men aged 20–40 years.",
+  "intervention_or_exposure": "Single subcutaneous 60 or 90 microgram/kg study doses.",
+  "outcomes": [
+    "GH pulsatility was preserved.",
+    "Pulse frequency and magnitude were unaltered.",
+    "Basal trough GH rose approximately 7.5-fold.",
+    "Mean GH rose 46% and IGF-1 rose 45% in the extracted abstract.",
+    "Responses did not differ significantly between the two study doses."
+  ],
+  "limitations": [
+    "Small mechanistic study.",
+    "No therapeutic or body-composition endpoint.",
+    "Study dose is not a user protocol."
+  ],
+  "permitted_claims": [
+    "CJC-1295 increased trough and mean GH while preserving pulsatility in this small mechanistic study."
+  ],
+  "prohibited_claims": [
+    "Claims that preserved pulsatility proves safety or clinical benefit.",
+    "Dose recommendations."
+  ],
+  "source_closure": "PRIMARY ABSTRACT DIRECTLY EXTRACTED",
+  "study_design_not_user_protocol": true
 }

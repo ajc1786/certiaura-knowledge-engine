@@ -1,118 +1,21 @@
 {
   "asset_id": "CERT-PKS-000006",
   "asset_name": "MOTS-c",
-  "knowledge_system": "PKS",
-  "asset_type": "Peptide Knowledge Asset",
-  "version": "0.1.0",
-  "status": "BOOTSTRAPPED — NOT PLATINUM CERTIFIED",
-  "owner": "Aidan Coleman",
+  "version": "0.2.0",
+  "status": "CORE PRECLINICAL AND TRANSLATIONAL EVIDENCE EXTRACTED — HUMAN INTERVENTION GAP — NOT PLATINUM CERTIFIED",
   "last_review": "2026-07-16",
-  "aliases": [
-    "Mitochondrial open reading frame of the 12S rRNA-c"
-  ],
-  "classification": "Mitochondrial-derived peptide",
-  "mechanism_summary": "Mitochondrial stress-signalling and metabolic homeostasis research involving AMP-activated protein kinase and skeletal-muscle pathways.",
-  "evidence_maturity": "Preclinical-dominant with emerging human observational and early-development interest",
-  "regulatory_status": {
-    "headline": "No approved therapeutic status claimed; anti-doping and compounding positions require active authoritative monitoring.",
-    "state": "EXPERIMENTAL / PRECLINICAL-DOMINANT / NO APPROVAL CLAIM",
-    "status_as_of": "2026-07-16",
-    "monitoring_required": true
+  "evidence_maturity": "Core metabolic and exercise studies are extracted; injected-human efficacy and safety remain unestablished.",
+  "source_closure": {
+    "closed": [
+      "CERT-EKS-000034",
+      "CERT-EKS-000035"
+    ],
+    "partial": [],
+    "open": [
+      "CERT-EKS-000036"
+    ]
   },
-  "relationships": [
-    {
-      "source": "CERT-PKS-000006",
-      "relationship": "ACTS_ON",
-      "target": "CERT-BKS-000029"
-    },
-    {
-      "source": "CERT-PKS-000006",
-      "relationship": "ACTS_ON",
-      "target": "CERT-BKS-000030"
-    },
-    {
-      "source": "CERT-PKS-000006",
-      "relationship": "ACTS_ON",
-      "target": "CERT-BKS-000031"
-    },
-    {
-      "source": "CERT-PKS-000006",
-      "relationship": "HAS_CONDITION",
-      "target": "CERT-CKS-000001"
-    },
-    {
-      "source": "CERT-PKS-000006",
-      "relationship": "HAS_CONDITION",
-      "target": "CERT-CKS-000002"
-    },
-    {
-      "source": "CERT-PKS-000006",
-      "relationship": "HAS_CONDITION",
-      "target": "CERT-CKS-000003"
-    },
-    {
-      "source": "CERT-PKS-000006",
-      "relationship": "SUPPORTS_GOAL",
-      "target": "CERT-GKS-000002"
-    },
-    {
-      "source": "CERT-PKS-000006",
-      "relationship": "SUPPORTS_GOAL",
-      "target": "CERT-GKS-000006"
-    },
-    {
-      "source": "CERT-PKS-000006",
-      "relationship": "HAS_MONITORING",
-      "target": "CERT-MKS-000002"
-    },
-    {
-      "source": "CERT-PKS-000006",
-      "relationship": "HAS_MONITORING",
-      "target": "CERT-MKS-000003"
-    },
-    {
-      "source": "CERT-PKS-000006",
-      "relationship": "HAS_MONITORING",
-      "target": "CERT-MKS-000005"
-    },
-    {
-      "source": "CERT-PKS-000006",
-      "relationship": "HAS_MONITORING",
-      "target": "CERT-MKS-000010"
-    },
-    {
-      "source": "CERT-PKS-000006",
-      "relationship": "HAS_MONITORING",
-      "target": "CERT-MKS-000017"
-    },
-    {
-      "source": "CERT-PKS-000006",
-      "relationship": "HAS_SAFETY",
-      "target": "CERT-SKS-000011"
-    },
-    {
-      "source": "CERT-PKS-000006",
-      "relationship": "HAS_EVIDENCE",
-      "target": "CERT-EKS-000034"
-    },
-    {
-      "source": "CERT-PKS-000006",
-      "relationship": "HAS_EVIDENCE",
-      "target": "CERT-EKS-000035"
-    },
-    {
-      "source": "CERT-PKS-000006",
-      "relationship": "HAS_EVIDENCE",
-      "target": "CERT-EKS-000036"
-    }
-  ],
+  "key_translation_boundary": "The human evidence measured endogenous exercise response; treatment effects were primarily demonstrated in mice.",
   "validated_universal_human_dosing_protocol": false,
-  "platinum_certified": false,
-  "certification_blockers": [
-    "Confirmatory human efficacy",
-    "Human pharmacokinetics and dose selection",
-    "Long-term human safety",
-    "Current anti-doping and regulatory closure",
-    "Product identity and quality validation"
-  ]
+  "platinum_certified": false
 }

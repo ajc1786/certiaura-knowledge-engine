@@ -6,15 +6,13 @@
 
 ---
 
-# TESAMORELIN CLAIM CONTROL MATRIX
+# TESAMORELIN CLAIM CONTROL MATRIX — BUILD 0018
 
-| Claim | Status | Permission |
-|---|---|---|
-| Tesamorelin is a synthetic growth-hormone-releasing hormone analogue. | Identity-supported | Allowed |
-| Tesamorelin has the same regulatory status in every jurisdiction. | False | Not allowed |
-| Online availability proves lawful or approved human use. | False | Not allowed |
-| A universal human dosing protocol is validated. | Not established | Not allowed |
-| Evidence maturity is: Approved U.S. indication plus multiple human clinical studies. | Current controlled assessment | Allowed |
-| The asset is Platinum Certified. | False | Not allowed |
+| Claim | Permission |
+|---|---|
+| Tesamorelin has randomised human evidence in HIV-associated abdominal adiposity. | Allowed |
+| Tesamorelin is approved as a universal weight-loss drug. | Not allowed |
+| Evidence in HIV-associated lipodystrophy proves cosmetic fat-loss efficacy in all populations. | Not allowed |
+| The JAMA publication studied visceral and liver-fat outcomes. | Allowed with population context |
 
 **Status as of:** 2026-07-16

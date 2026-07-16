@@ -8,26 +8,51 @@
 
 # CERT-EKS-000033 — Ipamorelin Selective Growth-Hormone Secretagogue Evidence
 
-**Root asset:** Ipamorelin  
-**Evidence type:** Preclinical / translational pharmacology  
-**Status:** PRIMARY PUBLICATION IDENTIFIED — EXTRACTION PLANNED  
+**Root asset:** `CERT-PKS-000005`  
+**Version:** 0.5.0  
+**Status:** PRIMARY IDENTITY CONFIRMED — DIRECT EXTRACTION OPEN  
 **Last Review:** 2026-07-16
 
-## Primary publication or source
+## Publication
 
-Ipamorelin, the first selective growth hormone secretagogue
+**Title:** Ipamorelin, the first selective growth hormone secretagogue  
+**Journal:** European Journal of Endocrinology  
+**Year:** 1998  
+**DOI:** `10.1530/eje.0.1390552`  
+**PMID:** `9849822`
 
+## Study design
 
-## Current use
+Preclinical and translational pharmacology publication.
 
-Evidence-domain mapping and cautious high-level description only until direct extraction closes.
+## Population or model
 
-## Extraction state
+Experimental systems described in the primary publication.
 
-**Direct extraction completed:** No
+## Intervention or exposure
 
-## Prohibited promotion
+Ipamorelin exposure in experimental endocrine models.
 
-- No precise quantitative outcome claim before extraction.
-- No universal human dosing claim.
-- No approval claim beyond an authoritative current regulatory record.
+> This is a historical study-design record, not a recommended administration protocol.
+
+## Extracted outcomes
+
+- The title and publication identity support an endocrine selectivity research domain.
+- Detailed direct extraction remains open.
+
+## Limitations
+
+- Complete primary abstract/full text not captured.
+- Selectivity for GH release does not establish clinical safety.
+
+## Permitted claims
+
+- Ipamorelin was developed and studied as a selective GH secretagogue.
+
+## Prohibited claims
+
+- Claim that endocrine selectivity proves absence of adverse effects.
+
+## Source closure
+
+**PRIMARY DOI AND PMID CONFIRMED — DIRECT EXTRACTION OPEN**

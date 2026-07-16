@@ -1,21 +1,42 @@
 {
   "asset_id": "CERT-EKS-000031",
   "asset_name": "Ipamorelin Human PK-PD Study",
+  "root_asset": "CERT-PKS-000005",
   "knowledge_system": "EKS",
   "asset_type": "Evidence Object",
-  "version": "0.1.0",
-  "status": "PRIMARY PUBLICATION IDENTIFIED — EXTRACTION PLANNED",
-  "root_asset_name": "Ipamorelin",
-  "publication_or_source": "Pharmacokinetic-pharmacodynamic modelling of ipamorelin in human volunteers",
-  "evidence_type": "Human pharmacology study",
-  "doi": null,
-  "direct_extraction_completed": false,
+  "version": "1.0.0",
+  "status": "CLOSED FOR PRIMARY ABSTRACT EXTRACTION",
   "last_review": "2026-07-16",
-  "permitted_use": "Evidence-domain mapping and cautious high-level description only until extraction closes.",
-  "prohibited_use": [
-    "Precise quantitative promotion before direct extraction",
-    "Universal human dosing",
-    "Human efficacy beyond the actual study population and design",
-    "Approval claims not supported by current authoritative records"
-  ]
+  "publication": {
+    "title": "Pharmacokinetic-pharmacodynamic modeling of ipamorelin, a growth hormone releasing peptide, in human volunteers",
+    "journal": "Pharmaceutical Research",
+    "year": 1999,
+    "doi": "10.1023/A:1018955126402",
+    "pmid": "10496658"
+  },
+  "study_design": "Dose-escalation trial using five intravenous infusion rates, with eight healthy male subjects at each level.",
+  "population_or_model": "Healthy male volunteers.",
+  "intervention_or_exposure": "Fifteen-minute intravenous infusions across five escalating study-dose levels.",
+  "outcomes": [
+    "PK was dose proportional.",
+    "Terminal half-life was approximately 2 hours.",
+    "Clearance was reported as 0.078 L/h/kg and steady-state volume as 0.22 L/kg.",
+    "GH response showed a single peak at approximately 0.67 hours followed by decline.",
+    "Ipamorelin stimulated GH release at all tested study levels."
+  ],
+  "limitations": [
+    "Male healthy volunteers.",
+    "Intravenous experimental design.",
+    "PK/PD modelling study, not efficacy evidence.",
+    "No chronic-use safety conclusion."
+  ],
+  "permitted_claims": [
+    "Ipamorelin has direct human PK/PD evidence showing a short half-life and episodic GH response."
+  ],
+  "prohibited_claims": [
+    "Chronic wellness, muscle-gain or fat-loss efficacy claims.",
+    "Self-administration conversion from study doses."
+  ],
+  "source_closure": "PRIMARY ABSTRACT DIRECTLY EXTRACTED",
+  "study_design_not_user_protocol": true
 }
