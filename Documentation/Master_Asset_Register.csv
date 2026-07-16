@@ -1,34 +1,43 @@
 Universal Asset Identifier,Asset Name,Knowledge System,Asset Type,Status,Owner,Completion %,Parent Assets,Child Assets,Relationship List,Evidence Links,Report Links,Marketplace Links,Last Review,Next Review,Notes
-CERT-PKS-000001,Retatrutide,PKS,Flagship Peptide Knowledge Asset,Consolidated — Not Platinum Certified,Aidan Coleman,,,,,,,,2026-07-15,,Build 0013 regulatory monitoring active
-CERT-PKS-000002,BPC-157,PKS,Peptide Knowledge Asset,Preclinical Evidence Structured — Human Evidence Sparse — Not Platinum Certified,Aidan Coleman,,,,,,,,2026-07-15,,Build 0015 source closure structured
-CERT-EKS-000001,Evidence Object Specification,EKS,Evidence Object,Existing,Aidan Coleman,,,,,,,,2026-07-15,,
-CERT-EKS-000002,RCT Evidence Template,EKS,Evidence Object,Existing,Aidan Coleman,,,,,,,,2026-07-15,,
-CERT-EKS-000003,Meta-analysis Evidence Template,EKS,Evidence Object,Existing,Aidan Coleman,,,,,,,,2026-07-15,,
-CERT-EKS-000004,Guideline Evidence Template,EKS,Evidence Object,Existing,Aidan Coleman,,,,,,,,2026-07-15,,
-CERT-EKS-000005,Safety Signal Object,EKS,Evidence Object,Existing,Aidan Coleman,,,,,,,,2026-07-15,,
-CERT-EKS-000006,Evidence Relationship Engine,EKS,Evidence Object,Existing,Aidan Coleman,,,,,,,,2026-07-15,,
-CERT-EKS-000007,Retatrutide Discovery to Clinical Proof of Concept,EKS,Evidence Object,Existing,Aidan Coleman,,CERT-PKS-000001,,,,,,2026-07-15,,
-CERT-EKS-000008,Retatrutide Phase 2 Obesity Trial,EKS,Evidence Object,Existing,Aidan Coleman,,CERT-PKS-000001,,,,,,2026-07-15,,
-CERT-EKS-000009,Retatrutide Phase 2 Type 2 Diabetes Trial,EKS,Evidence Object,Existing,Aidan Coleman,,CERT-PKS-000001,,,,,,2026-07-15,,
-CERT-EKS-000010,Retatrutide Body Composition Substudy,EKS,Evidence Object,Existing,Aidan Coleman,,CERT-PKS-000001,,,,,,2026-07-15,,
-CERT-EKS-000011,TRIUMPH-1 Phase 3 Obesity Topline,EKS,Evidence Object,Existing,Aidan Coleman,,CERT-PKS-000001,,,,,,2026-07-15,,
-CERT-EKS-000012,Phase 3 Type 2 Diabetes Lancet Publication,EKS,Evidence Object,Existing,Aidan Coleman,,CERT-PKS-000001,,,,,,2026-07-15,,
-CERT-EKS-000013,TRIUMPH-4 Obesity + Knee OA Evidence Lead,EKS,Evidence Object,Existing,Aidan Coleman,,CERT-PKS-000001,,,,,,2026-07-15,,
-CERT-EKS-000014,Liver-Fat / MASLD Evidence Lead,EKS,Evidence Object,Existing,Aidan Coleman,,CERT-PKS-000001,,,,,,2026-07-15,,
-CERT-EKS-000015,BPC-157 Achilles Tendon Healing Preclinical Evidence,EKS,Evidence Object,Primary Identity Confirmed — Full-Text Extraction Open,Aidan Coleman,,CERT-PKS-000002,,,,,,2026-07-15,,
-CERT-EKS-000016,BPC-157 Tendon Cell Migration and Outgrowth Mechanistic Evidence,EKS,Evidence Object,Existing,Aidan Coleman,,CERT-PKS-000002,,,,,,2026-07-15,,
-CERT-EKS-000017,BPC-157 Ligament Healing Preclinical Evidence,EKS,Evidence Object,Primary Identity Confirmed — Full-Text Extraction Open,Aidan Coleman,,CERT-PKS-000002,,,,,,2026-07-15,,
-CERT-EKS-000018,BPC-157 Vasomotor and eNOS Mechanistic Evidence,EKS,Evidence Object,Primary Identity Confirmed — Full-Text Extraction Open,Aidan Coleman,,CERT-PKS-000002,,,,,,2026-07-15,,
-CERT-EKS-000019,BPC-157 Preclinical Safety Evaluation,EKS,Evidence Object,Primary Identity Confirmed — Full-Text Extraction Open,Aidan Coleman,,CERT-PKS-000002,,,,,,2026-07-15,,
-CERT-EKS-000020,"BPC-157 Pharmacokinetics, Distribution, Metabolism and Excretion",EKS,Evidence Object,Closed for Core Extraction,Aidan Coleman,,CERT-PKS-000002,,,,,,2026-07-15,,
-CERT-EKS-000021,BPC-157 Human Knee Pain Evidence Lead,EKS,Evidence Object,Existing,Aidan Coleman,,CERT-PKS-000002,,,,,,2026-07-15,,
-CERT-EKS-000022,BPC-157 Human Interstitial Cystitis Pilot Evidence Lead,EKS,Evidence Object,Existing,Aidan Coleman,,CERT-PKS-000002,,,,,,2026-07-15,,
-CERT-EKS-000023,BPC-157 Growth Hormone Receptor Expression in Rat Tendon Fibroblasts,EKS,Evidence Object,Closed for Core Extraction,Aidan Coleman,,CERT-PKS-000002,,,,,,2026-07-15,,
-CERT-EKS-000024,BPC-157 VEGFR2-Linked Pro-Angiogenic Mechanistic Evidence,EKS,Evidence Object,Primary Abstract Extracted — Full Text Open,Aidan Coleman,,CERT-PKS-000002,,,,,,2026-07-15,,
-CERT-SKS-000001,Gastrointestinal Adverse Events,SKS,Safety Knowledge Object,Existing,Aidan Coleman,,,,,,,,2026-07-15,,
-CERT-SKS-000002,Heart Rate Increase,SKS,Safety Knowledge Object,Existing,Aidan Coleman,,,,,,,,2026-07-15,,
-CERT-SKS-000003,Dysesthesia / Abnormal Skin Sensation,SKS,Safety Knowledge Object,Existing,Aidan Coleman,,,,,,,,2026-07-15,,
-CERT-SKS-000004,Treatment Discontinuation and Tolerability,SKS,Safety Knowledge Object,Existing,Aidan Coleman,,,,,,,,2026-07-15,,
-CERT-SKS-000005,Hypoglycaemia Context,SKS,Safety Knowledge Object,Existing,Aidan Coleman,,,,,,,,2026-07-15,,
-CERT-SKS-000006,BPC-157 Human Safety Evidence Insufficiency,SKS,Safety Knowledge Object,Existing,Aidan Coleman,,CERT-PKS-000002,,,,,,2026-07-15,,
-CERT-SKS-000007,BPC-157 Long-Term Angiogenic Risk Uncertainty,SKS,Safety Knowledge Object,Existing,Aidan Coleman,,CERT-PKS-000002,,,,,,2026-07-15,,
+CERT-PKS-000001,Retatrutide,PKS,Flagship Peptide Knowledge Asset,Consolidated — Not Platinum Certified,Aidan Coleman,,,,,,,,2026-07-16,,
+CERT-PKS-000002,BPC-157,PKS,Peptide Knowledge Asset,Preclinical Evidence Structured — Human Evidence Sparse — Not Platinum Certified,Aidan Coleman,,,,,,,,2026-07-16,,
+CERT-PKS-000003,Tesamorelin,PKS,Peptide Knowledge Asset,BOOTSTRAPPED — NOT PLATINUM CERTIFIED,Aidan Coleman,,,,,,,,2026-07-16,,Build 0016
+CERT-PKS-000004,CJC-1295,PKS,Peptide Knowledge Asset,BOOTSTRAPPED — NOT PLATINUM CERTIFIED,Aidan Coleman,,,,,,,,2026-07-16,,Build 0016
+CERT-PKS-000005,Ipamorelin,PKS,Peptide Knowledge Asset,BOOTSTRAPPED — NOT PLATINUM CERTIFIED,Aidan Coleman,,,,,,,,2026-07-16,,Build 0016
+CERT-PKS-000006,MOTS-c,PKS,Peptide Knowledge Asset,BOOTSTRAPPED — NOT PLATINUM CERTIFIED,Aidan Coleman,,,,,,,,2026-07-16,,Build 0016
+CERT-BKS-000024,Growth-Hormone-Releasing Hormone,BKS,Biology Knowledge Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0016
+CERT-BKS-000025,Growth-Hormone-Releasing Hormone Receptor,BKS,Biology Knowledge Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0016
+CERT-BKS-000026,Growth Hormone,BKS,Biology Knowledge Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0016
+CERT-BKS-000027,Insulin-Like Growth Factor 1,BKS,Biology Knowledge Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0016
+CERT-BKS-000028,Ghrelin / Growth-Hormone-Secretagogue Receptor,BKS,Biology Knowledge Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0016
+CERT-BKS-000029,Mitochondrial-Derived Peptide Signalling,BKS,Biology Knowledge Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0016
+CERT-BKS-000030,AMP-Activated Protein Kinase,BKS,Biology Knowledge Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0016
+CERT-BKS-000031,Skeletal-Muscle Metabolic Homeostasis,BKS,Biology Knowledge Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0016
+CERT-CKS-000004,HIV-Associated Lipodystrophy,CKS,Condition Knowledge Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0016
+CERT-CKS-000005,Postoperative Ileus,CKS,Condition Knowledge Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0016
+CERT-GKS-000004,Visceral Adipose Tissue Reduction,GKS,Goal Knowledge Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0016
+CERT-GKS-000005,Growth Hormone / IGF-1 Axis Research,GKS,Goal Knowledge Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0016
+CERT-GKS-000006,Metabolic Resilience and Physical Capacity,GKS,Goal Knowledge Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0016
+CERT-MKS-000011,Insulin-Like Growth Factor 1 Monitoring,MKS,Monitoring Knowledge Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0016
+CERT-MKS-000012,Glucose Tolerance Monitoring,MKS,Monitoring Knowledge Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0016
+CERT-MKS-000013,Fluid Retention and Oedema Monitoring,MKS,Monitoring Knowledge Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0016
+CERT-MKS-000014,Injection-Site and Hypersensitivity Monitoring,MKS,Monitoring Knowledge Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0016
+CERT-MKS-000015,Active or Recurrent Neoplasm Status,MKS,Monitoring Knowledge Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0016
+CERT-MKS-000016,Postoperative Gastrointestinal Recovery,MKS,Monitoring Knowledge Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0016
+CERT-MKS-000017,Exercise Capacity and Functional Performance,MKS,Monitoring Knowledge Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0016
+CERT-SKS-000008,Tesamorelin Labelled Safety and Growth-Factor Context,SKS,Safety Knowledge Object,Active,Aidan Coleman,,CERT-PKS-000003,,,,,,2026-07-16,,Build 0016
+CERT-SKS-000009,CJC-1295 Limited Clinical Safety and Cardiovascular Uncertainty,SKS,Safety Knowledge Object,Active,Aidan Coleman,,CERT-PKS-000004,,,,,,2026-07-16,,Build 0016
+CERT-SKS-000010,Ipamorelin Human Safety Evidence Insufficiency,SKS,Safety Knowledge Object,Active,Aidan Coleman,,CERT-PKS-000005,,,,,,2026-07-16,,Build 0016
+CERT-SKS-000011,MOTS-c Human Safety and Immunogenicity Uncertainty,SKS,Safety Knowledge Object,Active,Aidan Coleman,,CERT-PKS-000006,,,,,,2026-07-16,,Build 0016
+CERT-EKS-000025,Tesamorelin U.S. Authorised Product Label,EKS,Evidence Object,AUTHORITATIVE SOURCE IDENTIFIED — CURRENT LABEL CAPTURE TO BE VERIFIED,Aidan Coleman,,CERT-PKS-000003,,,,,,2026-07-16,,Root: Tesamorelin
+CERT-EKS-000026,Tesamorelin HIV Lipodystrophy Randomised Clinical Evidence,EKS,Evidence Object,PRIMARY PUBLICATION IDENTIFIED — EXTRACTION PLANNED,Aidan Coleman,,CERT-PKS-000003,,,,,,2026-07-16,,Root: Tesamorelin
+CERT-EKS-000027,Tesamorelin Visceral and Liver Fat Randomised Clinical Evidence,EKS,Evidence Object,PRIMARY PUBLICATION IDENTIFIED — EXTRACTION PLANNED,Aidan Coleman,,CERT-PKS-000003,,,,,,2026-07-16,,Root: Tesamorelin
+CERT-EKS-000028,CJC-1295 First-in-Human GH and IGF-1 Pharmacology,EKS,Evidence Object,PRIMARY PUBLICATION IDENTIFIED — EXTRACTION PLANNED,Aidan Coleman,,CERT-PKS-000004,,,,,,2026-07-16,,Root: CJC-1295
+CERT-EKS-000029,CJC-1295 Growth Hormone Pulsatility Study,EKS,Evidence Object,PRIMARY PUBLICATION IDENTIFIED — EXTRACTION PLANNED,Aidan Coleman,,CERT-PKS-000004,,,,,,2026-07-16,,Root: CJC-1295
+CERT-EKS-000030,CJC-1295 Development and Safety Status Lead,EKS,Evidence Object,OPEN — PRIMARY DEVELOPMENT RECORDS REQUIRED,Aidan Coleman,,CERT-PKS-000004,,,,,,2026-07-16,,Root: CJC-1295
+CERT-EKS-000031,Ipamorelin Human PK-PD Study,EKS,Evidence Object,PRIMARY PUBLICATION IDENTIFIED — EXTRACTION PLANNED,Aidan Coleman,,CERT-PKS-000005,,,,,,2026-07-16,,Root: Ipamorelin
+CERT-EKS-000032,Ipamorelin Postoperative Ileus Randomised Study,EKS,Evidence Object,PRIMARY PUBLICATION IDENTIFIED — EXTRACTION PLANNED,Aidan Coleman,,CERT-PKS-000005,,,,,,2026-07-16,,Root: Ipamorelin
+CERT-EKS-000033,Ipamorelin Selective Growth-Hormone Secretagogue Evidence,EKS,Evidence Object,PRIMARY PUBLICATION IDENTIFIED — EXTRACTION PLANNED,Aidan Coleman,,CERT-PKS-000005,,,,,,2026-07-16,,Root: Ipamorelin
+CERT-EKS-000034,MOTS-c Discovery and Metabolic Homeostasis,EKS,Evidence Object,PRIMARY PUBLICATION IDENTIFIED — EXTRACTION PLANNED,Aidan Coleman,,CERT-PKS-000006,,,,,,2026-07-16,,Root: MOTS-c
+CERT-EKS-000035,MOTS-c Exercise and Age-Related Physical Decline,EKS,Evidence Object,PRIMARY PUBLICATION IDENTIFIED — EXTRACTION PLANNED,Aidan Coleman,,CERT-PKS-000006,,,,,,2026-07-16,,Root: MOTS-c
+CERT-EKS-000036,MOTS-c Human Development and Safety Evidence Lead,EKS,Evidence Object,OPEN — DIRECT HUMAN PRIMARY SOURCES REQUIRED,Aidan Coleman,,CERT-PKS-000006,,,,,,2026-07-16,,Root: MOTS-c

@@ -1,0 +1,40 @@
+{
+  "asset_uai": "CERT-PKS-000006",
+  "asset_name": "MOTS-c",
+  "status_as_of": "2026-07-16",
+  "overall_status": "EXPERIMENTAL / NO APPROVAL CLAIM",
+  "regulatory_records": [
+    {
+      "jurisdiction": "United States",
+      "authority": "FDA",
+      "status_category": "Approval / Compounding",
+      "current_status": "No FDA approval claim; compounding and advisory-review developments require active monitoring.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "FDA advisory, compounding, approval, safety or enforcement action"
+    },
+    {
+      "jurisdiction": "United Kingdom",
+      "authority": "MHRA",
+      "status_category": "Marketing / Human-use route",
+      "current_status": "No MHRA authorisation claim.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "MHRA action or proposed UK launch"
+    },
+    {
+      "jurisdiction": "European Union",
+      "authority": "EMA / European Commission",
+      "status_category": "Marketing Authorisation",
+      "current_status": "No EU authorisation claim.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "EMA / European Commission action"
+    },
+    {
+      "jurisdiction": "International sport",
+      "authority": "WADA",
+      "status_category": "Anti-doping",
+      "current_status": "Current anti-doping position requires authoritative verification and athlete warning.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Annual prohibited-list update or clarification"
+    }
+  ]
+}

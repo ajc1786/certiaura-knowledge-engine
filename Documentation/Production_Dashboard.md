@@ -1,38 +1,36 @@
 # CERTIAURA PRODUCTION DASHBOARD
 
-**Build:** 0015  
-**Date:** 2026-07-15
+**Build:** 0016  
+**Date:** 2026-07-16  
+**Production mode:** BATCH
 
-## Branding
+## Batch A — Bootstrap complete
 
-Future production assets use the approved CertiAura brand header.
+- `CERT-PKS-000003` — Tesamorelin
+- `CERT-PKS-000004` — CJC-1295
+- `CERT-PKS-000005` — Ipamorelin
+- `CERT-PKS-000006` — MOTS-c
 
-## BPC-157
+## New canonical supporting objects
 
-`CERT-PKS-000002`
+- 8 evidence objects: EKS 000025–000036
+- 4 safety objects: SKS 000008–000011
+- 7 biology objects: BKS 000024–000031
+- 2 condition objects: CKS 000004–000005
+- 7 monitoring objects: MKS 000011–000017
+- 3 goal objects: GKS 000004–000006
 
-**Status:** Preclinical Evidence Structured — Human Evidence Sparse — Not Platinum Certified
+## Regulatory monitoring
 
-## Build 0015 completed
+All four assets are configured for universal dated regulatory monitoring.
 
-- Core preclinical source records tightened
-- Publication-identity versus extraction distinction enforced
-- Safety translation matrix added
-- Musculoskeletal evidence chain added
-- Claim controls updated
-- Evidence index and maturity assessment updated
-- Flagship updated to v0.4.0
+## Next batch
 
-## Remaining BPC-157 priorities
+Batch B remains:
 
-1. Obtain full primary articles for EKS 000015, 000017, 000018 and 000019.
-2. Obtain direct primary articles for the two human evidence leads.
-3. Maintain FDA regulatory watch.
-4. Avoid creating a dosing module without human clinical pharmacology.
+- GHK-Cu
+- Thymosin Beta-4 / TB-500
+- Melanotan II
+- Epitalon
 
-## Next production decision
-
-After Build 0015 validation, either:
-
-- continue direct source closure where access is available; or
-- bootstrap the next peptide using the reusable template while keeping BPC-157 gaps visible.
+Additional founder-supplied items can now be added through the Batch Item Intake Register before identifiers are allocated.

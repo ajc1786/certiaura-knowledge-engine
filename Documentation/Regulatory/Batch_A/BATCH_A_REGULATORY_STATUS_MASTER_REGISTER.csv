@@ -1,0 +1,17 @@
+Asset UAI,Asset Name,Jurisdiction,Authority,Status Category,Current Position,Monitoring,Next Trigger,Status Date
+CERT-PKS-000003,Tesamorelin,United States,FDA,Approval / Authorisation,Approved-product context exists for reduction of excess abdominal fat in adults with HIV-associated lipodystrophy; current label capture must govern exact wording.,ACTIVE,"Label revision, safety action, withdrawal or approval change",2026-07-16
+CERT-PKS-000003,Tesamorelin,United Kingdom,MHRA,Marketing Authorisation,No UK authorisation claim is made in Build 0016; direct authoritative asset-specific review required.,ACTIVE,MHRA authorisation or other material action,2026-07-16
+CERT-PKS-000003,Tesamorelin,European Union,EMA / European Commission,Marketing Authorisation,No EU authorisation claim is made in Build 0016; direct authoritative asset-specific review required.,ACTIVE,EMA / European Commission action,2026-07-16
+CERT-PKS-000003,Tesamorelin,International sport,WADA,Anti-doping,Growth-hormone-axis relevance requires current authoritative athlete-specific verification.,ACTIVE,Annual prohibited-list update or clarification,2026-07-16
+CERT-PKS-000004,CJC-1295,United States,FDA,Approval / Compounding,No FDA approval claim; current compounding and safety position requires authoritative monitoring.,ACTIVE,"FDA approval, compounding, safety or enforcement action",2026-07-16
+CERT-PKS-000004,CJC-1295,United Kingdom,MHRA,Marketing / Human-use route,No MHRA authorisation claim.,ACTIVE,MHRA action or proposed UK launch,2026-07-16
+CERT-PKS-000004,CJC-1295,European Union,EMA / European Commission,Marketing Authorisation,No EU authorisation claim.,ACTIVE,EMA / European Commission action,2026-07-16
+CERT-PKS-000004,CJC-1295,International sport,WADA,Anti-doping,GHRH-analogue status requires current authoritative verification.,ACTIVE,Annual prohibited-list update or clarification,2026-07-16
+CERT-PKS-000005,Ipamorelin,United States,FDA,Approval / Compounding,No FDA approval claim; current compounding position requires authoritative monitoring.,ACTIVE,"FDA approval, compounding, safety or enforcement action",2026-07-16
+CERT-PKS-000005,Ipamorelin,United Kingdom,MHRA,Marketing / Human-use route,No MHRA authorisation claim.,ACTIVE,MHRA action or proposed UK launch,2026-07-16
+CERT-PKS-000005,Ipamorelin,European Union,EMA / European Commission,Marketing Authorisation,No EU authorisation claim.,ACTIVE,EMA / European Commission action,2026-07-16
+CERT-PKS-000005,Ipamorelin,International sport,WADA,Anti-doping,Growth-hormone-secretagogue status requires current authoritative verification.,ACTIVE,Annual prohibited-list update or clarification,2026-07-16
+CERT-PKS-000006,MOTS-c,United States,FDA,Approval / Compounding,No FDA approval claim; compounding and advisory-review developments require active monitoring.,ACTIVE,"FDA advisory, compounding, approval, safety or enforcement action",2026-07-16
+CERT-PKS-000006,MOTS-c,United Kingdom,MHRA,Marketing / Human-use route,No MHRA authorisation claim.,ACTIVE,MHRA action or proposed UK launch,2026-07-16
+CERT-PKS-000006,MOTS-c,European Union,EMA / European Commission,Marketing Authorisation,No EU authorisation claim.,ACTIVE,EMA / European Commission action,2026-07-16
+CERT-PKS-000006,MOTS-c,International sport,WADA,Anti-doping,Current anti-doping position requires authoritative verification and athlete warning.,ACTIVE,Annual prohibited-list update or clarification,2026-07-16

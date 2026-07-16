@@ -1,0 +1,21 @@
+{
+  "asset_id": "CERT-EKS-000029",
+  "asset_name": "CJC-1295 Growth Hormone Pulsatility Study",
+  "knowledge_system": "EKS",
+  "asset_type": "Evidence Object",
+  "version": "0.1.0",
+  "status": "PRIMARY PUBLICATION IDENTIFIED — EXTRACTION PLANNED",
+  "root_asset_name": "CJC-1295",
+  "publication_or_source": "Pulsatile secretion of growth hormone persists during continuous stimulation by CJC-1295",
+  "evidence_type": "Human endocrine pharmacology study",
+  "doi": null,
+  "direct_extraction_completed": false,
+  "last_review": "2026-07-16",
+  "permitted_use": "Evidence-domain mapping and cautious high-level description only until extraction closes.",
+  "prohibited_use": [
+    "Precise quantitative promotion before direct extraction",
+    "Universal human dosing",
+    "Human efficacy beyond the actual study population and design",
+    "Approval claims not supported by current authoritative records"
+  ]
+}

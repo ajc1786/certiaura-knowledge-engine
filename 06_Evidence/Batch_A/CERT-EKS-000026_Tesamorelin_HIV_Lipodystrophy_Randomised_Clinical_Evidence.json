@@ -1,0 +1,21 @@
+{
+  "asset_id": "CERT-EKS-000026",
+  "asset_name": "Tesamorelin HIV Lipodystrophy Randomised Clinical Evidence",
+  "knowledge_system": "EKS",
+  "asset_type": "Evidence Object",
+  "version": "0.1.0",
+  "status": "PRIMARY PUBLICATION IDENTIFIED — EXTRACTION PLANNED",
+  "root_asset_name": "Tesamorelin",
+  "publication_or_source": "Metabolic effects of a growth hormone-releasing factor in patients with HIV",
+  "evidence_type": "Randomised clinical trial",
+  "doi": "10.1056/NEJMoa072375",
+  "direct_extraction_completed": false,
+  "last_review": "2026-07-16",
+  "permitted_use": "Evidence-domain mapping and cautious high-level description only until extraction closes.",
+  "prohibited_use": [
+    "Precise quantitative promotion before direct extraction",
+    "Universal human dosing",
+    "Human efficacy beyond the actual study population and design",
+    "Approval claims not supported by current authoritative records"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "asset_uai": "CERT-PKS-000003",
+  "asset_name": "Tesamorelin",
+  "status_as_of": "2026-07-16",
+  "overall_status": "DEFINED U.S. APPROVAL CONTEXT / OTHER JURISDICTIONS OPEN",
+  "regulatory_records": [
+    {
+      "jurisdiction": "United States",
+      "authority": "FDA",
+      "status_category": "Approval / Authorisation",
+      "current_status": "Approved-product context exists for reduction of excess abdominal fat in adults with HIV-associated lipodystrophy; current label capture must govern exact wording.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Label revision, safety action, withdrawal or approval change"
+    },
+    {
+      "jurisdiction": "United Kingdom",
+      "authority": "MHRA",
+      "status_category": "Marketing Authorisation",
+      "current_status": "No UK authorisation claim is made in Build 0016; direct authoritative asset-specific review required.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "MHRA authorisation or other material action"
+    },
+    {
+      "jurisdiction": "European Union",
+      "authority": "EMA / European Commission",
+      "status_category": "Marketing Authorisation",
+      "current_status": "No EU authorisation claim is made in Build 0016; direct authoritative asset-specific review required.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "EMA / European Commission action"
+    },
+    {
+      "jurisdiction": "International sport",
+      "authority": "WADA",
+      "status_category": "Anti-doping",
+      "current_status": "Growth-hormone-axis relevance requires current authoritative athlete-specific verification.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Annual prohibited-list update or clarification"
+    }
+  ]
+}

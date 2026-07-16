@@ -1,0 +1,21 @@
+{
+  "asset_id": "CERT-EKS-000025",
+  "asset_name": "Tesamorelin U.S. Authorised Product Label",
+  "knowledge_system": "EKS",
+  "asset_type": "Evidence Object",
+  "version": "0.1.0",
+  "status": "AUTHORITATIVE SOURCE IDENTIFIED — CURRENT LABEL CAPTURE TO BE VERIFIED",
+  "root_asset_name": "Tesamorelin",
+  "publication_or_source": "Official U.S. prescribing information / approval context",
+  "evidence_type": "Regulatory primary source",
+  "doi": null,
+  "direct_extraction_completed": false,
+  "last_review": "2026-07-16",
+  "permitted_use": "Evidence-domain mapping and cautious high-level description only until extraction closes.",
+  "prohibited_use": [
+    "Precise quantitative promotion before direct extraction",
+    "Universal human dosing",
+    "Human efficacy beyond the actual study population and design",
+    "Approval claims not supported by current authoritative records"
+  ]
+}

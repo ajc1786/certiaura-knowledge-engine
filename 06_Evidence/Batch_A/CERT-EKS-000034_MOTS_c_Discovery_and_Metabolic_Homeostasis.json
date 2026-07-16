@@ -1,0 +1,21 @@
+{
+  "asset_id": "CERT-EKS-000034",
+  "asset_name": "MOTS-c Discovery and Metabolic Homeostasis",
+  "knowledge_system": "EKS",
+  "asset_type": "Evidence Object",
+  "version": "0.1.0",
+  "status": "PRIMARY PUBLICATION IDENTIFIED — EXTRACTION PLANNED",
+  "root_asset_name": "MOTS-c",
+  "publication_or_source": "The mitochondrial-derived peptide MOTS-c promotes metabolic homeostasis and reduces obesity and insulin resistance",
+  "evidence_type": "Preclinical discovery study",
+  "doi": "10.1016/j.cmet.2015.02.009",
+  "direct_extraction_completed": false,
+  "last_review": "2026-07-16",
+  "permitted_use": "Evidence-domain mapping and cautious high-level description only until extraction closes.",
+  "prohibited_use": [
+    "Precise quantitative promotion before direct extraction",
+    "Universal human dosing",
+    "Human efficacy beyond the actual study population and design",
+    "Approval claims not supported by current authoritative records"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "asset_uai": "CERT-PKS-000005",
+  "asset_name": "Ipamorelin",
+  "status_as_of": "2026-07-16",
+  "overall_status": "INVESTIGATIONAL / NO APPROVAL CLAIM",
+  "regulatory_records": [
+    {
+      "jurisdiction": "United States",
+      "authority": "FDA",
+      "status_category": "Approval / Compounding",
+      "current_status": "No FDA approval claim; current compounding position requires authoritative monitoring.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "FDA approval, compounding, safety or enforcement action"
+    },
+    {
+      "jurisdiction": "United Kingdom",
+      "authority": "MHRA",
+      "status_category": "Marketing / Human-use route",
+      "current_status": "No MHRA authorisation claim.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "MHRA action or proposed UK launch"
+    },
+    {
+      "jurisdiction": "European Union",
+      "authority": "EMA / European Commission",
+      "status_category": "Marketing Authorisation",
+      "current_status": "No EU authorisation claim.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "EMA / European Commission action"
+    },
+    {
+      "jurisdiction": "International sport",
+      "authority": "WADA",
+      "status_category": "Anti-doping",
+      "current_status": "Growth-hormone-secretagogue status requires current authoritative verification.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Annual prohibited-list update or clarification"
+    }
+  ]
+}

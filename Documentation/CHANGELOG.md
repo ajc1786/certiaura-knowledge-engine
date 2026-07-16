@@ -1,34 +1,32 @@
 # CERTIAURA CHANGE LOG
 
-## Build 0015 — BPC-157 Core Preclinical Source Closure & Safety Translation
-**Date:** 2026-07-15
+## Build 0016 — Peptide Batch A Asset Bootstrap & Evidence Foundation
+**Date:** 2026-07-16
 
-Updated:
+Allocated:
 
-- CERT-EKS-000015 Achilles Tendon Healing.
-- CERT-EKS-000017 Ligament Healing.
-- CERT-EKS-000018 Vasomotor / eNOS Evidence.
-- CERT-EKS-000019 Preclinical Safety Evaluation.
-- CERT-SKS-000006 Human Safety Evidence Insufficiency.
-- CERT-SKS-000007 Long-Term Angiogenic Risk Uncertainty.
-- BPC-157 Claim Control Matrix.
-- BPC-157 Evidence Index.
-- BPC-157 Evidence Maturity Assessment.
-- BPC-157 Flagship Bootstrap to v0.4.0.
-- Primary Source Closure Register.
-- Production Dashboard.
+- CERT-PKS-000003 — Tesamorelin
+- CERT-PKS-000004 — CJC-1295
+- CERT-PKS-000005 — Ipamorelin
+- CERT-PKS-000006 — MOTS-c
 
 Added:
 
-- Preclinical Source Closure Decision Log.
-- Musculoskeletal Evidence Chain.
-- Preclinical Safety Translation Matrix.
-- CertiAura brand header on new and updated production assets.
+- four branded flagship assets;
+- four claim-control matrices;
+- four commercial-use boundaries;
+- twelve evidence objects;
+- four safety objects;
+- new biology, condition, monitoring and goal objects;
+- four universal regulatory-status profiles;
+- batch regulatory master register;
+- batch relationship register;
+- source-closure register;
+- evidence-maturity comparison;
+- identity and duplication controls;
+- reusable Batch Item Intake template and register;
+- Batch Production Standard.
 
 Key outcome:
 
-The remaining core preclinical publications are now structured with explicit source-closure limits.
-
-No publication was falsely marked fully extracted.
-
-No human efficacy, dosing or long-term safety claim was upgraded.
+CertiAura has moved from single-asset production to controlled batch production.

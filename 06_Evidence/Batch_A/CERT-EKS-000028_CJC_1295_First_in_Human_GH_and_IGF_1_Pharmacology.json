@@ -1,0 +1,21 @@
+{
+  "asset_id": "CERT-EKS-000028",
+  "asset_name": "CJC-1295 First-in-Human GH and IGF-1 Pharmacology",
+  "knowledge_system": "EKS",
+  "asset_type": "Evidence Object",
+  "version": "0.1.0",
+  "status": "PRIMARY PUBLICATION IDENTIFIED — EXTRACTION PLANNED",
+  "root_asset_name": "CJC-1295",
+  "publication_or_source": "Prolonged stimulation of growth hormone and insulin-like growth factor I secretion by CJC-1295 in healthy adults",
+  "evidence_type": "Human pharmacology study",
+  "doi": "10.1210/jc.2005-1536",
+  "direct_extraction_completed": false,
+  "last_review": "2026-07-16",
+  "permitted_use": "Evidence-domain mapping and cautious high-level description only until extraction closes.",
+  "prohibited_use": [
+    "Precise quantitative promotion before direct extraction",
+    "Universal human dosing",
+    "Human efficacy beyond the actual study population and design",
+    "Approval claims not supported by current authoritative records"
+  ]
+}
