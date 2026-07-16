@@ -8,65 +8,54 @@
 
 # CERT-PKS-000078 — Vesugen
 
-**Version:** 0.1.0  
-**Status:** CATALOGUE REVIEWED / IDENTITY GAP OPEN / NOT PLATINUM CERTIFIED  
+**Version:** 0.2.0  
+**Priority:** P1  
+**Identity status:** REFERENCE SEQUENCE CLOSED  
+**Status:** EVIDENCE CLOSURE WAVE 8 / REFERENCE-SEQUENCE OR IDENTITY-CONFLICT CONTROL ACTIVE  
 **Last Review:** 2026-07-16
 
-## Classification
+## Reference identity
 
-Supplier-named vascular short regulatory peptide family
+**KED — Lys-Glu-Asp**
 
-## Supplier-claimed context
+## Closure state
 
-Claimed vascular-targeted research context
+**PARTIAL CLOSURE — PRIMARY LITERATURE IDENTIFIES VESUGEN AS LYS-GLU-ASP (KED) AND CELL/SMALL REGIONAL HUMAN REPORTS EXIST; VE20 TERMINI, SALT, ANALYTICAL IDENTITY, STERILITY AND CONTROLLED HUMAN BENEFIT OPEN**
 
-This wording records catalogue positioning and does not validate organ selectivity or clinical efficacy.
+## Authoritative or primary-source boundary
 
-## Mechanism
+Primary literature identifies Vesugen as Lys-Glu-Asp (KED) and reports aged-cell differentiation, vascular-endothelial models and small regional human gerontology studies. These records do not establish an authorised vascular medicine, clinical outcome replication or VE20 analytical equivalence.
 
-No canonical mechanism is assigned. The product name suggests an organ-targeted commercial positioning, but exact sequence, target and pharmacology require direct primary-source and analytical closure.
+## New closure evidence
 
-## Evidence maturity
+- `CERT-EKS-000333`
+- `CERT-EKS-000334`
 
-Regional short-peptide, cell, animal or limited human literature may exist under this name or related names. Evidence is not attributed to the catalogue product until chemical identity and source linkage are confirmed.
+## Product Passport
 
-## Evidence foundation
+`CERT-PPS-000051`
 
-- `CERT-EKS-000183`
-- `CERT-EKS-000184`
-
-## Regulatory headline
-
-**IDENTITY-SENSITIVE SUPPLIER PRODUCT FAMILY / NO UNIVERSAL APPROVAL OR ORGAN-TREATMENT CLAIM**
-
-## Catalogue pricing
+## Catalogue records
 
 | Code | Specification | USD per kit |
 |---|---|---:|
 | VE20 | 20 mg x 10 vials | $118 |
 
-## Canonical molecule identity closed
+## Critical controls
 
-**No**
+- KED literature identity is not VE20 analytical proof
+- KED is also a shared motif and does not prove tissue specificity
+- Small regional human reports require independent replication
+- No vascular-repair, endothelial, anti-ageing or cardiovascular claim
+- No dosing, injection or reconstitution protocol
 
-## Product-quality boundary
+## Certification state
 
-The catalogue does not provide the sequence, stereochemistry, terminal chemistry, molecular mass, manufacturer reference standard, purity, sterility or authorised status.
-
-## Validated universal human dosing protocol
-
-**No**
-
-## Certification blockers
-
-- Complete amino-acid sequence and stereochemistry
-- N- and C-terminal chemistry
-- Molecular formula, mass and reference standard
-- Direct primary publication linkage
-- Independent human evidence
-- Current product- and jurisdiction-specific regulatory status
-- Supplier identity, purity and sterility
-
-## Platinum Certified
-
-**No**
+- Reference identity defensibly anchored: **Yes**
+- Supplier sequence verified: **No**
+- Terminal chemistry and salt verified: **No**
+- Quality verified: **No**
+- Sterility verified: **No**
+- Controlled human clinical equivalence: **No**
+- Direct-sale gate: **Blocked**
+- Platinum Certified: **No**

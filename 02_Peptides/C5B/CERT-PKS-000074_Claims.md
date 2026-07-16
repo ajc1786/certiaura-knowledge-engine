@@ -10,12 +10,11 @@
 
 | Claim | Permission |
 |---|---|
-| Cartalax is a supplier-named short regulatory peptide product family. | Allowed |
-| Claimed cartilage-targeted research context | May be reported only as supplier positioning, not validated pharmacology |
-| Cartalax selectively reaches or repairs the named organ. | Not established / prohibited |
-| Cartalax is a clinically validated anti-ageing or rejuvenation treatment. | False / prohibited |
-| The supplier product matches a published peptide with the same name. | Not established / prohibited pending identity closure |
-| A universal human dosing or administration protocol is validated. | Not established / prohibited |
+| The controlled reference identity is `AED`. | Allowed with source and supplier non-equivalence |
+| NLM MeSH and PubChem identify Cartalax as Ala-Glu-Asp (AED). Published work is predominantly cell, stem-cell, organotypic and ageing-model research. It does not establish cartilage regeneration, osteoarthritis treatment or LAX20 analytical and clinical equivalence. | Allowed as a controlled boundary |
+| The supplier vial is analytically identical to the reference or marketed identity. | False / prohibited |
+| Cell, animal, small regional or in-vitro evidence proves broad human therapeutic efficacy. | False / prohibited |
+| A treatment, anti-ageing, organ-restoration, dosing, injection or reconstitution protocol is validated. | False / prohibited |
 | The asset is Platinum Certified. | False / prohibited |
 
 **Status as of:** 2026-07-16

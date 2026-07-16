@@ -1,0 +1,24 @@
+Asset,Source,URL,Purpose
+Pancragen,Peptides tissue-specifically stimulate cell differentiation during aging,https://pubmed.ncbi.nlm.nih.gov/22808515/,Pancragen identified as Lys-Glu-Asp-Trp in aged pancreatic-cell culture
+Pancragen,Old rhesus monkey endocrine-function study,https://pubmed.ncbi.nlm.nih.gov/25946840/,KEDW identity and non-human-primate metabolic evidence
+Pancragen,Older-person metabolic study,https://pubmed.ncbi.nlm.nih.gov/22448364/,Small regional human evidence; not supplier-product validation
+Prostamax,PubChem Prostamax,https://pubchem.ncbi.nlm.nih.gov/compound/9848296,"Curated KEDP sequence, formula and mass"
+Prostamax,Human lymphocyte heterochromatin study,https://pubmed.ncbi.nlm.nih.gov/15612551/,Indexed human-cell chromatin evidence
+Prostamax,Organotypic tissue culture study,https://pubmed.ncbi.nlm.nih.gov/17152728/,Prostate-tissue model evidence; no clinical equivalence
+Cartalax,PubChem alanyl-glutamyl-aspartic acid,https://pubchem.ncbi.nlm.nih.gov/compound/87815447,Curated AED sequence and Cartalax synonym
+Cartalax,NLM MeSH supplementary concept,https://meshb.nlm.nih.gov/record/ui?ui=C572340,NLM identity for alanyl-glutamyl-aspartic acid / Cartalax
+Chonluten,2022 IJMS primary full text,https://www.mdpi.com/1422-0067/23/7/3607,Methods explicitly identify Chonluten as Glu-Asp-Gly
+Chonluten,PubMed record PMID 35408963,https://pubmed.ncbi.nlm.nih.gov/35408963/,THP-1 monocyte/macrophage in-vitro evidence
+Crystagen,Crystagen manufacturer-marketing page,https://www.crystagen.com/,Confirms marketed immune-system identity but does not close a molecular sequence
+Crystagen,Conflicting public PQN claim,https://peptidedistro.com/peptides/crystagen,Marketplace sequence-conflict evidence only
+Crystagen,Conflicting public EDP claim,https://www.peptidetrace.com/compounds/crystagen,Secondary identity-conflict evidence only
+Ovagen,PubMed Ovagen veterinary FSH literature,https://pubmed.ncbi.nlm.nih.gov/?term=Ovagen+FSH,Name-collision evidence with ovine FSH veterinary product
+Ovagen,Veterinary FSH follicular study,https://pubmed.ncbi.nlm.nih.gov/20399062/,"Ovagen name used for FSH preparation, not short peptide"
+Ovagen,Public EDL peptide claim,https://www.openassay.org/peptides/ovagen,Secondary marketplace identity claim retained as unverified
+Vesugen,Peptides tissue-specifically stimulate cell differentiation during aging,https://pubmed.ncbi.nlm.nih.gov/22808515/,Vesugen identified as Lys-Glu-Asp in aged-cell culture
+Vesugen,Vascular endothelial epigenetic study,https://pubmed.ncbi.nlm.nih.gov/25051766/,Vesugen vascular-cell model evidence
+Vesugen,Regional human gerontology study,https://pubmed.ncbi.nlm.nih.gov/26390612/,Small human report and evidence-quality boundary
+All seven assets,WADA 2026 Prohibited List,https://www.wada-ama.org/en/resources/world-anti-doping-program/prohibited-list,Current list in force and S0 review control
+All seven assets,FDA Drugs@FDA,https://www.accessdata.fda.gov/scripts/cder/daf/,Current exact-product approval verification control
+All seven assets,EMA medicines search,https://www.ema.europa.eu/en/medicines,Current central European medicine-status verification control
+All seven assets,MHRA products search,https://products.mhra.gov.uk/,Current United Kingdom product-status verification control

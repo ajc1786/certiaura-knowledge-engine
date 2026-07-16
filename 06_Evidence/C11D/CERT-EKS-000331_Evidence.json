@@ -1,0 +1,21 @@
+{
+  "asset_id": "CERT-EKS-000331",
+  "asset_name": "Ovagen Veterinary FSH Name Collision and Peptide Identity Conflict",
+  "root_asset": "CERT-PKS-000077",
+  "knowledge_system": "EKS",
+  "asset_type": "Priority Evidence Closure Object",
+  "version": "0.2.0",
+  "status": "CRITICAL CONFLICT — NO CANONICAL OVAGEN PEPTIDE SEQUENCE ASSIGNED",
+  "closure_wave": "0033D",
+  "closure_priority": "P1",
+  "source_domain": "PubMed veterinary Ovagen FSH records, conflicting marketplace peptide sequences and absence of a sufficient primary indexed peptide-identity record",
+  "evidence_type": "Critical name-collision / identity evidence",
+  "last_review": "2026-07-16",
+  "direct_complete_extraction": false,
+  "prohibited_use": [
+    "Personal dosing, injection or reconstitution guidance",
+    "Cell, animal, regional, marketed-name or database evidence transfer to supplier products",
+    "Assumption of supplier sequence, termini, salt, potency, quality or sterility",
+    "Endocrine, organ-restoration, immune, fertility or anti-ageing protocols"
+  ]
+}

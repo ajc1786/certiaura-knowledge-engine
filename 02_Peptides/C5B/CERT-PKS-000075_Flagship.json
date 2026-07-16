@@ -3,8 +3,8 @@
   "asset_name": "Chonluten",
   "knowledge_system": "PKS",
   "asset_type": "Supplier Product-Family Knowledge Asset",
-  "version": "0.1.0",
-  "status": "CATALOGUE REVIEWED / IDENTITY GAP OPEN / NOT PLATINUM CERTIFIED",
+  "version": "0.2.0",
+  "status": "P1 EVIDENCE CLOSURE WAVE 8 / REFERENCE-SEQUENCE OR IDENTITY-CONFLICT CONTROL ACTIVE / NOT PLATINUM CERTIFIED",
   "owner": "Aidan Coleman",
   "last_review": "2026-07-16",
   "aliases": [
@@ -87,6 +87,21 @@
       "source": "CERT-PKS-000075",
       "relationship": "HAS_SAFETY",
       "target": "CERT-SKS-000080"
+    },
+    {
+      "source": "CERT-PKS-000075",
+      "relationship": "HAS_PASSPORT",
+      "target": "CERT-PPS-000048"
+    },
+    {
+      "source": "CERT-PKS-000075",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000327"
+    },
+    {
+      "source": "CERT-PKS-000075",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000328"
     }
   ],
   "canonical_molecule_identity_closed": false,
@@ -101,5 +116,29 @@
     "Independent human evidence",
     "Current product- and jurisdiction-specific regulatory status",
     "Supplier identity, purity and sterility"
-  ]
+  ],
+  "closure_wave": "0033D",
+  "closure_priority": "P1",
+  "closure_class": "EDG TRIPEPTIDE / RESPIRATORY AND IMMUNE CELL-CULTURE EVIDENCE",
+  "closure_state": "PARTIAL CLOSURE — PRIMARY METHODS IDENTIFY CHONLUTEN AS GLU-ASP-GLY (EDG) AND HUMAN THP-1 CELL-CULTURE EVIDENCE EXISTS; CH20 TERMINI, SALT, ANALYTICAL IDENTITY, STERILITY AND HUMAN CLINICAL BENEFIT OPEN",
+  "authoritative_product_boundary": "A 2022 primary paper explicitly identifies Chonluten as Glu-Asp-Gly (EDG) and reports in-vitro signalling and inflammatory readouts in THP-1 monocytes/macrophages. The study is not a human treatment trial and does not establish CH20 equivalence, respiratory-disease efficacy or systemic immune benefit.",
+  "product_passport": "CERT-PPS-000048",
+  "reference_identity_status": "REFERENCE SEQUENCE CLOSED",
+  "canonical_reference_sequence": "EDG",
+  "canonical_reference_sequence_description": "Glu-Asp-Gly",
+  "supplier_sequence_verified": false,
+  "terminal_chemistry_verified": false,
+  "quality_verified": false,
+  "sterility_verified": false,
+  "human_clinical_equivalence": false,
+  "authorised_product_equivalence": false,
+  "critical_closure_controls": [
+    "EDG primary-study identity is not CH20 analytical proof",
+    "THP-1 cell-line findings are not human clinical efficacy",
+    "Do not transfer Bronchogen AEDL evidence to Chonluten EDG",
+    "No respiratory, immune, infection or anti-inflammatory treatment claim",
+    "No dosing, injection or reconstitution protocol"
+  ],
+  "canonical_identity_allocated": true,
+  "identity_quarantine": false
 }

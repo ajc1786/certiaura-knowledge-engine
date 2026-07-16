@@ -1,0 +1,63 @@
+{
+  "asset_id": "CERT-PPS-000047",
+  "asset_name": "Cartalax Product Passport",
+  "knowledge_system": "PPS",
+  "asset_type": "Critical Identity / Supplier Product Passport Gap Object",
+  "version": "0.2.0",
+  "status": "P1 OPEN / NOT CERTIFIED",
+  "parent_product": "CERT-PKS-000074",
+  "closure_wave": "0033D",
+  "closure_priority": "P1",
+  "last_review": "2026-07-16",
+  "reference_identity_status": "REFERENCE SEQUENCE CLOSED",
+  "reference_sequence": "AED",
+  "reference_sequence_description": "Ala-Glu-Asp",
+  "required_fields": [
+    {
+      "field": "Ala-Glu-Asp sequence confirmation",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical, quality, clinical and regulatory evidence"
+    },
+    {
+      "field": "N- and C-terminal chemistry",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical, quality, clinical and regulatory evidence"
+    },
+    {
+      "field": "salt, counter-ion, formula and molecular mass",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical, quality, clinical and regulatory evidence"
+    },
+    {
+      "field": "reference standard, HPLC, LC-MS and purity",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical, quality, clinical and regulatory evidence"
+    },
+    {
+      "field": "manufacturer, synthesis route and batch",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical, quality, clinical and regulatory evidence"
+    },
+    {
+      "field": "route, formulation and excipients",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical, quality, clinical and regulatory evidence"
+    },
+    {
+      "field": "sterility, endotoxin and particulate testing if parenteral",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical, quality, clinical and regulatory evidence"
+    },
+    {
+      "field": "controlled human cartilage PK, safety, efficacy and regulatory status",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical, quality, clinical and regulatory evidence"
+    }
+  ],
+  "supplier_sequence_certified": false,
+  "terminal_chemistry_certified": false,
+  "quality_certified": false,
+  "sterility_certified": false,
+  "human_clinical_equivalence": false,
+  "identity_quarantine": false
+}

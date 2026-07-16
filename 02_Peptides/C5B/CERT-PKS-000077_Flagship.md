@@ -8,65 +8,54 @@
 
 # CERT-PKS-000077 — Ovagen
 
-**Version:** 0.1.0  
-**Status:** CATALOGUE REVIEWED / IDENTITY GAP OPEN / NOT PLATINUM CERTIFIED  
+**Version:** 0.2.0  
+**Priority:** P1  
+**Identity status:** CRITICAL NAME AND IDENTITY CONFLICT  
+**Status:** EVIDENCE CLOSURE WAVE 8 / REFERENCE-SEQUENCE OR IDENTITY-CONFLICT CONTROL ACTIVE  
 **Last Review:** 2026-07-16
 
-## Classification
+## Reference identity
 
-Supplier-named ovarian / reproductive short regulatory peptide family
+**UNRESOLVED: commonly claimed EDL; conflicting/unverified — No canonical sequence assigned**
 
-## Supplier-claimed context
+## Closure state
 
-Claimed ovarian-targeted research context
+**BLOCKED — OVAGEN NAME COLLIDES WITH A VETERINARY FSH PRODUCT; SHORT-PEPTIDE SOURCES CONFLICT OR LACK PRIMARY AUTHENTICATION, AND OV20 SEQUENCE, TERMINI, SALT, QUALITY AND HUMAN EVIDENCE REMAIN OPEN**
 
-This wording records catalogue positioning and does not validate organ selectivity or clinical efficacy.
+## Authoritative or primary-source boundary
 
-## Mechanism
+PubMed results for Ovagen predominantly concern a commercial ovine follicle-stimulating hormone preparation used in veterinary reproduction, not a Khavinson short peptide. Marketplace peptide sources commonly claim Glu-Asp-Leu (EDL), while other sources report conflicting sequences. No primary indexed paper was sufficient to authenticate OV20 as one canonical peptide.
 
-No canonical mechanism is assigned. The product name suggests an organ-targeted commercial positioning, but exact sequence, target and pharmacology require direct primary-source and analytical closure.
+## New closure evidence
 
-## Evidence maturity
+- `CERT-EKS-000331`
+- `CERT-EKS-000332`
 
-Regional short-peptide, cell, animal or limited human literature may exist under this name or related names. Evidence is not attributed to the catalogue product until chemical identity and source linkage are confirmed.
+## Product Passport
 
-## Evidence foundation
+`CERT-PPS-000050`
 
-- `CERT-EKS-000181`
-- `CERT-EKS-000182`
-
-## Regulatory headline
-
-**IDENTITY-SENSITIVE SUPPLIER PRODUCT FAMILY / NO UNIVERSAL APPROVAL OR ORGAN-TREATMENT CLAIM**
-
-## Catalogue pricing
+## Catalogue records
 
 | Code | Specification | USD per kit |
 |---|---|---:|
 | OV20 | 20 mg x 10 vials | $118 |
 
-## Canonical molecule identity closed
+## Critical controls
 
-**No**
+- Do not confuse OV20 with veterinary ovine FSH Ovagen
+- Do not assign EDL as canonical without direct primary/analytical closure
+- Do not assign EDE or another vendor sequence
+- No ovarian, fertility, hepatic or gastrointestinal treatment claim
+- No dosing, injection or reconstitution protocol
 
-## Product-quality boundary
+## Certification state
 
-The catalogue does not provide the sequence, stereochemistry, terminal chemistry, molecular mass, manufacturer reference standard, purity, sterility or authorised status.
-
-## Validated universal human dosing protocol
-
-**No**
-
-## Certification blockers
-
-- Complete amino-acid sequence and stereochemistry
-- N- and C-terminal chemistry
-- Molecular formula, mass and reference standard
-- Direct primary publication linkage
-- Independent human evidence
-- Current product- and jurisdiction-specific regulatory status
-- Supplier identity, purity and sterility
-
-## Platinum Certified
-
-**No**
+- Reference identity defensibly anchored: **No**
+- Supplier sequence verified: **No**
+- Terminal chemistry and salt verified: **No**
+- Quality verified: **No**
+- Sterility verified: **No**
+- Controlled human clinical equivalence: **No**
+- Direct-sale gate: **Blocked**
+- Platinum Certified: **No**

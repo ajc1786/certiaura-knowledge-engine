@@ -1,0 +1,21 @@
+{
+  "asset_id": "CERT-EKS-000328",
+  "asset_name": "CH20 Terminal Chemistry, Respiratory Human Evidence and Regulatory Gap",
+  "root_asset": "CERT-PKS-000075",
+  "knowledge_system": "EKS",
+  "asset_type": "Priority Evidence Closure Object",
+  "version": "0.2.0",
+  "status": "OPEN — CH20 PRODUCT AND HUMAN BENEFIT NOT ESTABLISHED",
+  "closure_wave": "0033D",
+  "closure_priority": "P1",
+  "source_domain": "Supplier sequence, termini, salt, quality, sterility, human respiratory/immune PK, controlled trials, approval and product comparability",
+  "evidence_type": "Critical supplier / clinical evidence gap",
+  "last_review": "2026-07-16",
+  "direct_complete_extraction": false,
+  "prohibited_use": [
+    "Personal dosing, injection or reconstitution guidance",
+    "Cell, animal, regional, marketed-name or database evidence transfer to supplier products",
+    "Assumption of supplier sequence, termini, salt, potency, quality or sterility",
+    "Endocrine, organ-restoration, immune, fertility or anti-ageing protocols"
+  ]
+}

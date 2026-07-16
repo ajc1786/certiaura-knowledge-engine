@@ -3,8 +3,8 @@
   "asset_name": "Vesugen",
   "knowledge_system": "PKS",
   "asset_type": "Supplier Product-Family Knowledge Asset",
-  "version": "0.1.0",
-  "status": "CATALOGUE REVIEWED / IDENTITY GAP OPEN / NOT PLATINUM CERTIFIED",
+  "version": "0.2.0",
+  "status": "P1 EVIDENCE CLOSURE WAVE 8 / REFERENCE-SEQUENCE OR IDENTITY-CONFLICT CONTROL ACTIVE / NOT PLATINUM CERTIFIED",
   "owner": "Aidan Coleman",
   "last_review": "2026-07-16",
   "aliases": [
@@ -87,6 +87,21 @@
       "source": "CERT-PKS-000078",
       "relationship": "HAS_SAFETY",
       "target": "CERT-SKS-000083"
+    },
+    {
+      "source": "CERT-PKS-000078",
+      "relationship": "HAS_PASSPORT",
+      "target": "CERT-PPS-000051"
+    },
+    {
+      "source": "CERT-PKS-000078",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000333"
+    },
+    {
+      "source": "CERT-PKS-000078",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000334"
     }
   ],
   "canonical_molecule_identity_closed": false,
@@ -101,5 +116,29 @@
     "Independent human evidence",
     "Current product- and jurisdiction-specific regulatory status",
     "Supplier identity, purity and sterility"
-  ]
+  ],
+  "closure_wave": "0033D",
+  "closure_priority": "P1",
+  "closure_class": "KED TRIPEPTIDE / VASCULAR POSITIONING AND SUPPLIER EQUIVALENCE",
+  "closure_state": "PARTIAL CLOSURE — PRIMARY LITERATURE IDENTIFIES VESUGEN AS LYS-GLU-ASP (KED) AND CELL/SMALL REGIONAL HUMAN REPORTS EXIST; VE20 TERMINI, SALT, ANALYTICAL IDENTITY, STERILITY AND CONTROLLED HUMAN BENEFIT OPEN",
+  "authoritative_product_boundary": "Primary literature identifies Vesugen as Lys-Glu-Asp (KED) and reports aged-cell differentiation, vascular-endothelial models and small regional human gerontology studies. These records do not establish an authorised vascular medicine, clinical outcome replication or VE20 analytical equivalence.",
+  "product_passport": "CERT-PPS-000051",
+  "reference_identity_status": "REFERENCE SEQUENCE CLOSED",
+  "canonical_reference_sequence": "KED",
+  "canonical_reference_sequence_description": "Lys-Glu-Asp",
+  "supplier_sequence_verified": false,
+  "terminal_chemistry_verified": false,
+  "quality_verified": false,
+  "sterility_verified": false,
+  "human_clinical_equivalence": false,
+  "authorised_product_equivalence": false,
+  "critical_closure_controls": [
+    "KED literature identity is not VE20 analytical proof",
+    "KED is also a shared motif and does not prove tissue specificity",
+    "Small regional human reports require independent replication",
+    "No vascular-repair, endothelial, anti-ageing or cardiovascular claim",
+    "No dosing, injection or reconstitution protocol"
+  ],
+  "canonical_identity_allocated": true,
+  "identity_quarantine": false
 }

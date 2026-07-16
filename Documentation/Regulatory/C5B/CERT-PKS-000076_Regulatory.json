@@ -1,43 +1,38 @@
 {
   "asset_uai": "CERT-PKS-000076",
   "asset_name": "Crystagen",
+  "version": "0.2.0",
   "status_as_of": "2026-07-16",
-  "overall_status": "IDENTITY-SENSITIVE SUPPLIER PRODUCT FAMILY / NO UNIVERSAL APPROVAL OR ORGAN-TREATMENT CLAIM",
+  "closure_wave": "0033D",
+  "overall_status": "BLOCKED — PUBLIC SOURCES CONFLICT BETWEEN EDP AND PQN IDENTITIES, NO AUTHORITATIVE PRIMARY SEQUENCE RECORD WAS CLOSED, AND CRY20 TERMINI, SALT, ANALYTICAL IDENTITY, STERILITY AND HUMAN EVIDENCE REMAIN OPEN",
   "regulatory_records": [
     {
       "jurisdiction": "United States",
-      "authority": "FDA",
-      "current_status": "No approval claim is created; exact molecule and official product-database status require direct verification.",
+      "authority": "FDA / Drugs@FDA",
+      "current_status": "No authorised-product or supplier-equivalence claim is assigned to Crystagen; exact product status requires direct database verification.",
       "monitoring_state": "ACTIVE",
-      "next_review_trigger": "Identity, approval, label, safety, trial, enforcement or anti-doping change"
+      "next_review_trigger": "Identity, approval, trial, warning, enforcement, safety, product-name or anti-doping change"
     },
     {
       "jurisdiction": "United Kingdom",
       "authority": "MHRA",
-      "current_status": "No marketing-authorisation claim is created; exact molecule and product status require direct verification.",
+      "current_status": "No marketing-authorisation or supplier-equivalence claim is assigned to Crystagen; exact product and jurisdiction verification remains required.",
       "monitoring_state": "ACTIVE",
-      "next_review_trigger": "Identity, approval, label, safety, trial, enforcement or anti-doping change"
+      "next_review_trigger": "Identity, approval, trial, warning, enforcement, safety, product-name or anti-doping change"
     },
     {
       "jurisdiction": "European Union",
       "authority": "EMA / European Commission",
-      "current_status": "No central marketing-authorisation claim is created; exact molecule and product status require direct verification.",
+      "current_status": "No central marketing-authorisation or supplier-equivalence claim is assigned to Crystagen.",
       "monitoring_state": "ACTIVE",
-      "next_review_trigger": "Identity, approval, label, safety, trial, enforcement or anti-doping change"
-    },
-    {
-      "jurisdiction": "Other jurisdictions",
-      "authority": "National medicines authorities",
-      "current_status": "Any regional status must be verified by exact product, manufacturer, formulation, indication and date.",
-      "monitoring_state": "ACTIVE",
-      "next_review_trigger": "Identity, approval, label, safety, trial, enforcement or anti-doping change"
+      "next_review_trigger": "Identity, approval, trial, warning, enforcement, safety, product-name or anti-doping change"
     },
     {
       "jurisdiction": "International sport",
       "authority": "WADA",
-      "current_status": "Current athlete-specific status requires authoritative verification after exact identity closure.",
-      "monitoring_state": "BLOCKED BY IDENTITY",
-      "next_review_trigger": "Identity, approval, label, safety, trial, enforcement or anti-doping change"
+      "current_status": "The 2026 Prohibited List is in force. S0 covers pharmacological substances not currently approved for human therapeutic use; no athlete-permitted status claim is made for the supplier product.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Identity, approval, trial, warning, enforcement, safety, product-name or anti-doping change"
     }
   ]
 }

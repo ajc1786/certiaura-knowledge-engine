@@ -3,8 +3,8 @@
   "asset_name": "Prostamax",
   "knowledge_system": "PKS",
   "asset_type": "Supplier Product-Family Knowledge Asset",
-  "version": "0.1.0",
-  "status": "CATALOGUE REVIEWED / IDENTITY GAP OPEN / NOT PLATINUM CERTIFIED",
+  "version": "0.2.0",
+  "status": "P1 EVIDENCE CLOSURE WAVE 8 / REFERENCE-SEQUENCE OR IDENTITY-CONFLICT CONTROL ACTIVE / NOT PLATINUM CERTIFIED",
   "owner": "Aidan Coleman",
   "last_review": "2026-07-16",
   "aliases": [
@@ -87,6 +87,21 @@
       "source": "CERT-PKS-000073",
       "relationship": "HAS_SAFETY",
       "target": "CERT-SKS-000078"
+    },
+    {
+      "source": "CERT-PKS-000073",
+      "relationship": "HAS_PASSPORT",
+      "target": "CERT-PPS-000046"
+    },
+    {
+      "source": "CERT-PKS-000073",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000323"
+    },
+    {
+      "source": "CERT-PKS-000073",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000324"
     }
   ],
   "canonical_molecule_identity_closed": false,
@@ -101,5 +116,29 @@
     "Independent human evidence",
     "Current product- and jurisdiction-specific regulatory status",
     "Supplier identity, purity and sterility"
-  ]
+  ],
+  "closure_wave": "0033D",
+  "closure_priority": "P1",
+  "closure_class": "KEDP TETRAPEPTIDE / PROSTATE POSITIONING AND SUPPLIER EQUIVALENCE",
+  "closure_state": "PARTIAL CLOSURE — NLM/PUBCHEM IDENTITY LYS-GLU-ASP-PRO (KEDP) AND LIMITED CHROMATIN/ORGANOTYPIC LITERATURE IDENTIFIED; MAX20 TERMINI, SALT, ANALYTICAL IDENTITY, STERILITY AND CONTROLLED HUMAN BENEFIT OPEN",
+  "authoritative_product_boundary": "PubChem records Prostamax as Lys-Glu-Asp-Pro (KEDP). Indexed literature includes prostate-tissue organotypic models and human-lymphocyte chromatin studies, but does not establish treatment of benign prostatic hyperplasia, cancer, urinary symptoms or supplier MAX20 equivalence.",
+  "product_passport": "CERT-PPS-000046",
+  "reference_identity_status": "REFERENCE SEQUENCE CLOSED",
+  "canonical_reference_sequence": "KEDP",
+  "canonical_reference_sequence_description": "Lys-Glu-Asp-Pro",
+  "supplier_sequence_verified": false,
+  "terminal_chemistry_verified": false,
+  "quality_verified": false,
+  "sterility_verified": false,
+  "human_clinical_equivalence": false,
+  "authorised_product_equivalence": false,
+  "critical_closure_controls": [
+    "KEDP database identity is not MAX20 analytical proof",
+    "Prostate-targeted positioning is not clinical selectivity",
+    "Chromatin and organotypic findings are not treatment evidence",
+    "No BPH, prostate-cancer, urinary or sexual-health claim",
+    "No dosing, injection or reconstitution protocol"
+  ],
+  "canonical_identity_allocated": true,
+  "identity_quarantine": false
 }

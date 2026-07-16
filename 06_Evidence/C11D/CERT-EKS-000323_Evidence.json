@@ -1,0 +1,21 @@
+{
+  "asset_id": "CERT-EKS-000323",
+  "asset_name": "Prostamax KEDP Chemical Identity and Chromatin Evidence",
+  "root_asset": "CERT-PKS-000073",
+  "knowledge_system": "EKS",
+  "asset_type": "Priority Evidence Closure Object",
+  "version": "0.2.0",
+  "status": "PROSTAMAX KEDP DATABASE IDENTITY IDENTIFIED",
+  "closure_wave": "0033D",
+  "closure_priority": "P1",
+  "source_domain": "PubChem KEDP chemical identity plus indexed organotypic and human-lymphocyte chromatin studies involving Prostamax",
+  "evidence_type": "Chemical identity / mechanistic evidence",
+  "last_review": "2026-07-16",
+  "direct_complete_extraction": false,
+  "prohibited_use": [
+    "Personal dosing, injection or reconstitution guidance",
+    "Cell, animal, regional, marketed-name or database evidence transfer to supplier products",
+    "Assumption of supplier sequence, termini, salt, potency, quality or sterility",
+    "Endocrine, organ-restoration, immune, fertility or anti-ageing protocols"
+  ]
+}

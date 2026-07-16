@@ -8,65 +8,54 @@
 
 # CERT-PKS-000073 — Prostamax
 
-**Version:** 0.1.0  
-**Status:** CATALOGUE REVIEWED / IDENTITY GAP OPEN / NOT PLATINUM CERTIFIED  
+**Version:** 0.2.0  
+**Priority:** P1  
+**Identity status:** REFERENCE SEQUENCE CLOSED  
+**Status:** EVIDENCE CLOSURE WAVE 8 / REFERENCE-SEQUENCE OR IDENTITY-CONFLICT CONTROL ACTIVE  
 **Last Review:** 2026-07-16
 
-## Classification
+## Reference identity
 
-Supplier-named prostate short regulatory peptide family
+**KEDP — Lys-Glu-Asp-Pro**
 
-## Supplier-claimed context
+## Closure state
 
-Claimed prostate-targeted research context
+**PARTIAL CLOSURE — NLM/PUBCHEM IDENTITY LYS-GLU-ASP-PRO (KEDP) AND LIMITED CHROMATIN/ORGANOTYPIC LITERATURE IDENTIFIED; MAX20 TERMINI, SALT, ANALYTICAL IDENTITY, STERILITY AND CONTROLLED HUMAN BENEFIT OPEN**
 
-This wording records catalogue positioning and does not validate organ selectivity or clinical efficacy.
+## Authoritative or primary-source boundary
 
-## Mechanism
+PubChem records Prostamax as Lys-Glu-Asp-Pro (KEDP). Indexed literature includes prostate-tissue organotypic models and human-lymphocyte chromatin studies, but does not establish treatment of benign prostatic hyperplasia, cancer, urinary symptoms or supplier MAX20 equivalence.
 
-No canonical mechanism is assigned. The product name suggests an organ-targeted commercial positioning, but exact sequence, target and pharmacology require direct primary-source and analytical closure.
+## New closure evidence
 
-## Evidence maturity
+- `CERT-EKS-000323`
+- `CERT-EKS-000324`
 
-Regional short-peptide, cell, animal or limited human literature may exist under this name or related names. Evidence is not attributed to the catalogue product until chemical identity and source linkage are confirmed.
+## Product Passport
 
-## Evidence foundation
+`CERT-PPS-000046`
 
-- `CERT-EKS-000173`
-- `CERT-EKS-000174`
-
-## Regulatory headline
-
-**IDENTITY-SENSITIVE SUPPLIER PRODUCT FAMILY / NO UNIVERSAL APPROVAL OR ORGAN-TREATMENT CLAIM**
-
-## Catalogue pricing
+## Catalogue records
 
 | Code | Specification | USD per kit |
 |---|---|---:|
 | MAX20 | 20 mg x 10 vials | $118 |
 
-## Canonical molecule identity closed
+## Critical controls
 
-**No**
+- KEDP database identity is not MAX20 analytical proof
+- Prostate-targeted positioning is not clinical selectivity
+- Chromatin and organotypic findings are not treatment evidence
+- No BPH, prostate-cancer, urinary or sexual-health claim
+- No dosing, injection or reconstitution protocol
 
-## Product-quality boundary
+## Certification state
 
-The catalogue does not provide the sequence, stereochemistry, terminal chemistry, molecular mass, manufacturer reference standard, purity, sterility or authorised status.
-
-## Validated universal human dosing protocol
-
-**No**
-
-## Certification blockers
-
-- Complete amino-acid sequence and stereochemistry
-- N- and C-terminal chemistry
-- Molecular formula, mass and reference standard
-- Direct primary publication linkage
-- Independent human evidence
-- Current product- and jurisdiction-specific regulatory status
-- Supplier identity, purity and sterility
-
-## Platinum Certified
-
-**No**
+- Reference identity defensibly anchored: **Yes**
+- Supplier sequence verified: **No**
+- Terminal chemistry and salt verified: **No**
+- Quality verified: **No**
+- Sterility verified: **No**
+- Controlled human clinical equivalence: **No**
+- Direct-sale gate: **Blocked**
+- Platinum Certified: **No**

@@ -3,8 +3,8 @@
   "asset_name": "Pancragen",
   "knowledge_system": "PKS",
   "asset_type": "Supplier Product-Family Knowledge Asset",
-  "version": "0.1.0",
-  "status": "CATALOGUE REVIEWED / IDENTITY GAP OPEN / NOT PLATINUM CERTIFIED",
+  "version": "0.2.0",
+  "status": "P1 EVIDENCE CLOSURE WAVE 8 / REFERENCE-SEQUENCE OR IDENTITY-CONFLICT CONTROL ACTIVE / NOT PLATINUM CERTIFIED",
   "owner": "Aidan Coleman",
   "last_review": "2026-07-16",
   "aliases": [
@@ -87,6 +87,21 @@
       "source": "CERT-PKS-000072",
       "relationship": "HAS_SAFETY",
       "target": "CERT-SKS-000077"
+    },
+    {
+      "source": "CERT-PKS-000072",
+      "relationship": "HAS_PASSPORT",
+      "target": "CERT-PPS-000045"
+    },
+    {
+      "source": "CERT-PKS-000072",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000321"
+    },
+    {
+      "source": "CERT-PKS-000072",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000322"
     }
   ],
   "canonical_molecule_identity_closed": false,
@@ -101,5 +116,29 @@
     "Independent human evidence",
     "Current product- and jurisdiction-specific regulatory status",
     "Supplier identity, purity and sterility"
-  ]
+  ],
+  "closure_wave": "0033D",
+  "closure_priority": "P1",
+  "closure_class": "KEDW TETRAPEPTIDE / TERMINAL AMIDE AND SUPPLIER EQUIVALENCE",
+  "closure_state": "PARTIAL CLOSURE — PANCRAGEN RESIDUE ORDER LYS-GLU-ASP-TRP (KEDW) AND NON-HUMAN/HUMAN REGIONAL LITERATURE IDENTIFIED; PA20 TERMINAL CHEMISTRY, SALT, ANALYTICAL IDENTITY, STERILITY AND CLINICAL EQUIVALENCE OPEN",
+  "authoritative_product_boundary": "Primary and indexed literature identifies Pancragen as Lys-Glu-Asp-Trp, while PubMed substance indexing uses lysyl-glutamyl-aspartyl-tryptophanamide. The evidence includes aged-cell, non-human-primate and small regional human reports. It does not establish PA20 analytical identity, a universally validated diabetes medicine or an authorised product.",
+  "product_passport": "CERT-PPS-000045",
+  "reference_identity_status": "REFERENCE SEQUENCE PARTIALLY CLOSED",
+  "canonical_reference_sequence": "KEDW",
+  "canonical_reference_sequence_description": "Lys-Glu-Asp-Trp; terminal amidation requires exact-product confirmation",
+  "supplier_sequence_verified": false,
+  "terminal_chemistry_verified": false,
+  "quality_verified": false,
+  "sterility_verified": false,
+  "human_clinical_equivalence": false,
+  "authorised_product_equivalence": false,
+  "critical_closure_controls": [
+    "KEDW residue order is literature identity, not PA20 proof",
+    "C-terminal amide status remains supplier-specific until directly verified",
+    "Monkey and regional clinical reports do not establish universal efficacy",
+    "No diabetes, glucose-control, pancreatic-restoration or anti-ageing claim",
+    "No dosing, injection or reconstitution protocol"
+  ],
+  "canonical_identity_allocated": true,
+  "identity_quarantine": false
 }

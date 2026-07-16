@@ -10,12 +10,11 @@
 
 | Claim | Permission |
 |---|---|
-| Chonluten is a supplier-named short regulatory peptide product family. | Allowed |
-| Claimed organ-targeted research context not accepted without source closure | May be reported only as supplier positioning, not validated pharmacology |
-| Chonluten selectively reaches or repairs the named organ. | Not established / prohibited |
-| Chonluten is a clinically validated anti-ageing or rejuvenation treatment. | False / prohibited |
-| The supplier product matches a published peptide with the same name. | Not established / prohibited pending identity closure |
-| A universal human dosing or administration protocol is validated. | Not established / prohibited |
+| The controlled reference identity is `EDG`. | Allowed with source and supplier non-equivalence |
+| A 2022 primary paper explicitly identifies Chonluten as Glu-Asp-Gly (EDG) and reports in-vitro signalling and inflammatory readouts in THP-1 monocytes/macrophages. The study is not a human treatment trial and does not establish CH20 equivalence, respiratory-disease efficacy or systemic immune benefit. | Allowed as a controlled boundary |
+| The supplier vial is analytically identical to the reference or marketed identity. | False / prohibited |
+| Cell, animal, small regional or in-vitro evidence proves broad human therapeutic efficacy. | False / prohibited |
+| A treatment, anti-ageing, organ-restoration, dosing, injection or reconstitution protocol is validated. | False / prohibited |
 | The asset is Platinum Certified. | False / prohibited |
 
 **Status as of:** 2026-07-16

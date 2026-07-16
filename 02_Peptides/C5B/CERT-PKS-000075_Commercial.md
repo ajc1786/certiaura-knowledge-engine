@@ -10,19 +10,19 @@
 
 ## Permitted
 
-- catalogue identity-gap reporting;
-- primary-source and analytical research;
-- supplier-price and Product Passport™ gap reporting;
-- dated jurisdiction-specific regulatory-status reporting.
+- exact catalogue identity and price reporting;
+- defensible reference-sequence or identity-conflict reporting;
+- Product Passport™ gap reporting;
+- evidence-quality, regulatory and analytical education.
 
 ## Prohibited
 
-- organ-treatment or organ-rejuvenation claims;
-- anti-ageing or longevity protocols;
-- dosing, injection, cycle or reconstitution guidance;
-- cross-transfer of evidence from another short peptide;
-- guaranteed sequence, target, purity, sterility or potency.
+- endocrine, prostate, cartilage, respiratory, immune, ovarian, hepatic or vascular protocols;
+- dosing, injection or reconstitution guidance;
+- reference-material, marketed-name or authorised-product equivalence;
+- guaranteed sequence, termini, salt, potency, purity or sterility;
+- direct-sale activation while critical passport fields remain open.
 
-## Future direct sale
+## Activation gate
 
-Requires exact chemical identity, legal classification, regulatory status, manufacturing, quality and jurisdiction closure.
+Commercial use beyond evidence and gap reporting remains blocked.

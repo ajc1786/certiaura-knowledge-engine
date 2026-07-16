@@ -1,0 +1,21 @@
+{
+  "asset_id": "CERT-EKS-000332",
+  "asset_name": "OV20 Manufacturer, Sequence, Tissue-Target and Regulatory Gap",
+  "root_asset": "CERT-PKS-000077",
+  "knowledge_system": "EKS",
+  "asset_type": "Priority Evidence Closure Object",
+  "version": "0.2.0",
+  "status": "OPEN — OV20 PEPTIDE IDENTITY AND HUMAN BENEFIT NOT ESTABLISHED",
+  "closure_wave": "0033D",
+  "closure_priority": "P1",
+  "source_domain": "Direct manufacturer sequence, exclusion of veterinary FSH identity, analytical quality, claimed tissue target, human evidence, sterility and product status",
+  "evidence_type": "Critical supplier / human evidence gap",
+  "last_review": "2026-07-16",
+  "direct_complete_extraction": false,
+  "prohibited_use": [
+    "Personal dosing, injection or reconstitution guidance",
+    "Cell, animal, regional, marketed-name or database evidence transfer to supplier products",
+    "Assumption of supplier sequence, termini, salt, potency, quality or sterility",
+    "Endocrine, organ-restoration, immune, fertility or anti-ageing protocols"
+  ]
+}
