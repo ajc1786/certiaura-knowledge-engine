@@ -1,0 +1,20 @@
+{
+  "asset_id": "CERT-EKS-000086",
+  "asset_name": "ACE-031 Duchenne Development and Discontinuation Evidence",
+  "root_asset": "CERT-PKS-000029",
+  "knowledge_system": "EKS",
+  "asset_type": "Evidence Object",
+  "version": "0.1.0",
+  "status": "TRIAL PROGRAMME IDENTIFIED — COMPLETE PRIMARY CLOSURE REQUIRED",
+  "source_domain": "Duchenne muscular dystrophy trial records, programme safety signals and development discontinuation",
+  "evidence_type": "Human clinical-development / regulatory evidence",
+  "last_review": "2026-07-16",
+  "direct_complete_extraction": false,
+  "permitted_use": "Identity, model-specific evidence and source-status reporting.",
+  "prohibited_use": [
+    "Human performance-enhancement claims",
+    "Personal dosing, cycling or reconstitution guidance",
+    "Transfer between native IGF-1, Long R3 IGF-1, MGF and PEG-MGF",
+    "Claims that catalogue product identity or quality is established"
+  ]
+}

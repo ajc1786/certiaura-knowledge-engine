@@ -1,0 +1,107 @@
+{
+  "asset_id": "CERT-PKS-000028",
+  "asset_name": "PEG-MGF Supplier Product Family",
+  "knowledge_system": "PKS",
+  "asset_type": "Peptide / Protein Knowledge Asset",
+  "version": "0.1.0",
+  "status": "CATALOGUE REVIEWED / EVIDENCE FOUNDATION CREATED / NOT PLATINUM CERTIFIED",
+  "owner": "Aidan Coleman",
+  "last_review": "2026-07-16",
+  "aliases": [
+    "PEG MGF",
+    "PEGylated mechano growth factor"
+  ],
+  "classification": "Unresolved PEGylated MGF-derived peptide product family",
+  "mechanism_summary": "Intended prolongation of an MGF-derived peptide through PEG conjugation; biological behaviour depends on exact peptide sequence and PEG chemistry.",
+  "evidence_maturity": "Preclinical and analytical domain only; supplier product identity is insufficiently specified and human evidence is not established.",
+  "regulatory_headline": "UNAPPROVED / CHEMICALLY UNDER-SPECIFIED / ATHLETE PROHIBITION CONTROL REQUIRED",
+  "catalogue_supplier_skus": [
+    {
+      "catalogue_code": "FMP2",
+      "specification": "2 mg x 10 vials",
+      "price_usd_per_kit": 95
+    }
+  ],
+  "relationships": [
+    {
+      "source": "CERT-PKS-000028",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000057"
+    },
+    {
+      "source": "CERT-PKS-000028",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000058"
+    },
+    {
+      "source": "CERT-PKS-000028",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000059"
+    },
+    {
+      "source": "CERT-PKS-000028",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000015"
+    },
+    {
+      "source": "CERT-PKS-000028",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000019"
+    },
+    {
+      "source": "CERT-PKS-000028",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000021"
+    },
+    {
+      "source": "CERT-PKS-000028",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000037"
+    },
+    {
+      "source": "CERT-PKS-000028",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000038"
+    },
+    {
+      "source": "CERT-PKS-000028",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000039"
+    },
+    {
+      "source": "CERT-PKS-000028",
+      "relationship": "SUPPORTS_GOAL",
+      "target": "CERT-GKS-000019"
+    },
+    {
+      "source": "CERT-PKS-000028",
+      "relationship": "SUPPORTS_GOAL",
+      "target": "CERT-GKS-000021"
+    },
+    {
+      "source": "CERT-PKS-000028",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000083"
+    },
+    {
+      "source": "CERT-PKS-000028",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000084"
+    },
+    {
+      "source": "CERT-PKS-000028",
+      "relationship": "HAS_SAFETY",
+      "target": "CERT-SKS-000033"
+    }
+  ],
+  "validated_universal_human_dosing_protocol": false,
+  "supplier_catalogue_proves_quality": false,
+  "athlete_warning_required": true,
+  "platinum_certified": false,
+  "certification_blockers": [
+    "Exact peptide sequence",
+    "PEG molecular weight, attachment site and conjugation chemistry",
+    "No established human PK, efficacy or safety",
+    "Immunogenicity and product-quality validation"
+  ]
+}

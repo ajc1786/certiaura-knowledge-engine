@@ -1,0 +1,103 @@
+{
+  "asset_id": "CERT-PKS-000029",
+  "asset_name": "ACE-031",
+  "knowledge_system": "PKS",
+  "asset_type": "Peptide / Protein Knowledge Asset",
+  "version": "0.1.0",
+  "status": "CATALOGUE REVIEWED / EVIDENCE FOUNDATION CREATED / NOT PLATINUM CERTIFIED",
+  "owner": "Aidan Coleman",
+  "last_review": "2026-07-16",
+  "aliases": [
+    "ACE031",
+    "ActRIIB-Fc",
+    "ACVR2B-Fc ligand trap"
+  ],
+  "classification": "Recombinant activin receptor type IIB-Fc fusion protein ligand trap",
+  "mechanism_summary": "Sequestration of myostatin, activins and related ligands that signal through activin type II receptors, reducing negative regulation of muscle growth.",
+  "evidence_maturity": "Preclinical and early human phase 1 / Duchenne muscular dystrophy clinical-development evidence; development did not establish an authorised product.",
+  "regulatory_headline": "INVESTIGATIONAL DEVELOPMENT DISCONTINUED / NO APPROVAL / MYOSTATIN-INHIBITOR DOPING CONTROL",
+  "catalogue_supplier_skus": [
+    {
+      "catalogue_code": "AE1",
+      "specification": "1 mg x 10 vials",
+      "price_usd_per_kit": 81
+    }
+  ],
+  "relationships": [
+    {
+      "source": "CERT-PKS-000029",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000060"
+    },
+    {
+      "source": "CERT-PKS-000029",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000061"
+    },
+    {
+      "source": "CERT-PKS-000029",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000062"
+    },
+    {
+      "source": "CERT-PKS-000029",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000015"
+    },
+    {
+      "source": "CERT-PKS-000029",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000019"
+    },
+    {
+      "source": "CERT-PKS-000029",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000021"
+    },
+    {
+      "source": "CERT-PKS-000029",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000037"
+    },
+    {
+      "source": "CERT-PKS-000029",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000040"
+    },
+    {
+      "source": "CERT-PKS-000029",
+      "relationship": "SUPPORTS_GOAL",
+      "target": "CERT-GKS-000019"
+    },
+    {
+      "source": "CERT-PKS-000029",
+      "relationship": "SUPPORTS_GOAL",
+      "target": "CERT-GKS-000021"
+    },
+    {
+      "source": "CERT-PKS-000029",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000085"
+    },
+    {
+      "source": "CERT-PKS-000029",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000086"
+    },
+    {
+      "source": "CERT-PKS-000029",
+      "relationship": "HAS_SAFETY",
+      "target": "CERT-SKS-000034"
+    }
+  ],
+  "validated_universal_human_dosing_protocol": false,
+  "supplier_catalogue_proves_quality": false,
+  "athlete_warning_required": true,
+  "platinum_certified": false,
+  "certification_blockers": [
+    "No authorised indication",
+    "Discontinued clinical-development programme",
+    "Vascular and off-target ligand-trap safety",
+    "Supplier fusion-protein identity, potency, aggregation and sterility"
+  ]
+}

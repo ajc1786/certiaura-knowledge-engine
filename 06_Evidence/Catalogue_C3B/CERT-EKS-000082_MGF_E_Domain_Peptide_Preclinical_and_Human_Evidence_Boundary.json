@@ -1,0 +1,20 @@
+{
+  "asset_id": "CERT-EKS-000082",
+  "asset_name": "MGF E-Domain Peptide Preclinical and Human Evidence Boundary",
+  "root_asset": "CERT-PKS-000027",
+  "knowledge_system": "EKS",
+  "asset_type": "Evidence Object",
+  "version": "0.1.0",
+  "status": "PRECLINICAL SOURCES IDENTIFIED — ADEQUATE HUMAN INTERVENTION EVIDENCE NOT ESTABLISHED",
+  "source_domain": "Synthetic E-domain peptide cell, neural, cardiac and muscle research; human intervention search",
+  "evidence_type": "Preclinical / evidence-gap object",
+  "last_review": "2026-07-16",
+  "direct_complete_extraction": false,
+  "permitted_use": "Identity, model-specific evidence and source-status reporting.",
+  "prohibited_use": [
+    "Human performance-enhancement claims",
+    "Personal dosing, cycling or reconstitution guidance",
+    "Transfer between native IGF-1, Long R3 IGF-1, MGF and PEG-MGF",
+    "Claims that catalogue product identity or quality is established"
+  ]
+}

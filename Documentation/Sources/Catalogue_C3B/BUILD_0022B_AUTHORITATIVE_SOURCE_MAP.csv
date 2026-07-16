@@ -1,0 +1,10 @@
+Asset,Source,URL,Purpose
+All assets,FDA Drugs@FDA,https://www.accessdata.fda.gov/scripts/cder/daf/,United States approval search
+All assets,MHRA Products,https://products.mhra.gov.uk/,United Kingdom authorisation search
+All assets,EMA Medicines,https://www.ema.europa.eu/en/medicines,European Union authorisation search
+All assets,WADA Prohibited List,https://www.wada-ama.org/en/prohibited-list,Current growth-factor and myostatin-inhibitor status
+Long R3 IGF-1,PubMed,https://pubmed.ncbi.nlm.nih.gov/?term=Long+R3+IGF-I,Identity and preclinical pharmacology
+MGF,PubMed,https://pubmed.ncbi.nlm.nih.gov/?term=mechano+growth+factor+IGF-1Ec,"Expression, mechanism and preclinical evidence"
+PEG-MGF,PubMed,https://pubmed.ncbi.nlm.nih.gov/?term=PEG-MGF,Analytical and experimental evidence
+ACE-031,ClinicalTrials.gov,https://clinicaltrials.gov/search?term=ACE-031,Healthy-volunteer and Duchenne trial records
+ACE-031,PubMed,https://pubmed.ncbi.nlm.nih.gov/?term=ACE-031,Human phase 1 publication and preclinical evidence

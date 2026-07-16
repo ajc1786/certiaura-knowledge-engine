@@ -1,0 +1,104 @@
+{
+  "asset_id": "CERT-PKS-000027",
+  "asset_name": "Mechano Growth Factor / IGF-1Ec E-Domain Peptide Family",
+  "knowledge_system": "PKS",
+  "asset_type": "Peptide / Protein Knowledge Asset",
+  "version": "0.1.0",
+  "status": "CATALOGUE REVIEWED / EVIDENCE FOUNDATION CREATED / NOT PLATINUM CERTIFIED",
+  "owner": "Aidan Coleman",
+  "last_review": "2026-07-16",
+  "aliases": [
+    "MGF",
+    "mechano growth factor",
+    "IGF-1Ec",
+    "IGF-IEc E peptide"
+  ],
+  "classification": "Identity-sensitive IGF-1 splice-variant and E-domain-derived peptide research family",
+  "mechanism_summary": "Mechanical-load-responsive IGF-1 splice-variant biology and experimental E-domain peptide signalling associated with tissue repair and cell-survival research.",
+  "evidence_maturity": "Gene-expression, cell and animal evidence; synthetic peptide identity varies and adequate human intervention evidence is not established.",
+  "regulatory_headline": "EXPERIMENTAL / IDENTITY-SENSITIVE / ATHLETE PROHIBITION CONTROL REQUIRED",
+  "catalogue_supplier_skus": [
+    {
+      "catalogue_code": "FM2",
+      "specification": "2 mg x 10 vials",
+      "price_usd_per_kit": 38
+    }
+  ],
+  "relationships": [
+    {
+      "source": "CERT-PKS-000027",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000054"
+    },
+    {
+      "source": "CERT-PKS-000027",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000057"
+    },
+    {
+      "source": "CERT-PKS-000027",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000058"
+    },
+    {
+      "source": "CERT-PKS-000027",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000015"
+    },
+    {
+      "source": "CERT-PKS-000027",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000019"
+    },
+    {
+      "source": "CERT-PKS-000027",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000021"
+    },
+    {
+      "source": "CERT-PKS-000027",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000037"
+    },
+    {
+      "source": "CERT-PKS-000027",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000038"
+    },
+    {
+      "source": "CERT-PKS-000027",
+      "relationship": "SUPPORTS_GOAL",
+      "target": "CERT-GKS-000019"
+    },
+    {
+      "source": "CERT-PKS-000027",
+      "relationship": "SUPPORTS_GOAL",
+      "target": "CERT-GKS-000021"
+    },
+    {
+      "source": "CERT-PKS-000027",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000081"
+    },
+    {
+      "source": "CERT-PKS-000027",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000082"
+    },
+    {
+      "source": "CERT-PKS-000027",
+      "relationship": "HAS_SAFETY",
+      "target": "CERT-SKS-000032"
+    }
+  ],
+  "validated_universal_human_dosing_protocol": false,
+  "supplier_catalogue_proves_quality": false,
+  "athlete_warning_required": true,
+  "platinum_certified": false,
+  "certification_blockers": [
+    "Exact sequence and relationship to IGF-1Ec",
+    "No established human intervention efficacy",
+    "Growth-signalling and neoplasm uncertainty",
+    "Supplier identity, purity and sterility"
+  ]
+}

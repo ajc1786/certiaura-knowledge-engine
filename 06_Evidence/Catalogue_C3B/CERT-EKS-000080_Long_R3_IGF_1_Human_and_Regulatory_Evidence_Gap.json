@@ -1,0 +1,20 @@
+{
+  "asset_id": "CERT-EKS-000080",
+  "asset_name": "Long R3 IGF-1 Human and Regulatory Evidence Gap",
+  "root_asset": "CERT-PKS-000026",
+  "knowledge_system": "EKS",
+  "asset_type": "Evidence Object",
+  "version": "0.1.0",
+  "status": "OPEN — AUTHORISED HUMAN THERAPEUTIC EVIDENCE NOT ESTABLISHED",
+  "source_domain": "Human intervention, PK, safety, approval and current clinical-trial search domain",
+  "evidence_type": "Evidence-gap object",
+  "last_review": "2026-07-16",
+  "direct_complete_extraction": false,
+  "permitted_use": "Identity, model-specific evidence and source-status reporting.",
+  "prohibited_use": [
+    "Human performance-enhancement claims",
+    "Personal dosing, cycling or reconstitution guidance",
+    "Transfer between native IGF-1, Long R3 IGF-1, MGF and PEG-MGF",
+    "Claims that catalogue product identity or quality is established"
+  ]
+}

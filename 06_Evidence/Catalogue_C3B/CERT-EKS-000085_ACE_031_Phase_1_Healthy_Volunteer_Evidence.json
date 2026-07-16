@@ -1,0 +1,20 @@
+{
+  "asset_id": "CERT-EKS-000085",
+  "asset_name": "ACE-031 Phase 1 Healthy-Volunteer Evidence",
+  "root_asset": "CERT-PKS-000029",
+  "knowledge_system": "EKS",
+  "asset_type": "Evidence Object",
+  "version": "0.1.0",
+  "status": "PRIMARY PUBLICATION IDENTIFIED — DIRECT EXTRACTION REQUIRED",
+  "source_domain": "A single ascending-dose study of muscle regulator ACE-031 in healthy volunteers",
+  "evidence_type": "Human phase 1 evidence",
+  "last_review": "2026-07-16",
+  "direct_complete_extraction": false,
+  "permitted_use": "Identity, model-specific evidence and source-status reporting.",
+  "prohibited_use": [
+    "Human performance-enhancement claims",
+    "Personal dosing, cycling or reconstitution guidance",
+    "Transfer between native IGF-1, Long R3 IGF-1, MGF and PEG-MGF",
+    "Claims that catalogue product identity or quality is established"
+  ]
+}

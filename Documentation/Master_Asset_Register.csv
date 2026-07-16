@@ -1,54 +1,58 @@
 Universal Asset Identifier,Asset Name,Knowledge System,Asset Type,Status,Owner,Completion %,Parent Assets,Child Assets,Relationship List,Evidence Links,Report Links,Marketplace Links,Last Review,Next Review,Notes
-CERT-PKS-000001,Retatrutide,PKS,Peptide Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
-CERT-PKS-000002,BPC-157,PKS,Peptide Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
-CERT-PKS-000003,Tesamorelin,PKS,Peptide Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
-CERT-PKS-000004,CJC-1295,PKS,Peptide Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
-CERT-PKS-000005,Ipamorelin,PKS,Peptide Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
-CERT-PKS-000006,MOTS-c,PKS,Peptide Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
-CERT-PKS-000007,GHK-Cu,PKS,Peptide Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
-CERT-PKS-000008,Thymosin Beta-4 / TB-500 Identity Family,PKS,Peptide Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
-CERT-PKS-000009,Melanotan II,PKS,Peptide Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
-CERT-PKS-000010,Epitalon,PKS,Peptide Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
-CERT-PKS-000011,Semaglutide,PKS,Peptide Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
-CERT-PKS-000012,Tirzepatide,PKS,Peptide Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
-CERT-PKS-000013,Cagrilintide,PKS,Peptide Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
-CERT-PKS-000014,Mazdutide,PKS,Peptide Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
-CERT-PKS-000015,Survodutide,PKS,Peptide Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
-CERT-PKS-000016,Liraglutide,PKS,Peptide Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
-CERT-PKS-000017,AOD9604,PKS,Peptide Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
-CERT-PKS-000018,Adipotide,PKS,Peptide Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
-CERT-PKS-000019,HGH Fragment 176-191,PKS,Peptide Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
-CERT-PKS-000020,Somatropin,PKS,Peptide / Protein Knowledge Asset,Catalogue Reviewed — Not Platinum Certified,Aidan Coleman,,,,,,,,2026-07-16,,Build 0022A
-CERT-PKS-000021,Sermorelin,PKS,Peptide / Protein Knowledge Asset,Catalogue Reviewed — Not Platinum Certified,Aidan Coleman,,,,,,,,2026-07-16,,Build 0022A
-CERT-PKS-000022,Modified GRF (1-29),PKS,Peptide / Protein Knowledge Asset,Catalogue Reviewed — Not Platinum Certified,Aidan Coleman,,,,,,,,2026-07-16,,Build 0022A
-CERT-PKS-000023,GHRP-2 / Pralmorelin,PKS,Peptide / Protein Knowledge Asset,Catalogue Reviewed — Not Platinum Certified,Aidan Coleman,,,,,,,,2026-07-16,,Build 0022A
-CERT-PKS-000024,GHRP-6,PKS,Peptide / Protein Knowledge Asset,Catalogue Reviewed — Not Platinum Certified,Aidan Coleman,,,,,,,,2026-07-16,,Build 0022A
-CERT-PKS-000025,Hexarelin / Examorelin,PKS,Peptide / Protein Knowledge Asset,Catalogue Reviewed — Not Platinum Certified,Aidan Coleman,,,,,,,,2026-07-16,,Build 0022A
-CERT-BKS-000050,Growth Hormone Receptor,BKS,Biology Knowledge Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0022A
-CERT-BKS-000051,Growth Plate and Somatic Growth Biology,BKS,Biology Knowledge Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0022A
-CERT-BKS-000052,GHRH Analogue Enzymatic Stability,BKS,Biology Knowledge Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0022A
-CERT-BKS-000053,Ghrelin-Receptor Neuroendocrine Signalling,BKS,Biology Knowledge Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0022A
-CERT-MKS-000034,Pituitary and Growth-Hormone-Axis Clinical Context,MKS,Monitoring Knowledge Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0022A
-CERT-MKS-000035,"Intracranial Hypertension, Slipped Epiphysis and Paediatric Growth Safety",MKS,Monitoring Knowledge Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0022A
-CERT-MKS-000036,"Cortisol, Prolactin and Appetite Response",MKS,Monitoring Knowledge Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0022A
-CERT-GKS-000016,Growth Hormone Deficiency and Diagnostic Research,GKS,Goal Knowledge Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0022A
-CERT-GKS-000017,Paediatric and Adult Growth-Hormone Replacement,GKS,Goal Knowledge Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0022A
-CERT-GKS-000018,Growth-Hormone Secretagogue Research,GKS,Goal Knowledge Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0022A
-CERT-SKS-000025,"Somatropin Product-Label, Neoplasm, Glucose and Growth Safety",SKS,Safety Knowledge Object,Active,Aidan Coleman,,CERT-PKS-000020,,,,,,2026-07-16,,Build 0022A
-CERT-SKS-000026,Sermorelin Current-Status and Human-Safety Uncertainty,SKS,Safety Knowledge Object,Active,Aidan Coleman,,CERT-PKS-000021,,,,,,2026-07-16,,Build 0022A
-CERT-SKS-000027,"Modified GRF Identity, Endocrine and Long-Term Safety Uncertainty",SKS,Safety Knowledge Object,Active,Aidan Coleman,,CERT-PKS-000022,,,,,,2026-07-16,,Build 0022A
-CERT-SKS-000028,"GHRP-2 Appetite, Cortisol, Prolactin and Product-Quality Risk",SKS,Safety Knowledge Object,Active,Aidan Coleman,,CERT-PKS-000023,,,,,,2026-07-16,,Build 0022A
-CERT-SKS-000029,"GHRP-6 Appetite, Glucose and Neuroendocrine Safety Uncertainty",SKS,Safety Knowledge Object,Active,Aidan Coleman,,CERT-PKS-000024,,,,,,2026-07-16,,Build 0022A
-CERT-SKS-000030,"Hexarelin Cardiovascular, Endocrine and Chronic-Exposure Uncertainty",SKS,Safety Knowledge Object,Active,Aidan Coleman,,CERT-PKS-000025,,,,,,2026-07-16,,Build 0022A
-CERT-EKS-000067,Somatropin Authorised Product and Label Source Set,EKS,Evidence Object,CURRENT PRODUCT-SPECIFIC LABEL CAPTURE REQUIRED,Aidan Coleman,,CERT-PKS-000020,,,,,,2026-07-16,,Root: CERT-PKS-000020
-CERT-EKS-000068,Somatropin Clinical Evidence and Misuse Boundary,EKS,Evidence Object,PRIMARY PROGRAMME MAP CREATED — EXTRACTION REQUIRED,Aidan Coleman,,CERT-PKS-000020,,,,,,2026-07-16,,Root: CERT-PKS-000020
-CERT-EKS-000069,Sermorelin Historical Diagnostic and Paediatric Evidence,EKS,Evidence Object,PRIMARY PUBLICATIONS IDENTIFIED — EXTRACTION REQUIRED,Aidan Coleman,,CERT-PKS-000021,,,,,,2026-07-16,,Root: CERT-PKS-000021
-CERT-EKS-000070,Sermorelin Current Regulatory and Commercial Status,EKS,Evidence Object,HISTORICAL APPROVAL / DISCONTINUATION CLOSURE REQUIRED,Aidan Coleman,,CERT-PKS-000021,,,,,,2026-07-16,,Root: CERT-PKS-000021
-CERT-EKS-000071,Modified GRF (1-29) Sequence and Stability Evidence,EKS,Evidence Object,PRIMARY IDENTITY PUBLICATIONS IDENTIFIED — EXTRACTION REQUIRED,Aidan Coleman,,CERT-PKS-000022,,,,,,2026-07-16,,Root: CERT-PKS-000022
-CERT-EKS-000072,Modified GRF Human and Regulatory Evidence Gap,EKS,Evidence Object,OPEN — ADEQUATE HUMAN CLINICAL EVIDENCE NOT ESTABLISHED,Aidan Coleman,,CERT-PKS-000022,,,,,,2026-07-16,,Root: CERT-PKS-000022
-CERT-EKS-000073,GHRP-2 Human Growth-Hormone Pharmacology,EKS,Evidence Object,PRIMARY HUMAN PUBLICATIONS IDENTIFIED — EXTRACTION REQUIRED,Aidan Coleman,,CERT-PKS-000023,,,,,,2026-07-16,,Root: CERT-PKS-000023
-CERT-EKS-000074,GHRP-2 Japan Diagnostic and International Regulatory Status,EKS,Evidence Object,CURRENT JAPAN PRODUCT STATUS REQUIRES DIRECT VERIFICATION,Aidan Coleman,,CERT-PKS-000023,,,,,,2026-07-16,,Root: CERT-PKS-000023
-CERT-EKS-000075,GHRP-6 Human Endocrine and Appetite Pharmacology,EKS,Evidence Object,PRIMARY HUMAN PUBLICATIONS IDENTIFIED — EXTRACTION REQUIRED,Aidan Coleman,,CERT-PKS-000024,,,,,,2026-07-16,,Root: CERT-PKS-000024
-CERT-EKS-000076,GHRP-6 Therapeutic and Regulatory Evidence Gap,EKS,Evidence Object,OPEN — AUTHORISED THERAPEUTIC CONTEXT NOT ESTABLISHED,Aidan Coleman,,CERT-PKS-000024,,,,,,2026-07-16,,Root: CERT-PKS-000024
-CERT-EKS-000077,Hexarelin Human Endocrine and Cardiovascular Pharmacology,EKS,Evidence Object,PRIMARY PUBLICATIONS IDENTIFIED — EXTRACTION REQUIRED,Aidan Coleman,,CERT-PKS-000025,,,,,,2026-07-16,,Root: CERT-PKS-000025
-CERT-EKS-000078,Hexarelin Therapeutic and Regulatory Evidence Gap,EKS,Evidence Object,OPEN — AUTHORISED THERAPEUTIC CONTEXT NOT ESTABLISHED,Aidan Coleman,,CERT-PKS-000025,,,,,,2026-07-16,,Root: CERT-PKS-000025
+CERT-PKS-000001,Retatrutide,PKS,Peptide / Protein Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
+CERT-PKS-000002,BPC-157,PKS,Peptide / Protein Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
+CERT-PKS-000003,Tesamorelin,PKS,Peptide / Protein Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
+CERT-PKS-000004,CJC-1295,PKS,Peptide / Protein Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
+CERT-PKS-000005,Ipamorelin,PKS,Peptide / Protein Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
+CERT-PKS-000006,MOTS-c,PKS,Peptide / Protein Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
+CERT-PKS-000007,GHK-Cu,PKS,Peptide / Protein Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
+CERT-PKS-000008,Thymosin Beta-4 / TB-500 Identity Family,PKS,Peptide / Protein Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
+CERT-PKS-000009,Melanotan II,PKS,Peptide / Protein Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
+CERT-PKS-000010,Epitalon,PKS,Peptide / Protein Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
+CERT-PKS-000011,Semaglutide,PKS,Peptide / Protein Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
+CERT-PKS-000012,Tirzepatide,PKS,Peptide / Protein Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
+CERT-PKS-000013,Cagrilintide,PKS,Peptide / Protein Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
+CERT-PKS-000014,Mazdutide,PKS,Peptide / Protein Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
+CERT-PKS-000015,Survodutide,PKS,Peptide / Protein Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
+CERT-PKS-000016,Liraglutide,PKS,Peptide / Protein Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
+CERT-PKS-000017,AOD9604,PKS,Peptide / Protein Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
+CERT-PKS-000018,Adipotide,PKS,Peptide / Protein Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
+CERT-PKS-000019,HGH Fragment 176-191,PKS,Peptide / Protein Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
+CERT-PKS-000020,Somatropin,PKS,Peptide / Protein Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
+CERT-PKS-000021,Sermorelin,PKS,Peptide / Protein Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
+CERT-PKS-000022,Modified GRF (1-29),PKS,Peptide / Protein Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
+CERT-PKS-000023,GHRP-2 / Pralmorelin,PKS,Peptide / Protein Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
+CERT-PKS-000024,GHRP-6,PKS,Peptide / Protein Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
+CERT-PKS-000025,Hexarelin / Examorelin,PKS,Peptide / Protein Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
+CERT-PKS-000026,Long R3 IGF-1,PKS,Peptide / Protein Knowledge Asset,Catalogue Reviewed — Not Platinum Certified,Aidan Coleman,,,,,,,,2026-07-16,,Build 0022B
+CERT-PKS-000027,Mechano Growth Factor / IGF-1Ec E-Domain Peptide Family,PKS,Peptide / Protein Knowledge Asset,Catalogue Reviewed — Not Platinum Certified,Aidan Coleman,,,,,,,,2026-07-16,,Build 0022B
+CERT-PKS-000028,PEG-MGF Supplier Product Family,PKS,Peptide / Protein Knowledge Asset,Catalogue Reviewed — Not Platinum Certified,Aidan Coleman,,,,,,,,2026-07-16,,Build 0022B
+CERT-PKS-000029,ACE-031,PKS,Peptide / Protein Knowledge Asset,Catalogue Reviewed — Not Platinum Certified,Aidan Coleman,,,,,,,,2026-07-16,,Build 0022B
+CERT-BKS-000054,Insulin-Like Growth Factor 1 Receptor,BKS,Biology Knowledge Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0022B
+CERT-BKS-000055,Insulin-Like Growth Factor Binding Proteins,BKS,Biology Knowledge Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0022B
+CERT-BKS-000056,IGF-1 Analogue Bioavailability,BKS,Biology Knowledge Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0022B
+CERT-BKS-000057,IGF-1 Alternative Splicing and IGF-1Ec,BKS,Biology Knowledge Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0022B
+CERT-BKS-000058,E-Domain Peptide and Mechanotransduction Research,BKS,Biology Knowledge Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0022B
+CERT-BKS-000059,PEGylated Peptide Pharmacology,BKS,Biology Knowledge Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0022B
+CERT-BKS-000060,Myostatin and Activin Muscle-Growth Regulation,BKS,Biology Knowledge Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0022B
+CERT-BKS-000061,Activin Type IIB Receptor Signalling,BKS,Biology Knowledge Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0022B
+CERT-BKS-000062,Ligand-Trap Fusion Protein Biology,BKS,Biology Knowledge Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0022B
+CERT-MKS-000037,Hypoglycaemia and Insulin-Like Activity Monitoring,MKS,Monitoring Knowledge Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0022B
+CERT-MKS-000038,Growth-Signalling and Neoplasm Context,MKS,Monitoring Knowledge Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0022B
+CERT-MKS-000039,PEG Immunogenicity and Hypersensitivity Monitoring,MKS,Monitoring Knowledge Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0022B
+CERT-MKS-000040,"Telangiectasia, Epistaxis and Vascular Signal Monitoring",MKS,Monitoring Knowledge Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0022B
+CERT-GKS-000019,Muscle-Growth and Wasting-Disorder Research,GKS,Goal Knowledge Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0022B
+CERT-GKS-000020,IGF-1 Receptor Pharmacology Research,GKS,Goal Knowledge Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0022B
+CERT-GKS-000021,Muscle and Tissue-Regeneration Research,GKS,Goal Knowledge Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0022B
+CERT-SKS-000031,"Long R3 IGF-1 Hypoglycaemia, Growth-Signalling and Human-Evidence Insufficiency",SKS,Safety Knowledge Object,Active,Aidan Coleman,,CERT-PKS-000026,,,,,,2026-07-16,,Build 0022B
+CERT-SKS-000032,"MGF Identity, Growth-Signalling and Human-Safety Uncertainty",SKS,Safety Knowledge Object,Active,Aidan Coleman,,CERT-PKS-000027,,,,,,2026-07-16,,Build 0022B
+CERT-SKS-000033,"PEG-MGF Chemical Identity, Immunogenicity and Human-Safety Uncertainty",SKS,Safety Knowledge Object,Active,Aidan Coleman,,CERT-PKS-000028,,,,,,2026-07-16,,Build 0022B
+CERT-SKS-000034,"ACE-031 Vascular, Ligand-Trap and Development-Discontinuation Safety",SKS,Safety Knowledge Object,Active,Aidan Coleman,,CERT-PKS-000029,,,,,,2026-07-16,,Build 0022B
+CERT-EKS-000079,Long R3 IGF-1 Molecular Identity and Binding-Protein Pharmacology,EKS,Evidence Object,PRIMARY PUBLICATION SET IDENTIFIED — DIRECT EXTRACTION REQUIRED,Aidan Coleman,,CERT-PKS-000026,,,,,,2026-07-16,,Root: CERT-PKS-000026
+CERT-EKS-000080,Long R3 IGF-1 Human and Regulatory Evidence Gap,EKS,Evidence Object,OPEN — AUTHORISED HUMAN THERAPEUTIC EVIDENCE NOT ESTABLISHED,Aidan Coleman,,CERT-PKS-000026,,,,,,2026-07-16,,Root: CERT-PKS-000026
+CERT-EKS-000081,MGF / IGF-1Ec Expression and Mechanotransduction Evidence,EKS,Evidence Object,PRIMARY PUBLICATIONS IDENTIFIED — DIRECT EXTRACTION REQUIRED,Aidan Coleman,,CERT-PKS-000027,,,,,,2026-07-16,,Root: CERT-PKS-000027
+CERT-EKS-000082,MGF E-Domain Peptide Preclinical and Human Evidence Boundary,EKS,Evidence Object,PRECLINICAL SOURCES IDENTIFIED — ADEQUATE HUMAN INTERVENTION EVIDENCE NOT ESTABLISHED,Aidan Coleman,,CERT-PKS-000027,,,,,,2026-07-16,,Root: CERT-PKS-000027
+CERT-EKS-000083,PEG-MGF Chemical Identity and Analytical Evidence,EKS,Evidence Object,PRODUCT-SPECIFIC CHEMICAL IDENTITY OPEN,Aidan Coleman,,CERT-PKS-000028,,,,,,2026-07-16,,Root: CERT-PKS-000028
+CERT-EKS-000084,"PEG-MGF Human PK, Efficacy and Safety Gap",EKS,Evidence Object,OPEN — ADEQUATE HUMAN PRIMARY EVIDENCE NOT ESTABLISHED,Aidan Coleman,,CERT-PKS-000028,,,,,,2026-07-16,,Root: CERT-PKS-000028
+CERT-EKS-000085,ACE-031 Phase 1 Healthy-Volunteer Evidence,EKS,Evidence Object,PRIMARY PUBLICATION IDENTIFIED — DIRECT EXTRACTION REQUIRED,Aidan Coleman,,CERT-PKS-000029,,,,,,2026-07-16,,Root: CERT-PKS-000029
+CERT-EKS-000086,ACE-031 Duchenne Development and Discontinuation Evidence,EKS,Evidence Object,TRIAL PROGRAMME IDENTIFIED — COMPLETE PRIMARY CLOSURE REQUIRED,Aidan Coleman,,CERT-PKS-000029,,,,,,2026-07-16,,Root: CERT-PKS-000029

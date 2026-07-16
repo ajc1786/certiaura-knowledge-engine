@@ -1,0 +1,20 @@
+{
+  "asset_id": "CERT-EKS-000079",
+  "asset_name": "Long R3 IGF-1 Molecular Identity and Binding-Protein Pharmacology",
+  "root_asset": "CERT-PKS-000026",
+  "knowledge_system": "EKS",
+  "asset_type": "Evidence Object",
+  "version": "0.1.0",
+  "status": "PRIMARY PUBLICATION SET IDENTIFIED — DIRECT EXTRACTION REQUIRED",
+  "source_domain": "Long R3 IGF-I sequence, receptor activity, binding-protein affinity and animal pharmacology publications",
+  "evidence_type": "Identity / preclinical pharmacology",
+  "last_review": "2026-07-16",
+  "direct_complete_extraction": false,
+  "permitted_use": "Identity, model-specific evidence and source-status reporting.",
+  "prohibited_use": [
+    "Human performance-enhancement claims",
+    "Personal dosing, cycling or reconstitution guidance",
+    "Transfer between native IGF-1, Long R3 IGF-1, MGF and PEG-MGF",
+    "Claims that catalogue product identity or quality is established"
+  ]
+}

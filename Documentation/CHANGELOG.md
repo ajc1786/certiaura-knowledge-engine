@@ -1,32 +1,32 @@
 # CERTIAURA CHANGE LOG
 
-## Build 0022A — GH Secretagogues & GHRH-Axis Review
+## Build 0022B — IGF-1, MGF, PEG-MGF & ACE-031 Review
 **Date:** 2026-07-16
 
 Allocated:
 
-- CERT-PKS-000020–000025
+- CERT-PKS-000026–000029
 
 Added:
 
-- six flagship assets;
-- twelve evidence objects;
-- six safety objects;
-- biology, monitoring and goal objects;
-- six regulatory profiles;
+- four flagship assets;
+- eight evidence objects;
+- four safety objects;
+- nine biology objects;
+- four monitoring objects;
+- three goal objects;
+- regulatory profiles;
 - claim and commercial boundaries;
-- catalogue pricing and Cost Intelligence™ baseline;
+- Cost Intelligence™ baseline;
 - identity separation map;
 - authoritative source map.
 
-Preserved:
-
-- Tesamorelin, CJC-1295 with DAC and Ipamorelin as existing assets.
-
 Key outcome:
 
-Sermorelin, Modified GRF (1-29) and CJC-1295 with DAC are structurally separated.
+Long R3 IGF-1 does not inherit authorised mecasermin status.
 
-GHRP-2, GHRP-6, Hexarelin and Ipamorelin remain distinct identities.
+MGF expression biology does not validate a supplier E-domain peptide.
 
-No growth-hormone response was promoted as anti-ageing, fat-loss or performance efficacy.
+PEG-MGF remains chemically under-specified.
+
+ACE-031 is controlled as a discontinued investigational fusion-protein programme and myostatin-pathway product.
