@@ -3,8 +3,8 @@
   "asset_name": "Lemon Bottle Supplier Mixture Family",
   "knowledge_system": "MPS",
   "asset_type": "Marketplace Product-Family Asset",
-  "version": "0.1.0",
-  "status": "CATALOGUE REVIEWED / PRODUCT PASSPORT GAP ACTIVE / NOT QUALITY VERIFIED",
+  "version": "0.2.0",
+  "status": "P0 EVIDENCE CLOSURE WAVE 2 / CRITICAL PRODUCT IDENTITY BLOCK ACTIVE / NOT PLATINUM CERTIFIED",
   "owner": "Aidan Coleman",
   "last_review": "2026-07-16",
   "classification": "Unapproved injectable cosmetic mixture / lipolysis product family",
@@ -91,11 +91,34 @@
       "source": "CERT-MPS-000012",
       "relationship": "SUPPORTS_GOAL",
       "target": "CERT-GKS-000092"
+    },
+    {
+      "source": "CERT-MPS-000012",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000255"
+    },
+    {
+      "source": "CERT-MPS-000012",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000256"
     }
   ],
   "product_passport": "CERT-PPS-000012",
   "identity_verified": false,
   "sterility_verified": false,
   "authorised_product_equivalence": false,
-  "validated_universal_human_dosing_protocol": false
+  "validated_universal_human_dosing_protocol": false,
+  "closure_wave": "0031B",
+  "closure_priority": "P0",
+  "closure_class": "UNAPPROVED INJECTABLE MIXTURE / COMPOSITION AND AUTHENTICITY",
+  "closure_state": "BLOCKED — COMPLETE COMPOSITION, MASS BALANCE, AUTHENTICITY, STERILITY, MANUFACTURER AND LEGAL STATUS UNRESOLVED",
+  "authoritative_product_boundary": "FDA warning letters identify LemonBottle Ampoule Solution as an unapproved new drug. FDA also warns that unapproved fat-dissolving injections can cause infection, permanent scarring, skin deformity, cysts and painful nodules. The catalogue's detailed components total 61 mg/mL against a stated 103.5 mg/mL, leaving 42.5 mg/mL unexplained.",
+  "platinum_certified": false,
+  "critical_closure_controls": [
+    "Both catalogue prices remain active discrepancies",
+    "No invented ingredient may close the 42.5 mg/mL gap",
+    "No approved fat-dissolving drug or device equivalence",
+    "Infection, necrosis, scarring, deformity, nodules and allergy risks retained",
+    "No injection, fat-dissolving or reconstitution protocol"
+  ]
 }

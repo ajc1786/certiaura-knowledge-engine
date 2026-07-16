@@ -1,0 +1,20 @@
+{
+  "asset_id": "CERT-EKS-000252",
+  "asset_name": "HA5 Polymer, Crosslinking, Device and Sterility Gap",
+  "root_asset": "CERT-MPS-000010",
+  "knowledge_system": "EKS",
+  "asset_type": "Priority Evidence Closure Object",
+  "version": "0.2.0",
+  "status": "OPEN — HA5 PRODUCT IDENTITY NOT ESTABLISHED",
+  "closure_wave": "0031B",
+  "closure_priority": "P0",
+  "source_domain": "HA/sodium-hyaluronate form, source, molecular weight, crosslinker, rheology, sterility, endotoxin, device presentation and approved-use comparability",
+  "evidence_type": "Critical polymer / device identity gap",
+  "last_review": "2026-07-16",
+  "direct_complete_extraction": false,
+  "prohibited_use": [
+    "Personal dosing, injection, cosmetic procedure or reconstitution guidance",
+    "Authorised, trademark or comparator evidence transfer to a supplier product",
+    "Assumption of identity, composition, potency, compatibility or sterility"
+  ]
+}

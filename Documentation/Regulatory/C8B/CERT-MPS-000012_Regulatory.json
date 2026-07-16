@@ -1,29 +1,31 @@
 {
   "asset_uai": "CERT-MPS-000012",
   "asset_name": "Lemon Bottle Supplier Mixture Family",
+  "version": "0.2.0",
   "status_as_of": "2026-07-16",
-  "overall_status": "UNAPPROVED INJECTABLE LIPOLYSIS MIXTURE / COMPOSITION AND PRICE DISCREPANCIES ACTIVE",
+  "closure_wave": "0031B",
+  "overall_status": "BLOCKED — COMPLETE COMPOSITION, MASS BALANCE, AUTHENTICITY, STERILITY, MANUFACTURER AND LEGAL STATUS UNRESOLVED",
   "regulatory_records": [
     {
       "jurisdiction": "United States",
       "authority": "FDA",
-      "current_status": "LemonBottle injectable products have been identified in warning letters as unapproved new drugs.",
+      "current_status": "LemonBottle Ampoule Solution has been identified in 2025 warning letters as an unapproved new drug; no approved fat-dissolving equivalence exists.",
       "monitoring_state": "ACTIVE",
-      "next_review_trigger": "Identity, approval, warning, enforcement, recall, safety or classification change"
+      "next_review_trigger": "Identity, approval, trademark, warning, recall, enforcement, counterfeit, safety or anti-doping change"
     },
     {
       "jurisdiction": "United Kingdom",
       "authority": "MHRA / local enforcement context",
-      "current_status": "No authorised injectable fat-dissolving medicine claim is created.",
+      "current_status": "No authorised injectable fat-dissolving medicine claim.",
       "monitoring_state": "ACTIVE",
-      "next_review_trigger": "Identity, approval, warning, enforcement, recall, safety or classification change"
+      "next_review_trigger": "Identity, approval, trademark, warning, recall, enforcement, counterfeit, safety or anti-doping change"
     },
     {
       "jurisdiction": "European Union",
       "authority": "National medicines/device authorities",
-      "current_status": "No universal authorisation claim; injectable product classification requires direct review.",
+      "current_status": "No universal authorisation claim; classification requires exact product review.",
       "monitoring_state": "ACTIVE",
-      "next_review_trigger": "Identity, approval, warning, enforcement, recall, safety or classification change"
+      "next_review_trigger": "Identity, approval, trademark, warning, recall, enforcement, counterfeit, safety or anti-doping change"
     }
   ]
 }

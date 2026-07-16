@@ -1,29 +1,31 @@
 {
   "asset_uai": "CERT-MPS-000010",
   "asset_name": "Hyaluronic Acid Supplier Product Family",
+  "version": "0.2.0",
   "status_as_of": "2026-07-16",
-  "overall_status": "MOLECULAR WEIGHT, CROSSLINKING, ROUTE AND DEVICE STATUS UNRESOLVED",
+  "closure_wave": "0031B",
+  "overall_status": "BLOCKED — POLYMER FORM, MOLECULAR WEIGHT, CROSSLINKING, RHEOLOGY, DEVICE CONFIGURATION AND APPROVED USE UNKNOWN",
   "regulatory_records": [
     {
       "jurisdiction": "United States",
       "authority": "FDA medical-device framework",
-      "current_status": "Approved dermal fillers are exact prescription devices; HA5 powder has no device equivalence.",
+      "current_status": "Approved HA fillers are exact prescription devices for specified uses. FDA warns against public purchase, self-injection and unapproved filler products.",
       "monitoring_state": "ACTIVE",
-      "next_review_trigger": "Identity, approval, warning, enforcement, recall, safety or classification change"
+      "next_review_trigger": "Identity, approval, trademark, warning, recall, enforcement, counterfeit, safety or anti-doping change"
     },
     {
       "jurisdiction": "United Kingdom",
-      "authority": "MHRA / device framework",
-      "current_status": "No approved-device or professional-use equivalence claim.",
+      "authority": "MHRA / medical-device framework",
+      "current_status": "No approved-device, filler or professional-use equivalence claim for HA5.",
       "monitoring_state": "ACTIVE",
-      "next_review_trigger": "Identity, approval, warning, enforcement, recall, safety or classification change"
+      "next_review_trigger": "Identity, approval, trademark, warning, recall, enforcement, counterfeit, safety or anti-doping change"
     },
     {
       "jurisdiction": "European Union",
       "authority": "Medical-device authorities",
-      "current_status": "Device conformity is exact-product, indication and manufacturer specific.",
+      "current_status": "Device conformity is exact-product, manufacturer and intended-use specific.",
       "monitoring_state": "ACTIVE",
-      "next_review_trigger": "Identity, approval, warning, enforcement, recall, safety or classification change"
+      "next_review_trigger": "Identity, approval, trademark, warning, recall, enforcement, counterfeit, safety or anti-doping change"
     }
   ]
 }

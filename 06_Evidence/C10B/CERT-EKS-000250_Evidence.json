@@ -1,0 +1,20 @@
+{
+  "asset_id": "CERT-EKS-000250",
+  "asset_name": "SLU-PP-332 Comparator and Non-Transferable Exercise-Mimetic Evidence",
+  "root_asset": "CERT-MPS-000006",
+  "knowledge_system": "EKS",
+  "asset_type": "Priority Evidence Closure Object",
+  "version": "0.2.0",
+  "status": "SLU-PP-332 EVIDENCE RETAINED AS COMPARATOR ONLY",
+  "closure_wave": "0031B",
+  "closure_priority": "P0",
+  "source_domain": "Primary 2023 and 2024 cell/mouse ERR-agonist studies plus 2026 analytical doping-control research for SLU-PP-332",
+  "evidence_type": "Non-transferable comparator evidence",
+  "last_review": "2026-07-16",
+  "direct_complete_extraction": false,
+  "prohibited_use": [
+    "Personal dosing, injection, cosmetic procedure or reconstitution guidance",
+    "Authorised, trademark or comparator evidence transfer to a supplier product",
+    "Assumption of identity, composition, potency, compatibility or sterility"
+  ]
+}

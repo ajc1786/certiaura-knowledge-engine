@@ -10,11 +10,11 @@
 
 | Claim | Permission |
 |---|---|
-| Hyaluronic Acid Supplier Product Family is classified as under-specified polysaccharide raw-material or injectable-product family. | Allowed |
-| MOLECULAR WEIGHT, CROSSLINKING, ROUTE AND DEVICE STATUS UNRESOLVED | Allowed as a dated controlled headline |
-| The supplier product is equivalent to an authorised medicine or device. | Not established / prohibited |
-| A validated procedural or self-administration protocol exists. | False / prohibited |
-| The Product Passport is certified. | False / prohibited |
-| HA5 is an approved dermal filler. | False / prohibited |
+| This asset is in P0 closure. | Allowed |
+| FDA-approved hyaluronic-acid dermal fillers are exact prescription medical devices with defined manufacturers, crosslinked formulations, indications and injection sites. HA5 powder is not an approved dermal filler and cannot inherit any device approval. | Allowed as a controlled boundary |
+| The catalogue product is equivalent to an authorised or branded product. | False / prohibited |
+| Supplier identity, potency, composition and sterility are verified. | False / prohibited |
+| A treatment, cosmetic procedure, dosing, injection or reconstitution protocol is validated. | False / prohibited |
+| The asset is Platinum Certified. | False / prohibited |
 
 **Status as of:** 2026-07-16

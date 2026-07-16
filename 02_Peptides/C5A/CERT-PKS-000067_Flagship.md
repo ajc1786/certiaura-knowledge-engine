@@ -8,53 +8,48 @@
 
 # CERT-PKS-000067 — Testagen Supplier Product Family
 
-**Version:** 0.1.0  
-**Status:** CATALOGUE REVIEWED / EVIDENCE FOUNDATION CREATED / NOT PLATINUM CERTIFIED  
+**System:** PKS  
+**Object:** Peptide Supplier Product-Family Asset  
+**Version:** 0.2.0  
+**Priority:** P1  
+**Status:** CRITICAL PRODUCT IDENTITY BLOCK ACTIVE  
 **Last Review:** 2026-07-16
 
-## Classification
+## Closure state
 
-Chemically unresolved short regulatory peptide product family
+**PARTIAL CLOSURE — PRIMARY LITERATURE IDENTIFIES TESTAGEN AS KEDG; SUPPLIER TERMINI, SALT, ANALYTICAL IDENTITY AND HUMAN EVIDENCE REMAIN OPEN**
 
-## Mechanism
+## Authoritative or primary-source boundary
 
-Not assigned because the catalogue does not define the sequence, terminal chemistry or relationship to any published gonadal regulatory peptide.
+A 2011 primary in-vitro publication identifies Testagen as Lys-Glu-Asp-Gly (KEDG) and reports nuclear penetration and DNA-oligonucleotide interaction in HeLa-cell and cell-free assays. This does not establish endocrine, fertility, testicular, anti-ageing or human clinical benefit, and it does not prove that the TG20 supplier product is analytically equivalent.
 
-## Evidence maturity
+## New closure evidence
 
-Regional and commercial claims cannot be attributed to this catalogue product without exact chemical identity and direct primary-source linkage.
+- `CERT-EKS-000247`
+- `CERT-EKS-000248`
 
-## Evidence foundation
+## Product Passport
 
-- `CERT-EKS-000161`
-- `CERT-EKS-000162`
+`CERT-PPS-000017`
 
-## Regulatory headline
-
-**IDENTITY UNRESOLVED / NO ENDOCRINE, FERTILITY OR ANTI-AGEING CLAIM PERMITTED**
-
-## Catalogue pricing
+## Catalogue records
 
 | Code | Specification | USD per kit |
 |---|---|---:|
 | TG20 | 20 mg x 10 vials | $126 |
 
-## Product-quality boundary
+## Critical controls
 
-The catalogue does not establish exact sequence, stereochemistry, terminal chemistry, purity, sterility, potency, approval or equivalence to published materials.
+- KEDG identity is a literature identity, not supplier proof
+- No Testoluten or tissue-extract evidence transfer
+- No testosterone, fertility or reproductive-performance claim
+- The only directly identified indexed study is mechanistic and in vitro
+- No dosing, injection or reconstitution interpretation
 
-## Validated universal human dosing protocol
+## Certification state
 
-**No**
-
-## Certification blockers
-
-- Complete sequence
-- Terminal modifications and molecular mass
-- Parent tissue or protein relationship
-- Primary publication identity
-- Manufacturer and analytical reference standard
-
-## Platinum Certified
-
-**No**
+- Supplier identity verified: **No**
+- Authorised-product equivalence: **No**
+- Validated procedural or human dosing protocol: **No**
+- Direct-sale gate: **Blocked**
+- Platinum Certified: **No**

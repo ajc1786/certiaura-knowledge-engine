@@ -10,11 +10,11 @@
 
 | Claim | Permission |
 |---|---|
-| SLU-PP-322 Identity-Candidate Product Family is classified as chemically unresolved non-peptide research-product listing. | Allowed |
-| POSSIBLE TYPO / CHEMICAL IDENTITY UNRESOLVED / NO PHARMACOLOGY OR HUMAN-USE CLAIM | Allowed as a dated controlled headline |
-| The supplier product is equivalent to an authorised medicine. | Not established / prohibited |
-| A validated human dosing or administration protocol exists. | False / prohibited |
-| The Product Passport is certified. | False / prohibited |
-| SLU-PP-322 is the same molecule as SLU-PP-332. | Not established / prohibited |
+| This asset is in P0 closure. | Allowed |
+| Primary literature identifies SLU-PP-332, not SLU-PP-322, as a synthetic estrogen-related-receptor pan agonist studied in cells and mice. The supplier spelling is preserved exactly. No structure, formula, CAS, spectrum or manufacturer evidence currently supports correcting SLU-PP-322 to SLU-PP-332. | Allowed as a controlled boundary |
+| The catalogue product is equivalent to an authorised or branded product. | False / prohibited |
+| Supplier identity, potency, composition and sterility are verified. | False / prohibited |
+| A treatment, cosmetic procedure, dosing, injection or reconstitution protocol is validated. | False / prohibited |
+| The asset is Platinum Certified. | False / prohibited |
 
 **Status as of:** 2026-07-16

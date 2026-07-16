@@ -1,36 +1,38 @@
 {
   "asset_uai": "CERT-PKS-000067",
   "asset_name": "Testagen Supplier Product Family",
+  "version": "0.2.0",
   "status_as_of": "2026-07-16",
-  "overall_status": "IDENTITY UNRESOLVED / NO ENDOCRINE, FERTILITY OR ANTI-AGEING CLAIM PERMITTED",
+  "closure_wave": "0031B",
+  "overall_status": "PARTIAL CLOSURE — PRIMARY LITERATURE IDENTIFIES TESTAGEN AS KEDG; SUPPLIER TERMINI, SALT, ANALYTICAL IDENTITY AND HUMAN EVIDENCE REMAIN OPEN",
   "regulatory_records": [
     {
       "jurisdiction": "Global",
-      "authority": "Identity control",
-      "current_status": "Regulatory interpretation blocked until exact molecule is established.",
-      "monitoring_state": "BLOCKED",
-      "next_review_trigger": "Identity, approval, safety, trial, enforcement or anti-doping change"
+      "authority": "Primary literature identity",
+      "current_status": "Testagen is identified in primary in-vitro literature as KEDG, but supplier-product equivalence and human clinical benefit remain unestablished.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Identity, approval, trademark, warning, recall, enforcement, counterfeit, safety or anti-doping change"
     },
     {
       "jurisdiction": "United States",
       "authority": "FDA",
-      "current_status": "No approval claim.",
+      "current_status": "No approval or supplier-product-equivalence claim.",
       "monitoring_state": "ACTIVE",
-      "next_review_trigger": "Identity, approval, safety, trial, enforcement or anti-doping change"
+      "next_review_trigger": "Identity, approval, trademark, warning, recall, enforcement, counterfeit, safety or anti-doping change"
     },
     {
       "jurisdiction": "United Kingdom",
       "authority": "MHRA",
       "current_status": "No marketing-authorisation claim.",
       "monitoring_state": "ACTIVE",
-      "next_review_trigger": "Identity, approval, safety, trial, enforcement or anti-doping change"
+      "next_review_trigger": "Identity, approval, trademark, warning, recall, enforcement, counterfeit, safety or anti-doping change"
     },
     {
       "jurisdiction": "European Union",
       "authority": "EMA / European Commission",
       "current_status": "No marketing-authorisation claim.",
       "monitoring_state": "ACTIVE",
-      "next_review_trigger": "Identity, approval, safety, trial, enforcement or anti-doping change"
+      "next_review_trigger": "Identity, approval, trademark, warning, recall, enforcement, counterfeit, safety or anti-doping change"
     }
   ]
 }

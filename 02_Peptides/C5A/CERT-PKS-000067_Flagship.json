@@ -3,8 +3,8 @@
   "asset_name": "Testagen Supplier Product Family",
   "knowledge_system": "PKS",
   "asset_type": "Peptide / Supplier-Product Knowledge Asset",
-  "version": "0.1.0",
-  "status": "CATALOGUE REVIEWED / EVIDENCE FOUNDATION CREATED / NOT PLATINUM CERTIFIED",
+  "version": "0.2.0",
+  "status": "P1 EVIDENCE CLOSURE WAVE 2 / CRITICAL PRODUCT IDENTITY BLOCK ACTIVE / NOT PLATINUM CERTIFIED",
   "owner": "Aidan Coleman",
   "last_review": "2026-07-16",
   "aliases": [
@@ -51,6 +51,21 @@
       "source": "CERT-PKS-000067",
       "relationship": "HAS_SAFETY",
       "target": "CERT-SKS-000072"
+    },
+    {
+      "source": "CERT-PKS-000067",
+      "relationship": "HAS_PASSPORT",
+      "target": "CERT-PPS-000017"
+    },
+    {
+      "source": "CERT-PKS-000067",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000247"
+    },
+    {
+      "source": "CERT-PKS-000067",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000248"
     }
   ],
   "validated_universal_human_dosing_protocol": false,
@@ -62,5 +77,23 @@
     "Parent tissue or protein relationship",
     "Primary publication identity",
     "Manufacturer and analytical reference standard"
-  ]
+  ],
+  "closure_wave": "0031B",
+  "closure_priority": "P1",
+  "closure_class": "PARTIAL SEQUENCE CLOSURE / SUPPLIER EQUIVALENCE AND HUMAN EVIDENCE",
+  "closure_state": "PARTIAL CLOSURE — PRIMARY LITERATURE IDENTIFIES TESTAGEN AS KEDG; SUPPLIER TERMINI, SALT, ANALYTICAL IDENTITY AND HUMAN EVIDENCE REMAIN OPEN",
+  "authoritative_product_boundary": "A 2011 primary in-vitro publication identifies Testagen as Lys-Glu-Asp-Gly (KEDG) and reports nuclear penetration and DNA-oligonucleotide interaction in HeLa-cell and cell-free assays. This does not establish endocrine, fertility, testicular, anti-ageing or human clinical benefit, and it does not prove that the TG20 supplier product is analytically equivalent.",
+  "product_passport": "CERT-PPS-000017",
+  "identity_verified": false,
+  "authorised_product_equivalence": false,
+  "critical_closure_controls": [
+    "KEDG identity is a literature identity, not supplier proof",
+    "No Testoluten or tissue-extract evidence transfer",
+    "No testosterone, fertility or reproductive-performance claim",
+    "The only directly identified indexed study is mechanistic and in vitro",
+    "No dosing, injection or reconstitution interpretation"
+  ],
+  "canonical_literature_sequence": "Lys-Glu-Asp-Gly (KEDG)",
+  "canonical_literature_sequence_source": "PMID 22117547",
+  "supplier_sequence_verified": false
 }

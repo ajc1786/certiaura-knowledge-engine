@@ -8,19 +8,22 @@
 
 # CERT-PPS-000011 — Alprostadil Supplier Vial Family PRODUCT PASSPORT™
 
-**Parent product:** `CERT-MPS-000011`  
-**Status:** OPEN / NOT CERTIFIED  
+**Parent:** `CERT-MPS-000011`  
+**Priority:** P0  
+**Status:** OPEN / CRITICAL CLOSURE WAVE ACTIVE / NOT CERTIFIED  
 **Last Review:** 2026-07-16
 
 | Required field | Status | Closure requirement |
 |---|---|---|
-| alprostadil versus alprostadil alfadex/formulation | OPEN | Manufacturer and analytical closure required |
-| route and dosage form | OPEN | Manufacturer and analytical closure required |
-| excipients, diluent and concentration | OPEN | Manufacturer and analytical closure required |
-| potency, degradation and cold chain | OPEN | Manufacturer and analytical closure required |
-| sterility and endotoxin | OPEN | Manufacturer and analytical closure required |
-| authorised product, indication and jurisdiction | OPEN | Manufacturer and analytical closure required |
+| alprostadil versus alprostadil complex/formulation | OPEN | Direct manufacturer, analytical and regulatory evidence |
+| route and dosage form | OPEN | Direct manufacturer, analytical and regulatory evidence |
+| concentration and fill quantity | OPEN | Direct manufacturer, analytical and regulatory evidence |
+| excipients, diluent and container system | OPEN | Direct manufacturer, analytical and regulatory evidence |
+| manufacturer and authorised product relationship | OPEN | Direct manufacturer, analytical and regulatory evidence |
+| potency, degradation products and cold chain | OPEN | Direct manufacturer, analytical and regulatory evidence |
+| sterility, endotoxin and particulate testing | OPEN | Direct manufacturer, analytical and regulatory evidence |
+| approved indication, jurisdiction and professional-use controls | OPEN | Direct manufacturer, analytical and regulatory evidence |
 
 ## Activation gate
 
-No clinical-equivalence, procedural, reconstitution, dosing or direct-sale workflow may activate while material fields remain open.
+No clinical-equivalence, cosmetic, procedural, dosing, injection, reconstitution or direct-sale workflow may activate while critical fields remain open.

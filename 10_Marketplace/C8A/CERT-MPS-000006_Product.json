@@ -3,8 +3,8 @@
   "asset_name": "SLU-PP-322 Identity-Candidate Product Family",
   "knowledge_system": "MPS",
   "asset_type": "Marketplace Product-Family Asset",
-  "version": "0.1.0",
-  "status": "CATALOGUE REVIEWED / PRODUCT PASSPORT GAP ACTIVE / NOT QUALITY VERIFIED",
+  "version": "0.2.0",
+  "status": "P0 EVIDENCE CLOSURE WAVE 2 / CRITICAL PRODUCT IDENTITY BLOCK ACTIVE / NOT PLATINUM CERTIFIED",
   "owner": "Aidan Coleman",
   "last_review": "2026-07-16",
   "classification": "Chemically unresolved non-peptide research-product listing",
@@ -62,11 +62,34 @@
       "source": "CERT-MPS-000006",
       "relationship": "SUPPORTS_GOAL",
       "target": "CERT-GKS-000087"
+    },
+    {
+      "source": "CERT-MPS-000006",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000249"
+    },
+    {
+      "source": "CERT-MPS-000006",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000250"
     }
   ],
   "product_passport": "CERT-PPS-000006",
   "identity_verified": false,
   "sterility_verified": false,
   "authorised_product_equivalence": false,
-  "validated_universal_human_dosing_protocol": false
+  "validated_universal_human_dosing_protocol": false,
+  "closure_wave": "0031B",
+  "closure_priority": "P0",
+  "closure_class": "UNKNOWN COMPOUND / POSSIBLE TYPO / ANTI-DOPING",
+  "closure_state": "BLOCKED — NO AUTHORITATIVE SLU-PP-322 CHEMICAL IDENTITY; SLU-PP-332 COMPARATOR EVIDENCE IS NON-TRANSFERABLE",
+  "authoritative_product_boundary": "Primary literature identifies SLU-PP-332, not SLU-PP-322, as a synthetic estrogen-related-receptor pan agonist studied in cells and mice. The supplier spelling is preserved exactly. No structure, formula, CAS, spectrum or manufacturer evidence currently supports correcting SLU-PP-322 to SLU-PP-332.",
+  "platinum_certified": false,
+  "critical_closure_controls": [
+    "Do not silently correct 322 to 332",
+    "No transfer of cell or mouse SLU-PP-332 evidence",
+    "No exercise-mimetic, weight-loss or performance claim",
+    "2026 doping-control literature on SLU-PP-332 is comparator evidence only",
+    "No dosing, injection or reconstitution interpretation"
+  ]
 }

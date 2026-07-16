@@ -3,37 +3,56 @@
   "asset_name": "Lemon Bottle Supplier Mixture Family Product Passport",
   "knowledge_system": "PPS",
   "asset_type": "Product Passport Gap Object",
-  "version": "0.1.0",
-  "status": "OPEN / NOT CERTIFIED",
+  "version": "0.2.0",
+  "status": "P0 OPEN / CRITICAL CLOSURE WAVE ACTIVE / NOT CERTIFIED",
   "parent_product": "CERT-MPS-000012",
   "last_review": "2026-07-16",
   "required_fields": [
     {
-      "field": "complete ingredient list and quantitative composition",
-      "status": "OPEN"
+      "field": "complete qualitative and quantitative ingredient list",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical and regulatory evidence"
     },
     {
-      "field": "explanation of 42.5 mg/mL composition shortfall",
-      "status": "OPEN"
+      "field": "explanation of the 42.5 mg/mL mass-balance shortfall",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical and regulatory evidence"
     },
     {
-      "field": "reconciliation of USD 103 and USD 85 listings",
-      "status": "OPEN"
+      "field": "reconciliation of USD 103 and USD 85 catalogue listings",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical and regulatory evidence"
     },
     {
-      "field": "manufacturer, brand authenticity and batch",
-      "status": "OPEN"
+      "field": "manufacturer, brand owner, country of origin and batch",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical and regulatory evidence"
     },
     {
-      "field": "sterility, endotoxin and particulate testing",
-      "status": "OPEN"
+      "field": "product authenticity and authorised distributor",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical and regulatory evidence"
     },
     {
-      "field": "legal classification, approval and clinical evidence",
-      "status": "OPEN"
+      "field": "sterility, endotoxin, particulate and container closure",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical and regulatory evidence"
+    },
+    {
+      "field": "botanical extract standardisation and bromelain activity",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical and regulatory evidence"
+    },
+    {
+      "field": "legal classification, approval and product-specific clinical evidence",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical and regulatory evidence"
     }
   ],
   "identity_certified": false,
   "quality_certified": false,
-  "sterility_certified": false
+  "sterility_certified": false,
+  "closure_wave": "0031B",
+  "closure_priority": "P0",
+  "authorised_product_equivalence": false
 }

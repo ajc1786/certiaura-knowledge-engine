@@ -1,0 +1,14 @@
+Asset,Source,URL,Purpose
+Matrixyl,Croda Beauty original Matrixyl,https://www.crodabeauty.com/en-gb/products/product/5598-matrixyl,Original Matrixyl INCI with palmitoyl pentapeptide-4
+Matrixyl,Croda Beauty Matrixyl 3000,https://www.crodabeauty.com/en-gb/products/product/3007-matrixyl_1_3000,Distinct INCI with palmitoyl tripeptide-1 and palmitoyl tetrapeptide-7
+Matrixyl,Croda Beauty Matrixyl synthe'6,https://www.crodabeauty.com/en-gb/products/product/3046-matrixyl_1_synthe_1_6,Distinct INCI with palmitoyl tripeptide-38
+Testagen,Primary in-vitro publication,https://pubmed.ncbi.nlm.nih.gov/22117547/,"KEDG sequence, nuclear penetration and DNA interaction; no clinical outcome"
+SLU-PP-332 comparator,Primary ERR agonist publication,https://pubmed.ncbi.nlm.nih.gov/36988910/,Cell and mouse exercise-mimetic comparator evidence; not SLU-PP-322
+SLU-PP-332 comparator,Primary metabolic-syndrome publication,https://pubmed.ncbi.nlm.nih.gov/37739806/,Mouse metabolic evidence; not transferable to SLU-PP-322
+SLU-PP-332 comparator,2026 doping-control publication,https://analyticalsciencejournals.onlinelibrary.wiley.com/doi/full/10.1002/dta.70035,Analytical metabolite research for SLU-PP-332 only
+Hyaluronic acid,FDA approved dermal fillers,https://www.fda.gov/medical-devices/aesthetic-cosmetic-devices/fda-approved-dermal-fillers,"Exact approved devices, materials and indications"
+Hyaluronic acid,FDA dermal filler safety,https://www.fda.gov/medical-devices/aesthetic-cosmetic-devices/dermal-fillers-soft-tissue-fillers,"Vascular occlusion, necrosis, blindness, stroke and self-injection warnings"
+Alprostadil,DailyMed Caverject official label,https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a295fc1e-d82c-4f44-bc2d-a552bf594c98,"Exact product, route, supervised initiation, priapism and fibrosis"
+Lemon Bottle,FDA unapproved fat-dissolving injections,https://www.fda.gov/drugs/buying-using-medicine-safely/using-fat-dissolving-injections-are-not-fda-approved-can-be-harmful,"Infection, scarring, deformity, cyst and painful-nodule risks"
+Lemon Bottle,FDA Vivid Scientific warning letter,https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/vivid-scientific-llc-699226-03032025,LemonBottle Ampoule Solution identified as unapproved new drug
+Lemon Bottle,FDA Amazon warning letter,https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/amazoncom-inc-695821-03032025,"Purchased product, unapproved new-drug status and marketing claims"

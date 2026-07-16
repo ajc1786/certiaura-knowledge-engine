@@ -8,45 +8,48 @@
 
 # CERT-MPS-000011 — Alprostadil Supplier Vial Family
 
-**System:** Marketplace Product System (MPS)  
-**Status:** CATALOGUE REVIEWED / PRODUCT PASSPORT GAP ACTIVE / NOT QUALITY VERIFIED  
+**System:** MPS  
+**Object:** Marketplace Product-Family Asset  
+**Version:** 0.2.0  
+**Priority:** P0  
+**Status:** CRITICAL PRODUCT IDENTITY BLOCK ACTIVE  
 **Last Review:** 2026-07-16
 
-## Classification
+## Closure state
 
-Prostaglandin E1 medicine-active-substance supplier family
+**BLOCKED — ROUTE, DOSAGE FORM, EXCIPIENTS, CONCENTRATION, MANUFACTURER AND AUTHORISED-PRODUCT EQUIVALENCE UNKNOWN**
 
-## Product context
+## Authoritative or primary-source boundary
 
-Alprostadil medicines are route- and formulation-specific, including intracavernosal, urethral and neonatal cardiovascular contexts. The catalogue does not define formulation or authorised-product equivalence.
+Caverject is an exact alprostadil prescription product for intracavernosal use, with product-specific formulation, supervised initiation, priapism and fibrosis controls. PRO20 cannot inherit Caverject, urethral alprostadil or neonatal cardiovascular labels.
 
-## Evidence maturity
+## New closure evidence
 
-Authorised medicine evidence exists for exact products. Priapism, penile fibrosis, hypotension and route-specific safety require product-level control.
-
-## Evidence foundation
-
-- `CERT-EKS-000225`
-- `CERT-EKS-000226`
-
-## Regulatory headline
-
-**AUTHORISED PRODUCT CONTEXTS EXIST / SUPPLIER VIAL FORMULATION AND ROUTE UNRESOLVED**
-
-## Catalogue pricing
-
-| Code | Specification | USD per kit | Catalogue note |
-|---|---|---:|---|
-| PRO20 | Alprostadil 20 mcg x 10 vials | $132 |  |
+- `CERT-EKS-000253`
+- `CERT-EKS-000254`
 
 ## Product Passport
 
 `CERT-PPS-000011`
 
-## Marketplace boundary
+## Catalogue records
 
-The catalogue does not establish exact identity, formulation, potency system, device status, sterility, approval or authorised-product equivalence.
+| Code | Specification | USD per kit |
+|---|---|---:|
+| PRO20 | Alprostadil 20 mcg x 10 vials | $132 |
 
-## Validated administration protocol
+## Critical controls
 
-**No**
+- PRO20 is not Caverject
+- No intracavernosal, urethral or neonatal route assignment
+- Priapism, penile fibrosis, hypotension and bleeding risks retained
+- No erectile-performance or penile-enlargement claim
+- No dosing, injection or reconstitution protocol
+
+## Certification state
+
+- Supplier identity verified: **No**
+- Authorised-product equivalence: **No**
+- Validated procedural or human dosing protocol: **No**
+- Direct-sale gate: **Blocked**
+- Platinum Certified: **No**

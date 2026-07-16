@@ -10,11 +10,11 @@
 
 | Claim | Permission |
 |---|---|
-| Testagen Supplier Product Family is classified as chemically unresolved short regulatory peptide product family. | Allowed |
-| IDENTITY UNRESOLVED / NO ENDOCRINE, FERTILITY OR ANTI-AGEING CLAIM PERMITTED | Allowed as a dated controlled headline |
-| The supplier product matches published experimental material. | Not established / not allowed |
-| A universal human longevity or dosing protocol is validated. | Not established / not allowed |
-| The asset is Platinum Certified. | False / not allowed |
-| Testagen has a defined endocrine or fertility mechanism. | False / prohibited |
+| This asset is in P1 closure. | Allowed |
+| A 2011 primary in-vitro publication identifies Testagen as Lys-Glu-Asp-Gly (KEDG) and reports nuclear penetration and DNA-oligonucleotide interaction in HeLa-cell and cell-free assays. This does not establish endocrine, fertility, testicular, anti-ageing or human clinical benefit, and it does not prove that the TG20 supplier product is analytically equivalent. | Allowed as a controlled boundary |
+| The catalogue product is equivalent to an authorised or branded product. | False / prohibited |
+| Supplier identity, potency, composition and sterility are verified. | False / prohibited |
+| A treatment, cosmetic procedure, dosing, injection or reconstitution protocol is validated. | False / prohibited |
+| The asset is Platinum Certified. | False / prohibited |
 
 **Status as of:** 2026-07-16

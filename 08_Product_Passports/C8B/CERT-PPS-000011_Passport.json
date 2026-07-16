@@ -3,37 +3,56 @@
   "asset_name": "Alprostadil Supplier Vial Family Product Passport",
   "knowledge_system": "PPS",
   "asset_type": "Product Passport Gap Object",
-  "version": "0.1.0",
-  "status": "OPEN / NOT CERTIFIED",
+  "version": "0.2.0",
+  "status": "P0 OPEN / CRITICAL CLOSURE WAVE ACTIVE / NOT CERTIFIED",
   "parent_product": "CERT-MPS-000011",
   "last_review": "2026-07-16",
   "required_fields": [
     {
-      "field": "alprostadil versus alprostadil alfadex/formulation",
-      "status": "OPEN"
+      "field": "alprostadil versus alprostadil complex/formulation",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical and regulatory evidence"
     },
     {
       "field": "route and dosage form",
-      "status": "OPEN"
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical and regulatory evidence"
     },
     {
-      "field": "excipients, diluent and concentration",
-      "status": "OPEN"
+      "field": "concentration and fill quantity",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical and regulatory evidence"
     },
     {
-      "field": "potency, degradation and cold chain",
-      "status": "OPEN"
+      "field": "excipients, diluent and container system",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical and regulatory evidence"
     },
     {
-      "field": "sterility and endotoxin",
-      "status": "OPEN"
+      "field": "manufacturer and authorised product relationship",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical and regulatory evidence"
     },
     {
-      "field": "authorised product, indication and jurisdiction",
-      "status": "OPEN"
+      "field": "potency, degradation products and cold chain",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical and regulatory evidence"
+    },
+    {
+      "field": "sterility, endotoxin and particulate testing",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical and regulatory evidence"
+    },
+    {
+      "field": "approved indication, jurisdiction and professional-use controls",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical and regulatory evidence"
     }
   ],
   "identity_certified": false,
   "quality_certified": false,
-  "sterility_certified": false
+  "sterility_certified": false,
+  "closure_wave": "0031B",
+  "closure_priority": "P0",
+  "authorised_product_equivalence": false
 }

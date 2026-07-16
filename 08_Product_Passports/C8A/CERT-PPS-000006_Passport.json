@@ -3,37 +3,56 @@
   "asset_name": "SLU-PP-322 Identity-Candidate Product Family Product Passport",
   "knowledge_system": "PPS",
   "asset_type": "Product Passport Gap Object",
-  "version": "0.1.0",
-  "status": "OPEN / NOT CERTIFIED",
+  "version": "0.2.0",
+  "status": "P0 OPEN / CRITICAL CLOSURE WAVE ACTIVE / NOT CERTIFIED",
   "parent_product": "CERT-MPS-000006",
   "last_review": "2026-07-16",
   "required_fields": [
     {
-      "field": "exact chemical name",
-      "status": "OPEN"
+      "field": "exact chemical name and catalogue-manufacturer declaration",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical and regulatory evidence"
     },
     {
-      "field": "structure, formula, mass and CAS",
-      "status": "OPEN"
+      "field": "chemical structure, formula, mass and CAS",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical and regulatory evidence"
     },
     {
       "field": "relationship, if any, to SLU-PP-332",
-      "status": "OPEN"
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical and regulatory evidence"
     },
     {
-      "field": "reference standard and analytical spectrum",
-      "status": "OPEN"
+      "field": "reference standard, NMR, LC-MS and purity",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical and regulatory evidence"
     },
     {
-      "field": "manufacturer, batch and purity",
-      "status": "OPEN"
+      "field": "manufacturer, synthesis route and batch identity",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical and regulatory evidence"
     },
     {
-      "field": "human-use and regulatory status",
-      "status": "OPEN"
+      "field": "human PK, formal toxicology and clinical evidence",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical and regulatory evidence"
+    },
+    {
+      "field": "current legal and anti-doping status after identity closure",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical and regulatory evidence"
+    },
+    {
+      "field": "sterility and endotoxin if presented for parenteral use",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical and regulatory evidence"
     }
   ],
   "identity_certified": false,
   "quality_certified": false,
-  "sterility_certified": false
+  "sterility_certified": false,
+  "closure_wave": "0031B",
+  "closure_priority": "P0",
+  "authorised_product_equivalence": false
 }

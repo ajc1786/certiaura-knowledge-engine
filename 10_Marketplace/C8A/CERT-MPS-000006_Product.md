@@ -8,45 +8,48 @@
 
 # CERT-MPS-000006 — SLU-PP-322 Identity-Candidate Product Family
 
-**System:** Marketplace Product System (MPS)  
-**Status:** CATALOGUE REVIEWED / PRODUCT PASSPORT GAP ACTIVE / NOT QUALITY VERIFIED  
+**System:** MPS  
+**Object:** Marketplace Product-Family Asset  
+**Version:** 0.2.0  
+**Priority:** P0  
+**Status:** CRITICAL PRODUCT IDENTITY BLOCK ACTIVE  
 **Last Review:** 2026-07-16
 
-## Classification
+## Closure state
 
-Chemically unresolved non-peptide research-product listing
+**BLOCKED — NO AUTHORITATIVE SLU-PP-322 CHEMICAL IDENTITY; SLU-PP-332 COMPARATOR EVIDENCE IS NON-TRANSFERABLE**
 
-## Mechanism or product context
+## Authoritative or primary-source boundary
 
-No mechanism is assigned. The catalogue spelling is preserved exactly and is not silently corrected to the published ERR agonist SLU-PP-332.
+Primary literature identifies SLU-PP-332, not SLU-PP-322, as a synthetic estrogen-related-receptor pan agonist studied in cells and mice. The supplier spelling is preserved exactly. No structure, formula, CAS, spectrum or manufacturer evidence currently supports correcting SLU-PP-322 to SLU-PP-332.
 
-## Evidence maturity
+## New closure evidence
 
-No authoritative primary identity for SLU-PP-322 has been closed. Published SLU-PP-332 mouse and analytical evidence cannot be transferred.
-
-## Evidence foundation
-
-- `CERT-EKS-000215`
-- `CERT-EKS-000216`
-
-## Regulatory headline
-
-**POSSIBLE TYPO / CHEMICAL IDENTITY UNRESOLVED / NO PHARMACOLOGY OR HUMAN-USE CLAIM**
-
-## Catalogue pricing
-
-| Code | Specification | USD per kit |
-|---|---|---:|
-| SLU5 | 5 mg x 10 vials | $121 |
+- `CERT-EKS-000249`
+- `CERT-EKS-000250`
 
 ## Product Passport
 
 `CERT-PPS-000006`
 
-## Marketplace boundary
+## Catalogue records
 
-The catalogue does not establish exact chemical form, grade, route, formulation, purity, sterility, approval or authorised-product equivalence.
+| Code | Specification | USD per kit |
+|---|---|---:|
+| SLU5 | 5 mg x 10 vials | $121 |
 
-## Validated universal human dosing protocol
+## Critical controls
 
-**No**
+- Do not silently correct 322 to 332
+- No transfer of cell or mouse SLU-PP-332 evidence
+- No exercise-mimetic, weight-loss or performance claim
+- 2026 doping-control literature on SLU-PP-332 is comparator evidence only
+- No dosing, injection or reconstitution interpretation
+
+## Certification state
+
+- Supplier identity verified: **No**
+- Authorised-product equivalence: **No**
+- Validated procedural or human dosing protocol: **No**
+- Direct-sale gate: **Blocked**
+- Platinum Certified: **No**

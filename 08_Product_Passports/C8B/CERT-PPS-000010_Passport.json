@@ -3,37 +3,56 @@
   "asset_name": "Hyaluronic Acid Supplier Product Family Product Passport",
   "knowledge_system": "PPS",
   "asset_type": "Product Passport Gap Object",
-  "version": "0.1.0",
-  "status": "OPEN / NOT CERTIFIED",
+  "version": "0.2.0",
+  "status": "P0 OPEN / CRITICAL CLOSURE WAVE ACTIVE / NOT CERTIFIED",
   "parent_product": "CERT-MPS-000010",
   "last_review": "2026-07-16",
   "required_fields": [
     {
       "field": "hyaluronic acid versus sodium hyaluronate",
-      "status": "OPEN"
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical and regulatory evidence"
     },
     {
-      "field": "source and molecular-weight distribution",
-      "status": "OPEN"
+      "field": "biological or fermentation source",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical and regulatory evidence"
     },
     {
-      "field": "crosslinking chemistry and residual crosslinker",
-      "status": "OPEN"
+      "field": "molecular-weight distribution",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical and regulatory evidence"
     },
     {
-      "field": "concentration, rheology and particle properties",
-      "status": "OPEN"
+      "field": "crosslinking agent, degree and residual crosslinker",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical and regulatory evidence"
     },
     {
-      "field": "sterility, endotoxin and device configuration",
-      "status": "OPEN"
+      "field": "concentration, rheology, gel/particle properties and excipients",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical and regulatory evidence"
     },
     {
-      "field": "approved product, indication and injection site",
-      "status": "OPEN"
+      "field": "sterility, endotoxin and particulate testing",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical and regulatory evidence"
+    },
+    {
+      "field": "device presentation, manufacturer and authorised supply chain",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical and regulatory evidence"
+    },
+    {
+      "field": "approved indication, anatomical site and jurisdiction",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical and regulatory evidence"
     }
   ],
   "identity_certified": false,
   "quality_certified": false,
-  "sterility_certified": false
+  "sterility_certified": false,
+  "closure_wave": "0031B",
+  "closure_priority": "P0",
+  "authorised_product_equivalence": false
 }

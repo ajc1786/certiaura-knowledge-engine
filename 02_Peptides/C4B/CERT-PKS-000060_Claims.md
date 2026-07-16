@@ -10,11 +10,11 @@
 
 | Claim | Permission |
 |---|---|
-| Matrixyl Supplier Product Family is classified as chemically unresolved trademark/family-name cosmetic peptide product. | Allowed |
-| COSMETIC FAMILY NAME / CHEMICAL IDENTITY UNRESOLVED — NO MEDICINAL CLAIM | Allowed as a dated controlled headline |
-| The supplier product matches published experimental material. | Not established / not allowed |
-| A universal human topical or injectable protocol is validated. | Not established / not allowed |
-| The asset is Platinum Certified. | False / not allowed |
-| The catalogue name identifies a specific Matrixyl peptide. | False / prohibited |
+| This asset is in P1 closure. | Allowed |
+| Matrixyl is a trademark family, not one invariant molecule. Official Croda records distinguish original Matrixyl containing palmitoyl pentapeptide-4, Matrixyl 3000 containing palmitoyl tripeptide-1 plus palmitoyl tetrapeptide-7, and Matrixyl synthe'6 containing palmitoyl tripeptide-38. The MA10 powder cannot be assigned to any one variant without direct manufacturer and analytical evidence. | Allowed as a controlled boundary |
+| The catalogue product is equivalent to an authorised or branded product. | False / prohibited |
+| Supplier identity, potency, composition and sterility are verified. | False / prohibited |
+| A treatment, cosmetic procedure, dosing, injection or reconstitution protocol is validated. | False / prohibited |
+| The asset is Platinum Certified. | False / prohibited |
 
 **Status as of:** 2026-07-16

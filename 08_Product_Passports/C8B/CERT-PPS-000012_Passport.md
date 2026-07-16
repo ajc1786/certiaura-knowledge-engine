@@ -8,19 +8,22 @@
 
 # CERT-PPS-000012 — Lemon Bottle Supplier Mixture Family PRODUCT PASSPORT™
 
-**Parent product:** `CERT-MPS-000012`  
-**Status:** OPEN / NOT CERTIFIED  
+**Parent:** `CERT-MPS-000012`  
+**Priority:** P0  
+**Status:** OPEN / CRITICAL CLOSURE WAVE ACTIVE / NOT CERTIFIED  
 **Last Review:** 2026-07-16
 
 | Required field | Status | Closure requirement |
 |---|---|---|
-| complete ingredient list and quantitative composition | OPEN | Manufacturer and analytical closure required |
-| explanation of 42.5 mg/mL composition shortfall | OPEN | Manufacturer and analytical closure required |
-| reconciliation of USD 103 and USD 85 listings | OPEN | Manufacturer and analytical closure required |
-| manufacturer, brand authenticity and batch | OPEN | Manufacturer and analytical closure required |
-| sterility, endotoxin and particulate testing | OPEN | Manufacturer and analytical closure required |
-| legal classification, approval and clinical evidence | OPEN | Manufacturer and analytical closure required |
+| complete qualitative and quantitative ingredient list | OPEN | Direct manufacturer, analytical and regulatory evidence |
+| explanation of the 42.5 mg/mL mass-balance shortfall | OPEN | Direct manufacturer, analytical and regulatory evidence |
+| reconciliation of USD 103 and USD 85 catalogue listings | OPEN | Direct manufacturer, analytical and regulatory evidence |
+| manufacturer, brand owner, country of origin and batch | OPEN | Direct manufacturer, analytical and regulatory evidence |
+| product authenticity and authorised distributor | OPEN | Direct manufacturer, analytical and regulatory evidence |
+| sterility, endotoxin, particulate and container closure | OPEN | Direct manufacturer, analytical and regulatory evidence |
+| botanical extract standardisation and bromelain activity | OPEN | Direct manufacturer, analytical and regulatory evidence |
+| legal classification, approval and product-specific clinical evidence | OPEN | Direct manufacturer, analytical and regulatory evidence |
 
 ## Activation gate
 
-No clinical-equivalence, procedural, reconstitution, dosing or direct-sale workflow may activate while material fields remain open.
+No clinical-equivalence, cosmetic, procedural, dosing, injection, reconstitution or direct-sale workflow may activate while critical fields remain open.

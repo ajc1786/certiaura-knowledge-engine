@@ -1,0 +1,20 @@
+{
+  "asset_id": "CERT-EKS-000256",
+  "asset_name": "Lemon Bottle Composition, Mass-Balance, Price and Authenticity Gap",
+  "root_asset": "CERT-MPS-000012",
+  "knowledge_system": "EKS",
+  "asset_type": "Priority Evidence Closure Object",
+  "version": "0.2.0",
+  "status": "OPEN — COMPOSITION AND AUTHENTICITY NOT ESTABLISHED",
+  "closure_wave": "0031B",
+  "closure_priority": "P0",
+  "source_domain": "Complete ingredient identity, 42.5 mg/mL unexplained mass balance, USD 103 versus USD 85 listing reconciliation, manufacturer, batch and sterility",
+  "evidence_type": "Critical product-identity and catalogue-discrepancy gap",
+  "last_review": "2026-07-16",
+  "direct_complete_extraction": false,
+  "prohibited_use": [
+    "Personal dosing, injection, cosmetic procedure or reconstitution guidance",
+    "Authorised, trademark or comparator evidence transfer to a supplier product",
+    "Assumption of identity, composition, potency, compatibility or sterility"
+  ]
+}

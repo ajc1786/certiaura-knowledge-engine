@@ -1,0 +1,58 @@
+{
+  "asset_id": "CERT-PPS-000016",
+  "asset_name": "Matrixyl Supplier Product Family Product Passport",
+  "knowledge_system": "PPS",
+  "asset_type": "Critical Product Passport Gap Object",
+  "version": "0.2.0",
+  "status": "P1 OPEN / NOT CERTIFIED",
+  "parent_product": "CERT-PKS-000060",
+  "closure_wave": "0031B",
+  "closure_priority": "P1",
+  "last_review": "2026-07-16",
+  "required_fields": [
+    {
+      "field": "exact Matrixyl trademark variant and product grade",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical and regulatory evidence"
+    },
+    {
+      "field": "complete INCI name",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical and regulatory evidence"
+    },
+    {
+      "field": "peptide sequence, lipidation and terminal chemistry",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical and regulatory evidence"
+    },
+    {
+      "field": "single peptide versus multi-peptide complex",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical and regulatory evidence"
+    },
+    {
+      "field": "active-peptide concentration and carrier/excipient composition",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical and regulatory evidence"
+    },
+    {
+      "field": "Croda/Sederma manufacture or authorised trademark relationship",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical and regulatory evidence"
+    },
+    {
+      "field": "finished cosmetic ingredient versus isolated powder identity",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical and regulatory evidence"
+    },
+    {
+      "field": "purity, residual solvents, microbiological quality and stability",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical and regulatory evidence"
+    }
+  ],
+  "identity_certified": false,
+  "quality_certified": false,
+  "sterility_certified": false,
+  "authorised_product_equivalence": false
+}

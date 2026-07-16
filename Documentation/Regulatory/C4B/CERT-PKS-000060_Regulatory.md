@@ -8,16 +8,17 @@
 
 # CERT-PKS-000060 — Matrixyl Supplier Product Family REGULATORY STATUS
 
+**Version:** 0.2.0  
 **Status as of:** 2026-07-16  
-**Overall:** COSMETIC FAMILY NAME / CHEMICAL IDENTITY UNRESOLVED — NO MEDICINAL CLAIM
+**Closure state:** BLOCKED — MATRIXYL TRADEMARK VARIANT, INCI, PEPTIDE COMPONENTS AND FINISHED-FORM IDENTITY UNKNOWN
 
 | Jurisdiction | Authority | Controlled position | Monitoring |
 |---|---|---|---|
-| United States | FDA / cosmetic framework | Cosmetic ingredient context does not create drug approval or injectable status. | ACTIVE |
-| United Kingdom | UK cosmetic and MHRA framework | Cosmetic and medicinal claims must remain separate; no injectable authorisation claim. | ACTIVE |
-| European Union | EU cosmetics framework / EMA | Cosmetic ingredient status is formulation and claim dependent; no medicinal-authorisation claim. | ACTIVE |
-| International sport | WADA | Current athlete-specific status requires verification before any permitted claim. | EVENT-TRIGGERED |
+| Global cosmetic market | Croda / Sederma trademark records | Matrixyl is a family of distinct cosmetic ingredients with different INCI compositions. MA10 has no verified trademark-product equivalence. | ACTIVE |
+| United States | FDA cosmetic / drug framework | No drug approval or injectable-use claim for MA10. | ACTIVE |
+| United Kingdom | UK cosmetic and MHRA framework | No medicinal or injectable-product claim; exact cosmetic ingredient identity remains open. | ACTIVE |
+| European Union | Cosmetic ingredient and medicines frameworks | Cosmetic use is formulation and claim dependent; no medicinal authorisation claim. | ACTIVE |
 
 ## Rule
 
-Cosmetic availability does not establish medicinal approval, injectable status or clinical efficacy.
+Regulatory, cosmetic, device, medicine and safety evidence belongs to the exact molecule, product, formulation, manufacturer, supply chain, intended use and jurisdiction.

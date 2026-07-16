@@ -1,29 +1,31 @@
 {
   "asset_uai": "CERT-MPS-000011",
   "asset_name": "Alprostadil Supplier Vial Family",
+  "version": "0.2.0",
   "status_as_of": "2026-07-16",
-  "overall_status": "AUTHORISED PRODUCT CONTEXTS EXIST / SUPPLIER VIAL FORMULATION AND ROUTE UNRESOLVED",
+  "closure_wave": "0031B",
+  "overall_status": "BLOCKED — ROUTE, DOSAGE FORM, EXCIPIENTS, CONCENTRATION, MANUFACTURER AND AUTHORISED-PRODUCT EQUIVALENCE UNKNOWN",
   "regulatory_records": [
     {
       "jurisdiction": "United States",
       "authority": "FDA / DailyMed",
-      "current_status": "Authorised alprostadil products exist for exact routes and formulations; supplier-vial equivalence is not established.",
+      "current_status": "Caverject is an exact prescription alprostadil product for intracavernosal use. PRO20 has no authorised-product equivalence.",
       "monitoring_state": "ACTIVE",
-      "next_review_trigger": "Identity, approval, warning, enforcement, recall, safety or classification change"
+      "next_review_trigger": "Identity, approval, trademark, warning, recall, enforcement, counterfeit, safety or anti-doping change"
     },
     {
       "jurisdiction": "United Kingdom",
       "authority": "MHRA",
-      "current_status": "Nationally authorised products exist; exact current product information requires direct verification.",
+      "current_status": "Any authorised alprostadil product is route, formulation and manufacturer specific.",
       "monitoring_state": "ACTIVE",
-      "next_review_trigger": "Identity, approval, warning, enforcement, recall, safety or classification change"
+      "next_review_trigger": "Identity, approval, trademark, warning, recall, enforcement, counterfeit, safety or anti-doping change"
     },
     {
       "jurisdiction": "European Union",
-      "authority": "National authorities / EMA safety procedures",
-      "current_status": "Alprostadil product status is route, formulation and country specific.",
+      "authority": "National medicines authorities",
+      "current_status": "Product status is country, route, formulation and indication specific.",
       "monitoring_state": "ACTIVE",
-      "next_review_trigger": "Identity, approval, warning, enforcement, recall, safety or classification change"
+      "next_review_trigger": "Identity, approval, trademark, warning, recall, enforcement, counterfeit, safety or anti-doping change"
     }
   ]
 }

@@ -1,0 +1,58 @@
+{
+  "asset_id": "CERT-PPS-000017",
+  "asset_name": "Testagen Supplier Product Family Product Passport",
+  "knowledge_system": "PPS",
+  "asset_type": "Critical Product Passport Gap Object",
+  "version": "0.2.0",
+  "status": "P1 OPEN / NOT CERTIFIED",
+  "parent_product": "CERT-PKS-000067",
+  "closure_wave": "0031B",
+  "closure_priority": "P1",
+  "last_review": "2026-07-16",
+  "required_fields": [
+    {
+      "field": "KEDG sequence confirmation against a reference standard",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical and regulatory evidence"
+    },
+    {
+      "field": "N- and C-terminal chemistry",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical and regulatory evidence"
+    },
+    {
+      "field": "salt, counter-ion, molecular formula and mass",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical and regulatory evidence"
+    },
+    {
+      "field": "manufacturer, synthesis process and batch identity",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical and regulatory evidence"
+    },
+    {
+      "field": "HPLC, LC-MS and impurity profile",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical and regulatory evidence"
+    },
+    {
+      "field": "sterility and endotoxin if supplied as an injectable vial",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical and regulatory evidence"
+    },
+    {
+      "field": "separation from Testoluten or other tissue-extract products",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical and regulatory evidence"
+    },
+    {
+      "field": "human PK, safety, efficacy and regulatory status",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical and regulatory evidence"
+    }
+  ],
+  "identity_certified": false,
+  "quality_certified": false,
+  "sterility_certified": false,
+  "authorised_product_equivalence": false
+}

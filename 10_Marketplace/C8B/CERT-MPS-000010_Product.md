@@ -8,45 +8,48 @@
 
 # CERT-MPS-000010 — Hyaluronic Acid Supplier Product Family
 
-**System:** Marketplace Product System (MPS)  
-**Status:** CATALOGUE REVIEWED / PRODUCT PASSPORT GAP ACTIVE / NOT QUALITY VERIFIED  
+**System:** MPS  
+**Object:** Marketplace Product-Family Asset  
+**Version:** 0.2.0  
+**Priority:** P0  
+**Status:** CRITICAL PRODUCT IDENTITY BLOCK ACTIVE  
 **Last Review:** 2026-07-16
 
-## Classification
+## Closure state
 
-Under-specified polysaccharide raw-material or injectable-product family
+**BLOCKED — POLYMER FORM, MOLECULAR WEIGHT, CROSSLINKING, RHEOLOGY, DEVICE CONFIGURATION AND APPROVED USE UNKNOWN**
 
-## Product context
+## Authoritative or primary-source boundary
 
-Hyaluronic-acid evidence depends on molecular weight, source, salt, crosslinking, concentration, rheology, device configuration and injection site. A 5 mg vial is not automatically a dermal filler.
+FDA-approved hyaluronic-acid dermal fillers are exact prescription medical devices with defined manufacturers, crosslinked formulations, indications and injection sites. HA5 powder is not an approved dermal filler and cannot inherit any device approval.
 
-## Evidence maturity
+## New closure evidence
 
-Approved dermal fillers and other HA products exist as exact devices or medicines. Supplier powder cannot inherit those approvals.
-
-## Evidence foundation
-
-- `CERT-EKS-000223`
-- `CERT-EKS-000224`
-
-## Regulatory headline
-
-**MOLECULAR WEIGHT, CROSSLINKING, ROUTE AND DEVICE STATUS UNRESOLVED**
-
-## Catalogue pricing
-
-| Code | Specification | USD per kit | Catalogue note |
-|---|---|---:|---|
-| HA5 | Hyaluronic acid 5 mg x 10 vials | $198 |  |
+- `CERT-EKS-000251`
+- `CERT-EKS-000252`
 
 ## Product Passport
 
 `CERT-PPS-000010`
 
-## Marketplace boundary
+## Catalogue records
 
-The catalogue does not establish exact identity, formulation, potency system, device status, sterility, approval or authorised-product equivalence.
+| Code | Specification | USD per kit |
+|---|---|---:|
+| HA5 | Hyaluronic acid 5 mg x 10 vials | $198 |
 
-## Validated administration protocol
+## Critical controls
 
-**No**
+- HA5 is not classified as a dermal filler
+- No facial, body-contouring or joint-injection indication
+- Vascular occlusion, necrosis, blindness and stroke risk retained
+- No online or self-injection product equivalence
+- No filler, injection or reconstitution protocol
+
+## Certification state
+
+- Supplier identity verified: **No**
+- Authorised-product equivalence: **No**
+- Validated procedural or human dosing protocol: **No**
+- Direct-sale gate: **Blocked**
+- Platinum Certified: **No**

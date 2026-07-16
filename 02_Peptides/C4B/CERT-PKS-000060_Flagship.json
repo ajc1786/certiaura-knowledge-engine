@@ -3,8 +3,8 @@
   "asset_name": "Matrixyl Supplier Product Family",
   "knowledge_system": "PKS",
   "asset_type": "Peptide / Cosmetic-Product Knowledge Asset",
-  "version": "0.1.0",
-  "status": "CATALOGUE REVIEWED / EVIDENCE FOUNDATION CREATED / NOT PLATINUM CERTIFIED",
+  "version": "0.2.0",
+  "status": "P1 EVIDENCE CLOSURE WAVE 2 / CRITICAL PRODUCT IDENTITY BLOCK ACTIVE / NOT PLATINUM CERTIFIED",
   "owner": "Aidan Coleman",
   "last_review": "2026-07-16",
   "aliases": [
@@ -52,6 +52,21 @@
       "source": "CERT-PKS-000060",
       "relationship": "HAS_SAFETY",
       "target": "CERT-SKS-000065"
+    },
+    {
+      "source": "CERT-PKS-000060",
+      "relationship": "HAS_PASSPORT",
+      "target": "CERT-PPS-000016"
+    },
+    {
+      "source": "CERT-PKS-000060",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000245"
+    },
+    {
+      "source": "CERT-PKS-000060",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000246"
     }
   ],
   "validated_universal_human_dosing_protocol": false,
@@ -63,5 +78,20 @@
     "Palmitoylation and component ratio",
     "Trademark/product version",
     "Reference standard and manufacturer"
+  ],
+  "closure_wave": "0031B",
+  "closure_priority": "P1",
+  "closure_class": "TRADEMARK FAMILY, INCI AND FORMULATION IDENTITY",
+  "closure_state": "BLOCKED — MATRIXYL TRADEMARK VARIANT, INCI, PEPTIDE COMPONENTS AND FINISHED-FORM IDENTITY UNKNOWN",
+  "authoritative_product_boundary": "Matrixyl is a trademark family, not one invariant molecule. Official Croda records distinguish original Matrixyl containing palmitoyl pentapeptide-4, Matrixyl 3000 containing palmitoyl tripeptide-1 plus palmitoyl tetrapeptide-7, and Matrixyl synthe'6 containing palmitoyl tripeptide-38. The MA10 powder cannot be assigned to any one variant without direct manufacturer and analytical evidence.",
+  "product_passport": "CERT-PPS-000016",
+  "identity_verified": false,
+  "authorised_product_equivalence": false,
+  "critical_closure_controls": [
+    "No silent assignment to palmitoyl pentapeptide-4",
+    "No silent assignment to Matrixyl 3000",
+    "No silent assignment to Matrixyl synthe'6",
+    "No transfer of finished cosmetic-formulation evidence to MA10 powder",
+    "No injectable, dosing or reconstitution interpretation"
   ]
 }

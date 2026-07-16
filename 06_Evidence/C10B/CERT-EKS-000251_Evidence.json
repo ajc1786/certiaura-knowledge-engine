@@ -1,0 +1,20 @@
+{
+  "asset_id": "CERT-EKS-000251",
+  "asset_name": "Hyaluronic Acid Approved Dermal-Filler Device and Safety Evidence",
+  "root_asset": "CERT-MPS-000010",
+  "knowledge_system": "EKS",
+  "asset_type": "Priority Evidence Closure Object",
+  "version": "0.2.0",
+  "status": "AUTHORITATIVE DEVICE AND SAFETY SOURCES IDENTIFIED",
+  "closure_wave": "0031B",
+  "closure_priority": "P0",
+  "source_domain": "FDA approved-product records and safety guidance for exact HA dermal-filler devices, including crosslinking, prescription status and vascular-occlusion complications",
+  "evidence_type": "Authorised device / safety evidence",
+  "last_review": "2026-07-16",
+  "direct_complete_extraction": false,
+  "prohibited_use": [
+    "Personal dosing, injection, cosmetic procedure or reconstitution guidance",
+    "Authorised, trademark or comparator evidence transfer to a supplier product",
+    "Assumption of identity, composition, potency, compatibility or sterility"
+  ]
+}

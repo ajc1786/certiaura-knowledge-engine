@@ -1,22 +1,21 @@
 Universal Asset Identifier,Asset Name,Knowledge System,Asset Type,Status,Owner,Parent Assets,Last Review,Notes
-CERT-PKS-000036,Insulin Supplier Product Family,PKS,Existing Product-Family Asset — Updated,P0 Closure Wave 1 / Critical Identity Block,Aidan Coleman,,2026-07-16,Build 0031A update
-CERT-PKS-000037,Erythropoietin Supplier Product Family,PKS,Existing Product-Family Asset — Updated,P0 Closure Wave 1 / Critical Identity Block,Aidan Coleman,,2026-07-16,Build 0031A update
-CERT-PKS-000045,Unbranded Cerebrolysin-Type Product Family,PKS,Existing Product-Family Asset — Updated,P0 Closure Wave 1 / Critical Identity Block,Aidan Coleman,,2026-07-16,Build 0031A update
-CERT-MPS-000007,Bacteriostatic Water Supplier Family,MPS,Existing Product-Family Asset — Updated,P0 Closure Wave 1 / Critical Identity Block,Aidan Coleman,,2026-07-16,Build 0031A update
-CERT-MPS-000008,Acetic Acid Water Supplier Family,MPS,Existing Product-Family Asset — Updated,P0 Closure Wave 1 / Critical Identity Block,Aidan Coleman,,2026-07-16,Build 0031A update
-CERT-MPS-000009,Botulinum Toxin Supplier Product Family,MPS,Existing Product-Family Asset — Updated,P0 Closure Wave 1 / Critical Identity Block,Aidan Coleman,,2026-07-16,Build 0031A update
-CERT-PPS-000013,Insulin Supplier Product Family Product Passport,PPS,Critical Product Passport Gap Object,P0 Open / Not Certified,Aidan Coleman,CERT-PKS-000036,2026-07-16,Build 0031A
-CERT-PPS-000014,Erythropoietin Supplier Product Family Product Passport,PPS,Critical Product Passport Gap Object,P0 Open / Not Certified,Aidan Coleman,CERT-PKS-000037,2026-07-16,Build 0031A
-CERT-PPS-000015,Unbranded Cerebrolysin-Type Product Family Product Passport,PPS,Critical Product Passport Gap Object,P0 Open / Not Certified,Aidan Coleman,CERT-PKS-000045,2026-07-16,Build 0031A
-CERT-EKS-000233,Insulin Current Biologic Product Landscape and Identity Boundary,EKS,Priority Evidence Closure Object,AUTHORITATIVE PRODUCT LANDSCAPE IDENTIFIED — SUPPLIER IDENTITY REMAINS OPEN,Aidan Coleman,CERT-PKS-000036,2026-07-16,Build 0031A
-CERT-EKS-000234,"Insulin Supplier Vial Potency, Hypoglycaemia and Product-Mismatch Gap",EKS,Priority Evidence Closure Object,OPEN — NO SUPPLIER INSULIN PRODUCT ESTABLISHED,Aidan Coleman,CERT-PKS-000036,2026-07-16,Build 0031A
-CERT-EKS-000235,Erythropoietin Authorised ESA Product and Safety Evidence,EKS,Priority Evidence Closure Object,AUTHORITATIVE ESA SAFETY SOURCE IDENTIFIED,Aidan Coleman,CERT-PKS-000037,2026-07-16,Build 0031A
-CERT-EKS-000236,"Erythropoietin Supplier Glycoprotein, Potency and Anti-Doping Gap",EKS,Priority Evidence Closure Object,OPEN — NO SUPPLIER ESA PRODUCT ESTABLISHED,Aidan Coleman,CERT-PKS-000037,2026-07-16,Build 0031A
-CERT-EKS-000237,Branded Cerebrolysin Composition and Human Trial Comparator Evidence,EKS,Priority Evidence Closure Object,COMPARATOR EVIDENCE IDENTIFIED — NON-TRANSFERABLE,Aidan Coleman,CERT-PKS-000045,2026-07-16,Build 0031A
-CERT-EKS-000238,Unbranded Cerebrolysin-Type Comparability and Biological-Source Gap,EKS,Priority Evidence Closure Object,OPEN — UNBRANDED PRODUCT COMPARABILITY NOT ESTABLISHED,Aidan Coleman,CERT-PKS-000045,2026-07-16,Build 0031A
-CERT-EKS-000239,Bacteriostatic Water Finished-Product Identity Evidence,EKS,Priority Evidence Closure Object,AUTHORITATIVE FINISHED-PRODUCT IDENTITY IDENTIFIED,Aidan Coleman,CERT-MPS-000007,2026-07-16,Build 0031A
-CERT-EKS-000240,"Supplier Bacteriostatic Water Preservative, Sterility and Duplicate-Listing Gap",EKS,Priority Evidence Closure Object,OPEN — SUPPLIER DILUENT NOT VERIFIED,Aidan Coleman,CERT-MPS-000007,2026-07-16,Build 0031A
-CERT-EKS-000241,"Acetic Acid Water Concentration, pH and Sterile-Formulation Gap",EKS,Priority Evidence Closure Object,OPEN — FORMULATION IDENTITY NOT ESTABLISHED,Aidan Coleman,CERT-MPS-000008,2026-07-16,Build 0031A
-CERT-EKS-000242,Acetic Acid Water Drug-Specific Compatibility Evidence Block,EKS,Priority Evidence Closure Object,BLOCKED BY CERT-EKS-000241,Aidan Coleman,CERT-MPS-000008,2026-07-16,Build 0031A
-CERT-EKS-000243,Botulinum Toxin Current Authorised-Product and Iatrogenic-Botulism Evidence,EKS,Priority Evidence Closure Object,AUTHORITATIVE 2026 SAFETY AND ENFORCEMENT SOURCES IDENTIFIED,Aidan Coleman,CERT-MPS-000009,2026-07-16,Build 0031A
-CERT-EKS-000244,"XT100 Serotype, Proper Name, Potency Assay and Authenticity Gap",EKS,Priority Evidence Closure Object,OPEN — XT100 PRODUCT IDENTITY NOT ESTABLISHED,Aidan Coleman,CERT-MPS-000009,2026-07-16,Build 0031A
+CERT-PKS-000060,Matrixyl Supplier Product Family,PKS,Existing Product-Family Asset — Updated,P1 Closure Wave 2 / Critical Identity Block,Aidan Coleman,,2026-07-16,Build 0031B update
+CERT-PKS-000067,Testagen Supplier Product Family,PKS,Existing Product-Family Asset — Updated,P1 Closure Wave 2 / Critical Identity Block,Aidan Coleman,,2026-07-16,Build 0031B update
+CERT-MPS-000006,SLU-PP-322 Identity-Candidate Product Family,MPS,Existing Product-Family Asset — Updated,P0 Closure Wave 2 / Critical Identity Block,Aidan Coleman,,2026-07-16,Build 0031B update
+CERT-MPS-000010,Hyaluronic Acid Supplier Product Family,MPS,Existing Product-Family Asset — Updated,P0 Closure Wave 2 / Critical Identity Block,Aidan Coleman,,2026-07-16,Build 0031B update
+CERT-MPS-000011,Alprostadil Supplier Vial Family,MPS,Existing Product-Family Asset — Updated,P0 Closure Wave 2 / Critical Identity Block,Aidan Coleman,,2026-07-16,Build 0031B update
+CERT-MPS-000012,Lemon Bottle Supplier Mixture Family,MPS,Existing Product-Family Asset — Updated,P0 Closure Wave 2 / Critical Identity Block,Aidan Coleman,,2026-07-16,Build 0031B update
+CERT-PPS-000016,Matrixyl Supplier Product Family Product Passport,PPS,Critical Product Passport Gap Object,P1 Open / Not Certified,Aidan Coleman,CERT-PKS-000060,2026-07-16,Build 0031B
+CERT-PPS-000017,Testagen Supplier Product Family Product Passport,PPS,Critical Product Passport Gap Object,P1 Open / Not Certified,Aidan Coleman,CERT-PKS-000067,2026-07-16,Build 0031B
+CERT-EKS-000245,Matrixyl Official Trademark-Family and INCI Evidence,EKS,Priority Evidence Closure Object,AUTHORITATIVE TRADEMARK-FAMILY DIFFERENTIATION IDENTIFIED,Aidan Coleman,CERT-PKS-000060,2026-07-16,Build 0031B
+CERT-EKS-000246,"MA10 Exact Matrixyl Variant, Powder and Trademark-Equivalence Gap",EKS,Priority Evidence Closure Object,OPEN — MA10 MATRIXYL IDENTITY NOT ESTABLISHED,Aidan Coleman,CERT-PKS-000060,2026-07-16,Build 0031B
+CERT-EKS-000247,Testagen KEDG Primary Sequence and In-Vitro Evidence,EKS,Priority Evidence Closure Object,PRIMARY KEDG LITERATURE IDENTITY CLOSED,Aidan Coleman,CERT-PKS-000067,2026-07-16,Build 0031B
+CERT-EKS-000248,"TG20 Testagen Supplier Equivalence, Human and Regulatory Gap",EKS,Priority Evidence Closure Object,OPEN — SUPPLIER PRODUCT AND HUMAN BENEFIT NOT ESTABLISHED,Aidan Coleman,CERT-PKS-000067,2026-07-16,Build 0031B
+CERT-EKS-000249,SLU-PP-322 Exact-Name Chemical Identity Gap,EKS,Priority Evidence Closure Object,OPEN — NO AUTHORITATIVE SLU-PP-322 IDENTITY IDENTIFIED,Aidan Coleman,CERT-MPS-000006,2026-07-16,Build 0031B
+CERT-EKS-000250,SLU-PP-332 Comparator and Non-Transferable Exercise-Mimetic Evidence,EKS,Priority Evidence Closure Object,SLU-PP-332 EVIDENCE RETAINED AS COMPARATOR ONLY,Aidan Coleman,CERT-MPS-000006,2026-07-16,Build 0031B
+CERT-EKS-000251,Hyaluronic Acid Approved Dermal-Filler Device and Safety Evidence,EKS,Priority Evidence Closure Object,AUTHORITATIVE DEVICE AND SAFETY SOURCES IDENTIFIED,Aidan Coleman,CERT-MPS-000010,2026-07-16,Build 0031B
+CERT-EKS-000252,"HA5 Polymer, Crosslinking, Device and Sterility Gap",EKS,Priority Evidence Closure Object,OPEN — HA5 PRODUCT IDENTITY NOT ESTABLISHED,Aidan Coleman,CERT-MPS-000010,2026-07-16,Build 0031B
+CERT-EKS-000253,"Alprostadil Authorised Route, Formulation and Safety Evidence",EKS,Priority Evidence Closure Object,AUTHORITATIVE ALPROSTADIL LABEL IDENTIFIED,Aidan Coleman,CERT-MPS-000011,2026-07-16,Build 0031B
+CERT-EKS-000254,"PRO20 Route, Formulation, Potency and Product-Equivalence Gap",EKS,Priority Evidence Closure Object,OPEN — PRO20 PRODUCT IDENTITY NOT ESTABLISHED,Aidan Coleman,CERT-MPS-000011,2026-07-16,Build 0031B
+CERT-EKS-000255,Lemon Bottle FDA Unapproved-Drug and Injectable-Safety Evidence,EKS,Priority Evidence Closure Object,AUTHORITATIVE FDA ENFORCEMENT SOURCES IDENTIFIED,Aidan Coleman,CERT-MPS-000012,2026-07-16,Build 0031B
+CERT-EKS-000256,"Lemon Bottle Composition, Mass-Balance, Price and Authenticity Gap",EKS,Priority Evidence Closure Object,OPEN — COMPOSITION AND AUTHENTICITY NOT ESTABLISHED,Aidan Coleman,CERT-MPS-000012,2026-07-16,Build 0031B

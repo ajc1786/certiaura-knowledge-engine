@@ -3,8 +3,8 @@
   "asset_name": "Alprostadil Supplier Vial Family",
   "knowledge_system": "MPS",
   "asset_type": "Marketplace Product-Family Asset",
-  "version": "0.1.0",
-  "status": "CATALOGUE REVIEWED / PRODUCT PASSPORT GAP ACTIVE / NOT QUALITY VERIFIED",
+  "version": "0.2.0",
+  "status": "P0 EVIDENCE CLOSURE WAVE 2 / CRITICAL PRODUCT IDENTITY BLOCK ACTIVE / NOT PLATINUM CERTIFIED",
   "owner": "Aidan Coleman",
   "last_review": "2026-07-16",
   "classification": "Prostaglandin E1 medicine-active-substance supplier family",
@@ -85,11 +85,34 @@
       "source": "CERT-MPS-000011",
       "relationship": "SUPPORTS_GOAL",
       "target": "CERT-GKS-000091"
+    },
+    {
+      "source": "CERT-MPS-000011",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000253"
+    },
+    {
+      "source": "CERT-MPS-000011",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000254"
     }
   ],
   "product_passport": "CERT-PPS-000011",
   "identity_verified": false,
   "sterility_verified": false,
   "authorised_product_equivalence": false,
-  "validated_universal_human_dosing_protocol": false
+  "validated_universal_human_dosing_protocol": false,
+  "closure_wave": "0031B",
+  "closure_priority": "P0",
+  "closure_class": "PRESCRIPTION MEDICINE ROUTE, FORMULATION AND POTENCY",
+  "closure_state": "BLOCKED — ROUTE, DOSAGE FORM, EXCIPIENTS, CONCENTRATION, MANUFACTURER AND AUTHORISED-PRODUCT EQUIVALENCE UNKNOWN",
+  "authoritative_product_boundary": "Caverject is an exact alprostadil prescription product for intracavernosal use, with product-specific formulation, supervised initiation, priapism and fibrosis controls. PRO20 cannot inherit Caverject, urethral alprostadil or neonatal cardiovascular labels.",
+  "platinum_certified": false,
+  "critical_closure_controls": [
+    "PRO20 is not Caverject",
+    "No intracavernosal, urethral or neonatal route assignment",
+    "Priapism, penile fibrosis, hypotension and bleeding risks retained",
+    "No erectile-performance or penile-enlargement claim",
+    "No dosing, injection or reconstitution protocol"
+  ]
 }

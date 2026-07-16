@@ -10,18 +10,18 @@
 
 ## Permitted
 
-- catalogue identity and price reporting;
-- biochemical, evidence and safety education;
+- exact catalogue-record and discrepancy reporting;
+- authorised, branded or primary-source comparison with explicit non-equivalence;
 - Product Passport™ gap reporting;
-- dated regulatory and anti-doping status reporting.
+- safety, regulatory and analytical education.
 
 ## Prohibited
 
-- weight-loss, exercise-mimetic, longevity, sleep or wellness protocols;
-- infusion, injection, dosing or reconstitution guidance;
-- authorised-product equivalence;
-- guaranteed identity, grade, purity, sterility or potency.
+- treatment, cosmetic procedure, performance, dosing, injection or reconstitution guidance;
+- authorised-product, trademark-product or study-material equivalence;
+- guaranteed identity, composition, potency, purity, sterility or compatibility;
+- direct-sale activation while critical passport fields remain open.
 
-## Future direct sale
+## Activation gate
 
-Requires exact identity, legal classification, regulatory status, manufacturer, quality, stability and route closure.
+Commercial use beyond evidence and gap reporting remains blocked.

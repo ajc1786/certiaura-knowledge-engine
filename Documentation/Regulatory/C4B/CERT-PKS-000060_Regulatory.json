@@ -1,36 +1,38 @@
 {
   "asset_uai": "CERT-PKS-000060",
   "asset_name": "Matrixyl Supplier Product Family",
+  "version": "0.2.0",
   "status_as_of": "2026-07-16",
-  "overall_status": "COSMETIC FAMILY NAME / CHEMICAL IDENTITY UNRESOLVED — NO MEDICINAL CLAIM",
+  "closure_wave": "0031B",
+  "overall_status": "BLOCKED — MATRIXYL TRADEMARK VARIANT, INCI, PEPTIDE COMPONENTS AND FINISHED-FORM IDENTITY UNKNOWN",
   "regulatory_records": [
     {
-      "jurisdiction": "United States",
-      "authority": "FDA / cosmetic framework",
-      "current_status": "Cosmetic ingredient context does not create drug approval or injectable status.",
+      "jurisdiction": "Global cosmetic market",
+      "authority": "Croda / Sederma trademark records",
+      "current_status": "Matrixyl is a family of distinct cosmetic ingredients with different INCI compositions. MA10 has no verified trademark-product equivalence.",
       "monitoring_state": "ACTIVE",
-      "next_review_trigger": "Identity, cosmetic classification, approval, safety, trial, enforcement or anti-doping change"
+      "next_review_trigger": "Identity, approval, trademark, warning, recall, enforcement, counterfeit, safety or anti-doping change"
+    },
+    {
+      "jurisdiction": "United States",
+      "authority": "FDA cosmetic / drug framework",
+      "current_status": "No drug approval or injectable-use claim for MA10.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Identity, approval, trademark, warning, recall, enforcement, counterfeit, safety or anti-doping change"
     },
     {
       "jurisdiction": "United Kingdom",
       "authority": "UK cosmetic and MHRA framework",
-      "current_status": "Cosmetic and medicinal claims must remain separate; no injectable authorisation claim.",
+      "current_status": "No medicinal or injectable-product claim; exact cosmetic ingredient identity remains open.",
       "monitoring_state": "ACTIVE",
-      "next_review_trigger": "Identity, cosmetic classification, approval, safety, trial, enforcement or anti-doping change"
+      "next_review_trigger": "Identity, approval, trademark, warning, recall, enforcement, counterfeit, safety or anti-doping change"
     },
     {
       "jurisdiction": "European Union",
-      "authority": "EU cosmetics framework / EMA",
-      "current_status": "Cosmetic ingredient status is formulation and claim dependent; no medicinal-authorisation claim.",
+      "authority": "Cosmetic ingredient and medicines frameworks",
+      "current_status": "Cosmetic use is formulation and claim dependent; no medicinal authorisation claim.",
       "monitoring_state": "ACTIVE",
-      "next_review_trigger": "Identity, cosmetic classification, approval, safety, trial, enforcement or anti-doping change"
-    },
-    {
-      "jurisdiction": "International sport",
-      "authority": "WADA",
-      "current_status": "Current athlete-specific status requires verification before any permitted claim.",
-      "monitoring_state": "EVENT-TRIGGERED",
-      "next_review_trigger": "Identity, cosmetic classification, approval, safety, trial, enforcement or anti-doping change"
+      "next_review_trigger": "Identity, approval, trademark, warning, recall, enforcement, counterfeit, safety or anti-doping change"
     }
   ]
 }

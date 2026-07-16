@@ -10,18 +10,18 @@
 
 ## Permitted
 
-- identity, cosmetic, evidence and safety education;
-- catalogue-price and Product Passport™ gap reporting;
-- dated regulatory-status reporting.
+- exact catalogue-record and discrepancy reporting;
+- authorised, branded or primary-source comparison with explicit non-equivalence;
+- Product Passport™ gap reporting;
+- safety, regulatory and analytical education.
 
 ## Prohibited
 
-- personal topical formulation, injection, dosing or reconstitution guidance;
-- cancer-treatment or hair-regrowth protocols;
-- transfer between free peptide, copper complex or trademark-family evidence;
-- presenting preclinical findings as human efficacy;
-- guaranteed identity, purity, sterility or potency.
+- treatment, cosmetic procedure, performance, dosing, injection or reconstitution guidance;
+- authorised-product, trademark-product or study-material equivalence;
+- guaranteed identity, composition, potency, purity, sterility or compatibility;
+- direct-sale activation while critical passport fields remain open.
 
-## Future direct sale
+## Activation gate
 
-Requires exact identity, cosmetic or medicinal classification, legal, manufacturing, product-quality and jurisdiction closure.
+Commercial use beyond evidence and gap reporting remains blocked.

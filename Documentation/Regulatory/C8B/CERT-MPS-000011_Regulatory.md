@@ -8,15 +8,16 @@
 
 # CERT-MPS-000011 — Alprostadil Supplier Vial Family REGULATORY STATUS
 
+**Version:** 0.2.0  
 **Status as of:** 2026-07-16  
-**Overall:** AUTHORISED PRODUCT CONTEXTS EXIST / SUPPLIER VIAL FORMULATION AND ROUTE UNRESOLVED
+**Closure state:** BLOCKED — ROUTE, DOSAGE FORM, EXCIPIENTS, CONCENTRATION, MANUFACTURER AND AUTHORISED-PRODUCT EQUIVALENCE UNKNOWN
 
 | Jurisdiction | Authority | Controlled position | Monitoring |
 |---|---|---|---|
-| United States | FDA / DailyMed | Authorised alprostadil products exist for exact routes and formulations; supplier-vial equivalence is not established. | ACTIVE |
-| United Kingdom | MHRA | Nationally authorised products exist; exact current product information requires direct verification. | ACTIVE |
-| European Union | National authorities / EMA safety procedures | Alprostadil product status is route, formulation and country specific. | ACTIVE |
+| United States | FDA / DailyMed | Caverject is an exact prescription alprostadil product for intracavernosal use. PRO20 has no authorised-product equivalence. | ACTIVE |
+| United Kingdom | MHRA | Any authorised alprostadil product is route, formulation and manufacturer specific. | ACTIVE |
+| European Union | National medicines authorities | Product status is country, route, formulation and indication specific. | ACTIVE |
 
 ## Rule
 
-Authorisation belongs to the exact product, manufacturer, formulation, potency system, route, device and indication.
+Regulatory, cosmetic, device, medicine and safety evidence belongs to the exact molecule, product, formulation, manufacturer, supply chain, intended use and jurisdiction.

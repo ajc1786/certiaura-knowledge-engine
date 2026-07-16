@@ -8,53 +8,48 @@
 
 # CERT-PKS-000060 — Matrixyl Supplier Product Family
 
-**Version:** 0.1.0  
-**Status:** CATALOGUE REVIEWED / EVIDENCE FOUNDATION CREATED / NOT PLATINUM CERTIFIED  
+**System:** PKS  
+**Object:** Peptide Supplier Product-Family Asset  
+**Version:** 0.2.0  
+**Priority:** P1  
+**Status:** CRITICAL PRODUCT IDENTITY BLOCK ACTIVE  
 **Last Review:** 2026-07-16
 
-## Classification
+## Closure state
 
-Chemically unresolved trademark/family-name cosmetic peptide product
+**BLOCKED — MATRIXYL TRADEMARK VARIANT, INCI, PEPTIDE COMPONENTS AND FINISHED-FORM IDENTITY UNKNOWN**
 
-## Mechanism
+## Authoritative or primary-source boundary
 
-Not assigned until the catalogue identifies whether the product is palmitoyl pentapeptide-4, Matrixyl 3000, Matrixyl Synthe'6 or another formulation.
+Matrixyl is a trademark family, not one invariant molecule. Official Croda records distinguish original Matrixyl containing palmitoyl pentapeptide-4, Matrixyl 3000 containing palmitoyl tripeptide-1 plus palmitoyl tetrapeptide-7, and Matrixyl synthe'6 containing palmitoyl tripeptide-38. The MA10 powder cannot be assigned to any one variant without direct manufacturer and analytical evidence.
 
-## Evidence maturity
+## New closure evidence
 
-Evidence is product- and INCI-specific; no single Matrixyl evidence base can be assigned to an unresolved catalogue powder.
+- `CERT-EKS-000245`
+- `CERT-EKS-000246`
 
-## Evidence foundation
+## Product Passport
 
-- `CERT-EKS-000147`
-- `CERT-EKS-000148`
+`CERT-PPS-000016`
 
-## Regulatory headline
-
-**COSMETIC FAMILY NAME / CHEMICAL IDENTITY UNRESOLVED — NO MEDICINAL CLAIM**
-
-## Catalogue pricing
+## Catalogue records
 
 | Code | Specification | USD per kit |
 |---|---|---:|
 | MA10 | 10 mg x 10 vials | $35 |
 
-## Product-quality boundary
+## Critical controls
 
-The catalogue does not prove molecular identity, cosmetic formulation, purity, sterility, potency, approval or equivalence to published study materials.
+- No silent assignment to palmitoyl pentapeptide-4
+- No silent assignment to Matrixyl 3000
+- No silent assignment to Matrixyl synthe'6
+- No transfer of finished cosmetic-formulation evidence to MA10 powder
+- No injectable, dosing or reconstitution interpretation
 
-## Validated universal human dosing protocol
+## Certification state
 
-**No**
-
-## Certification blockers
-
-- Exact INCI name
-- Complete peptide sequence
-- Palmitoylation and component ratio
-- Trademark/product version
-- Reference standard and manufacturer
-
-## Platinum Certified
-
-**No**
+- Supplier identity verified: **No**
+- Authorised-product equivalence: **No**
+- Validated procedural or human dosing protocol: **No**
+- Direct-sale gate: **Blocked**
+- Platinum Certified: **No**

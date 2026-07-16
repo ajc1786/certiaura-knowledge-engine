@@ -8,15 +8,16 @@
 
 # CERT-MPS-000010 — Hyaluronic Acid Supplier Product Family REGULATORY STATUS
 
+**Version:** 0.2.0  
 **Status as of:** 2026-07-16  
-**Overall:** MOLECULAR WEIGHT, CROSSLINKING, ROUTE AND DEVICE STATUS UNRESOLVED
+**Closure state:** BLOCKED — POLYMER FORM, MOLECULAR WEIGHT, CROSSLINKING, RHEOLOGY, DEVICE CONFIGURATION AND APPROVED USE UNKNOWN
 
 | Jurisdiction | Authority | Controlled position | Monitoring |
 |---|---|---|---|
-| United States | FDA medical-device framework | Approved dermal fillers are exact prescription devices; HA5 powder has no device equivalence. | ACTIVE |
-| United Kingdom | MHRA / device framework | No approved-device or professional-use equivalence claim. | ACTIVE |
-| European Union | Medical-device authorities | Device conformity is exact-product, indication and manufacturer specific. | ACTIVE |
+| United States | FDA medical-device framework | Approved HA fillers are exact prescription devices for specified uses. FDA warns against public purchase, self-injection and unapproved filler products. | ACTIVE |
+| United Kingdom | MHRA / medical-device framework | No approved-device, filler or professional-use equivalence claim for HA5. | ACTIVE |
+| European Union | Medical-device authorities | Device conformity is exact-product, manufacturer and intended-use specific. | ACTIVE |
 
 ## Rule
 
-Authorisation belongs to the exact product, manufacturer, formulation, potency system, route, device and indication.
+Regulatory, cosmetic, device, medicine and safety evidence belongs to the exact molecule, product, formulation, manufacturer, supply chain, intended use and jurisdiction.

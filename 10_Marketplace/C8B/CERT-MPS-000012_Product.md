@@ -8,46 +8,49 @@
 
 # CERT-MPS-000012 — Lemon Bottle Supplier Mixture Family
 
-**System:** Marketplace Product System (MPS)  
-**Status:** CATALOGUE REVIEWED / PRODUCT PASSPORT GAP ACTIVE / NOT QUALITY VERIFIED  
+**System:** MPS  
+**Object:** Marketplace Product-Family Asset  
+**Version:** 0.2.0  
+**Priority:** P0  
+**Status:** CRITICAL PRODUCT IDENTITY BLOCK ACTIVE  
 **Last Review:** 2026-07-16
 
-## Classification
+## Closure state
 
-Unapproved injectable cosmetic mixture / lipolysis product family
+**BLOCKED — COMPLETE COMPOSITION, MASS BALANCE, AUTHENTICITY, STERILITY, MANUFACTURER AND LEGAL STATUS UNRESOLVED**
 
-## Product context
+## Authoritative or primary-source boundary
 
-The product is described as a cosmetic fat-dissolving mixture, not a peptide. The catalogue contains conflicting prices and an internally incomplete composition statement.
+FDA warning letters identify LemonBottle Ampoule Solution as an unapproved new drug. FDA also warns that unapproved fat-dissolving injections can cause infection, permanent scarring, skin deformity, cysts and painful nodules. The catalogue's detailed components total 61 mg/mL against a stated 103.5 mg/mL, leaving 42.5 mg/mL unexplained.
 
-## Evidence maturity
+## New closure evidence
 
-No authorised fat-dissolving indication or supplier-product clinical equivalence is established. Regulators have warned that unapproved injectable lipolysis products can cause infection, scarring, skin deformity, nodules and other serious harm.
-
-## Evidence foundation
-
-- `CERT-EKS-000227`
-- `CERT-EKS-000228`
-
-## Regulatory headline
-
-**UNAPPROVED INJECTABLE LIPOLYSIS MIXTURE / COMPOSITION AND PRICE DISCREPANCIES ACTIVE**
-
-## Catalogue pricing
-
-| Code | Specification | USD per kit | Catalogue note |
-|---|---|---:|---|
-| NO CODE PRINTED | Lemon Bottle 10 mL x 10 vials | $103 | SUMMARY LISTING |
-| LB10 | 10 mL vial; supplier states 103.5 mg/mL; pineapple extract 50 mg/mL + bromelain 10 mg/mL + riboflavin 1 mg/mL | $85 | DETAILED LISTING; DECLARED COMPONENTS TOTAL 61 MG/ML |
+- `CERT-EKS-000255`
+- `CERT-EKS-000256`
 
 ## Product Passport
 
 `CERT-PPS-000012`
 
-## Marketplace boundary
+## Catalogue records
 
-The catalogue does not establish exact identity, formulation, potency system, device status, sterility, approval or authorised-product equivalence.
+| Code | Specification | USD per kit |
+|---|---|---:|
+| NO CODE PRINTED | Lemon Bottle 10 mL x 10 vials | $103 |
+| LB10 | 10 mL vial; supplier states 103.5 mg/mL; pineapple extract 50 mg/mL + bromelain 10 mg/mL + riboflavin 1 mg/mL | $85 |
 
-## Validated administration protocol
+## Critical controls
 
-**No**
+- Both catalogue prices remain active discrepancies
+- No invented ingredient may close the 42.5 mg/mL gap
+- No approved fat-dissolving drug or device equivalence
+- Infection, necrosis, scarring, deformity, nodules and allergy risks retained
+- No injection, fat-dissolving or reconstitution protocol
+
+## Certification state
+
+- Supplier identity verified: **No**
+- Authorised-product equivalence: **No**
+- Validated procedural or human dosing protocol: **No**
+- Direct-sale gate: **Blocked**
+- Platinum Certified: **No**

@@ -1,0 +1,20 @@
+{
+  "asset_id": "CERT-EKS-000247",
+  "asset_name": "Testagen KEDG Primary Sequence and In-Vitro Evidence",
+  "root_asset": "CERT-PKS-000067",
+  "knowledge_system": "EKS",
+  "asset_type": "Priority Evidence Closure Object",
+  "version": "0.2.0",
+  "status": "PRIMARY KEDG LITERATURE IDENTITY CLOSED",
+  "closure_wave": "0031B",
+  "closure_priority": "P1",
+  "source_domain": "PMID 22117547 identifying Testagen as Lys-Glu-Asp-Gly and reporting HeLa-cell nuclear penetration plus sequence-dependent DNA-oligonucleotide interaction",
+  "evidence_type": "Primary identity / mechanistic evidence",
+  "last_review": "2026-07-16",
+  "direct_complete_extraction": false,
+  "prohibited_use": [
+    "Personal dosing, injection, cosmetic procedure or reconstitution guidance",
+    "Authorised, trademark or comparator evidence transfer to a supplier product",
+    "Assumption of identity, composition, potency, compatibility or sterility"
+  ]
+}

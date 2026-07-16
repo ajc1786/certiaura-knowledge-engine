@@ -10,11 +10,11 @@
 
 | Claim | Permission |
 |---|---|
-| Alprostadil Supplier Vial Family is classified as prostaglandin e1 medicine-active-substance supplier family. | Allowed |
-| AUTHORISED PRODUCT CONTEXTS EXIST / SUPPLIER VIAL FORMULATION AND ROUTE UNRESOLVED | Allowed as a dated controlled headline |
-| The supplier product is equivalent to an authorised medicine or device. | Not established / prohibited |
-| A validated procedural or self-administration protocol exists. | False / prohibited |
-| The Product Passport is certified. | False / prohibited |
-| PRO20 is equivalent to Caverject or another authorised alprostadil product. | False / prohibited |
+| This asset is in P0 closure. | Allowed |
+| Caverject is an exact alprostadil prescription product for intracavernosal use, with product-specific formulation, supervised initiation, priapism and fibrosis controls. PRO20 cannot inherit Caverject, urethral alprostadil or neonatal cardiovascular labels. | Allowed as a controlled boundary |
+| The catalogue product is equivalent to an authorised or branded product. | False / prohibited |
+| Supplier identity, potency, composition and sterility are verified. | False / prohibited |
+| A treatment, cosmetic procedure, dosing, injection or reconstitution protocol is validated. | False / prohibited |
+| The asset is Platinum Certified. | False / prohibited |
 
 **Status as of:** 2026-07-16

@@ -1,0 +1,20 @@
+{
+  "asset_id": "CERT-EKS-000246",
+  "asset_name": "MA10 Exact Matrixyl Variant, Powder and Trademark-Equivalence Gap",
+  "root_asset": "CERT-PKS-000060",
+  "knowledge_system": "EKS",
+  "asset_type": "Priority Evidence Closure Object",
+  "version": "0.2.0",
+  "status": "OPEN — MA10 MATRIXYL IDENTITY NOT ESTABLISHED",
+  "closure_wave": "0031B",
+  "closure_priority": "P1",
+  "source_domain": "Exact trade variant, INCI, peptide sequence, lipidation, component ratio, carrier composition, manufacturer and finished-product comparability",
+  "evidence_type": "Critical product-identity gap",
+  "last_review": "2026-07-16",
+  "direct_complete_extraction": false,
+  "prohibited_use": [
+    "Personal dosing, injection, cosmetic procedure or reconstitution guidance",
+    "Authorised, trademark or comparator evidence transfer to a supplier product",
+    "Assumption of identity, composition, potency, compatibility or sterility"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "asset_id": "CERT-EKS-000248",
+  "asset_name": "TG20 Testagen Supplier Equivalence, Human and Regulatory Gap",
+  "root_asset": "CERT-PKS-000067",
+  "knowledge_system": "EKS",
+  "asset_type": "Priority Evidence Closure Object",
+  "version": "0.2.0",
+  "status": "OPEN — SUPPLIER PRODUCT AND HUMAN BENEFIT NOT ESTABLISHED",
+  "closure_wave": "0031B",
+  "closure_priority": "P1",
+  "source_domain": "Terminal chemistry, salt, analytical identity, Testoluten separation, human PK, controlled clinical evidence, safety and approval searches",
+  "evidence_type": "Supplier-equivalence / human evidence gap",
+  "last_review": "2026-07-16",
+  "direct_complete_extraction": false,
+  "prohibited_use": [
+    "Personal dosing, injection, cosmetic procedure or reconstitution guidance",
+    "Authorised, trademark or comparator evidence transfer to a supplier product",
+    "Assumption of identity, composition, potency, compatibility or sterility"
+  ]
+}

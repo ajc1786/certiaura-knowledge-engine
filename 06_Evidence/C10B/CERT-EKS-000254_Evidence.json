@@ -1,0 +1,20 @@
+{
+  "asset_id": "CERT-EKS-000254",
+  "asset_name": "PRO20 Route, Formulation, Potency and Product-Equivalence Gap",
+  "root_asset": "CERT-MPS-000011",
+  "knowledge_system": "EKS",
+  "asset_type": "Priority Evidence Closure Object",
+  "version": "0.2.0",
+  "status": "OPEN — PRO20 PRODUCT IDENTITY NOT ESTABLISHED",
+  "closure_wave": "0031B",
+  "closure_priority": "P0",
+  "source_domain": "Exact alprostadil form, route, excipients, concentration, manufacturer, potency, sterility and authorised-product comparability",
+  "evidence_type": "Critical product-equivalence gap",
+  "last_review": "2026-07-16",
+  "direct_complete_extraction": false,
+  "prohibited_use": [
+    "Personal dosing, injection, cosmetic procedure or reconstitution guidance",
+    "Authorised, trademark or comparator evidence transfer to a supplier product",
+    "Assumption of identity, composition, potency, compatibility or sterility"
+  ]
+}
