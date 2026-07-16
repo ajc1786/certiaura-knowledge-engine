@@ -1,0 +1,103 @@
+Evidence UAI,Parent UAI,Asset Name,Closure Build,Closure Wave,Repository Validation
+CERT-EKS-000233,CERT-PKS-000036,Insulin Supplier Product Family,0031A,Wave 1 — High-Risk Biologic & Sterile Product Closure,GREEN — USER CONFIRMED
+CERT-EKS-000234,CERT-PKS-000036,Insulin Supplier Product Family,0031A,Wave 1 — High-Risk Biologic & Sterile Product Closure,GREEN — USER CONFIRMED
+CERT-EKS-000235,CERT-PKS-000037,Erythropoietin Supplier Product Family,0031A,Wave 1 — High-Risk Biologic & Sterile Product Closure,GREEN — USER CONFIRMED
+CERT-EKS-000236,CERT-PKS-000037,Erythropoietin Supplier Product Family,0031A,Wave 1 — High-Risk Biologic & Sterile Product Closure,GREEN — USER CONFIRMED
+CERT-EKS-000237,CERT-PKS-000045,Unbranded Cerebrolysin-Type Product Family,0031A,Wave 1 — High-Risk Biologic & Sterile Product Closure,GREEN — USER CONFIRMED
+CERT-EKS-000238,CERT-PKS-000045,Unbranded Cerebrolysin-Type Product Family,0031A,Wave 1 — High-Risk Biologic & Sterile Product Closure,GREEN — USER CONFIRMED
+CERT-EKS-000239,CERT-MPS-000007,Bacteriostatic Water Supplier Family,0031A,Wave 1 — High-Risk Biologic & Sterile Product Closure,GREEN — USER CONFIRMED
+CERT-EKS-000240,CERT-MPS-000007,Bacteriostatic Water Supplier Family,0031A,Wave 1 — High-Risk Biologic & Sterile Product Closure,GREEN — USER CONFIRMED
+CERT-EKS-000241,CERT-MPS-000008,Acetic Acid Water Supplier Family,0031A,Wave 1 — High-Risk Biologic & Sterile Product Closure,GREEN — USER CONFIRMED
+CERT-EKS-000242,CERT-MPS-000008,Acetic Acid Water Supplier Family,0031A,Wave 1 — High-Risk Biologic & Sterile Product Closure,GREEN — USER CONFIRMED
+CERT-EKS-000243,CERT-MPS-000009,Botulinum Toxin Supplier Product Family,0031A,Wave 1 — High-Risk Biologic & Sterile Product Closure,GREEN — USER CONFIRMED
+CERT-EKS-000244,CERT-MPS-000009,Botulinum Toxin Supplier Product Family,0031A,Wave 1 — High-Risk Biologic & Sterile Product Closure,GREEN — USER CONFIRMED
+CERT-EKS-000245,CERT-PKS-000060,Matrixyl Supplier Product Family,0031B,"Wave 2 — Cosmetic, Injectable & Unresolved Identity Closure",GREEN — USER CONFIRMED
+CERT-EKS-000246,CERT-PKS-000060,Matrixyl Supplier Product Family,0031B,"Wave 2 — Cosmetic, Injectable & Unresolved Identity Closure",GREEN — USER CONFIRMED
+CERT-EKS-000247,CERT-PKS-000067,Testagen Supplier Product Family,0031B,"Wave 2 — Cosmetic, Injectable & Unresolved Identity Closure",GREEN — USER CONFIRMED
+CERT-EKS-000248,CERT-PKS-000067,Testagen Supplier Product Family,0031B,"Wave 2 — Cosmetic, Injectable & Unresolved Identity Closure",GREEN — USER CONFIRMED
+CERT-EKS-000249,CERT-MPS-000006,SLU-PP-322 Identity-Candidate Product Family,0031B,"Wave 2 — Cosmetic, Injectable & Unresolved Identity Closure",GREEN — USER CONFIRMED
+CERT-EKS-000250,CERT-MPS-000006,SLU-PP-322 Identity-Candidate Product Family,0031B,"Wave 2 — Cosmetic, Injectable & Unresolved Identity Closure",GREEN — USER CONFIRMED
+CERT-EKS-000251,CERT-MPS-000010,Hyaluronic Acid Supplier Product Family,0031B,"Wave 2 — Cosmetic, Injectable & Unresolved Identity Closure",GREEN — USER CONFIRMED
+CERT-EKS-000252,CERT-MPS-000010,Hyaluronic Acid Supplier Product Family,0031B,"Wave 2 — Cosmetic, Injectable & Unresolved Identity Closure",GREEN — USER CONFIRMED
+CERT-EKS-000253,CERT-MPS-000011,Alprostadil Supplier Vial Family,0031B,"Wave 2 — Cosmetic, Injectable & Unresolved Identity Closure",GREEN — USER CONFIRMED
+CERT-EKS-000254,CERT-MPS-000011,Alprostadil Supplier Vial Family,0031B,"Wave 2 — Cosmetic, Injectable & Unresolved Identity Closure",GREEN — USER CONFIRMED
+CERT-EKS-000255,CERT-MPS-000012,Lemon Bottle Supplier Mixture Family,0031B,"Wave 2 — Cosmetic, Injectable & Unresolved Identity Closure",GREEN — USER CONFIRMED
+CERT-EKS-000256,CERT-MPS-000012,Lemon Bottle Supplier Mixture Family,0031B,"Wave 2 — Cosmetic, Injectable & Unresolved Identity Closure",GREEN — USER CONFIRMED
+CERT-EKS-000257,CERT-PKS-000046,Dermorphin,0031C,"Wave 3 — Combination, Opioid & Unknown Peptide Closure",GREEN — USER CONFIRMED
+CERT-EKS-000258,CERT-PKS-000046,Dermorphin,0031C,"Wave 3 — Combination, Opioid & Unknown Peptide Closure",GREEN — USER CONFIRMED
+CERT-EKS-000259,CERT-PKS-000042,Adamax Supplier Product Family,0031C,"Wave 3 — Combination, Opioid & Unknown Peptide Closure",GREEN — USER CONFIRMED
+CERT-EKS-000260,CERT-PKS-000042,Adamax Supplier Product Family,0031C,"Wave 3 — Combination, Opioid & Unknown Peptide Closure",GREEN — USER CONFIRMED
+CERT-EKS-000261,CERT-PKS-000043,PE 22-28 Supplier Product Family,0031C,"Wave 3 — Combination, Opioid & Unknown Peptide Closure",GREEN — USER CONFIRMED
+CERT-EKS-000262,CERT-PKS-000043,PE 22-28 Supplier Product Family,0031C,"Wave 3 — Combination, Opioid & Unknown Peptide Closure",GREEN — USER CONFIRMED
+CERT-EKS-000263,CERT-PKS-000047,P021 / Peptide 021 Adamantane Conjugate Product Family,0031C,"Wave 3 — Combination, Opioid & Unknown Peptide Closure",GREEN — USER CONFIRMED
+CERT-EKS-000264,CERT-PKS-000047,P021 / Peptide 021 Adamantane Conjugate Product Family,0031C,"Wave 3 — Combination, Opioid & Unknown Peptide Closure",GREEN — USER CONFIRMED
+CERT-EKS-000265,CERT-PKS-000048,P21 Without Adamantane Supplier Product Family,0031C,"Wave 3 — Combination, Opioid & Unknown Peptide Closure",GREEN — USER CONFIRMED
+CERT-EKS-000266,CERT-PKS-000048,P21 Without Adamantane Supplier Product Family,0031C,"Wave 3 — Combination, Opioid & Unknown Peptide Closure",GREEN — USER CONFIRMED
+CERT-EKS-000267,CERT-PKS-000084,Cagrilintide + Semaglutide Supplier Blend,0031C,"Wave 3 — Combination, Opioid & Unknown Peptide Closure",GREEN — USER CONFIRMED
+CERT-EKS-000268,CERT-PKS-000084,Cagrilintide + Semaglutide Supplier Blend,0031C,"Wave 3 — Combination, Opioid & Unknown Peptide Closure",GREEN — USER CONFIRMED
+CERT-EKS-000269,CERT-PKS-000081,BPC-157 + TB Supplier Blend Family,0031D,Wave 4 — Combination-Product Analytical Closure,GREEN — USER CONFIRMED
+CERT-EKS-000270,CERT-PKS-000081,BPC-157 + TB Supplier Blend Family,0031D,Wave 4 — Combination-Product Analytical Closure,GREEN — USER CONFIRMED
+CERT-EKS-000271,CERT-PKS-000082,BPC-157 + GHK-Cu + TB-500 Supplier Blend,0031D,Wave 4 — Combination-Product Analytical Closure,GREEN — USER CONFIRMED
+CERT-EKS-000272,CERT-PKS-000082,BPC-157 + GHK-Cu + TB-500 Supplier Blend,0031D,Wave 4 — Combination-Product Analytical Closure,GREEN — USER CONFIRMED
+CERT-EKS-000273,CERT-PKS-000083,BPC-157 + GHK-Cu + TB-500 + KPV Supplier Blend,0031D,Wave 4 — Combination-Product Analytical Closure,GREEN — USER CONFIRMED
+CERT-EKS-000274,CERT-PKS-000083,BPC-157 + GHK-Cu + TB-500 + KPV Supplier Blend,0031D,Wave 4 — Combination-Product Analytical Closure,GREEN — USER CONFIRMED
+CERT-EKS-000275,CERT-PKS-000085,Retatrutide + Cagrilintide Supplier Blend,0031D,Wave 4 — Combination-Product Analytical Closure,GREEN — USER CONFIRMED
+CERT-EKS-000276,CERT-PKS-000085,Retatrutide + Cagrilintide Supplier Blend,0031D,Wave 4 — Combination-Product Analytical Closure,GREEN — USER CONFIRMED
+CERT-EKS-000277,CERT-PKS-000086,Tesamorelin + Ipamorelin Supplier Blend,0031D,Wave 4 — Combination-Product Analytical Closure,GREEN — USER CONFIRMED
+CERT-EKS-000278,CERT-PKS-000086,Tesamorelin + Ipamorelin Supplier Blend,0031D,Wave 4 — Combination-Product Analytical Closure,GREEN — USER CONFIRMED
+CERT-EKS-000279,CERT-PKS-000087,Semax + Selank Supplier Blend,0031D,Wave 4 — Combination-Product Analytical Closure,GREEN — USER CONFIRMED
+CERT-EKS-000280,CERT-PKS-000087,Semax + Selank Supplier Blend,0031D,Wave 4 — Combination-Product Analytical Closure,GREEN — USER CONFIRMED
+CERT-EKS-000281,CERT-PKS-000088,Modified GRF (1-29) + Ipamorelin Supplier Blend,0031D,Wave 4 — Combination-Product Analytical Closure,GREEN — USER CONFIRMED
+CERT-EKS-000282,CERT-PKS-000088,Modified GRF (1-29) + Ipamorelin Supplier Blend,0031D,Wave 4 — Combination-Product Analytical Closure,GREEN — USER CONFIRMED
+CERT-EKS-000283,CERT-MPS-000001,AICAR Supplier Product Family,0033A,"Wave 5 — Biochemical, Metabolic & Coverage-Correction Closure",GREEN — USER CONFIRMED
+CERT-EKS-000284,CERT-MPS-000001,AICAR Supplier Product Family,0033A,"Wave 5 — Biochemical, Metabolic & Coverage-Correction Closure",GREEN — USER CONFIRMED
+CERT-EKS-000285,CERT-MPS-000002,Melatonin Supplier Vial Family,0033A,"Wave 5 — Biochemical, Metabolic & Coverage-Correction Closure",GREEN — USER CONFIRMED
+CERT-EKS-000286,CERT-MPS-000002,Melatonin Supplier Vial Family,0033A,"Wave 5 — Biochemical, Metabolic & Coverage-Correction Closure",GREEN — USER CONFIRMED
+CERT-EKS-000287,CERT-MPS-000003,Glutathione Supplier Vial Family,0033A,"Wave 5 — Biochemical, Metabolic & Coverage-Correction Closure",GREEN — USER CONFIRMED
+CERT-EKS-000288,CERT-MPS-000003,Glutathione Supplier Vial Family,0033A,"Wave 5 — Biochemical, Metabolic & Coverage-Correction Closure",GREEN — USER CONFIRMED
+CERT-EKS-000289,CERT-MPS-000004,5-Amino-1MQ Supplier Product Family,0033A,"Wave 5 — Biochemical, Metabolic & Coverage-Correction Closure",GREEN — USER CONFIRMED
+CERT-EKS-000290,CERT-MPS-000004,5-Amino-1MQ Supplier Product Family,0033A,"Wave 5 — Biochemical, Metabolic & Coverage-Correction Closure",GREEN — USER CONFIRMED
+CERT-EKS-000291,CERT-MPS-000005,NAD Supplier Product Family,0033A,"Wave 5 — Biochemical, Metabolic & Coverage-Correction Closure",GREEN — USER CONFIRMED
+CERT-EKS-000292,CERT-MPS-000005,NAD Supplier Product Family,0033A,"Wave 5 — Biochemical, Metabolic & Coverage-Correction Closure",GREEN — USER CONFIRMED
+CERT-EKS-000293,CERT-PKS-000089,Elamipretide / SS-31,0033A,"Wave 5 — Biochemical, Metabolic & Coverage-Correction Closure",GREEN — USER CONFIRMED
+CERT-EKS-000294,CERT-PKS-000089,Elamipretide / SS-31,0033A,"Wave 5 — Biochemical, Metabolic & Coverage-Correction Closure",GREEN — USER CONFIRMED
+CERT-EKS-000295,CERT-PKS-000090,Generic GLP-1 Supplier Product Family,0033A,"Wave 5 — Biochemical, Metabolic & Coverage-Correction Closure",GREEN — USER CONFIRMED
+CERT-EKS-000296,CERT-PKS-000090,Generic GLP-1 Supplier Product Family,0033A,"Wave 5 — Biochemical, Metabolic & Coverage-Correction Closure",GREEN — USER CONFIRMED
+CERT-EKS-000297,CERT-PKS-000028,PEG-MGF Supplier Product Family,0033B,"Wave 6 — Biologic, Glycoprotein & Mixture Identity Closure",GREEN — USER CONFIRMED
+CERT-EKS-000298,CERT-PKS-000028,PEG-MGF Supplier Product Family,0033B,"Wave 6 — Biologic, Glycoprotein & Mixture Identity Closure",GREEN — USER CONFIRMED
+CERT-EKS-000299,CERT-PKS-000032,Human Chorionic Gonadotropin Product Family,0033B,"Wave 6 — Biologic, Glycoprotein & Mixture Identity Closure",GREEN — USER CONFIRMED
+CERT-EKS-000300,CERT-PKS-000032,Human Chorionic Gonadotropin Product Family,0033B,"Wave 6 — Biologic, Glycoprotein & Mixture Identity Closure",GREEN — USER CONFIRMED
+CERT-EKS-000301,CERT-PKS-000033,Menotropins / Human Menopausal Gonadotropin Product Family,0033B,"Wave 6 — Biologic, Glycoprotein & Mixture Identity Closure",GREEN — USER CONFIRMED
+CERT-EKS-000302,CERT-PKS-000033,Menotropins / Human Menopausal Gonadotropin Product Family,0033B,"Wave 6 — Biologic, Glycoprotein & Mixture Identity Closure",GREEN — USER CONFIRMED
+CERT-EKS-000303,CERT-PKS-000044,Cerebrolysin Product Family,0033B,"Wave 6 — Biologic, Glycoprotein & Mixture Identity Closure",GREEN — USER CONFIRMED
+CERT-EKS-000304,CERT-PKS-000044,Cerebrolysin Product Family,0033B,"Wave 6 — Biologic, Glycoprotein & Mixture Identity Closure",GREEN — USER CONFIRMED
+CERT-EKS-000305,CERT-PKS-000052,Thymalin Product Family,0033B,"Wave 6 — Biologic, Glycoprotein & Mixture Identity Closure",GREEN — USER CONFIRMED
+CERT-EKS-000306,CERT-PKS-000052,Thymalin Product Family,0033B,"Wave 6 — Biologic, Glycoprotein & Mixture Identity Closure",GREEN — USER CONFIRMED
+CERT-EKS-000307,CERT-PKS-000063,Humanin Supplier Product Family,0033B,"Wave 6 — Biologic, Glycoprotein & Mixture Identity Closure",GREEN — USER CONFIRMED
+CERT-EKS-000308,CERT-PKS-000063,Humanin Supplier Product Family,0033B,"Wave 6 — Biologic, Glycoprotein & Mixture Identity Closure",GREEN — USER CONFIRMED
+CERT-EKS-000309,CERT-PKS-000064,FOXO4-DRI Supplier Product Family,0033C,Wave 7 — Senolytic & Short Regulatory Peptide Identity Closure,GREEN — USER CONFIRMED
+CERT-EKS-000310,CERT-PKS-000064,FOXO4-DRI Supplier Product Family,0033C,Wave 7 — Senolytic & Short Regulatory Peptide Identity Closure,GREEN — USER CONFIRMED
+CERT-EKS-000311,CERT-PKS-000066,Vilon Supplier Product Family,0033C,Wave 7 — Senolytic & Short Regulatory Peptide Identity Closure,GREEN — USER CONFIRMED
+CERT-EKS-000312,CERT-PKS-000066,Vilon Supplier Product Family,0033C,Wave 7 — Senolytic & Short Regulatory Peptide Identity Closure,GREEN — USER CONFIRMED
+CERT-EKS-000313,CERT-PKS-000068,Bronchogen,0033C,Wave 7 — Senolytic & Short Regulatory Peptide Identity Closure,GREEN — USER CONFIRMED
+CERT-EKS-000314,CERT-PKS-000068,Bronchogen,0033C,Wave 7 — Senolytic & Short Regulatory Peptide Identity Closure,GREEN — USER CONFIRMED
+CERT-EKS-000315,CERT-PKS-000069,Cardiogen,0033C,Wave 7 — Senolytic & Short Regulatory Peptide Identity Closure,GREEN — USER CONFIRMED
+CERT-EKS-000316,CERT-PKS-000069,Cardiogen,0033C,Wave 7 — Senolytic & Short Regulatory Peptide Identity Closure,GREEN — USER CONFIRMED
+CERT-EKS-000317,CERT-PKS-000070,Cortagen,0033C,Wave 7 — Senolytic & Short Regulatory Peptide Identity Closure,GREEN — USER CONFIRMED
+CERT-EKS-000318,CERT-PKS-000070,Cortagen,0033C,Wave 7 — Senolytic & Short Regulatory Peptide Identity Closure,GREEN — USER CONFIRMED
+CERT-EKS-000319,CERT-PKS-000071,Livagen,0033C,Wave 7 — Senolytic & Short Regulatory Peptide Identity Closure,GREEN — USER CONFIRMED
+CERT-EKS-000320,CERT-PKS-000071,Livagen,0033C,Wave 7 — Senolytic & Short Regulatory Peptide Identity Closure,GREEN — USER CONFIRMED
+CERT-EKS-000321,CERT-PKS-000072,Pancragen,0033D,Wave 8 — Remaining Organ-Regulatory Peptide Identity Closure,GREEN — USER CONFIRMED
+CERT-EKS-000322,CERT-PKS-000072,Pancragen,0033D,Wave 8 — Remaining Organ-Regulatory Peptide Identity Closure,GREEN — USER CONFIRMED
+CERT-EKS-000323,CERT-PKS-000073,Prostamax,0033D,Wave 8 — Remaining Organ-Regulatory Peptide Identity Closure,GREEN — USER CONFIRMED
+CERT-EKS-000324,CERT-PKS-000073,Prostamax,0033D,Wave 8 — Remaining Organ-Regulatory Peptide Identity Closure,GREEN — USER CONFIRMED
+CERT-EKS-000325,CERT-PKS-000074,Cartalax,0033D,Wave 8 — Remaining Organ-Regulatory Peptide Identity Closure,GREEN — USER CONFIRMED
+CERT-EKS-000326,CERT-PKS-000074,Cartalax,0033D,Wave 8 — Remaining Organ-Regulatory Peptide Identity Closure,GREEN — USER CONFIRMED
+CERT-EKS-000327,CERT-PKS-000075,Chonluten,0033D,Wave 8 — Remaining Organ-Regulatory Peptide Identity Closure,GREEN — USER CONFIRMED
+CERT-EKS-000328,CERT-PKS-000075,Chonluten,0033D,Wave 8 — Remaining Organ-Regulatory Peptide Identity Closure,GREEN — USER CONFIRMED
+CERT-EKS-000329,CERT-PKS-000076,Crystagen,0033D,Wave 8 — Remaining Organ-Regulatory Peptide Identity Closure,GREEN — USER CONFIRMED
+CERT-EKS-000330,CERT-PKS-000076,Crystagen,0033D,Wave 8 — Remaining Organ-Regulatory Peptide Identity Closure,GREEN — USER CONFIRMED
+CERT-EKS-000331,CERT-PKS-000077,Ovagen,0033D,Wave 8 — Remaining Organ-Regulatory Peptide Identity Closure,GREEN — USER CONFIRMED
+CERT-EKS-000332,CERT-PKS-000077,Ovagen,0033D,Wave 8 — Remaining Organ-Regulatory Peptide Identity Closure,GREEN — USER CONFIRMED
+CERT-EKS-000333,CERT-PKS-000078,Vesugen,0033D,Wave 8 — Remaining Organ-Regulatory Peptide Identity Closure,GREEN — USER CONFIRMED
+CERT-EKS-000334,CERT-PKS-000078,Vesugen,0033D,Wave 8 — Remaining Organ-Regulatory Peptide Identity Closure,GREEN — USER CONFIRMED

@@ -1,0 +1,16 @@
+UAI,Asset Name,Authorised / Comparator Product,Non-Equivalence Control
+CERT-PKS-000036,Insulin Supplier Product Family,Licensed insulin products,"Exact proper name, concentration, action profile, formulation and manufacturer required."
+CERT-PKS-000037,Erythropoietin Supplier Product Family,Authorised ESAs,"Exact glycoprotein, glycosylation, cell line, potency and manufacturer required."
+CERT-PKS-000045,Unbranded Cerebrolysin-Type Product Family,Branded Cerebrolysin,"Hydrolysate source, process, composition and batch comparability required."
+CERT-MPS-000007,Bacteriostatic Water Supplier Family,Bacteriostatic Water for Injection,"0.9% benzyl alcohol, sterile finished-product identity and compatibility must be proven."
+CERT-MPS-000009,Botulinum Toxin Supplier Product Family,Authorised botulinum toxin products,"Proper name, serotype, assay, units, manufacturer and licence are product specific."
+CERT-MPS-000010,Hyaluronic Acid Supplier Product Family,Approved HA dermal fillers,"Polymer form, crosslinking, rheology, device presentation and intended use are product specific."
+CERT-MPS-000011,Alprostadil Supplier Vial Family,Caverject and other authorised alprostadil products,"Route, formulation, concentration and manufacturer are product specific."
+CERT-MPS-000012,Lemon Bottle Supplier Mixture Family,Approved medicines or devices,No approved fat-dissolving product equivalence.
+CERT-PKS-000084,Cagrilintide + Semaglutide Supplier Blend,CagriSema clinical material,"Sponsor-controlled components, formulation and manufacturing are not transferable."
+CERT-PKS-000086,Tesamorelin + Ipamorelin Supplier Blend,EGRIFTA WR / SV,Authorised tesamorelin formulations do not validate a mixed supplier vial.
+CERT-MPS-000002,Melatonin Supplier Vial Family,Circadin / Slenyto,Authorised prolonged-release oral products do not validate an unspecified vial.
+CERT-PKS-000089,Elamipretide / SS-31,Forzinity,Accelerated approval and sterile product identity do not transfer to supplier powder.
+CERT-PKS-000032,Human Chorionic Gonadotropin Product Family,Pregnyl / Novarel / recombinant hCG,"Source, glycosylation, potency assay and manufacturer must match."
+CERT-PKS-000033,Menotropins Product Family,MENOPUR,"FSH/LH activity, source, purification and potency are exact-product attributes."
+CERT-PKS-000044,Cerebrolysin Product Family,Manufacturer-controlled branded Cerebrolysin,"Catalogue presentation does not establish volume, composition or brand comparability."

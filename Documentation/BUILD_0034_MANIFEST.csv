@@ -1,0 +1,19 @@
+File,Size Bytes,Build
+Assets/Brand/CertiAura_Brand_Master.png,2371046,0034
+BUILD_0034_READ_ME.md,867,0034
+Documentation/Audit/Authorised_Product_Non_Equivalence_Register.csv,2480,0034
+Documentation/Audit/Closure_Gate_Status_Matrix.csv,378,0034
+Documentation/Audit/Closure_Wave_Build_Register.csv,1111,0034
+Documentation/Audit/Critical_Unresolved_Identity_Register.csv,1909,0034
+Documentation/Audit/Next_Phase_Roadmap.csv,990,0034
+Documentation/Audit/Priority_Asset_Closure_Master.csv,26865,0034
+Documentation/Audit/Priority_Closure_Completion_Metrics.json,2203,0034
+Documentation/Audit/Priority_Closure_Completion_Summary.md,2216,0034
+Documentation/Audit/Priority_Closure_Evidence_Master.csv,15903,0034
+Documentation/Audit/Priority_Product_Passport_Master.csv,10810,0034
+Documentation/Audit/UAI_Continuity_After_0033D.csv,444,0034
+Documentation/B0034_Validation.md,670,0034
+Documentation/CHANGELOG.md,743,0034
+Documentation/Master_Asset_Register.csv,261,0034
+Documentation/Production_Dashboard.md,727,0034
+Scripts/validate_priority_completion.py,1818,0034

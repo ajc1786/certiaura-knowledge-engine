@@ -1,41 +1,31 @@
 # CERTIAURA PRODUCTION DASHBOARD
 
-**Build:** 0033D  
+**Build:** 0034  
 **Date:** 2026-07-16
 
-## Priority P1 Closure Programme
+## Priority Closure Programme Complete
 
-### Wave 8 complete
+- P0 coverage: **13 / 13**
+- P1 coverage: **38 / 38**
+- Total priority coverage: **51 / 51**
+- Product Passport coverage: **51 / 51**
+- Closure Evidence Knowledge System objects: **102**
+- Green closure builds: **8 / 8**
+- Direct-sale gates opened: **0**
+- Platinum certifications: **0**
 
-- 7 existing product assets strengthened
-- 5 defensible reference identities anchored
-- 2 critical identity conflicts retained
-- 7 new Product Passports
-- 14 new evidence closure objects
-- 0 new product-family UAIs
-- 0 Platinum certifications
+## Current UAI maxima
 
-### New allocations
-
-- PPS: CERT-PPS-000045–000051
-- EKS: CERT-EKS-000321–000334
-
-### Next allocation state
-
-- PKS: CERT-PKS-000091
-- MPS: CERT-MPS-000013
-- PPS: CERT-PPS-000052
-- EKS: CERT-EKS-000335
-- SKS: CERT-SKS-000108
-- BKS: CERT-BKS-000185
-- CKS: CERT-CKS-000060
-- MKS: CERT-MKS-000182
-- GKS: CERT-GKS-000097
-
-## Programme milestone
-
-**All 51 P0/P1 catalogue assets have now received dedicated closure-wave treatment.**
+- PKS: CERT-PKS-000090
+- MPS: CERT-MPS-000012
+- PPS: CERT-PPS-000051
+- EKS: CERT-EKS-000334
+- SKS: CERT-SKS-000107
+- BKS: CERT-BKS-000184
+- CKS: CERT-CKS-000059
+- MKS: CERT-MKS-000181
+- GKS: CERT-GKS-000096
 
 ## Next build
 
-**Build 0034 — Priority Closure Programme Completion Audit**
+**Build 0035A — Platinum Readiness Tiering & Evidence Sufficiency Scoring**

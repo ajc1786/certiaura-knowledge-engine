@@ -1,0 +1,56 @@
+{
+  "build": "0034",
+  "status_date": "2026-07-16",
+  "classification_source": "Green Build 0032 Priority_Closure_Current_Register.csv",
+  "programme_scope": {
+    "priority_assets": 51,
+    "P0_assets": 13,
+    "P1_assets": 38,
+    "closure_waves": 8,
+    "repository_green_builds": 8
+  },
+  "closure_objects": {
+    "product_passports": 51,
+    "closure_evidence_objects": 102,
+    "latest_PPS": "CERT-PPS-000051",
+    "latest_EKS": "CERT-EKS-000334"
+  },
+  "control_outcome": {
+    "assets_with_direct_sale_gate_blocked": 51,
+    "direct_sale_gates_opened": 0,
+    "platinum_certifications": 0,
+    "treatment_or_administration_protocols_activated": 0
+  },
+  "critical_unresolved_assets": 10,
+  "current_product_estate": {
+    "product_family_assets": 102,
+    "PKS_assets": 90,
+    "MPS_assets": 12
+  },
+  "next_phase": [
+    {
+      "Recommended Build": "0035A",
+      "Title": "Platinum Readiness Tiering & Evidence Sufficiency Scoring",
+      "Purpose": "Score all 102 product assets for identity, evidence, safety, regulatory clarity, supplier data and commercial readiness.",
+      "Permanent UAI Plan": "Audit/system build; no product-family UAI allocation."
+    },
+    {
+      "Recommended Build": "0035B",
+      "Title": "Tier 1 Primary-Source Extraction & Living Evidence Upgrade",
+      "Purpose": "Perform complete primary-source extraction for the highest-readiness authorised or late-stage assets.",
+      "Permanent UAI Plan": "Allocate only required supporting knowledge objects."
+    },
+    {
+      "Recommended Build": "0035C",
+      "Title": "Supplier Evidence Request & Product Passport Submission Standard",
+      "Purpose": "Create manufacturer questionnaires, certificate requirements, analytical acceptance criteria and rejection rules.",
+      "Permanent UAI Plan": "System/process assets only where justified."
+    },
+    {
+      "Recommended Build": "0035D",
+      "Title": "Commercial Release Gate & Marketplace Activation Standard",
+      "Purpose": "Define evidence, legal, quality, labelling and human-review gates before marketplace or direct-sale activation.",
+      "Permanent UAI Plan": "System and marketplace governance objects only where justified."
+    }
+  ]
+}

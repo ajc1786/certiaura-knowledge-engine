@@ -1,0 +1,11 @@
+UAI,Asset Name,Critical Issue,Controlled Disposition,Release Gate
+CERT-PKS-000042,Adamax Supplier Product Family,"No authoritative canonical molecule, sequence, linkage position or molecular mass.",Identity blocked; vendor structures remain non-canonical.,BLOCKED
+CERT-PKS-000048,P21 Without Adamantane Supplier Product Family,"Sequence, residue count, termini and relationship to P021 are unresolved.",No assumption that it is P021 minus adamantane.,BLOCKED
+CERT-MPS-000006,SLU-PP-322 Identity-Candidate Product Family,No authoritative SLU-PP-322 identity; possible typo cannot be silently corrected.,SLU-PP-332 retained only as a comparator.,BLOCKED
+CERT-PKS-000090,Generic GLP-1 Supplier Product Family,"Residue range, C-terminal form, analogue status, salt and route are unknown.",Supplier-family UAI retained with molecular identity block.,BLOCKED
+CERT-PKS-000076,Crystagen,Public EDP versus PQN sequence conflict.,No canonical sequence; identity quarantine active.,BLOCKED
+CERT-PKS-000077,Ovagen,Veterinary ovine-FSH name collision and conflicting peptide claims.,No canonical peptide sequence; identity quarantine active.,BLOCKED
+CERT-MPS-000008,Acetic Acid Water Supplier Family,"Acetic-acid concentration, pH, tonicity, sterility and compatibility are unknown.",No pharmaceutical-diluent interpretation.,BLOCKED
+CERT-MPS-000009,Botulinum Toxin Supplier Product Family,"Serotype, proper name, strain, manufacturer and potency assay are unknown.",No authorised-product or unit equivalence.,BLOCKED
+CERT-PKS-000045,Unbranded Cerebrolysin-Type Product Family,"Source tissue, hydrolysate process, composition and comparability are unknown.",No branded Cerebrolysin evidence transfer.,BLOCKED
+CERT-MPS-000012,Lemon Bottle Supplier Mixture Family,"Composition, authenticity and 42.5 mg/mL mass-balance shortfall remain unresolved.",No invented ingredient or approved-product equivalence.,BLOCKED

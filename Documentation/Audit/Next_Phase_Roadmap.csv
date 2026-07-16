@@ -1,0 +1,5 @@
+Recommended Build,Title,Purpose,Permanent UAI Plan
+0035A,Platinum Readiness Tiering & Evidence Sufficiency Scoring,"Score all 102 product assets for identity, evidence, safety, regulatory clarity, supplier data and commercial readiness.",Audit/system build; no product-family UAI allocation.
+0035B,Tier 1 Primary-Source Extraction & Living Evidence Upgrade,Perform complete primary-source extraction for the highest-readiness authorised or late-stage assets.,Allocate only required supporting knowledge objects.
+0035C,Supplier Evidence Request & Product Passport Submission Standard,"Create manufacturer questionnaires, certificate requirements, analytical acceptance criteria and rejection rules.",System/process assets only where justified.
+0035D,Commercial Release Gate & Marketplace Activation Standard,"Define evidence, legal, quality, labelling and human-review gates before marketplace or direct-sale activation.",System and marketplace governance objects only where justified.

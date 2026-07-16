@@ -1,32 +1,29 @@
 # CERTIAURA CHANGE LOG
 
-## Build 0033D — Remaining Organ-Regulatory Peptide Identity Closure
+## Build 0034 — Priority Closure Programme Completion Audit
 **Date:** 2026-07-16
 
-Updated existing assets:
+Audited:
 
-- CERT-PKS-000072–000078
+- Builds 0031A–0031D;
+- Builds 0033A–0033D;
+- 51 priority assets;
+- 51 Product Passports;
+- 102 closure evidence objects;
+- all commercial and certification gates.
 
-Allocated:
+Classification rule:
 
-- CERT-PPS-000045–000051
-- CERT-EKS-000321–000334
+- green Build 0032 is the authoritative P0/P1 baseline;
+- closure-wave register classifications do not supersede it.
 
-Reference identities anchored:
+Confirmed:
 
-- Pancragen — KEDW
-- Prostamax — KEDP
-- Cartalax — AED
-- Chonluten — EDG
-- Vesugen — KED
+- all 13 P0 assets received closure-wave treatment;
+- all 38 P1 assets received closure-wave treatment;
+- all 51 priority assets have Product Passports;
+- all eight closure builds are green;
+- no direct-sale gate opened;
+- no Platinum certification exists.
 
-Identity conflicts retained:
-
-- Crystagen — EDP/PQN conflict; no canonical sequence
-- Ovagen — veterinary FSH name collision and unverified peptide identity
-
-Programme milestone:
-
-- all 51 P0/P1 catalogue assets now have dedicated closure-wave treatment.
-
-No product-family UAI, treatment protocol, administration protocol or Platinum certification was created.
+No permanent UAI was allocated by Build 0034.
