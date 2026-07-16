@@ -1,0 +1,110 @@
+{
+  "asset_id": "CERT-PKS-000080",
+  "asset_name": "Bremelanotide / PT-141",
+  "knowledge_system": "PKS",
+  "asset_type": "Peptide / Authorised-Active-Substance Knowledge Asset",
+  "version": "0.1.0",
+  "status": "CATALOGUE REVIEWED / AUTHORISED-PRODUCT BOUNDARY ACTIVE / NOT PLATINUM CERTIFIED",
+  "owner": "Aidan Coleman",
+  "last_review": "2026-07-16",
+  "aliases": [
+    "bremelanotide",
+    "PT-141",
+    "bremelanotide acetate",
+    "Vyleesi active substance"
+  ],
+  "classification": "Cyclic melanocortin-receptor agonist peptide medicine/research product",
+  "mechanism_summary": "Melanocortin-receptor agonism involving central melanocortin pathways. The mechanism by which the authorised medicine affects hypoactive sexual desire is not fully established.",
+  "evidence_maturity": "United States authorised-product and phase 3 evidence exist for a narrowly defined premenopausal female HSDD population. Evidence does not validate universal libido, male erectile-function or sexual-performance use.",
+  "regulatory_headline": "UNITED STATES AUTHORISED VYLEESI CONTEXT EXISTS FOR DEFINED PREMENOPAUSAL HSDD — CATALOGUE POWDER IS NOT AN AUTHORISED-PRODUCT EQUIVALENT",
+  "catalogue_supplier_skus": [
+    {
+      "catalogue_code": "P41",
+      "specification": "10 mg x 10 vials",
+      "price_usd_per_kit": 66
+    }
+  ],
+  "relationships": [
+    {
+      "source": "CERT-PKS-000080",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000145"
+    },
+    {
+      "source": "CERT-PKS-000080",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000148"
+    },
+    {
+      "source": "CERT-PKS-000080",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000149"
+    },
+    {
+      "source": "CERT-PKS-000080",
+      "relationship": "HAS_CONDITION",
+      "target": "CERT-CKS-000044"
+    },
+    {
+      "source": "CERT-PKS-000080",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000125"
+    },
+    {
+      "source": "CERT-PKS-000080",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000126"
+    },
+    {
+      "source": "CERT-PKS-000080",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000127"
+    },
+    {
+      "source": "CERT-PKS-000080",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000128"
+    },
+    {
+      "source": "CERT-PKS-000080",
+      "relationship": "SUPPORTS_GOAL",
+      "target": "CERT-GKS-000075"
+    },
+    {
+      "source": "CERT-PKS-000080",
+      "relationship": "SUPPORTS_GOAL",
+      "target": "CERT-GKS-000076"
+    },
+    {
+      "source": "CERT-PKS-000080",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000187"
+    },
+    {
+      "source": "CERT-PKS-000080",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000188"
+    },
+    {
+      "source": "CERT-PKS-000080",
+      "relationship": "HAS_SAFETY",
+      "target": "CERT-SKS-000085"
+    },
+    {
+      "source": "CERT-PKS-000080",
+      "relationship": "COMPARES_WITH",
+      "target": "CERT-PKS-000009"
+    }
+  ],
+  "validated_universal_human_dosing_protocol": false,
+  "supplier_catalogue_proves_quality": false,
+  "catalogue_product_equivalent_to_authorised_medicine": false,
+  "platinum_certified": false,
+  "certification_blockers": [
+    "Current United States product label and post-authorisation status",
+    "No automatic United Kingdom or European Union approval claim",
+    "Supplier powder sequence, salt, potency, purity and sterility",
+    "No equivalence to the 1.75 mg / 0.3 mL Vyleesi autoinjector",
+    "Cardiovascular, nausea and focal-pigmentation risk controls"
+  ]
+}

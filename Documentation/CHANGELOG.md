@@ -1,29 +1,33 @@
 # CERTIAURA CHANGE LOG
 
-## Build 0025B — Organ-Targeted Short Regulatory Peptide Families
+## Build 0026 — Pigmentation & Sexual-Health Melanocortin Peptides
 **Date:** 2026-07-16
 
 Allocated:
 
-- CERT-PKS-000068–000078
+- CERT-PKS-000079–000080
+
+Retained:
+
+- CERT-PKS-000009 — Melanotan II
 
 Added:
 
-- eleven supplier product-family flagship assets;
-- twenty-two evidence objects;
-- eleven safety objects;
-- three shared biology objects;
-- eleven condition objects;
-- four monitoring objects;
-- twelve goal objects;
-- regulatory profiles;
-- Cost Intelligence™ baseline;
-- identity and evidence-transfer map;
-- short-path-compatible source register.
+- two flagship assets;
+- four evidence objects;
+- two safety objects;
+- five biology objects;
+- two condition objects;
+- six monitoring objects;
+- four goal objects;
+- authorised-product boundaries;
+- catalogue price and regulatory registers;
+- short-path-compatible source map.
 
 Key controls:
 
-- No unverified sequence was assigned.
-- Organ-targeting language is recorded only as supplier positioning.
-- Cross-peptide and tissue-extract evidence transfer is prohibited.
-- No anti-ageing, organ-treatment, dosing or administration protocol was created.
+- MT-1 resolved as afamelanotide / Melanotan I.
+- Scenesse implant status does not transfer to catalogue powder.
+- PT-141 resolved as bremelanotide.
+- Vyleesi status does not transfer to catalogue powder.
+- No cosmetic-tanning or sexual-performance protocols were created.

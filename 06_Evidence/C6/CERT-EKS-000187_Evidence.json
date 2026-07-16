@@ -1,0 +1,19 @@
+{
+  "asset_id": "CERT-EKS-000187",
+  "asset_name": "Bremelanotide Authorised Label and Phase 3 Evidence",
+  "root_asset": "CERT-PKS-000080",
+  "knowledge_system": "EKS",
+  "asset_type": "Evidence Object",
+  "version": "0.1.0",
+  "status": "AUTHORITATIVE PRODUCT SOURCES IDENTIFIED — EXTRACTION REQUIRED",
+  "source_domain": "FDA Vyleesi prescribing information and pivotal acquired-generalised-HSDD phase 3 programme",
+  "evidence_type": "Authorised product / human phase 3 evidence",
+  "last_review": "2026-07-16",
+  "direct_complete_extraction": false,
+  "prohibited_use": [
+    "Cosmetic-tanning, sexual-performance, dosing or reconstitution guidance",
+    "Transfer from Scenesse implant to supplier MT-1 powder",
+    "Transfer from Vyleesi autoinjector to supplier PT-141 powder",
+    "Transfer between afamelanotide, bremelanotide and Melanotan II"
+  ]
+}

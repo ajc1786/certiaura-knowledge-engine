@@ -1,0 +1,107 @@
+{
+  "asset_id": "CERT-PKS-000079",
+  "asset_name": "Afamelanotide / Melanotan I",
+  "knowledge_system": "PKS",
+  "asset_type": "Peptide / Authorised-Active-Substance Knowledge Asset",
+  "version": "0.1.0",
+  "status": "CATALOGUE REVIEWED / AUTHORISED-PRODUCT BOUNDARY ACTIVE / NOT PLATINUM CERTIFIED",
+  "owner": "Aidan Coleman",
+  "last_review": "2026-07-16",
+  "aliases": [
+    "afamelanotide",
+    "Melanotan I",
+    "MT-1",
+    "NDP-alpha-MSH",
+    "[Nle4,D-Phe7]-alpha-MSH",
+    "Scenesse active substance"
+  ],
+  "classification": "Linear alpha-MSH analogue and authorised implant active substance",
+  "mechanism_summary": "Melanocortin-1 receptor agonism stimulating eumelanin production. Authorised afamelanotide use is product-, implant- and indication-specific.",
+  "evidence_maturity": "Authorised medicine and clinical evidence exist for the Scenesse implant in erythropoietic protoporphyria. Cosmetic-tanning use and unverified powder products are separate evidence and regulatory objects.",
+  "regulatory_headline": "AUTHORISED SCENESSE IMPLANT CONTEXTS EXIST FOR EPP — CATALOGUE POWDER IS NOT AN AUTHORISED-PRODUCT EQUIVALENT",
+  "catalogue_supplier_skus": [
+    {
+      "catalogue_code": "MT1",
+      "specification": "10 mg x 10 vials",
+      "price_usd_per_kit": 51
+    }
+  ],
+  "relationships": [
+    {
+      "source": "CERT-PKS-000079",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000145"
+    },
+    {
+      "source": "CERT-PKS-000079",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000146"
+    },
+    {
+      "source": "CERT-PKS-000079",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000147"
+    },
+    {
+      "source": "CERT-PKS-000079",
+      "relationship": "HAS_CONDITION",
+      "target": "CERT-CKS-000043"
+    },
+    {
+      "source": "CERT-PKS-000079",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000123"
+    },
+    {
+      "source": "CERT-PKS-000079",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000124"
+    },
+    {
+      "source": "CERT-PKS-000079",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000125"
+    },
+    {
+      "source": "CERT-PKS-000079",
+      "relationship": "SUPPORTS_GOAL",
+      "target": "CERT-GKS-000073"
+    },
+    {
+      "source": "CERT-PKS-000079",
+      "relationship": "SUPPORTS_GOAL",
+      "target": "CERT-GKS-000074"
+    },
+    {
+      "source": "CERT-PKS-000079",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000185"
+    },
+    {
+      "source": "CERT-PKS-000079",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000186"
+    },
+    {
+      "source": "CERT-PKS-000079",
+      "relationship": "HAS_SAFETY",
+      "target": "CERT-SKS-000084"
+    },
+    {
+      "source": "CERT-PKS-000079",
+      "relationship": "COMPARES_WITH",
+      "target": "CERT-PKS-000009"
+    }
+  ],
+  "validated_universal_human_dosing_protocol": false,
+  "supplier_catalogue_proves_quality": false,
+  "catalogue_product_equivalent_to_authorised_medicine": false,
+  "platinum_certified": false,
+  "certification_blockers": [
+    "Current jurisdiction-specific product information",
+    "Supplier powder sequence, salt, potency, purity and sterility",
+    "No equivalence to the 16 mg bioresorbable Scenesse implant",
+    "Cosmetic-tanning claim and legal-status separation",
+    "Long-term dermatological and pigmentary surveillance"
+  ]
+}

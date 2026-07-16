@@ -1,0 +1,36 @@
+{
+  "asset_uai": "CERT-PKS-000080",
+  "asset_name": "Bremelanotide / PT-141",
+  "status_as_of": "2026-07-16",
+  "overall_status": "UNITED STATES AUTHORISED VYLEESI CONTEXT EXISTS FOR DEFINED PREMENOPAUSAL HSDD — CATALOGUE POWDER IS NOT AN AUTHORISED-PRODUCT EQUIVALENT",
+  "regulatory_records": [
+    {
+      "jurisdiction": "United States",
+      "authority": "FDA",
+      "current_status": "Vyleesi bremelanotide injection has an authorised indication for acquired, generalised HSDD in a defined premenopausal female population. The catalogue powder is not the authorised autoinjector.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Approval, label, safety, product availability, enforcement, trial or anti-doping change"
+    },
+    {
+      "jurisdiction": "United Kingdom",
+      "authority": "MHRA",
+      "current_status": "No United Kingdom marketing-authorisation claim is created; direct current verification required.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Approval, label, safety, product availability, enforcement, trial or anti-doping change"
+    },
+    {
+      "jurisdiction": "European Union",
+      "authority": "EMA / European Commission",
+      "current_status": "No central European Union marketing-authorisation claim is created; direct current verification required.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Approval, label, safety, product availability, enforcement, trial or anti-doping change"
+    },
+    {
+      "jurisdiction": "International sport",
+      "authority": "WADA",
+      "current_status": "Current athlete-specific verification required before any permitted-status claim.",
+      "monitoring_state": "EVENT-TRIGGERED",
+      "next_review_trigger": "Approval, label, safety, product availability, enforcement, trial or anti-doping change"
+    }
+  ]
+}

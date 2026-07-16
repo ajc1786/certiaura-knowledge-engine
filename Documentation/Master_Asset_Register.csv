@@ -66,77 +66,39 @@ CERT-PKS-000064,FOXO4-DRI Product Family,PKS,Knowledge Asset,Existing,Aidan Cole
 CERT-PKS-000065,N-Acetyl Epitalon Amidate,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
 CERT-PKS-000066,Vilon Product Family,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
 CERT-PKS-000067,Testagen Product Family,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
-CERT-PKS-000068,Bronchogen,PKS,Supplier Product-Family Knowledge Asset,Catalogue Reviewed — Identity Gap Open — Not Platinum Certified,Aidan Coleman,,,,,,,,2026-07-16,,Build 0025B
-CERT-PKS-000069,Cardiogen,PKS,Supplier Product-Family Knowledge Asset,Catalogue Reviewed — Identity Gap Open — Not Platinum Certified,Aidan Coleman,,,,,,,,2026-07-16,,Build 0025B
-CERT-PKS-000070,Cortagen,PKS,Supplier Product-Family Knowledge Asset,Catalogue Reviewed — Identity Gap Open — Not Platinum Certified,Aidan Coleman,,,,,,,,2026-07-16,,Build 0025B
-CERT-PKS-000071,Livagen,PKS,Supplier Product-Family Knowledge Asset,Catalogue Reviewed — Identity Gap Open — Not Platinum Certified,Aidan Coleman,,,,,,,,2026-07-16,,Build 0025B
-CERT-PKS-000072,Pancragen,PKS,Supplier Product-Family Knowledge Asset,Catalogue Reviewed — Identity Gap Open — Not Platinum Certified,Aidan Coleman,,,,,,,,2026-07-16,,Build 0025B
-CERT-PKS-000073,Prostamax,PKS,Supplier Product-Family Knowledge Asset,Catalogue Reviewed — Identity Gap Open — Not Platinum Certified,Aidan Coleman,,,,,,,,2026-07-16,,Build 0025B
-CERT-PKS-000074,Cartalax,PKS,Supplier Product-Family Knowledge Asset,Catalogue Reviewed — Identity Gap Open — Not Platinum Certified,Aidan Coleman,,,,,,,,2026-07-16,,Build 0025B
-CERT-PKS-000075,Chonluten,PKS,Supplier Product-Family Knowledge Asset,Catalogue Reviewed — Identity Gap Open — Not Platinum Certified,Aidan Coleman,,,,,,,,2026-07-16,,Build 0025B
-CERT-PKS-000076,Crystagen,PKS,Supplier Product-Family Knowledge Asset,Catalogue Reviewed — Identity Gap Open — Not Platinum Certified,Aidan Coleman,,,,,,,,2026-07-16,,Build 0025B
-CERT-PKS-000077,Ovagen,PKS,Supplier Product-Family Knowledge Asset,Catalogue Reviewed — Identity Gap Open — Not Platinum Certified,Aidan Coleman,,,,,,,,2026-07-16,,Build 0025B
-CERT-PKS-000078,Vesugen,PKS,Supplier Product-Family Knowledge Asset,Catalogue Reviewed — Identity Gap Open — Not Platinum Certified,Aidan Coleman,,,,,,,,2026-07-16,,Build 0025B
-CERT-BKS-000142,Short Regulatory-Peptide Identity and Sequence Control,BKS,Biology Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0025B
-CERT-BKS-000143,Tissue-Specific Peptide Claims and Evidence Translation,BKS,Biology Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0025B
-CERT-BKS-000144,Short-Peptide Gene-Expression Research,BKS,Biology Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0025B
-CERT-CKS-000032,Respiratory and Bronchial Research,CKS,Condition Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0025B
-CERT-CKS-000033,Cardiac and Myocardial Research,CKS,Condition Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0025B
-CERT-CKS-000034,Neurological and Cortical Research,CKS,Condition Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0025B
-CERT-CKS-000035,Hepatic and Liver-Function Research,CKS,Condition Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0025B
-CERT-CKS-000036,Pancreatic and Metabolic Research,CKS,Condition Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0025B
-CERT-CKS-000037,Prostate and Urogenital Research,CKS,Condition Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0025B
-CERT-CKS-000038,Cartilage and Connective-Tissue Research,CKS,Condition Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0025B
-CERT-CKS-000039,Chonluten Claimed Organ-Target Research,CKS,Condition Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0025B
-CERT-CKS-000040,Crystagen Claimed Organ-Target Research,CKS,Condition Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0025B
-CERT-CKS-000041,Ovarian and Reproductive Research,CKS,Condition Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0025B
-CERT-CKS-000042,Vascular and Endothelial Research,CKS,Condition Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0025B
-CERT-MKS-000119,Chemical Identity and Sequence Closure,MKS,Monitoring Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0025B
-CERT-MKS-000120,"Product Batch, Purity and Sterility Verification",MKS,Monitoring Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0025B
-CERT-MKS-000121,Organ-Specific Clinical Outcome Validation,MKS,Monitoring Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0025B
-CERT-MKS-000122,Unknown Short-Peptide Adverse Event Surveillance,MKS,Monitoring Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0025B
-CERT-GKS-000061,Respiratory Short-Peptide Research,GKS,Goal Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0025B
-CERT-GKS-000062,Cardiac Short-Peptide Research,GKS,Goal Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0025B
-CERT-GKS-000063,Neural Short-Peptide Research,GKS,Goal Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0025B
-CERT-GKS-000064,Hepatic Short-Peptide Research,GKS,Goal Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0025B
-CERT-GKS-000065,Pancreatic Short-Peptide Research,GKS,Goal Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0025B
-CERT-GKS-000066,Prostate Short-Peptide Research,GKS,Goal Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0025B
-CERT-GKS-000067,Cartilage Short-Peptide Research,GKS,Goal Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0025B
-CERT-GKS-000068,Chonluten Identity-Controlled Research,GKS,Goal Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0025B
-CERT-GKS-000069,Crystagen Identity-Controlled Research,GKS,Goal Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0025B
-CERT-GKS-000070,Ovarian Short-Peptide Research,GKS,Goal Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0025B
-CERT-GKS-000071,Vascular Short-Peptide Research,GKS,Goal Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0025B
-CERT-GKS-000072,Short Regulatory-Peptide Identity and Translation Research,GKS,Goal Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0025B
-CERT-SKS-000073,"Bronchogen Identity, Organ-Claim and Human-Safety Uncertainty",SKS,Safety Object,Active,Aidan Coleman,,CERT-PKS-000068,,,,,,2026-07-16,,Build 0025B
-CERT-SKS-000074,"Cardiogen Identity, Organ-Claim and Human-Safety Uncertainty",SKS,Safety Object,Active,Aidan Coleman,,CERT-PKS-000069,,,,,,2026-07-16,,Build 0025B
-CERT-SKS-000075,"Cortagen Identity, Organ-Claim and Human-Safety Uncertainty",SKS,Safety Object,Active,Aidan Coleman,,CERT-PKS-000070,,,,,,2026-07-16,,Build 0025B
-CERT-SKS-000076,"Livagen Identity, Organ-Claim and Human-Safety Uncertainty",SKS,Safety Object,Active,Aidan Coleman,,CERT-PKS-000071,,,,,,2026-07-16,,Build 0025B
-CERT-SKS-000077,"Pancragen Identity, Organ-Claim and Human-Safety Uncertainty",SKS,Safety Object,Active,Aidan Coleman,,CERT-PKS-000072,,,,,,2026-07-16,,Build 0025B
-CERT-SKS-000078,"Prostamax Identity, Organ-Claim and Human-Safety Uncertainty",SKS,Safety Object,Active,Aidan Coleman,,CERT-PKS-000073,,,,,,2026-07-16,,Build 0025B
-CERT-SKS-000079,"Cartalax Identity, Organ-Claim and Human-Safety Uncertainty",SKS,Safety Object,Active,Aidan Coleman,,CERT-PKS-000074,,,,,,2026-07-16,,Build 0025B
-CERT-SKS-000080,"Chonluten Identity, Organ-Claim and Human-Safety Uncertainty",SKS,Safety Object,Active,Aidan Coleman,,CERT-PKS-000075,,,,,,2026-07-16,,Build 0025B
-CERT-SKS-000081,"Crystagen Identity, Organ-Claim and Human-Safety Uncertainty",SKS,Safety Object,Active,Aidan Coleman,,CERT-PKS-000076,,,,,,2026-07-16,,Build 0025B
-CERT-SKS-000082,"Ovagen Identity, Organ-Claim and Human-Safety Uncertainty",SKS,Safety Object,Active,Aidan Coleman,,CERT-PKS-000077,,,,,,2026-07-16,,Build 0025B
-CERT-SKS-000083,"Vesugen Identity, Organ-Claim and Human-Safety Uncertainty",SKS,Safety Object,Active,Aidan Coleman,,CERT-PKS-000078,,,,,,2026-07-16,,Build 0025B
-CERT-EKS-000163,Bronchogen Chemical Identity and Primary-Source Gap,EKS,Evidence Object,OPEN — CANONICAL MOLECULE NOT YET CLOSED,Aidan Coleman,,CERT-PKS-000068,,,,,,2026-07-16,,Root: CERT-PKS-000068
-CERT-EKS-000164,Bronchogen Human and Regulatory Evidence Boundary,EKS,Evidence Object,OPEN — ORGAN-TREATMENT AND APPROVAL CLAIMS NOT ESTABLISHED,Aidan Coleman,,CERT-PKS-000068,,,,,,2026-07-16,,Root: CERT-PKS-000068
-CERT-EKS-000165,Cardiogen Chemical Identity and Primary-Source Gap,EKS,Evidence Object,OPEN — CANONICAL MOLECULE NOT YET CLOSED,Aidan Coleman,,CERT-PKS-000069,,,,,,2026-07-16,,Root: CERT-PKS-000069
-CERT-EKS-000166,Cardiogen Human and Regulatory Evidence Boundary,EKS,Evidence Object,OPEN — ORGAN-TREATMENT AND APPROVAL CLAIMS NOT ESTABLISHED,Aidan Coleman,,CERT-PKS-000069,,,,,,2026-07-16,,Root: CERT-PKS-000069
-CERT-EKS-000167,Cortagen Chemical Identity and Primary-Source Gap,EKS,Evidence Object,OPEN — CANONICAL MOLECULE NOT YET CLOSED,Aidan Coleman,,CERT-PKS-000070,,,,,,2026-07-16,,Root: CERT-PKS-000070
-CERT-EKS-000168,Cortagen Human and Regulatory Evidence Boundary,EKS,Evidence Object,OPEN — ORGAN-TREATMENT AND APPROVAL CLAIMS NOT ESTABLISHED,Aidan Coleman,,CERT-PKS-000070,,,,,,2026-07-16,,Root: CERT-PKS-000070
-CERT-EKS-000169,Livagen Chemical Identity and Primary-Source Gap,EKS,Evidence Object,OPEN — CANONICAL MOLECULE NOT YET CLOSED,Aidan Coleman,,CERT-PKS-000071,,,,,,2026-07-16,,Root: CERT-PKS-000071
-CERT-EKS-000170,Livagen Human and Regulatory Evidence Boundary,EKS,Evidence Object,OPEN — ORGAN-TREATMENT AND APPROVAL CLAIMS NOT ESTABLISHED,Aidan Coleman,,CERT-PKS-000071,,,,,,2026-07-16,,Root: CERT-PKS-000071
-CERT-EKS-000171,Pancragen Chemical Identity and Primary-Source Gap,EKS,Evidence Object,OPEN — CANONICAL MOLECULE NOT YET CLOSED,Aidan Coleman,,CERT-PKS-000072,,,,,,2026-07-16,,Root: CERT-PKS-000072
-CERT-EKS-000172,Pancragen Human and Regulatory Evidence Boundary,EKS,Evidence Object,OPEN — ORGAN-TREATMENT AND APPROVAL CLAIMS NOT ESTABLISHED,Aidan Coleman,,CERT-PKS-000072,,,,,,2026-07-16,,Root: CERT-PKS-000072
-CERT-EKS-000173,Prostamax Chemical Identity and Primary-Source Gap,EKS,Evidence Object,OPEN — CANONICAL MOLECULE NOT YET CLOSED,Aidan Coleman,,CERT-PKS-000073,,,,,,2026-07-16,,Root: CERT-PKS-000073
-CERT-EKS-000174,Prostamax Human and Regulatory Evidence Boundary,EKS,Evidence Object,OPEN — ORGAN-TREATMENT AND APPROVAL CLAIMS NOT ESTABLISHED,Aidan Coleman,,CERT-PKS-000073,,,,,,2026-07-16,,Root: CERT-PKS-000073
-CERT-EKS-000175,Cartalax Chemical Identity and Primary-Source Gap,EKS,Evidence Object,OPEN — CANONICAL MOLECULE NOT YET CLOSED,Aidan Coleman,,CERT-PKS-000074,,,,,,2026-07-16,,Root: CERT-PKS-000074
-CERT-EKS-000176,Cartalax Human and Regulatory Evidence Boundary,EKS,Evidence Object,OPEN — ORGAN-TREATMENT AND APPROVAL CLAIMS NOT ESTABLISHED,Aidan Coleman,,CERT-PKS-000074,,,,,,2026-07-16,,Root: CERT-PKS-000074
-CERT-EKS-000177,Chonluten Chemical Identity and Primary-Source Gap,EKS,Evidence Object,OPEN — CANONICAL MOLECULE NOT YET CLOSED,Aidan Coleman,,CERT-PKS-000075,,,,,,2026-07-16,,Root: CERT-PKS-000075
-CERT-EKS-000178,Chonluten Human and Regulatory Evidence Boundary,EKS,Evidence Object,OPEN — ORGAN-TREATMENT AND APPROVAL CLAIMS NOT ESTABLISHED,Aidan Coleman,,CERT-PKS-000075,,,,,,2026-07-16,,Root: CERT-PKS-000075
-CERT-EKS-000179,Crystagen Chemical Identity and Primary-Source Gap,EKS,Evidence Object,OPEN — CANONICAL MOLECULE NOT YET CLOSED,Aidan Coleman,,CERT-PKS-000076,,,,,,2026-07-16,,Root: CERT-PKS-000076
-CERT-EKS-000180,Crystagen Human and Regulatory Evidence Boundary,EKS,Evidence Object,OPEN — ORGAN-TREATMENT AND APPROVAL CLAIMS NOT ESTABLISHED,Aidan Coleman,,CERT-PKS-000076,,,,,,2026-07-16,,Root: CERT-PKS-000076
-CERT-EKS-000181,Ovagen Chemical Identity and Primary-Source Gap,EKS,Evidence Object,OPEN — CANONICAL MOLECULE NOT YET CLOSED,Aidan Coleman,,CERT-PKS-000077,,,,,,2026-07-16,,Root: CERT-PKS-000077
-CERT-EKS-000182,Ovagen Human and Regulatory Evidence Boundary,EKS,Evidence Object,OPEN — ORGAN-TREATMENT AND APPROVAL CLAIMS NOT ESTABLISHED,Aidan Coleman,,CERT-PKS-000077,,,,,,2026-07-16,,Root: CERT-PKS-000077
-CERT-EKS-000183,Vesugen Chemical Identity and Primary-Source Gap,EKS,Evidence Object,OPEN — CANONICAL MOLECULE NOT YET CLOSED,Aidan Coleman,,CERT-PKS-000078,,,,,,2026-07-16,,Root: CERT-PKS-000078
-CERT-EKS-000184,Vesugen Human and Regulatory Evidence Boundary,EKS,Evidence Object,OPEN — ORGAN-TREATMENT AND APPROVAL CLAIMS NOT ESTABLISHED,Aidan Coleman,,CERT-PKS-000078,,,,,,2026-07-16,,Root: CERT-PKS-000078
+CERT-PKS-000068,Bronchogen,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
+CERT-PKS-000069,Cardiogen,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
+CERT-PKS-000070,Cortagen,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
+CERT-PKS-000071,Livagen,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
+CERT-PKS-000072,Pancragen,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
+CERT-PKS-000073,Prostamax,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
+CERT-PKS-000074,Cartalax,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
+CERT-PKS-000075,Chonluten,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
+CERT-PKS-000076,Crystagen,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
+CERT-PKS-000077,Ovagen,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
+CERT-PKS-000078,Vesugen,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
+CERT-PKS-000079,Afamelanotide / Melanotan I,PKS,Peptide / Authorised-Active-Substance Knowledge Asset,Catalogue Reviewed — Authorised-Product Boundary Active — Not Platinum Certified,Aidan Coleman,,,,,,,,2026-07-16,,Build 0026
+CERT-PKS-000080,Bremelanotide / PT-141,PKS,Peptide / Authorised-Active-Substance Knowledge Asset,Catalogue Reviewed — Authorised-Product Boundary Active — Not Platinum Certified,Aidan Coleman,,,,,,,,2026-07-16,,Build 0026
+CERT-BKS-000145,Alpha-MSH and Melanocortin-System Biology,BKS,Biology Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0026
+CERT-BKS-000146,Melanocortin-1 Receptor,BKS,Biology Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0026
+CERT-BKS-000147,"Eumelanin, Photoprotection and Pigmentation",BKS,Biology Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0026
+CERT-BKS-000148,Central Melanocortin and Sexual-Desire Signalling,BKS,Biology Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0026
+CERT-BKS-000149,Bremelanotide Receptor-Selectivity Context,BKS,Biology Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0026
+CERT-CKS-000043,Erythropoietic Protoporphyria Phototoxicity,CKS,Condition Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0026
+CERT-CKS-000044,Acquired Generalised Hypoactive Sexual Desire Disorder,CKS,Condition Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0026
+CERT-MKS-000123,"Skin Lesion, Nevus and Full-Body Dermatology Monitoring",MKS,Monitoring Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0026
+CERT-MKS-000124,Phototoxicity and Pain-Free Light Exposure,MKS,Monitoring Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0026
+CERT-MKS-000125,General and Focal Pigmentation Changes,MKS,Monitoring Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0026
+CERT-MKS-000126,"Blood Pressure, Heart Rate and Cardiovascular Risk",MKS,Monitoring Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0026
+CERT-MKS-000127,Nausea and Gastrointestinal Tolerability,MKS,Monitoring Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0026
+CERT-MKS-000128,"Sexual Desire, Distress and Indication Validity",MKS,Monitoring Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0026
+CERT-GKS-000073,EPP Photoprotection,GKS,Goal Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0026
+CERT-GKS-000074,Melanocortin Pigmentation Research,GKS,Goal Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0026
+CERT-GKS-000075,Evidence-Based HSDD Treatment Context,GKS,Goal Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0026
+CERT-GKS-000076,Sexual-Desire Neurobiology Research,GKS,Goal Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0026
+CERT-SKS-000084,"Afamelanotide Skin, Pigmentation, Implant and Product-Equivalence Safety",SKS,Safety Object,Active,Aidan Coleman,,CERT-PKS-000079,,,,,,2026-07-16,,Build 0026
+CERT-SKS-000085,"Bremelanotide Cardiovascular, Nausea, Hyperpigmentation and Indication Safety",SKS,Safety Object,Active,Aidan Coleman,,CERT-PKS-000080,,,,,,2026-07-16,,Build 0026
+CERT-EKS-000185,Afamelanotide Identity and Authorised Product Source Set,EKS,Evidence Object,AUTHORITATIVE PRODUCT SOURCES IDENTIFIED — CURRENT LABEL REVIEW REQUIRED,Aidan Coleman,,CERT-PKS-000079,,,,,,2026-07-16,,Root: CERT-PKS-000079
+CERT-EKS-000186,Afamelanotide EPP Clinical and Catalogue Boundary Evidence,EKS,Evidence Object,PRIMARY PROGRAMME MAP CREATED — EXTRACTION REQUIRED,Aidan Coleman,,CERT-PKS-000079,,,,,,2026-07-16,,Root: CERT-PKS-000079
+CERT-EKS-000187,Bremelanotide Authorised Label and Phase 3 Evidence,EKS,Evidence Object,AUTHORITATIVE PRODUCT SOURCES IDENTIFIED — EXTRACTION REQUIRED,Aidan Coleman,,CERT-PKS-000080,,,,,,2026-07-16,,Root: CERT-PKS-000080
+CERT-EKS-000188,"Bremelanotide Safety, Population and Performance-Claim Boundary",EKS,Evidence Object,CURRENT LABEL AND POST-AUTHORISATION REVIEW REQUIRED,Aidan Coleman,,CERT-PKS-000080,,,,,,2026-07-16,,Root: CERT-PKS-000080

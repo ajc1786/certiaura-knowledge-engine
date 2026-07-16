@@ -1,0 +1,19 @@
+{
+  "asset_id": "CERT-EKS-000185",
+  "asset_name": "Afamelanotide Identity and Authorised Product Source Set",
+  "root_asset": "CERT-PKS-000079",
+  "knowledge_system": "EKS",
+  "asset_type": "Evidence Object",
+  "version": "0.1.0",
+  "status": "AUTHORITATIVE PRODUCT SOURCES IDENTIFIED — CURRENT LABEL REVIEW REQUIRED",
+  "source_domain": "FDA Scenesse prescribing information, EMA Scenesse EPAR/product information, afamelanotide sequence and product-identity sources",
+  "evidence_type": "Authorised product / identity evidence",
+  "last_review": "2026-07-16",
+  "direct_complete_extraction": false,
+  "prohibited_use": [
+    "Cosmetic-tanning, sexual-performance, dosing or reconstitution guidance",
+    "Transfer from Scenesse implant to supplier MT-1 powder",
+    "Transfer from Vyleesi autoinjector to supplier PT-141 powder",
+    "Transfer between afamelanotide, bremelanotide and Melanotan II"
+  ]
+}

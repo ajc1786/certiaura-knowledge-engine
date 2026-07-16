@@ -1,0 +1,36 @@
+{
+  "asset_uai": "CERT-PKS-000079",
+  "asset_name": "Afamelanotide / Melanotan I",
+  "status_as_of": "2026-07-16",
+  "overall_status": "AUTHORISED SCENESSE IMPLANT CONTEXTS EXIST FOR EPP — CATALOGUE POWDER IS NOT AN AUTHORISED-PRODUCT EQUIVALENT",
+  "regulatory_records": [
+    {
+      "jurisdiction": "United States",
+      "authority": "FDA",
+      "current_status": "Scenesse afamelanotide implant has an authorised EPP indication. The catalogue powder is not the authorised implant.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Approval, label, safety, product availability, enforcement, trial or anti-doping change"
+    },
+    {
+      "jurisdiction": "European Union",
+      "authority": "EMA / European Commission",
+      "current_status": "Scenesse is authorised for EPP under product-specific conditions. The catalogue powder does not inherit the authorisation.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Approval, label, safety, product availability, enforcement, trial or anti-doping change"
+    },
+    {
+      "jurisdiction": "United Kingdom",
+      "authority": "MHRA",
+      "current_status": "Current product availability and authorisation require direct official verification; no catalogue-product claim.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Approval, label, safety, product availability, enforcement, trial or anti-doping change"
+    },
+    {
+      "jurisdiction": "International sport",
+      "authority": "WADA",
+      "current_status": "Current athlete-specific verification required before any permitted-status claim.",
+      "monitoring_state": "EVENT-TRIGGERED",
+      "next_review_trigger": "Approval, label, safety, product availability, enforcement, trial or anti-doping change"
+    }
+  ]
+}

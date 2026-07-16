@@ -1,0 +1,19 @@
+{
+  "asset_id": "CERT-EKS-000188",
+  "asset_name": "Bremelanotide Safety, Population and Performance-Claim Boundary",
+  "root_asset": "CERT-PKS-000080",
+  "knowledge_system": "EKS",
+  "asset_type": "Evidence Object",
+  "version": "0.1.0",
+  "status": "CURRENT LABEL AND POST-AUTHORISATION REVIEW REQUIRED",
+  "source_domain": "Cardiovascular, nausea, hyperpigmentation, pregnancy, indication-exclusion and not-for-sexual-performance label controls",
+  "evidence_type": "Safety / claim-control evidence",
+  "last_review": "2026-07-16",
+  "direct_complete_extraction": false,
+  "prohibited_use": [
+    "Cosmetic-tanning, sexual-performance, dosing or reconstitution guidance",
+    "Transfer from Scenesse implant to supplier MT-1 powder",
+    "Transfer from Vyleesi autoinjector to supplier PT-141 powder",
+    "Transfer between afamelanotide, bremelanotide and Melanotan II"
+  ]
+}

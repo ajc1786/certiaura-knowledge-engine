@@ -1,43 +1,36 @@
 # CERTIAURA PRODUCTION DASHBOARD
 
-**Build:** 0025B  
+**Build:** 0026  
 **Date:** 2026-07-16
 
-## Catalogue C6B complete
+## Catalogue C7 complete
 
-### New supplier product-family assets
+### New assets
 
-- CERT-PKS-000068 — Bronchogen
-- CERT-PKS-000069 — Cardiogen
-- CERT-PKS-000070 — Cortagen
-- CERT-PKS-000071 — Livagen
-- CERT-PKS-000072 — Pancragen
-- CERT-PKS-000073 — Prostamax
-- CERT-PKS-000074 — Cartalax
-- CERT-PKS-000075 — Chonluten
-- CERT-PKS-000076 — Crystagen
-- CERT-PKS-000077 — Ovagen
-- CERT-PKS-000078 — Vesugen
+- CERT-PKS-000079 — Afamelanotide / Melanotan I
+- CERT-PKS-000080 — Bremelanotide / PT-141
+
+### Existing asset retained
+
+- CERT-PKS-000009 — Melanotan II
 
 ### Supporting objects
 
-- CERT-EKS-000163–000184
-- CERT-SKS-000073–000083
-- CERT-BKS-000142–000144
-- CERT-CKS-000032–000042
-- CERT-MKS-000119–000122
-- CERT-GKS-000061–000072
+- CERT-EKS-000185–000188
+- CERT-SKS-000084–000085
+- CERT-BKS-000145–000149
+- CERT-CKS-000043–000044
+- CERT-MKS-000123–000128
+- CERT-GKS-000073–000076
 
-## Critical outcome
+## Critical outcomes
 
-All eleven catalogue entries are captured without inventing chemical sequences, organ selectivity or treatment efficacy.
-
-Their permanent identifiers represent supplier product families until primary-source and analytical identity closure is complete.
-
-## Catalogue C6 completion
-
-Builds 0025A and 0025B complete the Mitochondrial, Longevity & Short Regulatory Peptide segment.
+- Scenesse implant approval does not transfer to supplier MT-1 powder.
+- Vyleesi autoinjector approval does not transfer to supplier PT-141 powder.
+- Afamelanotide, Melanotan II and bremelanotide remain separate.
+- EPP photoprotection is separate from cosmetic tanning.
+- HSDD treatment is separate from universal libido or sexual-performance claims.
 
 ## Next task
 
-**Build 0026 — Pigmentation & Sexual-Health Peptides**
+**Build 0027 — Blends & Supplier Combination Products**

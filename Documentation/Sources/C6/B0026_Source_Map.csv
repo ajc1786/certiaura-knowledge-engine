@@ -1,0 +1,11 @@
+Asset,Source,URL,Purpose
+Afamelanotide,FDA prescribing information,https://www.accessdata.fda.gov/drugsatfda_docs/label/2019/210797s000lbl.pdf,"Scenesse indication, implant form, skin monitoring and adverse reactions"
+Afamelanotide,EMA EPAR,https://www.ema.europa.eu/en/medicines/human/EPAR/scenesse,"Current European Union authorisation, indication and product information"
+Afamelanotide,FDA Drugs@FDA,https://www.accessdata.fda.gov/scripts/cder/daf/,Current United States approval and latest label search
+Afamelanotide,ClinicalTrials.gov,https://clinicaltrials.gov/search?term=afamelanotide,EPP and other clinical-development records
+Bremelanotide,FDA prescribing information,https://www.accessdata.fda.gov/drugsatfda_docs/label/2019/210557s000lbl.pdf,"Vyleesi indication, cardiovascular, pigmentation and nausea controls"
+Bremelanotide,FDA Drugs@FDA,https://www.accessdata.fda.gov/scripts/cder/daf/,Current United States approval and latest label search
+Bremelanotide,ClinicalTrials.gov,https://clinicaltrials.gov/search?term=bremelanotide,Pivotal and post-authorisation trial records
+Bremelanotide,PubMed,https://pubmed.ncbi.nlm.nih.gov/?term=bremelanotide+phase+3+HSDD,Primary phase 3 and sexual-medicine evidence
+All assets,MHRA Products,https://products.mhra.gov.uk/,Current United Kingdom product-authorisation verification
+All assets,WADA Prohibited List,https://www.wada-ama.org/en/prohibited-list,Current athlete-specific status verification

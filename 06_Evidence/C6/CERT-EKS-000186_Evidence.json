@@ -1,0 +1,19 @@
+{
+  "asset_id": "CERT-EKS-000186",
+  "asset_name": "Afamelanotide EPP Clinical and Catalogue Boundary Evidence",
+  "root_asset": "CERT-PKS-000079",
+  "knowledge_system": "EKS",
+  "asset_type": "Evidence Object",
+  "version": "0.1.0",
+  "status": "PRIMARY PROGRAMME MAP CREATED — EXTRACTION REQUIRED",
+  "source_domain": "EPP pivotal trials, pain-free light-exposure outcomes, skin monitoring and implant-versus-powder evidence boundary",
+  "evidence_type": "Human clinical / evidence-boundary object",
+  "last_review": "2026-07-16",
+  "direct_complete_extraction": false,
+  "prohibited_use": [
+    "Cosmetic-tanning, sexual-performance, dosing or reconstitution guidance",
+    "Transfer from Scenesse implant to supplier MT-1 powder",
+    "Transfer from Vyleesi autoinjector to supplier PT-141 powder",
+    "Transfer between afamelanotide, bremelanotide and Melanotan II"
+  ]
+}
