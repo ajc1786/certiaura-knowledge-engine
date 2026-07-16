@@ -1,24 +1,24 @@
 # CERTIAURA CHANGE LOG
 
-## Build 0031D — Remaining Combination-Product Analytical Closure
+## Build 0032 — Priority Closure Programme Status & Next-Wave Audit
 **Date:** 2026-07-16
 
-Updated existing assets:
+Audited:
 
-- CERT-PKS-000081–000083
-- CERT-PKS-000085–000088
+- Build 0030A;
+- closure Waves 1–4;
+- 51 current P0/P1 assets;
+- 30 Product Passports;
+- 50 closure evidence objects;
+- all direct-sale and certification gates.
 
-Allocated:
+Confirmed:
 
-- CERT-PPS-000024–000030
-- CERT-EKS-000269–000282
+- all 13 P0 assets received closure waves;
+- 12 of 38 P1 assets received closure waves;
+- 26 P1 assets remain;
+- all closure-wave direct-sale gates remain blocked;
+- no Platinum certification exists;
+- UAI allocation remains continuous through the current maxima.
 
-Added:
-
-- seven field-level combination Product Passports;
-- component identity, fixed-ratio, compatibility and stability gates;
-- current FDA compounding safety controls;
-- current parent clinical-development and authorised-product boundaries;
-- combination closure and passport registers.
-
-No product-family UAI, treatment protocol, dosing protocol or Platinum certification was created.
+No permanent UAI was allocated by Build 0032.

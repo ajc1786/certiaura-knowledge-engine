@@ -1,0 +1,17 @@
+File,Size Bytes,Build
+Assets/Brand/CertiAura_Brand_Master.png,2371046,0032
+BUILD_0032_READ_ME.md,1116,0032
+Documentation/Audit/Closure_Wave_Build_Status.csv,527,0032
+Documentation/Audit/Closure_Wave_Metrics.csv,239,0032
+Documentation/Audit/Next_Wave_Build_Plan.csv,1400,0032
+Documentation/Audit/Priority_Closure_Current_Register.csv,17792,0032
+Documentation/Audit/Priority_Closure_Programme_Metrics.json,3142,0032
+Documentation/Audit/Priority_Closure_Status_Summary.md,3355,0032
+Documentation/Audit/Priority_Product_Passport_Coverage.csv,6610,0032
+Documentation/Audit/Remaining_P1_Closure_Queue.csv,6191,0032
+Documentation/Audit/UAI_Continuity_After_0031D.csv,434,0032
+Documentation/B0032_Validation.md,906,0032
+Documentation/CHANGELOG.md,613,0032
+Documentation/Master_Asset_Register.csv,250,0032
+Documentation/Production_Dashboard.md,735,0032
+Scripts/validate_priority_closure_audit.py,1779,0032

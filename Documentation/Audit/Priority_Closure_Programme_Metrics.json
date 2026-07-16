@@ -1,0 +1,80 @@
+{
+  "build": "0032",
+  "status_date": "2026-07-16",
+  "current_product_assets": {
+    "total": 102,
+    "PKS": 90,
+    "MPS": 12
+  },
+  "priority_assets": {
+    "total": 51,
+    "P0": 13,
+    "P1": 38
+  },
+  "closure_wave_coverage": {
+    "assets_with_wave_applied": 25,
+    "coverage_percent": 49.02,
+    "P0_wave_applied": 13,
+    "P0_total": 13,
+    "P0_percent": 100.0,
+    "P1_wave_applied": 12,
+    "P1_total": 38,
+    "P1_percent": 31.58,
+    "coverage_correction_foundation_only": 2,
+    "remaining_priority_assets": 26
+  },
+  "product_passports": {
+    "current_total_system_objects": 30,
+    "priority_assets_with_passport": 30,
+    "priority_assets_without_passport": 21,
+    "new_passports_in_waves_1_to_4": 18,
+    "preexisting_passports_patched_in_waves_1_to_4": 7
+  },
+  "evidence_closure": {
+    "new_EKS_in_waves_1_to_4": 50,
+    "coverage_correction_EKS_229_to_232": 4,
+    "next_available_EKS": "CERT-EKS-000283"
+  },
+  "commercial_and_certification": {
+    "wave_assets_with_direct_sale_gate_blocked": 25,
+    "platinum_certifications": 0
+  },
+  "next_waves": [
+    {
+      "Recommended Build": "0033A",
+      "Title": "Biochemical, Metabolic & Coverage-Correction Closure",
+      "Asset Count": 7,
+      "Assets": "CERT-MPS-000001–000005; CERT-PKS-000089–000090",
+      "New PPS Allocation": "CERT-PPS-000031–000032",
+      "New EKS Allocation": "CERT-EKS-000283–000296",
+      "Primary Focus": "AICAR chemical form; melatonin route/formulation; glutathione redox and sterile quality; 5-amino-1MQ salt and human evidence; NAD+/NADH identity; Elamipretide supplier equivalence; generic GLP-1 molecular identity."
+    },
+    {
+      "Recommended Build": "0033B",
+      "Title": "Biologic, Glycoprotein & Mixture Identity Closure",
+      "Asset Count": 6,
+      "Assets": "CERT-PKS-000028; CERT-PKS-000032–000033; CERT-PKS-000044; CERT-PKS-000052; CERT-PKS-000063",
+      "New PPS Allocation": "CERT-PPS-000033–000038",
+      "New EKS Allocation": "CERT-EKS-000297–000308",
+      "Primary Focus": "PEG-MGF identity; hCG and menotropin glycoprotein/product identity; branded Cerebrolysin formulation; Thymalin mixture identity; Humanin variant control."
+    },
+    {
+      "Recommended Build": "0033C",
+      "Title": "Senolytic & Short Regulatory Peptide Identity Closure",
+      "Asset Count": 6,
+      "Assets": "CERT-PKS-000064; CERT-PKS-000066; CERT-PKS-000068–000071",
+      "New PPS Allocation": "CERT-PPS-000039–000044",
+      "New EKS Allocation": "CERT-EKS-000309–000320",
+      "Primary Focus": "FOXO4-DRI D-retro-inverso identity; Vilon; Bronchogen; Cardiogen; Cortagen; Livagen sequence and supplier equivalence."
+    },
+    {
+      "Recommended Build": "0033D",
+      "Title": "Remaining Organ-Regulatory Peptide Identity Closure",
+      "Asset Count": 7,
+      "Assets": "CERT-PKS-000072–000078",
+      "New PPS Allocation": "CERT-PPS-000045–000051",
+      "New EKS Allocation": "CERT-EKS-000321–000334",
+      "Primary Focus": "Pancragen, Prostamax, Cartalax, Chonluten, Crystagen, Ovagen and Vesugen sequence, termini, supplier analytics and human-evidence boundaries."
+    }
+  ]
+}
