@@ -1,0 +1,21 @@
+{
+  "asset_id": "CERT-EKS-000042",
+  "asset_name": "TB-500 Fragment Identity and Detection Evidence",
+  "knowledge_system": "EKS",
+  "asset_type": "Evidence Object",
+  "version": "0.1.0",
+  "status": "EVIDENCE LEAD — PRIMARY EXTRACTION REQUIRED",
+  "root_asset_name": "Thymosin Beta-4 / TB-500",
+  "publication_or_source_set": "Ac-LKKTETQ identity, metabolism and anti-doping detection source set",
+  "evidence_type": "Identity / analytical evidence",
+  "doi": null,
+  "direct_extraction_completed": false,
+  "last_review": "2026-07-16",
+  "permitted_use": "Evidence-domain mapping and cautious summary only.",
+  "prohibited_use": [
+    "Precise quantitative claims before extraction",
+    "Transfer between chemically distinct identities",
+    "Universal human dosing",
+    "Approval or safety claims without authoritative support"
+  ]
+}

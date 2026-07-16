@@ -1,0 +1,21 @@
+{
+  "asset_id": "CERT-EKS-000045",
+  "asset_name": "Melanotan II Regulator Warning Evidence",
+  "knowledge_system": "EKS",
+  "asset_type": "Evidence Object",
+  "version": "0.1.0",
+  "status": "EVIDENCE LEAD — PRIMARY EXTRACTION REQUIRED",
+  "root_asset_name": "Melanotan II",
+  "publication_or_source_set": "FDA, MHRA and other regulator warning source set",
+  "evidence_type": "Regulatory evidence object",
+  "doi": null,
+  "direct_extraction_completed": false,
+  "last_review": "2026-07-16",
+  "permitted_use": "Evidence-domain mapping and cautious summary only.",
+  "prohibited_use": [
+    "Precise quantitative claims before extraction",
+    "Transfer between chemically distinct identities",
+    "Universal human dosing",
+    "Approval or safety claims without authoritative support"
+  ]
+}

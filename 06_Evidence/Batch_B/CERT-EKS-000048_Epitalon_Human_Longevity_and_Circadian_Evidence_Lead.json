@@ -1,0 +1,21 @@
+{
+  "asset_id": "CERT-EKS-000048",
+  "asset_name": "Epitalon Human Longevity and Circadian Evidence Lead",
+  "knowledge_system": "EKS",
+  "asset_type": "Evidence Object",
+  "version": "0.1.0",
+  "status": "EVIDENCE LEAD — PRIMARY EXTRACTION REQUIRED",
+  "root_asset_name": "Epitalon",
+  "publication_or_source_set": "Older human telomere, melatonin, morbidity and mortality source set",
+  "evidence_type": "Human evidence lead",
+  "doi": null,
+  "direct_extraction_completed": false,
+  "last_review": "2026-07-16",
+  "permitted_use": "Evidence-domain mapping and cautious summary only.",
+  "prohibited_use": [
+    "Precise quantitative claims before extraction",
+    "Transfer between chemically distinct identities",
+    "Universal human dosing",
+    "Approval or safety claims without authoritative support"
+  ]
+}

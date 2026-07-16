@@ -1,0 +1,40 @@
+{
+  "asset_uai": "CERT-PKS-000008",
+  "asset_name": "Thymosin Beta-4 / TB-500 Identity Family",
+  "status_as_of": "2026-07-16",
+  "overall_status": "IDENTITY-SENSITIVE / ATHLETE WARNING",
+  "regulatory_records": [
+    {
+      "jurisdiction": "United States",
+      "authority": "FDA",
+      "status_category": "Approval / compounding",
+      "current_status": "No universal approval claim; full-length Tβ4 and TB-500 fragment require separate status review.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Any approval, warning, enforcement, anti-doping, compounding or commercial-route change"
+    },
+    {
+      "jurisdiction": "United Kingdom",
+      "authority": "MHRA",
+      "status_category": "Human-use route",
+      "current_status": "No marketing-authorisation claim.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Any approval, warning, enforcement, anti-doping, compounding or commercial-route change"
+    },
+    {
+      "jurisdiction": "European Union",
+      "authority": "EMA / European Commission",
+      "status_category": "Marketing authorisation",
+      "current_status": "No marketing-authorisation claim.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Any approval, warning, enforcement, anti-doping, compounding or commercial-route change"
+    },
+    {
+      "jurisdiction": "International sport",
+      "authority": "WADA",
+      "status_category": "Anti-doping",
+      "current_status": "Prominent prohibited-substance warning required pending current annual-list closure.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Any approval, warning, enforcement, anti-doping, compounding or commercial-route change"
+    }
+  ]
+}

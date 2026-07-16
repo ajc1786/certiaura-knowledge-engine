@@ -1,0 +1,21 @@
+{
+  "asset_id": "CERT-EKS-000038",
+  "asset_name": "GHK-Cu Wound-Healing Preclinical Evidence",
+  "knowledge_system": "EKS",
+  "asset_type": "Evidence Object",
+  "version": "0.1.0",
+  "status": "EVIDENCE LEAD — PRIMARY EXTRACTION REQUIRED",
+  "root_asset_name": "GHK-Cu",
+  "publication_or_source_set": "Preclinical wound-repair and matrix-remodelling studies",
+  "evidence_type": "Preclinical evidence set",
+  "doi": null,
+  "direct_extraction_completed": false,
+  "last_review": "2026-07-16",
+  "permitted_use": "Evidence-domain mapping and cautious summary only.",
+  "prohibited_use": [
+    "Precise quantitative claims before extraction",
+    "Transfer between chemically distinct identities",
+    "Universal human dosing",
+    "Approval or safety claims without authoritative support"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "asset_uai": "CERT-PKS-000010",
+  "asset_name": "Epitalon",
+  "status_as_of": "2026-07-16",
+  "overall_status": "EXPERIMENTAL / NO APPROVAL CLAIM",
+  "regulatory_records": [
+    {
+      "jurisdiction": "United States",
+      "authority": "FDA",
+      "status_category": "Approval / compounding",
+      "current_status": "No approval claim; current compounding and enforcement status requires review.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Any approval, warning, enforcement, anti-doping, compounding or commercial-route change"
+    },
+    {
+      "jurisdiction": "United Kingdom",
+      "authority": "MHRA",
+      "status_category": "Marketing authorisation",
+      "current_status": "No marketing-authorisation claim.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Any approval, warning, enforcement, anti-doping, compounding or commercial-route change"
+    },
+    {
+      "jurisdiction": "European Union",
+      "authority": "EMA / European Commission",
+      "status_category": "Marketing authorisation",
+      "current_status": "No marketing-authorisation claim.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Any approval, warning, enforcement, anti-doping, compounding or commercial-route change"
+    },
+    {
+      "jurisdiction": "International sport",
+      "authority": "WADA",
+      "status_category": "Anti-doping",
+      "current_status": "Current asset-specific verification required.",
+      "monitoring_state": "EVENT-TRIGGERED",
+      "next_review_trigger": "Any approval, warning, enforcement, anti-doping, compounding or commercial-route change"
+    }
+  ]
+}

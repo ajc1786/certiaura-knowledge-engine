@@ -1,0 +1,40 @@
+{
+  "asset_uai": "CERT-PKS-000007",
+  "asset_name": "GHK-Cu",
+  "status_as_of": "2026-07-16",
+  "overall_status": "COSMETIC AND MEDICINAL CONTEXTS SEPARATED",
+  "regulatory_records": [
+    {
+      "jurisdiction": "United States",
+      "authority": "FDA",
+      "status_category": "Cosmetic / drug / compounding status",
+      "current_status": "No injectable approval claim; cosmetic ingredient and drug claims require separate treatment.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Any approval, warning, enforcement, anti-doping, compounding or commercial-route change"
+    },
+    {
+      "jurisdiction": "United Kingdom",
+      "authority": "MHRA / cosmetic framework",
+      "status_category": "Human-use injectable route",
+      "current_status": "No injectable authorisation claim; topical cosmetic status does not create an injectable route.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Any approval, warning, enforcement, anti-doping, compounding or commercial-route change"
+    },
+    {
+      "jurisdiction": "European Union",
+      "authority": "EMA / cosmetic framework",
+      "status_category": "Human-use injectable route",
+      "current_status": "No medicinal authorisation claim.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Any approval, warning, enforcement, anti-doping, compounding or commercial-route change"
+    },
+    {
+      "jurisdiction": "International sport",
+      "authority": "WADA",
+      "status_category": "Anti-doping",
+      "current_status": "Asset-specific current verification required where athlete use is contemplated.",
+      "monitoring_state": "EVENT-TRIGGERED",
+      "next_review_trigger": "Any approval, warning, enforcement, anti-doping, compounding or commercial-route change"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "asset_uai": "CERT-PKS-000009",
+  "asset_name": "Melanotan II",
+  "status_as_of": "2026-07-16",
+  "overall_status": "UNAPPROVED / REGULATOR-WARNING PRIORITY",
+  "regulatory_records": [
+    {
+      "jurisdiction": "United States",
+      "authority": "FDA",
+      "status_category": "Approval / enforcement",
+      "current_status": "No approval claim; regulator-warning and enforcement monitoring required.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Any approval, warning, enforcement, anti-doping, compounding or commercial-route change"
+    },
+    {
+      "jurisdiction": "United Kingdom",
+      "authority": "MHRA",
+      "status_category": "Unlicensed tanning product",
+      "current_status": "No authorisation claim; regulator-warning and illegal-supply controls required.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Any approval, warning, enforcement, anti-doping, compounding or commercial-route change"
+    },
+    {
+      "jurisdiction": "European Union",
+      "authority": "National regulators / EMA context",
+      "status_category": "Unlicensed tanning product",
+      "current_status": "No EU marketing-authorisation claim.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Any approval, warning, enforcement, anti-doping, compounding or commercial-route change"
+    },
+    {
+      "jurisdiction": "International sport",
+      "authority": "WADA",
+      "status_category": "Anti-doping",
+      "current_status": "Current asset-specific verification required.",
+      "monitoring_state": "EVENT-TRIGGERED",
+      "next_review_trigger": "Any approval, warning, enforcement, anti-doping, compounding or commercial-route change"
+    }
+  ]
+}

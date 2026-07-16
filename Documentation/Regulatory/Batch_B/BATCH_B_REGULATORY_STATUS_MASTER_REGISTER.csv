@@ -1,0 +1,17 @@
+Asset UAI,Asset Name,Jurisdiction,Authority,Status Category,Current Position,Monitoring,Status Date
+CERT-PKS-000007,GHK-Cu,United States,FDA,Cosmetic / drug / compounding status,No injectable approval claim; cosmetic ingredient and drug claims require separate treatment.,ACTIVE,2026-07-16
+CERT-PKS-000007,GHK-Cu,United Kingdom,MHRA / cosmetic framework,Human-use injectable route,No injectable authorisation claim; topical cosmetic status does not create an injectable route.,ACTIVE,2026-07-16
+CERT-PKS-000007,GHK-Cu,European Union,EMA / cosmetic framework,Human-use injectable route,No medicinal authorisation claim.,ACTIVE,2026-07-16
+CERT-PKS-000007,GHK-Cu,International sport,WADA,Anti-doping,Asset-specific current verification required where athlete use is contemplated.,EVENT-TRIGGERED,2026-07-16
+CERT-PKS-000008,Thymosin Beta-4 / TB-500 Identity Family,United States,FDA,Approval / compounding,No universal approval claim; full-length Tβ4 and TB-500 fragment require separate status review.,ACTIVE,2026-07-16
+CERT-PKS-000008,Thymosin Beta-4 / TB-500 Identity Family,United Kingdom,MHRA,Human-use route,No marketing-authorisation claim.,ACTIVE,2026-07-16
+CERT-PKS-000008,Thymosin Beta-4 / TB-500 Identity Family,European Union,EMA / European Commission,Marketing authorisation,No marketing-authorisation claim.,ACTIVE,2026-07-16
+CERT-PKS-000008,Thymosin Beta-4 / TB-500 Identity Family,International sport,WADA,Anti-doping,Prominent prohibited-substance warning required pending current annual-list closure.,ACTIVE,2026-07-16
+CERT-PKS-000009,Melanotan II,United States,FDA,Approval / enforcement,No approval claim; regulator-warning and enforcement monitoring required.,ACTIVE,2026-07-16
+CERT-PKS-000009,Melanotan II,United Kingdom,MHRA,Unlicensed tanning product,No authorisation claim; regulator-warning and illegal-supply controls required.,ACTIVE,2026-07-16
+CERT-PKS-000009,Melanotan II,European Union,National regulators / EMA context,Unlicensed tanning product,No EU marketing-authorisation claim.,ACTIVE,2026-07-16
+CERT-PKS-000009,Melanotan II,International sport,WADA,Anti-doping,Current asset-specific verification required.,EVENT-TRIGGERED,2026-07-16
+CERT-PKS-000010,Epitalon,United States,FDA,Approval / compounding,No approval claim; current compounding and enforcement status requires review.,ACTIVE,2026-07-16
+CERT-PKS-000010,Epitalon,United Kingdom,MHRA,Marketing authorisation,No marketing-authorisation claim.,ACTIVE,2026-07-16
+CERT-PKS-000010,Epitalon,European Union,EMA / European Commission,Marketing authorisation,No marketing-authorisation claim.,ACTIVE,2026-07-16
+CERT-PKS-000010,Epitalon,International sport,WADA,Anti-doping,Current asset-specific verification required.,EVENT-TRIGGERED,2026-07-16
