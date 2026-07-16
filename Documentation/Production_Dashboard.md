@@ -1,38 +1,46 @@
 # CERTIAURA PRODUCTION DASHBOARD
 
-**Build:** 0028A  
+**Build:** 0028B  
 **Date:** 2026-07-16
 
-## Catalogue C9A complete
+## Catalogue C9B complete
 
 ### Marketplace Product System assets
 
-- CERT-MPS-000001 — AICAR Supplier Product Family
-- CERT-MPS-000002 — Melatonin Supplier Vial Family
-- CERT-MPS-000003 — Glutathione Supplier Vial Family
-- CERT-MPS-000004 — 5-Amino-1MQ Supplier Product Family
-- CERT-MPS-000005 — NAD Supplier Product Family
-- CERT-MPS-000006 — SLU-PP-322 Identity-Candidate Product Family
+- CERT-MPS-000007 — Bacteriostatic Water Supplier Family
+- CERT-MPS-000008 — Acetic Acid Water Supplier Family
+- CERT-MPS-000009 — Botulinum Toxin Supplier Product Family
+- CERT-MPS-000010 — Hyaluronic Acid Supplier Product Family
+- CERT-MPS-000011 — Alprostadil Supplier Vial Family
+- CERT-MPS-000012 — Lemon Bottle Supplier Mixture Family
 
 ### Product Passport System assets
 
-- CERT-PPS-000001–000006
+- CERT-PPS-000007–000012
 
 ### Supporting objects
 
-- CERT-EKS-000205–000216
-- CERT-SKS-000094–000099
-- CERT-BKS-000156–000166
-- CERT-CKS-000049–000052
-- CERT-MKS-000138–000150
-- CERT-GKS-000082–000087
+- CERT-EKS-000217–000228
+- CERT-SKS-000100–000105
+- CERT-BKS-000167–000178
+- CERT-CKS-000053–000057
+- CERT-MKS-000151–000172
+- CERT-GKS-000088–000092
 
-## Critical outcome
+## Critical outcomes
 
-Non-peptide and ancillary products are now separated from the Peptide Knowledge System.
+- Duplicate WA10 and BA10 water listings are retained.
+- Acetic acid water remains blocked by missing concentration and pH.
+- Unbranded botulinum toxin is separated from all authorised brands and unit systems.
+- HA5 is not treated as a dermal filler.
+- PRO20 is not treated as Caverject.
+- Both Lemon Bottle prices are retained.
+- Lemon Bottle has an unexplained 42.5 mg/mL composition balance.
 
-The catalogue code `NJ3100` is preserved exactly, and `SLU-PP-322` remains identity blocked rather than silently corrected.
+## Catalogue milestone
+
+Builds 0020–0028B complete the structured review of supplier-catalogue pages 1–5.
 
 ## Next task
 
-**Build 0028B — Biologic, Cosmetic & Diluent Ancillary Products**
+**Catalogue Coverage & Closure Audit**

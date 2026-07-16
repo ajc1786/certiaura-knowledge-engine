@@ -1,0 +1,20 @@
+<div align="center">
+
+<img src="../Assets/Brand/CertiAura_Brand_Master.png" alt="CertiAura - Evidence. Clarity. Confidence." width="700">
+
+</div>
+
+---
+
+# CERT-MKS-000151 — Diluent Identity, Concentration and pH Verification
+
+**Status:** Foundation monitoring object  
+**Last Review:** 2026-07-16
+
+## Purpose
+
+Chemical identity, preservative, concentration, pH, tonicity and osmolarity.
+
+## Boundary
+
+This object does not create a reconstitution, injection, filler, toxin, erectile-dysfunction or fat-dissolving protocol.

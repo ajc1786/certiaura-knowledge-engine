@@ -1,0 +1,18 @@
+{
+  "asset_id": "CERT-EKS-000220",
+  "asset_name": "Acetic Acid Water Compatibility Evidence Block",
+  "root_asset": "CERT-MPS-000008",
+  "knowledge_system": "EKS",
+  "asset_type": "Evidence Object",
+  "version": "0.1.0",
+  "status": "BLOCKED BY CERT-EKS-000219",
+  "source_domain": "Exact drug-specific compatibility and stability after formulation closure",
+  "evidence_type": "Blocked evidence object",
+  "last_review": "2026-07-16",
+  "direct_complete_extraction": false,
+  "prohibited_use": [
+    "Reconstitution, injection, filler, toxin, erectile-dysfunction or fat-dissolving guidance",
+    "Authorised-product evidence transfer to supplier products",
+    "Assumption of sterility, potency units, device status or composition"
+  ]
+}

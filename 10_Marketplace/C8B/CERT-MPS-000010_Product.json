@@ -1,0 +1,94 @@
+{
+  "asset_id": "CERT-MPS-000010",
+  "asset_name": "Hyaluronic Acid Supplier Product Family",
+  "knowledge_system": "MPS",
+  "asset_type": "Marketplace Product-Family Asset",
+  "version": "0.1.0",
+  "status": "CATALOGUE REVIEWED / PRODUCT PASSPORT GAP ACTIVE / NOT QUALITY VERIFIED",
+  "owner": "Aidan Coleman",
+  "last_review": "2026-07-16",
+  "classification": "Under-specified polysaccharide raw-material or injectable-product family",
+  "aliases": [
+    "Hyaluronic acid",
+    "HA5",
+    "sodium hyaluronate candidate"
+  ],
+  "product_context": "Hyaluronic-acid evidence depends on molecular weight, source, salt, crosslinking, concentration, rheology, device configuration and injection site. A 5 mg vial is not automatically a dermal filler.",
+  "evidence_maturity": "Approved dermal fillers and other HA products exist as exact devices or medicines. Supplier powder cannot inherit those approvals.",
+  "regulatory_headline": "MOLECULAR WEIGHT, CROSSLINKING, ROUTE AND DEVICE STATUS UNRESOLVED",
+  "catalogue_supplier_skus": [
+    {
+      "catalogue_code": "HA5",
+      "specification": "Hyaluronic acid 5 mg x 10 vials",
+      "price_usd_per_kit": 198,
+      "catalogue_note": ""
+    }
+  ],
+  "relationships": [
+    {
+      "source": "CERT-MPS-000010",
+      "relationship": "HAS_PASSPORT",
+      "target": "CERT-PPS-000010"
+    },
+    {
+      "source": "CERT-MPS-000010",
+      "relationship": "HAS_SAFETY",
+      "target": "CERT-SKS-000103"
+    },
+    {
+      "source": "CERT-MPS-000010",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000223"
+    },
+    {
+      "source": "CERT-MPS-000010",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000224"
+    },
+    {
+      "source": "CERT-MPS-000010",
+      "relationship": "RELATED_TO",
+      "target": "CERT-BKS-000173"
+    },
+    {
+      "source": "CERT-MPS-000010",
+      "relationship": "RELATED_TO",
+      "target": "CERT-BKS-000174"
+    },
+    {
+      "source": "CERT-MPS-000010",
+      "relationship": "HAS_CONDITION",
+      "target": "CERT-CKS-000055"
+    },
+    {
+      "source": "CERT-MPS-000010",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000161"
+    },
+    {
+      "source": "CERT-MPS-000010",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000162"
+    },
+    {
+      "source": "CERT-MPS-000010",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000163"
+    },
+    {
+      "source": "CERT-MPS-000010",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000164"
+    },
+    {
+      "source": "CERT-MPS-000010",
+      "relationship": "SUPPORTS_GOAL",
+      "target": "CERT-GKS-000090"
+    }
+  ],
+  "product_passport": "CERT-PPS-000010",
+  "identity_verified": false,
+  "sterility_verified": false,
+  "authorised_product_equivalence": false,
+  "validated_universal_human_dosing_protocol": false
+}

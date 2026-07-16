@@ -1,0 +1,18 @@
+{
+  "asset_id": "CERT-EKS-000218",
+  "asset_name": "Supplier Bacteriostatic Water Sterility and Equivalence Gap",
+  "root_asset": "CERT-MPS-000007",
+  "knowledge_system": "EKS",
+  "asset_type": "Evidence Object",
+  "version": "0.1.0",
+  "status": "OPEN — SUPPLIER DILUENT NOT VERIFIED",
+  "source_domain": "WA10/BA10/BA05/BA03 manufacturer, preservative, sterility and compendial status",
+  "evidence_type": "Product Passport evidence gap",
+  "last_review": "2026-07-16",
+  "direct_complete_extraction": false,
+  "prohibited_use": [
+    "Reconstitution, injection, filler, toxin, erectile-dysfunction or fat-dissolving guidance",
+    "Authorised-product evidence transfer to supplier products",
+    "Assumption of sterility, potency units, device status or composition"
+  ]
+}

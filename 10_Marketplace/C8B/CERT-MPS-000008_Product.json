@@ -1,0 +1,88 @@
+{
+  "asset_id": "CERT-MPS-000008",
+  "asset_name": "Acetic Acid Water Supplier Family",
+  "knowledge_system": "MPS",
+  "asset_type": "Marketplace Product-Family Asset",
+  "version": "0.1.0",
+  "status": "CATALOGUE REVIEWED / PRODUCT PASSPORT GAP ACTIVE / NOT QUALITY VERIFIED",
+  "owner": "Aidan Coleman",
+  "last_review": "2026-07-16",
+  "classification": "Under-specified acidic diluent candidate",
+  "aliases": [
+    "Acetic acid water",
+    "AA10"
+  ],
+  "product_context": "The catalogue provides no acetic-acid concentration, pH, tonicity, sterility, preservative, compendial standard or compatibility data. No pharmaceutical-diluent identity is assigned.",
+  "evidence_maturity": "No product-specific clinical or compatibility evidence can be attributed without formulation closure.",
+  "regulatory_headline": "CONCENTRATION, PH AND STERILE-DILUENT IDENTITY UNRESOLVED",
+  "catalogue_supplier_skus": [
+    {
+      "catalogue_code": "AA10",
+      "specification": "Acetic acid water 10 mL x 10 vials",
+      "price_usd_per_kit": 12,
+      "catalogue_note": ""
+    }
+  ],
+  "relationships": [
+    {
+      "source": "CERT-MPS-000008",
+      "relationship": "HAS_PASSPORT",
+      "target": "CERT-PPS-000008"
+    },
+    {
+      "source": "CERT-MPS-000008",
+      "relationship": "HAS_SAFETY",
+      "target": "CERT-SKS-000101"
+    },
+    {
+      "source": "CERT-MPS-000008",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000219"
+    },
+    {
+      "source": "CERT-MPS-000008",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000220"
+    },
+    {
+      "source": "CERT-MPS-000008",
+      "relationship": "RELATED_TO",
+      "target": "CERT-BKS-000169"
+    },
+    {
+      "source": "CERT-MPS-000008",
+      "relationship": "HAS_CONDITION",
+      "target": "CERT-CKS-000053"
+    },
+    {
+      "source": "CERT-MPS-000008",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000151"
+    },
+    {
+      "source": "CERT-MPS-000008",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000152"
+    },
+    {
+      "source": "CERT-MPS-000008",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000155"
+    },
+    {
+      "source": "CERT-MPS-000008",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000156"
+    },
+    {
+      "source": "CERT-MPS-000008",
+      "relationship": "SUPPORTS_GOAL",
+      "target": "CERT-GKS-000088"
+    }
+  ],
+  "product_passport": "CERT-PPS-000008",
+  "identity_verified": false,
+  "sterility_verified": false,
+  "authorised_product_equivalence": false,
+  "validated_universal_human_dosing_protocol": false
+}

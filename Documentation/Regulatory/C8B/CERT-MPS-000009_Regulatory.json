@@ -1,0 +1,36 @@
+{
+  "asset_uai": "CERT-MPS-000009",
+  "asset_name": "Botulinum Toxin Supplier Product Family",
+  "status_as_of": "2026-07-16",
+  "overall_status": "SEROTYPE, BRAND AND POTENCY SYSTEM UNRESOLVED / UNBRANDED PRODUCT NOT AUTHORISED-PRODUCT EQUIVALENT",
+  "regulatory_records": [
+    {
+      "jurisdiction": "United Kingdom",
+      "authority": "MHRA",
+      "current_status": "Authorised products exist; July 2026 warning addresses iatrogenic botulism and use of unlicensed products.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Identity, approval, warning, enforcement, recall, safety or classification change"
+    },
+    {
+      "jurisdiction": "United States",
+      "authority": "FDA",
+      "current_status": "Authorised prescription products exist; unapproved online toxin products are subject to enforcement.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Identity, approval, warning, enforcement, recall, safety or classification change"
+    },
+    {
+      "jurisdiction": "European Union",
+      "authority": "EMA / national authorities",
+      "current_status": "Authorisation and units are exact-product specific.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Identity, approval, warning, enforcement, recall, safety or classification change"
+    },
+    {
+      "jurisdiction": "International sport",
+      "authority": "WADA",
+      "current_status": "Current athlete-specific verification required.",
+      "monitoring_state": "EVENT-TRIGGERED",
+      "next_review_trigger": "Identity, approval, warning, enforcement, recall, safety or classification change"
+    }
+  ]
+}

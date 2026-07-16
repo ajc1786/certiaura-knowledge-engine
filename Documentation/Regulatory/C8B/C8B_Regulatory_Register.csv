@@ -1,0 +1,20 @@
+MPS UAI,Asset Name,Jurisdiction,Authority,Position,Monitoring,Status Date
+CERT-MPS-000007,Bacteriostatic Water Supplier Family,United States,FDA / USP product context,Authorised finished bacteriostatic-water products exist; supplier equivalence and sterile release are not established.,ACTIVE,2026-07-16
+CERT-MPS-000007,Bacteriostatic Water Supplier Family,United Kingdom,MHRA,No supplier-product authorisation or sterile-diluent equivalence claim.,ACTIVE,2026-07-16
+CERT-MPS-000007,Bacteriostatic Water Supplier Family,European Union,National medicines authorities,Finished diluent status is product and jurisdiction specific.,ACTIVE,2026-07-16
+CERT-MPS-000008,Acetic Acid Water Supplier Family,Global,Formulation control,"Regulatory interpretation and use are blocked by missing concentration, pH and sterile-product identity.",BLOCKED,2026-07-16
+CERT-MPS-000008,Acetic Acid Water Supplier Family,United States,FDA,No approval or pharmaceutical-diluent claim.,ACTIVE,2026-07-16
+CERT-MPS-000008,Acetic Acid Water Supplier Family,United Kingdom,MHRA,No marketing-authorisation or diluent-suitability claim.,ACTIVE,2026-07-16
+CERT-MPS-000009,Botulinum Toxin Supplier Product Family,United Kingdom,MHRA,Authorised products exist; July 2026 warning addresses iatrogenic botulism and use of unlicensed products.,ACTIVE,2026-07-16
+CERT-MPS-000009,Botulinum Toxin Supplier Product Family,United States,FDA,Authorised prescription products exist; unapproved online toxin products are subject to enforcement.,ACTIVE,2026-07-16
+CERT-MPS-000009,Botulinum Toxin Supplier Product Family,European Union,EMA / national authorities,Authorisation and units are exact-product specific.,ACTIVE,2026-07-16
+CERT-MPS-000009,Botulinum Toxin Supplier Product Family,International sport,WADA,Current athlete-specific verification required.,EVENT-TRIGGERED,2026-07-16
+CERT-MPS-000010,Hyaluronic Acid Supplier Product Family,United States,FDA medical-device framework,Approved dermal fillers are exact prescription devices; HA5 powder has no device equivalence.,ACTIVE,2026-07-16
+CERT-MPS-000010,Hyaluronic Acid Supplier Product Family,United Kingdom,MHRA / device framework,No approved-device or professional-use equivalence claim.,ACTIVE,2026-07-16
+CERT-MPS-000010,Hyaluronic Acid Supplier Product Family,European Union,Medical-device authorities,"Device conformity is exact-product, indication and manufacturer specific.",ACTIVE,2026-07-16
+CERT-MPS-000011,Alprostadil Supplier Vial Family,United States,FDA / DailyMed,Authorised alprostadil products exist for exact routes and formulations; supplier-vial equivalence is not established.,ACTIVE,2026-07-16
+CERT-MPS-000011,Alprostadil Supplier Vial Family,United Kingdom,MHRA,Nationally authorised products exist; exact current product information requires direct verification.,ACTIVE,2026-07-16
+CERT-MPS-000011,Alprostadil Supplier Vial Family,European Union,National authorities / EMA safety procedures,"Alprostadil product status is route, formulation and country specific.",ACTIVE,2026-07-16
+CERT-MPS-000012,Lemon Bottle Supplier Mixture Family,United States,FDA,LemonBottle injectable products have been identified in warning letters as unapproved new drugs.,ACTIVE,2026-07-16
+CERT-MPS-000012,Lemon Bottle Supplier Mixture Family,United Kingdom,MHRA / local enforcement context,No authorised injectable fat-dissolving medicine claim is created.,ACTIVE,2026-07-16
+CERT-MPS-000012,Lemon Bottle Supplier Mixture Family,European Union,National medicines/device authorities,No universal authorisation claim; injectable product classification requires direct review.,ACTIVE,2026-07-16

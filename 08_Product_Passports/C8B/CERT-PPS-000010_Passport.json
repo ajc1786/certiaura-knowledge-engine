@@ -1,0 +1,39 @@
+{
+  "asset_id": "CERT-PPS-000010",
+  "asset_name": "Hyaluronic Acid Supplier Product Family Product Passport",
+  "knowledge_system": "PPS",
+  "asset_type": "Product Passport Gap Object",
+  "version": "0.1.0",
+  "status": "OPEN / NOT CERTIFIED",
+  "parent_product": "CERT-MPS-000010",
+  "last_review": "2026-07-16",
+  "required_fields": [
+    {
+      "field": "hyaluronic acid versus sodium hyaluronate",
+      "status": "OPEN"
+    },
+    {
+      "field": "source and molecular-weight distribution",
+      "status": "OPEN"
+    },
+    {
+      "field": "crosslinking chemistry and residual crosslinker",
+      "status": "OPEN"
+    },
+    {
+      "field": "concentration, rheology and particle properties",
+      "status": "OPEN"
+    },
+    {
+      "field": "sterility, endotoxin and device configuration",
+      "status": "OPEN"
+    },
+    {
+      "field": "approved product, indication and injection site",
+      "status": "OPEN"
+    }
+  ],
+  "identity_certified": false,
+  "quality_certified": false,
+  "sterility_certified": false
+}

@@ -1,18 +1,18 @@
 # CERTIAURA CHANGE LOG
 
-## Build 0028A — Biochemical & Research Ancillary Products
+## Build 0028B — Biologic, Cosmetic & Diluent Ancillary Products
 **Date:** 2026-07-16
 
 Allocated:
 
-- CERT-MPS-000001–000006
-- CERT-PPS-000001–000006
-- CERT-EKS-000205–000216
-- CERT-SKS-000094–000099
-- CERT-BKS-000156–000166
-- CERT-CKS-000049–000052
-- CERT-MKS-000138–000150
-- CERT-GKS-000082–000087
+- CERT-MPS-000007–000012
+- CERT-PPS-000007–000012
+- CERT-EKS-000217–000228
+- CERT-SKS-000100–000105
+- CERT-BKS-000167–000178
+- CERT-CKS-000053–000057
+- CERT-MKS-000151–000172
+- CERT-GKS-000088–000092
 
 Added:
 
@@ -20,15 +20,14 @@ Added:
 - six Product Passport™ gap objects;
 - twelve evidence objects;
 - six safety objects;
-- biochemical and condition objects;
-- current regulatory and anti-doping source map;
-- Cost Intelligence™ baseline.
+- duplicate and discrepancy controls;
+- regulatory and Cost Intelligence™ registers.
 
 Key controls:
 
-- Items are separated from PKS.
-- AICAR chemical-form ambiguity is explicit.
-- Melatonin oral-product status does not transfer to vial products.
-- Injectable glutathione and NAD sterile-quality risks are explicit.
-- 5-amino-1MQ remains preclinical.
-- SLU-PP-322 is not corrected to SLU-PP-332.
+- WA10 and BA10 remain duplicate listings.
+- Acetic-acid concentration is not invented.
+- Botulinum units are product specific.
+- HA powder is not treated as filler.
+- Alprostadil product status is route and formulation specific.
+- Lemon Bottle has conflicting prices and incomplete quantitative composition.

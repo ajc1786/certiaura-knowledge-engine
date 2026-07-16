@@ -1,0 +1,39 @@
+{
+  "asset_id": "CERT-PPS-000009",
+  "asset_name": "Botulinum Toxin Supplier Product Family Product Passport",
+  "knowledge_system": "PPS",
+  "asset_type": "Product Passport Gap Object",
+  "version": "0.1.0",
+  "status": "OPEN / NOT CERTIFIED",
+  "parent_product": "CERT-MPS-000009",
+  "last_review": "2026-07-16",
+  "required_fields": [
+    {
+      "field": "toxin serotype and molecular complex",
+      "status": "OPEN"
+    },
+    {
+      "field": "strain, manufacturer and brand",
+      "status": "OPEN"
+    },
+    {
+      "field": "product-specific potency assay and unit definition",
+      "status": "OPEN"
+    },
+    {
+      "field": "excipients and formulation",
+      "status": "OPEN"
+    },
+    {
+      "field": "cold chain, sterility and batch release",
+      "status": "OPEN"
+    },
+    {
+      "field": "authorised indication and jurisdiction",
+      "status": "OPEN"
+    }
+  ],
+  "identity_certified": false,
+  "quality_certified": false,
+  "sterility_certified": false
+}

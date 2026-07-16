@@ -1,0 +1,18 @@
+{
+  "asset_id": "CERT-EKS-000225",
+  "asset_name": "Alprostadil Authorised Product and Formulation Evidence",
+  "root_asset": "CERT-MPS-000011",
+  "knowledge_system": "EKS",
+  "asset_type": "Evidence Object",
+  "version": "0.1.0",
+  "status": "ROUTE- AND PRODUCT-SPECIFIC EXTRACTION REQUIRED",
+  "source_domain": "Caverject and other exact route/formulation product information",
+  "evidence_type": "Authorised product evidence",
+  "last_review": "2026-07-16",
+  "direct_complete_extraction": false,
+  "prohibited_use": [
+    "Reconstitution, injection, filler, toxin, erectile-dysfunction or fat-dissolving guidance",
+    "Authorised-product evidence transfer to supplier products",
+    "Assumption of sterility, potency units, device status or composition"
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "asset_id": "CERT-PPS-000011",
+  "asset_name": "Alprostadil Supplier Vial Family Product Passport",
+  "knowledge_system": "PPS",
+  "asset_type": "Product Passport Gap Object",
+  "version": "0.1.0",
+  "status": "OPEN / NOT CERTIFIED",
+  "parent_product": "CERT-MPS-000011",
+  "last_review": "2026-07-16",
+  "required_fields": [
+    {
+      "field": "alprostadil versus alprostadil alfadex/formulation",
+      "status": "OPEN"
+    },
+    {
+      "field": "route and dosage form",
+      "status": "OPEN"
+    },
+    {
+      "field": "excipients, diluent and concentration",
+      "status": "OPEN"
+    },
+    {
+      "field": "potency, degradation and cold chain",
+      "status": "OPEN"
+    },
+    {
+      "field": "sterility and endotoxin",
+      "status": "OPEN"
+    },
+    {
+      "field": "authorised product, indication and jurisdiction",
+      "status": "OPEN"
+    }
+  ],
+  "identity_certified": false,
+  "quality_certified": false,
+  "sterility_certified": false
+}

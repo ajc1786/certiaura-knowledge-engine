@@ -1,0 +1,29 @@
+{
+  "asset_uai": "CERT-MPS-000010",
+  "asset_name": "Hyaluronic Acid Supplier Product Family",
+  "status_as_of": "2026-07-16",
+  "overall_status": "MOLECULAR WEIGHT, CROSSLINKING, ROUTE AND DEVICE STATUS UNRESOLVED",
+  "regulatory_records": [
+    {
+      "jurisdiction": "United States",
+      "authority": "FDA medical-device framework",
+      "current_status": "Approved dermal fillers are exact prescription devices; HA5 powder has no device equivalence.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Identity, approval, warning, enforcement, recall, safety or classification change"
+    },
+    {
+      "jurisdiction": "United Kingdom",
+      "authority": "MHRA / device framework",
+      "current_status": "No approved-device or professional-use equivalence claim.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Identity, approval, warning, enforcement, recall, safety or classification change"
+    },
+    {
+      "jurisdiction": "European Union",
+      "authority": "Medical-device authorities",
+      "current_status": "Device conformity is exact-product, indication and manufacturer specific.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Identity, approval, warning, enforcement, recall, safety or classification change"
+    }
+  ]
+}

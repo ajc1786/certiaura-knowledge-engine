@@ -1,0 +1,11 @@
+MPS UAI,Asset Name,Catalogue Code,Specification,Price USD / Kit,Price USD / Vial,Price Conflict,Source,Quality Status
+CERT-MPS-000007,Bacteriostatic Water Supplier Family,WA10,bac.water 10 mL x 10 vials,12,1.2,DUPLICATE CODE FAMILY,Peptides.pdf,UNVERIFIED
+CERT-MPS-000007,Bacteriostatic Water Supplier Family,BA10,bac.water 10 mL x 10 vials,12,1.2,DUPLICATE CODE FAMILY,Peptides.pdf,UNVERIFIED
+CERT-MPS-000007,Bacteriostatic Water Supplier Family,BA05,bac.water 5 mL x 10 vials,11,1.1,NO,Peptides.pdf,UNVERIFIED
+CERT-MPS-000007,Bacteriostatic Water Supplier Family,BA03,bac.water 3 mL x 10 vials,8,0.8,NO,Peptides.pdf,UNVERIFIED
+CERT-MPS-000008,Acetic Acid Water Supplier Family,AA10,Acetic acid water 10 mL x 10 vials,12,1.2,NO,Peptides.pdf,UNVERIFIED
+CERT-MPS-000009,Botulinum Toxin Supplier Product Family,XT100,Botulinum toxin 100 IU x 10 vials,165,16.5,NO,Peptides.pdf,UNVERIFIED
+CERT-MPS-000010,Hyaluronic Acid Supplier Product Family,HA5,Hyaluronic acid 5 mg x 10 vials,198,19.8,NO,Peptides.pdf,UNVERIFIED
+CERT-MPS-000011,Alprostadil Supplier Vial Family,PRO20,Alprostadil 20 mcg x 10 vials,132,13.2,NO,Peptides.pdf,UNVERIFIED
+CERT-MPS-000012,Lemon Bottle Supplier Mixture Family,NO CODE PRINTED,Lemon Bottle 10 mL x 10 vials,103,10.3,YES,Peptides.pdf,UNVERIFIED
+CERT-MPS-000012,Lemon Bottle Supplier Mixture Family,LB10,10 mL vial; supplier states 103.5 mg/mL; pineapple extract 50 mg/mL + bromelain 10 mg/mL + riboflavin 1 mg/mL,85,8.5,YES,Peptides.pdf,UNVERIFIED

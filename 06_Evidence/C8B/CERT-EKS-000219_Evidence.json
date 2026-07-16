@@ -1,0 +1,18 @@
+{
+  "asset_id": "CERT-EKS-000219",
+  "asset_name": "Acetic Acid Water Formulation Identity Gap",
+  "root_asset": "CERT-MPS-000008",
+  "knowledge_system": "EKS",
+  "asset_type": "Evidence Object",
+  "version": "0.1.0",
+  "status": "OPEN — FORMULATION UNRESOLVED",
+  "source_domain": "Acetic-acid concentration, pH, tonicity, preservative and sterile status",
+  "evidence_type": "Critical formulation gap",
+  "last_review": "2026-07-16",
+  "direct_complete_extraction": false,
+  "prohibited_use": [
+    "Reconstitution, injection, filler, toxin, erectile-dysfunction or fat-dissolving guidance",
+    "Authorised-product evidence transfer to supplier products",
+    "Assumption of sterility, potency units, device status or composition"
+  ]
+}

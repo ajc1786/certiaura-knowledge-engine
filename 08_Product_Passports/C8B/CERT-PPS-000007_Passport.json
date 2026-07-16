@@ -1,0 +1,39 @@
+{
+  "asset_id": "CERT-PPS-000007",
+  "asset_name": "Bacteriostatic Water Supplier Family Product Passport",
+  "knowledge_system": "PPS",
+  "asset_type": "Product Passport Gap Object",
+  "version": "0.1.0",
+  "status": "OPEN / NOT CERTIFIED",
+  "parent_product": "CERT-MPS-000007",
+  "last_review": "2026-07-16",
+  "required_fields": [
+    {
+      "field": "water type and pharmacopoeial monograph",
+      "status": "OPEN"
+    },
+    {
+      "field": "benzyl alcohol identity and concentration",
+      "status": "OPEN"
+    },
+    {
+      "field": "single-dose versus multidose container status",
+      "status": "OPEN"
+    },
+    {
+      "field": "sterility, endotoxin and pyrogen status",
+      "status": "OPEN"
+    },
+    {
+      "field": "manufacturer, batch and release specification",
+      "status": "OPEN"
+    },
+    {
+      "field": "container closure and extractables/leachables",
+      "status": "OPEN"
+    }
+  ],
+  "identity_certified": false,
+  "quality_certified": false,
+  "sterility_certified": false
+}

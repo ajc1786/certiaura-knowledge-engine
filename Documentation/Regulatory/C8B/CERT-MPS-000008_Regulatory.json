@@ -1,0 +1,29 @@
+{
+  "asset_uai": "CERT-MPS-000008",
+  "asset_name": "Acetic Acid Water Supplier Family",
+  "status_as_of": "2026-07-16",
+  "overall_status": "CONCENTRATION, PH AND STERILE-DILUENT IDENTITY UNRESOLVED",
+  "regulatory_records": [
+    {
+      "jurisdiction": "Global",
+      "authority": "Formulation control",
+      "current_status": "Regulatory interpretation and use are blocked by missing concentration, pH and sterile-product identity.",
+      "monitoring_state": "BLOCKED",
+      "next_review_trigger": "Identity, approval, warning, enforcement, recall, safety or classification change"
+    },
+    {
+      "jurisdiction": "United States",
+      "authority": "FDA",
+      "current_status": "No approval or pharmaceutical-diluent claim.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Identity, approval, warning, enforcement, recall, safety or classification change"
+    },
+    {
+      "jurisdiction": "United Kingdom",
+      "authority": "MHRA",
+      "current_status": "No marketing-authorisation or diluent-suitability claim.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Identity, approval, warning, enforcement, recall, safety or classification change"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+<div align="center">
+
+<img src="../Assets/Brand/CertiAura_Brand_Master.png" alt="CertiAura - Evidence. Clarity. Confidence." width="700">
+
+</div>
+
+---
+
+# CERT-BKS-000178 — Bromelain, Plant Extract and Mixture Uncertainty
+
+**Status:** Foundation biology object  
+**Last Review:** 2026-07-16
+
+## Summary
+
+Variable plant-derived enzyme and extract composition with product-specific allergy and activity risks.

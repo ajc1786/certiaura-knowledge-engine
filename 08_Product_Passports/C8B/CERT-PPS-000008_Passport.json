@@ -1,0 +1,39 @@
+{
+  "asset_id": "CERT-PPS-000008",
+  "asset_name": "Acetic Acid Water Supplier Family Product Passport",
+  "knowledge_system": "PPS",
+  "asset_type": "Product Passport Gap Object",
+  "version": "0.1.0",
+  "status": "OPEN / NOT CERTIFIED",
+  "parent_product": "CERT-MPS-000008",
+  "last_review": "2026-07-16",
+  "required_fields": [
+    {
+      "field": "acetic-acid concentration",
+      "status": "OPEN"
+    },
+    {
+      "field": "pH, tonicity and osmolarity",
+      "status": "OPEN"
+    },
+    {
+      "field": "sterility and endotoxin",
+      "status": "OPEN"
+    },
+    {
+      "field": "preservative and excipients",
+      "status": "OPEN"
+    },
+    {
+      "field": "container and manufacturer",
+      "status": "OPEN"
+    },
+    {
+      "field": "validated drug-specific compatibility",
+      "status": "OPEN"
+    }
+  ],
+  "identity_certified": false,
+  "quality_certified": false,
+  "sterility_certified": false
+}

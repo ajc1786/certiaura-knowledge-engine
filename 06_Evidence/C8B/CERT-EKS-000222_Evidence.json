@@ -1,0 +1,18 @@
+{
+  "asset_id": "CERT-EKS-000222",
+  "asset_name": "Unbranded Botulinum Toxin Safety and Regulatory Boundary",
+  "root_asset": "CERT-MPS-000009",
+  "knowledge_system": "EKS",
+  "asset_type": "Evidence Object",
+  "version": "0.1.0",
+  "status": "CURRENT AUTHORITATIVE SAFETY SOURCES IDENTIFIED",
+  "source_domain": "MHRA iatrogenic-botulism warning, FDA unapproved-product enforcement and counterfeit risk",
+  "evidence_type": "Safety / regulatory evidence",
+  "last_review": "2026-07-16",
+  "direct_complete_extraction": false,
+  "prohibited_use": [
+    "Reconstitution, injection, filler, toxin, erectile-dysfunction or fat-dissolving guidance",
+    "Authorised-product evidence transfer to supplier products",
+    "Assumption of sterility, potency units, device status or composition"
+  ]
+}

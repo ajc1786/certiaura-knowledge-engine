@@ -1,0 +1,18 @@
+{
+  "asset_id": "CERT-EKS-000228",
+  "asset_name": "Lemon Bottle Unapproved Injectable and Safety Evidence",
+  "root_asset": "CERT-MPS-000012",
+  "knowledge_system": "EKS",
+  "asset_type": "Evidence Object",
+  "version": "0.1.0",
+  "status": "AUTHORITATIVE ENFORCEMENT SOURCES IDENTIFIED",
+  "source_domain": "FDA unapproved-fat-dissolving injection guidance and LemonBottle warning letters",
+  "evidence_type": "Regulatory / safety evidence",
+  "last_review": "2026-07-16",
+  "direct_complete_extraction": false,
+  "prohibited_use": [
+    "Reconstitution, injection, filler, toxin, erectile-dysfunction or fat-dissolving guidance",
+    "Authorised-product evidence transfer to supplier products",
+    "Assumption of sterility, potency units, device status or composition"
+  ]
+}

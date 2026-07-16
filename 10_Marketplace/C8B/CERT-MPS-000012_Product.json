@@ -1,0 +1,101 @@
+{
+  "asset_id": "CERT-MPS-000012",
+  "asset_name": "Lemon Bottle Supplier Mixture Family",
+  "knowledge_system": "MPS",
+  "asset_type": "Marketplace Product-Family Asset",
+  "version": "0.1.0",
+  "status": "CATALOGUE REVIEWED / PRODUCT PASSPORT GAP ACTIVE / NOT QUALITY VERIFIED",
+  "owner": "Aidan Coleman",
+  "last_review": "2026-07-16",
+  "classification": "Unapproved injectable cosmetic mixture / lipolysis product family",
+  "aliases": [
+    "Lemon Bottle",
+    "LemonBottle",
+    "LB10",
+    "柠檬瓶"
+  ],
+  "product_context": "The product is described as a cosmetic fat-dissolving mixture, not a peptide. The catalogue contains conflicting prices and an internally incomplete composition statement.",
+  "evidence_maturity": "No authorised fat-dissolving indication or supplier-product clinical equivalence is established. Regulators have warned that unapproved injectable lipolysis products can cause infection, scarring, skin deformity, nodules and other serious harm.",
+  "regulatory_headline": "UNAPPROVED INJECTABLE LIPOLYSIS MIXTURE / COMPOSITION AND PRICE DISCREPANCIES ACTIVE",
+  "catalogue_supplier_skus": [
+    {
+      "catalogue_code": "NO CODE PRINTED",
+      "specification": "Lemon Bottle 10 mL x 10 vials",
+      "price_usd_per_kit": 103,
+      "catalogue_note": "SUMMARY LISTING"
+    },
+    {
+      "catalogue_code": "LB10",
+      "specification": "10 mL vial; supplier states 103.5 mg/mL; pineapple extract 50 mg/mL + bromelain 10 mg/mL + riboflavin 1 mg/mL",
+      "price_usd_per_kit": 85,
+      "catalogue_note": "DETAILED LISTING; DECLARED COMPONENTS TOTAL 61 MG/ML"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "CERT-MPS-000012",
+      "relationship": "HAS_PASSPORT",
+      "target": "CERT-PPS-000012"
+    },
+    {
+      "source": "CERT-MPS-000012",
+      "relationship": "HAS_SAFETY",
+      "target": "CERT-SKS-000105"
+    },
+    {
+      "source": "CERT-MPS-000012",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000227"
+    },
+    {
+      "source": "CERT-MPS-000012",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000228"
+    },
+    {
+      "source": "CERT-MPS-000012",
+      "relationship": "RELATED_TO",
+      "target": "CERT-BKS-000177"
+    },
+    {
+      "source": "CERT-MPS-000012",
+      "relationship": "RELATED_TO",
+      "target": "CERT-BKS-000178"
+    },
+    {
+      "source": "CERT-MPS-000012",
+      "relationship": "HAS_CONDITION",
+      "target": "CERT-CKS-000057"
+    },
+    {
+      "source": "CERT-MPS-000012",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000169"
+    },
+    {
+      "source": "CERT-MPS-000012",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000170"
+    },
+    {
+      "source": "CERT-MPS-000012",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000171"
+    },
+    {
+      "source": "CERT-MPS-000012",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000172"
+    },
+    {
+      "source": "CERT-MPS-000012",
+      "relationship": "SUPPORTS_GOAL",
+      "target": "CERT-GKS-000092"
+    }
+  ],
+  "product_passport": "CERT-PPS-000012",
+  "identity_verified": false,
+  "sterility_verified": false,
+  "authorised_product_equivalence": false,
+  "validated_universal_human_dosing_protocol": false
+}

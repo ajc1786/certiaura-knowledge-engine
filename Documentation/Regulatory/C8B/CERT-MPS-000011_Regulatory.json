@@ -1,0 +1,29 @@
+{
+  "asset_uai": "CERT-MPS-000011",
+  "asset_name": "Alprostadil Supplier Vial Family",
+  "status_as_of": "2026-07-16",
+  "overall_status": "AUTHORISED PRODUCT CONTEXTS EXIST / SUPPLIER VIAL FORMULATION AND ROUTE UNRESOLVED",
+  "regulatory_records": [
+    {
+      "jurisdiction": "United States",
+      "authority": "FDA / DailyMed",
+      "current_status": "Authorised alprostadil products exist for exact routes and formulations; supplier-vial equivalence is not established.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Identity, approval, warning, enforcement, recall, safety or classification change"
+    },
+    {
+      "jurisdiction": "United Kingdom",
+      "authority": "MHRA",
+      "current_status": "Nationally authorised products exist; exact current product information requires direct verification.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Identity, approval, warning, enforcement, recall, safety or classification change"
+    },
+    {
+      "jurisdiction": "European Union",
+      "authority": "National authorities / EMA safety procedures",
+      "current_status": "Alprostadil product status is route, formulation and country specific.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Identity, approval, warning, enforcement, recall, safety or classification change"
+    }
+  ]
+}

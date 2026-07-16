@@ -1,0 +1,99 @@
+{
+  "asset_id": "CERT-MPS-000009",
+  "asset_name": "Botulinum Toxin Supplier Product Family",
+  "knowledge_system": "MPS",
+  "asset_type": "Marketplace Product-Family Asset",
+  "version": "0.1.0",
+  "status": "CATALOGUE REVIEWED / PRODUCT PASSPORT GAP ACTIVE / NOT QUALITY VERIFIED",
+  "owner": "Aidan Coleman",
+  "last_review": "2026-07-16",
+  "classification": "Unbranded neurotoxin biologic supplier product family",
+  "aliases": [
+    "Botulinum toxin",
+    "XT100",
+    "100 IU toxin"
+  ],
+  "product_context": "Authorised botulinum toxin medicines are brand-, serotype-, manufacturing- and potency-assay-specific. Units cannot be assumed interchangeable across products.",
+  "evidence_maturity": "Extensive authorised-product evidence exists for defined botulinum toxin products and indications. It cannot be transferred to an unbranded catalogue vial.",
+  "regulatory_headline": "SEROTYPE, BRAND AND POTENCY SYSTEM UNRESOLVED / UNBRANDED PRODUCT NOT AUTHORISED-PRODUCT EQUIVALENT",
+  "catalogue_supplier_skus": [
+    {
+      "catalogue_code": "XT100",
+      "specification": "Botulinum toxin 100 IU x 10 vials",
+      "price_usd_per_kit": 165,
+      "catalogue_note": ""
+    }
+  ],
+  "relationships": [
+    {
+      "source": "CERT-MPS-000009",
+      "relationship": "HAS_PASSPORT",
+      "target": "CERT-PPS-000009"
+    },
+    {
+      "source": "CERT-MPS-000009",
+      "relationship": "HAS_SAFETY",
+      "target": "CERT-SKS-000102"
+    },
+    {
+      "source": "CERT-MPS-000009",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000221"
+    },
+    {
+      "source": "CERT-MPS-000009",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000222"
+    },
+    {
+      "source": "CERT-MPS-000009",
+      "relationship": "RELATED_TO",
+      "target": "CERT-BKS-000170"
+    },
+    {
+      "source": "CERT-MPS-000009",
+      "relationship": "RELATED_TO",
+      "target": "CERT-BKS-000171"
+    },
+    {
+      "source": "CERT-MPS-000009",
+      "relationship": "RELATED_TO",
+      "target": "CERT-BKS-000172"
+    },
+    {
+      "source": "CERT-MPS-000009",
+      "relationship": "HAS_CONDITION",
+      "target": "CERT-CKS-000054"
+    },
+    {
+      "source": "CERT-MPS-000009",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000157"
+    },
+    {
+      "source": "CERT-MPS-000009",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000158"
+    },
+    {
+      "source": "CERT-MPS-000009",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000159"
+    },
+    {
+      "source": "CERT-MPS-000009",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000160"
+    },
+    {
+      "source": "CERT-MPS-000009",
+      "relationship": "SUPPORTS_GOAL",
+      "target": "CERT-GKS-000089"
+    }
+  ],
+  "product_passport": "CERT-PPS-000009",
+  "identity_verified": false,
+  "sterility_verified": false,
+  "authorised_product_equivalence": false,
+  "validated_universal_human_dosing_protocol": false
+}

@@ -1,0 +1,95 @@
+{
+  "asset_id": "CERT-MPS-000011",
+  "asset_name": "Alprostadil Supplier Vial Family",
+  "knowledge_system": "MPS",
+  "asset_type": "Marketplace Product-Family Asset",
+  "version": "0.1.0",
+  "status": "CATALOGUE REVIEWED / PRODUCT PASSPORT GAP ACTIVE / NOT QUALITY VERIFIED",
+  "owner": "Aidan Coleman",
+  "last_review": "2026-07-16",
+  "classification": "Prostaglandin E1 medicine-active-substance supplier family",
+  "aliases": [
+    "Alprostadil",
+    "Prostaglandin E1",
+    "PGE1",
+    "PRO20"
+  ],
+  "product_context": "Alprostadil medicines are route- and formulation-specific, including intracavernosal, urethral and neonatal cardiovascular contexts. The catalogue does not define formulation or authorised-product equivalence.",
+  "evidence_maturity": "Authorised medicine evidence exists for exact products. Priapism, penile fibrosis, hypotension and route-specific safety require product-level control.",
+  "regulatory_headline": "AUTHORISED PRODUCT CONTEXTS EXIST / SUPPLIER VIAL FORMULATION AND ROUTE UNRESOLVED",
+  "catalogue_supplier_skus": [
+    {
+      "catalogue_code": "PRO20",
+      "specification": "Alprostadil 20 mcg x 10 vials",
+      "price_usd_per_kit": 132,
+      "catalogue_note": ""
+    }
+  ],
+  "relationships": [
+    {
+      "source": "CERT-MPS-000011",
+      "relationship": "HAS_PASSPORT",
+      "target": "CERT-PPS-000011"
+    },
+    {
+      "source": "CERT-MPS-000011",
+      "relationship": "HAS_SAFETY",
+      "target": "CERT-SKS-000104"
+    },
+    {
+      "source": "CERT-MPS-000011",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000225"
+    },
+    {
+      "source": "CERT-MPS-000011",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000226"
+    },
+    {
+      "source": "CERT-MPS-000011",
+      "relationship": "RELATED_TO",
+      "target": "CERT-BKS-000175"
+    },
+    {
+      "source": "CERT-MPS-000011",
+      "relationship": "RELATED_TO",
+      "target": "CERT-BKS-000176"
+    },
+    {
+      "source": "CERT-MPS-000011",
+      "relationship": "HAS_CONDITION",
+      "target": "CERT-CKS-000056"
+    },
+    {
+      "source": "CERT-MPS-000011",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000165"
+    },
+    {
+      "source": "CERT-MPS-000011",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000166"
+    },
+    {
+      "source": "CERT-MPS-000011",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000167"
+    },
+    {
+      "source": "CERT-MPS-000011",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000168"
+    },
+    {
+      "source": "CERT-MPS-000011",
+      "relationship": "SUPPORTS_GOAL",
+      "target": "CERT-GKS-000091"
+    }
+  ],
+  "product_passport": "CERT-PPS-000011",
+  "identity_verified": false,
+  "sterility_verified": false,
+  "authorised_product_equivalence": false,
+  "validated_universal_human_dosing_protocol": false
+}

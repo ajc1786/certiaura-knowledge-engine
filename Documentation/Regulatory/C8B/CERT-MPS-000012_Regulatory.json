@@ -1,0 +1,29 @@
+{
+  "asset_uai": "CERT-MPS-000012",
+  "asset_name": "Lemon Bottle Supplier Mixture Family",
+  "status_as_of": "2026-07-16",
+  "overall_status": "UNAPPROVED INJECTABLE LIPOLYSIS MIXTURE / COMPOSITION AND PRICE DISCREPANCIES ACTIVE",
+  "regulatory_records": [
+    {
+      "jurisdiction": "United States",
+      "authority": "FDA",
+      "current_status": "LemonBottle injectable products have been identified in warning letters as unapproved new drugs.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Identity, approval, warning, enforcement, recall, safety or classification change"
+    },
+    {
+      "jurisdiction": "United Kingdom",
+      "authority": "MHRA / local enforcement context",
+      "current_status": "No authorised injectable fat-dissolving medicine claim is created.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Identity, approval, warning, enforcement, recall, safety or classification change"
+    },
+    {
+      "jurisdiction": "European Union",
+      "authority": "National medicines/device authorities",
+      "current_status": "No universal authorisation claim; injectable product classification requires direct review.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Identity, approval, warning, enforcement, recall, safety or classification change"
+    }
+  ]
+}
