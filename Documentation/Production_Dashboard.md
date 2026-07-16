@@ -1,44 +1,28 @@
 # CERTIAURA PRODUCTION DASHBOARD
 
-**Build:** 0019  
+**Build:** 0020  
 **Date:** 2026-07-16
 
-## Batch B evidence expansion
+## Catalogue intake
 
-### GHK-Cu
+- Source pages reviewed: **1-5**
+- Later steroid pages excluded: **6-13**
+- Preliminary unique product families: **104**
+- Catalogue SKU rows captured: **196**
+- Existing CertiAura asset families cross-referenced: **11**
+- Families requiring explicit identity resolution: **54**
 
-Foundational identity and preclinical wound / matrix evidence structured.
+## Review queue
 
-Human controlled topical evidence remains incompletely source-closed.
+- Build 0021 - metabolic and incretin-related
+- Build 0022 - growth hormone, IGF and endocrine
+- Build 0023 - neurocognitive and sleep
+- Build 0024 - repair, immune and cosmetic
+- Build 0025 - mitochondrial and longevity
+- Build 0026 - pigmentation and sexual health
+- Build 0027 - blends and supplier combinations
+- Build 0028 - non-peptide, biologic and ancillary items
 
-Injectable human evidence remains insufficient.
+## Next production task
 
-### Thymosin Beta-4 / TB-500
-
-Full-length molecule and TB-500 fragment evidence are now structurally separated.
-
-Human clinical evidence belongs to full-length thymosin beta-4 unless a source proves otherwise.
-
-### Melanotan II
-
-Early human pharmacology publications identified.
-
-Safety-warning priority remains active.
-
-No approved tanning claim.
-
-### Epitalon
-
-In-vitro and animal evidence structured.
-
-Human longevity and mortality claims remain unresolved and identity-sensitive.
-
-## Next production step
-
-The original ten peptide assets now have:
-
-- bootstrap structures;
-- regulatory monitoring;
-- first-pass evidence expansion.
-
-The next build can open a new founder-supplied compound batch rather than continuing one asset at a time.
+**Build 0021 - Catalogue Segment C2: Metabolic and Incretin-Related Asset Review**

@@ -1,30 +1,25 @@
 # CERTIAURA CHANGE LOG
 
-## Build 0019 — Batch B Primary-Source Extraction & Evidence Expansion
+## Build 0020 - Catalogue Master Intake, Deduplication & Review Queue
 **Date:** 2026-07-16
-
-Upgraded:
-
-- CERT-EKS-000037–000048
-- CERT-PKS-000007–000010 to v0.2.0
-- CERT-SKS-000012–000015
-- Batch B claim controls
-- Primary source and closure registers
 
 Added:
 
-- Batch B Primary Evidence Translation Matrix
-- Batch B Identity-Evidence Transfer Gate
-- Batch B Safety Translation Matrix
+- source catalogue snapshot;
+- full page 1-5 SKU register;
+- unique item-family register;
+- existing asset crosswalk;
+- identity issue register;
+- price summary;
+- machine-readable catalogue intake;
+- catalogue scope and method;
+- risk triage;
+- segmented review queue.
 
-Key outcome:
+Key result:
 
-Evidence now follows the exact peptide, fragment, route and model.
+The complete Peptide Powder section is now captured without attempting one oversized scientific review.
 
-No topical evidence was transferred to injection.
+No new UAI was allocated in Build 0020.
 
-No full-length thymosin beta-4 evidence was transferred automatically to TB-500.
-
-No Melanotan II approval or long-term safety claim was introduced.
-
-No Epitalon human longevity claim was introduced.
+Later steroid sections remain outside this workstream.

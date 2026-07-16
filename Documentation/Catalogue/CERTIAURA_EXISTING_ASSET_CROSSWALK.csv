@@ -1,0 +1,11 @@
+Existing UAI,Existing Asset,Catalogue Family,Catalogue Codes,Control
+CERT-PKS-000001,Retatrutide,Retatrutide,RT5; RT10; RT15; RT20; RT30; RT40; RT50; RT60,"Retatrutide strengths are supplier SKUs, not separate peptide UAIs."
+CERT-PKS-000002,BPC-157,BPC-157,BC2; BC5; BC10; BC20,BPC-157 strengths are supplier SKUs; blends remain separate product objects.
+CERT-PKS-000003,Tesamorelin,Tesamorelin,TSM2; TSM5; TSM10; TSM20,Tesamorelin catalogue products must remain separate from authorised product identity.
+CERT-PKS-000004,CJC-1295 with DAC,CJC-1295 with DAC,CD2; CD5; CD10,Only CJC-1295 with DAC crosswalks directly; 'without DAC' requires separate identity resolution.
+CERT-PKS-000005,Ipamorelin,Ipamorelin,IP2; IP5; IP10,Ipamorelin blends remain separate product objects.
+CERT-PKS-000006,MOTS-c,MOTS-c,MS10; MS40,MOTS-c catalogue products require sequence and quality verification.
+CERT-PKS-000007,GHK-Cu,GHK-Cu,CU50; CU100,GHK-Cu is separate from free GHK and AHK-Cu.
+CERT-PKS-000008,TB-500 fragment,TB-500 fragment,BT2; BT5; BT10; BT20; B10F,Full-length thymosin beta-4 and TB-500 fragment evidence remain separated.
+CERT-PKS-000009,Melanotan II,Melanotan II,ML10,Melanotan II is separate from MT-1 / afamelanotide.
+CERT-PKS-000010,Epitalon,Epitalon,ET10; ET40; ET50,Epitalon is separate from modified Epitalon analogues and epithalamin.

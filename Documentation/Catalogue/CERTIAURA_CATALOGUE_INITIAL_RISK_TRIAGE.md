@@ -1,0 +1,77 @@
+<div align="center">
+
+<img src="../Assets/Brand/CertiAura_Brand_Master.png" alt="CertiAura - Evidence. Clarity. Confidence." width="700">
+
+</div>
+
+---
+
+# CERTIAURA CATALOGUE INITIAL RISK TRIAGE
+
+**Date:** 2026-07-16
+
+This is an intake triage, not a final scientific or legal assessment.
+
+## Critical-priority families
+
+- Semaglutide: PRELIMINARY IDENTITY ACCEPTED
+- Tirzepatide: PRELIMINARY IDENTITY ACCEPTED
+- Retatrutide: PRELIMINARY IDENTITY ACCEPTED
+- Insulin: TYPE / CONCENTRATION / FORMULATION VERIFICATION REQUIRED
+- Botulinum toxin: TOXIN TYPE / BRAND / POTENCY UNIT VERIFICATION REQUIRED
+- Erythropoietin: PRELIMINARY IDENTITY ACCEPTED
+- Cerebrolysin-type unbranded product: HIGH-RISK IDENTITY / COMPOSITION VERIFICATION REQUIRED
+- Cagrilintide + Semaglutide blend: BLEND / RATIO / FORMULATION VERIFICATION REQUIRED
+- Retatrutide + Cagrilintide blend: BLEND / UNVALIDATED COMBINATION
+- Teriparatide: PRELIMINARY IDENTITY ACCEPTED
+- Liraglutide: PRELIMINARY IDENTITY ACCEPTED
+
+## High-priority families
+
+- Somatropin: PRELIMINARY IDENTITY ACCEPTED
+- Melanotan II: PRELIMINARY IDENTITY ACCEPTED
+- Bremelanotide: PRELIMINARY IDENTITY ACCEPTED
+- Gonadorelin acetate: PRELIMINARY IDENTITY ACCEPTED
+- Oxytocin acetate: PRELIMINARY IDENTITY ACCEPTED
+- BPC-157 + TB-500 blend: BLEND - COMPONENT IDENTITY VERIFICATION REQUIRED
+- ACE-031: PRELIMINARY IDENTITY ACCEPTED
+- Adipotide: PRELIMINARY IDENTITY ACCEPTED
+- Elamipretide: PRELIMINARY IDENTITY ACCEPTED
+- Modified GRF (1-29) identity candidate: IDENTITY CORRECTION REQUIRED
+- Modified GRF (1-29) + Ipamorelin blend: BLEND / CJC NOMENCLATURE VERIFICATION REQUIRED
+- Thymosin beta-4 / TB-500 full-length candidate: SEQUENCE / FULL-LENGTH IDENTITY VERIFICATION REQUIRED
+- TB-500 fragment: FRAGMENT IDENTITY VERIFICATION REQUIRED
+- Human chorionic gonadotropin: PRELIMINARY IDENTITY ACCEPTED
+- Long R3 IGF-1: PRELIMINARY IDENTITY ACCEPTED
+- Thymosin alpha-1: PRELIMINARY IDENTITY ACCEPTED
+- FOXO4-DRI identity candidate: IDENTITY / SEQUENCE VERIFICATION REQUIRED
+- LL-37: CATALOGUE CODE AND SEQUENCE VERIFICATION REQUIRED
+- Dermorphin: PRELIMINARY IDENTITY ACCEPTED
+- Native GLP-1 identity candidate: EXACT SEQUENCE / FORM VERIFICATION REQUIRED
+- Human menopausal gonadotropin: PRELIMINARY IDENTITY ACCEPTED
+- Cerebrolysin: BRAND / COMPOSITION / AUTHORISATION VERIFICATION REQUIRED
+- Cagrilintide: PRELIMINARY IDENTITY ACCEPTED
+- Mazdutide: PRELIMINARY IDENTITY ACCEPTED
+- Alprostadil: PRELIMINARY IDENTITY ACCEPTED
+- BPC-157 + GHK-Cu + TB-500 blend: BLEND / COMPONENT IDENTITY VERIFICATION REQUIRED
+- BPC-157 + GHK-Cu + TB-500 + KPV blend: BLEND / COMPONENT IDENTITY VERIFICATION REQUIRED
+- Survodutide: PRELIMINARY IDENTITY ACCEPTED
+- Vasoactive intestinal peptide: PRELIMINARY IDENTITY ACCEPTED
+- Adamax identity candidate: IDENTITY VERIFICATION REQUIRED
+- Lemon Bottle: MULTI-INGREDIENT FORMULATION / ROUTE VERIFICATION REQUIRED
+- PNC-27: PRELIMINARY IDENTITY ACCEPTED
+- SLU-PP-322 identity candidate: POSSIBLE TYPO / IDENTITY VERIFICATION REQUIRED
+- Humanin: PRELIMINARY IDENTITY ACCEPTED
+- Tesamorelin + Ipamorelin blend: BLEND / RATIO / FORMULATION VERIFICATION REQUIRED
+- PTD-DBM: SEQUENCE / PRODUCT IDENTITY VERIFICATION REQUIRED
+
+## Automatic high-risk triggers
+
+- unverified insulin type or concentration;
+- erythropoietin;
+- botulinum toxin;
+- unbranded Cerebrolysin-type product;
+- unvalidated metabolic drug combinations;
+- unclear sequence or chemical identity;
+- supplier blend containing several investigational peptides;
+- dilution or sterility information not defined.

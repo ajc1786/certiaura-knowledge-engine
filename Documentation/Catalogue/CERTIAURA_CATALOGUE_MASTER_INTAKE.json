@@ -1,0 +1,2255 @@
+{
+  "build": "0020",
+  "date": "2026-07-16",
+  "source": "Peptides.pdf",
+  "included_pages": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "excluded_pages": [
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
+  "scope_note": "Pages 1-5 labelled Peptide Powder. Later steroid sections excluded from this workstream.",
+  "unique_product_families": 104,
+  "sku_rows": 196,
+  "products": [
+    {
+      "canonical_name": "Somatropin",
+      "listed_name": "HGH 191AA (Somatropin)",
+      "classification": "Recombinant protein hormone",
+      "segment": "C3 - GH, IGF and endocrine",
+      "variants": [
+        [
+          "H06",
+          "6 IU x 10 vials",
+          46
+        ],
+        [
+          "H10",
+          "10 IU x 10 vials",
+          56
+        ],
+        [
+          "H12",
+          "12 IU x 10 vials",
+          67
+        ],
+        [
+          "H15",
+          "15 IU x 10 vials",
+          85
+        ],
+        [
+          "H24",
+          "24 IU x 10 vials",
+          126
+        ],
+        [
+          "H36",
+          "36 IU x 10 vials",
+          192
+        ]
+      ],
+      "identity_status": "PRELIMINARY IDENTITY ACCEPTED",
+      "existing_uai": "",
+      "review_priority": "HIGH",
+      "notes": ""
+    },
+    {
+      "canonical_name": "Melanotan I / afamelanotide identity candidate",
+      "listed_name": "MT-1",
+      "classification": "Peptide analogue",
+      "segment": "C7 - Pigmentation and sexual-health peptides",
+      "variants": [
+        [
+          "MT1",
+          "10 mg x 10 vials",
+          51
+        ]
+      ],
+      "identity_status": "IDENTITY VERIFICATION REQUIRED",
+      "existing_uai": "",
+      "review_priority": "MEDIUM",
+      "notes": "Supplier shorthand MT-1 must be checked against afamelanotide / Melanotan I identity."
+    },
+    {
+      "canonical_name": "Melanotan II",
+      "listed_name": "MT-2 (Melanotan 2 Acetate)",
+      "classification": "Cyclic peptide analogue",
+      "segment": "Existing assets",
+      "variants": [
+        [
+          "ML10",
+          "10 mg x 10 vials",
+          51
+        ]
+      ],
+      "identity_status": "PRELIMINARY IDENTITY ACCEPTED",
+      "existing_uai": "CERT-PKS-000009",
+      "review_priority": "HIGH",
+      "notes": ""
+    },
+    {
+      "canonical_name": "Bremelanotide",
+      "listed_name": "PT-141",
+      "classification": "Cyclic peptide drug",
+      "segment": "C7 - Pigmentation and sexual-health peptides",
+      "variants": [
+        [
+          "P41",
+          "10 mg x 10 vials",
+          66
+        ]
+      ],
+      "identity_status": "PRELIMINARY IDENTITY ACCEPTED",
+      "existing_uai": "",
+      "review_priority": "HIGH",
+      "notes": ""
+    },
+    {
+      "canonical_name": "Gonadorelin acetate",
+      "listed_name": "Gonadorelin Acetate",
+      "classification": "Peptide hormone analogue",
+      "segment": "C3 - GH, IGF and endocrine",
+      "variants": [
+        [
+          "GND2",
+          "2 mg x 10 vials",
+          33
+        ]
+      ],
+      "identity_status": "PRELIMINARY IDENTITY ACCEPTED",
+      "existing_uai": "",
+      "review_priority": "HIGH",
+      "notes": ""
+    },
+    {
+      "canonical_name": "Delta sleep-inducing peptide",
+      "listed_name": "DSIP",
+      "classification": "Research peptide",
+      "segment": "C4 - Neurocognitive and sleep peptides",
+      "variants": [
+        [
+          "DS2",
+          "2 mg x 10 vials",
+          27
+        ],
+        [
+          "DS5",
+          "5 mg x 10 vials",
+          47
+        ],
+        [
+          "DS10",
+          "10 mg x 10 vials",
+          71
+        ],
+        [
+          "DS15",
+          "15 mg x 10 vials",
+          99
+        ]
+      ],
+      "identity_status": "IDENTITY / EVIDENCE VERIFICATION REQUIRED",
+      "existing_uai": "",
+      "review_priority": "MEDIUM",
+      "notes": ""
+    },
+    {
+      "canonical_name": "Selank",
+      "listed_name": "Selank",
+      "classification": "Research peptide",
+      "segment": "C4 - Neurocognitive and sleep peptides",
+      "variants": [
+        [
+          "SK5",
+          "5 mg x 10 vials",
+          41
+        ],
+        [
+          "SK10",
+          "10 mg x 10 vials",
+          68
+        ],
+        [
+          "SK30",
+          "30 mg x 10 vials",
+          145
+        ]
+      ],
+      "identity_status": "PRELIMINARY IDENTITY ACCEPTED",
+      "existing_uai": "",
+      "review_priority": "MEDIUM",
+      "notes": ""
+    },
+    {
+      "canonical_name": "Oxytocin acetate",
+      "listed_name": "Oxytocin Acetate",
+      "classification": "Peptide hormone",
+      "segment": "C3 - GH, IGF and endocrine",
+      "variants": [
+        [
+          "OT2",
+          "2 mg x 10 vials",
+          27
+        ],
+        [
+          "OT5",
+          "5 mg x 10 vials",
+          47
+        ],
+        [
+          "OT10",
+          "10 mg x 10 vials",
+          56
+        ]
+      ],
+      "identity_status": "PRELIMINARY IDENTITY ACCEPTED",
+      "existing_uai": "",
+      "review_priority": "HIGH",
+      "notes": ""
+    },
+    {
+      "canonical_name": "Epitalon",
+      "listed_name": "Epithalon",
+      "classification": "Synthetic tetrapeptide",
+      "segment": "Existing assets",
+      "variants": [
+        [
+          "ET10",
+          "10 mg x 10 vials",
+          51
+        ],
+        [
+          "ET40",
+          "40 mg x 10 vials",
+          154
+        ],
+        [
+          "ET50",
+          "50 mg x 10 vials",
+          185
+        ]
+      ],
+      "identity_status": "PRELIMINARY IDENTITY ACCEPTED",
+      "existing_uai": "CERT-PKS-000010",
+      "review_priority": "MEDIUM",
+      "notes": ""
+    },
+    {
+      "canonical_name": "BPC-157",
+      "listed_name": "BPC 157",
+      "classification": "Research peptide",
+      "segment": "Existing assets",
+      "variants": [
+        [
+          "BC2",
+          "2 mg x 10 vials",
+          26
+        ],
+        [
+          "BC5",
+          "5 mg x 10 vials",
+          44
+        ],
+        [
+          "BC10",
+          "10 mg x 10 vials",
+          65
+        ],
+        [
+          "BC20",
+          "20 mg x 10 vials",
+          115
+        ]
+      ],
+      "identity_status": "PRELIMINARY IDENTITY ACCEPTED",
+      "existing_uai": "CERT-PKS-000002",
+      "review_priority": "MEDIUM",
+      "notes": ""
+    },
+    {
+      "canonical_name": "BPC-157 + TB-500 blend",
+      "listed_name": "BPC + TB",
+      "classification": "Peptide blend",
+      "segment": "C8 - Blends and supplier combinations",
+      "variants": [
+        [
+          "BB4",
+          "BPC 2 mg + TB 2 mg; 4 mg x 10 vials",
+          66
+        ],
+        [
+          "BB10",
+          "BPC 5 mg + TB 5 mg; 10 mg x 10 vials",
+          116
+        ],
+        [
+          "BB20",
+          "BPC 10 mg + TB 10 mg; 20 mg x 10 vials",
+          230
+        ]
+      ],
+      "identity_status": "BLEND - COMPONENT IDENTITY VERIFICATION REQUIRED",
+      "existing_uai": "",
+      "review_priority": "HIGH",
+      "notes": ""
+    },
+    {
+      "canonical_name": "ACE-031",
+      "listed_name": "ACE-031",
+      "classification": "Recombinant fusion protein / biologic",
+      "segment": "C3 - GH, IGF and endocrine",
+      "variants": [
+        [
+          "AE1",
+          "1 mg x 10 vials",
+          81
+        ]
+      ],
+      "identity_status": "PRELIMINARY IDENTITY ACCEPTED",
+      "existing_uai": "",
+      "review_priority": "HIGH",
+      "notes": ""
+    },
+    {
+      "canonical_name": "AICAR",
+      "listed_name": "AICAR",
+      "classification": "Non-peptide small molecule / nucleotide analogue",
+      "segment": "C9 - Non-peptide and ancillary catalogue items",
+      "variants": [
+        [
+          "AR50",
+          "50 mg x 10 vials",
+          63
+        ],
+        [
+          "AR100",
+          "100 mg x 10 vials",
+          99
+        ]
+      ],
+      "identity_status": "PRELIMINARY IDENTITY ACCEPTED",
+      "existing_uai": "",
+      "review_priority": "MEDIUM",
+      "notes": ""
+    },
+    {
+      "canonical_name": "Adipotide",
+      "listed_name": "Adipotide",
+      "classification": "Experimental peptidomimetic",
+      "segment": "C2 - Metabolic and incretin-related",
+      "variants": [
+        [
+          "AP2",
+          "2 mg x 10 vials",
+          95
+        ],
+        [
+          "AP5",
+          "5 mg x 10 vials",
+          204
+        ]
+      ],
+      "identity_status": "PRELIMINARY IDENTITY ACCEPTED",
+      "existing_uai": "",
+      "review_priority": "HIGH",
+      "notes": ""
+    },
+    {
+      "canonical_name": "Semax",
+      "listed_name": "Semax",
+      "classification": "Research peptide",
+      "segment": "C4 - Neurocognitive and sleep peptides",
+      "variants": [
+        [
+          "XA5",
+          "5 mg x 10 vials",
+          41
+        ],
+        [
+          "XA10",
+          "10 mg x 10 vials",
+          62
+        ],
+        [
+          "XA30",
+          "30 mg x 10 vials",
+          135
+        ]
+      ],
+      "identity_status": "PRELIMINARY IDENTITY ACCEPTED",
+      "existing_uai": "",
+      "review_priority": "MEDIUM",
+      "notes": ""
+    },
+    {
+      "canonical_name": "Semaglutide",
+      "listed_name": "Semaglutide",
+      "classification": "GLP-1 receptor agonist peptide drug",
+      "segment": "C2 - Metabolic and incretin-related",
+      "variants": [
+        [
+          "SM2",
+          "2 mg x 10 vials",
+          27
+        ],
+        [
+          "SM5",
+          "5 mg x 10 vials",
+          36
+        ],
+        [
+          "SM10",
+          "10 mg x 10 vials",
+          50
+        ],
+        [
+          "SM15",
+          "15 mg x 10 vials",
+          64
+        ],
+        [
+          "SM20",
+          "20 mg x 10 vials",
+          78
+        ],
+        [
+          "SM30",
+          "30 mg x 10 vials",
+          108
+        ]
+      ],
+      "identity_status": "PRELIMINARY IDENTITY ACCEPTED",
+      "existing_uai": "",
+      "review_priority": "CRITICAL",
+      "notes": ""
+    },
+    {
+      "canonical_name": "Elamipretide",
+      "listed_name": "SS-31",
+      "classification": "Mitochondria-targeted tetrapeptide",
+      "segment": "C6 - Mitochondrial and longevity research",
+      "variants": [
+        [
+          "2S10",
+          "10 mg x 10 vials",
+          85
+        ],
+        [
+          "2S50",
+          "50 mg x 10 vials",
+          360
+        ]
+      ],
+      "identity_status": "PRELIMINARY IDENTITY ACCEPTED",
+      "existing_uai": "",
+      "review_priority": "HIGH",
+      "notes": ""
+    },
+    {
+      "canonical_name": "Tirzepatide",
+      "listed_name": "Tirzepatide",
+      "classification": "Dual GIP/GLP-1 receptor agonist peptide drug",
+      "segment": "C2 - Metabolic and incretin-related",
+      "variants": [
+        [
+          "TR5",
+          "5 mg x 10 vials",
+          35
+        ],
+        [
+          "TR10",
+          "10 mg x 10 vials",
+          51
+        ],
+        [
+          "TR15",
+          "15 mg x 10 vials",
+          62
+        ],
+        [
+          "TR20",
+          "20 mg x 10 vials",
+          84
+        ],
+        [
+          "TR30",
+          "30 mg x 10 vials",
+          107
+        ],
+        [
+          "TR40",
+          "40 mg x 10 vials",
+          140
+        ],
+        [
+          "TR50",
+          "50 mg x 10 vials",
+          169
+        ],
+        [
+          "TR60",
+          "60 mg x 10 vials",
+          197
+        ],
+        [
+          "TR100",
+          "100 mg x 10 vials",
+          301
+        ]
+      ],
+      "identity_status": "PRELIMINARY IDENTITY ACCEPTED",
+      "existing_uai": "",
+      "review_priority": "CRITICAL",
+      "notes": ""
+    },
+    {
+      "canonical_name": "GHRP-2 acetate",
+      "listed_name": "GHRP-2 Acetate",
+      "classification": "Growth-hormone secretagogue peptide",
+      "segment": "C3 - GH, IGF and endocrine",
+      "variants": [
+        [
+          "G25",
+          "5 mg x 10 vials",
+          27
+        ],
+        [
+          "G210",
+          "10 mg x 10 vials",
+          54
+        ]
+      ],
+      "identity_status": "PRELIMINARY IDENTITY ACCEPTED",
+      "existing_uai": "",
+      "review_priority": "MEDIUM",
+      "notes": ""
+    },
+    {
+      "canonical_name": "GHRP-6 acetate",
+      "listed_name": "GHRP-6 Acetate",
+      "classification": "Growth-hormone secretagogue peptide",
+      "segment": "C3 - GH, IGF and endocrine",
+      "variants": [
+        [
+          "G65",
+          "5 mg x 10 vials",
+          27
+        ],
+        [
+          "G610",
+          "10 mg x 10 vials",
+          54
+        ]
+      ],
+      "identity_status": "PRELIMINARY IDENTITY ACCEPTED",
+      "existing_uai": "",
+      "review_priority": "MEDIUM",
+      "notes": ""
+    },
+    {
+      "canonical_name": "Modified GRF (1-29) identity candidate",
+      "listed_name": "CJC-1295 Without DAC",
+      "classification": "GHRH analogue peptide",
+      "segment": "C3 - GH, IGF and endocrine",
+      "variants": [
+        [
+          "CND2",
+          "2 mg x 10 vials",
+          42
+        ],
+        [
+          "CND5",
+          "5 mg x 10 vials",
+          91
+        ],
+        [
+          "CND10",
+          "10 mg x 10 vials",
+          180
+        ]
+      ],
+      "identity_status": "IDENTITY CORRECTION REQUIRED",
+      "existing_uai": "",
+      "review_priority": "HIGH",
+      "notes": "Catalogue naming commonly conflates modified GRF (1-29) with CJC-1295. Must not inherit CERT-PKS-000004 automatically."
+    },
+    {
+      "canonical_name": "Modified GRF (1-29) + Ipamorelin blend",
+      "listed_name": "CJC-1295 without DAC + IPA",
+      "classification": "Peptide blend",
+      "segment": "C8 - Blends and supplier combinations",
+      "variants": [
+        [
+          "CP10",
+          "5 mg + 5 mg; 10 mg x 10 vials",
+          107
+        ],
+        [
+          "CP20",
+          "10 mg + 10 mg; 20 mg x 10 vials",
+          201
+        ]
+      ],
+      "identity_status": "BLEND / CJC NOMENCLATURE VERIFICATION REQUIRED",
+      "existing_uai": "",
+      "review_priority": "HIGH",
+      "notes": ""
+    },
+    {
+      "canonical_name": "CJC-1295 with DAC",
+      "listed_name": "CJC-1295 With DAC",
+      "classification": "Long-acting GHRH analogue peptide",
+      "segment": "Existing assets",
+      "variants": [
+        [
+          "CD2",
+          "2 mg x 10 vials",
+          92
+        ],
+        [
+          "CD5",
+          "5 mg x 10 vials",
+          197
+        ],
+        [
+          "CD10",
+          "10 mg x 10 vials",
+          366
+        ]
+      ],
+      "identity_status": "PRELIMINARY IDENTITY ACCEPTED",
+      "existing_uai": "CERT-PKS-000004",
+      "review_priority": "MEDIUM",
+      "notes": ""
+    },
+    {
+      "canonical_name": "Thymosin beta-4 / TB-500 full-length candidate",
+      "listed_name": "TB500 (Thymosin B4 Acetate)",
+      "classification": "Identity-sensitive peptide",
+      "segment": "Existing assets",
+      "variants": [
+        [
+          "BT2",
+          "2 mg x 10 vials",
+          46
+        ],
+        [
+          "BT5",
+          "5 mg x 10 vials",
+          85
+        ],
+        [
+          "BT10",
+          "10 mg x 10 vials",
+          169
+        ],
+        [
+          "BT20",
+          "20 mg x 10 vials",
+          310
+        ]
+      ],
+      "identity_status": "SEQUENCE / FULL-LENGTH IDENTITY VERIFICATION REQUIRED",
+      "existing_uai": "CERT-PKS-000008",
+      "review_priority": "HIGH",
+      "notes": ""
+    },
+    {
+      "canonical_name": "TB-500 fragment",
+      "listed_name": "TB500 (Frag)",
+      "classification": "Peptide fragment",
+      "segment": "Existing assets",
+      "variants": [
+        [
+          "B10F",
+          "2 mg x 10 vials",
+          85
+        ]
+      ],
+      "identity_status": "FRAGMENT IDENTITY VERIFICATION REQUIRED",
+      "existing_uai": "CERT-PKS-000008",
+      "review_priority": "HIGH",
+      "notes": ""
+    },
+    {
+      "canonical_name": "Mechano growth factor",
+      "listed_name": "MGF",
+      "classification": "IGF-1 splice-variant-derived peptide",
+      "segment": "C3 - GH, IGF and endocrine",
+      "variants": [
+        [
+          "FM2",
+          "2 mg x 10 vials",
+          38
+        ]
+      ],
+      "identity_status": "SEQUENCE / PRODUCT IDENTITY VERIFICATION REQUIRED",
+      "existing_uai": "",
+      "review_priority": "MEDIUM",
+      "notes": ""
+    },
+    {
+      "canonical_name": "PEG-MGF",
+      "listed_name": "PEG MGF",
+      "classification": "PEGylated research peptide",
+      "segment": "C3 - GH, IGF and endocrine",
+      "variants": [
+        [
+          "FMP2",
+          "2 mg x 10 vials",
+          95
+        ]
+      ],
+      "identity_status": "SEQUENCE / PEGYLATION VERIFICATION REQUIRED",
+      "existing_uai": "",
+      "review_priority": "MEDIUM",
+      "notes": ""
+    },
+    {
+      "canonical_name": "Sermorelin acetate",
+      "listed_name": "Sermorelin Acetate",
+      "classification": "GHRH (1-29) peptide analogue",
+      "segment": "C3 - GH, IGF and endocrine",
+      "variants": [
+        [
+          "SMO2",
+          "2 mg x 10 vials",
+          49
+        ],
+        [
+          "SMO5",
+          "5 mg x 10 vials",
+          76
+        ],
+        [
+          "SMO10",
+          "10 mg x 10 vials",
+          153
+        ],
+        [
+          "SMO15",
+          "15 mg x 10 vials",
+          239
+        ]
+      ],
+      "identity_status": "PRELIMINARY IDENTITY ACCEPTED",
+      "existing_uai": "",
+      "review_priority": "MEDIUM",
+      "notes": ""
+    },
+    {
+      "canonical_name": "Human chorionic gonadotropin",
+      "listed_name": "HCG",
+      "classification": "Glycoprotein hormone / biologic",
+      "segment": "C3 - GH, IGF and endocrine",
+      "variants": [
+        [
+          "G10K",
+          "10,000 IU x 10 vials",
+          163
+        ],
+        [
+          "G5K",
+          "5,000 IU x 10 vials",
+          85
+        ],
+        [
+          "G2K",
+          "2,000 IU x 10 vials",
+          55
+        ]
+      ],
+      "identity_status": "PRELIMINARY IDENTITY ACCEPTED",
+      "existing_uai": "",
+      "review_priority": "HIGH",
+      "notes": ""
+    },
+    {
+      "canonical_name": "AOD9604",
+      "listed_name": "AOD9604",
+      "classification": "Modified growth-hormone fragment peptide",
+      "segment": "C2 - Metabolic and incretin-related",
+      "variants": [
+        [
+          "2AD",
+          "2 mg x 10 vials",
+          53
+        ],
+        [
+          "5AD",
+          "5 mg x 10 vials",
+          93
+        ],
+        [
+          "10AD",
+          "10 mg x 10 vials",
+          197
+        ]
+      ],
+      "identity_status": "PRELIMINARY IDENTITY ACCEPTED",
+      "existing_uai": "",
+      "review_priority": "MEDIUM",
+      "notes": ""
+    },
+    {
+      "canonical_name": "Long R3 IGF-1",
+      "listed_name": "IGF-1LR3",
+      "classification": "Recombinant IGF-1 analogue / protein",
+      "segment": "C3 - GH, IGF and endocrine",
+      "variants": [
+        [
+          "IG01",
+          "0.1 mg x 10 vials",
+          45
+        ],
+        [
+          "IG1",
+          "1 mg x 10 vials",
+          225
+        ]
+      ],
+      "identity_status": "PRELIMINARY IDENTITY ACCEPTED",
+      "existing_uai": "",
+      "review_priority": "HIGH",
+      "notes": ""
+    },
+    {
+      "canonical_name": "Tesamorelin",
+      "listed_name": "Tesamorelin",
+      "classification": "GHRH analogue peptide drug",
+      "segment": "Existing assets",
+      "variants": [
+        [
+          "TSM2",
+          "2 mg x 10 vials",
+          56
+        ],
+        [
+          "TSM5",
+          "5 mg x 10 vials",
+          101
+        ],
+        [
+          "TSM10",
+          "10 mg x 10 vials",
+          211
+        ],
+        [
+          "TSM20",
+          "20 mg x 10 vials",
+          390
+        ]
+      ],
+      "identity_status": "PRELIMINARY IDENTITY ACCEPTED",
+      "existing_uai": "CERT-PKS-000003",
+      "review_priority": "MEDIUM",
+      "notes": ""
+    },
+    {
+      "canonical_name": "Ipamorelin",
+      "listed_name": "Ipamorelin",
+      "classification": "Ghrelin receptor agonist peptide",
+      "segment": "Existing assets",
+      "variants": [
+        [
+          "IP2",
+          "2 mg x 10 vials",
+          26
+        ],
+        [
+          "IP5",
+          "5 mg x 10 vials",
+          42
+        ],
+        [
+          "IP10",
+          "10 mg x 10 vials",
+          66
+        ]
+      ],
+      "identity_status": "PRELIMINARY IDENTITY ACCEPTED",
+      "existing_uai": "CERT-PKS-000005",
+      "review_priority": "MEDIUM",
+      "notes": ""
+    },
+    {
+      "canonical_name": "Hexarelin acetate",
+      "listed_name": "Hexarelin Acetate",
+      "classification": "Growth-hormone secretagogue peptide",
+      "segment": "C3 - GH, IGF and endocrine",
+      "variants": [
+        [
+          "HX2",
+          "2 mg x 10 vials",
+          54
+        ],
+        [
+          "HX5",
+          "5 mg x 10 vials",
+          85
+        ]
+      ],
+      "identity_status": "PRELIMINARY IDENTITY ACCEPTED",
+      "existing_uai": "",
+      "review_priority": "MEDIUM",
+      "notes": ""
+    },
+    {
+      "canonical_name": "GHK-Cu",
+      "listed_name": "GHK-CU",
+      "classification": "Copper-binding tripeptide complex",
+      "segment": "Existing assets",
+      "variants": [
+        [
+          "CU50",
+          "50 mg x 10 vials",
+          28
+        ],
+        [
+          "CU100",
+          "100 mg x 10 vials",
+          43
+        ]
+      ],
+      "identity_status": "PRELIMINARY IDENTITY ACCEPTED",
+      "existing_uai": "CERT-PKS-000007",
+      "review_priority": "MEDIUM",
+      "notes": ""
+    },
+    {
+      "canonical_name": "GHK",
+      "listed_name": "GHK basic",
+      "classification": "Tripeptide",
+      "segment": "C5 - Repair, immune and cosmetic peptides",
+      "variants": [
+        [
+          "GH50",
+          "50 mg x 10 vials",
+          37
+        ]
+      ],
+      "identity_status": "FREE PEPTIDE / COPPER-FREE IDENTITY VERIFICATION REQUIRED",
+      "existing_uai": "",
+      "review_priority": "MEDIUM",
+      "notes": ""
+    },
+    {
+      "canonical_name": "AHK-Cu",
+      "listed_name": "AHK-CU",
+      "classification": "Copper-binding tripeptide complex",
+      "segment": "C5 - Repair, immune and cosmetic peptides",
+      "variants": [
+        [
+          "AU100",
+          "100 mg x 10 vials",
+          75
+        ]
+      ],
+      "identity_status": "PRELIMINARY IDENTITY ACCEPTED",
+      "existing_uai": "",
+      "review_priority": "MEDIUM",
+      "notes": ""
+    },
+    {
+      "canonical_name": "Kisspeptin-10",
+      "listed_name": "KissPeptin-10",
+      "classification": "Neuropeptide / reproductive hormone peptide",
+      "segment": "C3 - GH, IGF and endocrine",
+      "variants": [
+        [
+          "KS5",
+          "5 mg x 10 vials",
+          54
+        ],
+        [
+          "KS10",
+          "10 mg x 10 vials",
+          81
+        ]
+      ],
+      "identity_status": "PRELIMINARY IDENTITY ACCEPTED",
+      "existing_uai": "",
+      "review_priority": "MEDIUM",
+      "notes": ""
+    },
+    {
+      "canonical_name": "Thymalin",
+      "listed_name": "Thymalin",
+      "classification": "Thymic peptide mixture / extract",
+      "segment": "C5 - Repair, immune and cosmetic peptides",
+      "variants": [
+        [
+          "TY10",
+          "10 mg x 10 vials",
+          76
+        ]
+      ],
+      "identity_status": "COMPOSITION / EXTRACT IDENTITY VERIFICATION REQUIRED",
+      "existing_uai": "",
+      "review_priority": "MEDIUM",
+      "notes": ""
+    },
+    {
+      "canonical_name": "Thymosin alpha-1",
+      "listed_name": "Thymosin Alpha-1",
+      "classification": "Immune-modulating peptide",
+      "segment": "C5 - Repair, immune and cosmetic peptides",
+      "variants": [
+        [
+          "TA2",
+          "2 mg x 10 vials",
+          54
+        ],
+        [
+          "TA5",
+          "5 mg x 10 vials",
+          99
+        ],
+        [
+          "TA10",
+          "10 mg x 10 vials",
+          197
+        ]
+      ],
+      "identity_status": "PRELIMINARY IDENTITY ACCEPTED",
+      "existing_uai": "",
+      "review_priority": "HIGH",
+      "notes": ""
+    },
+    {
+      "canonical_name": "MOTS-c",
+      "listed_name": "MOTS-c",
+      "classification": "Mitochondrial-derived peptide",
+      "segment": "Existing assets",
+      "variants": [
+        [
+          "MS10",
+          "10 mg x 10 vials",
+          71
+        ],
+        [
+          "MS40",
+          "40 mg x 10 vials",
+          251
+        ]
+      ],
+      "identity_status": "PRELIMINARY IDENTITY ACCEPTED",
+      "existing_uai": "CERT-PKS-000006",
+      "review_priority": "MEDIUM",
+      "notes": ""
+    },
+    {
+      "canonical_name": "FOXO4-DRI identity candidate",
+      "listed_name": "FOXO4",
+      "classification": "Experimental research peptide",
+      "segment": "C6 - Mitochondrial and longevity research",
+      "variants": [
+        [
+          "F410",
+          "10 mg x 10 vials",
+          431
+        ]
+      ],
+      "identity_status": "IDENTITY / SEQUENCE VERIFICATION REQUIRED",
+      "existing_uai": "",
+      "review_priority": "HIGH",
+      "notes": ""
+    },
+    {
+      "canonical_name": "LL-37",
+      "listed_name": "LL37",
+      "classification": "Antimicrobial peptide",
+      "segment": "C5 - Repair, immune and cosmetic peptides",
+      "variants": [
+        [
+          "375",
+          "5 mg x 10 vials",
+          98
+        ]
+      ],
+      "identity_status": "CATALOGUE CODE AND SEQUENCE VERIFICATION REQUIRED",
+      "existing_uai": "",
+      "review_priority": "HIGH",
+      "notes": ""
+    },
+    {
+      "canonical_name": "Retatrutide",
+      "listed_name": "Retatrutide",
+      "classification": "Triple incretin receptor agonist peptide",
+      "segment": "Existing assets",
+      "variants": [
+        [
+          "RT5",
+          "5 mg x 10 vials",
+          50
+        ],
+        [
+          "RT10",
+          "10 mg x 10 vials",
+          78
+        ],
+        [
+          "RT15",
+          "15 mg x 10 vials",
+          107
+        ],
+        [
+          "RT20",
+          "20 mg x 10 vials",
+          140
+        ],
+        [
+          "RT30",
+          "30 mg x 10 vials",
+          195
+        ],
+        [
+          "RT40",
+          "40 mg x 10 vials",
+          240
+        ],
+        [
+          "RT50",
+          "50 mg x 10 vials",
+          295
+        ],
+        [
+          "RT60",
+          "60 mg x 10 vials",
+          330
+        ]
+      ],
+      "identity_status": "PRELIMINARY IDENTITY ACCEPTED",
+      "existing_uai": "CERT-PKS-000001",
+      "review_priority": "CRITICAL",
+      "notes": ""
+    },
+    {
+      "canonical_name": "Melatonin",
+      "listed_name": "melatonin",
+      "classification": "Non-peptide small molecule hormone",
+      "segment": "C9 - Non-peptide and ancillary catalogue items",
+      "variants": [
+        [
+          "MT10",
+          "10 mg x 10 vials",
+          56
+        ]
+      ],
+      "identity_status": "PRELIMINARY IDENTITY ACCEPTED",
+      "existing_uai": "",
+      "review_priority": "MEDIUM",
+      "notes": ""
+    },
+    {
+      "canonical_name": "HGH fragment 176-191",
+      "listed_name": "HGH Fragment 176-191",
+      "classification": "Growth-hormone fragment peptide",
+      "segment": "C2 - Metabolic and incretin-related",
+      "variants": [
+        [
+          "FR2",
+          "2 mg x 10 vials",
+          53
+        ],
+        [
+          "FR5",
+          "5 mg x 10 vials",
+          99
+        ],
+        [
+          "FR10",
+          "10 mg x 10 vials",
+          183
+        ]
+      ],
+      "identity_status": "PRELIMINARY IDENTITY ACCEPTED",
+      "existing_uai": "",
+      "review_priority": "MEDIUM",
+      "notes": ""
+    },
+    {
+      "canonical_name": "Dermorphin",
+      "listed_name": "dermorphin",
+      "classification": "Opioid peptide",
+      "segment": "C4 - Neurocognitive and sleep peptides",
+      "variants": [
+        [
+          "DR5",
+          "5 mg x 10 vials",
+          36
+        ]
+      ],
+      "identity_status": "PRELIMINARY IDENTITY ACCEPTED",
+      "existing_uai": "",
+      "review_priority": "HIGH",
+      "notes": ""
+    },
+    {
+      "canonical_name": "Native GLP-1 identity candidate",
+      "listed_name": "GLP-1, 5mg/vial",
+      "classification": "Peptide hormone / identity unspecified",
+      "segment": "C2 - Metabolic and incretin-related",
+      "variants": [
+        [
+          "GP",
+          "5 mg x 10 vials",
+          103
+        ]
+      ],
+      "identity_status": "EXACT SEQUENCE / FORM VERIFICATION REQUIRED",
+      "existing_uai": "",
+      "review_priority": "HIGH",
+      "notes": ""
+    },
+    {
+      "canonical_name": "Glutathione",
+      "listed_name": "Glutathione",
+      "classification": "Tripeptide antioxidant",
+      "segment": "C9 - Non-peptide and ancillary catalogue items",
+      "variants": [
+        [
+          "GTT",
+          "1,500 mg x 10 vials",
+          108
+        ]
+      ],
+      "identity_status": "PRELIMINARY IDENTITY ACCEPTED",
+      "existing_uai": "",
+      "review_priority": "MEDIUM",
+      "notes": ""
+    },
+    {
+      "canonical_name": "Insulin",
+      "listed_name": "Insulin",
+      "classification": "Protein hormone / biologic",
+      "segment": "C3 - GH, IGF and endocrine",
+      "variants": [
+        [
+          "ISU",
+          "3 mL x 10 vials",
+          239
+        ]
+      ],
+      "identity_status": "TYPE / CONCENTRATION / FORMULATION VERIFICATION REQUIRED",
+      "existing_uai": "",
+      "review_priority": "CRITICAL",
+      "notes": ""
+    },
+    {
+      "canonical_name": "Bacteriostatic water",
+      "listed_name": "bac.water",
+      "classification": "Ancillary diluent",
+      "segment": "C9 - Non-peptide and ancillary catalogue items",
+      "variants": [
+        [
+          "WA10",
+          "10 mL x 10 vials",
+          12
+        ]
+      ],
+      "identity_status": "PRELIMINARY IDENTITY ACCEPTED",
+      "existing_uai": "",
+      "review_priority": "MEDIUM",
+      "notes": ""
+    },
+    {
+      "canonical_name": "Acetic acid water",
+      "listed_name": "Acetic acid water",
+      "classification": "Ancillary diluent",
+      "segment": "C9 - Non-peptide and ancillary catalogue items",
+      "variants": [
+        [
+          "AA10",
+          "10 mL x 10 vials",
+          12
+        ]
+      ],
+      "identity_status": "CONCENTRATION / STERILITY VERIFICATION REQUIRED",
+      "existing_uai": "",
+      "review_priority": "MEDIUM",
+      "notes": ""
+    },
+    {
+      "canonical_name": "Bacteriostatic water",
+      "listed_name": "bac.water",
+      "classification": "Ancillary diluent",
+      "segment": "C9 - Non-peptide and ancillary catalogue items",
+      "variants": [
+        [
+          "BA10",
+          "10 mL x 10 vials",
+          12
+        ],
+        [
+          "BA05",
+          "5 mL x 10 vials",
+          11
+        ],
+        [
+          "BA03",
+          "3 mL x 10 vials",
+          8
+        ]
+      ],
+      "identity_status": "PRELIMINARY IDENTITY ACCEPTED",
+      "existing_uai": "",
+      "review_priority": "MEDIUM",
+      "notes": "Duplicate product family also listed as WA10."
+    },
+    {
+      "canonical_name": "Botulinum toxin",
+      "listed_name": "Botulinum toxin",
+      "classification": "Protein neurotoxin / biologic",
+      "segment": "C9 - Non-peptide and ancillary catalogue items",
+      "variants": [
+        [
+          "XT100",
+          "100 IU x 10 vials",
+          165
+        ]
+      ],
+      "identity_status": "TOXIN TYPE / BRAND / POTENCY UNIT VERIFICATION REQUIRED",
+      "existing_uai": "",
+      "review_priority": "CRITICAL",
+      "notes": ""
+    },
+    {
+      "canonical_name": "5-amino-1MQ",
+      "listed_name": "5-amino-1mq",
+      "classification": "Non-peptide small molecule",
+      "segment": "C9 - Non-peptide and ancillary catalogue items",
+      "variants": [
+        [
+          "5AM",
+          "5 mg x 10 vials",
+          32
+        ],
+        [
+          "10AM",
+          "10 mg x 10 vials",
+          42
+        ],
+        [
+          "50AM",
+          "50 mg x 10 vials",
+          65
+        ]
+      ],
+      "identity_status": "PRELIMINARY IDENTITY ACCEPTED",
+      "existing_uai": "",
+      "review_priority": "MEDIUM",
+      "notes": ""
+    },
+    {
+      "canonical_name": "Human menopausal gonadotropin",
+      "listed_name": "HMG",
+      "classification": "Glycoprotein hormone / biologic",
+      "segment": "C3 - GH, IGF and endocrine",
+      "variants": [
+        [
+          "G75",
+          "75 IU x 10 vials",
+          68
+        ]
+      ],
+      "identity_status": "PRELIMINARY IDENTITY ACCEPTED",
+      "existing_uai": "",
+      "review_priority": "HIGH",
+      "notes": ""
+    },
+    {
+      "canonical_name": "Erythropoietin",
+      "listed_name": "EPO",
+      "classification": "Glycoprotein hormone / biologic",
+      "segment": "C3 - GH, IGF and endocrine",
+      "variants": [
+        [
+          "E3K",
+          "3,000 IU x 5 vials",
+          122
+        ]
+      ],
+      "identity_status": "PRELIMINARY IDENTITY ACCEPTED",
+      "existing_uai": "",
+      "review_priority": "CRITICAL",
+      "notes": ""
+    },
+    {
+      "canonical_name": "Cerebrolysin",
+      "listed_name": "cerebrolysin",
+      "classification": "Peptide mixture / biologic extract",
+      "segment": "C4 - Neurocognitive and sleep peptides",
+      "variants": [
+        [
+          "CBL60",
+          "60 mg x 6 vials",
+          49
+        ]
+      ],
+      "identity_status": "BRAND / COMPOSITION / AUTHORISATION VERIFICATION REQUIRED",
+      "existing_uai": "",
+      "review_priority": "HIGH",
+      "notes": ""
+    },
+    {
+      "canonical_name": "Cerebrolysin-type unbranded product",
+      "listed_name": "cerebrolysin (No Brand)",
+      "classification": "Peptide mixture / unbranded biologic",
+      "segment": "C4 - Neurocognitive and sleep peptides",
+      "variants": [
+        [
+          "C60",
+          "60 mg x 10 vials",
+          43
+        ]
+      ],
+      "identity_status": "HIGH-RISK IDENTITY / COMPOSITION VERIFICATION REQUIRED",
+      "existing_uai": "",
+      "review_priority": "CRITICAL",
+      "notes": ""
+    },
+    {
+      "canonical_name": "Hyaluronic acid",
+      "listed_name": "hyaluronic acid",
+      "classification": "Polysaccharide / non-peptide",
+      "segment": "C9 - Non-peptide and ancillary catalogue items",
+      "variants": [
+        [
+          "HA5",
+          "5 mg x 10 vials",
+          198
+        ]
+      ],
+      "identity_status": "MOLECULAR WEIGHT / FORMULATION / INTENDED ROUTE VERIFICATION REQUIRED",
+      "existing_uai": "",
+      "review_priority": "MEDIUM",
+      "notes": ""
+    },
+    {
+      "canonical_name": "Cagrilintide",
+      "listed_name": "cagrilintide",
+      "classification": "Long-acting amylin analogue peptide",
+      "segment": "C2 - Metabolic and incretin-related",
+      "variants": [
+        [
+          "CGL5",
+          "5 mg x 10 vials",
+          92
+        ],
+        [
+          "CGL10",
+          "10 mg x 10 vials",
+          170
+        ],
+        [
+          "CGL20",
+          "20 mg x 10 vials",
+          295
+        ]
+      ],
+      "identity_status": "PRELIMINARY IDENTITY ACCEPTED",
+      "existing_uai": "",
+      "review_priority": "HIGH",
+      "notes": ""
+    },
+    {
+      "canonical_name": "Cibinetide",
+      "listed_name": "Ara-290",
+      "classification": "Erythropoietin-derived peptide",
+      "segment": "C5 - Repair, immune and cosmetic peptides",
+      "variants": [
+        [
+          "RA10",
+          "10 mg x 10 vials",
+          76
+        ]
+      ],
+      "identity_status": "ARA-290 / CIBINETIDE IDENTITY VERIFICATION REQUIRED",
+      "existing_uai": "",
+      "review_priority": "MEDIUM",
+      "notes": ""
+    },
+    {
+      "canonical_name": "Acetyl octapeptide-3",
+      "listed_name": "snap-8",
+      "classification": "Cosmetic peptide",
+      "segment": "C5 - Repair, immune and cosmetic peptides",
+      "variants": [
+        [
+          "NP810",
+          "10 mg x 10 vials",
+          42
+        ]
+      ],
+      "identity_status": "SNAP-8 / ACETYL OCTAPEPTIDE-3 IDENTITY VERIFICATION REQUIRED",
+      "existing_uai": "",
+      "review_priority": "MEDIUM",
+      "notes": ""
+    },
+    {
+      "canonical_name": "Mazdutide",
+      "listed_name": "Mazdutide",
+      "classification": "Dual GLP-1/glucagon receptor agonist peptide",
+      "segment": "C2 - Metabolic and incretin-related",
+      "variants": [
+        [
+          "MDT5",
+          "5 mg x 10 vials",
+          93
+        ],
+        [
+          "MDT10",
+          "10 mg x 10 vials",
+          185
+        ]
+      ],
+      "identity_status": "PRELIMINARY IDENTITY ACCEPTED",
+      "existing_uai": "",
+      "review_priority": "HIGH",
+      "notes": ""
+    },
+    {
+      "canonical_name": "NAD identity candidate",
+      "listed_name": "NAD",
+      "classification": "Coenzyme / non-peptide",
+      "segment": "C9 - Non-peptide and ancillary catalogue items",
+      "variants": [
+        [
+          "NJ3100",
+          "100 mg x 10 vials",
+          37
+        ],
+        [
+          "NJ250",
+          "250 mg x 10 vials",
+          56
+        ],
+        [
+          "NJ500",
+          "500 mg x 10 vials",
+          78
+        ],
+        [
+          "NJ1000",
+          "1,000 mg x 10 vials",
+          126
+        ]
+      ],
+      "identity_status": "NAD+ / NADH / SALT FORM VERIFICATION REQUIRED",
+      "existing_uai": "",
+      "review_priority": "MEDIUM",
+      "notes": "Catalogue code is printed as NJ3100 for the 100 mg entry; user shorthand has previously used NJ100."
+    },
+    {
+      "canonical_name": "Alprostadil",
+      "listed_name": "Alprostadil",
+      "classification": "Prostaglandin / non-peptide drug",
+      "segment": "C9 - Non-peptide and ancillary catalogue items",
+      "variants": [
+        [
+          "PRO20",
+          "20 mcg x 10 vials",
+          132
+        ]
+      ],
+      "identity_status": "PRELIMINARY IDENTITY ACCEPTED",
+      "existing_uai": "",
+      "review_priority": "HIGH",
+      "notes": ""
+    },
+    {
+      "canonical_name": "BPC-157 + GHK-Cu + TB-500 blend",
+      "listed_name": "BPC 157 10mg + GHK-CU 50mg + TB500 10mg",
+      "classification": "Peptide blend",
+      "segment": "C8 - Blends and supplier combinations",
+      "variants": [
+        [
+          "BBG70",
+          "70 mg x 10 vials",
+          219
+        ]
+      ],
+      "identity_status": "BLEND / COMPONENT IDENTITY VERIFICATION REQUIRED",
+      "existing_uai": "",
+      "review_priority": "HIGH",
+      "notes": ""
+    },
+    {
+      "canonical_name": "BPC-157 + GHK-Cu + TB-500 + KPV blend",
+      "listed_name": "BPC 157 10mg + GHK-CU 50mg + TB500 10mg + KPV 10mg",
+      "classification": "Peptide blend",
+      "segment": "C8 - Blends and supplier combinations",
+      "variants": [
+        [
+          "KL80",
+          "80 mg x 10 vials",
+          252
+        ]
+      ],
+      "identity_status": "BLEND / COMPONENT IDENTITY VERIFICATION REQUIRED",
+      "existing_uai": "",
+      "review_priority": "HIGH",
+      "notes": ""
+    },
+    {
+      "canonical_name": "Survodutide",
+      "listed_name": "Survodutide",
+      "classification": "Dual GLP-1/glucagon receptor agonist peptide",
+      "segment": "C2 - Metabolic and incretin-related",
+      "variants": [
+        [
+          "SUR10",
+          "10 mg x 10 vials",
+          271
+        ]
+      ],
+      "identity_status": "PRELIMINARY IDENTITY ACCEPTED",
+      "existing_uai": "",
+      "review_priority": "HIGH",
+      "notes": ""
+    },
+    {
+      "canonical_name": "Cagrilintide + Semaglutide blend",
+      "listed_name": "Cagrilintide 5mg + Semaglutide 5mg",
+      "classification": "Peptide drug blend",
+      "segment": "C8 - Blends and supplier combinations",
+      "variants": [
+        [
+          "CS10",
+          "10 mg x 10 vials",
+          135
+        ]
+      ],
+      "identity_status": "BLEND / RATIO / FORMULATION VERIFICATION REQUIRED",
+      "existing_uai": "",
+      "review_priority": "CRITICAL",
+      "notes": ""
+    },
+    {
+      "canonical_name": "Retatrutide + Cagrilintide blend",
+      "listed_name": "Retatrutide 5mg + Cagrilintide 5mg",
+      "classification": "Investigational peptide blend",
+      "segment": "C8 - Blends and supplier combinations",
+      "variants": [
+        [
+          "RC10",
+          "10 mg x 10 vials",
+          165
+        ]
+      ],
+      "identity_status": "BLEND / UNVALIDATED COMBINATION",
+      "existing_uai": "",
+      "review_priority": "CRITICAL",
+      "notes": ""
+    },
+    {
+      "canonical_name": "Vasoactive intestinal peptide",
+      "listed_name": "VIP",
+      "classification": "Neuropeptide",
+      "segment": "C5 - Repair, immune and cosmetic peptides",
+      "variants": [
+        [
+          "VP5",
+          "5 mg x 10 vials",
+          95
+        ],
+        [
+          "VP10",
+          "10 mg x 10 vials",
+          160
+        ]
+      ],
+      "identity_status": "PRELIMINARY IDENTITY ACCEPTED",
+      "existing_uai": "",
+      "review_priority": "HIGH",
+      "notes": ""
+    },
+    {
+      "canonical_name": "KPV",
+      "listed_name": "KPV",
+      "classification": "Alpha-MSH-derived tripeptide",
+      "segment": "C5 - Repair, immune and cosmetic peptides",
+      "variants": [
+        [
+          "KP5",
+          "5 mg x 10 vials",
+          39
+        ],
+        [
+          "KP10",
+          "10 mg x 10 vials",
+          59
+        ]
+      ],
+      "identity_status": "PRELIMINARY IDENTITY ACCEPTED",
+      "existing_uai": "",
+      "review_priority": "MEDIUM",
+      "notes": ""
+    },
+    {
+      "canonical_name": "Adamax identity candidate",
+      "listed_name": "Adamax",
+      "classification": "Unresolved research compound / peptide candidate",
+      "segment": "C4 - Neurocognitive and sleep peptides",
+      "variants": [
+        [
+          "AD5",
+          "5 mg x 10 vials",
+          172
+        ]
+      ],
+      "identity_status": "IDENTITY VERIFICATION REQUIRED",
+      "existing_uai": "",
+      "review_priority": "HIGH",
+      "notes": ""
+    },
+    {
+      "canonical_name": "PE 22-28",
+      "listed_name": "PE 22-28",
+      "classification": "Research neuropeptide",
+      "segment": "C4 - Neurocognitive and sleep peptides",
+      "variants": [
+        [
+          "PE10",
+          "10 mg x 10 vials",
+          71
+        ]
+      ],
+      "identity_status": "SEQUENCE / NAMING VERIFICATION REQUIRED",
+      "existing_uai": "",
+      "review_priority": "MEDIUM",
+      "notes": ""
+    },
+    {
+      "canonical_name": "Testagen",
+      "listed_name": "Testagen",
+      "classification": "Short regulatory peptide candidate",
+      "segment": "C6 - Mitochondrial and longevity research",
+      "variants": [
+        [
+          "TG20",
+          "20 mg x 10 vials",
+          126
+        ]
+      ],
+      "identity_status": "SEQUENCE / PRODUCT IDENTITY VERIFICATION REQUIRED",
+      "existing_uai": "",
+      "review_priority": "MEDIUM",
+      "notes": ""
+    },
+    {
+      "canonical_name": "N-acetyl Epitalon amidate",
+      "listed_name": "N-Acetyl Epitalon Amidate",
+      "classification": "Modified peptide analogue",
+      "segment": "C6 - Mitochondrial and longevity research",
+      "variants": [
+        [
+          "NET5",
+          "5 mg x 10 vials",
+          51
+        ]
+      ],
+      "identity_status": "SEQUENCE / TERMINAL MODIFICATION VERIFICATION REQUIRED",
+      "existing_uai": "",
+      "review_priority": "MEDIUM",
+      "notes": ""
+    },
+    {
+      "canonical_name": "Pinealon",
+      "listed_name": "Pinealon",
+      "classification": "Short regulatory peptide",
+      "segment": "C4 - Neurocognitive and sleep peptides",
+      "variants": [
+        [
+          "PIN5",
+          "5 mg x 10 vials",
+          42
+        ],
+        [
+          "PIN10",
+          "10 mg x 10 vials",
+          64
+        ],
+        [
+          "PIN20",
+          "20 mg x 10 vials",
+          103
+        ]
+      ],
+      "identity_status": "SEQUENCE / PRODUCT IDENTITY VERIFICATION REQUIRED",
+      "existing_uai": "",
+      "review_priority": "MEDIUM",
+      "notes": ""
+    },
+    {
+      "canonical_name": "Lemon Bottle",
+      "listed_name": "Lemon Bottle",
+      "classification": "Cosmetic mixture / non-peptide product",
+      "segment": "C9 - Non-peptide and ancillary catalogue items",
+      "variants": [
+        [
+          "柠檬瓶",
+          "10 mL x 10 vials",
+          103
+        ]
+      ],
+      "identity_status": "MULTI-INGREDIENT FORMULATION / ROUTE VERIFICATION REQUIRED",
+      "existing_uai": "",
+      "review_priority": "HIGH",
+      "notes": ""
+    },
+    {
+      "canonical_name": "Vilon",
+      "listed_name": "VILON",
+      "classification": "Short regulatory peptide",
+      "segment": "C6 - Mitochondrial and longevity research",
+      "variants": [
+        [
+          "VI20",
+          "20 mg x 10 vials",
+          119
+        ]
+      ],
+      "identity_status": "SEQUENCE / PRODUCT IDENTITY VERIFICATION REQUIRED",
+      "existing_uai": "",
+      "review_priority": "MEDIUM",
+      "notes": ""
+    },
+    {
+      "canonical_name": "PNC-27",
+      "listed_name": "PNC27",
+      "classification": "Experimental anticancer peptide",
+      "segment": "C5 - Repair, immune and cosmetic peptides",
+      "variants": [
+        [
+          "PN5",
+          "5 mg x 10 vials",
+          99
+        ],
+        [
+          "PN10",
+          "10 mg x 10 vials",
+          169
+        ]
+      ],
+      "identity_status": "PRELIMINARY IDENTITY ACCEPTED",
+      "existing_uai": "",
+      "review_priority": "HIGH",
+      "notes": ""
+    },
+    {
+      "canonical_name": "P21 without adamantane identity candidate",
+      "listed_name": "P21 without adamantane",
+      "classification": "Experimental neuropeptide / conjugate candidate",
+      "segment": "C4 - Neurocognitive and sleep peptides",
+      "variants": [
+        [
+          "P210",
+          "10 mg x 10 vials",
+          80
+        ]
+      ],
+      "identity_status": "SEQUENCE / CHEMICAL IDENTITY VERIFICATION REQUIRED",
+      "existing_uai": "",
+      "review_priority": "MEDIUM",
+      "notes": ""
+    },
+    {
+      "canonical_name": "P21 adamantane conjugate identity candidate",
+      "listed_name": "P21 adamantane",
+      "classification": "Experimental neuropeptide conjugate",
+      "segment": "C4 - Neurocognitive and sleep peptides",
+      "variants": [
+        [
+          "PP10",
+          "10 mg x 10 vials",
+          310
+        ]
+      ],
+      "identity_status": "SEQUENCE / ADAMANTANE CONJUGATION VERIFICATION REQUIRED",
+      "existing_uai": "",
+      "review_priority": "MEDIUM",
+      "notes": ""
+    },
+    {
+      "canonical_name": "SLU-PP-322 identity candidate",
+      "listed_name": "slu-pp-322",
+      "classification": "Likely non-peptide research compound",
+      "segment": "C9 - Non-peptide and ancillary catalogue items",
+      "variants": [
+        [
+          "SLU5",
+          "5 mg x 10 vials",
+          121
+        ]
+      ],
+      "identity_status": "POSSIBLE TYPO / IDENTITY VERIFICATION REQUIRED",
+      "existing_uai": "",
+      "review_priority": "HIGH",
+      "notes": "Do not silently correct to another SLU-PP compound without authoritative identity evidence."
+    },
+    {
+      "canonical_name": "Humanin",
+      "listed_name": "Humanin",
+      "classification": "Mitochondrial-derived peptide",
+      "segment": "C6 - Mitochondrial and longevity research",
+      "variants": [
+        [
+          "HU10",
+          "10 mg x 10 vials",
+          210
+        ]
+      ],
+      "identity_status": "PRELIMINARY IDENTITY ACCEPTED",
+      "existing_uai": "",
+      "review_priority": "HIGH",
+      "notes": ""
+    },
+    {
+      "canonical_name": "Teriparatide",
+      "listed_name": "Teriparatide",
+      "classification": "Parathyroid hormone fragment peptide drug",
+      "segment": "C3 - GH, IGF and endocrine",
+      "variants": [
+        [
+          "TER10",
+          "10 mg x 10 vials",
+          210
+        ]
+      ],
+      "identity_status": "PRELIMINARY IDENTITY ACCEPTED",
+      "existing_uai": "",
+      "review_priority": "CRITICAL",
+      "notes": ""
+    },
+    {
+      "canonical_name": "Bronchogen",
+      "listed_name": "Bronchogen",
+      "classification": "Short regulatory peptide candidate",
+      "segment": "C6 - Mitochondrial and longevity research",
+      "variants": [
+        [
+          "BR20",
+          "20 mg x 10 vials",
+          118
+        ]
+      ],
+      "identity_status": "SEQUENCE / PRODUCT IDENTITY VERIFICATION REQUIRED",
+      "existing_uai": "",
+      "review_priority": "MEDIUM",
+      "notes": ""
+    },
+    {
+      "canonical_name": "Cardiogen",
+      "listed_name": "Cardiogen",
+      "classification": "Short regulatory peptide candidate",
+      "segment": "C6 - Mitochondrial and longevity research",
+      "variants": [
+        [
+          "CA20",
+          "20 mg x 10 vials",
+          118
+        ]
+      ],
+      "identity_status": "SEQUENCE / PRODUCT IDENTITY VERIFICATION REQUIRED",
+      "existing_uai": "",
+      "review_priority": "MEDIUM",
+      "notes": ""
+    },
+    {
+      "canonical_name": "Cortagen",
+      "listed_name": "Cortagen",
+      "classification": "Short regulatory peptide candidate",
+      "segment": "C6 - Mitochondrial and longevity research",
+      "variants": [
+        [
+          "COR20",
+          "20 mg x 10 vials",
+          118
+        ]
+      ],
+      "identity_status": "SEQUENCE / PRODUCT IDENTITY VERIFICATION REQUIRED",
+      "existing_uai": "",
+      "review_priority": "MEDIUM",
+      "notes": ""
+    },
+    {
+      "canonical_name": "Livagen",
+      "listed_name": "Livagen",
+      "classification": "Short regulatory peptide candidate",
+      "segment": "C6 - Mitochondrial and longevity research",
+      "variants": [
+        [
+          "LI20",
+          "20 mg x 10 vials",
+          118
+        ]
+      ],
+      "identity_status": "SEQUENCE / PRODUCT IDENTITY VERIFICATION REQUIRED",
+      "existing_uai": "",
+      "review_priority": "MEDIUM",
+      "notes": ""
+    },
+    {
+      "canonical_name": "Pancragen",
+      "listed_name": "Pancragen",
+      "classification": "Short regulatory peptide candidate",
+      "segment": "C6 - Mitochondrial and longevity research",
+      "variants": [
+        [
+          "PA20",
+          "20 mg x 10 vials",
+          118
+        ]
+      ],
+      "identity_status": "SEQUENCE / PRODUCT IDENTITY VERIFICATION REQUIRED",
+      "existing_uai": "",
+      "review_priority": "MEDIUM",
+      "notes": ""
+    },
+    {
+      "canonical_name": "Prostamax",
+      "listed_name": "Prostamax",
+      "classification": "Short regulatory peptide candidate",
+      "segment": "C6 - Mitochondrial and longevity research",
+      "variants": [
+        [
+          "MAX20",
+          "20 mg x 10 vials",
+          118
+        ]
+      ],
+      "identity_status": "SEQUENCE / PRODUCT IDENTITY VERIFICATION REQUIRED",
+      "existing_uai": "",
+      "review_priority": "MEDIUM",
+      "notes": ""
+    },
+    {
+      "canonical_name": "Cartalax",
+      "listed_name": "Cartalax",
+      "classification": "Short regulatory peptide candidate",
+      "segment": "C6 - Mitochondrial and longevity research",
+      "variants": [
+        [
+          "LAX20",
+          "20 mg x 10 vials",
+          118
+        ]
+      ],
+      "identity_status": "SEQUENCE / PRODUCT IDENTITY VERIFICATION REQUIRED",
+      "existing_uai": "",
+      "review_priority": "MEDIUM",
+      "notes": ""
+    },
+    {
+      "canonical_name": "Chonluten",
+      "listed_name": "Chonluten",
+      "classification": "Short regulatory peptide candidate",
+      "segment": "C6 - Mitochondrial and longevity research",
+      "variants": [
+        [
+          "CH20",
+          "20 mg x 10 vials",
+          118
+        ]
+      ],
+      "identity_status": "SEQUENCE / PRODUCT IDENTITY VERIFICATION REQUIRED",
+      "existing_uai": "",
+      "review_priority": "MEDIUM",
+      "notes": ""
+    },
+    {
+      "canonical_name": "Crystagen",
+      "listed_name": "Crystagen",
+      "classification": "Short regulatory peptide candidate",
+      "segment": "C6 - Mitochondrial and longevity research",
+      "variants": [
+        [
+          "CRY20",
+          "20 mg x 10 vials",
+          118
+        ]
+      ],
+      "identity_status": "SEQUENCE / PRODUCT IDENTITY VERIFICATION REQUIRED",
+      "existing_uai": "",
+      "review_priority": "MEDIUM",
+      "notes": ""
+    },
+    {
+      "canonical_name": "Ovagen",
+      "listed_name": "Ovagen",
+      "classification": "Short regulatory peptide candidate",
+      "segment": "C6 - Mitochondrial and longevity research",
+      "variants": [
+        [
+          "OV20",
+          "20 mg x 10 vials",
+          118
+        ]
+      ],
+      "identity_status": "SEQUENCE / PRODUCT IDENTITY VERIFICATION REQUIRED",
+      "existing_uai": "",
+      "review_priority": "MEDIUM",
+      "notes": ""
+    },
+    {
+      "canonical_name": "Vesugen",
+      "listed_name": "Vesugen",
+      "classification": "Short regulatory peptide candidate",
+      "segment": "C6 - Mitochondrial and longevity research",
+      "variants": [
+        [
+          "VE20",
+          "20 mg x 10 vials",
+          118
+        ]
+      ],
+      "identity_status": "SEQUENCE / PRODUCT IDENTITY VERIFICATION REQUIRED",
+      "existing_uai": "",
+      "review_priority": "MEDIUM",
+      "notes": ""
+    },
+    {
+      "canonical_name": "Tesamorelin + Ipamorelin blend",
+      "listed_name": "Tesamorelin 12mg + Ipamorelin 6mg",
+      "classification": "Peptide blend",
+      "segment": "C8 - Blends and supplier combinations",
+      "variants": [
+        [
+          "TI18",
+          "18 mg x 10 vials",
+          280
+        ]
+      ],
+      "identity_status": "BLEND / RATIO / FORMULATION VERIFICATION REQUIRED",
+      "existing_uai": "",
+      "review_priority": "HIGH",
+      "notes": ""
+    },
+    {
+      "canonical_name": "Semax + Selank blend",
+      "listed_name": "Semax 10mg + Selank 10mg",
+      "classification": "Peptide blend",
+      "segment": "C8 - Blends and supplier combinations",
+      "variants": [
+        [
+          "XS20",
+          "20 mg x 10 vials",
+          112
+        ]
+      ],
+      "identity_status": "BLEND / FORMULATION VERIFICATION REQUIRED",
+      "existing_uai": "",
+      "review_priority": "MEDIUM",
+      "notes": ""
+    },
+    {
+      "canonical_name": "N-acetyl Semax amidate",
+      "listed_name": "NA Semax amidate",
+      "classification": "Modified research peptide",
+      "segment": "C4 - Neurocognitive and sleep peptides",
+      "variants": [
+        [
+          "NXA30",
+          "30 mg x 10 vials",
+          155
+        ]
+      ],
+      "identity_status": "SEQUENCE / TERMINAL MODIFICATION VERIFICATION REQUIRED",
+      "existing_uai": "",
+      "review_priority": "MEDIUM",
+      "notes": ""
+    },
+    {
+      "canonical_name": "N-acetyl Selank amidate",
+      "listed_name": "NA Selank amidate",
+      "classification": "Modified research peptide",
+      "segment": "C4 - Neurocognitive and sleep peptides",
+      "variants": [
+        [
+          "NSK30",
+          "30 mg x 10 vials",
+          155
+        ]
+      ],
+      "identity_status": "SEQUENCE / TERMINAL MODIFICATION VERIFICATION REQUIRED",
+      "existing_uai": "",
+      "review_priority": "MEDIUM",
+      "notes": ""
+    },
+    {
+      "canonical_name": "Matrixyl identity candidate",
+      "listed_name": "Matrixyl",
+      "classification": "Cosmetic peptide / branded identity",
+      "segment": "C5 - Repair, immune and cosmetic peptides",
+      "variants": [
+        [
+          "MA10",
+          "10 mg x 10 vials",
+          35
+        ]
+      ],
+      "identity_status": "EXACT MATRIXYL PEPTIDE / BRAND IDENTITY VERIFICATION REQUIRED",
+      "existing_uai": "",
+      "review_priority": "MEDIUM",
+      "notes": ""
+    },
+    {
+      "canonical_name": "PTD-DBM",
+      "listed_name": "PTD-DBM",
+      "classification": "Experimental peptide",
+      "segment": "C5 - Repair, immune and cosmetic peptides",
+      "variants": [
+        [
+          "PTD5",
+          "5 mg x 10 vials",
+          265
+        ]
+      ],
+      "identity_status": "SEQUENCE / PRODUCT IDENTITY VERIFICATION REQUIRED",
+      "existing_uai": "",
+      "review_priority": "HIGH",
+      "notes": ""
+    },
+    {
+      "canonical_name": "Liraglutide",
+      "listed_name": "Liraglutide",
+      "classification": "GLP-1 receptor agonist peptide drug",
+      "segment": "C2 - Metabolic and incretin-related",
+      "variants": [
+        [
+          "LL5",
+          "5 mg x 10 vials",
+          85
+        ],
+        [
+          "LL10",
+          "10 mg x 10 vials",
+          135
+        ],
+        [
+          "LL30",
+          "30 mg x 10 vials",
+          251
+        ]
+      ],
+      "identity_status": "PRELIMINARY IDENTITY ACCEPTED",
+      "existing_uai": "",
+      "review_priority": "CRITICAL",
+      "notes": ""
+    }
+  ]
+}
