@@ -1,37 +1,43 @@
 # CERTIAURA PRODUCTION DASHBOARD
 
-**Build:** 0029  
+**Build:** 0030A  
 **Date:** 2026-07-16
 
-## Catalogue review phase status
+## Catalogue pages 1-5 coverage
 
-**CONDITIONALLY COMPLETE - TWO COVERAGE CORRECTIONS REQUIRED**
+**COMPLETE**
 
-### Coverage
+- 196 / 196 source SKU rows mapped
+- 104 / 104 preliminary product families mapped
+- 90 PKS assets
+- 12 MPS assets
+- 12 PPS assets
+- zero unmapped catalogue rows
 
-- 193 / 196 source SKU rows mapped
-- 102 / 104 preliminary families mapped
-- 100 final product-family assets
-- 12 Product Passports
+## New assets
 
-### Unmapped source rows
+- CERT-PKS-000089 — Elamipretide / SS-31
+- CERT-PKS-000090 — Generic GLP-1 Supplier Product Family
 
-- `2S10` - Elamipretide / SS-31
-- `2S50` - Elamipretide / SS-31
-- `GP` - generic GLP-1 identity candidate
+## Supporting objects
 
-### Next allocation state
+- CERT-EKS-000229–000232
+- CERT-SKS-000106–000107
+- CERT-BKS-000179–000184
+- CERT-CKS-000058–000059
+- CERT-MKS-000173–000181
+- CERT-GKS-000093–000096
 
-- Next PKS: `CERT-PKS-000089`
-- Next MPS: `CERT-MPS-000013`
-- Next PPS: `CERT-PPS-000013`
-- Next EKS: `CERT-EKS-000229`
-- Next SKS: `CERT-SKS-000106`
-- Next BKS: `CERT-BKS-000179`
-- Next CKS: `CERT-CKS-000058`
-- Next MKS: `CERT-MKS-000173`
-- Next GKS: `CERT-GKS-000093`
+## Next allocation state
 
-## Next build
+- PKS: CERT-PKS-000091
+- EKS: CERT-EKS-000233
+- SKS: CERT-SKS-000108
+- BKS: CERT-BKS-000185
+- CKS: CERT-CKS-000060
+- MKS: CERT-MKS-000182
+- GKS: CERT-GKS-000097
 
-**Build 0030A - Catalogue Coverage Correction: Elamipretide / SS-31 and Generic GLP-1 Identity Resolution**
+## Next production phase
+
+**Catalogue Evidence Closure Programme — Priority P0/P1 assets**

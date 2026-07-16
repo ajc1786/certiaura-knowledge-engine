@@ -1,0 +1,19 @@
+{
+  "asset_id": "CERT-EKS-000229",
+  "asset_name": "Elamipretide Chemical Identity and Forzinity Label Evidence",
+  "root_asset": "CERT-PKS-000089",
+  "knowledge_system": "EKS",
+  "asset_type": "Evidence Object",
+  "version": "0.1.0",
+  "status": "AUTHORITATIVE UNITED STATES LABEL IDENTIFIED — DIRECT EXTRACTION REQUIRED",
+  "source_domain": "FDA Forzinity prescribing information: elamipretide hydrochloride chemistry, sequence, sterile formulation, mechanism, indication and safety",
+  "evidence_type": "Authorised product / identity evidence",
+  "last_review": "2026-07-16",
+  "direct_complete_extraction": false,
+  "prohibited_use": [
+    "Personal dosing, injection, infusion or reconstitution guidance",
+    "Forzinity evidence transfer to supplier SS-31 powder",
+    "Native GLP-1 evidence transfer to an unresolved supplier molecule",
+    "Weight-loss or glucose-control treatment protocols"
+  ]
+}

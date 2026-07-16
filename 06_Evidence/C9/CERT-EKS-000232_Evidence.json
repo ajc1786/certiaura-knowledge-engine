@@ -1,0 +1,19 @@
+{
+  "asset_id": "CERT-EKS-000232",
+  "asset_name": "Generic GLP-1 Supplier Product Identity and Regulatory Block",
+  "root_asset": "CERT-PKS-000090",
+  "knowledge_system": "EKS",
+  "asset_type": "Evidence Object",
+  "version": "0.1.0",
+  "status": "OPEN — NO EXACT SUPPLIER MOLECULE ESTABLISHED",
+  "source_domain": "Supplier sequence, residue range, terminal form, analogue status, salt, quality, human evidence and official product-database search",
+  "evidence_type": "Critical identity / regulatory gap",
+  "last_review": "2026-07-16",
+  "direct_complete_extraction": false,
+  "prohibited_use": [
+    "Personal dosing, injection, infusion or reconstitution guidance",
+    "Forzinity evidence transfer to supplier SS-31 powder",
+    "Native GLP-1 evidence transfer to an unresolved supplier molecule",
+    "Weight-loss or glucose-control treatment protocols"
+  ]
+}

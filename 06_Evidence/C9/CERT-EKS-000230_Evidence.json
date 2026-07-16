@@ -1,0 +1,19 @@
+{
+  "asset_id": "CERT-EKS-000230",
+  "asset_name": "Elamipretide Clinical, Confirmatory and International Regulatory Evidence",
+  "root_asset": "CERT-PKS-000089",
+  "knowledge_system": "EKS",
+  "asset_type": "Evidence Object",
+  "version": "0.1.0",
+  "status": "CURRENT PRODUCT- AND JURISDICTION-SPECIFIC REVIEW REQUIRED",
+  "source_domain": "FDA approval basis, post-marketing phase 3b/4 trial, EMA orphan designation and MHRA paediatric investigation plan",
+  "evidence_type": "Human clinical / regulatory evidence",
+  "last_review": "2026-07-16",
+  "direct_complete_extraction": false,
+  "prohibited_use": [
+    "Personal dosing, injection, infusion or reconstitution guidance",
+    "Forzinity evidence transfer to supplier SS-31 powder",
+    "Native GLP-1 evidence transfer to an unresolved supplier molecule",
+    "Weight-loss or glucose-control treatment protocols"
+  ]
+}

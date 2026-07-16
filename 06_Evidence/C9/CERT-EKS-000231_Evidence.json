@@ -1,0 +1,19 @@
+{
+  "asset_id": "CERT-EKS-000231",
+  "asset_name": "Native GLP-1 Molecular Forms and Human Physiology Evidence",
+  "root_asset": "CERT-PKS-000090",
+  "knowledge_system": "EKS",
+  "asset_type": "Evidence Object",
+  "version": "0.1.0",
+  "status": "PRIMARY MOLECULAR-FORM SOURCES IDENTIFIED",
+  "source_domain": "Primary human studies of GLP-1(7-36) amide and GLP-1(7-37), including incretin, metabolic and gastric effects",
+  "evidence_type": "Identity / human physiology evidence",
+  "last_review": "2026-07-16",
+  "direct_complete_extraction": false,
+  "prohibited_use": [
+    "Personal dosing, injection, infusion or reconstitution guidance",
+    "Forzinity evidence transfer to supplier SS-31 powder",
+    "Native GLP-1 evidence transfer to an unresolved supplier molecule",
+    "Weight-loss or glucose-control treatment protocols"
+  ]
+}

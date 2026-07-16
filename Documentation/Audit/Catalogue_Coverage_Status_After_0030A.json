@@ -1,0 +1,23 @@
+{
+  "status_date": "2026-07-16",
+  "source_scope": "Peptides.pdf pages 1-5",
+  "baseline_sku_rows": 196,
+  "mapped_sku_rows": 196,
+  "unmapped_sku_rows": 0,
+  "sku_coverage_percent": 100.0,
+  "baseline_preliminary_families": 104,
+  "mapped_preliminary_families": 104,
+  "unmapped_preliminary_families": 0,
+  "family_coverage_percent": 100.0,
+  "final_product_family_assets": 102,
+  "pks_assets": 90,
+  "mps_assets": 12,
+  "pps_assets": 12,
+  "build_0029_historical_snapshot_retained": true,
+  "remaining_identity_block": {
+    "asset": "CERT-PKS-000090",
+    "name": "Generic GLP-1 Supplier Product Family",
+    "coverage_gap": false,
+    "scientific_identity_gap": true
+  }
+}

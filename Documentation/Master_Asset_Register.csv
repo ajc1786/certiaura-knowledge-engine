@@ -1,75 +1,30 @@
 Universal Asset Identifier,Asset Name,Knowledge System,Asset Type,Status,Owner,Parent Assets,Last Review,Notes
-CERT-MPS-000007,Bacteriostatic Water Supplier Family,MPS,Marketplace Product-Family Asset,Catalogue Reviewed — Product Passport Gap Active,Aidan Coleman,,2026-07-16,Build 0028B
-CERT-PPS-000007,Bacteriostatic Water Supplier Family Product Passport,PPS,Product Passport Gap Object,Open — Not Certified,Aidan Coleman,CERT-MPS-000007,2026-07-16,Build 0028B
-CERT-MPS-000008,Acetic Acid Water Supplier Family,MPS,Marketplace Product-Family Asset,Catalogue Reviewed — Product Passport Gap Active,Aidan Coleman,,2026-07-16,Build 0028B
-CERT-PPS-000008,Acetic Acid Water Supplier Family Product Passport,PPS,Product Passport Gap Object,Open — Not Certified,Aidan Coleman,CERT-MPS-000008,2026-07-16,Build 0028B
-CERT-MPS-000009,Botulinum Toxin Supplier Product Family,MPS,Marketplace Product-Family Asset,Catalogue Reviewed — Product Passport Gap Active,Aidan Coleman,,2026-07-16,Build 0028B
-CERT-PPS-000009,Botulinum Toxin Supplier Product Family Product Passport,PPS,Product Passport Gap Object,Open — Not Certified,Aidan Coleman,CERT-MPS-000009,2026-07-16,Build 0028B
-CERT-MPS-000010,Hyaluronic Acid Supplier Product Family,MPS,Marketplace Product-Family Asset,Catalogue Reviewed — Product Passport Gap Active,Aidan Coleman,,2026-07-16,Build 0028B
-CERT-PPS-000010,Hyaluronic Acid Supplier Product Family Product Passport,PPS,Product Passport Gap Object,Open — Not Certified,Aidan Coleman,CERT-MPS-000010,2026-07-16,Build 0028B
-CERT-MPS-000011,Alprostadil Supplier Vial Family,MPS,Marketplace Product-Family Asset,Catalogue Reviewed — Product Passport Gap Active,Aidan Coleman,,2026-07-16,Build 0028B
-CERT-PPS-000011,Alprostadil Supplier Vial Family Product Passport,PPS,Product Passport Gap Object,Open — Not Certified,Aidan Coleman,CERT-MPS-000011,2026-07-16,Build 0028B
-CERT-MPS-000012,Lemon Bottle Supplier Mixture Family,MPS,Marketplace Product-Family Asset,Catalogue Reviewed — Product Passport Gap Active,Aidan Coleman,,2026-07-16,Build 0028B
-CERT-PPS-000012,Lemon Bottle Supplier Mixture Family Product Passport,PPS,Product Passport Gap Object,Open — Not Certified,Aidan Coleman,CERT-MPS-000012,2026-07-16,Build 0028B
-CERT-BKS-000167,Bacteriostatic Water and Preservative Biology,BKS,Biology Object,Foundation,Aidan Coleman,,2026-07-16,Build 0028B
-CERT-BKS-000168,Benzyl Alcohol Preservative Toxicology,BKS,Biology Object,Foundation,Aidan Coleman,,2026-07-16,Build 0028B
-CERT-BKS-000169,"Acetic Acid, pH and Protein Compatibility",BKS,Biology Object,Foundation,Aidan Coleman,,2026-07-16,Build 0028B
-CERT-BKS-000170,Botulinum Neurotoxin Serotype and Structure,BKS,Biology Object,Foundation,Aidan Coleman,,2026-07-16,Build 0028B
-CERT-BKS-000171,SNARE Cleavage and Neuromuscular Transmission,BKS,Biology Object,Foundation,Aidan Coleman,,2026-07-16,Build 0028B
-CERT-BKS-000172,Distant Toxin Spread and Botulism Biology,BKS,Biology Object,Foundation,Aidan Coleman,,2026-07-16,Build 0028B
-CERT-BKS-000173,Hyaluronan Polymer and Molecular-Weight Biology,BKS,Biology Object,Foundation,Aidan Coleman,,2026-07-16,Build 0028B
-CERT-BKS-000174,Crosslinked Hyaluronic Acid Gel and Vascular Occlusion,BKS,Biology Object,Foundation,Aidan Coleman,,2026-07-16,Build 0028B
-CERT-BKS-000175,Prostaglandin E1 and Smooth-Muscle Signalling,BKS,Biology Object,Foundation,Aidan Coleman,,2026-07-16,Build 0028B
-CERT-BKS-000176,Cavernosal Haemodynamics and Priapism Biology,BKS,Biology Object,Foundation,Aidan Coleman,,2026-07-16,Build 0028B
-CERT-BKS-000177,Injectable Lipolysis and Adipose-Tissue Injury,BKS,Biology Object,Foundation,Aidan Coleman,,2026-07-16,Build 0028B
-CERT-BKS-000178,"Bromelain, Plant Extract and Mixture Uncertainty",BKS,Biology Object,Foundation,Aidan Coleman,,2026-07-16,Build 0028B
-CERT-CKS-000053,Pharmaceutical Diluent and Reconstitution Context,CKS,Condition Object,Foundation,Aidan Coleman,,2026-07-16,Build 0028B
-CERT-CKS-000054,Botulinum Toxin Therapeutic and Aesthetic Indications,CKS,Condition Object,Foundation,Aidan Coleman,,2026-07-16,Build 0028B
-CERT-CKS-000055,Dermal Filler and Hyaluronic-Acid Product Context,CKS,Condition Object,Foundation,Aidan Coleman,,2026-07-16,Build 0028B
-CERT-CKS-000056,Erectile Dysfunction and Alprostadil Product Context,CKS,Condition Object,Foundation,Aidan Coleman,,2026-07-16,Build 0028B
-CERT-CKS-000057,Localised Adiposity and Injectable Lipolysis Claims,CKS,Condition Object,Foundation,Aidan Coleman,,2026-07-16,Build 0028B
-CERT-MKS-000151,"Diluent Identity, Concentration and pH Verification",MKS,Monitoring Object,Foundation,Aidan Coleman,,2026-07-16,Build 0028B
-CERT-MKS-000152,"Sterility, Endotoxin and Container Integrity",MKS,Monitoring Object,Foundation,Aidan Coleman,,2026-07-16,Build 0028B
-CERT-MKS-000153,Benzyl Alcohol and Multidose-Container Verification,MKS,Monitoring Object,Foundation,Aidan Coleman,,2026-07-16,Build 0028B
-CERT-MKS-000154,Duplicate Catalogue Code and Batch Reconciliation,MKS,Monitoring Object,Foundation,Aidan Coleman,,2026-07-16,Build 0028B
-CERT-MKS-000155,Acetic Acid Concentration and Corrosive-Irritation Risk,MKS,Monitoring Object,Foundation,Aidan Coleman,,2026-07-16,Build 0028B
-CERT-MKS-000156,Drug-Specific Diluent Compatibility,MKS,Monitoring Object,Foundation,Aidan Coleman,,2026-07-16,Build 0028B
-CERT-MKS-000157,"Botulinum Serotype, Brand and Potency-Unit Verification",MKS,Monitoring Object,Foundation,Aidan Coleman,,2026-07-16,Build 0028B
-CERT-MKS-000158,"Swallowing, Breathing and Distant-Spread Symptoms",MKS,Monitoring Object,Foundation,Aidan Coleman,,2026-07-16,Build 0028B
-CERT-MKS-000159,Neuromuscular Weakness and Cranial-Nerve Effects,MKS,Monitoring Object,Foundation,Aidan Coleman,,2026-07-16,Build 0028B
-CERT-MKS-000160,"Cold Chain, Authenticity and Counterfeit Control",MKS,Monitoring Object,Foundation,Aidan Coleman,,2026-07-16,Build 0028B
-CERT-MKS-000161,"HA Molecular Weight, Crosslinking and Rheology",MKS,Monitoring Object,Foundation,Aidan Coleman,,2026-07-16,Build 0028B
-CERT-MKS-000162,"Vascular Occlusion, Vision Loss and Stroke Signs",MKS,Monitoring Object,Foundation,Aidan Coleman,,2026-07-16,Build 0028B
-CERT-MKS-000163,"Filler Infection, Nodules and Delayed Inflammation",MKS,Monitoring Object,Foundation,Aidan Coleman,,2026-07-16,Build 0028B
-CERT-MKS-000164,"Device, Injection Site and Product Authenticity",MKS,Monitoring Object,Foundation,Aidan Coleman,,2026-07-16,Build 0028B
-CERT-MKS-000165,"Alprostadil Formulation, Route and Potency Verification",MKS,Monitoring Object,Foundation,Aidan Coleman,,2026-07-16,Build 0028B
-CERT-MKS-000166,Prolonged Erection and Priapism Emergency Monitoring,MKS,Monitoring Object,Foundation,Aidan Coleman,,2026-07-16,Build 0028B
-CERT-MKS-000167,"Penile Pain, Fibrosis and Injection-Site Injury",MKS,Monitoring Object,Foundation,Aidan Coleman,,2026-07-16,Build 0028B
-CERT-MKS-000168,Hypotension and Cardiovascular Suitability,MKS,Monitoring Object,Foundation,Aidan Coleman,,2026-07-16,Build 0028B
-CERT-MKS-000169,Lemon Bottle Composition and Mass-Balance Verification,MKS,Monitoring Object,Foundation,Aidan Coleman,,2026-07-16,Build 0028B
-CERT-MKS-000170,"Lemon Bottle Price, Listing and Brand Reconciliation",MKS,Monitoring Object,Foundation,Aidan Coleman,,2026-07-16,Build 0028B
-CERT-MKS-000171,"Injection-Lipolysis Infection, Necrosis and Scarring",MKS,Monitoring Object,Foundation,Aidan Coleman,,2026-07-16,Build 0028B
-CERT-MKS-000172,"Plant Extract, Bromelain and Hypersensitivity Risk",MKS,Monitoring Object,Foundation,Aidan Coleman,,2026-07-16,Build 0028B
-CERT-GKS-000088,Pharmaceutical Diluent Identity and Quality Research,GKS,Goal Object,Foundation,Aidan Coleman,,2026-07-16,Build 0028B
-CERT-GKS-000089,Botulinum Toxin Product-Specific Evidence Research,GKS,Goal Object,Foundation,Aidan Coleman,,2026-07-16,Build 0028B
-CERT-GKS-000090,Hyaluronic-Acid Product and Device Research,GKS,Goal Object,Foundation,Aidan Coleman,,2026-07-16,Build 0028B
-CERT-GKS-000091,Alprostadil Product-Specific Medicine Research,GKS,Goal Object,Foundation,Aidan Coleman,,2026-07-16,Build 0028B
-CERT-GKS-000092,Injectable Cosmetic Mixture Safety Research,GKS,Goal Object,Foundation,Aidan Coleman,,2026-07-16,Build 0028B
-CERT-SKS-000100,"Bacteriostatic Water Sterility, Preservative and Neonatal Safety Risk",SKS,Safety Object,Active,Aidan Coleman,CERT-MPS-000007,2026-07-16,Build 0028B
-CERT-SKS-000101,"Acetic Acid Water Concentration, pH, Irritation and Compatibility Risk",SKS,Safety Object,Active,Aidan Coleman,CERT-MPS-000008,2026-07-16,Build 0028B
-CERT-SKS-000102,"Botulinum Toxin Iatrogenic Botulism, Counterfeit and Unit-Interchangeability Risk",SKS,Safety Object,Active,Aidan Coleman,CERT-MPS-000009,2026-07-16,Build 0028B
-CERT-SKS-000103,"Hyaluronic Acid Vascular Occlusion, Blindness, Stroke and Product-Identity Risk",SKS,Safety Object,Active,Aidan Coleman,CERT-MPS-000010,2026-07-16,Build 0028B
-CERT-SKS-000104,"Alprostadil Priapism, Fibrosis, Hypotension and Formulation Risk",SKS,Safety Object,Active,Aidan Coleman,CERT-MPS-000011,2026-07-16,Build 0028B
-CERT-SKS-000105,"Lemon Bottle Unapproved Injectable, Composition, Infection and Tissue-Injury Risk",SKS,Safety Object,Active,Aidan Coleman,CERT-MPS-000012,2026-07-16,Build 0028B
-CERT-EKS-000217,Bacteriostatic Water Authorised Product Identity Evidence,EKS,Evidence Object,AUTHORITATIVE PRODUCT SOURCES IDENTIFIED,Aidan Coleman,CERT-MPS-000007,2026-07-16,Build 0028B
-CERT-EKS-000218,Supplier Bacteriostatic Water Sterility and Equivalence Gap,EKS,Evidence Object,OPEN — SUPPLIER DILUENT NOT VERIFIED,Aidan Coleman,CERT-MPS-000007,2026-07-16,Build 0028B
-CERT-EKS-000219,Acetic Acid Water Formulation Identity Gap,EKS,Evidence Object,OPEN — FORMULATION UNRESOLVED,Aidan Coleman,CERT-MPS-000008,2026-07-16,Build 0028B
-CERT-EKS-000220,Acetic Acid Water Compatibility Evidence Block,EKS,Evidence Object,BLOCKED BY CERT-EKS-000219,Aidan Coleman,CERT-MPS-000008,2026-07-16,Build 0028B
-CERT-EKS-000221,Botulinum Toxin Authorised Product and Unit Evidence,EKS,Evidence Object,PRODUCT-SPECIFIC EXTRACTION REQUIRED,Aidan Coleman,CERT-MPS-000009,2026-07-16,Build 0028B
-CERT-EKS-000222,Unbranded Botulinum Toxin Safety and Regulatory Boundary,EKS,Evidence Object,CURRENT AUTHORITATIVE SAFETY SOURCES IDENTIFIED,Aidan Coleman,CERT-MPS-000009,2026-07-16,Build 0028B
-CERT-EKS-000223,Hyaluronic Acid Polymer and Product Identity Evidence,EKS,Evidence Object,PRODUCT-SPECIFIC CLOSURE REQUIRED,Aidan Coleman,CERT-MPS-000010,2026-07-16,Build 0028B
-CERT-EKS-000224,Hyaluronic Acid Filler Safety and Supplier-Powder Boundary,EKS,Evidence Object,AUTHORITATIVE SAFETY SOURCES IDENTIFIED,Aidan Coleman,CERT-MPS-000010,2026-07-16,Build 0028B
-CERT-EKS-000225,Alprostadil Authorised Product and Formulation Evidence,EKS,Evidence Object,ROUTE- AND PRODUCT-SPECIFIC EXTRACTION REQUIRED,Aidan Coleman,CERT-MPS-000011,2026-07-16,Build 0028B
-CERT-EKS-000226,Alprostadil Supplier-Vial Equivalence and Safety Gap,EKS,Evidence Object,OPEN — SUPPLIER VIAL NOT VERIFIED,Aidan Coleman,CERT-MPS-000011,2026-07-16,Build 0028B
-CERT-EKS-000227,Lemon Bottle Catalogue Composition and Price Discrepancy,EKS,Evidence Object,OPEN — INTERNAL CATALOGUE CONFLICT,Aidan Coleman,CERT-MPS-000012,2026-07-16,Build 0028B
-CERT-EKS-000228,Lemon Bottle Unapproved Injectable and Safety Evidence,EKS,Evidence Object,AUTHORITATIVE ENFORCEMENT SOURCES IDENTIFIED,Aidan Coleman,CERT-MPS-000012,2026-07-16,Build 0028B
+CERT-PKS-000089,Elamipretide / SS-31,PKS,Peptide / Supplier Product-Family Knowledge Asset,Catalogue Coverage Corrected — Authorised-Product Boundary Active,Aidan Coleman,,2026-07-16,Build 0030A
+CERT-PKS-000090,Generic GLP-1 Supplier Product Family,PKS,Peptide / Supplier Product-Family Knowledge Asset,Catalogue Coverage Corrected — Critical Identity Block Active,Aidan Coleman,,2026-07-16,Build 0030A
+CERT-BKS-000179,Mitochondrial Cardiolipin and Inner-Membrane Biology,BKS,Biology Object,Foundation,Aidan Coleman,,2026-07-16,Build 0030A
+CERT-BKS-000180,Elamipretide Chemistry and Mitochondrial Localisation,BKS,Biology Object,Foundation,Aidan Coleman,,2026-07-16,Build 0030A
+CERT-BKS-000181,"TAZ, Cardiolipin Remodelling and Barth Syndrome",BKS,Biology Object,Foundation,Aidan Coleman,,2026-07-16,Build 0030A
+CERT-BKS-000182,GLP-1 Molecular Forms and Proglucagon Processing,BKS,Biology Object,Foundation,Aidan Coleman,,2026-07-16,Build 0030A
+CERT-BKS-000183,GLP-1 Receptor and Incretin Biology,BKS,Biology Object,Foundation,Aidan Coleman,,2026-07-16,Build 0030A
+CERT-BKS-000184,DPP-4 Cleavage and Native GLP-1 Degradation,BKS,Biology Object,Foundation,Aidan Coleman,,2026-07-16,Build 0030A
+CERT-CKS-000058,Barth Syndrome,CKS,Condition Object,Foundation,Aidan Coleman,,2026-07-16,Build 0030A
+CERT-CKS-000059,Native GLP-1 Physiology and Metabolic Research,CKS,Condition Object,Foundation,Aidan Coleman,,2026-07-16,Build 0030A
+CERT-MKS-000173,"Elamipretide Sequence, Stereochemistry and Salt Verification",MKS,Monitoring Object,Foundation,Aidan Coleman,,2026-07-16,Build 0030A
+CERT-MKS-000174,Barth Muscle Strength and Functional Outcomes,MKS,Monitoring Object,Foundation,Aidan Coleman,,2026-07-16,Build 0030A
+CERT-MKS-000175,Elamipretide Hypersensitivity and Injection-Site Reactions,MKS,Monitoring Object,Foundation,Aidan Coleman,,2026-07-16,Build 0030A
+CERT-MKS-000176,Forzinity Product-Specific Renal and Benzyl-Alcohol Controls,MKS,Monitoring Object,Foundation,Aidan Coleman,,2026-07-16,Build 0030A
+CERT-MKS-000177,"GLP-1 Residue Range, Sequence and C-Terminal Form",MKS,Monitoring Object,Foundation,Aidan Coleman,,2026-07-16,Build 0030A
+CERT-MKS-000178,"Glucose, Insulin, Glucagon and Hypoglycaemia Outcomes",MKS,Monitoring Object,Foundation,Aidan Coleman,,2026-07-16,Build 0030A
+CERT-MKS-000179,Gastric Emptying and Gastrointestinal Effects,MKS,Monitoring Object,Foundation,Aidan Coleman,,2026-07-16,Build 0030A
+CERT-MKS-000180,Native GLP-1 Degradation and Pharmacokinetics,MKS,Monitoring Object,Foundation,Aidan Coleman,,2026-07-16,Build 0030A
+CERT-MKS-000181,"Supplier Peptide Identity, Purity and Sterility Verification",MKS,Monitoring Object,Foundation,Aidan Coleman,,2026-07-16,Build 0030A
+CERT-GKS-000093,Barth Syndrome Authorised-Product Evidence,GKS,Goal Object,Foundation,Aidan Coleman,,2026-07-16,Build 0030A
+CERT-GKS-000094,Mitochondrial Cardiolipin Research,GKS,Goal Object,Foundation,Aidan Coleman,,2026-07-16,Build 0030A
+CERT-GKS-000095,Native GLP-1 Physiology Research,GKS,Goal Object,Foundation,Aidan Coleman,,2026-07-16,Build 0030A
+CERT-GKS-000096,Generic GLP-1 Product Identity Resolution,GKS,Goal Object,Foundation,Aidan Coleman,,2026-07-16,Build 0030A
+CERT-SKS-000106,"Elamipretide Authorised-Product Equivalence, Hypersensitivity and Formulation Risk",SKS,Safety Object,Active,Aidan Coleman,CERT-PKS-000089,2026-07-16,Build 0030A
+CERT-SKS-000107,"Generic GLP-1 Critical Identity, Hypoglycaemia and Human-Use Uncertainty",SKS,Safety Object,Active,Aidan Coleman,CERT-PKS-000090,2026-07-16,Build 0030A
+CERT-EKS-000229,Elamipretide Chemical Identity and Forzinity Label Evidence,EKS,Evidence Object,AUTHORITATIVE UNITED STATES LABEL IDENTIFIED — DIRECT EXTRACTION REQUIRED,Aidan Coleman,CERT-PKS-000089,2026-07-16,Build 0030A
+CERT-EKS-000230,"Elamipretide Clinical, Confirmatory and International Regulatory Evidence",EKS,Evidence Object,CURRENT PRODUCT- AND JURISDICTION-SPECIFIC REVIEW REQUIRED,Aidan Coleman,CERT-PKS-000089,2026-07-16,Build 0030A
+CERT-EKS-000231,Native GLP-1 Molecular Forms and Human Physiology Evidence,EKS,Evidence Object,PRIMARY MOLECULAR-FORM SOURCES IDENTIFIED,Aidan Coleman,CERT-PKS-000090,2026-07-16,Build 0030A
+CERT-EKS-000232,Generic GLP-1 Supplier Product Identity and Regulatory Block,EKS,Evidence Object,OPEN — NO EXACT SUPPLIER MOLECULE ESTABLISHED,Aidan Coleman,CERT-PKS-000090,2026-07-16,Build 0030A

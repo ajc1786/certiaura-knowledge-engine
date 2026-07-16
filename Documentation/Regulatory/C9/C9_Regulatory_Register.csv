@@ -1,0 +1,11 @@
+Asset UAI,Asset Name,Jurisdiction,Authority,Position,Monitoring,Status Date
+CERT-PKS-000089,Elamipretide / SS-31,United States,FDA,Forzinity received accelerated approval on 19 September 2025 to improve muscle strength in adult and paediatric patients with Barth syndrome weighing at least 30 kg. The catalogue powder is not the authorised product.,ACTIVE,2026-07-16
+CERT-PKS-000089,Elamipretide / SS-31,United States,ClinicalTrials.gov / FDA post-marketing context,A phase 3b/4 confirmatory trial is registered to verify clinical benefit following accelerated approval.,ACTIVE,2026-07-16
+CERT-PKS-000089,Elamipretide / SS-31,European Union,EMA,Elamipretide has a positive orphan designation for Barth syndrome; orphan designation is not marketing authorisation.,ACTIVE,2026-07-16
+CERT-PKS-000089,Elamipretide / SS-31,United Kingdom,MHRA,An agreed paediatric investigation plan was published in March 2026; this is not a United Kingdom marketing authorisation.,ACTIVE,2026-07-16
+CERT-PKS-000089,Elamipretide / SS-31,International sport,WADA,Current athlete-specific verification is required before any permitted-status claim.,EVENT-TRIGGERED,2026-07-16
+CERT-PKS-000090,Generic GLP-1 Supplier Product Family,Global,Chemical identity control,"Regulatory interpretation is blocked because the catalogue does not identify the GLP-1 residue range, terminal form, analogue status or formulation.",BLOCKED,2026-07-16
+CERT-PKS-000090,Generic GLP-1 Supplier Product Family,United States,FDA,No approval or authorised-product-equivalence claim for the supplier GP vial.,ACTIVE,2026-07-16
+CERT-PKS-000090,Generic GLP-1 Supplier Product Family,United Kingdom,MHRA,No marketing-authorisation claim for the supplier GP vial.,ACTIVE,2026-07-16
+CERT-PKS-000090,Generic GLP-1 Supplier Product Family,European Union,EMA / European Commission,No marketing-authorisation claim for the supplier GP vial.,ACTIVE,2026-07-16
+CERT-PKS-000090,Generic GLP-1 Supplier Product Family,International sport,WADA,Current status cannot be finalised before exact molecular identity is established.,BLOCKED BY IDENTITY,2026-07-16

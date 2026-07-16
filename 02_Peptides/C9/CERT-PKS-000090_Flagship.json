@@ -1,0 +1,126 @@
+{
+  "asset_id": "CERT-PKS-000090",
+  "asset_name": "Generic GLP-1 Supplier Product Family",
+  "knowledge_system": "PKS",
+  "asset_type": "Peptide / Supplier Product-Family Knowledge Asset",
+  "version": "0.1.0",
+  "status": "CATALOGUE COVERAGE CORRECTED / CRITICAL IDENTITY BLOCK ACTIVE / NOT PLATINUM CERTIFIED",
+  "owner": "Aidan Coleman",
+  "last_review": "2026-07-16",
+  "classification": "Chemically unresolved glucagon-like peptide-1 supplier product family",
+  "aliases": [
+    "GLP-1",
+    "GP",
+    "native GLP-1 candidate"
+  ],
+  "mechanism_summary": "No product-specific mechanism is assigned. Canonical active human forms include GLP-1(7-36) amide and GLP-1(7-37), but the catalogue does not establish which molecular form, sequence, terminus, salt or analogue is supplied.",
+  "evidence_maturity": "Human physiology and infusion evidence exist for exact native GLP-1 molecular forms. Those data cannot be attributed to the supplier vial before chemical identity closure.",
+  "regulatory_headline": "CRITICAL MOLECULAR-IDENTITY GAP / NO NATIVE-FORM, ANALOGUE, APPROVAL OR THERAPEUTIC-EQUIVALENCE CLAIM",
+  "catalogue_supplier_skus": [
+    {
+      "catalogue_code": "GP",
+      "specification": "GLP-1, 5 mg/vial; 5 mg x 10 vials",
+      "price_usd_per_kit": 103
+    }
+  ],
+  "relationships": [
+    {
+      "source": "CERT-PKS-000090",
+      "relationship": "RELATED_TO",
+      "target": "CERT-BKS-000182"
+    },
+    {
+      "source": "CERT-PKS-000090",
+      "relationship": "RELATED_TO",
+      "target": "CERT-BKS-000183"
+    },
+    {
+      "source": "CERT-PKS-000090",
+      "relationship": "RELATED_TO",
+      "target": "CERT-BKS-000184"
+    },
+    {
+      "source": "CERT-PKS-000090",
+      "relationship": "HAS_CONDITION",
+      "target": "CERT-CKS-000059"
+    },
+    {
+      "source": "CERT-PKS-000090",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000177"
+    },
+    {
+      "source": "CERT-PKS-000090",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000178"
+    },
+    {
+      "source": "CERT-PKS-000090",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000179"
+    },
+    {
+      "source": "CERT-PKS-000090",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000180"
+    },
+    {
+      "source": "CERT-PKS-000090",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000181"
+    },
+    {
+      "source": "CERT-PKS-000090",
+      "relationship": "SUPPORTS_GOAL",
+      "target": "CERT-GKS-000095"
+    },
+    {
+      "source": "CERT-PKS-000090",
+      "relationship": "SUPPORTS_GOAL",
+      "target": "CERT-GKS-000096"
+    },
+    {
+      "source": "CERT-PKS-000090",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000231"
+    },
+    {
+      "source": "CERT-PKS-000090",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000232"
+    },
+    {
+      "source": "CERT-PKS-000090",
+      "relationship": "HAS_SAFETY",
+      "target": "CERT-SKS-000107"
+    },
+    {
+      "source": "CERT-PKS-000090",
+      "relationship": "COMPARES_WITH",
+      "target": "CERT-PKS-000011"
+    },
+    {
+      "source": "CERT-PKS-000090",
+      "relationship": "COMPARES_WITH",
+      "target": "CERT-PKS-000012"
+    },
+    {
+      "source": "CERT-PKS-000090",
+      "relationship": "COMPARES_WITH",
+      "target": "CERT-PKS-000016"
+    }
+  ],
+  "supplier_product_identity_verified": false,
+  "authorised_product_equivalence": false,
+  "validated_universal_human_dosing_protocol": false,
+  "supplier_catalogue_proves_quality": false,
+  "platinum_certified": false,
+  "certification_blockers": [
+    "Exact peptide sequence and residue range",
+    "C-terminal amidation versus glycine extension",
+    "Native peptide versus modified analogue",
+    "Salt, counter-ion and molecular mass",
+    "Manufacturer, purity, potency and sterility",
+    "Product-specific human evidence and regulatory status"
+  ]
+}

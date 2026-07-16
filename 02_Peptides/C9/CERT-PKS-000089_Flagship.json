@@ -1,0 +1,117 @@
+{
+  "asset_id": "CERT-PKS-000089",
+  "asset_name": "Elamipretide / SS-31",
+  "knowledge_system": "PKS",
+  "asset_type": "Peptide / Supplier Product-Family Knowledge Asset",
+  "version": "0.1.0",
+  "status": "CATALOGUE COVERAGE CORRECTED / AUTHORISED-PRODUCT BOUNDARY ACTIVE / NOT PLATINUM CERTIFIED",
+  "owner": "Aidan Coleman",
+  "last_review": "2026-07-16",
+  "classification": "Defined aromatic-cationic tetrapeptide and authorised active-substance family",
+  "aliases": [
+    "elamipretide",
+    "SS-31",
+    "MTP-131",
+    "Forzinity active substance",
+    "D-Arg-2,6-dimethyl-Tyr-Lys-Phe-NH2"
+  ],
+  "mechanism_summary": "Mitochondrial cardiolipin binding and localisation to the inner mitochondrial membrane, with effects on mitochondrial morphology and function in the authorised product context.",
+  "evidence_maturity": "United States accelerated approval and post-marketing confirmatory development exist for the exact Forzinity product in Barth syndrome. Other mitochondrial-disease uses and unverified supplier powders remain separate evidence and regulatory objects.",
+  "regulatory_headline": "UNITED STATES FORZINITY ACCELERATED APPROVAL EXISTS FOR A DEFINED BARTH-SYNDROME INDICATION — CATALOGUE SS-31 POWDER IS NOT AUTHORISED-PRODUCT EQUIVALENT",
+  "catalogue_supplier_skus": [
+    {
+      "catalogue_code": "2S10",
+      "specification": "SS-31 10 mg x 10 vials",
+      "price_usd_per_kit": 85
+    },
+    {
+      "catalogue_code": "2S50",
+      "specification": "SS-31 50 mg x 10 vials",
+      "price_usd_per_kit": 360
+    }
+  ],
+  "relationships": [
+    {
+      "source": "CERT-PKS-000089",
+      "relationship": "RELATED_TO",
+      "target": "CERT-BKS-000179"
+    },
+    {
+      "source": "CERT-PKS-000089",
+      "relationship": "RELATED_TO",
+      "target": "CERT-BKS-000180"
+    },
+    {
+      "source": "CERT-PKS-000089",
+      "relationship": "RELATED_TO",
+      "target": "CERT-BKS-000181"
+    },
+    {
+      "source": "CERT-PKS-000089",
+      "relationship": "HAS_CONDITION",
+      "target": "CERT-CKS-000058"
+    },
+    {
+      "source": "CERT-PKS-000089",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000173"
+    },
+    {
+      "source": "CERT-PKS-000089",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000174"
+    },
+    {
+      "source": "CERT-PKS-000089",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000175"
+    },
+    {
+      "source": "CERT-PKS-000089",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000176"
+    },
+    {
+      "source": "CERT-PKS-000089",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000181"
+    },
+    {
+      "source": "CERT-PKS-000089",
+      "relationship": "SUPPORTS_GOAL",
+      "target": "CERT-GKS-000093"
+    },
+    {
+      "source": "CERT-PKS-000089",
+      "relationship": "SUPPORTS_GOAL",
+      "target": "CERT-GKS-000094"
+    },
+    {
+      "source": "CERT-PKS-000089",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000229"
+    },
+    {
+      "source": "CERT-PKS-000089",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000230"
+    },
+    {
+      "source": "CERT-PKS-000089",
+      "relationship": "HAS_SAFETY",
+      "target": "CERT-SKS-000106"
+    }
+  ],
+  "supplier_product_identity_verified": false,
+  "authorised_product_equivalence": false,
+  "validated_universal_human_dosing_protocol": false,
+  "supplier_catalogue_proves_quality": false,
+  "platinum_certified": false,
+  "certification_blockers": [
+    "Supplier sequence and stereochemistry confirmation",
+    "Hydrochloride salt versus other chemical form",
+    "No equivalence to Forzinity 80 mg/mL sterile solution",
+    "Manufacturer, purity, potency, sterility and endotoxin",
+    "Jurisdiction-specific product and indication status"
+  ]
+}
