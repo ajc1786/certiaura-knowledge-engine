@@ -1,0 +1,19 @@
+{
+  "asset_id": "CERT-EKS-000137",
+  "asset_name": "VIP / Aviptadil Identity and Receptor Pharmacology",
+  "root_asset": "CERT-PKS-000055",
+  "knowledge_system": "EKS",
+  "asset_type": "Evidence Object",
+  "version": "0.1.0",
+  "status": "PRIMARY SOURCE MAP CREATED — EXTRACTION REQUIRED",
+  "source_domain": "VIP sequence, VPAC receptors and human physiology",
+  "evidence_type": "Identity / pharmacology evidence",
+  "last_review": "2026-07-16",
+  "direct_complete_extraction": false,
+  "prohibited_use": [
+    "Personal dosing or reconstitution guidance",
+    "Treatment protocols for infection, neuropathy, respiratory or bowel disease",
+    "Transfer between defined peptides and biological mixtures",
+    "Transfer from authorised products to unverified catalogue material"
+  ]
+}

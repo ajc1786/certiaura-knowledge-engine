@@ -1,0 +1,43 @@
+{
+  "asset_uai": "CERT-PKS-000055",
+  "asset_name": "Vasoactive Intestinal Peptide / Aviptadil",
+  "status_as_of": "2026-07-16",
+  "overall_status": "PRODUCT- AND JURISDICTION-SPECIFIC CONTEXTS EXIST — NO UNIVERSAL STANDALONE APPROVAL CLAIM",
+  "regulatory_records": [
+    {
+      "jurisdiction": "United States",
+      "authority": "FDA",
+      "current_status": "No universal standalone VIP/aviptadil approval claim; product and indication search required.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Identity, approval, label, safety, trial, enforcement or anti-doping change"
+    },
+    {
+      "jurisdiction": "United Kingdom",
+      "authority": "MHRA",
+      "current_status": "Any product context is formulation and indication specific; no catalogue equivalence claim.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Identity, approval, label, safety, trial, enforcement or anti-doping change"
+    },
+    {
+      "jurisdiction": "European Union",
+      "authority": "EMA / national authorities",
+      "current_status": "Product and national-authorisation context requires direct verification.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Identity, approval, label, safety, trial, enforcement or anti-doping change"
+    },
+    {
+      "jurisdiction": "Other jurisdictions",
+      "authority": "National medicines authorities",
+      "current_status": "Selected product contexts must be dated and verified.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Identity, approval, label, safety, trial, enforcement or anti-doping change"
+    },
+    {
+      "jurisdiction": "International sport",
+      "authority": "WADA",
+      "current_status": "Current athlete-specific verification required.",
+      "monitoring_state": "EVENT-TRIGGERED",
+      "next_review_trigger": "Identity, approval, label, safety, trial, enforcement or anti-doping change"
+    }
+  ]
+}

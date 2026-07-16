@@ -1,32 +1,29 @@
 # CERTIAURA CHANGE LOG
 
-## Build 0022B — IGF-1, MGF, PEG-MGF & ACE-031 Review
+## Build 0024A — Immune, Repair & Vascular Peptides
 **Date:** 2026-07-16
 
 Allocated:
 
-- CERT-PKS-000026–000029
+- CERT-PKS-000051–000056
 
 Added:
 
-- four flagship assets;
-- eight evidence objects;
-- four safety objects;
-- nine biology objects;
-- four monitoring objects;
-- three goal objects;
+- six flagship assets;
+- twelve evidence objects;
+- six safety objects;
+- fifteen biology objects;
+- five condition objects;
+- sixteen monitoring objects;
+- ten goal objects;
 - regulatory profiles;
 - claim and commercial boundaries;
-- Cost Intelligence™ baseline;
-- identity separation map;
-- authoritative source map.
+- short-path-compatible catalogue and source registers.
 
-Key outcome:
+Key controls:
 
-Long R3 IGF-1 does not inherit authorised mecasermin status.
-
-MGF expression biology does not validate a supplier E-domain peptide.
-
-PEG-MGF remains chemically under-specified.
-
-ACE-031 is controlled as a discontinued investigational fusion-protein programme and myostatin-pathway product.
+- Thymosin Alpha-1 and Thymalin are separate.
+- LL-37 inflammatory and cytotoxic context is retained.
+- Cibinetide is separated from erythropoietin.
+- VIP is separated from product/formulation claims.
+- KPV remains preclinical-dominant.

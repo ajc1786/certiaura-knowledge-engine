@@ -1,0 +1,107 @@
+{
+  "asset_id": "CERT-PKS-000051",
+  "asset_name": "Thymosin Alpha-1 / Thymalfasin",
+  "knowledge_system": "PKS",
+  "asset_type": "Peptide / Biologic-Mixture Knowledge Asset",
+  "version": "0.1.0",
+  "status": "CATALOGUE REVIEWED / EVIDENCE FOUNDATION CREATED / NOT PLATINUM CERTIFIED",
+  "owner": "Aidan Coleman",
+  "last_review": "2026-07-16",
+  "aliases": [
+    "thymosin alpha 1",
+    "thymalfasin",
+    "Zadaxin"
+  ],
+  "classification": "Defined 28-amino-acid thymic peptide medicinal/research product",
+  "mechanism_summary": "Immune-modulatory signalling involving dendritic cells, T-cell responses, innate pattern-recognition pathways and host-response regulation.",
+  "evidence_maturity": "Regional medicinal use and a broad clinical-study literature exist, but indications, quality and regulatory status are country and product specific.",
+  "regulatory_headline": "REGIONAL MEDICINAL PRODUCT CONTEXTS EXIST — NO US-UK-CENTRAL-EU APPROVAL CLAIM",
+  "catalogue_supplier_skus": [
+    {
+      "catalogue_code": "TA2",
+      "specification": "2 mg x 10 vials",
+      "price_usd_per_kit": 54
+    },
+    {
+      "catalogue_code": "TA5",
+      "specification": "5 mg x 10 vials",
+      "price_usd_per_kit": 99
+    },
+    {
+      "catalogue_code": "TA10",
+      "specification": "10 mg x 10 vials",
+      "price_usd_per_kit": 197
+    }
+  ],
+  "relationships": [
+    {
+      "source": "CERT-PKS-000051",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000105"
+    },
+    {
+      "source": "CERT-PKS-000051",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000106"
+    },
+    {
+      "source": "CERT-PKS-000051",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000107"
+    },
+    {
+      "source": "CERT-PKS-000051",
+      "relationship": "HAS_CONDITION",
+      "target": "CERT-CKS-000020"
+    },
+    {
+      "source": "CERT-PKS-000051",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000081"
+    },
+    {
+      "source": "CERT-PKS-000051",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000082"
+    },
+    {
+      "source": "CERT-PKS-000051",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000083"
+    },
+    {
+      "source": "CERT-PKS-000051",
+      "relationship": "SUPPORTS_GOAL",
+      "target": "CERT-GKS-000041"
+    },
+    {
+      "source": "CERT-PKS-000051",
+      "relationship": "SUPPORTS_GOAL",
+      "target": "CERT-GKS-000042"
+    },
+    {
+      "source": "CERT-PKS-000051",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000129"
+    },
+    {
+      "source": "CERT-PKS-000051",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000130"
+    },
+    {
+      "source": "CERT-PKS-000051",
+      "relationship": "HAS_SAFETY",
+      "target": "CERT-SKS-000056"
+    }
+  ],
+  "validated_universal_human_dosing_protocol": false,
+  "supplier_catalogue_proves_quality": false,
+  "platinum_certified": false,
+  "certification_blockers": [
+    "Current country-specific authorisation and product label",
+    "Indication-specific primary evidence extraction",
+    "Manufacturer, sequence, potency and sterility",
+    "Long-term immune and autoimmune safety"
+  ]
+}

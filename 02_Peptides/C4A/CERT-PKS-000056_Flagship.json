@@ -1,0 +1,97 @@
+{
+  "asset_id": "CERT-PKS-000056",
+  "asset_name": "KPV",
+  "knowledge_system": "PKS",
+  "asset_type": "Peptide / Biologic-Mixture Knowledge Asset",
+  "version": "0.1.0",
+  "status": "CATALOGUE REVIEWED / EVIDENCE FOUNDATION CREATED / NOT PLATINUM CERTIFIED",
+  "owner": "Aidan Coleman",
+  "last_review": "2026-07-16",
+  "aliases": [
+    "Lys-Pro-Val",
+    "alpha-MSH 11-13",
+    "KPV tripeptide"
+  ],
+  "classification": "Alpha-MSH-derived Lys-Pro-Val tripeptide",
+  "mechanism_summary": "Experimental anti-inflammatory and epithelial-barrier signalling derived from the C-terminal tripeptide of alpha-melanocyte-stimulating hormone.",
+  "evidence_maturity": "Cell and animal evidence dominates; adequate human intervention, PK and long-term safety evidence is not established.",
+  "regulatory_headline": "PRECLINICAL-DOMINANT / UNAPPROVED / HUMAN EVIDENCE INSUFFICIENT",
+  "catalogue_supplier_skus": [
+    {
+      "catalogue_code": "KP5",
+      "specification": "5 mg x 10 vials",
+      "price_usd_per_kit": 39
+    },
+    {
+      "catalogue_code": "KP10",
+      "specification": "10 mg x 10 vials",
+      "price_usd_per_kit": 59
+    }
+  ],
+  "relationships": [
+    {
+      "source": "CERT-PKS-000056",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000118"
+    },
+    {
+      "source": "CERT-PKS-000056",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000119"
+    },
+    {
+      "source": "CERT-PKS-000056",
+      "relationship": "HAS_CONDITION",
+      "target": "CERT-CKS-000024"
+    },
+    {
+      "source": "CERT-PKS-000056",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000084"
+    },
+    {
+      "source": "CERT-PKS-000056",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000095"
+    },
+    {
+      "source": "CERT-PKS-000056",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000096"
+    },
+    {
+      "source": "CERT-PKS-000056",
+      "relationship": "SUPPORTS_GOAL",
+      "target": "CERT-GKS-000049"
+    },
+    {
+      "source": "CERT-PKS-000056",
+      "relationship": "SUPPORTS_GOAL",
+      "target": "CERT-GKS-000050"
+    },
+    {
+      "source": "CERT-PKS-000056",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000139"
+    },
+    {
+      "source": "CERT-PKS-000056",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000140"
+    },
+    {
+      "source": "CERT-PKS-000056",
+      "relationship": "HAS_SAFETY",
+      "target": "CERT-SKS-000061"
+    }
+  ],
+  "validated_universal_human_dosing_protocol": false,
+  "supplier_catalogue_proves_quality": false,
+  "platinum_certified": false,
+  "certification_blockers": [
+    "No established human intervention efficacy",
+    "Human PK and route-specific exposure",
+    "Long-term immune and epithelial safety",
+    "Supplier sequence, purity and sterility"
+  ]
+}

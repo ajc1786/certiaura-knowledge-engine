@@ -1,0 +1,19 @@
+{
+  "asset_id": "CERT-EKS-000129",
+  "asset_name": "Thymosin Alpha-1 Identity and Immune Pharmacology",
+  "root_asset": "CERT-PKS-000051",
+  "knowledge_system": "EKS",
+  "asset_type": "Evidence Object",
+  "version": "0.1.0",
+  "status": "PRIMARY SOURCE MAP CREATED — EXTRACTION REQUIRED",
+  "source_domain": "Sequence, thymalfasin product identity and immune-mechanism publications",
+  "evidence_type": "Identity / pharmacology evidence",
+  "last_review": "2026-07-16",
+  "direct_complete_extraction": false,
+  "prohibited_use": [
+    "Personal dosing or reconstitution guidance",
+    "Treatment protocols for infection, neuropathy, respiratory or bowel disease",
+    "Transfer between defined peptides and biological mixtures",
+    "Transfer from authorised products to unverified catalogue material"
+  ]
+}

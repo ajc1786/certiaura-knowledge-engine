@@ -1,0 +1,102 @@
+{
+  "asset_id": "CERT-PKS-000053",
+  "asset_name": "LL-37",
+  "knowledge_system": "PKS",
+  "asset_type": "Peptide / Biologic-Mixture Knowledge Asset",
+  "version": "0.1.0",
+  "status": "CATALOGUE REVIEWED / EVIDENCE FOUNDATION CREATED / NOT PLATINUM CERTIFIED",
+  "owner": "Aidan Coleman",
+  "last_review": "2026-07-16",
+  "aliases": [
+    "cathelicidin LL-37",
+    "hCAP18-derived LL-37",
+    "LLGDFFRKSKEKIGKEFKRIVQRIKDFLRNLVPRTES"
+  ],
+  "classification": "Human cathelicidin-derived 37-amino-acid antimicrobial peptide",
+  "mechanism_summary": "Membrane-active antimicrobial, chemotactic, immunomodulatory and wound-response signalling with context-dependent inflammatory and cytotoxic effects.",
+  "evidence_maturity": "Extensive mechanistic and preclinical literature with limited early human development; no established broadly authorised therapeutic product.",
+  "regulatory_headline": "INVESTIGATIONAL / CONTEXT-DEPENDENT IMMUNE EFFECTS / NO APPROVAL CLAIM",
+  "catalogue_supplier_skus": [
+    {
+      "catalogue_code": "375",
+      "specification": "5 mg x 10 vials",
+      "price_usd_per_kit": 98
+    }
+  ],
+  "relationships": [
+    {
+      "source": "CERT-PKS-000053",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000110"
+    },
+    {
+      "source": "CERT-PKS-000053",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000111"
+    },
+    {
+      "source": "CERT-PKS-000053",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000112"
+    },
+    {
+      "source": "CERT-PKS-000053",
+      "relationship": "HAS_CONDITION",
+      "target": "CERT-CKS-000021"
+    },
+    {
+      "source": "CERT-PKS-000053",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000084"
+    },
+    {
+      "source": "CERT-PKS-000053",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000085"
+    },
+    {
+      "source": "CERT-PKS-000053",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000086"
+    },
+    {
+      "source": "CERT-PKS-000053",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000087"
+    },
+    {
+      "source": "CERT-PKS-000053",
+      "relationship": "SUPPORTS_GOAL",
+      "target": "CERT-GKS-000043"
+    },
+    {
+      "source": "CERT-PKS-000053",
+      "relationship": "SUPPORTS_GOAL",
+      "target": "CERT-GKS-000044"
+    },
+    {
+      "source": "CERT-PKS-000053",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000133"
+    },
+    {
+      "source": "CERT-PKS-000053",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000134"
+    },
+    {
+      "source": "CERT-PKS-000053",
+      "relationship": "HAS_SAFETY",
+      "target": "CERT-SKS-000058"
+    }
+  ],
+  "validated_universal_human_dosing_protocol": false,
+  "supplier_catalogue_proves_quality": false,
+  "platinum_certified": false,
+  "certification_blockers": [
+    "No broadly authorised indication",
+    "Host-cell toxicity and pro-inflammatory effects",
+    "Human PK, efficacy and long-term safety",
+    "Sequence, aggregation, purity and sterility"
+  ]
+}

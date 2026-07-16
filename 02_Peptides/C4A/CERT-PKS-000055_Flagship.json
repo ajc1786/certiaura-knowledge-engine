@@ -1,0 +1,107 @@
+{
+  "asset_id": "CERT-PKS-000055",
+  "asset_name": "Vasoactive Intestinal Peptide / Aviptadil",
+  "knowledge_system": "PKS",
+  "asset_type": "Peptide / Biologic-Mixture Knowledge Asset",
+  "version": "0.1.0",
+  "status": "CATALOGUE REVIEWED / EVIDENCE FOUNDATION CREATED / NOT PLATINUM CERTIFIED",
+  "owner": "Aidan Coleman",
+  "last_review": "2026-07-16",
+  "aliases": [
+    "VIP",
+    "aviptadil",
+    "RLF-100"
+  ],
+  "classification": "Endogenous 28-amino-acid neuropeptide and synthetic medicinal-formulation family",
+  "mechanism_summary": "VPAC1 and VPAC2 receptor agonism affecting vasodilation, smooth muscle, epithelial secretion, pulmonary biology and neuroimmune signalling.",
+  "evidence_maturity": "Extensive human physiology plus investigational and selected product contexts; efficacy and regulatory status are formulation, combination, indication and jurisdiction specific.",
+  "regulatory_headline": "PRODUCT- AND JURISDICTION-SPECIFIC CONTEXTS EXIST — NO UNIVERSAL STANDALONE APPROVAL CLAIM",
+  "catalogue_supplier_skus": [
+    {
+      "catalogue_code": "VP5",
+      "specification": "5 mg x 10 vials",
+      "price_usd_per_kit": 95
+    },
+    {
+      "catalogue_code": "VP10",
+      "specification": "10 mg x 10 vials",
+      "price_usd_per_kit": 160
+    }
+  ],
+  "relationships": [
+    {
+      "source": "CERT-PKS-000055",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000115"
+    },
+    {
+      "source": "CERT-PKS-000055",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000116"
+    },
+    {
+      "source": "CERT-PKS-000055",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000117"
+    },
+    {
+      "source": "CERT-PKS-000055",
+      "relationship": "HAS_CONDITION",
+      "target": "CERT-CKS-000023"
+    },
+    {
+      "source": "CERT-PKS-000055",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000091"
+    },
+    {
+      "source": "CERT-PKS-000055",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000092"
+    },
+    {
+      "source": "CERT-PKS-000055",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000093"
+    },
+    {
+      "source": "CERT-PKS-000055",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000094"
+    },
+    {
+      "source": "CERT-PKS-000055",
+      "relationship": "SUPPORTS_GOAL",
+      "target": "CERT-GKS-000047"
+    },
+    {
+      "source": "CERT-PKS-000055",
+      "relationship": "SUPPORTS_GOAL",
+      "target": "CERT-GKS-000048"
+    },
+    {
+      "source": "CERT-PKS-000055",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000137"
+    },
+    {
+      "source": "CERT-PKS-000055",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000138"
+    },
+    {
+      "source": "CERT-PKS-000055",
+      "relationship": "HAS_SAFETY",
+      "target": "CERT-SKS-000060"
+    }
+  ],
+  "validated_universal_human_dosing_protocol": false,
+  "supplier_catalogue_proves_quality": false,
+  "platinum_certified": false,
+  "certification_blockers": [
+    "Exact sequence, formulation and route",
+    "Standalone versus combination-product status",
+    "Indication- and jurisdiction-specific authorisation",
+    "Hypotension, flushing, tachycardia and gastrointestinal safety"
+  ]
+}

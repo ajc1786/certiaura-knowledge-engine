@@ -1,0 +1,19 @@
+{
+  "asset_id": "CERT-EKS-000136",
+  "asset_name": "Cibinetide Human Neuropathy and Regulatory Evidence",
+  "root_asset": "CERT-PKS-000054",
+  "knowledge_system": "EKS",
+  "asset_type": "Evidence Object",
+  "version": "0.1.0",
+  "status": "PRIMARY TRIAL EXTRACTION AND CURRENT STATUS REQUIRED",
+  "source_domain": "Phase 1/2 sarcoidosis, diabetic neuropathy and inflammatory studies",
+  "evidence_type": "Human clinical evidence",
+  "last_review": "2026-07-16",
+  "direct_complete_extraction": false,
+  "prohibited_use": [
+    "Personal dosing or reconstitution guidance",
+    "Treatment protocols for infection, neuropathy, respiratory or bowel disease",
+    "Transfer between defined peptides and biological mixtures",
+    "Transfer from authorised products to unverified catalogue material"
+  ]
+}

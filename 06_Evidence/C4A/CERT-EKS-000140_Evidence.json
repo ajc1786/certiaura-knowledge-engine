@@ -1,0 +1,19 @@
+{
+  "asset_id": "CERT-EKS-000140",
+  "asset_name": "KPV Human and Regulatory Evidence Gap",
+  "root_asset": "CERT-PKS-000056",
+  "knowledge_system": "EKS",
+  "asset_type": "Evidence Object",
+  "version": "0.1.0",
+  "status": "OPEN — ADEQUATE HUMAN PRIMARY EVIDENCE NOT ESTABLISHED",
+  "source_domain": "Human intervention, PK, safety, trial and approval searches",
+  "evidence_type": "Evidence-gap object",
+  "last_review": "2026-07-16",
+  "direct_complete_extraction": false,
+  "prohibited_use": [
+    "Personal dosing or reconstitution guidance",
+    "Treatment protocols for infection, neuropathy, respiratory or bowel disease",
+    "Transfer between defined peptides and biological mixtures",
+    "Transfer from authorised products to unverified catalogue material"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "asset_id": "CERT-EKS-000131",
+  "asset_name": "Thymalin Composition and Manufacturing Gap",
+  "root_asset": "CERT-PKS-000052",
+  "knowledge_system": "EKS",
+  "asset_type": "Evidence Object",
+  "version": "0.1.0",
+  "status": "OPEN — MIXTURE COMPOSITION UNRESOLVED",
+  "source_domain": "Species source, extraction, peptide profile, batch consistency and contaminants",
+  "evidence_type": "Critical product-identity gap",
+  "last_review": "2026-07-16",
+  "direct_complete_extraction": false,
+  "prohibited_use": [
+    "Personal dosing or reconstitution guidance",
+    "Treatment protocols for infection, neuropathy, respiratory or bowel disease",
+    "Transfer between defined peptides and biological mixtures",
+    "Transfer from authorised products to unverified catalogue material"
+  ]
+}

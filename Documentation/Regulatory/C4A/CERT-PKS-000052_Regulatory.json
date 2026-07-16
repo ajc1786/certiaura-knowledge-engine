@@ -1,0 +1,36 @@
+{
+  "asset_uai": "CERT-PKS-000052",
+  "asset_name": "Thymalin Product Family",
+  "status_as_of": "2026-07-16",
+  "overall_status": "MIXTURE IDENTITY AND REGIONAL-STATUS UNCERTAINTY — NO UNIVERSAL APPROVAL CLAIM",
+  "regulatory_records": [
+    {
+      "jurisdiction": "Global",
+      "authority": "Identity and biologic-mixture control",
+      "current_status": "Regulatory interpretation limited by unresolved composition and manufacturer.",
+      "monitoring_state": "BLOCKED",
+      "next_review_trigger": "Identity, approval, label, safety, trial, enforcement or anti-doping change"
+    },
+    {
+      "jurisdiction": "United States",
+      "authority": "FDA",
+      "current_status": "No approval claim.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Identity, approval, label, safety, trial, enforcement or anti-doping change"
+    },
+    {
+      "jurisdiction": "United Kingdom",
+      "authority": "MHRA",
+      "current_status": "No marketing-authorisation claim.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Identity, approval, label, safety, trial, enforcement or anti-doping change"
+    },
+    {
+      "jurisdiction": "European Union",
+      "authority": "EMA / European Commission",
+      "current_status": "No marketing-authorisation claim.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Identity, approval, label, safety, trial, enforcement or anti-doping change"
+    }
+  ]
+}

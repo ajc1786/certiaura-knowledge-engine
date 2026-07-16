@@ -1,0 +1,14 @@
+Asset,Source,URL,Purpose
+All assets,FDA Drugs@FDA,https://www.accessdata.fda.gov/scripts/cder/daf/,United States approval search
+All assets,MHRA Products,https://products.mhra.gov.uk/,United Kingdom authorisation search
+All assets,EMA Medicines,https://www.ema.europa.eu/en/medicines,European Union authorisation search
+All assets,ClinicalTrials.gov,https://clinicaltrials.gov/,Clinical-development search
+All assets,WADA Prohibited List,https://www.wada-ama.org/en/prohibited-list,Current athlete status
+Thymosin Alpha-1,PubMed,https://pubmed.ncbi.nlm.nih.gov/?term=thymalfasin+thymosin+alpha+1,Human and mechanistic evidence
+Thymalin,PubMed,https://pubmed.ncbi.nlm.nih.gov/?term=Thymalin,Composition and regional evidence
+LL-37,PubMed,https://pubmed.ncbi.nlm.nih.gov/?term=LL-37+clinical+trial,Mechanistic and human evidence
+Cibinetide,ClinicalTrials.gov,https://clinicaltrials.gov/search?term=cibinetide%20ARA-290,Human trial records
+Cibinetide,PubMed,https://pubmed.ncbi.nlm.nih.gov/?term=cibinetide+ARA-290,Primary human evidence
+VIP / Aviptadil,ClinicalTrials.gov,https://clinicaltrials.gov/search?term=aviptadil,Formulation and trial records
+VIP / Aviptadil,PubMed,https://pubmed.ncbi.nlm.nih.gov/?term=aviptadil+vasoactive+intestinal+peptide,Human and physiological evidence
+KPV,PubMed,https://pubmed.ncbi.nlm.nih.gov/?term=KPV+peptide+inflammation,Preclinical identity and inflammation evidence

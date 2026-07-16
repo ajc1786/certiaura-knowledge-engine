@@ -1,0 +1,27 @@
+Asset UAI,Asset Name,Jurisdiction,Authority,Position,Monitoring,Status Date
+CERT-PKS-000051,Thymosin Alpha-1 / Thymalfasin,United States,FDA,No approval claim; current official search required.,ACTIVE,2026-07-16
+CERT-PKS-000051,Thymosin Alpha-1 / Thymalfasin,United Kingdom,MHRA,No United Kingdom marketing-authorisation claim.,ACTIVE,2026-07-16
+CERT-PKS-000051,Thymosin Alpha-1 / Thymalfasin,European Union,EMA / European Commission,No central European Union marketing-authorisation claim.,ACTIVE,2026-07-16
+CERT-PKS-000051,Thymosin Alpha-1 / Thymalfasin,Other jurisdictions,National medicines authorities,"Regional thymalfasin status must be verified by country, product and indication.",ACTIVE,2026-07-16
+CERT-PKS-000051,Thymosin Alpha-1 / Thymalfasin,International sport,WADA,Current athlete-specific verification required.,EVENT-TRIGGERED,2026-07-16
+CERT-PKS-000052,Thymalin Product Family,Global,Identity and biologic-mixture control,Regulatory interpretation limited by unresolved composition and manufacturer.,BLOCKED,2026-07-16
+CERT-PKS-000052,Thymalin Product Family,United States,FDA,No approval claim.,ACTIVE,2026-07-16
+CERT-PKS-000052,Thymalin Product Family,United Kingdom,MHRA,No marketing-authorisation claim.,ACTIVE,2026-07-16
+CERT-PKS-000052,Thymalin Product Family,European Union,EMA / European Commission,No marketing-authorisation claim.,ACTIVE,2026-07-16
+CERT-PKS-000053,LL-37,United States,FDA,No approval claim.,ACTIVE,2026-07-16
+CERT-PKS-000053,LL-37,United Kingdom,MHRA,No marketing-authorisation claim.,ACTIVE,2026-07-16
+CERT-PKS-000053,LL-37,European Union,EMA / European Commission,No marketing-authorisation claim.,ACTIVE,2026-07-16
+CERT-PKS-000053,LL-37,International sport,WADA,Current athlete-specific verification required.,EVENT-TRIGGERED,2026-07-16
+CERT-PKS-000054,Cibinetide / ARA-290,United States,FDA,No approval claim.,ACTIVE,2026-07-16
+CERT-PKS-000054,Cibinetide / ARA-290,United Kingdom,MHRA,No marketing-authorisation claim.,ACTIVE,2026-07-16
+CERT-PKS-000054,Cibinetide / ARA-290,European Union,EMA / European Commission,No marketing-authorisation claim.,ACTIVE,2026-07-16
+CERT-PKS-000054,Cibinetide / ARA-290,International sport,WADA,Current athlete-specific verification required.,EVENT-TRIGGERED,2026-07-16
+CERT-PKS-000055,Vasoactive Intestinal Peptide / Aviptadil,United States,FDA,No universal standalone VIP/aviptadil approval claim; product and indication search required.,ACTIVE,2026-07-16
+CERT-PKS-000055,Vasoactive Intestinal Peptide / Aviptadil,United Kingdom,MHRA,Any product context is formulation and indication specific; no catalogue equivalence claim.,ACTIVE,2026-07-16
+CERT-PKS-000055,Vasoactive Intestinal Peptide / Aviptadil,European Union,EMA / national authorities,Product and national-authorisation context requires direct verification.,ACTIVE,2026-07-16
+CERT-PKS-000055,Vasoactive Intestinal Peptide / Aviptadil,Other jurisdictions,National medicines authorities,Selected product contexts must be dated and verified.,ACTIVE,2026-07-16
+CERT-PKS-000055,Vasoactive Intestinal Peptide / Aviptadil,International sport,WADA,Current athlete-specific verification required.,EVENT-TRIGGERED,2026-07-16
+CERT-PKS-000056,KPV,United States,FDA,No approval claim.,ACTIVE,2026-07-16
+CERT-PKS-000056,KPV,United Kingdom,MHRA,No marketing-authorisation claim.,ACTIVE,2026-07-16
+CERT-PKS-000056,KPV,European Union,EMA / European Commission,No marketing-authorisation claim.,ACTIVE,2026-07-16
+CERT-PKS-000056,KPV,International sport,WADA,Current athlete-specific verification required.,EVENT-TRIGGERED,2026-07-16

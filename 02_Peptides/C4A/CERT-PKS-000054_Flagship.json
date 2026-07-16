@@ -1,0 +1,93 @@
+{
+  "asset_id": "CERT-PKS-000054",
+  "asset_name": "Cibinetide / ARA-290",
+  "knowledge_system": "PKS",
+  "asset_type": "Peptide / Biologic-Mixture Knowledge Asset",
+  "version": "0.1.0",
+  "status": "CATALOGUE REVIEWED / EVIDENCE FOUNDATION CREATED / NOT PLATINUM CERTIFIED",
+  "owner": "Aidan Coleman",
+  "last_review": "2026-07-16",
+  "aliases": [
+    "ARA-290",
+    "cibinetide",
+    "pHBSP",
+    "pyroglutamate helix B surface peptide"
+  ],
+  "classification": "Erythropoietin helix-B-derived non-haematopoietic undecapeptide",
+  "mechanism_summary": "Experimental tissue-protective and anti-inflammatory signalling associated with the innate repair receptor rather than classical erythropoietic activity.",
+  "evidence_maturity": "Human phase 1/2 development exists in neuropathy and inflammatory contexts; no established authorised therapeutic product.",
+  "regulatory_headline": "INVESTIGATIONAL CLINICAL-DEVELOPMENT PEPTIDE — NO APPROVAL CLAIM",
+  "catalogue_supplier_skus": [
+    {
+      "catalogue_code": "RA10",
+      "specification": "10 mg x 10 vials",
+      "price_usd_per_kit": 76
+    }
+  ],
+  "relationships": [
+    {
+      "source": "CERT-PKS-000054",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000113"
+    },
+    {
+      "source": "CERT-PKS-000054",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000114"
+    },
+    {
+      "source": "CERT-PKS-000054",
+      "relationship": "HAS_CONDITION",
+      "target": "CERT-CKS-000022"
+    },
+    {
+      "source": "CERT-PKS-000054",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000088"
+    },
+    {
+      "source": "CERT-PKS-000054",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000089"
+    },
+    {
+      "source": "CERT-PKS-000054",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000090"
+    },
+    {
+      "source": "CERT-PKS-000054",
+      "relationship": "SUPPORTS_GOAL",
+      "target": "CERT-GKS-000045"
+    },
+    {
+      "source": "CERT-PKS-000054",
+      "relationship": "SUPPORTS_GOAL",
+      "target": "CERT-GKS-000046"
+    },
+    {
+      "source": "CERT-PKS-000054",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000135"
+    },
+    {
+      "source": "CERT-PKS-000054",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000136"
+    },
+    {
+      "source": "CERT-PKS-000054",
+      "relationship": "HAS_SAFETY",
+      "target": "CERT-SKS-000059"
+    }
+  ],
+  "validated_universal_human_dosing_protocol": false,
+  "supplier_catalogue_proves_quality": false,
+  "platinum_certified": false,
+  "certification_blockers": [
+    "No authorised indication",
+    "Complete phase 2 and long-term safety appraisal",
+    "Neuropathic and inflammatory outcome validation",
+    "Supplier sequence, pyroglutamate identity, purity and sterility"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "asset_id": "CERT-EKS-000138",
+  "asset_name": "VIP / Aviptadil Product and Clinical Evidence Boundary",
+  "root_asset": "CERT-PKS-000055",
+  "knowledge_system": "EKS",
+  "asset_type": "Evidence Object",
+  "version": "0.1.0",
+  "status": "PRODUCT-, ROUTE- AND JURISDICTION-SPECIFIC CLOSURE REQUIRED",
+  "source_domain": "Standalone, combination and investigational product records by route and jurisdiction",
+  "evidence_type": "Human / regulatory evidence",
+  "last_review": "2026-07-16",
+  "direct_complete_extraction": false,
+  "prohibited_use": [
+    "Personal dosing or reconstitution guidance",
+    "Treatment protocols for infection, neuropathy, respiratory or bowel disease",
+    "Transfer between defined peptides and biological mixtures",
+    "Transfer from authorised products to unverified catalogue material"
+  ]
+}

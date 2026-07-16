@@ -1,0 +1,19 @@
+{
+  "asset_id": "CERT-EKS-000139",
+  "asset_name": "KPV Identity and Preclinical Anti-Inflammatory Evidence",
+  "root_asset": "CERT-PKS-000056",
+  "knowledge_system": "EKS",
+  "asset_type": "Evidence Object",
+  "version": "0.1.0",
+  "status": "PRIMARY PRECLINICAL MAP CREATED — EXTRACTION REQUIRED",
+  "source_domain": "Alpha-MSH 11-13 sequence and cell/animal inflammatory studies",
+  "evidence_type": "Identity / preclinical evidence",
+  "last_review": "2026-07-16",
+  "direct_complete_extraction": false,
+  "prohibited_use": [
+    "Personal dosing or reconstitution guidance",
+    "Treatment protocols for infection, neuropathy, respiratory or bowel disease",
+    "Transfer between defined peptides and biological mixtures",
+    "Transfer from authorised products to unverified catalogue material"
+  ]
+}

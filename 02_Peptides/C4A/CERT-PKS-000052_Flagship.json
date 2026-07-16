@@ -1,0 +1,83 @@
+{
+  "asset_id": "CERT-PKS-000052",
+  "asset_name": "Thymalin Product Family",
+  "knowledge_system": "PKS",
+  "asset_type": "Peptide / Biologic-Mixture Knowledge Asset",
+  "version": "0.1.0",
+  "status": "CATALOGUE REVIEWED / EVIDENCE FOUNDATION CREATED / NOT PLATINUM CERTIFIED",
+  "owner": "Aidan Coleman",
+  "last_review": "2026-07-16",
+  "aliases": [
+    "Thymalin",
+    "thymic peptide complex",
+    "thymus extract"
+  ],
+  "classification": "Compositionally variable thymic peptide extract / mixture product family",
+  "mechanism_summary": "No single-peptide mechanism is assigned; reported activity concerns a heterogeneous thymic extract with composition dependent on source and manufacturing.",
+  "evidence_maturity": "Regional reports and preclinical literature exist, but analytical composition, independent replication and product comparability are insufficiently closed.",
+  "regulatory_headline": "MIXTURE IDENTITY AND REGIONAL-STATUS UNCERTAINTY — NO UNIVERSAL APPROVAL CLAIM",
+  "catalogue_supplier_skus": [
+    {
+      "catalogue_code": "TY10",
+      "specification": "10 mg x 10 vials",
+      "price_usd_per_kit": 76
+    }
+  ],
+  "relationships": [
+    {
+      "source": "CERT-PKS-000052",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000108"
+    },
+    {
+      "source": "CERT-PKS-000052",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000109"
+    },
+    {
+      "source": "CERT-PKS-000052",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000069"
+    },
+    {
+      "source": "CERT-PKS-000052",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000075"
+    },
+    {
+      "source": "CERT-PKS-000052",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000081"
+    },
+    {
+      "source": "CERT-PKS-000052",
+      "relationship": "SUPPORTS_GOAL",
+      "target": "CERT-GKS-000041"
+    },
+    {
+      "source": "CERT-PKS-000052",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000131"
+    },
+    {
+      "source": "CERT-PKS-000052",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000132"
+    },
+    {
+      "source": "CERT-PKS-000052",
+      "relationship": "HAS_SAFETY",
+      "target": "CERT-SKS-000057"
+    }
+  ],
+  "validated_universal_human_dosing_protocol": false,
+  "supplier_catalogue_proves_quality": false,
+  "platinum_certified": false,
+  "certification_blockers": [
+    "Species and tissue source",
+    "Extraction, purification and composition",
+    "Reference standard and batch comparability",
+    "Independent human evidence",
+    "Sterility, endotoxin and transmissible-agent controls"
+  ]
+}

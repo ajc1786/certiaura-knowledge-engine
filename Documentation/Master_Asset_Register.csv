@@ -1,58 +1,121 @@
 Universal Asset Identifier,Asset Name,Knowledge System,Asset Type,Status,Owner,Completion %,Parent Assets,Child Assets,Relationship List,Evidence Links,Report Links,Marketplace Links,Last Review,Next Review,Notes
-CERT-PKS-000001,Retatrutide,PKS,Peptide / Protein Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
-CERT-PKS-000002,BPC-157,PKS,Peptide / Protein Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
-CERT-PKS-000003,Tesamorelin,PKS,Peptide / Protein Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
-CERT-PKS-000004,CJC-1295,PKS,Peptide / Protein Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
-CERT-PKS-000005,Ipamorelin,PKS,Peptide / Protein Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
-CERT-PKS-000006,MOTS-c,PKS,Peptide / Protein Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
-CERT-PKS-000007,GHK-Cu,PKS,Peptide / Protein Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
-CERT-PKS-000008,Thymosin Beta-4 / TB-500 Identity Family,PKS,Peptide / Protein Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
-CERT-PKS-000009,Melanotan II,PKS,Peptide / Protein Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
-CERT-PKS-000010,Epitalon,PKS,Peptide / Protein Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
-CERT-PKS-000011,Semaglutide,PKS,Peptide / Protein Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
-CERT-PKS-000012,Tirzepatide,PKS,Peptide / Protein Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
-CERT-PKS-000013,Cagrilintide,PKS,Peptide / Protein Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
-CERT-PKS-000014,Mazdutide,PKS,Peptide / Protein Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
-CERT-PKS-000015,Survodutide,PKS,Peptide / Protein Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
-CERT-PKS-000016,Liraglutide,PKS,Peptide / Protein Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
-CERT-PKS-000017,AOD9604,PKS,Peptide / Protein Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
-CERT-PKS-000018,Adipotide,PKS,Peptide / Protein Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
-CERT-PKS-000019,HGH Fragment 176-191,PKS,Peptide / Protein Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
-CERT-PKS-000020,Somatropin,PKS,Peptide / Protein Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
-CERT-PKS-000021,Sermorelin,PKS,Peptide / Protein Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
-CERT-PKS-000022,Modified GRF (1-29),PKS,Peptide / Protein Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
-CERT-PKS-000023,GHRP-2 / Pralmorelin,PKS,Peptide / Protein Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
-CERT-PKS-000024,GHRP-6,PKS,Peptide / Protein Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
-CERT-PKS-000025,Hexarelin / Examorelin,PKS,Peptide / Protein Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
-CERT-PKS-000026,Long R3 IGF-1,PKS,Peptide / Protein Knowledge Asset,Catalogue Reviewed — Not Platinum Certified,Aidan Coleman,,,,,,,,2026-07-16,,Build 0022B
-CERT-PKS-000027,Mechano Growth Factor / IGF-1Ec E-Domain Peptide Family,PKS,Peptide / Protein Knowledge Asset,Catalogue Reviewed — Not Platinum Certified,Aidan Coleman,,,,,,,,2026-07-16,,Build 0022B
-CERT-PKS-000028,PEG-MGF Supplier Product Family,PKS,Peptide / Protein Knowledge Asset,Catalogue Reviewed — Not Platinum Certified,Aidan Coleman,,,,,,,,2026-07-16,,Build 0022B
-CERT-PKS-000029,ACE-031,PKS,Peptide / Protein Knowledge Asset,Catalogue Reviewed — Not Platinum Certified,Aidan Coleman,,,,,,,,2026-07-16,,Build 0022B
-CERT-BKS-000054,Insulin-Like Growth Factor 1 Receptor,BKS,Biology Knowledge Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0022B
-CERT-BKS-000055,Insulin-Like Growth Factor Binding Proteins,BKS,Biology Knowledge Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0022B
-CERT-BKS-000056,IGF-1 Analogue Bioavailability,BKS,Biology Knowledge Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0022B
-CERT-BKS-000057,IGF-1 Alternative Splicing and IGF-1Ec,BKS,Biology Knowledge Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0022B
-CERT-BKS-000058,E-Domain Peptide and Mechanotransduction Research,BKS,Biology Knowledge Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0022B
-CERT-BKS-000059,PEGylated Peptide Pharmacology,BKS,Biology Knowledge Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0022B
-CERT-BKS-000060,Myostatin and Activin Muscle-Growth Regulation,BKS,Biology Knowledge Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0022B
-CERT-BKS-000061,Activin Type IIB Receptor Signalling,BKS,Biology Knowledge Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0022B
-CERT-BKS-000062,Ligand-Trap Fusion Protein Biology,BKS,Biology Knowledge Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0022B
-CERT-MKS-000037,Hypoglycaemia and Insulin-Like Activity Monitoring,MKS,Monitoring Knowledge Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0022B
-CERT-MKS-000038,Growth-Signalling and Neoplasm Context,MKS,Monitoring Knowledge Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0022B
-CERT-MKS-000039,PEG Immunogenicity and Hypersensitivity Monitoring,MKS,Monitoring Knowledge Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0022B
-CERT-MKS-000040,"Telangiectasia, Epistaxis and Vascular Signal Monitoring",MKS,Monitoring Knowledge Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0022B
-CERT-GKS-000019,Muscle-Growth and Wasting-Disorder Research,GKS,Goal Knowledge Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0022B
-CERT-GKS-000020,IGF-1 Receptor Pharmacology Research,GKS,Goal Knowledge Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0022B
-CERT-GKS-000021,Muscle and Tissue-Regeneration Research,GKS,Goal Knowledge Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0022B
-CERT-SKS-000031,"Long R3 IGF-1 Hypoglycaemia, Growth-Signalling and Human-Evidence Insufficiency",SKS,Safety Knowledge Object,Active,Aidan Coleman,,CERT-PKS-000026,,,,,,2026-07-16,,Build 0022B
-CERT-SKS-000032,"MGF Identity, Growth-Signalling and Human-Safety Uncertainty",SKS,Safety Knowledge Object,Active,Aidan Coleman,,CERT-PKS-000027,,,,,,2026-07-16,,Build 0022B
-CERT-SKS-000033,"PEG-MGF Chemical Identity, Immunogenicity and Human-Safety Uncertainty",SKS,Safety Knowledge Object,Active,Aidan Coleman,,CERT-PKS-000028,,,,,,2026-07-16,,Build 0022B
-CERT-SKS-000034,"ACE-031 Vascular, Ligand-Trap and Development-Discontinuation Safety",SKS,Safety Knowledge Object,Active,Aidan Coleman,,CERT-PKS-000029,,,,,,2026-07-16,,Build 0022B
-CERT-EKS-000079,Long R3 IGF-1 Molecular Identity and Binding-Protein Pharmacology,EKS,Evidence Object,PRIMARY PUBLICATION SET IDENTIFIED — DIRECT EXTRACTION REQUIRED,Aidan Coleman,,CERT-PKS-000026,,,,,,2026-07-16,,Root: CERT-PKS-000026
-CERT-EKS-000080,Long R3 IGF-1 Human and Regulatory Evidence Gap,EKS,Evidence Object,OPEN — AUTHORISED HUMAN THERAPEUTIC EVIDENCE NOT ESTABLISHED,Aidan Coleman,,CERT-PKS-000026,,,,,,2026-07-16,,Root: CERT-PKS-000026
-CERT-EKS-000081,MGF / IGF-1Ec Expression and Mechanotransduction Evidence,EKS,Evidence Object,PRIMARY PUBLICATIONS IDENTIFIED — DIRECT EXTRACTION REQUIRED,Aidan Coleman,,CERT-PKS-000027,,,,,,2026-07-16,,Root: CERT-PKS-000027
-CERT-EKS-000082,MGF E-Domain Peptide Preclinical and Human Evidence Boundary,EKS,Evidence Object,PRECLINICAL SOURCES IDENTIFIED — ADEQUATE HUMAN INTERVENTION EVIDENCE NOT ESTABLISHED,Aidan Coleman,,CERT-PKS-000027,,,,,,2026-07-16,,Root: CERT-PKS-000027
-CERT-EKS-000083,PEG-MGF Chemical Identity and Analytical Evidence,EKS,Evidence Object,PRODUCT-SPECIFIC CHEMICAL IDENTITY OPEN,Aidan Coleman,,CERT-PKS-000028,,,,,,2026-07-16,,Root: CERT-PKS-000028
-CERT-EKS-000084,"PEG-MGF Human PK, Efficacy and Safety Gap",EKS,Evidence Object,OPEN — ADEQUATE HUMAN PRIMARY EVIDENCE NOT ESTABLISHED,Aidan Coleman,,CERT-PKS-000028,,,,,,2026-07-16,,Root: CERT-PKS-000028
-CERT-EKS-000085,ACE-031 Phase 1 Healthy-Volunteer Evidence,EKS,Evidence Object,PRIMARY PUBLICATION IDENTIFIED — DIRECT EXTRACTION REQUIRED,Aidan Coleman,,CERT-PKS-000029,,,,,,2026-07-16,,Root: CERT-PKS-000029
-CERT-EKS-000086,ACE-031 Duchenne Development and Discontinuation Evidence,EKS,Evidence Object,TRIAL PROGRAMME IDENTIFIED — COMPLETE PRIMARY CLOSURE REQUIRED,Aidan Coleman,,CERT-PKS-000029,,,,,,2026-07-16,,Root: CERT-PKS-000029
+CERT-PKS-000001,Retatrutide,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
+CERT-PKS-000002,BPC-157,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
+CERT-PKS-000003,Tesamorelin,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
+CERT-PKS-000004,CJC-1295,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
+CERT-PKS-000005,Ipamorelin,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
+CERT-PKS-000006,MOTS-c,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
+CERT-PKS-000007,GHK-Cu,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
+CERT-PKS-000008,Thymosin Beta-4 / TB-500,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
+CERT-PKS-000009,Melanotan II,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
+CERT-PKS-000010,Epitalon,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
+CERT-PKS-000011,Semaglutide,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
+CERT-PKS-000012,Tirzepatide,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
+CERT-PKS-000013,Cagrilintide,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
+CERT-PKS-000014,Mazdutide,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
+CERT-PKS-000015,Survodutide,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
+CERT-PKS-000016,Liraglutide,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
+CERT-PKS-000017,AOD9604,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
+CERT-PKS-000018,Adipotide,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
+CERT-PKS-000019,HGH Fragment 176-191,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
+CERT-PKS-000020,Somatropin,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
+CERT-PKS-000021,Sermorelin,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
+CERT-PKS-000022,Modified GRF (1-29),PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
+CERT-PKS-000023,GHRP-2,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
+CERT-PKS-000024,GHRP-6,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
+CERT-PKS-000025,Hexarelin,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
+CERT-PKS-000026,Long R3 IGF-1,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
+CERT-PKS-000027,MGF,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
+CERT-PKS-000028,PEG-MGF,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
+CERT-PKS-000029,ACE-031,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
+CERT-PKS-000030,Gonadorelin,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
+CERT-PKS-000031,Oxytocin,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
+CERT-PKS-000032,HCG Product Family,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
+CERT-PKS-000033,Menotropins Product Family,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
+CERT-PKS-000034,Kisspeptin-10,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
+CERT-PKS-000035,Teriparatide,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
+CERT-PKS-000036,Insulin Product Family,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
+CERT-PKS-000037,Erythropoietin Product Family,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
+CERT-PKS-000038,Semax,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
+CERT-PKS-000039,Selank,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
+CERT-PKS-000040,DSIP,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
+CERT-PKS-000041,Pinealon,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
+CERT-PKS-000042,Adamax Product Family,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
+CERT-PKS-000043,PE 22-28 Product Family,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
+CERT-PKS-000044,Cerebrolysin Product Family,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
+CERT-PKS-000045,Unbranded Cerebrolysin-Type Product Family,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
+CERT-PKS-000046,Dermorphin,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
+CERT-PKS-000047,P021 Adamantane Product Family,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
+CERT-PKS-000048,P21 Without Adamantane,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
+CERT-PKS-000049,N-Acetyl Semax Amidate,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
+CERT-PKS-000050,N-Acetyl Selank Amidate,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
+CERT-PKS-000051,Thymosin Alpha-1 / Thymalfasin,PKS,Peptide / Mixture Knowledge Asset,Catalogue Reviewed — Not Platinum Certified,Aidan Coleman,,,,,,,,2026-07-16,,Build 0024A
+CERT-PKS-000052,Thymalin Product Family,PKS,Peptide / Mixture Knowledge Asset,Catalogue Reviewed — Not Platinum Certified,Aidan Coleman,,,,,,,,2026-07-16,,Build 0024A
+CERT-PKS-000053,LL-37,PKS,Peptide / Mixture Knowledge Asset,Catalogue Reviewed — Not Platinum Certified,Aidan Coleman,,,,,,,,2026-07-16,,Build 0024A
+CERT-PKS-000054,Cibinetide / ARA-290,PKS,Peptide / Mixture Knowledge Asset,Catalogue Reviewed — Not Platinum Certified,Aidan Coleman,,,,,,,,2026-07-16,,Build 0024A
+CERT-PKS-000055,Vasoactive Intestinal Peptide / Aviptadil,PKS,Peptide / Mixture Knowledge Asset,Catalogue Reviewed — Not Platinum Certified,Aidan Coleman,,,,,,,,2026-07-16,,Build 0024A
+CERT-PKS-000056,KPV,PKS,Peptide / Mixture Knowledge Asset,Catalogue Reviewed — Not Platinum Certified,Aidan Coleman,,,,,,,,2026-07-16,,Build 0024A
+CERT-BKS-000105,Thymosin Alpha-1 Biology,BKS,Biology Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0024A
+CERT-BKS-000106,Dendritic-Cell and T-Cell Immune Modulation,BKS,Biology Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0024A
+CERT-BKS-000107,Innate Pattern-Recognition Signalling,BKS,Biology Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0024A
+CERT-BKS-000108,Thymic Extract and Peptide-Mixture Biology,BKS,Biology Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0024A
+CERT-BKS-000109,Thymic Immune Maturation,BKS,Biology Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0024A
+CERT-BKS-000110,Cathelicidin and Innate Antimicrobial Defence,BKS,Biology Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0024A
+CERT-BKS-000111,Membrane Disruption and Microbial Killing,BKS,Biology Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0024A
+CERT-BKS-000112,Chemotaxis and Inflammatory Cell Recruitment,BKS,Biology Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0024A
+CERT-BKS-000113,Innate Repair Receptor Signalling,BKS,Biology Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0024A
+CERT-BKS-000114,Small-Fibre and Tissue-Protective Neurobiology,BKS,Biology Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0024A
+CERT-BKS-000115,Vasoactive Intestinal Peptide Biology,BKS,Biology Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0024A
+CERT-BKS-000116,VPAC1 Receptor Signalling,BKS,Biology Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0024A
+CERT-BKS-000117,VPAC2 Receptor Signalling,BKS,Biology Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0024A
+CERT-BKS-000118,Alpha-MSH-Derived Anti-Inflammatory Peptide Biology,BKS,Biology Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0024A
+CERT-BKS-000119,Intestinal Epithelial Barrier and Inflammation,BKS,Biology Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0024A
+CERT-CKS-000020,Infectious and Immune-Dysregulation Research,CKS,Condition Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0024A
+CERT-CKS-000021,Chronic Wound and Antimicrobial-Peptide Research,CKS,Condition Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0024A
+CERT-CKS-000022,Small-Fibre Neuropathy and Neuropathic Pain,CKS,Condition Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0024A
+CERT-CKS-000023,Pulmonary and Vascular Dysfunction Research,CKS,Condition Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0024A
+CERT-CKS-000024,Intestinal Inflammation and Barrier Dysfunction,CKS,Condition Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0024A
+CERT-MKS-000081,Immune and Infection Outcome Monitoring,MKS,Monitoring Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0024A
+CERT-MKS-000082,Autoimmune and Immune-Activation Signals,MKS,Monitoring Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0024A
+CERT-MKS-000083,Liver and Systemic Tolerability,MKS,Monitoring Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0024A
+CERT-MKS-000084,Inflammatory Cytokine and Clinical Response,MKS,Monitoring Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0024A
+CERT-MKS-000085,Host-Cell Cytotoxicity and Tissue Injury,MKS,Monitoring Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0024A
+CERT-MKS-000086,Microbiology and Antimicrobial Resistance Context,MKS,Monitoring Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0024A
+CERT-MKS-000087,Wound Healing and Local Inflammation,MKS,Monitoring Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0024A
+CERT-MKS-000088,Small-Fibre Neuropathy and Pain Outcomes,MKS,Monitoring Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0024A
+CERT-MKS-000089,Cardiac and Vascular Tolerability,MKS,Monitoring Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0024A
+CERT-MKS-000090,Haematological Non-Erythropoietic Confirmation,MKS,Monitoring Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0024A
+CERT-MKS-000091,"Blood Pressure, Flushing and Tachycardia",MKS,Monitoring Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0024A
+CERT-MKS-000092,Respiratory and Oxygenation Outcomes,MKS,Monitoring Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0024A
+CERT-MKS-000093,Gastrointestinal Secretion and Motility,MKS,Monitoring Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0024A
+CERT-MKS-000094,Product Route and Formulation Verification,MKS,Monitoring Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0024A
+CERT-MKS-000095,Intestinal Barrier and Disease-Activity Outcomes,MKS,Monitoring Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0024A
+CERT-MKS-000096,Pigmentation and Melanocortin Off-Target Signals,MKS,Monitoring Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0024A
+CERT-GKS-000041,Immune-Modulation Research,GKS,Goal Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0024A
+CERT-GKS-000042,Adjunctive Infectious-Disease Research,GKS,Goal Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0024A
+CERT-GKS-000043,Antimicrobial-Peptide Research,GKS,Goal Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0024A
+CERT-GKS-000044,Wound and Innate-Defence Research,GKS,Goal Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0024A
+CERT-GKS-000045,Tissue-Protection Research,GKS,Goal Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0024A
+CERT-GKS-000046,Neuropathic-Pain Research,GKS,Goal Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0024A
+CERT-GKS-000047,Pulmonary and Epithelial Research,GKS,Goal Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0024A
+CERT-GKS-000048,Vascular and Smooth-Muscle Research,GKS,Goal Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0024A
+CERT-GKS-000049,Mucosal Anti-Inflammatory Research,GKS,Goal Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0024A
+CERT-GKS-000050,Epithelial-Barrier Research,GKS,Goal Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0024A
+CERT-SKS-000056,"Thymosin Alpha-1 Immune, Regional-Status and Product-Quality Uncertainty",SKS,Safety Object,Active,Aidan Coleman,,CERT-PKS-000051,,,,,,2026-07-16,,Build 0024A
+CERT-SKS-000057,"Thymalin Mixture Identity, Contamination and Evidence-Transfer Risk",SKS,Safety Object,Active,Aidan Coleman,,CERT-PKS-000052,,,,,,2026-07-16,,Build 0024A
+CERT-SKS-000058,"LL-37 Cytotoxicity, Pro-Inflammatory and Product-Quality Risk",SKS,Safety Object,Active,Aidan Coleman,,CERT-PKS-000053,,,,,,2026-07-16,,Build 0024A
+CERT-SKS-000059,"Cibinetide Investigational, Neurological and Human-Safety Uncertainty",SKS,Safety Object,Active,Aidan Coleman,,CERT-PKS-000054,,,,,,2026-07-16,,Build 0024A
+CERT-SKS-000060,"VIP / Aviptadil Hypotension, Tachycardia, Diarrhoea and Formulation Risk",SKS,Safety Object,Active,Aidan Coleman,,CERT-PKS-000055,,,,,,2026-07-16,,Build 0024A
+CERT-SKS-000061,"KPV Human-Evidence, Immune and Long-Term Safety Insufficiency",SKS,Safety Object,Active,Aidan Coleman,,CERT-PKS-000056,,,,,,2026-07-16,,Build 0024A
+CERT-EKS-000129,Thymosin Alpha-1 Identity and Immune Pharmacology,EKS,Evidence Object,PRIMARY SOURCE MAP CREATED — EXTRACTION REQUIRED,Aidan Coleman,,CERT-PKS-000051,,,,,,2026-07-16,,Root: CERT-PKS-000051
+CERT-EKS-000130,Thymosin Alpha-1 Human and Regional Regulatory Evidence,EKS,Evidence Object,COUNTRY- AND INDICATION-SPECIFIC CLOSURE REQUIRED,Aidan Coleman,,CERT-PKS-000051,,,,,,2026-07-16,,Root: CERT-PKS-000051
+CERT-EKS-000131,Thymalin Composition and Manufacturing Gap,EKS,Evidence Object,OPEN — MIXTURE COMPOSITION UNRESOLVED,Aidan Coleman,,CERT-PKS-000052,,,,,,2026-07-16,,Root: CERT-PKS-000052
+CERT-EKS-000132,Thymalin Human and Regulatory Evidence Boundary,EKS,Evidence Object,NO THYMALFASIN EVIDENCE TRANSFER,Aidan Coleman,,CERT-PKS-000052,,,,,,2026-07-16,,Root: CERT-PKS-000052
+CERT-EKS-000133,"LL-37 Sequence, Receptor and Antimicrobial Evidence",EKS,Evidence Object,PRIMARY PUBLICATION MAP CREATED — EXTRACTION REQUIRED,Aidan Coleman,,CERT-PKS-000053,,,,,,2026-07-16,,Root: CERT-PKS-000053
+CERT-EKS-000134,LL-37 Human Development and Safety Evidence,EKS,Evidence Object,HUMAN PROGRAMME AND PRODUCT-SPECIFIC CLOSURE REQUIRED,Aidan Coleman,,CERT-PKS-000053,,,,,,2026-07-16,,Root: CERT-PKS-000053
+CERT-EKS-000135,Cibinetide Identity and Tissue-Protective Pharmacology,EKS,Evidence Object,PRIMARY SOURCE MAP CREATED — EXTRACTION REQUIRED,Aidan Coleman,,CERT-PKS-000054,,,,,,2026-07-16,,Root: CERT-PKS-000054
+CERT-EKS-000136,Cibinetide Human Neuropathy and Regulatory Evidence,EKS,Evidence Object,PRIMARY TRIAL EXTRACTION AND CURRENT STATUS REQUIRED,Aidan Coleman,,CERT-PKS-000054,,,,,,2026-07-16,,Root: CERT-PKS-000054
+CERT-EKS-000137,VIP / Aviptadil Identity and Receptor Pharmacology,EKS,Evidence Object,PRIMARY SOURCE MAP CREATED — EXTRACTION REQUIRED,Aidan Coleman,,CERT-PKS-000055,,,,,,2026-07-16,,Root: CERT-PKS-000055
+CERT-EKS-000138,VIP / Aviptadil Product and Clinical Evidence Boundary,EKS,Evidence Object,"PRODUCT-, ROUTE- AND JURISDICTION-SPECIFIC CLOSURE REQUIRED",Aidan Coleman,,CERT-PKS-000055,,,,,,2026-07-16,,Root: CERT-PKS-000055
+CERT-EKS-000139,KPV Identity and Preclinical Anti-Inflammatory Evidence,EKS,Evidence Object,PRIMARY PRECLINICAL MAP CREATED — EXTRACTION REQUIRED,Aidan Coleman,,CERT-PKS-000056,,,,,,2026-07-16,,Root: CERT-PKS-000056
+CERT-EKS-000140,KPV Human and Regulatory Evidence Gap,EKS,Evidence Object,OPEN — ADEQUATE HUMAN PRIMARY EVIDENCE NOT ESTABLISHED,Aidan Coleman,,CERT-PKS-000056,,,,,,2026-07-16,,Root: CERT-PKS-000056

@@ -1,0 +1,19 @@
+{
+  "asset_id": "CERT-EKS-000132",
+  "asset_name": "Thymalin Human and Regulatory Evidence Boundary",
+  "root_asset": "CERT-PKS-000052",
+  "knowledge_system": "EKS",
+  "asset_type": "Evidence Object",
+  "version": "0.1.0",
+  "status": "NO THYMALFASIN EVIDENCE TRANSFER",
+  "source_domain": "Regional human reports and national regulatory searches",
+  "evidence_type": "Human / regulatory evidence gap",
+  "last_review": "2026-07-16",
+  "direct_complete_extraction": false,
+  "prohibited_use": [
+    "Personal dosing or reconstitution guidance",
+    "Treatment protocols for infection, neuropathy, respiratory or bowel disease",
+    "Transfer between defined peptides and biological mixtures",
+    "Transfer from authorised products to unverified catalogue material"
+  ]
+}

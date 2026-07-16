@@ -1,0 +1,19 @@
+{
+  "asset_id": "CERT-EKS-000134",
+  "asset_name": "LL-37 Human Development and Safety Evidence",
+  "root_asset": "CERT-PKS-000053",
+  "knowledge_system": "EKS",
+  "asset_type": "Evidence Object",
+  "version": "0.1.0",
+  "status": "HUMAN PROGRAMME AND PRODUCT-SPECIFIC CLOSURE REQUIRED",
+  "source_domain": "Early clinical development, wound and safety search",
+  "evidence_type": "Human / safety evidence",
+  "last_review": "2026-07-16",
+  "direct_complete_extraction": false,
+  "prohibited_use": [
+    "Personal dosing or reconstitution guidance",
+    "Treatment protocols for infection, neuropathy, respiratory or bowel disease",
+    "Transfer between defined peptides and biological mixtures",
+    "Transfer from authorised products to unverified catalogue material"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "asset_id": "CERT-EKS-000133",
+  "asset_name": "LL-37 Sequence, Receptor and Antimicrobial Evidence",
+  "root_asset": "CERT-PKS-000053",
+  "knowledge_system": "EKS",
+  "asset_type": "Evidence Object",
+  "version": "0.1.0",
+  "status": "PRIMARY PUBLICATION MAP CREATED — EXTRACTION REQUIRED",
+  "source_domain": "CAMP/hCAP18 processing, sequence, membrane and chemotaxis publications",
+  "evidence_type": "Identity / mechanistic evidence",
+  "last_review": "2026-07-16",
+  "direct_complete_extraction": false,
+  "prohibited_use": [
+    "Personal dosing or reconstitution guidance",
+    "Treatment protocols for infection, neuropathy, respiratory or bowel disease",
+    "Transfer between defined peptides and biological mixtures",
+    "Transfer from authorised products to unverified catalogue material"
+  ]
+}
