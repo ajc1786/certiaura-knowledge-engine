@@ -1,0 +1,32 @@
+{
+  "asset_uai": "CERT-PKS-000088",
+  "asset_name": "Modified GRF (1-29) + Ipamorelin Supplier Blend",
+  "status_as_of": "2026-07-16",
+  "overall_status": "UNAPPROVED SUPPLIER GH-AXIS COMBINATION",
+  "regulatory_records": [
+    {
+      "jurisdiction": "United States",
+      "authority": "FDA",
+      "current_status": "No combination-product approval claim; marketplace CJC nomenclature does not establish identity.",
+      "monitoring_state": "ACTIVE"
+    },
+    {
+      "jurisdiction": "United Kingdom",
+      "authority": "MHRA",
+      "current_status": "No marketing-authorisation claim for CP10 or CP20.",
+      "monitoring_state": "ACTIVE"
+    },
+    {
+      "jurisdiction": "European Union",
+      "authority": "EMA / European Commission",
+      "current_status": "No marketing-authorisation claim for CP10 or CP20.",
+      "monitoring_state": "ACTIVE"
+    },
+    {
+      "jurisdiction": "International sport",
+      "authority": "WADA",
+      "current_status": "Current component-by-component verification required.",
+      "monitoring_state": "ACTIVE"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "asset_id": "CERT-PKS-000085",
+  "asset_name": "Retatrutide + Cagrilintide Supplier Blend",
+  "knowledge_system": "PKS",
+  "asset_type": "Supplier Combination-Product Knowledge Asset",
+  "version": "0.1.0",
+  "status": "CATALOGUE REVIEWED / COMBINATION EVIDENCE GAP ACTIVE / NOT PLATINUM CERTIFIED",
+  "owner": "Aidan Coleman",
+  "last_review": "2026-07-16",
+  "aliases": [
+    "RC10"
+  ],
+  "classification": "Fixed-ratio supplier triple-agonist and amylin-analogue combination",
+  "components": [
+    {
+      "parent_uai": "CERT-PKS-000001",
+      "name": "Retatrutide",
+      "supplier_quantity": "5 mg",
+      "identity_note": ""
+    },
+    {
+      "parent_uai": "CERT-PKS-000013",
+      "name": "Cagrilintide",
+      "supplier_quantity": "5 mg",
+      "identity_note": ""
+    }
+  ],
+  "mechanism_summary": "Theoretical multi-receptor activity is not evidence of safe or effective combined human use.",
+  "evidence_maturity": "No direct combination-specific primary evidence has been closed into CertiAura.",
+  "regulatory_headline": "UNAPPROVED SUPPLIER METABOLIC COMBINATION / PRODUCT-SPECIFIC HUMAN EVIDENCE NOT CLOSED",
+  "catalogue_supplier_skus": [
+    {
+      "catalogue_code": "RC10",
+      "specification": "Retatrutide 5 mg + Cagrilintide 5 mg; 10 mg x 10 vials",
+      "price_usd_per_kit": 165
+    }
+  ],
+  "relationships": [
+    {
+      "source": "CERT-PKS-000085",
+      "relationship": "REQUIRES",
+      "target": "CERT-PKS-000001"
+    },
+    {
+      "source": "CERT-PKS-000085",
+      "relationship": "REQUIRES",
+      "target": "CERT-PKS-000013"
+    },
+    {
+      "source": "CERT-PKS-000085",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000197"
+    },
+    {
+      "source": "CERT-PKS-000085",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000198"
+    },
+    {
+      "source": "CERT-PKS-000085",
+      "relationship": "HAS_SAFETY",
+      "target": "CERT-SKS-000090"
+    },
+    {
+      "source": "CERT-PKS-000085",
+      "relationship": "HAS_CONDITION",
+      "target": "CERT-CKS-000046"
+    },
+    {
+      "source": "CERT-PKS-000085",
+      "relationship": "SUPPORTS_GOAL",
+      "target": "CERT-GKS-000077"
+    },
+    {
+      "source": "CERT-PKS-000085",
+      "relationship": "SUPPORTS_GOAL",
+      "target": "CERT-GKS-000079"
+    }
+  ],
+  "component_identity_verified": false,
+  "ratio_verified": false,
+  "coformulation_compatibility_verified": false,
+  "validated_universal_human_dosing_protocol": false,
+  "supplier_catalogue_proves_quality": false,
+  "platinum_certified": false
+}

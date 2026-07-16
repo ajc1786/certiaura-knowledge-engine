@@ -1,0 +1,32 @@
+{
+  "asset_uai": "CERT-PKS-000085",
+  "asset_name": "Retatrutide + Cagrilintide Supplier Blend",
+  "status_as_of": "2026-07-16",
+  "overall_status": "UNAPPROVED SUPPLIER METABOLIC COMBINATION / PRODUCT-SPECIFIC HUMAN EVIDENCE NOT CLOSED",
+  "regulatory_records": [
+    {
+      "jurisdiction": "United States",
+      "authority": "FDA",
+      "current_status": "No supplier-blend approval or equivalence claim.",
+      "monitoring_state": "ACTIVE"
+    },
+    {
+      "jurisdiction": "United Kingdom",
+      "authority": "MHRA",
+      "current_status": "No marketing-authorisation claim for the supplier blend.",
+      "monitoring_state": "ACTIVE"
+    },
+    {
+      "jurisdiction": "European Union",
+      "authority": "EMA / European Commission",
+      "current_status": "No marketing-authorisation claim for the supplier blend.",
+      "monitoring_state": "ACTIVE"
+    },
+    {
+      "jurisdiction": "International sport",
+      "authority": "WADA",
+      "current_status": "Status depends on every component and current verification.",
+      "monitoring_state": "ACTIVE"
+    }
+  ]
+}

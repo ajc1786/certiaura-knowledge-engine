@@ -1,104 +1,33 @@
-Universal Asset Identifier,Asset Name,Knowledge System,Asset Type,Status,Owner,Completion %,Parent Assets,Child Assets,Relationship List,Evidence Links,Report Links,Marketplace Links,Last Review,Next Review,Notes
-CERT-PKS-000001,Retatrutide,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
-CERT-PKS-000002,BPC-157,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
-CERT-PKS-000003,Tesamorelin,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
-CERT-PKS-000004,CJC-1295,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
-CERT-PKS-000005,Ipamorelin,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
-CERT-PKS-000006,MOTS-c,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
-CERT-PKS-000007,GHK-Cu,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
-CERT-PKS-000008,Thymosin Beta-4 / TB-500,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
-CERT-PKS-000009,Melanotan II,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
-CERT-PKS-000010,Epitalon,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
-CERT-PKS-000011,Semaglutide,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
-CERT-PKS-000012,Tirzepatide,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
-CERT-PKS-000013,Cagrilintide,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
-CERT-PKS-000014,Mazdutide,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
-CERT-PKS-000015,Survodutide,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
-CERT-PKS-000016,Liraglutide,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
-CERT-PKS-000017,AOD9604,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
-CERT-PKS-000018,Adipotide,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
-CERT-PKS-000019,HGH Fragment 176-191,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
-CERT-PKS-000020,Somatropin,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
-CERT-PKS-000021,Sermorelin,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
-CERT-PKS-000022,Modified GRF (1-29),PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
-CERT-PKS-000023,GHRP-2,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
-CERT-PKS-000024,GHRP-6,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
-CERT-PKS-000025,Hexarelin,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
-CERT-PKS-000026,Long R3 IGF-1,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
-CERT-PKS-000027,MGF,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
-CERT-PKS-000028,PEG-MGF,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
-CERT-PKS-000029,ACE-031,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
-CERT-PKS-000030,Gonadorelin,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
-CERT-PKS-000031,Oxytocin,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
-CERT-PKS-000032,HCG Product Family,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
-CERT-PKS-000033,Menotropins Product Family,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
-CERT-PKS-000034,Kisspeptin-10,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
-CERT-PKS-000035,Teriparatide,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
-CERT-PKS-000036,Insulin Product Family,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
-CERT-PKS-000037,Erythropoietin Product Family,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
-CERT-PKS-000038,Semax,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
-CERT-PKS-000039,Selank,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
-CERT-PKS-000040,DSIP,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
-CERT-PKS-000041,Pinealon,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
-CERT-PKS-000042,Adamax Product Family,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
-CERT-PKS-000043,PE 22-28 Product Family,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
-CERT-PKS-000044,Cerebrolysin Product Family,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
-CERT-PKS-000045,Unbranded Cerebrolysin-Type Product Family,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
-CERT-PKS-000046,Dermorphin,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
-CERT-PKS-000047,P021 Adamantane Product Family,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
-CERT-PKS-000048,P21 Without Adamantane,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
-CERT-PKS-000049,N-Acetyl Semax Amidate,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
-CERT-PKS-000050,N-Acetyl Selank Amidate,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
-CERT-PKS-000051,Thymosin Alpha-1,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
-CERT-PKS-000052,Thymalin Product Family,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
-CERT-PKS-000053,LL-37,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
-CERT-PKS-000054,Cibinetide / ARA-290,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
-CERT-PKS-000055,VIP / Aviptadil,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
-CERT-PKS-000056,KPV,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
-CERT-PKS-000057,GHK,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
-CERT-PKS-000058,AHK-Cu,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
-CERT-PKS-000059,SNAP-8,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
-CERT-PKS-000060,Matrixyl Product Family,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
-CERT-PKS-000061,PNC-27,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
-CERT-PKS-000062,PTD-DBM,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
-CERT-PKS-000063,Humanin Product Family,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
-CERT-PKS-000064,FOXO4-DRI Product Family,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
-CERT-PKS-000065,N-Acetyl Epitalon Amidate,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
-CERT-PKS-000066,Vilon Product Family,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
-CERT-PKS-000067,Testagen Product Family,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
-CERT-PKS-000068,Bronchogen,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
-CERT-PKS-000069,Cardiogen,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
-CERT-PKS-000070,Cortagen,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
-CERT-PKS-000071,Livagen,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
-CERT-PKS-000072,Pancragen,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
-CERT-PKS-000073,Prostamax,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
-CERT-PKS-000074,Cartalax,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
-CERT-PKS-000075,Chonluten,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
-CERT-PKS-000076,Crystagen,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
-CERT-PKS-000077,Ovagen,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
-CERT-PKS-000078,Vesugen,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
-CERT-PKS-000079,Afamelanotide / Melanotan I,PKS,Peptide / Authorised-Active-Substance Knowledge Asset,Catalogue Reviewed — Authorised-Product Boundary Active — Not Platinum Certified,Aidan Coleman,,,,,,,,2026-07-16,,Build 0026
-CERT-PKS-000080,Bremelanotide / PT-141,PKS,Peptide / Authorised-Active-Substance Knowledge Asset,Catalogue Reviewed — Authorised-Product Boundary Active — Not Platinum Certified,Aidan Coleman,,,,,,,,2026-07-16,,Build 0026
-CERT-BKS-000145,Alpha-MSH and Melanocortin-System Biology,BKS,Biology Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0026
-CERT-BKS-000146,Melanocortin-1 Receptor,BKS,Biology Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0026
-CERT-BKS-000147,"Eumelanin, Photoprotection and Pigmentation",BKS,Biology Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0026
-CERT-BKS-000148,Central Melanocortin and Sexual-Desire Signalling,BKS,Biology Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0026
-CERT-BKS-000149,Bremelanotide Receptor-Selectivity Context,BKS,Biology Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0026
-CERT-CKS-000043,Erythropoietic Protoporphyria Phototoxicity,CKS,Condition Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0026
-CERT-CKS-000044,Acquired Generalised Hypoactive Sexual Desire Disorder,CKS,Condition Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0026
-CERT-MKS-000123,"Skin Lesion, Nevus and Full-Body Dermatology Monitoring",MKS,Monitoring Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0026
-CERT-MKS-000124,Phototoxicity and Pain-Free Light Exposure,MKS,Monitoring Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0026
-CERT-MKS-000125,General and Focal Pigmentation Changes,MKS,Monitoring Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0026
-CERT-MKS-000126,"Blood Pressure, Heart Rate and Cardiovascular Risk",MKS,Monitoring Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0026
-CERT-MKS-000127,Nausea and Gastrointestinal Tolerability,MKS,Monitoring Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0026
-CERT-MKS-000128,"Sexual Desire, Distress and Indication Validity",MKS,Monitoring Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0026
-CERT-GKS-000073,EPP Photoprotection,GKS,Goal Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0026
-CERT-GKS-000074,Melanocortin Pigmentation Research,GKS,Goal Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0026
-CERT-GKS-000075,Evidence-Based HSDD Treatment Context,GKS,Goal Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0026
-CERT-GKS-000076,Sexual-Desire Neurobiology Research,GKS,Goal Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0026
-CERT-SKS-000084,"Afamelanotide Skin, Pigmentation, Implant and Product-Equivalence Safety",SKS,Safety Object,Active,Aidan Coleman,,CERT-PKS-000079,,,,,,2026-07-16,,Build 0026
-CERT-SKS-000085,"Bremelanotide Cardiovascular, Nausea, Hyperpigmentation and Indication Safety",SKS,Safety Object,Active,Aidan Coleman,,CERT-PKS-000080,,,,,,2026-07-16,,Build 0026
-CERT-EKS-000185,Afamelanotide Identity and Authorised Product Source Set,EKS,Evidence Object,AUTHORITATIVE PRODUCT SOURCES IDENTIFIED — CURRENT LABEL REVIEW REQUIRED,Aidan Coleman,,CERT-PKS-000079,,,,,,2026-07-16,,Root: CERT-PKS-000079
-CERT-EKS-000186,Afamelanotide EPP Clinical and Catalogue Boundary Evidence,EKS,Evidence Object,PRIMARY PROGRAMME MAP CREATED — EXTRACTION REQUIRED,Aidan Coleman,,CERT-PKS-000079,,,,,,2026-07-16,,Root: CERT-PKS-000079
-CERT-EKS-000187,Bremelanotide Authorised Label and Phase 3 Evidence,EKS,Evidence Object,AUTHORITATIVE PRODUCT SOURCES IDENTIFIED — EXTRACTION REQUIRED,Aidan Coleman,,CERT-PKS-000080,,,,,,2026-07-16,,Root: CERT-PKS-000080
-CERT-EKS-000188,"Bremelanotide Safety, Population and Performance-Claim Boundary",EKS,Evidence Object,CURRENT LABEL AND POST-AUTHORISATION REVIEW REQUIRED,Aidan Coleman,,CERT-PKS-000080,,,,,,2026-07-16,,Root: CERT-PKS-000080
+Universal Asset Identifier,Asset Name,Knowledge System,Asset Type,Status,Owner,Parent Assets,Last Review
+CERT-PKS-000081,BPC-157 + TB Supplier Blend Family,PKS,Supplier Combination-Product,Active,Aidan Coleman,,2026-07-16
+CERT-PKS-000082,BPC-157 + GHK-Cu + TB-500 Supplier Blend,PKS,Supplier Combination-Product,Active,Aidan Coleman,,2026-07-16
+CERT-PKS-000083,BPC-157 + GHK-Cu + TB-500 + KPV Supplier Blend,PKS,Supplier Combination-Product,Active,Aidan Coleman,,2026-07-16
+CERT-PKS-000084,Cagrilintide + Semaglutide Supplier Blend,PKS,Supplier Combination-Product,Active,Aidan Coleman,,2026-07-16
+CERT-PKS-000085,Retatrutide + Cagrilintide Supplier Blend,PKS,Supplier Combination-Product,Active,Aidan Coleman,,2026-07-16
+CERT-PKS-000086,Tesamorelin + Ipamorelin Supplier Blend,PKS,Supplier Combination-Product,Active,Aidan Coleman,,2026-07-16
+CERT-PKS-000087,Semax + Selank Supplier Blend,PKS,Supplier Combination-Product,Active,Aidan Coleman,,2026-07-16
+CERT-PKS-000088,Modified GRF (1-29) + Ipamorelin Supplier Blend,PKS,Supplier Combination-Product,Active,Aidan Coleman,,2026-07-16
+CERT-EKS-000189,BPC-157 + TB Blend Component Identity and Ratio Evidence,EKS,Evidence Object,OPEN — COMPONENT AND RATIO VERIFICATION REQUIRED,Aidan Coleman,CERT-PKS-000081,2026-07-16
+CERT-EKS-000190,BPC-157 + TB Combination Efficacy and Safety Gap,EKS,Evidence Object,OPEN — COMBINATION-SPECIFIC EVIDENCE NOT CLOSED,Aidan Coleman,CERT-PKS-000081,2026-07-16
+CERT-EKS-000191,BPC-157 + GHK-Cu + TB-500 Blend Identity and Compatibility,EKS,Evidence Object,OPEN — PRODUCT-SPECIFIC ANALYTICAL CLOSURE REQUIRED,Aidan Coleman,CERT-PKS-000082,2026-07-16
+CERT-EKS-000192,BPC-157 + GHK-Cu + TB-500 Efficacy and Safety Gap,EKS,Evidence Object,OPEN — COMBINATION-SPECIFIC EVIDENCE NOT CLOSED,Aidan Coleman,CERT-PKS-000082,2026-07-16
+CERT-EKS-000193,Four-Component Repair Blend Identity and Compatibility,EKS,Evidence Object,OPEN — PRODUCT-SPECIFIC ANALYTICAL CLOSURE REQUIRED,Aidan Coleman,CERT-PKS-000083,2026-07-16
+CERT-EKS-000194,Four-Component Repair Blend Efficacy and Safety Gap,EKS,Evidence Object,OPEN — COMBINATION-SPECIFIC EVIDENCE NOT CLOSED,Aidan Coleman,CERT-PKS-000083,2026-07-16
+CERT-EKS-000195,Cagrilintide + Semaglutide Clinical Development Source Set,EKS,Evidence Object,CLINICAL PROGRAMME EXISTS — SUPPLIER-PRODUCT EQUIVALENCE NOT ESTABLISHED,Aidan Coleman,CERT-PKS-000084,2026-07-16
+CERT-EKS-000196,CS10 Supplier Vial Equivalence and Stability Gap,EKS,Evidence Object,OPEN — NO CAGRISEMA PRODUCT EQUIVALENCE,Aidan Coleman,CERT-PKS-000084,2026-07-16
+CERT-EKS-000197,Retatrutide + Cagrilintide Combination Identity and Interaction,EKS,Evidence Object,OPEN — PRODUCT-SPECIFIC ANALYTICAL CLOSURE REQUIRED,Aidan Coleman,CERT-PKS-000085,2026-07-16
+CERT-EKS-000198,Retatrutide + Cagrilintide Human Evidence Gap,EKS,Evidence Object,OPEN — DIRECT COMBINATION EVIDENCE NOT CLOSED,Aidan Coleman,CERT-PKS-000085,2026-07-16
+CERT-EKS-000199,Tesamorelin + Ipamorelin Combination Identity and GH-Axis Evidence,EKS,Evidence Object,OPEN — PRODUCT-SPECIFIC ANALYTICAL CLOSURE REQUIRED,Aidan Coleman,CERT-PKS-000086,2026-07-16
+CERT-EKS-000200,Tesamorelin + Ipamorelin Human and Regulatory Evidence Gap,EKS,Evidence Object,OPEN — TESAMORELIN PRODUCT EVIDENCE TRANSFER PROHIBITED,Aidan Coleman,CERT-PKS-000086,2026-07-16
+CERT-EKS-000201,Semax + Selank Combination Identity and Interaction Evidence,EKS,Evidence Object,OPEN — PRODUCT-SPECIFIC ANALYTICAL CLOSURE REQUIRED,Aidan Coleman,CERT-PKS-000087,2026-07-16
+CERT-EKS-000202,Semax + Selank Human and Regulatory Evidence Gap,EKS,Evidence Object,OPEN — PARENT-PEPTIDE EVIDENCE TRANSFER PROHIBITED,Aidan Coleman,CERT-PKS-000087,2026-07-16
+CERT-EKS-000203,Modified GRF (1-29) + Ipamorelin Blend Identity and Compatibility,EKS,Evidence Object,OPEN — PRODUCT-SPECIFIC ANALYTICAL CLOSURE REQUIRED,Aidan Coleman,CERT-PKS-000088,2026-07-16
+CERT-EKS-000204,Modified GRF (1-29) + Ipamorelin Human and Regulatory Evidence Gap,EKS,Evidence Object,OPEN — DIRECT COMBINATION EVIDENCE NOT CLOSED,Aidan Coleman,CERT-PKS-000088,2026-07-16
+CERT-SKS-000086,"BPC-157 + TB Blend Identity, Compatibility and Human-Safety Uncertainty",SKS,Safety Object,Active,Aidan Coleman,,2026-07-16
+CERT-SKS-000087,BPC-157 + GHK-Cu + TB-500 Copper and Multi-Peptide Safety Uncertainty,SKS,Safety Object,Active,Aidan Coleman,,2026-07-16
+CERT-SKS-000088,Four-Component Repair Blend Safety Uncertainty,SKS,Safety Object,Active,Aidan Coleman,,2026-07-16
+CERT-SKS-000089,Cagrilintide + Semaglutide Supplier-Blend Product-Equivalence Risk,SKS,Safety Object,Active,Aidan Coleman,,2026-07-16
+CERT-SKS-000090,Retatrutide + Cagrilintide Multi-Receptor and Human-Safety Uncertainty,SKS,Safety Object,Active,Aidan Coleman,,2026-07-16
+CERT-SKS-000091,Tesamorelin + Ipamorelin GH-Axis Exposure and Product-Equivalence Risk,SKS,Safety Object,Active,Aidan Coleman,,2026-07-16
+CERT-SKS-000092,Semax + Selank Neuropsychiatric and Interaction Uncertainty,SKS,Safety Object,Active,Aidan Coleman,,2026-07-16
+CERT-SKS-000093,"Modified GRF (1-29) + Ipamorelin GH-Axis, Identity and Compatibility Risk",SKS,Safety Object,Active,Aidan Coleman,,2026-07-16

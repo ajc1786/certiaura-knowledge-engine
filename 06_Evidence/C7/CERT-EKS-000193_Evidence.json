@@ -1,0 +1,16 @@
+{
+  "asset_id": "CERT-EKS-000193",
+  "asset_name": "Four-Component Repair Blend Identity and Compatibility",
+  "root_asset": "CERT-PKS-000083",
+  "knowledge_system": "EKS",
+  "asset_type": "Evidence Object",
+  "version": "0.1.0",
+  "status": "OPEN — PRODUCT-SPECIFIC ANALYTICAL CLOSURE REQUIRED",
+  "last_review": "2026-07-16",
+  "direct_complete_extraction": false,
+  "prohibited_use": [
+    "Compatibility, dosing, reconstitution or administration guidance",
+    "Component evidence as proof of combination efficacy",
+    "Clinical coadministration to supplier-vial equivalence"
+  ]
+}

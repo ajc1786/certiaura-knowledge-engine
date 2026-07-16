@@ -1,0 +1,86 @@
+{
+  "asset_id": "CERT-PKS-000087",
+  "asset_name": "Semax + Selank Supplier Blend",
+  "knowledge_system": "PKS",
+  "asset_type": "Supplier Combination-Product Knowledge Asset",
+  "version": "0.1.0",
+  "status": "CATALOGUE REVIEWED / COMBINATION EVIDENCE GAP ACTIVE / NOT PLATINUM CERTIFIED",
+  "owner": "Aidan Coleman",
+  "last_review": "2026-07-16",
+  "aliases": [
+    "XS20"
+  ],
+  "classification": "Fixed-ratio supplier neurocognitive and anxiolytic peptide blend",
+  "components": [
+    {
+      "parent_uai": "CERT-PKS-000038",
+      "name": "Semax",
+      "supplier_quantity": "10 mg",
+      "identity_note": ""
+    },
+    {
+      "parent_uai": "CERT-PKS-000039",
+      "name": "Selank",
+      "supplier_quantity": "10 mg",
+      "identity_note": ""
+    }
+  ],
+  "mechanism_summary": "No validated combination mechanism is assigned. Separate neurotrophic, neuroimmune and anxiolytic research cannot be combined as proof.",
+  "evidence_maturity": "No direct fixed-ratio combination-specific human efficacy, PK or safety evidence has been closed.",
+  "regulatory_headline": "UNAPPROVED SUPPLIER NEUROPEPTIDE COMBINATION / REGIONAL PARENT STATUS DOES NOT TRANSFER",
+  "catalogue_supplier_skus": [
+    {
+      "catalogue_code": "XS20",
+      "specification": "Semax 10 mg + Selank 10 mg; 20 mg x 10 vials",
+      "price_usd_per_kit": 112
+    }
+  ],
+  "relationships": [
+    {
+      "source": "CERT-PKS-000087",
+      "relationship": "REQUIRES",
+      "target": "CERT-PKS-000038"
+    },
+    {
+      "source": "CERT-PKS-000087",
+      "relationship": "REQUIRES",
+      "target": "CERT-PKS-000039"
+    },
+    {
+      "source": "CERT-PKS-000087",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000201"
+    },
+    {
+      "source": "CERT-PKS-000087",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000202"
+    },
+    {
+      "source": "CERT-PKS-000087",
+      "relationship": "HAS_SAFETY",
+      "target": "CERT-SKS-000092"
+    },
+    {
+      "source": "CERT-PKS-000087",
+      "relationship": "HAS_CONDITION",
+      "target": "CERT-CKS-000048"
+    },
+    {
+      "source": "CERT-PKS-000087",
+      "relationship": "SUPPORTS_GOAL",
+      "target": "CERT-GKS-000077"
+    },
+    {
+      "source": "CERT-PKS-000087",
+      "relationship": "SUPPORTS_GOAL",
+      "target": "CERT-GKS-000081"
+    }
+  ],
+  "component_identity_verified": false,
+  "ratio_verified": false,
+  "coformulation_compatibility_verified": false,
+  "validated_universal_human_dosing_protocol": false,
+  "supplier_catalogue_proves_quality": false,
+  "platinum_certified": false
+}

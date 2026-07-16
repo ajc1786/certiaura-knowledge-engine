@@ -1,0 +1,97 @@
+{
+  "asset_id": "CERT-PKS-000081",
+  "asset_name": "BPC-157 + TB Supplier Blend Family",
+  "knowledge_system": "PKS",
+  "asset_type": "Supplier Combination-Product Knowledge Asset",
+  "version": "0.1.0",
+  "status": "CATALOGUE REVIEWED / COMBINATION EVIDENCE GAP ACTIVE / NOT PLATINUM CERTIFIED",
+  "owner": "Aidan Coleman",
+  "last_review": "2026-07-16",
+  "aliases": [
+    "BPC + TB blend",
+    "BPC-157 / TB-500 blend"
+  ],
+  "classification": "Fixed-ratio supplier repair-peptide blend family",
+  "components": [
+    {
+      "parent_uai": "CERT-PKS-000002",
+      "name": "BPC-157",
+      "supplier_quantity": "1 part",
+      "identity_note": ""
+    },
+    {
+      "parent_uai": "CERT-PKS-000008",
+      "name": "Supplier-labelled TB / TB-500",
+      "supplier_quantity": "1 part",
+      "identity_note": "Exact fragment sequence required"
+    }
+  ],
+  "mechanism_summary": "No combination mechanism is validated. Component pairing does not establish interaction, compatibility or combined biological benefit.",
+  "evidence_maturity": "Component evidence is preclinical-dominant. No direct fixed-ratio blend evidence has been closed into CertiAura.",
+  "regulatory_headline": "UNAPPROVED SUPPLIER COMBINATION / COMPONENT AND CO-FORMULATION EVIDENCE INSUFFICIENT",
+  "catalogue_supplier_skus": [
+    {
+      "catalogue_code": "BB4",
+      "specification": "BPC 2 mg + TB 2 mg; 4 mg x 10 vials",
+      "price_usd_per_kit": 66
+    },
+    {
+      "catalogue_code": "BB10",
+      "specification": "BPC 5 mg + TB 5 mg; 10 mg x 10 vials",
+      "price_usd_per_kit": 116
+    },
+    {
+      "catalogue_code": "BB20",
+      "specification": "BPC 10 mg + TB 10 mg; 20 mg x 10 vials",
+      "price_usd_per_kit": 230
+    }
+  ],
+  "relationships": [
+    {
+      "source": "CERT-PKS-000081",
+      "relationship": "REQUIRES",
+      "target": "CERT-PKS-000002"
+    },
+    {
+      "source": "CERT-PKS-000081",
+      "relationship": "REQUIRES",
+      "target": "CERT-PKS-000008"
+    },
+    {
+      "source": "CERT-PKS-000081",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000189"
+    },
+    {
+      "source": "CERT-PKS-000081",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000190"
+    },
+    {
+      "source": "CERT-PKS-000081",
+      "relationship": "HAS_SAFETY",
+      "target": "CERT-SKS-000086"
+    },
+    {
+      "source": "CERT-PKS-000081",
+      "relationship": "HAS_CONDITION",
+      "target": "CERT-CKS-000045"
+    },
+    {
+      "source": "CERT-PKS-000081",
+      "relationship": "SUPPORTS_GOAL",
+      "target": "CERT-GKS-000077"
+    },
+    {
+      "source": "CERT-PKS-000081",
+      "relationship": "SUPPORTS_GOAL",
+      "target": "CERT-GKS-000078"
+    }
+  ],
+  "component_identity_verified": false,
+  "ratio_verified": false,
+  "coformulation_compatibility_verified": false,
+  "validated_universal_human_dosing_protocol": false,
+  "supplier_catalogue_proves_quality": false,
+  "platinum_certified": false
+}

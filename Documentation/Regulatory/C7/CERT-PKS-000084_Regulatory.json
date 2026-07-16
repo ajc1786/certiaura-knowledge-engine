@@ -1,0 +1,38 @@
+{
+  "asset_uai": "CERT-PKS-000084",
+  "asset_name": "Cagrilintide + Semaglutide Supplier Blend",
+  "status_as_of": "2026-07-16",
+  "overall_status": "CLINICAL-DEVELOPMENT COMBINATION CONTEXT EXISTS / CATALOGUE VIAL HAS NO AUTHORISED-PRODUCT EQUIVALENCE",
+  "regulatory_records": [
+    {
+      "jurisdiction": "Global clinical development",
+      "authority": "Sponsor / trial registries",
+      "current_status": "Cagrilintide plus semaglutide has clinical-development evidence; supplier-vial equivalence is not established.",
+      "monitoring_state": "ACTIVE"
+    },
+    {
+      "jurisdiction": "United States",
+      "authority": "FDA",
+      "current_status": "No supplier-blend approval or equivalence claim.",
+      "monitoring_state": "ACTIVE"
+    },
+    {
+      "jurisdiction": "United Kingdom",
+      "authority": "MHRA",
+      "current_status": "No marketing-authorisation claim for the supplier blend.",
+      "monitoring_state": "ACTIVE"
+    },
+    {
+      "jurisdiction": "European Union",
+      "authority": "EMA / European Commission",
+      "current_status": "No marketing-authorisation claim for the supplier blend.",
+      "monitoring_state": "ACTIVE"
+    },
+    {
+      "jurisdiction": "International sport",
+      "authority": "WADA",
+      "current_status": "Status depends on every component and current verification.",
+      "monitoring_state": "ACTIVE"
+    }
+  ]
+}

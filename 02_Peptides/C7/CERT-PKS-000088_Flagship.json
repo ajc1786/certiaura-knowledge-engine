@@ -1,0 +1,93 @@
+{
+  "asset_id": "CERT-PKS-000088",
+  "asset_name": "Modified GRF (1-29) + Ipamorelin Supplier Blend",
+  "knowledge_system": "PKS",
+  "asset_type": "Supplier Combination-Product Knowledge Asset",
+  "version": "0.1.1",
+  "status": "CATALOGUE REVIEWED / COMBINATION EVIDENCE GAP ACTIVE / NOT PLATINUM CERTIFIED",
+  "owner": "Aidan Coleman",
+  "last_review": "2026-07-16",
+  "aliases": [
+    "CP10",
+    "CP20",
+    "CJC-1295 without DAC + IPA"
+  ],
+  "classification": "Fixed-ratio Modified GRF (1-29) analogue and ipamorelin supplier blend",
+  "components": [
+    {
+      "parent_uai": "CERT-PKS-000022",
+      "name": "Modified GRF (1-29) / supplier-labelled CJC-1295 without DAC",
+      "supplier_quantity": "5 mg or 10 mg",
+      "identity_note": "Must not be treated as CJC-1295 with DAC"
+    },
+    {
+      "parent_uai": "CERT-PKS-000005",
+      "name": "Ipamorelin",
+      "supplier_quantity": "5 mg or 10 mg",
+      "identity_note": ""
+    }
+  ],
+  "mechanism_summary": "Combined GHRH-receptor and ghrelin-receptor stimulation may alter GH/IGF-1 exposure, but interaction, compatibility and clinical benefit cannot be inferred from the components.",
+  "evidence_maturity": "No direct fixed-ratio combination-specific human evidence has been closed. Marketplace CJC-1295-without-DAC nomenclature requires identity control.",
+  "regulatory_headline": "UNAPPROVED SUPPLIER GH-AXIS COMBINATION / CJC-1295 WITH DAC EVIDENCE DOES NOT TRANSFER",
+  "catalogue_supplier_skus": [
+    {
+      "catalogue_code": "CP10",
+      "specification": "CJC-1295 without DAC 5 mg + Ipamorelin 5 mg; 10 mg x 10 vials",
+      "price_usd_per_kit": 107
+    },
+    {
+      "catalogue_code": "CP20",
+      "specification": "CJC-1295 without DAC 10 mg + Ipamorelin 10 mg; 20 mg x 10 vials",
+      "price_usd_per_kit": 201
+    }
+  ],
+  "relationships": [
+    {
+      "source": "CERT-PKS-000088",
+      "relationship": "REQUIRES",
+      "target": "CERT-PKS-000022"
+    },
+    {
+      "source": "CERT-PKS-000088",
+      "relationship": "REQUIRES",
+      "target": "CERT-PKS-000005"
+    },
+    {
+      "source": "CERT-PKS-000088",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000203"
+    },
+    {
+      "source": "CERT-PKS-000088",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000204"
+    },
+    {
+      "source": "CERT-PKS-000088",
+      "relationship": "HAS_SAFETY",
+      "target": "CERT-SKS-000093"
+    },
+    {
+      "source": "CERT-PKS-000088",
+      "relationship": "HAS_CONDITION",
+      "target": "CERT-CKS-000047"
+    },
+    {
+      "source": "CERT-PKS-000088",
+      "relationship": "SUPPORTS_GOAL",
+      "target": "CERT-GKS-000077"
+    },
+    {
+      "source": "CERT-PKS-000088",
+      "relationship": "SUPPORTS_GOAL",
+      "target": "CERT-GKS-000080"
+    }
+  ],
+  "component_identity_verified": false,
+  "ratio_verified": false,
+  "coformulation_compatibility_verified": false,
+  "validated_universal_human_dosing_protocol": false,
+  "supplier_catalogue_proves_quality": false,
+  "platinum_certified": false
+}

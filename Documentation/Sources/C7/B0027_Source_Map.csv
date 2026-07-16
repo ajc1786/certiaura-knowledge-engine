@@ -1,0 +1,12 @@
+Asset,Source,URL / Citation,Purpose
+All blends,FDA Drugs@FDA,https://www.accessdata.fda.gov/scripts/cder/daf/,Combination-product approval search
+All blends,FDA compounding,https://www.fda.gov/drugs/human-drug-compounding,Compounding and enforcement controls
+All blends,ClinicalTrials.gov,https://clinicaltrials.gov/,Direct fixed-ratio or coadministration trials
+All blends,WADA Prohibited List,https://www.wada-ama.org/en/prohibited-list,Component-by-component athlete status
+Cagrilintide + semaglutide,Lancet 2021,Phase 1b coadministration publication,Study-material boundary
+Cagrilintide + semaglutide,Lancet 2023,Phase 2 type 2 diabetes publication,Human combination evidence
+Cagrilintide + semaglutide,NEJM 2025,REDEFINE phase 3 publication,Clinical-development evidence
+Retatrutide + cagrilintide,ClinicalTrials.gov,https://clinicaltrials.gov/search?term=retatrutide%20cagrilintide,Direct combination search
+Tesamorelin + ipamorelin,ClinicalTrials.gov,https://clinicaltrials.gov/search?term=tesamorelin%20ipamorelin,Direct combination search
+Semax + Selank,PubMed,https://pubmed.ncbi.nlm.nih.gov/?term=Semax+Selank+combination,Direct combination search
+Modified GRF + ipamorelin,ClinicalTrials.gov,https://clinicaltrials.gov/search?term=modified%20GRF%20ipamorelin,Direct combination search

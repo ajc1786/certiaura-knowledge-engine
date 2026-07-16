@@ -1,0 +1,14 @@
+<div align="center">
+
+<img src="../Assets/Brand/CertiAura_Brand_Master.png" alt="CertiAura - Evidence. Clarity. Confidence." width="700">
+
+</div>
+
+---
+# CERT-EKS-000196 — CS10 Supplier Vial Equivalence and Stability Gap
+
+**Root asset:** `CERT-PKS-000084`  
+**Status:** OPEN — NO CAGRISEMA PRODUCT EQUIVALENCE  
+**Last Review:** 2026-07-16
+
+No component-to-combination or clinical-programme-to-supplier-vial evidence transfer is permitted.

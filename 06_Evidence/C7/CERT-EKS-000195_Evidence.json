@@ -1,0 +1,16 @@
+{
+  "asset_id": "CERT-EKS-000195",
+  "asset_name": "Cagrilintide + Semaglutide Clinical Development Source Set",
+  "root_asset": "CERT-PKS-000084",
+  "knowledge_system": "EKS",
+  "asset_type": "Evidence Object",
+  "version": "0.1.0",
+  "status": "CLINICAL PROGRAMME EXISTS — SUPPLIER-PRODUCT EQUIVALENCE NOT ESTABLISHED",
+  "last_review": "2026-07-16",
+  "direct_complete_extraction": false,
+  "prohibited_use": [
+    "Compatibility, dosing, reconstitution or administration guidance",
+    "Component evidence as proof of combination efficacy",
+    "Clinical coadministration to supplier-vial equivalence"
+  ]
+}

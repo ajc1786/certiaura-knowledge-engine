@@ -1,0 +1,108 @@
+{
+  "asset_id": "CERT-PKS-000083",
+  "asset_name": "BPC-157 + GHK-Cu + TB-500 + KPV Supplier Blend",
+  "knowledge_system": "PKS",
+  "asset_type": "Supplier Combination-Product Knowledge Asset",
+  "version": "0.1.0",
+  "status": "CATALOGUE REVIEWED / COMBINATION EVIDENCE GAP ACTIVE / NOT PLATINUM CERTIFIED",
+  "owner": "Aidan Coleman",
+  "last_review": "2026-07-16",
+  "aliases": [
+    "KL80"
+  ],
+  "classification": "Four-component supplier repair, copper-peptide and inflammatory blend",
+  "components": [
+    {
+      "parent_uai": "CERT-PKS-000002",
+      "name": "BPC-157",
+      "supplier_quantity": "10 mg",
+      "identity_note": ""
+    },
+    {
+      "parent_uai": "CERT-PKS-000007",
+      "name": "GHK-Cu",
+      "supplier_quantity": "50 mg",
+      "identity_note": "Copper state required"
+    },
+    {
+      "parent_uai": "CERT-PKS-000008",
+      "name": "TB-500 supplier component",
+      "supplier_quantity": "10 mg",
+      "identity_note": "Exact sequence required"
+    },
+    {
+      "parent_uai": "CERT-PKS-000056",
+      "name": "KPV",
+      "supplier_quantity": "10 mg",
+      "identity_note": ""
+    }
+  ],
+  "mechanism_summary": "No validated four-component mechanism exists. Repair, copper-binding and inflammatory pathways cannot be added together as proof.",
+  "evidence_maturity": "No direct combination-specific efficacy, compatibility, PK or human-safety evidence has been closed.",
+  "regulatory_headline": "UNAPPROVED FOUR-COMPONENT SUPPLIER BLEND / NO CLINICAL OR PRODUCT EQUIVALENCE",
+  "catalogue_supplier_skus": [
+    {
+      "catalogue_code": "KL80",
+      "specification": "BPC-157 10 mg + GHK-Cu 50 mg + TB-500 10 mg + KPV 10 mg; 80 mg x 10 vials",
+      "price_usd_per_kit": 252
+    }
+  ],
+  "relationships": [
+    {
+      "source": "CERT-PKS-000083",
+      "relationship": "REQUIRES",
+      "target": "CERT-PKS-000002"
+    },
+    {
+      "source": "CERT-PKS-000083",
+      "relationship": "REQUIRES",
+      "target": "CERT-PKS-000007"
+    },
+    {
+      "source": "CERT-PKS-000083",
+      "relationship": "REQUIRES",
+      "target": "CERT-PKS-000008"
+    },
+    {
+      "source": "CERT-PKS-000083",
+      "relationship": "REQUIRES",
+      "target": "CERT-PKS-000056"
+    },
+    {
+      "source": "CERT-PKS-000083",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000193"
+    },
+    {
+      "source": "CERT-PKS-000083",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000194"
+    },
+    {
+      "source": "CERT-PKS-000083",
+      "relationship": "HAS_SAFETY",
+      "target": "CERT-SKS-000088"
+    },
+    {
+      "source": "CERT-PKS-000083",
+      "relationship": "HAS_CONDITION",
+      "target": "CERT-CKS-000045"
+    },
+    {
+      "source": "CERT-PKS-000083",
+      "relationship": "SUPPORTS_GOAL",
+      "target": "CERT-GKS-000077"
+    },
+    {
+      "source": "CERT-PKS-000083",
+      "relationship": "SUPPORTS_GOAL",
+      "target": "CERT-GKS-000078"
+    }
+  ],
+  "component_identity_verified": false,
+  "ratio_verified": false,
+  "coformulation_compatibility_verified": false,
+  "validated_universal_human_dosing_protocol": false,
+  "supplier_catalogue_proves_quality": false,
+  "platinum_certified": false
+}

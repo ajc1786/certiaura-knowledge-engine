@@ -1,36 +1,34 @@
 # CERTIAURA PRODUCTION DASHBOARD
 
-**Build:** 0026  
+**Build:** 0027  
+**Version:** 0.1.1  
 **Date:** 2026-07-16
 
-## Catalogue C7 complete
+## New combination-product assets
 
-### New assets
+- CERT-PKS-000081–000088
 
-- CERT-PKS-000079 — Afamelanotide / Melanotan I
-- CERT-PKS-000080 — Bremelanotide / PT-141
+## Catalogue coverage
 
-### Existing asset retained
+- Eight combination families
+- Eleven catalogue SKUs
 
-- CERT-PKS-000009 — Melanotan II
+## Supporting objects
 
-### Supporting objects
-
-- CERT-EKS-000185–000188
-- CERT-SKS-000084–000085
-- CERT-BKS-000145–000149
-- CERT-CKS-000043–000044
-- CERT-MKS-000123–000128
-- CERT-GKS-000073–000076
+- CERT-EKS-000189–000204
+- CERT-SKS-000086–000093
+- CERT-BKS-000150–000155
+- CERT-CKS-000045–000048
+- CERT-MKS-000129–000137
+- CERT-GKS-000077–000081
 
 ## Critical outcomes
 
-- Scenesse implant approval does not transfer to supplier MT-1 powder.
-- Vyleesi autoinjector approval does not transfer to supplier PT-141 powder.
-- Afamelanotide, Melanotan II and bremelanotide remain separate.
-- EPP photoprotection is separate from cosmetic tanning.
-- HSDD treatment is separate from universal libido or sexual-performance claims.
+- Component evidence is not combination evidence.
+- CagriSema development evidence is separated from CS10.
+- “CJC-1295 without DAC” is mapped to Modified GRF (1-29), not CJC-1295 with DAC.
+- Compatibility, stability and Product Passport gaps are explicit.
 
 ## Next task
 
-**Build 0027 — Blends & Supplier Combination Products**
+**Build 0028 — Non-Peptide, Biologic & Ancillary Catalogue Items**

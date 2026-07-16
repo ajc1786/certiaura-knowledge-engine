@@ -1,0 +1,86 @@
+{
+  "asset_id": "CERT-PKS-000086",
+  "asset_name": "Tesamorelin + Ipamorelin Supplier Blend",
+  "knowledge_system": "PKS",
+  "asset_type": "Supplier Combination-Product Knowledge Asset",
+  "version": "0.1.0",
+  "status": "CATALOGUE REVIEWED / COMBINATION EVIDENCE GAP ACTIVE / NOT PLATINUM CERTIFIED",
+  "owner": "Aidan Coleman",
+  "last_review": "2026-07-16",
+  "aliases": [
+    "TI18"
+  ],
+  "classification": "Fixed-ratio GHRH-analogue and ghrelin-receptor-agonist supplier blend",
+  "components": [
+    {
+      "parent_uai": "CERT-PKS-000003",
+      "name": "Tesamorelin",
+      "supplier_quantity": "12 mg",
+      "identity_note": ""
+    },
+    {
+      "parent_uai": "CERT-PKS-000005",
+      "name": "Ipamorelin",
+      "supplier_quantity": "6 mg",
+      "identity_note": ""
+    }
+  ],
+  "mechanism_summary": "Combined GH/IGF-1 exposure, interaction and desensitisation cannot be inferred from the separate components.",
+  "evidence_maturity": "No direct fixed-ratio combination-specific human evidence has been closed. Authorised tesamorelin evidence does not transfer.",
+  "regulatory_headline": "UNAPPROVED SUPPLIER GH-AXIS COMBINATION / TESAMORELIN MEDICINE STATUS DOES NOT TRANSFER",
+  "catalogue_supplier_skus": [
+    {
+      "catalogue_code": "TI18",
+      "specification": "Tesamorelin 12 mg + Ipamorelin 6 mg; 18 mg x 10 vials",
+      "price_usd_per_kit": 280
+    }
+  ],
+  "relationships": [
+    {
+      "source": "CERT-PKS-000086",
+      "relationship": "REQUIRES",
+      "target": "CERT-PKS-000003"
+    },
+    {
+      "source": "CERT-PKS-000086",
+      "relationship": "REQUIRES",
+      "target": "CERT-PKS-000005"
+    },
+    {
+      "source": "CERT-PKS-000086",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000199"
+    },
+    {
+      "source": "CERT-PKS-000086",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000200"
+    },
+    {
+      "source": "CERT-PKS-000086",
+      "relationship": "HAS_SAFETY",
+      "target": "CERT-SKS-000091"
+    },
+    {
+      "source": "CERT-PKS-000086",
+      "relationship": "HAS_CONDITION",
+      "target": "CERT-CKS-000047"
+    },
+    {
+      "source": "CERT-PKS-000086",
+      "relationship": "SUPPORTS_GOAL",
+      "target": "CERT-GKS-000077"
+    },
+    {
+      "source": "CERT-PKS-000086",
+      "relationship": "SUPPORTS_GOAL",
+      "target": "CERT-GKS-000080"
+    }
+  ],
+  "component_identity_verified": false,
+  "ratio_verified": false,
+  "coformulation_compatibility_verified": false,
+  "validated_universal_human_dosing_protocol": false,
+  "supplier_catalogue_proves_quality": false,
+  "platinum_certified": false
+}

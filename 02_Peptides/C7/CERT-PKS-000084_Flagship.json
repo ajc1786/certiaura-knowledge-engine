@@ -1,0 +1,86 @@
+{
+  "asset_id": "CERT-PKS-000084",
+  "asset_name": "Cagrilintide + Semaglutide Supplier Blend",
+  "knowledge_system": "PKS",
+  "asset_type": "Supplier Combination-Product Knowledge Asset",
+  "version": "0.1.0",
+  "status": "CATALOGUE REVIEWED / COMBINATION EVIDENCE GAP ACTIVE / NOT PLATINUM CERTIFIED",
+  "owner": "Aidan Coleman",
+  "last_review": "2026-07-16",
+  "aliases": [
+    "CS10"
+  ],
+  "classification": "Fixed-ratio supplier metabolic-peptide combination",
+  "components": [
+    {
+      "parent_uai": "CERT-PKS-000013",
+      "name": "Cagrilintide",
+      "supplier_quantity": "5 mg",
+      "identity_note": ""
+    },
+    {
+      "parent_uai": "CERT-PKS-000011",
+      "name": "Semaglutide",
+      "supplier_quantity": "5 mg",
+      "identity_note": ""
+    }
+  ],
+  "mechanism_summary": "Clinical coadministration programmes study amylin/calcitonin-family and GLP-1 signalling. They do not validate the catalogue mixed vial.",
+  "evidence_maturity": "Combination clinical-development evidence exists, but supplier-product identity, formulation, stability and equivalence are not established.",
+  "regulatory_headline": "CLINICAL-DEVELOPMENT COMBINATION CONTEXT EXISTS / CATALOGUE VIAL HAS NO AUTHORISED-PRODUCT EQUIVALENCE",
+  "catalogue_supplier_skus": [
+    {
+      "catalogue_code": "CS10",
+      "specification": "Cagrilintide 5 mg + Semaglutide 5 mg; 10 mg x 10 vials",
+      "price_usd_per_kit": 135
+    }
+  ],
+  "relationships": [
+    {
+      "source": "CERT-PKS-000084",
+      "relationship": "REQUIRES",
+      "target": "CERT-PKS-000013"
+    },
+    {
+      "source": "CERT-PKS-000084",
+      "relationship": "REQUIRES",
+      "target": "CERT-PKS-000011"
+    },
+    {
+      "source": "CERT-PKS-000084",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000195"
+    },
+    {
+      "source": "CERT-PKS-000084",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000196"
+    },
+    {
+      "source": "CERT-PKS-000084",
+      "relationship": "HAS_SAFETY",
+      "target": "CERT-SKS-000089"
+    },
+    {
+      "source": "CERT-PKS-000084",
+      "relationship": "HAS_CONDITION",
+      "target": "CERT-CKS-000046"
+    },
+    {
+      "source": "CERT-PKS-000084",
+      "relationship": "SUPPORTS_GOAL",
+      "target": "CERT-GKS-000077"
+    },
+    {
+      "source": "CERT-PKS-000084",
+      "relationship": "SUPPORTS_GOAL",
+      "target": "CERT-GKS-000079"
+    }
+  ],
+  "component_identity_verified": false,
+  "ratio_verified": false,
+  "coformulation_compatibility_verified": false,
+  "validated_universal_human_dosing_protocol": false,
+  "supplier_catalogue_proves_quality": false,
+  "platinum_certified": false
+}
