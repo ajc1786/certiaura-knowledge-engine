@@ -1,0 +1,21 @@
+{
+  "asset_id": "CERT-EKS-000301",
+  "asset_name": "Current MENOPUR Composition and Safety Evidence",
+  "root_asset": "CERT-PKS-000033",
+  "knowledge_system": "EKS",
+  "asset_type": "Priority Evidence Closure Object",
+  "version": "0.2.0",
+  "status": "CURRENT MENOPUR PRODUCT CONTEXT IDENTIFIED",
+  "closure_wave": "0033B",
+  "closure_priority": "P1",
+  "source_domain": "Current DailyMed product record and label identifying 75 IU FSH and 75 IU LH activity, exact formulation, indication and gonadotropin safety controls",
+  "evidence_type": "Authorised biologic product evidence",
+  "last_review": "2026-07-16",
+  "direct_complete_extraction": false,
+  "prohibited_use": [
+    "Personal dosing, injection, infusion or reconstitution guidance",
+    "Authorised, branded or study-material evidence transfer to supplier products",
+    "Assumption of source, sequence, glycosylation, composition, potency or sterility",
+    "Fertility, muscle, immune, neurological or longevity protocols"
+  ]
+}

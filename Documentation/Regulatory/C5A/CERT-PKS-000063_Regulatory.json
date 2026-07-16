@@ -1,43 +1,38 @@
 {
   "asset_uai": "CERT-PKS-000063",
   "asset_name": "Humanin Supplier Product Family",
+  "version": "0.2.0",
   "status_as_of": "2026-07-16",
-  "overall_status": "PRECLINICAL-DOMINANT / PRODUCT IDENTITY UNDER-SPECIFIED / NO APPROVAL CLAIM",
+  "closure_wave": "0033B",
+  "overall_status": "PARTIAL CLOSURE — CANONICAL 24-RESIDUE HUMANIN AND PRECLINICAL BIOLOGY IDENTIFIED; HU10 SEQUENCE, ANALOGUE STATUS, TERMINI, PURITY, STERILITY AND HUMAN INTERVENTION OPEN",
   "regulatory_records": [
+    {
+      "jurisdiction": "Global clinical development",
+      "authority": "ClinicalTrials.gov",
+      "current_status": "Defined registry searches identified observational Humanin biomarker studies, not a validated therapeutic Humanin product programme.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Identity, source, product label, approval, trial, warning, recall, safety or anti-doping change"
+    },
     {
       "jurisdiction": "United States",
       "authority": "FDA",
-      "current_status": "No approval claim; current trial and enforcement search required.",
+      "current_status": "No HU10 approval or native/analogue product-equivalence claim.",
       "monitoring_state": "ACTIVE",
-      "next_review_trigger": "Identity, approval, safety, trial, enforcement or anti-doping change"
+      "next_review_trigger": "Identity, source, product label, approval, trial, warning, recall, safety or anti-doping change"
     },
     {
       "jurisdiction": "United Kingdom",
       "authority": "MHRA",
       "current_status": "No marketing-authorisation claim.",
       "monitoring_state": "ACTIVE",
-      "next_review_trigger": "Identity, approval, safety, trial, enforcement or anti-doping change"
+      "next_review_trigger": "Identity, source, product label, approval, trial, warning, recall, safety or anti-doping change"
     },
     {
       "jurisdiction": "European Union",
       "authority": "EMA / European Commission",
       "current_status": "No marketing-authorisation claim.",
       "monitoring_state": "ACTIVE",
-      "next_review_trigger": "Identity, approval, safety, trial, enforcement or anti-doping change"
-    },
-    {
-      "jurisdiction": "Other jurisdictions",
-      "authority": "National medicines authorities",
-      "current_status": "Any regional short-peptide status requires direct dated verification.",
-      "monitoring_state": "ACTIVE",
-      "next_review_trigger": "Identity, approval, safety, trial, enforcement or anti-doping change"
-    },
-    {
-      "jurisdiction": "International sport",
-      "authority": "WADA",
-      "current_status": "Current athlete-specific verification required.",
-      "monitoring_state": "EVENT-TRIGGERED",
-      "next_review_trigger": "Identity, approval, safety, trial, enforcement or anti-doping change"
+      "next_review_trigger": "Identity, source, product label, approval, trial, warning, recall, safety or anti-doping change"
     }
   ]
 }

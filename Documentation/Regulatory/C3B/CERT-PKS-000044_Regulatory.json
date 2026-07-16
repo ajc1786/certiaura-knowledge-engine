@@ -1,0 +1,38 @@
+{
+  "asset_uai": "CERT-PKS-000044",
+  "asset_name": "Cerebrolysin Product Family",
+  "version": "0.2.0",
+  "status_as_of": "2026-07-16",
+  "closure_wave": "0033B",
+  "overall_status": "PARTIAL CLOSURE — BRANDED CEREBROLYSIN TRIAL MATERIAL AND CURRENT CLINICAL PROGRAMMES IDENTIFIED; CBL60 FORMULATION, MANUFACTURER AND COMPARABILITY OPEN",
+  "regulatory_records": [
+    {
+      "jurisdiction": "Global clinical research",
+      "authority": "ClinicalTrials.gov",
+      "current_status": "Current and historical clinical programmes concern branded/manufacturer-controlled Cerebrolysin material, not CBL60.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Identity, source, product label, approval, trial, warning, recall, safety or anti-doping change"
+    },
+    {
+      "jurisdiction": "United States",
+      "authority": "FDA",
+      "current_status": "No FDA approval or CBL60 equivalence claim.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Identity, source, product label, approval, trial, warning, recall, safety or anti-doping change"
+    },
+    {
+      "jurisdiction": "United Kingdom",
+      "authority": "MHRA",
+      "current_status": "No United Kingdom marketing-authorisation claim for CBL60.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Identity, source, product label, approval, trial, warning, recall, safety or anti-doping change"
+    },
+    {
+      "jurisdiction": "European Union",
+      "authority": "EMA / national authorities",
+      "current_status": "No central European Union authorisation claim; any national status requires exact product verification.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Identity, source, product label, approval, trial, warning, recall, safety or anti-doping change"
+    }
+  ]
+}

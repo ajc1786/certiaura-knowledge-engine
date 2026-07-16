@@ -1,0 +1,21 @@
+{
+  "asset_id": "CERT-EKS-000304",
+  "asset_name": "CBL60 Composition, Manufacturer and Cerebrolysin Comparability Gap",
+  "root_asset": "CERT-PKS-000044",
+  "knowledge_system": "EKS",
+  "asset_type": "Priority Evidence Closure Object",
+  "version": "0.2.0",
+  "status": "OPEN — CBL60 BRANDED-PRODUCT EQUIVALENCE NOT ESTABLISHED",
+  "closure_wave": "0033B",
+  "closure_priority": "P1",
+  "source_domain": "Manufacturer, source tissue, hydrolysis, peptide distribution, concentration, fill volume, batch fingerprint, national authorisation, sterility and branded-product comparability",
+  "evidence_type": "Critical biologic-mixture Product Passport gap",
+  "last_review": "2026-07-16",
+  "direct_complete_extraction": false,
+  "prohibited_use": [
+    "Personal dosing, injection, infusion or reconstitution guidance",
+    "Authorised, branded or study-material evidence transfer to supplier products",
+    "Assumption of source, sequence, glycosylation, composition, potency or sterility",
+    "Fertility, muscle, immune, neurological or longevity protocols"
+  ]
+}

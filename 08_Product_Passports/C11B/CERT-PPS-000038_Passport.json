@@ -1,0 +1,61 @@
+{
+  "asset_id": "CERT-PPS-000038",
+  "asset_name": "Humanin Supplier Product Family Product Passport",
+  "knowledge_system": "PPS",
+  "asset_type": "Critical Biologic / Mixture Product Passport Gap Object",
+  "version": "0.2.0",
+  "status": "P1 OPEN / NOT CERTIFIED",
+  "parent_product": "CERT-PKS-000063",
+  "closure_wave": "0033B",
+  "closure_priority": "P1",
+  "last_review": "2026-07-16",
+  "required_fields": [
+    {
+      "field": "native 24-residue Humanin versus analogue",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical, biological-source, quality, clinical and regulatory evidence"
+    },
+    {
+      "field": "complete sequence and any S14G or other substitution",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical, biological-source, quality, clinical and regulatory evidence"
+    },
+    {
+      "field": "N- and C-terminal chemistry, salt and molecular mass",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical, biological-source, quality, clinical and regulatory evidence"
+    },
+    {
+      "field": "reference standard, HPLC, LC-MS and purity",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical, biological-source, quality, clinical and regulatory evidence"
+    },
+    {
+      "field": "manufacturer, synthesis route and batch",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical, biological-source, quality, clinical and regulatory evidence"
+    },
+    {
+      "field": "aggregation, oxidation and stability",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical, biological-source, quality, clinical and regulatory evidence"
+    },
+    {
+      "field": "sterility, endotoxin and particles if parenteral",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical, biological-source, quality, clinical and regulatory evidence"
+    },
+    {
+      "field": "human PK, intervention safety, efficacy and regulatory status",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical, biological-source, quality, clinical and regulatory evidence"
+    }
+  ],
+  "identity_certified": false,
+  "source_certified": false,
+  "composition_certified": false,
+  "potency_certified": false,
+  "quality_certified": false,
+  "sterility_certified": false,
+  "authorised_product_equivalence": false
+}

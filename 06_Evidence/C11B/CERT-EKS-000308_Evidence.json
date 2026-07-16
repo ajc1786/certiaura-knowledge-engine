@@ -1,0 +1,21 @@
+{
+  "asset_id": "CERT-EKS-000308",
+  "asset_name": "HU10 Native/Analogue Identity and Human Intervention Gap",
+  "root_asset": "CERT-PKS-000063",
+  "knowledge_system": "EKS",
+  "asset_type": "Priority Evidence Closure Object",
+  "version": "0.2.0",
+  "status": "OPEN — HU10 IDENTITY AND HUMAN INTERVENTION EVIDENCE NOT ESTABLISHED",
+  "closure_wave": "0033B",
+  "closure_priority": "P1",
+  "source_domain": "Supplier sequence, substitutions, terminal chemistry, quality, aggregation, sterility, human PK and distinction from observational Humanin biomarker studies",
+  "evidence_type": "Critical supplier / human evidence gap",
+  "last_review": "2026-07-16",
+  "direct_complete_extraction": false,
+  "prohibited_use": [
+    "Personal dosing, injection, infusion or reconstitution guidance",
+    "Authorised, branded or study-material evidence transfer to supplier products",
+    "Assumption of source, sequence, glycosylation, composition, potency or sterility",
+    "Fertility, muscle, immune, neurological or longevity protocols"
+  ]
+}

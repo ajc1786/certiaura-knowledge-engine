@@ -8,56 +8,48 @@
 
 # CERT-PKS-000033 — Menotropins / Human Menopausal Gonadotropin Product Family
 
-**Version:** 0.1.0  
-**Status:** CATALOGUE REVIEWED / EVIDENCE FOUNDATION CREATED / NOT PLATINUM CERTIFIED  
+**Version:** 0.2.0  
+**Priority:** P1  
+**Status:** EVIDENCE CLOSURE WAVE 6 / BIOLOGIC OR MIXTURE IDENTITY BLOCK ACTIVE  
 **Last Review:** 2026-07-16
 
-## Classification
+## Closure state
 
-Urinary-derived follicle-stimulating and luteinising gonadotropin mixture biologic
+**PARTIAL CLOSURE — CURRENT MENOPUR LABEL AND EXACT 75 IU FSH / 75 IU LH-ACTIVITY PRODUCT CONTEXT IDENTIFIED; G75 SOURCE, COMPOSITION, POTENCY AND EQUIVALENCE OPEN**
 
-## Aliases
+## Authoritative or primary-source boundary
 
-HMG, hMG, menotropins, human menopausal gonadotropin
+MENOPUR is an exact prescription menotropins product with 75 IU FSH and 75 IU LH activity per vial, a defined manufacturer, formulation and assisted-reproduction label. The supplier G75 listing does not establish MENOPUR identity, the same urinary source, purification, FSH/LH ratio, potency assay or authorised use.
 
-## Mechanism
+## New closure evidence
 
-Combined follicle-stimulating hormone and luteinising-hormone bioactivity supporting follicular development and reproductive treatment.
+- `CERT-EKS-000301`
+- `CERT-EKS-000302`
 
-## Evidence maturity
+## Product Passport
 
-Established authorised fertility evidence; composition, purification, FSH/LH activity and product-specific indications vary.
+`CERT-PPS-000035`
 
-## Evidence foundation
+## Catalogue records
 
-- `CERT-EKS-000093`
-- `CERT-EKS-000094`
-
-## Regulatory headline
-
-**AUTHORISED FERTILITY PRODUCT CONTEXTS EXIST / COMPOSITION- AND PRODUCT-SPECIFIC**
-
-## Catalogue pricing
-
-| Code | Supplier specification | USD per kit |
+| Code | Specification | USD per kit |
 |---|---|---:|
 | G75 | 75 IU x 10 vials | $68 |
 
-## Product-quality boundary
+## Critical controls
 
-The catalogue does not establish exact molecule, formulation, concentration, potency, purity, sterility, manufacturer or equivalence to an authorised medicine.
+- G75 is not assumed to be MENOPUR
+- 75 IU does not prove 75 IU FSH plus 75 IU LH activity
+- Composition and bioactivity are manufacturing-dependent
+- OHSS, thrombosis, ovarian torsion and multiple-gestation risks retained
+- No fertility, dosing, injection or reconstitution protocol
 
-## Validated universal human dosing protocol
+## Certification state
 
-**No**
-
-## Certification blockers
-
-- Exact product composition and FSH/LH activity
-- Urinary-source and purification controls
-- Current product-specific indication
-- Ovarian hyperstimulation and multiple-pregnancy risk
-
-## Platinum Certified
-
-**No**
+- Supplier identity verified: **No**
+- Biological source or mixture composition verified: **No**
+- Potency and batch comparability verified: **No**
+- Sterility verified: **No**
+- Authorised or study-product equivalence: **No**
+- Direct-sale gate: **Blocked**
+- Platinum Certified: **No**

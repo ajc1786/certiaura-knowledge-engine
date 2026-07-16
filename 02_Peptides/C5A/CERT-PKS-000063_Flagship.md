@@ -8,52 +8,48 @@
 
 # CERT-PKS-000063 — Humanin Supplier Product Family
 
-**Version:** 0.1.0  
-**Status:** CATALOGUE REVIEWED / EVIDENCE FOUNDATION CREATED / NOT PLATINUM CERTIFIED  
+**Version:** 0.2.0  
+**Priority:** P1  
+**Status:** EVIDENCE CLOSURE WAVE 6 / BIOLOGIC OR MIXTURE IDENTITY BLOCK ACTIVE  
 **Last Review:** 2026-07-16
 
-## Classification
+## Closure state
 
-Mitochondrial-derived peptide product family with unresolved sequence/form
+**PARTIAL CLOSURE — CANONICAL 24-RESIDUE HUMANIN AND PRECLINICAL BIOLOGY IDENTIFIED; HU10 SEQUENCE, ANALOGUE STATUS, TERMINI, PURITY, STERILITY AND HUMAN INTERVENTION OPEN**
 
-## Mechanism
+## Authoritative or primary-source boundary
 
-Endogenous mitochondrial-derived peptide biology associated with cell-survival, stress-response, apoptosis and metabolic signalling; effects depend on exact native or analogue sequence.
+Curated sequence records identify native Humanin as the 24-residue peptide MAPRGFSCLLLLTSEIDLPVKRRA. Analogue substitutions such as S14G materially change activity. Human registry records located in the defined searches are observational biomarker studies rather than therapeutic Humanin intervention programmes.
 
-## Evidence maturity
+## New closure evidence
 
-Foundational cell and animal neuroprotection, apoptosis and metabolic evidence; adequate human intervention evidence is not established.
+- `CERT-EKS-000307`
+- `CERT-EKS-000308`
 
-## Evidence foundation
+## Product Passport
 
-- `CERT-EKS-000153`
-- `CERT-EKS-000154`
+`CERT-PPS-000038`
 
-## Regulatory headline
-
-**PRECLINICAL-DOMINANT / PRODUCT IDENTITY UNDER-SPECIFIED / NO APPROVAL CLAIM**
-
-## Catalogue pricing
+## Catalogue records
 
 | Code | Specification | USD per kit |
 |---|---|---:|
 | HU10 | 10 mg x 10 vials | $210 |
 
-## Product-quality boundary
+## Critical controls
 
-The catalogue does not establish exact sequence, stereochemistry, terminal chemistry, purity, sterility, potency, approval or equivalence to published materials.
+- HU10 is not assumed to be native Humanin
+- HU10 is not assumed to be S14G-Humanin
+- Cell and animal cytoprotection is not human clinical efficacy
+- Observational Humanin biomarker studies are not intervention trials
+- No longevity, neuroprotection, metabolic, dosing or injection protocol
 
-## Validated universal human dosing protocol
+## Certification state
 
-**No**
-
-## Certification blockers
-
-- Native versus analogue sequence
-- Peptide length and terminal chemistry
-- Human PK, efficacy and long-term safety
-- Supplier identity, purity and sterility
-
-## Platinum Certified
-
-**No**
+- Supplier identity verified: **No**
+- Biological source or mixture composition verified: **No**
+- Potency and batch comparability verified: **No**
+- Sterility verified: **No**
+- Authorised or study-product equivalence: **No**
+- Direct-sale gate: **Blocked**
+- Platinum Certified: **No**

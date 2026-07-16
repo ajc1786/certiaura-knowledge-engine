@@ -8,17 +8,17 @@
 
 # CERT-PKS-000063 — Humanin Supplier Product Family REGULATORY STATUS
 
+**Version:** 0.2.0  
 **Status as of:** 2026-07-16  
-**Overall:** PRECLINICAL-DOMINANT / PRODUCT IDENTITY UNDER-SPECIFIED / NO APPROVAL CLAIM
+**Closure state:** PARTIAL CLOSURE — CANONICAL 24-RESIDUE HUMANIN AND PRECLINICAL BIOLOGY IDENTIFIED; HU10 SEQUENCE, ANALOGUE STATUS, TERMINI, PURITY, STERILITY AND HUMAN INTERVENTION OPEN
 
 | Jurisdiction | Authority | Controlled position | Monitoring |
 |---|---|---|---|
-| United States | FDA | No approval claim; current trial and enforcement search required. | ACTIVE |
+| Global clinical development | ClinicalTrials.gov | Defined registry searches identified observational Humanin biomarker studies, not a validated therapeutic Humanin product programme. | ACTIVE |
+| United States | FDA | No HU10 approval or native/analogue product-equivalence claim. | ACTIVE |
 | United Kingdom | MHRA | No marketing-authorisation claim. | ACTIVE |
 | European Union | EMA / European Commission | No marketing-authorisation claim. | ACTIVE |
-| Other jurisdictions | National medicines authorities | Any regional short-peptide status requires direct dated verification. | ACTIVE |
-| International sport | WADA | Current athlete-specific verification required. | EVENT-TRIGGERED |
 
 ## Rule
 
-Preclinical or regional research status does not create approval or validate a catalogue product.
+Regulatory, clinical and safety status belongs to the exact molecule, biological source, mixture, formulation, manufacturer, product, indication and jurisdiction.

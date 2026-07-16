@@ -3,8 +3,8 @@
   "asset_name": "Humanin Supplier Product Family",
   "knowledge_system": "PKS",
   "asset_type": "Peptide / Supplier-Product Knowledge Asset",
-  "version": "0.1.0",
-  "status": "CATALOGUE REVIEWED / EVIDENCE FOUNDATION CREATED / NOT PLATINUM CERTIFIED",
+  "version": "0.2.0",
+  "status": "P1 EVIDENCE CLOSURE WAVE 6 / BIOLOGIC OR MIXTURE IDENTITY BLOCK ACTIVE / NOT PLATINUM CERTIFIED",
   "owner": "Aidan Coleman",
   "last_review": "2026-07-16",
   "aliases": [
@@ -83,6 +83,21 @@
       "source": "CERT-PKS-000063",
       "relationship": "HAS_SAFETY",
       "target": "CERT-SKS-000068"
+    },
+    {
+      "source": "CERT-PKS-000063",
+      "relationship": "HAS_PASSPORT",
+      "target": "CERT-PPS-000038"
+    },
+    {
+      "source": "CERT-PKS-000063",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000307"
+    },
+    {
+      "source": "CERT-PKS-000063",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000308"
     }
   ],
   "validated_universal_human_dosing_protocol": false,
@@ -93,5 +108,25 @@
     "Peptide length and terminal chemistry",
     "Human PK, efficacy and long-term safety",
     "Supplier identity, purity and sterility"
-  ]
+  ],
+  "closure_wave": "0033B",
+  "closure_priority": "P1",
+  "closure_class": "MITOCHONDRIAL-DERIVED PEPTIDE / NATIVE VERSUS ANALOGUE IDENTITY",
+  "closure_state": "PARTIAL CLOSURE — CANONICAL 24-RESIDUE HUMANIN AND PRECLINICAL BIOLOGY IDENTIFIED; HU10 SEQUENCE, ANALOGUE STATUS, TERMINI, PURITY, STERILITY AND HUMAN INTERVENTION OPEN",
+  "authoritative_product_boundary": "Curated sequence records identify native Humanin as the 24-residue peptide MAPRGFSCLLLLTSEIDLPVKRRA. Analogue substitutions such as S14G materially change activity. Human registry records located in the defined searches are observational biomarker studies rather than therapeutic Humanin intervention programmes.",
+  "product_passport": "CERT-PPS-000038",
+  "identity_verified": false,
+  "quality_verified": false,
+  "sterility_verified": false,
+  "authorised_product_equivalence": false,
+  "critical_closure_controls": [
+    "HU10 is not assumed to be native Humanin",
+    "HU10 is not assumed to be S14G-Humanin",
+    "Cell and animal cytoprotection is not human clinical efficacy",
+    "Observational Humanin biomarker studies are not intervention trials",
+    "No longevity, neuroprotection, metabolic, dosing or injection protocol"
+  ],
+  "canonical_reference_sequence": "MAPRGFSCLLLLTSEIDLPVKRRA",
+  "canonical_reference_length": 24,
+  "supplier_sequence_verified": false
 }

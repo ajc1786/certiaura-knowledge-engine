@@ -8,16 +8,16 @@
 
 # CERT-PKS-000033 — Menotropins / Human Menopausal Gonadotropin Product Family REGULATORY STATUS
 
+**Version:** 0.2.0  
 **Status as of:** 2026-07-16  
-**Overall:** AUTHORISED FERTILITY PRODUCT CONTEXTS EXIST / COMPOSITION- AND PRODUCT-SPECIFIC
+**Closure state:** PARTIAL CLOSURE — CURRENT MENOPUR LABEL AND EXACT 75 IU FSH / 75 IU LH-ACTIVITY PRODUCT CONTEXT IDENTIFIED; G75 SOURCE, COMPOSITION, POTENCY AND EQUIVALENCE OPEN
 
-| Jurisdiction | Authority | Current controlled position | Monitoring |
+| Jurisdiction | Authority | Controlled position | Monitoring |
 |---|---|---|---|
-| United States | FDA | Authorised medicine contexts exist; exact product, molecule, formulation and indication require current label capture. | ACTIVE |
-| United Kingdom | MHRA | Authorised prescription-medicine contexts exist; product-specific authorisation controls claims. | ACTIVE |
-| European Union | EMA / European Commission | Authorised medicinal contexts exist; exact product information controls claims. | ACTIVE |
-| International sport | WADA | Current athlete-specific status requires authoritative verification; erythropoiesis-stimulating agents are a critical prohibition domain. | ACTIVE |
+| United States | FDA / DailyMed | MENOPUR is an exact licensed menotropins product with 75 IU FSH and 75 IU LH activity; G75 equivalence is not established. | ACTIVE |
+| United Kingdom | MHRA | Authorised menotropins status is exact product, composition and indication specific. | ACTIVE |
+| European Union | EMA / national authorities | Authorised gonadotropin mixtures are product, source, potency and jurisdiction specific. | ACTIVE |
 
 ## Rule
 
-Authorised medicine status never validates an under-specified catalogue product.
+Regulatory, clinical and safety status belongs to the exact molecule, biological source, mixture, formulation, manufacturer, product, indication and jurisdiction.

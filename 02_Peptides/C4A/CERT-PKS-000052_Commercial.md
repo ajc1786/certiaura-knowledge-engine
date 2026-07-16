@@ -10,18 +10,19 @@
 
 ## Permitted
 
-- identity, mechanism, evidence and safety education;
-- catalogue-price and Product Passport™ gap reporting;
-- dated regulatory-status reporting.
+- exact catalogue identity and price reporting;
+- authorised, branded or primary-study comparison with explicit non-equivalence;
+- Product Passport™ gap reporting;
+- biological-source, quality, safety and regulatory education.
 
 ## Prohibited
 
-- infection, immune, neuropathy, respiratory or bowel-treatment protocols;
-- personal dosing or reconstitution guidance;
-- transfer between a defined peptide and a biological mixture;
-- presenting an unverified supplier product as an authorised medicine;
-- guaranteed sequence, composition, potency, purity or sterility.
+- fertility, muscle, recovery, immune, neurological, longevity or metabolic protocols;
+- dosing, injection, infusion or reconstitution guidance;
+- authorised-product, branded-product or study-material equivalence;
+- guaranteed source, sequence, composition, glycosylation, potency, purity or sterility;
+- direct-sale activation while critical passport fields remain open.
 
-## Future direct sale
+## Activation gate
 
-Requires identity, legal, regulatory, manufacturing, product-quality and jurisdiction closure.
+Commercial use beyond evidence and gap reporting remains blocked.

@@ -1,29 +1,28 @@
 # CERTIAURA CHANGE LOG
 
-## Build 0033A — Biochemical, Metabolic & Coverage-Correction Closure
+## Build 0033B — Biologic, Glycoprotein & Mixture Identity Closure
 **Date:** 2026-07-16
 
 Updated existing assets:
 
-- CERT-MPS-000001–000005
-- CERT-PKS-000089–000090
+- CERT-PKS-000028
+- CERT-PKS-000032–000033
+- CERT-PKS-000044
+- CERT-PKS-000052
+- CERT-PKS-000063
 
 Allocated:
 
-- CERT-PPS-000031–000032
-- CERT-EKS-000283–000296
-
-Patched:
-
-- CERT-PPS-000001–000005
+- CERT-PPS-000033–000038
+- CERT-EKS-000297–000308
 
 Meaningful closures:
 
-- AICAR/acadesine identity and WADA control;
-- melatonin oral-product boundary;
-- glutathione and NAD sterile-quality evidence;
-- 5-amino-1MQ preclinical and 503B boundary;
-- Forzinity versus supplier elamipretide;
-- native GLP-1 molecular-form evidence versus unresolved GP.
+- PEG-MGF versus defined non-PEGylated MGF E-domain research;
+- urinary versus recombinant hCG boundary;
+- MENOPUR-specific FSH/LH activity boundary;
+- branded Cerebrolysin versus CBL60;
+- Thymalin extract-mixture identity;
+- native Humanin versus analogue and HU10 identity.
 
 No product-family UAI, treatment protocol, administration protocol or Platinum certification was created.

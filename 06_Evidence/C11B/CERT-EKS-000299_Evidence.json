@@ -1,0 +1,21 @@
+{
+  "asset_id": "CERT-EKS-000299",
+  "asset_name": "Current Pregnyl and Novarel hCG Product Identity Evidence",
+  "root_asset": "CERT-PKS-000032",
+  "knowledge_system": "EKS",
+  "asset_type": "Priority Evidence Closure Object",
+  "version": "0.2.0",
+  "status": "CURRENT AUTHORISED URINARY hCG PRODUCT CONTEXT IDENTIFIED",
+  "closure_wave": "0033B",
+  "closure_priority": "P1",
+  "source_domain": "Current United States DailyMed labels for exact urinary-derived chorionic gonadotropin products, USP potency, formulation, manufacturer and route",
+  "evidence_type": "Authorised biologic product evidence",
+  "last_review": "2026-07-16",
+  "direct_complete_extraction": false,
+  "prohibited_use": [
+    "Personal dosing, injection, infusion or reconstitution guidance",
+    "Authorised, branded or study-material evidence transfer to supplier products",
+    "Assumption of source, sequence, glycosylation, composition, potency or sterility",
+    "Fertility, muscle, immune, neurological or longevity protocols"
+  ]
+}

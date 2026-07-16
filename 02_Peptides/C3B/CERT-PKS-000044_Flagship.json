@@ -1,0 +1,139 @@
+{
+  "asset_id": "CERT-PKS-000044",
+  "asset_name": "Cerebrolysin Product Family",
+  "knowledge_system": "PKS",
+  "asset_type": "Peptide / Biologic-Mixture Knowledge Asset",
+  "version": "0.2.0",
+  "status": "P1 EVIDENCE CLOSURE WAVE 6 / BIOLOGIC OR MIXTURE IDENTITY BLOCK ACTIVE / NOT PLATINUM CERTIFIED",
+  "owner": "Aidan Coleman",
+  "last_review": "2026-07-16",
+  "aliases": [
+    "Cerebrolysin",
+    "cerebroprotein hydrolysate",
+    "FPF-1070"
+  ],
+  "classification": "Porcine-brain-derived peptide hydrolysate medicinal product family",
+  "mechanism_summary": "A complex, manufacturing-dependent mixture proposed to influence neurotrophic, neuronal-survival and neural-recovery pathways; the active component or components are not defined as one canonical peptide.",
+  "evidence_maturity": "Multiple randomised clinical studies and systematic reviews across stroke, dementia, traumatic brain injury and other neurological contexts, with heterogeneous findings and product-specific evidence.",
+  "regulatory_headline": "REGIONAL MEDICINAL PRODUCT CONTEXTS EXIST — NO FDA, UK OR CENTRAL EU AUTHORISATION CLAIM",
+  "catalogue_supplier_skus": [
+    {
+      "catalogue_code": "CBL60",
+      "specification": "60 mg x 6 vials",
+      "price_usd_per_kit": 49
+    }
+  ],
+  "relationships": [
+    {
+      "source": "CERT-PKS-000044",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000094"
+    },
+    {
+      "source": "CERT-PKS-000044",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000095"
+    },
+    {
+      "source": "CERT-PKS-000044",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000096"
+    },
+    {
+      "source": "CERT-PKS-000044",
+      "relationship": "HAS_CONDITION",
+      "target": "CERT-CKS-000016"
+    },
+    {
+      "source": "CERT-PKS-000044",
+      "relationship": "HAS_CONDITION",
+      "target": "CERT-CKS-000017"
+    },
+    {
+      "source": "CERT-PKS-000044",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000071"
+    },
+    {
+      "source": "CERT-PKS-000044",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000072"
+    },
+    {
+      "source": "CERT-PKS-000044",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000073"
+    },
+    {
+      "source": "CERT-PKS-000044",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000074"
+    },
+    {
+      "source": "CERT-PKS-000044",
+      "relationship": "SUPPORTS_GOAL",
+      "target": "CERT-GKS-000037"
+    },
+    {
+      "source": "CERT-PKS-000044",
+      "relationship": "SUPPORTS_GOAL",
+      "target": "CERT-GKS-000038"
+    },
+    {
+      "source": "CERT-PKS-000044",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000115"
+    },
+    {
+      "source": "CERT-PKS-000044",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000116"
+    },
+    {
+      "source": "CERT-PKS-000044",
+      "relationship": "HAS_SAFETY",
+      "target": "CERT-SKS-000049"
+    },
+    {
+      "source": "CERT-PKS-000044",
+      "relationship": "HAS_PASSPORT",
+      "target": "CERT-PPS-000036"
+    },
+    {
+      "source": "CERT-PKS-000044",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000303"
+    },
+    {
+      "source": "CERT-PKS-000044",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000304"
+    }
+  ],
+  "validated_universal_human_dosing_protocol": false,
+  "supplier_catalogue_proves_quality": false,
+  "platinum_certified": false,
+  "certification_blockers": [
+    "Current national authorisation and label capture",
+    "Manufacturer and formulation-specific composition",
+    "Independent indication-specific evidence appraisal",
+    "Supplier cold-chain, authenticity, batch and sterility evidence"
+  ],
+  "closure_wave": "0033B",
+  "closure_priority": "P1",
+  "closure_class": "PORCINE-BRAIN HYDROLYSATE MIXTURE / BRAND AND BATCH COMPARABILITY",
+  "closure_state": "PARTIAL CLOSURE — BRANDED CEREBROLYSIN TRIAL MATERIAL AND CURRENT CLINICAL PROGRAMMES IDENTIFIED; CBL60 FORMULATION, MANUFACTURER AND COMPARABILITY OPEN",
+  "authoritative_product_boundary": "ClinicalTrials.gov records describe manufacturer-controlled Cerebrolysin as an intravenous porcine-brain-derived preparation containing low-molecular-weight peptides and free amino acids, generally measured by volume. The CBL60 catalogue presentation of 60 mg x 6 vials does not establish branded-product identity or formulation.",
+  "product_passport": "CERT-PPS-000036",
+  "identity_verified": false,
+  "quality_verified": false,
+  "sterility_verified": false,
+  "authorised_product_equivalence": false,
+  "critical_closure_controls": [
+    "CBL60 is not assumed to be EVER Pharma Cerebrolysin",
+    "A 60 mg catalogue strength is not comparable to trial volumes without composition data",
+    "Stroke, dementia and injury evidence is product- and indication-specific",
+    "No universal FDA, MHRA or central EU authorisation claim",
+    "No neurological treatment, infusion, dosing or reconstitution protocol"
+  ]
+}

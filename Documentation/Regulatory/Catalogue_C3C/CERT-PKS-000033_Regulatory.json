@@ -1,36 +1,31 @@
 {
   "asset_uai": "CERT-PKS-000033",
   "asset_name": "Menotropins / Human Menopausal Gonadotropin Product Family",
+  "version": "0.2.0",
   "status_as_of": "2026-07-16",
-  "overall_status": "AUTHORISED FERTILITY PRODUCT CONTEXTS EXIST / COMPOSITION- AND PRODUCT-SPECIFIC",
+  "closure_wave": "0033B",
+  "overall_status": "PARTIAL CLOSURE — CURRENT MENOPUR LABEL AND EXACT 75 IU FSH / 75 IU LH-ACTIVITY PRODUCT CONTEXT IDENTIFIED; G75 SOURCE, COMPOSITION, POTENCY AND EQUIVALENCE OPEN",
   "regulatory_records": [
     {
       "jurisdiction": "United States",
-      "authority": "FDA",
-      "current_status": "Authorised medicine contexts exist; exact product, molecule, formulation and indication require current label capture.",
+      "authority": "FDA / DailyMed",
+      "current_status": "MENOPUR is an exact licensed menotropins product with 75 IU FSH and 75 IU LH activity; G75 equivalence is not established.",
       "monitoring_state": "ACTIVE",
-      "next_review_trigger": "Approval, label, molecule, formulation, safety, enforcement, trial or anti-doping change"
+      "next_review_trigger": "Identity, source, product label, approval, trial, warning, recall, safety or anti-doping change"
     },
     {
       "jurisdiction": "United Kingdom",
       "authority": "MHRA",
-      "current_status": "Authorised prescription-medicine contexts exist; product-specific authorisation controls claims.",
+      "current_status": "Authorised menotropins status is exact product, composition and indication specific.",
       "monitoring_state": "ACTIVE",
-      "next_review_trigger": "Approval, label, molecule, formulation, safety, enforcement, trial or anti-doping change"
+      "next_review_trigger": "Identity, source, product label, approval, trial, warning, recall, safety or anti-doping change"
     },
     {
       "jurisdiction": "European Union",
-      "authority": "EMA / European Commission",
-      "current_status": "Authorised medicinal contexts exist; exact product information controls claims.",
+      "authority": "EMA / national authorities",
+      "current_status": "Authorised gonadotropin mixtures are product, source, potency and jurisdiction specific.",
       "monitoring_state": "ACTIVE",
-      "next_review_trigger": "Approval, label, molecule, formulation, safety, enforcement, trial or anti-doping change"
-    },
-    {
-      "jurisdiction": "International sport",
-      "authority": "WADA",
-      "current_status": "Current athlete-specific status requires authoritative verification; erythropoiesis-stimulating agents are a critical prohibition domain.",
-      "monitoring_state": "ACTIVE",
-      "next_review_trigger": "Approval, label, molecule, formulation, safety, enforcement, trial or anti-doping change"
+      "next_review_trigger": "Identity, source, product label, approval, trial, warning, recall, safety or anti-doping change"
     }
   ]
 }

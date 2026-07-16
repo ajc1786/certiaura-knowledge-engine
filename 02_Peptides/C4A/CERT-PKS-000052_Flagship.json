@@ -3,8 +3,8 @@
   "asset_name": "Thymalin Product Family",
   "knowledge_system": "PKS",
   "asset_type": "Peptide / Biologic-Mixture Knowledge Asset",
-  "version": "0.1.0",
-  "status": "CATALOGUE REVIEWED / EVIDENCE FOUNDATION CREATED / NOT PLATINUM CERTIFIED",
+  "version": "0.2.0",
+  "status": "P1 EVIDENCE CLOSURE WAVE 6 / BIOLOGIC OR MIXTURE IDENTITY BLOCK ACTIVE / NOT PLATINUM CERTIFIED",
   "owner": "Aidan Coleman",
   "last_review": "2026-07-16",
   "aliases": [
@@ -68,6 +68,21 @@
       "source": "CERT-PKS-000052",
       "relationship": "HAS_SAFETY",
       "target": "CERT-SKS-000057"
+    },
+    {
+      "source": "CERT-PKS-000052",
+      "relationship": "HAS_PASSPORT",
+      "target": "CERT-PPS-000037"
+    },
+    {
+      "source": "CERT-PKS-000052",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000305"
+    },
+    {
+      "source": "CERT-PKS-000052",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000306"
     }
   ],
   "validated_universal_human_dosing_protocol": false,
@@ -79,5 +94,22 @@
     "Reference standard and batch comparability",
     "Independent human evidence",
     "Sterility, endotoxin and transmissible-agent controls"
+  ],
+  "closure_wave": "0033B",
+  "closure_priority": "P1",
+  "closure_class": "THYMUS-DERIVED POLYPEPTIDE EXTRACT / COMPOSITION AND SOURCE IDENTITY",
+  "closure_state": "BLOCKED — SPECIES, TISSUE SOURCE, EXTRACTION PROCESS, PEPTIDE COMPOSITION, BATCH FINGERPRINT, STERILITY AND INDEPENDENT HUMAN EVIDENCE UNVERIFIED",
+  "authoritative_product_boundary": "Published Thymalin literature concerns a thymic extract or polypeptide preparation, not one canonical peptide sequence. Older clinical reports and extract-characterisation papers do not establish the composition, manufacturer, quality or equivalence of TY10.",
+  "product_passport": "CERT-PPS-000037",
+  "identity_verified": false,
+  "quality_verified": false,
+  "sterility_verified": false,
+  "authorised_product_equivalence": false,
+  "critical_closure_controls": [
+    "Thymalin is not assigned one peptide sequence",
+    "Do not transfer thymosin alpha-1, thymosin beta-4 or Vilon evidence",
+    "Older regional clinical reports do not certify TY10",
+    "Biological-source and transmissible-agent controls remain mandatory",
+    "No immune, longevity, dosing, injection or reconstitution protocol"
   ]
 }

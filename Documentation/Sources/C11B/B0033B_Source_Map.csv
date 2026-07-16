@@ -1,0 +1,19 @@
+Asset,Source,URL,Purpose
+PEG-MGF,MGF E-domain human myogenic precursor study,https://pubmed.ncbi.nlm.nih.gov/17156777/,Defined 24-residue MGF E-domain cell evidence; not PEG-MGF
+PEG-MGF,MGF E-domain human muscle progenitor study,https://pubmed.ncbi.nlm.nih.gov/21354439/,Defined non-PEGylated MGF-E evidence
+PEG-MGF,WADA 2026 Prohibited List,https://www.wada-ama.org/en/resources/world-anti-doping-program/prohibited-list,Current list in force from 1 January 2026
+PEG-MGF,WADA MGF analytical-research page,https://www.wada-ama.org/en/resources/scientific-research/expanding-testing-capability-immunopurification-assisted-analytical,MGFs explicitly identified as prohibited peptide growth factors
+hCG,DailyMed Pregnyl current label,https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1e94155f-19be-4944-b197-be4edbb4faf9,"Current urinary-derived hCG product, potency, formulation and manufacturer"
+hCG,DailyMed Novarel current label,https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ac6918ff-9dc3-40d9-8619-54b26e4bdfc8,Current urinary-derived hCG product identity
+Menotropins,DailyMed MENOPUR current record,https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=22c8db95-c3db-1770-8086-31356fbabe35,Current label archive through May 2026 and exact product context
+Menotropins,DailyMed MENOPUR official label,https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=22c8db95-c3db-1770-8086-31356fbabe35&type=display,75 IU FSH plus 75 IU LH activity and product-specific safety
+Cerebrolysin,ClinicalTrials.gov NCT00868283,https://clinicaltrials.gov/study/NCT00868283,Large branded-product acute ischaemic stroke trial
+Cerebrolysin,ClinicalTrials.gov NCT06070753,https://clinicaltrials.gov/study/NCT06070753,Current EVT-associated Cerebrolysin trial context
+Cerebrolysin,ClinicalTrials.gov NCT06899464,https://clinicaltrials.gov/study/NCT06899464,2025-registered intracerebral-haemorrhage feasibility study
+Thymalin,Primary thymus-extract characterisation,https://pubmed.ncbi.nlm.nih.gov/7295826/,Human/calf thymus extracts differ in physicochemical properties and composition
+Thymalin,Historical clinical publication,https://pubmed.ncbi.nlm.nih.gov/14523363/,Older regional clinical evidence; no TY10 product comparability
+Humanin,UniProt Humanin Q8IVG9,https://www.uniprot.org/uniprotkb/Q8IVG9/entry,Curated native 24-residue sequence and molecular mass
+Humanin,Primary rat mitochondrial-origin study,https://pubmed.ncbi.nlm.nih.gov/26116236/,Mitochondrial-derived peptide biology
+Humanin,Primary Humanin-Bid/Bax study,https://pubmed.ncbi.nlm.nih.gov/15661737/,Preclinical anti-apoptotic mechanism
+Humanin,ClinicalTrials.gov NCT03431844,https://clinicaltrials.gov/study/NCT03431844,Completed observational cardiac Humanin isoform study
+Humanin,ClinicalTrials.gov NCT06105229,https://clinicaltrials.gov/study/NCT06105229,Observational Humanin biomarker study; not therapeutic intervention

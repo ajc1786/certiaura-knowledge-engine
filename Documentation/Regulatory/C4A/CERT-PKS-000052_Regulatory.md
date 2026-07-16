@@ -8,16 +8,17 @@
 
 # CERT-PKS-000052 — Thymalin Product Family REGULATORY STATUS
 
+**Version:** 0.2.0  
 **Status as of:** 2026-07-16  
-**Overall:** MIXTURE IDENTITY AND REGIONAL-STATUS UNCERTAINTY — NO UNIVERSAL APPROVAL CLAIM
+**Closure state:** BLOCKED — SPECIES, TISSUE SOURCE, EXTRACTION PROCESS, PEPTIDE COMPOSITION, BATCH FINGERPRINT, STERILITY AND INDEPENDENT HUMAN EVIDENCE UNVERIFIED
 
 | Jurisdiction | Authority | Controlled position | Monitoring |
 |---|---|---|---|
-| Global | Identity and biologic-mixture control | Regulatory interpretation limited by unresolved composition and manufacturer. | BLOCKED |
-| United States | FDA | No approval claim. | ACTIVE |
+| Global | Mixture identity control | Regulatory interpretation is blocked until TY10 species, source, composition and manufacturer are established. | BLOCKED |
+| United States | FDA | No approval or biological-extract equivalence claim. | ACTIVE |
 | United Kingdom | MHRA | No marketing-authorisation claim. | ACTIVE |
-| European Union | EMA / European Commission | No marketing-authorisation claim. | ACTIVE |
+| European Union | EMA / European Commission | No central marketing-authorisation claim. | ACTIVE |
 
 ## Rule
 
-Regional or product-specific status does not transfer to a catalogue product or another jurisdiction.
+Regulatory, clinical and safety status belongs to the exact molecule, biological source, mixture, formulation, manufacturer, product, indication and jurisdiction.

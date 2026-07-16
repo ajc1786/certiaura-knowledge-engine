@@ -1,36 +1,38 @@
 {
   "asset_uai": "CERT-PKS-000032",
   "asset_name": "Human Chorionic Gonadotropin Product Family",
+  "version": "0.2.0",
   "status_as_of": "2026-07-16",
-  "overall_status": "AUTHORISED FERTILITY / ENDOCRINE PRODUCT CONTEXTS EXIST — NO WEIGHT-LOSS APPROVAL",
+  "closure_wave": "0033B",
+  "overall_status": "PARTIAL CLOSURE — CURRENT AUTHORISED URINARY hCG PRODUCT LABELS IDENTIFIED; SUPPLIER SOURCE, GLYCOSYLATION, POTENCY ASSAY, FORMULATION AND EQUIVALENCE OPEN",
   "regulatory_records": [
     {
       "jurisdiction": "United States",
-      "authority": "FDA",
-      "current_status": "Authorised medicine contexts exist; exact product, molecule, formulation and indication require current label capture.",
+      "authority": "FDA / DailyMed",
+      "current_status": "Pregnyl and Novarel are exact urinary-derived chorionic gonadotropin products; supplier G-series equivalence is not established.",
       "monitoring_state": "ACTIVE",
-      "next_review_trigger": "Approval, label, molecule, formulation, safety, enforcement, trial or anti-doping change"
+      "next_review_trigger": "Identity, source, product label, approval, trial, warning, recall, safety or anti-doping change"
     },
     {
       "jurisdiction": "United Kingdom",
       "authority": "MHRA",
-      "current_status": "Authorised prescription-medicine contexts exist; product-specific authorisation controls claims.",
+      "current_status": "Any authorised hCG product is exact molecule, source, manufacturer, formulation and indication specific.",
       "monitoring_state": "ACTIVE",
-      "next_review_trigger": "Approval, label, molecule, formulation, safety, enforcement, trial or anti-doping change"
+      "next_review_trigger": "Identity, source, product label, approval, trial, warning, recall, safety or anti-doping change"
     },
     {
       "jurisdiction": "European Union",
-      "authority": "EMA / European Commission",
-      "current_status": "Authorised medicinal contexts exist; exact product information controls claims.",
+      "authority": "EMA / national authorities",
+      "current_status": "Urinary and recombinant gonadotropin products are separate authorised biological products.",
       "monitoring_state": "ACTIVE",
-      "next_review_trigger": "Approval, label, molecule, formulation, safety, enforcement, trial or anti-doping change"
+      "next_review_trigger": "Identity, source, product label, approval, trial, warning, recall, safety or anti-doping change"
     },
     {
       "jurisdiction": "International sport",
       "authority": "WADA",
-      "current_status": "Current athlete-specific status requires authoritative verification; erythropoiesis-stimulating agents are a critical prohibition domain.",
+      "current_status": "Current sex- and athlete-specific prohibited-status verification is required.",
       "monitoring_state": "ACTIVE",
-      "next_review_trigger": "Approval, label, molecule, formulation, safety, enforcement, trial or anti-doping change"
+      "next_review_trigger": "Identity, source, product label, approval, trial, warning, recall, safety or anti-doping change"
     }
   ]
 }

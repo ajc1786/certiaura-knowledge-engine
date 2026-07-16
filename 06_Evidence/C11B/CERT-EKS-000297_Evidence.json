@@ -1,0 +1,21 @@
+{
+  "asset_id": "CERT-EKS-000297",
+  "asset_name": "MGF E-Domain Sequence and Preclinical Biology Evidence",
+  "root_asset": "CERT-PKS-000028",
+  "knowledge_system": "EKS",
+  "asset_type": "Priority Evidence Closure Object",
+  "version": "0.2.0",
+  "status": "DEFINED NON-PEGYLATED MGF-E PROGRAMME IDENTIFIED",
+  "closure_wave": "0033B",
+  "closure_priority": "P1",
+  "source_domain": "Primary cell and animal studies of defined MGF E-domain peptides, including the 24-residue C-terminal E-domain research materials",
+  "evidence_type": "Primary molecular / preclinical evidence",
+  "last_review": "2026-07-16",
+  "direct_complete_extraction": false,
+  "prohibited_use": [
+    "Personal dosing, injection, infusion or reconstitution guidance",
+    "Authorised, branded or study-material evidence transfer to supplier products",
+    "Assumption of source, sequence, glycosylation, composition, potency or sterility",
+    "Fertility, muscle, immune, neurological or longevity protocols"
+  ]
+}

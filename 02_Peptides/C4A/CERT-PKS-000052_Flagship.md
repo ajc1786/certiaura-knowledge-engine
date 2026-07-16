@@ -8,53 +8,48 @@
 
 # CERT-PKS-000052 — Thymalin Product Family
 
-**Version:** 0.1.0  
-**Status:** CATALOGUE REVIEWED / EVIDENCE FOUNDATION CREATED / NOT PLATINUM CERTIFIED  
+**Version:** 0.2.0  
+**Priority:** P1  
+**Status:** EVIDENCE CLOSURE WAVE 6 / BIOLOGIC OR MIXTURE IDENTITY BLOCK ACTIVE  
 **Last Review:** 2026-07-16
 
-## Classification
+## Closure state
 
-Compositionally variable thymic peptide extract / mixture product family
+**BLOCKED — SPECIES, TISSUE SOURCE, EXTRACTION PROCESS, PEPTIDE COMPOSITION, BATCH FINGERPRINT, STERILITY AND INDEPENDENT HUMAN EVIDENCE UNVERIFIED**
 
-## Mechanism
+## Authoritative or primary-source boundary
 
-No single-peptide mechanism is assigned; reported activity concerns a heterogeneous thymic extract with composition dependent on source and manufacturing.
+Published Thymalin literature concerns a thymic extract or polypeptide preparation, not one canonical peptide sequence. Older clinical reports and extract-characterisation papers do not establish the composition, manufacturer, quality or equivalence of TY10.
 
-## Evidence maturity
+## New closure evidence
 
-Regional reports and preclinical literature exist, but analytical composition, independent replication and product comparability are insufficiently closed.
+- `CERT-EKS-000305`
+- `CERT-EKS-000306`
 
-## Evidence foundation
+## Product Passport
 
-- `CERT-EKS-000131`
-- `CERT-EKS-000132`
+`CERT-PPS-000037`
 
-## Regulatory headline
-
-**MIXTURE IDENTITY AND REGIONAL-STATUS UNCERTAINTY — NO UNIVERSAL APPROVAL CLAIM**
-
-## Catalogue pricing
+## Catalogue records
 
 | Code | Specification | USD per kit |
 |---|---|---:|
 | TY10 | 10 mg x 10 vials | $76 |
 
-## Product-quality boundary
+## Critical controls
 
-The supplier catalogue does not prove sequence, mixture composition, potency, purity, sterility, approval or equivalence to published materials.
+- Thymalin is not assigned one peptide sequence
+- Do not transfer thymosin alpha-1, thymosin beta-4 or Vilon evidence
+- Older regional clinical reports do not certify TY10
+- Biological-source and transmissible-agent controls remain mandatory
+- No immune, longevity, dosing, injection or reconstitution protocol
 
-## Validated universal human dosing protocol
+## Certification state
 
-**No**
-
-## Certification blockers
-
-- Species and tissue source
-- Extraction, purification and composition
-- Reference standard and batch comparability
-- Independent human evidence
-- Sterility, endotoxin and transmissible-agent controls
-
-## Platinum Certified
-
-**No**
+- Supplier identity verified: **No**
+- Biological source or mixture composition verified: **No**
+- Potency and batch comparability verified: **No**
+- Sterility verified: **No**
+- Authorised or study-product equivalence: **No**
+- Direct-sale gate: **Blocked**
+- Platinum Certified: **No**

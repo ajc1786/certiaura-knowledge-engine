@@ -3,8 +3,8 @@
   "asset_name": "PEG-MGF Supplier Product Family",
   "knowledge_system": "PKS",
   "asset_type": "Peptide / Protein Knowledge Asset",
-  "version": "0.1.0",
-  "status": "CATALOGUE REVIEWED / EVIDENCE FOUNDATION CREATED / NOT PLATINUM CERTIFIED",
+  "version": "0.2.0",
+  "status": "P1 EVIDENCE CLOSURE WAVE 6 / BIOLOGIC OR MIXTURE IDENTITY BLOCK ACTIVE / NOT PLATINUM CERTIFIED",
   "owner": "Aidan Coleman",
   "last_review": "2026-07-16",
   "aliases": [
@@ -92,6 +92,21 @@
       "source": "CERT-PKS-000028",
       "relationship": "HAS_SAFETY",
       "target": "CERT-SKS-000033"
+    },
+    {
+      "source": "CERT-PKS-000028",
+      "relationship": "HAS_PASSPORT",
+      "target": "CERT-PPS-000033"
+    },
+    {
+      "source": "CERT-PKS-000028",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000297"
+    },
+    {
+      "source": "CERT-PKS-000028",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000298"
     }
   ],
   "validated_universal_human_dosing_protocol": false,
@@ -103,5 +118,22 @@
     "PEG molecular weight, attachment site and conjugation chemistry",
     "No established human PK, efficacy or safety",
     "Immunogenicity and product-quality validation"
+  ],
+  "closure_wave": "0033B",
+  "closure_priority": "P1",
+  "closure_class": "PEGYLATED MGF E-DOMAIN PRODUCT / SEQUENCE AND CONJUGATION CHEMISTRY",
+  "closure_state": "BLOCKED — EXACT MGF-DERIVED SEQUENCE, PEG MOLECULAR WEIGHT, ATTACHMENT SITE, CONJUGATION DISTRIBUTION, POTENCY, STERILITY AND HUMAN EVIDENCE UNVERIFIED",
+  "authoritative_product_boundary": "Primary MGF research concerns defined IGF-1Ec E-domain peptides, including a 24-residue C-terminal peptide, in cells and animal models. Those materials are not the same as an unspecified PEGylated supplier product. PEGylation can materially change molecular mass, distribution, receptor interactions, immunogenicity and assay.",
+  "product_passport": "CERT-PPS-000033",
+  "identity_verified": false,
+  "quality_verified": false,
+  "sterility_verified": false,
+  "authorised_product_equivalence": false,
+  "critical_closure_controls": [
+    "FMP2 is not assumed to be the native 24-residue MGF E-domain peptide",
+    "No cell or animal MGF-E evidence transfer to PEG-MGF",
+    "PEG chemistry is part of the active product identity",
+    "MGF remains within current anti-doping growth-factor control",
+    "No muscle, recovery, dosing, injection or reconstitution protocol"
   ]
 }

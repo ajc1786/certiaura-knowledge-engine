@@ -3,8 +3,8 @@
   "asset_name": "Human Chorionic Gonadotropin Product Family",
   "knowledge_system": "PKS",
   "asset_type": "Peptide / Protein / Biologic Knowledge Asset",
-  "version": "0.1.0",
-  "status": "CATALOGUE REVIEWED / EVIDENCE FOUNDATION CREATED / NOT PLATINUM CERTIFIED",
+  "version": "0.2.0",
+  "status": "P1 EVIDENCE CLOSURE WAVE 6 / BIOLOGIC OR MIXTURE IDENTITY BLOCK ACTIVE / NOT PLATINUM CERTIFIED",
   "owner": "Aidan Coleman",
   "last_review": "2026-07-16",
   "aliases": [
@@ -99,6 +99,21 @@
       "source": "CERT-PKS-000032",
       "relationship": "HAS_SAFETY",
       "target": "CERT-SKS-000037"
+    },
+    {
+      "source": "CERT-PKS-000032",
+      "relationship": "HAS_PASSPORT",
+      "target": "CERT-PPS-000034"
+    },
+    {
+      "source": "CERT-PKS-000032",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000299"
+    },
+    {
+      "source": "CERT-PKS-000032",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000300"
     }
   ],
   "validated_universal_human_dosing_protocol": false,
@@ -109,5 +124,22 @@
     "Current product-specific label and indication",
     "Ovarian hyperstimulation and thromboembolic safety",
     "Supplier potency, purity and sterility"
+  ],
+  "closure_wave": "0033B",
+  "closure_priority": "P1",
+  "closure_class": "GLYCOPROTEIN BIOLOGIC / URINARY VERSUS RECOMBINANT PRODUCT IDENTITY",
+  "closure_state": "PARTIAL CLOSURE — CURRENT AUTHORISED URINARY hCG PRODUCT LABELS IDENTIFIED; SUPPLIER SOURCE, GLYCOSYLATION, POTENCY ASSAY, FORMULATION AND EQUIVALENCE OPEN",
+  "authoritative_product_boundary": "Current United States labels identify exact urinary-derived chorionic gonadotropin products such as Pregnyl and Novarel with defined USP-unit potency, formulations, manufacturers and routes. Recombinant choriogonadotropin alfa is a different biological product. G2K, G5K and G10K do not establish urinary versus recombinant identity.",
+  "product_passport": "CERT-PPS-000034",
+  "identity_verified": false,
+  "quality_verified": false,
+  "sterility_verified": false,
+  "authorised_product_equivalence": false,
+  "critical_closure_controls": [
+    "Do not infer Pregnyl, Novarel or recombinant hCG identity",
+    "USP/IU potency is assay- and product-controlled",
+    "No weight-loss, bodybuilding, fertility or endocrine self-use claim",
+    "OHSS, thromboembolism, multiple gestation and hormone-sensitive risks retained",
+    "No dosing, injection or reconstitution protocol"
   ]
 }

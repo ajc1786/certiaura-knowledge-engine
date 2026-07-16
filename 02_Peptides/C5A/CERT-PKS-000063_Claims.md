@@ -10,11 +10,11 @@
 
 | Claim | Permission |
 |---|---|
-| Humanin Supplier Product Family is classified as mitochondrial-derived peptide product family with unresolved sequence/form. | Allowed |
-| PRECLINICAL-DOMINANT / PRODUCT IDENTITY UNDER-SPECIFIED / NO APPROVAL CLAIM | Allowed as a dated controlled headline |
-| The supplier product matches published experimental material. | Not established / not allowed |
-| A universal human longevity or dosing protocol is validated. | Not established / not allowed |
-| The asset is Platinum Certified. | False / not allowed |
-| Animal Humanin evidence establishes human anti-ageing benefit. | False / prohibited |
+| This asset is in P1 closure. | Allowed |
+| Curated sequence records identify native Humanin as the 24-residue peptide MAPRGFSCLLLLTSEIDLPVKRRA. Analogue substitutions such as S14G materially change activity. Human registry records located in the defined searches are observational biomarker studies rather than therapeutic Humanin intervention programmes. | Allowed as a controlled boundary |
+| The supplier item is equivalent to an authorised, branded or published-study product. | False / prohibited |
+| Source, glycosylation, composition, potency, quality and sterility are verified. | False / prohibited |
+| A fertility, muscle, immune, neurological, longevity or metabolic protocol is validated. | False / prohibited |
+| The asset is Platinum Certified. | False / prohibited |
 
 **Status as of:** 2026-07-16

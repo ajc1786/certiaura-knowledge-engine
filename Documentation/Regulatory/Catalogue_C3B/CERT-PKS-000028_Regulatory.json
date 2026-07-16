@@ -1,0 +1,38 @@
+{
+  "asset_uai": "CERT-PKS-000028",
+  "asset_name": "PEG-MGF Supplier Product Family",
+  "version": "0.2.0",
+  "status_as_of": "2026-07-16",
+  "closure_wave": "0033B",
+  "overall_status": "BLOCKED — EXACT MGF-DERIVED SEQUENCE, PEG MOLECULAR WEIGHT, ATTACHMENT SITE, CONJUGATION DISTRIBUTION, POTENCY, STERILITY AND HUMAN EVIDENCE UNVERIFIED",
+  "regulatory_records": [
+    {
+      "jurisdiction": "International sport",
+      "authority": "WADA",
+      "current_status": "The 2026 Prohibited List is in force; mechano growth factors are prohibited growth factors.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Identity, source, product label, approval, trial, warning, recall, safety or anti-doping change"
+    },
+    {
+      "jurisdiction": "United States",
+      "authority": "FDA",
+      "current_status": "No FMP2 approval or authorised PEG-MGF product-equivalence claim.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Identity, source, product label, approval, trial, warning, recall, safety or anti-doping change"
+    },
+    {
+      "jurisdiction": "United Kingdom",
+      "authority": "MHRA",
+      "current_status": "No marketing-authorisation claim for FMP2.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Identity, source, product label, approval, trial, warning, recall, safety or anti-doping change"
+    },
+    {
+      "jurisdiction": "European Union",
+      "authority": "EMA / European Commission",
+      "current_status": "No marketing-authorisation claim for FMP2.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Identity, source, product label, approval, trial, warning, recall, safety or anti-doping change"
+    }
+  ]
+}

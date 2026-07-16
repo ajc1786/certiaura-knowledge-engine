@@ -1,36 +1,38 @@
 {
   "asset_uai": "CERT-PKS-000052",
   "asset_name": "Thymalin Product Family",
+  "version": "0.2.0",
   "status_as_of": "2026-07-16",
-  "overall_status": "MIXTURE IDENTITY AND REGIONAL-STATUS UNCERTAINTY — NO UNIVERSAL APPROVAL CLAIM",
+  "closure_wave": "0033B",
+  "overall_status": "BLOCKED — SPECIES, TISSUE SOURCE, EXTRACTION PROCESS, PEPTIDE COMPOSITION, BATCH FINGERPRINT, STERILITY AND INDEPENDENT HUMAN EVIDENCE UNVERIFIED",
   "regulatory_records": [
     {
       "jurisdiction": "Global",
-      "authority": "Identity and biologic-mixture control",
-      "current_status": "Regulatory interpretation limited by unresolved composition and manufacturer.",
+      "authority": "Mixture identity control",
+      "current_status": "Regulatory interpretation is blocked until TY10 species, source, composition and manufacturer are established.",
       "monitoring_state": "BLOCKED",
-      "next_review_trigger": "Identity, approval, label, safety, trial, enforcement or anti-doping change"
+      "next_review_trigger": "Identity, source, product label, approval, trial, warning, recall, safety or anti-doping change"
     },
     {
       "jurisdiction": "United States",
       "authority": "FDA",
-      "current_status": "No approval claim.",
+      "current_status": "No approval or biological-extract equivalence claim.",
       "monitoring_state": "ACTIVE",
-      "next_review_trigger": "Identity, approval, label, safety, trial, enforcement or anti-doping change"
+      "next_review_trigger": "Identity, source, product label, approval, trial, warning, recall, safety or anti-doping change"
     },
     {
       "jurisdiction": "United Kingdom",
       "authority": "MHRA",
       "current_status": "No marketing-authorisation claim.",
       "monitoring_state": "ACTIVE",
-      "next_review_trigger": "Identity, approval, label, safety, trial, enforcement or anti-doping change"
+      "next_review_trigger": "Identity, source, product label, approval, trial, warning, recall, safety or anti-doping change"
     },
     {
       "jurisdiction": "European Union",
       "authority": "EMA / European Commission",
-      "current_status": "No marketing-authorisation claim.",
+      "current_status": "No central marketing-authorisation claim.",
       "monitoring_state": "ACTIVE",
-      "next_review_trigger": "Identity, approval, label, safety, trial, enforcement or anti-doping change"
+      "next_review_trigger": "Identity, source, product label, approval, trial, warning, recall, safety or anti-doping change"
     }
   ]
 }

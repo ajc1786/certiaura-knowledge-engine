@@ -1,0 +1,21 @@
+{
+  "asset_id": "CERT-EKS-000302",
+  "asset_name": "G75 Source, FSH/LH Bioactivity and Product-Equivalence Gap",
+  "root_asset": "CERT-PKS-000033",
+  "knowledge_system": "EKS",
+  "asset_type": "Priority Evidence Closure Object",
+  "version": "0.2.0",
+  "status": "OPEN — G75 MENOTROPINS IDENTITY NOT ESTABLISHED",
+  "closure_wave": "0033B",
+  "closure_priority": "P1",
+  "source_domain": "Urinary source, purification, FSH and LH activity assays, ratio, formulation, viral safety, sterility and MENOPUR comparability",
+  "evidence_type": "Critical mixture-biologic Product Passport gap",
+  "last_review": "2026-07-16",
+  "direct_complete_extraction": false,
+  "prohibited_use": [
+    "Personal dosing, injection, infusion or reconstitution guidance",
+    "Authorised, branded or study-material evidence transfer to supplier products",
+    "Assumption of source, sequence, glycosylation, composition, potency or sterility",
+    "Fertility, muscle, immune, neurological or longevity protocols"
+  ]
+}

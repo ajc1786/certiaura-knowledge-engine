@@ -1,0 +1,21 @@
+{
+  "asset_id": "CERT-EKS-000300",
+  "asset_name": "G2K/G5K/G10K Source, Glycosylation and Potency Gap",
+  "root_asset": "CERT-PKS-000032",
+  "knowledge_system": "EKS",
+  "asset_type": "Priority Evidence Closure Object",
+  "version": "0.2.0",
+  "status": "OPEN — SUPPLIER hCG BIOLOGIC IDENTITY NOT ESTABLISHED",
+  "closure_wave": "0033B",
+  "closure_priority": "P1",
+  "source_domain": "Urinary versus recombinant identity, subunits, glycosylation, biological source, potency assay, formulation, sterility and authorised-product comparability",
+  "evidence_type": "Critical glycoprotein Product Passport gap",
+  "last_review": "2026-07-16",
+  "direct_complete_extraction": false,
+  "prohibited_use": [
+    "Personal dosing, injection, infusion or reconstitution guidance",
+    "Authorised, branded or study-material evidence transfer to supplier products",
+    "Assumption of source, sequence, glycosylation, composition, potency or sterility",
+    "Fertility, muscle, immune, neurological or longevity protocols"
+  ]
+}

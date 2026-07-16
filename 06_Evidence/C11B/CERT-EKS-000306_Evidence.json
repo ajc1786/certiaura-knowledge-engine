@@ -1,0 +1,21 @@
+{
+  "asset_id": "CERT-EKS-000306",
+  "asset_name": "TY10 Species, Extraction, Batch Fingerprint and Safety Gap",
+  "root_asset": "CERT-PKS-000052",
+  "knowledge_system": "EKS",
+  "asset_type": "Priority Evidence Closure Object",
+  "version": "0.2.0",
+  "status": "OPEN — TY10 COMPOSITION AND SOURCE NOT ESTABLISHED",
+  "closure_wave": "0033B",
+  "closure_priority": "P1",
+  "source_domain": "Species and tissue source, extraction/purification, peptide composition, transmissible-agent controls, independent trials, sterility and supplier equivalence",
+  "evidence_type": "Critical biological-extract Product Passport gap",
+  "last_review": "2026-07-16",
+  "direct_complete_extraction": false,
+  "prohibited_use": [
+    "Personal dosing, injection, infusion or reconstitution guidance",
+    "Authorised, branded or study-material evidence transfer to supplier products",
+    "Assumption of source, sequence, glycosylation, composition, potency or sterility",
+    "Fertility, muscle, immune, neurological or longevity protocols"
+  ]
+}

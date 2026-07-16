@@ -10,11 +10,11 @@
 
 | Claim | Permission |
 |---|---|
-| Human Chorionic Gonadotropin Product Family is classified as glycoprotein hormone biologic / luteinising-hormone receptor agonist product family. | Allowed |
-| AUTHORISED FERTILITY / ENDOCRINE PRODUCT CONTEXTS EXIST — NO WEIGHT-LOSS APPROVAL | Allowed as a dated controlled headline |
-| The catalogue product is equivalent to an authorised medicine. | Not established / not allowed |
-| A universal human dosing or treatment protocol is validated. | Not established / not allowed |
-| The asset is Platinum Certified. | False / not allowed |
-| HCG is an approved weight-loss medicine. | False / not allowed |
+| This asset is in P1 closure. | Allowed |
+| Current United States labels identify exact urinary-derived chorionic gonadotropin products such as Pregnyl and Novarel with defined USP-unit potency, formulations, manufacturers and routes. Recombinant choriogonadotropin alfa is a different biological product. G2K, G5K and G10K do not establish urinary versus recombinant identity. | Allowed as a controlled boundary |
+| The supplier item is equivalent to an authorised, branded or published-study product. | False / prohibited |
+| Source, glycosylation, composition, potency, quality and sterility are verified. | False / prohibited |
+| A fertility, muscle, immune, neurological, longevity or metabolic protocol is validated. | False / prohibited |
+| The asset is Platinum Certified. | False / prohibited |
 
 **Status as of:** 2026-07-16

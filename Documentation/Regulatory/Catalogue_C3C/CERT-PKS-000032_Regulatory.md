@@ -8,16 +8,17 @@
 
 # CERT-PKS-000032 — Human Chorionic Gonadotropin Product Family REGULATORY STATUS
 
+**Version:** 0.2.0  
 **Status as of:** 2026-07-16  
-**Overall:** AUTHORISED FERTILITY / ENDOCRINE PRODUCT CONTEXTS EXIST — NO WEIGHT-LOSS APPROVAL
+**Closure state:** PARTIAL CLOSURE — CURRENT AUTHORISED URINARY hCG PRODUCT LABELS IDENTIFIED; SUPPLIER SOURCE, GLYCOSYLATION, POTENCY ASSAY, FORMULATION AND EQUIVALENCE OPEN
 
-| Jurisdiction | Authority | Current controlled position | Monitoring |
+| Jurisdiction | Authority | Controlled position | Monitoring |
 |---|---|---|---|
-| United States | FDA | Authorised medicine contexts exist; exact product, molecule, formulation and indication require current label capture. | ACTIVE |
-| United Kingdom | MHRA | Authorised prescription-medicine contexts exist; product-specific authorisation controls claims. | ACTIVE |
-| European Union | EMA / European Commission | Authorised medicinal contexts exist; exact product information controls claims. | ACTIVE |
-| International sport | WADA | Current athlete-specific status requires authoritative verification; erythropoiesis-stimulating agents are a critical prohibition domain. | ACTIVE |
+| United States | FDA / DailyMed | Pregnyl and Novarel are exact urinary-derived chorionic gonadotropin products; supplier G-series equivalence is not established. | ACTIVE |
+| United Kingdom | MHRA | Any authorised hCG product is exact molecule, source, manufacturer, formulation and indication specific. | ACTIVE |
+| European Union | EMA / national authorities | Urinary and recombinant gonadotropin products are separate authorised biological products. | ACTIVE |
+| International sport | WADA | Current sex- and athlete-specific prohibited-status verification is required. | ACTIVE |
 
 ## Rule
 
-Authorised medicine status never validates an under-specified catalogue product.
+Regulatory, clinical and safety status belongs to the exact molecule, biological source, mixture, formulation, manufacturer, product, indication and jurisdiction.

@@ -1,0 +1,21 @@
+{
+  "asset_id": "CERT-EKS-000303",
+  "asset_name": "Branded Cerebrolysin Trial-Material and Current Programme Evidence",
+  "root_asset": "CERT-PKS-000044",
+  "knowledge_system": "EKS",
+  "asset_type": "Priority Evidence Closure Object",
+  "version": "0.2.0",
+  "status": "CURRENT BRANDED-PRODUCT PROGRAMMES IDENTIFIED",
+  "closure_wave": "0033B",
+  "closure_priority": "P1",
+  "source_domain": "ClinicalTrials.gov records describing manufacturer-controlled porcine-derived Cerebrolysin in stroke, subarachnoid haemorrhage and ongoing intracerebral-haemorrhage research",
+  "evidence_type": "Branded product / human clinical evidence",
+  "last_review": "2026-07-16",
+  "direct_complete_extraction": false,
+  "prohibited_use": [
+    "Personal dosing, injection, infusion or reconstitution guidance",
+    "Authorised, branded or study-material evidence transfer to supplier products",
+    "Assumption of source, sequence, glycosylation, composition, potency or sterility",
+    "Fertility, muscle, immune, neurological or longevity protocols"
+  ]
+}
