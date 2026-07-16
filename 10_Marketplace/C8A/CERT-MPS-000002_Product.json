@@ -1,0 +1,87 @@
+{
+  "asset_id": "CERT-MPS-000002",
+  "asset_name": "Melatonin Supplier Vial Family",
+  "knowledge_system": "MPS",
+  "asset_type": "Marketplace Product-Family Asset",
+  "version": "0.1.0",
+  "status": "CATALOGUE REVIEWED / PRODUCT PASSPORT GAP ACTIVE / NOT QUALITY VERIFIED",
+  "owner": "Aidan Coleman",
+  "last_review": "2026-07-16",
+  "classification": "Non-peptide indoleamine hormone supplier product",
+  "aliases": [
+    "melatonin",
+    "N-acetyl-5-methoxytryptamine"
+  ],
+  "mechanism_summary": "MT1 and MT2 melatonin-receptor agonism involved in circadian and sleep-wake signalling.",
+  "evidence_maturity": "Authorised oral medicinal products exist for defined indications and populations. A supplier vial with no route, formulation or manufacturer cannot inherit those labels.",
+  "regulatory_headline": "AUTHORISED ORAL MEDICINE CONTEXTS EXIST / SUPPLIER VIAL ROUTE AND PRODUCT IDENTITY UNRESOLVED",
+  "catalogue_supplier_skus": [
+    {
+      "catalogue_code": "MT10",
+      "specification": "10 mg x 10 vials",
+      "price_usd_per_kit": 56
+    }
+  ],
+  "relationships": [
+    {
+      "source": "CERT-MPS-000002",
+      "relationship": "HAS_PASSPORT",
+      "target": "CERT-PPS-000002"
+    },
+    {
+      "source": "CERT-MPS-000002",
+      "relationship": "HAS_SAFETY",
+      "target": "CERT-SKS-000095"
+    },
+    {
+      "source": "CERT-MPS-000002",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000207"
+    },
+    {
+      "source": "CERT-MPS-000002",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000208"
+    },
+    {
+      "source": "CERT-MPS-000002",
+      "relationship": "RELATED_TO",
+      "target": "CERT-BKS-000159"
+    },
+    {
+      "source": "CERT-MPS-000002",
+      "relationship": "RELATED_TO",
+      "target": "CERT-BKS-000160"
+    },
+    {
+      "source": "CERT-MPS-000002",
+      "relationship": "HAS_CONDITION",
+      "target": "CERT-CKS-000050"
+    },
+    {
+      "source": "CERT-MPS-000002",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000141"
+    },
+    {
+      "source": "CERT-MPS-000002",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000142"
+    },
+    {
+      "source": "CERT-MPS-000002",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000143"
+    },
+    {
+      "source": "CERT-MPS-000002",
+      "relationship": "SUPPORTS_GOAL",
+      "target": "CERT-GKS-000083"
+    }
+  ],
+  "product_passport": "CERT-PPS-000002",
+  "identity_verified": false,
+  "sterility_verified": false,
+  "authorised_product_equivalence": false,
+  "validated_universal_human_dosing_protocol": false
+}

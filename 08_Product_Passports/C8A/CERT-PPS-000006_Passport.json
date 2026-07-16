@@ -1,0 +1,39 @@
+{
+  "asset_id": "CERT-PPS-000006",
+  "asset_name": "SLU-PP-322 Identity-Candidate Product Family Product Passport",
+  "knowledge_system": "PPS",
+  "asset_type": "Product Passport Gap Object",
+  "version": "0.1.0",
+  "status": "OPEN / NOT CERTIFIED",
+  "parent_product": "CERT-MPS-000006",
+  "last_review": "2026-07-16",
+  "required_fields": [
+    {
+      "field": "exact chemical name",
+      "status": "OPEN"
+    },
+    {
+      "field": "structure, formula, mass and CAS",
+      "status": "OPEN"
+    },
+    {
+      "field": "relationship, if any, to SLU-PP-332",
+      "status": "OPEN"
+    },
+    {
+      "field": "reference standard and analytical spectrum",
+      "status": "OPEN"
+    },
+    {
+      "field": "manufacturer, batch and purity",
+      "status": "OPEN"
+    },
+    {
+      "field": "human-use and regulatory status",
+      "status": "OPEN"
+    }
+  ],
+  "identity_certified": false,
+  "quality_certified": false,
+  "sterility_certified": false
+}

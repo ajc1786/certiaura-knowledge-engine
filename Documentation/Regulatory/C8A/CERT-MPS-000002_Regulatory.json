@@ -1,0 +1,36 @@
+{
+  "asset_uai": "CERT-MPS-000002",
+  "asset_name": "Melatonin Supplier Vial Family",
+  "status_as_of": "2026-07-16",
+  "overall_status": "AUTHORISED ORAL MEDICINE CONTEXTS EXIST / SUPPLIER VIAL ROUTE AND PRODUCT IDENTITY UNRESOLVED",
+  "regulatory_records": [
+    {
+      "jurisdiction": "European Union",
+      "authority": "EMA / European Commission",
+      "current_status": "Authorised oral melatonin products exist for defined indications; supplier vial equivalence is not established.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Identity, approval, label, safety, enforcement, trial or anti-doping change"
+    },
+    {
+      "jurisdiction": "United Kingdom",
+      "authority": "MHRA",
+      "current_status": "Melatonin is prescription-only in the United Kingdom; exact product and indication control claims.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Identity, approval, label, safety, enforcement, trial or anti-doping change"
+    },
+    {
+      "jurisdiction": "United States",
+      "authority": "FDA",
+      "current_status": "No supplier-vial drug approval claim; United States dietary-supplement availability is not drug approval.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Identity, approval, label, safety, enforcement, trial or anti-doping change"
+    },
+    {
+      "jurisdiction": "International sport",
+      "authority": "WADA",
+      "current_status": "Current athlete-specific verification required.",
+      "monitoring_state": "EVENT-TRIGGERED",
+      "next_review_trigger": "Identity, approval, label, safety, enforcement, trial or anti-doping change"
+    }
+  ]
+}

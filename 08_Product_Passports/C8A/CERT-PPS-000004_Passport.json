@@ -1,0 +1,39 @@
+{
+  "asset_id": "CERT-PPS-000004",
+  "asset_name": "5-Amino-1MQ Supplier Product Family Product Passport",
+  "knowledge_system": "PPS",
+  "asset_type": "Product Passport Gap Object",
+  "version": "0.1.0",
+  "status": "OPEN / NOT CERTIFIED",
+  "parent_product": "CERT-MPS-000004",
+  "last_review": "2026-07-16",
+  "required_fields": [
+    {
+      "field": "free cation versus iodide, chloride or other salt",
+      "status": "OPEN"
+    },
+    {
+      "field": "molecular formula and mass",
+      "status": "OPEN"
+    },
+    {
+      "field": "reference standard and purity",
+      "status": "OPEN"
+    },
+    {
+      "field": "route and formulation",
+      "status": "OPEN"
+    },
+    {
+      "field": "genotoxicity and formal toxicology",
+      "status": "OPEN"
+    },
+    {
+      "field": "human PK, safety and interaction evidence",
+      "status": "OPEN"
+    }
+  ],
+  "identity_certified": false,
+  "quality_certified": false,
+  "sterility_certified": false
+}

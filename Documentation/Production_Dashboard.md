@@ -1,34 +1,38 @@
 # CERTIAURA PRODUCTION DASHBOARD
 
-**Build:** 0027  
-**Version:** 0.1.1  
+**Build:** 0028A  
 **Date:** 2026-07-16
 
-## New combination-product assets
+## Catalogue C9A complete
 
-- CERT-PKS-000081–000088
+### Marketplace Product System assets
 
-## Catalogue coverage
+- CERT-MPS-000001 — AICAR Supplier Product Family
+- CERT-MPS-000002 — Melatonin Supplier Vial Family
+- CERT-MPS-000003 — Glutathione Supplier Vial Family
+- CERT-MPS-000004 — 5-Amino-1MQ Supplier Product Family
+- CERT-MPS-000005 — NAD Supplier Product Family
+- CERT-MPS-000006 — SLU-PP-322 Identity-Candidate Product Family
 
-- Eight combination families
-- Eleven catalogue SKUs
+### Product Passport System assets
 
-## Supporting objects
+- CERT-PPS-000001–000006
 
-- CERT-EKS-000189–000204
-- CERT-SKS-000086–000093
-- CERT-BKS-000150–000155
-- CERT-CKS-000045–000048
-- CERT-MKS-000129–000137
-- CERT-GKS-000077–000081
+### Supporting objects
 
-## Critical outcomes
+- CERT-EKS-000205–000216
+- CERT-SKS-000094–000099
+- CERT-BKS-000156–000166
+- CERT-CKS-000049–000052
+- CERT-MKS-000138–000150
+- CERT-GKS-000082–000087
 
-- Component evidence is not combination evidence.
-- CagriSema development evidence is separated from CS10.
-- “CJC-1295 without DAC” is mapped to Modified GRF (1-29), not CJC-1295 with DAC.
-- Compatibility, stability and Product Passport gaps are explicit.
+## Critical outcome
+
+Non-peptide and ancillary products are now separated from the Peptide Knowledge System.
+
+The catalogue code `NJ3100` is preserved exactly, and `SLU-PP-322` remains identity blocked rather than silently corrected.
 
 ## Next task
 
-**Build 0028 — Non-Peptide, Biologic & Ancillary Catalogue Items**
+**Build 0028B — Biologic, Cosmetic & Diluent Ancillary Products**

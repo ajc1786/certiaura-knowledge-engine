@@ -1,0 +1,19 @@
+{
+  "asset_id": "CERT-EKS-000207",
+  "asset_name": "Melatonin Authorised Product Source Set",
+  "root_asset": "CERT-MPS-000002",
+  "knowledge_system": "EKS",
+  "asset_type": "Evidence Object",
+  "version": "0.1.0",
+  "status": "CURRENT FORMULATION- AND INDICATION-SPECIFIC CLOSURE REQUIRED",
+  "source_domain": "EMA, MHRA and product-specific melatonin labels",
+  "evidence_type": "Authorised product evidence",
+  "last_review": "2026-07-16",
+  "direct_complete_extraction": false,
+  "prohibited_use": [
+    "Personal dosing, infusion, reconstitution or administration guidance",
+    "Weight-loss, exercise-mimetic, longevity or sleep protocols",
+    "Authorised-product evidence transfer to supplier vials",
+    "SLU-PP-332 evidence transfer to SLU-PP-322"
+  ]
+}

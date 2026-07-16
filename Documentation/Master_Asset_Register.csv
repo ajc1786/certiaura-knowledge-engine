@@ -1,33 +1,65 @@
-Universal Asset Identifier,Asset Name,Knowledge System,Asset Type,Status,Owner,Parent Assets,Last Review
-CERT-PKS-000081,BPC-157 + TB Supplier Blend Family,PKS,Supplier Combination-Product,Active,Aidan Coleman,,2026-07-16
-CERT-PKS-000082,BPC-157 + GHK-Cu + TB-500 Supplier Blend,PKS,Supplier Combination-Product,Active,Aidan Coleman,,2026-07-16
-CERT-PKS-000083,BPC-157 + GHK-Cu + TB-500 + KPV Supplier Blend,PKS,Supplier Combination-Product,Active,Aidan Coleman,,2026-07-16
-CERT-PKS-000084,Cagrilintide + Semaglutide Supplier Blend,PKS,Supplier Combination-Product,Active,Aidan Coleman,,2026-07-16
-CERT-PKS-000085,Retatrutide + Cagrilintide Supplier Blend,PKS,Supplier Combination-Product,Active,Aidan Coleman,,2026-07-16
-CERT-PKS-000086,Tesamorelin + Ipamorelin Supplier Blend,PKS,Supplier Combination-Product,Active,Aidan Coleman,,2026-07-16
-CERT-PKS-000087,Semax + Selank Supplier Blend,PKS,Supplier Combination-Product,Active,Aidan Coleman,,2026-07-16
-CERT-PKS-000088,Modified GRF (1-29) + Ipamorelin Supplier Blend,PKS,Supplier Combination-Product,Active,Aidan Coleman,,2026-07-16
-CERT-EKS-000189,BPC-157 + TB Blend Component Identity and Ratio Evidence,EKS,Evidence Object,OPEN — COMPONENT AND RATIO VERIFICATION REQUIRED,Aidan Coleman,CERT-PKS-000081,2026-07-16
-CERT-EKS-000190,BPC-157 + TB Combination Efficacy and Safety Gap,EKS,Evidence Object,OPEN — COMBINATION-SPECIFIC EVIDENCE NOT CLOSED,Aidan Coleman,CERT-PKS-000081,2026-07-16
-CERT-EKS-000191,BPC-157 + GHK-Cu + TB-500 Blend Identity and Compatibility,EKS,Evidence Object,OPEN — PRODUCT-SPECIFIC ANALYTICAL CLOSURE REQUIRED,Aidan Coleman,CERT-PKS-000082,2026-07-16
-CERT-EKS-000192,BPC-157 + GHK-Cu + TB-500 Efficacy and Safety Gap,EKS,Evidence Object,OPEN — COMBINATION-SPECIFIC EVIDENCE NOT CLOSED,Aidan Coleman,CERT-PKS-000082,2026-07-16
-CERT-EKS-000193,Four-Component Repair Blend Identity and Compatibility,EKS,Evidence Object,OPEN — PRODUCT-SPECIFIC ANALYTICAL CLOSURE REQUIRED,Aidan Coleman,CERT-PKS-000083,2026-07-16
-CERT-EKS-000194,Four-Component Repair Blend Efficacy and Safety Gap,EKS,Evidence Object,OPEN — COMBINATION-SPECIFIC EVIDENCE NOT CLOSED,Aidan Coleman,CERT-PKS-000083,2026-07-16
-CERT-EKS-000195,Cagrilintide + Semaglutide Clinical Development Source Set,EKS,Evidence Object,CLINICAL PROGRAMME EXISTS — SUPPLIER-PRODUCT EQUIVALENCE NOT ESTABLISHED,Aidan Coleman,CERT-PKS-000084,2026-07-16
-CERT-EKS-000196,CS10 Supplier Vial Equivalence and Stability Gap,EKS,Evidence Object,OPEN — NO CAGRISEMA PRODUCT EQUIVALENCE,Aidan Coleman,CERT-PKS-000084,2026-07-16
-CERT-EKS-000197,Retatrutide + Cagrilintide Combination Identity and Interaction,EKS,Evidence Object,OPEN — PRODUCT-SPECIFIC ANALYTICAL CLOSURE REQUIRED,Aidan Coleman,CERT-PKS-000085,2026-07-16
-CERT-EKS-000198,Retatrutide + Cagrilintide Human Evidence Gap,EKS,Evidence Object,OPEN — DIRECT COMBINATION EVIDENCE NOT CLOSED,Aidan Coleman,CERT-PKS-000085,2026-07-16
-CERT-EKS-000199,Tesamorelin + Ipamorelin Combination Identity and GH-Axis Evidence,EKS,Evidence Object,OPEN — PRODUCT-SPECIFIC ANALYTICAL CLOSURE REQUIRED,Aidan Coleman,CERT-PKS-000086,2026-07-16
-CERT-EKS-000200,Tesamorelin + Ipamorelin Human and Regulatory Evidence Gap,EKS,Evidence Object,OPEN — TESAMORELIN PRODUCT EVIDENCE TRANSFER PROHIBITED,Aidan Coleman,CERT-PKS-000086,2026-07-16
-CERT-EKS-000201,Semax + Selank Combination Identity and Interaction Evidence,EKS,Evidence Object,OPEN — PRODUCT-SPECIFIC ANALYTICAL CLOSURE REQUIRED,Aidan Coleman,CERT-PKS-000087,2026-07-16
-CERT-EKS-000202,Semax + Selank Human and Regulatory Evidence Gap,EKS,Evidence Object,OPEN — PARENT-PEPTIDE EVIDENCE TRANSFER PROHIBITED,Aidan Coleman,CERT-PKS-000087,2026-07-16
-CERT-EKS-000203,Modified GRF (1-29) + Ipamorelin Blend Identity and Compatibility,EKS,Evidence Object,OPEN — PRODUCT-SPECIFIC ANALYTICAL CLOSURE REQUIRED,Aidan Coleman,CERT-PKS-000088,2026-07-16
-CERT-EKS-000204,Modified GRF (1-29) + Ipamorelin Human and Regulatory Evidence Gap,EKS,Evidence Object,OPEN — DIRECT COMBINATION EVIDENCE NOT CLOSED,Aidan Coleman,CERT-PKS-000088,2026-07-16
-CERT-SKS-000086,"BPC-157 + TB Blend Identity, Compatibility and Human-Safety Uncertainty",SKS,Safety Object,Active,Aidan Coleman,,2026-07-16
-CERT-SKS-000087,BPC-157 + GHK-Cu + TB-500 Copper and Multi-Peptide Safety Uncertainty,SKS,Safety Object,Active,Aidan Coleman,,2026-07-16
-CERT-SKS-000088,Four-Component Repair Blend Safety Uncertainty,SKS,Safety Object,Active,Aidan Coleman,,2026-07-16
-CERT-SKS-000089,Cagrilintide + Semaglutide Supplier-Blend Product-Equivalence Risk,SKS,Safety Object,Active,Aidan Coleman,,2026-07-16
-CERT-SKS-000090,Retatrutide + Cagrilintide Multi-Receptor and Human-Safety Uncertainty,SKS,Safety Object,Active,Aidan Coleman,,2026-07-16
-CERT-SKS-000091,Tesamorelin + Ipamorelin GH-Axis Exposure and Product-Equivalence Risk,SKS,Safety Object,Active,Aidan Coleman,,2026-07-16
-CERT-SKS-000092,Semax + Selank Neuropsychiatric and Interaction Uncertainty,SKS,Safety Object,Active,Aidan Coleman,,2026-07-16
-CERT-SKS-000093,"Modified GRF (1-29) + Ipamorelin GH-Axis, Identity and Compatibility Risk",SKS,Safety Object,Active,Aidan Coleman,,2026-07-16
+Universal Asset Identifier,Asset Name,Knowledge System,Asset Type,Status,Owner,Parent Assets,Last Review,Notes
+CERT-MPS-000001,AICAR Supplier Product Family,MPS,Marketplace Product-Family Asset,Catalogue Reviewed — Product Passport Gap Active,Aidan Coleman,,2026-07-16,Build 0028A
+CERT-PPS-000001,AICAR Supplier Product Family Product Passport,PPS,Product Passport Gap Object,Open — Not Certified,Aidan Coleman,CERT-MPS-000001,2026-07-16,Build 0028A
+CERT-MPS-000002,Melatonin Supplier Vial Family,MPS,Marketplace Product-Family Asset,Catalogue Reviewed — Product Passport Gap Active,Aidan Coleman,,2026-07-16,Build 0028A
+CERT-PPS-000002,Melatonin Supplier Vial Family Product Passport,PPS,Product Passport Gap Object,Open — Not Certified,Aidan Coleman,CERT-MPS-000002,2026-07-16,Build 0028A
+CERT-MPS-000003,Glutathione Supplier Vial Family,MPS,Marketplace Product-Family Asset,Catalogue Reviewed — Product Passport Gap Active,Aidan Coleman,,2026-07-16,Build 0028A
+CERT-PPS-000003,Glutathione Supplier Vial Family Product Passport,PPS,Product Passport Gap Object,Open — Not Certified,Aidan Coleman,CERT-MPS-000003,2026-07-16,Build 0028A
+CERT-MPS-000004,5-Amino-1MQ Supplier Product Family,MPS,Marketplace Product-Family Asset,Catalogue Reviewed — Product Passport Gap Active,Aidan Coleman,,2026-07-16,Build 0028A
+CERT-PPS-000004,5-Amino-1MQ Supplier Product Family Product Passport,PPS,Product Passport Gap Object,Open — Not Certified,Aidan Coleman,CERT-MPS-000004,2026-07-16,Build 0028A
+CERT-MPS-000005,NAD Supplier Product Family,MPS,Marketplace Product-Family Asset,Catalogue Reviewed — Product Passport Gap Active,Aidan Coleman,,2026-07-16,Build 0028A
+CERT-PPS-000005,NAD Supplier Product Family Product Passport,PPS,Product Passport Gap Object,Open — Not Certified,Aidan Coleman,CERT-MPS-000005,2026-07-16,Build 0028A
+CERT-MPS-000006,SLU-PP-322 Identity-Candidate Product Family,MPS,Marketplace Product-Family Asset,Catalogue Reviewed — Product Passport Gap Active,Aidan Coleman,,2026-07-16,Build 0028A
+CERT-PPS-000006,SLU-PP-322 Identity-Candidate Product Family Product Passport,PPS,Product Passport Gap Object,Open — Not Certified,Aidan Coleman,CERT-MPS-000006,2026-07-16,Build 0028A
+CERT-BKS-000156,"AICA Riboside, AICAR and ZMP Identity Biology",BKS,Biology Object,Foundation,Aidan Coleman,,2026-07-16,Build 0028A
+CERT-BKS-000157,AMPK and Cellular Energy-Sensing Biology,BKS,Biology Object,Foundation,Aidan Coleman,,2026-07-16,Build 0028A
+CERT-BKS-000158,Adenosine Regulation and Ischaemia Biology,BKS,Biology Object,Foundation,Aidan Coleman,,2026-07-16,Build 0028A
+CERT-BKS-000159,Melatonin Receptor Biology,BKS,Biology Object,Foundation,Aidan Coleman,,2026-07-16,Build 0028A
+CERT-BKS-000160,Circadian Rhythm and Sleep-Wake Regulation,BKS,Biology Object,Foundation,Aidan Coleman,,2026-07-16,Build 0028A
+CERT-BKS-000161,Glutathione Redox-Couple Biology,BKS,Biology Object,Foundation,Aidan Coleman,,2026-07-16,Build 0028A
+CERT-BKS-000162,Oxidative Stress and Cellular Detoxification,BKS,Biology Object,Foundation,Aidan Coleman,,2026-07-16,Build 0028A
+CERT-BKS-000163,Nicotinamide N-Methyltransferase Biology,BKS,Biology Object,Foundation,Aidan Coleman,,2026-07-16,Build 0028A
+CERT-BKS-000164,"Nicotinamide, SAM and NAD-Salvage Interactions",BKS,Biology Object,Foundation,Aidan Coleman,,2026-07-16,Build 0028A
+CERT-BKS-000165,NAD Redox and Coenzyme Biology,BKS,Biology Object,Foundation,Aidan Coleman,,2026-07-16,Build 0028A
+CERT-BKS-000166,NAD-Dependent Enzyme and Cellular-Stress Biology,BKS,Biology Object,Foundation,Aidan Coleman,,2026-07-16,Build 0028A
+CERT-CKS-000049,Metabolic and Cellular-Energy Research,CKS,Condition Object,Foundation,Aidan Coleman,,2026-07-16,Build 0028A
+CERT-CKS-000050,Insomnia and Circadian-Rhythm Disorders,CKS,Condition Object,Foundation,Aidan Coleman,,2026-07-16,Build 0028A
+CERT-CKS-000051,Oxidative-Stress and Redox Research,CKS,Condition Object,Foundation,Aidan Coleman,,2026-07-16,Build 0028A
+CERT-CKS-000052,Obesity and Metabolic-Dysfunction Preclinical Research,CKS,Condition Object,Foundation,Aidan Coleman,,2026-07-16,Build 0028A
+CERT-MKS-000138,"Chemical Form, Salt and Reference-Standard Verification",MKS,Monitoring Object,Foundation,Aidan Coleman,,2026-07-16,Build 0028A
+CERT-MKS-000139,"Metabolic, Glucose and Hepatic Safety",MKS,Monitoring Object,Foundation,Aidan Coleman,,2026-07-16,Build 0028A
+CERT-MKS-000140,"Cardiac, Ischaemia and Exercise-Mimetic Context",MKS,Monitoring Object,Foundation,Aidan Coleman,,2026-07-16,Build 0028A
+CERT-MKS-000141,"Sleep, Alertness and Next-Day Function",MKS,Monitoring Object,Foundation,Aidan Coleman,,2026-07-16,Build 0028A
+CERT-MKS-000142,Circadian Timing and Formulation Verification,MKS,Monitoring Object,Foundation,Aidan Coleman,,2026-07-16,Build 0028A
+CERT-MKS-000143,"Neurological, Mood and Driving-Impairment Safety",MKS,Monitoring Object,Foundation,Aidan Coleman,,2026-07-16,Build 0028A
+CERT-MKS-000144,"Sterility, Endotoxin and Injectable-Raw-Material Suitability",MKS,Monitoring Object,Foundation,Aidan Coleman,,2026-07-16,Build 0028A
+CERT-MKS-000145,Glutathione Redox State and Infusion Reaction Surveillance,MKS,Monitoring Object,Foundation,Aidan Coleman,,2026-07-16,Build 0028A
+CERT-MKS-000146,NNMT Inhibition and Unknown Human Toxicology,MKS,Monitoring Object,Foundation,Aidan Coleman,,2026-07-16,Build 0028A
+CERT-MKS-000147,"NAD Identity, Concentration and Degradation Monitoring",MKS,Monitoring Object,Foundation,Aidan Coleman,,2026-07-16,Build 0028A
+CERT-MKS-000148,NAD Injectable Reaction and Particulate Surveillance,MKS,Monitoring Object,Foundation,Aidan Coleman,,2026-07-16,Build 0028A
+CERT-MKS-000149,Unresolved Compound Identity and Structure Verification,MKS,Monitoring Object,Foundation,Aidan Coleman,,2026-07-16,Build 0028A
+CERT-MKS-000150,Exercise-Mimetic and Anti-Doping Status Verification,MKS,Monitoring Object,Foundation,Aidan Coleman,,2026-07-16,Build 0028A
+CERT-GKS-000082,AMPK and Adenosine-Regulation Research,GKS,Goal Object,Foundation,Aidan Coleman,,2026-07-16,Build 0028A
+CERT-GKS-000083,Evidence-Based Circadian and Sleep Research,GKS,Goal Object,Foundation,Aidan Coleman,,2026-07-16,Build 0028A
+CERT-GKS-000084,Glutathione and Redox Research,GKS,Goal Object,Foundation,Aidan Coleman,,2026-07-16,Build 0028A
+CERT-GKS-000085,NNMT-Inhibitor Research,GKS,Goal Object,Foundation,Aidan Coleman,,2026-07-16,Build 0028A
+CERT-GKS-000086,NAD Coenzyme and Injectable-Quality Research,GKS,Goal Object,Foundation,Aidan Coleman,,2026-07-16,Build 0028A
+CERT-GKS-000087,Unresolved Metabolic-Compound Identity Research,GKS,Goal Object,Foundation,Aidan Coleman,,2026-07-16,Build 0028A
+CERT-SKS-000094,"AICAR Chemical-Form, Cardiac, Metabolic and Anti-Doping Risk",SKS,Safety Object,Active,Aidan Coleman,CERT-MPS-000001,2026-07-16,Build 0028A
+CERT-SKS-000095,"Melatonin Route, Sedation, Product-Equivalence and Vulnerable-Population Risk",SKS,Safety Object,Active,Aidan Coleman,CERT-MPS-000002,2026-07-16,Build 0028A
+CERT-SKS-000096,"Glutathione Redox, Endotoxin, Sterility and Unsupported Cosmetic-Claim Risk",SKS,Safety Object,Active,Aidan Coleman,CERT-MPS-000003,2026-07-16,Build 0028A
+CERT-SKS-000097,"5-Amino-1MQ Preclinical-Only, Salt and Unknown Human-Toxicology Risk",SKS,Safety Object,Active,Aidan Coleman,CERT-MPS-000004,2026-07-16,Build 0028A
+CERT-SKS-000098,"NAD Identity, Injectable Endotoxin, Particulate and Unsupported Wellness-Claim Risk",SKS,Safety Object,Active,Aidan Coleman,CERT-MPS-000005,2026-07-16,Build 0028A
+CERT-SKS-000099,SLU-PP-322 Unknown-Identity and Evidence-Transfer Critical Block,SKS,Safety Object,Active,Aidan Coleman,CERT-MPS-000006,2026-07-16,Build 0028A
+CERT-EKS-000205,AICAR / Acadesine Chemical Identity and Human Development Evidence,EKS,Evidence Object,PRIMARY HUMAN PROGRAMME AND IDENTITY EXTRACTION REQUIRED,Aidan Coleman,CERT-MPS-000001,2026-07-16,Build 0028A
+CERT-EKS-000206,AICAR Exercise-Mimetic and Anti-Doping Boundary,EKS,Evidence Object,CURRENT WADA AND APPROVAL STATUS REVIEW REQUIRED,Aidan Coleman,CERT-MPS-000001,2026-07-16,Build 0028A
+CERT-EKS-000207,Melatonin Authorised Product Source Set,EKS,Evidence Object,CURRENT FORMULATION- AND INDICATION-SPECIFIC CLOSURE REQUIRED,Aidan Coleman,CERT-MPS-000002,2026-07-16,Build 0028A
+CERT-EKS-000208,Melatonin Supplier-Vial Route and Equivalence Gap,EKS,Evidence Object,OPEN — SUPPLIER VIAL NOT LINKED TO AUTHORISED PRODUCT,Aidan Coleman,CERT-MPS-000002,2026-07-16,Build 0028A
+CERT-EKS-000209,Glutathione Chemical Form and Clinical Evidence Boundary,EKS,Evidence Object,DIRECT PRODUCT- AND ROUTE-SPECIFIC CLOSURE REQUIRED,Aidan Coleman,CERT-MPS-000003,2026-07-16,Build 0028A
+CERT-EKS-000210,Glutathione Sterile-Compounding and Endotoxin Safety Evidence,EKS,Evidence Object,AUTHORITATIVE SAFETY SOURCES IDENTIFIED,Aidan Coleman,CERT-MPS-000003,2026-07-16,Build 0028A
+CERT-EKS-000211,5-Amino-1MQ NNMT Preclinical Evidence,EKS,Evidence Object,PRIMARY PRECLINICAL PROGRAMME IDENTIFIED — EXTRACTION REQUIRED,Aidan Coleman,CERT-MPS-000004,2026-07-16,Build 0028A
+CERT-EKS-000212,5-Amino-1MQ Human and Regulatory Evidence Gap,EKS,Evidence Object,OPEN — HUMAN PRIMARY EVIDENCE NOT ESTABLISHED,Aidan Coleman,CERT-MPS-000004,2026-07-16,Build 0028A
+CERT-EKS-000213,NAD Chemical Form and Biochemical Evidence,EKS,Evidence Object,PRODUCT-SPECIFIC CHEMICAL CLOSURE REQUIRED,Aidan Coleman,CERT-MPS-000005,2026-07-16,Build 0028A
+CERT-EKS-000214,NAD Injectable Quality and Adverse-Reaction Evidence,EKS,Evidence Object,AUTHORITATIVE SAFETY SOURCE IDENTIFIED,Aidan Coleman,CERT-MPS-000005,2026-07-16,Build 0028A
+CERT-EKS-000215,SLU-PP-322 Chemical Identity Gap,EKS,Evidence Object,OPEN — NO AUTHORITATIVE IDENTITY CLOSED,Aidan Coleman,CERT-MPS-000006,2026-07-16,Build 0028A
+CERT-EKS-000216,SLU-PP-322 versus SLU-PP-332 Evidence-Transfer Block,EKS,Evidence Object,SLU-PP-332 EVIDENCE TRANSFER PROHIBITED,Aidan Coleman,CERT-MPS-000006,2026-07-16,Build 0028A

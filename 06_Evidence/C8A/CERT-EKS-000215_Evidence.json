@@ -1,0 +1,19 @@
+{
+  "asset_id": "CERT-EKS-000215",
+  "asset_name": "SLU-PP-322 Chemical Identity Gap",
+  "root_asset": "CERT-MPS-000006",
+  "knowledge_system": "EKS",
+  "asset_type": "Evidence Object",
+  "version": "0.1.0",
+  "status": "OPEN — NO AUTHORITATIVE IDENTITY CLOSED",
+  "source_domain": "Exact-name, structure, formula, CAS, manufacturer and reference-standard search",
+  "evidence_type": "Critical identity gap",
+  "last_review": "2026-07-16",
+  "direct_complete_extraction": false,
+  "prohibited_use": [
+    "Personal dosing, infusion, reconstitution or administration guidance",
+    "Weight-loss, exercise-mimetic, longevity or sleep protocols",
+    "Authorised-product evidence transfer to supplier vials",
+    "SLU-PP-332 evidence transfer to SLU-PP-322"
+  ]
+}

@@ -1,0 +1,26 @@
+MPS UAI,Asset Name,Jurisdiction,Authority,Position,Monitoring,Status Date
+CERT-MPS-000001,AICAR Supplier Product Family,United States,FDA,No general AICAR/acadesine approval claim; exact chemical-form and official product search required.,ACTIVE,2026-07-16
+CERT-MPS-000001,AICAR Supplier Product Family,United Kingdom,MHRA,No marketing-authorisation claim for the supplier vial.,ACTIVE,2026-07-16
+CERT-MPS-000001,AICAR Supplier Product Family,European Union,EMA / European Commission,No marketing-authorisation claim for the supplier vial.,ACTIVE,2026-07-16
+CERT-MPS-000001,AICAR Supplier Product Family,International sport,WADA,AICAR is a current prohibited-substance control domain; verify the current list directly.,ACTIVE,2026-07-16
+CERT-MPS-000002,Melatonin Supplier Vial Family,European Union,EMA / European Commission,Authorised oral melatonin products exist for defined indications; supplier vial equivalence is not established.,ACTIVE,2026-07-16
+CERT-MPS-000002,Melatonin Supplier Vial Family,United Kingdom,MHRA,Melatonin is prescription-only in the United Kingdom; exact product and indication control claims.,ACTIVE,2026-07-16
+CERT-MPS-000002,Melatonin Supplier Vial Family,United States,FDA,No supplier-vial drug approval claim; United States dietary-supplement availability is not drug approval.,ACTIVE,2026-07-16
+CERT-MPS-000002,Melatonin Supplier Vial Family,International sport,WADA,Current athlete-specific verification required.,EVENT-TRIGGERED,2026-07-16
+CERT-MPS-000003,Glutathione Supplier Vial Family,United States,FDA,Sterile-compounding and endotoxin warnings apply; no supplier-vial approval or sterility claim.,ACTIVE,2026-07-16
+CERT-MPS-000003,Glutathione Supplier Vial Family,United Kingdom,MHRA,No marketing-authorisation or sterile-product equivalence claim.,ACTIVE,2026-07-16
+CERT-MPS-000003,Glutathione Supplier Vial Family,European Union,EMA / European Commission,No central marketing-authorisation claim for the supplier vial.,ACTIVE,2026-07-16
+CERT-MPS-000003,Glutathione Supplier Vial Family,International sport,WADA,Current athlete-specific verification required.,EVENT-TRIGGERED,2026-07-16
+CERT-MPS-000004,5-Amino-1MQ Supplier Product Family,United States,FDA,No approval claim; human development status requires direct official search.,ACTIVE,2026-07-16
+CERT-MPS-000004,5-Amino-1MQ Supplier Product Family,United Kingdom,MHRA,No marketing-authorisation claim.,ACTIVE,2026-07-16
+CERT-MPS-000004,5-Amino-1MQ Supplier Product Family,European Union,EMA / European Commission,No marketing-authorisation claim.,ACTIVE,2026-07-16
+CERT-MPS-000004,5-Amino-1MQ Supplier Product Family,International sport,WADA,Non-approved-substance and metabolic-modulator status requires current authoritative review.,ACTIVE,2026-07-16
+CERT-MPS-000005,NAD Supplier Product Family,United States,FDA,NAD+ injectable products are not treated as approved; sterile-grade and endotoxin warnings apply.,ACTIVE,2026-07-16
+CERT-MPS-000005,NAD Supplier Product Family,United Kingdom,MHRA,No marketing-authorisation claim for the supplier vial.,ACTIVE,2026-07-16
+CERT-MPS-000005,NAD Supplier Product Family,European Union,EMA / European Commission,No central marketing-authorisation claim for the supplier vial.,ACTIVE,2026-07-16
+CERT-MPS-000005,NAD Supplier Product Family,International sport,WADA,Current athlete-specific verification required.,EVENT-TRIGGERED,2026-07-16
+CERT-MPS-000006,SLU-PP-322 Identity-Candidate Product Family,Global,Identity control,Regulatory interpretation is blocked until the exact compound is established.,BLOCKED,2026-07-16
+CERT-MPS-000006,SLU-PP-322 Identity-Candidate Product Family,United States,FDA,No approval claim.,ACTIVE,2026-07-16
+CERT-MPS-000006,SLU-PP-322 Identity-Candidate Product Family,United Kingdom,MHRA,No marketing-authorisation claim.,ACTIVE,2026-07-16
+CERT-MPS-000006,SLU-PP-322 Identity-Candidate Product Family,European Union,EMA / European Commission,No marketing-authorisation claim.,ACTIVE,2026-07-16
+CERT-MPS-000006,SLU-PP-322 Identity-Candidate Product Family,International sport,WADA,Status cannot be finalised before identity closure.,BLOCKED,2026-07-16

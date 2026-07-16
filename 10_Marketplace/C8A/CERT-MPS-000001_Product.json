@@ -1,0 +1,99 @@
+{
+  "asset_id": "CERT-MPS-000001",
+  "asset_name": "AICAR Supplier Product Family",
+  "knowledge_system": "MPS",
+  "asset_type": "Marketplace Product-Family Asset",
+  "version": "0.1.0",
+  "status": "CATALOGUE REVIEWED / PRODUCT PASSPORT GAP ACTIVE / NOT QUALITY VERIFIED",
+  "owner": "Aidan Coleman",
+  "last_review": "2026-07-16",
+  "classification": "Non-peptide purine/nucleotide-analogue research product family",
+  "aliases": [
+    "AICAR",
+    "AICA riboside",
+    "acadesine",
+    "AICA ribonucleotide candidate"
+  ],
+  "mechanism_summary": "Identity-dependent AMPK and adenosine-regulation research. The term AICAR is used inconsistently for AICA riboside/acadesine and the intracellular phosphorylated nucleotide ZMP.",
+  "evidence_maturity": "Human acadesine studies exist in cardiac-surgery settings, including a large negative randomised trial. Exercise-mimetic and metabolic claims are largely preclinical and must not be transferred without exact chemical identity.",
+  "regulatory_headline": "CHEMICAL FORM AMBIGUOUS / NO CURRENT GENERAL THERAPEUTIC APPROVAL CLAIM / CURRENT ANTI-DOPING CONTROL REQUIRED",
+  "catalogue_supplier_skus": [
+    {
+      "catalogue_code": "AR50",
+      "specification": "50 mg x 10 vials",
+      "price_usd_per_kit": 63
+    },
+    {
+      "catalogue_code": "AR100",
+      "specification": "100 mg x 10 vials",
+      "price_usd_per_kit": 99
+    }
+  ],
+  "relationships": [
+    {
+      "source": "CERT-MPS-000001",
+      "relationship": "HAS_PASSPORT",
+      "target": "CERT-PPS-000001"
+    },
+    {
+      "source": "CERT-MPS-000001",
+      "relationship": "HAS_SAFETY",
+      "target": "CERT-SKS-000094"
+    },
+    {
+      "source": "CERT-MPS-000001",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000205"
+    },
+    {
+      "source": "CERT-MPS-000001",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000206"
+    },
+    {
+      "source": "CERT-MPS-000001",
+      "relationship": "RELATED_TO",
+      "target": "CERT-BKS-000156"
+    },
+    {
+      "source": "CERT-MPS-000001",
+      "relationship": "RELATED_TO",
+      "target": "CERT-BKS-000157"
+    },
+    {
+      "source": "CERT-MPS-000001",
+      "relationship": "RELATED_TO",
+      "target": "CERT-BKS-000158"
+    },
+    {
+      "source": "CERT-MPS-000001",
+      "relationship": "HAS_CONDITION",
+      "target": "CERT-CKS-000049"
+    },
+    {
+      "source": "CERT-MPS-000001",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000138"
+    },
+    {
+      "source": "CERT-MPS-000001",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000139"
+    },
+    {
+      "source": "CERT-MPS-000001",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000140"
+    },
+    {
+      "source": "CERT-MPS-000001",
+      "relationship": "SUPPORTS_GOAL",
+      "target": "CERT-GKS-000082"
+    }
+  ],
+  "product_passport": "CERT-PPS-000001",
+  "identity_verified": false,
+  "sterility_verified": false,
+  "authorised_product_equivalence": false,
+  "validated_universal_human_dosing_protocol": false
+}

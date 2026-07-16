@@ -1,0 +1,43 @@
+{
+  "asset_uai": "CERT-MPS-000006",
+  "asset_name": "SLU-PP-322 Identity-Candidate Product Family",
+  "status_as_of": "2026-07-16",
+  "overall_status": "POSSIBLE TYPO / CHEMICAL IDENTITY UNRESOLVED / NO PHARMACOLOGY OR HUMAN-USE CLAIM",
+  "regulatory_records": [
+    {
+      "jurisdiction": "Global",
+      "authority": "Identity control",
+      "current_status": "Regulatory interpretation is blocked until the exact compound is established.",
+      "monitoring_state": "BLOCKED",
+      "next_review_trigger": "Identity, approval, label, safety, enforcement, trial or anti-doping change"
+    },
+    {
+      "jurisdiction": "United States",
+      "authority": "FDA",
+      "current_status": "No approval claim.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Identity, approval, label, safety, enforcement, trial or anti-doping change"
+    },
+    {
+      "jurisdiction": "United Kingdom",
+      "authority": "MHRA",
+      "current_status": "No marketing-authorisation claim.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Identity, approval, label, safety, enforcement, trial or anti-doping change"
+    },
+    {
+      "jurisdiction": "European Union",
+      "authority": "EMA / European Commission",
+      "current_status": "No marketing-authorisation claim.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Identity, approval, label, safety, enforcement, trial or anti-doping change"
+    },
+    {
+      "jurisdiction": "International sport",
+      "authority": "WADA",
+      "current_status": "Status cannot be finalised before identity closure.",
+      "monitoring_state": "BLOCKED",
+      "next_review_trigger": "Identity, approval, label, safety, enforcement, trial or anti-doping change"
+    }
+  ]
+}

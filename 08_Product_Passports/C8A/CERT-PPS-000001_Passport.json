@@ -1,0 +1,39 @@
+{
+  "asset_id": "CERT-PPS-000001",
+  "asset_name": "AICAR Supplier Product Family Product Passport",
+  "knowledge_system": "PPS",
+  "asset_type": "Product Passport Gap Object",
+  "version": "0.1.0",
+  "status": "OPEN / NOT CERTIFIED",
+  "parent_product": "CERT-MPS-000001",
+  "last_review": "2026-07-16",
+  "required_fields": [
+    {
+      "field": "AICA riboside/acadesine versus phosphorylated AICAR/ZMP",
+      "status": "OPEN"
+    },
+    {
+      "field": "molecular formula and mass",
+      "status": "OPEN"
+    },
+    {
+      "field": "salt and hydration state",
+      "status": "OPEN"
+    },
+    {
+      "field": "route and formulation",
+      "status": "OPEN"
+    },
+    {
+      "field": "reference standard, purity and residual solvents",
+      "status": "OPEN"
+    },
+    {
+      "field": "sterility and endotoxin if intended for sterile use",
+      "status": "OPEN"
+    }
+  ],
+  "identity_certified": false,
+  "quality_certified": false,
+  "sterility_certified": false
+}

@@ -1,0 +1,19 @@
+{
+  "asset_id": "CERT-EKS-000206",
+  "asset_name": "AICAR Exercise-Mimetic and Anti-Doping Boundary",
+  "root_asset": "CERT-MPS-000001",
+  "knowledge_system": "EKS",
+  "asset_type": "Evidence Object",
+  "version": "0.1.0",
+  "status": "CURRENT WADA AND APPROVAL STATUS REVIEW REQUIRED",
+  "source_domain": "Preclinical AMPK/exercise studies and current WADA status",
+  "evidence_type": "Preclinical / regulatory evidence",
+  "last_review": "2026-07-16",
+  "direct_complete_extraction": false,
+  "prohibited_use": [
+    "Personal dosing, infusion, reconstitution or administration guidance",
+    "Weight-loss, exercise-mimetic, longevity or sleep protocols",
+    "Authorised-product evidence transfer to supplier vials",
+    "SLU-PP-332 evidence transfer to SLU-PP-322"
+  ]
+}

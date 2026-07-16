@@ -1,0 +1,89 @@
+{
+  "asset_id": "CERT-MPS-000003",
+  "asset_name": "Glutathione Supplier Vial Family",
+  "knowledge_system": "MPS",
+  "asset_type": "Marketplace Product-Family Asset",
+  "version": "0.1.0",
+  "status": "CATALOGUE REVIEWED / PRODUCT PASSPORT GAP ACTIVE / NOT QUALITY VERIFIED",
+  "owner": "Aidan Coleman",
+  "last_review": "2026-07-16",
+  "classification": "Tripeptide antioxidant ancillary product family classified outside PKS",
+  "aliases": [
+    "glutathione",
+    "GSH",
+    "L-glutathione",
+    "reduced glutathione"
+  ],
+  "mechanism_summary": "Redox-buffering and thiol chemistry depend on reduced/oxidised state, concentration, route and formulation.",
+  "evidence_maturity": "Broad physiological and clinical research exists, but injectable and cosmetic claims are product- and indication-specific. Supplier powder cannot inherit compounded-product claims.",
+  "regulatory_headline": "REDOX FORM AND ROUTE UNRESOLVED / STERILE-INJECTION AND ENDOTOXIN CONTROLS CRITICAL",
+  "catalogue_supplier_skus": [
+    {
+      "catalogue_code": "GTT",
+      "specification": "1,500 mg x 10 vials",
+      "price_usd_per_kit": 108
+    }
+  ],
+  "relationships": [
+    {
+      "source": "CERT-MPS-000003",
+      "relationship": "HAS_PASSPORT",
+      "target": "CERT-PPS-000003"
+    },
+    {
+      "source": "CERT-MPS-000003",
+      "relationship": "HAS_SAFETY",
+      "target": "CERT-SKS-000096"
+    },
+    {
+      "source": "CERT-MPS-000003",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000209"
+    },
+    {
+      "source": "CERT-MPS-000003",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000210"
+    },
+    {
+      "source": "CERT-MPS-000003",
+      "relationship": "RELATED_TO",
+      "target": "CERT-BKS-000161"
+    },
+    {
+      "source": "CERT-MPS-000003",
+      "relationship": "RELATED_TO",
+      "target": "CERT-BKS-000162"
+    },
+    {
+      "source": "CERT-MPS-000003",
+      "relationship": "HAS_CONDITION",
+      "target": "CERT-CKS-000051"
+    },
+    {
+      "source": "CERT-MPS-000003",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000138"
+    },
+    {
+      "source": "CERT-MPS-000003",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000144"
+    },
+    {
+      "source": "CERT-MPS-000003",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000145"
+    },
+    {
+      "source": "CERT-MPS-000003",
+      "relationship": "SUPPORTS_GOAL",
+      "target": "CERT-GKS-000084"
+    }
+  ],
+  "product_passport": "CERT-PPS-000003",
+  "identity_verified": false,
+  "sterility_verified": false,
+  "authorised_product_equivalence": false,
+  "validated_universal_human_dosing_protocol": false
+}

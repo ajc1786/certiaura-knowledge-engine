@@ -1,0 +1,36 @@
+{
+  "asset_uai": "CERT-MPS-000001",
+  "asset_name": "AICAR Supplier Product Family",
+  "status_as_of": "2026-07-16",
+  "overall_status": "CHEMICAL FORM AMBIGUOUS / NO CURRENT GENERAL THERAPEUTIC APPROVAL CLAIM / CURRENT ANTI-DOPING CONTROL REQUIRED",
+  "regulatory_records": [
+    {
+      "jurisdiction": "United States",
+      "authority": "FDA",
+      "current_status": "No general AICAR/acadesine approval claim; exact chemical-form and official product search required.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Identity, approval, label, safety, enforcement, trial or anti-doping change"
+    },
+    {
+      "jurisdiction": "United Kingdom",
+      "authority": "MHRA",
+      "current_status": "No marketing-authorisation claim for the supplier vial.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Identity, approval, label, safety, enforcement, trial or anti-doping change"
+    },
+    {
+      "jurisdiction": "European Union",
+      "authority": "EMA / European Commission",
+      "current_status": "No marketing-authorisation claim for the supplier vial.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Identity, approval, label, safety, enforcement, trial or anti-doping change"
+    },
+    {
+      "jurisdiction": "International sport",
+      "authority": "WADA",
+      "current_status": "AICAR is a current prohibited-substance control domain; verify the current list directly.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Identity, approval, label, safety, enforcement, trial or anti-doping change"
+    }
+  ]
+}

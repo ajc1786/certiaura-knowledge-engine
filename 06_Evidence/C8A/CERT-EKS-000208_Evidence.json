@@ -1,0 +1,19 @@
+{
+  "asset_id": "CERT-EKS-000208",
+  "asset_name": "Melatonin Supplier-Vial Route and Equivalence Gap",
+  "root_asset": "CERT-MPS-000002",
+  "knowledge_system": "EKS",
+  "asset_type": "Evidence Object",
+  "version": "0.1.0",
+  "status": "OPEN — SUPPLIER VIAL NOT LINKED TO AUTHORISED PRODUCT",
+  "source_domain": "Catalogue vial route, formulation, sterility and authorised-product comparability",
+  "evidence_type": "Product-equivalence gap",
+  "last_review": "2026-07-16",
+  "direct_complete_extraction": false,
+  "prohibited_use": [
+    "Personal dosing, infusion, reconstitution or administration guidance",
+    "Weight-loss, exercise-mimetic, longevity or sleep protocols",
+    "Authorised-product evidence transfer to supplier vials",
+    "SLU-PP-332 evidence transfer to SLU-PP-322"
+  ]
+}

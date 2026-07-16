@@ -1,0 +1,19 @@
+{
+  "asset_id": "CERT-EKS-000212",
+  "asset_name": "5-Amino-1MQ Human and Regulatory Evidence Gap",
+  "root_asset": "CERT-MPS-000004",
+  "knowledge_system": "EKS",
+  "asset_type": "Evidence Object",
+  "version": "0.1.0",
+  "status": "OPEN — HUMAN PRIMARY EVIDENCE NOT ESTABLISHED",
+  "source_domain": "Human trials, PK, safety, approval and anti-doping searches",
+  "evidence_type": "Evidence-gap object",
+  "last_review": "2026-07-16",
+  "direct_complete_extraction": false,
+  "prohibited_use": [
+    "Personal dosing, infusion, reconstitution or administration guidance",
+    "Weight-loss, exercise-mimetic, longevity or sleep protocols",
+    "Authorised-product evidence transfer to supplier vials",
+    "SLU-PP-332 evidence transfer to SLU-PP-322"
+  ]
+}

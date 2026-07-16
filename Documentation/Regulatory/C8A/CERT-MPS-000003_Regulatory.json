@@ -1,0 +1,36 @@
+{
+  "asset_uai": "CERT-MPS-000003",
+  "asset_name": "Glutathione Supplier Vial Family",
+  "status_as_of": "2026-07-16",
+  "overall_status": "REDOX FORM AND ROUTE UNRESOLVED / STERILE-INJECTION AND ENDOTOXIN CONTROLS CRITICAL",
+  "regulatory_records": [
+    {
+      "jurisdiction": "United States",
+      "authority": "FDA",
+      "current_status": "Sterile-compounding and endotoxin warnings apply; no supplier-vial approval or sterility claim.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Identity, approval, label, safety, enforcement, trial or anti-doping change"
+    },
+    {
+      "jurisdiction": "United Kingdom",
+      "authority": "MHRA",
+      "current_status": "No marketing-authorisation or sterile-product equivalence claim.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Identity, approval, label, safety, enforcement, trial or anti-doping change"
+    },
+    {
+      "jurisdiction": "European Union",
+      "authority": "EMA / European Commission",
+      "current_status": "No central marketing-authorisation claim for the supplier vial.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Identity, approval, label, safety, enforcement, trial or anti-doping change"
+    },
+    {
+      "jurisdiction": "International sport",
+      "authority": "WADA",
+      "current_status": "Current athlete-specific verification required.",
+      "monitoring_state": "EVENT-TRIGGERED",
+      "next_review_trigger": "Identity, approval, label, safety, enforcement, trial or anti-doping change"
+    }
+  ]
+}

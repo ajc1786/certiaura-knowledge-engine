@@ -1,0 +1,19 @@
+{
+  "asset_id": "CERT-EKS-000216",
+  "asset_name": "SLU-PP-322 versus SLU-PP-332 Evidence-Transfer Block",
+  "root_asset": "CERT-MPS-000006",
+  "knowledge_system": "EKS",
+  "asset_type": "Evidence Object",
+  "version": "0.1.0",
+  "status": "SLU-PP-332 EVIDENCE TRANSFER PROHIBITED",
+  "source_domain": "Published SLU-PP-332 ERR-agonist evidence retained as non-transferable comparator",
+  "evidence_type": "Evidence-transfer control",
+  "last_review": "2026-07-16",
+  "direct_complete_extraction": false,
+  "prohibited_use": [
+    "Personal dosing, infusion, reconstitution or administration guidance",
+    "Weight-loss, exercise-mimetic, longevity or sleep protocols",
+    "Authorised-product evidence transfer to supplier vials",
+    "SLU-PP-332 evidence transfer to SLU-PP-322"
+  ]
+}

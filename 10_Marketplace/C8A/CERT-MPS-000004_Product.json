@@ -1,0 +1,98 @@
+{
+  "asset_id": "CERT-MPS-000004",
+  "asset_name": "5-Amino-1MQ Supplier Product Family",
+  "knowledge_system": "MPS",
+  "asset_type": "Marketplace Product-Family Asset",
+  "version": "0.1.0",
+  "status": "CATALOGUE REVIEWED / PRODUCT PASSPORT GAP ACTIVE / NOT QUALITY VERIFIED",
+  "owner": "Aidan Coleman",
+  "last_review": "2026-07-16",
+  "classification": "Non-peptide quinolinium NNMT-inhibitor research compound",
+  "aliases": [
+    "5-amino-1MQ",
+    "5-amino-1-methylquinolinium",
+    "5A1MQ"
+  ],
+  "mechanism_summary": "Preclinical inhibition of nicotinamide N-methyltransferase with downstream effects on nicotinamide, NAD-related and methyl-donor metabolism.",
+  "evidence_maturity": "Published evidence is cellular and animal based. No validated human pharmacokinetic, efficacy, safety or dosing programme has been closed.",
+  "regulatory_headline": "PRECLINICAL RESEARCH COMPOUND / NO HUMAN APPROVAL OR VALIDATED WEIGHT-LOSS CLAIM",
+  "catalogue_supplier_skus": [
+    {
+      "catalogue_code": "5AM",
+      "specification": "5 mg x 10 vials",
+      "price_usd_per_kit": 32
+    },
+    {
+      "catalogue_code": "10AM",
+      "specification": "10 mg x 10 vials",
+      "price_usd_per_kit": 42
+    },
+    {
+      "catalogue_code": "50AM",
+      "specification": "50 mg x 10 vials",
+      "price_usd_per_kit": 65
+    }
+  ],
+  "relationships": [
+    {
+      "source": "CERT-MPS-000004",
+      "relationship": "HAS_PASSPORT",
+      "target": "CERT-PPS-000004"
+    },
+    {
+      "source": "CERT-MPS-000004",
+      "relationship": "HAS_SAFETY",
+      "target": "CERT-SKS-000097"
+    },
+    {
+      "source": "CERT-MPS-000004",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000211"
+    },
+    {
+      "source": "CERT-MPS-000004",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000212"
+    },
+    {
+      "source": "CERT-MPS-000004",
+      "relationship": "RELATED_TO",
+      "target": "CERT-BKS-000163"
+    },
+    {
+      "source": "CERT-MPS-000004",
+      "relationship": "RELATED_TO",
+      "target": "CERT-BKS-000164"
+    },
+    {
+      "source": "CERT-MPS-000004",
+      "relationship": "HAS_CONDITION",
+      "target": "CERT-CKS-000052"
+    },
+    {
+      "source": "CERT-MPS-000004",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000138"
+    },
+    {
+      "source": "CERT-MPS-000004",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000139"
+    },
+    {
+      "source": "CERT-MPS-000004",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000146"
+    },
+    {
+      "source": "CERT-MPS-000004",
+      "relationship": "SUPPORTS_GOAL",
+      "target": "CERT-GKS-000085"
+    }
+  ],
+  "product_passport": "CERT-PPS-000004",
+  "identity_verified": false,
+  "sterility_verified": false,
+  "authorised_product_equivalence": false,
+  "validated_universal_human_dosing_protocol": false
+}

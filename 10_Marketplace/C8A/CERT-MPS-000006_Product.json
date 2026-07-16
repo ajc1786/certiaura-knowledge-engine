@@ -1,0 +1,72 @@
+{
+  "asset_id": "CERT-MPS-000006",
+  "asset_name": "SLU-PP-322 Identity-Candidate Product Family",
+  "knowledge_system": "MPS",
+  "asset_type": "Marketplace Product-Family Asset",
+  "version": "0.1.0",
+  "status": "CATALOGUE REVIEWED / PRODUCT PASSPORT GAP ACTIVE / NOT QUALITY VERIFIED",
+  "owner": "Aidan Coleman",
+  "last_review": "2026-07-16",
+  "classification": "Chemically unresolved non-peptide research-product listing",
+  "aliases": [
+    "SLU-PP-322",
+    "slu-pp-322"
+  ],
+  "mechanism_summary": "No mechanism is assigned. The catalogue spelling is preserved exactly and is not silently corrected to the published ERR agonist SLU-PP-332.",
+  "evidence_maturity": "No authoritative primary identity for SLU-PP-322 has been closed. Published SLU-PP-332 mouse and analytical evidence cannot be transferred.",
+  "regulatory_headline": "POSSIBLE TYPO / CHEMICAL IDENTITY UNRESOLVED / NO PHARMACOLOGY OR HUMAN-USE CLAIM",
+  "catalogue_supplier_skus": [
+    {
+      "catalogue_code": "SLU5",
+      "specification": "5 mg x 10 vials",
+      "price_usd_per_kit": 121
+    }
+  ],
+  "relationships": [
+    {
+      "source": "CERT-MPS-000006",
+      "relationship": "HAS_PASSPORT",
+      "target": "CERT-PPS-000006"
+    },
+    {
+      "source": "CERT-MPS-000006",
+      "relationship": "HAS_SAFETY",
+      "target": "CERT-SKS-000099"
+    },
+    {
+      "source": "CERT-MPS-000006",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000215"
+    },
+    {
+      "source": "CERT-MPS-000006",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000216"
+    },
+    {
+      "source": "CERT-MPS-000006",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000138"
+    },
+    {
+      "source": "CERT-MPS-000006",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000149"
+    },
+    {
+      "source": "CERT-MPS-000006",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000150"
+    },
+    {
+      "source": "CERT-MPS-000006",
+      "relationship": "SUPPORTS_GOAL",
+      "target": "CERT-GKS-000087"
+    }
+  ],
+  "product_passport": "CERT-PPS-000006",
+  "identity_verified": false,
+  "sterility_verified": false,
+  "authorised_product_equivalence": false,
+  "validated_universal_human_dosing_protocol": false
+}

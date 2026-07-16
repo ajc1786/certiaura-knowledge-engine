@@ -1,0 +1,15 @@
+Asset,Source,URL / Citation,Purpose
+AICAR,FDA substance identity,https://precision.fda.gov/uniisearch/srs/unii/f0x88yw0yk,Chemical-name and UNII identity; UNII is not approval
+AICAR,Primary human trial,"Effect of adenosine-regulating agent acadesine on morbidity and mortality associated with coronary artery bypass grafting. JAMA, 2012; PMID 22782417.",Large human randomised trial and negative efficacy result
+AICAR,WADA 2026 Prohibited List,https://www.wada-ama.org/en/resources/world-anti-doping-program/prohibited-list,Current anti-doping status
+Melatonin,EMA Circadin EPAR,https://www.ema.europa.eu/en/medicines/human/EPAR/circadin,Authorised oral product and indication
+Melatonin,EMA Slenyto EPAR,https://www.ema.europa.eu/en/medicines/human/EPAR/slenyto,Authorised paediatric oral product contexts
+Melatonin,MHRA / GOV.UK,https://www.gov.uk/government/news/parents-and-caregivers-advised-to-stop-all-use-of-specific-brand-of-kids-magnesium-gummies-due-to-the-presence-of-an-undeclared-prescription-only-med,United Kingdom prescription-only status
+Glutathione,FDA compounding alert,https://www.fda.gov/drugs/human-drug-compounding/fda-highlights-concerns-using-dietary-ingredient-glutathione-compound-sterile-injectables,Endotoxin and sterile-grade safety
+5-amino-1MQ,Primary preclinical publication,Selective and membrane-permeable small molecule inhibitors of nicotinamide N-methyltransferase reverse high fat diet-induced obesity in mice. PMID 29155147.,Cell and mouse evidence
+5-amino-1MQ,Primary later mouse publication,Nicotinamide N-methyltransferase inhibition mitigates obesity-related metabolic dysfunction. PMID 39161060.,Mouse PK and metabolic evidence
+NAD,FDA sterile-compounding reminder,https://www.fda.gov/drugs/human-drug-compounding/fda-reminds-compounders-use-ingredients-suitable-sterile-compounding,"Food-grade material, endotoxin and injectable adverse-event warning"
+NAD,FDA warning letter,https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/thrive-health-and-wellness-llc-dba-thrive-health-solutions-714891-02092026,Unapproved NAD+ injectable product and aseptic controls
+SLU-PP-322,Exact-name search,No authoritative primary chemical identity closed in initial search,Identity remains blocked
+SLU-PP-332 comparator,Primary mouse publication,Synthetic ERRα/β/γ agonist induces an ERRα-dependent acute aerobic exercise response and enhances exercise capacity. PMID 36988910.,Non-transferable comparator evidence
+SLU-PP-332 comparator,2026 analytical publication,In vitro metabolism and analytical characterization of SLU-PP-332 and SLU-PP-915. PMID 41588687.,Non-transferable comparator identity and doping-analysis evidence

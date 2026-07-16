@@ -1,0 +1,109 @@
+{
+  "asset_id": "CERT-MPS-000005",
+  "asset_name": "NAD Supplier Product Family",
+  "knowledge_system": "MPS",
+  "asset_type": "Marketplace Product-Family Asset",
+  "version": "0.1.0",
+  "status": "CATALOGUE REVIEWED / PRODUCT PASSPORT GAP ACTIVE / NOT QUALITY VERIFIED",
+  "owner": "Aidan Coleman",
+  "last_review": "2026-07-16",
+  "classification": "Non-peptide dinucleotide coenzyme supplier product family",
+  "aliases": [
+    "NAD",
+    "NAD+",
+    "NADH",
+    "nicotinamide adenine dinucleotide"
+  ],
+  "mechanism_summary": "Redox and enzyme-cofactor functions vary between oxidised NAD+, reduced NADH, salts, concentration and route.",
+  "evidence_maturity": "Extensive biochemical evidence exists, but wellness/energy/longevity infusion claims and supplier sterile-vial equivalence are not established by catalogue naming.",
+  "regulatory_headline": "NAD+ / NADH / SALT AND ROUTE UNRESOLVED / UNAPPROVED INJECTABLE-PRODUCT CONTROLS APPLY",
+  "catalogue_supplier_skus": [
+    {
+      "catalogue_code": "NJ3100",
+      "specification": "100 mg x 10 vials",
+      "price_usd_per_kit": 37
+    },
+    {
+      "catalogue_code": "NJ250",
+      "specification": "250 mg x 10 vials",
+      "price_usd_per_kit": 56
+    },
+    {
+      "catalogue_code": "NJ500",
+      "specification": "500 mg x 10 vials",
+      "price_usd_per_kit": 78
+    },
+    {
+      "catalogue_code": "NJ1000",
+      "specification": "1,000 mg x 10 vials",
+      "price_usd_per_kit": 126
+    }
+  ],
+  "relationships": [
+    {
+      "source": "CERT-MPS-000005",
+      "relationship": "HAS_PASSPORT",
+      "target": "CERT-PPS-000005"
+    },
+    {
+      "source": "CERT-MPS-000005",
+      "relationship": "HAS_SAFETY",
+      "target": "CERT-SKS-000098"
+    },
+    {
+      "source": "CERT-MPS-000005",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000213"
+    },
+    {
+      "source": "CERT-MPS-000005",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000214"
+    },
+    {
+      "source": "CERT-MPS-000005",
+      "relationship": "RELATED_TO",
+      "target": "CERT-BKS-000165"
+    },
+    {
+      "source": "CERT-MPS-000005",
+      "relationship": "RELATED_TO",
+      "target": "CERT-BKS-000166"
+    },
+    {
+      "source": "CERT-MPS-000005",
+      "relationship": "HAS_CONDITION",
+      "target": "CERT-CKS-000049"
+    },
+    {
+      "source": "CERT-MPS-000005",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000138"
+    },
+    {
+      "source": "CERT-MPS-000005",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000144"
+    },
+    {
+      "source": "CERT-MPS-000005",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000147"
+    },
+    {
+      "source": "CERT-MPS-000005",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000148"
+    },
+    {
+      "source": "CERT-MPS-000005",
+      "relationship": "SUPPORTS_GOAL",
+      "target": "CERT-GKS-000086"
+    }
+  ],
+  "product_passport": "CERT-PPS-000005",
+  "identity_verified": false,
+  "sterility_verified": false,
+  "authorised_product_equivalence": false,
+  "validated_universal_human_dosing_protocol": false
+}

@@ -1,0 +1,19 @@
+{
+  "asset_id": "CERT-EKS-000213",
+  "asset_name": "NAD Chemical Form and Biochemical Evidence",
+  "root_asset": "CERT-MPS-000005",
+  "knowledge_system": "EKS",
+  "asset_type": "Evidence Object",
+  "version": "0.1.0",
+  "status": "PRODUCT-SPECIFIC CHEMICAL CLOSURE REQUIRED",
+  "source_domain": "NAD+/NADH identity, salts, stability and coenzyme biology",
+  "evidence_type": "Identity / biochemical evidence",
+  "last_review": "2026-07-16",
+  "direct_complete_extraction": false,
+  "prohibited_use": [
+    "Personal dosing, infusion, reconstitution or administration guidance",
+    "Weight-loss, exercise-mimetic, longevity or sleep protocols",
+    "Authorised-product evidence transfer to supplier vials",
+    "SLU-PP-332 evidence transfer to SLU-PP-322"
+  ]
+}

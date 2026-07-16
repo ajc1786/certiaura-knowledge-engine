@@ -1,0 +1,39 @@
+{
+  "asset_id": "CERT-PPS-000002",
+  "asset_name": "Melatonin Supplier Vial Family Product Passport",
+  "knowledge_system": "PPS",
+  "asset_type": "Product Passport Gap Object",
+  "version": "0.1.0",
+  "status": "OPEN / NOT CERTIFIED",
+  "parent_product": "CERT-MPS-000002",
+  "last_review": "2026-07-16",
+  "required_fields": [
+    {
+      "field": "route and dosage form",
+      "status": "OPEN"
+    },
+    {
+      "field": "immediate versus prolonged release",
+      "status": "OPEN"
+    },
+    {
+      "field": "concentration and excipients",
+      "status": "OPEN"
+    },
+    {
+      "field": "manufacturer and authorised-product status",
+      "status": "OPEN"
+    },
+    {
+      "field": "impurities and degradation products",
+      "status": "OPEN"
+    },
+    {
+      "field": "sterility and endotoxin if presented for injection",
+      "status": "OPEN"
+    }
+  ],
+  "identity_certified": false,
+  "quality_certified": false,
+  "sterility_certified": false
+}
