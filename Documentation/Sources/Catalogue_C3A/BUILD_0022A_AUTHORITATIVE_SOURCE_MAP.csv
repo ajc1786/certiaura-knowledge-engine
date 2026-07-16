@@ -1,0 +1,12 @@
+Asset,Source,URL,Purpose
+All assets,FDA Drugs@FDA,https://www.accessdata.fda.gov/scripts/cder/daf/,Approval and current label search
+All assets,MHRA Products,https://products.mhra.gov.uk/,United Kingdom product-authorisation search
+All assets,EMA Medicines,https://www.ema.europa.eu/en/medicines,European Union authorisation search
+All assets,WADA Prohibited List,https://www.wada-ama.org/en/prohibited-list,Current anti-doping status
+GHRP-2,PMDA,https://www.pmda.go.jp/english/,Current Japan diagnostic-product verification
+Somatropin,ClinicalTrials.gov,https://clinicaltrials.gov/search?term=somatropin,Clinical evidence and current trials
+Sermorelin,PubMed,https://pubmed.ncbi.nlm.nih.gov/?term=sermorelin,Historical and human evidence
+Modified GRF (1-29),PubMed,https://pubmed.ncbi.nlm.nih.gov/?term=modified+GRF+1-29,Identity and pharmacology evidence
+GHRP-2,PubMed,https://pubmed.ncbi.nlm.nih.gov/?term=GHRP-2+pralmorelin,Human endocrine evidence
+GHRP-6,PubMed,https://pubmed.ncbi.nlm.nih.gov/?term=GHRP-6+human,Human endocrine evidence
+Hexarelin,PubMed,https://pubmed.ncbi.nlm.nih.gov/?term=hexarelin+human,Human endocrine and cardiovascular evidence

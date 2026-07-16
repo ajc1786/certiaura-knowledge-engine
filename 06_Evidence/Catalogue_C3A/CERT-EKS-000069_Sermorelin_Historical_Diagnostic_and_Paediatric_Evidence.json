@@ -1,0 +1,20 @@
+{
+  "asset_id": "CERT-EKS-000069",
+  "asset_name": "Sermorelin Historical Diagnostic and Paediatric Evidence",
+  "root_asset": "CERT-PKS-000021",
+  "knowledge_system": "EKS",
+  "asset_type": "Evidence Object",
+  "version": "0.1.0",
+  "status": "PRIMARY PUBLICATIONS IDENTIFIED — EXTRACTION REQUIRED",
+  "source_domain": "Historical Geref / GRF (1-29) diagnostic and paediatric growth-hormone-deficiency publications",
+  "evidence_type": "Historical human clinical evidence",
+  "last_review": "2026-07-16",
+  "direct_complete_extraction": false,
+  "permitted_use": "Identity, evidence-domain and source-status reporting.",
+  "prohibited_use": [
+    "Unsupported quantitative clinical claims",
+    "Personal dosing, cycling or reconstitution guidance",
+    "Transfer between distinct peptides",
+    "Transfer from authorised products to supplier vials"
+  ]
+}

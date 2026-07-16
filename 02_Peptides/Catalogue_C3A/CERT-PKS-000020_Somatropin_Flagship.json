@@ -1,0 +1,142 @@
+{
+  "asset_id": "CERT-PKS-000020",
+  "asset_name": "Somatropin",
+  "knowledge_system": "PKS",
+  "asset_type": "Peptide / Protein Knowledge Asset",
+  "version": "0.1.0",
+  "status": "CATALOGUE REVIEWED / EVIDENCE FOUNDATION CREATED / NOT PLATINUM CERTIFIED",
+  "owner": "Aidan Coleman",
+  "last_review": "2026-07-16",
+  "aliases": [
+    "rhGH",
+    "recombinant human growth hormone",
+    "HGH 191AA"
+  ],
+  "classification": "Recombinant 191-amino-acid human growth hormone protein drug",
+  "mechanism_summary": "Direct activation of the growth hormone receptor with downstream insulin-like growth factor 1 signalling and tissue-specific metabolic effects.",
+  "evidence_maturity": "Extensive authorised-medicine, clinical and post-authorisation evidence across product-specific paediatric and adult indications.",
+  "regulatory_headline": "AUTHORISED MEDICINE CONTEXTS EXIST / PRODUCT- AND INDICATION-SPECIFIC",
+  "catalogue_supplier_skus": [
+    {
+      "catalogue_code": "H06",
+      "specification": "6 IU x 10 vials",
+      "price_usd_per_kit": 46
+    },
+    {
+      "catalogue_code": "H10",
+      "specification": "10 IU x 10 vials",
+      "price_usd_per_kit": 56
+    },
+    {
+      "catalogue_code": "H12",
+      "specification": "12 IU x 10 vials",
+      "price_usd_per_kit": 67
+    },
+    {
+      "catalogue_code": "H15",
+      "specification": "15 IU x 10 vials",
+      "price_usd_per_kit": 85
+    },
+    {
+      "catalogue_code": "H24",
+      "specification": "24 IU x 10 vials",
+      "price_usd_per_kit": 126
+    },
+    {
+      "catalogue_code": "H36",
+      "specification": "36 IU x 10 vials",
+      "price_usd_per_kit": 192
+    }
+  ],
+  "relationships": [
+    {
+      "source": "CERT-PKS-000020",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000026"
+    },
+    {
+      "source": "CERT-PKS-000020",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000027"
+    },
+    {
+      "source": "CERT-PKS-000020",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000050"
+    },
+    {
+      "source": "CERT-PKS-000020",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000051"
+    },
+    {
+      "source": "CERT-PKS-000020",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000011"
+    },
+    {
+      "source": "CERT-PKS-000020",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000012"
+    },
+    {
+      "source": "CERT-PKS-000020",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000013"
+    },
+    {
+      "source": "CERT-PKS-000020",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000028"
+    },
+    {
+      "source": "CERT-PKS-000020",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000030"
+    },
+    {
+      "source": "CERT-PKS-000020",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000034"
+    },
+    {
+      "source": "CERT-PKS-000020",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000035"
+    },
+    {
+      "source": "CERT-PKS-000020",
+      "relationship": "SUPPORTS_GOAL",
+      "target": "CERT-GKS-000016"
+    },
+    {
+      "source": "CERT-PKS-000020",
+      "relationship": "SUPPORTS_GOAL",
+      "target": "CERT-GKS-000017"
+    },
+    {
+      "source": "CERT-PKS-000020",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000067"
+    },
+    {
+      "source": "CERT-PKS-000020",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000068"
+    },
+    {
+      "source": "CERT-PKS-000020",
+      "relationship": "HAS_SAFETY",
+      "target": "CERT-SKS-000025"
+    }
+  ],
+  "validated_universal_human_dosing_protocol": false,
+  "supplier_catalogue_proves_quality": false,
+  "platinum_certified": false,
+  "certification_blockers": [
+    "Current product-specific labels by jurisdiction",
+    "Supplier vial identity, potency and sterility",
+    "Approved-indication separation from anti-ageing and performance use",
+    "Current anti-doping position"
+  ]
+}

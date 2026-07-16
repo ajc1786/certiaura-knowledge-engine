@@ -1,0 +1,20 @@
+{
+  "asset_id": "CERT-EKS-000072",
+  "asset_name": "Modified GRF Human and Regulatory Evidence Gap",
+  "root_asset": "CERT-PKS-000022",
+  "knowledge_system": "EKS",
+  "asset_type": "Evidence Object",
+  "version": "0.1.0",
+  "status": "OPEN — ADEQUATE HUMAN CLINICAL EVIDENCE NOT ESTABLISHED",
+  "source_domain": "Human PK, efficacy, safety, trial and approval search domain",
+  "evidence_type": "Evidence-gap object",
+  "last_review": "2026-07-16",
+  "direct_complete_extraction": false,
+  "permitted_use": "Identity, evidence-domain and source-status reporting.",
+  "prohibited_use": [
+    "Unsupported quantitative clinical claims",
+    "Personal dosing, cycling or reconstitution guidance",
+    "Transfer between distinct peptides",
+    "Transfer from authorised products to supplier vials"
+  ]
+}

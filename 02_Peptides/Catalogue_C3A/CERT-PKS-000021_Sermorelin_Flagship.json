@@ -1,0 +1,122 @@
+{
+  "asset_id": "CERT-PKS-000021",
+  "asset_name": "Sermorelin",
+  "knowledge_system": "PKS",
+  "asset_type": "Peptide / Protein Knowledge Asset",
+  "version": "0.1.0",
+  "status": "CATALOGUE REVIEWED / EVIDENCE FOUNDATION CREATED / NOT PLATINUM CERTIFIED",
+  "owner": "Aidan Coleman",
+  "last_review": "2026-07-16",
+  "aliases": [
+    "GRF (1-29)",
+    "GHRH (1-29)",
+    "sermorelin acetate"
+  ],
+  "classification": "Unmodified amidated GHRH (1-29) peptide analogue",
+  "mechanism_summary": "Growth-hormone-releasing hormone receptor agonism stimulating pituitary growth hormone release.",
+  "evidence_maturity": "Historical diagnostic and paediatric-development evidence; current marketed-authorisation status is jurisdiction dependent and requires direct closure.",
+  "regulatory_headline": "HISTORICAL APPROVAL / DISCONTINUATION CONTEXT — NO CURRENT UNIVERSAL APPROVAL CLAIM",
+  "catalogue_supplier_skus": [
+    {
+      "catalogue_code": "SMO2",
+      "specification": "2 mg x 10 vials",
+      "price_usd_per_kit": 49
+    },
+    {
+      "catalogue_code": "SMO5",
+      "specification": "5 mg x 10 vials",
+      "price_usd_per_kit": 76
+    },
+    {
+      "catalogue_code": "SMO10",
+      "specification": "10 mg x 10 vials",
+      "price_usd_per_kit": 153
+    },
+    {
+      "catalogue_code": "SMO15",
+      "specification": "15 mg x 10 vials",
+      "price_usd_per_kit": 239
+    }
+  ],
+  "relationships": [
+    {
+      "source": "CERT-PKS-000021",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000024"
+    },
+    {
+      "source": "CERT-PKS-000021",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000025"
+    },
+    {
+      "source": "CERT-PKS-000021",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000026"
+    },
+    {
+      "source": "CERT-PKS-000021",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000027"
+    },
+    {
+      "source": "CERT-PKS-000021",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000011"
+    },
+    {
+      "source": "CERT-PKS-000021",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000012"
+    },
+    {
+      "source": "CERT-PKS-000021",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000013"
+    },
+    {
+      "source": "CERT-PKS-000021",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000014"
+    },
+    {
+      "source": "CERT-PKS-000021",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000034"
+    },
+    {
+      "source": "CERT-PKS-000021",
+      "relationship": "SUPPORTS_GOAL",
+      "target": "CERT-GKS-000016"
+    },
+    {
+      "source": "CERT-PKS-000021",
+      "relationship": "SUPPORTS_GOAL",
+      "target": "CERT-GKS-000018"
+    },
+    {
+      "source": "CERT-PKS-000021",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000069"
+    },
+    {
+      "source": "CERT-PKS-000021",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000070"
+    },
+    {
+      "source": "CERT-PKS-000021",
+      "relationship": "HAS_SAFETY",
+      "target": "CERT-SKS-000026"
+    }
+  ],
+  "validated_universal_human_dosing_protocol": false,
+  "supplier_catalogue_proves_quality": false,
+  "platinum_certified": false,
+  "certification_blockers": [
+    "Current jurisdiction-specific authorisation status",
+    "Historical product and indication closure",
+    "No validated anti-ageing or performance protocol",
+    "Supplier product identity and sterility"
+  ]
+}

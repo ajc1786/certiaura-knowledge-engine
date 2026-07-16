@@ -1,39 +1,33 @@
 # CERTIAURA PRODUCTION DASHBOARD
 
-**Build:** 0021  
+**Build:** 0022A  
 **Date:** 2026-07-16
 
-## Catalogue Segment C2 complete
+## Catalogue C3A complete
 
-### New assets allocated
+### New assets
 
-- CERT-PKS-000011 — Semaglutide
-- CERT-PKS-000012 — Tirzepatide
-- CERT-PKS-000013 — Cagrilintide
-- CERT-PKS-000014 — Mazdutide
-- CERT-PKS-000015 — Survodutide
-- CERT-PKS-000016 — Liraglutide
-- CERT-PKS-000017 — AOD9604
-- CERT-PKS-000018 — Adipotide
-- CERT-PKS-000019 — HGH Fragment 176-191
+- CERT-PKS-000020 — Somatropin
+- CERT-PKS-000021 — Sermorelin
+- CERT-PKS-000022 — Modified GRF (1-29)
+- CERT-PKS-000023 — GHRP-2 / Pralmorelin
+- CERT-PKS-000024 — GHRP-6
+- CERT-PKS-000025 — Hexarelin / Examorelin
 
-### Existing asset retained
+### Existing assets retained
 
-- CERT-PKS-000001 — Retatrutide
+- CERT-PKS-000003 — Tesamorelin
+- CERT-PKS-000004 — CJC-1295 with DAC
+- CERT-PKS-000005 — Ipamorelin
 
-### UAI withheld
+### Supporting assets
 
-- Catalogue listing `GLP-1, 5 mg/vial`
-- Reason: exact peptide sequence, form and formulation unresolved
-
-## Supporting assets
-
-- Evidence Objects: CERT-EKS-000049–000066
-- Safety Objects: CERT-SKS-000016–000024
-- Biology Objects: CERT-BKS-000044–000049
-- Monitoring Objects: CERT-MKS-000028–000033
-- Goal Objects: CERT-GKS-000013–000015
+- CERT-EKS-000067–000078
+- CERT-SKS-000025–000030
+- CERT-BKS-000050–000053
+- CERT-MKS-000034–000036
+- CERT-GKS-000016–000018
 
 ## Next task
 
-**Build 0022 — Catalogue Segment C3: Growth Hormone, IGF & Endocrine Asset Review**
+**Build 0022B — IGF-1, MGF, PEG-MGF & ACE-031 Asset Review**

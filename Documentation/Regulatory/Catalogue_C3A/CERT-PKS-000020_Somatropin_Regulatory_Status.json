@@ -1,0 +1,36 @@
+{
+  "asset_uai": "CERT-PKS-000020",
+  "asset_name": "Somatropin",
+  "status_as_of": "2026-07-16",
+  "overall_status": "AUTHORISED MEDICINE CONTEXTS EXIST / PRODUCT- AND INDICATION-SPECIFIC",
+  "regulatory_records": [
+    {
+      "jurisdiction": "United States",
+      "authority": "FDA",
+      "current_status": "Authorised somatropin product contexts exist; exact brand and indication require current label capture.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Approval, label, safety, enforcement, compounding, trial or anti-doping change"
+    },
+    {
+      "jurisdiction": "United Kingdom",
+      "authority": "MHRA",
+      "current_status": "Authorised prescription-product contexts exist; current product information controls claims.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Approval, label, safety, enforcement, compounding, trial or anti-doping change"
+    },
+    {
+      "jurisdiction": "European Union",
+      "authority": "EMA / European Commission",
+      "current_status": "Authorised somatropin medicines exist; current product-specific status applies.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Approval, label, safety, enforcement, compounding, trial or anti-doping change"
+    },
+    {
+      "jurisdiction": "International sport",
+      "authority": "WADA",
+      "current_status": "Growth hormone is subject to anti-doping prohibition controls.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Approval, label, safety, enforcement, compounding, trial or anti-doping change"
+    }
+  ]
+}

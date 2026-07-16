@@ -1,0 +1,111 @@
+{
+  "asset_id": "CERT-PKS-000024",
+  "asset_name": "GHRP-6",
+  "knowledge_system": "PKS",
+  "asset_type": "Peptide / Protein Knowledge Asset",
+  "version": "0.1.0",
+  "status": "CATALOGUE REVIEWED / EVIDENCE FOUNDATION CREATED / NOT PLATINUM CERTIFIED",
+  "owner": "Aidan Coleman",
+  "last_review": "2026-07-16",
+  "aliases": [
+    "growth hormone-releasing peptide 6",
+    "SKF-110679"
+  ],
+  "classification": "Ghrelin / growth-hormone-secretagogue receptor agonist peptide",
+  "mechanism_summary": "Ghrelin-receptor agonism stimulating growth hormone release with prominent appetite and neuroendocrine effects.",
+  "evidence_maturity": "Human pharmacology and preclinical evidence; no established authorised therapeutic product context.",
+  "regulatory_headline": "INVESTIGATIONAL / UNAPPROVED / ATHLETE WARNING REQUIRED",
+  "catalogue_supplier_skus": [
+    {
+      "catalogue_code": "G65",
+      "specification": "5 mg x 10 vials",
+      "price_usd_per_kit": 27
+    },
+    {
+      "catalogue_code": "G610",
+      "specification": "10 mg x 10 vials",
+      "price_usd_per_kit": 54
+    }
+  ],
+  "relationships": [
+    {
+      "source": "CERT-PKS-000024",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000026"
+    },
+    {
+      "source": "CERT-PKS-000024",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000027"
+    },
+    {
+      "source": "CERT-PKS-000024",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000028"
+    },
+    {
+      "source": "CERT-PKS-000024",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000053"
+    },
+    {
+      "source": "CERT-PKS-000024",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000011"
+    },
+    {
+      "source": "CERT-PKS-000024",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000012"
+    },
+    {
+      "source": "CERT-PKS-000024",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000014"
+    },
+    {
+      "source": "CERT-PKS-000024",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000034"
+    },
+    {
+      "source": "CERT-PKS-000024",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000036"
+    },
+    {
+      "source": "CERT-PKS-000024",
+      "relationship": "SUPPORTS_GOAL",
+      "target": "CERT-GKS-000016"
+    },
+    {
+      "source": "CERT-PKS-000024",
+      "relationship": "SUPPORTS_GOAL",
+      "target": "CERT-GKS-000018"
+    },
+    {
+      "source": "CERT-PKS-000024",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000075"
+    },
+    {
+      "source": "CERT-PKS-000024",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000076"
+    },
+    {
+      "source": "CERT-PKS-000024",
+      "relationship": "HAS_SAFETY",
+      "target": "CERT-SKS-000029"
+    }
+  ],
+  "validated_universal_human_dosing_protocol": false,
+  "supplier_catalogue_proves_quality": false,
+  "platinum_certified": false,
+  "certification_blockers": [
+    "No approved indication",
+    "Limited therapeutic efficacy evidence",
+    "Appetite, glucose, cortisol and prolactin effects",
+    "Supplier identity and long-term safety"
+  ]
+}

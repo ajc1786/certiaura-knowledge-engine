@@ -1,0 +1,20 @@
+{
+  "asset_id": "CERT-EKS-000070",
+  "asset_name": "Sermorelin Current Regulatory and Commercial Status",
+  "root_asset": "CERT-PKS-000021",
+  "knowledge_system": "EKS",
+  "asset_type": "Evidence Object",
+  "version": "0.1.0",
+  "status": "HISTORICAL APPROVAL / DISCONTINUATION CLOSURE REQUIRED",
+  "source_domain": "FDA historical records, current Drugs@FDA status, MHRA and EMA searches",
+  "evidence_type": "Regulatory evidence object",
+  "last_review": "2026-07-16",
+  "direct_complete_extraction": false,
+  "permitted_use": "Identity, evidence-domain and source-status reporting.",
+  "prohibited_use": [
+    "Unsupported quantitative clinical claims",
+    "Personal dosing, cycling or reconstitution guidance",
+    "Transfer between distinct peptides",
+    "Transfer from authorised products to supplier vials"
+  ]
+}

@@ -1,30 +1,32 @@
 # CERTIAURA CHANGE LOG
 
-## Build 0021 — Catalogue Segment C2: Metabolic & Incretin-Related Asset Review
+## Build 0022A — GH Secretagogues & GHRH-Axis Review
 **Date:** 2026-07-16
 
-Allocated nine permanent peptide assets:
+Allocated:
 
-- CERT-PKS-000011–000019
+- CERT-PKS-000020–000025
 
 Added:
 
-- nine branded flagship assets;
-- eighteen evidence objects;
-- nine safety objects;
-- supporting biology, monitoring and goal objects;
-- individual regulatory profiles;
-- claim-control matrices;
-- commercial-use boundaries;
-- catalogue price baselines;
-- source-priority map;
-- UAI decision register.
+- six flagship assets;
+- twelve evidence objects;
+- six safety objects;
+- biology, monitoring and goal objects;
+- six regulatory profiles;
+- claim and commercial boundaries;
+- catalogue pricing and Cost Intelligence™ baseline;
+- identity separation map;
+- authoritative source map.
 
 Preserved:
 
-- Retatrutide as CERT-PKS-000001.
-- Unresolved GLP-1 listing without UAI allocation.
+- Tesamorelin, CJC-1295 with DAC and Ipamorelin as existing assets.
 
 Key outcome:
 
-Approved medicines, late-stage investigational agents and preclinical catalogue products are now separated structurally.
+Sermorelin, Modified GRF (1-29) and CJC-1295 with DAC are structurally separated.
+
+GHRP-2, GHRP-6, Hexarelin and Ipamorelin remain distinct identities.
+
+No growth-hormone response was promoted as anti-ageing, fat-loss or performance efficacy.

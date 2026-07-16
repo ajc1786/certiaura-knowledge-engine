@@ -1,0 +1,20 @@
+{
+  "asset_id": "CERT-EKS-000068",
+  "asset_name": "Somatropin Clinical Evidence and Misuse Boundary",
+  "root_asset": "CERT-PKS-000020",
+  "knowledge_system": "EKS",
+  "asset_type": "Evidence Object",
+  "version": "0.1.0",
+  "status": "PRIMARY PROGRAMME MAP CREATED — EXTRACTION REQUIRED",
+  "source_domain": "Growth-hormone-deficiency trials, registries and healthy-adult anti-ageing/performance evidence",
+  "evidence_type": "Human clinical and evidence-boundary object",
+  "last_review": "2026-07-16",
+  "direct_complete_extraction": false,
+  "permitted_use": "Identity, evidence-domain and source-status reporting.",
+  "prohibited_use": [
+    "Unsupported quantitative clinical claims",
+    "Personal dosing, cycling or reconstitution guidance",
+    "Transfer between distinct peptides",
+    "Transfer from authorised products to supplier vials"
+  ]
+}

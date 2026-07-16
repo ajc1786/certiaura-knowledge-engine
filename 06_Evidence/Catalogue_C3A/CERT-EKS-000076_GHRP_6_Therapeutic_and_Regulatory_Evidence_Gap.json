@@ -1,0 +1,20 @@
+{
+  "asset_id": "CERT-EKS-000076",
+  "asset_name": "GHRP-6 Therapeutic and Regulatory Evidence Gap",
+  "root_asset": "CERT-PKS-000024",
+  "knowledge_system": "EKS",
+  "asset_type": "Evidence Object",
+  "version": "0.1.0",
+  "status": "OPEN — AUTHORISED THERAPEUTIC CONTEXT NOT ESTABLISHED",
+  "source_domain": "Therapeutic trials, approval, chronic safety and regulatory searches",
+  "evidence_type": "Evidence-gap object",
+  "last_review": "2026-07-16",
+  "direct_complete_extraction": false,
+  "permitted_use": "Identity, evidence-domain and source-status reporting.",
+  "prohibited_use": [
+    "Unsupported quantitative clinical claims",
+    "Personal dosing, cycling or reconstitution guidance",
+    "Transfer between distinct peptides",
+    "Transfer from authorised products to supplier vials"
+  ]
+}

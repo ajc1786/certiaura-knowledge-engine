@@ -1,0 +1,20 @@
+{
+  "asset_id": "CERT-EKS-000074",
+  "asset_name": "GHRP-2 Japan Diagnostic and International Regulatory Status",
+  "root_asset": "CERT-PKS-000023",
+  "knowledge_system": "EKS",
+  "asset_type": "Evidence Object",
+  "version": "0.1.0",
+  "status": "CURRENT JAPAN PRODUCT STATUS REQUIRES DIRECT VERIFICATION",
+  "source_domain": "PMDA / Japanese product records and FDA, MHRA, EMA searches",
+  "evidence_type": "Regulatory evidence object",
+  "last_review": "2026-07-16",
+  "direct_complete_extraction": false,
+  "permitted_use": "Identity, evidence-domain and source-status reporting.",
+  "prohibited_use": [
+    "Unsupported quantitative clinical claims",
+    "Personal dosing, cycling or reconstitution guidance",
+    "Transfer between distinct peptides",
+    "Transfer from authorised products to supplier vials"
+  ]
+}

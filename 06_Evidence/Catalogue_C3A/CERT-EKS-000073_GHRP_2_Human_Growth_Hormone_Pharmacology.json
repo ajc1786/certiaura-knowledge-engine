@@ -1,0 +1,20 @@
+{
+  "asset_id": "CERT-EKS-000073",
+  "asset_name": "GHRP-2 Human Growth-Hormone Pharmacology",
+  "root_asset": "CERT-PKS-000023",
+  "knowledge_system": "EKS",
+  "asset_type": "Evidence Object",
+  "version": "0.1.0",
+  "status": "PRIMARY HUMAN PUBLICATIONS IDENTIFIED — EXTRACTION REQUIRED",
+  "source_domain": "KP-102 / pralmorelin healthy-volunteer and diagnostic-response publications",
+  "evidence_type": "Human endocrine pharmacology",
+  "last_review": "2026-07-16",
+  "direct_complete_extraction": false,
+  "permitted_use": "Identity, evidence-domain and source-status reporting.",
+  "prohibited_use": [
+    "Unsupported quantitative clinical claims",
+    "Personal dosing, cycling or reconstitution guidance",
+    "Transfer between distinct peptides",
+    "Transfer from authorised products to supplier vials"
+  ]
+}

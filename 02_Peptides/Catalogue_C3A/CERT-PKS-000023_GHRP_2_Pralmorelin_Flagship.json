@@ -1,0 +1,112 @@
+{
+  "asset_id": "CERT-PKS-000023",
+  "asset_name": "GHRP-2 / Pralmorelin",
+  "knowledge_system": "PKS",
+  "asset_type": "Peptide / Protein Knowledge Asset",
+  "version": "0.1.0",
+  "status": "CATALOGUE REVIEWED / EVIDENCE FOUNDATION CREATED / NOT PLATINUM CERTIFIED",
+  "owner": "Aidan Coleman",
+  "last_review": "2026-07-16",
+  "aliases": [
+    "GHRP-2",
+    "pralmorelin",
+    "KP-102"
+  ],
+  "classification": "Ghrelin / growth-hormone-secretagogue receptor agonist peptide",
+  "mechanism_summary": "Ghrelin-receptor agonism stimulating growth hormone release and influencing appetite and additional pituitary hormone responses.",
+  "evidence_maturity": "Human pharmacology and diagnostic-development evidence; reported Japan diagnostic-product context requires current PMDA verification.",
+  "regulatory_headline": "JAPAN DIAGNOSTIC CONTEXT REQUIRES CURRENT VERIFICATION / NO US-UK-EU APPROVAL CLAIM",
+  "catalogue_supplier_skus": [
+    {
+      "catalogue_code": "G25",
+      "specification": "5 mg x 10 vials",
+      "price_usd_per_kit": 27
+    },
+    {
+      "catalogue_code": "G210",
+      "specification": "10 mg x 10 vials",
+      "price_usd_per_kit": 54
+    }
+  ],
+  "relationships": [
+    {
+      "source": "CERT-PKS-000023",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000026"
+    },
+    {
+      "source": "CERT-PKS-000023",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000027"
+    },
+    {
+      "source": "CERT-PKS-000023",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000028"
+    },
+    {
+      "source": "CERT-PKS-000023",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000053"
+    },
+    {
+      "source": "CERT-PKS-000023",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000011"
+    },
+    {
+      "source": "CERT-PKS-000023",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000012"
+    },
+    {
+      "source": "CERT-PKS-000023",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000014"
+    },
+    {
+      "source": "CERT-PKS-000023",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000034"
+    },
+    {
+      "source": "CERT-PKS-000023",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000036"
+    },
+    {
+      "source": "CERT-PKS-000023",
+      "relationship": "SUPPORTS_GOAL",
+      "target": "CERT-GKS-000016"
+    },
+    {
+      "source": "CERT-PKS-000023",
+      "relationship": "SUPPORTS_GOAL",
+      "target": "CERT-GKS-000018"
+    },
+    {
+      "source": "CERT-PKS-000023",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000073"
+    },
+    {
+      "source": "CERT-PKS-000023",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000074"
+    },
+    {
+      "source": "CERT-PKS-000023",
+      "relationship": "HAS_SAFETY",
+      "target": "CERT-SKS-000028"
+    }
+  ],
+  "validated_universal_human_dosing_protocol": false,
+  "supplier_catalogue_proves_quality": false,
+  "platinum_certified": false,
+  "certification_blockers": [
+    "Current Japan authorisation and label",
+    "No US, UK or EU approval claim",
+    "Appetite, cortisol and prolactin response characterisation",
+    "Supplier product identity and sterility"
+  ]
+}

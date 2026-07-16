@@ -1,0 +1,20 @@
+{
+  "asset_id": "CERT-EKS-000067",
+  "asset_name": "Somatropin Authorised Product and Label Source Set",
+  "root_asset": "CERT-PKS-000020",
+  "knowledge_system": "EKS",
+  "asset_type": "Evidence Object",
+  "version": "0.1.0",
+  "status": "CURRENT PRODUCT-SPECIFIC LABEL CAPTURE REQUIRED",
+  "source_domain": "FDA Drugs@FDA, EMA medicines records, MHRA product information and manufacturer labels",
+  "evidence_type": "Authorised product / label evidence",
+  "last_review": "2026-07-16",
+  "direct_complete_extraction": false,
+  "permitted_use": "Identity, evidence-domain and source-status reporting.",
+  "prohibited_use": [
+    "Unsupported quantitative clinical claims",
+    "Personal dosing, cycling or reconstitution guidance",
+    "Transfer between distinct peptides",
+    "Transfer from authorised products to supplier vials"
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "asset_id": "CERT-PKS-000025",
+  "asset_name": "Hexarelin / Examorelin",
+  "knowledge_system": "PKS",
+  "asset_type": "Peptide / Protein Knowledge Asset",
+  "version": "0.1.0",
+  "status": "CATALOGUE REVIEWED / EVIDENCE FOUNDATION CREATED / NOT PLATINUM CERTIFIED",
+  "owner": "Aidan Coleman",
+  "last_review": "2026-07-16",
+  "aliases": [
+    "hexarelin",
+    "examorelin",
+    "EP-23905"
+  ],
+  "classification": "Potent ghrelin / growth-hormone-secretagogue receptor agonist peptide",
+  "mechanism_summary": "Ghrelin-receptor agonism producing growth hormone release and broader endocrine and cardiovascular research effects.",
+  "evidence_maturity": "Human endocrine pharmacology and limited clinical-development evidence; no established authorised treatment.",
+  "regulatory_headline": "INVESTIGATIONAL / UNAPPROVED / ATHLETE WARNING REQUIRED",
+  "catalogue_supplier_skus": [
+    {
+      "catalogue_code": "HX2",
+      "specification": "2 mg x 10 vials",
+      "price_usd_per_kit": 54
+    },
+    {
+      "catalogue_code": "HX5",
+      "specification": "5 mg x 10 vials",
+      "price_usd_per_kit": 85
+    }
+  ],
+  "relationships": [
+    {
+      "source": "CERT-PKS-000025",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000026"
+    },
+    {
+      "source": "CERT-PKS-000025",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000027"
+    },
+    {
+      "source": "CERT-PKS-000025",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000028"
+    },
+    {
+      "source": "CERT-PKS-000025",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000053"
+    },
+    {
+      "source": "CERT-PKS-000025",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000011"
+    },
+    {
+      "source": "CERT-PKS-000025",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000012"
+    },
+    {
+      "source": "CERT-PKS-000025",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000014"
+    },
+    {
+      "source": "CERT-PKS-000025",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000023"
+    },
+    {
+      "source": "CERT-PKS-000025",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000034"
+    },
+    {
+      "source": "CERT-PKS-000025",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000036"
+    },
+    {
+      "source": "CERT-PKS-000025",
+      "relationship": "SUPPORTS_GOAL",
+      "target": "CERT-GKS-000016"
+    },
+    {
+      "source": "CERT-PKS-000025",
+      "relationship": "SUPPORTS_GOAL",
+      "target": "CERT-GKS-000018"
+    },
+    {
+      "source": "CERT-PKS-000025",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000077"
+    },
+    {
+      "source": "CERT-PKS-000025",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000078"
+    },
+    {
+      "source": "CERT-PKS-000025",
+      "relationship": "HAS_SAFETY",
+      "target": "CERT-SKS-000030"
+    }
+  ],
+  "validated_universal_human_dosing_protocol": false,
+  "supplier_catalogue_proves_quality": false,
+  "platinum_certified": false,
+  "certification_blockers": [
+    "No approved indication",
+    "Cardiovascular and endocrine safety",
+    "Desensitisation and chronic exposure",
+    "Supplier identity, purity and sterility"
+  ]
+}

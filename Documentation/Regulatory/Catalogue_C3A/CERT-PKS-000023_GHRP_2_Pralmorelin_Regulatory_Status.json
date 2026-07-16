@@ -1,0 +1,43 @@
+{
+  "asset_uai": "CERT-PKS-000023",
+  "asset_name": "GHRP-2 / Pralmorelin",
+  "status_as_of": "2026-07-16",
+  "overall_status": "JAPAN DIAGNOSTIC CONTEXT REQUIRES CURRENT VERIFICATION / NO US-UK-EU APPROVAL CLAIM",
+  "regulatory_records": [
+    {
+      "jurisdiction": "Japan",
+      "authority": "PMDA / MHLW",
+      "current_status": "Reported diagnostic-product context requires current direct verification.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Approval, label, safety, enforcement, compounding, trial or anti-doping change"
+    },
+    {
+      "jurisdiction": "United States",
+      "authority": "FDA",
+      "current_status": "No approval claim.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Approval, label, safety, enforcement, compounding, trial or anti-doping change"
+    },
+    {
+      "jurisdiction": "United Kingdom",
+      "authority": "MHRA",
+      "current_status": "No marketing-authorisation claim.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Approval, label, safety, enforcement, compounding, trial or anti-doping change"
+    },
+    {
+      "jurisdiction": "European Union",
+      "authority": "EMA / European Commission",
+      "current_status": "No marketing-authorisation claim.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Approval, label, safety, enforcement, compounding, trial or anti-doping change"
+    },
+    {
+      "jurisdiction": "International sport",
+      "authority": "WADA",
+      "current_status": "Growth-hormone secretagogue / releasing-factor controls require athlete warning.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Approval, label, safety, enforcement, compounding, trial or anti-doping change"
+    }
+  ]
+}

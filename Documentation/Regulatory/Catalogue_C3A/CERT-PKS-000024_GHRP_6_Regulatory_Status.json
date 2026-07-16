@@ -1,0 +1,36 @@
+{
+  "asset_uai": "CERT-PKS-000024",
+  "asset_name": "GHRP-6",
+  "status_as_of": "2026-07-16",
+  "overall_status": "INVESTIGATIONAL / UNAPPROVED / ATHLETE WARNING REQUIRED",
+  "regulatory_records": [
+    {
+      "jurisdiction": "United States",
+      "authority": "FDA",
+      "current_status": "No approval claim; compounding, safety and enforcement status requires monitoring.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Approval, label, safety, enforcement, compounding, trial or anti-doping change"
+    },
+    {
+      "jurisdiction": "United Kingdom",
+      "authority": "MHRA",
+      "current_status": "No marketing-authorisation claim.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Approval, label, safety, enforcement, compounding, trial or anti-doping change"
+    },
+    {
+      "jurisdiction": "European Union",
+      "authority": "EMA / European Commission",
+      "current_status": "No marketing-authorisation claim.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Approval, label, safety, enforcement, compounding, trial or anti-doping change"
+    },
+    {
+      "jurisdiction": "International sport",
+      "authority": "WADA",
+      "current_status": "Growth-hormone secretagogue / releasing-factor controls require athlete warning.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Approval, label, safety, enforcement, compounding, trial or anti-doping change"
+    }
+  ]
+}

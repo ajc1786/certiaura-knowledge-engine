@@ -1,0 +1,26 @@
+Asset UAI,Asset Name,Jurisdiction,Authority,Current Controlled Position,Monitoring,Status Date
+CERT-PKS-000020,Somatropin,United States,FDA,Authorised somatropin product contexts exist; exact brand and indication require current label capture.,ACTIVE,2026-07-16
+CERT-PKS-000020,Somatropin,United Kingdom,MHRA,Authorised prescription-product contexts exist; current product information controls claims.,ACTIVE,2026-07-16
+CERT-PKS-000020,Somatropin,European Union,EMA / European Commission,Authorised somatropin medicines exist; current product-specific status applies.,ACTIVE,2026-07-16
+CERT-PKS-000020,Somatropin,International sport,WADA,Growth hormone is subject to anti-doping prohibition controls.,ACTIVE,2026-07-16
+CERT-PKS-000021,Sermorelin,United States,FDA,Historical approval and discontinuation context; no current universally marketed FDA-approved product claim.,ACTIVE,2026-07-16
+CERT-PKS-000021,Sermorelin,United Kingdom,MHRA,No current marketing-authorisation claim.,ACTIVE,2026-07-16
+CERT-PKS-000021,Sermorelin,European Union,EMA / European Commission,No current central marketing-authorisation claim.,ACTIVE,2026-07-16
+CERT-PKS-000021,Sermorelin,International sport,WADA,Growth-hormone releasing-factor controls require athlete warning.,ACTIVE,2026-07-16
+CERT-PKS-000022,Modified GRF (1-29),United States,FDA,"No approval claim; compounding, safety and enforcement status requires monitoring.",ACTIVE,2026-07-16
+CERT-PKS-000022,Modified GRF (1-29),United Kingdom,MHRA,No marketing-authorisation claim.,ACTIVE,2026-07-16
+CERT-PKS-000022,Modified GRF (1-29),European Union,EMA / European Commission,No marketing-authorisation claim.,ACTIVE,2026-07-16
+CERT-PKS-000022,Modified GRF (1-29),International sport,WADA,Growth-hormone secretagogue / releasing-factor controls require athlete warning.,ACTIVE,2026-07-16
+CERT-PKS-000023,GHRP-2 / Pralmorelin,Japan,PMDA / MHLW,Reported diagnostic-product context requires current direct verification.,ACTIVE,2026-07-16
+CERT-PKS-000023,GHRP-2 / Pralmorelin,United States,FDA,No approval claim.,ACTIVE,2026-07-16
+CERT-PKS-000023,GHRP-2 / Pralmorelin,United Kingdom,MHRA,No marketing-authorisation claim.,ACTIVE,2026-07-16
+CERT-PKS-000023,GHRP-2 / Pralmorelin,European Union,EMA / European Commission,No marketing-authorisation claim.,ACTIVE,2026-07-16
+CERT-PKS-000023,GHRP-2 / Pralmorelin,International sport,WADA,Growth-hormone secretagogue / releasing-factor controls require athlete warning.,ACTIVE,2026-07-16
+CERT-PKS-000024,GHRP-6,United States,FDA,"No approval claim; compounding, safety and enforcement status requires monitoring.",ACTIVE,2026-07-16
+CERT-PKS-000024,GHRP-6,United Kingdom,MHRA,No marketing-authorisation claim.,ACTIVE,2026-07-16
+CERT-PKS-000024,GHRP-6,European Union,EMA / European Commission,No marketing-authorisation claim.,ACTIVE,2026-07-16
+CERT-PKS-000024,GHRP-6,International sport,WADA,Growth-hormone secretagogue / releasing-factor controls require athlete warning.,ACTIVE,2026-07-16
+CERT-PKS-000025,Hexarelin / Examorelin,United States,FDA,"No approval claim; compounding, safety and enforcement status requires monitoring.",ACTIVE,2026-07-16
+CERT-PKS-000025,Hexarelin / Examorelin,United Kingdom,MHRA,No marketing-authorisation claim.,ACTIVE,2026-07-16
+CERT-PKS-000025,Hexarelin / Examorelin,European Union,EMA / European Commission,No marketing-authorisation claim.,ACTIVE,2026-07-16
+CERT-PKS-000025,Hexarelin / Examorelin,International sport,WADA,Growth-hormone secretagogue / releasing-factor controls require athlete warning.,ACTIVE,2026-07-16
