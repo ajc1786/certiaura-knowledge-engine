@@ -1,0 +1,38 @@
+{
+  "asset_uai": "CERT-PKS-000045",
+  "asset_name": "Unbranded Cerebrolysin-Type Product Family",
+  "version": "0.2.0",
+  "status_as_of": "2026-07-16",
+  "closure_wave": "0031A",
+  "overall_status": "BLOCKED — SOURCE TISSUE, HYDROLYSATE PROCESS AND COMPOSITION UNKNOWN",
+  "regulatory_records": [
+    {
+      "jurisdiction": "Global",
+      "authority": "Product identity control",
+      "current_status": "Branded Cerebrolysin clinical literature cannot establish identity, quality, efficacy or safety of the unbranded C60 product.",
+      "monitoring_state": "BLOCKED",
+      "next_review_trigger": "Identity, approval, label, warning, recall, enforcement, counterfeit, safety or anti-doping change"
+    },
+    {
+      "jurisdiction": "United States",
+      "authority": "FDA",
+      "current_status": "No approval or branded-product-equivalence claim for C60.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Identity, approval, label, warning, recall, enforcement, counterfeit, safety or anti-doping change"
+    },
+    {
+      "jurisdiction": "United Kingdom",
+      "authority": "MHRA",
+      "current_status": "No marketing-authorisation claim for C60.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Identity, approval, label, warning, recall, enforcement, counterfeit, safety or anti-doping change"
+    },
+    {
+      "jurisdiction": "European Union",
+      "authority": "EMA / national authorities",
+      "current_status": "Any national product status requires exact manufacturer and formulation verification.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Identity, approval, label, warning, recall, enforcement, counterfeit, safety or anti-doping change"
+    }
+  ]
+}

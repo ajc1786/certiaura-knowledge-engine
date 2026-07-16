@@ -3,8 +3,8 @@
   "asset_name": "Insulin Supplier Product Family",
   "knowledge_system": "PKS",
   "asset_type": "Peptide / Protein / Biologic Knowledge Asset",
-  "version": "0.1.0",
-  "status": "CATALOGUE REVIEWED / EVIDENCE FOUNDATION CREATED / NOT PLATINUM CERTIFIED",
+  "version": "0.2.0",
+  "status": "P0 EVIDENCE CLOSURE WAVE 1 / CRITICAL PRODUCT IDENTITY BLOCK ACTIVE / NOT PLATINUM CERTIFIED",
   "owner": "Aidan Coleman",
   "last_review": "2026-07-16",
   "aliases": [
@@ -93,6 +93,21 @@
       "source": "CERT-PKS-000036",
       "relationship": "HAS_SAFETY",
       "target": "CERT-SKS-000041"
+    },
+    {
+      "source": "CERT-PKS-000036",
+      "relationship": "HAS_PASSPORT",
+      "target": "CERT-PPS-000013"
+    },
+    {
+      "source": "CERT-PKS-000036",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000233"
+    },
+    {
+      "source": "CERT-PKS-000036",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000234"
     }
   ],
   "validated_universal_human_dosing_protocol": false,
@@ -104,5 +119,20 @@
     "Rapid, short, intermediate or long-acting profile",
     "Formulation, device, excipients and route",
     "Cold-chain, sterility and manufacturer identity"
+  ],
+  "closure_wave": "0031A",
+  "closure_priority": "P0",
+  "closure_class": "CRITICAL BIOLOGIC IDENTITY AND POTENCY",
+  "closure_state": "BLOCKED — MOLECULE, CONCENTRATION, ACTION PROFILE AND PRODUCT UNKNOWN",
+  "authoritative_product_boundary": "Authorised insulin products are exact biological products with defined proper names, concentrations, delivery systems and pharmacokinetic profiles. A generic catalogue entry cannot inherit any authorised insulin label.",
+  "product_passport": "CERT-PPS-000013",
+  "identity_verified": false,
+  "authorised_product_equivalence": false,
+  "critical_closure_controls": [
+    "No conversion between mg and insulin units",
+    "No assumption that IN100 is U-100 insulin",
+    "No rapid-acting, basal or weekly-insulin classification",
+    "No transfer from Humulin, Novolin, NovoLog, Lantus, Awiqli or another product",
+    "Severe hypoglycaemia and fatal dosing-error risk retained"
   ]
 }

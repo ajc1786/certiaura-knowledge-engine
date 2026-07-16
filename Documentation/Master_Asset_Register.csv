@@ -1,30 +1,22 @@
 Universal Asset Identifier,Asset Name,Knowledge System,Asset Type,Status,Owner,Parent Assets,Last Review,Notes
-CERT-PKS-000089,Elamipretide / SS-31,PKS,Peptide / Supplier Product-Family Knowledge Asset,Catalogue Coverage Corrected — Authorised-Product Boundary Active,Aidan Coleman,,2026-07-16,Build 0030A
-CERT-PKS-000090,Generic GLP-1 Supplier Product Family,PKS,Peptide / Supplier Product-Family Knowledge Asset,Catalogue Coverage Corrected — Critical Identity Block Active,Aidan Coleman,,2026-07-16,Build 0030A
-CERT-BKS-000179,Mitochondrial Cardiolipin and Inner-Membrane Biology,BKS,Biology Object,Foundation,Aidan Coleman,,2026-07-16,Build 0030A
-CERT-BKS-000180,Elamipretide Chemistry and Mitochondrial Localisation,BKS,Biology Object,Foundation,Aidan Coleman,,2026-07-16,Build 0030A
-CERT-BKS-000181,"TAZ, Cardiolipin Remodelling and Barth Syndrome",BKS,Biology Object,Foundation,Aidan Coleman,,2026-07-16,Build 0030A
-CERT-BKS-000182,GLP-1 Molecular Forms and Proglucagon Processing,BKS,Biology Object,Foundation,Aidan Coleman,,2026-07-16,Build 0030A
-CERT-BKS-000183,GLP-1 Receptor and Incretin Biology,BKS,Biology Object,Foundation,Aidan Coleman,,2026-07-16,Build 0030A
-CERT-BKS-000184,DPP-4 Cleavage and Native GLP-1 Degradation,BKS,Biology Object,Foundation,Aidan Coleman,,2026-07-16,Build 0030A
-CERT-CKS-000058,Barth Syndrome,CKS,Condition Object,Foundation,Aidan Coleman,,2026-07-16,Build 0030A
-CERT-CKS-000059,Native GLP-1 Physiology and Metabolic Research,CKS,Condition Object,Foundation,Aidan Coleman,,2026-07-16,Build 0030A
-CERT-MKS-000173,"Elamipretide Sequence, Stereochemistry and Salt Verification",MKS,Monitoring Object,Foundation,Aidan Coleman,,2026-07-16,Build 0030A
-CERT-MKS-000174,Barth Muscle Strength and Functional Outcomes,MKS,Monitoring Object,Foundation,Aidan Coleman,,2026-07-16,Build 0030A
-CERT-MKS-000175,Elamipretide Hypersensitivity and Injection-Site Reactions,MKS,Monitoring Object,Foundation,Aidan Coleman,,2026-07-16,Build 0030A
-CERT-MKS-000176,Forzinity Product-Specific Renal and Benzyl-Alcohol Controls,MKS,Monitoring Object,Foundation,Aidan Coleman,,2026-07-16,Build 0030A
-CERT-MKS-000177,"GLP-1 Residue Range, Sequence and C-Terminal Form",MKS,Monitoring Object,Foundation,Aidan Coleman,,2026-07-16,Build 0030A
-CERT-MKS-000178,"Glucose, Insulin, Glucagon and Hypoglycaemia Outcomes",MKS,Monitoring Object,Foundation,Aidan Coleman,,2026-07-16,Build 0030A
-CERT-MKS-000179,Gastric Emptying and Gastrointestinal Effects,MKS,Monitoring Object,Foundation,Aidan Coleman,,2026-07-16,Build 0030A
-CERT-MKS-000180,Native GLP-1 Degradation and Pharmacokinetics,MKS,Monitoring Object,Foundation,Aidan Coleman,,2026-07-16,Build 0030A
-CERT-MKS-000181,"Supplier Peptide Identity, Purity and Sterility Verification",MKS,Monitoring Object,Foundation,Aidan Coleman,,2026-07-16,Build 0030A
-CERT-GKS-000093,Barth Syndrome Authorised-Product Evidence,GKS,Goal Object,Foundation,Aidan Coleman,,2026-07-16,Build 0030A
-CERT-GKS-000094,Mitochondrial Cardiolipin Research,GKS,Goal Object,Foundation,Aidan Coleman,,2026-07-16,Build 0030A
-CERT-GKS-000095,Native GLP-1 Physiology Research,GKS,Goal Object,Foundation,Aidan Coleman,,2026-07-16,Build 0030A
-CERT-GKS-000096,Generic GLP-1 Product Identity Resolution,GKS,Goal Object,Foundation,Aidan Coleman,,2026-07-16,Build 0030A
-CERT-SKS-000106,"Elamipretide Authorised-Product Equivalence, Hypersensitivity and Formulation Risk",SKS,Safety Object,Active,Aidan Coleman,CERT-PKS-000089,2026-07-16,Build 0030A
-CERT-SKS-000107,"Generic GLP-1 Critical Identity, Hypoglycaemia and Human-Use Uncertainty",SKS,Safety Object,Active,Aidan Coleman,CERT-PKS-000090,2026-07-16,Build 0030A
-CERT-EKS-000229,Elamipretide Chemical Identity and Forzinity Label Evidence,EKS,Evidence Object,AUTHORITATIVE UNITED STATES LABEL IDENTIFIED — DIRECT EXTRACTION REQUIRED,Aidan Coleman,CERT-PKS-000089,2026-07-16,Build 0030A
-CERT-EKS-000230,"Elamipretide Clinical, Confirmatory and International Regulatory Evidence",EKS,Evidence Object,CURRENT PRODUCT- AND JURISDICTION-SPECIFIC REVIEW REQUIRED,Aidan Coleman,CERT-PKS-000089,2026-07-16,Build 0030A
-CERT-EKS-000231,Native GLP-1 Molecular Forms and Human Physiology Evidence,EKS,Evidence Object,PRIMARY MOLECULAR-FORM SOURCES IDENTIFIED,Aidan Coleman,CERT-PKS-000090,2026-07-16,Build 0030A
-CERT-EKS-000232,Generic GLP-1 Supplier Product Identity and Regulatory Block,EKS,Evidence Object,OPEN — NO EXACT SUPPLIER MOLECULE ESTABLISHED,Aidan Coleman,CERT-PKS-000090,2026-07-16,Build 0030A
+CERT-PKS-000036,Insulin Supplier Product Family,PKS,Existing Product-Family Asset — Updated,P0 Closure Wave 1 / Critical Identity Block,Aidan Coleman,,2026-07-16,Build 0031A update
+CERT-PKS-000037,Erythropoietin Supplier Product Family,PKS,Existing Product-Family Asset — Updated,P0 Closure Wave 1 / Critical Identity Block,Aidan Coleman,,2026-07-16,Build 0031A update
+CERT-PKS-000045,Unbranded Cerebrolysin-Type Product Family,PKS,Existing Product-Family Asset — Updated,P0 Closure Wave 1 / Critical Identity Block,Aidan Coleman,,2026-07-16,Build 0031A update
+CERT-MPS-000007,Bacteriostatic Water Supplier Family,MPS,Existing Product-Family Asset — Updated,P0 Closure Wave 1 / Critical Identity Block,Aidan Coleman,,2026-07-16,Build 0031A update
+CERT-MPS-000008,Acetic Acid Water Supplier Family,MPS,Existing Product-Family Asset — Updated,P0 Closure Wave 1 / Critical Identity Block,Aidan Coleman,,2026-07-16,Build 0031A update
+CERT-MPS-000009,Botulinum Toxin Supplier Product Family,MPS,Existing Product-Family Asset — Updated,P0 Closure Wave 1 / Critical Identity Block,Aidan Coleman,,2026-07-16,Build 0031A update
+CERT-PPS-000013,Insulin Supplier Product Family Product Passport,PPS,Critical Product Passport Gap Object,P0 Open / Not Certified,Aidan Coleman,CERT-PKS-000036,2026-07-16,Build 0031A
+CERT-PPS-000014,Erythropoietin Supplier Product Family Product Passport,PPS,Critical Product Passport Gap Object,P0 Open / Not Certified,Aidan Coleman,CERT-PKS-000037,2026-07-16,Build 0031A
+CERT-PPS-000015,Unbranded Cerebrolysin-Type Product Family Product Passport,PPS,Critical Product Passport Gap Object,P0 Open / Not Certified,Aidan Coleman,CERT-PKS-000045,2026-07-16,Build 0031A
+CERT-EKS-000233,Insulin Current Biologic Product Landscape and Identity Boundary,EKS,Priority Evidence Closure Object,AUTHORITATIVE PRODUCT LANDSCAPE IDENTIFIED — SUPPLIER IDENTITY REMAINS OPEN,Aidan Coleman,CERT-PKS-000036,2026-07-16,Build 0031A
+CERT-EKS-000234,"Insulin Supplier Vial Potency, Hypoglycaemia and Product-Mismatch Gap",EKS,Priority Evidence Closure Object,OPEN — NO SUPPLIER INSULIN PRODUCT ESTABLISHED,Aidan Coleman,CERT-PKS-000036,2026-07-16,Build 0031A
+CERT-EKS-000235,Erythropoietin Authorised ESA Product and Safety Evidence,EKS,Priority Evidence Closure Object,AUTHORITATIVE ESA SAFETY SOURCE IDENTIFIED,Aidan Coleman,CERT-PKS-000037,2026-07-16,Build 0031A
+CERT-EKS-000236,"Erythropoietin Supplier Glycoprotein, Potency and Anti-Doping Gap",EKS,Priority Evidence Closure Object,OPEN — NO SUPPLIER ESA PRODUCT ESTABLISHED,Aidan Coleman,CERT-PKS-000037,2026-07-16,Build 0031A
+CERT-EKS-000237,Branded Cerebrolysin Composition and Human Trial Comparator Evidence,EKS,Priority Evidence Closure Object,COMPARATOR EVIDENCE IDENTIFIED — NON-TRANSFERABLE,Aidan Coleman,CERT-PKS-000045,2026-07-16,Build 0031A
+CERT-EKS-000238,Unbranded Cerebrolysin-Type Comparability and Biological-Source Gap,EKS,Priority Evidence Closure Object,OPEN — UNBRANDED PRODUCT COMPARABILITY NOT ESTABLISHED,Aidan Coleman,CERT-PKS-000045,2026-07-16,Build 0031A
+CERT-EKS-000239,Bacteriostatic Water Finished-Product Identity Evidence,EKS,Priority Evidence Closure Object,AUTHORITATIVE FINISHED-PRODUCT IDENTITY IDENTIFIED,Aidan Coleman,CERT-MPS-000007,2026-07-16,Build 0031A
+CERT-EKS-000240,"Supplier Bacteriostatic Water Preservative, Sterility and Duplicate-Listing Gap",EKS,Priority Evidence Closure Object,OPEN — SUPPLIER DILUENT NOT VERIFIED,Aidan Coleman,CERT-MPS-000007,2026-07-16,Build 0031A
+CERT-EKS-000241,"Acetic Acid Water Concentration, pH and Sterile-Formulation Gap",EKS,Priority Evidence Closure Object,OPEN — FORMULATION IDENTITY NOT ESTABLISHED,Aidan Coleman,CERT-MPS-000008,2026-07-16,Build 0031A
+CERT-EKS-000242,Acetic Acid Water Drug-Specific Compatibility Evidence Block,EKS,Priority Evidence Closure Object,BLOCKED BY CERT-EKS-000241,Aidan Coleman,CERT-MPS-000008,2026-07-16,Build 0031A
+CERT-EKS-000243,Botulinum Toxin Current Authorised-Product and Iatrogenic-Botulism Evidence,EKS,Priority Evidence Closure Object,AUTHORITATIVE 2026 SAFETY AND ENFORCEMENT SOURCES IDENTIFIED,Aidan Coleman,CERT-MPS-000009,2026-07-16,Build 0031A
+CERT-EKS-000244,"XT100 Serotype, Proper Name, Potency Assay and Authenticity Gap",EKS,Priority Evidence Closure Object,OPEN — XT100 PRODUCT IDENTITY NOT ESTABLISHED,Aidan Coleman,CERT-MPS-000009,2026-07-16,Build 0031A

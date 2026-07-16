@@ -8,57 +8,46 @@
 
 # CERT-PKS-000036 — Insulin Supplier Product Family
 
-**Version:** 0.1.0  
-**Status:** CATALOGUE REVIEWED / EVIDENCE FOUNDATION CREATED / NOT PLATINUM CERTIFIED  
+**System:** PKS  
+**Object:** Peptide / Biologic Product-Family Asset  
+**Version:** 0.2.0  
+**Status:** P0 EVIDENCE CLOSURE WAVE 1 / CRITICAL PRODUCT IDENTITY BLOCK ACTIVE  
 **Last Review:** 2026-07-16
 
-## Classification
+## Closure state
 
-Chemically and clinically under-specified insulin protein-hormone product family
+**BLOCKED — MOLECULE, CONCENTRATION, ACTION PROFILE AND PRODUCT UNKNOWN**
 
-## Aliases
+## Authoritative product boundary
 
-insulin, human insulin, insulin analogue
+Authorised insulin products are exact biological products with defined proper names, concentrations, delivery systems and pharmacokinetic profiles. A generic catalogue entry cannot inherit any authorised insulin label.
 
-## Mechanism
+## New closure evidence
 
-Insulin receptor agonism regulating glucose uptake, hepatic glucose output, lipid metabolism and potassium distribution.
+- `CERT-EKS-000233`
+- `CERT-EKS-000234`
 
-## Evidence maturity
+## Product Passport
 
-Extensive authorised medicine evidence, but the catalogue entry lacks the minimum identity fields needed to determine product class or clinical use.
+`CERT-PPS-000013`
 
-## Evidence foundation
+## Catalogue records
 
-- `CERT-EKS-000099`
-- `CERT-EKS-000100`
-
-## Regulatory headline
-
-**AUTHORISED INSULIN MEDICINES EXIST / CATALOGUE PRODUCT IDENTITY UNRESOLVED / CRITICAL-RISK**
-
-## Catalogue pricing
-
-| Code | Supplier specification | USD per kit |
+| Code | Specification | USD per kit |
 |---|---|---:|
 | ISU | 3 mL x 10 vials | $239 |
 
-## Product-quality boundary
+## Critical controls
 
-The catalogue does not establish exact molecule, formulation, concentration, potency, purity, sterility, manufacturer or equivalence to an authorised medicine.
+- No conversion between mg and insulin units
+- No assumption that IN100 is U-100 insulin
+- No rapid-acting, basal or weekly-insulin classification
+- No transfer from Humulin, Novolin, NovoLog, Lantus, Awiqli or another product
+- Severe hypoglycaemia and fatal dosing-error risk retained
 
-## Validated universal human dosing protocol
+## Certification state
 
-**No**
-
-## Certification blockers
-
-- Insulin molecule or analogue
-- Concentration and potency units
-- Rapid, short, intermediate or long-acting profile
-- Formulation, device, excipients and route
-- Cold-chain, sterility and manufacturer identity
-
-## Platinum Certified
-
-**No**
+- Identity verified: **No**
+- Authorised-product equivalence: **No**
+- Universal human dosing or administration protocol: **No**
+- Platinum Certified: **No**

@@ -1,29 +1,31 @@
 {
   "asset_uai": "CERT-MPS-000007",
   "asset_name": "Bacteriostatic Water Supplier Family",
+  "version": "0.2.0",
   "status_as_of": "2026-07-16",
-  "overall_status": "DILUENT IDENTITY AND STERILITY UNVERIFIED / NO AUTHORISED-PRODUCT EQUIVALENCE",
+  "closure_wave": "0031A",
+  "overall_status": "BLOCKED — USP STATUS, 0.9% BENZYL ALCOHOL AND STERILITY UNVERIFIED",
   "regulatory_records": [
     {
       "jurisdiction": "United States",
-      "authority": "FDA / USP product context",
-      "current_status": "Authorised finished bacteriostatic-water products exist; supplier equivalence and sterile release are not established.",
+      "authority": "FDA / USP finished-product context",
+      "current_status": "Finished Bacteriostatic Water for Injection products have exact preservative, sterility and multidose identities. WA10/BA10/BA05/BA03 remain unverified.",
       "monitoring_state": "ACTIVE",
-      "next_review_trigger": "Identity, approval, warning, enforcement, recall, safety or classification change"
+      "next_review_trigger": "Identity, approval, label, warning, recall, enforcement, counterfeit, safety or anti-doping change"
     },
     {
       "jurisdiction": "United Kingdom",
       "authority": "MHRA",
-      "current_status": "No supplier-product authorisation or sterile-diluent equivalence claim.",
+      "current_status": "No supplier-product authorisation, sterility or universal compatibility claim.",
       "monitoring_state": "ACTIVE",
-      "next_review_trigger": "Identity, approval, warning, enforcement, recall, safety or classification change"
+      "next_review_trigger": "Identity, approval, label, warning, recall, enforcement, counterfeit, safety or anti-doping change"
     },
     {
       "jurisdiction": "European Union",
       "authority": "National medicines authorities",
-      "current_status": "Finished diluent status is product and jurisdiction specific.",
+      "current_status": "Finished diluent status is exact-product and jurisdiction specific.",
       "monitoring_state": "ACTIVE",
-      "next_review_trigger": "Identity, approval, warning, enforcement, recall, safety or classification change"
+      "next_review_trigger": "Identity, approval, label, warning, recall, enforcement, counterfeit, safety or anti-doping change"
     }
   ]
 }

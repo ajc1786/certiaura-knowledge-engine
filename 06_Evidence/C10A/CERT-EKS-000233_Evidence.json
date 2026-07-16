@@ -1,0 +1,20 @@
+{
+  "asset_id": "CERT-EKS-000233",
+  "asset_name": "Insulin Current Biologic Product Landscape and Identity Boundary",
+  "root_asset": "CERT-PKS-000036",
+  "knowledge_system": "EKS",
+  "asset_type": "Priority Evidence Closure Object",
+  "version": "0.2.0",
+  "status": "AUTHORITATIVE PRODUCT LANDSCAPE IDENTIFIED — SUPPLIER IDENTITY REMAINS OPEN",
+  "closure_wave": "0031A",
+  "closure_priority": "P0",
+  "source_domain": "FDA Purple Book and current licensed insulin products, including exact proper names, concentrations, presentations and biological licence records",
+  "evidence_type": "Authorised product / identity evidence",
+  "last_review": "2026-07-16",
+  "direct_complete_extraction": false,
+  "prohibited_use": [
+    "Personal dosing, injection, infusion, dilution or reconstitution guidance",
+    "Authorised-product evidence transfer to a supplier product",
+    "Assumption of identity, concentration, potency, compatibility or sterility"
+  ]
+}

@@ -10,11 +10,11 @@
 
 | Claim | Permission |
 |---|---|
-| Bacteriostatic Water Supplier Family is classified as sterile-diluent candidate supplier product family. | Allowed |
-| DILUENT IDENTITY AND STERILITY UNVERIFIED / NO AUTHORISED-PRODUCT EQUIVALENCE | Allowed as a dated controlled headline |
-| The supplier product is equivalent to an authorised medicine or device. | Not established / prohibited |
-| A validated procedural or self-administration protocol exists. | False / prohibited |
-| The Product Passport is certified. | False / prohibited |
-| WA10 and BA10 are proven to be the same manufactured product. | Not established |
+| This asset is in Priority P0 closure. | Allowed |
+| A finished Bacteriostatic Water for Injection product is a sterile, nonpyrogenic multidose preparation with a defined preservative concentration. The supplier term bac.water does not establish that identity. | Allowed as a controlled boundary |
+| The catalogue item is equivalent to an authorised product. | False / prohibited |
+| Supplier identity, potency and sterility are verified. | False / prohibited |
+| A treatment, dosing, injection or reconstitution protocol is validated. | False / prohibited |
+| The asset is Platinum Certified. | False / prohibited |
 
 **Status as of:** 2026-07-16

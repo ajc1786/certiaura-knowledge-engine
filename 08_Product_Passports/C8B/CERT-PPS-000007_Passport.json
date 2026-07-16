@@ -3,37 +3,56 @@
   "asset_name": "Bacteriostatic Water Supplier Family Product Passport",
   "knowledge_system": "PPS",
   "asset_type": "Product Passport Gap Object",
-  "version": "0.1.0",
-  "status": "OPEN / NOT CERTIFIED",
+  "version": "0.2.0",
+  "status": "P0 OPEN / CRITICAL CLOSURE WAVE ACTIVE / NOT CERTIFIED",
   "parent_product": "CERT-MPS-000007",
   "last_review": "2026-07-16",
   "required_fields": [
     {
-      "field": "water type and pharmacopoeial monograph",
-      "status": "OPEN"
+      "field": "USP or other pharmacopoeial product identity",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical and regulatory evidence"
     },
     {
-      "field": "benzyl alcohol identity and concentration",
-      "status": "OPEN"
+      "field": "water-for-injection raw-material standard",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical and regulatory evidence"
     },
     {
-      "field": "single-dose versus multidose container status",
-      "status": "OPEN"
+      "field": "benzyl alcohol concentration",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical and regulatory evidence"
     },
     {
-      "field": "sterility, endotoxin and pyrogen status",
-      "status": "OPEN"
+      "field": "single-dose or multidose designation",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical and regulatory evidence"
     },
     {
-      "field": "manufacturer, batch and release specification",
-      "status": "OPEN"
+      "field": "manufacturer and authorised supply chain",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical and regulatory evidence"
     },
     {
-      "field": "container closure and extractables/leachables",
-      "status": "OPEN"
+      "field": "sterility, bacterial endotoxin and pyrogen testing",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical and regulatory evidence"
+    },
+    {
+      "field": "particulate, container closure and extractables/leachables",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical and regulatory evidence"
+    },
+    {
+      "field": "drug-specific compatibility statement",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical and regulatory evidence"
     }
   ],
   "identity_certified": false,
   "quality_certified": false,
-  "sterility_certified": false
+  "sterility_certified": false,
+  "closure_wave": "0031A",
+  "closure_priority": "P0",
+  "authorised_product_equivalence": false
 }

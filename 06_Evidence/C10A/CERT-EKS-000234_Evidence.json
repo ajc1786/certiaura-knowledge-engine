@@ -1,0 +1,20 @@
+{
+  "asset_id": "CERT-EKS-000234",
+  "asset_name": "Insulin Supplier Vial Potency, Hypoglycaemia and Product-Mismatch Gap",
+  "root_asset": "CERT-PKS-000036",
+  "knowledge_system": "EKS",
+  "asset_type": "Priority Evidence Closure Object",
+  "version": "0.2.0",
+  "status": "OPEN — NO SUPPLIER INSULIN PRODUCT ESTABLISHED",
+  "closure_wave": "0031A",
+  "closure_priority": "P0",
+  "source_domain": "Supplier molecule, concentration, potency units, action profile, formulation, cold chain, sterility and fatal dosing-error controls",
+  "evidence_type": "Critical product-identity and safety gap",
+  "last_review": "2026-07-16",
+  "direct_complete_extraction": false,
+  "prohibited_use": [
+    "Personal dosing, injection, infusion, dilution or reconstitution guidance",
+    "Authorised-product evidence transfer to a supplier product",
+    "Assumption of identity, concentration, potency, compatibility or sterility"
+  ]
+}

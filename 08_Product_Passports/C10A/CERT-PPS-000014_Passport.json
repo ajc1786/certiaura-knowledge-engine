@@ -1,0 +1,57 @@
+{
+  "asset_id": "CERT-PPS-000014",
+  "asset_name": "Erythropoietin Supplier Product Family Product Passport",
+  "knowledge_system": "PPS",
+  "asset_type": "Critical Product Passport Gap Object",
+  "version": "0.2.0",
+  "status": "P0 OPEN / NOT CERTIFIED",
+  "parent_product": "CERT-PKS-000037",
+  "closure_wave": "0031A",
+  "last_review": "2026-07-16",
+  "required_fields": [
+    {
+      "field": "exact molecule: epoetin alfa, beta, theta, zeta, darbepoetin or other",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical and regulatory evidence"
+    },
+    {
+      "field": "amino-acid and glycosylation profile",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical and regulatory evidence"
+    },
+    {
+      "field": "production cell line and purification process",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical and regulatory evidence"
+    },
+    {
+      "field": "potency unit definition and assay",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical and regulatory evidence"
+    },
+    {
+      "field": "concentration, formulation and excipients",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical and regulatory evidence"
+    },
+    {
+      "field": "manufacturer, biological licence and authorised supply chain",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical and regulatory evidence"
+    },
+    {
+      "field": "aggregation, immunogenicity and anti-EPO antibody control",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical and regulatory evidence"
+    },
+    {
+      "field": "cold chain, sterility, endotoxin and container closure",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical and regulatory evidence"
+    }
+  ],
+  "identity_certified": false,
+  "quality_certified": false,
+  "sterility_certified": false,
+  "authorised_product_equivalence": false
+}

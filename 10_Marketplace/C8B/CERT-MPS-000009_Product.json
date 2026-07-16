@@ -3,8 +3,8 @@
   "asset_name": "Botulinum Toxin Supplier Product Family",
   "knowledge_system": "MPS",
   "asset_type": "Marketplace Product-Family Asset",
-  "version": "0.1.0",
-  "status": "CATALOGUE REVIEWED / PRODUCT PASSPORT GAP ACTIVE / NOT QUALITY VERIFIED",
+  "version": "0.2.0",
+  "status": "P0 EVIDENCE CLOSURE WAVE 1 / CRITICAL PRODUCT IDENTITY BLOCK ACTIVE / NOT PLATINUM CERTIFIED",
   "owner": "Aidan Coleman",
   "last_review": "2026-07-16",
   "classification": "Unbranded neurotoxin biologic supplier product family",
@@ -89,11 +89,34 @@
       "source": "CERT-MPS-000009",
       "relationship": "SUPPORTS_GOAL",
       "target": "CERT-GKS-000089"
+    },
+    {
+      "source": "CERT-MPS-000009",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000243"
+    },
+    {
+      "source": "CERT-MPS-000009",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000244"
     }
   ],
   "product_passport": "CERT-PPS-000009",
   "identity_verified": false,
   "sterility_verified": false,
   "authorised_product_equivalence": false,
-  "validated_universal_human_dosing_protocol": false
+  "validated_universal_human_dosing_protocol": false,
+  "closure_wave": "0031A",
+  "closure_priority": "P0",
+  "closure_class": "CRITICAL NEUROTOXIN IDENTITY, POTENCY AND AUTHENTICITY",
+  "closure_state": "BLOCKED — SEROTYPE, PROPER NAME, BRAND, ASSAY AND MANUFACTURER UNKNOWN",
+  "authoritative_product_boundary": "Authorised botulinum toxin products are prescription medicines with exact proper names, manufacturers, potency assays, indications and non-interchangeable units. XT100 cannot inherit any authorised product label.",
+  "platinum_certified": false,
+  "critical_closure_controls": [
+    "Botulinum toxin units are not interchangeable",
+    "No assumption that XT100 is onabotulinumtoxinA",
+    "No cosmetic or therapeutic injection protocol",
+    "Iatrogenic botulism and distant-spread warning retained",
+    "Unlicensed, counterfeit and unauthorised supply-chain risks retained"
+  ]
 }

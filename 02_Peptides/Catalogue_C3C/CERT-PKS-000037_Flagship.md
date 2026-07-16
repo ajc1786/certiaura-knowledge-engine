@@ -8,57 +8,46 @@
 
 # CERT-PKS-000037 — Erythropoietin Supplier Product Family
 
-**Version:** 0.1.0  
-**Status:** CATALOGUE REVIEWED / EVIDENCE FOUNDATION CREATED / NOT PLATINUM CERTIFIED  
+**System:** PKS  
+**Object:** Peptide / Biologic Product-Family Asset  
+**Version:** 0.2.0  
+**Status:** P0 EVIDENCE CLOSURE WAVE 1 / CRITICAL PRODUCT IDENTITY BLOCK ACTIVE  
 **Last Review:** 2026-07-16
 
-## Classification
+## Closure state
 
-Chemically under-specified erythropoiesis-stimulating glycoprotein biologic family
+**BLOCKED — ESA MOLECULE, GLYCOSYLATION, CELL LINE AND PRODUCT UNKNOWN**
 
-## Aliases
+## Authoritative product boundary
 
-EPO, epoetin, erythropoietin, erythropoiesis-stimulating agent
+Authorised erythropoiesis-stimulating agents are exact glycoprotein biologics with product-specific indications, potency units, manufacturing and boxed safety controls. The catalogue EPO vial cannot inherit epoetin-alfa or other ESA evidence.
 
-## Mechanism
+## New closure evidence
 
-Erythropoietin receptor agonism stimulating erythroid progenitor survival, differentiation and red-blood-cell production.
+- `CERT-EKS-000235`
+- `CERT-EKS-000236`
 
-## Evidence maturity
+## Product Passport
 
-Extensive authorised anaemia-treatment evidence for defined epoetin and related products; catalogue identity is insufficiently specified.
+`CERT-PPS-000014`
 
-## Evidence foundation
+## Catalogue records
 
-- `CERT-EKS-000101`
-- `CERT-EKS-000102`
-
-## Regulatory headline
-
-**AUTHORISED ESA MEDICINES EXIST / CATALOGUE PRODUCT IDENTITY UNRESOLVED / ATHLETE PROHIBITION**
-
-## Catalogue pricing
-
-| Code | Supplier specification | USD per kit |
+| Code | Specification | USD per kit |
 |---|---|---:|
 | E3K | 3,000 IU x 5 vials | $122 |
 
-## Product-quality boundary
+## Critical controls
 
-The catalogue does not establish exact molecule, formulation, concentration, potency, purity, sterility, manufacturer or equivalence to an authorised medicine.
+- No haemoglobin-target or administration protocol
+- No epoetin-alfa evidence transfer
+- Death, myocardial infarction, stroke and thrombosis risks retained
+- Hypertension, seizure and tumour-progression contexts retained
+- Current anti-doping prohibition review required
 
-## Validated universal human dosing protocol
+## Certification state
 
-**No**
-
-## Certification blockers
-
-- Exact molecule: epoetin alfa, beta, theta, zeta, darbepoetin or other
-- Manufacturer, cell line, glycosylation and formulation
-- Indication-specific haemoglobin target and risk controls
-- Thrombosis, hypertension and tumour-context safety
-- Cold-chain, potency and sterility
-
-## Platinum Certified
-
-**No**
+- Identity verified: **No**
+- Authorised-product equivalence: **No**
+- Universal human dosing or administration protocol: **No**
+- Platinum Certified: **No**

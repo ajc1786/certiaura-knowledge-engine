@@ -8,16 +8,16 @@
 
 # CERT-MPS-000009 — Botulinum Toxin Supplier Product Family REGULATORY STATUS
 
+**Version:** 0.2.0  
 **Status as of:** 2026-07-16  
-**Overall:** SEROTYPE, BRAND AND POTENCY SYSTEM UNRESOLVED / UNBRANDED PRODUCT NOT AUTHORISED-PRODUCT EQUIVALENT
+**Closure state:** BLOCKED — SEROTYPE, PROPER NAME, BRAND, ASSAY AND MANUFACTURER UNKNOWN
 
 | Jurisdiction | Authority | Controlled position | Monitoring |
 |---|---|---|---|
-| United Kingdom | MHRA | Authorised products exist; July 2026 warning addresses iatrogenic botulism and use of unlicensed products. | ACTIVE |
-| United States | FDA | Authorised prescription products exist; unapproved online toxin products are subject to enforcement. | ACTIVE |
-| European Union | EMA / national authorities | Authorisation and units are exact-product specific. | ACTIVE |
-| International sport | WADA | Current athlete-specific verification required. | EVENT-TRIGGERED |
+| United Kingdom | MHRA | The 15 July 2026 Drug Safety Update strengthened warnings for iatrogenic botulism, states units are not interchangeable and highlights unlicensed/counterfeit-product risks. | ACTIVE |
+| United States | FDA | FDA has issued warning letters and enforcement communications concerning unapproved, misbranded and counterfeit botulinum toxin products. XT100 has no authorised-product equivalence. | ACTIVE |
+| European Union | EMA / national authorities | Botulinum toxin authorisation and units are exact-product specific. | ACTIVE |
 
 ## Rule
 
-Authorisation belongs to the exact product, manufacturer, formulation, potency system, route, device and indication.
+Regulatory and safety evidence belongs to the exact molecule, biologic, manufacturer, formulation, potency system, supply chain and jurisdiction.

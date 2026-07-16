@@ -1,43 +1,35 @@
 # CERTIAURA PRODUCTION DASHBOARD
 
-**Build:** 0030A  
+**Build:** 0031A  
 **Date:** 2026-07-16
 
-## Catalogue pages 1-5 coverage
+## Priority P0/P1 Evidence Closure Programme
 
-**COMPLETE**
+### Wave 1 complete
 
-- 196 / 196 source SKU rows mapped
-- 104 / 104 preliminary product families mapped
-- 90 PKS assets
-- 12 MPS assets
-- 12 PPS assets
-- zero unmapped catalogue rows
+- 6 existing product assets strengthened
+- 3 new Product Passports
+- 12 new evidence closure objects
+- 0 new product-family UAIs
+- 0 Platinum certifications
 
-## New assets
+### New allocations
 
-- CERT-PKS-000089 — Elamipretide / SS-31
-- CERT-PKS-000090 — Generic GLP-1 Supplier Product Family
+- PPS: CERT-PPS-000013–000015
+- EKS: CERT-EKS-000233–000244
 
-## Supporting objects
-
-- CERT-EKS-000229–000232
-- CERT-SKS-000106–000107
-- CERT-BKS-000179–000184
-- CERT-CKS-000058–000059
-- CERT-MKS-000173–000181
-- CERT-GKS-000093–000096
-
-## Next allocation state
+### Next allocation state
 
 - PKS: CERT-PKS-000091
-- EKS: CERT-EKS-000233
+- MPS: CERT-MPS-000013
+- PPS: CERT-PPS-000016
+- EKS: CERT-EKS-000245
 - SKS: CERT-SKS-000108
 - BKS: CERT-BKS-000185
 - CKS: CERT-CKS-000060
 - MKS: CERT-MKS-000182
 - GKS: CERT-GKS-000097
 
-## Next production phase
+## Next build
 
-**Catalogue Evidence Closure Programme — Priority P0/P1 assets**
+**Build 0031B — High-Risk Cosmetic, Injectable & Unresolved Identity Closure**

@@ -1,0 +1,57 @@
+{
+  "asset_id": "CERT-PPS-000015",
+  "asset_name": "Unbranded Cerebrolysin-Type Product Family Product Passport",
+  "knowledge_system": "PPS",
+  "asset_type": "Critical Product Passport Gap Object",
+  "version": "0.2.0",
+  "status": "P0 OPEN / NOT CERTIFIED",
+  "parent_product": "CERT-PKS-000045",
+  "closure_wave": "0031A",
+  "last_review": "2026-07-16",
+  "required_fields": [
+    {
+      "field": "manufacturer and branded/reference-product relationship",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical and regulatory evidence"
+    },
+    {
+      "field": "species, tissue source and donor controls",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical and regulatory evidence"
+    },
+    {
+      "field": "enzymatic hydrolysis and purification process",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical and regulatory evidence"
+    },
+    {
+      "field": "peptide molecular-weight distribution",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical and regulatory evidence"
+    },
+    {
+      "field": "free amino-acid and peptide composition",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical and regulatory evidence"
+    },
+    {
+      "field": "batch fingerprint and reference-product comparability",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical and regulatory evidence"
+    },
+    {
+      "field": "viral, prion and transmissible-agent risk controls",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical and regulatory evidence"
+    },
+    {
+      "field": "sterility, endotoxin, particulate and container closure",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical and regulatory evidence"
+    }
+  ],
+  "identity_certified": false,
+  "quality_certified": false,
+  "sterility_certified": false,
+  "authorised_product_equivalence": false
+}

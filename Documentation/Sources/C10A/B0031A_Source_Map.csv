@@ -1,0 +1,14 @@
+Asset,Source,URL,Purpose
+Insulin,FDA Purple Book,https://purplebooksearch.fda.gov/,"Exact licensed insulin proper names, products, concentrations and presentations"
+Insulin,FDA Awiqli product record,https://purplebooksearch.fda.gov/index.cfm?blaNo=761326&event=productdetails,2026 insulin icodec-abae exact-product example
+Insulin,FDA Langlara product record,https://purplebooksearch.fda.gov/index.cfm?blaNo=761412&event=productdetails,2026 interchangeable insulin glargine-aldy exact-product example
+Erythropoietin,FDA Epogen/Procrit safety information,https://www.fda.gov/drugs/postmarket-drug-safety-information-patients-and-providers/information-epogenprocrit-epoetin-alfa,"Authorised epoetin-alfa indications and serious cardiovascular, thrombotic and tumour risks"
+Insulin and erythropoietin,WADA 2026 Prohibited List,https://www.wada-ama.org/en/resources/world-anti-doping-program/prohibited-list,Current anti-doping control
+Cerebrolysin comparator,Primary randomised trial,https://pubmed.ncbi.nlm.nih.gov/15583955/,Manufacturer-controlled hydrolysate description and stroke trial
+Cerebrolysin comparator,CARS randomised trial,https://pubmed.ncbi.nlm.nih.gov/26564102/,Branded-product human evidence retained as non-transferable comparator
+Cerebrolysin comparator,ClinicalTrials.gov NCT02541227,https://clinicaltrials.gov/study/NCT02541227,Manufacturer-sponsored branded-product registry context
+Bacteriostatic water,FDA finished-product recall description,https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/hospira-inc-issues-voluntary-nationwide-recall-one-lot-bacteriostatic-water-injection-usp-due,"Sterile, nonpyrogenic, 0.9% benzyl alcohol multidose finished-product identity"
+Bacteriostatic and acetic-acid water,FDA Water for Pharmaceutical Use,https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/inspection-technical-guides/water-pharmaceutical-use,Separation of pharmaceutical-water types and manufacturing controls
+Botulinum toxin,MHRA Drug Safety Update,https://www.gov.uk/drug-safety-update/botulinum-toxin-type-a-products-updated-warnings-regarding-risk-of-iatrogenic-botulism,"15 July 2026 iatrogenic-botulism, non-interchangeable-unit and unlicensed-product warning"
+Botulinum toxin,FDA illegal marketing enforcement,https://www.fda.gov/news-events/press-announcements/fda-warns-companies-over-illegal-marketing-botox-and-related-products,Unapproved and misbranded botulinum toxin enforcement and botulism risk
+Botulinum toxin,FDA counterfeit alert,https://www.fda.gov/drugs/drug-alerts-and-statements/counterfeit-version-botox-found-multiple-states,"Authenticity, authorised-source and counterfeit-product controls"

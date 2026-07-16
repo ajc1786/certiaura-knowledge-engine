@@ -3,37 +3,56 @@
   "asset_name": "Acetic Acid Water Supplier Family Product Passport",
   "knowledge_system": "PPS",
   "asset_type": "Product Passport Gap Object",
-  "version": "0.1.0",
-  "status": "OPEN / NOT CERTIFIED",
+  "version": "0.2.0",
+  "status": "P0 OPEN / CRITICAL CLOSURE WAVE ACTIVE / NOT CERTIFIED",
   "parent_product": "CERT-MPS-000008",
   "last_review": "2026-07-16",
   "required_fields": [
     {
-      "field": "acetic-acid concentration",
-      "status": "OPEN"
+      "field": "acetic-acid concentration and grade",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical and regulatory evidence"
     },
     {
       "field": "pH, tonicity and osmolarity",
-      "status": "OPEN"
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical and regulatory evidence"
     },
     {
-      "field": "sterility and endotoxin",
-      "status": "OPEN"
+      "field": "water and excipient pharmacopoeial standards",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical and regulatory evidence"
     },
     {
-      "field": "preservative and excipients",
-      "status": "OPEN"
+      "field": "preservative identity and concentration",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical and regulatory evidence"
     },
     {
-      "field": "container and manufacturer",
-      "status": "OPEN"
+      "field": "manufacturer and authorised supply chain",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical and regulatory evidence"
     },
     {
-      "field": "validated drug-specific compatibility",
-      "status": "OPEN"
+      "field": "sterility, bacterial endotoxin and particulate testing",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical and regulatory evidence"
+    },
+    {
+      "field": "container closure and storage",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical and regulatory evidence"
+    },
+    {
+      "field": "validated compatibility for an exact medicinal product",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical and regulatory evidence"
     }
   ],
   "identity_certified": false,
   "quality_certified": false,
-  "sterility_certified": false
+  "sterility_certified": false,
+  "closure_wave": "0031A",
+  "closure_priority": "P0",
+  "authorised_product_equivalence": false
 }

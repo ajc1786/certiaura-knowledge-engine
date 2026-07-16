@@ -1,0 +1,57 @@
+{
+  "asset_id": "CERT-PPS-000013",
+  "asset_name": "Insulin Supplier Product Family Product Passport",
+  "knowledge_system": "PPS",
+  "asset_type": "Critical Product Passport Gap Object",
+  "version": "0.2.0",
+  "status": "P0 OPEN / NOT CERTIFIED",
+  "parent_product": "CERT-PKS-000036",
+  "closure_wave": "0031A",
+  "last_review": "2026-07-16",
+  "required_fields": [
+    {
+      "field": "proper name: human insulin or exact analogue",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical and regulatory evidence"
+    },
+    {
+      "field": "amino-acid sequence and modifications",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical and regulatory evidence"
+    },
+    {
+      "field": "concentration and units per mL",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical and regulatory evidence"
+    },
+    {
+      "field": "rapid, short, intermediate, long or weekly action profile",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical and regulatory evidence"
+    },
+    {
+      "field": "formulation, excipients and delivery device",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical and regulatory evidence"
+    },
+    {
+      "field": "manufacturer, biological licence and authorised supply chain",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical and regulatory evidence"
+    },
+    {
+      "field": "potency assay, purity, aggregation and immunogenicity",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical and regulatory evidence"
+    },
+    {
+      "field": "cold chain, sterility, endotoxin and container closure",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical and regulatory evidence"
+    }
+  ],
+  "identity_certified": false,
+  "quality_certified": false,
+  "sterility_certified": false,
+  "authorised_product_equivalence": false
+}

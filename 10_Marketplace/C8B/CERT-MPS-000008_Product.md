@@ -8,45 +8,46 @@
 
 # CERT-MPS-000008 — Acetic Acid Water Supplier Family
 
-**System:** Marketplace Product System (MPS)  
-**Status:** CATALOGUE REVIEWED / PRODUCT PASSPORT GAP ACTIVE / NOT QUALITY VERIFIED  
+**System:** MPS  
+**Object:** Marketplace Product-Family Asset  
+**Version:** 0.2.0  
+**Status:** P0 EVIDENCE CLOSURE WAVE 1 / CRITICAL PRODUCT IDENTITY BLOCK ACTIVE  
 **Last Review:** 2026-07-16
 
-## Classification
+## Closure state
 
-Under-specified acidic diluent candidate
+**BLOCKED — ACETIC-ACID CONCENTRATION, PH AND STERILITY UNKNOWN**
 
-## Product context
+## Authoritative product boundary
 
-The catalogue provides no acetic-acid concentration, pH, tonicity, sterility, preservative, compendial standard or compatibility data. No pharmaceutical-diluent identity is assigned.
+The catalogue term acetic acid water does not identify a pharmaceutical diluent. Use interpretation is blocked until concentration, pH, tonicity, sterility and exact drug-specific compatibility are established.
 
-## Evidence maturity
+## New closure evidence
 
-No product-specific clinical or compatibility evidence can be attributed without formulation closure.
-
-## Evidence foundation
-
-- `CERT-EKS-000219`
-- `CERT-EKS-000220`
-
-## Regulatory headline
-
-**CONCENTRATION, PH AND STERILE-DILUENT IDENTITY UNRESOLVED**
-
-## Catalogue pricing
-
-| Code | Specification | USD per kit | Catalogue note |
-|---|---|---:|---|
-| AA10 | Acetic acid water 10 mL x 10 vials | $12 |  |
+- `CERT-EKS-000241`
+- `CERT-EKS-000242`
 
 ## Product Passport
 
 `CERT-PPS-000008`
 
-## Marketplace boundary
+## Catalogue records
 
-The catalogue does not establish exact identity, formulation, potency system, device status, sterility, approval or authorised-product equivalence.
+| Code | Specification | USD per kit |
+|---|---|---:|
+| AA10 | Acetic acid water 10 mL x 10 vials | $12 |
 
-## Validated administration protocol
+## Critical controls
 
-**No**
+- No concentration or pH may be inferred
+- No claim that AA10 is suitable for peptide reconstitution
+- No universal compatibility or stability claim
+- Corrosive and local-injury risk retained
+- No reconstitution or administration protocol
+
+## Certification state
+
+- Identity verified: **No**
+- Authorised-product equivalence: **No**
+- Universal human dosing or administration protocol: **No**
+- Platinum Certified: **No**

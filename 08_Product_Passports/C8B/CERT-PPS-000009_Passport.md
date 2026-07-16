@@ -8,19 +8,22 @@
 
 # CERT-PPS-000009 — Botulinum Toxin Supplier Product Family PRODUCT PASSPORT™
 
-**Parent product:** `CERT-MPS-000009`  
-**Status:** OPEN / NOT CERTIFIED  
+**Parent:** `CERT-MPS-000009`  
+**Priority:** P0  
+**Status:** OPEN / CRITICAL CLOSURE WAVE ACTIVE / NOT CERTIFIED  
 **Last Review:** 2026-07-16
 
 | Required field | Status | Closure requirement |
 |---|---|---|
-| toxin serotype and molecular complex | OPEN | Manufacturer and analytical closure required |
-| strain, manufacturer and brand | OPEN | Manufacturer and analytical closure required |
-| product-specific potency assay and unit definition | OPEN | Manufacturer and analytical closure required |
-| excipients and formulation | OPEN | Manufacturer and analytical closure required |
-| cold chain, sterility and batch release | OPEN | Manufacturer and analytical closure required |
-| authorised indication and jurisdiction | OPEN | Manufacturer and analytical closure required |
+| serotype and exact proper/nonproprietary name | OPEN | Direct manufacturer, analytical and regulatory evidence |
+| strain and molecular complex | OPEN | Direct manufacturer, analytical and regulatory evidence |
+| manufacturer, brand and biological licence | OPEN | Direct manufacturer, analytical and regulatory evidence |
+| product-specific potency assay and unit definition | OPEN | Direct manufacturer, analytical and regulatory evidence |
+| formulation, excipients and presentation | OPEN | Direct manufacturer, analytical and regulatory evidence |
+| authorised indications and jurisdictions | OPEN | Direct manufacturer, analytical and regulatory evidence |
+| cold chain, sterility and batch release | OPEN | Direct manufacturer, analytical and regulatory evidence |
+| serialisation, authorised distributor and counterfeit controls | OPEN | Direct manufacturer, analytical and regulatory evidence |
 
 ## Activation gate
 
-No clinical-equivalence, procedural, reconstitution, dosing or direct-sale workflow may activate while material fields remain open.
+No compatibility, procedural, administration, reconstitution or direct-sale workflow may activate while critical fields remain open.

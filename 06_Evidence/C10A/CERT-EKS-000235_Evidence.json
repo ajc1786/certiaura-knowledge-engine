@@ -1,0 +1,20 @@
+{
+  "asset_id": "CERT-EKS-000235",
+  "asset_name": "Erythropoietin Authorised ESA Product and Safety Evidence",
+  "root_asset": "CERT-PKS-000037",
+  "knowledge_system": "EKS",
+  "asset_type": "Priority Evidence Closure Object",
+  "version": "0.2.0",
+  "status": "AUTHORITATIVE ESA SAFETY SOURCE IDENTIFIED",
+  "closure_wave": "0031A",
+  "closure_priority": "P0",
+  "source_domain": "FDA epoetin-alfa product information and serious risks including death, myocardial infarction, stroke, thromboembolism, vascular-access thrombosis and tumour progression",
+  "evidence_type": "Authorised product / safety evidence",
+  "last_review": "2026-07-16",
+  "direct_complete_extraction": false,
+  "prohibited_use": [
+    "Personal dosing, injection, infusion, dilution or reconstitution guidance",
+    "Authorised-product evidence transfer to a supplier product",
+    "Assumption of identity, concentration, potency, compatibility or sterility"
+  ]
+}

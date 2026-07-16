@@ -1,0 +1,20 @@
+{
+  "asset_id": "CERT-EKS-000239",
+  "asset_name": "Bacteriostatic Water Finished-Product Identity Evidence",
+  "root_asset": "CERT-MPS-000007",
+  "knowledge_system": "EKS",
+  "asset_type": "Priority Evidence Closure Object",
+  "version": "0.2.0",
+  "status": "AUTHORITATIVE FINISHED-PRODUCT IDENTITY IDENTIFIED",
+  "closure_wave": "0031A",
+  "closure_priority": "P0",
+  "source_domain": "FDA finished-product description: sterile, nonpyrogenic Water for Injection with 0.9% benzyl alcohol in a multidose vial, used only according to the drug manufacturer's instructions",
+  "evidence_type": "Authorised finished-product / quality evidence",
+  "last_review": "2026-07-16",
+  "direct_complete_extraction": false,
+  "prohibited_use": [
+    "Personal dosing, injection, infusion, dilution or reconstitution guidance",
+    "Authorised-product evidence transfer to a supplier product",
+    "Assumption of identity, concentration, potency, compatibility or sterility"
+  ]
+}

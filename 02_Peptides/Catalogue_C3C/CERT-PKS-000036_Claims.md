@@ -10,11 +10,11 @@
 
 | Claim | Permission |
 |---|---|
-| Insulin Supplier Product Family is classified as chemically and clinically under-specified insulin protein-hormone product family. | Allowed |
-| AUTHORISED INSULIN MEDICINES EXIST / CATALOGUE PRODUCT IDENTITY UNRESOLVED / CRITICAL-RISK | Allowed as a dated controlled headline |
-| The catalogue product is equivalent to an authorised medicine. | Not established / not allowed |
-| A universal human dosing or treatment protocol is validated. | Not established / not allowed |
-| The asset is Platinum Certified. | False / not allowed |
-| The catalogue provides enough information to administer this insulin safely. | False / not allowed |
+| This asset is in Priority P0 closure. | Allowed |
+| Authorised insulin products are exact biological products with defined proper names, concentrations, delivery systems and pharmacokinetic profiles. A generic catalogue entry cannot inherit any authorised insulin label. | Allowed as a controlled boundary |
+| The catalogue item is equivalent to an authorised product. | False / prohibited |
+| Supplier identity, potency and sterility are verified. | False / prohibited |
+| A treatment, dosing, injection or reconstitution protocol is validated. | False / prohibited |
+| The asset is Platinum Certified. | False / prohibited |
 
 **Status as of:** 2026-07-16

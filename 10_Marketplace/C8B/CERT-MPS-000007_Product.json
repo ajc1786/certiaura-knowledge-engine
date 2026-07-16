@@ -3,8 +3,8 @@
   "asset_name": "Bacteriostatic Water Supplier Family",
   "knowledge_system": "MPS",
   "asset_type": "Marketplace Product-Family Asset",
-  "version": "0.1.0",
-  "status": "CATALOGUE REVIEWED / PRODUCT PASSPORT GAP ACTIVE / NOT QUALITY VERIFIED",
+  "version": "0.2.0",
+  "status": "P0 EVIDENCE CLOSURE WAVE 1 / CRITICAL PRODUCT IDENTITY BLOCK ACTIVE / NOT PLATINUM CERTIFIED",
   "owner": "Aidan Coleman",
   "last_review": "2026-07-16",
   "classification": "Sterile-diluent candidate supplier product family",
@@ -105,11 +105,34 @@
       "source": "CERT-MPS-000007",
       "relationship": "SUPPORTS_GOAL",
       "target": "CERT-GKS-000088"
+    },
+    {
+      "source": "CERT-MPS-000007",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000239"
+    },
+    {
+      "source": "CERT-MPS-000007",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000240"
     }
   ],
   "product_passport": "CERT-PPS-000007",
   "identity_verified": false,
   "sterility_verified": false,
   "authorised_product_equivalence": false,
-  "validated_universal_human_dosing_protocol": false
+  "validated_universal_human_dosing_protocol": false,
+  "closure_wave": "0031A",
+  "closure_priority": "P0",
+  "closure_class": "CRITICAL STERILE DILUENT IDENTITY",
+  "closure_state": "BLOCKED — USP STATUS, 0.9% BENZYL ALCOHOL AND STERILITY UNVERIFIED",
+  "authoritative_product_boundary": "A finished Bacteriostatic Water for Injection product is a sterile, nonpyrogenic multidose preparation with a defined preservative concentration. The supplier term bac.water does not establish that identity.",
+  "platinum_certified": false,
+  "critical_closure_controls": [
+    "WA10 and BA10 remain duplicate catalogue listings",
+    "No assumption of 0.9% benzyl alcohol",
+    "No universal peptide or medicine compatibility claim",
+    "No neonatal or vulnerable-population suitability claim",
+    "No reconstitution or administration protocol"
+  ]
 }

@@ -1,36 +1,38 @@
 {
   "asset_uai": "CERT-PKS-000036",
   "asset_name": "Insulin Supplier Product Family",
+  "version": "0.2.0",
   "status_as_of": "2026-07-16",
-  "overall_status": "AUTHORISED INSULIN MEDICINES EXIST / CATALOGUE PRODUCT IDENTITY UNRESOLVED / CRITICAL-RISK",
+  "closure_wave": "0031A",
+  "overall_status": "BLOCKED — MOLECULE, CONCENTRATION, ACTION PROFILE AND PRODUCT UNKNOWN",
   "regulatory_records": [
     {
       "jurisdiction": "United States",
-      "authority": "FDA",
-      "current_status": "Authorised medicine contexts exist; exact product, molecule, formulation and indication require current label capture.",
+      "authority": "FDA Purple Book",
+      "current_status": "Multiple licensed insulin products with different proper names, concentrations, action profiles and presentations exist. New 2026 products include exact licenced products such as insulin icodec-abae and insulin glargine-aldy. No supplier-product equivalence is established.",
       "monitoring_state": "ACTIVE",
-      "next_review_trigger": "Approval, label, molecule, formulation, safety, enforcement, trial or anti-doping change"
+      "next_review_trigger": "Identity, approval, label, warning, recall, enforcement, counterfeit, safety or anti-doping change"
     },
     {
       "jurisdiction": "United Kingdom",
       "authority": "MHRA",
-      "current_status": "Authorised prescription-medicine contexts exist; product-specific authorisation controls claims.",
+      "current_status": "No generic supplier-vial marketing-authorisation or product-equivalence claim.",
       "monitoring_state": "ACTIVE",
-      "next_review_trigger": "Approval, label, molecule, formulation, safety, enforcement, trial or anti-doping change"
+      "next_review_trigger": "Identity, approval, label, warning, recall, enforcement, counterfeit, safety or anti-doping change"
     },
     {
       "jurisdiction": "European Union",
-      "authority": "EMA / European Commission",
-      "current_status": "Authorised medicinal contexts exist; exact product information controls claims.",
+      "authority": "EMA / national authorities",
+      "current_status": "Authorised insulin products are exact molecule, formulation and device specific.",
       "monitoring_state": "ACTIVE",
-      "next_review_trigger": "Approval, label, molecule, formulation, safety, enforcement, trial or anti-doping change"
+      "next_review_trigger": "Identity, approval, label, warning, recall, enforcement, counterfeit, safety or anti-doping change"
     },
     {
       "jurisdiction": "International sport",
       "authority": "WADA",
-      "current_status": "Current athlete-specific status requires authoritative verification; erythropoiesis-stimulating agents are a critical prohibition domain.",
+      "current_status": "Current athlete status and therapeutic-use requirements require direct official verification.",
       "monitoring_state": "ACTIVE",
-      "next_review_trigger": "Approval, label, molecule, formulation, safety, enforcement, trial or anti-doping change"
+      "next_review_trigger": "Identity, approval, label, warning, recall, enforcement, counterfeit, safety or anti-doping change"
     }
   ]
 }

@@ -3,8 +3,8 @@
   "asset_name": "Acetic Acid Water Supplier Family",
   "knowledge_system": "MPS",
   "asset_type": "Marketplace Product-Family Asset",
-  "version": "0.1.0",
-  "status": "CATALOGUE REVIEWED / PRODUCT PASSPORT GAP ACTIVE / NOT QUALITY VERIFIED",
+  "version": "0.2.0",
+  "status": "P0 EVIDENCE CLOSURE WAVE 1 / CRITICAL PRODUCT IDENTITY BLOCK ACTIVE / NOT PLATINUM CERTIFIED",
   "owner": "Aidan Coleman",
   "last_review": "2026-07-16",
   "classification": "Under-specified acidic diluent candidate",
@@ -78,11 +78,34 @@
       "source": "CERT-MPS-000008",
       "relationship": "SUPPORTS_GOAL",
       "target": "CERT-GKS-000088"
+    },
+    {
+      "source": "CERT-MPS-000008",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000241"
+    },
+    {
+      "source": "CERT-MPS-000008",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000242"
     }
   ],
   "product_passport": "CERT-PPS-000008",
   "identity_verified": false,
   "sterility_verified": false,
   "authorised_product_equivalence": false,
-  "validated_universal_human_dosing_protocol": false
+  "validated_universal_human_dosing_protocol": false,
+  "closure_wave": "0031A",
+  "closure_priority": "P0",
+  "closure_class": "CRITICAL FORMULATION, PH AND COMPATIBILITY",
+  "closure_state": "BLOCKED — ACETIC-ACID CONCENTRATION, PH AND STERILITY UNKNOWN",
+  "authoritative_product_boundary": "The catalogue term acetic acid water does not identify a pharmaceutical diluent. Use interpretation is blocked until concentration, pH, tonicity, sterility and exact drug-specific compatibility are established.",
+  "platinum_certified": false,
+  "critical_closure_controls": [
+    "No concentration or pH may be inferred",
+    "No claim that AA10 is suitable for peptide reconstitution",
+    "No universal compatibility or stability claim",
+    "Corrosive and local-injury risk retained",
+    "No reconstitution or administration protocol"
+  ]
 }

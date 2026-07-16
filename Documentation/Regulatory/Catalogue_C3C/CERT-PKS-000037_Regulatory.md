@@ -8,16 +8,17 @@
 
 # CERT-PKS-000037 — Erythropoietin Supplier Product Family REGULATORY STATUS
 
+**Version:** 0.2.0  
 **Status as of:** 2026-07-16  
-**Overall:** AUTHORISED ESA MEDICINES EXIST / CATALOGUE PRODUCT IDENTITY UNRESOLVED / ATHLETE PROHIBITION
+**Closure state:** BLOCKED — ESA MOLECULE, GLYCOSYLATION, CELL LINE AND PRODUCT UNKNOWN
 
-| Jurisdiction | Authority | Current controlled position | Monitoring |
+| Jurisdiction | Authority | Controlled position | Monitoring |
 |---|---|---|---|
-| United States | FDA | Authorised medicine contexts exist; exact product, molecule, formulation and indication require current label capture. | ACTIVE |
-| United Kingdom | MHRA | Authorised prescription-medicine contexts exist; product-specific authorisation controls claims. | ACTIVE |
-| European Union | EMA / European Commission | Authorised medicinal contexts exist; exact product information controls claims. | ACTIVE |
-| International sport | WADA | Current athlete-specific status requires authoritative verification; erythropoiesis-stimulating agents are a critical prohibition domain. | ACTIVE |
+| United States | FDA | Authorised ESA products exist with serious cardiovascular, thrombotic and tumour-progression safety controls. No catalogue EPO equivalence is established. | ACTIVE |
+| United Kingdom | MHRA | No generic supplier-vial marketing-authorisation or product-equivalence claim. | ACTIVE |
+| European Union | EMA / national authorities | Authorised ESA status is molecule, manufacturer, indication and product specific. | ACTIVE |
+| International sport | WADA | Erythropoiesis-stimulating agents require current prohibited-list control. | ACTIVE |
 
 ## Rule
 
-Authorised medicine status never validates an under-specified catalogue product.
+Regulatory and safety evidence belongs to the exact molecule, biologic, manufacturer, formulation, potency system, supply chain and jurisdiction.

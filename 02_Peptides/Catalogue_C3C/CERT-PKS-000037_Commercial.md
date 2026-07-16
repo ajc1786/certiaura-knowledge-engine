@@ -10,19 +10,18 @@
 
 ## Permitted
 
-- evidence, regulatory and safety education;
-- authorised-product resource links where lawful;
-- catalogue price and Product Passport™ gap reporting;
-- identity-risk warnings.
+- exact catalogue-record reporting;
+- authorised-product comparison with explicit non-equivalence;
+- Product Passport™ gap reporting;
+- safety, regulatory and analytical education.
 
 ## Prohibited
 
-- self-treatment, dosing or reconstitution guidance;
-- fertility, labour, insulin or anaemia protocols;
-- presenting an under-specified catalogue product as an authorised medicine;
-- weight-loss promotion of HCG;
-- athletic performance promotion of erythropoietin or insulin.
+- treatment, dosing, injection, infusion or reconstitution guidance;
+- authorised-product equivalence;
+- guaranteed identity, potency, purity, sterility or compatibility;
+- direct-sale activation while critical passport fields remain open.
 
-## Future direct sale
+## Activation gate
 
-Requires product identity, jurisdiction, prescription status, manufacturing, cold chain, potency, quality, pharmacovigilance and legal closure.
+Commercial use beyond evidence and gap reporting remains blocked.

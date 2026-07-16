@@ -1,0 +1,20 @@
+{
+  "asset_id": "CERT-EKS-000242",
+  "asset_name": "Acetic Acid Water Drug-Specific Compatibility Evidence Block",
+  "root_asset": "CERT-MPS-000008",
+  "knowledge_system": "EKS",
+  "asset_type": "Priority Evidence Closure Object",
+  "version": "0.2.0",
+  "status": "BLOCKED BY CERT-EKS-000241",
+  "closure_wave": "0031A",
+  "closure_priority": "P0",
+  "source_domain": "Exact medicinal-product compatibility, degradation, potency, particles and post-reconstitution stability after formulation closure",
+  "evidence_type": "Blocked compatibility evidence",
+  "last_review": "2026-07-16",
+  "direct_complete_extraction": false,
+  "prohibited_use": [
+    "Personal dosing, injection, infusion, dilution or reconstitution guidance",
+    "Authorised-product evidence transfer to a supplier product",
+    "Assumption of identity, concentration, potency, compatibility or sterility"
+  ]
+}

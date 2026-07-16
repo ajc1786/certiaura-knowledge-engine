@@ -3,8 +3,8 @@
   "asset_name": "Erythropoietin Supplier Product Family",
   "knowledge_system": "PKS",
   "asset_type": "Peptide / Protein / Biologic Knowledge Asset",
-  "version": "0.1.0",
-  "status": "CATALOGUE REVIEWED / EVIDENCE FOUNDATION CREATED / NOT PLATINUM CERTIFIED",
+  "version": "0.2.0",
+  "status": "P0 EVIDENCE CLOSURE WAVE 1 / CRITICAL PRODUCT IDENTITY BLOCK ACTIVE / NOT PLATINUM CERTIFIED",
   "owner": "Aidan Coleman",
   "last_review": "2026-07-16",
   "aliases": [
@@ -79,6 +79,21 @@
       "source": "CERT-PKS-000037",
       "relationship": "HAS_SAFETY",
       "target": "CERT-SKS-000042"
+    },
+    {
+      "source": "CERT-PKS-000037",
+      "relationship": "HAS_PASSPORT",
+      "target": "CERT-PPS-000014"
+    },
+    {
+      "source": "CERT-PKS-000037",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000235"
+    },
+    {
+      "source": "CERT-PKS-000037",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000236"
     }
   ],
   "validated_universal_human_dosing_protocol": false,
@@ -90,5 +105,20 @@
     "Indication-specific haemoglobin target and risk controls",
     "Thrombosis, hypertension and tumour-context safety",
     "Cold-chain, potency and sterility"
+  ],
+  "closure_wave": "0031A",
+  "closure_priority": "P0",
+  "closure_class": "CRITICAL GLYCOPROTEIN IDENTITY, POTENCY AND THROMBOSIS",
+  "closure_state": "BLOCKED — ESA MOLECULE, GLYCOSYLATION, CELL LINE AND PRODUCT UNKNOWN",
+  "authoritative_product_boundary": "Authorised erythropoiesis-stimulating agents are exact glycoprotein biologics with product-specific indications, potency units, manufacturing and boxed safety controls. The catalogue EPO vial cannot inherit epoetin-alfa or other ESA evidence.",
+  "product_passport": "CERT-PPS-000014",
+  "identity_verified": false,
+  "authorised_product_equivalence": false,
+  "critical_closure_controls": [
+    "No haemoglobin-target or administration protocol",
+    "No epoetin-alfa evidence transfer",
+    "Death, myocardial infarction, stroke and thrombosis risks retained",
+    "Hypertension, seizure and tumour-progression contexts retained",
+    "Current anti-doping prohibition review required"
   ]
 }

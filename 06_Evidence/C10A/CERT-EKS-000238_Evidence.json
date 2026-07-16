@@ -1,0 +1,20 @@
+{
+  "asset_id": "CERT-EKS-000238",
+  "asset_name": "Unbranded Cerebrolysin-Type Comparability and Biological-Source Gap",
+  "root_asset": "CERT-PKS-000045",
+  "knowledge_system": "EKS",
+  "asset_type": "Priority Evidence Closure Object",
+  "version": "0.2.0",
+  "status": "OPEN — UNBRANDED PRODUCT COMPARABILITY NOT ESTABLISHED",
+  "closure_wave": "0031A",
+  "closure_priority": "P0",
+  "source_domain": "Manufacturer, porcine or other source tissue, hydrolysis process, molecular fingerprint, viral/prion controls, sterility and branded-product comparability",
+  "evidence_type": "Critical biologic-mixture identity gap",
+  "last_review": "2026-07-16",
+  "direct_complete_extraction": false,
+  "prohibited_use": [
+    "Personal dosing, injection, infusion, dilution or reconstitution guidance",
+    "Authorised-product evidence transfer to a supplier product",
+    "Assumption of identity, concentration, potency, compatibility or sterility"
+  ]
+}

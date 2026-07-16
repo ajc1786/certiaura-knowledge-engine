@@ -1,0 +1,20 @@
+{
+  "asset_id": "CERT-EKS-000244",
+  "asset_name": "XT100 Serotype, Proper Name, Potency Assay and Authenticity Gap",
+  "root_asset": "CERT-MPS-000009",
+  "knowledge_system": "EKS",
+  "asset_type": "Priority Evidence Closure Object",
+  "version": "0.2.0",
+  "status": "OPEN — XT100 PRODUCT IDENTITY NOT ESTABLISHED",
+  "closure_wave": "0031A",
+  "closure_priority": "P0",
+  "source_domain": "Exact toxin serotype, nonproprietary name, strain, molecular complex, manufacturer, brand, potency-unit assay, licence, serialisation, cold chain and sterility",
+  "evidence_type": "Critical biologic identity / authenticity gap",
+  "last_review": "2026-07-16",
+  "direct_complete_extraction": false,
+  "prohibited_use": [
+    "Personal dosing, injection, infusion, dilution or reconstitution guidance",
+    "Authorised-product evidence transfer to a supplier product",
+    "Assumption of identity, concentration, potency, compatibility or sterility"
+  ]
+}

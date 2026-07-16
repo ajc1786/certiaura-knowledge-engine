@@ -1,0 +1,98 @@
+{
+  "asset_id": "CERT-PKS-000045",
+  "asset_name": "Unbranded Cerebrolysin-Type Product Family",
+  "knowledge_system": "PKS",
+  "asset_type": "Peptide / Biologic-Mixture Knowledge Asset",
+  "version": "0.2.0",
+  "status": "P0 EVIDENCE CLOSURE WAVE 1 / CRITICAL PRODUCT IDENTITY BLOCK ACTIVE / NOT PLATINUM CERTIFIED",
+  "owner": "Aidan Coleman",
+  "last_review": "2026-07-16",
+  "aliases": [
+    "Cerebrolysin no brand",
+    "cerebroprotein hydrolysate no brand"
+  ],
+  "classification": "Unverified peptide hydrolysate / biologic mixture product family",
+  "mechanism_summary": "No mechanism is assigned beyond the supplier’s claimed product category because composition, manufacturing process and active constituents are unresolved.",
+  "evidence_maturity": "No branded-product clinical evidence may be assigned until analytical equivalence and manufacturing comparability are demonstrated.",
+  "regulatory_headline": "CRITICAL IDENTITY AND MANUFACTURING GAP — NO MEDICINAL EQUIVALENCE CLAIM",
+  "catalogue_supplier_skus": [
+    {
+      "catalogue_code": "C60",
+      "specification": "60 mg x 10 vials",
+      "price_usd_per_kit": 43
+    }
+  ],
+  "relationships": [
+    {
+      "source": "CERT-PKS-000045",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000069"
+    },
+    {
+      "source": "CERT-PKS-000045",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000070"
+    },
+    {
+      "source": "CERT-PKS-000045",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000075"
+    },
+    {
+      "source": "CERT-PKS-000045",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000117"
+    },
+    {
+      "source": "CERT-PKS-000045",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000118"
+    },
+    {
+      "source": "CERT-PKS-000045",
+      "relationship": "HAS_SAFETY",
+      "target": "CERT-SKS-000050"
+    },
+    {
+      "source": "CERT-PKS-000045",
+      "relationship": "HAS_PASSPORT",
+      "target": "CERT-PPS-000015"
+    },
+    {
+      "source": "CERT-PKS-000045",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000237"
+    },
+    {
+      "source": "CERT-PKS-000045",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000238"
+    }
+  ],
+  "validated_universal_human_dosing_protocol": false,
+  "supplier_catalogue_proves_quality": false,
+  "platinum_certified": false,
+  "certification_blockers": [
+    "Manufacturer",
+    "Species and tissue source",
+    "Hydrolysis and purification process",
+    "Peptide and amino-acid composition",
+    "Reference-product comparability",
+    "Sterility, endotoxin, viral and transmissible-agent controls"
+  ],
+  "closure_wave": "0031A",
+  "closure_priority": "P0",
+  "closure_class": "CRITICAL BIOLOGICAL MIXTURE AND SOURCE COMPARABILITY",
+  "closure_state": "BLOCKED — SOURCE TISSUE, HYDROLYSATE PROCESS AND COMPOSITION UNKNOWN",
+  "authoritative_product_boundary": "Published Cerebrolysin evidence concerns a manufacturer-controlled porcine-brain protein hydrolysate preparation. It does not establish equivalence of an unbranded 60 mg vial or another cerebroprotein hydrolysate.",
+  "product_passport": "CERT-PPS-000015",
+  "identity_verified": false,
+  "authorised_product_equivalence": false,
+  "critical_closure_controls": [
+    "No transfer from branded Cerebrolysin trials",
+    "No assumption that 60 mg describes a comparable active mixture",
+    "No stroke, dementia, brain-injury or cognitive-enhancement protocol",
+    "Biological-source and transmissible-agent controls remain mandatory",
+    "Human efficacy remains product and indication specific"
+  ]
+}

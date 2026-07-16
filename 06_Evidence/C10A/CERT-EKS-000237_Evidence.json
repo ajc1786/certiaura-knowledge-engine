@@ -1,0 +1,20 @@
+{
+  "asset_id": "CERT-EKS-000237",
+  "asset_name": "Branded Cerebrolysin Composition and Human Trial Comparator Evidence",
+  "root_asset": "CERT-PKS-000045",
+  "knowledge_system": "EKS",
+  "asset_type": "Priority Evidence Closure Object",
+  "version": "0.2.0",
+  "status": "COMPARATOR EVIDENCE IDENTIFIED — NON-TRANSFERABLE",
+  "closure_wave": "0031A",
+  "closure_priority": "P0",
+  "source_domain": "Primary studies describing a manufacturer-controlled brain-protein hydrolysate containing low-molecular-weight peptides and amino acids, plus branded-product trials",
+  "evidence_type": "Comparator product / human evidence",
+  "last_review": "2026-07-16",
+  "direct_complete_extraction": false,
+  "prohibited_use": [
+    "Personal dosing, injection, infusion, dilution or reconstitution guidance",
+    "Authorised-product evidence transfer to a supplier product",
+    "Assumption of identity, concentration, potency, compatibility or sterility"
+  ]
+}

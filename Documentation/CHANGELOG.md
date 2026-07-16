@@ -1,32 +1,31 @@
 # CERTIAURA CHANGE LOG
 
-## Build 0030A — Elamipretide / SS-31 & Generic GLP-1 Coverage Correction
+## Build 0031A — High-Risk Biologic & Sterile Product Closure
 **Date:** 2026-07-16
+
+Updated existing assets:
+
+- CERT-PKS-000036
+- CERT-PKS-000037
+- CERT-PKS-000045
+- CERT-MPS-000007
+- CERT-MPS-000008
+- CERT-MPS-000009
 
 Allocated:
 
-- CERT-PKS-000089–000090
-- CERT-EKS-000229–000232
-- CERT-SKS-000106–000107
-- CERT-BKS-000179–000184
-- CERT-CKS-000058–000059
-- CERT-MKS-000173–000181
-- CERT-GKS-000093–000096
+- CERT-PPS-000013–000015
+- CERT-EKS-000233–000244
 
-Closed:
+Patched:
 
-- 2S10
-- 2S50
-- GP
+- CERT-PPS-000007–000009
 
-Coverage after build:
+Added:
 
-- 196 / 196 SKU rows
-- 104 / 104 preliminary families
-- zero unmapped page 1-5 catalogue rows
+- P0 closure and passport field registers;
+- current official-source map;
+- authoritative-product non-equivalence controls;
+- direct-sale activation gates.
 
-Key controls:
-
-- Forzinity approval is not transferred to supplier SS-31 powder.
-- Generic GLP-1 receives a supplier-family UAI with a critical identity block.
-- No dosing, infusion, injection or reconstitution protocol was created.
+No product-family UAI, dosing protocol or Platinum certification was created.

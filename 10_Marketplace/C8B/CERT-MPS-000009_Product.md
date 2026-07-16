@@ -8,45 +8,46 @@
 
 # CERT-MPS-000009 — Botulinum Toxin Supplier Product Family
 
-**System:** Marketplace Product System (MPS)  
-**Status:** CATALOGUE REVIEWED / PRODUCT PASSPORT GAP ACTIVE / NOT QUALITY VERIFIED  
+**System:** MPS  
+**Object:** Marketplace Product-Family Asset  
+**Version:** 0.2.0  
+**Status:** P0 EVIDENCE CLOSURE WAVE 1 / CRITICAL PRODUCT IDENTITY BLOCK ACTIVE  
 **Last Review:** 2026-07-16
 
-## Classification
+## Closure state
 
-Unbranded neurotoxin biologic supplier product family
+**BLOCKED — SEROTYPE, PROPER NAME, BRAND, ASSAY AND MANUFACTURER UNKNOWN**
 
-## Product context
+## Authoritative product boundary
 
-Authorised botulinum toxin medicines are brand-, serotype-, manufacturing- and potency-assay-specific. Units cannot be assumed interchangeable across products.
+Authorised botulinum toxin products are prescription medicines with exact proper names, manufacturers, potency assays, indications and non-interchangeable units. XT100 cannot inherit any authorised product label.
 
-## Evidence maturity
+## New closure evidence
 
-Extensive authorised-product evidence exists for defined botulinum toxin products and indications. It cannot be transferred to an unbranded catalogue vial.
-
-## Evidence foundation
-
-- `CERT-EKS-000221`
-- `CERT-EKS-000222`
-
-## Regulatory headline
-
-**SEROTYPE, BRAND AND POTENCY SYSTEM UNRESOLVED / UNBRANDED PRODUCT NOT AUTHORISED-PRODUCT EQUIVALENT**
-
-## Catalogue pricing
-
-| Code | Specification | USD per kit | Catalogue note |
-|---|---|---:|---|
-| XT100 | Botulinum toxin 100 IU x 10 vials | $165 |  |
+- `CERT-EKS-000243`
+- `CERT-EKS-000244`
 
 ## Product Passport
 
 `CERT-PPS-000009`
 
-## Marketplace boundary
+## Catalogue records
 
-The catalogue does not establish exact identity, formulation, potency system, device status, sterility, approval or authorised-product equivalence.
+| Code | Specification | USD per kit |
+|---|---|---:|
+| XT100 | Botulinum toxin 100 IU x 10 vials | $165 |
 
-## Validated administration protocol
+## Critical controls
 
-**No**
+- Botulinum toxin units are not interchangeable
+- No assumption that XT100 is onabotulinumtoxinA
+- No cosmetic or therapeutic injection protocol
+- Iatrogenic botulism and distant-spread warning retained
+- Unlicensed, counterfeit and unauthorised supply-chain risks retained
+
+## Certification state
+
+- Identity verified: **No**
+- Authorised-product equivalence: **No**
+- Universal human dosing or administration protocol: **No**
+- Platinum Certified: **No**

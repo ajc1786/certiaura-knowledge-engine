@@ -1,36 +1,31 @@
 {
   "asset_uai": "CERT-MPS-000009",
   "asset_name": "Botulinum Toxin Supplier Product Family",
+  "version": "0.2.0",
   "status_as_of": "2026-07-16",
-  "overall_status": "SEROTYPE, BRAND AND POTENCY SYSTEM UNRESOLVED / UNBRANDED PRODUCT NOT AUTHORISED-PRODUCT EQUIVALENT",
+  "closure_wave": "0031A",
+  "overall_status": "BLOCKED — SEROTYPE, PROPER NAME, BRAND, ASSAY AND MANUFACTURER UNKNOWN",
   "regulatory_records": [
     {
       "jurisdiction": "United Kingdom",
       "authority": "MHRA",
-      "current_status": "Authorised products exist; July 2026 warning addresses iatrogenic botulism and use of unlicensed products.",
+      "current_status": "The 15 July 2026 Drug Safety Update strengthened warnings for iatrogenic botulism, states units are not interchangeable and highlights unlicensed/counterfeit-product risks.",
       "monitoring_state": "ACTIVE",
-      "next_review_trigger": "Identity, approval, warning, enforcement, recall, safety or classification change"
+      "next_review_trigger": "Identity, approval, label, warning, recall, enforcement, counterfeit, safety or anti-doping change"
     },
     {
       "jurisdiction": "United States",
       "authority": "FDA",
-      "current_status": "Authorised prescription products exist; unapproved online toxin products are subject to enforcement.",
+      "current_status": "FDA has issued warning letters and enforcement communications concerning unapproved, misbranded and counterfeit botulinum toxin products. XT100 has no authorised-product equivalence.",
       "monitoring_state": "ACTIVE",
-      "next_review_trigger": "Identity, approval, warning, enforcement, recall, safety or classification change"
+      "next_review_trigger": "Identity, approval, label, warning, recall, enforcement, counterfeit, safety or anti-doping change"
     },
     {
       "jurisdiction": "European Union",
       "authority": "EMA / national authorities",
-      "current_status": "Authorisation and units are exact-product specific.",
+      "current_status": "Botulinum toxin authorisation and units are exact-product specific.",
       "monitoring_state": "ACTIVE",
-      "next_review_trigger": "Identity, approval, warning, enforcement, recall, safety or classification change"
-    },
-    {
-      "jurisdiction": "International sport",
-      "authority": "WADA",
-      "current_status": "Current athlete-specific verification required.",
-      "monitoring_state": "EVENT-TRIGGERED",
-      "next_review_trigger": "Identity, approval, warning, enforcement, recall, safety or classification change"
+      "next_review_trigger": "Identity, approval, label, warning, recall, enforcement, counterfeit, safety or anti-doping change"
     }
   ]
 }

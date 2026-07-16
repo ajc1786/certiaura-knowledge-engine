@@ -3,37 +3,56 @@
   "asset_name": "Botulinum Toxin Supplier Product Family Product Passport",
   "knowledge_system": "PPS",
   "asset_type": "Product Passport Gap Object",
-  "version": "0.1.0",
-  "status": "OPEN / NOT CERTIFIED",
+  "version": "0.2.0",
+  "status": "P0 OPEN / CRITICAL CLOSURE WAVE ACTIVE / NOT CERTIFIED",
   "parent_product": "CERT-MPS-000009",
   "last_review": "2026-07-16",
   "required_fields": [
     {
-      "field": "toxin serotype and molecular complex",
-      "status": "OPEN"
+      "field": "serotype and exact proper/nonproprietary name",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical and regulatory evidence"
     },
     {
-      "field": "strain, manufacturer and brand",
-      "status": "OPEN"
+      "field": "strain and molecular complex",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical and regulatory evidence"
+    },
+    {
+      "field": "manufacturer, brand and biological licence",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical and regulatory evidence"
     },
     {
       "field": "product-specific potency assay and unit definition",
-      "status": "OPEN"
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical and regulatory evidence"
     },
     {
-      "field": "excipients and formulation",
-      "status": "OPEN"
+      "field": "formulation, excipients and presentation",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical and regulatory evidence"
+    },
+    {
+      "field": "authorised indications and jurisdictions",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical and regulatory evidence"
     },
     {
       "field": "cold chain, sterility and batch release",
-      "status": "OPEN"
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical and regulatory evidence"
     },
     {
-      "field": "authorised indication and jurisdiction",
-      "status": "OPEN"
+      "field": "serialisation, authorised distributor and counterfeit controls",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical and regulatory evidence"
     }
   ],
   "identity_certified": false,
   "quality_certified": false,
-  "sterility_certified": false
+  "sterility_certified": false,
+  "closure_wave": "0031A",
+  "closure_priority": "P0",
+  "authorised_product_equivalence": false
 }
