@@ -1,0 +1,19 @@
+{
+  "asset_id": "CERT-EKS-000162",
+  "asset_name": "Testagen Clinical and Regulatory Evidence Block",
+  "root_asset": "CERT-PKS-000067",
+  "knowledge_system": "EKS",
+  "asset_type": "Evidence Object",
+  "version": "0.1.0",
+  "status": "BLOCKED BY CERT-EKS-000161",
+  "source_domain": "Clinical, endocrine, fertility and regulatory review after identity closure",
+  "evidence_type": "Blocked evidence object",
+  "last_review": "2026-07-16",
+  "direct_complete_extraction": false,
+  "prohibited_use": [
+    "Personal senolytic, anti-ageing, endocrine, fertility, dosing or reconstitution guidance",
+    "Transfer from Epitalon to N-acetyl Epitalon amidate",
+    "Assignment of pharmacology to unresolved Testagen",
+    "Claims that preclinical effects establish human rejuvenation"
+  ]
+}

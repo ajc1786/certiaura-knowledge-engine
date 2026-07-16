@@ -1,0 +1,13 @@
+Asset,Source,URL / Citation,Purpose
+All assets,FDA Drugs@FDA,https://www.accessdata.fda.gov/scripts/cder/daf/,United States approval search
+All assets,MHRA Products,https://products.mhra.gov.uk/,United Kingdom authorisation search
+All assets,EMA Medicines,https://www.ema.europa.eu/en/medicines,European Union authorisation search
+All assets,ClinicalTrials.gov,https://clinicaltrials.gov/,Human trial search
+All assets,WADA Prohibited List,https://www.wada-ama.org/en/prohibited-list,Current athlete status
+Humanin,Primary discovery publication,"A rescue factor abolishing neuronal cell death by a wide spectrum of familial Alzheimer's disease genes and amyloid-beta. PNAS, 2001.",Discovery and identity
+Humanin,Primary mechanistic literature,"Humanin peptide suppresses apoptosis by interfering with Bax activation. Nature, 2003.",Apoptosis biology
+FOXO4-DRI,Primary preclinical publication,"Targeted apoptosis of senescent cells restores tissue homeostasis in response to chemotoxicity and aging. Cell, 2017.",Senolytic construct and animal evidence
+FOXO4-DRI,PubMed,https://pubmed.ncbi.nlm.nih.gov/?term=FOXO4-DRI,Later preclinical evidence
+N-Acetyl Epitalon Amidate,Chemical databases and primary literature,Exact sequence and terminal-modification search,Identity resolution
+Vilon,PubMed,https://pubmed.ncbi.nlm.nih.gov/?term=Vilon+peptide,Identity and regional evidence
+Testagen,PubMed and chemical databases,https://pubmed.ncbi.nlm.nih.gov/?term=Testagen+peptide,Identity resolution

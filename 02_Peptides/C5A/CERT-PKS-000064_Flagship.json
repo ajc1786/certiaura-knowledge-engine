@@ -1,0 +1,103 @@
+{
+  "asset_id": "CERT-PKS-000064",
+  "asset_name": "FOXO4-DRI Supplier Product Family",
+  "knowledge_system": "PKS",
+  "asset_type": "Peptide / Supplier-Product Knowledge Asset",
+  "version": "0.1.0",
+  "status": "CATALOGUE REVIEWED / EVIDENCE FOUNDATION CREATED / NOT PLATINUM CERTIFIED",
+  "owner": "Aidan Coleman",
+  "last_review": "2026-07-16",
+  "aliases": [
+    "FOXO4-DRI",
+    "FOXO4 D-retro-inverso",
+    "FOXO4 catalogue product"
+  ],
+  "classification": "Identity-sensitive retro-inverso D-peptide senolytic research construct",
+  "mechanism_summary": "Experimental disruption of FOXO4-p53 interactions in selected senescent-cell models, intended to promote p53-dependent apoptosis.",
+  "evidence_maturity": "Cell and animal preclinical evidence beginning with the 2017 senescent-cell elimination programme; adequate human intervention evidence is not established.",
+  "regulatory_headline": "EXPERIMENTAL PRECLINICAL SENOLYTIC / NO HUMAN ANTI-AGEING OR APPROVAL CLAIM",
+  "catalogue_supplier_skus": [
+    {
+      "catalogue_code": "F410",
+      "specification": "10 mg x 10 vials",
+      "price_usd_per_kit": 431
+    }
+  ],
+  "relationships": [
+    {
+      "source": "CERT-PKS-000064",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000135"
+    },
+    {
+      "source": "CERT-PKS-000064",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000136"
+    },
+    {
+      "source": "CERT-PKS-000064",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000137"
+    },
+    {
+      "source": "CERT-PKS-000064",
+      "relationship": "HAS_CONDITION",
+      "target": "CERT-CKS-000030"
+    },
+    {
+      "source": "CERT-PKS-000064",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000112"
+    },
+    {
+      "source": "CERT-PKS-000064",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000113"
+    },
+    {
+      "source": "CERT-PKS-000064",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000114"
+    },
+    {
+      "source": "CERT-PKS-000064",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000115"
+    },
+    {
+      "source": "CERT-PKS-000064",
+      "relationship": "SUPPORTS_GOAL",
+      "target": "CERT-GKS-000058"
+    },
+    {
+      "source": "CERT-PKS-000064",
+      "relationship": "SUPPORTS_GOAL",
+      "target": "CERT-GKS-000059"
+    },
+    {
+      "source": "CERT-PKS-000064",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000155"
+    },
+    {
+      "source": "CERT-PKS-000064",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000156"
+    },
+    {
+      "source": "CERT-PKS-000064",
+      "relationship": "HAS_SAFETY",
+      "target": "CERT-SKS-000069"
+    }
+  ],
+  "validated_universal_human_dosing_protocol": false,
+  "supplier_catalogue_proves_quality": false,
+  "platinum_certified": false,
+  "certification_blockers": [
+    "Complete D-amino-acid sequence",
+    "Retro-inverso design and cell-penetrating component",
+    "Human PK, efficacy and safety",
+    "Off-target p53 and normal-tissue toxicity",
+    "Supplier identity, purity, aggregation and sterility"
+  ]
+}

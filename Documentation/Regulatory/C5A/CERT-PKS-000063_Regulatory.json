@@ -1,0 +1,43 @@
+{
+  "asset_uai": "CERT-PKS-000063",
+  "asset_name": "Humanin Supplier Product Family",
+  "status_as_of": "2026-07-16",
+  "overall_status": "PRECLINICAL-DOMINANT / PRODUCT IDENTITY UNDER-SPECIFIED / NO APPROVAL CLAIM",
+  "regulatory_records": [
+    {
+      "jurisdiction": "United States",
+      "authority": "FDA",
+      "current_status": "No approval claim; current trial and enforcement search required.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Identity, approval, safety, trial, enforcement or anti-doping change"
+    },
+    {
+      "jurisdiction": "United Kingdom",
+      "authority": "MHRA",
+      "current_status": "No marketing-authorisation claim.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Identity, approval, safety, trial, enforcement or anti-doping change"
+    },
+    {
+      "jurisdiction": "European Union",
+      "authority": "EMA / European Commission",
+      "current_status": "No marketing-authorisation claim.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Identity, approval, safety, trial, enforcement or anti-doping change"
+    },
+    {
+      "jurisdiction": "Other jurisdictions",
+      "authority": "National medicines authorities",
+      "current_status": "Any regional short-peptide status requires direct dated verification.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Identity, approval, safety, trial, enforcement or anti-doping change"
+    },
+    {
+      "jurisdiction": "International sport",
+      "authority": "WADA",
+      "current_status": "Current athlete-specific verification required.",
+      "monitoring_state": "EVENT-TRIGGERED",
+      "next_review_trigger": "Identity, approval, safety, trial, enforcement or anti-doping change"
+    }
+  ]
+}

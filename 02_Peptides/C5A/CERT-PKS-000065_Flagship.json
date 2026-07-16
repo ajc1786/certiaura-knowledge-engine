@@ -1,0 +1,87 @@
+{
+  "asset_id": "CERT-PKS-000065",
+  "asset_name": "N-Acetyl Epitalon Amidate",
+  "knowledge_system": "PKS",
+  "asset_type": "Peptide / Supplier-Product Knowledge Asset",
+  "version": "0.1.0",
+  "status": "CATALOGUE REVIEWED / EVIDENCE FOUNDATION CREATED / NOT PLATINUM CERTIFIED",
+  "owner": "Aidan Coleman",
+  "last_review": "2026-07-16",
+  "aliases": [
+    "N-acetyl Epitalon amidate",
+    "NA Epitalon amidate",
+    "Ac-AEDG-NH2 candidate"
+  ],
+  "classification": "N-terminally acetylated and C-terminally amidated Epitalon analogue",
+  "mechanism_summary": "Cannot be assumed identical to Epitalon; terminal modifications may alter charge, stability, distribution and biological interactions.",
+  "evidence_maturity": "Exact modified-product identity is plausible from the catalogue name, but direct pharmacology, human efficacy and safety evidence remain insufficient.",
+  "regulatory_headline": "MODIFIED EPITALON ANALOGUE / UNAPPROVED / PARENT-EVIDENCE TRANSFER PROHIBITED",
+  "catalogue_supplier_skus": [
+    {
+      "catalogue_code": "NET5",
+      "specification": "5 mg x 10 vials",
+      "price_usd_per_kit": 51
+    }
+  ],
+  "relationships": [
+    {
+      "source": "CERT-PKS-000065",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000138"
+    },
+    {
+      "source": "CERT-PKS-000065",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000139"
+    },
+    {
+      "source": "CERT-PKS-000065",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000069"
+    },
+    {
+      "source": "CERT-PKS-000065",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000110"
+    },
+    {
+      "source": "CERT-PKS-000065",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000116"
+    },
+    {
+      "source": "CERT-PKS-000065",
+      "relationship": "SUPPORTS_GOAL",
+      "target": "CERT-GKS-000057"
+    },
+    {
+      "source": "CERT-PKS-000065",
+      "relationship": "SUPPORTS_GOAL",
+      "target": "CERT-GKS-000060"
+    },
+    {
+      "source": "CERT-PKS-000065",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000157"
+    },
+    {
+      "source": "CERT-PKS-000065",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000158"
+    },
+    {
+      "source": "CERT-PKS-000065",
+      "relationship": "HAS_SAFETY",
+      "target": "CERT-SKS-000070"
+    }
+  ],
+  "validated_universal_human_dosing_protocol": false,
+  "supplier_catalogue_proves_quality": false,
+  "platinum_certified": false,
+  "certification_blockers": [
+    "Complete sequence and terminal chemistry",
+    "Direct comparison with Epitalon",
+    "Human PK, efficacy and long-term safety",
+    "Supplier identity, purity and sterility"
+  ]
+}

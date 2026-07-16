@@ -1,39 +1,40 @@
 # CERTIAURA PRODUCTION DASHBOARD
 
-**Build:** 0024B  
+**Build:** 0025A  
 **Date:** 2026-07-16
 
-## Catalogue C5B complete
+## Catalogue C6A complete
 
 ### New assets
 
-- CERT-PKS-000057 — GHK
-- CERT-PKS-000058 — AHK-Cu
-- CERT-PKS-000059 — Acetyl Octapeptide-3 / SNAP-8
-- CERT-PKS-000060 — Matrixyl Supplier Product Family
-- CERT-PKS-000061 — PNC-27
-- CERT-PKS-000062 — PTD-DBM
+- CERT-PKS-000063 — Humanin Supplier Product Family
+- CERT-PKS-000064 — FOXO4-DRI Supplier Product Family
+- CERT-PKS-000065 — N-Acetyl Epitalon Amidate
+- CERT-PKS-000066 — Vilon Supplier Product Family
+- CERT-PKS-000067 — Testagen Supplier Product Family
+
+### Existing assets retained
+
+- CERT-PKS-000006 — MOTS-c
+- CERT-PKS-000010 — Epitalon
+- CERT-PKS-000041 — Pinealon
 
 ### Supporting objects
 
-- CERT-EKS-000141–000152
-- CERT-SKS-000062–000067
-- CERT-BKS-000120–000131
-- CERT-CKS-000025–000028
-- CERT-MKS-000097–000108
-- CERT-GKS-000051–000055
+- CERT-EKS-000153–000162
+- CERT-SKS-000068–000072
+- CERT-BKS-000132–000141
+- CERT-CKS-000029–000031
+- CERT-MKS-000109–000118
+- CERT-GKS-000056–000060
 
 ## Critical outcomes
 
-- Free GHK, GHK-Cu and AHK-Cu remain separate.
-- SNAP-8 is not treated as botulinum toxin.
-- Matrixyl remains identity-blocked until exact INCI closure.
-- PNC-27 and PTD-DBM remain preclinical experimental assets.
-
-## Catalogue C5 completion
-
-Builds 0024A and 0024B complete the Repair, Immune & Cosmetic individual-product segment.
+- Humanin remains sequence- and analogue-sensitive.
+- FOXO4-DRI remains preclinical and identity-sensitive.
+- Modified Epitalon cannot inherit parent evidence.
+- Testagen is blocked at chemical identity level.
 
 ## Next task
 
-**Build 0025 — Mitochondrial, Longevity & Short Regulatory Peptides**
+**Build 0025B — Organ-Targeted Short Regulatory Peptide Families**

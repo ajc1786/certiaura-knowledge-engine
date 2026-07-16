@@ -1,0 +1,19 @@
+{
+  "asset_id": "CERT-EKS-000158",
+  "asset_name": "N-Acetyl Epitalon Amidate Pharmacology and Human Evidence Gap",
+  "root_asset": "CERT-PKS-000065",
+  "knowledge_system": "EKS",
+  "asset_type": "Evidence Object",
+  "version": "0.1.0",
+  "status": "OPEN — EPITALON EVIDENCE TRANSFER PROHIBITED",
+  "source_domain": "Direct pharmacology, Epitalon comparison, human PK, efficacy and safety",
+  "evidence_type": "Evidence-gap object",
+  "last_review": "2026-07-16",
+  "direct_complete_extraction": false,
+  "prohibited_use": [
+    "Personal senolytic, anti-ageing, endocrine, fertility, dosing or reconstitution guidance",
+    "Transfer from Epitalon to N-acetyl Epitalon amidate",
+    "Assignment of pharmacology to unresolved Testagen",
+    "Claims that preclinical effects establish human rejuvenation"
+  ]
+}

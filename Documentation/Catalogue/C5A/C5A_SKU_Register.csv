@@ -1,0 +1,9 @@
+Asset UAI,Asset Name,Catalogue Code,Specification,USD / Kit,Identity Status
+CERT-PKS-000063,Humanin Supplier Product Family,HU10,10 mg x 10 vials,210,UNVERIFIED SUPPLIER PRODUCT
+CERT-PKS-000064,FOXO4-DRI Supplier Product Family,F410,10 mg x 10 vials,431,CRITICAL IDENTITY VERIFICATION REQUIRED
+CERT-PKS-000065,N-Acetyl Epitalon Amidate,NET5,5 mg x 10 vials,51,UNVERIFIED SUPPLIER PRODUCT
+CERT-PKS-000066,Vilon Supplier Product Family,VI20,20 mg x 10 vials,119,CRITICAL IDENTITY VERIFICATION REQUIRED
+CERT-PKS-000067,Testagen Supplier Product Family,TG20,20 mg x 10 vials,126,CRITICAL IDENTITY VERIFICATION REQUIRED
+CERT-PKS-000006,MOTS-c,Existing asset,See Build 0020 crosswalk,,Existing UAI retained
+CERT-PKS-000010,Epitalon,Existing asset,See Build 0020 crosswalk,,Existing UAI retained
+CERT-PKS-000041,Pinealon,Existing asset,See Build 0023A,,Existing UAI retained

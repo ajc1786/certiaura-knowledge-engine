@@ -55,60 +55,57 @@ CERT-PKS-000053,LL-37,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-
 CERT-PKS-000054,Cibinetide / ARA-290,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
 CERT-PKS-000055,VIP / Aviptadil,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
 CERT-PKS-000056,KPV,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
-CERT-PKS-000057,GHK,PKS,Peptide / Cosmetic-Product Knowledge Asset,Catalogue Reviewed — Not Platinum Certified,Aidan Coleman,,,,,,,,2026-07-16,,Build 0024B
-CERT-PKS-000058,AHK-Cu,PKS,Peptide / Cosmetic-Product Knowledge Asset,Catalogue Reviewed — Not Platinum Certified,Aidan Coleman,,,,,,,,2026-07-16,,Build 0024B
-CERT-PKS-000059,Acetyl Octapeptide-3 / SNAP-8,PKS,Peptide / Cosmetic-Product Knowledge Asset,Catalogue Reviewed — Not Platinum Certified,Aidan Coleman,,,,,,,,2026-07-16,,Build 0024B
-CERT-PKS-000060,Matrixyl Supplier Product Family,PKS,Peptide / Cosmetic-Product Knowledge Asset,Catalogue Reviewed — Not Platinum Certified,Aidan Coleman,,,,,,,,2026-07-16,,Build 0024B
-CERT-PKS-000061,PNC-27,PKS,Peptide / Cosmetic-Product Knowledge Asset,Catalogue Reviewed — Not Platinum Certified,Aidan Coleman,,,,,,,,2026-07-16,,Build 0024B
-CERT-PKS-000062,PTD-DBM,PKS,Peptide / Cosmetic-Product Knowledge Asset,Catalogue Reviewed — Not Platinum Certified,Aidan Coleman,,,,,,,,2026-07-16,,Build 0024B
-CERT-BKS-000120,Free GHK Tripeptide Biology,BKS,Biology Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0024B
-CERT-BKS-000121,Copper-Binding Tripeptide Chemistry,BKS,Biology Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0024B
-CERT-BKS-000122,AHK-Cu Follicle and Matrix Research,BKS,Biology Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0024B
-CERT-BKS-000123,Copper Homeostasis and Oxidative Chemistry,BKS,Biology Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0024B
-CERT-BKS-000124,SNARE Complex and SNAP-25 Biology,BKS,Biology Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0024B
-CERT-BKS-000125,Topical Expression-Line Cosmetic Biology,BKS,Biology Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0024B
-CERT-BKS-000126,p53 and HDM2 Interaction Biology,BKS,Biology Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0024B
-CERT-BKS-000127,Membrane-Residency Peptide Constructs,BKS,Biology Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0024B
-CERT-BKS-000128,Cancer-Cell Membrane Disruption,BKS,Biology Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0024B
-CERT-BKS-000129,CXXC5-Dishevelled Interaction,BKS,Biology Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0024B
-CERT-BKS-000130,Wnt / Beta-Catenin Hair-Follicle Signalling,BKS,Biology Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0024B
-CERT-BKS-000131,Wound-Induced Hair Neogenesis,BKS,Biology Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0024B
-CERT-CKS-000025,Skin Ageing and Expression-Line Research,CKS,Condition Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0024B
-CERT-CKS-000026,Hair Loss and Follicle-Regeneration Research,CKS,Condition Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0024B
-CERT-CKS-000027,Experimental Solid-Tumour Research,CKS,Condition Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0024B
-CERT-CKS-000028,Cutaneous Wound and Hair-Neogenesis Research,CKS,Condition Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0024B
-CERT-MKS-000097,Topical Irritation and Dermatological Tolerability,MKS,Monitoring Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0024B
-CERT-MKS-000098,Copper Exposure and Oxidative Tolerability,MKS,Monitoring Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0024B
-CERT-MKS-000099,Free-Peptide versus Copper-Complex Verification,MKS,Monitoring Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0024B
-CERT-MKS-000100,"Hair Density, Shaft and Follicle Outcomes",MKS,Monitoring Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0024B
-CERT-MKS-000101,Facial Expression and Wrinkle Outcomes,MKS,Monitoring Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0024B
-CERT-MKS-000102,Neuromuscular and Off-Target Symptoms,MKS,Monitoring Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0024B
-CERT-MKS-000103,INCI and Cosmetic Product Identity Verification,MKS,Monitoring Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0024B
-CERT-MKS-000104,Tumour Response and Disease Progression,MKS,Monitoring Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0024B
-CERT-MKS-000105,Normal-Tissue Cytotoxicity and Organ Injury,MKS,Monitoring Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0024B
-CERT-MKS-000106,Immunogenicity and Infusion / Injection Reactions,MKS,Monitoring Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0024B
-CERT-MKS-000107,Wnt-Pathway and Abnormal-Growth Surveillance,MKS,Monitoring Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0024B
-CERT-MKS-000108,Wound Closure and Follicle-Neogenesis Outcomes,MKS,Monitoring Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0024B
-CERT-GKS-000051,Cosmetic Skin-Appearance Research,GKS,Goal Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0024B
-CERT-GKS-000052,Skin and Extracellular-Matrix Research,GKS,Goal Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0024B
-CERT-GKS-000053,Hair-Follicle Research,GKS,Goal Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0024B
-CERT-GKS-000054,Experimental Anticancer Peptide Research,GKS,Goal Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0024B
-CERT-GKS-000055,Wnt-Pathway Repair Research,GKS,Goal Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0024B
-CERT-SKS-000062,"GHK Metal-State, Route and Human-Safety Uncertainty",SKS,Safety Object,Active,Aidan Coleman,,CERT-PKS-000057,,,,,,2026-07-16,,Build 0024B
-CERT-SKS-000063,"AHK-Cu Copper, Identity and Human-Evidence Uncertainty",SKS,Safety Object,Active,Aidan Coleman,,CERT-PKS-000058,,,,,,2026-07-16,,Build 0024B
-CERT-SKS-000064,"SNAP-8 Cosmetic-Only, Neuromuscular and Route-Transfer Risk",SKS,Safety Object,Active,Aidan Coleman,,CERT-PKS-000059,,,,,,2026-07-16,,Build 0024B
-CERT-SKS-000065,Matrixyl Unknown-Ingredient and Evidence-Transfer Block,SKS,Safety Object,Active,Aidan Coleman,,CERT-PKS-000060,,,,,,2026-07-16,,Build 0024B
-CERT-SKS-000066,"PNC-27 Preclinical Anticancer, Cytotoxicity and Human-Safety Uncertainty",SKS,Safety Object,Active,Aidan Coleman,,CERT-PKS-000061,,,,,,2026-07-16,,Build 0024B
-CERT-SKS-000067,"PTD-DBM Wnt-Pathway, Abnormal-Growth and Human-Safety Uncertainty",SKS,Safety Object,Active,Aidan Coleman,,CERT-PKS-000062,,,,,,2026-07-16,,Build 0024B
-CERT-EKS-000141,GHK Identity and Foundational Biochemistry,EKS,Evidence Object,FOUNDATIONAL SOURCE MAP CREATED — EXTRACTION REQUIRED,Aidan Coleman,,CERT-PKS-000057,,,,,,2026-07-16,,Root: CERT-PKS-000057
-CERT-EKS-000142,"GHK Human, Route and GHK-Cu Evidence Boundary",EKS,Evidence Object,NO GHK-CU EVIDENCE TRANSFER WITHOUT SOURCE SUPPORT,Aidan Coleman,,CERT-PKS-000057,,,,,,2026-07-16,,Root: CERT-PKS-000057
-CERT-EKS-000143,AHK-Cu Chemical Identity and Preclinical Evidence,EKS,Evidence Object,PRIMARY SOURCE MAP CREATED — EXTRACTION REQUIRED,Aidan Coleman,,CERT-PKS-000058,,,,,,2026-07-16,,Root: CERT-PKS-000058
-CERT-EKS-000144,AHK-Cu Human and Regulatory Evidence Gap,EKS,Evidence Object,OPEN — ADEQUATE HUMAN PRIMARY EVIDENCE NOT ESTABLISHED,Aidan Coleman,,CERT-PKS-000058,,,,,,2026-07-16,,Root: CERT-PKS-000058
-CERT-EKS-000145,SNAP-8 Chemical Identity and Cosmetic Mechanism,EKS,Evidence Object,PRODUCT-SPECIFIC SOURCE CLOSURE REQUIRED,Aidan Coleman,,CERT-PKS-000059,,,,,,2026-07-16,,Root: CERT-PKS-000059
-CERT-EKS-000146,SNAP-8 Independent Human and Route Evidence Gap,EKS,Evidence Object,NO BOTULINUM-TOXIN OR INJECTABLE EQUIVALENCE,Aidan Coleman,,CERT-PKS-000059,,,,,,2026-07-16,,Root: CERT-PKS-000059
-CERT-EKS-000147,Matrixyl Exact-INCI Identity Gap,EKS,Evidence Object,OPEN — PRODUCT MOLECULE UNRESOLVED,Aidan Coleman,,CERT-PKS-000060,,,,,,2026-07-16,,Root: CERT-PKS-000060
-CERT-EKS-000148,Matrixyl Clinical and Regulatory Evidence Block,EKS,Evidence Object,BLOCKED BY CERT-EKS-000147,Aidan Coleman,,CERT-PKS-000060,,,,,,2026-07-16,,Root: CERT-PKS-000060
-CERT-EKS-000149,PNC-27 Construct Identity and Preclinical Anticancer Evidence,EKS,Evidence Object,PRIMARY PRECLINICAL MAP CREATED — EXTRACTION REQUIRED,Aidan Coleman,,CERT-PKS-000061,,,,,,2026-07-16,,Root: CERT-PKS-000061
-CERT-EKS-000150,PNC-27 Human and Regulatory Evidence Gap,EKS,Evidence Object,OPEN — ADEQUATE HUMAN PRIMARY EVIDENCE NOT ESTABLISHED,Aidan Coleman,,CERT-PKS-000061,,,,,,2026-07-16,,Root: CERT-PKS-000061
-CERT-EKS-000151,PTD-DBM Chemical Identity and Wnt/CXXC5 Evidence,EKS,Evidence Object,PRIMARY PRECLINICAL MAP CREATED — EXTRACTION REQUIRED,Aidan Coleman,,CERT-PKS-000062,,,,,,2026-07-16,,Root: CERT-PKS-000062
-CERT-EKS-000152,"PTD-DBM Human Hair, Wound and Regulatory Evidence Gap",EKS,Evidence Object,OPEN — ADEQUATE HUMAN PRIMARY EVIDENCE NOT ESTABLISHED,Aidan Coleman,,CERT-PKS-000062,,,,,,2026-07-16,,Root: CERT-PKS-000062
+CERT-PKS-000057,GHK,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
+CERT-PKS-000058,AHK-Cu,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
+CERT-PKS-000059,SNAP-8,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
+CERT-PKS-000060,Matrixyl Product Family,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
+CERT-PKS-000061,PNC-27,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
+CERT-PKS-000062,PTD-DBM,PKS,Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
+CERT-PKS-000063,Humanin Supplier Product Family,PKS,Peptide / Supplier-Product Knowledge Asset,Catalogue Reviewed — Not Platinum Certified,Aidan Coleman,,,,,,,,2026-07-16,,Build 0025A
+CERT-PKS-000064,FOXO4-DRI Supplier Product Family,PKS,Peptide / Supplier-Product Knowledge Asset,Catalogue Reviewed — Not Platinum Certified,Aidan Coleman,,,,,,,,2026-07-16,,Build 0025A
+CERT-PKS-000065,N-Acetyl Epitalon Amidate,PKS,Peptide / Supplier-Product Knowledge Asset,Catalogue Reviewed — Not Platinum Certified,Aidan Coleman,,,,,,,,2026-07-16,,Build 0025A
+CERT-PKS-000066,Vilon Supplier Product Family,PKS,Peptide / Supplier-Product Knowledge Asset,Catalogue Reviewed — Not Platinum Certified,Aidan Coleman,,,,,,,,2026-07-16,,Build 0025A
+CERT-PKS-000067,Testagen Supplier Product Family,PKS,Peptide / Supplier-Product Knowledge Asset,Catalogue Reviewed — Not Platinum Certified,Aidan Coleman,,,,,,,,2026-07-16,,Build 0025A
+CERT-BKS-000132,Humanin and Mitochondrial-Derived Peptide Biology,BKS,Biology Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0025A
+CERT-BKS-000133,"BAX, BID and Mitochondrial Apoptosis",BKS,Biology Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0025A
+CERT-BKS-000134,Humanin Cytokine-Receptor and Stress-Survival Signalling,BKS,Biology Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0025A
+CERT-BKS-000135,FOXO4 and Cellular Senescence,BKS,Biology Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0025A
+CERT-BKS-000136,FOXO4-p53 Interaction,BKS,Biology Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0025A
+CERT-BKS-000137,Senescence-Associated Secretory Phenotype,BKS,Biology Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0025A
+CERT-BKS-000138,Epitalon Terminal-Modification Chemistry,BKS,Biology Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0025A
+CERT-BKS-000139,Modified Short-Peptide Exposure and Stability,BKS,Biology Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0025A
+CERT-BKS-000140,Short Thymic Regulatory-Peptide Biology,BKS,Biology Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0025A
+CERT-BKS-000141,Immune Ageing and Thymic Function,BKS,Biology Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0025A
+CERT-CKS-000029,Mitochondrial Stress and Neurodegeneration Research,CKS,Condition Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0025A
+CERT-CKS-000030,Cellular Senescence and Age-Related Disease Research,CKS,Condition Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0025A
+CERT-CKS-000031,Immune Ageing Research,CKS,Condition Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0025A
+CERT-MKS-000109,Mitochondrial and Cellular-Stress Outcomes,MKS,Monitoring Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0025A
+CERT-MKS-000110,"Growth, Apoptosis and Neoplasm Context",MKS,Monitoring Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0025A
+CERT-MKS-000111,Metabolic and Neurological Functional Outcomes,MKS,Monitoring Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0025A
+CERT-MKS-000112,Senescent-Cell and SASP Biomarkers,MKS,Monitoring Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0025A
+CERT-MKS-000113,p53 and Normal-Tissue Toxicity,MKS,Monitoring Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0025A
+CERT-MKS-000114,Immune and Inflammatory Consequences of Senolysis,MKS,Monitoring Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0025A
+CERT-MKS-000115,Organ Function and Systemic Tolerability,MKS,Monitoring Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0025A
+CERT-MKS-000116,"Telomere, Cell-Cycle and Long-Term Safety",MKS,Monitoring Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0025A
+CERT-MKS-000117,Thymic and Immune-Function Outcomes,MKS,Monitoring Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0025A
+CERT-MKS-000118,Reproductive and Endocrine Unknown-Product Surveillance,MKS,Monitoring Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0025A
+CERT-GKS-000056,Mitochondrial-Derived Peptide Research,GKS,Goal Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0025A
+CERT-GKS-000057,Cellular Stress-Resistance Research,GKS,Goal Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0025A
+CERT-GKS-000058,Senolytic Research,GKS,Goal Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0025A
+CERT-GKS-000059,Healthy-Ageing Mechanism Research,GKS,Goal Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0025A
+CERT-GKS-000060,Short Regulatory-Peptide Research,GKS,Goal Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0025A
+CERT-SKS-000068,"Humanin Sequence, Analogue and Human-Safety Uncertainty",SKS,Safety Object,Active,Aidan Coleman,,CERT-PKS-000063,,,,,,2026-07-16,,Build 0025A
+CERT-SKS-000069,"FOXO4-DRI Off-Target p53, Senolytic and Human-Safety Uncertainty",SKS,Safety Object,Active,Aidan Coleman,,CERT-PKS-000064,,,,,,2026-07-16,,Build 0025A
+CERT-SKS-000070,"N-Acetyl Epitalon Amidate Identity, Cell-Cycle and Evidence-Transfer Risk",SKS,Safety Object,Active,Aidan Coleman,,CERT-PKS-000065,,,,,,2026-07-16,,Build 0025A
+CERT-SKS-000071,"Vilon Identity, Regional Evidence and Human-Safety Uncertainty",SKS,Safety Object,Active,Aidan Coleman,,CERT-PKS-000066,,,,,,2026-07-16,,Build 0025A
+CERT-SKS-000072,Testagen Unknown-Identity Critical Endocrine and Safety Block,SKS,Safety Object,Active,Aidan Coleman,,CERT-PKS-000067,,,,,,2026-07-16,,Build 0025A
+CERT-EKS-000153,Humanin Discovery and Molecular Identity Evidence,EKS,Evidence Object,PRIMARY PUBLICATION MAP CREATED — DIRECT EXTRACTION REQUIRED,Aidan Coleman,,CERT-PKS-000063,,,,,,2026-07-16,,Root: CERT-PKS-000063
+CERT-EKS-000154,Humanin Human Intervention and Regulatory Evidence Gap,EKS,Evidence Object,OPEN — ADEQUATE HUMAN INTERVENTION EVIDENCE NOT ESTABLISHED,Aidan Coleman,,CERT-PKS-000063,,,,,,2026-07-16,,Root: CERT-PKS-000063
+CERT-EKS-000155,FOXO4-DRI Construct and Senolytic Preclinical Evidence,EKS,Evidence Object,PRIMARY PRECLINICAL PROGRAMME IDENTIFIED — EXTRACTION REQUIRED,Aidan Coleman,,CERT-PKS-000064,,,,,,2026-07-16,,Root: CERT-PKS-000064
+CERT-EKS-000156,FOXO4-DRI Human and Regulatory Evidence Gap,EKS,Evidence Object,OPEN — HUMAN SENOLYTIC EVIDENCE NOT ESTABLISHED,Aidan Coleman,,CERT-PKS-000064,,,,,,2026-07-16,,Root: CERT-PKS-000064
+CERT-EKS-000157,N-Acetyl Epitalon Amidate Chemical Identity Evidence,EKS,Evidence Object,PRODUCT-SPECIFIC CHEMICAL IDENTITY REQUIRES CLOSURE,Aidan Coleman,,CERT-PKS-000065,,,,,,2026-07-16,,Root: CERT-PKS-000065
+CERT-EKS-000158,N-Acetyl Epitalon Amidate Pharmacology and Human Evidence Gap,EKS,Evidence Object,OPEN — EPITALON EVIDENCE TRANSFER PROHIBITED,Aidan Coleman,,CERT-PKS-000065,,,,,,2026-07-16,,Root: CERT-PKS-000065
+CERT-EKS-000159,Vilon Chemical Identity and Short-Peptide Evidence,EKS,Evidence Object,DIRECT PRIMARY AND ANALYTICAL CLOSURE REQUIRED,Aidan Coleman,,CERT-PKS-000066,,,,,,2026-07-16,,Root: CERT-PKS-000066
+CERT-EKS-000160,Vilon Human and Regulatory Evidence Gap,EKS,Evidence Object,OPEN — UNIVERSAL APPROVAL AND EFFICACY NOT ESTABLISHED,Aidan Coleman,,CERT-PKS-000066,,,,,,2026-07-16,,Root: CERT-PKS-000066
+CERT-EKS-000161,Testagen Chemical Identity Gap,EKS,Evidence Object,OPEN — MOLECULE UNRESOLVED,Aidan Coleman,,CERT-PKS-000067,,,,,,2026-07-16,,Root: CERT-PKS-000067
+CERT-EKS-000162,Testagen Clinical and Regulatory Evidence Block,EKS,Evidence Object,BLOCKED BY CERT-EKS-000161,Aidan Coleman,,CERT-PKS-000067,,,,,,2026-07-16,,Root: CERT-PKS-000067

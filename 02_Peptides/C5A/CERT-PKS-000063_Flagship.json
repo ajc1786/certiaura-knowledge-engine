@@ -1,0 +1,97 @@
+{
+  "asset_id": "CERT-PKS-000063",
+  "asset_name": "Humanin Supplier Product Family",
+  "knowledge_system": "PKS",
+  "asset_type": "Peptide / Supplier-Product Knowledge Asset",
+  "version": "0.1.0",
+  "status": "CATALOGUE REVIEWED / EVIDENCE FOUNDATION CREATED / NOT PLATINUM CERTIFIED",
+  "owner": "Aidan Coleman",
+  "last_review": "2026-07-16",
+  "aliases": [
+    "Humanin",
+    "HN",
+    "MT-RNR2-derived peptide"
+  ],
+  "classification": "Mitochondrial-derived peptide product family with unresolved sequence/form",
+  "mechanism_summary": "Endogenous mitochondrial-derived peptide biology associated with cell-survival, stress-response, apoptosis and metabolic signalling; effects depend on exact native or analogue sequence.",
+  "evidence_maturity": "Foundational cell and animal neuroprotection, apoptosis and metabolic evidence; adequate human intervention evidence is not established.",
+  "regulatory_headline": "PRECLINICAL-DOMINANT / PRODUCT IDENTITY UNDER-SPECIFIED / NO APPROVAL CLAIM",
+  "catalogue_supplier_skus": [
+    {
+      "catalogue_code": "HU10",
+      "specification": "10 mg x 10 vials",
+      "price_usd_per_kit": 210
+    }
+  ],
+  "relationships": [
+    {
+      "source": "CERT-PKS-000063",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000132"
+    },
+    {
+      "source": "CERT-PKS-000063",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000133"
+    },
+    {
+      "source": "CERT-PKS-000063",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000134"
+    },
+    {
+      "source": "CERT-PKS-000063",
+      "relationship": "HAS_CONDITION",
+      "target": "CERT-CKS-000029"
+    },
+    {
+      "source": "CERT-PKS-000063",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000109"
+    },
+    {
+      "source": "CERT-PKS-000063",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000110"
+    },
+    {
+      "source": "CERT-PKS-000063",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000111"
+    },
+    {
+      "source": "CERT-PKS-000063",
+      "relationship": "SUPPORTS_GOAL",
+      "target": "CERT-GKS-000056"
+    },
+    {
+      "source": "CERT-PKS-000063",
+      "relationship": "SUPPORTS_GOAL",
+      "target": "CERT-GKS-000057"
+    },
+    {
+      "source": "CERT-PKS-000063",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000153"
+    },
+    {
+      "source": "CERT-PKS-000063",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000154"
+    },
+    {
+      "source": "CERT-PKS-000063",
+      "relationship": "HAS_SAFETY",
+      "target": "CERT-SKS-000068"
+    }
+  ],
+  "validated_universal_human_dosing_protocol": false,
+  "supplier_catalogue_proves_quality": false,
+  "platinum_certified": false,
+  "certification_blockers": [
+    "Native versus analogue sequence",
+    "Peptide length and terminal chemistry",
+    "Human PK, efficacy and long-term safety",
+    "Supplier identity, purity and sterility"
+  ]
+}

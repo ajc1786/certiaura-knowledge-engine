@@ -1,0 +1,92 @@
+{
+  "asset_id": "CERT-PKS-000066",
+  "asset_name": "Vilon Supplier Product Family",
+  "knowledge_system": "PKS",
+  "asset_type": "Peptide / Supplier-Product Knowledge Asset",
+  "version": "0.1.0",
+  "status": "CATALOGUE REVIEWED / EVIDENCE FOUNDATION CREATED / NOT PLATINUM CERTIFIED",
+  "owner": "Aidan Coleman",
+  "last_review": "2026-07-16",
+  "aliases": [
+    "Vilon",
+    "VILON"
+  ],
+  "classification": "Identity-sensitive short regulatory peptide product family",
+  "mechanism_summary": "No definitive mechanism is assigned until exact sequence and product identity are closed; regional literature commonly describes a short thymic regulatory peptide.",
+  "evidence_maturity": "Regional preclinical and limited human reports exist, but independent replication, analytical identity and current product status are insufficiently closed.",
+  "regulatory_headline": "SHORT REGULATORY PEPTIDE / IDENTITY AND REGIONAL-STATUS VERIFICATION REQUIRED",
+  "catalogue_supplier_skus": [
+    {
+      "catalogue_code": "VI20",
+      "specification": "20 mg x 10 vials",
+      "price_usd_per_kit": 119
+    }
+  ],
+  "relationships": [
+    {
+      "source": "CERT-PKS-000066",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000140"
+    },
+    {
+      "source": "CERT-PKS-000066",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000141"
+    },
+    {
+      "source": "CERT-PKS-000066",
+      "relationship": "HAS_CONDITION",
+      "target": "CERT-CKS-000031"
+    },
+    {
+      "source": "CERT-PKS-000066",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000069"
+    },
+    {
+      "source": "CERT-PKS-000066",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000081"
+    },
+    {
+      "source": "CERT-PKS-000066",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000117"
+    },
+    {
+      "source": "CERT-PKS-000066",
+      "relationship": "SUPPORTS_GOAL",
+      "target": "CERT-GKS-000041"
+    },
+    {
+      "source": "CERT-PKS-000066",
+      "relationship": "SUPPORTS_GOAL",
+      "target": "CERT-GKS-000060"
+    },
+    {
+      "source": "CERT-PKS-000066",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000159"
+    },
+    {
+      "source": "CERT-PKS-000066",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000160"
+    },
+    {
+      "source": "CERT-PKS-000066",
+      "relationship": "HAS_SAFETY",
+      "target": "CERT-SKS-000071"
+    }
+  ],
+  "validated_universal_human_dosing_protocol": false,
+  "supplier_catalogue_proves_quality": false,
+  "platinum_certified": false,
+  "certification_blockers": [
+    "Exact amino-acid sequence and stereochemistry",
+    "Salt and terminal chemistry",
+    "Independent human evidence",
+    "Current jurisdiction-specific status",
+    "Supplier identity, purity and sterility"
+  ]
+}

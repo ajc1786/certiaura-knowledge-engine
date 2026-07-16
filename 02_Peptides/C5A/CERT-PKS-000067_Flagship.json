@@ -1,0 +1,66 @@
+{
+  "asset_id": "CERT-PKS-000067",
+  "asset_name": "Testagen Supplier Product Family",
+  "knowledge_system": "PKS",
+  "asset_type": "Peptide / Supplier-Product Knowledge Asset",
+  "version": "0.1.0",
+  "status": "CATALOGUE REVIEWED / EVIDENCE FOUNDATION CREATED / NOT PLATINUM CERTIFIED",
+  "owner": "Aidan Coleman",
+  "last_review": "2026-07-16",
+  "aliases": [
+    "Testagen"
+  ],
+  "classification": "Chemically unresolved short regulatory peptide product family",
+  "mechanism_summary": "Not assigned because the catalogue does not define the sequence, terminal chemistry or relationship to any published gonadal regulatory peptide.",
+  "evidence_maturity": "Regional and commercial claims cannot be attributed to this catalogue product without exact chemical identity and direct primary-source linkage.",
+  "regulatory_headline": "IDENTITY UNRESOLVED / NO ENDOCRINE, FERTILITY OR ANTI-AGEING CLAIM PERMITTED",
+  "catalogue_supplier_skus": [
+    {
+      "catalogue_code": "TG20",
+      "specification": "20 mg x 10 vials",
+      "price_usd_per_kit": 126
+    }
+  ],
+  "relationships": [
+    {
+      "source": "CERT-PKS-000067",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000069"
+    },
+    {
+      "source": "CERT-PKS-000067",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000070"
+    },
+    {
+      "source": "CERT-PKS-000067",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000118"
+    },
+    {
+      "source": "CERT-PKS-000067",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000161"
+    },
+    {
+      "source": "CERT-PKS-000067",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000162"
+    },
+    {
+      "source": "CERT-PKS-000067",
+      "relationship": "HAS_SAFETY",
+      "target": "CERT-SKS-000072"
+    }
+  ],
+  "validated_universal_human_dosing_protocol": false,
+  "supplier_catalogue_proves_quality": false,
+  "platinum_certified": false,
+  "certification_blockers": [
+    "Complete sequence",
+    "Terminal modifications and molecular mass",
+    "Parent tissue or protein relationship",
+    "Primary publication identity",
+    "Manufacturer and analytical reference standard"
+  ]
+}

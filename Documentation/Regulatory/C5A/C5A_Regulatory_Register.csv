@@ -1,0 +1,25 @@
+Asset UAI,Asset Name,Jurisdiction,Authority,Position,Monitoring,Status Date
+CERT-PKS-000063,Humanin Supplier Product Family,United States,FDA,No approval claim; current trial and enforcement search required.,ACTIVE,2026-07-16
+CERT-PKS-000063,Humanin Supplier Product Family,United Kingdom,MHRA,No marketing-authorisation claim.,ACTIVE,2026-07-16
+CERT-PKS-000063,Humanin Supplier Product Family,European Union,EMA / European Commission,No marketing-authorisation claim.,ACTIVE,2026-07-16
+CERT-PKS-000063,Humanin Supplier Product Family,Other jurisdictions,National medicines authorities,Any regional short-peptide status requires direct dated verification.,ACTIVE,2026-07-16
+CERT-PKS-000063,Humanin Supplier Product Family,International sport,WADA,Current athlete-specific verification required.,EVENT-TRIGGERED,2026-07-16
+CERT-PKS-000064,FOXO4-DRI Supplier Product Family,United States,FDA,No approval claim; current trial and enforcement search required.,ACTIVE,2026-07-16
+CERT-PKS-000064,FOXO4-DRI Supplier Product Family,United Kingdom,MHRA,No marketing-authorisation claim.,ACTIVE,2026-07-16
+CERT-PKS-000064,FOXO4-DRI Supplier Product Family,European Union,EMA / European Commission,No marketing-authorisation claim.,ACTIVE,2026-07-16
+CERT-PKS-000064,FOXO4-DRI Supplier Product Family,Other jurisdictions,National medicines authorities,Any regional short-peptide status requires direct dated verification.,ACTIVE,2026-07-16
+CERT-PKS-000064,FOXO4-DRI Supplier Product Family,International sport,WADA,Current athlete-specific verification required.,EVENT-TRIGGERED,2026-07-16
+CERT-PKS-000065,N-Acetyl Epitalon Amidate,United States,FDA,No approval claim; current trial and enforcement search required.,ACTIVE,2026-07-16
+CERT-PKS-000065,N-Acetyl Epitalon Amidate,United Kingdom,MHRA,No marketing-authorisation claim.,ACTIVE,2026-07-16
+CERT-PKS-000065,N-Acetyl Epitalon Amidate,European Union,EMA / European Commission,No marketing-authorisation claim.,ACTIVE,2026-07-16
+CERT-PKS-000065,N-Acetyl Epitalon Amidate,Other jurisdictions,National medicines authorities,Any regional short-peptide status requires direct dated verification.,ACTIVE,2026-07-16
+CERT-PKS-000065,N-Acetyl Epitalon Amidate,International sport,WADA,Current athlete-specific verification required.,EVENT-TRIGGERED,2026-07-16
+CERT-PKS-000066,Vilon Supplier Product Family,United States,FDA,No approval claim; current trial and enforcement search required.,ACTIVE,2026-07-16
+CERT-PKS-000066,Vilon Supplier Product Family,United Kingdom,MHRA,No marketing-authorisation claim.,ACTIVE,2026-07-16
+CERT-PKS-000066,Vilon Supplier Product Family,European Union,EMA / European Commission,No marketing-authorisation claim.,ACTIVE,2026-07-16
+CERT-PKS-000066,Vilon Supplier Product Family,Other jurisdictions,National medicines authorities,Any regional short-peptide status requires direct dated verification.,ACTIVE,2026-07-16
+CERT-PKS-000066,Vilon Supplier Product Family,International sport,WADA,Current athlete-specific verification required.,EVENT-TRIGGERED,2026-07-16
+CERT-PKS-000067,Testagen Supplier Product Family,Global,Identity control,Regulatory interpretation blocked until exact molecule is established.,BLOCKED,2026-07-16
+CERT-PKS-000067,Testagen Supplier Product Family,United States,FDA,No approval claim.,ACTIVE,2026-07-16
+CERT-PKS-000067,Testagen Supplier Product Family,United Kingdom,MHRA,No marketing-authorisation claim.,ACTIVE,2026-07-16
+CERT-PKS-000067,Testagen Supplier Product Family,European Union,EMA / European Commission,No marketing-authorisation claim.,ACTIVE,2026-07-16
