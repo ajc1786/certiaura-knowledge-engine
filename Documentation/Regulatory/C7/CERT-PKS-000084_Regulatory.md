@@ -5,16 +5,20 @@
 </div>
 
 ---
+
 # CERT-PKS-000084 — Cagrilintide + Semaglutide Supplier Blend REGULATORY STATUS
 
-**Status as of:** 2026-07-16
+**Version:** 0.2.0  
+**Status as of:** 2026-07-16  
+**Closure state:** PARTIAL CLINICAL-PROGRAMME CLOSURE — PHASE 3 CAGRISEMA EVIDENCE AND CURRENT US REGULATORY REVIEW IDENTIFIED; CS10 COMPONENT, FORMULATION AND PRODUCT EQUIVALENCE OPEN
 
-| Jurisdiction | Authority | Controlled position |
-|---|---|---|
-| Global clinical development | Sponsor / trial registries | Cagrilintide plus semaglutide has clinical-development evidence; supplier-vial equivalence is not established. |
-| United States | FDA | No supplier-blend approval or equivalence claim. |
-| United Kingdom | MHRA | No marketing-authorisation claim for the supplier blend. |
-| European Union | EMA / European Commission | No marketing-authorisation claim for the supplier blend. |
-| International sport | WADA | Status depends on every component and current verification. |
+| Jurisdiction | Authority | Controlled position | Monitoring |
+|---|---|---|---|
+| United States | FDA / sponsor regulatory status | Novo Nordisk reported that a CagriSema weight-management NDA filed in December 2025 remained under review in June 2026, with a decision expected in Q4 2026. This is not approval and does not apply to CS10. | ACTIVE |
+| Global clinical development | ClinicalTrials.gov / Novo Nordisk | REDEFINE and REIMAGINE phase 3 programmes concern sponsor-controlled CagriSema materials, doses and manufacturing, not the supplier CS10 mixed vial. | ACTIVE |
+| United Kingdom | MHRA | No CS10 marketing-authorisation or CagriSema-equivalence claim. | ACTIVE |
+| European Union | EMA / European Commission | No CS10 marketing-authorisation or CagriSema-equivalence claim. | ACTIVE |
 
-The regulatory status of components does not create a lawful or authorised combination product.
+## Rule
+
+Regulatory and clinical evidence belongs to the exact molecule, formulation, manufacturer, study material, supply chain, indication and jurisdiction.

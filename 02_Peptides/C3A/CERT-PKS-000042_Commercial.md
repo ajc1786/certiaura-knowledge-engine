@@ -10,18 +10,19 @@
 
 ## Permitted
 
-- identity and evidence education;
-- catalogue price comparison;
+- exact catalogue-record reporting;
+- primary, authorised or sponsor-controlled comparator reporting with explicit non-equivalence;
 - Product Passport™ gap reporting;
-- current regulatory-status reporting.
+- safety, regulatory and analytical education.
 
 ## Prohibited
 
-- cognitive, anxiety or sleep treatment promotion without adequate evidence;
-- personal dosing, intranasal-use or reconstitution guidance;
-- presenting an unresolved product as scientifically characterised;
-- guaranteed identity, purity, sterility or potency.
+- treatment, performance, cognitive, metabolic, opioid or cosmetic-use protocols;
+- dosing, injection, infusion, nasal-use or reconstitution guidance;
+- published-study, authorised-product or clinical-material equivalence;
+- guaranteed identity, composition, potency, purity, sterility or compatibility;
+- direct-sale activation while critical passport fields remain open.
 
-## Future direct sale
+## Activation gate
 
-Requires identity, legal, regulatory, manufacturing and quality closure.
+Commercial use beyond evidence and gap reporting remains blocked.

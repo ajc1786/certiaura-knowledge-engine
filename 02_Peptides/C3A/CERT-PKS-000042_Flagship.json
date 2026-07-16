@@ -3,8 +3,8 @@
   "asset_name": "Adamax Supplier Product Family",
   "knowledge_system": "PKS",
   "asset_type": "Peptide Knowledge Asset",
-  "version": "0.1.0",
-  "status": "CATALOGUE REVIEWED / EVIDENCE FOUNDATION CREATED / NOT PLATINUM CERTIFIED",
+  "version": "0.2.0",
+  "status": "P1 EVIDENCE CLOSURE WAVE 3 / IDENTITY OR PRODUCT-EQUIVALENCE BLOCK ACTIVE / NOT PLATINUM CERTIFIED",
   "owner": "Aidan Coleman",
   "last_review": "2026-07-16",
   "aliases": [
@@ -46,6 +46,21 @@
       "source": "CERT-PKS-000042",
       "relationship": "HAS_SAFETY",
       "target": "CERT-SKS-000047"
+    },
+    {
+      "source": "CERT-PKS-000042",
+      "relationship": "HAS_PASSPORT",
+      "target": "CERT-PPS-000019"
+    },
+    {
+      "source": "CERT-PKS-000042",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000259"
+    },
+    {
+      "source": "CERT-PKS-000042",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000260"
     }
   ],
   "validated_universal_human_dosing_protocol": false,
@@ -57,5 +72,20 @@
     "Molecular formula and mass",
     "Primary scientific literature",
     "Manufacturer and analytical identity"
+  ],
+  "closure_wave": "0031C",
+  "closure_priority": "P1",
+  "closure_class": "UNCHARACTERISED SEMAX/ADAMANTANE MARKETPLACE IDENTITY",
+  "closure_state": "BLOCKED — NO PEER-REVIEWED ADAMAX CHARACTERISATION, AUTHORITATIVE SEQUENCE, LINKAGE POSITION, MOLECULAR FORMULA, MASS OR STANDARDISED PRODUCT IDENTITY",
+  "authoritative_product_boundary": "Adamax is a supplier-market name commonly described as an acetylated, adamantane-modified Semax derivative. Public vendor descriptions conflict on sequence, adamantane linkage and molecular mass. No Adamax-specific PubMed paper, registered clinical trial or authoritative chemical record establishes one canonical molecule.",
+  "product_passport": "CERT-PPS-000019",
+  "identity_verified": false,
+  "authorised_product_equivalence": false,
+  "critical_closure_controls": [
+    "No vendor sequence is accepted as canonical",
+    "No Semax evidence transfer",
+    "No P021 adamantane evidence transfer",
+    "No neurotrophic, cognition or intranasal-use claim",
+    "No dosing, injection, nasal-use or reconstitution protocol"
   ]
 }

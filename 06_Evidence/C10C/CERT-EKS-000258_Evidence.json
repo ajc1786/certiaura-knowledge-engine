@@ -1,0 +1,20 @@
+{
+  "asset_id": "CERT-EKS-000258",
+  "asset_name": "Dermorphin Human, Respiratory, Misuse and Supplier-Product Safety Gap",
+  "root_asset": "CERT-PKS-000046",
+  "knowledge_system": "EKS",
+  "asset_type": "Priority Evidence Closure Object",
+  "version": "0.2.0",
+  "status": "OPEN — NO AUTHORISED OR SUPPLIER HUMAN PRODUCT ESTABLISHED",
+  "closure_wave": "0031C",
+  "closure_priority": "P0",
+  "source_domain": "Historical small human infusion studies, opioid-class respiratory/dependence risk, supplier stereochemistry, potency, purity, sterility, legal and anti-doping status",
+  "evidence_type": "Critical human-safety / product gap",
+  "last_review": "2026-07-16",
+  "direct_complete_extraction": false,
+  "prohibited_use": [
+    "Personal dosing, injection, infusion, nasal-use or reconstitution guidance",
+    "Published, authorised or sponsor-controlled evidence transfer to a supplier product",
+    "Assumption of identity, composition, potency, compatibility or sterility"
+  ]
+}

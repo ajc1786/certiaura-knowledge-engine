@@ -1,0 +1,20 @@
+{
+  "asset_id": "CERT-EKS-000259",
+  "asset_name": "Adamax Exact-Name Literature, Trial and Chemical-Record Search",
+  "root_asset": "CERT-PKS-000042",
+  "knowledge_system": "EKS",
+  "asset_type": "Priority Evidence Closure Object",
+  "version": "0.2.0",
+  "status": "OPEN — NO AUTHORITATIVE ADAMAX MOLECULE IDENTIFIED",
+  "closure_wave": "0031C",
+  "closure_priority": "P1",
+  "source_domain": "PubMed, ClinicalTrials.gov, PubChem and exact-name scientific search for an adamantane-modified Semax product called Adamax",
+  "evidence_type": "Critical identity search",
+  "last_review": "2026-07-16",
+  "direct_complete_extraction": false,
+  "prohibited_use": [
+    "Personal dosing, injection, infusion, nasal-use or reconstitution guidance",
+    "Published, authorised or sponsor-controlled evidence transfer to a supplier product",
+    "Assumption of identity, composition, potency, compatibility or sterility"
+  ]
+}

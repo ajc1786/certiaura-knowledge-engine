@@ -1,0 +1,20 @@
+{
+  "asset_id": "CERT-EKS-000268",
+  "asset_name": "CS10 Component, Ratio, Co-Formulation and CagriSema Equivalence Gap",
+  "root_asset": "CERT-PKS-000084",
+  "knowledge_system": "EKS",
+  "asset_type": "Priority Evidence Closure Object",
+  "version": "0.2.0",
+  "status": "OPEN — CS10 HAS NO CAGRISEMA MATERIAL EQUIVALENCE",
+  "closure_wave": "0031C",
+  "closure_priority": "P1",
+  "source_domain": "Exact component forms, 5 mg/5 mg assay, co-lyophilisation, compatibility, stability, sterility and comparability to sponsor-controlled CagriSema material",
+  "evidence_type": "Critical combination Product Passport gap",
+  "last_review": "2026-07-16",
+  "direct_complete_extraction": false,
+  "prohibited_use": [
+    "Personal dosing, injection, infusion, nasal-use or reconstitution guidance",
+    "Published, authorised or sponsor-controlled evidence transfer to a supplier product",
+    "Assumption of identity, composition, potency, compatibility or sterility"
+  ]
+}

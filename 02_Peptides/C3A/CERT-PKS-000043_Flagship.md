@@ -8,53 +8,46 @@
 
 # CERT-PKS-000043 — PE 22-28 Supplier Product Family
 
-**Version:** 0.1.0  
-**Status:** CATALOGUE REVIEWED / EVIDENCE FOUNDATION CREATED / NOT PLATINUM CERTIFIED  
+**Version:** 0.2.0  
+**Priority:** P1  
+**Status:** EVIDENCE CLOSURE WAVE 3 / IDENTITY OR PRODUCT-EQUIVALENCE BLOCK ACTIVE  
 **Last Review:** 2026-07-16
 
-## Classification
+## Closure state
 
-Chemically unresolved peptide-fragment product family
+**PARTIAL IDENTITY CLOSURE — REFERENCE SEQUENCE GVSWGLR AND PRECLINICAL TREK-1 PROGRAMME IDENTIFIED; SUPPLIER TERMINI, SALT, ANALYTICAL EQUIVALENCE AND HUMAN EVIDENCE OPEN**
 
-## Mechanism
+## Authoritative or primary-source boundary
 
-Not assigned because the parent protein, exact sequence and terminal chemistry are not established by the catalogue.
+Primary research identifies PE 22-28 as a seven-residue fragment of the sortilin propeptide/spadin programme with potent TREK-1 inhibition in cell systems and antidepressant-like effects in mice. Reference-product records identify the sequence Gly-Val-Ser-Trp-Gly-Leu-Arg (GVSWGLR). No controlled human efficacy or safety programme is established.
 
-## Evidence maturity
+## New closure evidence
 
-No evidence can be transferred from similarly named P21, CNTF or other neuropeptide fragments without identity proof.
+- `CERT-EKS-000261`
+- `CERT-EKS-000262`
 
-## Evidence foundation
+## Product Passport
 
-- `CERT-EKS-000113`
-- `CERT-EKS-000114`
+`CERT-PPS-000020`
 
-## Regulatory headline
-
-**IDENTITY UNRESOLVED — NO PHARMACOLOGICAL OR APPROVAL CLAIM PERMITTED**
-
-## Catalogue pricing
+## Catalogue records
 
 | Code | Specification | USD per kit |
 |---|---|---:|
 | PE10 | 10 mg x 10 vials | $71 |
 
-## Quality boundary
+## Critical controls
 
-The catalogue does not prove molecular identity, sequence, formulation, purity, sterility, potency, approval or lawful human use.
+- PE22-28 is not P21 or P021
+- Reference sequence does not prove PE10 supplier identity
+- Cell and mouse antidepressant-like evidence is not human efficacy
+- No depression-treatment or cognitive-enhancement claim
+- No dosing, injection or reconstitution protocol
 
-## Validated universal human dosing protocol
+## Certification state
 
-**No**
-
-## Certification blockers
-
-- Parent molecule
-- Exact amino-acid sequence
-- Terminal modifications
-- Primary publication identity
-- Manufacturer and analytical verification
-
-## Platinum Certified
-
-**No**
+- Supplier identity verified: **No**
+- Authorised or study-material equivalence: **No**
+- Validated human dosing or administration protocol: **No**
+- Direct-sale gate: **Blocked**
+- Platinum Certified: **No**

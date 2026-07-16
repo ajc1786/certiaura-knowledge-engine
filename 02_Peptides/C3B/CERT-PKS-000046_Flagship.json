@@ -1,0 +1,128 @@
+{
+  "asset_id": "CERT-PKS-000046",
+  "asset_name": "Dermorphin",
+  "knowledge_system": "PKS",
+  "asset_type": "Peptide / Biologic-Mixture Knowledge Asset",
+  "version": "0.2.0",
+  "status": "P0 EVIDENCE CLOSURE WAVE 3 / IDENTITY OR PRODUCT-EQUIVALENCE BLOCK ACTIVE / NOT PLATINUM CERTIFIED",
+  "owner": "Aidan Coleman",
+  "last_review": "2026-07-16",
+  "aliases": [
+    "H-Tyr-D-Ala-Phe-Gly-Tyr-Pro-Ser-NH2"
+  ],
+  "classification": "Natural amphibian heptapeptide mu-opioid receptor agonist",
+  "mechanism_summary": "High-affinity mu-opioid receptor agonism associated with potent analgesic, sedative, respiratory and dependence-related opioid effects.",
+  "evidence_maturity": "Foundational sequence and receptor-pharmacology evidence with animal and analytical misuse literature; no authorised human therapeutic product is established.",
+  "regulatory_headline": "UNAPPROVED OPIOID PEPTIDE / MISUSE AND CONTROLLED-SUBSTANCE REVIEW REQUIRED",
+  "catalogue_supplier_skus": [
+    {
+      "catalogue_code": "DR5",
+      "specification": "5 mg x 10 vials",
+      "price_usd_per_kit": 36
+    }
+  ],
+  "relationships": [
+    {
+      "source": "CERT-PKS-000046",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000097"
+    },
+    {
+      "source": "CERT-PKS-000046",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000098"
+    },
+    {
+      "source": "CERT-PKS-000046",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000099"
+    },
+    {
+      "source": "CERT-PKS-000046",
+      "relationship": "HAS_CONDITION",
+      "target": "CERT-CKS-000018"
+    },
+    {
+      "source": "CERT-PKS-000046",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000076"
+    },
+    {
+      "source": "CERT-PKS-000046",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000077"
+    },
+    {
+      "source": "CERT-PKS-000046",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000078"
+    },
+    {
+      "source": "CERT-PKS-000046",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000079"
+    },
+    {
+      "source": "CERT-PKS-000046",
+      "relationship": "SUPPORTS_GOAL",
+      "target": "CERT-GKS-000039"
+    },
+    {
+      "source": "CERT-PKS-000046",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000119"
+    },
+    {
+      "source": "CERT-PKS-000046",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000120"
+    },
+    {
+      "source": "CERT-PKS-000046",
+      "relationship": "HAS_SAFETY",
+      "target": "CERT-SKS-000051"
+    },
+    {
+      "source": "CERT-PKS-000046",
+      "relationship": "HAS_PASSPORT",
+      "target": "CERT-PPS-000018"
+    },
+    {
+      "source": "CERT-PKS-000046",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000257"
+    },
+    {
+      "source": "CERT-PKS-000046",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000258"
+    }
+  ],
+  "validated_universal_human_dosing_protocol": false,
+  "supplier_catalogue_proves_quality": false,
+  "platinum_certified": false,
+  "certification_blockers": [
+    "No authorised human indication",
+    "Respiratory-depression and overdose risk",
+    "Dependence and misuse risk",
+    "Current legal and anti-doping status",
+    "Supplier sequence, D-amino-acid identity, purity and sterility"
+  ],
+  "closure_wave": "0031C",
+  "closure_priority": "P0",
+  "closure_class": "POTENT MU-OPIOID PEPTIDE / RESPIRATORY AND MISUSE RISK",
+  "closure_state": "PARTIAL IDENTITY CLOSURE — LITERATURE SEQUENCE AND MU-OPIOID PHARMACOLOGY ESTABLISHED; SUPPLIER STEREOCHEMISTRY, POTENCY, PURITY, STERILITY AND HUMAN-PRODUCT STATUS OPEN",
+  "authoritative_product_boundary": "Primary literature identifies dermorphin as H-Tyr-D-Ala-Phe-Gly-Tyr-Pro-Ser-NH2 and demonstrates high-affinity mu-opioid receptor activity. Historical small human infusion studies do not establish an authorised medicine, safe therapeutic index or supplier-product equivalence.",
+  "product_passport": "CERT-PPS-000018",
+  "identity_verified": false,
+  "authorised_product_equivalence": false,
+  "critical_closure_controls": [
+    "D-Ala at position 2 and C-terminal amide are identity-critical",
+    "No analgesic or opioid self-use interpretation",
+    "Respiratory depression, sedation, dependence and overdose risks retained",
+    "No equivalence to morphine, fentanyl, DAMGO or an authorised opioid",
+    "No dosing, injection, infusion or reconstitution protocol"
+  ],
+  "canonical_literature_sequence": "H-Tyr-D-Ala-Phe-Gly-Tyr-Pro-Ser-NH2",
+  "supplier_sequence_verified": false
+}

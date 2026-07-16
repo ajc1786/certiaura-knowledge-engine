@@ -1,21 +1,25 @@
 Universal Asset Identifier,Asset Name,Knowledge System,Asset Type,Status,Owner,Parent Assets,Last Review,Notes
-CERT-PKS-000060,Matrixyl Supplier Product Family,PKS,Existing Product-Family Asset — Updated,P1 Closure Wave 2 / Critical Identity Block,Aidan Coleman,,2026-07-16,Build 0031B update
-CERT-PKS-000067,Testagen Supplier Product Family,PKS,Existing Product-Family Asset — Updated,P1 Closure Wave 2 / Critical Identity Block,Aidan Coleman,,2026-07-16,Build 0031B update
-CERT-MPS-000006,SLU-PP-322 Identity-Candidate Product Family,MPS,Existing Product-Family Asset — Updated,P0 Closure Wave 2 / Critical Identity Block,Aidan Coleman,,2026-07-16,Build 0031B update
-CERT-MPS-000010,Hyaluronic Acid Supplier Product Family,MPS,Existing Product-Family Asset — Updated,P0 Closure Wave 2 / Critical Identity Block,Aidan Coleman,,2026-07-16,Build 0031B update
-CERT-MPS-000011,Alprostadil Supplier Vial Family,MPS,Existing Product-Family Asset — Updated,P0 Closure Wave 2 / Critical Identity Block,Aidan Coleman,,2026-07-16,Build 0031B update
-CERT-MPS-000012,Lemon Bottle Supplier Mixture Family,MPS,Existing Product-Family Asset — Updated,P0 Closure Wave 2 / Critical Identity Block,Aidan Coleman,,2026-07-16,Build 0031B update
-CERT-PPS-000016,Matrixyl Supplier Product Family Product Passport,PPS,Critical Product Passport Gap Object,P1 Open / Not Certified,Aidan Coleman,CERT-PKS-000060,2026-07-16,Build 0031B
-CERT-PPS-000017,Testagen Supplier Product Family Product Passport,PPS,Critical Product Passport Gap Object,P1 Open / Not Certified,Aidan Coleman,CERT-PKS-000067,2026-07-16,Build 0031B
-CERT-EKS-000245,Matrixyl Official Trademark-Family and INCI Evidence,EKS,Priority Evidence Closure Object,AUTHORITATIVE TRADEMARK-FAMILY DIFFERENTIATION IDENTIFIED,Aidan Coleman,CERT-PKS-000060,2026-07-16,Build 0031B
-CERT-EKS-000246,"MA10 Exact Matrixyl Variant, Powder and Trademark-Equivalence Gap",EKS,Priority Evidence Closure Object,OPEN — MA10 MATRIXYL IDENTITY NOT ESTABLISHED,Aidan Coleman,CERT-PKS-000060,2026-07-16,Build 0031B
-CERT-EKS-000247,Testagen KEDG Primary Sequence and In-Vitro Evidence,EKS,Priority Evidence Closure Object,PRIMARY KEDG LITERATURE IDENTITY CLOSED,Aidan Coleman,CERT-PKS-000067,2026-07-16,Build 0031B
-CERT-EKS-000248,"TG20 Testagen Supplier Equivalence, Human and Regulatory Gap",EKS,Priority Evidence Closure Object,OPEN — SUPPLIER PRODUCT AND HUMAN BENEFIT NOT ESTABLISHED,Aidan Coleman,CERT-PKS-000067,2026-07-16,Build 0031B
-CERT-EKS-000249,SLU-PP-322 Exact-Name Chemical Identity Gap,EKS,Priority Evidence Closure Object,OPEN — NO AUTHORITATIVE SLU-PP-322 IDENTITY IDENTIFIED,Aidan Coleman,CERT-MPS-000006,2026-07-16,Build 0031B
-CERT-EKS-000250,SLU-PP-332 Comparator and Non-Transferable Exercise-Mimetic Evidence,EKS,Priority Evidence Closure Object,SLU-PP-332 EVIDENCE RETAINED AS COMPARATOR ONLY,Aidan Coleman,CERT-MPS-000006,2026-07-16,Build 0031B
-CERT-EKS-000251,Hyaluronic Acid Approved Dermal-Filler Device and Safety Evidence,EKS,Priority Evidence Closure Object,AUTHORITATIVE DEVICE AND SAFETY SOURCES IDENTIFIED,Aidan Coleman,CERT-MPS-000010,2026-07-16,Build 0031B
-CERT-EKS-000252,"HA5 Polymer, Crosslinking, Device and Sterility Gap",EKS,Priority Evidence Closure Object,OPEN — HA5 PRODUCT IDENTITY NOT ESTABLISHED,Aidan Coleman,CERT-MPS-000010,2026-07-16,Build 0031B
-CERT-EKS-000253,"Alprostadil Authorised Route, Formulation and Safety Evidence",EKS,Priority Evidence Closure Object,AUTHORITATIVE ALPROSTADIL LABEL IDENTIFIED,Aidan Coleman,CERT-MPS-000011,2026-07-16,Build 0031B
-CERT-EKS-000254,"PRO20 Route, Formulation, Potency and Product-Equivalence Gap",EKS,Priority Evidence Closure Object,OPEN — PRO20 PRODUCT IDENTITY NOT ESTABLISHED,Aidan Coleman,CERT-MPS-000011,2026-07-16,Build 0031B
-CERT-EKS-000255,Lemon Bottle FDA Unapproved-Drug and Injectable-Safety Evidence,EKS,Priority Evidence Closure Object,AUTHORITATIVE FDA ENFORCEMENT SOURCES IDENTIFIED,Aidan Coleman,CERT-MPS-000012,2026-07-16,Build 0031B
-CERT-EKS-000256,"Lemon Bottle Composition, Mass-Balance, Price and Authenticity Gap",EKS,Priority Evidence Closure Object,OPEN — COMPOSITION AND AUTHENTICITY NOT ESTABLISHED,Aidan Coleman,CERT-MPS-000012,2026-07-16,Build 0031B
+CERT-PKS-000046,Dermorphin,PKS,Existing Product-Family Asset — Updated,P0 Closure Wave 3 / Identity or Equivalence Block,Aidan Coleman,,2026-07-16,Build 0031C update
+CERT-PPS-000018,Dermorphin Product Passport,PPS,Critical Product Passport Gap Object,P0 Open / Not Certified,Aidan Coleman,CERT-PKS-000046,2026-07-16,Build 0031C
+CERT-PKS-000042,Adamax Supplier Product Family,PKS,Existing Product-Family Asset — Updated,P1 Closure Wave 3 / Identity or Equivalence Block,Aidan Coleman,,2026-07-16,Build 0031C update
+CERT-PPS-000019,Adamax Supplier Product Family Product Passport,PPS,Critical Product Passport Gap Object,P1 Open / Not Certified,Aidan Coleman,CERT-PKS-000042,2026-07-16,Build 0031C
+CERT-PKS-000043,PE 22-28 Supplier Product Family,PKS,Existing Product-Family Asset — Updated,P1 Closure Wave 3 / Identity or Equivalence Block,Aidan Coleman,,2026-07-16,Build 0031C update
+CERT-PPS-000020,PE 22-28 Supplier Product Family Product Passport,PPS,Critical Product Passport Gap Object,P1 Open / Not Certified,Aidan Coleman,CERT-PKS-000043,2026-07-16,Build 0031C
+CERT-PKS-000047,P021 / Peptide 021 Adamantane Conjugate Product Family,PKS,Existing Product-Family Asset — Updated,P1 Closure Wave 3 / Identity or Equivalence Block,Aidan Coleman,,2026-07-16,Build 0031C update
+CERT-PPS-000021,P021 / Peptide 021 Adamantane Conjugate Product Family Product Passport,PPS,Critical Product Passport Gap Object,P1 Open / Not Certified,Aidan Coleman,CERT-PKS-000047,2026-07-16,Build 0031C
+CERT-PKS-000048,P21 Without Adamantane Supplier Product Family,PKS,Existing Product-Family Asset — Updated,P1 Closure Wave 3 / Identity or Equivalence Block,Aidan Coleman,,2026-07-16,Build 0031C update
+CERT-PPS-000022,P21 Without Adamantane Supplier Product Family Product Passport,PPS,Critical Product Passport Gap Object,P1 Open / Not Certified,Aidan Coleman,CERT-PKS-000048,2026-07-16,Build 0031C
+CERT-PKS-000084,Cagrilintide + Semaglutide Supplier Blend,PKS,Existing Product-Family Asset — Updated,P1 Closure Wave 3 / Identity or Equivalence Block,Aidan Coleman,,2026-07-16,Build 0031C update
+CERT-PPS-000023,Cagrilintide + Semaglutide Supplier Blend Product Passport,PPS,Critical Product Passport Gap Object,P1 Open / Not Certified,Aidan Coleman,CERT-PKS-000084,2026-07-16,Build 0031C
+CERT-EKS-000257,"Dermorphin Sequence, Stereochemistry and Mu-Opioid Pharmacology Evidence",EKS,Priority Evidence Closure Object,PRIMARY DERMORPHIN IDENTITY AND PHARMACOLOGY CLOSED,Aidan Coleman,CERT-PKS-000046,2026-07-16,Build 0031C
+CERT-EKS-000258,"Dermorphin Human, Respiratory, Misuse and Supplier-Product Safety Gap",EKS,Priority Evidence Closure Object,OPEN — NO AUTHORISED OR SUPPLIER HUMAN PRODUCT ESTABLISHED,Aidan Coleman,CERT-PKS-000046,2026-07-16,Build 0031C
+CERT-EKS-000259,"Adamax Exact-Name Literature, Trial and Chemical-Record Search",EKS,Priority Evidence Closure Object,OPEN — NO AUTHORITATIVE ADAMAX MOLECULE IDENTIFIED,Aidan Coleman,CERT-PKS-000042,2026-07-16,Build 0031C
+CERT-EKS-000260,Adamax Vendor-Structure Conflict and Semax/P021 Evidence-Transfer Block,EKS,Priority Evidence Closure Object,VENDOR STRUCTURES CONFLICT — PARENT EVIDENCE TRANSFER PROHIBITED,Aidan Coleman,CERT-PKS-000042,2026-07-16,Build 0031C
+CERT-EKS-000261,"PE 22-28 Sequence, TREK-1 and Preclinical Programme Evidence",EKS,Priority Evidence Closure Object,REFERENCE SEQUENCE AND PRECLINICAL PROGRAMME IDENTIFIED,Aidan Coleman,CERT-PKS-000043,2026-07-16,Build 0031C
+CERT-EKS-000262,"PE10 Supplier Termini, Salt, Human and Regulatory Evidence Gap",EKS,Priority Evidence Closure Object,OPEN — PE10 PRODUCT AND HUMAN BENEFIT NOT ESTABLISHED,Aidan Coleman,CERT-PKS-000043,2026-07-16,Build 0031C
+CERT-EKS-000263,P021 Adamantane Structure and CNTF-Derived Preclinical Evidence,EKS,Priority Evidence Closure Object,PUBLISHED P021 STUDY-MATERIAL IDENTITY IDENTIFIED,Aidan Coleman,CERT-PKS-000047,2026-07-16,Build 0031C
+CERT-EKS-000264,"PP10 Supplier P021 Comparability, Toxicology and Human Evidence Gap",EKS,Priority Evidence Closure Object,OPEN — PP10 COMPARABILITY AND HUMAN BENEFIT NOT ESTABLISHED,Aidan Coleman,CERT-PKS-000047,2026-07-16,Build 0031C
+CERT-EKS-000265,P21 Without Adamantane Chemical Identity Gap,EKS,Priority Evidence Closure Object,OPEN — P210 MOLECULE NOT IDENTIFIED,Aidan Coleman,CERT-PKS-000048,2026-07-16,Build 0031C
+CERT-EKS-000266,P21 Without Adamantane versus P021 Evidence-Transfer Block,EKS,Priority Evidence Closure Object,P021 EVIDENCE TRANSFER PROHIBITED,Aidan Coleman,CERT-PKS-000048,2026-07-16,Build 0031C
+CERT-EKS-000267,CagriSema Phase 3 and Current 2026 Development Evidence,EKS,Priority Evidence Closure Object,CURRENT SPONSOR-CONTROLLED PROGRAMME IDENTIFIED,Aidan Coleman,CERT-PKS-000084,2026-07-16,Build 0031C
+CERT-EKS-000268,"CS10 Component, Ratio, Co-Formulation and CagriSema Equivalence Gap",EKS,Priority Evidence Closure Object,OPEN — CS10 HAS NO CAGRISEMA MATERIAL EQUIVALENCE,Aidan Coleman,CERT-PKS-000084,2026-07-16,Build 0031C

@@ -1,0 +1,140 @@
+{
+  "asset_id": "CERT-PKS-000047",
+  "asset_name": "P021 / Peptide 021 Adamantane Conjugate Product Family",
+  "knowledge_system": "PKS",
+  "asset_type": "Peptide / Biologic-Mixture Knowledge Asset",
+  "version": "0.2.0",
+  "status": "P1 EVIDENCE CLOSURE WAVE 3 / IDENTITY OR PRODUCT-EQUIVALENCE BLOCK ACTIVE / NOT PLATINUM CERTIFIED",
+  "owner": "Aidan Coleman",
+  "last_review": "2026-07-16",
+  "aliases": [
+    "P021",
+    "Peptide 021",
+    "GLXC-21260",
+    "Ac-DGGL-Adamantane-NH2"
+  ],
+  "classification": "Adamantane-modified CNTF-derived experimental tetrapeptide conjugate",
+  "mechanism_summary": "Experimental neurotrophic and neurogenic signalling based on a ciliary-neurotrophic-factor-derived peptide fragment with an adamantane-based C-terminal modification.",
+  "evidence_maturity": "Preclinical mouse evidence across cognitive ageing, Alzheimer-like pathology and Down-syndrome models; adequate human intervention evidence is not established.",
+  "regulatory_headline": "EXPERIMENTAL PRECLINICAL PRODUCT / EXACT CHEMISTRY AND STEREOCHEMISTRY REQUIRED",
+  "catalogue_supplier_skus": [
+    {
+      "catalogue_code": "PP10",
+      "specification": "10 mg x 10 vials",
+      "price_usd_per_kit": 310
+    }
+  ],
+  "relationships": [
+    {
+      "source": "CERT-PKS-000047",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000100"
+    },
+    {
+      "source": "CERT-PKS-000047",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000101"
+    },
+    {
+      "source": "CERT-PKS-000047",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000102"
+    },
+    {
+      "source": "CERT-PKS-000047",
+      "relationship": "HAS_CONDITION",
+      "target": "CERT-CKS-000019"
+    },
+    {
+      "source": "CERT-PKS-000047",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000062"
+    },
+    {
+      "source": "CERT-PKS-000047",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000064"
+    },
+    {
+      "source": "CERT-PKS-000047",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000068"
+    },
+    {
+      "source": "CERT-PKS-000047",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000080"
+    },
+    {
+      "source": "CERT-PKS-000047",
+      "relationship": "SUPPORTS_GOAL",
+      "target": "CERT-GKS-000031"
+    },
+    {
+      "source": "CERT-PKS-000047",
+      "relationship": "SUPPORTS_GOAL",
+      "target": "CERT-GKS-000036"
+    },
+    {
+      "source": "CERT-PKS-000047",
+      "relationship": "SUPPORTS_GOAL",
+      "target": "CERT-GKS-000040"
+    },
+    {
+      "source": "CERT-PKS-000047",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000121"
+    },
+    {
+      "source": "CERT-PKS-000047",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000122"
+    },
+    {
+      "source": "CERT-PKS-000047",
+      "relationship": "HAS_SAFETY",
+      "target": "CERT-SKS-000052"
+    },
+    {
+      "source": "CERT-PKS-000047",
+      "relationship": "HAS_PASSPORT",
+      "target": "CERT-PPS-000021"
+    },
+    {
+      "source": "CERT-PKS-000047",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000263"
+    },
+    {
+      "source": "CERT-PKS-000047",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000264"
+    }
+  ],
+  "validated_universal_human_dosing_protocol": false,
+  "supplier_catalogue_proves_quality": false,
+  "platinum_certified": false,
+  "certification_blockers": [
+    "Exact adamantane amino-acid identity and stereochemistry",
+    "Reference-standard and molecular-mass confirmation",
+    "No established human PK, efficacy or safety",
+    "Long-term growth-signalling and neoplasm safety"
+  ],
+  "closure_wave": "0031C",
+  "closure_priority": "P1",
+  "closure_class": "CNTF-DERIVED ADAMANTANE PEPTIDOMIMETIC / PRECLINICAL ONLY",
+  "closure_state": "PARTIAL IDENTITY CLOSURE — PRIMARY P021 NOTATION, CNTF ORIGIN AND PRECLINICAL PROGRAMME ESTABLISHED; SUPPLIER LINKAGE, PURITY, COMPARABILITY AND HUMAN EVIDENCE OPEN",
+  "authoritative_product_boundary": "Primary studies describe P021 as Ac-DGGL^AG-NH2, with an adamantylated glycine added to the CNTF-derived DGGL region, and report a molecular weight of approximately 578.3 in the studied material. Evidence consists of experimental cell and animal programmes; it does not establish an authorised medicine or supplier PP10 equivalence.",
+  "product_passport": "CERT-PPS-000021",
+  "identity_verified": false,
+  "authorised_product_equivalence": false,
+  "critical_closure_controls": [
+    "Exact adamantane chemistry is identity-critical",
+    "No transfer to P21 without adamantane",
+    "No Alzheimer, Down syndrome, cognition or neurogenesis treatment claim",
+    "Patent or animal evidence is not human validation",
+    "No dosing, oral, injection or reconstitution protocol"
+  ],
+  "canonical_literature_notation": "Ac-DGGL^AG-NH2; adamantylated glycine",
+  "supplier_structure_verified": false
+}

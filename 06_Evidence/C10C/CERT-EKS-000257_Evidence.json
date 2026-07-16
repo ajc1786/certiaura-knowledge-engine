@@ -1,0 +1,20 @@
+{
+  "asset_id": "CERT-EKS-000257",
+  "asset_name": "Dermorphin Sequence, Stereochemistry and Mu-Opioid Pharmacology Evidence",
+  "root_asset": "CERT-PKS-000046",
+  "knowledge_system": "EKS",
+  "asset_type": "Priority Evidence Closure Object",
+  "version": "0.2.0",
+  "status": "PRIMARY DERMORPHIN IDENTITY AND PHARMACOLOGY CLOSED",
+  "closure_wave": "0031C",
+  "closure_priority": "P0",
+  "source_domain": "Primary literature defining H-Tyr-D-Ala-Phe-Gly-Tyr-Pro-Ser-NH2, D-Ala stereochemical dependence and high-affinity mu-opioid binding",
+  "evidence_type": "Primary identity / receptor pharmacology evidence",
+  "last_review": "2026-07-16",
+  "direct_complete_extraction": false,
+  "prohibited_use": [
+    "Personal dosing, injection, infusion, nasal-use or reconstitution guidance",
+    "Published, authorised or sponsor-controlled evidence transfer to a supplier product",
+    "Assumption of identity, composition, potency, compatibility or sterility"
+  ]
+}

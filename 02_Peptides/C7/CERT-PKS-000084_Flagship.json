@@ -3,8 +3,8 @@
   "asset_name": "Cagrilintide + Semaglutide Supplier Blend",
   "knowledge_system": "PKS",
   "asset_type": "Supplier Combination-Product Knowledge Asset",
-  "version": "0.1.0",
-  "status": "CATALOGUE REVIEWED / COMBINATION EVIDENCE GAP ACTIVE / NOT PLATINUM CERTIFIED",
+  "version": "0.2.0",
+  "status": "P1 EVIDENCE CLOSURE WAVE 3 / IDENTITY OR PRODUCT-EQUIVALENCE BLOCK ACTIVE / NOT PLATINUM CERTIFIED",
   "owner": "Aidan Coleman",
   "last_review": "2026-07-16",
   "aliases": [
@@ -75,6 +75,21 @@
       "source": "CERT-PKS-000084",
       "relationship": "SUPPORTS_GOAL",
       "target": "CERT-GKS-000079"
+    },
+    {
+      "source": "CERT-PKS-000084",
+      "relationship": "HAS_PASSPORT",
+      "target": "CERT-PPS-000023"
+    },
+    {
+      "source": "CERT-PKS-000084",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000267"
+    },
+    {
+      "source": "CERT-PKS-000084",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000268"
     }
   ],
   "component_identity_verified": false,
@@ -82,5 +97,20 @@
   "coformulation_compatibility_verified": false,
   "validated_universal_human_dosing_protocol": false,
   "supplier_catalogue_proves_quality": false,
-  "platinum_certified": false
+  "platinum_certified": false,
+  "closure_wave": "0031C",
+  "closure_priority": "P1",
+  "closure_class": "FIXED-RATIO METABOLIC COMBINATION / CLINICAL-MATERIAL NON-EQUIVALENCE",
+  "closure_state": "PARTIAL CLINICAL-PROGRAMME CLOSURE — PHASE 3 CAGRISEMA EVIDENCE AND CURRENT US REGULATORY REVIEW IDENTIFIED; CS10 COMPONENT, FORMULATION AND PRODUCT EQUIVALENCE OPEN",
+  "authoritative_product_boundary": "CagriSema clinical evidence concerns sponsor-controlled cagrilintide and semaglutide at defined doses, formulations and manufacturing standards. Novo Nordisk reported in June 2026 that a US NDA filed in December 2025 remained under review, with a decision expected in Q4 2026. The supplier CS10 co-lyophilised 5 mg/5 mg vial is not CagriSema clinical material and does not inherit trial or future approval status.",
+  "product_passport": "CERT-PPS-000023",
+  "identity_verified": false,
+  "authorised_product_equivalence": false,
+  "critical_closure_controls": [
+    "CS10 is not CagriSema clinical material",
+    "Phase 3 efficacy does not establish supplier-vial efficacy",
+    "Current NDA review is not FDA approval",
+    "Component labels cannot be added together as a dosing protocol",
+    "No weight-loss, diabetes, dosing, injection or reconstitution protocol"
+  ]
 }

@@ -1,38 +1,38 @@
 {
   "asset_uai": "CERT-PKS-000084",
   "asset_name": "Cagrilintide + Semaglutide Supplier Blend",
+  "version": "0.2.0",
   "status_as_of": "2026-07-16",
-  "overall_status": "CLINICAL-DEVELOPMENT COMBINATION CONTEXT EXISTS / CATALOGUE VIAL HAS NO AUTHORISED-PRODUCT EQUIVALENCE",
+  "closure_wave": "0031C",
+  "overall_status": "PARTIAL CLINICAL-PROGRAMME CLOSURE — PHASE 3 CAGRISEMA EVIDENCE AND CURRENT US REGULATORY REVIEW IDENTIFIED; CS10 COMPONENT, FORMULATION AND PRODUCT EQUIVALENCE OPEN",
   "regulatory_records": [
     {
-      "jurisdiction": "Global clinical development",
-      "authority": "Sponsor / trial registries",
-      "current_status": "Cagrilintide plus semaglutide has clinical-development evidence; supplier-vial equivalence is not established.",
-      "monitoring_state": "ACTIVE"
+      "jurisdiction": "United States",
+      "authority": "FDA / sponsor regulatory status",
+      "current_status": "Novo Nordisk reported that a CagriSema weight-management NDA filed in December 2025 remained under review in June 2026, with a decision expected in Q4 2026. This is not approval and does not apply to CS10.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Identity, approval, filing, decision, trial, warning, enforcement, controlled-substance or anti-doping change"
     },
     {
-      "jurisdiction": "United States",
-      "authority": "FDA",
-      "current_status": "No supplier-blend approval or equivalence claim.",
-      "monitoring_state": "ACTIVE"
+      "jurisdiction": "Global clinical development",
+      "authority": "ClinicalTrials.gov / Novo Nordisk",
+      "current_status": "REDEFINE and REIMAGINE phase 3 programmes concern sponsor-controlled CagriSema materials, doses and manufacturing, not the supplier CS10 mixed vial.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Identity, approval, filing, decision, trial, warning, enforcement, controlled-substance or anti-doping change"
     },
     {
       "jurisdiction": "United Kingdom",
       "authority": "MHRA",
-      "current_status": "No marketing-authorisation claim for the supplier blend.",
-      "monitoring_state": "ACTIVE"
+      "current_status": "No CS10 marketing-authorisation or CagriSema-equivalence claim.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Identity, approval, filing, decision, trial, warning, enforcement, controlled-substance or anti-doping change"
     },
     {
       "jurisdiction": "European Union",
       "authority": "EMA / European Commission",
-      "current_status": "No marketing-authorisation claim for the supplier blend.",
-      "monitoring_state": "ACTIVE"
-    },
-    {
-      "jurisdiction": "International sport",
-      "authority": "WADA",
-      "current_status": "Status depends on every component and current verification.",
-      "monitoring_state": "ACTIVE"
+      "current_status": "No CS10 marketing-authorisation or CagriSema-equivalence claim.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Identity, approval, filing, decision, trial, warning, enforcement, controlled-substance or anti-doping change"
     }
   ]
 }

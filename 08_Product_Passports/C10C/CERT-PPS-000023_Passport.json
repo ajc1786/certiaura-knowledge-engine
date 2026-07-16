@@ -1,0 +1,58 @@
+{
+  "asset_id": "CERT-PPS-000023",
+  "asset_name": "Cagrilintide + Semaglutide Supplier Blend Product Passport",
+  "knowledge_system": "PPS",
+  "asset_type": "Critical Product Passport Gap Object",
+  "version": "0.2.0",
+  "status": "P1 OPEN / NOT CERTIFIED",
+  "parent_product": "CERT-PKS-000084",
+  "closure_wave": "0031C",
+  "closure_priority": "P1",
+  "last_review": "2026-07-16",
+  "required_fields": [
+    {
+      "field": "exact cagrilintide sequence, lipidation and salt",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical, primary and regulatory evidence"
+    },
+    {
+      "field": "exact semaglutide sequence, modification and salt",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical, primary and regulatory evidence"
+    },
+    {
+      "field": "per-component assay and 1:1 fill ratio",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical, primary and regulatory evidence"
+    },
+    {
+      "field": "solid-state compatibility and co-lyophilisation process",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical, primary and regulatory evidence"
+    },
+    {
+      "field": "aggregation, degradation and post-reconstitution stability",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical, primary and regulatory evidence"
+    },
+    {
+      "field": "manufacturer, batch and reference standards",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical, primary and regulatory evidence"
+    },
+    {
+      "field": "sterility, endotoxin, particles and container closure",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical, primary and regulatory evidence"
+    },
+    {
+      "field": "comparability to CagriSema clinical or commercial material",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical, primary and regulatory evidence"
+    }
+  ],
+  "identity_certified": false,
+  "quality_certified": false,
+  "sterility_certified": false,
+  "authorised_product_equivalence": false
+}

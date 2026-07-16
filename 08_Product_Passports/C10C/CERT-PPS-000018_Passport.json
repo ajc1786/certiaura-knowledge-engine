@@ -1,0 +1,58 @@
+{
+  "asset_id": "CERT-PPS-000018",
+  "asset_name": "Dermorphin Product Passport",
+  "knowledge_system": "PPS",
+  "asset_type": "Critical Product Passport Gap Object",
+  "version": "0.2.0",
+  "status": "P0 OPEN / NOT CERTIFIED",
+  "parent_product": "CERT-PKS-000046",
+  "closure_wave": "0031C",
+  "closure_priority": "P0",
+  "last_review": "2026-07-16",
+  "required_fields": [
+    {
+      "field": "complete sequence and D-Ala stereochemistry",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical, primary and regulatory evidence"
+    },
+    {
+      "field": "C-terminal amidation and molecular mass",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical, primary and regulatory evidence"
+    },
+    {
+      "field": "salt, counter-ion and reference standard",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical, primary and regulatory evidence"
+    },
+    {
+      "field": "manufacturer, synthesis route and batch",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical, primary and regulatory evidence"
+    },
+    {
+      "field": "HPLC, LC-MS and stereochemical impurity profile",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical, primary and regulatory evidence"
+    },
+    {
+      "field": "mu-opioid receptor potency and off-target profile",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical, primary and regulatory evidence"
+    },
+    {
+      "field": "sterility, endotoxin and particulate testing",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical, primary and regulatory evidence"
+    },
+    {
+      "field": "controlled-substance, legal and anti-doping status",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical, primary and regulatory evidence"
+    }
+  ],
+  "identity_certified": false,
+  "quality_certified": false,
+  "sterility_certified": false,
+  "authorised_product_equivalence": false
+}

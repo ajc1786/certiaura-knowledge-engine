@@ -1,0 +1,38 @@
+{
+  "asset_uai": "CERT-PKS-000046",
+  "asset_name": "Dermorphin",
+  "version": "0.2.0",
+  "status_as_of": "2026-07-16",
+  "closure_wave": "0031C",
+  "overall_status": "PARTIAL IDENTITY CLOSURE — LITERATURE SEQUENCE AND MU-OPIOID PHARMACOLOGY ESTABLISHED; SUPPLIER STEREOCHEMISTRY, POTENCY, PURITY, STERILITY AND HUMAN-PRODUCT STATUS OPEN",
+  "regulatory_records": [
+    {
+      "jurisdiction": "Global",
+      "authority": "Opioid and product identity control",
+      "current_status": "Dermorphin is a potent mu-opioid peptide without an established authorised human medicinal product. Supplier DR5 identity and legal status remain unverified.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Identity, approval, filing, decision, trial, warning, enforcement, controlled-substance or anti-doping change"
+    },
+    {
+      "jurisdiction": "United States",
+      "authority": "FDA / controlled-substance framework",
+      "current_status": "No drug approval or supplier-product equivalence claim.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Identity, approval, filing, decision, trial, warning, enforcement, controlled-substance or anti-doping change"
+    },
+    {
+      "jurisdiction": "United Kingdom",
+      "authority": "MHRA / controlled-drug framework",
+      "current_status": "No marketing-authorisation or lawful human-use claim.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Identity, approval, filing, decision, trial, warning, enforcement, controlled-substance or anti-doping change"
+    },
+    {
+      "jurisdiction": "International sport",
+      "authority": "WADA",
+      "current_status": "Current 2026 opioid, S0 and athlete-specific status requires direct expert verification.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Identity, approval, filing, decision, trial, warning, enforcement, controlled-substance or anti-doping change"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "asset_id": "CERT-EKS-000264",
+  "asset_name": "PP10 Supplier P021 Comparability, Toxicology and Human Evidence Gap",
+  "root_asset": "CERT-PKS-000047",
+  "knowledge_system": "EKS",
+  "asset_type": "Priority Evidence Closure Object",
+  "version": "0.2.0",
+  "status": "OPEN — PP10 COMPARABILITY AND HUMAN BENEFIT NOT ESTABLISHED",
+  "closure_wave": "0031C",
+  "closure_priority": "P1",
+  "source_domain": "Adamantane linkage, molecular standard, study-material comparability, purity, formal toxicology, human PK, trials, approval and sterility",
+  "evidence_type": "Supplier-equivalence / human evidence gap",
+  "last_review": "2026-07-16",
+  "direct_complete_extraction": false,
+  "prohibited_use": [
+    "Personal dosing, injection, infusion, nasal-use or reconstitution guidance",
+    "Published, authorised or sponsor-controlled evidence transfer to a supplier product",
+    "Assumption of identity, composition, potency, compatibility or sterility"
+  ]
+}

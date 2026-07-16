@@ -1,0 +1,38 @@
+{
+  "asset_uai": "CERT-PKS-000047",
+  "asset_name": "P021 / Peptide 021 Adamantane Conjugate Product Family",
+  "version": "0.2.0",
+  "status_as_of": "2026-07-16",
+  "closure_wave": "0031C",
+  "overall_status": "PARTIAL IDENTITY CLOSURE — PRIMARY P021 NOTATION, CNTF ORIGIN AND PRECLINICAL PROGRAMME ESTABLISHED; SUPPLIER LINKAGE, PURITY, COMPARABILITY AND HUMAN EVIDENCE OPEN",
+  "regulatory_records": [
+    {
+      "jurisdiction": "Global",
+      "authority": "Preclinical study-material control",
+      "current_status": "Published P021 evidence is preclinical and study-material specific; PP10 equivalence is unestablished.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Identity, approval, filing, decision, trial, warning, enforcement, controlled-substance or anti-doping change"
+    },
+    {
+      "jurisdiction": "United States",
+      "authority": "FDA",
+      "current_status": "No approval or supplier-product-equivalence claim.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Identity, approval, filing, decision, trial, warning, enforcement, controlled-substance or anti-doping change"
+    },
+    {
+      "jurisdiction": "United Kingdom",
+      "authority": "MHRA",
+      "current_status": "No marketing-authorisation claim.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Identity, approval, filing, decision, trial, warning, enforcement, controlled-substance or anti-doping change"
+    },
+    {
+      "jurisdiction": "European Union",
+      "authority": "EMA / European Commission",
+      "current_status": "No marketing-authorisation claim.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Identity, approval, filing, decision, trial, warning, enforcement, controlled-substance or anti-doping change"
+    }
+  ]
+}

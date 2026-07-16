@@ -1,0 +1,20 @@
+{
+  "asset_id": "CERT-EKS-000262",
+  "asset_name": "PE10 Supplier Termini, Salt, Human and Regulatory Evidence Gap",
+  "root_asset": "CERT-PKS-000043",
+  "knowledge_system": "EKS",
+  "asset_type": "Priority Evidence Closure Object",
+  "version": "0.2.0",
+  "status": "OPEN — PE10 PRODUCT AND HUMAN BENEFIT NOT ESTABLISHED",
+  "closure_wave": "0031C",
+  "closure_priority": "P1",
+  "source_domain": "Supplier sequence, free acid/amidation, salt, assay, impurities, sterility, human PK, controlled trials and approval search",
+  "evidence_type": "Supplier-equivalence / human evidence gap",
+  "last_review": "2026-07-16",
+  "direct_complete_extraction": false,
+  "prohibited_use": [
+    "Personal dosing, injection, infusion, nasal-use or reconstitution guidance",
+    "Published, authorised or sponsor-controlled evidence transfer to a supplier product",
+    "Assumption of identity, composition, potency, compatibility or sterility"
+  ]
+}

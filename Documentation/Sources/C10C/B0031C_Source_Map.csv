@@ -1,0 +1,18 @@
+Asset,Source,URL,Purpose
+Dermorphin,Primary receptor-binding study,https://pubmed.ncbi.nlm.nih.gov/2906053/,"Sequence, D-Ala stereochemistry, C-terminal amide and opioid binding"
+Dermorphin,Primary human endocrine study,https://pubmed.ncbi.nlm.nih.gov/6313731/,Small historical human infusion evidence; not therapeutic validation
+Dermorphin,Primary human GH study,https://pubmed.ncbi.nlm.nih.gov/6633818/,Naloxone-sensitive human opioid effects; not product approval
+Dermorphin,WADA 2026 Prohibited List,https://www.wada-ama.org/en/resources/world-anti-doping-program/prohibited-list,Current athlete-status review
+Adamax,PubMed exact-name search,https://pubmed.ncbi.nlm.nih.gov/?term=Adamax+peptide,No exact Adamax primary characterisation identified
+Adamax,ClinicalTrials.gov exact-name search,https://clinicaltrials.gov/search?term=Adamax%20peptide,No registered Adamax clinical programme identified
+PE 22-28,Primary Frontiers study,https://www.frontiersin.org/journals/pharmacology/articles/10.3389/fphar.2017.00643/full,"Seven-residue spadin analogue, TREK-1 cell data and mouse behavioural evidence"
+PE 22-28,UniProt rat sortilin sequence,https://www.uniprot.org/uniprotkb/O54861/entry,Sortilin propeptide sequence context containing GVSWGLR
+PE 22-28,Tocris technical reference,https://www.tocris.com/products/pe-22-28_7868,"Reference sequence GVSWGLR, formula and mass; supplier PE10 still unverified"
+P021,Primary FEBS Letters study,https://doi.org/10.1016/j.febslet.2010.06.025,Design of adamantane-containing CNTF-derived neurotrophic compound
+P021,Scientific Reports primary study,https://www.nature.com/articles/srep45561,"Ac-DGGL^AG-NH2 notation, molecular weight and preclinical programme"
+P021,Alzheimer's Research & Therapy study,https://pmc.ncbi.nlm.nih.gov/articles/PMC5488423/,"Published study-material synthesis, purity and mouse evidence"
+CagriSema,REDEFINE 1 primary phase 3 publication,https://www.nejm.org/doi/10.1056/NEJMoa2502081,Sponsor-controlled cagrilintide plus semaglutide evidence in obesity
+CagriSema,REDEFINE 2 primary phase 3 publication,https://www.nejm.org/doi/10.1056/NEJMoa2502082,Sponsor-controlled combination evidence in type 2 diabetes
+CagriSema,ClinicalTrials.gov NCT05567796,https://clinicaltrials.gov/study/NCT05567796,Current REDEFINE 1 record updated May 2026
+CagriSema,Novo Nordisk June 2026 update,https://www.novonordisk.com/news-and-media/news-and-ir-materials/news-details.html?id=916567,"Investigational status, December 2025 NDA filing and expected Q4 2026 decision"
+CagriSema,Novo Nordisk February 2026 REDEFINE 4 update,https://www.novonordisk.com/news-and-media/news-and-ir-materials/news-details.html?id=916501,Current head-to-head development result and ongoing programme

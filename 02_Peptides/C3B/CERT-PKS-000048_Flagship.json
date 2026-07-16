@@ -1,0 +1,91 @@
+{
+  "asset_id": "CERT-PKS-000048",
+  "asset_name": "P21 Without Adamantane Supplier Product Family",
+  "knowledge_system": "PKS",
+  "asset_type": "Peptide / Biologic-Mixture Knowledge Asset",
+  "version": "0.2.0",
+  "status": "P1 EVIDENCE CLOSURE WAVE 3 / IDENTITY OR PRODUCT-EQUIVALENCE BLOCK ACTIVE / NOT PLATINUM CERTIFIED",
+  "owner": "Aidan Coleman",
+  "last_review": "2026-07-16",
+  "aliases": [
+    "P21 without adamantane"
+  ],
+  "classification": "Chemically unresolved CNTF-fragment candidate product family",
+  "mechanism_summary": "Not assigned because the exact peptide sequence, terminal chemistry and relationship to canonical P021 are not established.",
+  "evidence_maturity": "No P021 preclinical evidence may be transferred until exact chemical identity and biological equivalence are demonstrated.",
+  "regulatory_headline": "IDENTITY UNRESOLVED — NO P021 EQUIVALENCE OR PHARMACOLOGY CLAIM",
+  "catalogue_supplier_skus": [
+    {
+      "catalogue_code": "P210",
+      "specification": "10 mg x 10 vials",
+      "price_usd_per_kit": 80
+    }
+  ],
+  "relationships": [
+    {
+      "source": "CERT-PKS-000048",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000069"
+    },
+    {
+      "source": "CERT-PKS-000048",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000070"
+    },
+    {
+      "source": "CERT-PKS-000048",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000123"
+    },
+    {
+      "source": "CERT-PKS-000048",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000124"
+    },
+    {
+      "source": "CERT-PKS-000048",
+      "relationship": "HAS_SAFETY",
+      "target": "CERT-SKS-000053"
+    },
+    {
+      "source": "CERT-PKS-000048",
+      "relationship": "HAS_PASSPORT",
+      "target": "CERT-PPS-000022"
+    },
+    {
+      "source": "CERT-PKS-000048",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000265"
+    },
+    {
+      "source": "CERT-PKS-000048",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000266"
+    }
+  ],
+  "validated_universal_human_dosing_protocol": false,
+  "supplier_catalogue_proves_quality": false,
+  "platinum_certified": false,
+  "certification_blockers": [
+    "Complete sequence",
+    "N- and C-terminal chemistry",
+    "Relationship to CNTF residues",
+    "Reference standard and molecular mass",
+    "Primary publication and manufacturer identity"
+  ],
+  "closure_wave": "0031C",
+  "closure_priority": "P1",
+  "closure_class": "UNKNOWN CNTF-FRAGMENT CANDIDATE / EVIDENCE-TRANSFER BLOCK",
+  "closure_state": "BLOCKED — EXACT SEQUENCE, TERMINI, RESIDUE COUNT AND RELATIONSHIP TO P021 OR THE CNTF DGGL CORE ARE NOT ESTABLISHED",
+  "authoritative_product_boundary": "Published P021 evidence concerns an adamantane-containing peptidomimetic with defined terminal chemistry. Removing the adamantane moiety creates a chemically different object, and the catalogue does not state whether P210 is Ac-DGGL-NH2, Ac-DGGLG-NH2, another CNTF fragment or a different product.",
+  "product_passport": "CERT-PPS-000022",
+  "identity_verified": false,
+  "authorised_product_equivalence": false,
+  "critical_closure_controls": [
+    "Do not assume P210 is P021 minus adamantane",
+    "Do not invent Ac-DGGL-NH2 or Ac-DGGLG-NH2 identity",
+    "No P021 cell or animal evidence transfer",
+    "No cognition, neurogenesis or neurodegeneration-treatment claim",
+    "No dosing, oral, injection or reconstitution protocol"
+  ]
+}

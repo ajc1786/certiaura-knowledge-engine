@@ -1,0 +1,20 @@
+{
+  "asset_id": "CERT-EKS-000267",
+  "asset_name": "CagriSema Phase 3 and Current 2026 Development Evidence",
+  "root_asset": "CERT-PKS-000084",
+  "knowledge_system": "EKS",
+  "asset_type": "Priority Evidence Closure Object",
+  "version": "0.2.0",
+  "status": "CURRENT SPONSOR-CONTROLLED PROGRAMME IDENTIFIED",
+  "closure_wave": "0031C",
+  "closure_priority": "P1",
+  "source_domain": "REDEFINE 1 and 2 primary phase 3 publications, current ClinicalTrials.gov records, REDEFINE 4 and June 2026 Novo Nordisk development/regulatory updates",
+  "evidence_type": "Human clinical-development / current-status evidence",
+  "last_review": "2026-07-16",
+  "direct_complete_extraction": false,
+  "prohibited_use": [
+    "Personal dosing, injection, infusion, nasal-use or reconstitution guidance",
+    "Published, authorised or sponsor-controlled evidence transfer to a supplier product",
+    "Assumption of identity, composition, potency, compatibility or sterility"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "asset_uai": "CERT-PKS-000048",
+  "asset_name": "P21 Without Adamantane Supplier Product Family",
+  "version": "0.2.0",
+  "status_as_of": "2026-07-16",
+  "closure_wave": "0031C",
+  "overall_status": "BLOCKED — EXACT SEQUENCE, TERMINI, RESIDUE COUNT AND RELATIONSHIP TO P021 OR THE CNTF DGGL CORE ARE NOT ESTABLISHED",
+  "regulatory_records": [
+    {
+      "jurisdiction": "Global",
+      "authority": "Chemical identity control",
+      "current_status": "All pharmacological and regulatory interpretation is blocked until P210 is chemically identified.",
+      "monitoring_state": "BLOCKED",
+      "next_review_trigger": "Identity, approval, filing, decision, trial, warning, enforcement, controlled-substance or anti-doping change"
+    },
+    {
+      "jurisdiction": "United States",
+      "authority": "FDA",
+      "current_status": "No approval claim.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Identity, approval, filing, decision, trial, warning, enforcement, controlled-substance or anti-doping change"
+    },
+    {
+      "jurisdiction": "United Kingdom",
+      "authority": "MHRA",
+      "current_status": "No marketing-authorisation claim.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Identity, approval, filing, decision, trial, warning, enforcement, controlled-substance or anti-doping change"
+    },
+    {
+      "jurisdiction": "European Union",
+      "authority": "EMA / European Commission",
+      "current_status": "No marketing-authorisation claim.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Identity, approval, filing, decision, trial, warning, enforcement, controlled-substance or anti-doping change"
+    }
+  ]
+}

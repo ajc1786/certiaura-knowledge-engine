@@ -1,0 +1,20 @@
+{
+  "asset_id": "CERT-EKS-000261",
+  "asset_name": "PE 22-28 Sequence, TREK-1 and Preclinical Programme Evidence",
+  "root_asset": "CERT-PKS-000043",
+  "knowledge_system": "EKS",
+  "asset_type": "Priority Evidence Closure Object",
+  "version": "0.2.0",
+  "status": "REFERENCE SEQUENCE AND PRECLINICAL PROGRAMME IDENTIFIED",
+  "closure_wave": "0031C",
+  "closure_priority": "P1",
+  "source_domain": "2017 primary shortened-spadin study, sortilin propeptide context and reference sequence GVSWGLR with TREK-1 cell and mouse behavioural evidence",
+  "evidence_type": "Primary identity / preclinical evidence",
+  "last_review": "2026-07-16",
+  "direct_complete_extraction": false,
+  "prohibited_use": [
+    "Personal dosing, injection, infusion, nasal-use or reconstitution guidance",
+    "Published, authorised or sponsor-controlled evidence transfer to a supplier product",
+    "Assumption of identity, composition, potency, compatibility or sterility"
+  ]
+}

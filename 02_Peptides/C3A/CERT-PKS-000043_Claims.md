@@ -10,11 +10,11 @@
 
 | Claim | Permission |
 |---|---|
-| PE 22-28 Supplier Product Family is classified as chemically unresolved peptide-fragment product family. | Allowed |
-| IDENTITY UNRESOLVED — NO PHARMACOLOGICAL OR APPROVAL CLAIM PERMITTED | Allowed as a dated controlled headline |
-| The supplier product is equivalent to published study material. | Not established / not allowed |
-| A universal human dosing or intranasal protocol is validated. | Not established / not allowed |
-| The asset is Platinum Certified. | False / not allowed |
-| A mechanism or therapeutic effect can be assigned before identity closure. | False / prohibited |
+| This asset is in P1 closure. | Allowed |
+| Primary research identifies PE 22-28 as a seven-residue fragment of the sortilin propeptide/spadin programme with potent TREK-1 inhibition in cell systems and antidepressant-like effects in mice. Reference-product records identify the sequence Gly-Val-Ser-Trp-Gly-Leu-Arg (GVSWGLR). No controlled human efficacy or safety programme is established. | Allowed as a controlled boundary |
+| The supplier product is equivalent to a published, authorised or sponsor-controlled product. | False / prohibited |
+| Supplier identity, potency, composition and sterility are verified. | False / prohibited |
+| A treatment, performance, dosing, injection or reconstitution protocol is validated. | False / prohibited |
+| The asset is Platinum Certified. | False / prohibited |
 
 **Status as of:** 2026-07-16

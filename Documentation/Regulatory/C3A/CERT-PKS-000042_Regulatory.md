@@ -8,16 +8,17 @@
 
 # CERT-PKS-000042 — Adamax Supplier Product Family REGULATORY STATUS
 
+**Version:** 0.2.0  
 **Status as of:** 2026-07-16  
-**Overall:** IDENTITY UNRESOLVED — NO PHARMACOLOGICAL OR APPROVAL CLAIM PERMITTED
+**Closure state:** BLOCKED — NO PEER-REVIEWED ADAMAX CHARACTERISATION, AUTHORITATIVE SEQUENCE, LINKAGE POSITION, MOLECULAR FORMULA, MASS OR STANDARDISED PRODUCT IDENTITY
 
 | Jurisdiction | Authority | Controlled position | Monitoring |
 |---|---|---|---|
-| Global | Identity control | Regulatory interpretation blocked until exact molecule is established. | BLOCKED |
-| United States | FDA | No approval claim permitted. | ACTIVE |
-| United Kingdom | MHRA | No marketing-authorisation claim permitted. | ACTIVE |
-| European Union | EMA / European Commission | No marketing-authorisation claim permitted. | ACTIVE |
+| Global | Chemical identity control | Regulatory and pharmacological interpretation is blocked because no canonical Adamax molecule is established. | BLOCKED |
+| United States | FDA | No approval claim for Adamax or AD5. | ACTIVE |
+| United Kingdom | MHRA | No marketing-authorisation claim. | ACTIVE |
+| European Union | EMA / European Commission | No marketing-authorisation claim. | ACTIVE |
 
 ## Rule
 
-Regional status does not transfer across jurisdictions or validate a catalogue product.
+Regulatory and clinical evidence belongs to the exact molecule, formulation, manufacturer, study material, supply chain, indication and jurisdiction.

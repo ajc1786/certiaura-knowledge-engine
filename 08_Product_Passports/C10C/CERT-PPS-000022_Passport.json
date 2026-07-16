@@ -1,0 +1,58 @@
+{
+  "asset_id": "CERT-PPS-000022",
+  "asset_name": "P21 Without Adamantane Supplier Product Family Product Passport",
+  "knowledge_system": "PPS",
+  "asset_type": "Critical Product Passport Gap Object",
+  "version": "0.2.0",
+  "status": "P1 OPEN / NOT CERTIFIED",
+  "parent_product": "CERT-PKS-000048",
+  "closure_wave": "0031C",
+  "closure_priority": "P1",
+  "last_review": "2026-07-16",
+  "required_fields": [
+    {
+      "field": "complete amino-acid sequence and residue count",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical, primary and regulatory evidence"
+    },
+    {
+      "field": "relationship to CNTF residues 148-151",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical, primary and regulatory evidence"
+    },
+    {
+      "field": "N-acetylation and C-terminal amidation",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical, primary and regulatory evidence"
+    },
+    {
+      "field": "presence or absence of additional glycine",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical, primary and regulatory evidence"
+    },
+    {
+      "field": "molecular formula, mass and reference standard",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical, primary and regulatory evidence"
+    },
+    {
+      "field": "manufacturer, synthesis route and batch",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical, primary and regulatory evidence"
+    },
+    {
+      "field": "HPLC, LC-MS and impurity profile",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical, primary and regulatory evidence"
+    },
+    {
+      "field": "product-specific pharmacology, human evidence and regulatory status",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical, primary and regulatory evidence"
+    }
+  ],
+  "identity_certified": false,
+  "quality_certified": false,
+  "sterility_certified": false,
+  "authorised_product_equivalence": false
+}

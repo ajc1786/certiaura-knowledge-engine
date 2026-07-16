@@ -1,0 +1,20 @@
+{
+  "asset_id": "CERT-EKS-000266",
+  "asset_name": "P21 Without Adamantane versus P021 Evidence-Transfer Block",
+  "root_asset": "CERT-PKS-000048",
+  "knowledge_system": "EKS",
+  "asset_type": "Priority Evidence Closure Object",
+  "version": "0.2.0",
+  "status": "P021 EVIDENCE TRANSFER PROHIBITED",
+  "closure_wave": "0031C",
+  "closure_priority": "P1",
+  "source_domain": "Chemical consequences of removing adamantane and prohibition on assigning P021 cell, animal, stability or blood-brain-barrier evidence to P210",
+  "evidence_type": "Evidence-transfer control",
+  "last_review": "2026-07-16",
+  "direct_complete_extraction": false,
+  "prohibited_use": [
+    "Personal dosing, injection, infusion, nasal-use or reconstitution guidance",
+    "Published, authorised or sponsor-controlled evidence transfer to a supplier product",
+    "Assumption of identity, composition, potency, compatibility or sterility"
+  ]
+}

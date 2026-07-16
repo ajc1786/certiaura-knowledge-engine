@@ -5,8 +5,24 @@
 </div>
 
 ---
+
 # CAGRILINTIDE + SEMAGLUTIDE SUPPLIER BLEND COMMERCIAL USE BOUNDARY
 
-Permitted: supplier-component reporting, price comparison, combination identity-gap analysis and Product Passport™ requirements.
+## Permitted
 
-Prohibited: adding component evidence as proof, compatibility claims, treatment or self-administration guidance, authorised-product equivalence, and guaranteed identity, ratio, potency, sterility or stability.
+- exact catalogue-record reporting;
+- primary, authorised or sponsor-controlled comparator reporting with explicit non-equivalence;
+- Product Passport™ gap reporting;
+- safety, regulatory and analytical education.
+
+## Prohibited
+
+- treatment, performance, cognitive, metabolic, opioid or cosmetic-use protocols;
+- dosing, injection, infusion, nasal-use or reconstitution guidance;
+- published-study, authorised-product or clinical-material equivalence;
+- guaranteed identity, composition, potency, purity, sterility or compatibility;
+- direct-sale activation while critical passport fields remain open.
+
+## Activation gate
+
+Commercial use beyond evidence and gap reporting remains blocked.

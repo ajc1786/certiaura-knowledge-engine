@@ -3,8 +3,8 @@
   "asset_name": "PE 22-28 Supplier Product Family",
   "knowledge_system": "PKS",
   "asset_type": "Peptide Knowledge Asset",
-  "version": "0.1.0",
-  "status": "CATALOGUE REVIEWED / EVIDENCE FOUNDATION CREATED / NOT PLATINUM CERTIFIED",
+  "version": "0.2.0",
+  "status": "P1 EVIDENCE CLOSURE WAVE 3 / IDENTITY OR PRODUCT-EQUIVALENCE BLOCK ACTIVE / NOT PLATINUM CERTIFIED",
   "owner": "Aidan Coleman",
   "last_review": "2026-07-16",
   "aliases": [
@@ -47,6 +47,21 @@
       "source": "CERT-PKS-000043",
       "relationship": "HAS_SAFETY",
       "target": "CERT-SKS-000048"
+    },
+    {
+      "source": "CERT-PKS-000043",
+      "relationship": "HAS_PASSPORT",
+      "target": "CERT-PPS-000020"
+    },
+    {
+      "source": "CERT-PKS-000043",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000261"
+    },
+    {
+      "source": "CERT-PKS-000043",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000262"
     }
   ],
   "validated_universal_human_dosing_protocol": false,
@@ -58,5 +73,22 @@
     "Terminal modifications",
     "Primary publication identity",
     "Manufacturer and analytical verification"
-  ]
+  ],
+  "closure_wave": "0031C",
+  "closure_priority": "P1",
+  "closure_class": "SPADIN-DERIVED HEPTAPEPTIDE / PRECLINICAL TREK-1 EVIDENCE",
+  "closure_state": "PARTIAL IDENTITY CLOSURE — REFERENCE SEQUENCE GVSWGLR AND PRECLINICAL TREK-1 PROGRAMME IDENTIFIED; SUPPLIER TERMINI, SALT, ANALYTICAL EQUIVALENCE AND HUMAN EVIDENCE OPEN",
+  "authoritative_product_boundary": "Primary research identifies PE 22-28 as a seven-residue fragment of the sortilin propeptide/spadin programme with potent TREK-1 inhibition in cell systems and antidepressant-like effects in mice. Reference-product records identify the sequence Gly-Val-Ser-Trp-Gly-Leu-Arg (GVSWGLR). No controlled human efficacy or safety programme is established.",
+  "product_passport": "CERT-PPS-000020",
+  "identity_verified": false,
+  "authorised_product_equivalence": false,
+  "critical_closure_controls": [
+    "PE22-28 is not P21 or P021",
+    "Reference sequence does not prove PE10 supplier identity",
+    "Cell and mouse antidepressant-like evidence is not human efficacy",
+    "No depression-treatment or cognitive-enhancement claim",
+    "No dosing, injection or reconstitution protocol"
+  ],
+  "canonical_reference_sequence": "Gly-Val-Ser-Trp-Gly-Leu-Arg (GVSWGLR)",
+  "supplier_sequence_verified": false
 }
