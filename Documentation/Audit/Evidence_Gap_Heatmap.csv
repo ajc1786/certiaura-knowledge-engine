@@ -1,0 +1,715 @@
+UAI,Asset Name,Readiness Tier,Dimension,Dimension Score /5,Gap Severity
+CERT-PKS-000003,Tesamorelin,T1,Canonical Identity,5,MINIMAL
+CERT-PKS-000003,Tesamorelin,T1,Human Evidence,5,MINIMAL
+CERT-PKS-000003,Tesamorelin,T1,Regulatory,5,MINIMAL
+CERT-PKS-000003,Tesamorelin,T1,Safety,5,MINIMAL
+CERT-PKS-000003,Tesamorelin,T1,Supplier Evidence,2,HIGH
+CERT-PKS-000003,Tesamorelin,T1,Analytical Feasibility,4,LOW
+CERT-PKS-000003,Tesamorelin,T1,Commercial Boundary,5,MINIMAL
+CERT-PKS-000011,Semaglutide,T1,Canonical Identity,5,MINIMAL
+CERT-PKS-000011,Semaglutide,T1,Human Evidence,5,MINIMAL
+CERT-PKS-000011,Semaglutide,T1,Regulatory,5,MINIMAL
+CERT-PKS-000011,Semaglutide,T1,Safety,5,MINIMAL
+CERT-PKS-000011,Semaglutide,T1,Supplier Evidence,2,HIGH
+CERT-PKS-000011,Semaglutide,T1,Analytical Feasibility,4,LOW
+CERT-PKS-000011,Semaglutide,T1,Commercial Boundary,5,MINIMAL
+CERT-PKS-000012,Tirzepatide,T1,Canonical Identity,5,MINIMAL
+CERT-PKS-000012,Tirzepatide,T1,Human Evidence,5,MINIMAL
+CERT-PKS-000012,Tirzepatide,T1,Regulatory,5,MINIMAL
+CERT-PKS-000012,Tirzepatide,T1,Safety,5,MINIMAL
+CERT-PKS-000012,Tirzepatide,T1,Supplier Evidence,2,HIGH
+CERT-PKS-000012,Tirzepatide,T1,Analytical Feasibility,4,LOW
+CERT-PKS-000012,Tirzepatide,T1,Commercial Boundary,5,MINIMAL
+CERT-PKS-000016,Liraglutide,T1,Canonical Identity,5,MINIMAL
+CERT-PKS-000016,Liraglutide,T1,Human Evidence,5,MINIMAL
+CERT-PKS-000016,Liraglutide,T1,Regulatory,5,MINIMAL
+CERT-PKS-000016,Liraglutide,T1,Safety,5,MINIMAL
+CERT-PKS-000016,Liraglutide,T1,Supplier Evidence,2,HIGH
+CERT-PKS-000016,Liraglutide,T1,Analytical Feasibility,4,LOW
+CERT-PKS-000016,Liraglutide,T1,Commercial Boundary,5,MINIMAL
+CERT-PKS-000035,Teriparatide,T1,Canonical Identity,5,MINIMAL
+CERT-PKS-000035,Teriparatide,T1,Human Evidence,5,MINIMAL
+CERT-PKS-000035,Teriparatide,T1,Regulatory,5,MINIMAL
+CERT-PKS-000035,Teriparatide,T1,Safety,5,MINIMAL
+CERT-PKS-000035,Teriparatide,T1,Supplier Evidence,2,HIGH
+CERT-PKS-000035,Teriparatide,T1,Analytical Feasibility,4,LOW
+CERT-PKS-000035,Teriparatide,T1,Commercial Boundary,5,MINIMAL
+CERT-PKS-000079,Afamelanotide / Melanotan I,T1,Canonical Identity,5,MINIMAL
+CERT-PKS-000079,Afamelanotide / Melanotan I,T1,Human Evidence,5,MINIMAL
+CERT-PKS-000079,Afamelanotide / Melanotan I,T1,Regulatory,5,MINIMAL
+CERT-PKS-000079,Afamelanotide / Melanotan I,T1,Safety,5,MINIMAL
+CERT-PKS-000079,Afamelanotide / Melanotan I,T1,Supplier Evidence,2,HIGH
+CERT-PKS-000079,Afamelanotide / Melanotan I,T1,Analytical Feasibility,4,LOW
+CERT-PKS-000079,Afamelanotide / Melanotan I,T1,Commercial Boundary,5,MINIMAL
+CERT-PKS-000080,Bremelanotide / PT-141,T1,Canonical Identity,5,MINIMAL
+CERT-PKS-000080,Bremelanotide / PT-141,T1,Human Evidence,5,MINIMAL
+CERT-PKS-000080,Bremelanotide / PT-141,T1,Regulatory,5,MINIMAL
+CERT-PKS-000080,Bremelanotide / PT-141,T1,Safety,5,MINIMAL
+CERT-PKS-000080,Bremelanotide / PT-141,T1,Supplier Evidence,2,HIGH
+CERT-PKS-000080,Bremelanotide / PT-141,T1,Analytical Feasibility,4,LOW
+CERT-PKS-000080,Bremelanotide / PT-141,T1,Commercial Boundary,5,MINIMAL
+CERT-PKS-000089,Elamipretide / SS-31,T1,Canonical Identity,5,MINIMAL
+CERT-PKS-000089,Elamipretide / SS-31,T1,Human Evidence,5,MINIMAL
+CERT-PKS-000089,Elamipretide / SS-31,T1,Regulatory,5,MINIMAL
+CERT-PKS-000089,Elamipretide / SS-31,T1,Safety,5,MINIMAL
+CERT-PKS-000089,Elamipretide / SS-31,T1,Supplier Evidence,2,HIGH
+CERT-PKS-000089,Elamipretide / SS-31,T1,Analytical Feasibility,4,LOW
+CERT-PKS-000089,Elamipretide / SS-31,T1,Commercial Boundary,5,MINIMAL
+CERT-PKS-000020,Somatropin,T1,Canonical Identity,5,MINIMAL
+CERT-PKS-000020,Somatropin,T1,Human Evidence,5,MINIMAL
+CERT-PKS-000020,Somatropin,T1,Regulatory,5,MINIMAL
+CERT-PKS-000020,Somatropin,T1,Safety,5,MINIMAL
+CERT-PKS-000020,Somatropin,T1,Supplier Evidence,2,HIGH
+CERT-PKS-000020,Somatropin,T1,Analytical Feasibility,3,MODERATE
+CERT-PKS-000020,Somatropin,T1,Commercial Boundary,5,MINIMAL
+CERT-PKS-000001,Retatrutide,T1,Canonical Identity,4,LOW
+CERT-PKS-000001,Retatrutide,T1,Human Evidence,4,LOW
+CERT-PKS-000001,Retatrutide,T1,Regulatory,4,LOW
+CERT-PKS-000001,Retatrutide,T1,Safety,4,LOW
+CERT-PKS-000001,Retatrutide,T1,Supplier Evidence,2,HIGH
+CERT-PKS-000001,Retatrutide,T1,Analytical Feasibility,4,LOW
+CERT-PKS-000001,Retatrutide,T1,Commercial Boundary,4,LOW
+CERT-PKS-000013,Cagrilintide,T1,Canonical Identity,4,LOW
+CERT-PKS-000013,Cagrilintide,T1,Human Evidence,4,LOW
+CERT-PKS-000013,Cagrilintide,T1,Regulatory,4,LOW
+CERT-PKS-000013,Cagrilintide,T1,Safety,4,LOW
+CERT-PKS-000013,Cagrilintide,T1,Supplier Evidence,2,HIGH
+CERT-PKS-000013,Cagrilintide,T1,Analytical Feasibility,4,LOW
+CERT-PKS-000013,Cagrilintide,T1,Commercial Boundary,4,LOW
+CERT-PKS-000014,Mazdutide,T1,Canonical Identity,4,LOW
+CERT-PKS-000014,Mazdutide,T1,Human Evidence,4,LOW
+CERT-PKS-000014,Mazdutide,T1,Regulatory,4,LOW
+CERT-PKS-000014,Mazdutide,T1,Safety,4,LOW
+CERT-PKS-000014,Mazdutide,T1,Supplier Evidence,2,HIGH
+CERT-PKS-000014,Mazdutide,T1,Analytical Feasibility,4,LOW
+CERT-PKS-000014,Mazdutide,T1,Commercial Boundary,4,LOW
+CERT-PKS-000015,Survodutide,T1,Canonical Identity,4,LOW
+CERT-PKS-000015,Survodutide,T1,Human Evidence,4,LOW
+CERT-PKS-000015,Survodutide,T1,Regulatory,4,LOW
+CERT-PKS-000015,Survodutide,T1,Safety,4,LOW
+CERT-PKS-000015,Survodutide,T1,Supplier Evidence,2,HIGH
+CERT-PKS-000015,Survodutide,T1,Analytical Feasibility,4,LOW
+CERT-PKS-000015,Survodutide,T1,Commercial Boundary,4,LOW
+CERT-PKS-000054,Cibinetide / ARA-290,T1,Canonical Identity,4,LOW
+CERT-PKS-000054,Cibinetide / ARA-290,T1,Human Evidence,4,LOW
+CERT-PKS-000054,Cibinetide / ARA-290,T1,Regulatory,4,LOW
+CERT-PKS-000054,Cibinetide / ARA-290,T1,Safety,4,LOW
+CERT-PKS-000054,Cibinetide / ARA-290,T1,Supplier Evidence,2,HIGH
+CERT-PKS-000054,Cibinetide / ARA-290,T1,Analytical Feasibility,4,LOW
+CERT-PKS-000054,Cibinetide / ARA-290,T1,Commercial Boundary,4,LOW
+CERT-PKS-000034,Kisspeptin-10,T2,Canonical Identity,4,LOW
+CERT-PKS-000034,Kisspeptin-10,T2,Human Evidence,3,MODERATE
+CERT-PKS-000034,Kisspeptin-10,T2,Regulatory,4,LOW
+CERT-PKS-000034,Kisspeptin-10,T2,Safety,3,MODERATE
+CERT-PKS-000034,Kisspeptin-10,T2,Supplier Evidence,2,HIGH
+CERT-PKS-000034,Kisspeptin-10,T2,Analytical Feasibility,5,MINIMAL
+CERT-PKS-000034,Kisspeptin-10,T2,Commercial Boundary,4,LOW
+CERT-PKS-000046,Dermorphin,T2,Canonical Identity,4,LOW
+CERT-PKS-000046,Dermorphin,T2,Human Evidence,3,MODERATE
+CERT-PKS-000046,Dermorphin,T2,Regulatory,4,LOW
+CERT-PKS-000046,Dermorphin,T2,Safety,3,MODERATE
+CERT-PKS-000046,Dermorphin,T2,Supplier Evidence,2,HIGH
+CERT-PKS-000046,Dermorphin,T2,Analytical Feasibility,5,MINIMAL
+CERT-PKS-000046,Dermorphin,T2,Commercial Boundary,4,LOW
+CERT-MPS-000002,Melatonin Supplier Vial Family,T3,Canonical Identity,2,HIGH
+CERT-MPS-000002,Melatonin Supplier Vial Family,T3,Human Evidence,4,LOW
+CERT-MPS-000002,Melatonin Supplier Vial Family,T3,Regulatory,4,LOW
+CERT-MPS-000002,Melatonin Supplier Vial Family,T3,Safety,4,LOW
+CERT-MPS-000002,Melatonin Supplier Vial Family,T3,Supplier Evidence,2,HIGH
+CERT-MPS-000002,Melatonin Supplier Vial Family,T3,Analytical Feasibility,3,MODERATE
+CERT-MPS-000002,Melatonin Supplier Vial Family,T3,Commercial Boundary,4,LOW
+CERT-MPS-000007,Bacteriostatic Water Supplier Family,T2,Canonical Identity,4,LOW
+CERT-MPS-000007,Bacteriostatic Water Supplier Family,T2,Human Evidence,4,LOW
+CERT-MPS-000007,Bacteriostatic Water Supplier Family,T2,Regulatory,3,MODERATE
+CERT-MPS-000007,Bacteriostatic Water Supplier Family,T2,Safety,3,MODERATE
+CERT-MPS-000007,Bacteriostatic Water Supplier Family,T2,Supplier Evidence,2,HIGH
+CERT-MPS-000007,Bacteriostatic Water Supplier Family,T2,Analytical Feasibility,3,MODERATE
+CERT-MPS-000007,Bacteriostatic Water Supplier Family,T2,Commercial Boundary,3,MODERATE
+CERT-MPS-000011,Alprostadil Supplier Vial Family,T3,Canonical Identity,2,HIGH
+CERT-MPS-000011,Alprostadil Supplier Vial Family,T3,Human Evidence,4,LOW
+CERT-MPS-000011,Alprostadil Supplier Vial Family,T3,Regulatory,4,LOW
+CERT-MPS-000011,Alprostadil Supplier Vial Family,T3,Safety,4,LOW
+CERT-MPS-000011,Alprostadil Supplier Vial Family,T3,Supplier Evidence,2,HIGH
+CERT-MPS-000011,Alprostadil Supplier Vial Family,T3,Analytical Feasibility,3,MODERATE
+CERT-MPS-000011,Alprostadil Supplier Vial Family,T3,Commercial Boundary,4,LOW
+CERT-PKS-000023,GHRP-2 / Pralmorelin,T2,Canonical Identity,4,LOW
+CERT-PKS-000023,GHRP-2 / Pralmorelin,T2,Human Evidence,3,MODERATE
+CERT-PKS-000023,GHRP-2 / Pralmorelin,T2,Regulatory,3,MODERATE
+CERT-PKS-000023,GHRP-2 / Pralmorelin,T2,Safety,3,MODERATE
+CERT-PKS-000023,GHRP-2 / Pralmorelin,T2,Supplier Evidence,2,HIGH
+CERT-PKS-000023,GHRP-2 / Pralmorelin,T2,Analytical Feasibility,5,MINIMAL
+CERT-PKS-000023,GHRP-2 / Pralmorelin,T2,Commercial Boundary,3,MODERATE
+CERT-PKS-000038,Semax,T2,Canonical Identity,4,LOW
+CERT-PKS-000038,Semax,T2,Human Evidence,3,MODERATE
+CERT-PKS-000038,Semax,T2,Regulatory,3,MODERATE
+CERT-PKS-000038,Semax,T2,Safety,3,MODERATE
+CERT-PKS-000038,Semax,T2,Supplier Evidence,2,HIGH
+CERT-PKS-000038,Semax,T2,Analytical Feasibility,5,MINIMAL
+CERT-PKS-000038,Semax,T2,Commercial Boundary,3,MODERATE
+CERT-PKS-000039,Selank,T2,Canonical Identity,4,LOW
+CERT-PKS-000039,Selank,T2,Human Evidence,3,MODERATE
+CERT-PKS-000039,Selank,T2,Regulatory,3,MODERATE
+CERT-PKS-000039,Selank,T2,Safety,3,MODERATE
+CERT-PKS-000039,Selank,T2,Supplier Evidence,2,HIGH
+CERT-PKS-000039,Selank,T2,Analytical Feasibility,5,MINIMAL
+CERT-PKS-000039,Selank,T2,Commercial Boundary,3,MODERATE
+CERT-PKS-000051,Thymosin Alpha-1 / Thymalfasin,T2,Canonical Identity,4,LOW
+CERT-PKS-000051,Thymosin Alpha-1 / Thymalfasin,T2,Human Evidence,3,MODERATE
+CERT-PKS-000051,Thymosin Alpha-1 / Thymalfasin,T2,Regulatory,3,MODERATE
+CERT-PKS-000051,Thymosin Alpha-1 / Thymalfasin,T2,Safety,3,MODERATE
+CERT-PKS-000051,Thymosin Alpha-1 / Thymalfasin,T2,Supplier Evidence,2,HIGH
+CERT-PKS-000051,Thymosin Alpha-1 / Thymalfasin,T2,Analytical Feasibility,5,MINIMAL
+CERT-PKS-000051,Thymosin Alpha-1 / Thymalfasin,T2,Commercial Boundary,3,MODERATE
+CERT-PKS-000066,Vilon Supplier Product Family,T2,Canonical Identity,4,LOW
+CERT-PKS-000066,Vilon Supplier Product Family,T2,Human Evidence,3,MODERATE
+CERT-PKS-000066,Vilon Supplier Product Family,T2,Regulatory,3,MODERATE
+CERT-PKS-000066,Vilon Supplier Product Family,T2,Safety,3,MODERATE
+CERT-PKS-000066,Vilon Supplier Product Family,T2,Supplier Evidence,2,HIGH
+CERT-PKS-000066,Vilon Supplier Product Family,T2,Analytical Feasibility,5,MINIMAL
+CERT-PKS-000066,Vilon Supplier Product Family,T2,Commercial Boundary,3,MODERATE
+CERT-PKS-000072,Pancragen,T2,Canonical Identity,4,LOW
+CERT-PKS-000072,Pancragen,T2,Human Evidence,3,MODERATE
+CERT-PKS-000072,Pancragen,T2,Regulatory,3,MODERATE
+CERT-PKS-000072,Pancragen,T2,Safety,3,MODERATE
+CERT-PKS-000072,Pancragen,T2,Supplier Evidence,2,HIGH
+CERT-PKS-000072,Pancragen,T2,Analytical Feasibility,5,MINIMAL
+CERT-PKS-000072,Pancragen,T2,Commercial Boundary,3,MODERATE
+CERT-PKS-000021,Sermorelin,T2,Canonical Identity,4,LOW
+CERT-PKS-000021,Sermorelin,T2,Human Evidence,3,MODERATE
+CERT-PKS-000021,Sermorelin,T2,Regulatory,3,MODERATE
+CERT-PKS-000021,Sermorelin,T2,Safety,3,MODERATE
+CERT-PKS-000021,Sermorelin,T2,Supplier Evidence,2,HIGH
+CERT-PKS-000021,Sermorelin,T2,Analytical Feasibility,4,LOW
+CERT-PKS-000021,Sermorelin,T2,Commercial Boundary,3,MODERATE
+CERT-PKS-000022,Modified GRF (1-29),T3,Canonical Identity,4,LOW
+CERT-PKS-000022,Modified GRF (1-29),T3,Human Evidence,2,HIGH
+CERT-PKS-000022,Modified GRF (1-29),T3,Regulatory,4,LOW
+CERT-PKS-000022,Modified GRF (1-29),T3,Safety,2,HIGH
+CERT-PKS-000022,Modified GRF (1-29),T3,Supplier Evidence,2,HIGH
+CERT-PKS-000022,Modified GRF (1-29),T3,Analytical Feasibility,5,MINIMAL
+CERT-PKS-000022,Modified GRF (1-29),T3,Commercial Boundary,4,LOW
+CERT-PKS-000024,GHRP-6,T3,Canonical Identity,4,LOW
+CERT-PKS-000024,GHRP-6,T3,Human Evidence,2,HIGH
+CERT-PKS-000024,GHRP-6,T3,Regulatory,4,LOW
+CERT-PKS-000024,GHRP-6,T3,Safety,2,HIGH
+CERT-PKS-000024,GHRP-6,T3,Supplier Evidence,2,HIGH
+CERT-PKS-000024,GHRP-6,T3,Analytical Feasibility,5,MINIMAL
+CERT-PKS-000024,GHRP-6,T3,Commercial Boundary,4,LOW
+CERT-PKS-000025,Hexarelin / Examorelin,T3,Canonical Identity,4,LOW
+CERT-PKS-000025,Hexarelin / Examorelin,T3,Human Evidence,2,HIGH
+CERT-PKS-000025,Hexarelin / Examorelin,T3,Regulatory,4,LOW
+CERT-PKS-000025,Hexarelin / Examorelin,T3,Safety,2,HIGH
+CERT-PKS-000025,Hexarelin / Examorelin,T3,Supplier Evidence,2,HIGH
+CERT-PKS-000025,Hexarelin / Examorelin,T3,Analytical Feasibility,5,MINIMAL
+CERT-PKS-000025,Hexarelin / Examorelin,T3,Commercial Boundary,4,LOW
+CERT-PKS-000031,Oxytocin,T2,Canonical Identity,4,LOW
+CERT-PKS-000031,Oxytocin,T2,Human Evidence,3,MODERATE
+CERT-PKS-000031,Oxytocin,T2,Regulatory,3,MODERATE
+CERT-PKS-000031,Oxytocin,T2,Safety,3,MODERATE
+CERT-PKS-000031,Oxytocin,T2,Supplier Evidence,2,HIGH
+CERT-PKS-000031,Oxytocin,T2,Analytical Feasibility,4,LOW
+CERT-PKS-000031,Oxytocin,T2,Commercial Boundary,3,MODERATE
+CERT-PKS-000049,N-Acetyl Semax Amidate,T3,Canonical Identity,4,LOW
+CERT-PKS-000049,N-Acetyl Semax Amidate,T3,Human Evidence,2,HIGH
+CERT-PKS-000049,N-Acetyl Semax Amidate,T3,Regulatory,4,LOW
+CERT-PKS-000049,N-Acetyl Semax Amidate,T3,Safety,2,HIGH
+CERT-PKS-000049,N-Acetyl Semax Amidate,T3,Supplier Evidence,2,HIGH
+CERT-PKS-000049,N-Acetyl Semax Amidate,T3,Analytical Feasibility,5,MINIMAL
+CERT-PKS-000049,N-Acetyl Semax Amidate,T3,Commercial Boundary,4,LOW
+CERT-PKS-000050,N-Acetyl Selank Amidate,T3,Canonical Identity,4,LOW
+CERT-PKS-000050,N-Acetyl Selank Amidate,T3,Human Evidence,2,HIGH
+CERT-PKS-000050,N-Acetyl Selank Amidate,T3,Regulatory,4,LOW
+CERT-PKS-000050,N-Acetyl Selank Amidate,T3,Safety,2,HIGH
+CERT-PKS-000050,N-Acetyl Selank Amidate,T3,Supplier Evidence,2,HIGH
+CERT-PKS-000050,N-Acetyl Selank Amidate,T3,Analytical Feasibility,5,MINIMAL
+CERT-PKS-000050,N-Acetyl Selank Amidate,T3,Commercial Boundary,4,LOW
+CERT-PKS-000055,Vasoactive Intestinal Peptide / Aviptadil,T2,Canonical Identity,4,LOW
+CERT-PKS-000055,Vasoactive Intestinal Peptide / Aviptadil,T2,Human Evidence,3,MODERATE
+CERT-PKS-000055,Vasoactive Intestinal Peptide / Aviptadil,T2,Regulatory,3,MODERATE
+CERT-PKS-000055,Vasoactive Intestinal Peptide / Aviptadil,T2,Safety,3,MODERATE
+CERT-PKS-000055,Vasoactive Intestinal Peptide / Aviptadil,T2,Supplier Evidence,2,HIGH
+CERT-PKS-000055,Vasoactive Intestinal Peptide / Aviptadil,T2,Analytical Feasibility,4,LOW
+CERT-PKS-000055,Vasoactive Intestinal Peptide / Aviptadil,T2,Commercial Boundary,3,MODERATE
+CERT-PKS-000056,KPV,T3,Canonical Identity,4,LOW
+CERT-PKS-000056,KPV,T3,Human Evidence,2,HIGH
+CERT-PKS-000056,KPV,T3,Regulatory,4,LOW
+CERT-PKS-000056,KPV,T3,Safety,2,HIGH
+CERT-PKS-000056,KPV,T3,Supplier Evidence,2,HIGH
+CERT-PKS-000056,KPV,T3,Analytical Feasibility,5,MINIMAL
+CERT-PKS-000056,KPV,T3,Commercial Boundary,4,LOW
+CERT-MPS-000005,NAD Supplier Product Family,T3,Canonical Identity,2,HIGH
+CERT-MPS-000005,NAD Supplier Product Family,T3,Human Evidence,4,LOW
+CERT-MPS-000005,NAD Supplier Product Family,T3,Regulatory,4,LOW
+CERT-MPS-000005,NAD Supplier Product Family,T3,Safety,3,MODERATE
+CERT-MPS-000005,NAD Supplier Product Family,T3,Supplier Evidence,2,HIGH
+CERT-MPS-000005,NAD Supplier Product Family,T3,Analytical Feasibility,3,MODERATE
+CERT-MPS-000005,NAD Supplier Product Family,T3,Commercial Boundary,4,LOW
+CERT-PKS-000078,Vesugen,T2,Canonical Identity,4,LOW
+CERT-PKS-000078,Vesugen,T2,Human Evidence,3,MODERATE
+CERT-PKS-000078,Vesugen,T2,Regulatory,3,MODERATE
+CERT-PKS-000078,Vesugen,T2,Safety,2,HIGH
+CERT-PKS-000078,Vesugen,T2,Supplier Evidence,2,HIGH
+CERT-PKS-000078,Vesugen,T2,Analytical Feasibility,5,MINIMAL
+CERT-PKS-000078,Vesugen,T2,Commercial Boundary,3,MODERATE
+CERT-PKS-000017,AOD9604,T3,Canonical Identity,4,LOW
+CERT-PKS-000017,AOD9604,T3,Human Evidence,2,HIGH
+CERT-PKS-000017,AOD9604,T3,Regulatory,4,LOW
+CERT-PKS-000017,AOD9604,T3,Safety,2,HIGH
+CERT-PKS-000017,AOD9604,T3,Supplier Evidence,2,HIGH
+CERT-PKS-000017,AOD9604,T3,Analytical Feasibility,4,LOW
+CERT-PKS-000017,AOD9604,T3,Commercial Boundary,4,LOW
+CERT-PKS-000018,Adipotide,T3,Canonical Identity,4,LOW
+CERT-PKS-000018,Adipotide,T3,Human Evidence,2,HIGH
+CERT-PKS-000018,Adipotide,T3,Regulatory,4,LOW
+CERT-PKS-000018,Adipotide,T3,Safety,2,HIGH
+CERT-PKS-000018,Adipotide,T3,Supplier Evidence,2,HIGH
+CERT-PKS-000018,Adipotide,T3,Analytical Feasibility,4,LOW
+CERT-PKS-000018,Adipotide,T3,Commercial Boundary,4,LOW
+CERT-PKS-000019,HGH Fragment 176-191,T3,Canonical Identity,4,LOW
+CERT-PKS-000019,HGH Fragment 176-191,T3,Human Evidence,2,HIGH
+CERT-PKS-000019,HGH Fragment 176-191,T3,Regulatory,4,LOW
+CERT-PKS-000019,HGH Fragment 176-191,T3,Safety,2,HIGH
+CERT-PKS-000019,HGH Fragment 176-191,T3,Supplier Evidence,2,HIGH
+CERT-PKS-000019,HGH Fragment 176-191,T3,Analytical Feasibility,4,LOW
+CERT-PKS-000019,HGH Fragment 176-191,T3,Commercial Boundary,4,LOW
+CERT-PKS-000026,Long R3 IGF-1,T3,Canonical Identity,4,LOW
+CERT-PKS-000026,Long R3 IGF-1,T3,Human Evidence,2,HIGH
+CERT-PKS-000026,Long R3 IGF-1,T3,Regulatory,4,LOW
+CERT-PKS-000026,Long R3 IGF-1,T3,Safety,2,HIGH
+CERT-PKS-000026,Long R3 IGF-1,T3,Supplier Evidence,2,HIGH
+CERT-PKS-000026,Long R3 IGF-1,T3,Analytical Feasibility,4,LOW
+CERT-PKS-000026,Long R3 IGF-1,T3,Commercial Boundary,4,LOW
+CERT-PKS-000029,ACE-031,T3,Canonical Identity,4,LOW
+CERT-PKS-000029,ACE-031,T3,Human Evidence,2,HIGH
+CERT-PKS-000029,ACE-031,T3,Regulatory,4,LOW
+CERT-PKS-000029,ACE-031,T3,Safety,2,HIGH
+CERT-PKS-000029,ACE-031,T3,Supplier Evidence,2,HIGH
+CERT-PKS-000029,ACE-031,T3,Analytical Feasibility,4,LOW
+CERT-PKS-000029,ACE-031,T3,Commercial Boundary,4,LOW
+CERT-PKS-000030,Gonadorelin,T3,Canonical Identity,4,LOW
+CERT-PKS-000030,Gonadorelin,T3,Human Evidence,2,HIGH
+CERT-PKS-000030,Gonadorelin,T3,Regulatory,3,MODERATE
+CERT-PKS-000030,Gonadorelin,T3,Safety,3,MODERATE
+CERT-PKS-000030,Gonadorelin,T3,Supplier Evidence,2,HIGH
+CERT-PKS-000030,Gonadorelin,T3,Analytical Feasibility,5,MINIMAL
+CERT-PKS-000030,Gonadorelin,T3,Commercial Boundary,3,MODERATE
+CERT-PKS-000032,Human Chorionic Gonadotropin Product Family,T3,Canonical Identity,2,HIGH
+CERT-PKS-000032,Human Chorionic Gonadotropin Product Family,T3,Human Evidence,4,LOW
+CERT-PKS-000032,Human Chorionic Gonadotropin Product Family,T3,Regulatory,4,LOW
+CERT-PKS-000032,Human Chorionic Gonadotropin Product Family,T3,Safety,4,LOW
+CERT-PKS-000032,Human Chorionic Gonadotropin Product Family,T3,Supplier Evidence,1,CRITICAL
+CERT-PKS-000032,Human Chorionic Gonadotropin Product Family,T3,Analytical Feasibility,2,HIGH
+CERT-PKS-000032,Human Chorionic Gonadotropin Product Family,T3,Commercial Boundary,4,LOW
+CERT-PKS-000033,Menotropins / Human Menopausal Gonadotropin Product Family,T3,Canonical Identity,2,HIGH
+CERT-PKS-000033,Menotropins / Human Menopausal Gonadotropin Product Family,T3,Human Evidence,4,LOW
+CERT-PKS-000033,Menotropins / Human Menopausal Gonadotropin Product Family,T3,Regulatory,4,LOW
+CERT-PKS-000033,Menotropins / Human Menopausal Gonadotropin Product Family,T3,Safety,4,LOW
+CERT-PKS-000033,Menotropins / Human Menopausal Gonadotropin Product Family,T3,Supplier Evidence,1,CRITICAL
+CERT-PKS-000033,Menotropins / Human Menopausal Gonadotropin Product Family,T3,Analytical Feasibility,2,HIGH
+CERT-PKS-000033,Menotropins / Human Menopausal Gonadotropin Product Family,T3,Commercial Boundary,4,LOW
+CERT-PKS-000036,Insulin Supplier Product Family,T3,Canonical Identity,2,HIGH
+CERT-PKS-000036,Insulin Supplier Product Family,T3,Human Evidence,4,LOW
+CERT-PKS-000036,Insulin Supplier Product Family,T3,Regulatory,4,LOW
+CERT-PKS-000036,Insulin Supplier Product Family,T3,Safety,4,LOW
+CERT-PKS-000036,Insulin Supplier Product Family,T3,Supplier Evidence,1,CRITICAL
+CERT-PKS-000036,Insulin Supplier Product Family,T3,Analytical Feasibility,2,HIGH
+CERT-PKS-000036,Insulin Supplier Product Family,T3,Commercial Boundary,4,LOW
+CERT-PKS-000037,Erythropoietin Supplier Product Family,T3,Canonical Identity,2,HIGH
+CERT-PKS-000037,Erythropoietin Supplier Product Family,T3,Human Evidence,4,LOW
+CERT-PKS-000037,Erythropoietin Supplier Product Family,T3,Regulatory,4,LOW
+CERT-PKS-000037,Erythropoietin Supplier Product Family,T3,Safety,4,LOW
+CERT-PKS-000037,Erythropoietin Supplier Product Family,T3,Supplier Evidence,1,CRITICAL
+CERT-PKS-000037,Erythropoietin Supplier Product Family,T3,Analytical Feasibility,2,HIGH
+CERT-PKS-000037,Erythropoietin Supplier Product Family,T3,Commercial Boundary,4,LOW
+CERT-PKS-000053,LL-37,T3,Canonical Identity,4,LOW
+CERT-PKS-000053,LL-37,T3,Human Evidence,2,HIGH
+CERT-PKS-000053,LL-37,T3,Regulatory,4,LOW
+CERT-PKS-000053,LL-37,T3,Safety,2,HIGH
+CERT-PKS-000053,LL-37,T3,Supplier Evidence,2,HIGH
+CERT-PKS-000053,LL-37,T3,Analytical Feasibility,4,LOW
+CERT-PKS-000053,LL-37,T3,Commercial Boundary,4,LOW
+CERT-PKS-000061,PNC-27,T3,Canonical Identity,4,LOW
+CERT-PKS-000061,PNC-27,T3,Human Evidence,2,HIGH
+CERT-PKS-000061,PNC-27,T3,Regulatory,4,LOW
+CERT-PKS-000061,PNC-27,T3,Safety,2,HIGH
+CERT-PKS-000061,PNC-27,T3,Supplier Evidence,2,HIGH
+CERT-PKS-000061,PNC-27,T3,Analytical Feasibility,4,LOW
+CERT-PKS-000061,PNC-27,T3,Commercial Boundary,4,LOW
+CERT-PKS-000065,N-Acetyl Epitalon Amidate,T3,Canonical Identity,4,LOW
+CERT-PKS-000065,N-Acetyl Epitalon Amidate,T3,Human Evidence,2,HIGH
+CERT-PKS-000065,N-Acetyl Epitalon Amidate,T3,Regulatory,4,LOW
+CERT-PKS-000065,N-Acetyl Epitalon Amidate,T3,Safety,2,HIGH
+CERT-PKS-000065,N-Acetyl Epitalon Amidate,T3,Supplier Evidence,2,HIGH
+CERT-PKS-000065,N-Acetyl Epitalon Amidate,T3,Analytical Feasibility,4,LOW
+CERT-PKS-000065,N-Acetyl Epitalon Amidate,T3,Commercial Boundary,4,LOW
+CERT-PKS-000007,GHK-Cu,T3,Canonical Identity,4,LOW
+CERT-PKS-000007,GHK-Cu,T3,Human Evidence,2,HIGH
+CERT-PKS-000007,GHK-Cu,T3,Regulatory,3,MODERATE
+CERT-PKS-000007,GHK-Cu,T3,Safety,3,MODERATE
+CERT-PKS-000007,GHK-Cu,T3,Supplier Evidence,2,HIGH
+CERT-PKS-000007,GHK-Cu,T3,Analytical Feasibility,4,LOW
+CERT-PKS-000007,GHK-Cu,T3,Commercial Boundary,3,MODERATE
+CERT-PKS-000009,Melanotan II,T3,Canonical Identity,4,LOW
+CERT-PKS-000009,Melanotan II,T3,Human Evidence,2,HIGH
+CERT-PKS-000009,Melanotan II,T3,Regulatory,3,MODERATE
+CERT-PKS-000009,Melanotan II,T3,Safety,3,MODERATE
+CERT-PKS-000009,Melanotan II,T3,Supplier Evidence,2,HIGH
+CERT-PKS-000009,Melanotan II,T3,Analytical Feasibility,4,LOW
+CERT-PKS-000009,Melanotan II,T3,Commercial Boundary,3,MODERATE
+CERT-PKS-000044,Cerebrolysin Product Family,T3,Canonical Identity,2,HIGH
+CERT-PKS-000044,Cerebrolysin Product Family,T3,Human Evidence,4,LOW
+CERT-PKS-000044,Cerebrolysin Product Family,T3,Regulatory,4,LOW
+CERT-PKS-000044,Cerebrolysin Product Family,T3,Safety,4,LOW
+CERT-PKS-000044,Cerebrolysin Product Family,T3,Supplier Evidence,1,CRITICAL
+CERT-PKS-000044,Cerebrolysin Product Family,T3,Analytical Feasibility,1,CRITICAL
+CERT-PKS-000044,Cerebrolysin Product Family,T3,Commercial Boundary,4,LOW
+CERT-PKS-000084,Cagrilintide + Semaglutide Supplier Blend,T3,Canonical Identity,2,HIGH
+CERT-PKS-000084,Cagrilintide + Semaglutide Supplier Blend,T3,Human Evidence,4,LOW
+CERT-PKS-000084,Cagrilintide + Semaglutide Supplier Blend,T3,Regulatory,4,LOW
+CERT-PKS-000084,Cagrilintide + Semaglutide Supplier Blend,T3,Safety,4,LOW
+CERT-PKS-000084,Cagrilintide + Semaglutide Supplier Blend,T3,Supplier Evidence,1,CRITICAL
+CERT-PKS-000084,Cagrilintide + Semaglutide Supplier Blend,T3,Analytical Feasibility,1,CRITICAL
+CERT-PKS-000084,Cagrilintide + Semaglutide Supplier Blend,T3,Commercial Boundary,4,LOW
+CERT-PKS-000008,TB-500 fragment,T3,Canonical Identity,4,LOW
+CERT-PKS-000008,TB-500 fragment,T3,Human Evidence,2,HIGH
+CERT-PKS-000008,TB-500 fragment,T3,Regulatory,3,MODERATE
+CERT-PKS-000008,TB-500 fragment,T3,Safety,2,HIGH
+CERT-PKS-000008,TB-500 fragment,T3,Supplier Evidence,2,HIGH
+CERT-PKS-000008,TB-500 fragment,T3,Analytical Feasibility,5,MINIMAL
+CERT-PKS-000008,TB-500 fragment,T3,Commercial Boundary,3,MODERATE
+CERT-PKS-000010,Epitalon,T3,Canonical Identity,4,LOW
+CERT-PKS-000010,Epitalon,T3,Human Evidence,2,HIGH
+CERT-PKS-000010,Epitalon,T3,Regulatory,3,MODERATE
+CERT-PKS-000010,Epitalon,T3,Safety,2,HIGH
+CERT-PKS-000010,Epitalon,T3,Supplier Evidence,2,HIGH
+CERT-PKS-000010,Epitalon,T3,Analytical Feasibility,5,MINIMAL
+CERT-PKS-000010,Epitalon,T3,Commercial Boundary,3,MODERATE
+CERT-PKS-000041,Pinealon,T3,Canonical Identity,4,LOW
+CERT-PKS-000041,Pinealon,T3,Human Evidence,2,HIGH
+CERT-PKS-000041,Pinealon,T3,Regulatory,3,MODERATE
+CERT-PKS-000041,Pinealon,T3,Safety,2,HIGH
+CERT-PKS-000041,Pinealon,T3,Supplier Evidence,2,HIGH
+CERT-PKS-000041,Pinealon,T3,Analytical Feasibility,5,MINIMAL
+CERT-PKS-000041,Pinealon,T3,Commercial Boundary,3,MODERATE
+CERT-PKS-000043,PE 22-28 Supplier Product Family,T3,Canonical Identity,4,LOW
+CERT-PKS-000043,PE 22-28 Supplier Product Family,T3,Human Evidence,2,HIGH
+CERT-PKS-000043,PE 22-28 Supplier Product Family,T3,Regulatory,3,MODERATE
+CERT-PKS-000043,PE 22-28 Supplier Product Family,T3,Safety,2,HIGH
+CERT-PKS-000043,PE 22-28 Supplier Product Family,T3,Supplier Evidence,2,HIGH
+CERT-PKS-000043,PE 22-28 Supplier Product Family,T3,Analytical Feasibility,5,MINIMAL
+CERT-PKS-000043,PE 22-28 Supplier Product Family,T3,Commercial Boundary,3,MODERATE
+CERT-PKS-000057,GHK,T3,Canonical Identity,4,LOW
+CERT-PKS-000057,GHK,T3,Human Evidence,2,HIGH
+CERT-PKS-000057,GHK,T3,Regulatory,3,MODERATE
+CERT-PKS-000057,GHK,T3,Safety,2,HIGH
+CERT-PKS-000057,GHK,T3,Supplier Evidence,2,HIGH
+CERT-PKS-000057,GHK,T3,Analytical Feasibility,5,MINIMAL
+CERT-PKS-000057,GHK,T3,Commercial Boundary,3,MODERATE
+CERT-PKS-000058,AHK-Cu,T3,Canonical Identity,4,LOW
+CERT-PKS-000058,AHK-Cu,T3,Human Evidence,2,HIGH
+CERT-PKS-000058,AHK-Cu,T3,Regulatory,3,MODERATE
+CERT-PKS-000058,AHK-Cu,T3,Safety,2,HIGH
+CERT-PKS-000058,AHK-Cu,T3,Supplier Evidence,2,HIGH
+CERT-PKS-000058,AHK-Cu,T3,Analytical Feasibility,5,MINIMAL
+CERT-PKS-000058,AHK-Cu,T3,Commercial Boundary,3,MODERATE
+CERT-PKS-000059,Acetyl Octapeptide-3 / SNAP-8,T3,Canonical Identity,4,LOW
+CERT-PKS-000059,Acetyl Octapeptide-3 / SNAP-8,T3,Human Evidence,2,HIGH
+CERT-PKS-000059,Acetyl Octapeptide-3 / SNAP-8,T3,Regulatory,3,MODERATE
+CERT-PKS-000059,Acetyl Octapeptide-3 / SNAP-8,T3,Safety,2,HIGH
+CERT-PKS-000059,Acetyl Octapeptide-3 / SNAP-8,T3,Supplier Evidence,2,HIGH
+CERT-PKS-000059,Acetyl Octapeptide-3 / SNAP-8,T3,Analytical Feasibility,5,MINIMAL
+CERT-PKS-000059,Acetyl Octapeptide-3 / SNAP-8,T3,Commercial Boundary,3,MODERATE
+CERT-PKS-000067,Testagen Supplier Product Family,T3,Canonical Identity,4,LOW
+CERT-PKS-000067,Testagen Supplier Product Family,T3,Human Evidence,2,HIGH
+CERT-PKS-000067,Testagen Supplier Product Family,T3,Regulatory,3,MODERATE
+CERT-PKS-000067,Testagen Supplier Product Family,T3,Safety,2,HIGH
+CERT-PKS-000067,Testagen Supplier Product Family,T3,Supplier Evidence,2,HIGH
+CERT-PKS-000067,Testagen Supplier Product Family,T3,Analytical Feasibility,5,MINIMAL
+CERT-PKS-000067,Testagen Supplier Product Family,T3,Commercial Boundary,3,MODERATE
+CERT-PKS-000068,Bronchogen,T3,Canonical Identity,4,LOW
+CERT-PKS-000068,Bronchogen,T3,Human Evidence,2,HIGH
+CERT-PKS-000068,Bronchogen,T3,Regulatory,3,MODERATE
+CERT-PKS-000068,Bronchogen,T3,Safety,2,HIGH
+CERT-PKS-000068,Bronchogen,T3,Supplier Evidence,2,HIGH
+CERT-PKS-000068,Bronchogen,T3,Analytical Feasibility,5,MINIMAL
+CERT-PKS-000068,Bronchogen,T3,Commercial Boundary,3,MODERATE
+CERT-PKS-000069,Cardiogen,T3,Canonical Identity,4,LOW
+CERT-PKS-000069,Cardiogen,T3,Human Evidence,2,HIGH
+CERT-PKS-000069,Cardiogen,T3,Regulatory,3,MODERATE
+CERT-PKS-000069,Cardiogen,T3,Safety,2,HIGH
+CERT-PKS-000069,Cardiogen,T3,Supplier Evidence,2,HIGH
+CERT-PKS-000069,Cardiogen,T3,Analytical Feasibility,5,MINIMAL
+CERT-PKS-000069,Cardiogen,T3,Commercial Boundary,3,MODERATE
+CERT-PKS-000070,Cortagen,T3,Canonical Identity,4,LOW
+CERT-PKS-000070,Cortagen,T3,Human Evidence,2,HIGH
+CERT-PKS-000070,Cortagen,T3,Regulatory,3,MODERATE
+CERT-PKS-000070,Cortagen,T3,Safety,2,HIGH
+CERT-PKS-000070,Cortagen,T3,Supplier Evidence,2,HIGH
+CERT-PKS-000070,Cortagen,T3,Analytical Feasibility,5,MINIMAL
+CERT-PKS-000070,Cortagen,T3,Commercial Boundary,3,MODERATE
+CERT-PKS-000071,Livagen,T3,Canonical Identity,4,LOW
+CERT-PKS-000071,Livagen,T3,Human Evidence,2,HIGH
+CERT-PKS-000071,Livagen,T3,Regulatory,3,MODERATE
+CERT-PKS-000071,Livagen,T3,Safety,2,HIGH
+CERT-PKS-000071,Livagen,T3,Supplier Evidence,2,HIGH
+CERT-PKS-000071,Livagen,T3,Analytical Feasibility,5,MINIMAL
+CERT-PKS-000071,Livagen,T3,Commercial Boundary,3,MODERATE
+CERT-PKS-000073,Prostamax,T3,Canonical Identity,4,LOW
+CERT-PKS-000073,Prostamax,T3,Human Evidence,2,HIGH
+CERT-PKS-000073,Prostamax,T3,Regulatory,3,MODERATE
+CERT-PKS-000073,Prostamax,T3,Safety,2,HIGH
+CERT-PKS-000073,Prostamax,T3,Supplier Evidence,2,HIGH
+CERT-PKS-000073,Prostamax,T3,Analytical Feasibility,5,MINIMAL
+CERT-PKS-000073,Prostamax,T3,Commercial Boundary,3,MODERATE
+CERT-PKS-000074,Cartalax,T3,Canonical Identity,4,LOW
+CERT-PKS-000074,Cartalax,T3,Human Evidence,2,HIGH
+CERT-PKS-000074,Cartalax,T3,Regulatory,3,MODERATE
+CERT-PKS-000074,Cartalax,T3,Safety,2,HIGH
+CERT-PKS-000074,Cartalax,T3,Supplier Evidence,2,HIGH
+CERT-PKS-000074,Cartalax,T3,Analytical Feasibility,5,MINIMAL
+CERT-PKS-000074,Cartalax,T3,Commercial Boundary,3,MODERATE
+CERT-PKS-000075,Chonluten,T3,Canonical Identity,4,LOW
+CERT-PKS-000075,Chonluten,T3,Human Evidence,2,HIGH
+CERT-PKS-000075,Chonluten,T3,Regulatory,3,MODERATE
+CERT-PKS-000075,Chonluten,T3,Safety,2,HIGH
+CERT-PKS-000075,Chonluten,T3,Supplier Evidence,2,HIGH
+CERT-PKS-000075,Chonluten,T3,Analytical Feasibility,5,MINIMAL
+CERT-PKS-000075,Chonluten,T3,Commercial Boundary,3,MODERATE
+CERT-PKS-000002,BPC-157,T3,Canonical Identity,4,LOW
+CERT-PKS-000002,BPC-157,T3,Human Evidence,2,HIGH
+CERT-PKS-000002,BPC-157,T3,Regulatory,3,MODERATE
+CERT-PKS-000002,BPC-157,T3,Safety,2,HIGH
+CERT-PKS-000002,BPC-157,T3,Supplier Evidence,2,HIGH
+CERT-PKS-000002,BPC-157,T3,Analytical Feasibility,4,LOW
+CERT-PKS-000002,BPC-157,T3,Commercial Boundary,3,MODERATE
+CERT-PKS-000004,CJC-1295 with DAC,T3,Canonical Identity,4,LOW
+CERT-PKS-000004,CJC-1295 with DAC,T3,Human Evidence,2,HIGH
+CERT-PKS-000004,CJC-1295 with DAC,T3,Regulatory,3,MODERATE
+CERT-PKS-000004,CJC-1295 with DAC,T3,Safety,2,HIGH
+CERT-PKS-000004,CJC-1295 with DAC,T3,Supplier Evidence,2,HIGH
+CERT-PKS-000004,CJC-1295 with DAC,T3,Analytical Feasibility,4,LOW
+CERT-PKS-000004,CJC-1295 with DAC,T3,Commercial Boundary,3,MODERATE
+CERT-PKS-000005,Ipamorelin,T3,Canonical Identity,4,LOW
+CERT-PKS-000005,Ipamorelin,T3,Human Evidence,2,HIGH
+CERT-PKS-000005,Ipamorelin,T3,Regulatory,3,MODERATE
+CERT-PKS-000005,Ipamorelin,T3,Safety,2,HIGH
+CERT-PKS-000005,Ipamorelin,T3,Supplier Evidence,2,HIGH
+CERT-PKS-000005,Ipamorelin,T3,Analytical Feasibility,4,LOW
+CERT-PKS-000005,Ipamorelin,T3,Commercial Boundary,3,MODERATE
+CERT-PKS-000006,MOTS-c,T3,Canonical Identity,4,LOW
+CERT-PKS-000006,MOTS-c,T3,Human Evidence,2,HIGH
+CERT-PKS-000006,MOTS-c,T3,Regulatory,3,MODERATE
+CERT-PKS-000006,MOTS-c,T3,Safety,2,HIGH
+CERT-PKS-000006,MOTS-c,T3,Supplier Evidence,2,HIGH
+CERT-PKS-000006,MOTS-c,T3,Analytical Feasibility,4,LOW
+CERT-PKS-000006,MOTS-c,T3,Commercial Boundary,3,MODERATE
+CERT-PKS-000027,Mechano Growth Factor / IGF-1Ec E-Domain Peptide Family,T3,Canonical Identity,4,LOW
+CERT-PKS-000027,Mechano Growth Factor / IGF-1Ec E-Domain Peptide Family,T3,Human Evidence,2,HIGH
+CERT-PKS-000027,Mechano Growth Factor / IGF-1Ec E-Domain Peptide Family,T3,Regulatory,3,MODERATE
+CERT-PKS-000027,Mechano Growth Factor / IGF-1Ec E-Domain Peptide Family,T3,Safety,2,HIGH
+CERT-PKS-000027,Mechano Growth Factor / IGF-1Ec E-Domain Peptide Family,T3,Supplier Evidence,2,HIGH
+CERT-PKS-000027,Mechano Growth Factor / IGF-1Ec E-Domain Peptide Family,T3,Analytical Feasibility,4,LOW
+CERT-PKS-000027,Mechano Growth Factor / IGF-1Ec E-Domain Peptide Family,T3,Commercial Boundary,3,MODERATE
+CERT-PKS-000040,Delta Sleep-Inducing Peptide,T3,Canonical Identity,4,LOW
+CERT-PKS-000040,Delta Sleep-Inducing Peptide,T3,Human Evidence,2,HIGH
+CERT-PKS-000040,Delta Sleep-Inducing Peptide,T3,Regulatory,3,MODERATE
+CERT-PKS-000040,Delta Sleep-Inducing Peptide,T3,Safety,2,HIGH
+CERT-PKS-000040,Delta Sleep-Inducing Peptide,T3,Supplier Evidence,2,HIGH
+CERT-PKS-000040,Delta Sleep-Inducing Peptide,T3,Analytical Feasibility,4,LOW
+CERT-PKS-000040,Delta Sleep-Inducing Peptide,T3,Commercial Boundary,3,MODERATE
+CERT-PKS-000062,PTD-DBM,T3,Canonical Identity,4,LOW
+CERT-PKS-000062,PTD-DBM,T3,Human Evidence,2,HIGH
+CERT-PKS-000062,PTD-DBM,T3,Regulatory,3,MODERATE
+CERT-PKS-000062,PTD-DBM,T3,Safety,2,HIGH
+CERT-PKS-000062,PTD-DBM,T3,Supplier Evidence,2,HIGH
+CERT-PKS-000062,PTD-DBM,T3,Analytical Feasibility,4,LOW
+CERT-PKS-000062,PTD-DBM,T3,Commercial Boundary,3,MODERATE
+CERT-PKS-000028,PEG-MGF Supplier Product Family,T3,Canonical Identity,2,HIGH
+CERT-PKS-000028,PEG-MGF Supplier Product Family,T3,Human Evidence,2,HIGH
+CERT-PKS-000028,PEG-MGF Supplier Product Family,T3,Regulatory,4,LOW
+CERT-PKS-000028,PEG-MGF Supplier Product Family,T3,Safety,2,HIGH
+CERT-PKS-000028,PEG-MGF Supplier Product Family,T3,Supplier Evidence,2,HIGH
+CERT-PKS-000028,PEG-MGF Supplier Product Family,T3,Analytical Feasibility,4,LOW
+CERT-PKS-000028,PEG-MGF Supplier Product Family,T3,Commercial Boundary,4,LOW
+CERT-PKS-000081,BPC-157 + TB Supplier Blend Family,T3,Canonical Identity,2,HIGH
+CERT-PKS-000081,BPC-157 + TB Supplier Blend Family,T3,Human Evidence,4,LOW
+CERT-PKS-000081,BPC-157 + TB Supplier Blend Family,T3,Regulatory,4,LOW
+CERT-PKS-000081,BPC-157 + TB Supplier Blend Family,T3,Safety,2,HIGH
+CERT-PKS-000081,BPC-157 + TB Supplier Blend Family,T3,Supplier Evidence,1,CRITICAL
+CERT-PKS-000081,BPC-157 + TB Supplier Blend Family,T3,Analytical Feasibility,1,CRITICAL
+CERT-PKS-000081,BPC-157 + TB Supplier Blend Family,T3,Commercial Boundary,4,LOW
+CERT-PKS-000082,BPC-157 + GHK-Cu + TB-500 Supplier Blend,T3,Canonical Identity,2,HIGH
+CERT-PKS-000082,BPC-157 + GHK-Cu + TB-500 Supplier Blend,T3,Human Evidence,4,LOW
+CERT-PKS-000082,BPC-157 + GHK-Cu + TB-500 Supplier Blend,T3,Regulatory,4,LOW
+CERT-PKS-000082,BPC-157 + GHK-Cu + TB-500 Supplier Blend,T3,Safety,2,HIGH
+CERT-PKS-000082,BPC-157 + GHK-Cu + TB-500 Supplier Blend,T3,Supplier Evidence,1,CRITICAL
+CERT-PKS-000082,BPC-157 + GHK-Cu + TB-500 Supplier Blend,T3,Analytical Feasibility,1,CRITICAL
+CERT-PKS-000082,BPC-157 + GHK-Cu + TB-500 Supplier Blend,T3,Commercial Boundary,4,LOW
+CERT-MPS-000003,Glutathione Supplier Vial Family,T3,Canonical Identity,2,HIGH
+CERT-MPS-000003,Glutathione Supplier Vial Family,T3,Human Evidence,2,HIGH
+CERT-MPS-000003,Glutathione Supplier Vial Family,T3,Regulatory,3,MODERATE
+CERT-MPS-000003,Glutathione Supplier Vial Family,T3,Safety,3,MODERATE
+CERT-MPS-000003,Glutathione Supplier Vial Family,T3,Supplier Evidence,2,HIGH
+CERT-MPS-000003,Glutathione Supplier Vial Family,T3,Analytical Feasibility,3,MODERATE
+CERT-MPS-000003,Glutathione Supplier Vial Family,T3,Commercial Boundary,3,MODERATE
+CERT-PKS-000047,P021 / Peptide 021 Adamantane Conjugate Product Family,T3,Canonical Identity,2,HIGH
+CERT-PKS-000047,P021 / Peptide 021 Adamantane Conjugate Product Family,T3,Human Evidence,2,HIGH
+CERT-PKS-000047,P021 / Peptide 021 Adamantane Conjugate Product Family,T3,Regulatory,3,MODERATE
+CERT-PKS-000047,P021 / Peptide 021 Adamantane Conjugate Product Family,T3,Safety,2,HIGH
+CERT-PKS-000047,P021 / Peptide 021 Adamantane Conjugate Product Family,T3,Supplier Evidence,2,HIGH
+CERT-PKS-000047,P021 / Peptide 021 Adamantane Conjugate Product Family,T3,Analytical Feasibility,4,LOW
+CERT-PKS-000047,P021 / Peptide 021 Adamantane Conjugate Product Family,T3,Commercial Boundary,3,MODERATE
+CERT-PKS-000064,FOXO4-DRI Supplier Product Family,T3,Canonical Identity,2,HIGH
+CERT-PKS-000064,FOXO4-DRI Supplier Product Family,T3,Human Evidence,2,HIGH
+CERT-PKS-000064,FOXO4-DRI Supplier Product Family,T3,Regulatory,3,MODERATE
+CERT-PKS-000064,FOXO4-DRI Supplier Product Family,T3,Safety,2,HIGH
+CERT-PKS-000064,FOXO4-DRI Supplier Product Family,T3,Supplier Evidence,2,HIGH
+CERT-PKS-000064,FOXO4-DRI Supplier Product Family,T3,Analytical Feasibility,4,LOW
+CERT-PKS-000064,FOXO4-DRI Supplier Product Family,T3,Commercial Boundary,3,MODERATE
+CERT-PKS-000063,Humanin Supplier Product Family,T3,Canonical Identity,2,HIGH
+CERT-PKS-000063,Humanin Supplier Product Family,T3,Human Evidence,2,HIGH
+CERT-PKS-000063,Humanin Supplier Product Family,T3,Regulatory,4,LOW
+CERT-PKS-000063,Humanin Supplier Product Family,T3,Safety,2,HIGH
+CERT-PKS-000063,Humanin Supplier Product Family,T3,Supplier Evidence,1,CRITICAL
+CERT-PKS-000063,Humanin Supplier Product Family,T3,Analytical Feasibility,2,HIGH
+CERT-PKS-000063,Humanin Supplier Product Family,T3,Commercial Boundary,4,LOW
+CERT-MPS-000001,AICAR Supplier Product Family,T3,Canonical Identity,2,HIGH
+CERT-MPS-000001,AICAR Supplier Product Family,T3,Human Evidence,2,HIGH
+CERT-MPS-000001,AICAR Supplier Product Family,T3,Regulatory,3,MODERATE
+CERT-MPS-000001,AICAR Supplier Product Family,T3,Safety,2,HIGH
+CERT-MPS-000001,AICAR Supplier Product Family,T3,Supplier Evidence,2,HIGH
+CERT-MPS-000001,AICAR Supplier Product Family,T3,Analytical Feasibility,3,MODERATE
+CERT-MPS-000001,AICAR Supplier Product Family,T3,Commercial Boundary,3,MODERATE
+CERT-MPS-000004,5-Amino-1MQ Supplier Product Family,T3,Canonical Identity,2,HIGH
+CERT-MPS-000004,5-Amino-1MQ Supplier Product Family,T3,Human Evidence,2,HIGH
+CERT-MPS-000004,5-Amino-1MQ Supplier Product Family,T3,Regulatory,3,MODERATE
+CERT-MPS-000004,5-Amino-1MQ Supplier Product Family,T3,Safety,2,HIGH
+CERT-MPS-000004,5-Amino-1MQ Supplier Product Family,T3,Supplier Evidence,2,HIGH
+CERT-MPS-000004,5-Amino-1MQ Supplier Product Family,T3,Analytical Feasibility,3,MODERATE
+CERT-MPS-000004,5-Amino-1MQ Supplier Product Family,T3,Commercial Boundary,3,MODERATE
+CERT-PKS-000083,BPC-157 + GHK-Cu + TB-500 + KPV Supplier Blend,T3,Canonical Identity,2,HIGH
+CERT-PKS-000083,BPC-157 + GHK-Cu + TB-500 + KPV Supplier Blend,T3,Human Evidence,2,HIGH
+CERT-PKS-000083,BPC-157 + GHK-Cu + TB-500 + KPV Supplier Blend,T3,Regulatory,4,LOW
+CERT-PKS-000083,BPC-157 + GHK-Cu + TB-500 + KPV Supplier Blend,T3,Safety,2,HIGH
+CERT-PKS-000083,BPC-157 + GHK-Cu + TB-500 + KPV Supplier Blend,T3,Supplier Evidence,1,CRITICAL
+CERT-PKS-000083,BPC-157 + GHK-Cu + TB-500 + KPV Supplier Blend,T3,Analytical Feasibility,1,CRITICAL
+CERT-PKS-000083,BPC-157 + GHK-Cu + TB-500 + KPV Supplier Blend,T3,Commercial Boundary,4,LOW
+CERT-PKS-000085,Retatrutide + Cagrilintide Supplier Blend,T3,Canonical Identity,2,HIGH
+CERT-PKS-000085,Retatrutide + Cagrilintide Supplier Blend,T3,Human Evidence,2,HIGH
+CERT-PKS-000085,Retatrutide + Cagrilintide Supplier Blend,T3,Regulatory,4,LOW
+CERT-PKS-000085,Retatrutide + Cagrilintide Supplier Blend,T3,Safety,2,HIGH
+CERT-PKS-000085,Retatrutide + Cagrilintide Supplier Blend,T3,Supplier Evidence,1,CRITICAL
+CERT-PKS-000085,Retatrutide + Cagrilintide Supplier Blend,T3,Analytical Feasibility,1,CRITICAL
+CERT-PKS-000085,Retatrutide + Cagrilintide Supplier Blend,T3,Commercial Boundary,4,LOW
+CERT-PKS-000086,Tesamorelin + Ipamorelin Supplier Blend,T3,Canonical Identity,2,HIGH
+CERT-PKS-000086,Tesamorelin + Ipamorelin Supplier Blend,T3,Human Evidence,2,HIGH
+CERT-PKS-000086,Tesamorelin + Ipamorelin Supplier Blend,T3,Regulatory,4,LOW
+CERT-PKS-000086,Tesamorelin + Ipamorelin Supplier Blend,T3,Safety,2,HIGH
+CERT-PKS-000086,Tesamorelin + Ipamorelin Supplier Blend,T3,Supplier Evidence,1,CRITICAL
+CERT-PKS-000086,Tesamorelin + Ipamorelin Supplier Blend,T3,Analytical Feasibility,1,CRITICAL
+CERT-PKS-000086,Tesamorelin + Ipamorelin Supplier Blend,T3,Commercial Boundary,4,LOW
+CERT-PKS-000088,Modified GRF (1-29) + Ipamorelin Supplier Blend,T3,Canonical Identity,2,HIGH
+CERT-PKS-000088,Modified GRF (1-29) + Ipamorelin Supplier Blend,T3,Human Evidence,2,HIGH
+CERT-PKS-000088,Modified GRF (1-29) + Ipamorelin Supplier Blend,T3,Regulatory,4,LOW
+CERT-PKS-000088,Modified GRF (1-29) + Ipamorelin Supplier Blend,T3,Safety,2,HIGH
+CERT-PKS-000088,Modified GRF (1-29) + Ipamorelin Supplier Blend,T3,Supplier Evidence,1,CRITICAL
+CERT-PKS-000088,Modified GRF (1-29) + Ipamorelin Supplier Blend,T3,Analytical Feasibility,1,CRITICAL
+CERT-PKS-000088,Modified GRF (1-29) + Ipamorelin Supplier Blend,T3,Commercial Boundary,4,LOW
+CERT-PKS-000052,Thymalin Product Family,T3,Canonical Identity,2,HIGH
+CERT-PKS-000052,Thymalin Product Family,T3,Human Evidence,3,MODERATE
+CERT-PKS-000052,Thymalin Product Family,T3,Regulatory,3,MODERATE
+CERT-PKS-000052,Thymalin Product Family,T3,Safety,2,HIGH
+CERT-PKS-000052,Thymalin Product Family,T3,Supplier Evidence,1,CRITICAL
+CERT-PKS-000052,Thymalin Product Family,T3,Analytical Feasibility,1,CRITICAL
+CERT-PKS-000052,Thymalin Product Family,T3,Commercial Boundary,3,MODERATE
+CERT-MPS-000010,Hyaluronic Acid Supplier Product Family,T4,Canonical Identity,2,HIGH
+CERT-MPS-000010,Hyaluronic Acid Supplier Product Family,T4,Human Evidence,2,HIGH
+CERT-MPS-000010,Hyaluronic Acid Supplier Product Family,T4,Regulatory,3,MODERATE
+CERT-MPS-000010,Hyaluronic Acid Supplier Product Family,T4,Safety,2,HIGH
+CERT-MPS-000010,Hyaluronic Acid Supplier Product Family,T4,Supplier Evidence,1,CRITICAL
+CERT-MPS-000010,Hyaluronic Acid Supplier Product Family,T4,Analytical Feasibility,2,HIGH
+CERT-MPS-000010,Hyaluronic Acid Supplier Product Family,T4,Commercial Boundary,3,MODERATE
+CERT-PKS-000087,Semax + Selank Supplier Blend,T4,Canonical Identity,2,HIGH
+CERT-PKS-000087,Semax + Selank Supplier Blend,T4,Human Evidence,2,HIGH
+CERT-PKS-000087,Semax + Selank Supplier Blend,T4,Regulatory,3,MODERATE
+CERT-PKS-000087,Semax + Selank Supplier Blend,T4,Safety,2,HIGH
+CERT-PKS-000087,Semax + Selank Supplier Blend,T4,Supplier Evidence,1,CRITICAL
+CERT-PKS-000087,Semax + Selank Supplier Blend,T4,Analytical Feasibility,1,CRITICAL
+CERT-PKS-000087,Semax + Selank Supplier Blend,T4,Commercial Boundary,4,LOW
+CERT-PKS-000060,Matrixyl Supplier Product Family,T4,Canonical Identity,2,HIGH
+CERT-PKS-000060,Matrixyl Supplier Product Family,T4,Human Evidence,2,HIGH
+CERT-PKS-000060,Matrixyl Supplier Product Family,T4,Regulatory,3,MODERATE
+CERT-PKS-000060,Matrixyl Supplier Product Family,T4,Safety,2,HIGH
+CERT-PKS-000060,Matrixyl Supplier Product Family,T4,Supplier Evidence,1,CRITICAL
+CERT-PKS-000060,Matrixyl Supplier Product Family,T4,Analytical Feasibility,1,CRITICAL
+CERT-PKS-000060,Matrixyl Supplier Product Family,T4,Commercial Boundary,3,MODERATE
+CERT-PKS-000076,Crystagen,Q,Canonical Identity,0,CRITICAL
+CERT-PKS-000076,Crystagen,Q,Human Evidence,2,HIGH
+CERT-PKS-000076,Crystagen,Q,Regulatory,2,HIGH
+CERT-PKS-000076,Crystagen,Q,Safety,2,HIGH
+CERT-PKS-000076,Crystagen,Q,Supplier Evidence,0,CRITICAL
+CERT-PKS-000076,Crystagen,Q,Analytical Feasibility,0,CRITICAL
+CERT-PKS-000076,Crystagen,Q,Commercial Boundary,2,HIGH
+CERT-PKS-000077,Ovagen,Q,Canonical Identity,0,CRITICAL
+CERT-PKS-000077,Ovagen,Q,Human Evidence,2,HIGH
+CERT-PKS-000077,Ovagen,Q,Regulatory,2,HIGH
+CERT-PKS-000077,Ovagen,Q,Safety,2,HIGH
+CERT-PKS-000077,Ovagen,Q,Supplier Evidence,0,CRITICAL
+CERT-PKS-000077,Ovagen,Q,Analytical Feasibility,0,CRITICAL
+CERT-PKS-000077,Ovagen,Q,Commercial Boundary,2,HIGH
+CERT-MPS-000006,SLU-PP-322 Identity-Candidate Product Family,Q,Canonical Identity,0,CRITICAL
+CERT-MPS-000006,SLU-PP-322 Identity-Candidate Product Family,Q,Human Evidence,1,CRITICAL
+CERT-MPS-000006,SLU-PP-322 Identity-Candidate Product Family,Q,Regulatory,2,HIGH
+CERT-MPS-000006,SLU-PP-322 Identity-Candidate Product Family,Q,Safety,2,HIGH
+CERT-MPS-000006,SLU-PP-322 Identity-Candidate Product Family,Q,Supplier Evidence,0,CRITICAL
+CERT-MPS-000006,SLU-PP-322 Identity-Candidate Product Family,Q,Analytical Feasibility,0,CRITICAL
+CERT-MPS-000006,SLU-PP-322 Identity-Candidate Product Family,Q,Commercial Boundary,2,HIGH
+CERT-MPS-000008,Acetic Acid Water Supplier Family,Q,Canonical Identity,0,CRITICAL
+CERT-MPS-000008,Acetic Acid Water Supplier Family,Q,Human Evidence,1,CRITICAL
+CERT-MPS-000008,Acetic Acid Water Supplier Family,Q,Regulatory,2,HIGH
+CERT-MPS-000008,Acetic Acid Water Supplier Family,Q,Safety,2,HIGH
+CERT-MPS-000008,Acetic Acid Water Supplier Family,Q,Supplier Evidence,0,CRITICAL
+CERT-MPS-000008,Acetic Acid Water Supplier Family,Q,Analytical Feasibility,0,CRITICAL
+CERT-MPS-000008,Acetic Acid Water Supplier Family,Q,Commercial Boundary,2,HIGH
+CERT-MPS-000009,Botulinum Toxin Supplier Product Family,Q,Canonical Identity,0,CRITICAL
+CERT-MPS-000009,Botulinum Toxin Supplier Product Family,Q,Human Evidence,1,CRITICAL
+CERT-MPS-000009,Botulinum Toxin Supplier Product Family,Q,Regulatory,2,HIGH
+CERT-MPS-000009,Botulinum Toxin Supplier Product Family,Q,Safety,2,HIGH
+CERT-MPS-000009,Botulinum Toxin Supplier Product Family,Q,Supplier Evidence,0,CRITICAL
+CERT-MPS-000009,Botulinum Toxin Supplier Product Family,Q,Analytical Feasibility,0,CRITICAL
+CERT-MPS-000009,Botulinum Toxin Supplier Product Family,Q,Commercial Boundary,2,HIGH
+CERT-MPS-000012,Lemon Bottle Supplier Mixture Family,Q,Canonical Identity,0,CRITICAL
+CERT-MPS-000012,Lemon Bottle Supplier Mixture Family,Q,Human Evidence,1,CRITICAL
+CERT-MPS-000012,Lemon Bottle Supplier Mixture Family,Q,Regulatory,2,HIGH
+CERT-MPS-000012,Lemon Bottle Supplier Mixture Family,Q,Safety,2,HIGH
+CERT-MPS-000012,Lemon Bottle Supplier Mixture Family,Q,Supplier Evidence,0,CRITICAL
+CERT-MPS-000012,Lemon Bottle Supplier Mixture Family,Q,Analytical Feasibility,0,CRITICAL
+CERT-MPS-000012,Lemon Bottle Supplier Mixture Family,Q,Commercial Boundary,2,HIGH
+CERT-PKS-000042,Adamax Supplier Product Family,Q,Canonical Identity,0,CRITICAL
+CERT-PKS-000042,Adamax Supplier Product Family,Q,Human Evidence,1,CRITICAL
+CERT-PKS-000042,Adamax Supplier Product Family,Q,Regulatory,2,HIGH
+CERT-PKS-000042,Adamax Supplier Product Family,Q,Safety,2,HIGH
+CERT-PKS-000042,Adamax Supplier Product Family,Q,Supplier Evidence,0,CRITICAL
+CERT-PKS-000042,Adamax Supplier Product Family,Q,Analytical Feasibility,0,CRITICAL
+CERT-PKS-000042,Adamax Supplier Product Family,Q,Commercial Boundary,2,HIGH
+CERT-PKS-000045,Unbranded Cerebrolysin-Type Product Family,Q,Canonical Identity,0,CRITICAL
+CERT-PKS-000045,Unbranded Cerebrolysin-Type Product Family,Q,Human Evidence,1,CRITICAL
+CERT-PKS-000045,Unbranded Cerebrolysin-Type Product Family,Q,Regulatory,2,HIGH
+CERT-PKS-000045,Unbranded Cerebrolysin-Type Product Family,Q,Safety,2,HIGH
+CERT-PKS-000045,Unbranded Cerebrolysin-Type Product Family,Q,Supplier Evidence,0,CRITICAL
+CERT-PKS-000045,Unbranded Cerebrolysin-Type Product Family,Q,Analytical Feasibility,0,CRITICAL
+CERT-PKS-000045,Unbranded Cerebrolysin-Type Product Family,Q,Commercial Boundary,2,HIGH
+CERT-PKS-000048,P21 Without Adamantane Supplier Product Family,Q,Canonical Identity,0,CRITICAL
+CERT-PKS-000048,P21 Without Adamantane Supplier Product Family,Q,Human Evidence,1,CRITICAL
+CERT-PKS-000048,P21 Without Adamantane Supplier Product Family,Q,Regulatory,2,HIGH
+CERT-PKS-000048,P21 Without Adamantane Supplier Product Family,Q,Safety,2,HIGH
+CERT-PKS-000048,P21 Without Adamantane Supplier Product Family,Q,Supplier Evidence,0,CRITICAL
+CERT-PKS-000048,P21 Without Adamantane Supplier Product Family,Q,Analytical Feasibility,0,CRITICAL
+CERT-PKS-000048,P21 Without Adamantane Supplier Product Family,Q,Commercial Boundary,2,HIGH
+CERT-PKS-000090,Generic GLP-1 Supplier Product Family,Q,Canonical Identity,0,CRITICAL
+CERT-PKS-000090,Generic GLP-1 Supplier Product Family,Q,Human Evidence,1,CRITICAL
+CERT-PKS-000090,Generic GLP-1 Supplier Product Family,Q,Regulatory,2,HIGH
+CERT-PKS-000090,Generic GLP-1 Supplier Product Family,Q,Safety,2,HIGH
+CERT-PKS-000090,Generic GLP-1 Supplier Product Family,Q,Supplier Evidence,0,CRITICAL
+CERT-PKS-000090,Generic GLP-1 Supplier Product Family,Q,Analytical Feasibility,0,CRITICAL
+CERT-PKS-000090,Generic GLP-1 Supplier Product Family,Q,Commercial Boundary,2,HIGH

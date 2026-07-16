@@ -1,18 +1,22 @@
 # CERTIAURA PRODUCTION DASHBOARD
 
-**Build:** 0034  
+**Build:** 0035A  
 **Date:** 2026-07-16
 
-## Priority Closure Programme Complete
+## Platinum Readiness
 
-- P0 coverage: **13 / 13**
-- P1 coverage: **38 / 38**
-- Total priority coverage: **51 / 51**
-- Product Passport coverage: **51 / 51**
-- Closure Evidence Knowledge System objects: **102**
-- Green closure builds: **8 / 8**
+- Product assets scored: **102 / 102**
+- T1 Primary-Source Closure Candidates: **14**
+- T2 Advanced Evidence Expansion: **13**
+- T3 Substantial Closure Required: **62**
+- T4 High Analytical/Evidence Burden: **3**
+- Q Identity/Composition Quarantine: **10**
+
+## Controls
+
 - Direct-sale gates opened: **0**
 - Platinum certifications: **0**
+- Product-family UAIs allocated: **0**
 
 ## Current UAI maxima
 
@@ -28,4 +32,4 @@
 
 ## Next build
 
-**Build 0035A — Platinum Readiness Tiering & Evidence Sufficiency Scoring**
+**Build 0035B — Tier 1 Primary-Source Extraction & Living Evidence Upgrade — Batch A**

@@ -1,0 +1,19 @@
+File,Size Bytes,Build
+Assets/Brand/CertiAura_Brand_Master.png,2371046,0035A
+BUILD_0035A_READ_ME.md,842,0035A
+Documentation/Audit/Dimension_Score_Summary.csv,445,0035A
+Documentation/Audit/Evidence_Gap_Heatmap.csv,47896,0035A
+Documentation/Audit/Identity_Quarantine_Register.csv,3131,0035A
+Documentation/Audit/Next_Extraction_Build_Plan.csv,900,0035A
+Documentation/Audit/Platinum_Readiness_Master.csv,43437,0035A
+Documentation/Audit/Platinum_Readiness_Metrics.json,1011,0035A
+Documentation/Audit/Platinum_Readiness_Score_Model.json,3070,0035A
+Documentation/Audit/Platinum_Readiness_Summary.md,2651,0035A
+Documentation/Audit/Readiness_Tier_Summary.csv,862,0035A
+Documentation/Audit/Tier_1_Source_Extraction_Queue.csv,2979,0035A
+Documentation/B0035A_Validation.md,596,0035A
+Documentation/CHANGELOG.md,735,0035A
+Documentation/Master_Asset_Register.csv,257,0035A
+Documentation/Production_Dashboard.md,813,0035A
+Documentation/Scoring_Rubric.md,2097,0035A
+Scripts/validate_platinum_readiness.py,1683,0035A

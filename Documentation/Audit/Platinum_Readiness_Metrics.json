@@ -1,0 +1,48 @@
+{
+  "build": "0035A",
+  "status_date": "2026-07-16",
+  "product_assets_scored": 102,
+  "PKS_assets": 90,
+  "MPS_assets": 12,
+  "tier_counts": {
+    "T1": 14,
+    "T2": 13,
+    "T3": 62,
+    "T4": 3,
+    "Q": 10
+  },
+  "tier_1_assets": [
+    "CERT-PKS-000003",
+    "CERT-PKS-000011",
+    "CERT-PKS-000012",
+    "CERT-PKS-000016",
+    "CERT-PKS-000035",
+    "CERT-PKS-000079",
+    "CERT-PKS-000080",
+    "CERT-PKS-000089",
+    "CERT-PKS-000020",
+    "CERT-PKS-000001",
+    "CERT-PKS-000013",
+    "CERT-PKS-000014",
+    "CERT-PKS-000015",
+    "CERT-PKS-000054"
+  ],
+  "identity_quarantine_assets": [
+    "CERT-PKS-000076",
+    "CERT-PKS-000077",
+    "CERT-MPS-000006",
+    "CERT-MPS-000008",
+    "CERT-MPS-000009",
+    "CERT-MPS-000012",
+    "CERT-PKS-000042",
+    "CERT-PKS-000045",
+    "CERT-PKS-000048",
+    "CERT-PKS-000090"
+  ],
+  "average_readiness_score": 58.73,
+  "highest_score": 92,
+  "lowest_score": 20,
+  "direct_sale_gates_opened": 0,
+  "platinum_certifications": 0,
+  "permanent_uais_allocated": 0
+}

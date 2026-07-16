@@ -1,29 +1,30 @@
 # CERTIAURA CHANGE LOG
 
-## Build 0034 — Priority Closure Programme Completion Audit
+## Build 0035A — Platinum Readiness Tiering & Evidence Sufficiency Scoring
 **Date:** 2026-07-16
 
-Audited:
+Scored:
 
-- Builds 0031A–0031D;
-- Builds 0033A–0033D;
-- 51 priority assets;
-- 51 Product Passports;
-- 102 closure evidence objects;
-- all commercial and certification gates.
+- 102 / 102 product-family assets;
+- 90 Peptide Knowledge System assets;
+- 12 Marketplace Product System assets;
+- seven weighted readiness dimensions;
+- five controlled readiness tiers.
 
-Classification rule:
+Created:
 
-- green Build 0032 is the authoritative P0/P1 baseline;
-- closure-wave register classifications do not supersede it.
+- complete readiness master;
+- tier summary;
+- Tier 1 extraction queue;
+- identity quarantine register;
+- evidence-gap heatmap;
+- dimension score summary;
+- next extraction build plan;
+- transparent scoring model and executable validation.
 
-Confirmed:
+Controls:
 
-- all 13 P0 assets received closure-wave treatment;
-- all 38 P1 assets received closure-wave treatment;
-- all 51 priority assets have Product Passports;
-- all eight closure builds are green;
+- no permanent UAI allocated;
 - no direct-sale gate opened;
-- no Platinum certification exists.
-
-No permanent UAI was allocated by Build 0034.
+- no Platinum certification assigned;
+- no safety, efficacy or personal-use ranking created.

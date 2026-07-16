@@ -1,0 +1,77 @@
+{
+  "build": "0035A",
+  "status_date": "2026-07-16",
+  "purpose": "Rank repository evidence-closure and Platinum-gap workload. The score does not rank clinical efficacy, personal suitability, legal availability or product safety.",
+  "dimensions": [
+    {
+      "name": "Canonical Identity Closure",
+      "maximum_points": 20,
+      "raw_scale": "0–5"
+    },
+    {
+      "name": "Human Evidence Maturity",
+      "maximum_points": 20,
+      "raw_scale": "0–5"
+    },
+    {
+      "name": "Regulatory Status Closure",
+      "maximum_points": 15,
+      "raw_scale": "0–5"
+    },
+    {
+      "name": "Safety Source Closure",
+      "maximum_points": 15,
+      "raw_scale": "0–5"
+    },
+    {
+      "name": "Supplier Evidence Availability",
+      "maximum_points": 10,
+      "raw_scale": "0–5"
+    },
+    {
+      "name": "Analytical Verification Feasibility",
+      "maximum_points": 10,
+      "raw_scale": "0–5"
+    },
+    {
+      "name": "Commercial Boundary Readiness",
+      "maximum_points": 10,
+      "raw_scale": "0–5"
+    }
+  ],
+  "formula": "Identity×4 + HumanEvidence×4 + Regulatory×3 + Safety×3 + SupplierEvidence×2 + AnalyticalFeasibility×2 + CommercialBoundary×2",
+  "tier_definitions": {
+    "T1": {
+      "name": "Primary-Source Closure Candidate",
+      "rule": "Score at least 70, canonical identity at least 4/5, and human evidence, regulatory closure and safety-source closure each at least 4/5.",
+      "meaning": "Best current candidates for full source extraction and Platinum-gap analysis. Not Platinum and not commercially released."
+    },
+    "T2": {
+      "name": "Advanced Evidence Expansion",
+      "rule": "Score at least 60, canonical identity at least 3/5, human evidence at least 3/5 and regulatory closure at least 3/5.",
+      "meaning": "Substantial evidence exists, but source extraction, supplier verification or clinical/regulatory closure remains material."
+    },
+    "T3": {
+      "name": "Substantial Closure Required",
+      "rule": "Score at least 45 or fails a T1/T2 maturity gate.",
+      "meaning": "Requires identity, supplier, safety, human-evidence or analytical work before Platinum-gap analysis is efficient."
+    },
+    "T4": {
+      "name": "High Analytical or Evidence Burden",
+      "rule": "Score 30–44 and not identity quarantined.",
+      "meaning": "Complex mixture, biologic, blend, weak evidence base or high verification burden."
+    },
+    "Q": {
+      "name": "Identity / Composition Quarantine",
+      "rule": "Critical unresolved identity or composition control applies.",
+      "meaning": "No pharmacological, product-equivalence or commercial progression until the critical identity or composition defect is resolved."
+    }
+  },
+  "mandatory_controls": [
+    "All direct-sale gates remain blocked.",
+    "No score constitutes Platinum certification.",
+    "No score establishes clinical efficacy or safety.",
+    "Critical identity/composition assets remain quarantined regardless of numeric score.",
+    "Human review is required before publication or commercial decisions."
+  ]
+}

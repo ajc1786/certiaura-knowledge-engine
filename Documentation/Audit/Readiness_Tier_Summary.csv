@@ -1,0 +1,6 @@
+Tier,Tier Name,Asset Count,Average Score,Certification Meaning
+T1,Primary-Source Closure Candidate,14,86.14,Best current candidates for full source extraction and Platinum-gap analysis. Not Platinum and not commercially released.
+T2,Advanced Evidence Expansion,13,66.08,"Substantial evidence exists, but source extraction, supplier verification or clinical/regulatory closure remains material."
+T3,Substantial Closure Required,62,57.9,"Requires identity, supplier, safety, human-evidence or analytical work before Platinum-gap analysis is efficient."
+T4,High Analytical or Evidence Burden,3,42.33,"Complex mixture, biologic, blend, weak evidence base or high verification burden."
+Q,Identity / Composition Quarantine,10,20.8,"No pharmacological, product-equivalence or commercial progression until the critical identity or composition defect is resolved."
