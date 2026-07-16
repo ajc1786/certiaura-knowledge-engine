@@ -8,53 +8,53 @@
 
 # CERT-PKS-000066 — Vilon Supplier Product Family
 
-**Version:** 0.1.0  
-**Status:** CATALOGUE REVIEWED / EVIDENCE FOUNDATION CREATED / NOT PLATINUM CERTIFIED  
+**Version:** 0.2.0  
+**Priority:** P1  
+**Status:** EVIDENCE CLOSURE WAVE 7 / SEQUENCE OR SUPPLIER-EQUIVALENCE BLOCK ACTIVE  
 **Last Review:** 2026-07-16
 
-## Classification
+## Reference sequence
 
-Identity-sensitive short regulatory peptide product family
+**KE — Lys-Glu**
 
-## Mechanism
+## Closure state
 
-No definitive mechanism is assigned until exact sequence and product identity are closed; regional literature commonly describes a short thymic regulatory peptide.
+**PARTIAL CLOSURE — VILON LITERATURE IDENTITY LYS-GLU (KE) ESTABLISHED; VI20 TERMINI, SALT, ANALYTICAL IDENTITY, STERILITY, HUMAN EVIDENCE AND PRODUCT STATUS OPEN**
 
-## Evidence maturity
+## Authoritative or primary-source boundary
 
-Regional preclinical and limited human reports exist, but independent replication, analytical identity and current product status are insufficiently closed.
+Primary literature consistently identifies Vilon as the dipeptide Lys-Glu (KE). The published programme is dominated by cell, organotypic and animal studies. Those records do not prove that VI20 is the same terminal form, salt, grade, sterile product or clinically validated preparation.
 
-## Evidence foundation
+## New closure evidence
 
-- `CERT-EKS-000159`
-- `CERT-EKS-000160`
+- `CERT-EKS-000311`
+- `CERT-EKS-000312`
 
-## Regulatory headline
+## Product Passport
 
-**SHORT REGULATORY PEPTIDE / IDENTITY AND REGIONAL-STATUS VERIFICATION REQUIRED**
+`CERT-PPS-000040`
 
-## Catalogue pricing
+## Catalogue records
 
 | Code | Specification | USD per kit |
 |---|---|---:|
 | VI20 | 20 mg x 10 vials | $119 |
 
-## Product-quality boundary
+## Critical controls
 
-The catalogue does not establish exact sequence, stereochemistry, terminal chemistry, purity, sterility, potency, approval or equivalence to published materials.
+- KE literature identity is not supplier proof
+- No thymic extract, Thymalin or thymosin evidence transfer
+- Animal geroprotection and cell proliferation are not human efficacy
+- No immune, longevity or anti-ageing treatment claim
+- No dosing, injection or reconstitution protocol
 
-## Validated universal human dosing protocol
+## Certification state
 
-**No**
-
-## Certification blockers
-
-- Exact amino-acid sequence and stereochemistry
-- Salt and terminal chemistry
-- Independent human evidence
-- Current jurisdiction-specific status
-- Supplier identity, purity and sterility
-
-## Platinum Certified
-
-**No**
+- Reference literature sequence anchored: **Yes**
+- Supplier sequence verified: **No**
+- Terminal chemistry and salt verified: **No**
+- Quality verified: **No**
+- Sterility verified: **No**
+- Controlled human clinical equivalence: **No**
+- Direct-sale gate: **Blocked**
+- Platinum Certified: **No**

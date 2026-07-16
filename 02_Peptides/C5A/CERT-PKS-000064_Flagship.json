@@ -3,8 +3,8 @@
   "asset_name": "FOXO4-DRI Supplier Product Family",
   "knowledge_system": "PKS",
   "asset_type": "Peptide / Supplier-Product Knowledge Asset",
-  "version": "0.1.0",
-  "status": "CATALOGUE REVIEWED / EVIDENCE FOUNDATION CREATED / NOT PLATINUM CERTIFIED",
+  "version": "0.2.0",
+  "status": "P1 EVIDENCE CLOSURE WAVE 7 / SEQUENCE OR SUPPLIER-EQUIVALENCE BLOCK ACTIVE / NOT PLATINUM CERTIFIED",
   "owner": "Aidan Coleman",
   "last_review": "2026-07-16",
   "aliases": [
@@ -88,6 +88,21 @@
       "source": "CERT-PKS-000064",
       "relationship": "HAS_SAFETY",
       "target": "CERT-SKS-000069"
+    },
+    {
+      "source": "CERT-PKS-000064",
+      "relationship": "HAS_PASSPORT",
+      "target": "CERT-PPS-000039"
+    },
+    {
+      "source": "CERT-PKS-000064",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000309"
+    },
+    {
+      "source": "CERT-PKS-000064",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000310"
     }
   ],
   "validated_universal_human_dosing_protocol": false,
@@ -99,5 +114,29 @@
     "Human PK, efficacy and safety",
     "Off-target p53 and normal-tissue toxicity",
     "Supplier identity, purity, aggregation and sterility"
-  ]
+  ],
+  "closure_wave": "0033C",
+  "closure_priority": "P1",
+  "closure_class": "ALL-D RETRO-INVERSO SENOLYTIC / TAT FUSION AND PRECLINICAL EVIDENCE",
+  "closure_state": "PARTIAL CLOSURE — PUBLISHED 46-RESIDUE ALL-D FOXO4-DRI/TAT REFERENCE SEQUENCE AND PRECLINICAL MECHANISM IDENTIFIED; F410 SEQUENCE, SALT, PURITY, POTENCY, STERILITY, HUMAN SAFETY AND PRODUCT EQUIVALENCE OPEN",
+  "authoritative_product_boundary": "Primary studies describe FOXO4-DRI as an all-D retro-inverso FOXO4-derived peptide fused to an HIV-TAT cell-penetrating sequence. A 2025 primary study reports the 46-residue sequence `ltlrkepaseiaqsileaysqngwanrrsggkrppprrrqrrkkrg` in D-isoform. The programme remains cellular and animal research; it does not establish an authorised medicine or equivalence of the F410 catalogue material.",
+  "product_passport": "CERT-PPS-000039",
+  "canonical_reference_sequence": "ltlrkepaseiaqsileaysqngwanrrsggkrppprrrqrrkkrg",
+  "canonical_reference_sequence_description": "46 residues; all D-amino acids; D-retro-inverso FOXO4 region fused to HIV-TAT",
+  "supplier_sequence_verified": false,
+  "terminal_chemistry_verified": false,
+  "quality_verified": false,
+  "sterility_verified": false,
+  "human_clinical_equivalence": false,
+  "authorised_product_equivalence": false,
+  "critical_closure_controls": [
+    "F410 is not assumed to match the published 46-residue material",
+    "All-D stereochemistry and sequence order are identity-critical",
+    "TAT fusion is part of the studied construct",
+    "Cell and animal senolysis does not establish human anti-ageing efficacy",
+    "No senolytic, longevity, dosing, injection or reconstitution protocol"
+  ],
+  "canonical_reference_length": 46,
+  "canonical_reference_stereochemistry": "All D-amino acids",
+  "canonical_reference_design": "D-retro-inverso FOXO4-derived region fused to HIV-TAT cell-penetrating sequence"
 }

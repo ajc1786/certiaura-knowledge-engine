@@ -1,0 +1,21 @@
+{
+  "asset_id": "CERT-EKS-000317",
+  "asset_name": "Cortagen AEDP Sequence and Cell/Animal Evidence",
+  "root_asset": "CERT-PKS-000070",
+  "knowledge_system": "EKS",
+  "asset_type": "Priority Evidence Closure Object",
+  "version": "0.2.0",
+  "status": "CORTAGEN AEDP LITERATURE IDENTITY CLOSED",
+  "closure_wave": "0033C",
+  "closure_priority": "P1",
+  "source_domain": "Primary publications identifying Cortagen as Ala-Glu-Asp-Pro and reporting transcriptomic, thymocyte, immune and animal studies",
+  "evidence_type": "Primary sequence / preclinical evidence",
+  "last_review": "2026-07-16",
+  "direct_complete_extraction": false,
+  "prohibited_use": [
+    "Personal dosing, injection or reconstitution guidance",
+    "Cell, animal, organotypic or literature-material evidence transfer to supplier products",
+    "Assumption of supplier sequence, termini, salt, potency, quality or sterility",
+    "Anti-ageing, senolytic or organ-specific treatment protocols"
+  ]
+}

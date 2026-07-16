@@ -1,0 +1,21 @@
+{
+  "asset_id": "CERT-EKS-000320",
+  "asset_name": "LI20 Terminal Chemistry, Hepatic Human Evidence and Regulatory Gap",
+  "root_asset": "CERT-PKS-000071",
+  "knowledge_system": "EKS",
+  "asset_type": "Priority Evidence Closure Object",
+  "version": "0.2.0",
+  "status": "OPEN — LI20 PRODUCT AND HEPATIC BENEFIT NOT ESTABLISHED",
+  "closure_wave": "0033C",
+  "closure_priority": "P1",
+  "source_domain": "Supplier sequence confirmation, termini, salt, quality, sterility, human hepatic PK, controlled trials, safety, approval and current anti-doping review",
+  "evidence_type": "Critical supplier / human evidence gap",
+  "last_review": "2026-07-16",
+  "direct_complete_extraction": false,
+  "prohibited_use": [
+    "Personal dosing, injection or reconstitution guidance",
+    "Cell, animal, organotypic or literature-material evidence transfer to supplier products",
+    "Assumption of supplier sequence, termini, salt, potency, quality or sterility",
+    "Anti-ageing, senolytic or organ-specific treatment protocols"
+  ]
+}

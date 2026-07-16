@@ -1,0 +1,61 @@
+{
+  "asset_id": "CERT-PPS-000039",
+  "asset_name": "FOXO4-DRI Supplier Product Family Product Passport",
+  "knowledge_system": "PPS",
+  "asset_type": "Critical Sequence / Supplier Product Passport Gap Object",
+  "version": "0.2.0",
+  "status": "P1 OPEN / NOT CERTIFIED",
+  "parent_product": "CERT-PKS-000064",
+  "closure_wave": "0033C",
+  "closure_priority": "P1",
+  "last_review": "2026-07-16",
+  "reference_sequence": "ltlrkepaseiaqsileaysqngwanrrsggkrppprrrqrrkkrg",
+  "reference_sequence_description": "46 residues; all D-amino acids; D-retro-inverso FOXO4 region fused to HIV-TAT",
+  "required_fields": [
+    {
+      "field": "complete 46-residue all-D sequence",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical, quality, clinical and regulatory evidence"
+    },
+    {
+      "field": "retro-inverso orientation and D-amino-acid stereochemistry",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical, quality, clinical and regulatory evidence"
+    },
+    {
+      "field": "FOXO4-derived region versus HIV-TAT fusion boundary",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical, quality, clinical and regulatory evidence"
+    },
+    {
+      "field": "N- and C-terminal chemistry, salt and molecular mass",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical, quality, clinical and regulatory evidence"
+    },
+    {
+      "field": "reference standard, HPLC, LC-MS and stereochemical impurity profile",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical, quality, clinical and regulatory evidence"
+    },
+    {
+      "field": "FOXO4-p53 binding disruption potency and off-target p53 effects",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical, quality, clinical and regulatory evidence"
+    },
+    {
+      "field": "manufacturer, synthesis route, batch, sterility and endotoxin",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical, quality, clinical and regulatory evidence"
+    },
+    {
+      "field": "formal toxicology, human PK, clinical evidence, regulatory and anti-doping status",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical, quality, clinical and regulatory evidence"
+    }
+  ],
+  "supplier_sequence_certified": false,
+  "terminal_chemistry_certified": false,
+  "quality_certified": false,
+  "sterility_certified": false,
+  "human_clinical_equivalence": false
+}

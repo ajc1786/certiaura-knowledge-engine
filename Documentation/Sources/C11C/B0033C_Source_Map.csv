@@ -1,0 +1,22 @@
+Asset,Source,URL,Purpose
+FOXO4-DRI,Baar et al. Cell 2017 / PMC,https://pmc.ncbi.nlm.nih.gov/articles/PMC5556182/,Original senolytic cell and mouse programme; FOXO4-p53 disruption and TAT fusion
+FOXO4-DRI,2025 Nature Communications structural study,https://pmc.ncbi.nlm.nih.gov/articles/PMC12216184/,"FOXO4-DRI / p53 binding, D-retro-inverso design and structural evidence"
+FOXO4-DRI,2025 primary keloid-fibroblast study,https://pmc.ncbi.nlm.nih.gov/articles/PMC11850796/,Exact 46-residue all-D sequence and acetate-salt study material
+Vilon,Lys-Glu peptide-bond primary study,https://pubmed.ncbi.nlm.nih.gov/25705040/,Vilon/KE identity and organotypic splenic-cell evidence
+Vilon,Radiation premature-aging animal study,https://pubmed.ncbi.nlm.nih.gov/12096431/,Vilon identified as Lys-Glu in an animal model
+Vilon,Digestive-enzyme animal study,https://pubmed.ncbi.nlm.nih.gov/11586413/,Vilon identified as Lys-Glu; animal evidence boundary
+Bronchogen,DNA-interaction primary study,https://pubmed.ncbi.nlm.nih.gov/22117547/,Bronchogen identified as Ala-Glu-Asp-Leu
+Bronchogen,Human bronchial-cell aging culture study,https://pubmed.ncbi.nlm.nih.gov/22808515/,AEDL bronchial-cell differentiation evidence
+Bronchogen,Plant-callus primary study,https://pubmed.ncbi.nlm.nih.gov/28371610/,AEDL identity and non-human model evidence
+Cardiogen,Histone and oligonucleotide interaction study,https://pubmed.ncbi.nlm.nih.gov/23581987/,Ala-Glu-Asp-Arg sequence included in primary peptide-interaction study
+Cardiogen,Rat myocardium organotypic study,https://pubmed.ncbi.nlm.nih.gov/20210190/,Cardiogen myocardial proliferation and p53-expression model evidence
+Cortagen,Mouse-heart transcriptome study,https://pubmed.ncbi.nlm.nih.gov/15159690/,Cortagen identified as Ala-Glu-Asp-Pro and transcriptomic evidence
+Cortagen,Thymocyte sphingomyelin pathway study,https://pubmed.ncbi.nlm.nih.gov/12420072/,AEDP identity and cell/animal evidence
+Cortagen,Splenocyte IL-2 expression study,https://pubmed.ncbi.nlm.nih.gov/12447482/,AEDP identity and in-vitro evidence
+Livagen,Human-serum enzyme study,https://pubmed.ncbi.nlm.nih.gov/12942748/,Livagen identified as Lys-Glu-Asp-Ala; in-vitro human-serum evidence
+Livagen,Rat digestive-enzyme study,https://pubmed.ncbi.nlm.nih.gov/16075683/,KEDA identity and animal evidence
+Livagen,Aged-lymphocyte chromatin study,https://pubmed.ncbi.nlm.nih.gov/37042594/,KEDA identity and ex-vivo cellular evidence
+All six assets,WADA 2026 Prohibited List,https://www.wada-ama.org/en/resources/world-anti-doping-program/prohibited-list,Current list in force from 1 January 2026 and S0 review control
+All six assets,FDA Drugs@FDA,https://www.accessdata.fda.gov/scripts/cder/daf/,Current exact-product approval verification control
+All six assets,EMA medicines search,https://www.ema.europa.eu/en/medicines,Current central European medicine-status verification control
+All six assets,MHRA products search,https://products.mhra.gov.uk/,Current United Kingdom product-status verification control

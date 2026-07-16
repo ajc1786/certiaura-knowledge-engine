@@ -1,0 +1,21 @@
+{
+  "asset_id": "CERT-EKS-000311",
+  "asset_name": "Vilon Lys-Glu Identity and Preclinical Programme Evidence",
+  "root_asset": "CERT-PKS-000066",
+  "knowledge_system": "EKS",
+  "asset_type": "Priority Evidence Closure Object",
+  "version": "0.2.0",
+  "status": "VILON KE LITERATURE IDENTITY CLOSED",
+  "closure_wave": "0033C",
+  "closure_priority": "P1",
+  "source_domain": "Primary publications consistently identifying Vilon as Lys-Glu and reporting cell, organotypic and animal research",
+  "evidence_type": "Primary sequence / preclinical evidence",
+  "last_review": "2026-07-16",
+  "direct_complete_extraction": false,
+  "prohibited_use": [
+    "Personal dosing, injection or reconstitution guidance",
+    "Cell, animal, organotypic or literature-material evidence transfer to supplier products",
+    "Assumption of supplier sequence, termini, salt, potency, quality or sterility",
+    "Anti-ageing, senolytic or organ-specific treatment protocols"
+  ]
+}

@@ -1,43 +1,38 @@
 {
   "asset_uai": "CERT-PKS-000066",
   "asset_name": "Vilon Supplier Product Family",
+  "version": "0.2.0",
   "status_as_of": "2026-07-16",
-  "overall_status": "SHORT REGULATORY PEPTIDE / IDENTITY AND REGIONAL-STATUS VERIFICATION REQUIRED",
+  "closure_wave": "0033C",
+  "overall_status": "PARTIAL CLOSURE — VILON LITERATURE IDENTITY LYS-GLU (KE) ESTABLISHED; VI20 TERMINI, SALT, ANALYTICAL IDENTITY, STERILITY, HUMAN EVIDENCE AND PRODUCT STATUS OPEN",
   "regulatory_records": [
     {
       "jurisdiction": "United States",
-      "authority": "FDA",
-      "current_status": "No approval claim; current trial and enforcement search required.",
+      "authority": "FDA / Drugs@FDA",
+      "current_status": "No authorised-product or supplier-equivalence claim is assigned to Vilon Supplier Product Family; exact-name product status requires direct database verification.",
       "monitoring_state": "ACTIVE",
-      "next_review_trigger": "Identity, approval, safety, trial, enforcement or anti-doping change"
+      "next_review_trigger": "Identity, approval, trial, warning, enforcement, safety, controlled-substance or anti-doping change"
     },
     {
       "jurisdiction": "United Kingdom",
       "authority": "MHRA",
-      "current_status": "No marketing-authorisation claim.",
+      "current_status": "No marketing-authorisation or supplier-equivalence claim is assigned to Vilon Supplier Product Family; exact product and jurisdiction verification remains required.",
       "monitoring_state": "ACTIVE",
-      "next_review_trigger": "Identity, approval, safety, trial, enforcement or anti-doping change"
+      "next_review_trigger": "Identity, approval, trial, warning, enforcement, safety, controlled-substance or anti-doping change"
     },
     {
       "jurisdiction": "European Union",
       "authority": "EMA / European Commission",
-      "current_status": "No marketing-authorisation claim.",
+      "current_status": "No central marketing-authorisation or supplier-equivalence claim is assigned to Vilon Supplier Product Family.",
       "monitoring_state": "ACTIVE",
-      "next_review_trigger": "Identity, approval, safety, trial, enforcement or anti-doping change"
-    },
-    {
-      "jurisdiction": "Other jurisdictions",
-      "authority": "National medicines authorities",
-      "current_status": "Any regional short-peptide status requires direct dated verification.",
-      "monitoring_state": "ACTIVE",
-      "next_review_trigger": "Identity, approval, safety, trial, enforcement or anti-doping change"
+      "next_review_trigger": "Identity, approval, trial, warning, enforcement, safety, controlled-substance or anti-doping change"
     },
     {
       "jurisdiction": "International sport",
       "authority": "WADA",
-      "current_status": "Current athlete-specific verification required.",
-      "monitoring_state": "EVENT-TRIGGERED",
-      "next_review_trigger": "Identity, approval, safety, trial, enforcement or anti-doping change"
+      "current_status": "The 2026 Prohibited List is in force. S0 covers pharmacological substances not currently approved for human therapeutic use; no athlete-permitted status claim is made for the supplier product.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Identity, approval, trial, warning, enforcement, safety, controlled-substance or anti-doping change"
     }
   ]
 }

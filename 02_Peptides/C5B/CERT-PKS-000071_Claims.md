@@ -10,12 +10,11 @@
 
 | Claim | Permission |
 |---|---|
-| Livagen is a supplier-named short regulatory peptide product family. | Allowed |
-| Claimed liver-targeted research context | May be reported only as supplier positioning, not validated pharmacology |
-| Livagen selectively reaches or repairs the named organ. | Not established / prohibited |
-| Livagen is a clinically validated anti-ageing or rejuvenation treatment. | False / prohibited |
-| The supplier product matches a published peptide with the same name. | Not established / prohibited pending identity closure |
-| A universal human dosing or administration protocol is validated. | Not established / prohibited |
+| The literature reference sequence is `KEDA`. | Allowed with source and supplier non-equivalence |
+| Primary literature identifies Livagen as Lys-Glu-Asp-Ala (KEDA) and reports in-vitro human-serum enzyme experiments, animal digestive-enzyme studies and chromatin/cell research. These records do not establish an authorised liver medicine or analytical and clinical equivalence of LI20. | Allowed as a controlled boundary |
+| The supplier vial is analytically identical to the literature material. | False / prohibited |
+| Cell, animal or organotypic evidence proves human therapeutic efficacy. | False / prohibited |
+| A treatment, anti-ageing, organ-repair, dosing, injection or reconstitution protocol is validated. | False / prohibited |
 | The asset is Platinum Certified. | False / prohibited |
 
 **Status as of:** 2026-07-16

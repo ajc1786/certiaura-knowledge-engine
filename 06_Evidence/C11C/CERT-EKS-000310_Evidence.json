@@ -1,0 +1,21 @@
+{
+  "asset_id": "CERT-EKS-000310",
+  "asset_name": "F410 Stereochemistry, Human Safety and Regulatory Gap",
+  "root_asset": "CERT-PKS-000064",
+  "knowledge_system": "EKS",
+  "asset_type": "Priority Evidence Closure Object",
+  "version": "0.2.0",
+  "status": "OPEN — F410 REFERENCE-CONSTRUCT EQUIVALENCE NOT ESTABLISHED",
+  "closure_wave": "0033C",
+  "closure_priority": "P1",
+  "source_domain": "Supplier sequence, all-D stereochemistry, retro-inverso design, TAT fusion, salt, potency, off-target p53 effects, toxicology, human trials, quality and sterility",
+  "evidence_type": "Critical supplier / human evidence gap",
+  "last_review": "2026-07-16",
+  "direct_complete_extraction": false,
+  "prohibited_use": [
+    "Personal dosing, injection or reconstitution guidance",
+    "Cell, animal, organotypic or literature-material evidence transfer to supplier products",
+    "Assumption of supplier sequence, termini, salt, potency, quality or sterility",
+    "Anti-ageing, senolytic or organ-specific treatment protocols"
+  ]
+}

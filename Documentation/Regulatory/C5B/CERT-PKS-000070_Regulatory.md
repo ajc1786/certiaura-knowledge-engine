@@ -8,17 +8,17 @@
 
 # CERT-PKS-000070 — Cortagen REGULATORY STATUS
 
+**Version:** 0.2.0  
 **Status as of:** 2026-07-16  
-**Overall:** IDENTITY-SENSITIVE SUPPLIER PRODUCT FAMILY / NO UNIVERSAL APPROVAL OR ORGAN-TREATMENT CLAIM
+**Closure state:** PARTIAL CLOSURE — CORTAGEN LITERATURE IDENTITY ALA-GLU-ASP-PRO (AEDP) AND CELL/ANIMAL PROGRAMME IDENTIFIED; COR20 TERMINI, SALT, ANALYTICAL IDENTITY, STERILITY AND CONTROLLED HUMAN EVIDENCE OPEN
 
 | Jurisdiction | Authority | Controlled position | Monitoring |
 |---|---|---|---|
-| United States | FDA | No approval claim is created; exact molecule and official product-database status require direct verification. | ACTIVE |
-| United Kingdom | MHRA | No marketing-authorisation claim is created; exact molecule and product status require direct verification. | ACTIVE |
-| European Union | EMA / European Commission | No central marketing-authorisation claim is created; exact molecule and product status require direct verification. | ACTIVE |
-| Other jurisdictions | National medicines authorities | Any regional status must be verified by exact product, manufacturer, formulation, indication and date. | ACTIVE |
-| International sport | WADA | Current athlete-specific status requires authoritative verification after exact identity closure. | BLOCKED BY IDENTITY |
+| United States | FDA / Drugs@FDA | No authorised-product or supplier-equivalence claim is assigned to Cortagen; exact-name product status requires direct database verification. | ACTIVE |
+| United Kingdom | MHRA | No marketing-authorisation or supplier-equivalence claim is assigned to Cortagen; exact product and jurisdiction verification remains required. | ACTIVE |
+| European Union | EMA / European Commission | No central marketing-authorisation or supplier-equivalence claim is assigned to Cortagen. | ACTIVE |
+| International sport | WADA | The 2026 Prohibited List is in force. S0 covers pharmacological substances not currently approved for human therapeutic use; no athlete-permitted status claim is made for the supplier product. | ACTIVE |
 
 ## Rule
 
-A regional commercial name, patent, supplement listing or research publication is not equivalent to a current medicine authorisation.
+Regulatory, clinical and anti-doping status belongs to the exact sequence, stereochemistry, terminal chemistry, formulation, manufacturer, product and jurisdiction.

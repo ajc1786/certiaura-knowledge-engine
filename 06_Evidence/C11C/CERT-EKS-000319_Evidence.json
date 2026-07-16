@@ -1,0 +1,21 @@
+{
+  "asset_id": "CERT-EKS-000319",
+  "asset_name": "Livagen KEDA Sequence and In-Vitro/Animal Evidence",
+  "root_asset": "CERT-PKS-000071",
+  "knowledge_system": "EKS",
+  "asset_type": "Priority Evidence Closure Object",
+  "version": "0.2.0",
+  "status": "LIVAGEN KEDA LITERATURE IDENTITY CLOSED",
+  "closure_wave": "0033C",
+  "closure_priority": "P1",
+  "source_domain": "Primary publications identifying Livagen as Lys-Glu-Asp-Ala and reporting human-serum in-vitro, animal digestive-enzyme and chromatin/cell research",
+  "evidence_type": "Primary sequence / preclinical evidence",
+  "last_review": "2026-07-16",
+  "direct_complete_extraction": false,
+  "prohibited_use": [
+    "Personal dosing, injection or reconstitution guidance",
+    "Cell, animal, organotypic or literature-material evidence transfer to supplier products",
+    "Assumption of supplier sequence, termini, salt, potency, quality or sterility",
+    "Anti-ageing, senolytic or organ-specific treatment protocols"
+  ]
+}

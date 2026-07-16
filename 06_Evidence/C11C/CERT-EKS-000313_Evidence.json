@@ -1,0 +1,21 @@
+{
+  "asset_id": "CERT-EKS-000313",
+  "asset_name": "Bronchogen AEDL Sequence and Cell-Model Evidence",
+  "root_asset": "CERT-PKS-000068",
+  "knowledge_system": "EKS",
+  "asset_type": "Priority Evidence Closure Object",
+  "version": "0.2.0",
+  "status": "BRONCHOGEN AEDL LITERATURE IDENTITY CLOSED",
+  "closure_wave": "0033C",
+  "closure_priority": "P1",
+  "source_domain": "Primary publications identifying Bronchogen as Ala-Glu-Asp-Leu and reporting DNA interaction, plant-callus and aged human bronchial-cell culture findings",
+  "evidence_type": "Primary sequence / preclinical evidence",
+  "last_review": "2026-07-16",
+  "direct_complete_extraction": false,
+  "prohibited_use": [
+    "Personal dosing, injection or reconstitution guidance",
+    "Cell, animal, organotypic or literature-material evidence transfer to supplier products",
+    "Assumption of supplier sequence, termini, salt, potency, quality or sterility",
+    "Anti-ageing, senolytic or organ-specific treatment protocols"
+  ]
+}

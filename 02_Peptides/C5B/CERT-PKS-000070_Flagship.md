@@ -8,65 +8,53 @@
 
 # CERT-PKS-000070 — Cortagen
 
-**Version:** 0.1.0  
-**Status:** CATALOGUE REVIEWED / IDENTITY GAP OPEN / NOT PLATINUM CERTIFIED  
+**Version:** 0.2.0  
+**Priority:** P1  
+**Status:** EVIDENCE CLOSURE WAVE 7 / SEQUENCE OR SUPPLIER-EQUIVALENCE BLOCK ACTIVE  
 **Last Review:** 2026-07-16
 
-## Classification
+## Reference sequence
 
-Supplier-named neural / cortical short regulatory peptide family
+**AEDP — Ala-Glu-Asp-Pro**
 
-## Supplier-claimed context
+## Closure state
 
-Claimed neural-targeted research context
+**PARTIAL CLOSURE — CORTAGEN LITERATURE IDENTITY ALA-GLU-ASP-PRO (AEDP) AND CELL/ANIMAL PROGRAMME IDENTIFIED; COR20 TERMINI, SALT, ANALYTICAL IDENTITY, STERILITY AND CONTROLLED HUMAN EVIDENCE OPEN**
 
-This wording records catalogue positioning and does not validate organ selectivity or clinical efficacy.
+## Authoritative or primary-source boundary
 
-## Mechanism
+Primary publications identify Cortagen as Ala-Glu-Asp-Pro (AEDP) and describe cell, animal and transcriptomic experiments. One publication abstract refers to human post-traumatic nerve recovery, but the available record does not close trial design, registration, exact product identity, independent replication or COR20 equivalence.
 
-No canonical mechanism is assigned. The product name suggests an organ-targeted commercial positioning, but exact sequence, target and pharmacology require direct primary-source and analytical closure.
+## New closure evidence
 
-## Evidence maturity
+- `CERT-EKS-000317`
+- `CERT-EKS-000318`
 
-Regional short-peptide, cell, animal or limited human literature may exist under this name or related names. Evidence is not attributed to the catalogue product until chemical identity and source linkage are confirmed.
+## Product Passport
 
-## Evidence foundation
+`CERT-PPS-000043`
 
-- `CERT-EKS-000167`
-- `CERT-EKS-000168`
-
-## Regulatory headline
-
-**IDENTITY-SENSITIVE SUPPLIER PRODUCT FAMILY / NO UNIVERSAL APPROVAL OR ORGAN-TREATMENT CLAIM**
-
-## Catalogue pricing
+## Catalogue records
 
 | Code | Specification | USD per kit |
 |---|---|---:|
 | COR20 | 20 mg x 10 vials | $118 |
 
-## Canonical molecule identity closed
+## Critical controls
 
-**No**
+- AEDP literature identity is not COR20 analytical proof
+- No Cortexin extract evidence transfer
+- Animal, cell and transcriptomic findings are not controlled human efficacy
+- No nerve-repair, cognition, stroke or neuroprotection claim
+- No dosing, injection or reconstitution protocol
 
-## Product-quality boundary
+## Certification state
 
-The catalogue does not provide the sequence, stereochemistry, terminal chemistry, molecular mass, manufacturer reference standard, purity, sterility or authorised status.
-
-## Validated universal human dosing protocol
-
-**No**
-
-## Certification blockers
-
-- Complete amino-acid sequence and stereochemistry
-- N- and C-terminal chemistry
-- Molecular formula, mass and reference standard
-- Direct primary publication linkage
-- Independent human evidence
-- Current product- and jurisdiction-specific regulatory status
-- Supplier identity, purity and sterility
-
-## Platinum Certified
-
-**No**
+- Reference literature sequence anchored: **Yes**
+- Supplier sequence verified: **No**
+- Terminal chemistry and salt verified: **No**
+- Quality verified: **No**
+- Sterility verified: **No**
+- Controlled human clinical equivalence: **No**
+- Direct-sale gate: **Blocked**
+- Platinum Certified: **No**

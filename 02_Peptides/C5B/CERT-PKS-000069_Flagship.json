@@ -3,8 +3,8 @@
   "asset_name": "Cardiogen",
   "knowledge_system": "PKS",
   "asset_type": "Supplier Product-Family Knowledge Asset",
-  "version": "0.1.0",
-  "status": "CATALOGUE REVIEWED / IDENTITY GAP OPEN / NOT PLATINUM CERTIFIED",
+  "version": "0.2.0",
+  "status": "P1 EVIDENCE CLOSURE WAVE 7 / SEQUENCE OR SUPPLIER-EQUIVALENCE BLOCK ACTIVE / NOT PLATINUM CERTIFIED",
   "owner": "Aidan Coleman",
   "last_review": "2026-07-16",
   "aliases": [
@@ -87,6 +87,21 @@
       "source": "CERT-PKS-000069",
       "relationship": "HAS_SAFETY",
       "target": "CERT-SKS-000074"
+    },
+    {
+      "source": "CERT-PKS-000069",
+      "relationship": "HAS_PASSPORT",
+      "target": "CERT-PPS-000042"
+    },
+    {
+      "source": "CERT-PKS-000069",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000315"
+    },
+    {
+      "source": "CERT-PKS-000069",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000316"
     }
   ],
   "canonical_molecule_identity_closed": false,
@@ -101,5 +116,26 @@
     "Independent human evidence",
     "Current product- and jurisdiction-specific regulatory status",
     "Supplier identity, purity and sterility"
+  ],
+  "closure_wave": "0033C",
+  "closure_priority": "P1",
+  "closure_class": "AEDR TETRAPEPTIDE / CARDIAC POSITIONING AND PRECLINICAL EVIDENCE",
+  "closure_state": "PARTIAL CLOSURE — CARDIOGEN LITERATURE IDENTITY ALA-GLU-ASP-ARG (AEDR) AND ORGANOTYPIC MYOCARDIAL EVIDENCE IDENTIFIED; CA20 TERMINI, SALT, ANALYTICAL IDENTITY, STERILITY AND HUMAN BENEFIT OPEN",
+  "authoritative_product_boundary": "Primary peptide-interaction literature includes Ala-Glu-Asp-Arg (AEDR), and organotypic rat-myocardium studies describe a synthetic tetrapeptide called Cardiogen. The evidence is preclinical and does not establish heart disease treatment or supplier CA20 equivalence.",
+  "product_passport": "CERT-PPS-000042",
+  "canonical_reference_sequence": "AEDR",
+  "canonical_reference_sequence_description": "Ala-Glu-Asp-Arg",
+  "supplier_sequence_verified": false,
+  "terminal_chemistry_verified": false,
+  "quality_verified": false,
+  "sterility_verified": false,
+  "human_clinical_equivalence": false,
+  "authorised_product_equivalence": false,
+  "critical_closure_controls": [
+    "AEDR literature identity is not CA20 analytical proof",
+    "Rat myocardial organotypic proliferation is not clinical cardioprotection",
+    "No heart-failure, infarction, recovery or longevity claim",
+    "p53-expression findings remain model-specific and non-clinical",
+    "No dosing, injection or reconstitution protocol"
   ]
 }

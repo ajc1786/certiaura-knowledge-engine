@@ -1,0 +1,21 @@
+{
+  "asset_id": "CERT-EKS-000309",
+  "asset_name": "FOXO4-DRI Sequence, D-Retro-Inverso Design and Preclinical Evidence",
+  "root_asset": "CERT-PKS-000064",
+  "knowledge_system": "EKS",
+  "asset_type": "Priority Evidence Closure Object",
+  "version": "0.2.0",
+  "status": "PUBLISHED FOXO4-DRI REFERENCE CONSTRUCT IDENTIFIED",
+  "closure_wave": "0033C",
+  "closure_priority": "P1",
+  "source_domain": "2017 Cell senolytic study, 2025 structural/NMR study and 2025 primary keloid-fibroblast study reporting the 46-residue all-D FOXO4-DRI/TAT sequence",
+  "evidence_type": "Primary molecular / preclinical evidence",
+  "last_review": "2026-07-16",
+  "direct_complete_extraction": false,
+  "prohibited_use": [
+    "Personal dosing, injection or reconstitution guidance",
+    "Cell, animal, organotypic or literature-material evidence transfer to supplier products",
+    "Assumption of supplier sequence, termini, salt, potency, quality or sterility",
+    "Anti-ageing, senolytic or organ-specific treatment protocols"
+  ]
+}

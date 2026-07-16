@@ -1,0 +1,61 @@
+{
+  "asset_id": "CERT-PPS-000044",
+  "asset_name": "Livagen Product Passport",
+  "knowledge_system": "PPS",
+  "asset_type": "Critical Sequence / Supplier Product Passport Gap Object",
+  "version": "0.2.0",
+  "status": "P1 OPEN / NOT CERTIFIED",
+  "parent_product": "CERT-PKS-000071",
+  "closure_wave": "0033C",
+  "closure_priority": "P1",
+  "last_review": "2026-07-16",
+  "reference_sequence": "KEDA",
+  "reference_sequence_description": "Lys-Glu-Asp-Ala",
+  "required_fields": [
+    {
+      "field": "Lys-Glu-Asp-Ala sequence confirmation",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical, quality, clinical and regulatory evidence"
+    },
+    {
+      "field": "N- and C-terminal chemistry",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical, quality, clinical and regulatory evidence"
+    },
+    {
+      "field": "salt, counter-ion, formula and molecular mass",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical, quality, clinical and regulatory evidence"
+    },
+    {
+      "field": "reference standard, HPLC, LC-MS and purity",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical, quality, clinical and regulatory evidence"
+    },
+    {
+      "field": "manufacturer, synthesis route and batch",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical, quality, clinical and regulatory evidence"
+    },
+    {
+      "field": "route, formulation and excipients",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical, quality, clinical and regulatory evidence"
+    },
+    {
+      "field": "sterility, endotoxin and particulate testing if parenteral",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical, quality, clinical and regulatory evidence"
+    },
+    {
+      "field": "controlled human hepatic PK, safety, efficacy and regulatory status",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical, quality, clinical and regulatory evidence"
+    }
+  ],
+  "supplier_sequence_certified": false,
+  "terminal_chemistry_certified": false,
+  "quality_certified": false,
+  "sterility_certified": false,
+  "human_clinical_equivalence": false
+}

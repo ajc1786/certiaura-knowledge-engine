@@ -10,11 +10,11 @@
 
 | Claim | Permission |
 |---|---|
-| FOXO4-DRI Supplier Product Family is classified as identity-sensitive retro-inverso d-peptide senolytic research construct. | Allowed |
-| EXPERIMENTAL PRECLINICAL SENOLYTIC / NO HUMAN ANTI-AGEING OR APPROVAL CLAIM | Allowed as a dated controlled headline |
-| The supplier product matches published experimental material. | Not established / not allowed |
-| A universal human longevity or dosing protocol is validated. | Not established / not allowed |
-| The asset is Platinum Certified. | False / not allowed |
-| FOXO4-DRI is clinically proven to remove senescent cells in humans. | False / prohibited |
+| The literature reference sequence is `ltlrkepaseiaqsileaysqngwanrrsggkrppprrrqrrkkrg`. | Allowed with source and supplier non-equivalence |
+| Primary studies describe FOXO4-DRI as an all-D retro-inverso FOXO4-derived peptide fused to an HIV-TAT cell-penetrating sequence. A 2025 primary study reports the 46-residue sequence `ltlrkepaseiaqsileaysqngwanrrsggkrppprrrqrrkkrg` in D-isoform. The programme remains cellular and animal research; it does not establish an authorised medicine or equivalence of the F410 catalogue material. | Allowed as a controlled boundary |
+| The supplier vial is analytically identical to the literature material. | False / prohibited |
+| Cell, animal or organotypic evidence proves human therapeutic efficacy. | False / prohibited |
+| A treatment, anti-ageing, organ-repair, dosing, injection or reconstitution protocol is validated. | False / prohibited |
+| The asset is Platinum Certified. | False / prohibited |
 
 **Status as of:** 2026-07-16

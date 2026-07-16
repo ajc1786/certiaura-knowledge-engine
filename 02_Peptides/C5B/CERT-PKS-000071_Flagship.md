@@ -8,65 +8,53 @@
 
 # CERT-PKS-000071 — Livagen
 
-**Version:** 0.1.0  
-**Status:** CATALOGUE REVIEWED / IDENTITY GAP OPEN / NOT PLATINUM CERTIFIED  
+**Version:** 0.2.0  
+**Priority:** P1  
+**Status:** EVIDENCE CLOSURE WAVE 7 / SEQUENCE OR SUPPLIER-EQUIVALENCE BLOCK ACTIVE  
 **Last Review:** 2026-07-16
 
-## Classification
+## Reference sequence
 
-Supplier-named hepatic short regulatory peptide family
+**KEDA — Lys-Glu-Asp-Ala**
 
-## Supplier-claimed context
+## Closure state
 
-Claimed liver-targeted research context
+**PARTIAL CLOSURE — LIVAGEN LITERATURE IDENTITY LYS-GLU-ASP-ALA (KEDA) AND IN-VITRO/ANIMAL PROGRAMME IDENTIFIED; LI20 TERMINI, SALT, ANALYTICAL IDENTITY, STERILITY AND CONTROLLED HUMAN BENEFIT OPEN**
 
-This wording records catalogue positioning and does not validate organ selectivity or clinical efficacy.
+## Authoritative or primary-source boundary
 
-## Mechanism
+Primary literature identifies Livagen as Lys-Glu-Asp-Ala (KEDA) and reports in-vitro human-serum enzyme experiments, animal digestive-enzyme studies and chromatin/cell research. These records do not establish an authorised liver medicine or analytical and clinical equivalence of LI20.
 
-No canonical mechanism is assigned. The product name suggests an organ-targeted commercial positioning, but exact sequence, target and pharmacology require direct primary-source and analytical closure.
+## New closure evidence
 
-## Evidence maturity
+- `CERT-EKS-000319`
+- `CERT-EKS-000320`
 
-Regional short-peptide, cell, animal or limited human literature may exist under this name or related names. Evidence is not attributed to the catalogue product until chemical identity and source linkage are confirmed.
+## Product Passport
 
-## Evidence foundation
+`CERT-PPS-000044`
 
-- `CERT-EKS-000169`
-- `CERT-EKS-000170`
-
-## Regulatory headline
-
-**IDENTITY-SENSITIVE SUPPLIER PRODUCT FAMILY / NO UNIVERSAL APPROVAL OR ORGAN-TREATMENT CLAIM**
-
-## Catalogue pricing
+## Catalogue records
 
 | Code | Specification | USD per kit |
 |---|---|---:|
 | LI20 | 20 mg x 10 vials | $118 |
 
-## Canonical molecule identity closed
+## Critical controls
 
-**No**
+- KEDA literature identity is not LI20 analytical proof
+- Do not transfer liver-extract or Ventvil evidence
+- Human-serum in-vitro experiments are not human treatment evidence
+- No hepatitis, fibrosis, detoxification or longevity claim
+- No dosing, injection or reconstitution protocol
 
-## Product-quality boundary
+## Certification state
 
-The catalogue does not provide the sequence, stereochemistry, terminal chemistry, molecular mass, manufacturer reference standard, purity, sterility or authorised status.
-
-## Validated universal human dosing protocol
-
-**No**
-
-## Certification blockers
-
-- Complete amino-acid sequence and stereochemistry
-- N- and C-terminal chemistry
-- Molecular formula, mass and reference standard
-- Direct primary publication linkage
-- Independent human evidence
-- Current product- and jurisdiction-specific regulatory status
-- Supplier identity, purity and sterility
-
-## Platinum Certified
-
-**No**
+- Reference literature sequence anchored: **Yes**
+- Supplier sequence verified: **No**
+- Terminal chemistry and salt verified: **No**
+- Quality verified: **No**
+- Sterility verified: **No**
+- Controlled human clinical equivalence: **No**
+- Direct-sale gate: **Blocked**
+- Platinum Certified: **No**

@@ -1,28 +1,34 @@
 # CERTIAURA CHANGE LOG
 
-## Build 0033B — Biologic, Glycoprotein & Mixture Identity Closure
+## Build 0033C — Senolytic & Short Regulatory Peptide Identity Closure
 **Date:** 2026-07-16
 
 Updated existing assets:
 
-- CERT-PKS-000028
-- CERT-PKS-000032–000033
-- CERT-PKS-000044
-- CERT-PKS-000052
-- CERT-PKS-000063
+- CERT-PKS-000064
+- CERT-PKS-000066
+- CERT-PKS-000068–000071
 
 Allocated:
 
-- CERT-PPS-000033–000038
-- CERT-EKS-000297–000308
+- CERT-PPS-000039–000044
+- CERT-EKS-000309–000320
 
-Meaningful closures:
+Reference sequences anchored:
 
-- PEG-MGF versus defined non-PEGylated MGF E-domain research;
-- urinary versus recombinant hCG boundary;
-- MENOPUR-specific FSH/LH activity boundary;
-- branded Cerebrolysin versus CBL60;
-- Thymalin extract-mixture identity;
-- native Humanin versus analogue and HU10 identity.
+- FOXO4-DRI — 46-residue all-D FOXO4/TAT construct
+- Vilon — KE
+- Bronchogen — AEDL
+- Cardiogen — AEDR
+- Cortagen — AEDP
+- Livagen — KEDA
+
+Remaining blocks:
+
+- supplier sequence and stereochemistry;
+- termini, salt and analytical identity;
+- quality and sterility;
+- controlled human evidence;
+- regulatory and commercial release.
 
 No product-family UAI, treatment protocol, administration protocol or Platinum certification was created.

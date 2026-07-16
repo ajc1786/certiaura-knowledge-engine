@@ -8,53 +8,53 @@
 
 # CERT-PKS-000064 — FOXO4-DRI Supplier Product Family
 
-**Version:** 0.1.0  
-**Status:** CATALOGUE REVIEWED / EVIDENCE FOUNDATION CREATED / NOT PLATINUM CERTIFIED  
+**Version:** 0.2.0  
+**Priority:** P1  
+**Status:** EVIDENCE CLOSURE WAVE 7 / SEQUENCE OR SUPPLIER-EQUIVALENCE BLOCK ACTIVE  
 **Last Review:** 2026-07-16
 
-## Classification
+## Reference sequence
 
-Identity-sensitive retro-inverso D-peptide senolytic research construct
+**ltlrkepaseiaqsileaysqngwanrrsggkrppprrrqrrkkrg — 46 residues; all D-amino acids; D-retro-inverso FOXO4 region fused to HIV-TAT**
 
-## Mechanism
+## Closure state
 
-Experimental disruption of FOXO4-p53 interactions in selected senescent-cell models, intended to promote p53-dependent apoptosis.
+**PARTIAL CLOSURE — PUBLISHED 46-RESIDUE ALL-D FOXO4-DRI/TAT REFERENCE SEQUENCE AND PRECLINICAL MECHANISM IDENTIFIED; F410 SEQUENCE, SALT, PURITY, POTENCY, STERILITY, HUMAN SAFETY AND PRODUCT EQUIVALENCE OPEN**
 
-## Evidence maturity
+## Authoritative or primary-source boundary
 
-Cell and animal preclinical evidence beginning with the 2017 senescent-cell elimination programme; adequate human intervention evidence is not established.
+Primary studies describe FOXO4-DRI as an all-D retro-inverso FOXO4-derived peptide fused to an HIV-TAT cell-penetrating sequence. A 2025 primary study reports the 46-residue sequence `ltlrkepaseiaqsileaysqngwanrrsggkrppprrrqrrkkrg` in D-isoform. The programme remains cellular and animal research; it does not establish an authorised medicine or equivalence of the F410 catalogue material.
 
-## Evidence foundation
+## New closure evidence
 
-- `CERT-EKS-000155`
-- `CERT-EKS-000156`
+- `CERT-EKS-000309`
+- `CERT-EKS-000310`
 
-## Regulatory headline
+## Product Passport
 
-**EXPERIMENTAL PRECLINICAL SENOLYTIC / NO HUMAN ANTI-AGEING OR APPROVAL CLAIM**
+`CERT-PPS-000039`
 
-## Catalogue pricing
+## Catalogue records
 
 | Code | Specification | USD per kit |
 |---|---|---:|
 | F410 | 10 mg x 10 vials | $431 |
 
-## Product-quality boundary
+## Critical controls
 
-The catalogue does not establish exact sequence, stereochemistry, terminal chemistry, purity, sterility, potency, approval or equivalence to published materials.
+- F410 is not assumed to match the published 46-residue material
+- All-D stereochemistry and sequence order are identity-critical
+- TAT fusion is part of the studied construct
+- Cell and animal senolysis does not establish human anti-ageing efficacy
+- No senolytic, longevity, dosing, injection or reconstitution protocol
 
-## Validated universal human dosing protocol
+## Certification state
 
-**No**
-
-## Certification blockers
-
-- Complete D-amino-acid sequence
-- Retro-inverso design and cell-penetrating component
-- Human PK, efficacy and safety
-- Off-target p53 and normal-tissue toxicity
-- Supplier identity, purity, aggregation and sterility
-
-## Platinum Certified
-
-**No**
+- Reference literature sequence anchored: **Yes**
+- Supplier sequence verified: **No**
+- Terminal chemistry and salt verified: **No**
+- Quality verified: **No**
+- Sterility verified: **No**
+- Controlled human clinical equivalence: **No**
+- Direct-sale gate: **Blocked**
+- Platinum Certified: **No**

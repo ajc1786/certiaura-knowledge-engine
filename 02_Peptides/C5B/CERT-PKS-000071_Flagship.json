@@ -3,8 +3,8 @@
   "asset_name": "Livagen",
   "knowledge_system": "PKS",
   "asset_type": "Supplier Product-Family Knowledge Asset",
-  "version": "0.1.0",
-  "status": "CATALOGUE REVIEWED / IDENTITY GAP OPEN / NOT PLATINUM CERTIFIED",
+  "version": "0.2.0",
+  "status": "P1 EVIDENCE CLOSURE WAVE 7 / SEQUENCE OR SUPPLIER-EQUIVALENCE BLOCK ACTIVE / NOT PLATINUM CERTIFIED",
   "owner": "Aidan Coleman",
   "last_review": "2026-07-16",
   "aliases": [
@@ -87,6 +87,21 @@
       "source": "CERT-PKS-000071",
       "relationship": "HAS_SAFETY",
       "target": "CERT-SKS-000076"
+    },
+    {
+      "source": "CERT-PKS-000071",
+      "relationship": "HAS_PASSPORT",
+      "target": "CERT-PPS-000044"
+    },
+    {
+      "source": "CERT-PKS-000071",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000319"
+    },
+    {
+      "source": "CERT-PKS-000071",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000320"
     }
   ],
   "canonical_molecule_identity_closed": false,
@@ -101,5 +116,26 @@
     "Independent human evidence",
     "Current product- and jurisdiction-specific regulatory status",
     "Supplier identity, purity and sterility"
+  ],
+  "closure_wave": "0033C",
+  "closure_priority": "P1",
+  "closure_class": "KEDA TETRAPEPTIDE / HEPATIC POSITIONING AND HUMAN TRANSLATION",
+  "closure_state": "PARTIAL CLOSURE — LIVAGEN LITERATURE IDENTITY LYS-GLU-ASP-ALA (KEDA) AND IN-VITRO/ANIMAL PROGRAMME IDENTIFIED; LI20 TERMINI, SALT, ANALYTICAL IDENTITY, STERILITY AND CONTROLLED HUMAN BENEFIT OPEN",
+  "authoritative_product_boundary": "Primary literature identifies Livagen as Lys-Glu-Asp-Ala (KEDA) and reports in-vitro human-serum enzyme experiments, animal digestive-enzyme studies and chromatin/cell research. These records do not establish an authorised liver medicine or analytical and clinical equivalence of LI20.",
+  "product_passport": "CERT-PPS-000044",
+  "canonical_reference_sequence": "KEDA",
+  "canonical_reference_sequence_description": "Lys-Glu-Asp-Ala",
+  "supplier_sequence_verified": false,
+  "terminal_chemistry_verified": false,
+  "quality_verified": false,
+  "sterility_verified": false,
+  "human_clinical_equivalence": false,
+  "authorised_product_equivalence": false,
+  "critical_closure_controls": [
+    "KEDA literature identity is not LI20 analytical proof",
+    "Do not transfer liver-extract or Ventvil evidence",
+    "Human-serum in-vitro experiments are not human treatment evidence",
+    "No hepatitis, fibrosis, detoxification or longevity claim",
+    "No dosing, injection or reconstitution protocol"
   ]
 }

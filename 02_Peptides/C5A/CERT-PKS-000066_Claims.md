@@ -10,10 +10,11 @@
 
 | Claim | Permission |
 |---|---|
-| Vilon Supplier Product Family is classified as identity-sensitive short regulatory peptide product family. | Allowed |
-| SHORT REGULATORY PEPTIDE / IDENTITY AND REGIONAL-STATUS VERIFICATION REQUIRED | Allowed as a dated controlled headline |
-| The supplier product matches published experimental material. | Not established / not allowed |
-| A universal human longevity or dosing protocol is validated. | Not established / not allowed |
-| The asset is Platinum Certified. | False / not allowed |
+| The literature reference sequence is `KE`. | Allowed with source and supplier non-equivalence |
+| Primary literature consistently identifies Vilon as the dipeptide Lys-Glu (KE). The published programme is dominated by cell, organotypic and animal studies. Those records do not prove that VI20 is the same terminal form, salt, grade, sterile product or clinically validated preparation. | Allowed as a controlled boundary |
+| The supplier vial is analytically identical to the literature material. | False / prohibited |
+| Cell, animal or organotypic evidence proves human therapeutic efficacy. | False / prohibited |
+| A treatment, anti-ageing, organ-repair, dosing, injection or reconstitution protocol is validated. | False / prohibited |
+| The asset is Platinum Certified. | False / prohibited |
 
 **Status as of:** 2026-07-16
