@@ -1,0 +1,38 @@
+Asset UAI,Asset Name,Jurisdiction,Authority,Current Controlled Position,Monitoring,Status Date
+CERT-PKS-000011,Semaglutide,United States,FDA,"Approved product contexts exist; exact product, route and indication require current label capture.",ACTIVE,2026-07-16
+CERT-PKS-000011,Semaglutide,United Kingdom,MHRA / UK medicines framework,Approved prescription-product contexts exist; current product-specific authorisation must govern claims.,ACTIVE,2026-07-16
+CERT-PKS-000011,Semaglutide,European Union,EMA / European Commission,Authorised product contexts exist; current EPAR and product information must govern claims.,ACTIVE,2026-07-16
+CERT-PKS-000011,Semaglutide,International sport,WADA,Current athlete-specific verification required before any permitted-status statement.,EVENT-TRIGGERED,2026-07-16
+CERT-PKS-000012,Tirzepatide,United States,FDA,"Approved product contexts exist; exact product, route and indication require current label capture.",ACTIVE,2026-07-16
+CERT-PKS-000012,Tirzepatide,United Kingdom,MHRA / UK medicines framework,Approved prescription-product contexts exist; current product-specific authorisation must govern claims.,ACTIVE,2026-07-16
+CERT-PKS-000012,Tirzepatide,European Union,EMA / European Commission,Authorised product contexts exist; current EPAR and product information must govern claims.,ACTIVE,2026-07-16
+CERT-PKS-000012,Tirzepatide,International sport,WADA,Current athlete-specific verification required before any permitted-status statement.,EVENT-TRIGGERED,2026-07-16
+CERT-PKS-000013,Cagrilintide,United States,FDA,"No approval claim; current investigational, compounding and enforcement status requires monitoring.",ACTIVE,2026-07-16
+CERT-PKS-000013,Cagrilintide,United Kingdom,MHRA,No marketing-authorisation claim.,ACTIVE,2026-07-16
+CERT-PKS-000013,Cagrilintide,European Union,EMA / European Commission,No marketing-authorisation claim.,ACTIVE,2026-07-16
+CERT-PKS-000013,Cagrilintide,International sport,WADA,Do not present as athlete-permitted without current authoritative verification.,ACTIVE,2026-07-16
+CERT-PKS-000014,Mazdutide,China,NMPA,Approved product context identified; authoritative label and indication capture required.,ACTIVE,2026-07-16
+CERT-PKS-000014,Mazdutide,United States,FDA,No approval claim.,ACTIVE,2026-07-16
+CERT-PKS-000014,Mazdutide,United Kingdom,MHRA,No approval claim.,ACTIVE,2026-07-16
+CERT-PKS-000014,Mazdutide,European Union,EMA / European Commission,No approval claim.,ACTIVE,2026-07-16
+CERT-PKS-000014,Mazdutide,International sport,WADA,Current athlete-specific verification required.,EVENT-TRIGGERED,2026-07-16
+CERT-PKS-000015,Survodutide,United States,FDA,"No approval claim; current investigational, compounding and enforcement status requires monitoring.",ACTIVE,2026-07-16
+CERT-PKS-000015,Survodutide,United Kingdom,MHRA,No marketing-authorisation claim.,ACTIVE,2026-07-16
+CERT-PKS-000015,Survodutide,European Union,EMA / European Commission,No marketing-authorisation claim.,ACTIVE,2026-07-16
+CERT-PKS-000015,Survodutide,International sport,WADA,Do not present as athlete-permitted without current authoritative verification.,ACTIVE,2026-07-16
+CERT-PKS-000016,Liraglutide,United States,FDA,"Approved product contexts exist; exact product, route and indication require current label capture.",ACTIVE,2026-07-16
+CERT-PKS-000016,Liraglutide,United Kingdom,MHRA / UK medicines framework,Approved prescription-product contexts exist; current product-specific authorisation must govern claims.,ACTIVE,2026-07-16
+CERT-PKS-000016,Liraglutide,European Union,EMA / European Commission,Authorised product contexts exist; current EPAR and product information must govern claims.,ACTIVE,2026-07-16
+CERT-PKS-000016,Liraglutide,International sport,WADA,Current athlete-specific verification required before any permitted-status statement.,EVENT-TRIGGERED,2026-07-16
+CERT-PKS-000017,AOD9604,United States,FDA,"No approval claim; current investigational, compounding and enforcement status requires monitoring.",ACTIVE,2026-07-16
+CERT-PKS-000017,AOD9604,United Kingdom,MHRA,No marketing-authorisation claim.,ACTIVE,2026-07-16
+CERT-PKS-000017,AOD9604,European Union,EMA / European Commission,No marketing-authorisation claim.,ACTIVE,2026-07-16
+CERT-PKS-000017,AOD9604,International sport,WADA,Do not present as athlete-permitted without current authoritative verification.,ACTIVE,2026-07-16
+CERT-PKS-000018,Adipotide,United States,FDA,"No approval claim; current investigational, compounding and enforcement status requires monitoring.",ACTIVE,2026-07-16
+CERT-PKS-000018,Adipotide,United Kingdom,MHRA,No marketing-authorisation claim.,ACTIVE,2026-07-16
+CERT-PKS-000018,Adipotide,European Union,EMA / European Commission,No marketing-authorisation claim.,ACTIVE,2026-07-16
+CERT-PKS-000018,Adipotide,International sport,WADA,Do not present as athlete-permitted without current authoritative verification.,ACTIVE,2026-07-16
+CERT-PKS-000019,HGH Fragment 176-191,United States,FDA,"No approval claim; current investigational, compounding and enforcement status requires monitoring.",ACTIVE,2026-07-16
+CERT-PKS-000019,HGH Fragment 176-191,United Kingdom,MHRA,No marketing-authorisation claim.,ACTIVE,2026-07-16
+CERT-PKS-000019,HGH Fragment 176-191,European Union,EMA / European Commission,No marketing-authorisation claim.,ACTIVE,2026-07-16
+CERT-PKS-000019,HGH Fragment 176-191,International sport,WADA,Do not present as athlete-permitted without current authoritative verification.,ACTIVE,2026-07-16

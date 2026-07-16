@@ -1,0 +1,20 @@
+{
+  "asset_id": "CERT-EKS-000055",
+  "asset_name": "Mazdutide Phase 1b and Mechanism Evidence",
+  "knowledge_system": "EKS",
+  "asset_type": "Evidence Object",
+  "version": "0.1.0",
+  "status": "PRIMARY PUBLICATIONS IDENTIFIED — EXTRACTION REQUIRED",
+  "root_asset": "CERT-PKS-000014",
+  "source_domain": "IBI362 phase 1b obesity and type 2 diabetes publications",
+  "evidence_type": "Human early clinical evidence",
+  "direct_complete_extraction": false,
+  "last_review": "2026-07-16",
+  "permitted_use": "Evidence mapping and cautious source-status reporting.",
+  "prohibited_use": [
+    "Precise unsupported effect-size claims",
+    "Personal dosing or reconstitution guidance",
+    "Transfer between approved medicines and supplier powder products",
+    "Transfer between distinct molecules or formulations"
+  ]
+}

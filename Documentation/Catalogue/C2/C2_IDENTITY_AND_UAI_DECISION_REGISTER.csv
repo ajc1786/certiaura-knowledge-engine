@@ -1,0 +1,12 @@
+Item,Decision,UAI,Reason
+Semaglutide,ALLOCATE,CERT-PKS-000011,Canonical identity sufficiently clear for asset bootstrap
+Tirzepatide,ALLOCATE,CERT-PKS-000012,Canonical identity sufficiently clear for asset bootstrap
+Cagrilintide,ALLOCATE,CERT-PKS-000013,Canonical identity sufficiently clear for asset bootstrap
+Mazdutide,ALLOCATE,CERT-PKS-000014,Canonical identity sufficiently clear for asset bootstrap
+Survodutide,ALLOCATE,CERT-PKS-000015,Canonical identity sufficiently clear for asset bootstrap
+Liraglutide,ALLOCATE,CERT-PKS-000016,Canonical identity sufficiently clear for asset bootstrap
+AOD9604,ALLOCATE,CERT-PKS-000017,Canonical identity sufficiently clear for asset bootstrap
+Adipotide,ALLOCATE,CERT-PKS-000018,Canonical identity sufficiently clear for asset bootstrap
+HGH Fragment 176-191,ALLOCATE,CERT-PKS-000019,Canonical identity sufficiently clear for asset bootstrap
+Retatrutide,REFERENCE EXISTING,CERT-PKS-000001,Existing canonical asset
+GLP-1 5 mg catalogue listing,WITHHOLD UAI,,"Exact GLP-1 sequence, form and formulation are not specified"

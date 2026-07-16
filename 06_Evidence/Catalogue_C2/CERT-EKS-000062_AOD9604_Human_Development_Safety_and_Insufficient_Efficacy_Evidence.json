@@ -1,0 +1,20 @@
+{
+  "asset_id": "CERT-EKS-000062",
+  "asset_name": "AOD9604 Human Development, Safety and Insufficient Efficacy Evidence",
+  "knowledge_system": "EKS",
+  "asset_type": "Evidence Object",
+  "version": "0.1.0",
+  "status": "PROGRAMME IDENTIFIED — DIRECT PRIMARY CLOSURE REQUIRED",
+  "root_asset": "CERT-PKS-000017",
+  "source_domain": "Human safety/tolerability and terminated obesity-development source set",
+  "evidence_type": "Human development evidence",
+  "direct_complete_extraction": false,
+  "last_review": "2026-07-16",
+  "permitted_use": "Evidence mapping and cautious source-status reporting.",
+  "prohibited_use": [
+    "Precise unsupported effect-size claims",
+    "Personal dosing or reconstitution guidance",
+    "Transfer between approved medicines and supplier powder products",
+    "Transfer between distinct molecules or formulations"
+  ]
+}

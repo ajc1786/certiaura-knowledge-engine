@@ -1,27 +1,62 @@
 Universal Asset Identifier,Asset Name,Knowledge System,Asset Type,Status,Owner,Completion %,Parent Assets,Child Assets,Relationship List,Evidence Links,Report Links,Marketplace Links,Last Review,Next Review,Notes
-CERT-PKS-000001,Retatrutide,PKS,Peptide Knowledge Asset,Consolidated — Not Platinum Certified,Aidan Coleman,,,,,,,,2026-07-16,,Existing
-CERT-PKS-000002,BPC-157,PKS,Peptide Knowledge Asset,Preclinical Evidence Structured — Human Evidence Sparse — Not Platinum Certified,Aidan Coleman,,,,,,,,2026-07-16,,Existing
-CERT-PKS-000003,Tesamorelin,PKS,Peptide Knowledge Asset,Batch A Expanded — Not Platinum Certified,Aidan Coleman,,,,,,,,2026-07-16,,Existing
-CERT-PKS-000004,CJC-1295,PKS,Peptide Knowledge Asset,Batch A Expanded — Not Platinum Certified,Aidan Coleman,,,,,,,,2026-07-16,,Existing
-CERT-PKS-000005,Ipamorelin,PKS,Peptide Knowledge Asset,Batch A Expanded — Not Platinum Certified,Aidan Coleman,,,,,,,,2026-07-16,,Existing
-CERT-PKS-000006,MOTS-c,PKS,Peptide Knowledge Asset,Batch A Expanded — Not Platinum Certified,Aidan Coleman,,,,,,,,2026-07-16,,Existing
-CERT-PKS-000007,GHK-Cu,PKS,Peptide Knowledge Asset,FOUNDATIONAL AND PRECLINICAL EVIDENCE STRUCTURED — HUMAN TOPICAL CLOSURE PARTIAL — INJECTABLE EVIDENCE INSUFFICIENT — NOT PLATINUM CERTIFIED,Aidan Coleman,,,,,,,,2026-07-16,,Build 0019
-CERT-PKS-000008,Thymosin Beta-4 / TB-500 Identity Family,PKS,Peptide Knowledge Asset,IDENTITY AND ANALYTICAL EVIDENCE STRUCTURED — FULL-LENGTH HUMAN CLINICAL CLOSURE PARTIAL — TB-500 HUMAN EVIDENCE INSUFFICIENT — NOT PLATINUM CERTIFIED,Aidan Coleman,,,,,,,,2026-07-16,,Build 0019
-CERT-PKS-000009,Melanotan II,PKS,Peptide Knowledge Asset,EARLY HUMAN PHARMACOLOGY IDENTIFIED — SAFETY WARNING PRIORITY — UNAPPROVED — NOT PLATINUM CERTIFIED,Aidan Coleman,,,,,,,,2026-07-16,,Build 0019
-CERT-PKS-000010,Epitalon,PKS,Peptide Knowledge Asset,IN-VITRO AND ANIMAL EVIDENCE STRUCTURED — HUMAN LONGEVITY EVIDENCE UNRESOLVED — NOT PLATINUM CERTIFIED,Aidan Coleman,,,,,,,,2026-07-16,,Build 0019
-CERT-EKS-000037,GHK-Cu Foundational Identity and Copper-Binding Evidence,EKS,Evidence Object,FOUNDATIONAL PRIMARY IDENTITIES CONFIRMED — QUANTITATIVE EXTRACTION OPEN,Aidan Coleman,,CERT-PKS-000007,,,,,,2026-07-16,,Root: CERT-PKS-000007
-CERT-EKS-000038,GHK-Cu Wound-Healing and Matrix-Remodelling Preclinical Evidence,EKS,Evidence Object,PRIMARY PRECLINICAL PUBLICATIONS IDENTIFIED — FULL EXTRACTION OPEN,Aidan Coleman,,CERT-PKS-000007,,,,,,2026-07-16,,Root: CERT-PKS-000007
-CERT-EKS-000039,GHK-Cu Human Topical and Hair Evidence Lead,EKS,Evidence Object,HUMAN EVIDENCE LEAD — PRIMARY CONTROLLED SOURCES NOT CLOSED,Aidan Coleman,,CERT-PKS-000007,,,,,,2026-07-16,,Root: CERT-PKS-000007
-CERT-EKS-000040,Thymosin Beta-4 Structure and Actin-Binding Evidence,EKS,Evidence Object,PRIMARY STRUCTURE AND MECHANISM IDENTITIES CONFIRMED,Aidan Coleman,,CERT-PKS-000008,,,,,,2026-07-16,,Root: CERT-PKS-000008
-CERT-EKS-000041,Thymosin Beta-4 Human Wound and Ocular Evidence,EKS,Evidence Object,HUMAN CLINICAL PROGRAMME IDENTIFIED — PRIMARY ARTICLE EXTRACTION OPEN,Aidan Coleman,,CERT-PKS-000008,,,,,,2026-07-16,,Root: CERT-PKS-000008
-CERT-EKS-000042,TB-500 Fragment Identity and Detection Evidence,EKS,Evidence Object,PRIMARY ANALYTICAL IDENTITIES CONFIRMED — FULL METHODS EXTRACTION OPEN,Aidan Coleman,,CERT-PKS-000008,,,,,,2026-07-16,,Root: CERT-PKS-000008
-CERT-EKS-000043,Melanotan II Early Human Pharmacology,EKS,Evidence Object,PRIMARY HUMAN PUBLICATION IDENTITIES AND DESIGNS CONFIRMED — FULL EXTRACTION OPEN,Aidan Coleman,,CERT-PKS-000009,,,,,,2026-07-16,,Root: CERT-PKS-000009
-CERT-EKS-000044,Melanotan II Adverse-Event and Case-Report Evidence,EKS,Evidence Object,SAFETY EVIDENCE MAP ACTIVE — CASE REPORT EXTRACTION PARTIAL,Aidan Coleman,,CERT-PKS-000009,,,,,,2026-07-16,,Root: CERT-PKS-000009
-CERT-EKS-000045,Melanotan II Regulator Warning Evidence,EKS,Evidence Object,REGULATOR-WARNING DOMAIN CONFIRMED — CURRENT SOURCE REFRESH REQUIRED,Aidan Coleman,,CERT-PKS-000009,,,,,,2026-07-16,,Root: CERT-PKS-000009
-CERT-EKS-000046,Epitalon Telomerase and Telomere Mechanistic Evidence,EKS,Evidence Object,PRIMARY IN-VITRO PUBLICATION IDENTITIES CONFIRMED — FULL METHODS EXTRACTION OPEN,Aidan Coleman,,CERT-PKS-000010,,,,,,2026-07-16,,Root: CERT-PKS-000010
-CERT-EKS-000047,Epitalon Animal Ageing and Carcinogenesis Evidence,EKS,Evidence Object,PRIMARY ANIMAL PUBLICATION IDENTITIES CONFIRMED — FULL EXTRACTION OPEN,Aidan Coleman,,CERT-PKS-000010,,,,,,2026-07-16,,Root: CERT-PKS-000010
-CERT-EKS-000048,Epitalon Human Longevity and Circadian Evidence Lead,EKS,Evidence Object,HUMAN PUBLICATION IDENTITIES PARTIAL — EPITALON / EPITHALAMIN SEPARATION REQUIRED,Aidan Coleman,,CERT-PKS-000010,,,,,,2026-07-16,,Root: CERT-PKS-000010
-CERT-SKS-000012,"GHK-Cu Route, Copper and Product-Quality Uncertainty",SKS,Safety Knowledge Object,Active safety control,Aidan Coleman,,CERT-PKS-000007,,,,,,2026-07-16,,Build 0019
-CERT-SKS-000013,"Thymosin Beta-4 / TB-500 Identity, Doping and Human-Safety Uncertainty",SKS,Safety Knowledge Object,Active safety control,Aidan Coleman,,CERT-PKS-000008,,,,,,2026-07-16,,Build 0019
-CERT-SKS-000014,"Melanotan II Dermatological, Cardiovascular and Priapism Risk",SKS,Safety Knowledge Object,Active safety control,Aidan Coleman,,CERT-PKS-000009,,,,,,2026-07-16,,Build 0019
-CERT-SKS-000015,Epitalon Human Evidence and Long-Term Safety Insufficiency,SKS,Safety Knowledge Object,Active safety control,Aidan Coleman,,CERT-PKS-000010,,,,,,2026-07-16,,Build 0019
+CERT-PKS-000001,Retatrutide,PKS,Peptide Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
+CERT-PKS-000002,BPC-157,PKS,Peptide Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
+CERT-PKS-000003,Tesamorelin,PKS,Peptide Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
+CERT-PKS-000004,CJC-1295,PKS,Peptide Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
+CERT-PKS-000005,Ipamorelin,PKS,Peptide Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
+CERT-PKS-000006,MOTS-c,PKS,Peptide Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
+CERT-PKS-000007,GHK-Cu,PKS,Peptide Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
+CERT-PKS-000008,Thymosin Beta-4 / TB-500 Identity Family,PKS,Peptide Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
+CERT-PKS-000009,Melanotan II,PKS,Peptide Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
+CERT-PKS-000010,Epitalon,PKS,Peptide Knowledge Asset,Existing,Aidan Coleman,,,,,,,,2026-07-16,,Previous build
+CERT-PKS-000011,Semaglutide,PKS,Peptide Knowledge Asset,Catalogue Reviewed — Not Platinum Certified,Aidan Coleman,,,,,,,,2026-07-16,,Build 0021
+CERT-PKS-000012,Tirzepatide,PKS,Peptide Knowledge Asset,Catalogue Reviewed — Not Platinum Certified,Aidan Coleman,,,,,,,,2026-07-16,,Build 0021
+CERT-PKS-000013,Cagrilintide,PKS,Peptide Knowledge Asset,Catalogue Reviewed — Not Platinum Certified,Aidan Coleman,,,,,,,,2026-07-16,,Build 0021
+CERT-PKS-000014,Mazdutide,PKS,Peptide Knowledge Asset,Catalogue Reviewed — Not Platinum Certified,Aidan Coleman,,,,,,,,2026-07-16,,Build 0021
+CERT-PKS-000015,Survodutide,PKS,Peptide Knowledge Asset,Catalogue Reviewed — Not Platinum Certified,Aidan Coleman,,,,,,,,2026-07-16,,Build 0021
+CERT-PKS-000016,Liraglutide,PKS,Peptide Knowledge Asset,Catalogue Reviewed — Not Platinum Certified,Aidan Coleman,,,,,,,,2026-07-16,,Build 0021
+CERT-PKS-000017,AOD9604,PKS,Peptide Knowledge Asset,Catalogue Reviewed — Not Platinum Certified,Aidan Coleman,,,,,,,,2026-07-16,,Build 0021
+CERT-PKS-000018,Adipotide,PKS,Peptide Knowledge Asset,Catalogue Reviewed — Not Platinum Certified,Aidan Coleman,,,,,,,,2026-07-16,,Build 0021
+CERT-PKS-000019,HGH Fragment 176-191,PKS,Peptide Knowledge Asset,Catalogue Reviewed — Not Platinum Certified,Aidan Coleman,,,,,,,,2026-07-16,,Build 0021
+CERT-BKS-000044,Amylin,BKS,Biology Knowledge Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0021
+CERT-BKS-000045,Amylin Receptor Signalling,BKS,Biology Knowledge Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0021
+CERT-BKS-000046,Calcitonin Receptor Family,BKS,Biology Knowledge Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0021
+CERT-BKS-000047,Human Growth Hormone C-Terminal Fragment Biology,BKS,Biology Knowledge Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0021
+CERT-BKS-000048,Beta-3 Adrenergic and Lipolytic Signalling,BKS,Biology Knowledge Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0021
+CERT-BKS-000049,Prohibitin-Associated Adipose Vasculature Targeting,BKS,Biology Knowledge Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0021
+CERT-MKS-000028,Pancreatitis and Gallbladder Signal Monitoring,MKS,Monitoring Knowledge Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0021
+CERT-MKS-000029,Thyroid C-Cell and Neck-Symptom Context,MKS,Monitoring Knowledge Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0021
+CERT-MKS-000030,Renal Function and Hydration Status,MKS,Monitoring Knowledge Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0021
+CERT-MKS-000031,Diabetic Retinopathy and Rapid Glycaemic Change,MKS,Monitoring Knowledge Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0021
+CERT-MKS-000032,Cachexia and Unintended Lean-Tissue Loss,MKS,Monitoring Knowledge Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0021
+CERT-MKS-000033,Renal and Organ Toxicity Surveillance,MKS,Monitoring Knowledge Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0021
+CERT-GKS-000013,Glycaemic Control,GKS,Goal Knowledge Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0021
+CERT-GKS-000014,Obesity Pharmacotherapy,GKS,Goal Knowledge Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0021
+CERT-GKS-000015,Liver Metabolic Health,GKS,Goal Knowledge Object,Foundation,Aidan Coleman,,,,,,,,2026-07-16,,Build 0021
+CERT-SKS-000016,"Semaglutide Product-Label, Gastrointestinal and Metabolic Safety",SKS,Safety Knowledge Object,Active,Aidan Coleman,,CERT-PKS-000011,,,,,,2026-07-16,,Build 0021
+CERT-SKS-000017,"Tirzepatide Product-Label, Gastrointestinal and Metabolic Safety",SKS,Safety Knowledge Object,Active,Aidan Coleman,,CERT-PKS-000012,,,,,,2026-07-16,,Build 0021
+CERT-SKS-000018,Cagrilintide Investigational Gastrointestinal and Combination-Translation Uncertainty,SKS,Safety Knowledge Object,Active,Aidan Coleman,,CERT-PKS-000013,,,,,,2026-07-16,,Build 0021
+CERT-SKS-000019,Mazdutide Product-Jurisdiction and Dual-Agonist Safety Context,SKS,Safety Knowledge Object,Active,Aidan Coleman,,CERT-PKS-000014,,,,,,2026-07-16,,Build 0021
+CERT-SKS-000020,Survodutide Late-Stage Gastrointestinal and Discontinuation Risk,SKS,Safety Knowledge Object,Active,Aidan Coleman,,CERT-PKS-000015,,,,,,2026-07-16,,Build 0021
+CERT-SKS-000021,"Liraglutide Product-Label, Gastrointestinal and Metabolic Safety",SKS,Safety Knowledge Object,Active,Aidan Coleman,,CERT-PKS-000016,,,,,,2026-07-16,,Build 0021
+CERT-SKS-000022,"AOD9604 Insufficient Efficacy, Product Quality and Athlete Risk",SKS,Safety Knowledge Object,Active,Aidan Coleman,,CERT-PKS-000017,,,,,,2026-07-16,,Build 0021
+CERT-SKS-000023,"Adipotide Renal, Tissue and Human-Safety Uncertainty",SKS,Safety Knowledge Object,Active,Aidan Coleman,,CERT-PKS-000018,,,,,,2026-07-16,,Build 0021
+CERT-SKS-000024,HGH Fragment 176-191 Human Evidence and Product-Identity Insufficiency,SKS,Safety Knowledge Object,Active,Aidan Coleman,,CERT-PKS-000019,,,,,,2026-07-16,,Build 0021
+CERT-EKS-000049,Semaglutide Authorised Product and Label Source Set,EKS,Evidence Object,AUTHORITATIVE CURRENT LABEL CAPTURE REQUIRED,Aidan Coleman,,CERT-PKS-000011,,,,,,2026-07-16,,Root: CERT-PKS-000011
+CERT-EKS-000050,Semaglutide Phase 3 and Cardiovascular Evidence Foundation,EKS,Evidence Object,PRIMARY PROGRAMME IDENTIFIED — EXTRACTION BATCH REQUIRED,Aidan Coleman,,CERT-PKS-000011,,,,,,2026-07-16,,Root: CERT-PKS-000011
+CERT-EKS-000051,Tirzepatide Authorised Product and Label Source Set,EKS,Evidence Object,AUTHORITATIVE CURRENT LABEL CAPTURE REQUIRED,Aidan Coleman,,CERT-PKS-000012,,,,,,2026-07-16,,Root: CERT-PKS-000012
+CERT-EKS-000052,Tirzepatide SURPASS and SURMOUNT Evidence Foundation,EKS,Evidence Object,PRIMARY PROGRAMME IDENTIFIED — EXTRACTION BATCH REQUIRED,Aidan Coleman,,CERT-PKS-000012,,,,,,2026-07-16,,Root: CERT-PKS-000012
+CERT-EKS-000053,Cagrilintide Phase 2 Monotherapy Evidence,EKS,Evidence Object,PRIMARY PUBLICATION IDENTIFIED — EXTRACTION REQUIRED,Aidan Coleman,,CERT-PKS-000013,,,,,,2026-07-16,,Root: CERT-PKS-000013
+CERT-EKS-000054,Cagrilintide Phase 3 and Combination Boundary Evidence,EKS,Evidence Object,PRIMARY PROGRAMME IDENTIFIED — MONOTHERAPY/COMBINATION SEPARATION REQUIRED,Aidan Coleman,,CERT-PKS-000013,,,,,,2026-07-16,,Root: CERT-PKS-000013
+CERT-EKS-000055,Mazdutide Phase 1b and Mechanism Evidence,EKS,Evidence Object,PRIMARY PUBLICATIONS IDENTIFIED — EXTRACTION REQUIRED,Aidan Coleman,,CERT-PKS-000014,,,,,,2026-07-16,,Root: CERT-PKS-000014
+CERT-EKS-000056,Mazdutide Phase 3 and China Authorisation Evidence,EKS,Evidence Object,CHINA APPROVAL CONTEXT IDENTIFIED — AUTHORITATIVE LABEL CAPTURE REQUIRED,Aidan Coleman,,CERT-PKS-000014,,,,,,2026-07-16,,Root: CERT-PKS-000014
+CERT-EKS-000057,Survodutide Phase 2 Obesity and MASH Evidence,EKS,Evidence Object,PRIMARY PUBLICATIONS IDENTIFIED — EXTRACTION REQUIRED,Aidan Coleman,,CERT-PKS-000015,,,,,,2026-07-16,,Root: CERT-PKS-000015
+CERT-EKS-000058,Survodutide Phase 3 and Regulatory Development Evidence,EKS,Evidence Object,LATE-STAGE PROGRAMME IDENTIFIED — SUBMISSION/APPROVAL OPEN,Aidan Coleman,,CERT-PKS-000015,,,,,,2026-07-16,,Root: CERT-PKS-000015
+CERT-EKS-000059,Liraglutide Authorised Product and Label Source Set,EKS,Evidence Object,AUTHORITATIVE CURRENT LABEL CAPTURE REQUIRED,Aidan Coleman,,CERT-PKS-000016,,,,,,2026-07-16,,Root: CERT-PKS-000016
+CERT-EKS-000060,Liraglutide SCALE and LEADER Evidence Foundation,EKS,Evidence Object,PRIMARY PROGRAMME IDENTIFIED — EXTRACTION BATCH REQUIRED,Aidan Coleman,,CERT-PKS-000016,,,,,,2026-07-16,,Root: CERT-PKS-000016
+CERT-EKS-000061,AOD9604 Preclinical Lipolytic Mechanism Evidence,EKS,Evidence Object,PRIMARY PUBLICATIONS IDENTIFIED — EXTRACTION REQUIRED,Aidan Coleman,,CERT-PKS-000017,,,,,,2026-07-16,,Root: CERT-PKS-000017
+CERT-EKS-000062,"AOD9604 Human Development, Safety and Insufficient Efficacy Evidence",EKS,Evidence Object,PROGRAMME IDENTIFIED — DIRECT PRIMARY CLOSURE REQUIRED,Aidan Coleman,,CERT-PKS-000017,,,,,,2026-07-16,,Root: CERT-PKS-000017
+CERT-EKS-000063,Adipotide Non-Human Primate Adipose-Vascular Evidence,EKS,Evidence Object,PRIMARY PUBLICATION IDENTIFIED — EXTRACTION REQUIRED,Aidan Coleman,,CERT-PKS-000018,,,,,,2026-07-16,,Root: CERT-PKS-000018
+CERT-EKS-000064,Adipotide Human Evidence Gap Object,EKS,Evidence Object,OPEN — ADEQUATE HUMAN PRIMARY EVIDENCE NOT ESTABLISHED,Aidan Coleman,,CERT-PKS-000018,,,,,,2026-07-16,,Root: CERT-PKS-000018
+CERT-EKS-000065,HGH Fragment 176-191 Identity and Preclinical Evidence,EKS,Evidence Object,IDENTITY DOMAIN ESTABLISHED — DIRECT PRIMARY CLOSURE REQUIRED,Aidan Coleman,,CERT-PKS-000019,,,,,,2026-07-16,,Root: CERT-PKS-000019
+CERT-EKS-000066,HGH Fragment 176-191 Human Evidence Gap Object,EKS,Evidence Object,OPEN — HUMAN INTERVENTION EVIDENCE NOT ESTABLISHED,Aidan Coleman,,CERT-PKS-000019,,,,,,2026-07-16,,Root: CERT-PKS-000019

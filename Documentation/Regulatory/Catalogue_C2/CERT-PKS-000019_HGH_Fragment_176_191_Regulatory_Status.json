@@ -1,0 +1,36 @@
+{
+  "asset_uai": "CERT-PKS-000019",
+  "asset_name": "HGH Fragment 176-191",
+  "status_as_of": "2026-07-16",
+  "overall_status": "UNAPPROVED / HUMAN EVIDENCE NOT ESTABLISHED",
+  "regulatory_records": [
+    {
+      "jurisdiction": "United States",
+      "authority": "FDA",
+      "current_status": "No approval claim; current investigational, compounding and enforcement status requires monitoring.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Approval, label, safety, enforcement, compounding, trial or anti-doping change"
+    },
+    {
+      "jurisdiction": "United Kingdom",
+      "authority": "MHRA",
+      "current_status": "No marketing-authorisation claim.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Approval, label, safety, enforcement, compounding, trial or anti-doping change"
+    },
+    {
+      "jurisdiction": "European Union",
+      "authority": "EMA / European Commission",
+      "current_status": "No marketing-authorisation claim.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Approval, label, safety, enforcement, compounding, trial or anti-doping change"
+    },
+    {
+      "jurisdiction": "International sport",
+      "authority": "WADA",
+      "current_status": "Do not present as athlete-permitted without current authoritative verification.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Approval, label, safety, enforcement, compounding, trial or anti-doping change"
+    }
+  ]
+}

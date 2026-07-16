@@ -1,28 +1,39 @@
 # CERTIAURA PRODUCTION DASHBOARD
 
-**Build:** 0020  
+**Build:** 0021  
 **Date:** 2026-07-16
 
-## Catalogue intake
+## Catalogue Segment C2 complete
 
-- Source pages reviewed: **1-5**
-- Later steroid pages excluded: **6-13**
-- Preliminary unique product families: **104**
-- Catalogue SKU rows captured: **196**
-- Existing CertiAura asset families cross-referenced: **11**
-- Families requiring explicit identity resolution: **54**
+### New assets allocated
 
-## Review queue
+- CERT-PKS-000011 — Semaglutide
+- CERT-PKS-000012 — Tirzepatide
+- CERT-PKS-000013 — Cagrilintide
+- CERT-PKS-000014 — Mazdutide
+- CERT-PKS-000015 — Survodutide
+- CERT-PKS-000016 — Liraglutide
+- CERT-PKS-000017 — AOD9604
+- CERT-PKS-000018 — Adipotide
+- CERT-PKS-000019 — HGH Fragment 176-191
 
-- Build 0021 - metabolic and incretin-related
-- Build 0022 - growth hormone, IGF and endocrine
-- Build 0023 - neurocognitive and sleep
-- Build 0024 - repair, immune and cosmetic
-- Build 0025 - mitochondrial and longevity
-- Build 0026 - pigmentation and sexual health
-- Build 0027 - blends and supplier combinations
-- Build 0028 - non-peptide, biologic and ancillary items
+### Existing asset retained
 
-## Next production task
+- CERT-PKS-000001 — Retatrutide
 
-**Build 0021 - Catalogue Segment C2: Metabolic and Incretin-Related Asset Review**
+### UAI withheld
+
+- Catalogue listing `GLP-1, 5 mg/vial`
+- Reason: exact peptide sequence, form and formulation unresolved
+
+## Supporting assets
+
+- Evidence Objects: CERT-EKS-000049–000066
+- Safety Objects: CERT-SKS-000016–000024
+- Biology Objects: CERT-BKS-000044–000049
+- Monitoring Objects: CERT-MKS-000028–000033
+- Goal Objects: CERT-GKS-000013–000015
+
+## Next task
+
+**Build 0022 — Catalogue Segment C3: Growth Hormone, IGF & Endocrine Asset Review**

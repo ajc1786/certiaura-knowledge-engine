@@ -1,0 +1,20 @@
+{
+  "asset_id": "CERT-EKS-000065",
+  "asset_name": "HGH Fragment 176-191 Identity and Preclinical Evidence",
+  "knowledge_system": "EKS",
+  "asset_type": "Evidence Object",
+  "version": "0.1.0",
+  "status": "IDENTITY DOMAIN ESTABLISHED — DIRECT PRIMARY CLOSURE REQUIRED",
+  "root_asset": "CERT-PKS-000019",
+  "source_domain": "Unmodified human-growth-hormone residues 176-191 evidence domain",
+  "evidence_type": "Identity / preclinical evidence",
+  "direct_complete_extraction": false,
+  "last_review": "2026-07-16",
+  "permitted_use": "Evidence mapping and cautious source-status reporting.",
+  "prohibited_use": [
+    "Precise unsupported effect-size claims",
+    "Personal dosing or reconstitution guidance",
+    "Transfer between approved medicines and supplier powder products",
+    "Transfer between distinct molecules or formulations"
+  ]
+}

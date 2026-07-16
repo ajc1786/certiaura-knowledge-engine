@@ -1,0 +1,33 @@
+Asset UAI,Asset Name,Catalogue Code,Supplier Specification,Price USD / Kit,Price Provenance,Quality Status
+CERT-PKS-000011,Semaglutide,SM2,2 mg x 10 vials,27,Peptides.pdf supplier catalogue,UNVERIFIED SUPPLIER PRODUCT
+CERT-PKS-000011,Semaglutide,SM5,5 mg x 10 vials,36,Peptides.pdf supplier catalogue,UNVERIFIED SUPPLIER PRODUCT
+CERT-PKS-000011,Semaglutide,SM10,10 mg x 10 vials,50,Peptides.pdf supplier catalogue,UNVERIFIED SUPPLIER PRODUCT
+CERT-PKS-000011,Semaglutide,SM15,15 mg x 10 vials,64,Peptides.pdf supplier catalogue,UNVERIFIED SUPPLIER PRODUCT
+CERT-PKS-000011,Semaglutide,SM20,20 mg x 10 vials,78,Peptides.pdf supplier catalogue,UNVERIFIED SUPPLIER PRODUCT
+CERT-PKS-000011,Semaglutide,SM30,30 mg x 10 vials,108,Peptides.pdf supplier catalogue,UNVERIFIED SUPPLIER PRODUCT
+CERT-PKS-000012,Tirzepatide,TR5,5 mg x 10 vials,35,Peptides.pdf supplier catalogue,UNVERIFIED SUPPLIER PRODUCT
+CERT-PKS-000012,Tirzepatide,TR10,10 mg x 10 vials,51,Peptides.pdf supplier catalogue,UNVERIFIED SUPPLIER PRODUCT
+CERT-PKS-000012,Tirzepatide,TR15,15 mg x 10 vials,62,Peptides.pdf supplier catalogue,UNVERIFIED SUPPLIER PRODUCT
+CERT-PKS-000012,Tirzepatide,TR20,20 mg x 10 vials,84,Peptides.pdf supplier catalogue,UNVERIFIED SUPPLIER PRODUCT
+CERT-PKS-000012,Tirzepatide,TR30,30 mg x 10 vials,107,Peptides.pdf supplier catalogue,UNVERIFIED SUPPLIER PRODUCT
+CERT-PKS-000012,Tirzepatide,TR40,40 mg x 10 vials,140,Peptides.pdf supplier catalogue,UNVERIFIED SUPPLIER PRODUCT
+CERT-PKS-000012,Tirzepatide,TR50,50 mg x 10 vials,169,Peptides.pdf supplier catalogue,UNVERIFIED SUPPLIER PRODUCT
+CERT-PKS-000012,Tirzepatide,TR60,60 mg x 10 vials,197,Peptides.pdf supplier catalogue,UNVERIFIED SUPPLIER PRODUCT
+CERT-PKS-000012,Tirzepatide,TR100,100 mg x 10 vials,301,Peptides.pdf supplier catalogue,UNVERIFIED SUPPLIER PRODUCT
+CERT-PKS-000013,Cagrilintide,CGL5,5 mg x 10 vials,92,Peptides.pdf supplier catalogue,UNVERIFIED SUPPLIER PRODUCT
+CERT-PKS-000013,Cagrilintide,CGL10,10 mg x 10 vials,170,Peptides.pdf supplier catalogue,UNVERIFIED SUPPLIER PRODUCT
+CERT-PKS-000013,Cagrilintide,CGL20,20 mg x 10 vials,295,Peptides.pdf supplier catalogue,UNVERIFIED SUPPLIER PRODUCT
+CERT-PKS-000014,Mazdutide,MDT5,5 mg x 10 vials,93,Peptides.pdf supplier catalogue,UNVERIFIED SUPPLIER PRODUCT
+CERT-PKS-000014,Mazdutide,MDT10,10 mg x 10 vials,185,Peptides.pdf supplier catalogue,UNVERIFIED SUPPLIER PRODUCT
+CERT-PKS-000015,Survodutide,SUR10,10 mg x 10 vials,271,Peptides.pdf supplier catalogue,UNVERIFIED SUPPLIER PRODUCT
+CERT-PKS-000016,Liraglutide,LL5,5 mg x 10 vials,85,Peptides.pdf supplier catalogue,UNVERIFIED SUPPLIER PRODUCT
+CERT-PKS-000016,Liraglutide,LL10,10 mg x 10 vials,135,Peptides.pdf supplier catalogue,UNVERIFIED SUPPLIER PRODUCT
+CERT-PKS-000016,Liraglutide,LL30,30 mg x 10 vials,251,Peptides.pdf supplier catalogue,UNVERIFIED SUPPLIER PRODUCT
+CERT-PKS-000017,AOD9604,2AD,2 mg x 10 vials,53,Peptides.pdf supplier catalogue,UNVERIFIED SUPPLIER PRODUCT
+CERT-PKS-000017,AOD9604,5AD,5 mg x 10 vials,93,Peptides.pdf supplier catalogue,UNVERIFIED SUPPLIER PRODUCT
+CERT-PKS-000017,AOD9604,10AD,10 mg x 10 vials,197,Peptides.pdf supplier catalogue,UNVERIFIED SUPPLIER PRODUCT
+CERT-PKS-000018,Adipotide,AP2,2 mg x 10 vials,95,Peptides.pdf supplier catalogue,UNVERIFIED SUPPLIER PRODUCT
+CERT-PKS-000018,Adipotide,AP5,5 mg x 10 vials,204,Peptides.pdf supplier catalogue,UNVERIFIED SUPPLIER PRODUCT
+CERT-PKS-000019,HGH Fragment 176-191,FR2,2 mg x 10 vials,53,Peptides.pdf supplier catalogue,UNVERIFIED SUPPLIER PRODUCT
+CERT-PKS-000019,HGH Fragment 176-191,FR5,5 mg x 10 vials,99,Peptides.pdf supplier catalogue,UNVERIFIED SUPPLIER PRODUCT
+CERT-PKS-000019,HGH Fragment 176-191,FR10,10 mg x 10 vials,183,Peptides.pdf supplier catalogue,UNVERIFIED SUPPLIER PRODUCT

@@ -1,0 +1,20 @@
+{
+  "asset_id": "CERT-EKS-000054",
+  "asset_name": "Cagrilintide Phase 3 and Combination Boundary Evidence",
+  "knowledge_system": "EKS",
+  "asset_type": "Evidence Object",
+  "version": "0.1.0",
+  "status": "PRIMARY PROGRAMME IDENTIFIED — MONOTHERAPY/COMBINATION SEPARATION REQUIRED",
+  "root_asset": "CERT-PKS-000013",
+  "source_domain": "REDEFINE monotherapy and CagriSema programme records",
+  "evidence_type": "Human phase 3 / identity-boundary evidence",
+  "direct_complete_extraction": false,
+  "last_review": "2026-07-16",
+  "permitted_use": "Evidence mapping and cautious source-status reporting.",
+  "prohibited_use": [
+    "Precise unsupported effect-size claims",
+    "Personal dosing or reconstitution guidance",
+    "Transfer between approved medicines and supplier powder products",
+    "Transfer between distinct molecules or formulations"
+  ]
+}

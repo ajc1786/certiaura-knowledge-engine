@@ -1,0 +1,20 @@
+{
+  "asset_id": "CERT-EKS-000056",
+  "asset_name": "Mazdutide Phase 3 and China Authorisation Evidence",
+  "knowledge_system": "EKS",
+  "asset_type": "Evidence Object",
+  "version": "0.1.0",
+  "status": "CHINA APPROVAL CONTEXT IDENTIFIED — AUTHORITATIVE LABEL CAPTURE REQUIRED",
+  "root_asset": "CERT-PKS-000014",
+  "source_domain": "Phase 3 obesity / diabetes and China authorisation source set",
+  "evidence_type": "Human phase 3 / regulatory evidence",
+  "direct_complete_extraction": false,
+  "last_review": "2026-07-16",
+  "permitted_use": "Evidence mapping and cautious source-status reporting.",
+  "prohibited_use": [
+    "Precise unsupported effect-size claims",
+    "Personal dosing or reconstitution guidance",
+    "Transfer between approved medicines and supplier powder products",
+    "Transfer between distinct molecules or formulations"
+  ]
+}

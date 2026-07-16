@@ -1,0 +1,20 @@
+{
+  "asset_id": "CERT-EKS-000049",
+  "asset_name": "Semaglutide Authorised Product and Label Source Set",
+  "knowledge_system": "EKS",
+  "asset_type": "Evidence Object",
+  "version": "0.1.0",
+  "status": "AUTHORITATIVE CURRENT LABEL CAPTURE REQUIRED",
+  "root_asset": "CERT-PKS-000011",
+  "source_domain": "Official labels / regulatory records",
+  "evidence_type": "Authorised product and indication evidence",
+  "direct_complete_extraction": false,
+  "last_review": "2026-07-16",
+  "permitted_use": "Evidence mapping and cautious source-status reporting.",
+  "prohibited_use": [
+    "Precise unsupported effect-size claims",
+    "Personal dosing or reconstitution guidance",
+    "Transfer between approved medicines and supplier powder products",
+    "Transfer between distinct molecules or formulations"
+  ]
+}

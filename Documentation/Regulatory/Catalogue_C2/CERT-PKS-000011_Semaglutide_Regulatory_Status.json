@@ -1,0 +1,36 @@
+{
+  "asset_uai": "CERT-PKS-000011",
+  "asset_name": "Semaglutide",
+  "status_as_of": "2026-07-16",
+  "overall_status": "APPROVED PRODUCT CONTEXTS EXIST IN MULTIPLE JURISDICTIONS",
+  "regulatory_records": [
+    {
+      "jurisdiction": "United States",
+      "authority": "FDA",
+      "current_status": "Approved product contexts exist; exact product, route and indication require current label capture.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Approval, label, safety, enforcement, compounding, trial or anti-doping change"
+    },
+    {
+      "jurisdiction": "United Kingdom",
+      "authority": "MHRA / UK medicines framework",
+      "current_status": "Approved prescription-product contexts exist; current product-specific authorisation must govern claims.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Approval, label, safety, enforcement, compounding, trial or anti-doping change"
+    },
+    {
+      "jurisdiction": "European Union",
+      "authority": "EMA / European Commission",
+      "current_status": "Authorised product contexts exist; current EPAR and product information must govern claims.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Approval, label, safety, enforcement, compounding, trial or anti-doping change"
+    },
+    {
+      "jurisdiction": "International sport",
+      "authority": "WADA",
+      "current_status": "Current athlete-specific verification required before any permitted-status statement.",
+      "monitoring_state": "EVENT-TRIGGERED",
+      "next_review_trigger": "Approval, label, safety, enforcement, compounding, trial or anti-doping change"
+    }
+  ]
+}

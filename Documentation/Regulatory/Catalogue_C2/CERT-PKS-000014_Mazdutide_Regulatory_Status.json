@@ -1,0 +1,43 @@
+{
+  "asset_uai": "CERT-PKS-000014",
+  "asset_name": "Mazdutide",
+  "status_as_of": "2026-07-16",
+  "overall_status": "APPROVED CONTEXT EXISTS IN CHINA / NO US-UK-EU APPROVAL CLAIM",
+  "regulatory_records": [
+    {
+      "jurisdiction": "China",
+      "authority": "NMPA",
+      "current_status": "Approved product context identified; authoritative label and indication capture required.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Approval, label, safety, enforcement, compounding, trial or anti-doping change"
+    },
+    {
+      "jurisdiction": "United States",
+      "authority": "FDA",
+      "current_status": "No approval claim.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Approval, label, safety, enforcement, compounding, trial or anti-doping change"
+    },
+    {
+      "jurisdiction": "United Kingdom",
+      "authority": "MHRA",
+      "current_status": "No approval claim.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Approval, label, safety, enforcement, compounding, trial or anti-doping change"
+    },
+    {
+      "jurisdiction": "European Union",
+      "authority": "EMA / European Commission",
+      "current_status": "No approval claim.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Approval, label, safety, enforcement, compounding, trial or anti-doping change"
+    },
+    {
+      "jurisdiction": "International sport",
+      "authority": "WADA",
+      "current_status": "Current athlete-specific verification required.",
+      "monitoring_state": "EVENT-TRIGGERED",
+      "next_review_trigger": "Approval, label, safety, enforcement, compounding, trial or anti-doping change"
+    }
+  ]
+}

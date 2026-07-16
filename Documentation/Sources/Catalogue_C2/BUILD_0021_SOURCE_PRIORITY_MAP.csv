@@ -1,0 +1,10 @@
+Asset,Primary Source Domain,Next Extraction Action
+Semaglutide,FDA/EMA/MHRA product information; STEP/SUSTAIN/PIONEER/SELECT primary trials,Current labels and pivotal trial extraction
+Tirzepatide,FDA/EMA/MHRA product information; SURPASS/SURMOUNT primary trials,Current labels and pivotal trial extraction
+Cagrilintide,Lancet phase 2 monotherapy; REDEFINE programme,Separate monotherapy from CagriSema
+Mazdutide,Nature Communications/eClinicalMedicine/NEJM trials; China NMPA authorisation,Capture authoritative China label
+Survodutide,Primary obesity/MASH trials; SYNCHRONIZE programme; sponsor regulatory sources,Capture complete phase 3 and submission status
+Liraglutide,FDA/EMA/MHRA product information; SCALE/LEADER primary trials,Current labels and pivotal trial extraction
+AOD9604,Endocrinology preclinical paper; human safety and terminated development sources,Close failed-efficacy and anti-doping record
+Adipotide,Science Translational Medicine non-human-primate paper,"Extract primate methods, efficacy and toxicity"
+HGH Fragment 176-191,Identity and preclinical search set,Confirm absence of human intervention evidence

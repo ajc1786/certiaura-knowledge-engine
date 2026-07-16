@@ -1,0 +1,20 @@
+{
+  "asset_id": "CERT-EKS-000064",
+  "asset_name": "Adipotide Human Evidence Gap Object",
+  "knowledge_system": "EKS",
+  "asset_type": "Evidence Object",
+  "version": "0.1.0",
+  "status": "OPEN — ADEQUATE HUMAN PRIMARY EVIDENCE NOT ESTABLISHED",
+  "root_asset": "CERT-PKS-000018",
+  "source_domain": "Human clinical trial, PK, safety and efficacy search domain",
+  "evidence_type": "Evidence-gap object",
+  "direct_complete_extraction": false,
+  "last_review": "2026-07-16",
+  "permitted_use": "Evidence mapping and cautious source-status reporting.",
+  "prohibited_use": [
+    "Precise unsupported effect-size claims",
+    "Personal dosing or reconstitution guidance",
+    "Transfer between approved medicines and supplier powder products",
+    "Transfer between distinct molecules or formulations"
+  ]
+}

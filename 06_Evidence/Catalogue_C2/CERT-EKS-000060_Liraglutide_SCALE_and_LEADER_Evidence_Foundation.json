@@ -1,0 +1,20 @@
+{
+  "asset_id": "CERT-EKS-000060",
+  "asset_name": "Liraglutide SCALE and LEADER Evidence Foundation",
+  "knowledge_system": "EKS",
+  "asset_type": "Evidence Object",
+  "version": "0.1.0",
+  "status": "PRIMARY PROGRAMME IDENTIFIED — EXTRACTION BATCH REQUIRED",
+  "root_asset": "CERT-PKS-000016",
+  "source_domain": "SCALE obesity and LEADER cardiovascular programmes",
+  "evidence_type": "Human phase 3 / outcomes evidence",
+  "direct_complete_extraction": false,
+  "last_review": "2026-07-16",
+  "permitted_use": "Evidence mapping and cautious source-status reporting.",
+  "prohibited_use": [
+    "Precise unsupported effect-size claims",
+    "Personal dosing or reconstitution guidance",
+    "Transfer between approved medicines and supplier powder products",
+    "Transfer between distinct molecules or formulations"
+  ]
+}

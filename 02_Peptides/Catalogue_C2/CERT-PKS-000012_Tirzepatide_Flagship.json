@@ -1,0 +1,191 @@
+{
+  "asset_id": "CERT-PKS-000012",
+  "asset_name": "Tirzepatide",
+  "knowledge_system": "PKS",
+  "asset_type": "Peptide Knowledge Asset",
+  "version": "0.1.0",
+  "status": "CATALOGUE REVIEWED / EVIDENCE FOUNDATION CREATED / NOT PLATINUM CERTIFIED",
+  "owner": "Aidan Coleman",
+  "last_review": "2026-07-16",
+  "aliases": [
+    "LY3298176",
+    "Mounjaro",
+    "Zepbound"
+  ],
+  "classification": "Dual GIP and GLP-1 receptor agonist peptide drug",
+  "mechanism_summary": "Combined GIP and GLP-1 receptor agonism affecting glucose control, appetite and body-weight regulation.",
+  "evidence_maturity": "Extensive phase 3 and post-authorisation evidence; indications and product names vary by jurisdiction.",
+  "regulatory_headline": "APPROVED PRODUCT CONTEXTS EXIST IN MULTIPLE JURISDICTIONS",
+  "catalogue_supplier_skus": [
+    {
+      "catalogue_code": "TR5",
+      "specification": "5 mg x 10 vials",
+      "price_usd_per_kit": 35
+    },
+    {
+      "catalogue_code": "TR10",
+      "specification": "10 mg x 10 vials",
+      "price_usd_per_kit": 51
+    },
+    {
+      "catalogue_code": "TR15",
+      "specification": "15 mg x 10 vials",
+      "price_usd_per_kit": 62
+    },
+    {
+      "catalogue_code": "TR20",
+      "specification": "20 mg x 10 vials",
+      "price_usd_per_kit": 84
+    },
+    {
+      "catalogue_code": "TR30",
+      "specification": "30 mg x 10 vials",
+      "price_usd_per_kit": 107
+    },
+    {
+      "catalogue_code": "TR40",
+      "specification": "40 mg x 10 vials",
+      "price_usd_per_kit": 140
+    },
+    {
+      "catalogue_code": "TR50",
+      "specification": "50 mg x 10 vials",
+      "price_usd_per_kit": 169
+    },
+    {
+      "catalogue_code": "TR60",
+      "specification": "60 mg x 10 vials",
+      "price_usd_per_kit": 197
+    },
+    {
+      "catalogue_code": "TR100",
+      "specification": "100 mg x 10 vials",
+      "price_usd_per_kit": 301
+    }
+  ],
+  "relationships": [
+    {
+      "source": "CERT-PKS-000012",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000001"
+    },
+    {
+      "source": "CERT-PKS-000012",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000002"
+    },
+    {
+      "source": "CERT-PKS-000012",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000010"
+    },
+    {
+      "source": "CERT-PKS-000012",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000011"
+    },
+    {
+      "source": "CERT-PKS-000012",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000020"
+    },
+    {
+      "source": "CERT-PKS-000012",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000021"
+    },
+    {
+      "source": "CERT-PKS-000012",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000022"
+    },
+    {
+      "source": "CERT-PKS-000012",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000001"
+    },
+    {
+      "source": "CERT-PKS-000012",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000002"
+    },
+    {
+      "source": "CERT-PKS-000012",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000003"
+    },
+    {
+      "source": "CERT-PKS-000012",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000006"
+    },
+    {
+      "source": "CERT-PKS-000012",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000007"
+    },
+    {
+      "source": "CERT-PKS-000012",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000028"
+    },
+    {
+      "source": "CERT-PKS-000012",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000029"
+    },
+    {
+      "source": "CERT-PKS-000012",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000030"
+    },
+    {
+      "source": "CERT-PKS-000012",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000031"
+    },
+    {
+      "source": "CERT-PKS-000012",
+      "relationship": "SUPPORTS_GOAL",
+      "target": "CERT-GKS-000001"
+    },
+    {
+      "source": "CERT-PKS-000012",
+      "relationship": "SUPPORTS_GOAL",
+      "target": "CERT-GKS-000002"
+    },
+    {
+      "source": "CERT-PKS-000012",
+      "relationship": "SUPPORTS_GOAL",
+      "target": "CERT-GKS-000013"
+    },
+    {
+      "source": "CERT-PKS-000012",
+      "relationship": "SUPPORTS_GOAL",
+      "target": "CERT-GKS-000014"
+    },
+    {
+      "source": "CERT-PKS-000012",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000051"
+    },
+    {
+      "source": "CERT-PKS-000012",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000052"
+    },
+    {
+      "source": "CERT-PKS-000012",
+      "relationship": "HAS_SAFETY",
+      "target": "CERT-SKS-000017"
+    }
+  ],
+  "validated_universal_human_dosing_protocol": false,
+  "supplier_catalogue_proves_quality": false,
+  "platinum_certified": false,
+  "certification_blockers": [
+    "Current product-specific labels by jurisdiction",
+    "Supplier product identity and sterility",
+    "Compounding and unlicensed-copy controls"
+  ]
+}

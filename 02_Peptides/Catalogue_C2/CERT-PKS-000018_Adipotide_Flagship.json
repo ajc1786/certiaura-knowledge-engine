@@ -1,0 +1,96 @@
+{
+  "asset_id": "CERT-PKS-000018",
+  "asset_name": "Adipotide",
+  "knowledge_system": "PKS",
+  "asset_type": "Peptide Knowledge Asset",
+  "version": "0.1.0",
+  "status": "CATALOGUE REVIEWED / EVIDENCE FOUNDATION CREATED / NOT PLATINUM CERTIFIED",
+  "owner": "Aidan Coleman",
+  "last_review": "2026-07-16",
+  "aliases": [
+    "FTPP",
+    "CKGGRAKDC-GG-D(KLAKLAK)2"
+  ],
+  "classification": "Experimental adipose-vascular-targeting peptidomimetic",
+  "mechanism_summary": "Experimental targeting of prohibitin-associated adipose vasculature with pro-apoptotic payload delivery in preclinical models.",
+  "evidence_maturity": "Preclinical-dominant, including non-human primate research; no established human clinical programme.",
+  "regulatory_headline": "EXPERIMENTAL PRECLINICAL-DOMINANT / NO APPROVAL CLAIM",
+  "catalogue_supplier_skus": [
+    {
+      "catalogue_code": "AP2",
+      "specification": "2 mg x 10 vials",
+      "price_usd_per_kit": 95
+    },
+    {
+      "catalogue_code": "AP5",
+      "specification": "5 mg x 10 vials",
+      "price_usd_per_kit": 204
+    }
+  ],
+  "relationships": [
+    {
+      "source": "CERT-PKS-000018",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000047"
+    },
+    {
+      "source": "CERT-PKS-000018",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000049"
+    },
+    {
+      "source": "CERT-PKS-000018",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000003"
+    },
+    {
+      "source": "CERT-PKS-000018",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000010"
+    },
+    {
+      "source": "CERT-PKS-000018",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000030"
+    },
+    {
+      "source": "CERT-PKS-000018",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000032"
+    },
+    {
+      "source": "CERT-PKS-000018",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000033"
+    },
+    {
+      "source": "CERT-PKS-000018",
+      "relationship": "SUPPORTS_GOAL",
+      "target": "CERT-GKS-000003"
+    },
+    {
+      "source": "CERT-PKS-000018",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000063"
+    },
+    {
+      "source": "CERT-PKS-000018",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000064"
+    },
+    {
+      "source": "CERT-PKS-000018",
+      "relationship": "HAS_SAFETY",
+      "target": "CERT-SKS-000023"
+    }
+  ],
+  "validated_universal_human_dosing_protocol": false,
+  "supplier_catalogue_proves_quality": false,
+  "platinum_certified": false,
+  "certification_blockers": [
+    "No confirmatory human efficacy",
+    "Human PK and safety absent",
+    "Potential renal and tissue toxicity",
+    "Supplier identity and composition"
+  ]
+}

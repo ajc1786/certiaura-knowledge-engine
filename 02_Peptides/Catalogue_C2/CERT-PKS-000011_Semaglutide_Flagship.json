@@ -1,0 +1,167 @@
+{
+  "asset_id": "CERT-PKS-000011",
+  "asset_name": "Semaglutide",
+  "knowledge_system": "PKS",
+  "asset_type": "Peptide Knowledge Asset",
+  "version": "0.1.0",
+  "status": "CATALOGUE REVIEWED / EVIDENCE FOUNDATION CREATED / NOT PLATINUM CERTIFIED",
+  "owner": "Aidan Coleman",
+  "last_review": "2026-07-16",
+  "aliases": [
+    "NN9535",
+    "Ozempic",
+    "Rybelsus",
+    "Wegovy"
+  ],
+  "classification": "Long-acting GLP-1 receptor agonist peptide drug",
+  "mechanism_summary": "GLP-1 receptor agonism affecting glucose-dependent insulin secretion, glucagon signalling, gastric emptying and appetite regulation.",
+  "evidence_maturity": "Extensive phase 3, cardiovascular-outcome and post-authorisation evidence; product, route and indication dependent.",
+  "regulatory_headline": "APPROVED PRODUCT CONTEXTS EXIST IN MULTIPLE JURISDICTIONS",
+  "catalogue_supplier_skus": [
+    {
+      "catalogue_code": "SM2",
+      "specification": "2 mg x 10 vials",
+      "price_usd_per_kit": 27
+    },
+    {
+      "catalogue_code": "SM5",
+      "specification": "5 mg x 10 vials",
+      "price_usd_per_kit": 36
+    },
+    {
+      "catalogue_code": "SM10",
+      "specification": "10 mg x 10 vials",
+      "price_usd_per_kit": 50
+    },
+    {
+      "catalogue_code": "SM15",
+      "specification": "15 mg x 10 vials",
+      "price_usd_per_kit": 64
+    },
+    {
+      "catalogue_code": "SM20",
+      "specification": "20 mg x 10 vials",
+      "price_usd_per_kit": 78
+    },
+    {
+      "catalogue_code": "SM30",
+      "specification": "30 mg x 10 vials",
+      "price_usd_per_kit": 108
+    }
+  ],
+  "relationships": [
+    {
+      "source": "CERT-PKS-000011",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000001"
+    },
+    {
+      "source": "CERT-PKS-000011",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000010"
+    },
+    {
+      "source": "CERT-PKS-000011",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000020"
+    },
+    {
+      "source": "CERT-PKS-000011",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000021"
+    },
+    {
+      "source": "CERT-PKS-000011",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000022"
+    },
+    {
+      "source": "CERT-PKS-000011",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000001"
+    },
+    {
+      "source": "CERT-PKS-000011",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000002"
+    },
+    {
+      "source": "CERT-PKS-000011",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000003"
+    },
+    {
+      "source": "CERT-PKS-000011",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000006"
+    },
+    {
+      "source": "CERT-PKS-000011",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000007"
+    },
+    {
+      "source": "CERT-PKS-000011",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000028"
+    },
+    {
+      "source": "CERT-PKS-000011",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000029"
+    },
+    {
+      "source": "CERT-PKS-000011",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000030"
+    },
+    {
+      "source": "CERT-PKS-000011",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000031"
+    },
+    {
+      "source": "CERT-PKS-000011",
+      "relationship": "SUPPORTS_GOAL",
+      "target": "CERT-GKS-000001"
+    },
+    {
+      "source": "CERT-PKS-000011",
+      "relationship": "SUPPORTS_GOAL",
+      "target": "CERT-GKS-000002"
+    },
+    {
+      "source": "CERT-PKS-000011",
+      "relationship": "SUPPORTS_GOAL",
+      "target": "CERT-GKS-000013"
+    },
+    {
+      "source": "CERT-PKS-000011",
+      "relationship": "SUPPORTS_GOAL",
+      "target": "CERT-GKS-000014"
+    },
+    {
+      "source": "CERT-PKS-000011",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000049"
+    },
+    {
+      "source": "CERT-PKS-000011",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000050"
+    },
+    {
+      "source": "CERT-PKS-000011",
+      "relationship": "HAS_SAFETY",
+      "target": "CERT-SKS-000016"
+    }
+  ],
+  "validated_universal_human_dosing_protocol": false,
+  "supplier_catalogue_proves_quality": false,
+  "platinum_certified": false,
+  "certification_blockers": [
+    "Current product-specific labels by jurisdiction",
+    "Supplier product identity and sterility",
+    "Separation of approved medicines from unlicensed powder products"
+  ]
+}
