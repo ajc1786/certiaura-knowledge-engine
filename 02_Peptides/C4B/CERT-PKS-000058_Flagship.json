@@ -1,0 +1,97 @@
+{
+  "asset_id": "CERT-PKS-000058",
+  "asset_name": "AHK-Cu",
+  "knowledge_system": "PKS",
+  "asset_type": "Peptide / Cosmetic-Product Knowledge Asset",
+  "version": "0.1.0",
+  "status": "CATALOGUE REVIEWED / EVIDENCE FOUNDATION CREATED / NOT PLATINUM CERTIFIED",
+  "owner": "Aidan Coleman",
+  "last_review": "2026-07-16",
+  "aliases": [
+    "Ala-His-Lys-Cu",
+    "copper tripeptide AHK-Cu"
+  ],
+  "classification": "Copper-complexed alanine-histidine-lysine tripeptide",
+  "mechanism_summary": "Experimental copper-carrier and extracellular-matrix / hair-follicle signalling associated with a distinct tripeptide sequence.",
+  "evidence_maturity": "Limited cell, follicle and cosmetic-development evidence; independent controlled human evidence is sparse.",
+  "regulatory_headline": "COSMETIC / RESEARCH CONTEXT — NO INJECTABLE OR MEDICINAL APPROVAL CLAIM",
+  "catalogue_supplier_skus": [
+    {
+      "catalogue_code": "AU100",
+      "specification": "100 mg x 10 vials",
+      "price_usd_per_kit": 75
+    }
+  ],
+  "relationships": [
+    {
+      "source": "CERT-PKS-000058",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000121"
+    },
+    {
+      "source": "CERT-PKS-000058",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000122"
+    },
+    {
+      "source": "CERT-PKS-000058",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000123"
+    },
+    {
+      "source": "CERT-PKS-000058",
+      "relationship": "HAS_CONDITION",
+      "target": "CERT-CKS-000026"
+    },
+    {
+      "source": "CERT-PKS-000058",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000097"
+    },
+    {
+      "source": "CERT-PKS-000058",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000098"
+    },
+    {
+      "source": "CERT-PKS-000058",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000100"
+    },
+    {
+      "source": "CERT-PKS-000058",
+      "relationship": "SUPPORTS_GOAL",
+      "target": "CERT-GKS-000052"
+    },
+    {
+      "source": "CERT-PKS-000058",
+      "relationship": "SUPPORTS_GOAL",
+      "target": "CERT-GKS-000053"
+    },
+    {
+      "source": "CERT-PKS-000058",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000143"
+    },
+    {
+      "source": "CERT-PKS-000058",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000144"
+    },
+    {
+      "source": "CERT-PKS-000058",
+      "relationship": "HAS_SAFETY",
+      "target": "CERT-SKS-000063"
+    }
+  ],
+  "validated_universal_human_dosing_protocol": false,
+  "supplier_catalogue_proves_quality": false,
+  "platinum_certified": false,
+  "certification_blockers": [
+    "Complete sequence and stereochemistry",
+    "Copper stoichiometry and oxidation state",
+    "Independent human topical evidence",
+    "No injectable human safety",
+    "Supplier purity, residual copper and sterility"
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "asset_id": "CERT-PKS-000057",
+  "asset_name": "GHK",
+  "knowledge_system": "PKS",
+  "asset_type": "Peptide / Cosmetic-Product Knowledge Asset",
+  "version": "0.1.0",
+  "status": "CATALOGUE REVIEWED / EVIDENCE FOUNDATION CREATED / NOT PLATINUM CERTIFIED",
+  "owner": "Aidan Coleman",
+  "last_review": "2026-07-16",
+  "aliases": [
+    "Gly-His-Lys",
+    "GHK basic",
+    "copper-free GHK"
+  ],
+  "classification": "Free glycyl-L-histidyl-L-lysine tripeptide",
+  "mechanism_summary": "Endogenous tripeptide and metal-binding ligand studied in tissue-remodelling, cell-survival and copper-transport biology; activity depends on metal state and formulation.",
+  "evidence_maturity": "Foundational biochemical, cell and preclinical evidence; much topical literature concerns GHK-Cu rather than free GHK.",
+  "regulatory_headline": "RESEARCH / COSMETIC-INGREDIENT CONTEXT — NO INJECTABLE OR MEDICINAL APPROVAL CLAIM",
+  "catalogue_supplier_skus": [
+    {
+      "catalogue_code": "GH50",
+      "specification": "50 mg x 10 vials",
+      "price_usd_per_kit": 37
+    }
+  ],
+  "relationships": [
+    {
+      "source": "CERT-PKS-000057",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000120"
+    },
+    {
+      "source": "CERT-PKS-000057",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000121"
+    },
+    {
+      "source": "CERT-PKS-000057",
+      "relationship": "HAS_CONDITION",
+      "target": "CERT-CKS-000025"
+    },
+    {
+      "source": "CERT-PKS-000057",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000097"
+    },
+    {
+      "source": "CERT-PKS-000057",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000098"
+    },
+    {
+      "source": "CERT-PKS-000057",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000099"
+    },
+    {
+      "source": "CERT-PKS-000057",
+      "relationship": "SUPPORTS_GOAL",
+      "target": "CERT-GKS-000051"
+    },
+    {
+      "source": "CERT-PKS-000057",
+      "relationship": "SUPPORTS_GOAL",
+      "target": "CERT-GKS-000052"
+    },
+    {
+      "source": "CERT-PKS-000057",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000141"
+    },
+    {
+      "source": "CERT-PKS-000057",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000142"
+    },
+    {
+      "source": "CERT-PKS-000057",
+      "relationship": "HAS_SAFETY",
+      "target": "CERT-SKS-000062"
+    }
+  ],
+  "validated_universal_human_dosing_protocol": false,
+  "supplier_catalogue_proves_quality": false,
+  "platinum_certified": false,
+  "certification_blockers": [
+    "Free-peptide versus copper-complex identity",
+    "Route- and formulation-specific human evidence",
+    "Human PK and long-term safety",
+    "Supplier sequence, counter-ion, purity and sterility"
+  ]
+}

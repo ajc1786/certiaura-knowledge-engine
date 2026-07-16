@@ -1,0 +1,19 @@
+{
+  "asset_id": "CERT-EKS-000143",
+  "asset_name": "AHK-Cu Chemical Identity and Preclinical Evidence",
+  "root_asset": "CERT-PKS-000058",
+  "knowledge_system": "EKS",
+  "asset_type": "Evidence Object",
+  "version": "0.1.0",
+  "status": "PRIMARY SOURCE MAP CREATED — EXTRACTION REQUIRED",
+  "source_domain": "AHK sequence, copper complex and follicle/matrix research",
+  "evidence_type": "Identity / preclinical evidence",
+  "last_review": "2026-07-16",
+  "direct_complete_extraction": false,
+  "prohibited_use": [
+    "Personal topical formulation, injection, dosing or reconstitution guidance",
+    "Cancer-treatment or hair-loss treatment protocols",
+    "Transfer between free peptides, metal complexes or trademark families",
+    "Claims that preclinical effects establish human efficacy"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "asset_uai": "CERT-PKS-000060",
+  "asset_name": "Matrixyl Supplier Product Family",
+  "status_as_of": "2026-07-16",
+  "overall_status": "COSMETIC FAMILY NAME / CHEMICAL IDENTITY UNRESOLVED — NO MEDICINAL CLAIM",
+  "regulatory_records": [
+    {
+      "jurisdiction": "United States",
+      "authority": "FDA / cosmetic framework",
+      "current_status": "Cosmetic ingredient context does not create drug approval or injectable status.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Identity, cosmetic classification, approval, safety, trial, enforcement or anti-doping change"
+    },
+    {
+      "jurisdiction": "United Kingdom",
+      "authority": "UK cosmetic and MHRA framework",
+      "current_status": "Cosmetic and medicinal claims must remain separate; no injectable authorisation claim.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Identity, cosmetic classification, approval, safety, trial, enforcement or anti-doping change"
+    },
+    {
+      "jurisdiction": "European Union",
+      "authority": "EU cosmetics framework / EMA",
+      "current_status": "Cosmetic ingredient status is formulation and claim dependent; no medicinal-authorisation claim.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Identity, cosmetic classification, approval, safety, trial, enforcement or anti-doping change"
+    },
+    {
+      "jurisdiction": "International sport",
+      "authority": "WADA",
+      "current_status": "Current athlete-specific status requires verification before any permitted claim.",
+      "monitoring_state": "EVENT-TRIGGERED",
+      "next_review_trigger": "Identity, cosmetic classification, approval, safety, trial, enforcement or anti-doping change"
+    }
+  ]
+}

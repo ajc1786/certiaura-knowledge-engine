@@ -1,0 +1,19 @@
+{
+  "asset_id": "CERT-EKS-000145",
+  "asset_name": "SNAP-8 Chemical Identity and Cosmetic Mechanism",
+  "root_asset": "CERT-PKS-000059",
+  "knowledge_system": "EKS",
+  "asset_type": "Evidence Object",
+  "version": "0.1.0",
+  "status": "PRODUCT-SPECIFIC SOURCE CLOSURE REQUIRED",
+  "source_domain": "Acetyl octapeptide-3 sequence, SNARE competition and topical formulation research",
+  "evidence_type": "Identity / cosmetic evidence",
+  "last_review": "2026-07-16",
+  "direct_complete_extraction": false,
+  "prohibited_use": [
+    "Personal topical formulation, injection, dosing or reconstitution guidance",
+    "Cancer-treatment or hair-loss treatment protocols",
+    "Transfer between free peptides, metal complexes or trademark families",
+    "Claims that preclinical effects establish human efficacy"
+  ]
+}

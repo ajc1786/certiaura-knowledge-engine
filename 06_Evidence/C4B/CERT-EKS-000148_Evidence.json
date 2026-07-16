@@ -1,0 +1,19 @@
+{
+  "asset_id": "CERT-EKS-000148",
+  "asset_name": "Matrixyl Clinical and Regulatory Evidence Block",
+  "root_asset": "CERT-PKS-000060",
+  "knowledge_system": "EKS",
+  "asset_type": "Evidence Object",
+  "version": "0.1.0",
+  "status": "BLOCKED BY CERT-EKS-000147",
+  "source_domain": "Product-specific evidence after exact INCI identity closure",
+  "evidence_type": "Blocked evidence object",
+  "last_review": "2026-07-16",
+  "direct_complete_extraction": false,
+  "prohibited_use": [
+    "Personal topical formulation, injection, dosing or reconstitution guidance",
+    "Cancer-treatment or hair-loss treatment protocols",
+    "Transfer between free peptides, metal complexes or trademark families",
+    "Claims that preclinical effects establish human efficacy"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "asset_id": "CERT-EKS-000151",
+  "asset_name": "PTD-DBM Chemical Identity and Wnt/CXXC5 Evidence",
+  "root_asset": "CERT-PKS-000062",
+  "knowledge_system": "EKS",
+  "asset_type": "Evidence Object",
+  "version": "0.1.0",
+  "status": "PRIMARY PRECLINICAL MAP CREATED — EXTRACTION REQUIRED",
+  "source_domain": "PTD/DBM sequence, CXXC5-Dvl interaction and preclinical repair studies",
+  "evidence_type": "Identity / preclinical evidence",
+  "last_review": "2026-07-16",
+  "direct_complete_extraction": false,
+  "prohibited_use": [
+    "Personal topical formulation, injection, dosing or reconstitution guidance",
+    "Cancer-treatment or hair-loss treatment protocols",
+    "Transfer between free peptides, metal complexes or trademark families",
+    "Claims that preclinical effects establish human efficacy"
+  ]
+}

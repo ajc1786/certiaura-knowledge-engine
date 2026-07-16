@@ -1,0 +1,25 @@
+Asset UAI,Asset Name,Jurisdiction,Authority,Position,Monitoring,Status Date
+CERT-PKS-000057,GHK,United States,FDA / cosmetic framework,Cosmetic ingredient context does not create drug approval or injectable status.,ACTIVE,2026-07-16
+CERT-PKS-000057,GHK,United Kingdom,UK cosmetic and MHRA framework,Cosmetic and medicinal claims must remain separate; no injectable authorisation claim.,ACTIVE,2026-07-16
+CERT-PKS-000057,GHK,European Union,EU cosmetics framework / EMA,Cosmetic ingredient status is formulation and claim dependent; no medicinal-authorisation claim.,ACTIVE,2026-07-16
+CERT-PKS-000057,GHK,International sport,WADA,Current athlete-specific status requires verification before any permitted claim.,EVENT-TRIGGERED,2026-07-16
+CERT-PKS-000058,AHK-Cu,United States,FDA / cosmetic framework,Cosmetic ingredient context does not create drug approval or injectable status.,ACTIVE,2026-07-16
+CERT-PKS-000058,AHK-Cu,United Kingdom,UK cosmetic and MHRA framework,Cosmetic and medicinal claims must remain separate; no injectable authorisation claim.,ACTIVE,2026-07-16
+CERT-PKS-000058,AHK-Cu,European Union,EU cosmetics framework / EMA,Cosmetic ingredient status is formulation and claim dependent; no medicinal-authorisation claim.,ACTIVE,2026-07-16
+CERT-PKS-000058,AHK-Cu,International sport,WADA,Current athlete-specific status requires verification before any permitted claim.,EVENT-TRIGGERED,2026-07-16
+CERT-PKS-000059,Acetyl Octapeptide-3 / SNAP-8,United States,FDA / cosmetic framework,Cosmetic ingredient context does not create drug approval or injectable status.,ACTIVE,2026-07-16
+CERT-PKS-000059,Acetyl Octapeptide-3 / SNAP-8,United Kingdom,UK cosmetic and MHRA framework,Cosmetic and medicinal claims must remain separate; no injectable authorisation claim.,ACTIVE,2026-07-16
+CERT-PKS-000059,Acetyl Octapeptide-3 / SNAP-8,European Union,EU cosmetics framework / EMA,Cosmetic ingredient status is formulation and claim dependent; no medicinal-authorisation claim.,ACTIVE,2026-07-16
+CERT-PKS-000059,Acetyl Octapeptide-3 / SNAP-8,International sport,WADA,Current athlete-specific status requires verification before any permitted claim.,EVENT-TRIGGERED,2026-07-16
+CERT-PKS-000060,Matrixyl Supplier Product Family,United States,FDA / cosmetic framework,Cosmetic ingredient context does not create drug approval or injectable status.,ACTIVE,2026-07-16
+CERT-PKS-000060,Matrixyl Supplier Product Family,United Kingdom,UK cosmetic and MHRA framework,Cosmetic and medicinal claims must remain separate; no injectable authorisation claim.,ACTIVE,2026-07-16
+CERT-PKS-000060,Matrixyl Supplier Product Family,European Union,EU cosmetics framework / EMA,Cosmetic ingredient status is formulation and claim dependent; no medicinal-authorisation claim.,ACTIVE,2026-07-16
+CERT-PKS-000060,Matrixyl Supplier Product Family,International sport,WADA,Current athlete-specific status requires verification before any permitted claim.,EVENT-TRIGGERED,2026-07-16
+CERT-PKS-000061,PNC-27,United States,FDA,No approval claim.,ACTIVE,2026-07-16
+CERT-PKS-000061,PNC-27,United Kingdom,MHRA,No marketing-authorisation claim.,ACTIVE,2026-07-16
+CERT-PKS-000061,PNC-27,European Union,EMA / European Commission,No marketing-authorisation claim.,ACTIVE,2026-07-16
+CERT-PKS-000061,PNC-27,International sport,WADA,Current athlete-specific verification required.,EVENT-TRIGGERED,2026-07-16
+CERT-PKS-000062,PTD-DBM,United States,FDA,No approval claim.,ACTIVE,2026-07-16
+CERT-PKS-000062,PTD-DBM,United Kingdom,MHRA,No marketing-authorisation claim.,ACTIVE,2026-07-16
+CERT-PKS-000062,PTD-DBM,European Union,EMA / European Commission,No marketing-authorisation claim.,ACTIVE,2026-07-16
+CERT-PKS-000062,PTD-DBM,International sport,WADA,Current athlete-specific verification required.,EVENT-TRIGGERED,2026-07-16

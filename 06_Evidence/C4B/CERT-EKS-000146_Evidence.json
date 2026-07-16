@@ -1,0 +1,19 @@
+{
+  "asset_id": "CERT-EKS-000146",
+  "asset_name": "SNAP-8 Independent Human and Route Evidence Gap",
+  "root_asset": "CERT-PKS-000059",
+  "knowledge_system": "EKS",
+  "asset_type": "Evidence Object",
+  "version": "0.1.0",
+  "status": "NO BOTULINUM-TOXIN OR INJECTABLE EQUIVALENCE",
+  "source_domain": "Independent controlled topical studies and injectable-safety search",
+  "evidence_type": "Human / route evidence gap",
+  "last_review": "2026-07-16",
+  "direct_complete_extraction": false,
+  "prohibited_use": [
+    "Personal topical formulation, injection, dosing or reconstitution guidance",
+    "Cancer-treatment or hair-loss treatment protocols",
+    "Transfer between free peptides, metal complexes or trademark families",
+    "Claims that preclinical effects establish human efficacy"
+  ]
+}

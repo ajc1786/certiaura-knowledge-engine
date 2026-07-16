@@ -1,0 +1,13 @@
+Asset,Source,URL / Citation,Purpose
+All assets,FDA Drugs@FDA,https://www.accessdata.fda.gov/scripts/cder/daf/,United States approval search
+All assets,MHRA Products,https://products.mhra.gov.uk/,United Kingdom authorisation search
+All assets,EMA Medicines,https://www.ema.europa.eu/en/medicines,European Union authorisation search
+All assets,WADA Prohibited List,https://www.wada-ama.org/en/prohibited-list,Current athlete status
+GHK,PubMed,https://pubmed.ncbi.nlm.nih.gov/?term=glycyl-histidyl-lysine+GHK,Free-peptide identity and biology
+AHK-Cu,PubMed,https://pubmed.ncbi.nlm.nih.gov/?term=AHK-Cu+peptide,Copper-peptide and follicle evidence
+SNAP-8,PubMed,https://pubmed.ncbi.nlm.nih.gov/?term=acetyl+octapeptide-3+SNAP-8,Cosmetic mechanism and human evidence
+Matrixyl,EU CosIng / INCI and manufacturer records,https://ec.europa.eu/growth/tools-databases/cosing/,Exact cosmetic ingredient identity
+PNC-27,PubMed,https://pubmed.ncbi.nlm.nih.gov/?term=PNC-27+peptide,Preclinical construct and anticancer evidence
+PNC-27,ClinicalTrials.gov,https://clinicaltrials.gov/search?term=PNC-27,Human development search
+PTD-DBM,Primary preclinical publication,"Targeting of CXXC5 by a competing peptide stimulates hair regrowth and wound-induced hair neogenesis. Journal of Investigative Dermatology, 2017.",Hair and wound preclinical evidence
+PTD-DBM,PubMed,https://pubmed.ncbi.nlm.nih.gov/?term=PTD-DBM+CXXC5,Primary evidence search

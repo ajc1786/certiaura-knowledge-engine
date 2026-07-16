@@ -1,0 +1,19 @@
+{
+  "asset_id": "CERT-EKS-000149",
+  "asset_name": "PNC-27 Construct Identity and Preclinical Anticancer Evidence",
+  "root_asset": "CERT-PKS-000061",
+  "knowledge_system": "EKS",
+  "asset_type": "Evidence Object",
+  "version": "0.1.0",
+  "status": "PRIMARY PRECLINICAL MAP CREATED — EXTRACTION REQUIRED",
+  "source_domain": "p53-derived sequence, membrane-residency component, cell and animal studies",
+  "evidence_type": "Identity / preclinical evidence",
+  "last_review": "2026-07-16",
+  "direct_complete_extraction": false,
+  "prohibited_use": [
+    "Personal topical formulation, injection, dosing or reconstitution guidance",
+    "Cancer-treatment or hair-loss treatment protocols",
+    "Transfer between free peptides, metal complexes or trademark families",
+    "Claims that preclinical effects establish human efficacy"
+  ]
+}

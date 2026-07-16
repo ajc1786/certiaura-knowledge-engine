@@ -1,0 +1,67 @@
+{
+  "asset_id": "CERT-PKS-000060",
+  "asset_name": "Matrixyl Supplier Product Family",
+  "knowledge_system": "PKS",
+  "asset_type": "Peptide / Cosmetic-Product Knowledge Asset",
+  "version": "0.1.0",
+  "status": "CATALOGUE REVIEWED / EVIDENCE FOUNDATION CREATED / NOT PLATINUM CERTIFIED",
+  "owner": "Aidan Coleman",
+  "last_review": "2026-07-16",
+  "aliases": [
+    "Matrixyl",
+    "Matrixyl peptide"
+  ],
+  "classification": "Chemically unresolved trademark/family-name cosmetic peptide product",
+  "mechanism_summary": "Not assigned until the catalogue identifies whether the product is palmitoyl pentapeptide-4, Matrixyl 3000, Matrixyl Synthe'6 or another formulation.",
+  "evidence_maturity": "Evidence is product- and INCI-specific; no single Matrixyl evidence base can be assigned to an unresolved catalogue powder.",
+  "regulatory_headline": "COSMETIC FAMILY NAME / CHEMICAL IDENTITY UNRESOLVED — NO MEDICINAL CLAIM",
+  "catalogue_supplier_skus": [
+    {
+      "catalogue_code": "MA10",
+      "specification": "10 mg x 10 vials",
+      "price_usd_per_kit": 35
+    }
+  ],
+  "relationships": [
+    {
+      "source": "CERT-PKS-000060",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000069"
+    },
+    {
+      "source": "CERT-PKS-000060",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000097"
+    },
+    {
+      "source": "CERT-PKS-000060",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000103"
+    },
+    {
+      "source": "CERT-PKS-000060",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000147"
+    },
+    {
+      "source": "CERT-PKS-000060",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000148"
+    },
+    {
+      "source": "CERT-PKS-000060",
+      "relationship": "HAS_SAFETY",
+      "target": "CERT-SKS-000065"
+    }
+  ],
+  "validated_universal_human_dosing_protocol": false,
+  "supplier_catalogue_proves_quality": false,
+  "platinum_certified": false,
+  "certification_blockers": [
+    "Exact INCI name",
+    "Complete peptide sequence",
+    "Palmitoylation and component ratio",
+    "Trademark/product version",
+    "Reference standard and manufacturer"
+  ]
+}

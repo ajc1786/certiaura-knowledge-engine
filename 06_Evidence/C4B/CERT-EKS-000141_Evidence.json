@@ -1,0 +1,19 @@
+{
+  "asset_id": "CERT-EKS-000141",
+  "asset_name": "GHK Identity and Foundational Biochemistry",
+  "root_asset": "CERT-PKS-000057",
+  "knowledge_system": "EKS",
+  "asset_type": "Evidence Object",
+  "version": "0.1.0",
+  "status": "FOUNDATIONAL SOURCE MAP CREATED — EXTRACTION REQUIRED",
+  "source_domain": "Free GHK sequence, plasma identity and metal-binding publications",
+  "evidence_type": "Identity / biochemical evidence",
+  "last_review": "2026-07-16",
+  "direct_complete_extraction": false,
+  "prohibited_use": [
+    "Personal topical formulation, injection, dosing or reconstitution guidance",
+    "Cancer-treatment or hair-loss treatment protocols",
+    "Transfer between free peptides, metal complexes or trademark families",
+    "Claims that preclinical effects establish human efficacy"
+  ]
+}

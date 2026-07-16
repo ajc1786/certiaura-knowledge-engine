@@ -1,0 +1,19 @@
+{
+  "asset_id": "CERT-EKS-000152",
+  "asset_name": "PTD-DBM Human Hair, Wound and Regulatory Evidence Gap",
+  "root_asset": "CERT-PKS-000062",
+  "knowledge_system": "EKS",
+  "asset_type": "Evidence Object",
+  "version": "0.1.0",
+  "status": "OPEN — ADEQUATE HUMAN PRIMARY EVIDENCE NOT ESTABLISHED",
+  "source_domain": "Human trials, topical PK, safety and approval searches",
+  "evidence_type": "Evidence-gap object",
+  "last_review": "2026-07-16",
+  "direct_complete_extraction": false,
+  "prohibited_use": [
+    "Personal topical formulation, injection, dosing or reconstitution guidance",
+    "Cancer-treatment or hair-loss treatment protocols",
+    "Transfer between free peptides, metal complexes or trademark families",
+    "Claims that preclinical effects establish human efficacy"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "asset_id": "CERT-EKS-000144",
+  "asset_name": "AHK-Cu Human and Regulatory Evidence Gap",
+  "root_asset": "CERT-PKS-000058",
+  "knowledge_system": "EKS",
+  "asset_type": "Evidence Object",
+  "version": "0.1.0",
+  "status": "OPEN — ADEQUATE HUMAN PRIMARY EVIDENCE NOT ESTABLISHED",
+  "source_domain": "Independent human trials, PK, safety and regulatory searches",
+  "evidence_type": "Evidence-gap object",
+  "last_review": "2026-07-16",
+  "direct_complete_extraction": false,
+  "prohibited_use": [
+    "Personal topical formulation, injection, dosing or reconstitution guidance",
+    "Cancer-treatment or hair-loss treatment protocols",
+    "Transfer between free peptides, metal complexes or trademark families",
+    "Claims that preclinical effects establish human efficacy"
+  ]
+}

@@ -1,29 +1,27 @@
 # CERTIAURA CHANGE LOG
 
-## Build 0024A — Immune, Repair & Vascular Peptides
+## Build 0024B — Cosmetic & Experimental Repair Peptides
 **Date:** 2026-07-16
 
 Allocated:
 
-- CERT-PKS-000051–000056
+- CERT-PKS-000057–000062
 
 Added:
 
 - six flagship assets;
 - twelve evidence objects;
 - six safety objects;
-- fifteen biology objects;
-- five condition objects;
-- sixteen monitoring objects;
-- ten goal objects;
+- twelve biology objects;
+- four condition objects;
+- twelve monitoring objects;
+- five goal objects;
 - regulatory profiles;
-- claim and commercial boundaries;
 - short-path-compatible catalogue and source registers.
 
 Key controls:
 
-- Thymosin Alpha-1 and Thymalin are separate.
-- LL-37 inflammatory and cytotoxic context is retained.
-- Cibinetide is separated from erythropoietin.
-- VIP is separated from product/formulation claims.
-- KPV remains preclinical-dominant.
+- GHK, GHK-Cu and AHK-Cu are distinct.
+- SNAP-8 is separated from botulinum toxin.
+- Matrixyl is retained as an unresolved family name.
+- PNC-27 and PTD-DBM remain preclinical experimental assets.

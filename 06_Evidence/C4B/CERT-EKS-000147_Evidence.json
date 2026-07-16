@@ -1,0 +1,19 @@
+{
+  "asset_id": "CERT-EKS-000147",
+  "asset_name": "Matrixyl Exact-INCI Identity Gap",
+  "root_asset": "CERT-PKS-000060",
+  "knowledge_system": "EKS",
+  "asset_type": "Evidence Object",
+  "version": "0.1.0",
+  "status": "OPEN — PRODUCT MOLECULE UNRESOLVED",
+  "source_domain": "Trademark version, INCI, sequence, palmitoylation and ratio",
+  "evidence_type": "Critical identity gap",
+  "last_review": "2026-07-16",
+  "direct_complete_extraction": false,
+  "prohibited_use": [
+    "Personal topical formulation, injection, dosing or reconstitution guidance",
+    "Cancer-treatment or hair-loss treatment protocols",
+    "Transfer between free peptides, metal complexes or trademark families",
+    "Claims that preclinical effects establish human efficacy"
+  ]
+}

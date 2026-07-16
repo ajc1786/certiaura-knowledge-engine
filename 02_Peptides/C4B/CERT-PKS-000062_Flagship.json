@@ -1,0 +1,112 @@
+{
+  "asset_id": "CERT-PKS-000062",
+  "asset_name": "PTD-DBM",
+  "knowledge_system": "PKS",
+  "asset_type": "Peptide / Cosmetic-Product Knowledge Asset",
+  "version": "0.1.0",
+  "status": "CATALOGUE REVIEWED / EVIDENCE FOUNDATION CREATED / NOT PLATINUM CERTIFIED",
+  "owner": "Aidan Coleman",
+  "last_review": "2026-07-16",
+  "aliases": [
+    "PTD-DBM",
+    "protein transduction domain-dishevelled binding motif"
+  ],
+  "classification": "Experimental protein-transduction-domain-fused Dishevelled-binding-motif peptide",
+  "mechanism_summary": "Experimental disruption of the CXXC5-Dishevelled interaction, relieving negative feedback on Wnt/beta-catenin signalling in hair, wound and skin models.",
+  "evidence_maturity": "Cell and animal preclinical evidence, including hair-regrowth and wound-healing models; adequate independent human intervention evidence is not established.",
+  "regulatory_headline": "EXPERIMENTAL PRECLINICAL WNT-PATHWAY PEPTIDE — NO HAIR-LOSS OR WOUND-TREATMENT APPROVAL CLAIM",
+  "catalogue_supplier_skus": [
+    {
+      "catalogue_code": "PTD5",
+      "specification": "5 mg x 10 vials",
+      "price_usd_per_kit": 265
+    }
+  ],
+  "relationships": [
+    {
+      "source": "CERT-PKS-000062",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000129"
+    },
+    {
+      "source": "CERT-PKS-000062",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000130"
+    },
+    {
+      "source": "CERT-PKS-000062",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000131"
+    },
+    {
+      "source": "CERT-PKS-000062",
+      "relationship": "HAS_CONDITION",
+      "target": "CERT-CKS-000026"
+    },
+    {
+      "source": "CERT-PKS-000062",
+      "relationship": "HAS_CONDITION",
+      "target": "CERT-CKS-000028"
+    },
+    {
+      "source": "CERT-PKS-000062",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000097"
+    },
+    {
+      "source": "CERT-PKS-000062",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000100"
+    },
+    {
+      "source": "CERT-PKS-000062",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000107"
+    },
+    {
+      "source": "CERT-PKS-000062",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000108"
+    },
+    {
+      "source": "CERT-PKS-000062",
+      "relationship": "SUPPORTS_GOAL",
+      "target": "CERT-GKS-000052"
+    },
+    {
+      "source": "CERT-PKS-000062",
+      "relationship": "SUPPORTS_GOAL",
+      "target": "CERT-GKS-000053"
+    },
+    {
+      "source": "CERT-PKS-000062",
+      "relationship": "SUPPORTS_GOAL",
+      "target": "CERT-GKS-000055"
+    },
+    {
+      "source": "CERT-PKS-000062",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000151"
+    },
+    {
+      "source": "CERT-PKS-000062",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000152"
+    },
+    {
+      "source": "CERT-PKS-000062",
+      "relationship": "HAS_SAFETY",
+      "target": "CERT-SKS-000067"
+    }
+  ],
+  "validated_universal_human_dosing_protocol": false,
+  "supplier_catalogue_proves_quality": false,
+  "platinum_certified": false,
+  "certification_blockers": [
+    "Complete PTD and DBM sequences",
+    "Topical delivery and formulation",
+    "Independent human hair and wound trials",
+    "Wnt-pathway abnormal-growth and tumour safety",
+    "Supplier identity, purity and sterility"
+  ]
+}

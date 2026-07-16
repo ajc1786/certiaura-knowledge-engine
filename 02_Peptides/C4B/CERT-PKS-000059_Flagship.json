@@ -1,0 +1,87 @@
+{
+  "asset_id": "CERT-PKS-000059",
+  "asset_name": "Acetyl Octapeptide-3 / SNAP-8",
+  "knowledge_system": "PKS",
+  "asset_type": "Peptide / Cosmetic-Product Knowledge Asset",
+  "version": "0.1.0",
+  "status": "CATALOGUE REVIEWED / EVIDENCE FOUNDATION CREATED / NOT PLATINUM CERTIFIED",
+  "owner": "Aidan Coleman",
+  "last_review": "2026-07-16",
+  "aliases": [
+    "SNAP-8",
+    "acetyl octapeptide-3",
+    "Ac-EEMQRRAD-NH2 candidate"
+  ],
+  "classification": "N-terminally acetylated topical cosmetic octapeptide",
+  "mechanism_summary": "Experimental competition with SNAP-25-related exocytosis machinery in topical cosmetic wrinkle-expression research.",
+  "evidence_maturity": "Cosmetic formulation and sponsor-associated topical evidence; limited independent controlled clinical evidence.",
+  "regulatory_headline": "TOPICAL COSMETIC-INGREDIENT CONTEXT — NOT BOTULINUM TOXIN OR AN APPROVED INJECTABLE MEDICINE",
+  "catalogue_supplier_skus": [
+    {
+      "catalogue_code": "NP810",
+      "specification": "10 mg x 10 vials",
+      "price_usd_per_kit": 42
+    }
+  ],
+  "relationships": [
+    {
+      "source": "CERT-PKS-000059",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000124"
+    },
+    {
+      "source": "CERT-PKS-000059",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000125"
+    },
+    {
+      "source": "CERT-PKS-000059",
+      "relationship": "HAS_CONDITION",
+      "target": "CERT-CKS-000025"
+    },
+    {
+      "source": "CERT-PKS-000059",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000097"
+    },
+    {
+      "source": "CERT-PKS-000059",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000101"
+    },
+    {
+      "source": "CERT-PKS-000059",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000102"
+    },
+    {
+      "source": "CERT-PKS-000059",
+      "relationship": "SUPPORTS_GOAL",
+      "target": "CERT-GKS-000051"
+    },
+    {
+      "source": "CERT-PKS-000059",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000145"
+    },
+    {
+      "source": "CERT-PKS-000059",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000146"
+    },
+    {
+      "source": "CERT-PKS-000059",
+      "relationship": "HAS_SAFETY",
+      "target": "CERT-SKS-000064"
+    }
+  ],
+  "validated_universal_human_dosing_protocol": false,
+  "supplier_catalogue_proves_quality": false,
+  "platinum_certified": false,
+  "certification_blockers": [
+    "Exact sequence and terminal chemistry",
+    "Topical formulation and dermal penetration",
+    "Independent human clinical evidence",
+    "No injectable safety or efficacy"
+  ]
+}
