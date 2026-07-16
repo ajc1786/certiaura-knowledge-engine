@@ -8,58 +8,33 @@
 
 # CERT-PKS-000007 — GHK-Cu
 
-**Version:** 0.1.0  
-**Status:** BOOTSTRAPPED — NOT PLATINUM CERTIFIED  
+**Version:** 0.2.0  
+**Status:** FOUNDATIONAL AND PRECLINICAL EVIDENCE STRUCTURED — HUMAN TOPICAL CLOSURE PARTIAL — INJECTABLE EVIDENCE INSUFFICIENT — NOT PLATINUM CERTIFIED  
 **Last Review:** 2026-07-16
-
-## Classification
-
-Copper-binding tripeptide complex
-
-## Aliases
-
-Copper tripeptide-1, Gly-His-Lys-Cu, GHK copper
-
-## Mechanism
-
-Copper-complex signalling relevant to extracellular-matrix remodelling, wound-repair biology, antioxidant responses and gene-expression research.
 
 ## Evidence maturity
 
-Topical/cosmetic and preclinical evidence base with limited controlled human therapeutic evidence
+Strong mechanistic plausibility and preclinical tissue-remodelling evidence; human controlled topical evidence is not fully source-closed; injectable human evidence is insufficient.
 
-## Evidence foundation
+## Closed evidence
 
 - `CERT-EKS-000037`
+
+## Partially closed evidence
+
 - `CERT-EKS-000038`
+
+## Open evidence
+
 - `CERT-EKS-000039`
 
-## Safety
+## Identity and translation boundary
 
-- `CERT-SKS-000012`
+Topical or cosmetic evidence cannot validate injectable use.
 
-## Monitoring
-
-- `CERT-MKS-000018`
-- `CERT-MKS-000019`
-- `CERT-MKS-000020`
-
-## Regulatory status
-
-**COSMETIC / RESEARCH CONTEXTS MUST BE SEPARATED — NO INJECTABLE APPROVAL CLAIM**
-
-Cosmetic ingredient use and injectable medicinal use are distinct; no universal injectable approval claim is made.
-
-## Validated universal human dosing
+## Validated universal human dosing protocol
 
 **No**
-
-## Certification blockers
-
-- Clear separation of cosmetic, topical, wound-care and injectable contexts
-- Controlled human therapeutic evidence
-- Injectable product-quality and sterility validation
-- Current jurisdiction-specific status
 
 ## Platinum Certified
 

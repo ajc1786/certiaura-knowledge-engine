@@ -1,34 +1,44 @@
 # CERTIAURA PRODUCTION DASHBOARD
 
-**Build:** 0018  
+**Build:** 0019  
 **Date:** 2026-07-16
 
-## Batch A evidence expansion
+## Batch B evidence expansion
 
-### Directly extracted
+### GHK-Cu
 
-- CJC-1295 EKS 000028–000029
-- Ipamorelin EKS 000031–000032
-- MOTS-c EKS 000034–000035
+Foundational identity and preclinical wound / matrix evidence structured.
 
-### Partially closed
+Human controlled topical evidence remains incompletely source-closed.
 
-- Tesamorelin EKS 000026–000027
-- Ipamorelin EKS 000033
+Injectable human evidence remains insufficient.
 
-### Open
+### Thymosin Beta-4 / TB-500
 
-- Tesamorelin current U.S. label
-- CJC-1295 development and safety history
-- MOTS-c direct human intervention and safety evidence
+Full-length molecule and TB-500 fragment evidence are now structurally separated.
 
-## Highest-value findings
+Human clinical evidence belongs to full-length thymosin beta-4 unless a source proves otherwise.
 
-- CJC-1295 has sustained early human GH/IGF-1 pharmacology, not therapeutic efficacy.
-- Ipamorelin's phase 2 postoperative ileus trial did not show significant efficacy.
-- MOTS-c human data in the extracted exercise study concern endogenous expression; treatment outcomes were mainly in mice.
-- Tesamorelin remains the most clinically mature Batch A asset, but its pivotal full-source extraction remains incomplete.
+### Melanotan II
 
-## Next planned task
+Early human pharmacology publications identified.
 
-**Build 0019 — Batch B Primary-Source Extraction & Evidence Expansion**
+Safety-warning priority remains active.
+
+No approved tanning claim.
+
+### Epitalon
+
+In-vitro and animal evidence structured.
+
+Human longevity and mortality claims remain unresolved and identity-sensitive.
+
+## Next production step
+
+The original ten peptide assets now have:
+
+- bootstrap structures;
+- regulatory monitoring;
+- first-pass evidence expansion.
+
+The next build can open a new founder-supplied compound batch rather than continuing one asset at a time.

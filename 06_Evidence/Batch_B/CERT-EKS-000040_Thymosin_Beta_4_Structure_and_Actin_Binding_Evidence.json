@@ -1,21 +1,27 @@
 {
   "asset_id": "CERT-EKS-000040",
   "asset_name": "Thymosin Beta-4 Structure and Actin-Binding Evidence",
+  "root_asset": "CERT-PKS-000008",
   "knowledge_system": "EKS",
   "asset_type": "Evidence Object",
-  "version": "0.1.0",
-  "status": "EVIDENCE LEAD — PRIMARY EXTRACTION REQUIRED",
-  "root_asset_name": "Thymosin Beta-4 / TB-500",
-  "publication_or_source_set": "Primary structure, actin binding and cellular-function studies",
-  "evidence_type": "Mechanistic evidence set",
-  "doi": null,
-  "direct_extraction_completed": false,
+  "version": "0.2.0",
+  "status": "PRIMARY STRUCTURE AND MECHANISM IDENTITIES CONFIRMED",
   "last_review": "2026-07-16",
-  "permitted_use": "Evidence-domain mapping and cautious summary only.",
-  "prohibited_use": [
-    "Precise quantitative claims before extraction",
-    "Transfer between chemically distinct identities",
-    "Universal human dosing",
-    "Approval or safety claims without authoritative support"
-  ]
+  "domain": "Full-length thymosin beta-4 sequence and actin binding",
+  "extracted_summary": [
+    "Primary publications define full-length thymosin beta-4 structure and actin-binding biology.",
+    "The full-length molecule is a distinct canonical identity from the TB-500 heptapeptide fragment."
+  ],
+  "limitations": [
+    "Structure and actin binding do not prove therapeutic tissue repair.",
+    "Evidence cannot be inherited automatically by TB-500."
+  ],
+  "permitted_claims": [
+    "Full-length thymosin beta-4 has established actin-binding biology."
+  ],
+  "prohibited_claims": [
+    "Claims that TB-500 is equivalent to full-length thymosin beta-4.",
+    "Human healing efficacy based only on actin biology."
+  ],
+  "direct_complete_full_text_extraction": false
 }

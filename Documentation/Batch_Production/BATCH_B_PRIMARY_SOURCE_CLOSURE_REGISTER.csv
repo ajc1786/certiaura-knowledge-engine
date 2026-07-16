@@ -1,13 +1,13 @@
-Evidence ID,Root Asset,Evidence Domain,Closure State,Next Action
-CERT-EKS-000037,GHK-Cu,Human and preclinical skin-remodelling source set,EVIDENCE LEAD — PRIMARY EXTRACTION REQUIRED,Capture and extract highest-value primary sources
-CERT-EKS-000038,GHK-Cu,Preclinical wound-repair and matrix-remodelling studies,EVIDENCE LEAD — PRIMARY EXTRACTION REQUIRED,Capture and extract highest-value primary sources
-CERT-EKS-000039,GHK-Cu,Controlled topical skin and hair evidence source set,EVIDENCE LEAD — PRIMARY EXTRACTION REQUIRED,Capture and extract highest-value primary sources
-CERT-EKS-000040,Thymosin Beta-4 / TB-500,"Primary structure, actin binding and cellular-function studies",EVIDENCE LEAD — PRIMARY EXTRACTION REQUIRED,Capture and extract highest-value primary sources
-CERT-EKS-000041,Thymosin Beta-4 / TB-500,"Human wound, corneal and dry-eye clinical source set",EVIDENCE LEAD — PRIMARY EXTRACTION REQUIRED,Capture and extract highest-value primary sources
-CERT-EKS-000042,Thymosin Beta-4 / TB-500,"Ac-LKKTETQ identity, metabolism and anti-doping detection source set",EVIDENCE LEAD — PRIMARY EXTRACTION REQUIRED,Capture and extract highest-value primary sources
-CERT-EKS-000043,Melanotan II,Early human pigmentation and systemic pharmacology studies,EVIDENCE LEAD — PRIMARY EXTRACTION REQUIRED,Capture and extract highest-value primary sources
-CERT-EKS-000044,Melanotan II,"Dermatological, priapism, rhabdomyolysis and other adverse-event source set",EVIDENCE LEAD — PRIMARY EXTRACTION REQUIRED,Capture and extract highest-value primary sources
-CERT-EKS-000045,Melanotan II,"FDA, MHRA and other regulator warning source set",EVIDENCE LEAD — PRIMARY EXTRACTION REQUIRED,Capture and extract highest-value primary sources
-CERT-EKS-000046,Epitalon,Cellular telomerase and telomere-length research,EVIDENCE LEAD — PRIMARY EXTRACTION REQUIRED,Capture and extract highest-value primary sources
-CERT-EKS-000047,Epitalon,"Animal lifespan, tumour and ageing source set",EVIDENCE LEAD — PRIMARY EXTRACTION REQUIRED,Capture and extract highest-value primary sources
-CERT-EKS-000048,Epitalon,"Older human telomere, melatonin, morbidity and mortality source set",EVIDENCE LEAD — PRIMARY EXTRACTION REQUIRED,Capture and extract highest-value primary sources
+Evidence ID,Root Asset,Closure State,Quantitative Claims Permitted,Next Action
+CERT-EKS-000037,GHK-Cu,FOUNDATIONAL PRIMARY IDENTITIES CONFIRMED,No,Capture full foundational articles
+CERT-EKS-000038,GHK-Cu,PRIMARY PRECLINICAL PUBLICATIONS IDENTIFIED,No,Extract fibroblast and animal studies
+CERT-EKS-000039,GHK-Cu,HUMAN CONTROLLED EVIDENCE OPEN,No,Capture independent primary topical trials
+CERT-EKS-000040,Thymosin Beta-4 / TB-500,STRUCTURE AND MECHANISM IDENTITIES CONFIRMED,No,Capture full articles as needed
+CERT-EKS-000041,Thymosin Beta-4 / TB-500,HUMAN CLINICAL PROGRAMME IDENTIFIED — PRIMARY OPEN,No,Capture wound and ocular trials
+CERT-EKS-000042,Thymosin Beta-4 / TB-500,TB-500 ANALYTICAL IDENTITIES CONFIRMED,No efficacy claims,Extract analytical methods and current WADA status
+CERT-EKS-000043,Melanotan II,PRIMARY HUMAN IDENTITIES AND DESIGNS CONFIRMED,Title/design scoped only,Capture complete primary articles
+CERT-EKS-000044,Melanotan II,CASE-REPORT MAP PARTIAL,No incidence claims,Capture individual primary case reports
+CERT-EKS-000045,Melanotan II,REGULATOR-WARNING DOMAIN CONFIRMED,No,Refresh current official sources
+CERT-EKS-000046,Epitalon,PRIMARY IN-VITRO IDENTITIES CONFIRMED,No precise effect sizes,Capture complete methods and modern replication
+CERT-EKS-000047,Epitalon,PRIMARY ANIMAL IDENTITIES CONFIRMED,No human claims,Capture complete animal publications
+CERT-EKS-000048,Epitalon,HUMAN EVIDENCE PARTIAL / IDENTITY-SENSITIVE,No,Separate Epitalon and epithalamin primary studies

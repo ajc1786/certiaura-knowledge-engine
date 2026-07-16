@@ -1,21 +1,27 @@
 {
   "asset_id": "CERT-EKS-000046",
   "asset_name": "Epitalon Telomerase and Telomere Mechanistic Evidence",
+  "root_asset": "CERT-PKS-000010",
   "knowledge_system": "EKS",
   "asset_type": "Evidence Object",
-  "version": "0.1.0",
-  "status": "EVIDENCE LEAD — PRIMARY EXTRACTION REQUIRED",
-  "root_asset_name": "Epitalon",
-  "publication_or_source_set": "Cellular telomerase and telomere-length research",
-  "evidence_type": "Mechanistic evidence set",
-  "doi": null,
-  "direct_extraction_completed": false,
+  "version": "0.2.0",
+  "status": "PRIMARY IN-VITRO PUBLICATION IDENTITIES CONFIRMED — FULL METHODS EXTRACTION OPEN",
   "last_review": "2026-07-16",
-  "permitted_use": "Evidence-domain mapping and cautious summary only.",
-  "prohibited_use": [
-    "Precise quantitative claims before extraction",
-    "Transfer between chemically distinct identities",
-    "Universal human dosing",
-    "Approval or safety claims without authoritative support"
-  ]
+  "domain": "Human somatic cell telomerase and proliferative-limit experiments",
+  "extracted_summary": [
+    "Primary in-vitro publications report telomerase, telomere and proliferative-limit experiments in human somatic cell systems.",
+    "These are cell-culture findings, not human longevity trials."
+  ],
+  "limitations": [
+    "Full methods, assay controls and replication remain open.",
+    "Cell-line telomere changes do not prove healthy lifespan extension."
+  ],
+  "permitted_claims": [
+    "Epitalon has in-vitro human somatic-cell telomere and telomerase research."
+  ],
+  "prohibited_claims": [
+    "Claims that Epitalon extends human lifespan.",
+    "Claims that telomerase activation is necessarily safe."
+  ],
+  "direct_complete_full_text_extraction": false
 }

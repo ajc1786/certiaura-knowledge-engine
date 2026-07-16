@@ -8,26 +8,34 @@
 
 # CERT-EKS-000039 — GHK-Cu Human Topical and Hair Evidence Lead
 
-**Root asset:** GHK-Cu  
-**Evidence type:** Human evidence lead  
-**Status:** EVIDENCE LEAD — PRIMARY EXTRACTION REQUIRED  
+**Root asset:** `CERT-PKS-000007`  
+**Version:** 0.2.0  
+**Status:** HUMAN EVIDENCE LEAD — PRIMARY CONTROLLED SOURCES NOT CLOSED  
 **Last Review:** 2026-07-16
 
-## Source domain
+## Domain
 
-Controlled topical skin and hair evidence source set
+Topical cosmetic skin and hair claims
 
-## Current use
+## Extracted position
 
-Evidence-domain mapping and cautious summary only.
+- Small controlled topical studies are repeatedly referenced in reviews and commercial literature.
+- Direct primary reports suitable for independent quantitative appraisal were not closed in Build 0019.
 
-## Direct extraction
+## Limitations
 
-**Complete:** No
+- Publication and sponsor transparency are incomplete.
+- Topical outcomes cannot be transferred to injection.
 
-## Restrictions
+## Permitted claims
 
-- No precise quantitative promotion.
-- No identity transfer.
-- No universal human dosing claim.
-- No approval claim without current authoritative support.
+- Human topical evidence remains an active source-closure task.
+
+## Prohibited claims
+
+- Definitive wrinkle, collagen or hair-growth effect sizes.
+- Injectable cosmetic benefit claims.
+
+## Full-text extraction
+
+**Complete:** No, unless a future build explicitly upgrades the source state.

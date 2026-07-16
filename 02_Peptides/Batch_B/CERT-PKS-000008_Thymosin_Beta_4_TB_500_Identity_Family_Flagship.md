@@ -8,59 +8,34 @@
 
 # CERT-PKS-000008 — Thymosin Beta-4 / TB-500 Identity Family
 
-**Version:** 0.1.0  
-**Status:** BOOTSTRAPPED — NOT PLATINUM CERTIFIED  
+**Version:** 0.2.0  
+**Status:** IDENTITY AND ANALYTICAL EVIDENCE STRUCTURED — FULL-LENGTH HUMAN CLINICAL CLOSURE PARTIAL — TB-500 HUMAN EVIDENCE INSUFFICIENT — NOT PLATINUM CERTIFIED  
 **Last Review:** 2026-07-16
-
-## Classification
-
-Identity-controlled peptide family covering full-length thymosin beta-4 and the marketed TB-500 fragment
-
-## Aliases
-
-Thymosin beta-4, Tβ4, Timbetasin, TB-500, Ac-LKKTETQ
-
-## Mechanism
-
-Actin-binding and tissue-repair biology for full-length thymosin beta-4; TB-500 is commonly represented as a shorter synthetic fragment and must not inherit the full evidence base automatically.
 
 ## Evidence maturity
 
-Full-length thymosin beta-4 has human and preclinical research; TB-500 evidence is substantially thinner and identity-sensitive
+Full-length thymosin beta-4 has established structure and clinical-development evidence; TB-500 has fragment-identity and analytical detection evidence but not equivalent human efficacy evidence.
 
-## Evidence foundation
+## Closed evidence
 
 - `CERT-EKS-000040`
-- `CERT-EKS-000041`
 - `CERT-EKS-000042`
 
-## Safety
+## Partially closed evidence
 
-- `CERT-SKS-000013`
+- `CERT-EKS-000041`
 
-## Monitoring
+## Open evidence
 
-- `CERT-MKS-000018`
-- `CERT-MKS-000019`
-- `CERT-MKS-000021`
+- None
 
-## Regulatory status
+## Identity and translation boundary
 
-**IDENTITY-SENSITIVE / NO UNIVERSAL APPROVAL CLAIM / ATHLETE WARNING REQUIRED**
+Full-length thymosin beta-4 and TB-500 remain separate evidence identities.
 
-Full-length thymosin beta-4 and TB-500 are not interchangeable; anti-doping and human-use status require current authoritative review.
-
-## Validated universal human dosing
+## Validated universal human dosing protocol
 
 **No**
-
-## Certification blockers
-
-- Canonical separation of full-length thymosin beta-4 and TB-500 fragment evidence
-- Current anti-doping closure
-- Approved indication and jurisdiction-specific human-use route
-- Long-term human safety
-- Supplier sequence and product identity verification
 
 ## Platinum Certified
 

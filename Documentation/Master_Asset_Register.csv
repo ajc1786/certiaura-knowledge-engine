@@ -1,20 +1,27 @@
 Universal Asset Identifier,Asset Name,Knowledge System,Asset Type,Status,Owner,Completion %,Parent Assets,Child Assets,Relationship List,Evidence Links,Report Links,Marketplace Links,Last Review,Next Review,Notes
-CERT-PKS-000001,Retatrutide,PKS,Flagship Peptide Knowledge Asset,Consolidated — Not Platinum Certified,Aidan Coleman,,,,,,,,2026-07-16,,
-CERT-PKS-000002,BPC-157,PKS,Peptide Knowledge Asset,Preclinical Evidence Structured — Human Evidence Sparse — Not Platinum Certified,Aidan Coleman,,,,,,,,2026-07-16,,
-CERT-PKS-000003,Tesamorelin,PKS,Peptide Knowledge Asset,HUMAN CLINICAL EVIDENCE IDENTIFIED — DIRECT SOURCE CLOSURE PARTIAL — NOT PLATINUM CERTIFIED,Aidan Coleman,,,,,,,,2026-07-16,,Build 0018
-CERT-PKS-000004,CJC-1295,PKS,Peptide Knowledge Asset,HUMAN PHARMACOLOGY EXTRACTED — NO THERAPEUTIC EFFICACY — NOT PLATINUM CERTIFIED,Aidan Coleman,,,,,,,,2026-07-16,,Build 0018
-CERT-PKS-000005,Ipamorelin,PKS,Peptide Knowledge Asset,HUMAN PK-PD AND NEGATIVE PHASE 2 EFFICACY EXTRACTED — NOT PLATINUM CERTIFIED,Aidan Coleman,,,,,,,,2026-07-16,,Build 0018
-CERT-PKS-000006,MOTS-c,PKS,Peptide Knowledge Asset,CORE PRECLINICAL AND TRANSLATIONAL EVIDENCE EXTRACTED — HUMAN INTERVENTION GAP — NOT PLATINUM CERTIFIED,Aidan Coleman,,,,,,,,2026-07-16,,Build 0018
-CERT-PKS-000007,GHK-Cu,PKS,Peptide Knowledge Asset,Bootstrapped — Not Platinum Certified,Aidan Coleman,,,,,,,,2026-07-16,,Build 0017
-CERT-PKS-000008,Thymosin Beta-4 / TB-500 Identity Family,PKS,Peptide Knowledge Asset,Bootstrapped — Not Platinum Certified,Aidan Coleman,,,,,,,,2026-07-16,,Build 0017
-CERT-PKS-000009,Melanotan II,PKS,Peptide Knowledge Asset,Bootstrapped — Not Platinum Certified,Aidan Coleman,,,,,,,,2026-07-16,,Build 0017
-CERT-PKS-000010,Epitalon,PKS,Peptide Knowledge Asset,Bootstrapped — Not Platinum Certified,Aidan Coleman,,,,,,,,2026-07-16,,Build 0017
-CERT-EKS-000026,Tesamorelin HIV Lipodystrophy Randomised Clinical Evidence,EKS,Evidence Object,PRIMARY IDENTITY CONFIRMED — COMPLETE EXTRACTION OPEN,Aidan Coleman,,CERT-PKS-000003,,,,,,2026-07-16,,Root: CERT-PKS-000003
-CERT-EKS-000027,Tesamorelin Visceral and Liver Fat Randomised Clinical Evidence,EKS,Evidence Object,PRIMARY METADATA CONFIRMED — COMPLETE EXTRACTION OPEN,Aidan Coleman,,CERT-PKS-000003,,,,,,2026-07-16,,Root: CERT-PKS-000003
-CERT-EKS-000028,CJC-1295 First-in-Human GH and IGF-1 Pharmacology,EKS,Evidence Object,CLOSED FOR PRIMARY ABSTRACT EXTRACTION,Aidan Coleman,,CERT-PKS-000004,,,,,,2026-07-16,,Root: CERT-PKS-000004
-CERT-EKS-000029,CJC-1295 Growth Hormone Pulsatility Study,EKS,Evidence Object,CLOSED FOR PRIMARY ABSTRACT EXTRACTION,Aidan Coleman,,CERT-PKS-000004,,,,,,2026-07-16,,Root: CERT-PKS-000004
-CERT-EKS-000031,Ipamorelin Human PK-PD Study,EKS,Evidence Object,CLOSED FOR PRIMARY ABSTRACT EXTRACTION,Aidan Coleman,,CERT-PKS-000005,,,,,,2026-07-16,,Root: CERT-PKS-000005
-CERT-EKS-000032,Ipamorelin Postoperative Ileus Randomised Study,EKS,Evidence Object,CLOSED FOR PRIMARY ABSTRACT EXTRACTION,Aidan Coleman,,CERT-PKS-000005,,,,,,2026-07-16,,Root: CERT-PKS-000005
-CERT-EKS-000033,Ipamorelin Selective Growth-Hormone Secretagogue Evidence,EKS,Evidence Object,PRIMARY IDENTITY CONFIRMED — DIRECT EXTRACTION OPEN,Aidan Coleman,,CERT-PKS-000005,,,,,,2026-07-16,,Root: CERT-PKS-000005
-CERT-EKS-000034,MOTS-c Discovery and Metabolic Homeostasis,EKS,Evidence Object,CLOSED FOR CORE PRIMARY EXTRACTION,Aidan Coleman,,CERT-PKS-000006,,,,,,2026-07-16,,Root: CERT-PKS-000006
-CERT-EKS-000035,MOTS-c Exercise and Age-Related Physical Decline,EKS,Evidence Object,CLOSED FOR CORE PRIMARY FULL-TEXT EXTRACTION,Aidan Coleman,,CERT-PKS-000006,,,,,,2026-07-16,,Root: CERT-PKS-000006
+CERT-PKS-000001,Retatrutide,PKS,Peptide Knowledge Asset,Consolidated — Not Platinum Certified,Aidan Coleman,,,,,,,,2026-07-16,,Existing
+CERT-PKS-000002,BPC-157,PKS,Peptide Knowledge Asset,Preclinical Evidence Structured — Human Evidence Sparse — Not Platinum Certified,Aidan Coleman,,,,,,,,2026-07-16,,Existing
+CERT-PKS-000003,Tesamorelin,PKS,Peptide Knowledge Asset,Batch A Expanded — Not Platinum Certified,Aidan Coleman,,,,,,,,2026-07-16,,Existing
+CERT-PKS-000004,CJC-1295,PKS,Peptide Knowledge Asset,Batch A Expanded — Not Platinum Certified,Aidan Coleman,,,,,,,,2026-07-16,,Existing
+CERT-PKS-000005,Ipamorelin,PKS,Peptide Knowledge Asset,Batch A Expanded — Not Platinum Certified,Aidan Coleman,,,,,,,,2026-07-16,,Existing
+CERT-PKS-000006,MOTS-c,PKS,Peptide Knowledge Asset,Batch A Expanded — Not Platinum Certified,Aidan Coleman,,,,,,,,2026-07-16,,Existing
+CERT-PKS-000007,GHK-Cu,PKS,Peptide Knowledge Asset,FOUNDATIONAL AND PRECLINICAL EVIDENCE STRUCTURED — HUMAN TOPICAL CLOSURE PARTIAL — INJECTABLE EVIDENCE INSUFFICIENT — NOT PLATINUM CERTIFIED,Aidan Coleman,,,,,,,,2026-07-16,,Build 0019
+CERT-PKS-000008,Thymosin Beta-4 / TB-500 Identity Family,PKS,Peptide Knowledge Asset,IDENTITY AND ANALYTICAL EVIDENCE STRUCTURED — FULL-LENGTH HUMAN CLINICAL CLOSURE PARTIAL — TB-500 HUMAN EVIDENCE INSUFFICIENT — NOT PLATINUM CERTIFIED,Aidan Coleman,,,,,,,,2026-07-16,,Build 0019
+CERT-PKS-000009,Melanotan II,PKS,Peptide Knowledge Asset,EARLY HUMAN PHARMACOLOGY IDENTIFIED — SAFETY WARNING PRIORITY — UNAPPROVED — NOT PLATINUM CERTIFIED,Aidan Coleman,,,,,,,,2026-07-16,,Build 0019
+CERT-PKS-000010,Epitalon,PKS,Peptide Knowledge Asset,IN-VITRO AND ANIMAL EVIDENCE STRUCTURED — HUMAN LONGEVITY EVIDENCE UNRESOLVED — NOT PLATINUM CERTIFIED,Aidan Coleman,,,,,,,,2026-07-16,,Build 0019
+CERT-EKS-000037,GHK-Cu Foundational Identity and Copper-Binding Evidence,EKS,Evidence Object,FOUNDATIONAL PRIMARY IDENTITIES CONFIRMED — QUANTITATIVE EXTRACTION OPEN,Aidan Coleman,,CERT-PKS-000007,,,,,,2026-07-16,,Root: CERT-PKS-000007
+CERT-EKS-000038,GHK-Cu Wound-Healing and Matrix-Remodelling Preclinical Evidence,EKS,Evidence Object,PRIMARY PRECLINICAL PUBLICATIONS IDENTIFIED — FULL EXTRACTION OPEN,Aidan Coleman,,CERT-PKS-000007,,,,,,2026-07-16,,Root: CERT-PKS-000007
+CERT-EKS-000039,GHK-Cu Human Topical and Hair Evidence Lead,EKS,Evidence Object,HUMAN EVIDENCE LEAD — PRIMARY CONTROLLED SOURCES NOT CLOSED,Aidan Coleman,,CERT-PKS-000007,,,,,,2026-07-16,,Root: CERT-PKS-000007
+CERT-EKS-000040,Thymosin Beta-4 Structure and Actin-Binding Evidence,EKS,Evidence Object,PRIMARY STRUCTURE AND MECHANISM IDENTITIES CONFIRMED,Aidan Coleman,,CERT-PKS-000008,,,,,,2026-07-16,,Root: CERT-PKS-000008
+CERT-EKS-000041,Thymosin Beta-4 Human Wound and Ocular Evidence,EKS,Evidence Object,HUMAN CLINICAL PROGRAMME IDENTIFIED — PRIMARY ARTICLE EXTRACTION OPEN,Aidan Coleman,,CERT-PKS-000008,,,,,,2026-07-16,,Root: CERT-PKS-000008
+CERT-EKS-000042,TB-500 Fragment Identity and Detection Evidence,EKS,Evidence Object,PRIMARY ANALYTICAL IDENTITIES CONFIRMED — FULL METHODS EXTRACTION OPEN,Aidan Coleman,,CERT-PKS-000008,,,,,,2026-07-16,,Root: CERT-PKS-000008
+CERT-EKS-000043,Melanotan II Early Human Pharmacology,EKS,Evidence Object,PRIMARY HUMAN PUBLICATION IDENTITIES AND DESIGNS CONFIRMED — FULL EXTRACTION OPEN,Aidan Coleman,,CERT-PKS-000009,,,,,,2026-07-16,,Root: CERT-PKS-000009
+CERT-EKS-000044,Melanotan II Adverse-Event and Case-Report Evidence,EKS,Evidence Object,SAFETY EVIDENCE MAP ACTIVE — CASE REPORT EXTRACTION PARTIAL,Aidan Coleman,,CERT-PKS-000009,,,,,,2026-07-16,,Root: CERT-PKS-000009
+CERT-EKS-000045,Melanotan II Regulator Warning Evidence,EKS,Evidence Object,REGULATOR-WARNING DOMAIN CONFIRMED — CURRENT SOURCE REFRESH REQUIRED,Aidan Coleman,,CERT-PKS-000009,,,,,,2026-07-16,,Root: CERT-PKS-000009
+CERT-EKS-000046,Epitalon Telomerase and Telomere Mechanistic Evidence,EKS,Evidence Object,PRIMARY IN-VITRO PUBLICATION IDENTITIES CONFIRMED — FULL METHODS EXTRACTION OPEN,Aidan Coleman,,CERT-PKS-000010,,,,,,2026-07-16,,Root: CERT-PKS-000010
+CERT-EKS-000047,Epitalon Animal Ageing and Carcinogenesis Evidence,EKS,Evidence Object,PRIMARY ANIMAL PUBLICATION IDENTITIES CONFIRMED — FULL EXTRACTION OPEN,Aidan Coleman,,CERT-PKS-000010,,,,,,2026-07-16,,Root: CERT-PKS-000010
+CERT-EKS-000048,Epitalon Human Longevity and Circadian Evidence Lead,EKS,Evidence Object,HUMAN PUBLICATION IDENTITIES PARTIAL — EPITALON / EPITHALAMIN SEPARATION REQUIRED,Aidan Coleman,,CERT-PKS-000010,,,,,,2026-07-16,,Root: CERT-PKS-000010
+CERT-SKS-000012,"GHK-Cu Route, Copper and Product-Quality Uncertainty",SKS,Safety Knowledge Object,Active safety control,Aidan Coleman,,CERT-PKS-000007,,,,,,2026-07-16,,Build 0019
+CERT-SKS-000013,"Thymosin Beta-4 / TB-500 Identity, Doping and Human-Safety Uncertainty",SKS,Safety Knowledge Object,Active safety control,Aidan Coleman,,CERT-PKS-000008,,,,,,2026-07-16,,Build 0019
+CERT-SKS-000014,"Melanotan II Dermatological, Cardiovascular and Priapism Risk",SKS,Safety Knowledge Object,Active safety control,Aidan Coleman,,CERT-PKS-000009,,,,,,2026-07-16,,Build 0019
+CERT-SKS-000015,Epitalon Human Evidence and Long-Term Safety Insufficiency,SKS,Safety Knowledge Object,Active safety control,Aidan Coleman,,CERT-PKS-000010,,,,,,2026-07-16,,Build 0019

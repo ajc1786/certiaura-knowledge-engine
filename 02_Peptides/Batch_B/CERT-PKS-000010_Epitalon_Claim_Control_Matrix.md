@@ -6,15 +6,13 @@
 
 ---
 
-# EPITALON CLAIM CONTROL MATRIX
+# CERT-PKS-000010 EPITALON CLAIM CONTROL MATRIX — BUILD 0019
 
-| Claim | Status | Permission |
-|---|---|---|
-| Epitalon is classified as: Synthetic tetrapeptide. | Identity-controlled | Allowed |
-| Evidence from a related but distinct molecule automatically applies. | False | Not allowed |
-| Online availability proves legal, approved or safe human use. | False | Not allowed |
-| A universal human dosing protocol is validated. | Not established | Not allowed |
-| Current evidence maturity is: Preclinical-dominant with limited, heterogeneous and difficult-to-verify human evidence. | Controlled assessment | Allowed |
-| The asset is Platinum Certified. | False | Not allowed |
+| Claim | Permission |
+|---|---|
+| Epitalon has human-cell telomere and animal ageing research. | Allowed |
+| Epitalon extends human lifespan. | Not established / not allowed |
+| Epithalamin mortality evidence automatically applies to Epitalon. | Not allowed |
+| Telomerase activation proves clinical benefit and safety. | Not allowed |
 
 **Status as of:** 2026-07-16

@@ -8,26 +8,34 @@
 
 # CERT-EKS-000046 — Epitalon Telomerase and Telomere Mechanistic Evidence
 
-**Root asset:** Epitalon  
-**Evidence type:** Mechanistic evidence set  
-**Status:** EVIDENCE LEAD — PRIMARY EXTRACTION REQUIRED  
+**Root asset:** `CERT-PKS-000010`  
+**Version:** 0.2.0  
+**Status:** PRIMARY IN-VITRO PUBLICATION IDENTITIES CONFIRMED — FULL METHODS EXTRACTION OPEN  
 **Last Review:** 2026-07-16
 
-## Source domain
+## Domain
 
-Cellular telomerase and telomere-length research
+Human somatic cell telomerase and proliferative-limit experiments
 
-## Current use
+## Extracted position
 
-Evidence-domain mapping and cautious summary only.
+- Primary in-vitro publications report telomerase, telomere and proliferative-limit experiments in human somatic cell systems.
+- These are cell-culture findings, not human longevity trials.
 
-## Direct extraction
+## Limitations
 
-**Complete:** No
+- Full methods, assay controls and replication remain open.
+- Cell-line telomere changes do not prove healthy lifespan extension.
 
-## Restrictions
+## Permitted claims
 
-- No precise quantitative promotion.
-- No identity transfer.
-- No universal human dosing claim.
-- No approval claim without current authoritative support.
+- Epitalon has in-vitro human somatic-cell telomere and telomerase research.
+
+## Prohibited claims
+
+- Claims that Epitalon extends human lifespan.
+- Claims that telomerase activation is necessarily safe.
+
+## Full-text extraction
+
+**Complete:** No, unless a future build explicitly upgrades the source state.

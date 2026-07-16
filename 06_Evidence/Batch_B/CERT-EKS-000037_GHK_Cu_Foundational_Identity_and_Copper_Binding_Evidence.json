@@ -1,0 +1,28 @@
+{
+  "asset_id": "CERT-EKS-000037",
+  "asset_name": "GHK-Cu Foundational Identity and Copper-Binding Evidence",
+  "root_asset": "CERT-PKS-000007",
+  "knowledge_system": "EKS",
+  "asset_type": "Evidence Object",
+  "version": "0.2.0",
+  "status": "FOUNDATIONAL PRIMARY IDENTITIES CONFIRMED — QUANTITATIVE EXTRACTION OPEN",
+  "last_review": "2026-07-16",
+  "domain": "Isolation, sequence identity and copper-related biological function",
+  "extracted_summary": [
+    "The foundational publication series identifies the plasma growth-modulating tripeptide as glycyl-histidyl-lysine.",
+    "A later primary publication proposed a copper-uptake function.",
+    "These records support identity and mechanism history, not cosmetic or injectable clinical efficacy."
+  ],
+  "limitations": [
+    "Full primary articles were not directly extracted in Build 0019.",
+    "Historical biochemical observations do not establish modern product efficacy or quality."
+  ],
+  "permitted_claims": [
+    "GHK is a naturally occurring glycyl-histidyl-lysine tripeptide with foundational plasma and copper-binding research."
+  ],
+  "prohibited_claims": [
+    "Claims that endogenous occurrence proves injectable safety.",
+    "Claims that foundational identity research proves anti-ageing efficacy."
+  ],
+  "direct_complete_full_text_extraction": false
+}

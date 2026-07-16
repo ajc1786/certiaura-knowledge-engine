@@ -1,104 +1,22 @@
 {
   "asset_id": "CERT-PKS-000007",
   "asset_name": "GHK-Cu",
-  "knowledge_system": "PKS",
-  "asset_type": "Peptide Knowledge Asset",
-  "version": "0.1.0",
-  "status": "BOOTSTRAPPED — NOT PLATINUM CERTIFIED",
-  "owner": "Aidan Coleman",
+  "version": "0.2.0",
+  "status": "FOUNDATIONAL AND PRECLINICAL EVIDENCE STRUCTURED — HUMAN TOPICAL CLOSURE PARTIAL — INJECTABLE EVIDENCE INSUFFICIENT — NOT PLATINUM CERTIFIED",
   "last_review": "2026-07-16",
-  "aliases": [
-    "Copper tripeptide-1",
-    "Gly-His-Lys-Cu",
-    "GHK copper"
-  ],
-  "classification": "Copper-binding tripeptide complex",
-  "mechanism_summary": "Copper-complex signalling relevant to extracellular-matrix remodelling, wound-repair biology, antioxidant responses and gene-expression research.",
-  "evidence_maturity": "Topical/cosmetic and preclinical evidence base with limited controlled human therapeutic evidence",
-  "regulatory_status": {
-    "state": "COSMETIC / RESEARCH CONTEXTS MUST BE SEPARATED — NO INJECTABLE APPROVAL CLAIM",
-    "headline": "Cosmetic ingredient use and injectable medicinal use are distinct; no universal injectable approval claim is made.",
-    "status_as_of": "2026-07-16",
-    "monitoring_required": true
+  "evidence_maturity": "Strong mechanistic plausibility and preclinical tissue-remodelling evidence; human controlled topical evidence is not fully source-closed; injectable human evidence is insufficient.",
+  "source_closure": {
+    "closed": [
+      "CERT-EKS-000037"
+    ],
+    "partial": [
+      "CERT-EKS-000038"
+    ],
+    "open": [
+      "CERT-EKS-000039"
+    ]
   },
-  "relationships": [
-    {
-      "source": "CERT-PKS-000007",
-      "relationship": "ACTS_ON",
-      "target": "CERT-BKS-000032"
-    },
-    {
-      "source": "CERT-PKS-000007",
-      "relationship": "ACTS_ON",
-      "target": "CERT-BKS-000033"
-    },
-    {
-      "source": "CERT-PKS-000007",
-      "relationship": "ACTS_ON",
-      "target": "CERT-BKS-000034"
-    },
-    {
-      "source": "CERT-PKS-000007",
-      "relationship": "HAS_CONDITION",
-      "target": "CERT-CKS-000006"
-    },
-    {
-      "source": "CERT-PKS-000007",
-      "relationship": "HAS_CONDITION",
-      "target": "CERT-CKS-000007"
-    },
-    {
-      "source": "CERT-PKS-000007",
-      "relationship": "SUPPORTS_GOAL",
-      "target": "CERT-GKS-000007"
-    },
-    {
-      "source": "CERT-PKS-000007",
-      "relationship": "SUPPORTS_GOAL",
-      "target": "CERT-GKS-000008"
-    },
-    {
-      "source": "CERT-PKS-000007",
-      "relationship": "HAS_MONITORING",
-      "target": "CERT-MKS-000018"
-    },
-    {
-      "source": "CERT-PKS-000007",
-      "relationship": "HAS_MONITORING",
-      "target": "CERT-MKS-000019"
-    },
-    {
-      "source": "CERT-PKS-000007",
-      "relationship": "HAS_MONITORING",
-      "target": "CERT-MKS-000020"
-    },
-    {
-      "source": "CERT-PKS-000007",
-      "relationship": "HAS_SAFETY",
-      "target": "CERT-SKS-000012"
-    },
-    {
-      "source": "CERT-PKS-000007",
-      "relationship": "HAS_EVIDENCE",
-      "target": "CERT-EKS-000037"
-    },
-    {
-      "source": "CERT-PKS-000007",
-      "relationship": "HAS_EVIDENCE",
-      "target": "CERT-EKS-000038"
-    },
-    {
-      "source": "CERT-PKS-000007",
-      "relationship": "HAS_EVIDENCE",
-      "target": "CERT-EKS-000039"
-    }
-  ],
+  "identity_and_translation_boundary": "Topical or cosmetic evidence cannot validate injectable use.",
   "validated_universal_human_dosing_protocol": false,
-  "platinum_certified": false,
-  "certification_blockers": [
-    "Clear separation of cosmetic, topical, wound-care and injectable contexts",
-    "Controlled human therapeutic evidence",
-    "Injectable product-quality and sterility validation",
-    "Current jurisdiction-specific status"
-  ]
+  "platinum_certified": false
 }

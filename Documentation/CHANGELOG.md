@@ -1,32 +1,30 @@
 # CERTIAURA CHANGE LOG
 
-## Build 0018 — Batch A Primary-Source Extraction & Evidence Expansion
+## Build 0019 — Batch B Primary-Source Extraction & Evidence Expansion
 **Date:** 2026-07-16
 
-Directly extracted:
+Upgraded:
 
-- CERT-EKS-000028
-- CERT-EKS-000029
-- CERT-EKS-000031
-- CERT-EKS-000032
-- CERT-EKS-000034
-- CERT-EKS-000035
+- CERT-EKS-000037–000048
+- CERT-PKS-000007–000010 to v0.2.0
+- CERT-SKS-000012–000015
+- Batch B claim controls
+- Primary source and closure registers
 
-Partially upgraded:
+Added:
 
-- CERT-EKS-000026
-- CERT-EKS-000027
-- CERT-EKS-000033
+- Batch B Primary Evidence Translation Matrix
+- Batch B Identity-Evidence Transfer Gate
+- Batch B Safety Translation Matrix
 
-Updated:
+Key outcome:
 
-- four Batch A flagship assets to v0.2.0;
-- four claim-control matrices;
-- primary source register;
-- primary source closure register;
-- evidence translation matrix;
-- production dashboard.
+Evidence now follows the exact peptide, fragment, route and model.
 
-Key result:
+No topical evidence was transferred to injection.
 
-Batch A now distinguishes human therapeutic evidence, human pharmacology, negative clinical efficacy and animal/translational evidence with model-specific precision.
+No full-length thymosin beta-4 evidence was transferred automatically to TB-500.
+
+No Melanotan II approval or long-term safety claim was introduced.
+
+No Epitalon human longevity claim was introduced.

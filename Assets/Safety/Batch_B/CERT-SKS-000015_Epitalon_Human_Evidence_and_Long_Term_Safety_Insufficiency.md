@@ -8,9 +8,14 @@
 
 # CERT-SKS-000015 — Epitalon Human Evidence and Long-Term Safety Insufficiency
 
+**Version:** 1.1.0  
 **Status:** Active safety control  
 **Last Review:** 2026-07-16
 
-## Safety domain
+## Updated evidence position
 
-Heterogeneous older evidence, uncertain product identity, human PK gaps and long-term carcinogenicity uncertainty remain material.
+Cell and animal longevity research does not resolve human pharmacokinetics, efficacy, telomerase-related risk or long-term neoplasm safety.
+
+## Control
+
+No universal human dosing or safety reassurance may be generated from the current evidence base.

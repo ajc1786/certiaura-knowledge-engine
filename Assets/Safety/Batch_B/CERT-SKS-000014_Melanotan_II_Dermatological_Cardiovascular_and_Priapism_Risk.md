@@ -8,9 +8,14 @@
 
 # CERT-SKS-000014 — Melanotan II Dermatological, Cardiovascular and Priapism Risk
 
+**Version:** 1.1.0  
 **Status:** Active safety control  
 **Last Review:** 2026-07-16
 
-## Safety domain
+## Updated evidence position
 
-Unapproved products, pigmentation changes, nausea, blood-pressure effects, priapism and uncertain long-term melanoma risk require prominent warnings.
+Early human pharmacology, case reports and regulator warnings support prominent adverse-event and product-quality controls without claiming quantified incidence or proven melanoma causation.
+
+## Control
+
+No universal human dosing or safety reassurance may be generated from the current evidence base.

@@ -1,0 +1,164 @@
+[
+  {
+    "source_id": "SRC-0019-001",
+    "evidence_id": "CERT-EKS-000037",
+    "title": "A tripeptide in human serum which prolongs survival of normal liver cells and stimulates growth in neoplastic liver",
+    "journal": "Nature",
+    "year": 1973,
+    "doi": null,
+    "closure_state": "FOUNDATIONAL PRIMARY PUBLICATION IDENTITY CONFIRMED"
+  },
+  {
+    "source_id": "SRC-0019-002",
+    "evidence_id": "CERT-EKS-000037",
+    "title": "Growth-modulating serum tripeptide is glycyl-histidyl-lysine",
+    "journal": "Experientia",
+    "year": 1977,
+    "doi": null,
+    "closure_state": "PRIMARY PUBLICATION IDENTITY CONFIRMED"
+  },
+  {
+    "source_id": "SRC-0019-003",
+    "evidence_id": "CERT-EKS-000037",
+    "title": "Growth-modulating plasma tripeptide may function by facilitating copper uptake into cells",
+    "journal": "Nature",
+    "year": 1980,
+    "doi": null,
+    "closure_state": "PRIMARY PUBLICATION IDENTITY CONFIRMED"
+  },
+  {
+    "source_id": "SRC-0019-004",
+    "evidence_id": "CERT-EKS-000038",
+    "title": "Stimulation of collagen synthesis in fibroblast cultures by the tripeptide-copper complex glycyl-L-histidyl-L-lysine-Cu2+",
+    "journal": "FEBS Letters",
+    "year": 1988,
+    "doi": null,
+    "closure_state": "PRIMARY PUBLICATION IDENTITY CONFIRMED — FULL EXTRACTION OPEN"
+  },
+  {
+    "source_id": "SRC-0019-005",
+    "evidence_id": "CERT-EKS-000038",
+    "title": "The effect of topical tripeptide-copper complex on healing of ischemic open wounds",
+    "journal": "Veterinary Surgery",
+    "year": 2003,
+    "doi": null,
+    "closure_state": "PRIMARY ANIMAL PUBLICATION IDENTITY CONFIRMED — FULL EXTRACTION OPEN"
+  },
+  {
+    "source_id": "SRC-0019-006",
+    "evidence_id": "CERT-EKS-000038",
+    "title": "A therapeutic approach for diabetic wound healing using biotinylated GHK incorporated collagen matrices",
+    "journal": "Life Sciences",
+    "year": 2007,
+    "doi": null,
+    "closure_state": "PRIMARY ANIMAL PUBLICATION IDENTITY CONFIRMED — FULL EXTRACTION OPEN"
+  },
+  {
+    "source_id": "SRC-0019-007",
+    "evidence_id": "CERT-EKS-000040",
+    "title": "Complete amino acid sequence of bovine thymosin beta 4: a thymic hormone that induces terminal deoxynucleotidyl transferase activity in thymocyte populations",
+    "journal": "PNAS",
+    "year": 1981,
+    "doi": null,
+    "closure_state": "PRIMARY STRUCTURE PUBLICATION IDENTITY CONFIRMED"
+  },
+  {
+    "source_id": "SRC-0019-008",
+    "evidence_id": "CERT-EKS-000040",
+    "title": "The actin binding site of thymosin beta 4 mapped by mutational analysis",
+    "journal": "EMBO Journal",
+    "year": 1996,
+    "doi": null,
+    "closure_state": "PRIMARY MECHANISTIC PUBLICATION IDENTITY CONFIRMED"
+  },
+  {
+    "source_id": "SRC-0019-009",
+    "evidence_id": "CERT-EKS-000041",
+    "title": "Thymosin beta 4 promotes dermal healing",
+    "journal": "Clinical / translational publication",
+    "year": "",
+    "doi": null,
+    "closure_state": "PRIMARY HUMAN CLINICAL PUBLICATION IDENTITY REQUIRES DIRECT CAPTURE"
+  },
+  {
+    "source_id": "SRC-0019-010",
+    "evidence_id": "CERT-EKS-000042",
+    "title": "Synthesis and characterization of the N-terminal acetylated 17-23 fragment of thymosin beta 4 identified in TB-500, a product suspected to possess doping potential",
+    "journal": "Drug Testing and Analysis",
+    "year": 2012,
+    "doi": null,
+    "closure_state": "PRIMARY ANALYTICAL PUBLICATION IDENTITY CONFIRMED"
+  },
+  {
+    "source_id": "SRC-0019-011",
+    "evidence_id": "CERT-EKS-000042",
+    "title": "Doping control analysis of TB-500, a synthetic version of an active region of thymosin beta 4, in equine urine and plasma by liquid chromatography-mass spectrometry",
+    "journal": "Journal of Chromatography A",
+    "year": 2012,
+    "doi": null,
+    "closure_state": "PRIMARY ANALYTICAL PUBLICATION IDENTITY CONFIRMED"
+  },
+  {
+    "source_id": "SRC-0019-012",
+    "evidence_id": "CERT-EKS-000043",
+    "title": "Evaluation of melanotan-II, a superpotent cyclic melanotropic peptide in a pilot phase-I clinical study",
+    "journal": "Life Sciences",
+    "year": 1996,
+    "doi": "10.1016/0024-3205(96)00160-9",
+    "closure_state": "PRIMARY PUBLICATION IDENTITY AND PHASE-I DESIGN CONFIRMED"
+  },
+  {
+    "source_id": "SRC-0019-013",
+    "evidence_id": "CERT-EKS-000043",
+    "title": "Synthetic melanotropic peptide initiates erections in men with psychogenic erectile dysfunction: double-blind, placebo controlled crossover study",
+    "journal": "Journal of Urology",
+    "year": 1998,
+    "doi": "10.1016/S0022-5347(01)62903-3",
+    "closure_state": "PRIMARY PUBLICATION IDENTITY AND DESIGN CONFIRMED"
+  },
+  {
+    "source_id": "SRC-0019-014",
+    "evidence_id": "CERT-EKS-000043",
+    "title": "Melanocortin receptor agonists, penile erection, and sexual motivation: human studies with Melanotan II",
+    "journal": "International Journal of Impotence Research",
+    "year": 2000,
+    "doi": "10.1038/sj.ijir.3900582",
+    "closure_state": "PRIMARY HUMAN PUBLICATION IDENTITY CONFIRMED"
+  },
+  {
+    "source_id": "SRC-0019-015",
+    "evidence_id": "CERT-EKS-000046",
+    "title": "Epithalon peptide induces telomerase activity and telomere elongation in human somatic cells",
+    "journal": "Bulletin of Experimental Biology and Medicine",
+    "year": 2003,
+    "doi": null,
+    "closure_state": "PRIMARY IN-VITRO PUBLICATION IDENTITY CONFIRMED"
+  },
+  {
+    "source_id": "SRC-0019-016",
+    "evidence_id": "CERT-EKS-000046",
+    "title": "Peptide promotes overcoming of the division limit in human somatic cells",
+    "journal": "Bulletin of Experimental Biology and Medicine",
+    "year": 2004,
+    "doi": null,
+    "closure_state": "PRIMARY IN-VITRO PUBLICATION IDENTITY CONFIRMED"
+  },
+  {
+    "source_id": "SRC-0019-017",
+    "evidence_id": "CERT-EKS-000047",
+    "title": "Effect of Ala-Glu-Asp-Gly peptide on life span and development of spontaneous tumors in female rats exposed to different illumination regimes",
+    "journal": "Bulletin of Experimental Biology and Medicine",
+    "year": 2007,
+    "doi": null,
+    "closure_state": "PRIMARY ANIMAL PUBLICATION IDENTITY CONFIRMED"
+  },
+  {
+    "source_id": "SRC-0019-018",
+    "evidence_id": "CERT-EKS-000048",
+    "title": "Pineal-regulating tetrapeptide epitalon improves eye retina condition in retinitis pigmentosa",
+    "journal": "Neuro Endocrinology Letters",
+    "year": 2002,
+    "doi": null,
+    "closure_state": "PRIMARY HUMAN PUBLICATION IDENTITY CONFIRMED — DIRECT METHODS OPEN"
+  }
+]

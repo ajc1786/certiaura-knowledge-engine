@@ -8,26 +8,33 @@
 
 # CERT-EKS-000045 — Melanotan II Regulator Warning Evidence
 
-**Root asset:** Melanotan II  
-**Evidence type:** Regulatory evidence object  
-**Status:** EVIDENCE LEAD — PRIMARY EXTRACTION REQUIRED  
+**Root asset:** `CERT-PKS-000009`  
+**Version:** 0.2.0  
+**Status:** REGULATOR-WARNING DOMAIN CONFIRMED — CURRENT SOURCE REFRESH REQUIRED  
 **Last Review:** 2026-07-16
 
-## Source domain
+## Domain
 
-FDA, MHRA and other regulator warning source set
+FDA, MHRA and other medicines-regulator warnings
 
-## Current use
+## Extracted position
 
-Evidence-domain mapping and cautious summary only.
+- Multiple medicines regulators have issued warnings or enforcement communications concerning unapproved Melanotan products.
+- Current jurisdiction-specific source capture remains part of the active regulatory watch.
 
-## Direct extraction
+## Limitations
 
-**Complete:** No
+- Historical warnings must be dated and refreshed.
+- Regulatory wording differs by jurisdiction.
 
-## Restrictions
+## Permitted claims
 
-- No precise quantitative promotion.
-- No identity transfer.
-- No universal human dosing claim.
-- No approval claim without current authoritative support.
+- Melanotan II is subject to unapproved-product and regulator-warning controls.
+
+## Prohibited claims
+
+- Universal legal-status claims without jurisdiction and date.
+
+## Full-text extraction
+
+**Complete:** No, unless a future build explicitly upgrades the source state.

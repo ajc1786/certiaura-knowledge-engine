@@ -8,26 +8,35 @@
 
 # CERT-EKS-000044 — Melanotan II Adverse-Event and Case-Report Evidence
 
-**Root asset:** Melanotan II  
-**Evidence type:** Safety evidence set  
-**Status:** EVIDENCE LEAD — PRIMARY EXTRACTION REQUIRED  
+**Root asset:** `CERT-PKS-000009`  
+**Version:** 0.2.0  
+**Status:** SAFETY EVIDENCE MAP ACTIVE — CASE REPORT EXTRACTION PARTIAL  
 **Last Review:** 2026-07-16
 
-## Source domain
+## Domain
 
-Dermatological, priapism, rhabdomyolysis and other adverse-event source set
+Pigmented lesion changes, priapism, systemic adverse events and product-quality risk
 
-## Current use
+## Extracted position
 
-Evidence-domain mapping and cautious summary only.
+- Published case reports and regulator communications describe clinically significant concerns.
+- Case reports establish signals and review triggers, not incidence or causation rates.
+- Unverified online products add identity, dose, contamination and sterility uncertainty.
 
-## Direct extraction
+## Limitations
 
-**Complete:** No
+- Case reports cannot quantify population risk.
+- Melanoma causation is not established by isolated reports.
 
-## Restrictions
+## Permitted claims
 
-- No precise quantitative promotion.
-- No identity transfer.
-- No universal human dosing claim.
-- No approval claim without current authoritative support.
+- Melanotan II has documented adverse-event signals and prominent regulator warnings.
+
+## Prohibited claims
+
+- Claim that Melanotan II has been proven to cause melanoma.
+- Claim that absence of proven causation means safety.
+
+## Full-text extraction
+
+**Complete:** No, unless a future build explicitly upgrades the source state.

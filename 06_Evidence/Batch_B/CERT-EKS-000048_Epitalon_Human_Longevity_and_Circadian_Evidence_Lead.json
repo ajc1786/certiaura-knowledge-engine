@@ -1,21 +1,29 @@
 {
   "asset_id": "CERT-EKS-000048",
   "asset_name": "Epitalon Human Longevity and Circadian Evidence Lead",
+  "root_asset": "CERT-PKS-000010",
   "knowledge_system": "EKS",
   "asset_type": "Evidence Object",
-  "version": "0.1.0",
-  "status": "EVIDENCE LEAD — PRIMARY EXTRACTION REQUIRED",
-  "root_asset_name": "Epitalon",
-  "publication_or_source_set": "Older human telomere, melatonin, morbidity and mortality source set",
-  "evidence_type": "Human evidence lead",
-  "doi": null,
-  "direct_extraction_completed": false,
+  "version": "0.2.0",
+  "status": "HUMAN PUBLICATION IDENTITIES PARTIAL — EPITALON / EPITHALAMIN SEPARATION REQUIRED",
   "last_review": "2026-07-16",
-  "permitted_use": "Evidence-domain mapping and cautious summary only.",
-  "prohibited_use": [
-    "Precise quantitative claims before extraction",
-    "Transfer between chemically distinct identities",
-    "Universal human dosing",
-    "Approval or safety claims without authoritative support"
-  ]
+  "domain": "Retinal, melatonin, telomere, morbidity and mortality claims",
+  "extracted_summary": [
+    "A human retinitis pigmentosa publication attributed to Epitalon is identifiable.",
+    "Many longevity and mortality claims concern epithalamin, a pineal extract, rather than synthetic Epitalon.",
+    "Direct methods, randomisation, controls and product identity remain insufficiently closed."
+  ],
+  "limitations": [
+    "Epithalamin evidence cannot be assigned to Epitalon automatically.",
+    "Older reports require independent direct verification.",
+    "No large independent placebo-controlled longevity trial is established."
+  ],
+  "permitted_claims": [
+    "Human evidence is sparse, heterogeneous and identity-sensitive."
+  ],
+  "prohibited_claims": [
+    "Claims that Epitalon reduces human mortality.",
+    "Claims that epithalamin and Epitalon are clinically interchangeable."
+  ],
+  "direct_complete_full_text_extraction": false
 }

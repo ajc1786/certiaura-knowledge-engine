@@ -8,26 +8,35 @@
 
 # CERT-EKS-000041 — Thymosin Beta-4 Human Wound and Ocular Evidence
 
-**Root asset:** Thymosin Beta-4 / TB-500  
-**Evidence type:** Human clinical evidence set  
-**Status:** EVIDENCE LEAD — PRIMARY EXTRACTION REQUIRED  
+**Root asset:** `CERT-PKS-000008`  
+**Version:** 0.2.0  
+**Status:** HUMAN CLINICAL PROGRAMME IDENTIFIED — PRIMARY ARTICLE EXTRACTION OPEN  
 **Last Review:** 2026-07-16
 
-## Source domain
+## Domain
 
-Human wound, corneal and dry-eye clinical source set
+Dermal wounds, dry eye and corneal disorders
 
-## Current use
+## Extracted position
 
-Evidence-domain mapping and cautious summary only.
+- Full-length thymosin beta-4 has entered human wound and ophthalmic clinical development.
+- Direct complete trial extraction remains open.
+- This human evidence concerns full-length thymosin beta-4 formulations, not marketplace TB-500 by default.
 
-## Direct extraction
+## Limitations
 
-**Complete:** No
+- Complete patient numbers, endpoints and effect estimates remain open.
+- Sponsor reports are not a substitute for complete primary trial appraisal.
 
-## Restrictions
+## Permitted claims
 
-- No precise quantitative promotion.
-- No identity transfer.
-- No universal human dosing claim.
-- No approval claim without current authoritative support.
+- Full-length thymosin beta-4 has human clinical-development evidence in wound and ocular contexts.
+
+## Prohibited claims
+
+- Claims that TB-500 heals human tendon injuries.
+- Precise clinical effect sizes before extraction.
+
+## Full-text extraction
+
+**Complete:** No, unless a future build explicitly upgrades the source state.

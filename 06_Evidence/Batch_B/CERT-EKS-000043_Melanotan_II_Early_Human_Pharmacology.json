@@ -1,21 +1,30 @@
 {
   "asset_id": "CERT-EKS-000043",
   "asset_name": "Melanotan II Early Human Pharmacology",
+  "root_asset": "CERT-PKS-000009",
   "knowledge_system": "EKS",
   "asset_type": "Evidence Object",
-  "version": "0.1.0",
-  "status": "EVIDENCE LEAD — PRIMARY EXTRACTION REQUIRED",
-  "root_asset_name": "Melanotan II",
-  "publication_or_source_set": "Early human pigmentation and systemic pharmacology studies",
-  "evidence_type": "Human pharmacology evidence set",
-  "doi": null,
-  "direct_extraction_completed": false,
+  "version": "0.2.0",
+  "status": "PRIMARY HUMAN PUBLICATION IDENTITIES AND DESIGNS CONFIRMED — FULL EXTRACTION OPEN",
   "last_review": "2026-07-16",
-  "permitted_use": "Evidence-domain mapping and cautious summary only.",
-  "prohibited_use": [
-    "Precise quantitative claims before extraction",
-    "Transfer between chemically distinct identities",
-    "Universal human dosing",
-    "Approval or safety claims without authoritative support"
-  ]
+  "domain": "Pigmentation and sexual-function human pharmacology",
+  "extracted_summary": [
+    "A 1996 pilot phase-I clinical publication evaluated Melanotan II.",
+    "A 1998 double-blind, placebo-controlled crossover publication studied erections in men with psychogenic erectile dysfunction.",
+    "A 2000 human-study publication reviewed melanocortin, erection and sexual motivation findings."
+  ],
+  "limitations": [
+    "Full participant-level and adverse-event extraction remains open.",
+    "Early pharmacology does not validate cosmetic tanning supply.",
+    "Long-term dermatological safety was not established."
+  ],
+  "permitted_claims": [
+    "Melanotan II has early human pigmentation and sexual-function pharmacology publications."
+  ],
+  "prohibited_claims": [
+    "Approved tanning treatment claims.",
+    "Long-term melanoma-safety reassurance.",
+    "Dosing guidance derived from early trials."
+  ],
+  "direct_complete_full_text_extraction": false
 }

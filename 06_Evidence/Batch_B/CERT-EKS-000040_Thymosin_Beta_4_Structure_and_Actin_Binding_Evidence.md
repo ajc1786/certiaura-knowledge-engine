@@ -8,26 +8,34 @@
 
 # CERT-EKS-000040 — Thymosin Beta-4 Structure and Actin-Binding Evidence
 
-**Root asset:** Thymosin Beta-4 / TB-500  
-**Evidence type:** Mechanistic evidence set  
-**Status:** EVIDENCE LEAD — PRIMARY EXTRACTION REQUIRED  
+**Root asset:** `CERT-PKS-000008`  
+**Version:** 0.2.0  
+**Status:** PRIMARY STRUCTURE AND MECHANISM IDENTITIES CONFIRMED  
 **Last Review:** 2026-07-16
 
-## Source domain
+## Domain
 
-Primary structure, actin binding and cellular-function studies
+Full-length thymosin beta-4 sequence and actin binding
 
-## Current use
+## Extracted position
 
-Evidence-domain mapping and cautious summary only.
+- Primary publications define full-length thymosin beta-4 structure and actin-binding biology.
+- The full-length molecule is a distinct canonical identity from the TB-500 heptapeptide fragment.
 
-## Direct extraction
+## Limitations
 
-**Complete:** No
+- Structure and actin binding do not prove therapeutic tissue repair.
+- Evidence cannot be inherited automatically by TB-500.
 
-## Restrictions
+## Permitted claims
 
-- No precise quantitative promotion.
-- No identity transfer.
-- No universal human dosing claim.
-- No approval claim without current authoritative support.
+- Full-length thymosin beta-4 has established actin-binding biology.
+
+## Prohibited claims
+
+- Claims that TB-500 is equivalent to full-length thymosin beta-4.
+- Human healing efficacy based only on actin biology.
+
+## Full-text extraction
+
+**Complete:** No, unless a future build explicitly upgrades the source state.

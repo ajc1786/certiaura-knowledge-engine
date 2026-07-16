@@ -1,107 +1,21 @@
 {
   "asset_id": "CERT-PKS-000008",
   "asset_name": "Thymosin Beta-4 / TB-500 Identity Family",
-  "knowledge_system": "PKS",
-  "asset_type": "Peptide Knowledge Asset",
-  "version": "0.1.0",
-  "status": "BOOTSTRAPPED — NOT PLATINUM CERTIFIED",
-  "owner": "Aidan Coleman",
+  "version": "0.2.0",
+  "status": "IDENTITY AND ANALYTICAL EVIDENCE STRUCTURED — FULL-LENGTH HUMAN CLINICAL CLOSURE PARTIAL — TB-500 HUMAN EVIDENCE INSUFFICIENT — NOT PLATINUM CERTIFIED",
   "last_review": "2026-07-16",
-  "aliases": [
-    "Thymosin beta-4",
-    "Tβ4",
-    "Timbetasin",
-    "TB-500",
-    "Ac-LKKTETQ"
-  ],
-  "classification": "Identity-controlled peptide family covering full-length thymosin beta-4 and the marketed TB-500 fragment",
-  "mechanism_summary": "Actin-binding and tissue-repair biology for full-length thymosin beta-4; TB-500 is commonly represented as a shorter synthetic fragment and must not inherit the full evidence base automatically.",
-  "evidence_maturity": "Full-length thymosin beta-4 has human and preclinical research; TB-500 evidence is substantially thinner and identity-sensitive",
-  "regulatory_status": {
-    "state": "IDENTITY-SENSITIVE / NO UNIVERSAL APPROVAL CLAIM / ATHLETE WARNING REQUIRED",
-    "headline": "Full-length thymosin beta-4 and TB-500 are not interchangeable; anti-doping and human-use status require current authoritative review.",
-    "status_as_of": "2026-07-16",
-    "monitoring_required": true
+  "evidence_maturity": "Full-length thymosin beta-4 has established structure and clinical-development evidence; TB-500 has fragment-identity and analytical detection evidence but not equivalent human efficacy evidence.",
+  "source_closure": {
+    "closed": [
+      "CERT-EKS-000040",
+      "CERT-EKS-000042"
+    ],
+    "partial": [
+      "CERT-EKS-000041"
+    ],
+    "open": []
   },
-  "relationships": [
-    {
-      "source": "CERT-PKS-000008",
-      "relationship": "ACTS_ON",
-      "target": "CERT-BKS-000035"
-    },
-    {
-      "source": "CERT-PKS-000008",
-      "relationship": "ACTS_ON",
-      "target": "CERT-BKS-000036"
-    },
-    {
-      "source": "CERT-PKS-000008",
-      "relationship": "ACTS_ON",
-      "target": "CERT-BKS-000037"
-    },
-    {
-      "source": "CERT-PKS-000008",
-      "relationship": "HAS_CONDITION",
-      "target": "CERT-CKS-000006"
-    },
-    {
-      "source": "CERT-PKS-000008",
-      "relationship": "HAS_CONDITION",
-      "target": "CERT-CKS-000008"
-    },
-    {
-      "source": "CERT-PKS-000008",
-      "relationship": "SUPPORTS_GOAL",
-      "target": "CERT-GKS-000008"
-    },
-    {
-      "source": "CERT-PKS-000008",
-      "relationship": "SUPPORTS_GOAL",
-      "target": "CERT-GKS-000009"
-    },
-    {
-      "source": "CERT-PKS-000008",
-      "relationship": "HAS_MONITORING",
-      "target": "CERT-MKS-000018"
-    },
-    {
-      "source": "CERT-PKS-000008",
-      "relationship": "HAS_MONITORING",
-      "target": "CERT-MKS-000019"
-    },
-    {
-      "source": "CERT-PKS-000008",
-      "relationship": "HAS_MONITORING",
-      "target": "CERT-MKS-000021"
-    },
-    {
-      "source": "CERT-PKS-000008",
-      "relationship": "HAS_SAFETY",
-      "target": "CERT-SKS-000013"
-    },
-    {
-      "source": "CERT-PKS-000008",
-      "relationship": "HAS_EVIDENCE",
-      "target": "CERT-EKS-000040"
-    },
-    {
-      "source": "CERT-PKS-000008",
-      "relationship": "HAS_EVIDENCE",
-      "target": "CERT-EKS-000041"
-    },
-    {
-      "source": "CERT-PKS-000008",
-      "relationship": "HAS_EVIDENCE",
-      "target": "CERT-EKS-000042"
-    }
-  ],
+  "identity_and_translation_boundary": "Full-length thymosin beta-4 and TB-500 remain separate evidence identities.",
   "validated_universal_human_dosing_protocol": false,
-  "platinum_certified": false,
-  "certification_blockers": [
-    "Canonical separation of full-length thymosin beta-4 and TB-500 fragment evidence",
-    "Current anti-doping closure",
-    "Approved indication and jurisdiction-specific human-use route",
-    "Long-term human safety",
-    "Supplier sequence and product identity verification"
-  ]
+  "platinum_certified": false
 }

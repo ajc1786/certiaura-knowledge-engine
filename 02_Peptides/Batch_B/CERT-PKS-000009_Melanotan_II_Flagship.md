@@ -8,59 +8,35 @@
 
 # CERT-PKS-000009 — Melanotan II
 
-**Version:** 0.1.0  
-**Status:** BOOTSTRAPPED — NOT PLATINUM CERTIFIED  
+**Version:** 0.2.0  
+**Status:** EARLY HUMAN PHARMACOLOGY IDENTIFIED — SAFETY WARNING PRIORITY — UNAPPROVED — NOT PLATINUM CERTIFIED  
 **Last Review:** 2026-07-16
-
-## Classification
-
-Synthetic cyclic melanocortin receptor agonist
-
-## Aliases
-
-MT-II, MT2, Melanotan 2
-
-## Mechanism
-
-Non-selective melanocortin receptor agonism affecting pigmentation, appetite and sexual-function pathways.
 
 ## Evidence maturity
 
-Early human pharmacology and case-report evidence; unapproved cosmetic tanning market
+Early human pigmentation and sexual-function pharmacology exists; long-term cosmetic safety, product quality and approved use are not established.
 
-## Evidence foundation
+## Closed evidence
+
+- None
+
+## Partially closed evidence
 
 - `CERT-EKS-000043`
 - `CERT-EKS-000044`
 - `CERT-EKS-000045`
 
-## Safety
+## Open evidence
 
-- `CERT-SKS-000014`
+- None
 
-## Monitoring
+## Identity and translation boundary
 
-- `CERT-MKS-000022`
-- `CERT-MKS-000023`
-- `CERT-MKS-000024`
+Early human effects do not establish safe or authorised cosmetic tanning.
 
-## Regulatory status
-
-**UNAPPROVED TANNING PEPTIDE / SAFETY WARNING PRIORITY**
-
-No cosmetic tanning approval claim; regulator warnings, product-quality risk and adverse-event controls are mandatory.
-
-## Validated universal human dosing
+## Validated universal human dosing protocol
 
 **No**
-
-## Certification blockers
-
-- No approved cosmetic tanning indication
-- Long-term dermatological safety
-- Product identity and sterility
-- Cardiovascular, gastrointestinal and sexual adverse-event characterisation
-- Current jurisdiction-specific enforcement status
 
 ## Platinum Certified
 

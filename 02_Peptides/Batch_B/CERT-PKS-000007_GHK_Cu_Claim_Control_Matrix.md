@@ -6,15 +6,13 @@
 
 ---
 
-# GHK-CU CLAIM CONTROL MATRIX
+# CERT-PKS-000007 GHK CU CLAIM CONTROL MATRIX — BUILD 0019
 
-| Claim | Status | Permission |
-|---|---|---|
-| GHK-Cu is classified as: Copper-binding tripeptide complex. | Identity-controlled | Allowed |
-| Evidence from a related but distinct molecule automatically applies. | False | Not allowed |
-| Online availability proves legal, approved or safe human use. | False | Not allowed |
-| A universal human dosing protocol is validated. | Not established | Not allowed |
-| Current evidence maturity is: Topical/cosmetic and preclinical evidence base with limited controlled human therapeutic evidence. | Controlled assessment | Allowed |
-| The asset is Platinum Certified. | False | Not allowed |
+| Claim | Permission |
+|---|---|
+| GHK-Cu has foundational copper-binding and preclinical repair evidence. | Allowed |
+| Topical cosmetic evidence proves injectable benefit. | Not allowed |
+| GHK-Cu injections are clinically validated for skin or hair. | Not established / not allowed |
+| Endogenous occurrence proves safety. | Not allowed |
 
 **Status as of:** 2026-07-16

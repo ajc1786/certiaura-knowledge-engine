@@ -1,21 +1,27 @@
 {
   "asset_id": "CERT-EKS-000039",
   "asset_name": "GHK-Cu Human Topical and Hair Evidence Lead",
+  "root_asset": "CERT-PKS-000007",
   "knowledge_system": "EKS",
   "asset_type": "Evidence Object",
-  "version": "0.1.0",
-  "status": "EVIDENCE LEAD — PRIMARY EXTRACTION REQUIRED",
-  "root_asset_name": "GHK-Cu",
-  "publication_or_source_set": "Controlled topical skin and hair evidence source set",
-  "evidence_type": "Human evidence lead",
-  "doi": null,
-  "direct_extraction_completed": false,
+  "version": "0.2.0",
+  "status": "HUMAN EVIDENCE LEAD — PRIMARY CONTROLLED SOURCES NOT CLOSED",
   "last_review": "2026-07-16",
-  "permitted_use": "Evidence-domain mapping and cautious summary only.",
-  "prohibited_use": [
-    "Precise quantitative claims before extraction",
-    "Transfer between chemically distinct identities",
-    "Universal human dosing",
-    "Approval or safety claims without authoritative support"
-  ]
+  "domain": "Topical cosmetic skin and hair claims",
+  "extracted_summary": [
+    "Small controlled topical studies are repeatedly referenced in reviews and commercial literature.",
+    "Direct primary reports suitable for independent quantitative appraisal were not closed in Build 0019."
+  ],
+  "limitations": [
+    "Publication and sponsor transparency are incomplete.",
+    "Topical outcomes cannot be transferred to injection."
+  ],
+  "permitted_claims": [
+    "Human topical evidence remains an active source-closure task."
+  ],
+  "prohibited_claims": [
+    "Definitive wrinkle, collagen or hair-growth effect sizes.",
+    "Injectable cosmetic benefit claims."
+  ],
+  "direct_complete_full_text_extraction": false
 }

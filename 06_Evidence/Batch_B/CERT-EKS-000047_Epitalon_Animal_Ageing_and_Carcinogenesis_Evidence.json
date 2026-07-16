@@ -1,21 +1,27 @@
 {
   "asset_id": "CERT-EKS-000047",
   "asset_name": "Epitalon Animal Ageing and Carcinogenesis Evidence",
+  "root_asset": "CERT-PKS-000010",
   "knowledge_system": "EKS",
   "asset_type": "Evidence Object",
-  "version": "0.1.0",
-  "status": "EVIDENCE LEAD — PRIMARY EXTRACTION REQUIRED",
-  "root_asset_name": "Epitalon",
-  "publication_or_source_set": "Animal lifespan, tumour and ageing source set",
-  "evidence_type": "Preclinical evidence set",
-  "doi": null,
-  "direct_extraction_completed": false,
+  "version": "0.2.0",
+  "status": "PRIMARY ANIMAL PUBLICATION IDENTITIES CONFIRMED — FULL EXTRACTION OPEN",
   "last_review": "2026-07-16",
-  "permitted_use": "Evidence-domain mapping and cautious summary only.",
-  "prohibited_use": [
-    "Precise quantitative claims before extraction",
-    "Transfer between chemically distinct identities",
-    "Universal human dosing",
-    "Approval or safety claims without authoritative support"
-  ]
+  "domain": "Rodent lifespan, illumination regime and spontaneous tumour experiments",
+  "extracted_summary": [
+    "Primary animal publications investigate lifespan and spontaneous tumours under specific experimental conditions.",
+    "The findings remain animal evidence and require full methods and statistical extraction."
+  ],
+  "limitations": [
+    "Animal longevity is not human longevity.",
+    "Tumour findings do not establish human anticancer benefit or safety."
+  ],
+  "permitted_claims": [
+    "Epitalon has animal ageing and tumour-incidence research."
+  ],
+  "prohibited_claims": [
+    "Human lifespan-extension claims.",
+    "Human cancer-prevention claims."
+  ],
+  "direct_complete_full_text_extraction": false
 }

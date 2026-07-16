@@ -1,21 +1,28 @@
 {
   "asset_id": "CERT-EKS-000044",
   "asset_name": "Melanotan II Adverse-Event and Case-Report Evidence",
+  "root_asset": "CERT-PKS-000009",
   "knowledge_system": "EKS",
   "asset_type": "Evidence Object",
-  "version": "0.1.0",
-  "status": "EVIDENCE LEAD — PRIMARY EXTRACTION REQUIRED",
-  "root_asset_name": "Melanotan II",
-  "publication_or_source_set": "Dermatological, priapism, rhabdomyolysis and other adverse-event source set",
-  "evidence_type": "Safety evidence set",
-  "doi": null,
-  "direct_extraction_completed": false,
+  "version": "0.2.0",
+  "status": "SAFETY EVIDENCE MAP ACTIVE — CASE REPORT EXTRACTION PARTIAL",
   "last_review": "2026-07-16",
-  "permitted_use": "Evidence-domain mapping and cautious summary only.",
-  "prohibited_use": [
-    "Precise quantitative claims before extraction",
-    "Transfer between chemically distinct identities",
-    "Universal human dosing",
-    "Approval or safety claims without authoritative support"
-  ]
+  "domain": "Pigmented lesion changes, priapism, systemic adverse events and product-quality risk",
+  "extracted_summary": [
+    "Published case reports and regulator communications describe clinically significant concerns.",
+    "Case reports establish signals and review triggers, not incidence or causation rates.",
+    "Unverified online products add identity, dose, contamination and sterility uncertainty."
+  ],
+  "limitations": [
+    "Case reports cannot quantify population risk.",
+    "Melanoma causation is not established by isolated reports."
+  ],
+  "permitted_claims": [
+    "Melanotan II has documented adverse-event signals and prominent regulator warnings."
+  ],
+  "prohibited_claims": [
+    "Claim that Melanotan II has been proven to cause melanoma.",
+    "Claim that absence of proven causation means safety."
+  ],
+  "direct_complete_full_text_extraction": false
 }

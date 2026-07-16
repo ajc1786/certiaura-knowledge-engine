@@ -1,0 +1,28 @@
+{
+  "asset_id": "CERT-EKS-000038",
+  "asset_name": "GHK-Cu Wound-Healing and Matrix-Remodelling Preclinical Evidence",
+  "root_asset": "CERT-PKS-000007",
+  "knowledge_system": "EKS",
+  "asset_type": "Evidence Object",
+  "version": "0.2.0",
+  "status": "PRIMARY PRECLINICAL PUBLICATIONS IDENTIFIED — FULL EXTRACTION OPEN",
+  "last_review": "2026-07-16",
+  "domain": "Fibroblast collagen synthesis and animal wound models",
+  "extracted_summary": [
+    "Primary publications exist for fibroblast collagen synthesis and topical animal wound-healing models.",
+    "The evidence base is preclinical and route-specific.",
+    "No human injectable therapeutic conclusion is supported."
+  ],
+  "limitations": [
+    "Complete study methods and numerical outcomes remain open.",
+    "Animal topical wound findings do not establish injectable human benefit."
+  ],
+  "permitted_claims": [
+    "GHK-Cu has preclinical fibroblast and animal wound-healing evidence."
+  ],
+  "prohibited_claims": [
+    "Human wound-healing efficacy claims without direct clinical evidence.",
+    "Injection protocol or systemic safety claims."
+  ],
+  "direct_complete_full_text_extraction": false
+}
