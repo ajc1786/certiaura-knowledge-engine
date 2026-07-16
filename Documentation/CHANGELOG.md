@@ -1,33 +1,23 @@
 # CERTIAURA CHANGE LOG
 
-## Build 0028B — Biologic, Cosmetic & Diluent Ancillary Products
+## Build 0029 — Catalogue Coverage & Closure Audit
 **Date:** 2026-07-16
 
-Allocated:
+Audited:
 
-- CERT-MPS-000007–000012
-- CERT-PPS-000007–000012
-- CERT-EKS-000217–000228
-- CERT-SKS-000100–000105
-- CERT-BKS-000167–000178
-- CERT-CKS-000053–000057
-- CERT-MKS-000151–000172
-- CERT-GKS-000088–000092
+- Build 0020 baseline master intake;
+- all asset builds from 0021 through 0028B;
+- 196 source SKU rows;
+- 104 preliminary product families;
+- 100 final PKS/MPS product assets.
 
-Added:
+Confirmed:
 
-- six marketplace product-family assets;
-- six Product Passport™ gap objects;
-- twelve evidence objects;
-- six safety objects;
-- duplicate and discrepancy controls;
-- regulatory and Cost Intelligence™ registers.
+- 193 SKU rows mapped;
+- 102 preliminary families mapped;
+- two deliberate family consolidations;
+- three unmapped source rows representing two missing families;
+- no Platinum-certified catalogue asset;
+- contiguous UAI ranges through the current maxima.
 
-Key controls:
-
-- WA10 and BA10 remain duplicate listings.
-- Acetic-acid concentration is not invented.
-- Botulinum units are product specific.
-- HA powder is not treated as filler.
-- Alprostadil product status is route and formulation specific.
-- Lemon Bottle has conflicting prices and incomplete quantitative composition.
+No new permanent UAI was allocated by this audit.

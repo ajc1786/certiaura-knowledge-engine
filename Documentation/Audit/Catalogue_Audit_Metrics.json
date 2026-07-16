@@ -1,0 +1,38 @@
+{
+  "build": "0029",
+  "status_date": "2026-07-16",
+  "source_scope": "Peptides.pdf pages 1-5",
+  "baseline_sku_rows": 196,
+  "mapped_sku_rows": 193,
+  "unmapped_sku_rows": 3,
+  "sku_coverage_percent": 98.47,
+  "baseline_preliminary_families": 104,
+  "mapped_preliminary_families": 102,
+  "unmapped_preliminary_families": 2,
+  "family_coverage_percent": 98.08,
+  "final_product_assets": 100,
+  "pks_assets": 88,
+  "mps_assets": 12,
+  "pps_assets": 12,
+  "deliberate_family_consolidations": 2,
+  "supplemental_nonbaseline_records": 1,
+  "price_mismatches_in_build_level_comparable_rows": 0,
+  "platinum_certified_catalogue_assets": 0,
+  "coverage_gaps": [
+    {
+      "family": "Elamipretide / SS-31",
+      "codes": [
+        "2S10",
+        "2S50"
+      ],
+      "recommended_uai": "CERT-PKS-000089"
+    },
+    {
+      "family": "Native GLP-1 identity candidate",
+      "codes": [
+        "GP"
+      ],
+      "recommended_uai": "Do not allocate until identity closure; CERT-PKS-000090 may be reserved only after defensible identity resolution."
+    }
+  ]
+}

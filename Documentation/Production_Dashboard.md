@@ -1,46 +1,37 @@
 # CERTIAURA PRODUCTION DASHBOARD
 
-**Build:** 0028B  
+**Build:** 0029  
 **Date:** 2026-07-16
 
-## Catalogue C9B complete
+## Catalogue review phase status
 
-### Marketplace Product System assets
+**CONDITIONALLY COMPLETE - TWO COVERAGE CORRECTIONS REQUIRED**
 
-- CERT-MPS-000007 — Bacteriostatic Water Supplier Family
-- CERT-MPS-000008 — Acetic Acid Water Supplier Family
-- CERT-MPS-000009 — Botulinum Toxin Supplier Product Family
-- CERT-MPS-000010 — Hyaluronic Acid Supplier Product Family
-- CERT-MPS-000011 — Alprostadil Supplier Vial Family
-- CERT-MPS-000012 — Lemon Bottle Supplier Mixture Family
+### Coverage
 
-### Product Passport System assets
+- 193 / 196 source SKU rows mapped
+- 102 / 104 preliminary families mapped
+- 100 final product-family assets
+- 12 Product Passports
 
-- CERT-PPS-000007–000012
+### Unmapped source rows
 
-### Supporting objects
+- `2S10` - Elamipretide / SS-31
+- `2S50` - Elamipretide / SS-31
+- `GP` - generic GLP-1 identity candidate
 
-- CERT-EKS-000217–000228
-- CERT-SKS-000100–000105
-- CERT-BKS-000167–000178
-- CERT-CKS-000053–000057
-- CERT-MKS-000151–000172
-- CERT-GKS-000088–000092
+### Next allocation state
 
-## Critical outcomes
+- Next PKS: `CERT-PKS-000089`
+- Next MPS: `CERT-MPS-000013`
+- Next PPS: `CERT-PPS-000013`
+- Next EKS: `CERT-EKS-000229`
+- Next SKS: `CERT-SKS-000106`
+- Next BKS: `CERT-BKS-000179`
+- Next CKS: `CERT-CKS-000058`
+- Next MKS: `CERT-MKS-000173`
+- Next GKS: `CERT-GKS-000093`
 
-- Duplicate WA10 and BA10 water listings are retained.
-- Acetic acid water remains blocked by missing concentration and pH.
-- Unbranded botulinum toxin is separated from all authorised brands and unit systems.
-- HA5 is not treated as a dermal filler.
-- PRO20 is not treated as Caverject.
-- Both Lemon Bottle prices are retained.
-- Lemon Bottle has an unexplained 42.5 mg/mL composition balance.
+## Next build
 
-## Catalogue milestone
-
-Builds 0020–0028B complete the structured review of supplier-catalogue pages 1–5.
-
-## Next task
-
-**Catalogue Coverage & Closure Audit**
+**Build 0030A - Catalogue Coverage Correction: Elamipretide / SS-31 and Generic GLP-1 Identity Resolution**

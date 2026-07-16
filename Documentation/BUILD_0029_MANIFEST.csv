@@ -1,0 +1,17 @@
+File,Size Bytes,Build
+Assets/Brand/CertiAura_Brand_Master.png,2371046,0029
+BUILD_0029_READ_ME.md,1167,0029
+Documentation/Audit/Catalogue_Audit_Metrics.json,1058,0029
+Documentation/Audit/Catalogue_Closure_Queue.csv,21624,0029
+Documentation/Audit/Catalogue_Coverage_Summary.md,3702,0029
+Documentation/Audit/Catalogue_Family_Reconciliation.csv,18686,0029
+Documentation/Audit/Catalogue_Final_SKU_Crosswalk.csv,40883,0029
+Documentation/Audit/Catalogue_Segment_Coverage.csv,531,0029
+Documentation/Audit/Catalogue_Supplemental_Records.csv,452,0029
+Documentation/Audit/Catalogue_Unmapped_SKUs.csv,721,0029
+Documentation/Audit/Final_Product_Asset_Index.csv,31998,0029
+Documentation/Audit/UAI_Continuity_Audit.csv,1159,0029
+Documentation/B0029_Validation.md,710,0029
+Documentation/CHANGELOG.md,604,0029
+Documentation/Production_Dashboard.md,873,0029
+Scripts/validate_catalogue_coverage.py,1428,0029
