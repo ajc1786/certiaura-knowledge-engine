@@ -1,34 +1,29 @@
 # CERTIAURA PRODUCTION DASHBOARD
 
-**Build:** 0023A  
+**Build:** 0022B  
 **Date:** 2026-07-16
 
-## Catalogue C4A complete
+## Catalogue C3B complete
 
 ### New assets
 
-- CERT-PKS-000038 — Semax
-- CERT-PKS-000039 — Selank
-- CERT-PKS-000040 — Delta Sleep-Inducing Peptide
-- CERT-PKS-000041 — Pinealon
-- CERT-PKS-000042 — Adamax Supplier Product Family
-- CERT-PKS-000043 — PE 22-28 Supplier Product Family
+- CERT-PKS-000026 — Long R3 IGF-1
+- CERT-PKS-000027 — Mechano Growth Factor / IGF-1Ec E-Domain Peptide Family
+- CERT-PKS-000028 — PEG-MGF Supplier Product Family
+- CERT-PKS-000029 — ACE-031
 
-### Supporting objects
+### Supporting assets
 
-- CERT-EKS-000103–000114
-- CERT-SKS-000043–000048
-- CERT-BKS-000084–000093
-- CERT-CKS-000013–000015
-- CERT-MKS-000062–000070
-- CERT-GKS-000031–000036
+- CERT-EKS-000079–000086
+- CERT-SKS-000031–000034
+- CERT-BKS-000054–000062
+- CERT-MKS-000037–000040
+- CERT-GKS-000019–000021
 
-## Critical outcome
+## Main control outcome
 
-Adamax and PE 22-28 remain blocked at identity level.
-
-No mechanism, efficacy or administration claims may be assigned until their molecules are verified.
+Native IGF-1, Long R3 IGF-1, MGF, PEG-MGF and ACE-031 are separate assets with no automatic evidence transfer.
 
 ## Next task
 
-**Build 0023B — Cerebrolysin, Dermorphin, P21 & Modified Semax/Selank Review**
+**Build 0022C — Reproductive, Pituitary & Haematology Endocrine Asset Review**

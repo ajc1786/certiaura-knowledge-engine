@@ -1,26 +1,32 @@
 # CERTIAURA CHANGE LOG
 
-## Build 0023A — Neurocognitive, Anxiolytic & Sleep Peptides
+## Build 0022B — IGF-1, MGF, PEG-MGF & ACE-031 Review
 **Date:** 2026-07-16
 
 Allocated:
 
-- CERT-PKS-000038–000043
+- CERT-PKS-000026–000029
 
 Added:
 
-- six flagship assets;
-- twelve evidence objects;
-- six safety objects;
-- biology, condition, monitoring and goal objects;
+- four flagship assets;
+- eight evidence objects;
+- four safety objects;
+- nine biology objects;
+- four monitoring objects;
+- three goal objects;
 - regulatory profiles;
 - claim and commercial boundaries;
-- short-path-compatible filenames;
-- catalogue pricing and identity controls.
+- Cost Intelligence™ baseline;
+- identity separation map;
+- authoritative source map.
 
-Key controls:
+Key outcome:
 
-- Semax and Selank remain separate from their N-acetyl amidate products.
-- DSIP sleep evidence remains heterogeneous.
-- Pinealon is separate from Epitalon.
-- Adamax and PE 22-28 are identity-blocked.
+Long R3 IGF-1 does not inherit authorised mecasermin status.
+
+MGF expression biology does not validate a supplier E-domain peptide.
+
+PEG-MGF remains chemically under-specified.
+
+ACE-031 is controlled as a discontinued investigational fusion-protein programme and myostatin-pathway product.
