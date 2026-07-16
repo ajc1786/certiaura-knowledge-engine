@@ -1,32 +1,26 @@
 # CERTIAURA CHANGE LOG
 
-## Build 0022C — Reproductive, Pituitary, Bone & Haematology Endocrine Review
+## Build 0023A — Neurocognitive, Anxiolytic & Sleep Peptides
 **Date:** 2026-07-16
 
 Allocated:
 
-- CERT-PKS-000030–000037
+- CERT-PKS-000038–000043
 
 Added:
 
-- eight flagship assets;
-- sixteen evidence objects;
-- eight safety objects;
-- twenty-one biology objects;
-- four condition objects;
-- twenty-one monitoring objects;
-- nine goal objects;
-- eight regulatory profiles;
+- six flagship assets;
+- twelve evidence objects;
+- six safety objects;
+- biology, condition, monitoring and goal objects;
+- regulatory profiles;
 - claim and commercial boundaries;
-- Cost Intelligence™ baseline;
-- identity and critical-gap map;
-- authoritative source map.
+- short-path-compatible filenames;
+- catalogue pricing and identity controls.
 
 Key controls:
 
-- HCG weight-loss claims prohibited.
-- HMG retained as a variable mixture.
-- Insulin type and concentration unresolved.
-- EPO molecule and formulation unresolved.
-- Oxytocin restricted to monitored obstetric context.
-- Teriparatide medicine status not transferred to catalogue powder.
+- Semax and Selank remain separate from their N-acetyl amidate products.
+- DSIP sleep evidence remains heterogeneous.
+- Pinealon is separate from Epitalon.
+- Adamax and PE 22-28 are identity-blocked.

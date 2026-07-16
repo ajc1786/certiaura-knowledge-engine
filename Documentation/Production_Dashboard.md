@@ -1,40 +1,34 @@
 # CERTIAURA PRODUCTION DASHBOARD
 
-**Build:** 0022C  
+**Build:** 0023A  
 **Date:** 2026-07-16
 
-## Catalogue C3C complete
+## Catalogue C4A complete
 
 ### New assets
 
-- CERT-PKS-000030 — Gonadorelin
-- CERT-PKS-000031 — Oxytocin
-- CERT-PKS-000032 — Human Chorionic Gonadotropin Product Family
-- CERT-PKS-000033 — Menotropins / HMG Product Family
-- CERT-PKS-000034 — Kisspeptin-10
-- CERT-PKS-000035 — Teriparatide
-- CERT-PKS-000036 — Insulin Supplier Product Family
-- CERT-PKS-000037 — Erythropoietin Supplier Product Family
+- CERT-PKS-000038 — Semax
+- CERT-PKS-000039 — Selank
+- CERT-PKS-000040 — Delta Sleep-Inducing Peptide
+- CERT-PKS-000041 — Pinealon
+- CERT-PKS-000042 — Adamax Supplier Product Family
+- CERT-PKS-000043 — PE 22-28 Supplier Product Family
 
-### Supporting assets
+### Supporting objects
 
-- CERT-EKS-000087–000102
-- CERT-SKS-000035–000042
-- CERT-BKS-000063–000083
-- CERT-CKS-000009–000012
-- CERT-MKS-000041–000061
-- CERT-GKS-000022–000030
+- CERT-EKS-000103–000114
+- CERT-SKS-000043–000048
+- CERT-BKS-000084–000093
+- CERT-CKS-000013–000015
+- CERT-MKS-000062–000070
+- CERT-GKS-000031–000036
 
 ## Critical outcome
 
-Insulin and EPO catalogue listings remain family-level assets because the exact medicinal molecules and formulations are not provided.
+Adamax and PE 22-28 remain blocked at identity level.
 
-No administration or dosing functionality may be linked to either listing.
-
-## Catalogue C3 completion
-
-Builds 0022A, 0022B and 0022C complete the Growth Hormone, IGF and Endocrine catalogue segment.
+No mechanism, efficacy or administration claims may be assigned until their molecules are verified.
 
 ## Next task
 
-**Build 0023 — Catalogue C4: Neurocognitive & Sleep Peptide Review**
+**Build 0023B — Cerebrolysin, Dermorphin, P21 & Modified Semax/Selank Review**

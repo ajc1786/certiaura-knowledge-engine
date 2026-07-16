@@ -1,0 +1,19 @@
+{
+  "asset_id": "CERT-EKS-000107",
+  "asset_name": "DSIP Discovery, Sequence and Sleep Evidence",
+  "root_asset": "CERT-PKS-000040",
+  "knowledge_system": "EKS",
+  "asset_type": "Evidence Object",
+  "version": "0.1.0",
+  "status": "PRIMARY PUBLICATIONS IDENTIFIED — EXTRACTION REQUIRED",
+  "source_domain": "Rabbit discovery, synthetic nonapeptide and historical sleep publications",
+  "evidence_type": "Identity / historical evidence",
+  "last_review": "2026-07-16",
+  "direct_complete_extraction": false,
+  "prohibited_use": [
+    "Personal dosing, intranasal-use or reconstitution guidance",
+    "Unsupported cognitive, anxiety or sleep treatment claims",
+    "Evidence transfer between modified and unmodified peptides",
+    "Any pharmacological claim for unresolved Adamax or PE 22-28"
+  ]
+}

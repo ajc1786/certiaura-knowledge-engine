@@ -1,0 +1,29 @@
+Asset UAI,Asset Name,Jurisdiction,Authority,Position,Monitoring,Status Date
+CERT-PKS-000038,Semax,United States,FDA,No approval claim; current official database and enforcement search required.,ACTIVE,2026-07-16
+CERT-PKS-000038,Semax,United Kingdom,MHRA,No marketing-authorisation claim; current official search required.,ACTIVE,2026-07-16
+CERT-PKS-000038,Semax,European Union,EMA / European Commission,No central marketing-authorisation claim; current official search required.,ACTIVE,2026-07-16
+CERT-PKS-000038,Semax,Other jurisdictions,National medicines authorities,Regional medicinal status must be dated and verified directly.,ACTIVE,2026-07-16
+CERT-PKS-000038,Semax,International sport,WADA,Current athlete-specific verification required before any permitted-status claim.,EVENT-TRIGGERED,2026-07-16
+CERT-PKS-000039,Selank,United States,FDA,No approval claim; current official database and enforcement search required.,ACTIVE,2026-07-16
+CERT-PKS-000039,Selank,United Kingdom,MHRA,No marketing-authorisation claim; current official search required.,ACTIVE,2026-07-16
+CERT-PKS-000039,Selank,European Union,EMA / European Commission,No central marketing-authorisation claim; current official search required.,ACTIVE,2026-07-16
+CERT-PKS-000039,Selank,Other jurisdictions,National medicines authorities,Regional medicinal status must be dated and verified directly.,ACTIVE,2026-07-16
+CERT-PKS-000039,Selank,International sport,WADA,Current athlete-specific verification required before any permitted-status claim.,EVENT-TRIGGERED,2026-07-16
+CERT-PKS-000040,Delta Sleep-Inducing Peptide,United States,FDA,No approval claim; current official database and enforcement search required.,ACTIVE,2026-07-16
+CERT-PKS-000040,Delta Sleep-Inducing Peptide,United Kingdom,MHRA,No marketing-authorisation claim; current official search required.,ACTIVE,2026-07-16
+CERT-PKS-000040,Delta Sleep-Inducing Peptide,European Union,EMA / European Commission,No central marketing-authorisation claim; current official search required.,ACTIVE,2026-07-16
+CERT-PKS-000040,Delta Sleep-Inducing Peptide,Other jurisdictions,National medicines authorities,Regional medicinal status must be dated and verified directly.,ACTIVE,2026-07-16
+CERT-PKS-000040,Delta Sleep-Inducing Peptide,International sport,WADA,Current athlete-specific verification required before any permitted-status claim.,EVENT-TRIGGERED,2026-07-16
+CERT-PKS-000041,Pinealon,United States,FDA,No approval claim; current official database and enforcement search required.,ACTIVE,2026-07-16
+CERT-PKS-000041,Pinealon,United Kingdom,MHRA,No marketing-authorisation claim; current official search required.,ACTIVE,2026-07-16
+CERT-PKS-000041,Pinealon,European Union,EMA / European Commission,No central marketing-authorisation claim; current official search required.,ACTIVE,2026-07-16
+CERT-PKS-000041,Pinealon,Other jurisdictions,National medicines authorities,Regional medicinal status must be dated and verified directly.,ACTIVE,2026-07-16
+CERT-PKS-000041,Pinealon,International sport,WADA,Current athlete-specific verification required before any permitted-status claim.,EVENT-TRIGGERED,2026-07-16
+CERT-PKS-000042,Adamax Supplier Product Family,Global,Identity control,Regulatory interpretation blocked until exact molecule is established.,BLOCKED,2026-07-16
+CERT-PKS-000042,Adamax Supplier Product Family,United States,FDA,No approval claim permitted.,ACTIVE,2026-07-16
+CERT-PKS-000042,Adamax Supplier Product Family,United Kingdom,MHRA,No marketing-authorisation claim permitted.,ACTIVE,2026-07-16
+CERT-PKS-000042,Adamax Supplier Product Family,European Union,EMA / European Commission,No marketing-authorisation claim permitted.,ACTIVE,2026-07-16
+CERT-PKS-000043,PE 22-28 Supplier Product Family,Global,Identity control,Regulatory interpretation blocked until exact molecule is established.,BLOCKED,2026-07-16
+CERT-PKS-000043,PE 22-28 Supplier Product Family,United States,FDA,No approval claim permitted.,ACTIVE,2026-07-16
+CERT-PKS-000043,PE 22-28 Supplier Product Family,United Kingdom,MHRA,No marketing-authorisation claim permitted.,ACTIVE,2026-07-16
+CERT-PKS-000043,PE 22-28 Supplier Product Family,European Union,EMA / European Commission,No marketing-authorisation claim permitted.,ACTIVE,2026-07-16

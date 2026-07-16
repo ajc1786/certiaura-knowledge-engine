@@ -1,0 +1,12 @@
+Asset,Source,URL,Purpose
+All assets,FDA Drugs@FDA,https://www.accessdata.fda.gov/scripts/cder/daf/,United States approval search
+All assets,MHRA Products,https://products.mhra.gov.uk/,United Kingdom authorisation search
+All assets,EMA Medicines,https://www.ema.europa.eu/en/medicines,European Union authorisation search
+All assets,ClinicalTrials.gov,https://clinicaltrials.gov/,Clinical-development search
+All assets,WADA Prohibited List,https://www.wada-ama.org/en/prohibited-list,Current athlete status
+Semax,PubMed,https://pubmed.ncbi.nlm.nih.gov/?term=Semax,Primary human and preclinical evidence
+Selank,PubMed,https://pubmed.ncbi.nlm.nih.gov/?term=Selank,Primary human and preclinical evidence
+DSIP,PubMed,https://pubmed.ncbi.nlm.nih.gov/?term=delta+sleep+inducing+peptide,Historical identity and sleep evidence
+Pinealon,PubMed,https://pubmed.ncbi.nlm.nih.gov/?term=Pinealon,Primary preclinical and human reports
+Adamax,PubMed and chemical databases,https://pubmed.ncbi.nlm.nih.gov/?term=Adamax+peptide,Identity resolution
+PE 22-28,PubMed and chemical databases,https://pubmed.ncbi.nlm.nih.gov/?term=PE+22-28+peptide,Identity resolution

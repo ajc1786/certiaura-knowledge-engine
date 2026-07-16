@@ -1,0 +1,19 @@
+{
+  "asset_id": "CERT-EKS-000111",
+  "asset_name": "Adamax Chemical Identity Gap",
+  "root_asset": "CERT-PKS-000042",
+  "knowledge_system": "EKS",
+  "asset_type": "Evidence Object",
+  "version": "0.1.0",
+  "status": "OPEN — MOLECULE UNRESOLVED",
+  "source_domain": "Supplier sequence, molecular formula, reference standard and primary publication search",
+  "evidence_type": "Critical identity gap",
+  "last_review": "2026-07-16",
+  "direct_complete_extraction": false,
+  "prohibited_use": [
+    "Personal dosing, intranasal-use or reconstitution guidance",
+    "Unsupported cognitive, anxiety or sleep treatment claims",
+    "Evidence transfer between modified and unmodified peptides",
+    "Any pharmacological claim for unresolved Adamax or PE 22-28"
+  ]
+}

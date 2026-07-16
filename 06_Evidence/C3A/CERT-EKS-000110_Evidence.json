@@ -1,0 +1,19 @@
+{
+  "asset_id": "CERT-EKS-000110",
+  "asset_name": "Pinealon Human and Regulatory Evidence Gap",
+  "root_asset": "CERT-PKS-000041",
+  "knowledge_system": "EKS",
+  "asset_type": "Evidence Object",
+  "version": "0.1.0",
+  "status": "OPEN — INDEPENDENT CLINICAL EVIDENCE NOT ESTABLISHED",
+  "source_domain": "Human trials, PK, safety and jurisdiction-specific medicinal status",
+  "evidence_type": "Human / regulatory evidence gap",
+  "last_review": "2026-07-16",
+  "direct_complete_extraction": false,
+  "prohibited_use": [
+    "Personal dosing, intranasal-use or reconstitution guidance",
+    "Unsupported cognitive, anxiety or sleep treatment claims",
+    "Evidence transfer between modified and unmodified peptides",
+    "Any pharmacological claim for unresolved Adamax or PE 22-28"
+  ]
+}

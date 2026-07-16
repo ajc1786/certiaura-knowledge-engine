@@ -1,0 +1,19 @@
+{
+  "asset_id": "CERT-EKS-000113",
+  "asset_name": "PE 22-28 Parent and Sequence Identity Gap",
+  "root_asset": "CERT-PKS-000043",
+  "knowledge_system": "EKS",
+  "asset_type": "Evidence Object",
+  "version": "0.1.0",
+  "status": "OPEN — MOLECULE UNRESOLVED",
+  "source_domain": "Parent protein, residue sequence, termini, modifications and nomenclature search",
+  "evidence_type": "Critical identity gap",
+  "last_review": "2026-07-16",
+  "direct_complete_extraction": false,
+  "prohibited_use": [
+    "Personal dosing, intranasal-use or reconstitution guidance",
+    "Unsupported cognitive, anxiety or sleep treatment claims",
+    "Evidence transfer between modified and unmodified peptides",
+    "Any pharmacological claim for unresolved Adamax or PE 22-28"
+  ]
+}

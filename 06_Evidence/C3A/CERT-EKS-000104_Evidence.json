@@ -1,0 +1,19 @@
+{
+  "asset_id": "CERT-EKS-000104",
+  "asset_name": "Semax Human and Regional Regulatory Evidence",
+  "root_asset": "CERT-PKS-000038",
+  "knowledge_system": "EKS",
+  "asset_type": "Evidence Object",
+  "version": "0.1.0",
+  "status": "DIRECT PRIMARY AND CURRENT REGULATORY CLOSURE REQUIRED",
+  "source_domain": "Regional clinical reports, human neuroimaging and jurisdiction-specific medicinal records",
+  "evidence_type": "Human / regulatory evidence",
+  "last_review": "2026-07-16",
+  "direct_complete_extraction": false,
+  "prohibited_use": [
+    "Personal dosing, intranasal-use or reconstitution guidance",
+    "Unsupported cognitive, anxiety or sleep treatment claims",
+    "Evidence transfer between modified and unmodified peptides",
+    "Any pharmacological claim for unresolved Adamax or PE 22-28"
+  ]
+}

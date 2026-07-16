@@ -1,0 +1,61 @@
+{
+  "asset_id": "CERT-PKS-000042",
+  "asset_name": "Adamax Supplier Product Family",
+  "knowledge_system": "PKS",
+  "asset_type": "Peptide Knowledge Asset",
+  "version": "0.1.0",
+  "status": "CATALOGUE REVIEWED / EVIDENCE FOUNDATION CREATED / NOT PLATINUM CERTIFIED",
+  "owner": "Aidan Coleman",
+  "last_review": "2026-07-16",
+  "aliases": [
+    "Adamax"
+  ],
+  "classification": "Chemically unresolved neurocognitive research product family",
+  "mechanism_summary": "Not assigned until exact chemical identity and sequence are verified.",
+  "evidence_maturity": "Scientific evidence cannot be attributed reliably because the catalogue does not define the molecule.",
+  "regulatory_headline": "IDENTITY UNRESOLVED — NO PHARMACOLOGICAL OR APPROVAL CLAIM PERMITTED",
+  "catalogue_supplier_skus": [
+    {
+      "catalogue_code": "AD5",
+      "specification": "5 mg x 10 vials",
+      "price_usd_per_kit": 172
+    }
+  ],
+  "relationships": [
+    {
+      "source": "CERT-PKS-000042",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000069"
+    },
+    {
+      "source": "CERT-PKS-000042",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000070"
+    },
+    {
+      "source": "CERT-PKS-000042",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000111"
+    },
+    {
+      "source": "CERT-PKS-000042",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000112"
+    },
+    {
+      "source": "CERT-PKS-000042",
+      "relationship": "HAS_SAFETY",
+      "target": "CERT-SKS-000047"
+    }
+  ],
+  "validated_universal_human_dosing_protocol": false,
+  "supplier_catalogue_proves_quality": false,
+  "platinum_certified": false,
+  "certification_blockers": [
+    "Chemical name",
+    "Complete sequence and modifications",
+    "Molecular formula and mass",
+    "Primary scientific literature",
+    "Manufacturer and analytical identity"
+  ]
+}

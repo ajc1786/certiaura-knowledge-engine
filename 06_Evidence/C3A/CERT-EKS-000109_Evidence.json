@@ -1,0 +1,19 @@
+{
+  "asset_id": "CERT-EKS-000109",
+  "asset_name": "Pinealon Sequence and Preclinical Neurobiology",
+  "root_asset": "CERT-PKS-000041",
+  "knowledge_system": "EKS",
+  "asset_type": "Evidence Object",
+  "version": "0.1.0",
+  "status": "PRIMARY PUBLICATION MAP CREATED — EXTRACTION REQUIRED",
+  "source_domain": "EDR identity, cell, animal and gene-expression publications",
+  "evidence_type": "Identity / preclinical evidence",
+  "last_review": "2026-07-16",
+  "direct_complete_extraction": false,
+  "prohibited_use": [
+    "Personal dosing, intranasal-use or reconstitution guidance",
+    "Unsupported cognitive, anxiety or sleep treatment claims",
+    "Evidence transfer between modified and unmodified peptides",
+    "Any pharmacological claim for unresolved Adamax or PE 22-28"
+  ]
+}

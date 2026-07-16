@@ -1,0 +1,101 @@
+{
+  "asset_id": "CERT-PKS-000041",
+  "asset_name": "Pinealon",
+  "knowledge_system": "PKS",
+  "asset_type": "Peptide Knowledge Asset",
+  "version": "0.1.0",
+  "status": "CATALOGUE REVIEWED / EVIDENCE FOUNDATION CREATED / NOT PLATINUM CERTIFIED",
+  "owner": "Aidan Coleman",
+  "last_review": "2026-07-16",
+  "aliases": [
+    "EDR peptide",
+    "Glu-Asp-Arg"
+  ],
+  "classification": "Synthetic Glu-Asp-Arg tripeptide",
+  "mechanism_summary": "Experimental short-peptide gene-expression, neuronal stress and ageing-biology research.",
+  "evidence_maturity": "Predominantly cell and animal evidence with limited heterogeneous regional human reports.",
+  "regulatory_headline": "EXPERIMENTAL SHORT REGULATORY PEPTIDE — NO UNIVERSAL APPROVAL CLAIM",
+  "catalogue_supplier_skus": [
+    {
+      "catalogue_code": "PIN5",
+      "specification": "5 mg x 10 vials",
+      "price_usd_per_kit": 42
+    },
+    {
+      "catalogue_code": "PIN10",
+      "specification": "10 mg x 10 vials",
+      "price_usd_per_kit": 64
+    },
+    {
+      "catalogue_code": "PIN20",
+      "specification": "20 mg x 10 vials",
+      "price_usd_per_kit": 103
+    }
+  ],
+  "relationships": [
+    {
+      "source": "CERT-PKS-000041",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000092"
+    },
+    {
+      "source": "CERT-PKS-000041",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000093"
+    },
+    {
+      "source": "CERT-PKS-000041",
+      "relationship": "HAS_CONDITION",
+      "target": "CERT-CKS-000013"
+    },
+    {
+      "source": "CERT-PKS-000041",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000062"
+    },
+    {
+      "source": "CERT-PKS-000041",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000064"
+    },
+    {
+      "source": "CERT-PKS-000041",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000068"
+    },
+    {
+      "source": "CERT-PKS-000041",
+      "relationship": "SUPPORTS_GOAL",
+      "target": "CERT-GKS-000031"
+    },
+    {
+      "source": "CERT-PKS-000041",
+      "relationship": "SUPPORTS_GOAL",
+      "target": "CERT-GKS-000036"
+    },
+    {
+      "source": "CERT-PKS-000041",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000109"
+    },
+    {
+      "source": "CERT-PKS-000041",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000110"
+    },
+    {
+      "source": "CERT-PKS-000041",
+      "relationship": "HAS_SAFETY",
+      "target": "CERT-SKS-000046"
+    }
+  ],
+  "validated_universal_human_dosing_protocol": false,
+  "supplier_catalogue_proves_quality": false,
+  "platinum_certified": false,
+  "certification_blockers": [
+    "Independent human trials",
+    "Exact product formulation",
+    "Human PK and long-term safety",
+    "Separation from Epitalon and other Khavinson peptides"
+  ]
+}

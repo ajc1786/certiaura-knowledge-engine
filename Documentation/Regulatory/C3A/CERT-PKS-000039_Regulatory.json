@@ -1,0 +1,43 @@
+{
+  "asset_uai": "CERT-PKS-000039",
+  "asset_name": "Selank",
+  "status_as_of": "2026-07-16",
+  "overall_status": "REGIONAL MEDICINAL / RESEARCH CONTEXT REQUIRES VERIFICATION — NO US-UK-EU APPROVAL CLAIM",
+  "regulatory_records": [
+    {
+      "jurisdiction": "United States",
+      "authority": "FDA",
+      "current_status": "No approval claim; current official database and enforcement search required.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Identity, approval, label, safety, enforcement, trial or anti-doping change"
+    },
+    {
+      "jurisdiction": "United Kingdom",
+      "authority": "MHRA",
+      "current_status": "No marketing-authorisation claim; current official search required.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Identity, approval, label, safety, enforcement, trial or anti-doping change"
+    },
+    {
+      "jurisdiction": "European Union",
+      "authority": "EMA / European Commission",
+      "current_status": "No central marketing-authorisation claim; current official search required.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Identity, approval, label, safety, enforcement, trial or anti-doping change"
+    },
+    {
+      "jurisdiction": "Other jurisdictions",
+      "authority": "National medicines authorities",
+      "current_status": "Regional medicinal status must be dated and verified directly.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Identity, approval, label, safety, enforcement, trial or anti-doping change"
+    },
+    {
+      "jurisdiction": "International sport",
+      "authority": "WADA",
+      "current_status": "Current athlete-specific verification required before any permitted-status claim.",
+      "monitoring_state": "EVENT-TRIGGERED",
+      "next_review_trigger": "Identity, approval, label, safety, enforcement, trial or anti-doping change"
+    }
+  ]
+}

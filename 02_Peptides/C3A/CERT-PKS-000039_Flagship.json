@@ -1,0 +1,106 @@
+{
+  "asset_id": "CERT-PKS-000039",
+  "asset_name": "Selank",
+  "knowledge_system": "PKS",
+  "asset_type": "Peptide Knowledge Asset",
+  "version": "0.1.0",
+  "status": "CATALOGUE REVIEWED / EVIDENCE FOUNDATION CREATED / NOT PLATINUM CERTIFIED",
+  "owner": "Aidan Coleman",
+  "last_review": "2026-07-16",
+  "aliases": [
+    "Thr-Lys-Pro-Arg-Pro-Gly-Pro",
+    "TP-7"
+  ],
+  "classification": "Synthetic tuftsin-derived heptapeptide",
+  "mechanism_summary": "Experimental immunomodulatory, anxiolytic, neurotransmitter and gene-expression signalling associated with tuftsin-derived peptide research.",
+  "evidence_maturity": "Regional clinical reports and preclinical evidence; independent controlled human evidence remains limited.",
+  "regulatory_headline": "REGIONAL MEDICINAL / RESEARCH CONTEXT REQUIRES VERIFICATION — NO US-UK-EU APPROVAL CLAIM",
+  "catalogue_supplier_skus": [
+    {
+      "catalogue_code": "SK5",
+      "specification": "5 mg x 10 vials",
+      "price_usd_per_kit": 41
+    },
+    {
+      "catalogue_code": "SK10",
+      "specification": "10 mg x 10 vials",
+      "price_usd_per_kit": 68
+    },
+    {
+      "catalogue_code": "SK30",
+      "specification": "30 mg x 10 vials",
+      "price_usd_per_kit": 145
+    }
+  ],
+  "relationships": [
+    {
+      "source": "CERT-PKS-000039",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000087"
+    },
+    {
+      "source": "CERT-PKS-000039",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000088"
+    },
+    {
+      "source": "CERT-PKS-000039",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000089"
+    },
+    {
+      "source": "CERT-PKS-000039",
+      "relationship": "HAS_CONDITION",
+      "target": "CERT-CKS-000014"
+    },
+    {
+      "source": "CERT-PKS-000039",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000062"
+    },
+    {
+      "source": "CERT-PKS-000039",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000063"
+    },
+    {
+      "source": "CERT-PKS-000039",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000065"
+    },
+    {
+      "source": "CERT-PKS-000039",
+      "relationship": "SUPPORTS_GOAL",
+      "target": "CERT-GKS-000033"
+    },
+    {
+      "source": "CERT-PKS-000039",
+      "relationship": "SUPPORTS_GOAL",
+      "target": "CERT-GKS-000034"
+    },
+    {
+      "source": "CERT-PKS-000039",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000105"
+    },
+    {
+      "source": "CERT-PKS-000039",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000106"
+    },
+    {
+      "source": "CERT-PKS-000039",
+      "relationship": "HAS_SAFETY",
+      "target": "CERT-SKS-000044"
+    }
+  ],
+  "validated_universal_human_dosing_protocol": false,
+  "supplier_catalogue_proves_quality": false,
+  "platinum_certified": false,
+  "certification_blockers": [
+    "Current jurisdiction-specific medicinal status",
+    "Independent controlled anxiety evidence",
+    "Sequence and formulation verification",
+    "Long-term neuropsychiatric safety"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "asset_id": "CERT-PKS-000043",
+  "asset_name": "PE 22-28 Supplier Product Family",
+  "knowledge_system": "PKS",
+  "asset_type": "Peptide Knowledge Asset",
+  "version": "0.1.0",
+  "status": "CATALOGUE REVIEWED / EVIDENCE FOUNDATION CREATED / NOT PLATINUM CERTIFIED",
+  "owner": "Aidan Coleman",
+  "last_review": "2026-07-16",
+  "aliases": [
+    "PE 22-28",
+    "PE22-28"
+  ],
+  "classification": "Chemically unresolved peptide-fragment product family",
+  "mechanism_summary": "Not assigned because the parent protein, exact sequence and terminal chemistry are not established by the catalogue.",
+  "evidence_maturity": "No evidence can be transferred from similarly named P21, CNTF or other neuropeptide fragments without identity proof.",
+  "regulatory_headline": "IDENTITY UNRESOLVED — NO PHARMACOLOGICAL OR APPROVAL CLAIM PERMITTED",
+  "catalogue_supplier_skus": [
+    {
+      "catalogue_code": "PE10",
+      "specification": "10 mg x 10 vials",
+      "price_usd_per_kit": 71
+    }
+  ],
+  "relationships": [
+    {
+      "source": "CERT-PKS-000043",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000069"
+    },
+    {
+      "source": "CERT-PKS-000043",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000070"
+    },
+    {
+      "source": "CERT-PKS-000043",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000113"
+    },
+    {
+      "source": "CERT-PKS-000043",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000114"
+    },
+    {
+      "source": "CERT-PKS-000043",
+      "relationship": "HAS_SAFETY",
+      "target": "CERT-SKS-000048"
+    }
+  ],
+  "validated_universal_human_dosing_protocol": false,
+  "supplier_catalogue_proves_quality": false,
+  "platinum_certified": false,
+  "certification_blockers": [
+    "Parent molecule",
+    "Exact amino-acid sequence",
+    "Terminal modifications",
+    "Primary publication identity",
+    "Manufacturer and analytical verification"
+  ]
+}

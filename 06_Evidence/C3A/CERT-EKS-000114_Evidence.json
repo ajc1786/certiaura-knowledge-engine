@@ -1,0 +1,19 @@
+{
+  "asset_id": "CERT-EKS-000114",
+  "asset_name": "PE 22-28 Clinical and Regulatory Evidence Block",
+  "root_asset": "CERT-PKS-000043",
+  "knowledge_system": "EKS",
+  "asset_type": "Evidence Object",
+  "version": "0.1.0",
+  "status": "BLOCKED BY CERT-EKS-000113",
+  "source_domain": "Clinical, safety, approval and enforcement search after identity closure",
+  "evidence_type": "Blocked evidence object",
+  "last_review": "2026-07-16",
+  "direct_complete_extraction": false,
+  "prohibited_use": [
+    "Personal dosing, intranasal-use or reconstitution guidance",
+    "Unsupported cognitive, anxiety or sleep treatment claims",
+    "Evidence transfer between modified and unmodified peptides",
+    "Any pharmacological claim for unresolved Adamax or PE 22-28"
+  ]
+}
