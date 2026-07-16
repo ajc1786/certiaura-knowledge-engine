@@ -1,0 +1,13 @@
+Asset,Source,URL,Purpose
+All assets,FDA Drugs@FDA,https://www.accessdata.fda.gov/scripts/cder/daf/,United States product and label search
+All assets,MHRA Products,https://products.mhra.gov.uk/,United Kingdom authorisation search
+All assets,EMA Medicines,https://www.ema.europa.eu/en/medicines,European Union authorisation search
+All assets,WADA Prohibited List,https://www.wada-ama.org/en/prohibited-list,Current anti-doping status
+Gonadorelin,PubMed,https://pubmed.ncbi.nlm.nih.gov/?term=gonadorelin+human,Diagnostic and reproductive evidence
+Oxytocin,WHO,https://www.who.int/,Obstetric guidance and safety context
+HCG,FDA,https://www.fda.gov/consumers/consumer-updates/avoid-dangerous-hcg-diet-products,Weight-loss claim-control source
+HCG / Menotropins,PubMed,https://pubmed.ncbi.nlm.nih.gov/?term=menotropins+human+chorionic+gonadotropin+fertility,Fertility evidence
+Kisspeptin-10,PubMed,https://pubmed.ncbi.nlm.nih.gov/?term=kisspeptin-10+human,Human endocrine pharmacology
+Teriparatide,FDA Drugs@FDA,https://www.accessdata.fda.gov/scripts/cder/daf/,Current product labels
+Insulin,FDA Insulin Products,https://www.fda.gov/drugs/biosimilars/biosimilar-and-interchangeable-products,Product identity and regulated medicine context
+Erythropoietin,FDA Drugs@FDA,https://www.accessdata.fda.gov/scripts/cder/daf/,ESA product and label search

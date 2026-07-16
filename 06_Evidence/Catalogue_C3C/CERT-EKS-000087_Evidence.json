@@ -1,0 +1,20 @@
+{
+  "asset_id": "CERT-EKS-000087",
+  "asset_name": "Gonadorelin Diagnostic and Reproductive-Endocrine Evidence",
+  "root_asset": "CERT-PKS-000030",
+  "knowledge_system": "EKS",
+  "asset_type": "Evidence Object",
+  "version": "0.1.0",
+  "status": "PRIMARY PROGRAMME MAP CREATED — EXTRACTION REQUIRED",
+  "source_domain": "GnRH testing, pulsatile treatment and reproductive-endocrine publications",
+  "evidence_type": "Human clinical evidence",
+  "last_review": "2026-07-16",
+  "direct_complete_extraction": false,
+  "permitted_use": "Identity, clinical-context, safety and source-status reporting.",
+  "prohibited_use": [
+    "Personal dosing, fertility, obstetric, insulin or performance protocols",
+    "Transfer from an authorised medicine to an unverified catalogue product",
+    "Weight-loss claims for HCG",
+    "Athlete-permitted claims for erythropoietin without authoritative status"
+  ]
+}

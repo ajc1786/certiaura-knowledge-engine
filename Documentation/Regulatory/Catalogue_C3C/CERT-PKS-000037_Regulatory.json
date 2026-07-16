@@ -1,0 +1,36 @@
+{
+  "asset_uai": "CERT-PKS-000037",
+  "asset_name": "Erythropoietin Supplier Product Family",
+  "status_as_of": "2026-07-16",
+  "overall_status": "AUTHORISED ESA MEDICINES EXIST / CATALOGUE PRODUCT IDENTITY UNRESOLVED / ATHLETE PROHIBITION",
+  "regulatory_records": [
+    {
+      "jurisdiction": "United States",
+      "authority": "FDA",
+      "current_status": "Authorised medicine contexts exist; exact product, molecule, formulation and indication require current label capture.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Approval, label, molecule, formulation, safety, enforcement, trial or anti-doping change"
+    },
+    {
+      "jurisdiction": "United Kingdom",
+      "authority": "MHRA",
+      "current_status": "Authorised prescription-medicine contexts exist; product-specific authorisation controls claims.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Approval, label, molecule, formulation, safety, enforcement, trial or anti-doping change"
+    },
+    {
+      "jurisdiction": "European Union",
+      "authority": "EMA / European Commission",
+      "current_status": "Authorised medicinal contexts exist; exact product information controls claims.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Approval, label, molecule, formulation, safety, enforcement, trial or anti-doping change"
+    },
+    {
+      "jurisdiction": "International sport",
+      "authority": "WADA",
+      "current_status": "Current athlete-specific status requires authoritative verification; erythropoiesis-stimulating agents are a critical prohibition domain.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Approval, label, molecule, formulation, safety, enforcement, trial or anti-doping change"
+    }
+  ]
+}

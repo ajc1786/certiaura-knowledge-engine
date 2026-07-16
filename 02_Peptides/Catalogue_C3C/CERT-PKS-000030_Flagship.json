@@ -1,0 +1,93 @@
+{
+  "asset_id": "CERT-PKS-000030",
+  "asset_name": "Gonadorelin",
+  "knowledge_system": "PKS",
+  "asset_type": "Peptide / Protein / Biologic Knowledge Asset",
+  "version": "0.1.0",
+  "status": "CATALOGUE REVIEWED / EVIDENCE FOUNDATION CREATED / NOT PLATINUM CERTIFIED",
+  "owner": "Aidan Coleman",
+  "last_review": "2026-07-16",
+  "aliases": [
+    "GnRH",
+    "LHRH",
+    "gonadorelin acetate",
+    "gonadorelin hydrochloride"
+  ],
+  "classification": "Synthetic gonadotropin-releasing hormone decapeptide",
+  "mechanism_summary": "GnRH receptor agonism stimulating pituitary luteinising hormone and follicle-stimulating hormone release in pulsatile or diagnostic contexts.",
+  "evidence_maturity": "Established human diagnostic and reproductive-endocrine pharmacology; current product availability and authorised indications are jurisdiction and formulation specific.",
+  "regulatory_headline": "HISTORICAL AND CURRENT DIAGNOSTIC / REPRODUCTIVE PRODUCT CONTEXTS REQUIRE PRODUCT-SPECIFIC VERIFICATION",
+  "catalogue_supplier_skus": [
+    {
+      "catalogue_code": "GND2",
+      "specification": "2 mg x 10 vials",
+      "price_usd_per_kit": 33
+    }
+  ],
+  "relationships": [
+    {
+      "source": "CERT-PKS-000030",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000063"
+    },
+    {
+      "source": "CERT-PKS-000030",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000064"
+    },
+    {
+      "source": "CERT-PKS-000030",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000065"
+    },
+    {
+      "source": "CERT-PKS-000030",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000041"
+    },
+    {
+      "source": "CERT-PKS-000030",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000042"
+    },
+    {
+      "source": "CERT-PKS-000030",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000043"
+    },
+    {
+      "source": "CERT-PKS-000030",
+      "relationship": "SUPPORTS_GOAL",
+      "target": "CERT-GKS-000022"
+    },
+    {
+      "source": "CERT-PKS-000030",
+      "relationship": "SUPPORTS_GOAL",
+      "target": "CERT-GKS-000023"
+    },
+    {
+      "source": "CERT-PKS-000030",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000087"
+    },
+    {
+      "source": "CERT-PKS-000030",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000088"
+    },
+    {
+      "source": "CERT-PKS-000030",
+      "relationship": "HAS_SAFETY",
+      "target": "CERT-SKS-000035"
+    }
+  ],
+  "validated_universal_human_dosing_protocol": false,
+  "supplier_catalogue_proves_quality": false,
+  "platinum_certified": false,
+  "certification_blockers": [
+    "Exact salt and formulation",
+    "Current product-specific authorisation",
+    "Pulsatile versus single-dose diagnostic context",
+    "Supplier identity, potency and sterility"
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "asset_id": "CERT-PKS-000033",
+  "asset_name": "Menotropins / Human Menopausal Gonadotropin Product Family",
+  "knowledge_system": "PKS",
+  "asset_type": "Peptide / Protein / Biologic Knowledge Asset",
+  "version": "0.1.0",
+  "status": "CATALOGUE REVIEWED / EVIDENCE FOUNDATION CREATED / NOT PLATINUM CERTIFIED",
+  "owner": "Aidan Coleman",
+  "last_review": "2026-07-16",
+  "aliases": [
+    "HMG",
+    "hMG",
+    "menotropins",
+    "human menopausal gonadotropin"
+  ],
+  "classification": "Urinary-derived follicle-stimulating and luteinising gonadotropin mixture biologic",
+  "mechanism_summary": "Combined follicle-stimulating hormone and luteinising-hormone bioactivity supporting follicular development and reproductive treatment.",
+  "evidence_maturity": "Established authorised fertility evidence; composition, purification, FSH/LH activity and product-specific indications vary.",
+  "regulatory_headline": "AUTHORISED FERTILITY PRODUCT CONTEXTS EXIST / COMPOSITION- AND PRODUCT-SPECIFIC",
+  "catalogue_supplier_skus": [
+    {
+      "catalogue_code": "G75",
+      "specification": "75 IU x 10 vials",
+      "price_usd_per_kit": 68
+    }
+  ],
+  "relationships": [
+    {
+      "source": "CERT-PKS-000033",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000064"
+    },
+    {
+      "source": "CERT-PKS-000033",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000071"
+    },
+    {
+      "source": "CERT-PKS-000033",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000072"
+    },
+    {
+      "source": "CERT-PKS-000033",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000041"
+    },
+    {
+      "source": "CERT-PKS-000033",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000042"
+    },
+    {
+      "source": "CERT-PKS-000033",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000048"
+    },
+    {
+      "source": "CERT-PKS-000033",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000049"
+    },
+    {
+      "source": "CERT-PKS-000033",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000050"
+    },
+    {
+      "source": "CERT-PKS-000033",
+      "relationship": "SUPPORTS_GOAL",
+      "target": "CERT-GKS-000022"
+    },
+    {
+      "source": "CERT-PKS-000033",
+      "relationship": "SUPPORTS_GOAL",
+      "target": "CERT-GKS-000026"
+    },
+    {
+      "source": "CERT-PKS-000033",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000093"
+    },
+    {
+      "source": "CERT-PKS-000033",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000094"
+    },
+    {
+      "source": "CERT-PKS-000033",
+      "relationship": "HAS_SAFETY",
+      "target": "CERT-SKS-000038"
+    }
+  ],
+  "validated_universal_human_dosing_protocol": false,
+  "supplier_catalogue_proves_quality": false,
+  "platinum_certified": false,
+  "certification_blockers": [
+    "Exact product composition and FSH/LH activity",
+    "Urinary-source and purification controls",
+    "Current product-specific indication",
+    "Ovarian hyperstimulation and multiple-pregnancy risk"
+  ]
+}

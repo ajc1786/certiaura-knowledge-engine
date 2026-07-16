@@ -1,29 +1,40 @@
 # CERTIAURA PRODUCTION DASHBOARD
 
-**Build:** 0022B  
+**Build:** 0022C  
 **Date:** 2026-07-16
 
-## Catalogue C3B complete
+## Catalogue C3C complete
 
 ### New assets
 
-- CERT-PKS-000026 — Long R3 IGF-1
-- CERT-PKS-000027 — Mechano Growth Factor / IGF-1Ec E-Domain Peptide Family
-- CERT-PKS-000028 — PEG-MGF Supplier Product Family
-- CERT-PKS-000029 — ACE-031
+- CERT-PKS-000030 — Gonadorelin
+- CERT-PKS-000031 — Oxytocin
+- CERT-PKS-000032 — Human Chorionic Gonadotropin Product Family
+- CERT-PKS-000033 — Menotropins / HMG Product Family
+- CERT-PKS-000034 — Kisspeptin-10
+- CERT-PKS-000035 — Teriparatide
+- CERT-PKS-000036 — Insulin Supplier Product Family
+- CERT-PKS-000037 — Erythropoietin Supplier Product Family
 
 ### Supporting assets
 
-- CERT-EKS-000079–000086
-- CERT-SKS-000031–000034
-- CERT-BKS-000054–000062
-- CERT-MKS-000037–000040
-- CERT-GKS-000019–000021
+- CERT-EKS-000087–000102
+- CERT-SKS-000035–000042
+- CERT-BKS-000063–000083
+- CERT-CKS-000009–000012
+- CERT-MKS-000041–000061
+- CERT-GKS-000022–000030
 
-## Main control outcome
+## Critical outcome
 
-Native IGF-1, Long R3 IGF-1, MGF, PEG-MGF and ACE-031 are separate assets with no automatic evidence transfer.
+Insulin and EPO catalogue listings remain family-level assets because the exact medicinal molecules and formulations are not provided.
+
+No administration or dosing functionality may be linked to either listing.
+
+## Catalogue C3 completion
+
+Builds 0022A, 0022B and 0022C complete the Growth Hormone, IGF and Endocrine catalogue segment.
 
 ## Next task
 
-**Build 0022C — Reproductive, Pituitary & Haematology Endocrine Asset Review**
+**Build 0023 — Catalogue C4: Neurocognitive & Sleep Peptide Review**

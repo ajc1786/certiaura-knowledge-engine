@@ -1,0 +1,102 @@
+{
+  "asset_id": "CERT-PKS-000034",
+  "asset_name": "Kisspeptin-10",
+  "knowledge_system": "PKS",
+  "asset_type": "Peptide / Protein / Biologic Knowledge Asset",
+  "version": "0.1.0",
+  "status": "CATALOGUE REVIEWED / EVIDENCE FOUNDATION CREATED / NOT PLATINUM CERTIFIED",
+  "owner": "Aidan Coleman",
+  "last_review": "2026-07-16",
+  "aliases": [
+    "KP-10",
+    "metastin 45-54",
+    "kisspeptin decapeptide"
+  ],
+  "classification": "C-terminal active decapeptide fragment of kisspeptin",
+  "mechanism_summary": "KISS1 receptor agonism activating hypothalamic GnRH and downstream reproductive hormone signalling.",
+  "evidence_maturity": "Human endocrine-pharmacology and experimental reproductive-medicine evidence; no established authorised therapeutic product.",
+  "regulatory_headline": "INVESTIGATIONAL / UNAPPROVED / REPRODUCTIVE-ENDOCRINE RESEARCH",
+  "catalogue_supplier_skus": [
+    {
+      "catalogue_code": "KS5",
+      "specification": "5 mg x 10 vials",
+      "price_usd_per_kit": 54
+    },
+    {
+      "catalogue_code": "KS10",
+      "specification": "10 mg x 10 vials",
+      "price_usd_per_kit": 81
+    }
+  ],
+  "relationships": [
+    {
+      "source": "CERT-PKS-000034",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000063"
+    },
+    {
+      "source": "CERT-PKS-000034",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000073"
+    },
+    {
+      "source": "CERT-PKS-000034",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000074"
+    },
+    {
+      "source": "CERT-PKS-000034",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000041"
+    },
+    {
+      "source": "CERT-PKS-000034",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000042"
+    },
+    {
+      "source": "CERT-PKS-000034",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000043"
+    },
+    {
+      "source": "CERT-PKS-000034",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000051"
+    },
+    {
+      "source": "CERT-PKS-000034",
+      "relationship": "SUPPORTS_GOAL",
+      "target": "CERT-GKS-000022"
+    },
+    {
+      "source": "CERT-PKS-000034",
+      "relationship": "SUPPORTS_GOAL",
+      "target": "CERT-GKS-000023"
+    },
+    {
+      "source": "CERT-PKS-000034",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000095"
+    },
+    {
+      "source": "CERT-PKS-000034",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000096"
+    },
+    {
+      "source": "CERT-PKS-000034",
+      "relationship": "HAS_SAFETY",
+      "target": "CERT-SKS-000039"
+    }
+  ],
+  "validated_universal_human_dosing_protocol": false,
+  "supplier_catalogue_proves_quality": false,
+  "platinum_certified": false,
+  "certification_blockers": [
+    "No approved indication",
+    "Dose-dependent endocrine response and tachyphylaxis",
+    "Fertility and pregnancy safety",
+    "Supplier sequence, purity and sterility"
+  ]
+}

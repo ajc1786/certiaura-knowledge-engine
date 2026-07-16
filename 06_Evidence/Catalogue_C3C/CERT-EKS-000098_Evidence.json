@@ -1,0 +1,20 @@
+{
+  "asset_id": "CERT-EKS-000098",
+  "asset_name": "Teriparatide Fracture and Bone-Density Evidence Foundation",
+  "root_asset": "CERT-PKS-000035",
+  "knowledge_system": "EKS",
+  "asset_type": "Evidence Object",
+  "version": "0.1.0",
+  "status": "PRIMARY PROGRAMME MAP CREATED — EXTRACTION REQUIRED",
+  "source_domain": "Pivotal osteoporosis, fracture and comparative clinical evidence",
+  "evidence_type": "Human clinical evidence",
+  "last_review": "2026-07-16",
+  "direct_complete_extraction": false,
+  "permitted_use": "Identity, clinical-context, safety and source-status reporting.",
+  "prohibited_use": [
+    "Personal dosing, fertility, obstetric, insulin or performance protocols",
+    "Transfer from an authorised medicine to an unverified catalogue product",
+    "Weight-loss claims for HCG",
+    "Athlete-permitted claims for erythropoietin without authoritative status"
+  ]
+}

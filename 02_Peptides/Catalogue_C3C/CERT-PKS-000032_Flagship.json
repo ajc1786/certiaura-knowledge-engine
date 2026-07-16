@@ -1,0 +1,113 @@
+{
+  "asset_id": "CERT-PKS-000032",
+  "asset_name": "Human Chorionic Gonadotropin Product Family",
+  "knowledge_system": "PKS",
+  "asset_type": "Peptide / Protein / Biologic Knowledge Asset",
+  "version": "0.1.0",
+  "status": "CATALOGUE REVIEWED / EVIDENCE FOUNDATION CREATED / NOT PLATINUM CERTIFIED",
+  "owner": "Aidan Coleman",
+  "last_review": "2026-07-16",
+  "aliases": [
+    "HCG",
+    "hCG",
+    "chorionic gonadotropin",
+    "choriogonadotropin alfa"
+  ],
+  "classification": "Glycoprotein hormone biologic / luteinising-hormone receptor agonist product family",
+  "mechanism_summary": "Luteinising-hormone/choriogonadotropin receptor agonism supporting gonadal steroidogenesis, ovulation and reproductive function.",
+  "evidence_maturity": "Extensive authorised fertility and selected endocrine evidence; urinary and recombinant products, indications and potency standards differ.",
+  "regulatory_headline": "AUTHORISED FERTILITY / ENDOCRINE PRODUCT CONTEXTS EXIST — NO WEIGHT-LOSS APPROVAL",
+  "catalogue_supplier_skus": [
+    {
+      "catalogue_code": "G2K",
+      "specification": "2,000 IU x 10 vials",
+      "price_usd_per_kit": 55
+    },
+    {
+      "catalogue_code": "G5K",
+      "specification": "5,000 IU x 10 vials",
+      "price_usd_per_kit": 85
+    },
+    {
+      "catalogue_code": "G10K",
+      "specification": "10,000 IU x 10 vials",
+      "price_usd_per_kit": 163
+    }
+  ],
+  "relationships": [
+    {
+      "source": "CERT-PKS-000032",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000064"
+    },
+    {
+      "source": "CERT-PKS-000032",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000069"
+    },
+    {
+      "source": "CERT-PKS-000032",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000070"
+    },
+    {
+      "source": "CERT-PKS-000032",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000041"
+    },
+    {
+      "source": "CERT-PKS-000032",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000042"
+    },
+    {
+      "source": "CERT-PKS-000032",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000048"
+    },
+    {
+      "source": "CERT-PKS-000032",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000049"
+    },
+    {
+      "source": "CERT-PKS-000032",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000050"
+    },
+    {
+      "source": "CERT-PKS-000032",
+      "relationship": "SUPPORTS_GOAL",
+      "target": "CERT-GKS-000022"
+    },
+    {
+      "source": "CERT-PKS-000032",
+      "relationship": "SUPPORTS_GOAL",
+      "target": "CERT-GKS-000026"
+    },
+    {
+      "source": "CERT-PKS-000032",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000091"
+    },
+    {
+      "source": "CERT-PKS-000032",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000092"
+    },
+    {
+      "source": "CERT-PKS-000032",
+      "relationship": "HAS_SAFETY",
+      "target": "CERT-SKS-000037"
+    }
+  ],
+  "validated_universal_human_dosing_protocol": false,
+  "supplier_catalogue_proves_quality": false,
+  "platinum_certified": false,
+  "certification_blockers": [
+    "Urinary versus recombinant identity",
+    "Current product-specific label and indication",
+    "Ovarian hyperstimulation and thromboembolic safety",
+    "Supplier potency, purity and sterility"
+  ]
+}

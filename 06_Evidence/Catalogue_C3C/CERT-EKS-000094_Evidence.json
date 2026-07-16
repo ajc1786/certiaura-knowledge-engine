@@ -1,0 +1,20 @@
+{
+  "asset_id": "CERT-EKS-000094",
+  "asset_name": "Menotropin Composition and Impurity Evidence",
+  "root_asset": "CERT-PKS-000033",
+  "knowledge_system": "EKS",
+  "asset_type": "Evidence Object",
+  "version": "0.1.0",
+  "status": "PRIMARY ANALYTICAL SOURCES IDENTIFIED — EXTRACTION REQUIRED",
+  "source_domain": "Urinary-source composition, FSH/LH activity and impurity publications",
+  "evidence_type": "Analytical / product evidence",
+  "last_review": "2026-07-16",
+  "direct_complete_extraction": false,
+  "permitted_use": "Identity, clinical-context, safety and source-status reporting.",
+  "prohibited_use": [
+    "Personal dosing, fertility, obstetric, insulin or performance protocols",
+    "Transfer from an authorised medicine to an unverified catalogue product",
+    "Weight-loss claims for HCG",
+    "Athlete-permitted claims for erythropoietin without authoritative status"
+  ]
+}

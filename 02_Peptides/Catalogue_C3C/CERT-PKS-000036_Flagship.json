@@ -1,0 +1,108 @@
+{
+  "asset_id": "CERT-PKS-000036",
+  "asset_name": "Insulin Supplier Product Family",
+  "knowledge_system": "PKS",
+  "asset_type": "Peptide / Protein / Biologic Knowledge Asset",
+  "version": "0.1.0",
+  "status": "CATALOGUE REVIEWED / EVIDENCE FOUNDATION CREATED / NOT PLATINUM CERTIFIED",
+  "owner": "Aidan Coleman",
+  "last_review": "2026-07-16",
+  "aliases": [
+    "insulin",
+    "human insulin",
+    "insulin analogue"
+  ],
+  "classification": "Chemically and clinically under-specified insulin protein-hormone product family",
+  "mechanism_summary": "Insulin receptor agonism regulating glucose uptake, hepatic glucose output, lipid metabolism and potassium distribution.",
+  "evidence_maturity": "Extensive authorised medicine evidence, but the catalogue entry lacks the minimum identity fields needed to determine product class or clinical use.",
+  "regulatory_headline": "AUTHORISED INSULIN MEDICINES EXIST / CATALOGUE PRODUCT IDENTITY UNRESOLVED / CRITICAL-RISK",
+  "catalogue_supplier_skus": [
+    {
+      "catalogue_code": "ISU",
+      "specification": "3 mL x 10 vials",
+      "price_usd_per_kit": 239
+    }
+  ],
+  "relationships": [
+    {
+      "source": "CERT-PKS-000036",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000078"
+    },
+    {
+      "source": "CERT-PKS-000036",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000079"
+    },
+    {
+      "source": "CERT-PKS-000036",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000080"
+    },
+    {
+      "source": "CERT-PKS-000036",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000001"
+    },
+    {
+      "source": "CERT-PKS-000036",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000002"
+    },
+    {
+      "source": "CERT-PKS-000036",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000012"
+    },
+    {
+      "source": "CERT-PKS-000036",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000037"
+    },
+    {
+      "source": "CERT-PKS-000036",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000056"
+    },
+    {
+      "source": "CERT-PKS-000036",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000057"
+    },
+    {
+      "source": "CERT-PKS-000036",
+      "relationship": "SUPPORTS_GOAL",
+      "target": "CERT-GKS-000013"
+    },
+    {
+      "source": "CERT-PKS-000036",
+      "relationship": "SUPPORTS_GOAL",
+      "target": "CERT-GKS-000029"
+    },
+    {
+      "source": "CERT-PKS-000036",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000099"
+    },
+    {
+      "source": "CERT-PKS-000036",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000100"
+    },
+    {
+      "source": "CERT-PKS-000036",
+      "relationship": "HAS_SAFETY",
+      "target": "CERT-SKS-000041"
+    }
+  ],
+  "validated_universal_human_dosing_protocol": false,
+  "supplier_catalogue_proves_quality": false,
+  "platinum_certified": false,
+  "certification_blockers": [
+    "Insulin molecule or analogue",
+    "Concentration and potency units",
+    "Rapid, short, intermediate or long-acting profile",
+    "Formulation, device, excipients and route",
+    "Cold-chain, sterility and manufacturer identity"
+  ]
+}

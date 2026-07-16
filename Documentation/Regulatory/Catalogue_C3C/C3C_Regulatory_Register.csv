@@ -1,0 +1,33 @@
+Asset UAI,Asset Name,Jurisdiction,Authority,Current Controlled Position,Monitoring,Status Date
+CERT-PKS-000030,Gonadorelin,United States,FDA,Historical and/or product-specific diagnostic contexts require current verification.,ACTIVE,2026-07-16
+CERT-PKS-000030,Gonadorelin,United Kingdom,MHRA,Current product-specific authorisation requires verification.,ACTIVE,2026-07-16
+CERT-PKS-000030,Gonadorelin,European Union,EMA / national authorities,Current product-specific authorisation requires verification.,ACTIVE,2026-07-16
+CERT-PKS-000030,Gonadorelin,International sport,WADA,Reproductive hormone and releasing-factor status requires current verification.,EVENT-TRIGGERED,2026-07-16
+CERT-PKS-000031,Oxytocin,United States,FDA,"Authorised medicine contexts exist; exact product, molecule, formulation and indication require current label capture.",ACTIVE,2026-07-16
+CERT-PKS-000031,Oxytocin,United Kingdom,MHRA,Authorised prescription-medicine contexts exist; product-specific authorisation controls claims.,ACTIVE,2026-07-16
+CERT-PKS-000031,Oxytocin,European Union,EMA / European Commission,Authorised medicinal contexts exist; exact product information controls claims.,ACTIVE,2026-07-16
+CERT-PKS-000031,Oxytocin,International sport,WADA,Current athlete-specific status requires authoritative verification; erythropoiesis-stimulating agents are a critical prohibition domain.,ACTIVE,2026-07-16
+CERT-PKS-000032,Human Chorionic Gonadotropin Product Family,United States,FDA,"Authorised medicine contexts exist; exact product, molecule, formulation and indication require current label capture.",ACTIVE,2026-07-16
+CERT-PKS-000032,Human Chorionic Gonadotropin Product Family,United Kingdom,MHRA,Authorised prescription-medicine contexts exist; product-specific authorisation controls claims.,ACTIVE,2026-07-16
+CERT-PKS-000032,Human Chorionic Gonadotropin Product Family,European Union,EMA / European Commission,Authorised medicinal contexts exist; exact product information controls claims.,ACTIVE,2026-07-16
+CERT-PKS-000032,Human Chorionic Gonadotropin Product Family,International sport,WADA,Current athlete-specific status requires authoritative verification; erythropoiesis-stimulating agents are a critical prohibition domain.,ACTIVE,2026-07-16
+CERT-PKS-000033,Menotropins / Human Menopausal Gonadotropin Product Family,United States,FDA,"Authorised medicine contexts exist; exact product, molecule, formulation and indication require current label capture.",ACTIVE,2026-07-16
+CERT-PKS-000033,Menotropins / Human Menopausal Gonadotropin Product Family,United Kingdom,MHRA,Authorised prescription-medicine contexts exist; product-specific authorisation controls claims.,ACTIVE,2026-07-16
+CERT-PKS-000033,Menotropins / Human Menopausal Gonadotropin Product Family,European Union,EMA / European Commission,Authorised medicinal contexts exist; exact product information controls claims.,ACTIVE,2026-07-16
+CERT-PKS-000033,Menotropins / Human Menopausal Gonadotropin Product Family,International sport,WADA,Current athlete-specific status requires authoritative verification; erythropoiesis-stimulating agents are a critical prohibition domain.,ACTIVE,2026-07-16
+CERT-PKS-000034,Kisspeptin-10,United States,FDA,No approval claim.,ACTIVE,2026-07-16
+CERT-PKS-000034,Kisspeptin-10,United Kingdom,MHRA,No marketing-authorisation claim.,ACTIVE,2026-07-16
+CERT-PKS-000034,Kisspeptin-10,European Union,EMA / European Commission,No marketing-authorisation claim.,ACTIVE,2026-07-16
+CERT-PKS-000034,Kisspeptin-10,International sport,WADA,Current athlete-specific verification required.,ACTIVE,2026-07-16
+CERT-PKS-000035,Teriparatide,United States,FDA,"Authorised medicine contexts exist; exact product, molecule, formulation and indication require current label capture.",ACTIVE,2026-07-16
+CERT-PKS-000035,Teriparatide,United Kingdom,MHRA,Authorised prescription-medicine contexts exist; product-specific authorisation controls claims.,ACTIVE,2026-07-16
+CERT-PKS-000035,Teriparatide,European Union,EMA / European Commission,Authorised medicinal contexts exist; exact product information controls claims.,ACTIVE,2026-07-16
+CERT-PKS-000035,Teriparatide,International sport,WADA,Current athlete-specific status requires authoritative verification; erythropoiesis-stimulating agents are a critical prohibition domain.,ACTIVE,2026-07-16
+CERT-PKS-000036,Insulin Supplier Product Family,United States,FDA,"Authorised medicine contexts exist; exact product, molecule, formulation and indication require current label capture.",ACTIVE,2026-07-16
+CERT-PKS-000036,Insulin Supplier Product Family,United Kingdom,MHRA,Authorised prescription-medicine contexts exist; product-specific authorisation controls claims.,ACTIVE,2026-07-16
+CERT-PKS-000036,Insulin Supplier Product Family,European Union,EMA / European Commission,Authorised medicinal contexts exist; exact product information controls claims.,ACTIVE,2026-07-16
+CERT-PKS-000036,Insulin Supplier Product Family,International sport,WADA,Current athlete-specific status requires authoritative verification; erythropoiesis-stimulating agents are a critical prohibition domain.,ACTIVE,2026-07-16
+CERT-PKS-000037,Erythropoietin Supplier Product Family,United States,FDA,"Authorised medicine contexts exist; exact product, molecule, formulation and indication require current label capture.",ACTIVE,2026-07-16
+CERT-PKS-000037,Erythropoietin Supplier Product Family,United Kingdom,MHRA,Authorised prescription-medicine contexts exist; product-specific authorisation controls claims.,ACTIVE,2026-07-16
+CERT-PKS-000037,Erythropoietin Supplier Product Family,European Union,EMA / European Commission,Authorised medicinal contexts exist; exact product information controls claims.,ACTIVE,2026-07-16
+CERT-PKS-000037,Erythropoietin Supplier Product Family,International sport,WADA,Current athlete-specific status requires authoritative verification; erythropoiesis-stimulating agents are a critical prohibition domain.,ACTIVE,2026-07-16

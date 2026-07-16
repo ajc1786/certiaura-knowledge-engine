@@ -1,0 +1,36 @@
+{
+  "asset_uai": "CERT-PKS-000030",
+  "asset_name": "Gonadorelin",
+  "status_as_of": "2026-07-16",
+  "overall_status": "HISTORICAL AND CURRENT DIAGNOSTIC / REPRODUCTIVE PRODUCT CONTEXTS REQUIRE PRODUCT-SPECIFIC VERIFICATION",
+  "regulatory_records": [
+    {
+      "jurisdiction": "United States",
+      "authority": "FDA",
+      "current_status": "Historical and/or product-specific diagnostic contexts require current verification.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Approval, label, molecule, formulation, safety, enforcement, trial or anti-doping change"
+    },
+    {
+      "jurisdiction": "United Kingdom",
+      "authority": "MHRA",
+      "current_status": "Current product-specific authorisation requires verification.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Approval, label, molecule, formulation, safety, enforcement, trial or anti-doping change"
+    },
+    {
+      "jurisdiction": "European Union",
+      "authority": "EMA / national authorities",
+      "current_status": "Current product-specific authorisation requires verification.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Approval, label, molecule, formulation, safety, enforcement, trial or anti-doping change"
+    },
+    {
+      "jurisdiction": "International sport",
+      "authority": "WADA",
+      "current_status": "Reproductive hormone and releasing-factor status requires current verification.",
+      "monitoring_state": "EVENT-TRIGGERED",
+      "next_review_trigger": "Approval, label, molecule, formulation, safety, enforcement, trial or anti-doping change"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "asset_id": "CERT-EKS-000096",
+  "asset_name": "Kisspeptin-10 Fertility and Safety Evidence Gap",
+  "root_asset": "CERT-PKS-000034",
+  "knowledge_system": "EKS",
+  "asset_type": "Evidence Object",
+  "version": "0.1.0",
+  "status": "OPEN — AUTHORISED THERAPEUTIC CONTEXT NOT ESTABLISHED",
+  "source_domain": "Assisted reproduction, repeated exposure, pregnancy and long-term safety",
+  "evidence_type": "Clinical-development / evidence-gap object",
+  "last_review": "2026-07-16",
+  "direct_complete_extraction": false,
+  "permitted_use": "Identity, clinical-context, safety and source-status reporting.",
+  "prohibited_use": [
+    "Personal dosing, fertility, obstetric, insulin or performance protocols",
+    "Transfer from an authorised medicine to an unverified catalogue product",
+    "Weight-loss claims for HCG",
+    "Athlete-permitted claims for erythropoietin without authoritative status"
+  ]
+}

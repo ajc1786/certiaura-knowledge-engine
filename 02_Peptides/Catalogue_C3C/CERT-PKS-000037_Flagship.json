@@ -1,0 +1,94 @@
+{
+  "asset_id": "CERT-PKS-000037",
+  "asset_name": "Erythropoietin Supplier Product Family",
+  "knowledge_system": "PKS",
+  "asset_type": "Peptide / Protein / Biologic Knowledge Asset",
+  "version": "0.1.0",
+  "status": "CATALOGUE REVIEWED / EVIDENCE FOUNDATION CREATED / NOT PLATINUM CERTIFIED",
+  "owner": "Aidan Coleman",
+  "last_review": "2026-07-16",
+  "aliases": [
+    "EPO",
+    "epoetin",
+    "erythropoietin",
+    "erythropoiesis-stimulating agent"
+  ],
+  "classification": "Chemically under-specified erythropoiesis-stimulating glycoprotein biologic family",
+  "mechanism_summary": "Erythropoietin receptor agonism stimulating erythroid progenitor survival, differentiation and red-blood-cell production.",
+  "evidence_maturity": "Extensive authorised anaemia-treatment evidence for defined epoetin and related products; catalogue identity is insufficiently specified.",
+  "regulatory_headline": "AUTHORISED ESA MEDICINES EXIST / CATALOGUE PRODUCT IDENTITY UNRESOLVED / ATHLETE PROHIBITION",
+  "catalogue_supplier_skus": [
+    {
+      "catalogue_code": "E3K",
+      "specification": "3,000 IU x 5 vials",
+      "price_usd_per_kit": 122
+    }
+  ],
+  "relationships": [
+    {
+      "source": "CERT-PKS-000037",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000081"
+    },
+    {
+      "source": "CERT-PKS-000037",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000082"
+    },
+    {
+      "source": "CERT-PKS-000037",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000083"
+    },
+    {
+      "source": "CERT-PKS-000037",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000058"
+    },
+    {
+      "source": "CERT-PKS-000037",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000059"
+    },
+    {
+      "source": "CERT-PKS-000037",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000060"
+    },
+    {
+      "source": "CERT-PKS-000037",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000061"
+    },
+    {
+      "source": "CERT-PKS-000037",
+      "relationship": "SUPPORTS_GOAL",
+      "target": "CERT-GKS-000030"
+    },
+    {
+      "source": "CERT-PKS-000037",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000101"
+    },
+    {
+      "source": "CERT-PKS-000037",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000102"
+    },
+    {
+      "source": "CERT-PKS-000037",
+      "relationship": "HAS_SAFETY",
+      "target": "CERT-SKS-000042"
+    }
+  ],
+  "validated_universal_human_dosing_protocol": false,
+  "supplier_catalogue_proves_quality": false,
+  "platinum_certified": false,
+  "certification_blockers": [
+    "Exact molecule: epoetin alfa, beta, theta, zeta, darbepoetin or other",
+    "Manufacturer, cell line, glycosylation and formulation",
+    "Indication-specific haemoglobin target and risk controls",
+    "Thrombosis, hypertension and tumour-context safety",
+    "Cold-chain, potency and sterility"
+  ]
+}

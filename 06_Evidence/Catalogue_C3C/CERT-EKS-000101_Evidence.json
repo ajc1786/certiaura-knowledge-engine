@@ -1,0 +1,20 @@
+{
+  "asset_id": "CERT-EKS-000101",
+  "asset_name": "Erythropoiesis-Stimulating Agent Authorised Product Source Set",
+  "root_asset": "CERT-PKS-000037",
+  "knowledge_system": "EKS",
+  "asset_type": "Evidence Object",
+  "version": "0.1.0",
+  "status": "CATALOGUE MOLECULE AND FORMULATION UNRESOLVED",
+  "source_domain": "Epoetin and related ESA regulatory product information",
+  "evidence_type": "Authorised product / label evidence",
+  "last_review": "2026-07-16",
+  "direct_complete_extraction": false,
+  "permitted_use": "Identity, clinical-context, safety and source-status reporting.",
+  "prohibited_use": [
+    "Personal dosing, fertility, obstetric, insulin or performance protocols",
+    "Transfer from an authorised medicine to an unverified catalogue product",
+    "Weight-loss claims for HCG",
+    "Athlete-permitted claims for erythropoietin without authoritative status"
+  ]
+}

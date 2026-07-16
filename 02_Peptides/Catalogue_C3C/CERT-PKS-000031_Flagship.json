@@ -1,0 +1,107 @@
+{
+  "asset_id": "CERT-PKS-000031",
+  "asset_name": "Oxytocin",
+  "knowledge_system": "PKS",
+  "asset_type": "Peptide / Protein / Biologic Knowledge Asset",
+  "version": "0.1.0",
+  "status": "CATALOGUE REVIEWED / EVIDENCE FOUNDATION CREATED / NOT PLATINUM CERTIFIED",
+  "owner": "Aidan Coleman",
+  "last_review": "2026-07-16",
+  "aliases": [
+    "oxytocin acetate",
+    "Pitocin",
+    "Syntocinon"
+  ],
+  "classification": "Synthetic oxytocin nonapeptide medicine",
+  "mechanism_summary": "Oxytocin receptor agonism producing uterine smooth-muscle contraction and milk-ejection responses.",
+  "evidence_maturity": "Extensive authorised obstetric evidence and clinical use; indication, formulation, route and monitored-care context are critical.",
+  "regulatory_headline": "AUTHORISED OBSTETRIC MEDICINE CONTEXTS EXIST / MONITORED-CARE PRODUCT CONTROLS APPLY",
+  "catalogue_supplier_skus": [
+    {
+      "catalogue_code": "OT2",
+      "specification": "2 mg x 10 vials",
+      "price_usd_per_kit": 27
+    },
+    {
+      "catalogue_code": "OT5",
+      "specification": "5 mg x 10 vials",
+      "price_usd_per_kit": 47
+    },
+    {
+      "catalogue_code": "OT10",
+      "specification": "10 mg x 10 vials",
+      "price_usd_per_kit": 56
+    }
+  ],
+  "relationships": [
+    {
+      "source": "CERT-PKS-000031",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000066"
+    },
+    {
+      "source": "CERT-PKS-000031",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000067"
+    },
+    {
+      "source": "CERT-PKS-000031",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000068"
+    },
+    {
+      "source": "CERT-PKS-000031",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000044"
+    },
+    {
+      "source": "CERT-PKS-000031",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000045"
+    },
+    {
+      "source": "CERT-PKS-000031",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000046"
+    },
+    {
+      "source": "CERT-PKS-000031",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000047"
+    },
+    {
+      "source": "CERT-PKS-000031",
+      "relationship": "SUPPORTS_GOAL",
+      "target": "CERT-GKS-000024"
+    },
+    {
+      "source": "CERT-PKS-000031",
+      "relationship": "SUPPORTS_GOAL",
+      "target": "CERT-GKS-000025"
+    },
+    {
+      "source": "CERT-PKS-000031",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000089"
+    },
+    {
+      "source": "CERT-PKS-000031",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000090"
+    },
+    {
+      "source": "CERT-PKS-000031",
+      "relationship": "HAS_SAFETY",
+      "target": "CERT-SKS-000036"
+    }
+  ],
+  "validated_universal_human_dosing_protocol": false,
+  "supplier_catalogue_proves_quality": false,
+  "platinum_certified": false,
+  "certification_blockers": [
+    "Current product-specific label",
+    "Hospital and monitored obstetric context",
+    "Catalogue mg notation versus medicine potency/formulation",
+    "Supplier identity, potency and sterility"
+  ]
+}

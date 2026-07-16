@@ -1,0 +1,98 @@
+{
+  "asset_id": "CERT-PKS-000035",
+  "asset_name": "Teriparatide",
+  "knowledge_system": "PKS",
+  "asset_type": "Peptide / Protein / Biologic Knowledge Asset",
+  "version": "0.1.0",
+  "status": "CATALOGUE REVIEWED / EVIDENCE FOUNDATION CREATED / NOT PLATINUM CERTIFIED",
+  "owner": "Aidan Coleman",
+  "last_review": "2026-07-16",
+  "aliases": [
+    "PTH (1-34)",
+    "Forteo",
+    "Forsteo",
+    "Bonsity"
+  ],
+  "classification": "Recombinant human parathyroid hormone 1-34 peptide medicine",
+  "mechanism_summary": "Intermittent parathyroid hormone receptor type 1 agonism stimulating bone formation and remodelling.",
+  "evidence_maturity": "Extensive authorised osteoporosis, fracture-outcome and post-authorisation evidence; product and duration controls apply.",
+  "regulatory_headline": "AUTHORISED OSTEOPOROSIS MEDICINE CONTEXTS EXIST / PRODUCT-SPECIFIC",
+  "catalogue_supplier_skus": [
+    {
+      "catalogue_code": "TER10",
+      "specification": "10 mg x 10 vials",
+      "price_usd_per_kit": 210
+    }
+  ],
+  "relationships": [
+    {
+      "source": "CERT-PKS-000035",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000075"
+    },
+    {
+      "source": "CERT-PKS-000035",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000076"
+    },
+    {
+      "source": "CERT-PKS-000035",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000077"
+    },
+    {
+      "source": "CERT-PKS-000035",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000052"
+    },
+    {
+      "source": "CERT-PKS-000035",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000053"
+    },
+    {
+      "source": "CERT-PKS-000035",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000054"
+    },
+    {
+      "source": "CERT-PKS-000035",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000055"
+    },
+    {
+      "source": "CERT-PKS-000035",
+      "relationship": "SUPPORTS_GOAL",
+      "target": "CERT-GKS-000027"
+    },
+    {
+      "source": "CERT-PKS-000035",
+      "relationship": "SUPPORTS_GOAL",
+      "target": "CERT-GKS-000028"
+    },
+    {
+      "source": "CERT-PKS-000035",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000097"
+    },
+    {
+      "source": "CERT-PKS-000035",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000098"
+    },
+    {
+      "source": "CERT-PKS-000035",
+      "relationship": "HAS_SAFETY",
+      "target": "CERT-SKS-000040"
+    }
+  ],
+  "validated_universal_human_dosing_protocol": false,
+  "supplier_catalogue_proves_quality": false,
+  "platinum_certified": false,
+  "certification_blockers": [
+    "Current product-specific label",
+    "Catalogue 10 mg presentation versus authorised delivery systems",
+    "Hypercalcaemia and bone-tumour risk context",
+    "Supplier identity, potency and sterility"
+  ]
+}

@@ -1,32 +1,32 @@
 # CERTIAURA CHANGE LOG
 
-## Build 0022B — IGF-1, MGF, PEG-MGF & ACE-031 Review
+## Build 0022C — Reproductive, Pituitary, Bone & Haematology Endocrine Review
 **Date:** 2026-07-16
 
 Allocated:
 
-- CERT-PKS-000026–000029
+- CERT-PKS-000030–000037
 
 Added:
 
-- four flagship assets;
-- eight evidence objects;
-- four safety objects;
-- nine biology objects;
-- four monitoring objects;
-- three goal objects;
-- regulatory profiles;
+- eight flagship assets;
+- sixteen evidence objects;
+- eight safety objects;
+- twenty-one biology objects;
+- four condition objects;
+- twenty-one monitoring objects;
+- nine goal objects;
+- eight regulatory profiles;
 - claim and commercial boundaries;
 - Cost Intelligence™ baseline;
-- identity separation map;
+- identity and critical-gap map;
 - authoritative source map.
 
-Key outcome:
+Key controls:
 
-Long R3 IGF-1 does not inherit authorised mecasermin status.
-
-MGF expression biology does not validate a supplier E-domain peptide.
-
-PEG-MGF remains chemically under-specified.
-
-ACE-031 is controlled as a discontinued investigational fusion-protein programme and myostatin-pathway product.
+- HCG weight-loss claims prohibited.
+- HMG retained as a variable mixture.
+- Insulin type and concentration unresolved.
+- EPO molecule and formulation unresolved.
+- Oxytocin restricted to monitored obstetric context.
+- Teriparatide medicine status not transferred to catalogue powder.
