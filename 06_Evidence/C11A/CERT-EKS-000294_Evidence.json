@@ -1,0 +1,21 @@
+{
+  "asset_id": "CERT-EKS-000294",
+  "asset_name": "2S10/2S50 Elamipretide Salt, Sterility and Forzinity-Comparability Gap",
+  "root_asset": "CERT-PKS-000089",
+  "knowledge_system": "EKS",
+  "asset_type": "Priority Evidence Closure Object",
+  "version": "0.2.0",
+  "status": "OPEN — SUPPLIER POWDER HAS NO FORZINITY EQUIVALENCE",
+  "closure_wave": "0033A",
+  "closure_priority": "P1",
+  "source_domain": "Supplier sequence, stereochemistry, hydrochloride state, assay, formulation, sterility, stability, manufacturer and finished-product comparability",
+  "evidence_type": "Critical supplier-equivalence gap",
+  "last_review": "2026-07-16",
+  "direct_complete_extraction": false,
+  "prohibited_use": [
+    "Personal dosing, injection, infusion or reconstitution guidance",
+    "Authorised, trial or primary-study evidence transfer to supplier products",
+    "Assumption of chemical form, route, potency, quality or sterility",
+    "Weight-loss, performance, sleep, longevity or wellness protocols"
+  ]
+}

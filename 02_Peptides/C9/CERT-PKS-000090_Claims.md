@@ -10,13 +10,11 @@
 
 | Claim | Permission |
 |---|---|
-| Generic GLP-1 Supplier Product Family is classified as chemically unresolved glucagon-like peptide-1 supplier product family. | Allowed |
-| CRITICAL MOLECULAR-IDENTITY GAP / NO NATIVE-FORM, ANALOGUE, APPROVAL OR THERAPEUTIC-EQUIVALENCE CLAIM | Allowed as a dated controlled headline |
-| The supplier product is equivalent to an authorised medicine. | Not established / prohibited |
-| A validated treatment, dosing or administration protocol exists. | False / prohibited |
+| This asset is in P1 closure. | Allowed |
+| Human studies distinguish GLP-1(7-36) amide and GLP-1(7-37), both of which have very short plasma exposure and defined route-specific physiology. The GP listing does not identify either form or exclude a precursor, metabolite or modified analogue. FDA's 2026 enforcement position also separates non-approved GLP-1 products from exact approved active ingredients and products. | Allowed as a controlled boundary |
+| The supplier item is equivalent to an authorised, trial or primary-study product. | False / prohibited |
+| Supplier identity, form, potency, quality and sterility are verified. | False / prohibited |
+| A treatment, wellness, weight-loss, performance, dosing or administration protocol is validated. | False / prohibited |
 | The asset is Platinum Certified. | False / prohibited |
-| The catalogue GP item is GLP-1(7-36) amide. | Not established / prohibited |
-| The catalogue GP item is GLP-1(7-37). | Not established / prohibited |
-| Evidence for semaglutide or liraglutide applies to the GP item. | False / prohibited |
 
 **Status as of:** 2026-07-16

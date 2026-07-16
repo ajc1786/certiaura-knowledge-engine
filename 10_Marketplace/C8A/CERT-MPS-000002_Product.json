@@ -3,8 +3,8 @@
   "asset_name": "Melatonin Supplier Vial Family",
   "knowledge_system": "MPS",
   "asset_type": "Marketplace Product-Family Asset",
-  "version": "0.1.0",
-  "status": "CATALOGUE REVIEWED / PRODUCT PASSPORT GAP ACTIVE / NOT QUALITY VERIFIED",
+  "version": "0.2.0",
+  "status": "P1 EVIDENCE CLOSURE WAVE 5 / IDENTITY OR PRODUCT-EQUIVALENCE BLOCK ACTIVE / NOT PLATINUM CERTIFIED",
   "owner": "Aidan Coleman",
   "last_review": "2026-07-16",
   "classification": "Non-peptide indoleamine hormone supplier product",
@@ -77,11 +77,35 @@
       "source": "CERT-MPS-000002",
       "relationship": "SUPPORTS_GOAL",
       "target": "CERT-GKS-000083"
+    },
+    {
+      "source": "CERT-MPS-000002",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000285"
+    },
+    {
+      "source": "CERT-MPS-000002",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000286"
     }
   ],
   "product_passport": "CERT-PPS-000002",
   "identity_verified": false,
   "sterility_verified": false,
   "authorised_product_equivalence": false,
-  "validated_universal_human_dosing_protocol": false
+  "validated_universal_human_dosing_protocol": false,
+  "closure_wave": "0033A",
+  "closure_priority": "P1",
+  "closure_class": "AUTHORISED ORAL PRODUCT VERSUS UNSPECIFIED SUPPLIER VIAL",
+  "closure_state": "PARTIAL CLOSURE — CURRENT EU ORAL MEDICINE CONTEXTS IDENTIFIED; SUPPLIER ROUTE, FORMULATION, RELEASE PROFILE, STERILITY AND EQUIVALENCE OPEN",
+  "authoritative_product_boundary": "Current EMA records identify exact prolonged-release oral products, including Circadin and Slenyto, with defined populations, indications and tablet formulations. MT10 is an unspecified vial and cannot inherit an oral product label, release profile or authorised-product status.",
+  "quality_verified": false,
+  "platinum_certified": false,
+  "critical_closure_controls": [
+    "MT10 is not Circadin, Slenyto or another authorised tablet",
+    "Oral prolonged-release evidence does not validate a vial",
+    "Route and formulation cannot be inferred from catalogue presentation",
+    "Sedation, impaired alertness and vulnerable-population controls remain active",
+    "No sleep, dosing, injection or reconstitution protocol"
+  ]
 }

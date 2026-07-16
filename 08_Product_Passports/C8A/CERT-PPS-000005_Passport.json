@@ -3,37 +3,56 @@
   "asset_name": "NAD Supplier Product Family Product Passport",
   "knowledge_system": "PPS",
   "asset_type": "Product Passport Gap Object",
-  "version": "0.1.0",
-  "status": "OPEN / NOT CERTIFIED",
+  "version": "0.2.0",
+  "status": "P1 OPEN / CLOSURE WAVE ACTIVE / NOT CERTIFIED",
   "parent_product": "CERT-MPS-000005",
   "last_review": "2026-07-16",
   "required_fields": [
     {
-      "field": "NAD+ versus NADH",
-      "status": "OPEN"
+      "field": "NAD+ versus NADH and oxidised/reduced state",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical, quality, clinical and regulatory evidence"
     },
     {
-      "field": "salt, hydration and molecular mass",
-      "status": "OPEN"
+      "field": "salt, hydration, formula and molecular mass",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical, quality, clinical and regulatory evidence"
     },
     {
-      "field": "concentration, pH and route",
-      "status": "OPEN"
+      "field": "reference standard, assay and degradation products",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical, quality, clinical and regulatory evidence"
     },
     {
-      "field": "sterile-grade raw material",
-      "status": "OPEN"
+      "field": "manufacturer, raw-material grade and batch",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical, quality, clinical and regulatory evidence"
     },
     {
-      "field": "endotoxin, particulate and sterility",
-      "status": "OPEN"
+      "field": "concentration, pH, route and excipients",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical, quality, clinical and regulatory evidence"
     },
     {
-      "field": "manufacturer, batch, storage and degradation",
-      "status": "OPEN"
+      "field": "sterility, bacterial endotoxin and particulate testing",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical, quality, clinical and regulatory evidence"
+    },
+    {
+      "field": "container closure, storage and post-preparation stability",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical, quality, clinical and regulatory evidence"
+    },
+    {
+      "field": "product-specific clinical, regulatory and legal status",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical, quality, clinical and regulatory evidence"
     }
   ],
   "identity_certified": false,
   "quality_certified": false,
-  "sterility_certified": false
+  "sterility_certified": false,
+  "closure_wave": "0033A",
+  "closure_priority": "P1",
+  "authorised_product_equivalence": false
 }

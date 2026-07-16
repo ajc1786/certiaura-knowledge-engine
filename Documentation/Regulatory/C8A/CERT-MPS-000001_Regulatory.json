@@ -1,36 +1,38 @@
 {
   "asset_uai": "CERT-MPS-000001",
   "asset_name": "AICAR Supplier Product Family",
+  "version": "0.2.0",
   "status_as_of": "2026-07-16",
-  "overall_status": "CHEMICAL FORM AMBIGUOUS / NO CURRENT GENERAL THERAPEUTIC APPROVAL CLAIM / CURRENT ANTI-DOPING CONTROL REQUIRED",
+  "closure_wave": "0033A",
+  "overall_status": "PARTIAL CLOSURE — HUMAN ACADESINE DEVELOPMENT AND CURRENT ANTI-DOPING STATUS IDENTIFIED; SUPPLIER CHEMICAL FORM, SALT, GRADE AND ROUTE OPEN",
   "regulatory_records": [
     {
-      "jurisdiction": "United States",
-      "authority": "FDA",
-      "current_status": "No general AICAR/acadesine approval claim; exact chemical-form and official product search required.",
+      "jurisdiction": "International sport",
+      "authority": "WADA",
+      "current_status": "The 2026 Prohibited List is in force and identifies AICAR as an AMPK activator under metabolic modulators.",
       "monitoring_state": "ACTIVE",
-      "next_review_trigger": "Identity, approval, label, safety, enforcement, trial or anti-doping change"
+      "next_review_trigger": "Identity, approval, label, warning, enforcement, trial, quality, safety or anti-doping change"
+    },
+    {
+      "jurisdiction": "United States",
+      "authority": "FDA / ClinicalTrials.gov",
+      "current_status": "Historical acadesine clinical development does not establish approval or supplier AR50/AR100 equivalence.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Identity, approval, label, warning, enforcement, trial, quality, safety or anti-doping change"
     },
     {
       "jurisdiction": "United Kingdom",
       "authority": "MHRA",
-      "current_status": "No marketing-authorisation claim for the supplier vial.",
+      "current_status": "No marketing-authorisation claim for the supplier product.",
       "monitoring_state": "ACTIVE",
-      "next_review_trigger": "Identity, approval, label, safety, enforcement, trial or anti-doping change"
+      "next_review_trigger": "Identity, approval, label, warning, enforcement, trial, quality, safety or anti-doping change"
     },
     {
       "jurisdiction": "European Union",
-      "authority": "EMA / European Commission",
-      "current_status": "No marketing-authorisation claim for the supplier vial.",
+      "authority": "EMA / national authorities",
+      "current_status": "No marketing-authorisation claim for the supplier product.",
       "monitoring_state": "ACTIVE",
-      "next_review_trigger": "Identity, approval, label, safety, enforcement, trial or anti-doping change"
-    },
-    {
-      "jurisdiction": "International sport",
-      "authority": "WADA",
-      "current_status": "AICAR is a current prohibited-substance control domain; verify the current list directly.",
-      "monitoring_state": "ACTIVE",
-      "next_review_trigger": "Identity, approval, label, safety, enforcement, trial or anti-doping change"
+      "next_review_trigger": "Identity, approval, label, warning, enforcement, trial, quality, safety or anti-doping change"
     }
   ]
 }

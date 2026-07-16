@@ -8,53 +8,51 @@
 
 # CERT-PKS-000089 — Elamipretide / SS-31
 
-**Version:** 0.1.0  
+**System:** PKS  
+**Object:** Peptide / Supplier Product-Family Asset  
+**Version:** 0.2.0  
+**Priority:** P1  
+**Status:** EVIDENCE CLOSURE WAVE 5 / IDENTITY OR PRODUCT-EQUIVALENCE BLOCK ACTIVE  
 **Last Review:** 2026-07-16
 
-## Classification
+## Closure state
 
-Defined aromatic-cationic tetrapeptide and authorised active-substance family
+**PARTIAL CLOSURE — CANONICAL ELAMIPRETIDE AND CURRENT FORZINITY STATUS IDENTIFIED; SUPPLIER SALT, STERILITY, FORMULATION, MANUFACTURER AND COMPARABILITY OPEN**
 
-## Mechanism or identity context
+## Authoritative or primary-source boundary
 
-Mitochondrial cardiolipin binding and localisation to the inner mitochondrial membrane, with effects on mitochondrial morphology and function in the authorised product context.
+Forzinity is an FDA-approved elamipretide injection under accelerated approval for a defined Barth-syndrome population and is subject to confirmatory phase 3b/4 study. It is an 80 mg/mL sterile solution with product-specific excipients and controls. The 2S10 and 2S50 supplier powders do not inherit that approval, label or formulation.
 
-## Evidence maturity
+## New closure evidence
 
-United States accelerated approval and post-marketing confirmatory development exist for the exact Forzinity product in Barth syndrome. Other mitochondrial-disease uses and unverified supplier powders remain separate evidence and regulatory objects.
+- `CERT-EKS-000293`
+- `CERT-EKS-000294`
 
-## Evidence foundation
+## Product Passport
 
-- `CERT-EKS-000229`
-- `CERT-EKS-000230`
+`CERT-PPS-000031`
 
-## Regulatory headline
-
-**UNITED STATES FORZINITY ACCELERATED APPROVAL EXISTS FOR A DEFINED BARTH-SYNDROME INDICATION — CATALOGUE SS-31 POWDER IS NOT AUTHORISED-PRODUCT EQUIVALENT**
-
-## Catalogue pricing
+## Catalogue records
 
 | Code | Specification | USD per kit |
 |---|---|---:|
 | 2S10 | SS-31 10 mg x 10 vials | $85 |
 | 2S50 | SS-31 50 mg x 10 vials | $360 |
 
-## Product-quality boundary
+## Critical controls
 
-The catalogue does not establish exact chemical form, manufacturer, purity, potency, sterility, approval or authorised-product equivalence.
+- Supplier SS-31 is not Forzinity
+- Forzinity accelerated approval is indication and product specific
+- EMA orphan designation and MHRA PIP are not marketing authorisations
+- Hypersensitivity, benzyl-alcohol and renal controls belong to the exact product
+- No Barth, mitochondrial, dosing, injection or reconstitution protocol
 
-## Validated universal human dosing protocol
+## Certification state
 
-**No**
-
-## Certification blockers
-
-- Supplier sequence and stereochemistry confirmation
-- Hydrochloride salt versus other chemical form
-- No equivalence to Forzinity 80 mg/mL sterile solution
-- Manufacturer, purity, potency, sterility and endotoxin
-- Jurisdiction-specific product and indication status
-
-## Platinum Certified
-
-**No**
+- Supplier identity verified: **No**
+- Quality verified: **No**
+- Sterility verified: **No**
+- Authorised-product equivalence: **No**
+- Validated human dosing or administration protocol: **No**
+- Direct-sale gate: **Blocked**
+- Platinum Certified: **No**

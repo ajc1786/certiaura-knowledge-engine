@@ -8,16 +8,16 @@
 
 # CERT-MPS-000005 — NAD Supplier Product Family REGULATORY STATUS
 
+**Version:** 0.2.0  
 **Status as of:** 2026-07-16  
-**Overall:** NAD+ / NADH / SALT AND ROUTE UNRESOLVED / UNAPPROVED INJECTABLE-PRODUCT CONTROLS APPLY
+**Closure state:** BLOCKED — NAD+ VERSUS NADH, SALT, CONCENTRATION, ROUTE, STERILE GRADE, ENDOTOXIN AND PRODUCT EQUIVALENCE UNVERIFIED
 
 | Jurisdiction | Authority | Controlled position | Monitoring |
 |---|---|---|---|
-| United States | FDA | NAD+ injectable products are not treated as approved; sterile-grade and endotoxin warnings apply. | ACTIVE |
-| United Kingdom | MHRA | No marketing-authorisation claim for the supplier vial. | ACTIVE |
-| European Union | EMA / European Commission | No central marketing-authorisation claim for the supplier vial. | ACTIVE |
-| International sport | WADA | Current athlete-specific verification required. | EVENT-TRIGGERED |
+| United States | FDA | FDA warns against unsuitable food-grade NAD+ for sterile compounding and has identified unapproved injectable NAD+ products in 2026 enforcement. | ACTIVE |
+| United Kingdom | MHRA | No marketing-authorisation claim for the supplier vials. | ACTIVE |
+| European Union | EMA / national authorities | No marketing-authorisation claim for the supplier vials. | ACTIVE |
 
 ## Rule
 
-Availability, supplement status, compounding activity or historical clinical development does not establish approval of the supplier vial.
+Regulatory, clinical and safety status belongs to the exact molecule, chemical form, formulation, manufacturer, product, indication and jurisdiction.

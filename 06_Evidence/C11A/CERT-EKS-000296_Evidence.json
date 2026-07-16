@@ -1,0 +1,21 @@
+{
+  "asset_id": "CERT-EKS-000296",
+  "asset_name": "GP Supplier Molecular Identity and FDA 2026 Non-Approved GLP-1 Boundary",
+  "root_asset": "CERT-PKS-000090",
+  "knowledge_system": "EKS",
+  "asset_type": "Priority Evidence Closure Object",
+  "version": "0.2.0",
+  "status": "OPEN — GP MOLECULAR AND PRODUCT IDENTITY NOT ESTABLISHED",
+  "closure_wave": "0033A",
+  "closure_priority": "P1",
+  "source_domain": "Supplier sequence, residue range, terminal form, analogue status, quality and current FDA enforcement separating non-approved GLP-1 products from approved drugs",
+  "evidence_type": "Critical supplier identity / regulatory gap",
+  "last_review": "2026-07-16",
+  "direct_complete_extraction": false,
+  "prohibited_use": [
+    "Personal dosing, injection, infusion or reconstitution guidance",
+    "Authorised, trial or primary-study evidence transfer to supplier products",
+    "Assumption of chemical form, route, potency, quality or sterility",
+    "Weight-loss, performance, sleep, longevity or wellness protocols"
+  ]
+}

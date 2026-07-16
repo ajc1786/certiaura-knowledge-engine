@@ -3,37 +3,56 @@
   "asset_name": "Melatonin Supplier Vial Family Product Passport",
   "knowledge_system": "PPS",
   "asset_type": "Product Passport Gap Object",
-  "version": "0.1.0",
-  "status": "OPEN / NOT CERTIFIED",
+  "version": "0.2.0",
+  "status": "P1 OPEN / CLOSURE WAVE ACTIVE / NOT CERTIFIED",
   "parent_product": "CERT-MPS-000002",
   "last_review": "2026-07-16",
   "required_fields": [
     {
+      "field": "melatonin chemical identity and reference standard",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical, quality, clinical and regulatory evidence"
+    },
+    {
       "field": "route and dosage form",
-      "status": "OPEN"
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical, quality, clinical and regulatory evidence"
     },
     {
-      "field": "immediate versus prolonged release",
-      "status": "OPEN"
+      "field": "immediate-release versus prolonged-release profile",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical, quality, clinical and regulatory evidence"
     },
     {
-      "field": "concentration and excipients",
-      "status": "OPEN"
+      "field": "concentration, excipients, pH and container system",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical, quality, clinical and regulatory evidence"
     },
     {
-      "field": "manufacturer and authorised-product status",
-      "status": "OPEN"
+      "field": "manufacturer and authorised-product relationship",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical, quality, clinical and regulatory evidence"
     },
     {
-      "field": "impurities and degradation products",
-      "status": "OPEN"
+      "field": "impurities, degradation products and stability",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical, quality, clinical and regulatory evidence"
     },
     {
-      "field": "sterility and endotoxin if presented for injection",
-      "status": "OPEN"
+      "field": "sterility, endotoxin and particles if presented for injection",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical, quality, clinical and regulatory evidence"
+    },
+    {
+      "field": "product-specific clinical, regulatory and jurisdiction status",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical, quality, clinical and regulatory evidence"
     }
   ],
   "identity_certified": false,
   "quality_certified": false,
-  "sterility_certified": false
+  "sterility_certified": false,
+  "closure_wave": "0033A",
+  "closure_priority": "P1",
+  "authorised_product_equivalence": false
 }

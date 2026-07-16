@@ -8,32 +8,31 @@
 
 # CERT-MPS-000004 — 5-Amino-1MQ Supplier Product Family
 
-**System:** Marketplace Product System (MPS)  
-**Status:** CATALOGUE REVIEWED / PRODUCT PASSPORT GAP ACTIVE / NOT QUALITY VERIFIED  
+**System:** MPS  
+**Object:** Marketplace Product-Family Asset  
+**Version:** 0.2.0  
+**Priority:** P1  
+**Status:** EVIDENCE CLOSURE WAVE 5 / IDENTITY OR PRODUCT-EQUIVALENCE BLOCK ACTIVE  
 **Last Review:** 2026-07-16
 
-## Classification
+## Closure state
 
-Non-peptide quinolinium NNMT-inhibitor research compound
+**PARTIAL CLOSURE — CELL AND MOUSE NNMT-INHIBITOR PROGRAMME IDENTIFIED; SUPPLIER SALT, FORMAL TOXICOLOGY, HUMAN PK, EFFICACY AND APPROVAL OPEN**
 
-## Mechanism or product context
+## Authoritative or primary-source boundary
 
-Preclinical inhibition of nicotinamide N-methyltransferase with downstream effects on nicotinamide, NAD-related and methyl-donor metabolism.
+Primary publications report 5-amino-1-methylquinolinium activity in cells and diet-induced-obesity mouse models. They do not establish human weight-loss efficacy or a validated dose. FDA's January 2026 GenoGenix warning letter identified 5-amino-1-methylquinolinium iodide as ineligible for the cited 503B exemptions; the catalogue salt remains unspecified.
 
-## Evidence maturity
+## New closure evidence
 
-Published evidence is cellular and animal based. No validated human pharmacokinetic, efficacy, safety or dosing programme has been closed.
+- `CERT-EKS-000289`
+- `CERT-EKS-000290`
 
-## Evidence foundation
+## Product Passport
 
-- `CERT-EKS-000211`
-- `CERT-EKS-000212`
+`CERT-PPS-000004`
 
-## Regulatory headline
-
-**PRECLINICAL RESEARCH COMPOUND / NO HUMAN APPROVAL OR VALIDATED WEIGHT-LOSS CLAIM**
-
-## Catalogue pricing
+## Catalogue records
 
 | Code | Specification | USD per kit |
 |---|---|---:|
@@ -41,14 +40,20 @@ Published evidence is cellular and animal based. No validated human pharmacokine
 | 10AM | 10 mg x 10 vials | $42 |
 | 50AM | 50 mg x 10 vials | $65 |
 
-## Product Passport
+## Critical controls
 
-`CERT-PPS-000004`
+- Do not assume iodide, chloride or another salt
+- Cell and mouse obesity findings are not human efficacy
+- No registered human programme was closed in the defined exact-name search
+- FDA enforcement evidence does not prove the catalogue product's salt
+- No weight-loss, dosing, injection or reconstitution protocol
 
-## Marketplace boundary
+## Certification state
 
-The catalogue does not establish exact chemical form, grade, route, formulation, purity, sterility, approval or authorised-product equivalence.
-
-## Validated universal human dosing protocol
-
-**No**
+- Supplier identity verified: **No**
+- Quality verified: **No**
+- Sterility verified: **No**
+- Authorised-product equivalence: **No**
+- Validated human dosing or administration protocol: **No**
+- Direct-sale gate: **Blocked**
+- Platinum Certified: **No**

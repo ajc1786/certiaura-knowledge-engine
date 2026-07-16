@@ -8,45 +8,50 @@
 
 # CERT-MPS-000003 — Glutathione Supplier Vial Family
 
-**System:** Marketplace Product System (MPS)  
-**Status:** CATALOGUE REVIEWED / PRODUCT PASSPORT GAP ACTIVE / NOT QUALITY VERIFIED  
+**System:** MPS  
+**Object:** Marketplace Product-Family Asset  
+**Version:** 0.2.0  
+**Priority:** P1  
+**Status:** EVIDENCE CLOSURE WAVE 5 / IDENTITY OR PRODUCT-EQUIVALENCE BLOCK ACTIVE  
 **Last Review:** 2026-07-16
 
-## Classification
+## Closure state
 
-Tripeptide antioxidant ancillary product family classified outside PKS
+**BLOCKED — REDOX FORM, SALT, ROUTE, STERILE GRADE, ENDOTOXIN, POTENCY AND PRODUCT-SPECIFIC CLINICAL EVIDENCE UNVERIFIED**
 
-## Mechanism or product context
+## Authoritative or primary-source boundary
 
-Redox-buffering and thiol chemistry depend on reduced/oxidised state, concentration, route and formulation.
+FDA documented serious adverse reactions after unsuitable dietary-grade L-glutathione was used in sterile injectables and found excessive bacterial endotoxin in tested material. The catalogue GTT vial does not establish reduced GSH identity, sterile grade, route or approved cosmetic/therapeutic use.
 
-## Evidence maturity
+## New closure evidence
 
-Broad physiological and clinical research exists, but injectable and cosmetic claims are product- and indication-specific. Supplier powder cannot inherit compounded-product claims.
-
-## Evidence foundation
-
-- `CERT-EKS-000209`
-- `CERT-EKS-000210`
-
-## Regulatory headline
-
-**REDOX FORM AND ROUTE UNRESOLVED / STERILE-INJECTION AND ENDOTOXIN CONTROLS CRITICAL**
-
-## Catalogue pricing
-
-| Code | Specification | USD per kit |
-|---|---|---:|
-| GTT | 1,500 mg x 10 vials | $108 |
+- `CERT-EKS-000287`
+- `CERT-EKS-000288`
 
 ## Product Passport
 
 `CERT-PPS-000003`
 
-## Marketplace boundary
+## Catalogue records
 
-The catalogue does not establish exact chemical form, grade, route, formulation, purity, sterility, approval or authorised-product equivalence.
+| Code | Specification | USD per kit |
+|---|---|---:|
+| GTT | 1,500 mg x 10 vials | $108 |
 
-## Validated universal human dosing protocol
+## Critical controls
 
-**No**
+- Do not assume reduced glutathione from the generic catalogue name
+- Dietary-grade material is not suitable evidence for sterile injection
+- Endotoxin-related fever, shock and death controls remain active
+- No skin-lightening, detoxification or wellness-efficacy claim
+- No infusion, dosing, injection or reconstitution protocol
+
+## Certification state
+
+- Supplier identity verified: **No**
+- Quality verified: **No**
+- Sterility verified: **No**
+- Authorised-product equivalence: **No**
+- Validated human dosing or administration protocol: **No**
+- Direct-sale gate: **Blocked**
+- Platinum Certified: **No**

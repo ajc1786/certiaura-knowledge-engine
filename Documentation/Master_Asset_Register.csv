@@ -1,2 +1,24 @@
 Universal Asset Identifier,Asset Name,Knowledge System,Asset Type,Status,Owner,Parent Assets,Last Review,Notes
-NO NEW UAI,Build 0032 Priority Closure Programme Audit,SYSTEM,Audit Build,COMPLETE,Aidan Coleman,,2026-07-16,No permanent UAI allocated.
+CERT-MPS-000001,AICAR Supplier Product Family,MPS,Existing Product-Family Asset — Updated,P1 Closure Wave 5 / Identity or Equivalence Block,Aidan Coleman,,2026-07-16,Build 0033A update
+CERT-MPS-000002,Melatonin Supplier Vial Family,MPS,Existing Product-Family Asset — Updated,P1 Closure Wave 5 / Identity or Equivalence Block,Aidan Coleman,,2026-07-16,Build 0033A update
+CERT-MPS-000003,Glutathione Supplier Vial Family,MPS,Existing Product-Family Asset — Updated,P1 Closure Wave 5 / Identity or Equivalence Block,Aidan Coleman,,2026-07-16,Build 0033A update
+CERT-MPS-000004,5-Amino-1MQ Supplier Product Family,MPS,Existing Product-Family Asset — Updated,P1 Closure Wave 5 / Identity or Equivalence Block,Aidan Coleman,,2026-07-16,Build 0033A update
+CERT-MPS-000005,NAD Supplier Product Family,MPS,Existing Product-Family Asset — Updated,P1 Closure Wave 5 / Identity or Equivalence Block,Aidan Coleman,,2026-07-16,Build 0033A update
+CERT-PKS-000089,Elamipretide / SS-31,PKS,Existing Product-Family Asset — Updated,P1 Closure Wave 5 / Identity or Equivalence Block,Aidan Coleman,,2026-07-16,Build 0033A update
+CERT-PKS-000090,Generic GLP-1 Supplier Product Family,PKS,Existing Product-Family Asset — Updated,P1 Closure Wave 5 / Identity or Equivalence Block,Aidan Coleman,,2026-07-16,Build 0033A update
+CERT-PPS-000031,Elamipretide / SS-31 Product Passport,PPS,Critical Product Passport Gap Object,P1 Open / Not Certified,Aidan Coleman,CERT-PKS-000089,2026-07-16,Build 0033A
+CERT-PPS-000032,Generic GLP-1 Supplier Product Family Product Passport,PPS,Critical Product Passport Gap Object,P1 Open / Not Certified,Aidan Coleman,CERT-PKS-000090,2026-07-16,Build 0033A
+CERT-EKS-000283,AICAR / Acadesine Chemical-Form and Human Development Evidence,EKS,Priority Evidence Closure Object,HUMAN ACADESINE PROGRAMME IDENTIFIED — SUPPLIER FORM NON-EQUIVALENCE ACTIVE,Aidan Coleman,CERT-MPS-000001,2026-07-16,Build 0033A
+CERT-EKS-000284,"AICAR Supplier Product, Exercise-Mimetic and WADA 2026 Closure",EKS,Priority Evidence Closure Object,WADA STATUS CLOSED — SUPPLIER PRODUCT IDENTITY OPEN,Aidan Coleman,CERT-MPS-000001,2026-07-16,Build 0033A
+CERT-EKS-000285,Melatonin Current Authorised Oral Product Evidence,EKS,Priority Evidence Closure Object,CURRENT EU ORAL PRODUCT CONTEXT IDENTIFIED,Aidan Coleman,CERT-MPS-000002,2026-07-16,Build 0033A
+CERT-EKS-000286,"MT10 Route, Release Profile, Sterility and Product-Equivalence Gap",EKS,Priority Evidence Closure Object,OPEN — MT10 PRODUCT IDENTITY AND ROUTE NOT ESTABLISHED,Aidan Coleman,CERT-MPS-000002,2026-07-16,Build 0033A
+CERT-EKS-000287,Glutathione Redox Form and Clinical-Claim Boundary,EKS,Priority Evidence Closure Object,REDOX AND PRODUCT-SPECIFIC CLOSURE REQUIRED,Aidan Coleman,CERT-MPS-000003,2026-07-16,Build 0033A
+CERT-EKS-000288,Glutathione FDA Endotoxin and Sterile-Ingredient Safety Evidence,EKS,Priority Evidence Closure Object,AUTHORITATIVE FDA STERILE-QUALITY EVIDENCE IDENTIFIED,Aidan Coleman,CERT-MPS-000003,2026-07-16,Build 0033A
+CERT-EKS-000289,5-Amino-1MQ NNMT Cell and Mouse Programme Evidence,EKS,Priority Evidence Closure Object,PRECLINICAL PROGRAMME IDENTIFIED — HUMAN TRANSLATION OPEN,Aidan Coleman,CERT-MPS-000004,2026-07-16,Build 0033A
+CERT-EKS-000290,"5-Amino-1MQ Salt, Human Evidence and FDA 503B Boundary",EKS,Priority Evidence Closure Object,OPEN — SUPPLIER SALT AND HUMAN PROGRAMME NOT ESTABLISHED,Aidan Coleman,CERT-MPS-000004,2026-07-16,Build 0033A
+CERT-EKS-000291,"NAD Chemical Form, Redox State and Product Identity Evidence",EKS,Priority Evidence Closure Object,PRODUCT-SPECIFIC CHEMICAL CLOSURE REQUIRED,Aidan Coleman,CERT-MPS-000005,2026-07-16,Build 0033A
+CERT-EKS-000292,NAD FDA Injectable Endotoxin and 2026 Enforcement Evidence,EKS,Priority Evidence Closure Object,AUTHORITATIVE FDA INJECTABLE QUALITY AND ENFORCEMENT EVIDENCE IDENTIFIED,Aidan Coleman,CERT-MPS-000005,2026-07-16,Build 0033A
+CERT-EKS-000293,Elamipretide Forzinity Label and Confirmatory-Trial Evidence,EKS,Priority Evidence Closure Object,CURRENT FORZINITY PRODUCT AND CONFIRMATORY PROGRAMME IDENTIFIED,Aidan Coleman,CERT-PKS-000089,2026-07-16,Build 0033A
+CERT-EKS-000294,"2S10/2S50 Elamipretide Salt, Sterility and Forzinity-Comparability Gap",EKS,Priority Evidence Closure Object,OPEN — SUPPLIER POWDER HAS NO FORZINITY EQUIVALENCE,Aidan Coleman,CERT-PKS-000089,2026-07-16,Build 0033A
+CERT-EKS-000295,Native GLP-1 Molecular Forms and Human Physiology Evidence,EKS,Priority Evidence Closure Object,NATIVE GLP-1 FORM-SPECIFIC HUMAN EVIDENCE IDENTIFIED,Aidan Coleman,CERT-PKS-000090,2026-07-16,Build 0033A
+CERT-EKS-000296,GP Supplier Molecular Identity and FDA 2026 Non-Approved GLP-1 Boundary,EKS,Priority Evidence Closure Object,OPEN — GP MOLECULAR AND PRODUCT IDENTITY NOT ESTABLISHED,Aidan Coleman,CERT-PKS-000090,2026-07-16,Build 0033A

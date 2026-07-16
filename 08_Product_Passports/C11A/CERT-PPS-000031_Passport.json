@@ -1,0 +1,58 @@
+{
+  "asset_id": "CERT-PPS-000031",
+  "asset_name": "Elamipretide / SS-31 Product Passport",
+  "knowledge_system": "PPS",
+  "asset_type": "Critical Product Passport Gap Object",
+  "version": "0.2.0",
+  "status": "P1 OPEN / NOT CERTIFIED",
+  "parent_product": "CERT-PKS-000089",
+  "closure_wave": "0033A",
+  "closure_priority": "P1",
+  "last_review": "2026-07-16",
+  "required_fields": [
+    {
+      "field": "D-Arg-2,6-dimethyl-Tyr-Lys-Phe-NH2 sequence and stereochemistry",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical, quality, clinical and regulatory evidence"
+    },
+    {
+      "field": "hydrochloride versus other salt and molecular mass",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical, quality, clinical and regulatory evidence"
+    },
+    {
+      "field": "manufacturer, synthesis route and batch",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical, quality, clinical and regulatory evidence"
+    },
+    {
+      "field": "HPLC, LC-MS, potency and impurity profile",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical, quality, clinical and regulatory evidence"
+    },
+    {
+      "field": "powder formulation, excipients and container system",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical, quality, clinical and regulatory evidence"
+    },
+    {
+      "field": "sterility, endotoxin and particulate testing",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical, quality, clinical and regulatory evidence"
+    },
+    {
+      "field": "stability, storage and post-reconstitution data",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical, quality, clinical and regulatory evidence"
+    },
+    {
+      "field": "comparability to Forzinity active substance and finished product",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical, quality, clinical and regulatory evidence"
+    }
+  ],
+  "identity_certified": false,
+  "quality_certified": false,
+  "sterility_certified": false,
+  "authorised_product_equivalence": false
+}

@@ -1,0 +1,21 @@
+{
+  "asset_id": "CERT-EKS-000292",
+  "asset_name": "NAD FDA Injectable Endotoxin and 2026 Enforcement Evidence",
+  "root_asset": "CERT-MPS-000005",
+  "knowledge_system": "EKS",
+  "asset_type": "Priority Evidence Closure Object",
+  "version": "0.2.0",
+  "status": "AUTHORITATIVE FDA INJECTABLE QUALITY AND ENFORCEMENT EVIDENCE IDENTIFIED",
+  "closure_wave": "0033A",
+  "closure_priority": "P1",
+  "source_domain": "FDA sterile-compounding alert, NAD+ injectable adverse events and February 2026 warning letter identifying NAD+ 50 mg/mL injection as an unapproved new drug",
+  "evidence_type": "Current safety / enforcement evidence",
+  "last_review": "2026-07-16",
+  "direct_complete_extraction": false,
+  "prohibited_use": [
+    "Personal dosing, injection, infusion or reconstitution guidance",
+    "Authorised, trial or primary-study evidence transfer to supplier products",
+    "Assumption of chemical form, route, potency, quality or sterility",
+    "Weight-loss, performance, sleep, longevity or wellness protocols"
+  ]
+}

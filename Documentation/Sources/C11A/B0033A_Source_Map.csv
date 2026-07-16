@@ -1,0 +1,23 @@
+Asset,Source,URL,Purpose
+AICAR,WADA 2026 Prohibited List,https://www.wada-ama.org/en/resources/world-anti-doping-program/prohibited-list,Current list in force from 1 January 2026
+AICAR,WADA prohibited-list substance page,https://www.wada-ama.org/fr/nos-activites/liste-des-interdictions,AICAR listed under S4.4.1 AMPK activators
+AICAR / acadesine,ClinicalTrials.gov NCT00872001,https://clinicaltrials.gov/study/NCT00872001,Terminated phase 3 RED-CABG acadesine programme
+AICAR / acadesine,RED-CABG primary publication,https://pubmed.ncbi.nlm.nih.gov/22782417/,Randomised human acadesine evidence and non-supplier boundary
+Melatonin,EMA Circadin EPAR,https://www.ema.europa.eu/en/medicines/human/EPAR/circadin,Exact prolonged-release oral product and current product information
+Melatonin,EMA Slenyto EPAR,https://www.ema.europa.eu/en/medicines/human/EPAR/slenyto,Exact prolonged-release paediatric oral product contexts
+Glutathione,FDA sterile-compounding alert,https://www.fda.gov/drugs/human-drug-compounding/fda-highlights-concerns-using-dietary-ingredient-glutathione-compound-sterile-injectables,"Excess endotoxin, adverse reactions and unsuitable dietary-grade material"
+5-Amino-1MQ,Primary 2017 preclinical publication,https://pubmed.ncbi.nlm.nih.gov/29155147/,Cell and mouse NNMT-inhibitor evidence
+5-Amino-1MQ,Primary 2024 mouse PK publication,https://pubmed.ncbi.nlm.nih.gov/39161060/,"Mouse PK, distribution and metabolic outcomes"
+5-Amino-1MQ,FDA GenoGenix warning letter,https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/genogenix-llc-718739-01202026,January 2026 503B eligibility and enforcement boundary
+5-Amino-1MQ,ClinicalTrials.gov exact search,https://clinicaltrials.gov/search?term=%225-amino-1MQ%22,Defined exact-name human-programme search
+NAD,FDA sterile-compounding reminder,https://www.fda.gov/drugs/human-drug-compounding/fda-reminds-compounders-use-ingredients-suitable-sterile-compounding,"Food-grade NAD+, endotoxin-consistent adverse events and sterile-quality controls"
+NAD,FDA Thrive warning letter,https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/thrive-health-and-wellness-llc-dba-thrive-health-solutions-714891-02092026,February 2026 unapproved NAD+ 50 mg/mL injection and aseptic controls
+Elamipretide,FDA Forzinity prescribing information,https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/215244s000lbl.pdf,"Exact approved formulation, indication, accelerated approval and safety"
+Elamipretide,ClinicalTrials.gov NCT07531251,https://clinicaltrials.gov/study/NCT07531251,Current phase 3b/4 confirmatory trial
+Elamipretide,EMA orphan designation EU/3/21/2430,https://www.ema.europa.eu/en/medicines/human/orphan-designations/eu-3-21-2430,Orphan designation and non-authorisation boundary
+Elamipretide,MHRA PIP MHRA-101705-PIP01-24,https://cms.mhra.gov.uk/pip/mhra-101705-pip01-24,March 2026 paediatric investigation plan and non-authorisation boundary
+Generic GLP-1,Primary molecular-form comparison,https://pubmed.ncbi.nlm.nih.gov/8482423/,Human GLP-1(7-36) amide versus GLP-1(7-37) evidence
+Generic GLP-1,Primary subcutaneous GLP-1(7-36 amide) study,https://pubmed.ncbi.nlm.nih.gov/7672496/,Exact molecular-form and route-specific human evidence
+Generic GLP-1,Primary amidated/non-amidated human study,https://pubmed.ncbi.nlm.nih.gov/9809800/,Distinct naturally occurring forms and plasma stability
+Generic GLP-1,FDA February 2026 enforcement statement,https://www.fda.gov/news-events/press-announcements/fda-intends-take-action-against-non-fda-approved-glp-1-drugs,Non-approved GLP-1 product and equivalence-claim boundary
+Generic GLP-1,FDA April 2026 compounding clarification,https://www.fda.gov/drugs/drug-alerts-and-statements/fda-clarifies-policies-compounders-national-glp-1-supply-begins-stabilize,Current compounded-product policy boundary

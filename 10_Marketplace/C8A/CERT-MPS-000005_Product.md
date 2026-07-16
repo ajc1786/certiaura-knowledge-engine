@@ -8,32 +8,31 @@
 
 # CERT-MPS-000005 — NAD Supplier Product Family
 
-**System:** Marketplace Product System (MPS)  
-**Status:** CATALOGUE REVIEWED / PRODUCT PASSPORT GAP ACTIVE / NOT QUALITY VERIFIED  
+**System:** MPS  
+**Object:** Marketplace Product-Family Asset  
+**Version:** 0.2.0  
+**Priority:** P1  
+**Status:** EVIDENCE CLOSURE WAVE 5 / IDENTITY OR PRODUCT-EQUIVALENCE BLOCK ACTIVE  
 **Last Review:** 2026-07-16
 
-## Classification
+## Closure state
 
-Non-peptide dinucleotide coenzyme supplier product family
+**BLOCKED — NAD+ VERSUS NADH, SALT, CONCENTRATION, ROUTE, STERILE GRADE, ENDOTOXIN AND PRODUCT EQUIVALENCE UNVERIFIED**
 
-## Mechanism or product context
+## Authoritative or primary-source boundary
 
-Redox and enzyme-cofactor functions vary between oxidised NAD+, reduced NADH, salts, concentration and route.
+FDA has warned that food-grade NAD+ is unsuitable for sterile compounding without appropriate processing and has received reports of severe chills, shaking, vomiting and fatigue consistent with excessive endotoxin. A February 2026 warning letter identified an NAD+ 50 mg/mL injection as an unapproved new drug. The catalogue term NAD does not establish NAD+, NADH, salt, concentration or route.
 
-## Evidence maturity
+## New closure evidence
 
-Extensive biochemical evidence exists, but wellness/energy/longevity infusion claims and supplier sterile-vial equivalence are not established by catalogue naming.
+- `CERT-EKS-000291`
+- `CERT-EKS-000292`
 
-## Evidence foundation
+## Product Passport
 
-- `CERT-EKS-000213`
-- `CERT-EKS-000214`
+`CERT-PPS-000005`
 
-## Regulatory headline
-
-**NAD+ / NADH / SALT AND ROUTE UNRESOLVED / UNAPPROVED INJECTABLE-PRODUCT CONTROLS APPLY**
-
-## Catalogue pricing
+## Catalogue records
 
 | Code | Specification | USD per kit |
 |---|---|---:|
@@ -42,14 +41,20 @@ Extensive biochemical evidence exists, but wellness/energy/longevity infusion cl
 | NJ500 | 500 mg x 10 vials | $78 |
 | NJ1000 | 1,000 mg x 10 vials | $126 |
 
-## Product Passport
+## Critical controls
 
-`CERT-PPS-000005`
+- The catalogue code NJ3100 remains preserved for the 100 mg entry
+- Do not infer NAD+ or NADH from the word NAD
+- Food-grade identity is not sterile-drug suitability
+- No approved longevity, energy, recovery or wellness-infusion claim
+- No infusion, dosing, injection or reconstitution protocol
 
-## Marketplace boundary
+## Certification state
 
-The catalogue does not establish exact chemical form, grade, route, formulation, purity, sterility, approval or authorised-product equivalence.
-
-## Validated universal human dosing protocol
-
-**No**
+- Supplier identity verified: **No**
+- Quality verified: **No**
+- Sterility verified: **No**
+- Authorised-product equivalence: **No**
+- Validated human dosing or administration protocol: **No**
+- Direct-sale gate: **Blocked**
+- Platinum Certified: **No**

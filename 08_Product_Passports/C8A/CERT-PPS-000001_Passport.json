@@ -3,37 +3,56 @@
   "asset_name": "AICAR Supplier Product Family Product Passport",
   "knowledge_system": "PPS",
   "asset_type": "Product Passport Gap Object",
-  "version": "0.1.0",
-  "status": "OPEN / NOT CERTIFIED",
+  "version": "0.2.0",
+  "status": "P1 OPEN / CLOSURE WAVE ACTIVE / NOT CERTIFIED",
   "parent_product": "CERT-MPS-000001",
   "last_review": "2026-07-16",
   "required_fields": [
     {
       "field": "AICA riboside/acadesine versus phosphorylated AICAR/ZMP",
-      "status": "OPEN"
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical, quality, clinical and regulatory evidence"
     },
     {
-      "field": "molecular formula and mass",
-      "status": "OPEN"
+      "field": "exact chemical name, formula, mass and CAS",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical, quality, clinical and regulatory evidence"
     },
     {
-      "field": "salt and hydration state",
-      "status": "OPEN"
+      "field": "salt, counter-ion and hydration state",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical, quality, clinical and regulatory evidence"
     },
     {
-      "field": "route and formulation",
-      "status": "OPEN"
+      "field": "reference standard, HPLC, LC-MS and purity",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical, quality, clinical and regulatory evidence"
     },
     {
-      "field": "reference standard, purity and residual solvents",
-      "status": "OPEN"
+      "field": "manufacturer, synthesis route and batch",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical, quality, clinical and regulatory evidence"
     },
     {
-      "field": "sterility and endotoxin if intended for sterile use",
-      "status": "OPEN"
+      "field": "route, formulation and excipients",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical, quality, clinical and regulatory evidence"
+    },
+    {
+      "field": "sterility, endotoxin and particulate testing if parenteral",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical, quality, clinical and regulatory evidence"
+    },
+    {
+      "field": "current legal, regulatory and anti-doping status",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical, quality, clinical and regulatory evidence"
     }
   ],
   "identity_certified": false,
   "quality_certified": false,
-  "sterility_certified": false
+  "sterility_certified": false,
+  "closure_wave": "0033A",
+  "closure_priority": "P1",
+  "authorised_product_equivalence": false
 }

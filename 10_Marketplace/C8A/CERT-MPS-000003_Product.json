@@ -3,8 +3,8 @@
   "asset_name": "Glutathione Supplier Vial Family",
   "knowledge_system": "MPS",
   "asset_type": "Marketplace Product-Family Asset",
-  "version": "0.1.0",
-  "status": "CATALOGUE REVIEWED / PRODUCT PASSPORT GAP ACTIVE / NOT QUALITY VERIFIED",
+  "version": "0.2.0",
+  "status": "P1 EVIDENCE CLOSURE WAVE 5 / IDENTITY OR PRODUCT-EQUIVALENCE BLOCK ACTIVE / NOT PLATINUM CERTIFIED",
   "owner": "Aidan Coleman",
   "last_review": "2026-07-16",
   "classification": "Tripeptide antioxidant ancillary product family classified outside PKS",
@@ -79,11 +79,35 @@
       "source": "CERT-MPS-000003",
       "relationship": "SUPPORTS_GOAL",
       "target": "CERT-GKS-000084"
+    },
+    {
+      "source": "CERT-MPS-000003",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000287"
+    },
+    {
+      "source": "CERT-MPS-000003",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000288"
     }
   ],
   "product_passport": "CERT-PPS-000003",
   "identity_verified": false,
   "sterility_verified": false,
   "authorised_product_equivalence": false,
-  "validated_universal_human_dosing_protocol": false
+  "validated_universal_human_dosing_protocol": false,
+  "closure_wave": "0033A",
+  "closure_priority": "P1",
+  "closure_class": "REDUCED/OXIDISED FORM AND STERILE-INJECTABLE QUALITY",
+  "closure_state": "BLOCKED — REDOX FORM, SALT, ROUTE, STERILE GRADE, ENDOTOXIN, POTENCY AND PRODUCT-SPECIFIC CLINICAL EVIDENCE UNVERIFIED",
+  "authoritative_product_boundary": "FDA documented serious adverse reactions after unsuitable dietary-grade L-glutathione was used in sterile injectables and found excessive bacterial endotoxin in tested material. The catalogue GTT vial does not establish reduced GSH identity, sterile grade, route or approved cosmetic/therapeutic use.",
+  "quality_verified": false,
+  "platinum_certified": false,
+  "critical_closure_controls": [
+    "Do not assume reduced glutathione from the generic catalogue name",
+    "Dietary-grade material is not suitable evidence for sterile injection",
+    "Endotoxin-related fever, shock and death controls remain active",
+    "No skin-lightening, detoxification or wellness-efficacy claim",
+    "No infusion, dosing, injection or reconstitution protocol"
+  ]
 }

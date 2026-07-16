@@ -3,8 +3,8 @@
   "asset_name": "Elamipretide / SS-31",
   "knowledge_system": "PKS",
   "asset_type": "Peptide / Supplier Product-Family Knowledge Asset",
-  "version": "0.1.0",
-  "status": "CATALOGUE COVERAGE CORRECTED / AUTHORISED-PRODUCT BOUNDARY ACTIVE / NOT PLATINUM CERTIFIED",
+  "version": "0.2.0",
+  "status": "P1 EVIDENCE CLOSURE WAVE 5 / IDENTITY OR PRODUCT-EQUIVALENCE BLOCK ACTIVE / NOT PLATINUM CERTIFIED",
   "owner": "Aidan Coleman",
   "last_review": "2026-07-16",
   "classification": "Defined aromatic-cationic tetrapeptide and authorised active-substance family",
@@ -100,6 +100,21 @@
       "source": "CERT-PKS-000089",
       "relationship": "HAS_SAFETY",
       "target": "CERT-SKS-000106"
+    },
+    {
+      "source": "CERT-PKS-000089",
+      "relationship": "HAS_PASSPORT",
+      "target": "CERT-PPS-000031"
+    },
+    {
+      "source": "CERT-PKS-000089",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000293"
+    },
+    {
+      "source": "CERT-PKS-000089",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000294"
     }
   ],
   "supplier_product_identity_verified": false,
@@ -113,5 +128,21 @@
     "No equivalence to Forzinity 80 mg/mL sterile solution",
     "Manufacturer, purity, potency, sterility and endotoxin",
     "Jurisdiction-specific product and indication status"
+  ],
+  "closure_wave": "0033A",
+  "closure_priority": "P1",
+  "closure_class": "AUTHORISED FORZINITY PRODUCT VERSUS SUPPLIER SS-31 POWDER",
+  "closure_state": "PARTIAL CLOSURE — CANONICAL ELAMIPRETIDE AND CURRENT FORZINITY STATUS IDENTIFIED; SUPPLIER SALT, STERILITY, FORMULATION, MANUFACTURER AND COMPARABILITY OPEN",
+  "authoritative_product_boundary": "Forzinity is an FDA-approved elamipretide injection under accelerated approval for a defined Barth-syndrome population and is subject to confirmatory phase 3b/4 study. It is an 80 mg/mL sterile solution with product-specific excipients and controls. The 2S10 and 2S50 supplier powders do not inherit that approval, label or formulation.",
+  "product_passport": "CERT-PPS-000031",
+  "identity_verified": false,
+  "quality_verified": false,
+  "sterility_verified": false,
+  "critical_closure_controls": [
+    "Supplier SS-31 is not Forzinity",
+    "Forzinity accelerated approval is indication and product specific",
+    "EMA orphan designation and MHRA PIP are not marketing authorisations",
+    "Hypersensitivity, benzyl-alcohol and renal controls belong to the exact product",
+    "No Barth, mitochondrial, dosing, injection or reconstitution protocol"
   ]
 }

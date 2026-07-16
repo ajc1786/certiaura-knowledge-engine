@@ -3,8 +3,8 @@
   "asset_name": "5-Amino-1MQ Supplier Product Family",
   "knowledge_system": "MPS",
   "asset_type": "Marketplace Product-Family Asset",
-  "version": "0.1.0",
-  "status": "CATALOGUE REVIEWED / PRODUCT PASSPORT GAP ACTIVE / NOT QUALITY VERIFIED",
+  "version": "0.2.0",
+  "status": "P1 EVIDENCE CLOSURE WAVE 5 / IDENTITY OR PRODUCT-EQUIVALENCE BLOCK ACTIVE / NOT PLATINUM CERTIFIED",
   "owner": "Aidan Coleman",
   "last_review": "2026-07-16",
   "classification": "Non-peptide quinolinium NNMT-inhibitor research compound",
@@ -88,11 +88,35 @@
       "source": "CERT-MPS-000004",
       "relationship": "SUPPORTS_GOAL",
       "target": "CERT-GKS-000085"
+    },
+    {
+      "source": "CERT-MPS-000004",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000289"
+    },
+    {
+      "source": "CERT-MPS-000004",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000290"
     }
   ],
   "product_passport": "CERT-PPS-000004",
   "identity_verified": false,
   "sterility_verified": false,
   "authorised_product_equivalence": false,
-  "validated_universal_human_dosing_protocol": false
+  "validated_universal_human_dosing_protocol": false,
+  "closure_wave": "0033A",
+  "closure_priority": "P1",
+  "closure_class": "PRECLINICAL NNMT INHIBITOR / SALT AND HUMAN EVIDENCE",
+  "closure_state": "PARTIAL CLOSURE — CELL AND MOUSE NNMT-INHIBITOR PROGRAMME IDENTIFIED; SUPPLIER SALT, FORMAL TOXICOLOGY, HUMAN PK, EFFICACY AND APPROVAL OPEN",
+  "authoritative_product_boundary": "Primary publications report 5-amino-1-methylquinolinium activity in cells and diet-induced-obesity mouse models. They do not establish human weight-loss efficacy or a validated dose. FDA's January 2026 GenoGenix warning letter identified 5-amino-1-methylquinolinium iodide as ineligible for the cited 503B exemptions; the catalogue salt remains unspecified.",
+  "quality_verified": false,
+  "platinum_certified": false,
+  "critical_closure_controls": [
+    "Do not assume iodide, chloride or another salt",
+    "Cell and mouse obesity findings are not human efficacy",
+    "No registered human programme was closed in the defined exact-name search",
+    "FDA enforcement evidence does not prove the catalogue product's salt",
+    "No weight-loss, dosing, injection or reconstitution protocol"
+  ]
 }

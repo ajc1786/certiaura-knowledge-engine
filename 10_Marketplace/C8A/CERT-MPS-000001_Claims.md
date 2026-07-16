@@ -10,11 +10,11 @@
 
 | Claim | Permission |
 |---|---|
-| AICAR Supplier Product Family is classified as non-peptide purine/nucleotide-analogue research product family. | Allowed |
-| CHEMICAL FORM AMBIGUOUS / NO CURRENT GENERAL THERAPEUTIC APPROVAL CLAIM / CURRENT ANTI-DOPING CONTROL REQUIRED | Allowed as a dated controlled headline |
-| The supplier product is equivalent to an authorised medicine. | Not established / prohibited |
-| A validated human dosing or administration protocol exists. | False / prohibited |
-| The Product Passport is certified. | False / prohibited |
-| AICAR always means one unambiguous chemical form. | False / prohibited |
+| This asset is in P1 closure. | Allowed |
+| The label AICAR is used ambiguously for AICA riboside/acadesine and the intracellular phosphorylated nucleotide AICAR/ZMP. The RED-CABG phase 3 acadesine programme was terminated and did not establish the supplier vial. The 2026 WADA list prohibits AICAR as an AMPK activator. | Allowed as a controlled boundary |
+| The supplier item is equivalent to an authorised, trial or primary-study product. | False / prohibited |
+| Supplier identity, form, potency, quality and sterility are verified. | False / prohibited |
+| A treatment, wellness, weight-loss, performance, dosing or administration protocol is validated. | False / prohibited |
+| The asset is Platinum Certified. | False / prohibited |
 
 **Status as of:** 2026-07-16

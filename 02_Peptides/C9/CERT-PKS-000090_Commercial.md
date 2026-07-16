@@ -10,19 +10,19 @@
 
 ## Permitted
 
-- identity, evidence, mechanism and safety education;
-- catalogue price and coverage reporting;
-- Product Passport™ gap analysis;
-- exact product- and jurisdiction-specific regulatory reporting.
+- exact catalogue-record and chemical-form reporting;
+- authorised, regulatory or primary-study comparison with explicit non-equivalence;
+- Product Passport™ gap reporting;
+- safety, quality and analytical education.
 
 ## Prohibited
 
-- Barth-syndrome, mitochondrial, glucose-control or weight-loss protocols;
+- treatment, wellness, sleep, performance, weight-loss or metabolic-use protocols;
 - dosing, injection, infusion or reconstitution guidance;
-- authorised-product equivalence;
-- transfer from GLP-1 analogues to an unresolved native-product listing;
-- guaranteed identity, purity, potency or sterility.
+- authorised-product, trial-material or study-material equivalence;
+- guaranteed identity, salt, redox state, potency, purity, sterility or stability;
+- direct-sale activation while critical passport fields remain open.
 
-## Future direct sale
+## Activation gate
 
-Requires exact identity, legal classification, regulatory status, manufacturer, formulation, quality and jurisdiction closure.
+Commercial use beyond evidence and gap reporting remains blocked.

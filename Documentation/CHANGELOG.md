@@ -1,24 +1,29 @@
 # CERTIAURA CHANGE LOG
 
-## Build 0032 — Priority Closure Programme Status & Next-Wave Audit
+## Build 0033A — Biochemical, Metabolic & Coverage-Correction Closure
 **Date:** 2026-07-16
 
-Audited:
+Updated existing assets:
 
-- Build 0030A;
-- closure Waves 1–4;
-- 51 current P0/P1 assets;
-- 30 Product Passports;
-- 50 closure evidence objects;
-- all direct-sale and certification gates.
+- CERT-MPS-000001–000005
+- CERT-PKS-000089–000090
 
-Confirmed:
+Allocated:
 
-- all 13 P0 assets received closure waves;
-- 12 of 38 P1 assets received closure waves;
-- 26 P1 assets remain;
-- all closure-wave direct-sale gates remain blocked;
-- no Platinum certification exists;
-- UAI allocation remains continuous through the current maxima.
+- CERT-PPS-000031–000032
+- CERT-EKS-000283–000296
 
-No permanent UAI was allocated by Build 0032.
+Patched:
+
+- CERT-PPS-000001–000005
+
+Meaningful closures:
+
+- AICAR/acadesine identity and WADA control;
+- melatonin oral-product boundary;
+- glutathione and NAD sterile-quality evidence;
+- 5-amino-1MQ preclinical and 503B boundary;
+- Forzinity versus supplier elamipretide;
+- native GLP-1 molecular-form evidence versus unresolved GP.
+
+No product-family UAI, treatment protocol, administration protocol or Platinum certification was created.

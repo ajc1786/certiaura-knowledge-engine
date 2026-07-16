@@ -1,43 +1,38 @@
 {
   "asset_uai": "CERT-PKS-000089",
   "asset_name": "Elamipretide / SS-31",
+  "version": "0.2.0",
   "status_as_of": "2026-07-16",
-  "overall_status": "UNITED STATES FORZINITY ACCELERATED APPROVAL EXISTS FOR A DEFINED BARTH-SYNDROME INDICATION — CATALOGUE SS-31 POWDER IS NOT AUTHORISED-PRODUCT EQUIVALENT",
+  "closure_wave": "0033A",
+  "overall_status": "PARTIAL CLOSURE — CANONICAL ELAMIPRETIDE AND CURRENT FORZINITY STATUS IDENTIFIED; SUPPLIER SALT, STERILITY, FORMULATION, MANUFACTURER AND COMPARABILITY OPEN",
   "regulatory_records": [
     {
       "jurisdiction": "United States",
       "authority": "FDA",
-      "current_status": "Forzinity received accelerated approval on 19 September 2025 to improve muscle strength in adult and paediatric patients with Barth syndrome weighing at least 30 kg. The catalogue powder is not the authorised product.",
+      "current_status": "Forzinity is approved under accelerated approval for a defined Barth-syndrome population; supplier 2S10/2S50 powders are not the authorised product.",
       "monitoring_state": "ACTIVE",
-      "next_review_trigger": "Identity, approval, label, confirmatory trial, safety, enforcement or anti-doping change"
+      "next_review_trigger": "Identity, approval, label, warning, enforcement, trial, quality, safety or anti-doping change"
     },
     {
       "jurisdiction": "United States",
-      "authority": "ClinicalTrials.gov / FDA post-marketing context",
-      "current_status": "A phase 3b/4 confirmatory trial is registered to verify clinical benefit following accelerated approval.",
+      "authority": "ClinicalTrials.gov",
+      "current_status": "The phase 3b/4 SPIBA-401 confirmatory trial is registered following accelerated approval.",
       "monitoring_state": "ACTIVE",
-      "next_review_trigger": "Identity, approval, label, confirmatory trial, safety, enforcement or anti-doping change"
+      "next_review_trigger": "Identity, approval, label, warning, enforcement, trial, quality, safety or anti-doping change"
     },
     {
       "jurisdiction": "European Union",
       "authority": "EMA",
-      "current_status": "Elamipretide has a positive orphan designation for Barth syndrome; orphan designation is not marketing authorisation.",
+      "current_status": "Elamipretide has orphan designation for Barth syndrome; orphan designation is not marketing authorisation.",
       "monitoring_state": "ACTIVE",
-      "next_review_trigger": "Identity, approval, label, confirmatory trial, safety, enforcement or anti-doping change"
+      "next_review_trigger": "Identity, approval, label, warning, enforcement, trial, quality, safety or anti-doping change"
     },
     {
       "jurisdiction": "United Kingdom",
       "authority": "MHRA",
-      "current_status": "An agreed paediatric investigation plan was published in March 2026; this is not a United Kingdom marketing authorisation.",
+      "current_status": "A paediatric investigation plan was published in March 2026; it is not marketing authorisation.",
       "monitoring_state": "ACTIVE",
-      "next_review_trigger": "Identity, approval, label, confirmatory trial, safety, enforcement or anti-doping change"
-    },
-    {
-      "jurisdiction": "International sport",
-      "authority": "WADA",
-      "current_status": "Current athlete-specific verification is required before any permitted-status claim.",
-      "monitoring_state": "EVENT-TRIGGERED",
-      "next_review_trigger": "Identity, approval, label, confirmatory trial, safety, enforcement or anti-doping change"
+      "next_review_trigger": "Identity, approval, label, warning, enforcement, trial, quality, safety or anti-doping change"
     }
   ]
 }

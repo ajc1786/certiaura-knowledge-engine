@@ -1,0 +1,21 @@
+{
+  "asset_id": "CERT-EKS-000288",
+  "asset_name": "Glutathione FDA Endotoxin and Sterile-Ingredient Safety Evidence",
+  "root_asset": "CERT-MPS-000003",
+  "knowledge_system": "EKS",
+  "asset_type": "Priority Evidence Closure Object",
+  "version": "0.2.0",
+  "status": "AUTHORITATIVE FDA STERILE-QUALITY EVIDENCE IDENTIFIED",
+  "closure_wave": "0033A",
+  "closure_priority": "P1",
+  "source_domain": "FDA investigation of unsuitable dietary-grade glutathione used in sterile injectables, excessive endotoxin and serious adverse reactions",
+  "evidence_type": "Current safety / quality evidence",
+  "last_review": "2026-07-16",
+  "direct_complete_extraction": false,
+  "prohibited_use": [
+    "Personal dosing, injection, infusion or reconstitution guidance",
+    "Authorised, trial or primary-study evidence transfer to supplier products",
+    "Assumption of chemical form, route, potency, quality or sterility",
+    "Weight-loss, performance, sleep, longevity or wellness protocols"
+  ]
+}

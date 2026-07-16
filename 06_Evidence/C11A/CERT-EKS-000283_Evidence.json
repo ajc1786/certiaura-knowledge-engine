@@ -1,0 +1,21 @@
+{
+  "asset_id": "CERT-EKS-000283",
+  "asset_name": "AICAR / Acadesine Chemical-Form and Human Development Evidence",
+  "root_asset": "CERT-MPS-000001",
+  "knowledge_system": "EKS",
+  "asset_type": "Priority Evidence Closure Object",
+  "version": "0.2.0",
+  "status": "HUMAN ACADESINE PROGRAMME IDENTIFIED — SUPPLIER FORM NON-EQUIVALENCE ACTIVE",
+  "closure_wave": "0033A",
+  "closure_priority": "P1",
+  "source_domain": "FDA identity record plus RED-CABG phase 3 acadesine registry and randomised trial evidence, separated from intracellular AICAR/ZMP",
+  "evidence_type": "Identity / human development evidence",
+  "last_review": "2026-07-16",
+  "direct_complete_extraction": false,
+  "prohibited_use": [
+    "Personal dosing, injection, infusion or reconstitution guidance",
+    "Authorised, trial or primary-study evidence transfer to supplier products",
+    "Assumption of chemical form, route, potency, quality or sterility",
+    "Weight-loss, performance, sleep, longevity or wellness protocols"
+  ]
+}

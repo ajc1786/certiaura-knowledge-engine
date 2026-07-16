@@ -8,45 +8,50 @@
 
 # CERT-MPS-000002 — Melatonin Supplier Vial Family
 
-**System:** Marketplace Product System (MPS)  
-**Status:** CATALOGUE REVIEWED / PRODUCT PASSPORT GAP ACTIVE / NOT QUALITY VERIFIED  
+**System:** MPS  
+**Object:** Marketplace Product-Family Asset  
+**Version:** 0.2.0  
+**Priority:** P1  
+**Status:** EVIDENCE CLOSURE WAVE 5 / IDENTITY OR PRODUCT-EQUIVALENCE BLOCK ACTIVE  
 **Last Review:** 2026-07-16
 
-## Classification
+## Closure state
 
-Non-peptide indoleamine hormone supplier product
+**PARTIAL CLOSURE — CURRENT EU ORAL MEDICINE CONTEXTS IDENTIFIED; SUPPLIER ROUTE, FORMULATION, RELEASE PROFILE, STERILITY AND EQUIVALENCE OPEN**
 
-## Mechanism or product context
+## Authoritative or primary-source boundary
 
-MT1 and MT2 melatonin-receptor agonism involved in circadian and sleep-wake signalling.
+Current EMA records identify exact prolonged-release oral products, including Circadin and Slenyto, with defined populations, indications and tablet formulations. MT10 is an unspecified vial and cannot inherit an oral product label, release profile or authorised-product status.
 
-## Evidence maturity
+## New closure evidence
 
-Authorised oral medicinal products exist for defined indications and populations. A supplier vial with no route, formulation or manufacturer cannot inherit those labels.
-
-## Evidence foundation
-
-- `CERT-EKS-000207`
-- `CERT-EKS-000208`
-
-## Regulatory headline
-
-**AUTHORISED ORAL MEDICINE CONTEXTS EXIST / SUPPLIER VIAL ROUTE AND PRODUCT IDENTITY UNRESOLVED**
-
-## Catalogue pricing
-
-| Code | Specification | USD per kit |
-|---|---|---:|
-| MT10 | 10 mg x 10 vials | $56 |
+- `CERT-EKS-000285`
+- `CERT-EKS-000286`
 
 ## Product Passport
 
 `CERT-PPS-000002`
 
-## Marketplace boundary
+## Catalogue records
 
-The catalogue does not establish exact chemical form, grade, route, formulation, purity, sterility, approval or authorised-product equivalence.
+| Code | Specification | USD per kit |
+|---|---|---:|
+| MT10 | 10 mg x 10 vials | $56 |
 
-## Validated universal human dosing protocol
+## Critical controls
 
-**No**
+- MT10 is not Circadin, Slenyto or another authorised tablet
+- Oral prolonged-release evidence does not validate a vial
+- Route and formulation cannot be inferred from catalogue presentation
+- Sedation, impaired alertness and vulnerable-population controls remain active
+- No sleep, dosing, injection or reconstitution protocol
+
+## Certification state
+
+- Supplier identity verified: **No**
+- Quality verified: **No**
+- Sterility verified: **No**
+- Authorised-product equivalence: **No**
+- Validated human dosing or administration protocol: **No**
+- Direct-sale gate: **Blocked**
+- Platinum Certified: **No**

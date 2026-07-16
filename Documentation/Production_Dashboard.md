@@ -1,30 +1,30 @@
 # CERTIAURA PRODUCTION DASHBOARD
 
-**Build:** 0032  
+**Build:** 0033A  
 **Date:** 2026-07-16
 
-## Priority Closure Programme
+## Priority P1 Closure Programme
 
-### Completed
+### Wave 5 complete
 
-- P0 wave coverage: **13 / 13**
-- P1 wave coverage: **12 / 38**
-- Total closure-wave assets: **25**
-- Product Passports: **30**
-- Closure EKS objects through: **CERT-EKS-000282**
-- Platinum certifications: **0**
+- 7 existing product assets strengthened
+- 2 new Product Passports
+- 5 existing Product Passports patched
+- 14 new evidence closure objects
+- 0 new product-family UAIs
+- 0 Platinum certifications
 
-### Pending
+### New allocations
 
-- P1 queue: **26 assets**
-- Recommended builds: **0033A–0033D**
+- PPS: CERT-PPS-000031–000032
+- EKS: CERT-EKS-000283–000296
 
-## Next allocation state
+### Next allocation state
 
 - PKS: CERT-PKS-000091
 - MPS: CERT-MPS-000013
-- PPS: CERT-PPS-000031
-- EKS: CERT-EKS-000283
+- PPS: CERT-PPS-000033
+- EKS: CERT-EKS-000297
 - SKS: CERT-SKS-000108
 - BKS: CERT-BKS-000185
 - CKS: CERT-CKS-000060
@@ -33,4 +33,4 @@
 
 ## Next build
 
-**Build 0033A — Biochemical, Metabolic & Coverage-Correction Closure**
+**Build 0033B — Biologic, Glycoprotein & Mixture Identity Closure**

@@ -8,17 +8,17 @@
 
 # CERT-PKS-000089 — Elamipretide / SS-31 REGULATORY STATUS
 
+**Version:** 0.2.0  
 **Status as of:** 2026-07-16  
-**Overall:** UNITED STATES FORZINITY ACCELERATED APPROVAL EXISTS FOR A DEFINED BARTH-SYNDROME INDICATION — CATALOGUE SS-31 POWDER IS NOT AUTHORISED-PRODUCT EQUIVALENT
+**Closure state:** PARTIAL CLOSURE — CANONICAL ELAMIPRETIDE AND CURRENT FORZINITY STATUS IDENTIFIED; SUPPLIER SALT, STERILITY, FORMULATION, MANUFACTURER AND COMPARABILITY OPEN
 
 | Jurisdiction | Authority | Controlled position | Monitoring |
 |---|---|---|---|
-| United States | FDA | Forzinity received accelerated approval on 19 September 2025 to improve muscle strength in adult and paediatric patients with Barth syndrome weighing at least 30 kg. The catalogue powder is not the authorised product. | ACTIVE |
-| United States | ClinicalTrials.gov / FDA post-marketing context | A phase 3b/4 confirmatory trial is registered to verify clinical benefit following accelerated approval. | ACTIVE |
-| European Union | EMA | Elamipretide has a positive orphan designation for Barth syndrome; orphan designation is not marketing authorisation. | ACTIVE |
-| United Kingdom | MHRA | An agreed paediatric investigation plan was published in March 2026; this is not a United Kingdom marketing authorisation. | ACTIVE |
-| International sport | WADA | Current athlete-specific verification is required before any permitted-status claim. | EVENT-TRIGGERED |
+| United States | FDA | Forzinity is approved under accelerated approval for a defined Barth-syndrome population; supplier 2S10/2S50 powders are not the authorised product. | ACTIVE |
+| United States | ClinicalTrials.gov | The phase 3b/4 SPIBA-401 confirmatory trial is registered following accelerated approval. | ACTIVE |
+| European Union | EMA | Elamipretide has orphan designation for Barth syndrome; orphan designation is not marketing authorisation. | ACTIVE |
+| United Kingdom | MHRA | A paediatric investigation plan was published in March 2026; it is not marketing authorisation. | ACTIVE |
 
 ## Rule
 
-Regulatory status belongs to the exact molecule, product, formulation, manufacturer, indication and jurisdiction.
+Regulatory, clinical and safety status belongs to the exact molecule, chemical form, formulation, manufacturer, product, indication and jurisdiction.

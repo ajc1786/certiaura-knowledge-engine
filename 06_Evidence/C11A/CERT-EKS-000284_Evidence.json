@@ -1,0 +1,21 @@
+{
+  "asset_id": "CERT-EKS-000284",
+  "asset_name": "AICAR Supplier Product, Exercise-Mimetic and WADA 2026 Closure",
+  "root_asset": "CERT-MPS-000001",
+  "knowledge_system": "EKS",
+  "asset_type": "Priority Evidence Closure Object",
+  "version": "0.2.0",
+  "status": "WADA STATUS CLOSED — SUPPLIER PRODUCT IDENTITY OPEN",
+  "closure_wave": "0033A",
+  "closure_priority": "P1",
+  "source_domain": "Supplier chemical form, salt, route, quality and current WADA S4.4.1 AMPK-activator prohibition",
+  "evidence_type": "Product / anti-doping closure evidence",
+  "last_review": "2026-07-16",
+  "direct_complete_extraction": false,
+  "prohibited_use": [
+    "Personal dosing, injection, infusion or reconstitution guidance",
+    "Authorised, trial or primary-study evidence transfer to supplier products",
+    "Assumption of chemical form, route, potency, quality or sterility",
+    "Weight-loss, performance, sleep, longevity or wellness protocols"
+  ]
+}

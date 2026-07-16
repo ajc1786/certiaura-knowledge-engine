@@ -3,8 +3,8 @@
   "asset_name": "Generic GLP-1 Supplier Product Family",
   "knowledge_system": "PKS",
   "asset_type": "Peptide / Supplier Product-Family Knowledge Asset",
-  "version": "0.1.0",
-  "status": "CATALOGUE COVERAGE CORRECTED / CRITICAL IDENTITY BLOCK ACTIVE / NOT PLATINUM CERTIFIED",
+  "version": "0.2.0",
+  "status": "P1 EVIDENCE CLOSURE WAVE 5 / IDENTITY OR PRODUCT-EQUIVALENCE BLOCK ACTIVE / NOT PLATINUM CERTIFIED",
   "owner": "Aidan Coleman",
   "last_review": "2026-07-16",
   "classification": "Chemically unresolved glucagon-like peptide-1 supplier product family",
@@ -108,6 +108,21 @@
       "source": "CERT-PKS-000090",
       "relationship": "COMPARES_WITH",
       "target": "CERT-PKS-000016"
+    },
+    {
+      "source": "CERT-PKS-000090",
+      "relationship": "HAS_PASSPORT",
+      "target": "CERT-PPS-000032"
+    },
+    {
+      "source": "CERT-PKS-000090",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000295"
+    },
+    {
+      "source": "CERT-PKS-000090",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000296"
     }
   ],
   "supplier_product_identity_verified": false,
@@ -122,5 +137,21 @@
     "Salt, counter-ion and molecular mass",
     "Manufacturer, purity, potency and sterility",
     "Product-specific human evidence and regulatory status"
+  ],
+  "closure_wave": "0033A",
+  "closure_priority": "P1",
+  "closure_class": "CRITICAL NATIVE GLP-1 MOLECULAR FORM AND PRODUCT IDENTITY",
+  "closure_state": "BLOCKED — RESIDUE RANGE, C-TERMINAL FORM, ANALOGUE STATUS, SALT, POTENCY, ROUTE, STERILITY AND PRODUCT-SPECIFIC HUMAN EVIDENCE UNVERIFIED",
+  "authoritative_product_boundary": "Human studies distinguish GLP-1(7-36) amide and GLP-1(7-37), both of which have very short plasma exposure and defined route-specific physiology. The GP listing does not identify either form or exclude a precursor, metabolite or modified analogue. FDA's 2026 enforcement position also separates non-approved GLP-1 products from exact approved active ingredients and products.",
+  "product_passport": "CERT-PPS-000032",
+  "identity_verified": false,
+  "quality_verified": false,
+  "sterility_verified": false,
+  "critical_closure_controls": [
+    "Do not assign GP to GLP-1(7-36) amide",
+    "Do not assign GP to GLP-1(7-37)",
+    "No semaglutide, liraglutide or other analogue evidence transfer",
+    "Native GLP-1 human physiology is not supplier-product validation",
+    "No glucose-control, weight-loss, dosing, injection or reconstitution protocol"
   ]
 }

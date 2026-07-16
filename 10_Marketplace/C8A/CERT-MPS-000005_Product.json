@@ -3,8 +3,8 @@
   "asset_name": "NAD Supplier Product Family",
   "knowledge_system": "MPS",
   "asset_type": "Marketplace Product-Family Asset",
-  "version": "0.1.0",
-  "status": "CATALOGUE REVIEWED / PRODUCT PASSPORT GAP ACTIVE / NOT QUALITY VERIFIED",
+  "version": "0.2.0",
+  "status": "P1 EVIDENCE CLOSURE WAVE 5 / IDENTITY OR PRODUCT-EQUIVALENCE BLOCK ACTIVE / NOT PLATINUM CERTIFIED",
   "owner": "Aidan Coleman",
   "last_review": "2026-07-16",
   "classification": "Non-peptide dinucleotide coenzyme supplier product family",
@@ -99,11 +99,35 @@
       "source": "CERT-MPS-000005",
       "relationship": "SUPPORTS_GOAL",
       "target": "CERT-GKS-000086"
+    },
+    {
+      "source": "CERT-MPS-000005",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000291"
+    },
+    {
+      "source": "CERT-MPS-000005",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000292"
     }
   ],
   "product_passport": "CERT-PPS-000005",
   "identity_verified": false,
   "sterility_verified": false,
   "authorised_product_equivalence": false,
-  "validated_universal_human_dosing_protocol": false
+  "validated_universal_human_dosing_protocol": false,
+  "closure_wave": "0033A",
+  "closure_priority": "P1",
+  "closure_class": "NAD+ / NADH CHEMICAL FORM AND UNAPPROVED INJECTABLE QUALITY",
+  "closure_state": "BLOCKED — NAD+ VERSUS NADH, SALT, CONCENTRATION, ROUTE, STERILE GRADE, ENDOTOXIN AND PRODUCT EQUIVALENCE UNVERIFIED",
+  "authoritative_product_boundary": "FDA has warned that food-grade NAD+ is unsuitable for sterile compounding without appropriate processing and has received reports of severe chills, shaking, vomiting and fatigue consistent with excessive endotoxin. A February 2026 warning letter identified an NAD+ 50 mg/mL injection as an unapproved new drug. The catalogue term NAD does not establish NAD+, NADH, salt, concentration or route.",
+  "quality_verified": false,
+  "platinum_certified": false,
+  "critical_closure_controls": [
+    "The catalogue code NJ3100 remains preserved for the 100 mg entry",
+    "Do not infer NAD+ or NADH from the word NAD",
+    "Food-grade identity is not sterile-drug suitability",
+    "No approved longevity, energy, recovery or wellness-infusion claim",
+    "No infusion, dosing, injection or reconstitution protocol"
+  ]
 }

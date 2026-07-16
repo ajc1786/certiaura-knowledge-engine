@@ -1,0 +1,21 @@
+{
+  "asset_id": "CERT-EKS-000287",
+  "asset_name": "Glutathione Redox Form and Clinical-Claim Boundary",
+  "root_asset": "CERT-MPS-000003",
+  "knowledge_system": "EKS",
+  "asset_type": "Priority Evidence Closure Object",
+  "version": "0.2.0",
+  "status": "REDOX AND PRODUCT-SPECIFIC CLOSURE REQUIRED",
+  "closure_wave": "0033A",
+  "closure_priority": "P1",
+  "source_domain": "Reduced GSH versus oxidised GSSG identity, route-specific research and prohibition on transferring cosmetic or wellness claims to GTT",
+  "evidence_type": "Identity / clinical-boundary evidence",
+  "last_review": "2026-07-16",
+  "direct_complete_extraction": false,
+  "prohibited_use": [
+    "Personal dosing, injection, infusion or reconstitution guidance",
+    "Authorised, trial or primary-study evidence transfer to supplier products",
+    "Assumption of chemical form, route, potency, quality or sterility",
+    "Weight-loss, performance, sleep, longevity or wellness protocols"
+  ]
+}

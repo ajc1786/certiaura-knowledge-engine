@@ -8,19 +8,22 @@
 
 # CERT-PPS-000001 — AICAR Supplier Product Family PRODUCT PASSPORT™
 
-**Parent product:** `CERT-MPS-000001`  
-**Status:** OPEN / NOT CERTIFIED  
+**Parent:** `CERT-MPS-000001`  
+**Priority:** P1  
+**Status:** OPEN / CLOSURE WAVE ACTIVE / NOT CERTIFIED  
 **Last Review:** 2026-07-16
 
 | Required field | Status | Closure requirement |
 |---|---|---|
-| AICA riboside/acadesine versus phosphorylated AICAR/ZMP | OPEN | Direct manufacturer / analytical closure required |
-| molecular formula and mass | OPEN | Direct manufacturer / analytical closure required |
-| salt and hydration state | OPEN | Direct manufacturer / analytical closure required |
-| route and formulation | OPEN | Direct manufacturer / analytical closure required |
-| reference standard, purity and residual solvents | OPEN | Direct manufacturer / analytical closure required |
-| sterility and endotoxin if intended for sterile use | OPEN | Direct manufacturer / analytical closure required |
+| AICA riboside/acadesine versus phosphorylated AICAR/ZMP | OPEN | Direct manufacturer, analytical, quality, clinical and regulatory evidence |
+| exact chemical name, formula, mass and CAS | OPEN | Direct manufacturer, analytical, quality, clinical and regulatory evidence |
+| salt, counter-ion and hydration state | OPEN | Direct manufacturer, analytical, quality, clinical and regulatory evidence |
+| reference standard, HPLC, LC-MS and purity | OPEN | Direct manufacturer, analytical, quality, clinical and regulatory evidence |
+| manufacturer, synthesis route and batch | OPEN | Direct manufacturer, analytical, quality, clinical and regulatory evidence |
+| route, formulation and excipients | OPEN | Direct manufacturer, analytical, quality, clinical and regulatory evidence |
+| sterility, endotoxin and particulate testing if parenteral | OPEN | Direct manufacturer, analytical, quality, clinical and regulatory evidence |
+| current legal, regulatory and anti-doping status | OPEN | Direct manufacturer, analytical, quality, clinical and regulatory evidence |
 
 ## Activation gate
 
-No quality, clinical-equivalence, dosing, reconstitution or direct-sale workflow may activate while material fields remain open.
+No dosing, infusion, injection, reconstitution, product-equivalence or direct-sale workflow may activate while any critical field remains open.

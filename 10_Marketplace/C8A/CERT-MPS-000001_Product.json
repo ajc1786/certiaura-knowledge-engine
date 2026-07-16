@@ -3,8 +3,8 @@
   "asset_name": "AICAR Supplier Product Family",
   "knowledge_system": "MPS",
   "asset_type": "Marketplace Product-Family Asset",
-  "version": "0.1.0",
-  "status": "CATALOGUE REVIEWED / PRODUCT PASSPORT GAP ACTIVE / NOT QUALITY VERIFIED",
+  "version": "0.2.0",
+  "status": "P1 EVIDENCE CLOSURE WAVE 5 / IDENTITY OR PRODUCT-EQUIVALENCE BLOCK ACTIVE / NOT PLATINUM CERTIFIED",
   "owner": "Aidan Coleman",
   "last_review": "2026-07-16",
   "classification": "Non-peptide purine/nucleotide-analogue research product family",
@@ -89,11 +89,35 @@
       "source": "CERT-MPS-000001",
       "relationship": "SUPPORTS_GOAL",
       "target": "CERT-GKS-000082"
+    },
+    {
+      "source": "CERT-MPS-000001",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000283"
+    },
+    {
+      "source": "CERT-MPS-000001",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000284"
     }
   ],
   "product_passport": "CERT-PPS-000001",
   "identity_verified": false,
   "sterility_verified": false,
   "authorised_product_equivalence": false,
-  "validated_universal_human_dosing_protocol": false
+  "validated_universal_human_dosing_protocol": false,
+  "closure_wave": "0033A",
+  "closure_priority": "P1",
+  "closure_class": "AICA RIBOSIDE / ACADESINE VERSUS PHOSPHORYLATED AICAR IDENTITY",
+  "closure_state": "PARTIAL CLOSURE — HUMAN ACADESINE DEVELOPMENT AND CURRENT ANTI-DOPING STATUS IDENTIFIED; SUPPLIER CHEMICAL FORM, SALT, GRADE AND ROUTE OPEN",
+  "authoritative_product_boundary": "The label AICAR is used ambiguously for AICA riboside/acadesine and the intracellular phosphorylated nucleotide AICAR/ZMP. The RED-CABG phase 3 acadesine programme was terminated and did not establish the supplier vial. The 2026 WADA list prohibits AICAR as an AMPK activator.",
+  "quality_verified": false,
+  "platinum_certified": false,
+  "critical_closure_controls": [
+    "Do not use AICAR as one unambiguous chemical name",
+    "Historical acadesine human evidence does not validate AR50 or AR100",
+    "The RED-CABG development programme does not create an exercise indication",
+    "AICAR remains prohibited under the current WADA metabolic-modulator control",
+    "No exercise-mimetic, performance, dosing, injection or reconstitution protocol"
+  ]
 }

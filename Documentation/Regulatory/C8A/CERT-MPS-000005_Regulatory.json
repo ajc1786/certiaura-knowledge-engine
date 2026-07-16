@@ -1,36 +1,31 @@
 {
   "asset_uai": "CERT-MPS-000005",
   "asset_name": "NAD Supplier Product Family",
+  "version": "0.2.0",
   "status_as_of": "2026-07-16",
-  "overall_status": "NAD+ / NADH / SALT AND ROUTE UNRESOLVED / UNAPPROVED INJECTABLE-PRODUCT CONTROLS APPLY",
+  "closure_wave": "0033A",
+  "overall_status": "BLOCKED — NAD+ VERSUS NADH, SALT, CONCENTRATION, ROUTE, STERILE GRADE, ENDOTOXIN AND PRODUCT EQUIVALENCE UNVERIFIED",
   "regulatory_records": [
     {
       "jurisdiction": "United States",
       "authority": "FDA",
-      "current_status": "NAD+ injectable products are not treated as approved; sterile-grade and endotoxin warnings apply.",
+      "current_status": "FDA warns against unsuitable food-grade NAD+ for sterile compounding and has identified unapproved injectable NAD+ products in 2026 enforcement.",
       "monitoring_state": "ACTIVE",
-      "next_review_trigger": "Identity, approval, label, safety, enforcement, trial or anti-doping change"
+      "next_review_trigger": "Identity, approval, label, warning, enforcement, trial, quality, safety or anti-doping change"
     },
     {
       "jurisdiction": "United Kingdom",
       "authority": "MHRA",
-      "current_status": "No marketing-authorisation claim for the supplier vial.",
+      "current_status": "No marketing-authorisation claim for the supplier vials.",
       "monitoring_state": "ACTIVE",
-      "next_review_trigger": "Identity, approval, label, safety, enforcement, trial or anti-doping change"
+      "next_review_trigger": "Identity, approval, label, warning, enforcement, trial, quality, safety or anti-doping change"
     },
     {
       "jurisdiction": "European Union",
-      "authority": "EMA / European Commission",
-      "current_status": "No central marketing-authorisation claim for the supplier vial.",
+      "authority": "EMA / national authorities",
+      "current_status": "No marketing-authorisation claim for the supplier vials.",
       "monitoring_state": "ACTIVE",
-      "next_review_trigger": "Identity, approval, label, safety, enforcement, trial or anti-doping change"
-    },
-    {
-      "jurisdiction": "International sport",
-      "authority": "WADA",
-      "current_status": "Current athlete-specific verification required.",
-      "monitoring_state": "EVENT-TRIGGERED",
-      "next_review_trigger": "Identity, approval, label, safety, enforcement, trial or anti-doping change"
+      "next_review_trigger": "Identity, approval, label, warning, enforcement, trial, quality, safety or anti-doping change"
     }
   ]
 }

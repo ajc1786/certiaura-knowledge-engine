@@ -1,36 +1,31 @@
 {
   "asset_uai": "CERT-MPS-000002",
   "asset_name": "Melatonin Supplier Vial Family",
+  "version": "0.2.0",
   "status_as_of": "2026-07-16",
-  "overall_status": "AUTHORISED ORAL MEDICINE CONTEXTS EXIST / SUPPLIER VIAL ROUTE AND PRODUCT IDENTITY UNRESOLVED",
+  "closure_wave": "0033A",
+  "overall_status": "PARTIAL CLOSURE — CURRENT EU ORAL MEDICINE CONTEXTS IDENTIFIED; SUPPLIER ROUTE, FORMULATION, RELEASE PROFILE, STERILITY AND EQUIVALENCE OPEN",
   "regulatory_records": [
     {
       "jurisdiction": "European Union",
       "authority": "EMA / European Commission",
-      "current_status": "Authorised oral melatonin products exist for defined indications; supplier vial equivalence is not established.",
+      "current_status": "Circadin and Slenyto are exact authorised prolonged-release oral products; MT10 has no product equivalence.",
       "monitoring_state": "ACTIVE",
-      "next_review_trigger": "Identity, approval, label, safety, enforcement, trial or anti-doping change"
+      "next_review_trigger": "Identity, approval, label, warning, enforcement, trial, quality, safety or anti-doping change"
     },
     {
       "jurisdiction": "United Kingdom",
       "authority": "MHRA",
-      "current_status": "Melatonin is prescription-only in the United Kingdom; exact product and indication control claims.",
+      "current_status": "Melatonin medicine status is product, indication, formulation and prescription specific.",
       "monitoring_state": "ACTIVE",
-      "next_review_trigger": "Identity, approval, label, safety, enforcement, trial or anti-doping change"
+      "next_review_trigger": "Identity, approval, label, warning, enforcement, trial, quality, safety or anti-doping change"
     },
     {
       "jurisdiction": "United States",
       "authority": "FDA",
-      "current_status": "No supplier-vial drug approval claim; United States dietary-supplement availability is not drug approval.",
+      "current_status": "No supplier-vial drug approval or authorised oral-product equivalence claim.",
       "monitoring_state": "ACTIVE",
-      "next_review_trigger": "Identity, approval, label, safety, enforcement, trial or anti-doping change"
-    },
-    {
-      "jurisdiction": "International sport",
-      "authority": "WADA",
-      "current_status": "Current athlete-specific verification required.",
-      "monitoring_state": "EVENT-TRIGGERED",
-      "next_review_trigger": "Identity, approval, label, safety, enforcement, trial or anti-doping change"
+      "next_review_trigger": "Identity, approval, label, warning, enforcement, trial, quality, safety or anti-doping change"
     }
   ]
 }

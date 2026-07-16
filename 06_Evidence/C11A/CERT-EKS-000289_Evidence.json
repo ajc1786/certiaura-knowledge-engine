@@ -1,0 +1,21 @@
+{
+  "asset_id": "CERT-EKS-000289",
+  "asset_name": "5-Amino-1MQ NNMT Cell and Mouse Programme Evidence",
+  "root_asset": "CERT-MPS-000004",
+  "knowledge_system": "EKS",
+  "asset_type": "Priority Evidence Closure Object",
+  "version": "0.2.0",
+  "status": "PRECLINICAL PROGRAMME IDENTIFIED — HUMAN TRANSLATION OPEN",
+  "closure_wave": "0033A",
+  "closure_priority": "P1",
+  "source_domain": "Primary 2017 and 2024 cellular, diet-induced-obesity mouse and mouse PK studies of 5-amino-1-methylquinolinium",
+  "evidence_type": "Primary preclinical evidence",
+  "last_review": "2026-07-16",
+  "direct_complete_extraction": false,
+  "prohibited_use": [
+    "Personal dosing, injection, infusion or reconstitution guidance",
+    "Authorised, trial or primary-study evidence transfer to supplier products",
+    "Assumption of chemical form, route, potency, quality or sterility",
+    "Weight-loss, performance, sleep, longevity or wellness protocols"
+  ]
+}

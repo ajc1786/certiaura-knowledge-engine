@@ -8,19 +8,22 @@
 
 # CERT-PPS-000005 — NAD Supplier Product Family PRODUCT PASSPORT™
 
-**Parent product:** `CERT-MPS-000005`  
-**Status:** OPEN / NOT CERTIFIED  
+**Parent:** `CERT-MPS-000005`  
+**Priority:** P1  
+**Status:** OPEN / CLOSURE WAVE ACTIVE / NOT CERTIFIED  
 **Last Review:** 2026-07-16
 
 | Required field | Status | Closure requirement |
 |---|---|---|
-| NAD+ versus NADH | OPEN | Direct manufacturer / analytical closure required |
-| salt, hydration and molecular mass | OPEN | Direct manufacturer / analytical closure required |
-| concentration, pH and route | OPEN | Direct manufacturer / analytical closure required |
-| sterile-grade raw material | OPEN | Direct manufacturer / analytical closure required |
-| endotoxin, particulate and sterility | OPEN | Direct manufacturer / analytical closure required |
-| manufacturer, batch, storage and degradation | OPEN | Direct manufacturer / analytical closure required |
+| NAD+ versus NADH and oxidised/reduced state | OPEN | Direct manufacturer, analytical, quality, clinical and regulatory evidence |
+| salt, hydration, formula and molecular mass | OPEN | Direct manufacturer, analytical, quality, clinical and regulatory evidence |
+| reference standard, assay and degradation products | OPEN | Direct manufacturer, analytical, quality, clinical and regulatory evidence |
+| manufacturer, raw-material grade and batch | OPEN | Direct manufacturer, analytical, quality, clinical and regulatory evidence |
+| concentration, pH, route and excipients | OPEN | Direct manufacturer, analytical, quality, clinical and regulatory evidence |
+| sterility, bacterial endotoxin and particulate testing | OPEN | Direct manufacturer, analytical, quality, clinical and regulatory evidence |
+| container closure, storage and post-preparation stability | OPEN | Direct manufacturer, analytical, quality, clinical and regulatory evidence |
+| product-specific clinical, regulatory and legal status | OPEN | Direct manufacturer, analytical, quality, clinical and regulatory evidence |
 
 ## Activation gate
 
-No quality, clinical-equivalence, dosing, reconstitution or direct-sale workflow may activate while material fields remain open.
+No dosing, infusion, injection, reconstitution, product-equivalence or direct-sale workflow may activate while any critical field remains open.

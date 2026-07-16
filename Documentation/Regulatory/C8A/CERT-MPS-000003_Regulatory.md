@@ -8,16 +8,16 @@
 
 # CERT-MPS-000003 — Glutathione Supplier Vial Family REGULATORY STATUS
 
+**Version:** 0.2.0  
 **Status as of:** 2026-07-16  
-**Overall:** REDOX FORM AND ROUTE UNRESOLVED / STERILE-INJECTION AND ENDOTOXIN CONTROLS CRITICAL
+**Closure state:** BLOCKED — REDOX FORM, SALT, ROUTE, STERILE GRADE, ENDOTOXIN, POTENCY AND PRODUCT-SPECIFIC CLINICAL EVIDENCE UNVERIFIED
 
 | Jurisdiction | Authority | Controlled position | Monitoring |
 |---|---|---|---|
-| United States | FDA | Sterile-compounding and endotoxin warnings apply; no supplier-vial approval or sterility claim. | ACTIVE |
-| United Kingdom | MHRA | No marketing-authorisation or sterile-product equivalence claim. | ACTIVE |
-| European Union | EMA / European Commission | No central marketing-authorisation claim for the supplier vial. | ACTIVE |
-| International sport | WADA | Current athlete-specific verification required. | EVENT-TRIGGERED |
+| United States | FDA | FDA sterile-compounding evidence documents excessive endotoxin and serious adverse reactions from unsuitable glutathione material. | ACTIVE |
+| United Kingdom | MHRA | No marketing-authorisation, sterile-product or cosmetic-efficacy claim for GTT. | ACTIVE |
+| European Union | EMA / national authorities | No central marketing-authorisation or supplier-vial equivalence claim. | ACTIVE |
 
 ## Rule
 
-Availability, supplement status, compounding activity or historical clinical development does not establish approval of the supplier vial.
+Regulatory, clinical and safety status belongs to the exact molecule, chemical form, formulation, manufacturer, product, indication and jurisdiction.

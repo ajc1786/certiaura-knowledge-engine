@@ -10,11 +10,11 @@
 
 | Claim | Permission |
 |---|---|
-| Glutathione Supplier Vial Family is classified as tripeptide antioxidant ancillary product family classified outside pks. | Allowed |
-| REDOX FORM AND ROUTE UNRESOLVED / STERILE-INJECTION AND ENDOTOXIN CONTROLS CRITICAL | Allowed as a dated controlled headline |
-| The supplier product is equivalent to an authorised medicine. | Not established / prohibited |
-| A validated human dosing or administration protocol exists. | False / prohibited |
-| The Product Passport is certified. | False / prohibited |
-| Supplier glutathione is proven sterile or suitable for injection. | False / prohibited |
+| This asset is in P1 closure. | Allowed |
+| FDA documented serious adverse reactions after unsuitable dietary-grade L-glutathione was used in sterile injectables and found excessive bacterial endotoxin in tested material. The catalogue GTT vial does not establish reduced GSH identity, sterile grade, route or approved cosmetic/therapeutic use. | Allowed as a controlled boundary |
+| The supplier item is equivalent to an authorised, trial or primary-study product. | False / prohibited |
+| Supplier identity, form, potency, quality and sterility are verified. | False / prohibited |
+| A treatment, wellness, weight-loss, performance, dosing or administration protocol is validated. | False / prohibited |
+| The asset is Platinum Certified. | False / prohibited |
 
 **Status as of:** 2026-07-16

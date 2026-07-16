@@ -1,36 +1,38 @@
 {
   "asset_uai": "CERT-MPS-000004",
   "asset_name": "5-Amino-1MQ Supplier Product Family",
+  "version": "0.2.0",
   "status_as_of": "2026-07-16",
-  "overall_status": "PRECLINICAL RESEARCH COMPOUND / NO HUMAN APPROVAL OR VALIDATED WEIGHT-LOSS CLAIM",
+  "closure_wave": "0033A",
+  "overall_status": "PARTIAL CLOSURE — CELL AND MOUSE NNMT-INHIBITOR PROGRAMME IDENTIFIED; SUPPLIER SALT, FORMAL TOXICOLOGY, HUMAN PK, EFFICACY AND APPROVAL OPEN",
   "regulatory_records": [
     {
       "jurisdiction": "United States",
       "authority": "FDA",
-      "current_status": "No approval claim; human development status requires direct official search.",
+      "current_status": "A January 2026 warning letter states that 5-amino-1-methylquinolinium iodide was not eligible for the cited 503B exemptions; no supplier-product approval exists.",
       "monitoring_state": "ACTIVE",
-      "next_review_trigger": "Identity, approval, label, safety, enforcement, trial or anti-doping change"
+      "next_review_trigger": "Identity, approval, label, warning, enforcement, trial, quality, safety or anti-doping change"
+    },
+    {
+      "jurisdiction": "Global clinical development",
+      "authority": "ClinicalTrials.gov",
+      "current_status": "No exact human 5-amino-1MQ programme was closed in the defined search; this is a search conclusion, not proof of universal absence.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Identity, approval, label, warning, enforcement, trial, quality, safety or anti-doping change"
     },
     {
       "jurisdiction": "United Kingdom",
       "authority": "MHRA",
       "current_status": "No marketing-authorisation claim.",
       "monitoring_state": "ACTIVE",
-      "next_review_trigger": "Identity, approval, label, safety, enforcement, trial or anti-doping change"
+      "next_review_trigger": "Identity, approval, label, warning, enforcement, trial, quality, safety or anti-doping change"
     },
     {
       "jurisdiction": "European Union",
       "authority": "EMA / European Commission",
       "current_status": "No marketing-authorisation claim.",
       "monitoring_state": "ACTIVE",
-      "next_review_trigger": "Identity, approval, label, safety, enforcement, trial or anti-doping change"
-    },
-    {
-      "jurisdiction": "International sport",
-      "authority": "WADA",
-      "current_status": "Non-approved-substance and metabolic-modulator status requires current authoritative review.",
-      "monitoring_state": "ACTIVE",
-      "next_review_trigger": "Identity, approval, label, safety, enforcement, trial or anti-doping change"
+      "next_review_trigger": "Identity, approval, label, warning, enforcement, trial, quality, safety or anti-doping change"
     }
   ]
 }

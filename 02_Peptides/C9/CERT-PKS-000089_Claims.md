@@ -10,13 +10,11 @@
 
 | Claim | Permission |
 |---|---|
-| Elamipretide / SS-31 is classified as defined aromatic-cationic tetrapeptide and authorised active-substance family. | Allowed |
-| UNITED STATES FORZINITY ACCELERATED APPROVAL EXISTS FOR A DEFINED BARTH-SYNDROME INDICATION — CATALOGUE SS-31 POWDER IS NOT AUTHORISED-PRODUCT EQUIVALENT | Allowed as a dated controlled headline |
-| The supplier product is equivalent to an authorised medicine. | Not established / prohibited |
-| A validated treatment, dosing or administration protocol exists. | False / prohibited |
+| This asset is in P1 closure. | Allowed |
+| Forzinity is an FDA-approved elamipretide injection under accelerated approval for a defined Barth-syndrome population and is subject to confirmatory phase 3b/4 study. It is an 80 mg/mL sterile solution with product-specific excipients and controls. The 2S10 and 2S50 supplier powders do not inherit that approval, label or formulation. | Allowed as a controlled boundary |
+| The supplier item is equivalent to an authorised, trial or primary-study product. | False / prohibited |
+| Supplier identity, form, potency, quality and sterility are verified. | False / prohibited |
+| A treatment, wellness, weight-loss, performance, dosing or administration protocol is validated. | False / prohibited |
 | The asset is Platinum Certified. | False / prohibited |
-| Forzinity is authorised in the United States for a defined Barth-syndrome indication. | Allowed with exact product, population, accelerated-approval and date controls |
-| The catalogue SS-31 powder is equivalent to Forzinity. | False / prohibited |
-| Forzinity approval validates general mitochondrial, performance or longevity use. | False / prohibited |
 
 **Status as of:** 2026-07-16

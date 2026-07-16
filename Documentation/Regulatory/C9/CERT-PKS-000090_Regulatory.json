@@ -1,43 +1,38 @@
 {
   "asset_uai": "CERT-PKS-000090",
   "asset_name": "Generic GLP-1 Supplier Product Family",
+  "version": "0.2.0",
   "status_as_of": "2026-07-16",
-  "overall_status": "CRITICAL MOLECULAR-IDENTITY GAP / NO NATIVE-FORM, ANALOGUE, APPROVAL OR THERAPEUTIC-EQUIVALENCE CLAIM",
+  "closure_wave": "0033A",
+  "overall_status": "BLOCKED — RESIDUE RANGE, C-TERMINAL FORM, ANALOGUE STATUS, SALT, POTENCY, ROUTE, STERILITY AND PRODUCT-SPECIFIC HUMAN EVIDENCE UNVERIFIED",
   "regulatory_records": [
     {
       "jurisdiction": "Global",
       "authority": "Chemical identity control",
-      "current_status": "Regulatory interpretation is blocked because the catalogue does not identify the GLP-1 residue range, terminal form, analogue status or formulation.",
+      "current_status": "Regulatory and pharmacological interpretation remains blocked by absent GLP-1 molecular-form identity.",
       "monitoring_state": "BLOCKED",
-      "next_review_trigger": "Identity, approval, label, confirmatory trial, safety, enforcement or anti-doping change"
+      "next_review_trigger": "Identity, approval, label, warning, enforcement, trial, quality, safety or anti-doping change"
     },
     {
       "jurisdiction": "United States",
       "authority": "FDA",
-      "current_status": "No approval or authorised-product-equivalence claim for the supplier GP vial.",
+      "current_status": "FDA's 2026 enforcement position separates non-approved GLP-1 products from exact approved ingredients and medicines; GP has no approval or equivalence claim.",
       "monitoring_state": "ACTIVE",
-      "next_review_trigger": "Identity, approval, label, confirmatory trial, safety, enforcement or anti-doping change"
+      "next_review_trigger": "Identity, approval, label, warning, enforcement, trial, quality, safety or anti-doping change"
     },
     {
       "jurisdiction": "United Kingdom",
       "authority": "MHRA",
-      "current_status": "No marketing-authorisation claim for the supplier GP vial.",
+      "current_status": "No marketing-authorisation claim for GP.",
       "monitoring_state": "ACTIVE",
-      "next_review_trigger": "Identity, approval, label, confirmatory trial, safety, enforcement or anti-doping change"
+      "next_review_trigger": "Identity, approval, label, warning, enforcement, trial, quality, safety or anti-doping change"
     },
     {
       "jurisdiction": "European Union",
       "authority": "EMA / European Commission",
-      "current_status": "No marketing-authorisation claim for the supplier GP vial.",
+      "current_status": "No marketing-authorisation claim for GP.",
       "monitoring_state": "ACTIVE",
-      "next_review_trigger": "Identity, approval, label, confirmatory trial, safety, enforcement or anti-doping change"
-    },
-    {
-      "jurisdiction": "International sport",
-      "authority": "WADA",
-      "current_status": "Current status cannot be finalised before exact molecular identity is established.",
-      "monitoring_state": "BLOCKED BY IDENTITY",
-      "next_review_trigger": "Identity, approval, label, confirmatory trial, safety, enforcement or anti-doping change"
+      "next_review_trigger": "Identity, approval, label, warning, enforcement, trial, quality, safety or anti-doping change"
     }
   ]
 }

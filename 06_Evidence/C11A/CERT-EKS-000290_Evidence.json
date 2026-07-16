@@ -1,0 +1,21 @@
+{
+  "asset_id": "CERT-EKS-000290",
+  "asset_name": "5-Amino-1MQ Salt, Human Evidence and FDA 503B Boundary",
+  "root_asset": "CERT-MPS-000004",
+  "knowledge_system": "EKS",
+  "asset_type": "Priority Evidence Closure Object",
+  "version": "0.2.0",
+  "status": "OPEN — SUPPLIER SALT AND HUMAN PROGRAMME NOT ESTABLISHED",
+  "closure_wave": "0033A",
+  "closure_priority": "P1",
+  "source_domain": "Supplier salt and quality gap, exact ClinicalTrials.gov human-programme search and January 2026 FDA enforcement concerning 5-amino-1-methylquinolinium iodide",
+  "evidence_type": "Critical identity / human / regulatory gap",
+  "last_review": "2026-07-16",
+  "direct_complete_extraction": false,
+  "prohibited_use": [
+    "Personal dosing, injection, infusion or reconstitution guidance",
+    "Authorised, trial or primary-study evidence transfer to supplier products",
+    "Assumption of chemical form, route, potency, quality or sterility",
+    "Weight-loss, performance, sleep, longevity or wellness protocols"
+  ]
+}
