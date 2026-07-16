@@ -3,8 +3,8 @@
   "asset_name": "Semax + Selank Supplier Blend",
   "knowledge_system": "PKS",
   "asset_type": "Supplier Combination-Product Knowledge Asset",
-  "version": "0.1.0",
-  "status": "CATALOGUE REVIEWED / COMBINATION EVIDENCE GAP ACTIVE / NOT PLATINUM CERTIFIED",
+  "version": "0.2.0",
+  "status": "P1 EVIDENCE CLOSURE WAVE 4 / COMBINATION ANALYTICS BLOCK ACTIVE / NOT PLATINUM CERTIFIED",
   "owner": "Aidan Coleman",
   "last_review": "2026-07-16",
   "aliases": [
@@ -75,6 +75,21 @@
       "source": "CERT-PKS-000087",
       "relationship": "SUPPORTS_GOAL",
       "target": "CERT-GKS-000081"
+    },
+    {
+      "source": "CERT-PKS-000087",
+      "relationship": "HAS_PASSPORT",
+      "target": "CERT-PPS-000029"
+    },
+    {
+      "source": "CERT-PKS-000087",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000279"
+    },
+    {
+      "source": "CERT-PKS-000087",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000280"
     }
   ],
   "component_identity_verified": false,
@@ -82,5 +97,20 @@
   "coformulation_compatibility_verified": false,
   "validated_universal_human_dosing_protocol": false,
   "supplier_catalogue_proves_quality": false,
-  "platinum_certified": false
+  "platinum_certified": false,
+  "closure_wave": "0031D",
+  "closure_priority": "P1",
+  "closure_class": "FIXED-RATIO NEUROPEPTIDE BLEND / LIMITED HUMAN AND QUALITY EVIDENCE",
+  "closure_state": "BLOCKED — EXACT PARENT FORMS, FIXED RATIO, CO-FORMULATION, ROUTE, STABILITY AND DIRECT COMBINATION HUMAN EVIDENCE UNVERIFIED",
+  "authoritative_product_boundary": "Semax and Selank are distinct heptapeptides with separate regional and experimental literatures. FDA lists both nominated bulk substances among compounds that may present significant compounding safety risks because of immunogenicity, aggregation, peptide impurities and limited safety information. A shared mechanistic paper is not a fixed-ratio clinical trial.",
+  "product_passport": "CERT-PPS-000029",
+  "sterility_verified": false,
+  "authorised_product_equivalence": false,
+  "critical_closure_controls": [
+    "Semax and Selank remain separate parent molecules",
+    "Shared enzyme effects do not establish blend efficacy",
+    "FDA compounding safety concerns remain active for both components",
+    "No anxiety, cognition, stroke or neuroprotection-treatment claim",
+    "No nasal, dosing, injection or reconstitution protocol"
+  ]
 }

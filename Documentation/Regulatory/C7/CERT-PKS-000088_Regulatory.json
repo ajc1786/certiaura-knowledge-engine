@@ -1,32 +1,45 @@
 {
   "asset_uai": "CERT-PKS-000088",
   "asset_name": "Modified GRF (1-29) + Ipamorelin Supplier Blend",
+  "version": "0.2.0",
   "status_as_of": "2026-07-16",
-  "overall_status": "UNAPPROVED SUPPLIER GH-AXIS COMBINATION",
+  "closure_wave": "0031D",
+  "overall_status": "BLOCKED — MODIFIED GRF SEQUENCE, IPAMORELIN FORM, FIXED RATIO, COMPATIBILITY, PK/PD AND DIRECT HUMAN COMBINATION EVIDENCE UNVERIFIED",
   "regulatory_records": [
+    {
+      "jurisdiction": "Global",
+      "authority": "Identity control",
+      "current_status": "CJC-1295 without DAC is controlled as Modified GRF (1-29), not CJC-1295 with DAC.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Identity, approval, trial, compounding, warning, enforcement, safety or anti-doping change"
+    },
     {
       "jurisdiction": "United States",
       "authority": "FDA",
-      "current_status": "No combination-product approval claim; marketplace CJC nomenclature does not establish identity.",
-      "monitoring_state": "ACTIVE"
+      "current_status": "No CP10 or CP20 approval claim.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Identity, approval, trial, compounding, warning, enforcement, safety or anti-doping change"
     },
     {
       "jurisdiction": "United Kingdom",
       "authority": "MHRA",
-      "current_status": "No marketing-authorisation claim for CP10 or CP20.",
-      "monitoring_state": "ACTIVE"
+      "current_status": "No marketing-authorisation claim.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Identity, approval, trial, compounding, warning, enforcement, safety or anti-doping change"
     },
     {
       "jurisdiction": "European Union",
-      "authority": "EMA / European Commission",
-      "current_status": "No marketing-authorisation claim for CP10 or CP20.",
-      "monitoring_state": "ACTIVE"
+      "authority": "EMA / national authorities",
+      "current_status": "No marketing-authorisation claim.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Identity, approval, trial, compounding, warning, enforcement, safety or anti-doping change"
     },
     {
       "jurisdiction": "International sport",
       "authority": "WADA",
       "current_status": "Current component-by-component verification required.",
-      "monitoring_state": "ACTIVE"
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Identity, approval, trial, compounding, warning, enforcement, safety or anti-doping change"
     }
   ]
 }

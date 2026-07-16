@@ -5,15 +5,17 @@
 </div>
 
 ---
+
 # MODIFIED GRF (1-29) + IPAMORELIN SUPPLIER BLEND CLAIM CONTROL MATRIX
 
 | Claim | Permission |
 |---|---|
-| The catalogue lists CP10 and CP20 with equal component quantities. | Supplier-provided data only |
-| “CJC-1295 without DAC” is CJC-1295 with DAC. | False / prohibited |
-| Modified GRF and ipamorelin component evidence proves blend efficacy. | False / prohibited |
-| The components are stable and compatible in one vial. | Not established / prohibited |
-| A validated dosing or reconstitution protocol exists. | False / prohibited |
+| This asset is in P1 combination closure. | Allowed |
+| The catalogue phrase CJC-1295 without DAC is controlled as a marketplace name for Modified GRF (1-29), not CJC-1295 with DAC. Primary literature establishes separate GRF(1-29) analogue and ipamorelin pharmacology, but not the CP10 or CP20 co-lyophilised products. | Allowed as a controlled boundary |
+| Parent-component evidence proves combination efficacy or safety. | False / prohibited |
+| The supplier blend is equivalent to an authorised, trial or sponsor-controlled product. | False / prohibited |
+| Component identity, ratio, compatibility, potency and sterility are verified. | False / prohibited |
+| A treatment, dosing, injection or reconstitution protocol is validated. | False / prohibited |
 | The asset is Platinum Certified. | False / prohibited |
 
 **Status as of:** 2026-07-16

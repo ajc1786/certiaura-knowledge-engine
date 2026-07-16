@@ -1,32 +1,38 @@
 {
   "asset_uai": "CERT-PKS-000085",
   "asset_name": "Retatrutide + Cagrilintide Supplier Blend",
+  "version": "0.2.0",
   "status_as_of": "2026-07-16",
-  "overall_status": "UNAPPROVED SUPPLIER METABOLIC COMBINATION / PRODUCT-SPECIFIC HUMAN EVIDENCE NOT CLOSED",
+  "closure_wave": "0031D",
+  "overall_status": "BLOCKED — EXACT COMPONENT FORMS, FIXED RATIO, CO-FORMULATION, DIRECT HUMAN COMBINATION EVIDENCE AND REGULATORY STATUS UNVERIFIED",
   "regulatory_records": [
+    {
+      "jurisdiction": "Global clinical development",
+      "authority": "ClinicalTrials.gov",
+      "current_status": "Separate parent programmes exist; no RC10 product-equivalence or direct registered-combination claim is created.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Identity, approval, trial, compounding, warning, enforcement, safety or anti-doping change"
+    },
     {
       "jurisdiction": "United States",
       "authority": "FDA",
-      "current_status": "No supplier-blend approval or equivalence claim.",
-      "monitoring_state": "ACTIVE"
+      "current_status": "No RC10 approval claim; retatrutide remains investigational as of the review date.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Identity, approval, trial, compounding, warning, enforcement, safety or anti-doping change"
     },
     {
       "jurisdiction": "United Kingdom",
       "authority": "MHRA",
-      "current_status": "No marketing-authorisation claim for the supplier blend.",
-      "monitoring_state": "ACTIVE"
+      "current_status": "No marketing-authorisation claim.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Identity, approval, trial, compounding, warning, enforcement, safety or anti-doping change"
     },
     {
       "jurisdiction": "European Union",
       "authority": "EMA / European Commission",
-      "current_status": "No marketing-authorisation claim for the supplier blend.",
-      "monitoring_state": "ACTIVE"
-    },
-    {
-      "jurisdiction": "International sport",
-      "authority": "WADA",
-      "current_status": "Status depends on every component and current verification.",
-      "monitoring_state": "ACTIVE"
+      "current_status": "No marketing-authorisation claim.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Identity, approval, trial, compounding, warning, enforcement, safety or anti-doping change"
     }
   ]
 }

@@ -3,8 +3,8 @@
   "asset_name": "Modified GRF (1-29) + Ipamorelin Supplier Blend",
   "knowledge_system": "PKS",
   "asset_type": "Supplier Combination-Product Knowledge Asset",
-  "version": "0.1.1",
-  "status": "CATALOGUE REVIEWED / COMBINATION EVIDENCE GAP ACTIVE / NOT PLATINUM CERTIFIED",
+  "version": "0.2.0",
+  "status": "P1 EVIDENCE CLOSURE WAVE 4 / COMBINATION ANALYTICS BLOCK ACTIVE / NOT PLATINUM CERTIFIED",
   "owner": "Aidan Coleman",
   "last_review": "2026-07-16",
   "aliases": [
@@ -82,6 +82,21 @@
       "source": "CERT-PKS-000088",
       "relationship": "SUPPORTS_GOAL",
       "target": "CERT-GKS-000080"
+    },
+    {
+      "source": "CERT-PKS-000088",
+      "relationship": "HAS_PASSPORT",
+      "target": "CERT-PPS-000030"
+    },
+    {
+      "source": "CERT-PKS-000088",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000281"
+    },
+    {
+      "source": "CERT-PKS-000088",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000282"
     }
   ],
   "component_identity_verified": false,
@@ -89,5 +104,20 @@
   "coformulation_compatibility_verified": false,
   "validated_universal_human_dosing_protocol": false,
   "supplier_catalogue_proves_quality": false,
-  "platinum_certified": false
+  "platinum_certified": false,
+  "closure_wave": "0031D",
+  "closure_priority": "P1",
+  "closure_class": "DUAL GH-AXIS BLEND / CJC-NAMING AND STRUCTURAL IDENTITY",
+  "closure_state": "BLOCKED — MODIFIED GRF SEQUENCE, IPAMORELIN FORM, FIXED RATIO, COMPATIBILITY, PK/PD AND DIRECT HUMAN COMBINATION EVIDENCE UNVERIFIED",
+  "authoritative_product_boundary": "The catalogue phrase CJC-1295 without DAC is controlled as a marketplace name for Modified GRF (1-29), not CJC-1295 with DAC. Primary literature establishes separate GRF(1-29) analogue and ipamorelin pharmacology, but not the CP10 or CP20 co-lyophilised products.",
+  "product_passport": "CERT-PPS-000030",
+  "sterility_verified": false,
+  "authorised_product_equivalence": false,
+  "critical_closure_controls": [
+    "CP10 and CP20 remain strength variants of one blend family",
+    "No CJC-1295-with-DAC evidence transfer",
+    "Separate GRF and ipamorelin evidence does not validate the blend",
+    "GH/IGF-1, glucose, neoplasm and fluid-retention risks remain active",
+    "No GH, dosing, injection or reconstitution protocol"
+  ]
 }

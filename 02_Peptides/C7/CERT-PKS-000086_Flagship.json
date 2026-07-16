@@ -3,8 +3,8 @@
   "asset_name": "Tesamorelin + Ipamorelin Supplier Blend",
   "knowledge_system": "PKS",
   "asset_type": "Supplier Combination-Product Knowledge Asset",
-  "version": "0.1.0",
-  "status": "CATALOGUE REVIEWED / COMBINATION EVIDENCE GAP ACTIVE / NOT PLATINUM CERTIFIED",
+  "version": "0.2.0",
+  "status": "P1 EVIDENCE CLOSURE WAVE 4 / COMBINATION ANALYTICS BLOCK ACTIVE / NOT PLATINUM CERTIFIED",
   "owner": "Aidan Coleman",
   "last_review": "2026-07-16",
   "aliases": [
@@ -75,6 +75,21 @@
       "source": "CERT-PKS-000086",
       "relationship": "SUPPORTS_GOAL",
       "target": "CERT-GKS-000080"
+    },
+    {
+      "source": "CERT-PKS-000086",
+      "relationship": "HAS_PASSPORT",
+      "target": "CERT-PPS-000028"
+    },
+    {
+      "source": "CERT-PKS-000086",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000277"
+    },
+    {
+      "source": "CERT-PKS-000086",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000278"
     }
   ],
   "component_identity_verified": false,
@@ -82,5 +97,20 @@
   "coformulation_compatibility_verified": false,
   "validated_universal_human_dosing_protocol": false,
   "supplier_catalogue_proves_quality": false,
-  "platinum_certified": false
+  "platinum_certified": false,
+  "closure_wave": "0031D",
+  "closure_priority": "P1",
+  "closure_class": "DUAL GH-AXIS SECRETAGOGUE / AUTHORISED-PRODUCT NON-EQUIVALENCE",
+  "closure_state": "BLOCKED — EXACT COMPONENT FORMS, 2:1 RATIO, COMBINATION PK/PD, STABILITY AND DIRECT HUMAN EVIDENCE UNVERIFIED",
+  "authoritative_product_boundary": "EGRIFTA WR is an exact tesamorelin prescription biologic for reduction of excess abdominal fat in adults with HIV lipodystrophy and is not indicated for weight loss. Ipamorelin has separate preclinical and clinical-development evidence. Neither parent programme validates the TI18 mixed vial.",
+  "product_passport": "CERT-PPS-000028",
+  "sterility_verified": false,
+  "authorised_product_equivalence": false,
+  "critical_closure_controls": [
+    "TI18 is not EGRIFTA WR or EGRIFTA SV",
+    "EGRIFTA formulations are exact products and not interchangeable",
+    "Ipamorelin evidence does not establish this combination",
+    "Neoplasm, IGF-1, glucose and fluid-retention controls remain active",
+    "No weight-loss, GH, dosing, injection or reconstitution protocol"
+  ]
 }

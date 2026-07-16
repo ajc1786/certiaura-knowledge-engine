@@ -5,49 +5,51 @@
 </div>
 
 ---
+
 # CERT-PKS-000087 — Semax + Selank Supplier Blend
 
-**Version:** 0.1.0  
-**Status:** CATALOGUE REVIEWED / COMBINATION EVIDENCE GAP ACTIVE / NOT PLATINUM CERTIFIED  
+**Version:** 0.2.0  
+**Priority:** P1  
+**Status:** EVIDENCE CLOSURE WAVE 4 / COMBINATION ANALYTICS BLOCK ACTIVE  
 **Last Review:** 2026-07-16
 
-## Classification
+## Closure state
 
-Fixed-ratio supplier neurocognitive and anxiolytic peptide blend
+**BLOCKED — EXACT PARENT FORMS, FIXED RATIO, CO-FORMULATION, ROUTE, STABILITY AND DIRECT COMBINATION HUMAN EVIDENCE UNVERIFIED**
 
-## Components
+## Authoritative or primary-source boundary
 
-| Parent UAI | Supplier-labelled component | Quantity | Identity note |
-|---|---|---:|---|
-| `CERT-PKS-000038` | Semax | 10 mg |  |
-| `CERT-PKS-000039` | Selank | 10 mg |  |
+Semax and Selank are distinct heptapeptides with separate regional and experimental literatures. FDA lists both nominated bulk substances among compounds that may present significant compounding safety risks because of immunogenicity, aggregation, peptide impurities and limited safety information. A shared mechanistic paper is not a fixed-ratio clinical trial.
 
-## Mechanism
+## New closure evidence
 
-No validated combination mechanism is assigned. Separate neurotrophic, neuroimmune and anxiolytic research cannot be combined as proof.
+- `CERT-EKS-000279`
+- `CERT-EKS-000280`
 
-## Evidence maturity
+## Product Passport
 
-No direct fixed-ratio combination-specific human efficacy, PK or safety evidence has been closed.
+`CERT-PPS-000029`
 
-## Regulatory headline
-
-**UNAPPROVED SUPPLIER NEUROPEPTIDE COMBINATION / REGIONAL PARENT STATUS DOES NOT TRANSFER**
-
-## Catalogue pricing
+## Catalogue records
 
 | Code | Specification | USD per kit |
 |---|---|---:|
 | XS20 | Semax 10 mg + Selank 10 mg; 20 mg x 10 vials | $112 |
 
-## Combination-product boundary
+## Critical controls
 
-The catalogue does not prove component identity, ratio, uniformity, compatibility, stability, potency, sterility or equivalence to clinical materials.
+- Semax and Selank remain separate parent molecules
+- Shared enzyme effects do not establish blend efficacy
+- FDA compounding safety concerns remain active for both components
+- No anxiety, cognition, stroke or neuroprotection-treatment claim
+- No nasal, dosing, injection or reconstitution protocol
 
-## Validated compatibility or dosing protocol
+## Certification state
 
-**No**
-
-## Platinum Certified
-
-**No**
+- Component identities verified: **No**
+- Fixed ratio verified: **No**
+- Co-formulation compatibility verified: **No**
+- Sterility verified: **No**
+- Direct human combination evidence closed: **No**
+- Direct-sale gate: **Blocked**
+- Platinum Certified: **No**

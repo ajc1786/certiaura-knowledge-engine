@@ -1,0 +1,21 @@
+{
+  "asset_id": "CERT-EKS-000270",
+  "asset_name": "BPC-157 + TB Blend Component, Ratio and Stability Gap",
+  "root_asset": "CERT-PKS-000081",
+  "knowledge_system": "EKS",
+  "asset_type": "Priority Combination Evidence Closure Object",
+  "version": "0.2.0",
+  "status": "OPEN — BB4/BB10/BB20 ANALYTICAL CLOSURE NOT ESTABLISHED",
+  "closure_wave": "0031D",
+  "closure_priority": "P1",
+  "source_domain": "Exact component sequences, termini, salt, 1:1 assay, co-lyophilisation, aggregation, stability, sterility and direct combination evidence",
+  "evidence_type": "Critical combination Product Passport gap",
+  "last_review": "2026-07-16",
+  "direct_complete_extraction": false,
+  "prohibited_use": [
+    "Personal dosing, injection, nasal-use or reconstitution guidance",
+    "Parent-component evidence as proof of combination efficacy or safety",
+    "Authorised, trial or sponsor-controlled evidence transfer to supplier blends",
+    "Assumption of identity, ratio, compatibility, stability or sterility"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "asset_id": "CERT-EKS-000280",
+  "asset_name": "XS20 Fixed-Ratio, Route, Stability and Direct Human-Evidence Gap",
+  "root_asset": "CERT-PKS-000087",
+  "knowledge_system": "EKS",
+  "asset_type": "Priority Combination Evidence Closure Object",
+  "version": "0.2.0",
+  "status": "OPEN — XS20 PRODUCT AND DIRECT COMBINATION EVIDENCE NOT ESTABLISHED",
+  "closure_wave": "0031D",
+  "closure_priority": "P1",
+  "source_domain": "Exact parent forms, 10:10 assay, formulation, route, co-lyophilisation, aggregation, sterility and direct fixed-ratio human evidence",
+  "evidence_type": "Critical neuropeptide-combination Product Passport gap",
+  "last_review": "2026-07-16",
+  "direct_complete_extraction": false,
+  "prohibited_use": [
+    "Personal dosing, injection, nasal-use or reconstitution guidance",
+    "Parent-component evidence as proof of combination efficacy or safety",
+    "Authorised, trial or sponsor-controlled evidence transfer to supplier blends",
+    "Assumption of identity, ratio, compatibility, stability or sterility"
+  ]
+}

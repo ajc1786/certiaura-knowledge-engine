@@ -1,0 +1,21 @@
+{
+  "asset_id": "CERT-EKS-000273",
+  "asset_name": "Four-Component Repair Blend FDA Parent Safety Controls",
+  "root_asset": "CERT-PKS-000083",
+  "knowledge_system": "EKS",
+  "asset_type": "Priority Combination Evidence Closure Object",
+  "version": "0.2.0",
+  "status": "AUTHORITATIVE PARENT SAFETY CONTROLS IDENTIFIED",
+  "closure_wave": "0031D",
+  "closure_priority": "P1",
+  "source_domain": "FDA category-2 safety-risk statements for BPC-157, KPV and TB-500 fragment, plus distinct GHK-Cu identity and copper chemistry",
+  "evidence_type": "Current parent safety / identity evidence",
+  "last_review": "2026-07-16",
+  "direct_complete_extraction": false,
+  "prohibited_use": [
+    "Personal dosing, injection, nasal-use or reconstitution guidance",
+    "Parent-component evidence as proof of combination efficacy or safety",
+    "Authorised, trial or sponsor-controlled evidence transfer to supplier blends",
+    "Assumption of identity, ratio, compatibility, stability or sterility"
+  ]
+}

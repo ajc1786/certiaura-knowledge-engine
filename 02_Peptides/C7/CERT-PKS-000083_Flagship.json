@@ -3,8 +3,8 @@
   "asset_name": "BPC-157 + GHK-Cu + TB-500 + KPV Supplier Blend",
   "knowledge_system": "PKS",
   "asset_type": "Supplier Combination-Product Knowledge Asset",
-  "version": "0.1.0",
-  "status": "CATALOGUE REVIEWED / COMBINATION EVIDENCE GAP ACTIVE / NOT PLATINUM CERTIFIED",
+  "version": "0.2.0",
+  "status": "P1 EVIDENCE CLOSURE WAVE 4 / COMBINATION ANALYTICS BLOCK ACTIVE / NOT PLATINUM CERTIFIED",
   "owner": "Aidan Coleman",
   "last_review": "2026-07-16",
   "aliases": [
@@ -97,6 +97,21 @@
       "source": "CERT-PKS-000083",
       "relationship": "SUPPORTS_GOAL",
       "target": "CERT-GKS-000078"
+    },
+    {
+      "source": "CERT-PKS-000083",
+      "relationship": "HAS_PASSPORT",
+      "target": "CERT-PPS-000026"
+    },
+    {
+      "source": "CERT-PKS-000083",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000273"
+    },
+    {
+      "source": "CERT-PKS-000083",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000274"
     }
   ],
   "component_identity_verified": false,
@@ -104,5 +119,20 @@
   "coformulation_compatibility_verified": false,
   "validated_universal_human_dosing_protocol": false,
   "supplier_catalogue_proves_quality": false,
-  "platinum_certified": false
+  "platinum_certified": false,
+  "closure_wave": "0031D",
+  "closure_priority": "P1",
+  "closure_class": "FOUR-COMPONENT REPAIR BLEND / MULTI-PEPTIDE AND COPPER ANALYTICS",
+  "closure_state": "BLOCKED — FOUR COMPONENT IDENTITIES, COPPER STATE, RATIO, COMPATIBILITY, STABILITY AND COMBINATION-SPECIFIC HUMAN SAFETY UNVERIFIED",
+  "authoritative_product_boundary": "FDA's compounding safety-risk list includes BPC-157, KPV and the TB-500 fragment as substances with limited or absent human safety information and peptide-characterisation concerns. Adding GHK-Cu creates further copper, redox and analytical complexity.",
+  "product_passport": "CERT-PPS-000026",
+  "sterility_verified": false,
+  "authorised_product_equivalence": false,
+  "critical_closure_controls": [
+    "FDA safety gaps for BPC-157, KPV and TB-500 remain active",
+    "Four parent profiles cannot be added together as proof",
+    "Copper-mediated interaction remains unresolved",
+    "No anti-inflammatory, wound, gut or tendon-treatment claim",
+    "No dosing, injection or reconstitution protocol"
+  ]
 }

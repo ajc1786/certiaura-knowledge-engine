@@ -5,51 +5,51 @@
 </div>
 
 ---
+
 # CERT-PKS-000083 — BPC-157 + GHK-Cu + TB-500 + KPV Supplier Blend
 
-**Version:** 0.1.0  
-**Status:** CATALOGUE REVIEWED / COMBINATION EVIDENCE GAP ACTIVE / NOT PLATINUM CERTIFIED  
+**Version:** 0.2.0  
+**Priority:** P1  
+**Status:** EVIDENCE CLOSURE WAVE 4 / COMBINATION ANALYTICS BLOCK ACTIVE  
 **Last Review:** 2026-07-16
 
-## Classification
+## Closure state
 
-Four-component supplier repair, copper-peptide and inflammatory blend
+**BLOCKED — FOUR COMPONENT IDENTITIES, COPPER STATE, RATIO, COMPATIBILITY, STABILITY AND COMBINATION-SPECIFIC HUMAN SAFETY UNVERIFIED**
 
-## Components
+## Authoritative or primary-source boundary
 
-| Parent UAI | Supplier-labelled component | Quantity | Identity note |
-|---|---|---:|---|
-| `CERT-PKS-000002` | BPC-157 | 10 mg |  |
-| `CERT-PKS-000007` | GHK-Cu | 50 mg | Copper state required |
-| `CERT-PKS-000008` | TB-500 supplier component | 10 mg | Exact sequence required |
-| `CERT-PKS-000056` | KPV | 10 mg |  |
+FDA's compounding safety-risk list includes BPC-157, KPV and the TB-500 fragment as substances with limited or absent human safety information and peptide-characterisation concerns. Adding GHK-Cu creates further copper, redox and analytical complexity.
 
-## Mechanism
+## New closure evidence
 
-No validated four-component mechanism exists. Repair, copper-binding and inflammatory pathways cannot be added together as proof.
+- `CERT-EKS-000273`
+- `CERT-EKS-000274`
 
-## Evidence maturity
+## Product Passport
 
-No direct combination-specific efficacy, compatibility, PK or human-safety evidence has been closed.
+`CERT-PPS-000026`
 
-## Regulatory headline
-
-**UNAPPROVED FOUR-COMPONENT SUPPLIER BLEND / NO CLINICAL OR PRODUCT EQUIVALENCE**
-
-## Catalogue pricing
+## Catalogue records
 
 | Code | Specification | USD per kit |
 |---|---|---:|
 | KL80 | BPC-157 10 mg + GHK-Cu 50 mg + TB-500 10 mg + KPV 10 mg; 80 mg x 10 vials | $252 |
 
-## Combination-product boundary
+## Critical controls
 
-The catalogue does not prove component identity, ratio, uniformity, compatibility, stability, potency, sterility or equivalence to clinical materials.
+- FDA safety gaps for BPC-157, KPV and TB-500 remain active
+- Four parent profiles cannot be added together as proof
+- Copper-mediated interaction remains unresolved
+- No anti-inflammatory, wound, gut or tendon-treatment claim
+- No dosing, injection or reconstitution protocol
 
-## Validated compatibility or dosing protocol
+## Certification state
 
-**No**
-
-## Platinum Certified
-
-**No**
+- Component identities verified: **No**
+- Fixed ratio verified: **No**
+- Co-formulation compatibility verified: **No**
+- Sterility verified: **No**
+- Direct human combination evidence closed: **No**
+- Direct-sale gate: **Blocked**
+- Platinum Certified: **No**

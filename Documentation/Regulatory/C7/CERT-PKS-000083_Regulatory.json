@@ -1,32 +1,38 @@
 {
   "asset_uai": "CERT-PKS-000083",
   "asset_name": "BPC-157 + GHK-Cu + TB-500 + KPV Supplier Blend",
+  "version": "0.2.0",
   "status_as_of": "2026-07-16",
-  "overall_status": "UNAPPROVED FOUR-COMPONENT SUPPLIER BLEND / NO CLINICAL OR PRODUCT EQUIVALENCE",
+  "closure_wave": "0031D",
+  "overall_status": "BLOCKED — FOUR COMPONENT IDENTITIES, COPPER STATE, RATIO, COMPATIBILITY, STABILITY AND COMBINATION-SPECIFIC HUMAN SAFETY UNVERIFIED",
   "regulatory_records": [
     {
       "jurisdiction": "United States",
       "authority": "FDA",
-      "current_status": "No supplier-blend approval or equivalence claim.",
-      "monitoring_state": "ACTIVE"
+      "current_status": "No KL80 approval; BPC-157, KPV and TB-500 safety-information gaps remain active.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Identity, approval, trial, compounding, warning, enforcement, safety or anti-doping change"
     },
     {
       "jurisdiction": "United Kingdom",
       "authority": "MHRA",
-      "current_status": "No marketing-authorisation claim for the supplier blend.",
-      "monitoring_state": "ACTIVE"
+      "current_status": "No marketing-authorisation claim.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Identity, approval, trial, compounding, warning, enforcement, safety or anti-doping change"
     },
     {
       "jurisdiction": "European Union",
-      "authority": "EMA / European Commission",
-      "current_status": "No marketing-authorisation claim for the supplier blend.",
-      "monitoring_state": "ACTIVE"
+      "authority": "EMA / national authorities",
+      "current_status": "No marketing-authorisation claim.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Identity, approval, trial, compounding, warning, enforcement, safety or anti-doping change"
     },
     {
       "jurisdiction": "International sport",
       "authority": "WADA",
-      "current_status": "Status depends on every component and current verification.",
-      "monitoring_state": "ACTIVE"
+      "current_status": "Current component-by-component verification required.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Identity, approval, trial, compounding, warning, enforcement, safety or anti-doping change"
     }
   ]
 }

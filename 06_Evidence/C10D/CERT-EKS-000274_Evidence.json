@@ -1,0 +1,21 @@
+{
+  "asset_id": "CERT-EKS-000274",
+  "asset_name": "KL80 Four-Component Ratio, Copper and Stability Gap",
+  "root_asset": "CERT-PKS-000083",
+  "knowledge_system": "EKS",
+  "asset_type": "Priority Combination Evidence Closure Object",
+  "version": "0.2.0",
+  "status": "OPEN — KL80 PRODUCT ANALYTICS NOT ESTABLISHED",
+  "closure_wave": "0031D",
+  "closure_priority": "P1",
+  "source_domain": "10:50:10:10 component assay, identity, copper state, co-lyophilisation, aggregation, immunogenicity, sterility and direct combination evidence",
+  "evidence_type": "Critical four-component analytical gap",
+  "last_review": "2026-07-16",
+  "direct_complete_extraction": false,
+  "prohibited_use": [
+    "Personal dosing, injection, nasal-use or reconstitution guidance",
+    "Parent-component evidence as proof of combination efficacy or safety",
+    "Authorised, trial or sponsor-controlled evidence transfer to supplier blends",
+    "Assumption of identity, ratio, compatibility, stability or sterility"
+  ]
+}

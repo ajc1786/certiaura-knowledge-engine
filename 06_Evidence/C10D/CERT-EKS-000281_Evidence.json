@@ -1,0 +1,21 @@
+{
+  "asset_id": "CERT-EKS-000281",
+  "asset_name": "Modified GRF (1-29) and Ipamorelin Separate Identity Evidence",
+  "root_asset": "CERT-PKS-000088",
+  "knowledge_system": "EKS",
+  "asset_type": "Priority Combination Evidence Closure Object",
+  "version": "0.2.0",
+  "status": "PARENT MOLECULAR CONTEXT IDENTIFIED — BLEND NON-EQUIVALENCE ACTIVE",
+  "closure_wave": "0031D",
+  "closure_priority": "P1",
+  "source_domain": "Primary GRF(1-29) analogue literature, primary ipamorelin sequence and pharmacology, and explicit exclusion of CJC-1295 with DAC",
+  "evidence_type": "Parent identity / pharmacology evidence",
+  "last_review": "2026-07-16",
+  "direct_complete_extraction": false,
+  "prohibited_use": [
+    "Personal dosing, injection, nasal-use or reconstitution guidance",
+    "Parent-component evidence as proof of combination efficacy or safety",
+    "Authorised, trial or sponsor-controlled evidence transfer to supplier blends",
+    "Assumption of identity, ratio, compatibility, stability or sterility"
+  ]
+}

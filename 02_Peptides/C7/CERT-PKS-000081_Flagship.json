@@ -3,8 +3,8 @@
   "asset_name": "BPC-157 + TB Supplier Blend Family",
   "knowledge_system": "PKS",
   "asset_type": "Supplier Combination-Product Knowledge Asset",
-  "version": "0.1.0",
-  "status": "CATALOGUE REVIEWED / COMBINATION EVIDENCE GAP ACTIVE / NOT PLATINUM CERTIFIED",
+  "version": "0.2.0",
+  "status": "P1 EVIDENCE CLOSURE WAVE 4 / COMBINATION ANALYTICS BLOCK ACTIVE / NOT PLATINUM CERTIFIED",
   "owner": "Aidan Coleman",
   "last_review": "2026-07-16",
   "aliases": [
@@ -86,6 +86,21 @@
       "source": "CERT-PKS-000081",
       "relationship": "SUPPORTS_GOAL",
       "target": "CERT-GKS-000078"
+    },
+    {
+      "source": "CERT-PKS-000081",
+      "relationship": "HAS_PASSPORT",
+      "target": "CERT-PPS-000024"
+    },
+    {
+      "source": "CERT-PKS-000081",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000269"
+    },
+    {
+      "source": "CERT-PKS-000081",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000270"
     }
   ],
   "component_identity_verified": false,
@@ -93,5 +108,20 @@
   "coformulation_compatibility_verified": false,
   "validated_universal_human_dosing_protocol": false,
   "supplier_catalogue_proves_quality": false,
-  "platinum_certified": false
+  "platinum_certified": false,
+  "closure_wave": "0031D",
+  "closure_priority": "P1",
+  "closure_class": "TWO-COMPONENT REPAIR BLEND / TB FRAGMENT AND RATIO IDENTITY",
+  "closure_state": "BLOCKED — EXACT TB COMPONENT, BPC-157 FORM, FIXED RATIO, CO-LYOPHILISATION, STABILITY AND HUMAN COMBINATION EVIDENCE UNVERIFIED",
+  "authoritative_product_boundary": "FDA identifies BPC-157 and thymosin beta-4 fragment LKKTETQ, also called TB-500, among bulk substances that may present significant safety risks in compounding. The catalogue term TB does not by itself establish full-length thymosin beta-4, the LKKTETQ fragment or another sequence.",
+  "product_passport": "CERT-PPS-000024",
+  "sterility_verified": false,
+  "authorised_product_equivalence": false,
+  "critical_closure_controls": [
+    "BB4, BB10 and BB20 remain separate strength SKUs within one blend family",
+    "TB is not assumed to be full-length thymosin beta-4",
+    "Component evidence is not combination evidence",
+    "No repair, tendon, injury or healing claim",
+    "No dosing, injection or reconstitution protocol"
+  ]
 }

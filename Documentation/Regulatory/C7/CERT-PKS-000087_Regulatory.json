@@ -1,32 +1,38 @@
 {
   "asset_uai": "CERT-PKS-000087",
   "asset_name": "Semax + Selank Supplier Blend",
+  "version": "0.2.0",
   "status_as_of": "2026-07-16",
-  "overall_status": "UNAPPROVED SUPPLIER NEUROPEPTIDE COMBINATION / REGIONAL PARENT STATUS DOES NOT TRANSFER",
+  "closure_wave": "0031D",
+  "overall_status": "BLOCKED — EXACT PARENT FORMS, FIXED RATIO, CO-FORMULATION, ROUTE, STABILITY AND DIRECT COMBINATION HUMAN EVIDENCE UNVERIFIED",
   "regulatory_records": [
     {
       "jurisdiction": "United States",
       "authority": "FDA",
-      "current_status": "No supplier-blend approval or equivalence claim.",
-      "monitoring_state": "ACTIVE"
+      "current_status": "Semax and selank acetate have compounding safety-risk controls; no XS20 approval.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Identity, approval, trial, compounding, warning, enforcement, safety or anti-doping change"
     },
     {
       "jurisdiction": "United Kingdom",
       "authority": "MHRA",
-      "current_status": "No marketing-authorisation claim for the supplier blend.",
-      "monitoring_state": "ACTIVE"
+      "current_status": "No marketing-authorisation claim.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Identity, approval, trial, compounding, warning, enforcement, safety or anti-doping change"
     },
     {
       "jurisdiction": "European Union",
-      "authority": "EMA / European Commission",
-      "current_status": "No marketing-authorisation claim for the supplier blend.",
-      "monitoring_state": "ACTIVE"
+      "authority": "EMA / national authorities",
+      "current_status": "No marketing-authorisation claim.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Identity, approval, trial, compounding, warning, enforcement, safety or anti-doping change"
     },
     {
       "jurisdiction": "International sport",
       "authority": "WADA",
-      "current_status": "Status depends on every component and current verification.",
-      "monitoring_state": "ACTIVE"
+      "current_status": "Current component-by-component verification required.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Identity, approval, trial, compounding, warning, enforcement, safety or anti-doping change"
     }
   ]
 }

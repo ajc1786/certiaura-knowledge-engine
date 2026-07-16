@@ -5,49 +5,51 @@
 </div>
 
 ---
+
 # CERT-PKS-000085 — Retatrutide + Cagrilintide Supplier Blend
 
-**Version:** 0.1.0  
-**Status:** CATALOGUE REVIEWED / COMBINATION EVIDENCE GAP ACTIVE / NOT PLATINUM CERTIFIED  
+**Version:** 0.2.0  
+**Priority:** P1  
+**Status:** EVIDENCE CLOSURE WAVE 4 / COMBINATION ANALYTICS BLOCK ACTIVE  
 **Last Review:** 2026-07-16
 
-## Classification
+## Closure state
 
-Fixed-ratio supplier triple-agonist and amylin-analogue combination
+**BLOCKED — EXACT COMPONENT FORMS, FIXED RATIO, CO-FORMULATION, DIRECT HUMAN COMBINATION EVIDENCE AND REGULATORY STATUS UNVERIFIED**
 
-## Components
+## Authoritative or primary-source boundary
 
-| Parent UAI | Supplier-labelled component | Quantity | Identity note |
-|---|---|---:|---|
-| `CERT-PKS-000001` | Retatrutide | 5 mg |  |
-| `CERT-PKS-000013` | Cagrilintide | 5 mg |  |
+Retatrutide and cagrilintide have separate sponsor-controlled clinical-development programmes. An exact ClinicalTrials.gov search did not identify a registered retatrutide-plus-cagrilintide study for RC10 as of the review date. Separate monotherapy or comparator trials do not establish the supplier blend.
 
-## Mechanism
+## New closure evidence
 
-Theoretical multi-receptor activity is not evidence of safe or effective combined human use.
+- `CERT-EKS-000275`
+- `CERT-EKS-000276`
 
-## Evidence maturity
+## Product Passport
 
-No direct combination-specific primary evidence has been closed into CertiAura.
+`CERT-PPS-000027`
 
-## Regulatory headline
-
-**UNAPPROVED SUPPLIER METABOLIC COMBINATION / PRODUCT-SPECIFIC HUMAN EVIDENCE NOT CLOSED**
-
-## Catalogue pricing
+## Catalogue records
 
 | Code | Specification | USD per kit |
 |---|---|---:|
 | RC10 | Retatrutide 5 mg + Cagrilintide 5 mg; 10 mg x 10 vials | $165 |
 
-## Combination-product boundary
+## Critical controls
 
-The catalogue does not prove component identity, ratio, uniformity, compatibility, stability, potency, sterility or equivalence to clinical materials.
+- No direct RC10 human-combination evidence is closed
+- Retatrutide and cagrilintide monotherapy evidence cannot be combined
+- Broad GLP-1, GIP, glucagon, amylin and calcitonin-family exposure remains experimental
+- No weight-loss or diabetes-treatment claim
+- No dosing, injection or reconstitution protocol
 
-## Validated compatibility or dosing protocol
+## Certification state
 
-**No**
-
-## Platinum Certified
-
-**No**
+- Component identities verified: **No**
+- Fixed ratio verified: **No**
+- Co-formulation compatibility verified: **No**
+- Sterility verified: **No**
+- Direct human combination evidence closed: **No**
+- Direct-sale gate: **Blocked**
+- Platinum Certified: **No**

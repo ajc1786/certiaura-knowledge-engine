@@ -5,8 +5,25 @@
 </div>
 
 ---
+
 # MODIFIED GRF (1-29) + IPAMORELIN SUPPLIER BLEND COMMERCIAL USE BOUNDARY
 
-Permitted: supplier-ratio reporting, identity correction, component crosswalks and Product Passport™ gap analysis.
+## Permitted
 
-Prohibited: CJC-1295-with-DAC evidence transfer, compatibility claims, treatment guidance, dosing, cycling, reconstitution and authorised-product equivalence.
+- exact component, ratio and catalogue reporting;
+- parent-product or clinical-programme comparison with explicit non-equivalence;
+- Product Passport™ analytical-gap reporting;
+- safety, regulatory and stability education.
+
+## Prohibited
+
+- additive or synergistic efficacy claims;
+- treatment, performance, repair, metabolic, cognitive or GH-use protocols;
+- dosing, injection, nasal-use or reconstitution guidance;
+- authorised-product, trial-material or sponsor-material equivalence;
+- guaranteed component identity, ratio, potency, compatibility, sterility or stability;
+- direct-sale activation while critical passport fields remain open.
+
+## Activation gate
+
+Commercial use beyond evidence and gap reporting remains blocked.

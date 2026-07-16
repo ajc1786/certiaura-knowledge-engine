@@ -3,8 +3,8 @@
   "asset_name": "BPC-157 + GHK-Cu + TB-500 Supplier Blend",
   "knowledge_system": "PKS",
   "asset_type": "Supplier Combination-Product Knowledge Asset",
-  "version": "0.1.0",
-  "status": "CATALOGUE REVIEWED / COMBINATION EVIDENCE GAP ACTIVE / NOT PLATINUM CERTIFIED",
+  "version": "0.2.0",
+  "status": "P1 EVIDENCE CLOSURE WAVE 4 / COMBINATION ANALYTICS BLOCK ACTIVE / NOT PLATINUM CERTIFIED",
   "owner": "Aidan Coleman",
   "last_review": "2026-07-16",
   "aliases": [
@@ -86,6 +86,21 @@
       "source": "CERT-PKS-000082",
       "relationship": "SUPPORTS_GOAL",
       "target": "CERT-GKS-000078"
+    },
+    {
+      "source": "CERT-PKS-000082",
+      "relationship": "HAS_PASSPORT",
+      "target": "CERT-PPS-000025"
+    },
+    {
+      "source": "CERT-PKS-000082",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000271"
+    },
+    {
+      "source": "CERT-PKS-000082",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000272"
     }
   ],
   "component_identity_verified": false,
@@ -93,5 +108,20 @@
   "coformulation_compatibility_verified": false,
   "validated_universal_human_dosing_protocol": false,
   "supplier_catalogue_proves_quality": false,
-  "platinum_certified": false
+  "platinum_certified": false,
+  "closure_wave": "0031D",
+  "closure_priority": "P1",
+  "closure_class": "THREE-COMPONENT REPAIR BLEND / COPPER AND PEPTIDE COMPATIBILITY",
+  "closure_state": "BLOCKED — COMPONENT IDENTITIES, COPPER STOICHIOMETRY, FIXED RATIO, REDOX STABILITY, AGGREGATION AND HUMAN COMBINATION EVIDENCE UNVERIFIED",
+  "authoritative_product_boundary": "The blend combines a supplier-labelled BPC-157 component, a copper-peptide complex and a supplier-labelled TB-500 component. Individual research on BPC-157, GHK-Cu or thymosin fragments does not establish chemical compatibility, retained potency or combined clinical benefit in BBG70.",
+  "product_passport": "CERT-PPS-000025",
+  "sterility_verified": false,
+  "authorised_product_equivalence": false,
+  "critical_closure_controls": [
+    "GHK-Cu is not interchangeable with free GHK or AHK-Cu",
+    "Copper can materially alter mixed-product stability",
+    "TB-500 identity remains sequence-sensitive",
+    "No additive or synergistic repair claim",
+    "No dosing, injection or reconstitution protocol"
+  ]
 }

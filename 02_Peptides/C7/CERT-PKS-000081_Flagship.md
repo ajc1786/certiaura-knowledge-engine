@@ -5,36 +5,32 @@
 </div>
 
 ---
+
 # CERT-PKS-000081 — BPC-157 + TB Supplier Blend Family
 
-**Version:** 0.1.0  
-**Status:** CATALOGUE REVIEWED / COMBINATION EVIDENCE GAP ACTIVE / NOT PLATINUM CERTIFIED  
+**Version:** 0.2.0  
+**Priority:** P1  
+**Status:** EVIDENCE CLOSURE WAVE 4 / COMBINATION ANALYTICS BLOCK ACTIVE  
 **Last Review:** 2026-07-16
 
-## Classification
+## Closure state
 
-Fixed-ratio supplier repair-peptide blend family
+**BLOCKED — EXACT TB COMPONENT, BPC-157 FORM, FIXED RATIO, CO-LYOPHILISATION, STABILITY AND HUMAN COMBINATION EVIDENCE UNVERIFIED**
 
-## Components
+## Authoritative or primary-source boundary
 
-| Parent UAI | Supplier-labelled component | Quantity | Identity note |
-|---|---|---:|---|
-| `CERT-PKS-000002` | BPC-157 | 1 part |  |
-| `CERT-PKS-000008` | Supplier-labelled TB / TB-500 | 1 part | Exact fragment sequence required |
+FDA identifies BPC-157 and thymosin beta-4 fragment LKKTETQ, also called TB-500, among bulk substances that may present significant safety risks in compounding. The catalogue term TB does not by itself establish full-length thymosin beta-4, the LKKTETQ fragment or another sequence.
 
-## Mechanism
+## New closure evidence
 
-No combination mechanism is validated. Component pairing does not establish interaction, compatibility or combined biological benefit.
+- `CERT-EKS-000269`
+- `CERT-EKS-000270`
 
-## Evidence maturity
+## Product Passport
 
-Component evidence is preclinical-dominant. No direct fixed-ratio blend evidence has been closed into CertiAura.
+`CERT-PPS-000024`
 
-## Regulatory headline
-
-**UNAPPROVED SUPPLIER COMBINATION / COMPONENT AND CO-FORMULATION EVIDENCE INSUFFICIENT**
-
-## Catalogue pricing
+## Catalogue records
 
 | Code | Specification | USD per kit |
 |---|---|---:|
@@ -42,14 +38,20 @@ Component evidence is preclinical-dominant. No direct fixed-ratio blend evidence
 | BB10 | BPC 5 mg + TB 5 mg; 10 mg x 10 vials | $116 |
 | BB20 | BPC 10 mg + TB 10 mg; 20 mg x 10 vials | $230 |
 
-## Combination-product boundary
+## Critical controls
 
-The catalogue does not prove component identity, ratio, uniformity, compatibility, stability, potency, sterility or equivalence to clinical materials.
+- BB4, BB10 and BB20 remain separate strength SKUs within one blend family
+- TB is not assumed to be full-length thymosin beta-4
+- Component evidence is not combination evidence
+- No repair, tendon, injury or healing claim
+- No dosing, injection or reconstitution protocol
 
-## Validated compatibility or dosing protocol
+## Certification state
 
-**No**
-
-## Platinum Certified
-
-**No**
+- Component identities verified: **No**
+- Fixed ratio verified: **No**
+- Co-formulation compatibility verified: **No**
+- Sterility verified: **No**
+- Direct human combination evidence closed: **No**
+- Direct-sale gate: **Blocked**
+- Platinum Certified: **No**

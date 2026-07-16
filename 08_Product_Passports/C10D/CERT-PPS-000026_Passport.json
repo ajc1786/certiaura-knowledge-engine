@@ -1,0 +1,60 @@
+{
+  "asset_id": "CERT-PPS-000026",
+  "asset_name": "BPC-157 + GHK-Cu + TB-500 + KPV Supplier Blend Product Passport",
+  "knowledge_system": "PPS",
+  "asset_type": "Combination Product Passport Gap Object",
+  "version": "0.2.0",
+  "status": "P1 OPEN / NOT CERTIFIED",
+  "parent_product": "CERT-PKS-000083",
+  "closure_wave": "0031D",
+  "closure_priority": "P1",
+  "last_review": "2026-07-16",
+  "required_fields": [
+    {
+      "field": "BPC-157 exact identity and form",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical, stability and regulatory evidence"
+    },
+    {
+      "field": "GHK-Cu identity, copper stoichiometry and oxidation state",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical, stability and regulatory evidence"
+    },
+    {
+      "field": "TB-500 exact fragment sequence",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical, stability and regulatory evidence"
+    },
+    {
+      "field": "KPV sequence, termini and salt",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical, stability and regulatory evidence"
+    },
+    {
+      "field": "per-component assay and 10:50:10:10 mass ratio",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical, stability and regulatory evidence"
+    },
+    {
+      "field": "co-lyophilisation, redox, aggregation and stability",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical, stability and regulatory evidence"
+    },
+    {
+      "field": "manufacturer, batch, sterility, endotoxin and particles",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical, stability and regulatory evidence"
+    },
+    {
+      "field": "combination-specific PK, toxicology, immunogenicity and human evidence",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, analytical, stability and regulatory evidence"
+    }
+  ],
+  "component_identity_certified": false,
+  "ratio_certified": false,
+  "compatibility_certified": false,
+  "quality_certified": false,
+  "sterility_certified": false,
+  "clinical_material_equivalence": false
+}

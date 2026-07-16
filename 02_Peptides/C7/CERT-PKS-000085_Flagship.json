@@ -3,8 +3,8 @@
   "asset_name": "Retatrutide + Cagrilintide Supplier Blend",
   "knowledge_system": "PKS",
   "asset_type": "Supplier Combination-Product Knowledge Asset",
-  "version": "0.1.0",
-  "status": "CATALOGUE REVIEWED / COMBINATION EVIDENCE GAP ACTIVE / NOT PLATINUM CERTIFIED",
+  "version": "0.2.0",
+  "status": "P1 EVIDENCE CLOSURE WAVE 4 / COMBINATION ANALYTICS BLOCK ACTIVE / NOT PLATINUM CERTIFIED",
   "owner": "Aidan Coleman",
   "last_review": "2026-07-16",
   "aliases": [
@@ -75,6 +75,21 @@
       "source": "CERT-PKS-000085",
       "relationship": "SUPPORTS_GOAL",
       "target": "CERT-GKS-000079"
+    },
+    {
+      "source": "CERT-PKS-000085",
+      "relationship": "HAS_PASSPORT",
+      "target": "CERT-PPS-000027"
+    },
+    {
+      "source": "CERT-PKS-000085",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000275"
+    },
+    {
+      "source": "CERT-PKS-000085",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000276"
     }
   ],
   "component_identity_verified": false,
@@ -82,5 +97,20 @@
   "coformulation_compatibility_verified": false,
   "validated_universal_human_dosing_protocol": false,
   "supplier_catalogue_proves_quality": false,
-  "platinum_certified": false
+  "platinum_certified": false,
+  "closure_wave": "0031D",
+  "closure_priority": "P1",
+  "closure_class": "EXPERIMENTAL MULTI-RECEPTOR METABOLIC COMBINATION",
+  "closure_state": "BLOCKED — EXACT COMPONENT FORMS, FIXED RATIO, CO-FORMULATION, DIRECT HUMAN COMBINATION EVIDENCE AND REGULATORY STATUS UNVERIFIED",
+  "authoritative_product_boundary": "Retatrutide and cagrilintide have separate sponsor-controlled clinical-development programmes. An exact ClinicalTrials.gov search did not identify a registered retatrutide-plus-cagrilintide study for RC10 as of the review date. Separate monotherapy or comparator trials do not establish the supplier blend.",
+  "product_passport": "CERT-PPS-000027",
+  "sterility_verified": false,
+  "authorised_product_equivalence": false,
+  "critical_closure_controls": [
+    "No direct RC10 human-combination evidence is closed",
+    "Retatrutide and cagrilintide monotherapy evidence cannot be combined",
+    "Broad GLP-1, GIP, glucagon, amylin and calcitonin-family exposure remains experimental",
+    "No weight-loss or diabetes-treatment claim",
+    "No dosing, injection or reconstitution protocol"
+  ]
 }

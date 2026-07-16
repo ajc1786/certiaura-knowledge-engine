@@ -1,32 +1,38 @@
 {
   "asset_uai": "CERT-PKS-000086",
   "asset_name": "Tesamorelin + Ipamorelin Supplier Blend",
+  "version": "0.2.0",
   "status_as_of": "2026-07-16",
-  "overall_status": "UNAPPROVED SUPPLIER GH-AXIS COMBINATION / TESAMORELIN MEDICINE STATUS DOES NOT TRANSFER",
+  "closure_wave": "0031D",
+  "overall_status": "BLOCKED — EXACT COMPONENT FORMS, 2:1 RATIO, COMBINATION PK/PD, STABILITY AND DIRECT HUMAN EVIDENCE UNVERIFIED",
   "regulatory_records": [
     {
       "jurisdiction": "United States",
-      "authority": "FDA",
-      "current_status": "No supplier-blend approval or equivalence claim.",
-      "monitoring_state": "ACTIVE"
+      "authority": "FDA / DailyMed",
+      "current_status": "EGRIFTA WR is an exact tesamorelin product and does not validate TI18.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Identity, approval, trial, compounding, warning, enforcement, safety or anti-doping change"
     },
     {
       "jurisdiction": "United Kingdom",
       "authority": "MHRA",
-      "current_status": "No marketing-authorisation claim for the supplier blend.",
-      "monitoring_state": "ACTIVE"
+      "current_status": "No TI18 marketing-authorisation or EGRIFTA-equivalence claim.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Identity, approval, trial, compounding, warning, enforcement, safety or anti-doping change"
     },
     {
       "jurisdiction": "European Union",
-      "authority": "EMA / European Commission",
-      "current_status": "No marketing-authorisation claim for the supplier blend.",
-      "monitoring_state": "ACTIVE"
+      "authority": "EMA / national authorities",
+      "current_status": "No TI18 marketing-authorisation claim.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Identity, approval, trial, compounding, warning, enforcement, safety or anti-doping change"
     },
     {
       "jurisdiction": "International sport",
       "authority": "WADA",
-      "current_status": "Status depends on every component and current verification.",
-      "monitoring_state": "ACTIVE"
+      "current_status": "Current component-by-component verification required.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Identity, approval, trial, compounding, warning, enforcement, safety or anti-doping change"
     }
   ]
 }

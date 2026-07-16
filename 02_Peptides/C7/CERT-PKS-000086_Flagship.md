@@ -5,49 +5,51 @@
 </div>
 
 ---
+
 # CERT-PKS-000086 — Tesamorelin + Ipamorelin Supplier Blend
 
-**Version:** 0.1.0  
-**Status:** CATALOGUE REVIEWED / COMBINATION EVIDENCE GAP ACTIVE / NOT PLATINUM CERTIFIED  
+**Version:** 0.2.0  
+**Priority:** P1  
+**Status:** EVIDENCE CLOSURE WAVE 4 / COMBINATION ANALYTICS BLOCK ACTIVE  
 **Last Review:** 2026-07-16
 
-## Classification
+## Closure state
 
-Fixed-ratio GHRH-analogue and ghrelin-receptor-agonist supplier blend
+**BLOCKED — EXACT COMPONENT FORMS, 2:1 RATIO, COMBINATION PK/PD, STABILITY AND DIRECT HUMAN EVIDENCE UNVERIFIED**
 
-## Components
+## Authoritative or primary-source boundary
 
-| Parent UAI | Supplier-labelled component | Quantity | Identity note |
-|---|---|---:|---|
-| `CERT-PKS-000003` | Tesamorelin | 12 mg |  |
-| `CERT-PKS-000005` | Ipamorelin | 6 mg |  |
+EGRIFTA WR is an exact tesamorelin prescription biologic for reduction of excess abdominal fat in adults with HIV lipodystrophy and is not indicated for weight loss. Ipamorelin has separate preclinical and clinical-development evidence. Neither parent programme validates the TI18 mixed vial.
 
-## Mechanism
+## New closure evidence
 
-Combined GH/IGF-1 exposure, interaction and desensitisation cannot be inferred from the separate components.
+- `CERT-EKS-000277`
+- `CERT-EKS-000278`
 
-## Evidence maturity
+## Product Passport
 
-No direct fixed-ratio combination-specific human evidence has been closed. Authorised tesamorelin evidence does not transfer.
+`CERT-PPS-000028`
 
-## Regulatory headline
-
-**UNAPPROVED SUPPLIER GH-AXIS COMBINATION / TESAMORELIN MEDICINE STATUS DOES NOT TRANSFER**
-
-## Catalogue pricing
+## Catalogue records
 
 | Code | Specification | USD per kit |
 |---|---|---:|
 | TI18 | Tesamorelin 12 mg + Ipamorelin 6 mg; 18 mg x 10 vials | $280 |
 
-## Combination-product boundary
+## Critical controls
 
-The catalogue does not prove component identity, ratio, uniformity, compatibility, stability, potency, sterility or equivalence to clinical materials.
+- TI18 is not EGRIFTA WR or EGRIFTA SV
+- EGRIFTA formulations are exact products and not interchangeable
+- Ipamorelin evidence does not establish this combination
+- Neoplasm, IGF-1, glucose and fluid-retention controls remain active
+- No weight-loss, GH, dosing, injection or reconstitution protocol
 
-## Validated compatibility or dosing protocol
+## Certification state
 
-**No**
-
-## Platinum Certified
-
-**No**
+- Component identities verified: **No**
+- Fixed ratio verified: **No**
+- Co-formulation compatibility verified: **No**
+- Sterility verified: **No**
+- Direct human combination evidence closed: **No**
+- Direct-sale gate: **Blocked**
+- Platinum Certified: **No**

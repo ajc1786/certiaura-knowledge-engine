@@ -1,0 +1,21 @@
+{
+  "asset_id": "CERT-EKS-000282",
+  "asset_name": "CP10/CP20 Ratio, Compatibility, GH-Axis and Human-Evidence Gap",
+  "root_asset": "CERT-PKS-000088",
+  "knowledge_system": "EKS",
+  "asset_type": "Priority Combination Evidence Closure Object",
+  "version": "0.2.0",
+  "status": "OPEN — CP10/CP20 PRODUCT AND HUMAN COMBINATION EVIDENCE NOT ESTABLISHED",
+  "closure_wave": "0031D",
+  "closure_priority": "P1",
+  "source_domain": "Exact Modified GRF substitutions, ipamorelin form, 1:1 assay, co-lyophilisation, GH/IGF-1 interaction, stability, sterility and direct human combination evidence",
+  "evidence_type": "Critical GH-axis combination Product Passport gap",
+  "last_review": "2026-07-16",
+  "direct_complete_extraction": false,
+  "prohibited_use": [
+    "Personal dosing, injection, nasal-use or reconstitution guidance",
+    "Parent-component evidence as proof of combination efficacy or safety",
+    "Authorised, trial or sponsor-controlled evidence transfer to supplier blends",
+    "Assumption of identity, ratio, compatibility, stability or sterility"
+  ]
+}

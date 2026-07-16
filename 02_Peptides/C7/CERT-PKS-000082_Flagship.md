@@ -5,50 +5,51 @@
 </div>
 
 ---
+
 # CERT-PKS-000082 — BPC-157 + GHK-Cu + TB-500 Supplier Blend
 
-**Version:** 0.1.0  
-**Status:** CATALOGUE REVIEWED / COMBINATION EVIDENCE GAP ACTIVE / NOT PLATINUM CERTIFIED  
+**Version:** 0.2.0  
+**Priority:** P1  
+**Status:** EVIDENCE CLOSURE WAVE 4 / COMBINATION ANALYTICS BLOCK ACTIVE  
 **Last Review:** 2026-07-16
 
-## Classification
+## Closure state
 
-Three-component supplier repair and copper-peptide blend
+**BLOCKED — COMPONENT IDENTITIES, COPPER STOICHIOMETRY, FIXED RATIO, REDOX STABILITY, AGGREGATION AND HUMAN COMBINATION EVIDENCE UNVERIFIED**
 
-## Components
+## Authoritative or primary-source boundary
 
-| Parent UAI | Supplier-labelled component | Quantity | Identity note |
-|---|---|---:|---|
-| `CERT-PKS-000002` | BPC-157 | 10 mg |  |
-| `CERT-PKS-000007` | GHK-Cu | 50 mg | Copper state required |
-| `CERT-PKS-000008` | TB-500 supplier component | 10 mg | Exact sequence required |
+The blend combines a supplier-labelled BPC-157 component, a copper-peptide complex and a supplier-labelled TB-500 component. Individual research on BPC-157, GHK-Cu or thymosin fragments does not establish chemical compatibility, retained potency or combined clinical benefit in BBG70.
 
-## Mechanism
+## New closure evidence
 
-No combined mechanism is validated. Copper-complex chemistry and multi-peptide interaction may differ from the separate components.
+- `CERT-EKS-000271`
+- `CERT-EKS-000272`
 
-## Evidence maturity
+## Product Passport
 
-No direct combination-specific efficacy, compatibility or human-safety evidence has been closed.
+`CERT-PPS-000025`
 
-## Regulatory headline
-
-**UNAPPROVED THREE-COMPONENT SUPPLIER BLEND / NO MEDICINAL EQUIVALENCE**
-
-## Catalogue pricing
+## Catalogue records
 
 | Code | Specification | USD per kit |
 |---|---|---:|
 | BBG70 | BPC-157 10 mg + GHK-Cu 50 mg + TB-500 10 mg; 70 mg x 10 vials | $219 |
 
-## Combination-product boundary
+## Critical controls
 
-The catalogue does not prove component identity, ratio, uniformity, compatibility, stability, potency, sterility or equivalence to clinical materials.
+- GHK-Cu is not interchangeable with free GHK or AHK-Cu
+- Copper can materially alter mixed-product stability
+- TB-500 identity remains sequence-sensitive
+- No additive or synergistic repair claim
+- No dosing, injection or reconstitution protocol
 
-## Validated compatibility or dosing protocol
+## Certification state
 
-**No**
-
-## Platinum Certified
-
-**No**
+- Component identities verified: **No**
+- Fixed ratio verified: **No**
+- Co-formulation compatibility verified: **No**
+- Sterility verified: **No**
+- Direct human combination evidence closed: **No**
+- Direct-sale gate: **Blocked**
+- Platinum Certified: **No**

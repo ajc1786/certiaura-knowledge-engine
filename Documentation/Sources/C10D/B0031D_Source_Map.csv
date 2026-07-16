@@ -1,0 +1,13 @@
+Asset,Source,URL,Purpose
+"BPC-157, KPV, TB-500, Semax, Selank",FDA significant compounding safety-risk list,https://www.fda.gov/drugs/human-drug-compounding/certain-bulk-drug-substances-use-compounding-may-present-significant-safety-risks,"Current immunogenicity, aggregation, impurity and limited-human-data controls"
+All supplier blends,FDA compounded-drug risk guidance,https://www.fda.gov/drugs/human-drug-compounding/understanding-risks-compounded-drugs,"Compounded products are not FDA approved and may have quality, potency and contamination risks"
+Thymosin beta-4,FDA GenoGenix warning letter,https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/genogenix-llc-718739-01202026,2026 unapproved biological-product and misbranding boundary
+Retatrutide,ClinicalTrials.gov NCT06260722,https://clinicaltrials.gov/study/NCT06260722,Current separate retatrutide phase 3 development
+Cagrilintide,ClinicalTrials.gov NCT07557953,https://clinicaltrials.gov/study/NCT07557953,Current separate cagrilintide development
+Retatrutide + cagrilintide,ClinicalTrials.gov exact search,https://clinicaltrials.gov/search?term=retatrutide%20cagrilintide,Exact-combination registry search; no RC10 equivalence claim
+Tesamorelin,DailyMed EGRIFTA WR label,https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=839334d3-8c1d-4c26-9036-2ab524a6ea75,"Exact authorised product, indication, formulation and non-substitutability"
+Ipamorelin,Primary pharmacology publication,https://pubmed.ncbi.nlm.nih.gov/9849822/,Ipamorelin sequence and selective GH-secretagogue pharmacology
+Ipamorelin,Primary human PK/PD publication,https://pubmed.ncbi.nlm.nih.gov/10496658/,Separate human ipamorelin pharmacology; not combination evidence
+Semax and Selank,Primary shared mechanistic publication,https://pubmed.ncbi.nlm.nih.gov/11443939/,Separate heptapeptide effects on serum peptidases; not fixed-ratio clinical evidence
+Modified GRF (1-29),Primary GRF analogue publication,https://pubmed.ncbi.nlm.nih.gov/3133968/,GRF(1-29) analogue identity context and distinction from DAC-containing CJC-1295
+Modified GRF (1-29),Primary human GRF study,https://pubmed.ncbi.nlm.nih.gov/2907992/,Separate GRF(1-29) human evidence; not CP10/CP20 combination evidence
