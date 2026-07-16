@@ -1,0 +1,19 @@
+Asset,Source,URL,Purpose
+All assets,FDA Drugs@FDA,https://www.accessdata.fda.gov/scripts/cder/daf/,Exact-name and exact-molecule United States product search
+All assets,MHRA Products,https://products.mhra.gov.uk/,Exact-name and exact-molecule United Kingdom product search
+All assets,EMA Medicines,https://www.ema.europa.eu/en/medicines,Exact-name and exact-molecule European Union product search
+All assets,ClinicalTrials.gov,https://clinicaltrials.gov/,Human trial and sponsor search
+All assets,PubMed,https://pubmed.ncbi.nlm.nih.gov/,Direct primary publication search by product name and candidate sequence
+All assets,PubChem,https://pubchem.ncbi.nlm.nih.gov/,Candidate chemical-identity cross-check only; primary and analytical closure still required
+All assets,WADA Prohibited List,https://www.wada-ama.org/en/prohibited-list,Current anti-doping review after exact identity closure
+Bronchogen,Product-specific primary-source search,https://pubmed.ncbi.nlm.nih.gov/?term=Bronchogen+peptide,"Sequence, model, human and evidence-transfer review"
+Cardiogen,Product-specific primary-source search,https://pubmed.ncbi.nlm.nih.gov/?term=Cardiogen+peptide,"Sequence, model, human and evidence-transfer review"
+Cortagen,Product-specific primary-source search,https://pubmed.ncbi.nlm.nih.gov/?term=Cortagen+peptide,"Sequence, model, human and evidence-transfer review"
+Livagen,Product-specific primary-source search,https://pubmed.ncbi.nlm.nih.gov/?term=Livagen+peptide,"Sequence, model, human and evidence-transfer review"
+Pancragen,Product-specific primary-source search,https://pubmed.ncbi.nlm.nih.gov/?term=Pancragen+peptide,"Sequence, model, human and evidence-transfer review"
+Prostamax,Product-specific primary-source search,https://pubmed.ncbi.nlm.nih.gov/?term=Prostamax+peptide,"Sequence, model, human and evidence-transfer review"
+Cartalax,Product-specific primary-source search,https://pubmed.ncbi.nlm.nih.gov/?term=Cartalax+peptide,"Sequence, model, human and evidence-transfer review"
+Chonluten,Product-specific primary-source search,https://pubmed.ncbi.nlm.nih.gov/?term=Chonluten+peptide,"Sequence, model, human and evidence-transfer review"
+Crystagen,Product-specific primary-source search,https://pubmed.ncbi.nlm.nih.gov/?term=Crystagen+peptide,"Sequence, model, human and evidence-transfer review"
+Ovagen,Product-specific primary-source search,https://pubmed.ncbi.nlm.nih.gov/?term=Ovagen+peptide,"Sequence, model, human and evidence-transfer review"
+Vesugen,Product-specific primary-source search,https://pubmed.ncbi.nlm.nih.gov/?term=Vesugen+peptide,"Sequence, model, human and evidence-transfer review"

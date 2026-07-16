@@ -1,0 +1,43 @@
+{
+  "asset_uai": "CERT-PKS-000073",
+  "asset_name": "Prostamax",
+  "status_as_of": "2026-07-16",
+  "overall_status": "IDENTITY-SENSITIVE SUPPLIER PRODUCT FAMILY / NO UNIVERSAL APPROVAL OR ORGAN-TREATMENT CLAIM",
+  "regulatory_records": [
+    {
+      "jurisdiction": "United States",
+      "authority": "FDA",
+      "current_status": "No approval claim is created; exact molecule and official product-database status require direct verification.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Identity, approval, label, safety, trial, enforcement or anti-doping change"
+    },
+    {
+      "jurisdiction": "United Kingdom",
+      "authority": "MHRA",
+      "current_status": "No marketing-authorisation claim is created; exact molecule and product status require direct verification.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Identity, approval, label, safety, trial, enforcement or anti-doping change"
+    },
+    {
+      "jurisdiction": "European Union",
+      "authority": "EMA / European Commission",
+      "current_status": "No central marketing-authorisation claim is created; exact molecule and product status require direct verification.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Identity, approval, label, safety, trial, enforcement or anti-doping change"
+    },
+    {
+      "jurisdiction": "Other jurisdictions",
+      "authority": "National medicines authorities",
+      "current_status": "Any regional status must be verified by exact product, manufacturer, formulation, indication and date.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Identity, approval, label, safety, trial, enforcement or anti-doping change"
+    },
+    {
+      "jurisdiction": "International sport",
+      "authority": "WADA",
+      "current_status": "Current athlete-specific status requires authoritative verification after exact identity closure.",
+      "monitoring_state": "BLOCKED BY IDENTITY",
+      "next_review_trigger": "Identity, approval, label, safety, trial, enforcement or anti-doping change"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "asset_id": "CERT-EKS-000184",
+  "asset_name": "Vesugen Human and Regulatory Evidence Boundary",
+  "root_asset": "CERT-PKS-000078",
+  "knowledge_system": "EKS",
+  "asset_type": "Evidence Object",
+  "version": "0.1.0",
+  "status": "OPEN — ORGAN-TREATMENT AND APPROVAL CLAIMS NOT ESTABLISHED",
+  "source_domain": "Independent human trials, product comparability and current jurisdiction-specific regulatory searches",
+  "evidence_type": "Human / regulatory evidence gap",
+  "last_review": "2026-07-16",
+  "direct_complete_extraction": false,
+  "prohibited_use": [
+    "Organ-treatment, rejuvenation, longevity, dosing or reconstitution guidance",
+    "Assignment of a sequence or mechanism from secondary commercial sources",
+    "Evidence transfer between different short regulatory peptides",
+    "Claims that model-system gene expression proves human efficacy"
+  ]
+}

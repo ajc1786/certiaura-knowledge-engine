@@ -1,0 +1,19 @@
+{
+  "asset_id": "CERT-EKS-000171",
+  "asset_name": "Pancragen Chemical Identity and Primary-Source Gap",
+  "root_asset": "CERT-PKS-000072",
+  "knowledge_system": "EKS",
+  "asset_type": "Evidence Object",
+  "version": "0.1.0",
+  "status": "OPEN — CANONICAL MOLECULE NOT YET CLOSED",
+  "source_domain": "Sequence, stereochemistry, termini, molecular mass, source publication and analytical reference standard",
+  "evidence_type": "Critical identity evidence",
+  "last_review": "2026-07-16",
+  "direct_complete_extraction": false,
+  "prohibited_use": [
+    "Organ-treatment, rejuvenation, longevity, dosing or reconstitution guidance",
+    "Assignment of a sequence or mechanism from secondary commercial sources",
+    "Evidence transfer between different short regulatory peptides",
+    "Claims that model-system gene expression proves human efficacy"
+  ]
+}

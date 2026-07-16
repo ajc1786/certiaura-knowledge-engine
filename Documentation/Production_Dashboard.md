@@ -1,40 +1,43 @@
 # CERTIAURA PRODUCTION DASHBOARD
 
-**Build:** 0025A  
+**Build:** 0025B  
 **Date:** 2026-07-16
 
-## Catalogue C6A complete
+## Catalogue C6B complete
 
-### New assets
+### New supplier product-family assets
 
-- CERT-PKS-000063 — Humanin Supplier Product Family
-- CERT-PKS-000064 — FOXO4-DRI Supplier Product Family
-- CERT-PKS-000065 — N-Acetyl Epitalon Amidate
-- CERT-PKS-000066 — Vilon Supplier Product Family
-- CERT-PKS-000067 — Testagen Supplier Product Family
-
-### Existing assets retained
-
-- CERT-PKS-000006 — MOTS-c
-- CERT-PKS-000010 — Epitalon
-- CERT-PKS-000041 — Pinealon
+- CERT-PKS-000068 — Bronchogen
+- CERT-PKS-000069 — Cardiogen
+- CERT-PKS-000070 — Cortagen
+- CERT-PKS-000071 — Livagen
+- CERT-PKS-000072 — Pancragen
+- CERT-PKS-000073 — Prostamax
+- CERT-PKS-000074 — Cartalax
+- CERT-PKS-000075 — Chonluten
+- CERT-PKS-000076 — Crystagen
+- CERT-PKS-000077 — Ovagen
+- CERT-PKS-000078 — Vesugen
 
 ### Supporting objects
 
-- CERT-EKS-000153–000162
-- CERT-SKS-000068–000072
-- CERT-BKS-000132–000141
-- CERT-CKS-000029–000031
-- CERT-MKS-000109–000118
-- CERT-GKS-000056–000060
+- CERT-EKS-000163–000184
+- CERT-SKS-000073–000083
+- CERT-BKS-000142–000144
+- CERT-CKS-000032–000042
+- CERT-MKS-000119–000122
+- CERT-GKS-000061–000072
 
-## Critical outcomes
+## Critical outcome
 
-- Humanin remains sequence- and analogue-sensitive.
-- FOXO4-DRI remains preclinical and identity-sensitive.
-- Modified Epitalon cannot inherit parent evidence.
-- Testagen is blocked at chemical identity level.
+All eleven catalogue entries are captured without inventing chemical sequences, organ selectivity or treatment efficacy.
+
+Their permanent identifiers represent supplier product families until primary-source and analytical identity closure is complete.
+
+## Catalogue C6 completion
+
+Builds 0025A and 0025B complete the Mitochondrial, Longevity & Short Regulatory Peptide segment.
 
 ## Next task
 
-**Build 0025B — Organ-Targeted Short Regulatory Peptide Families**
+**Build 0026 — Pigmentation & Sexual-Health Peptides**

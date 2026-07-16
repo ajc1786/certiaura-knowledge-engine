@@ -1,0 +1,105 @@
+{
+  "asset_id": "CERT-PKS-000077",
+  "asset_name": "Ovagen",
+  "knowledge_system": "PKS",
+  "asset_type": "Supplier Product-Family Knowledge Asset",
+  "version": "0.1.0",
+  "status": "CATALOGUE REVIEWED / IDENTITY GAP OPEN / NOT PLATINUM CERTIFIED",
+  "owner": "Aidan Coleman",
+  "last_review": "2026-07-16",
+  "aliases": [
+    "Ovagen"
+  ],
+  "classification": "Supplier-named ovarian / reproductive short regulatory peptide family",
+  "claimed_supplier_context": "Claimed ovarian-targeted research context",
+  "mechanism_summary": "No canonical mechanism is assigned. The product name suggests an organ-targeted commercial positioning, but exact sequence, target and pharmacology require direct primary-source and analytical closure.",
+  "evidence_maturity": "Regional short-peptide, cell, animal or limited human literature may exist under this name or related names. Evidence is not attributed to the catalogue product until chemical identity and source linkage are confirmed.",
+  "regulatory_headline": "IDENTITY-SENSITIVE SUPPLIER PRODUCT FAMILY / NO UNIVERSAL APPROVAL OR ORGAN-TREATMENT CLAIM",
+  "catalogue_supplier_skus": [
+    {
+      "catalogue_code": "OV20",
+      "specification": "20 mg x 10 vials",
+      "price_usd_per_kit": 118
+    }
+  ],
+  "relationships": [
+    {
+      "source": "CERT-PKS-000077",
+      "relationship": "RELATED_TO",
+      "target": "CERT-BKS-000142"
+    },
+    {
+      "source": "CERT-PKS-000077",
+      "relationship": "RELATED_TO",
+      "target": "CERT-BKS-000143"
+    },
+    {
+      "source": "CERT-PKS-000077",
+      "relationship": "RELATED_TO",
+      "target": "CERT-BKS-000144"
+    },
+    {
+      "source": "CERT-PKS-000077",
+      "relationship": "HAS_CONDITION",
+      "target": "CERT-CKS-000041"
+    },
+    {
+      "source": "CERT-PKS-000077",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000119"
+    },
+    {
+      "source": "CERT-PKS-000077",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000120"
+    },
+    {
+      "source": "CERT-PKS-000077",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000121"
+    },
+    {
+      "source": "CERT-PKS-000077",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000122"
+    },
+    {
+      "source": "CERT-PKS-000077",
+      "relationship": "SUPPORTS_GOAL",
+      "target": "CERT-GKS-000070"
+    },
+    {
+      "source": "CERT-PKS-000077",
+      "relationship": "SUPPORTS_GOAL",
+      "target": "CERT-GKS-000072"
+    },
+    {
+      "source": "CERT-PKS-000077",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000181"
+    },
+    {
+      "source": "CERT-PKS-000077",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000182"
+    },
+    {
+      "source": "CERT-PKS-000077",
+      "relationship": "HAS_SAFETY",
+      "target": "CERT-SKS-000082"
+    }
+  ],
+  "canonical_molecule_identity_closed": false,
+  "validated_universal_human_dosing_protocol": false,
+  "supplier_catalogue_proves_quality": false,
+  "platinum_certified": false,
+  "certification_blockers": [
+    "Complete amino-acid sequence and stereochemistry",
+    "N- and C-terminal chemistry",
+    "Molecular formula, mass and reference standard",
+    "Direct primary publication linkage",
+    "Independent human evidence",
+    "Current product- and jurisdiction-specific regulatory status",
+    "Supplier identity, purity and sterility"
+  ]
+}
