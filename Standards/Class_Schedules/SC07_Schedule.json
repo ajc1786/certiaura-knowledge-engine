@@ -1,0 +1,31 @@
+{
+  "class_id": "SC07",
+  "class_name": "Small Molecule or Biochemical Ancillary",
+  "description": "Non-peptide chemical, metabolite, cofactor, small-molecule inhibitor or biochemical ancillary product.",
+  "mandatory_evidence": [
+    "Complete chemical name, structure, formula, molecular mass and CAS/UNII where applicable",
+    "Salt, counter-ion, polymorph, solvate, hydration and redox state",
+    "Manufacturer, synthesis route and batch",
+    "Reference standard and traceability",
+    "Orthogonal identity by NMR, LC-MS, GC-MS, IR or justified methods",
+    "Assay, related substances and degradation products",
+    "Residual solvents, elemental impurities and water",
+    "Chiral purity where applicable",
+    "Formulation, excipients, container closure and stability",
+    "Sterility, endotoxin and particles for sterile presentation",
+    "Regulatory and product-equivalence statement"
+  ],
+  "minimum_methods": [
+    "Orthogonal structural identity",
+    "Assay and impurity profile",
+    "Residual-solvent and elemental-impurity assessment",
+    "Stability-indicating method"
+  ],
+  "automatic_rejection": [
+    "Salt, redox state or chemical form omitted",
+    "Identity supported only by catalogue name",
+    "Food or dietary grade presented as sterile-drug suitability"
+  ],
+  "automatic_release": false,
+  "human_review_required": true
+}

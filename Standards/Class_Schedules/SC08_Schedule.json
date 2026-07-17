@@ -1,0 +1,31 @@
+{
+  "class_id": "SC08",
+  "class_name": "Cosmetic, Device, Polymer or Injectable Technology",
+  "description": "Polymer, dermal-filler-type product, cosmetic injectable, device-led presentation or product whose performance depends on rheology, crosslinking or delivery-device characteristics.",
+  "mandatory_evidence": [
+    "Complete composition, polymer identity and concentration",
+    "Molecular-weight distribution and crosslinking chemistry",
+    "Crosslinker residuals and process impurities",
+    "Rheology, particle size and physical-performance specifications",
+    "Device, syringe, needle or delivery-system specifications",
+    "Biocompatibility and local-tolerance evidence",
+    "Sterility, endotoxin, visible and subvisible particulate evidence",
+    "Container-closure integrity and extractables/leachables",
+    "Shelf-life and in-use stability",
+    "Manufacturer, site and regulated-product status",
+    "Authenticity and authorised/cleared device comparability"
+  ],
+  "minimum_methods": [
+    "Composition and polymer characterisation",
+    "Rheology/physical-performance testing",
+    "Biocompatibility evidence",
+    "Sterility/endotoxin and container integrity"
+  ],
+  "automatic_rejection": [
+    "Composition or crosslinker omitted",
+    "Device or cosmetic status represented as drug approval",
+    "No sterility or biocompatibility evidence for injectable presentation"
+  ],
+  "automatic_release": false,
+  "human_review_required": true
+}

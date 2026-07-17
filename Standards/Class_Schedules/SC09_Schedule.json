@@ -1,0 +1,28 @@
+{
+  "class_id": "SC09",
+  "class_name": "Critical Identity or Composition Quarantine",
+  "description": "Product whose name, molecular identity, composition, concentration or marketed-product relationship is unresolved or materially conflicting.",
+  "mandatory_evidence": [
+    "Direct manufacturer declaration of complete identity or composition",
+    "Unambiguous proper name and product definition",
+    "Qualified reference standard",
+    "Independent orthogonal analytical confirmation",
+    "Resolution of every known identity conflict or name collision",
+    "Batch-specific certificate of analysis and raw-data package",
+    "Manufacturer, site and supply-chain authentication",
+    "Regulatory-status and marketed-product non-equivalence statement",
+    "Class-specific evidence after quarantine release"
+  ],
+  "minimum_methods": [
+    "At least two orthogonal identity methods",
+    "Independent laboratory confirmation",
+    "Reference-standard comparison"
+  ],
+  "automatic_rejection": [
+    "Vendor assertion without primary or analytical support",
+    "Silent correction of a possible typo or trade name",
+    "Progression to efficacy, safety or commercial review before identity closure"
+  ],
+  "automatic_release": false,
+  "human_review_required": true
+}

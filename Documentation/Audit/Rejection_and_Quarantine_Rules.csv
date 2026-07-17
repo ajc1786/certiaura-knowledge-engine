@@ -1,0 +1,10 @@
+Rule ID,Severity,Trigger,Decision,Commercial Effect
+RQ-001,CRITICAL,Manufacturer cannot be independently authenticated,QUARANTINE,BLOCKED
+RQ-002,CRITICAL,"Sequence, structure or composition conflicts with submitted analytical data",QUARANTINE,BLOCKED
+RQ-003,CRITICAL,"Suspected falsified certificate, chromatogram or laboratory record",REJECT AND ESCALATE,BLOCKED
+RQ-004,CRITICAL,Sterile claim without credible manufacturing/process evidence,QUARANTINE,BLOCKED
+RQ-005,MAJOR,Purity reported only as area percent without content or potency,DEFICIENT,BLOCKED
+RQ-006,MAJOR,Authorised or trial product equivalence asserted without comparability,REJECT CLAIM / DEFICIENT SUBMISSION,BLOCKED
+RQ-007,MAJOR,Failed or repeated analytical runs omitted,QUARANTINE PENDING DATA-INTEGRITY REVIEW,BLOCKED
+RQ-008,MAJOR,Material manufacturing or site change not disclosed,SUSPEND / REQUIRE FULL RESUBMISSION,BLOCKED
+RQ-009,MINOR,Administrative document incomplete but technical identity unaffected,DEFICIENT,BLOCKED

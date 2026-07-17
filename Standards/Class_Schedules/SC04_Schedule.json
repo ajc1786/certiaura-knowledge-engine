@@ -1,0 +1,33 @@
+{
+  "class_id": "SC04",
+  "class_name": "Multi-Component Peptide Blend",
+  "description": "Two or more peptide actives presented in one vial or finished blend.",
+  "mandatory_evidence": [
+    "Complete identity package for every component under SC01/SC02/SC03 as applicable",
+    "Declared target ratio and batch-specific measured ratio",
+    "Total mass balance against label claim",
+    "Component-specific assay with demonstrated selectivity",
+    "Blend-specific chromatographic and mass-spectrometric fingerprint",
+    "Compatibility and interaction assessment",
+    "Co-lyophilisation or co-formulation development evidence",
+    "Solid-state and solution degradation study",
+    "Post-preparation or post-reconstitution stability where relevant",
+    "Aggregation, precipitation and adsorption assessment",
+    "Sterility, endotoxin and particulate evidence for sterile presentation",
+    "Evidence-transfer statement confirming that component evidence does not prove blend efficacy"
+  ],
+  "minimum_methods": [
+    "Component-specific LC-MS",
+    "Component-specific assay",
+    "Ratio and total mass-balance calculation",
+    "Blend stability-indicating method"
+  ],
+  "automatic_rejection": [
+    "Any component identity unresolved",
+    "Ratio absent or based only on weighed inputs",
+    "No component-specific assay",
+    "Clinical evidence transferred from individual components to the blend"
+  ],
+  "automatic_release": false,
+  "human_review_required": true
+}

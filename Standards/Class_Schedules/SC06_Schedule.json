@@ -1,0 +1,31 @@
+{
+  "class_id": "SC06",
+  "class_name": "Diluent, Water or Vehicle",
+  "description": "Water, preserved water, acidified water or another vehicle presented for laboratory, pharmaceutical or parenteral-risk use.",
+  "mandatory_evidence": [
+    "Exact composition and concentration of every ingredient",
+    "Water grade and manufacturing-source qualification",
+    "pH, osmolality, conductivity and appearance specifications",
+    "Preservative identity and assay where applicable",
+    "Sterility and bacterial-endotoxin evidence for sterile claims",
+    "Bioburden and objectionable-organism controls where non-sterile",
+    "Particulate and visible-particle control",
+    "Container-closure integrity and extractables/leachables assessment",
+    "Compatibility statement limited to directly studied products",
+    "In-use, after-opening and puncture stability",
+    "Manufacturer, site, batch and supply-chain evidence"
+  ],
+  "minimum_methods": [
+    "Composition/assay method",
+    "pH and osmolality",
+    "Sterility/endotoxin where claimed",
+    "Container-closure integrity"
+  ],
+  "automatic_rejection": [
+    "Concentration or pH omitted",
+    "Sterile claim supported only by a generic certificate",
+    "Universal compatibility or reconstitution claim"
+  ],
+  "automatic_release": false,
+  "human_review_required": true
+}

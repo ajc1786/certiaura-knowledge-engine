@@ -1,0 +1,10 @@
+Submission Class,Class Name,Asset Count,Automatic Release,Human Review Required
+SC01,Synthetic Peptide — Standard,41,NO,YES
+SC02,"Modified, Conjugated, Cyclic or Metal-Complex Peptide",28,NO,YES
+SC03,"Recombinant Protein, Glycoprotein or Complex Biologic",5,NO,YES
+SC04,Multi-Component Peptide Blend,8,NO,YES
+SC05,Biological Extract or Heterogeneous Mixture,2,NO,YES
+SC06,"Diluent, Water or Vehicle",1,NO,YES
+SC07,Small Molecule or Biochemical Ancillary,6,NO,YES
+SC08,"Cosmetic, Device, Polymer or Injectable Technology",1,NO,YES
+SC09,Critical Identity or Composition Quarantine,10,NO,YES

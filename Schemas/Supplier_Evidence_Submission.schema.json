@@ -1,0 +1,235 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://certiaura.local/schemas/supplier-evidence-submission.schema.json",
+  "title": "CertiAura Supplier Evidence Submission",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "submission_id",
+    "product_uai",
+    "supplier",
+    "manufacturer",
+    "manufacturing_site",
+    "submission_class",
+    "batch",
+    "documents",
+    "declaration"
+  ],
+  "properties": {
+    "submission_id": {
+      "type": "string",
+      "pattern": "^CES-[0-9]{4}-[0-9]{6}$"
+    },
+    "product_uai": {
+      "type": "string",
+      "pattern": "^CERT-(PKS|MPS)-[0-9]{6}$"
+    },
+    "product_passport": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "supplier": {
+      "type": "object",
+      "required": [
+        "legal_name",
+        "country",
+        "role"
+      ],
+      "properties": {
+        "legal_name": {
+          "type": "string",
+          "minLength": 2
+        },
+        "registration_number": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "country": {
+          "type": "string"
+        },
+        "role": {
+          "enum": [
+            "manufacturer",
+            "authorised_agent",
+            "distributor",
+            "broker"
+          ]
+        }
+      }
+    },
+    "manufacturer": {
+      "type": "object",
+      "required": [
+        "legal_name",
+        "address"
+      ],
+      "properties": {
+        "legal_name": {
+          "type": "string"
+        },
+        "registration_number": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "address": {
+          "type": "string"
+        }
+      }
+    },
+    "manufacturing_site": {
+      "type": "object",
+      "required": [
+        "address",
+        "country"
+      ],
+      "properties": {
+        "address": {
+          "type": "string"
+        },
+        "country": {
+          "type": "string"
+        },
+        "site_authorisation": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "submission_class": {
+      "enum": [
+        "SC01",
+        "SC02",
+        "SC03",
+        "SC04",
+        "SC05",
+        "SC06",
+        "SC07",
+        "SC08",
+        "SC09"
+      ]
+    },
+    "overlays": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "OV01",
+          "OV02",
+          "OV03",
+          "OV04",
+          "OV05"
+        ]
+      },
+      "uniqueItems": true
+    },
+    "batch": {
+      "type": "object",
+      "required": [
+        "lot_number",
+        "manufacture_date"
+      ],
+      "properties": {
+        "lot_number": {
+          "type": "string"
+        },
+        "manufacture_date": {
+          "type": "string",
+          "format": "date"
+        },
+        "release_date": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date"
+        },
+        "expiry_or_retest_date": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date"
+        }
+      }
+    },
+    "documents": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "evidence_id",
+          "filename",
+          "document_type",
+          "checksum_sha256",
+          "version"
+        ],
+        "properties": {
+          "evidence_id": {
+            "type": "string"
+          },
+          "filename": {
+            "type": "string"
+          },
+          "document_type": {
+            "type": "string"
+          },
+          "checksum_sha256": {
+            "type": "string",
+            "pattern": "^[a-fA-F0-9]{64}$"
+          },
+          "version": {
+            "type": "string"
+          },
+          "batch_specific": {
+            "type": "boolean"
+          },
+          "raw_data_included": {
+            "type": "boolean"
+          },
+          "confidentiality": {
+            "enum": [
+              "public",
+              "controlled",
+              "confidential"
+            ]
+          }
+        }
+      }
+    },
+    "declaration": {
+      "type": "object",
+      "required": [
+        "signatory_name",
+        "title",
+        "date",
+        "complete_and_authentic"
+      ],
+      "properties": {
+        "signatory_name": {
+          "type": "string"
+        },
+        "title": {
+          "type": "string"
+        },
+        "date": {
+          "type": "string",
+          "format": "date"
+        },
+        "complete_and_authentic": {
+          "const": true
+        },
+        "failed_and_repeated_data_included": {
+          "type": "boolean"
+        }
+      }
+    }
+  }
+}

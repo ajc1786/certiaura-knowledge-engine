@@ -1,0 +1,32 @@
+{
+  "class_id": "SC01",
+  "class_name": "Synthetic Peptide — Standard",
+  "description": "Single defined synthetic peptide without a complex covalent conjugate, heterogeneous biological source or multi-component blend.",
+  "mandatory_evidence": [
+    "Complete amino-acid sequence using one- and three-letter notation",
+    "N-terminal and C-terminal chemistry",
+    "Stereochemistry and any D-amino-acid residues",
+    "Salt, counter-ion, hydration state and calculated molecular mass",
+    "Manufacturer identity, synthesis site, synthesis route and batch record summary",
+    "Batch-specific certificate of analysis with numerical results and specifications",
+    "Orthogonal identity: intact-mass LC-MS plus chromatographic retention comparison",
+    "Purity and related-peptide impurity profile by validated HPLC/UPLC",
+    "Peptide content or assay independent of area-percent purity",
+    "Water content, residual solvents and elemental impurity assessment",
+    "Reference-standard qualification and traceability",
+    "Container-closure, storage, transport and stability evidence"
+  ],
+  "minimum_methods": [
+    "LC-MS intact mass",
+    "HPLC or UPLC purity and assay",
+    "Water determination",
+    "Residual-solvent testing"
+  ],
+  "automatic_rejection": [
+    "Sequence omitted or inconsistent across documents",
+    "Purity stated without method, chromatogram or numerical result",
+    "Certificate of analysis lacks batch number or manufacturer identity"
+  ],
+  "automatic_release": false,
+  "human_review_required": true
+}

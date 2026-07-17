@@ -1,0 +1,32 @@
+{
+  "class_id": "SC03",
+  "class_name": "Recombinant Protein, Glycoprotein or Complex Biologic",
+  "description": "Recombinant protein, glycoprotein, hormone, complex biological active or product whose identity depends on expression system, higher-order structure, glycosylation, potency or manufacturing process.",
+  "mandatory_evidence": [
+    "Molecular/proper name and complete primary sequence or subunit composition",
+    "Expression system, host cell, construct and cell-bank provenance",
+    "Manufacturer, manufacturing site and biological licence or GMP status",
+    "Upstream and downstream process summary",
+    "Glycosylation, post-translational modification and charge-variant profile",
+    "Intact mass, peptide mapping and orthogonal identity",
+    "Biological potency assay with qualified reference standard",
+    "Aggregation, fragments, particles and higher-order-structure controls",
+    "Host-cell proteins, residual host-cell DNA and process impurities",
+    "Viral/adventitious-agent and transmissible-agent controls",
+    "Formulation, container closure, cold-chain and stability evidence",
+    "Sterility, endotoxin and batch-release evidence for sterile presentation"
+  ],
+  "minimum_methods": [
+    "Peptide mapping and intact mass",
+    "Potency bioassay",
+    "SEC or equivalent aggregation method",
+    "Process-impurity and host-cell testing"
+  ],
+  "automatic_rejection": [
+    "Expression system or manufacturer omitted",
+    "Potency reported only as mass without bioassay",
+    "No glycosylation or aggregation control where applicable"
+  ],
+  "automatic_release": false,
+  "human_review_required": true
+}

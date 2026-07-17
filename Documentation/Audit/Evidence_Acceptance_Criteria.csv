@@ -1,0 +1,9 @@
+Evidence Type,Minimum Requirement,Accept,Deficient,Reject / Quarantine
+Manufacturer legal identity,Current registry extract and exact manufacturing-site address,Independent registry verification matches submission,Distributor only or address inconsistency,Manufacturer cannot be verified
+Certificate of analysis,"Batch-specific numerical results, methods, specifications and quality approval",Complete and verified against representative testing,Pass/fail only or missing method context,"Altered, copied, impossible or unverifiable data"
+Identity,Class-appropriate orthogonal methods and reference standard,Methods agree with declared identity,One weak or non-specific method,Conflicting identity or failed mass/sequence
+Purity and assay,Validated purity plus independent content/potency result,"Numerical data, chromatograms and specifications present",Area percent only,Out-of-specification represented as conforming
+Sterility,Batch result plus process/contamination-control evidence,Batch and process evidence coherent,Batch sterility test without process evidence,"Failed, invalid or unsupported sterile claim"
+Endotoxin,"Batch-specific method, limit and numerical result",Limit scientifically justified and result within specification,Pass only or unspecified limit,Failed or missing for a sterile/parenteral-risk claim
+Stability,"Protocol, conditions, methods, batches and timepoints",Shelf-life/retest period supported,Single timepoint or marketing statement,Expired evidence or stability failure concealed
+Authorised/trial comparability,Exact product and side-by-side identity/formulation evidence,Limitations explicitly recorded,Same molecule name only,Approval or trial evidence transferred without comparability

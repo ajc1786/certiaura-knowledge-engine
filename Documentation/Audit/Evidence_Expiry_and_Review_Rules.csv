@@ -1,0 +1,11 @@
+Evidence Type,Default Review Interval,Batch Specific,Material Change Trigger
+Manufacturing authorisation / licence,12 months,NO,"Suspension, expiry, site or scope change"
+GMP or quality certificate,"12 months or issuer expiry, whichever is sooner",NO,"Inspection, restriction, withdrawal or scope change"
+Independent laboratory qualification,12 months,NO,"Accreditation, ownership, site, scope or quality-event change"
+Supplier qualification / audit,36 months; 12 months for critical/high-risk suppliers,NO,"Critical deviation, complaint, recall or site change"
+Certificate of analysis and batch tests,Applies only to named batch,YES,Any batch or method change
+Method validation,36 months,NO,"Method, instrument, matrix or specification change"
+Stability,Review at every new timepoint and annually,YES,"Excursion, packaging, process or storage change"
+Regulatory / authorised-product status,6 months,NO,"Approval, label, refusal, withdrawal, warning or recall"
+Anti-doping status,At least annually,NO,New list or formal interpretation
+Safety alert / enforcement status,Quarterly,NO,"Immediate after warning, recall, enforcement or serious signal"

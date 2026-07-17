@@ -1,27 +1,32 @@
 # CERTIAURA PRODUCTION DASHBOARD
 
-**Build:** 0035C  
+**Build:** 0035D  
 **Date:** 2026-07-17
 
-## Tier 1 Source Closure
+## Supplier Evidence Standard
 
-### Batch B complete
+- Product assets mapped: **102 / 102**
+- Submission classes: **9**
+- Overlays: **5**
+- Critical quarantine assets: **10**
+- JSON schemas: **2**
+- Direct-sale gates opened: **0**
+- Platinum certifications: **0**
+- Permanent UAIs allocated: **0**
 
-- 7 Tier 1 product assets upgraded
-- 6 new Product Passports
-- 1 existing Product Passport upgraded
-- 21 new source-closed EKS objects
-- 7 living regulatory profiles
-- 0 product-family UAIs
-- 0 direct-sale gates opened
-- 0 Platinum certifications
+## Current UAI maxima unchanged
 
-### New allocations
+- PKS: CERT-PKS-000090
+- MPS: CERT-MPS-000012
+- PPS: CERT-PPS-000064
+- EKS: CERT-EKS-000376
+- SKS: CERT-SKS-000107
+- BKS: CERT-BKS-000184
+- CKS: CERT-CKS-000059
+- MKS: CERT-MKS-000181
+- GKS: CERT-GKS-000096
 
-- PPS: CERT-PPS-000059–000064
-- EKS: CERT-EKS-000356–000376
-
-### Next allocation state
+## Next allocation state
 
 - PKS: CERT-PKS-000091
 - MPS: CERT-MPS-000013
@@ -33,10 +38,6 @@
 - MKS: CERT-MKS-000182
 - GKS: CERT-GKS-000097
 
-## Programme milestone
-
-**All 14 Tier 1 assets now have defined-scope primary-source and living-evidence upgrades.**
-
 ## Next build
 
-**Build 0035D — Supplier Evidence Request & Product Passport Submission Standard**
+**Build 0036A — Supplier Submission Intake & Product Passport Review Workflow**

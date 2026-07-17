@@ -1,0 +1,32 @@
+{
+  "class_id": "SC05",
+  "class_name": "Biological Extract or Heterogeneous Mixture",
+  "description": "Animal- or tissue-derived extract, hydrolysate, polypeptide mixture or compositionally heterogeneous product.",
+  "mandatory_evidence": [
+    "Species, tissue, donor and geographic source",
+    "Animal-health, donor-screening and traceability controls",
+    "Extraction, hydrolysis, purification and fractionation process",
+    "Viral, prion and transmissible-agent risk assessment",
+    "Molecular-weight distribution and compositional fingerprint",
+    "Marker peptides, amino-acid profile and batch-consistency criteria",
+    "Reference batch or comparator fingerprint",
+    "Process impurities, residual reagents and microbial controls",
+    "Biological potency or justified functional assay",
+    "Container closure, storage, cold chain and stability",
+    "Sterility, endotoxin and particles for sterile presentation",
+    "Manufacturer and marketed/reference-product comparability package"
+  ],
+  "minimum_methods": [
+    "Orthogonal compositional fingerprinting",
+    "Molecular-weight distribution",
+    "Marker or potency assay",
+    "Batch-to-batch statistical comparability"
+  ],
+  "automatic_rejection": [
+    "Species or tissue source omitted",
+    "Product described as one peptide without evidence",
+    "No batch fingerprint or source-control evidence"
+  ],
+  "automatic_release": false,
+  "human_review_required": true
+}

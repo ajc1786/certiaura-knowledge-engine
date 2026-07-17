@@ -1,0 +1,30 @@
+{
+  "class_id": "SC02",
+  "class_name": "Modified, Conjugated, Cyclic or Metal-Complex Peptide",
+  "description": "Peptide containing lipidation, PEGylation, acetylation, amidation, non-natural residues, D-retro-inverso design, cyclisation, metal complexation or another identity-defining modification.",
+  "mandatory_evidence": [
+    "All SC01 requirements",
+    "Exact modification, linker or conjugating-group chemical structure",
+    "Modification or attachment site and site-occupancy result",
+    "Free/unmodified peptide and over-modified species profile",
+    "Conjugate, lipid, PEG or metal stoichiometry and distribution",
+    "Cyclisation or bridge identity where applicable",
+    "Stereochemical impurity and epimer assessment",
+    "Orthogonal characterisation of modified and unmodified species",
+    "Modification-specific stability and degradation pathways",
+    "Potency or receptor-binding comparability where scientifically justified"
+  ],
+  "minimum_methods": [
+    "LC-MS intact mass and peptide mapping",
+    "HPLC/UPLC purity and assay",
+    "Modification-specific orthogonal method",
+    "Free-peptide or unconjugated-species assay"
+  ],
+  "automatic_rejection": [
+    "Modification described only by trade name",
+    "No attachment-site or occupancy evidence",
+    "Copper, PEG, lipid or bridge chemistry omitted"
+  ],
+  "automatic_release": false,
+  "human_review_required": true
+}

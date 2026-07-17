@@ -1,32 +1,28 @@
 # CERTIAURA CHANGE LOG
 
-## Build 0035C — Tier 1 Primary-Source Extraction & Living Evidence Upgrade — Batch B
+## Build 0035D — Supplier Evidence Request & Product Passport Submission Standard
 **Date:** 2026-07-17
 
-Updated:
+Created:
 
-- CERT-PKS-000001
-- CERT-PKS-000013–000015
-- CERT-PKS-000020
-- CERT-PKS-000054
-- CERT-PKS-000089
+- one master supplier evidence submission standard;
+- nine product-class evidence schedules;
+- five mandatory overlays;
+- master supplier questionnaire;
+- submission, deficiency and human-review templates;
+- supplier-submission and Product Passport decision JSON schemas;
+- certificate-of-analysis acceptance standard;
+- laboratory qualification standard;
+- sterile-quality standard;
+- data-integrity and provenance standard;
+- change-control and resubmission standard;
+- evidence acceptance, expiry and rejection matrices;
+- complete 102-asset submission-class crosswalk.
 
-Allocated:
+Controls:
 
-- CERT-PPS-000059–000064
-- CERT-EKS-000356–000376
-
-Upgraded:
-
-- CERT-PPS-000031
-
-Added:
-
-- seven defined-scope source packets;
-- current product, substance and investigational-programme boundaries;
-- pivotal human-evidence extraction;
-- current safety and regulatory closure;
-- living-evidence review triggers;
-- field-level Platinum gap register.
-
-No product-family UAI, administration protocol, direct-sale release or Platinum certification was created.
+- all ten critical unresolved assets remain quarantined;
+- no supplier certificate automatically changes canonical facts;
+- no direct-sale gate opened;
+- no Platinum certification assigned;
+- no permanent UAI allocated.
