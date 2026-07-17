@@ -1,0 +1,37 @@
+{
+  "asset_id": "CERT-EKS-000339",
+  "asset_name": "Semaglutide Pivotal Human Evidence Source Closure",
+  "root_asset": "CERT-PKS-000011",
+  "knowledge_system": "EKS",
+  "asset_type": "Tier 1 Source-Closed Living Evidence Object",
+  "version": "0.3.0",
+  "status": "SOURCE CLOSED WITHIN DEFINED SCOPE / LIVING EVIDENCE ACTIVE",
+  "source_closure_build": "0035B",
+  "evidence_type": "Primary human efficacy and translation evidence",
+  "evidence_grade": "B1 — pivotal or major randomised human evidence",
+  "last_review": "2026-07-16",
+  "source_closure_scope_complete": true,
+  "exhaustive_literature_review": false,
+  "controlled_conclusion": "STEP 1 established substantial weight reduction with sponsor-controlled semaglutide 2.4 mg injection in adults with overweight or obesity. SELECT established cardiovascular outcome evidence in adults with established cardiovascular disease and overweight or obesity without diabetes. These results are not transferable to supplier powders.",
+  "sources": [
+    {
+      "title": "Once-weekly semaglutide in adults with overweight or obesity",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33567185/",
+      "type": "STEP 1 pivotal randomised controlled trial",
+      "date_state": "Published 2021"
+    },
+    {
+      "title": "Semaglutide and cardiovascular outcomes in obesity without diabetes",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37952131/",
+      "type": "SELECT cardiovascular-outcome trial",
+      "date_state": "Published 2023"
+    }
+  ],
+  "transfer_prohibited": [
+    "Transfer from authorised finished product to catalogue supplier powder",
+    "Transfer from trial material to unverified supplier material",
+    "Creation of dosing, injection or reconstitution guidance",
+    "Assumption of supplier purity, potency, sterility, stability or equivalence"
+  ],
+  "next_review_trigger": "Material label, indication, safety, regulatory, trial, manufacturer, quality or supplier-evidence change"
+}

@@ -1,0 +1,22 @@
+EKS UAI,Parent UAI,Asset Name,Evidence Type,Evidence Grade,Source Count,Defined Scope Closed,Exhaustive Review,Living Evidence,Platinum Certification
+CERT-EKS-000335,CERT-PKS-000003,Tesamorelin,Authorised product and molecular identity evidence,A1 — current official regulator/product source,1,YES,NO,ACTIVE,NO
+CERT-EKS-000336,CERT-PKS-000003,Tesamorelin,Primary human efficacy and translation evidence,B1 — pivotal or major randomised human evidence,3,YES,NO,ACTIVE,NO
+CERT-EKS-000337,CERT-PKS-000003,Tesamorelin,"Safety, contraindication and current-status evidence",A1/B1 — current label plus primary clinical evidence,4,YES,NO,ACTIVE,NO
+CERT-EKS-000338,CERT-PKS-000011,Semaglutide,Authorised product and molecular identity evidence,A1 — current official regulator/product source,2,YES,NO,ACTIVE,NO
+CERT-EKS-000339,CERT-PKS-000011,Semaglutide,Primary human efficacy and translation evidence,B1 — pivotal or major randomised human evidence,2,YES,NO,ACTIVE,NO
+CERT-EKS-000340,CERT-PKS-000011,Semaglutide,"Safety, contraindication and current-status evidence",A1/B1 — current label plus primary clinical evidence,4,YES,NO,ACTIVE,NO
+CERT-EKS-000341,CERT-PKS-000012,Tirzepatide,Authorised product and molecular identity evidence,A1 — current official regulator/product source,3,YES,NO,ACTIVE,NO
+CERT-EKS-000342,CERT-PKS-000012,Tirzepatide,Primary human efficacy and translation evidence,B1 — pivotal or major randomised human evidence,1,YES,NO,ACTIVE,NO
+CERT-EKS-000343,CERT-PKS-000012,Tirzepatide,"Safety, contraindication and current-status evidence",A1/B1 — current label plus primary clinical evidence,4,YES,NO,ACTIVE,NO
+CERT-EKS-000344,CERT-PKS-000016,Liraglutide,Authorised product and molecular identity evidence,A1 — current official regulator/product source,2,YES,NO,ACTIVE,NO
+CERT-EKS-000345,CERT-PKS-000016,Liraglutide,Primary human efficacy and translation evidence,B1 — pivotal or major randomised human evidence,2,YES,NO,ACTIVE,NO
+CERT-EKS-000346,CERT-PKS-000016,Liraglutide,"Safety, contraindication and current-status evidence",A1/B1 — current label plus primary clinical evidence,4,YES,NO,ACTIVE,NO
+CERT-EKS-000347,CERT-PKS-000035,Teriparatide,Authorised product and molecular identity evidence,A1 — current official regulator/product source,3,YES,NO,ACTIVE,NO
+CERT-EKS-000348,CERT-PKS-000035,Teriparatide,Primary human efficacy and translation evidence,B1 — pivotal or major randomised human evidence,1,YES,NO,ACTIVE,NO
+CERT-EKS-000349,CERT-PKS-000035,Teriparatide,"Safety, contraindication and current-status evidence",A1/B1 — current label plus primary clinical evidence,4,YES,NO,ACTIVE,NO
+CERT-EKS-000350,CERT-PKS-000079,Afamelanotide / Melanotan I,Authorised product and molecular identity evidence,A1 — current official regulator/product source,2,YES,NO,ACTIVE,NO
+CERT-EKS-000351,CERT-PKS-000079,Afamelanotide / Melanotan I,Primary human efficacy and translation evidence,B1 — pivotal or major randomised human evidence,1,YES,NO,ACTIVE,NO
+CERT-EKS-000352,CERT-PKS-000079,Afamelanotide / Melanotan I,"Safety, contraindication and current-status evidence",A1/B1 — current label plus primary clinical evidence,3,YES,NO,ACTIVE,NO
+CERT-EKS-000353,CERT-PKS-000080,Bremelanotide / PT-141,Authorised product and molecular identity evidence,A1 — current official regulator/product source,2,YES,NO,ACTIVE,NO
+CERT-EKS-000354,CERT-PKS-000080,Bremelanotide / PT-141,Primary human efficacy and translation evidence,B1 — pivotal or major randomised human evidence,2,YES,NO,ACTIVE,NO
+CERT-EKS-000355,CERT-PKS-000080,Bremelanotide / PT-141,"Safety, contraindication and current-status evidence",A1/B1 — current label plus primary clinical evidence,3,YES,NO,ACTIVE,NO

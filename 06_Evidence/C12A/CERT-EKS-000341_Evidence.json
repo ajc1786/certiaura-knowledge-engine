@@ -1,0 +1,43 @@
+{
+  "asset_id": "CERT-EKS-000341",
+  "asset_name": "Tirzepatide Authorised Product, Identity and Regulatory Source Closure",
+  "root_asset": "CERT-PKS-000012",
+  "knowledge_system": "EKS",
+  "asset_type": "Tier 1 Source-Closed Living Evidence Object",
+  "version": "0.3.0",
+  "status": "SOURCE CLOSED WITHIN DEFINED SCOPE / LIVING EVIDENCE ACTIVE",
+  "source_closure_build": "0035B",
+  "evidence_type": "Authorised product and molecular identity evidence",
+  "evidence_grade": "A1 — current official regulator/product source",
+  "last_review": "2026-07-16",
+  "source_closure_scope_complete": true,
+  "exhaustive_literature_review": false,
+  "controlled_conclusion": "Tirzepatide is the active substance in exact authorised MOUNJARO and ZEPBOUND products. The current ZEPBOUND label covers chronic weight management and moderate-to-severe obstructive sleep apnoea in adults with obesity. Catalogue TR powders do not inherit any authorised product's formulation, pen system, concentration, quality or indication.",
+  "sources": [
+    {
+      "title": "ZEPBOUND current United States prescribing information",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=487cd7e7-434c-4925-99fa-aa80b1cc776b",
+      "type": "Authoritative current label",
+      "date_state": "Updated 2026-04-22"
+    },
+    {
+      "title": "MOUNJARO current United States prescribing information",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d2d7da5d-ad07-4228-955f-cf7e355c8cc0",
+      "type": "Authoritative current label",
+      "date_state": "Updated 2026-04-22"
+    },
+    {
+      "title": "Mounjaro European public assessment report",
+      "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/mounjaro",
+      "type": "Authoritative European regulatory record",
+      "date_state": "Page updated 2026-06-26"
+    }
+  ],
+  "transfer_prohibited": [
+    "Transfer from authorised finished product to catalogue supplier powder",
+    "Transfer from trial material to unverified supplier material",
+    "Creation of dosing, injection or reconstitution guidance",
+    "Assumption of supplier purity, potency, sterility, stability or equivalence"
+  ],
+  "next_review_trigger": "Material label, indication, safety, regulatory, trial, manufacturer, quality or supplier-evidence change"
+}

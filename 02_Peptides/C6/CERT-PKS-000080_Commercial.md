@@ -10,18 +10,19 @@
 
 ## Permitted
 
-- identity, mechanism, label, evidence and safety education;
-- catalogue-price and Product Passport™ gap reporting;
-- jurisdiction- and product-specific authorised-status reporting.
+- source-cited scientific and regulatory education;
+- exact authorised-product and trial-material comparison;
+- explicit supplier non-equivalence;
+- Product Passport™ evidence-gap reporting.
 
 ## Prohibited
 
-- cosmetic-tanning or sexual-performance protocols;
-- personal dosing, injection or reconstitution guidance;
-- presentation of catalogue powder as an authorised implant or autoinjector;
-- transfer between afamelanotide, bremelanotide and Melanotan II;
-- guaranteed identity, purity, sterility or potency.
+- supplier-vial efficacy, safety, approval or quality claims;
+- treatment, performance, weight-management, sexual-health or cosmetic protocols;
+- dosing, injection or reconstitution guidance;
+- authorised-product, device or trial-material equivalence;
+- direct-sale activation while the supplier Product Passport remains open.
 
-## Future direct sale
+## Gate
 
-Requires product identity, legal classification, prescription status, manufacturing, quality, pharmacovigilance and jurisdiction closure.
+**BLOCKED — SOURCE READINESS IS NOT COMMERCIAL RELEASE.**

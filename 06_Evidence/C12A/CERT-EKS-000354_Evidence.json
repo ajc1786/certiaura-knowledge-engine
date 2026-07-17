@@ -1,0 +1,37 @@
+{
+  "asset_id": "CERT-EKS-000354",
+  "asset_name": "Bremelanotide / PT-141 Pivotal Human Evidence Source Closure",
+  "root_asset": "CERT-PKS-000080",
+  "knowledge_system": "EKS",
+  "asset_type": "Tier 1 Source-Closed Living Evidence Object",
+  "version": "0.3.0",
+  "status": "SOURCE CLOSED WITHIN DEFINED SCOPE / LIVING EVIDENCE ACTIVE",
+  "source_closure_build": "0035B",
+  "evidence_type": "Primary human efficacy and translation evidence",
+  "evidence_grade": "B1 — pivotal or major randomised human evidence",
+  "last_review": "2026-07-16",
+  "source_closure_scope_complete": true,
+  "exhaustive_literature_review": false,
+  "controlled_conclusion": "The two RECONNECT phase 3 randomised double-blind placebo-controlled trials evaluated product-specific bremelanotide in premenopausal women with acquired generalised HSDD. The primary results were statistically significant on specified desire and distress endpoints, but the magnitude and endpoint interpretation must remain explicit and bounded.",
+  "sources": [
+    {
+      "title": "Bremelanotide for HSDD: two randomised phase 3 trials",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31599840/",
+      "type": "RECONNECT pivotal randomised controlled trials",
+      "date_state": "Published 2019"
+    },
+    {
+      "title": "Long-term safety and efficacy of bremelanotide for HSDD",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31599847/",
+      "type": "Open-label extension evidence",
+      "date_state": "Published 2019"
+    }
+  ],
+  "transfer_prohibited": [
+    "Transfer from authorised finished product to catalogue supplier powder",
+    "Transfer from trial material to unverified supplier material",
+    "Creation of dosing, injection or reconstitution guidance",
+    "Assumption of supplier purity, potency, sterility, stability or equivalence"
+  ],
+  "next_review_trigger": "Material label, indication, safety, regulatory, trial, manufacturer, quality or supplier-evidence change"
+}

@@ -1,0 +1,192 @@
+{
+  "asset_id": "CERT-PKS-000016",
+  "asset_name": "Liraglutide",
+  "knowledge_system": "PKS",
+  "asset_type": "Peptide Knowledge Asset",
+  "version": "0.3.0",
+  "status": "TIER 1 PRIMARY-SOURCE BATCH A COMPLETE WITHIN DEFINED SCOPE / SUPPLIER PRODUCT PASSPORT OPEN / NOT PLATINUM CERTIFIED",
+  "owner": "Aidan Coleman",
+  "last_review": "2026-07-16",
+  "aliases": [
+    "NN2211",
+    "Victoza",
+    "Saxenda"
+  ],
+  "classification": "Long-acting GLP-1 receptor agonist peptide drug",
+  "mechanism_summary": "GLP-1 receptor agonism affecting glucose-dependent insulin secretion, glucagon signalling, gastric emptying and satiety.",
+  "evidence_maturity": "Extensive clinical and post-authorisation evidence; indication and product dependent.",
+  "regulatory_headline": "APPROVED PRODUCT CONTEXTS EXIST IN MULTIPLE JURISDICTIONS",
+  "catalogue_supplier_skus": [
+    {
+      "catalogue_code": "LL5",
+      "specification": "5 mg x 10 vials",
+      "price_usd_per_kit": 85
+    },
+    {
+      "catalogue_code": "LL10",
+      "specification": "10 mg x 10 vials",
+      "price_usd_per_kit": 135
+    },
+    {
+      "catalogue_code": "LL30",
+      "specification": "30 mg x 10 vials",
+      "price_usd_per_kit": 251
+    }
+  ],
+  "relationships": [
+    {
+      "source": "CERT-PKS-000016",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000001"
+    },
+    {
+      "source": "CERT-PKS-000016",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000010"
+    },
+    {
+      "source": "CERT-PKS-000016",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000020"
+    },
+    {
+      "source": "CERT-PKS-000016",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000021"
+    },
+    {
+      "source": "CERT-PKS-000016",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000022"
+    },
+    {
+      "source": "CERT-PKS-000016",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000001"
+    },
+    {
+      "source": "CERT-PKS-000016",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000002"
+    },
+    {
+      "source": "CERT-PKS-000016",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000003"
+    },
+    {
+      "source": "CERT-PKS-000016",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000006"
+    },
+    {
+      "source": "CERT-PKS-000016",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000007"
+    },
+    {
+      "source": "CERT-PKS-000016",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000028"
+    },
+    {
+      "source": "CERT-PKS-000016",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000029"
+    },
+    {
+      "source": "CERT-PKS-000016",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000030"
+    },
+    {
+      "source": "CERT-PKS-000016",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000031"
+    },
+    {
+      "source": "CERT-PKS-000016",
+      "relationship": "SUPPORTS_GOAL",
+      "target": "CERT-GKS-000001"
+    },
+    {
+      "source": "CERT-PKS-000016",
+      "relationship": "SUPPORTS_GOAL",
+      "target": "CERT-GKS-000002"
+    },
+    {
+      "source": "CERT-PKS-000016",
+      "relationship": "SUPPORTS_GOAL",
+      "target": "CERT-GKS-000013"
+    },
+    {
+      "source": "CERT-PKS-000016",
+      "relationship": "SUPPORTS_GOAL",
+      "target": "CERT-GKS-000014"
+    },
+    {
+      "source": "CERT-PKS-000016",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000059"
+    },
+    {
+      "source": "CERT-PKS-000016",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000060"
+    },
+    {
+      "source": "CERT-PKS-000016",
+      "relationship": "HAS_SAFETY",
+      "target": "CERT-SKS-000021"
+    },
+    {
+      "source": "CERT-PKS-000016",
+      "relationship": "HAS_PASSPORT",
+      "target": "CERT-PPS-000055"
+    },
+    {
+      "source": "CERT-PKS-000016",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000344"
+    },
+    {
+      "source": "CERT-PKS-000016",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000345"
+    },
+    {
+      "source": "CERT-PKS-000016",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000346"
+    }
+  ],
+  "validated_universal_human_dosing_protocol": false,
+  "supplier_catalogue_proves_quality": false,
+  "platinum_certified": false,
+  "certification_blockers": [
+    "Current product-specific labels",
+    "Supplier product identity and sterility",
+    "Separation of authorised pens from unlicensed powder products"
+  ],
+  "readiness_tier": "T1",
+  "source_closure_build": "0035B",
+  "source_closure_scope": [
+    "current authorised-product and regulatory identity",
+    "pivotal or major randomised human evidence",
+    "current major safety and contraindication sources",
+    "supplier-product non-equivalence",
+    "field-level Product Passport requirements"
+  ],
+  "source_closure_scope_complete": true,
+  "exhaustive_literature_review": false,
+  "living_evidence_status": "ACTIVE",
+  "authoritative_product_boundary": "Liraglutide is used in exact authorised SAXENDA and VICTOZA products and now has additional authorised-generic and European hybrid-product contexts. The current SAXENDA label is a 6 mg/mL prefilled-pen solution for defined weight-management populations. Catalogue LL powders are not an authorised finished product.",
+  "human_evidence_boundary": "The SCALE obesity trial established weight-management evidence for sponsor-controlled liraglutide 3.0 mg. LEADER established cardiovascular-outcome evidence for a defined liraglutide diabetes product and population. Evidence must remain product, dose, route and indication specific.",
+  "safety_source_boundary": "Current SAXENDA controls include thyroid C-cell tumour warning, pancreatitis, gallbladder disease, hypoglycaemia in relevant settings, heart-rate increase, acute kidney injury from volume depletion, severe gastrointestinal reactions, hypersensitivity, pregnancy risk and pulmonary aspiration during anaesthesia or deep sedation.",
+  "product_passport": "CERT-PPS-000055",
+  "supplier_identity_verified": false,
+  "supplier_quality_verified": false,
+  "supplier_sterility_verified": false,
+  "authorised_product_equivalence": false,
+  "direct_sale_gate": "BLOCKED"
+}

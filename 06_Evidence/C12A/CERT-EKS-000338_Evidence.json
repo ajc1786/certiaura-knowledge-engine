@@ -1,0 +1,37 @@
+{
+  "asset_id": "CERT-EKS-000338",
+  "asset_name": "Semaglutide Authorised Product, Identity and Regulatory Source Closure",
+  "root_asset": "CERT-PKS-000011",
+  "knowledge_system": "EKS",
+  "asset_type": "Tier 1 Source-Closed Living Evidence Object",
+  "version": "0.3.0",
+  "status": "SOURCE CLOSED WITHIN DEFINED SCOPE / LIVING EVIDENCE ACTIVE",
+  "source_closure_build": "0035B",
+  "evidence_type": "Authorised product and molecular identity evidence",
+  "evidence_grade": "A1 — current official regulator/product source",
+  "last_review": "2026-07-16",
+  "source_closure_scope_complete": true,
+  "exhaustive_literature_review": false,
+  "controlled_conclusion": "Semaglutide is used in multiple exact authorised products, formulations and routes. The current United States WEGOVY label includes injection and tablets with product- and indication-specific controls. Catalogue SM lyophilised vials are not WEGOVY, OZEMPIC, RYBELSUS or any authorised formulation.",
+  "sources": [
+    {
+      "title": "WEGOVY current United States prescribing information",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ee06186f-2aa3-4990-a760-757579d8f77b",
+      "type": "Authoritative current label",
+      "date_state": "Updated 2026-06-18"
+    },
+    {
+      "title": "Wegovy European public assessment report",
+      "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/wegovy",
+      "type": "Authoritative European regulatory record",
+      "date_state": "Product information updated 2026-03-30"
+    }
+  ],
+  "transfer_prohibited": [
+    "Transfer from authorised finished product to catalogue supplier powder",
+    "Transfer from trial material to unverified supplier material",
+    "Creation of dosing, injection or reconstitution guidance",
+    "Assumption of supplier purity, potency, sterility, stability or equivalence"
+  ],
+  "next_review_trigger": "Material label, indication, safety, regulatory, trial, manufacturer, quality or supplier-evidence change"
+}

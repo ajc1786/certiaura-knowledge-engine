@@ -1,30 +1,30 @@
 # CERTIAURA CHANGE LOG
 
-## Build 0035A — Platinum Readiness Tiering & Evidence Sufficiency Scoring
+## Build 0035B — Tier 1 Primary-Source Extraction & Living Evidence Upgrade — Batch A
 **Date:** 2026-07-16
 
-Scored:
+Updated:
 
-- 102 / 102 product-family assets;
-- 90 Peptide Knowledge System assets;
-- 12 Marketplace Product System assets;
-- seven weighted readiness dimensions;
-- five controlled readiness tiers.
+- CERT-PKS-000003
+- CERT-PKS-000011
+- CERT-PKS-000012
+- CERT-PKS-000016
+- CERT-PKS-000035
+- CERT-PKS-000079
+- CERT-PKS-000080
 
-Created:
+Allocated:
 
-- complete readiness master;
-- tier summary;
-- Tier 1 extraction queue;
-- identity quarantine register;
-- evidence-gap heatmap;
-- dimension score summary;
-- next extraction build plan;
-- transparent scoring model and executable validation.
+- CERT-PPS-000052–000058
+- CERT-EKS-000335–000355
 
-Controls:
+Added:
 
-- no permanent UAI allocated;
-- no direct-sale gate opened;
-- no Platinum certification assigned;
-- no safety, efficacy or personal-use ranking created.
+- seven defined-scope source packets;
+- current authorised-product and regulatory boundaries;
+- pivotal human-evidence extraction;
+- safety and contraindication closure;
+- living-evidence review triggers;
+- field-level Platinum gap register.
+
+No product-family UAI, dosing protocol, administration protocol, direct-sale release or Platinum certification was created.

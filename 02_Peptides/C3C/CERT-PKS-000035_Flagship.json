@@ -1,0 +1,139 @@
+{
+  "asset_id": "CERT-PKS-000035",
+  "asset_name": "Teriparatide",
+  "knowledge_system": "PKS",
+  "asset_type": "Peptide / Protein / Biologic Knowledge Asset",
+  "version": "0.3.0",
+  "status": "TIER 1 PRIMARY-SOURCE BATCH A COMPLETE WITHIN DEFINED SCOPE / SUPPLIER PRODUCT PASSPORT OPEN / NOT PLATINUM CERTIFIED",
+  "owner": "Aidan Coleman",
+  "last_review": "2026-07-16",
+  "aliases": [
+    "PTH (1-34)",
+    "Forteo",
+    "Forsteo",
+    "Bonsity"
+  ],
+  "classification": "Recombinant human parathyroid hormone 1-34 peptide medicine",
+  "mechanism_summary": "Intermittent parathyroid hormone receptor type 1 agonism stimulating bone formation and remodelling.",
+  "evidence_maturity": "Extensive authorised osteoporosis, fracture-outcome and post-authorisation evidence; product and duration controls apply.",
+  "regulatory_headline": "AUTHORISED OSTEOPOROSIS MEDICINE CONTEXTS EXIST / PRODUCT-SPECIFIC",
+  "catalogue_supplier_skus": [
+    {
+      "catalogue_code": "TER10",
+      "specification": "10 mg x 10 vials",
+      "price_usd_per_kit": 210
+    }
+  ],
+  "relationships": [
+    {
+      "source": "CERT-PKS-000035",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000075"
+    },
+    {
+      "source": "CERT-PKS-000035",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000076"
+    },
+    {
+      "source": "CERT-PKS-000035",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000077"
+    },
+    {
+      "source": "CERT-PKS-000035",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000052"
+    },
+    {
+      "source": "CERT-PKS-000035",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000053"
+    },
+    {
+      "source": "CERT-PKS-000035",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000054"
+    },
+    {
+      "source": "CERT-PKS-000035",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000055"
+    },
+    {
+      "source": "CERT-PKS-000035",
+      "relationship": "SUPPORTS_GOAL",
+      "target": "CERT-GKS-000027"
+    },
+    {
+      "source": "CERT-PKS-000035",
+      "relationship": "SUPPORTS_GOAL",
+      "target": "CERT-GKS-000028"
+    },
+    {
+      "source": "CERT-PKS-000035",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000097"
+    },
+    {
+      "source": "CERT-PKS-000035",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000098"
+    },
+    {
+      "source": "CERT-PKS-000035",
+      "relationship": "HAS_SAFETY",
+      "target": "CERT-SKS-000040"
+    },
+    {
+      "source": "CERT-PKS-000035",
+      "relationship": "HAS_PASSPORT",
+      "target": "CERT-PPS-000056"
+    },
+    {
+      "source": "CERT-PKS-000035",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000347"
+    },
+    {
+      "source": "CERT-PKS-000035",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000348"
+    },
+    {
+      "source": "CERT-PKS-000035",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000349"
+    }
+  ],
+  "validated_universal_human_dosing_protocol": false,
+  "supplier_catalogue_proves_quality": false,
+  "platinum_certified": false,
+  "certification_blockers": [
+    "Current product-specific label",
+    "Catalogue 10 mg presentation versus authorised delivery systems",
+    "Hypercalcaemia and bone-tumour risk context",
+    "Supplier identity, potency and sterility"
+  ],
+  "readiness_tier": "T1",
+  "source_closure_build": "0035B",
+  "source_closure_scope": [
+    "current authorised-product and regulatory identity",
+    "pivotal or major randomised human evidence",
+    "current major safety and contraindication sources",
+    "supplier-product non-equivalence",
+    "field-level Product Passport requirements"
+  ],
+  "source_closure_scope_complete": true,
+  "exhaustive_literature_review": false,
+  "living_evidence_status": "ACTIVE",
+  "authoritative_product_boundary": "Teriparatide is recombinant or synthetic human parathyroid hormone (1-34) used in multiple exact authorised products, including FORTEO and FORSTEO and authorised generic/biosimilar contexts. TER10 supplier powder is not an authorised prefilled pen, does not inherit its excipients or delivery system and has no demonstrated comparability.",
+  "human_evidence_boundary": "The pivotal fracture-prevention trial randomised 1,637 postmenopausal women with osteoporosis to placebo or teriparatide and established product-specific vertebral and non-vertebral fracture evidence. That trial does not validate TER10 quality or use.",
+  "safety_source_boundary": "Current controls include avoidance in patients at increased baseline osteosarcoma risk, hypercalcaemia, orthostatic hypotension, urolithiasis considerations and product-specific handling. Treatment duration and sequencing belong to licensed clinical care, not supplier powder.",
+  "product_passport": "CERT-PPS-000056",
+  "supplier_identity_verified": false,
+  "supplier_quality_verified": false,
+  "supplier_sterility_verified": false,
+  "authorised_product_equivalence": false,
+  "direct_sale_gate": "BLOCKED"
+}

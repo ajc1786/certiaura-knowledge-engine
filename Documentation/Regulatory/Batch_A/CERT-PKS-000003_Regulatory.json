@@ -1,0 +1,40 @@
+{
+  "asset_uai": "CERT-PKS-000003",
+  "asset_name": "Tesamorelin",
+  "version": "0.3.0",
+  "status_as_of": "2026-07-16",
+  "source_closure_build": "0035B",
+  "living_evidence_status": "ACTIVE",
+  "regulatory_records": [
+    {
+      "jurisdiction": "United States",
+      "authority": "FDA / DailyMed",
+      "current_status": "EGRIFTA WR authorised for a defined HIV-lipodystrophy indication; not indicated for weight-loss management.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Label, indication, approval, safety, trial, warning, recall, anti-doping or supplier-evidence change"
+    },
+    {
+      "jurisdiction": "European Union",
+      "authority": "EMA / European Commission",
+      "current_status": "No supplier-powder marketing-authorisation or EGRIFTA-equivalence claim.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Label, indication, approval, safety, trial, warning, recall, anti-doping or supplier-evidence change"
+    },
+    {
+      "jurisdiction": "United Kingdom",
+      "authority": "MHRA",
+      "current_status": "Exact product status requires current database verification; no supplier-equivalence claim.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Label, indication, approval, safety, trial, warning, recall, anti-doping or supplier-evidence change"
+    },
+    {
+      "jurisdiction": "International sport",
+      "authority": "WADA",
+      "current_status": "GHRH analogues require current prohibited-list review; no athlete-permitted claim.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Label, indication, approval, safety, trial, warning, recall, anti-doping or supplier-evidence change"
+    }
+  ],
+  "supplier_product_equivalence": false,
+  "commercial_release": false
+}

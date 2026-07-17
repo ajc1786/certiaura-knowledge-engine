@@ -1,0 +1,61 @@
+{
+  "asset_id": "CERT-PPS-000052",
+  "asset_name": "Tesamorelin Product Passport",
+  "knowledge_system": "PPS",
+  "asset_type": "Tier 1 Source-Closure Product Passport",
+  "version": "0.3.0",
+  "status": "OPEN / SOURCE FOUNDATION COMPLETE / SUPPLIER EVIDENCE NOT CERTIFIED",
+  "parent_product": "CERT-PKS-000003",
+  "source_closure_build": "0035B",
+  "source_closure_scope_complete": true,
+  "exhaustive_literature_review": false,
+  "last_review": "2026-07-16",
+  "required_fields": [
+    {
+      "field": "complete tesamorelin sequence and N-terminal trans-3-hexenoic acid modification",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, reference-standard, analytical, quality, stability and regulatory-comparability evidence"
+    },
+    {
+      "field": "acetate state, counter-ion, molecular mass and reference standard",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, reference-standard, analytical, quality, stability and regulatory-comparability evidence"
+    },
+    {
+      "field": "manufacturer, synthesis route and batch",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, reference-standard, analytical, quality, stability and regulatory-comparability evidence"
+    },
+    {
+      "field": "HPLC, LC-MS, potency and impurity profile",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, reference-standard, analytical, quality, stability and regulatory-comparability evidence"
+    },
+    {
+      "field": "finished powder formulation, excipients and container closure",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, reference-standard, analytical, quality, stability and regulatory-comparability evidence"
+    },
+    {
+      "field": "sterility, endotoxin and particulate testing",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, reference-standard, analytical, quality, stability and regulatory-comparability evidence"
+    },
+    {
+      "field": "stability and post-reconstitution data",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, reference-standard, analytical, quality, stability and regulatory-comparability evidence"
+    },
+    {
+      "field": "comparability to EGRIFTA WR active substance and finished product",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, reference-standard, analytical, quality, stability and regulatory-comparability evidence"
+    }
+  ],
+  "identity_certified": false,
+  "quality_certified": false,
+  "sterility_certified": false,
+  "authorised_product_equivalence": false,
+  "commercial_release": false,
+  "platinum_certified": false
+}

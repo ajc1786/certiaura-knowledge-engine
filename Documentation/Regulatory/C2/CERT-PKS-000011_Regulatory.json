@@ -1,0 +1,40 @@
+{
+  "asset_uai": "CERT-PKS-000011",
+  "asset_name": "Semaglutide",
+  "version": "0.3.0",
+  "status_as_of": "2026-07-16",
+  "source_closure_build": "0035B",
+  "living_evidence_status": "ACTIVE",
+  "regulatory_records": [
+    {
+      "jurisdiction": "United States",
+      "authority": "FDA / DailyMed",
+      "current_status": "Multiple exact semaglutide products and routes are authorised; supplier powders are non-equivalent.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Label, indication, approval, safety, trial, warning, recall, anti-doping or supplier-evidence change"
+    },
+    {
+      "jurisdiction": "European Union",
+      "authority": "EMA / European Commission",
+      "current_status": "Wegovy, Ozempic and Rybelsus are exact product records with formulation-specific status.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Label, indication, approval, safety, trial, warning, recall, anti-doping or supplier-evidence change"
+    },
+    {
+      "jurisdiction": "United Kingdom",
+      "authority": "MHRA",
+      "current_status": "Exact authorised-product and indication status requires current product-database verification.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Label, indication, approval, safety, trial, warning, recall, anti-doping or supplier-evidence change"
+    },
+    {
+      "jurisdiction": "International sport",
+      "authority": "WADA",
+      "current_status": "No athlete-permitted claim; current list and monitoring-programme review required.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Label, indication, approval, safety, trial, warning, recall, anti-doping or supplier-evidence change"
+    }
+  ],
+  "supplier_product_equivalence": false,
+  "commercial_release": false
+}

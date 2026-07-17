@@ -1,36 +1,40 @@
 {
   "asset_uai": "CERT-PKS-000079",
   "asset_name": "Afamelanotide / Melanotan I",
+  "version": "0.3.0",
   "status_as_of": "2026-07-16",
-  "overall_status": "AUTHORISED SCENESSE IMPLANT CONTEXTS EXIST FOR EPP — CATALOGUE POWDER IS NOT AN AUTHORISED-PRODUCT EQUIVALENT",
+  "source_closure_build": "0035B",
+  "living_evidence_status": "ACTIVE",
   "regulatory_records": [
     {
       "jurisdiction": "United States",
-      "authority": "FDA",
-      "current_status": "Scenesse afamelanotide implant has an authorised EPP indication. The catalogue powder is not the authorised implant.",
+      "authority": "FDA / DailyMed",
+      "current_status": "SCENESSE is an exact 16 mg implant for adults with EPP.",
       "monitoring_state": "ACTIVE",
-      "next_review_trigger": "Approval, label, safety, product availability, enforcement, trial or anti-doping change"
+      "next_review_trigger": "Label, indication, approval, safety, trial, warning, recall, anti-doping or supplier-evidence change"
     },
     {
       "jurisdiction": "European Union",
       "authority": "EMA / European Commission",
-      "current_status": "Scenesse is authorised for EPP under product-specific conditions. The catalogue powder does not inherit the authorisation.",
+      "current_status": "Scenesse remains authorised under exceptional circumstances for adult EPP.",
       "monitoring_state": "ACTIVE",
-      "next_review_trigger": "Approval, label, safety, product availability, enforcement, trial or anti-doping change"
+      "next_review_trigger": "Label, indication, approval, safety, trial, warning, recall, anti-doping or supplier-evidence change"
     },
     {
       "jurisdiction": "United Kingdom",
       "authority": "MHRA",
-      "current_status": "Current product availability and authorisation require direct official verification; no catalogue-product claim.",
+      "current_status": "Exact product availability and status require current verification.",
       "monitoring_state": "ACTIVE",
-      "next_review_trigger": "Approval, label, safety, product availability, enforcement, trial or anti-doping change"
+      "next_review_trigger": "Label, indication, approval, safety, trial, warning, recall, anti-doping or supplier-evidence change"
     },
     {
       "jurisdiction": "International sport",
       "authority": "WADA",
-      "current_status": "Current athlete-specific verification required before any permitted-status claim.",
-      "monitoring_state": "EVENT-TRIGGERED",
-      "next_review_trigger": "Approval, label, safety, product availability, enforcement, trial or anti-doping change"
+      "current_status": "No athlete-permitted or cosmetic-tanning claim.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Label, indication, approval, safety, trial, warning, recall, anti-doping or supplier-evidence change"
     }
-  ]
+  ],
+  "supplier_product_equivalence": false,
+  "commercial_release": false
 }

@@ -8,53 +8,47 @@
 
 # CERT-PKS-000080 — Bremelanotide / PT-141
 
-**Version:** 0.1.0  
-**Status:** CATALOGUE REVIEWED / AUTHORISED-PRODUCT BOUNDARY ACTIVE / NOT PLATINUM CERTIFIED  
+**Tier:** T1 Primary-Source Closure Candidate  
+**Version:** 0.3.0  
+**Status:** SOURCE FOUNDATION COMPLETE WITHIN DEFINED SCOPE / SUPPLIER PASSPORT OPEN  
 **Last Review:** 2026-07-16
 
-## Classification
+## Authorised-product boundary
 
-Cyclic melanocortin-receptor agonist peptide medicine/research product
+VYLEESI is an exact bremelanotide acetate 1.75 mg/0.3 mL single-dose prefilled autoinjector authorised in the United States for acquired, generalised hypoactive sexual desire disorder in premenopausal women under defined exclusions. P41 powder is not VYLEESI and has no authorised-product, device, concentration or indication equivalence.
 
-## Mechanism
+## Pivotal human evidence
 
-Melanocortin-receptor agonism involving central melanocortin pathways. The mechanism by which the authorised medicine affects hypoactive sexual desire is not fully established.
+The two RECONNECT phase 3 randomised double-blind placebo-controlled trials evaluated product-specific bremelanotide in premenopausal women with acquired generalised HSDD. The primary results were statistically significant on specified desire and distress endpoints, but the magnitude and endpoint interpretation must remain explicit and bounded.
 
-## Evidence maturity
+## Current safety boundary
 
-United States authorised-product and phase 3 evidence exist for a narrowly defined premenopausal female HSDD population. Evidence does not validate universal libido, male erectile-function or sexual-performance use.
+Current controls include contraindication in uncontrolled hypertension or known cardiovascular disease, transient blood-pressure increase and heart-rate reduction, focal hyperpigmentation, nausea, vomiting and injection-site reactions. The indication does not cover enhancement of sexual performance, men or postmenopausal women.
 
-## Evidence foundation
+## New source-closed evidence
 
-- `CERT-EKS-000187`
-- `CERT-EKS-000188`
+- `CERT-EKS-000353`
+- `CERT-EKS-000354`
+- `CERT-EKS-000355`
 
-## Regulatory headline
+## Product Passport
 
-**UNITED STATES AUTHORISED VYLEESI CONTEXT EXISTS FOR DEFINED PREMENOPAUSAL HSDD — CATALOGUE POWDER IS NOT AN AUTHORISED-PRODUCT EQUIVALENT**
+`CERT-PPS-000058`
 
-## Catalogue pricing
+## Catalogue records
 
 | Code | Specification | USD per kit |
 |---|---|---:|
 | P41 | 10 mg x 10 vials | $66 |
 
-## Authorised-product boundary
+## Closure state
 
-The supplier catalogue does not establish equivalence to an authorised implant, injection solution, autoinjector, manufacturer, formulation, potency standard or clinical product.
-
-## Validated universal human dosing protocol
-
-**No**
-
-## Certification blockers
-
-- Current United States product label and post-authorisation status
-- No automatic United Kingdom or European Union approval claim
-- Supplier powder sequence, salt, potency, purity and sterility
-- No equivalence to the 1.75 mg / 0.3 mL Vyleesi autoinjector
-- Cardiovascular, nausea and focal-pigmentation risk controls
-
-## Platinum Certified
-
-**No**
+- Authorised/current product source closure: **Complete within defined scope**
+- Pivotal human source closure: **Complete within defined scope**
+- Major safety-source closure: **Complete within defined scope**
+- Exhaustive systematic review: **No**
+- Supplier identity and formulation: **Open**
+- Supplier quality and sterility: **Open**
+- Authorised-product equivalence: **No**
+- Direct-sale gate: **Blocked**
+- Platinum Certified: **No**

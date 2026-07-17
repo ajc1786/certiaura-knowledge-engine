@@ -3,8 +3,8 @@
   "asset_name": "Bremelanotide / PT-141",
   "knowledge_system": "PKS",
   "asset_type": "Peptide / Authorised-Active-Substance Knowledge Asset",
-  "version": "0.1.0",
-  "status": "CATALOGUE REVIEWED / AUTHORISED-PRODUCT BOUNDARY ACTIVE / NOT PLATINUM CERTIFIED",
+  "version": "0.3.0",
+  "status": "TIER 1 PRIMARY-SOURCE BATCH A COMPLETE WITHIN DEFINED SCOPE / SUPPLIER PRODUCT PASSPORT OPEN / NOT PLATINUM CERTIFIED",
   "owner": "Aidan Coleman",
   "last_review": "2026-07-16",
   "aliases": [
@@ -94,6 +94,26 @@
       "source": "CERT-PKS-000080",
       "relationship": "COMPARES_WITH",
       "target": "CERT-PKS-000009"
+    },
+    {
+      "source": "CERT-PKS-000080",
+      "relationship": "HAS_PASSPORT",
+      "target": "CERT-PPS-000058"
+    },
+    {
+      "source": "CERT-PKS-000080",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000353"
+    },
+    {
+      "source": "CERT-PKS-000080",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000354"
+    },
+    {
+      "source": "CERT-PKS-000080",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000355"
     }
   ],
   "validated_universal_human_dosing_protocol": false,
@@ -106,5 +126,26 @@
     "Supplier powder sequence, salt, potency, purity and sterility",
     "No equivalence to the 1.75 mg / 0.3 mL Vyleesi autoinjector",
     "Cardiovascular, nausea and focal-pigmentation risk controls"
-  ]
+  ],
+  "readiness_tier": "T1",
+  "source_closure_build": "0035B",
+  "source_closure_scope": [
+    "current authorised-product and regulatory identity",
+    "pivotal or major randomised human evidence",
+    "current major safety and contraindication sources",
+    "supplier-product non-equivalence",
+    "field-level Product Passport requirements"
+  ],
+  "source_closure_scope_complete": true,
+  "exhaustive_literature_review": false,
+  "living_evidence_status": "ACTIVE",
+  "authoritative_product_boundary": "VYLEESI is an exact bremelanotide acetate 1.75 mg/0.3 mL single-dose prefilled autoinjector authorised in the United States for acquired, generalised hypoactive sexual desire disorder in premenopausal women under defined exclusions. P41 powder is not VYLEESI and has no authorised-product, device, concentration or indication equivalence.",
+  "human_evidence_boundary": "The two RECONNECT phase 3 randomised double-blind placebo-controlled trials evaluated product-specific bremelanotide in premenopausal women with acquired generalised HSDD. The primary results were statistically significant on specified desire and distress endpoints, but the magnitude and endpoint interpretation must remain explicit and bounded.",
+  "safety_source_boundary": "Current controls include contraindication in uncontrolled hypertension or known cardiovascular disease, transient blood-pressure increase and heart-rate reduction, focal hyperpigmentation, nausea, vomiting and injection-site reactions. The indication does not cover enhancement of sexual performance, men or postmenopausal women.",
+  "product_passport": "CERT-PPS-000058",
+  "supplier_identity_verified": false,
+  "supplier_quality_verified": false,
+  "supplier_sterility_verified": false,
+  "authorised_product_equivalence": false,
+  "direct_sale_gate": "BLOCKED"
 }

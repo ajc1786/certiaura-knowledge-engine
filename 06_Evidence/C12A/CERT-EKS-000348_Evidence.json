@@ -1,0 +1,31 @@
+{
+  "asset_id": "CERT-EKS-000348",
+  "asset_name": "Teriparatide Pivotal Human Evidence Source Closure",
+  "root_asset": "CERT-PKS-000035",
+  "knowledge_system": "EKS",
+  "asset_type": "Tier 1 Source-Closed Living Evidence Object",
+  "version": "0.3.0",
+  "status": "SOURCE CLOSED WITHIN DEFINED SCOPE / LIVING EVIDENCE ACTIVE",
+  "source_closure_build": "0035B",
+  "evidence_type": "Primary human efficacy and translation evidence",
+  "evidence_grade": "B1 — pivotal or major randomised human evidence",
+  "last_review": "2026-07-16",
+  "source_closure_scope_complete": true,
+  "exhaustive_literature_review": false,
+  "controlled_conclusion": "The pivotal fracture-prevention trial randomised 1,637 postmenopausal women with osteoporosis to placebo or teriparatide and established product-specific vertebral and non-vertebral fracture evidence. That trial does not validate TER10 quality or use.",
+  "sources": [
+    {
+      "title": "Effect of parathyroid hormone (1-34) on fractures and bone mineral density",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/11346808/",
+      "type": "Pivotal randomised controlled trial",
+      "date_state": "Published 2001"
+    }
+  ],
+  "transfer_prohibited": [
+    "Transfer from authorised finished product to catalogue supplier powder",
+    "Transfer from trial material to unverified supplier material",
+    "Creation of dosing, injection or reconstitution guidance",
+    "Assumption of supplier purity, potency, sterility, stability or equivalence"
+  ],
+  "next_review_trigger": "Material label, indication, safety, regulatory, trial, manufacturer, quality or supplier-evidence change"
+}

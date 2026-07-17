@@ -1,0 +1,37 @@
+{
+  "asset_id": "CERT-EKS-000344",
+  "asset_name": "Liraglutide Authorised Product, Identity and Regulatory Source Closure",
+  "root_asset": "CERT-PKS-000016",
+  "knowledge_system": "EKS",
+  "asset_type": "Tier 1 Source-Closed Living Evidence Object",
+  "version": "0.3.0",
+  "status": "SOURCE CLOSED WITHIN DEFINED SCOPE / LIVING EVIDENCE ACTIVE",
+  "source_closure_build": "0035B",
+  "evidence_type": "Authorised product and molecular identity evidence",
+  "evidence_grade": "A1 — current official regulator/product source",
+  "last_review": "2026-07-16",
+  "source_closure_scope_complete": true,
+  "exhaustive_literature_review": false,
+  "controlled_conclusion": "Liraglutide is used in exact authorised SAXENDA and VICTOZA products and now has additional authorised-generic and European hybrid-product contexts. The current SAXENDA label is a 6 mg/mL prefilled-pen solution for defined weight-management populations. Catalogue LL powders are not an authorised finished product.",
+  "sources": [
+    {
+      "title": "SAXENDA current United States prescribing information",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3946d389-0926-4f77-a708-0acb8153b143",
+      "type": "Authoritative current label",
+      "date_state": "Updated 2026-06-15"
+    },
+    {
+      "title": "Saxenda European public assessment report",
+      "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/saxenda",
+      "type": "Authoritative European regulatory record",
+      "date_state": "Current record reviewed 2026-07-16"
+    }
+  ],
+  "transfer_prohibited": [
+    "Transfer from authorised finished product to catalogue supplier powder",
+    "Transfer from trial material to unverified supplier material",
+    "Creation of dosing, injection or reconstitution guidance",
+    "Assumption of supplier purity, potency, sterility, stability or equivalence"
+  ],
+  "next_review_trigger": "Material label, indication, safety, regulatory, trial, manufacturer, quality or supplier-evidence change"
+}

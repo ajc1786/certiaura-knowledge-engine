@@ -6,18 +6,20 @@
 
 ---
 
-# CERT-PKS-000080 — Bremelanotide / PT-141 REGULATORY STATUS
+# CERT-PKS-000080 — Bremelanotide / PT-141 REGULATORY & LIVING EVIDENCE STATUS
 
 **Status as of:** 2026-07-16  
-**Overall:** UNITED STATES AUTHORISED VYLEESI CONTEXT EXISTS FOR DEFINED PREMENOPAUSAL HSDD — CATALOGUE POWDER IS NOT AN AUTHORISED-PRODUCT EQUIVALENT
+**Living evidence:** ACTIVE  
+**Supplier equivalence:** NO  
+**Direct-sale gate:** BLOCKED
 
 | Jurisdiction | Authority | Controlled position | Monitoring |
 |---|---|---|---|
-| United States | FDA | Vyleesi bremelanotide injection has an authorised indication for acquired, generalised HSDD in a defined premenopausal female population. The catalogue powder is not the authorised autoinjector. | ACTIVE |
-| United Kingdom | MHRA | No United Kingdom marketing-authorisation claim is created; direct current verification required. | ACTIVE |
-| European Union | EMA / European Commission | No central European Union marketing-authorisation claim is created; direct current verification required. | ACTIVE |
-| International sport | WADA | Current athlete-specific verification required before any permitted-status claim. | EVENT-TRIGGERED |
+| United States | FDA / DailyMed | VYLEESI is an exact 1.75 mg/0.3 mL prefilled autoinjector for defined premenopausal HSDD. | ACTIVE |
+| European Union | EMA / European Commission | No central supplier-product authorisation or VYLEESI-equivalence claim. | ACTIVE |
+| United Kingdom | MHRA | Exact product status requires current verification; no supplier-equivalence claim. | ACTIVE |
+| International sport | WADA | No athlete-permitted or performance-enhancement claim. | ACTIVE |
 
 ## Rule
 
-Authorisation belongs to the exact medicine, formulation, presentation, manufacturer, indication and jurisdiction.
+Regulatory and clinical evidence belongs to the exact molecule, formulation, manufacturer, product, route, indication and jurisdiction.

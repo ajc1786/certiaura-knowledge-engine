@@ -6,18 +6,20 @@
 
 ---
 
-# CERT-PKS-000079 — Afamelanotide / Melanotan I REGULATORY STATUS
+# CERT-PKS-000079 — Afamelanotide / Melanotan I REGULATORY & LIVING EVIDENCE STATUS
 
 **Status as of:** 2026-07-16  
-**Overall:** AUTHORISED SCENESSE IMPLANT CONTEXTS EXIST FOR EPP — CATALOGUE POWDER IS NOT AN AUTHORISED-PRODUCT EQUIVALENT
+**Living evidence:** ACTIVE  
+**Supplier equivalence:** NO  
+**Direct-sale gate:** BLOCKED
 
 | Jurisdiction | Authority | Controlled position | Monitoring |
 |---|---|---|---|
-| United States | FDA | Scenesse afamelanotide implant has an authorised EPP indication. The catalogue powder is not the authorised implant. | ACTIVE |
-| European Union | EMA / European Commission | Scenesse is authorised for EPP under product-specific conditions. The catalogue powder does not inherit the authorisation. | ACTIVE |
-| United Kingdom | MHRA | Current product availability and authorisation require direct official verification; no catalogue-product claim. | ACTIVE |
-| International sport | WADA | Current athlete-specific verification required before any permitted-status claim. | EVENT-TRIGGERED |
+| United States | FDA / DailyMed | SCENESSE is an exact 16 mg implant for adults with EPP. | ACTIVE |
+| European Union | EMA / European Commission | Scenesse remains authorised under exceptional circumstances for adult EPP. | ACTIVE |
+| United Kingdom | MHRA | Exact product availability and status require current verification. | ACTIVE |
+| International sport | WADA | No athlete-permitted or cosmetic-tanning claim. | ACTIVE |
 
 ## Rule
 
-Authorisation belongs to the exact medicine, formulation, presentation, manufacturer, indication and jurisdiction.
+Regulatory and clinical evidence belongs to the exact molecule, formulation, manufacturer, product, route, indication and jurisdiction.

@@ -1,0 +1,43 @@
+{
+  "asset_id": "CERT-EKS-000336",
+  "asset_name": "Tesamorelin Pivotal Human Evidence Source Closure",
+  "root_asset": "CERT-PKS-000003",
+  "knowledge_system": "EKS",
+  "asset_type": "Tier 1 Source-Closed Living Evidence Object",
+  "version": "0.3.0",
+  "status": "SOURCE CLOSED WITHIN DEFINED SCOPE / LIVING EVIDENCE ACTIVE",
+  "source_closure_build": "0035B",
+  "evidence_type": "Primary human efficacy and translation evidence",
+  "evidence_grade": "B1 — pivotal or major randomised human evidence",
+  "last_review": "2026-07-16",
+  "source_closure_scope_complete": true,
+  "exhaustive_literature_review": false,
+  "controlled_conclusion": "Two randomised placebo-controlled programmes in people with HIV and excess abdominal fat demonstrated reductions in visceral adipose tissue. The pivotal evidence is tied to protocol-defined tesamorelin material, populations, duration and clinical monitoring.",
+  "sources": [
+    {
+      "title": "Metabolic effects of a growth hormone-releasing factor in patients with HIV",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18057338/",
+      "type": "Pivotal randomised controlled trial",
+      "date_state": "Published 2007"
+    },
+    {
+      "title": "Effects of tesamorelin in HIV-infected patients with abdominal fat accumulation",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/20101189/",
+      "type": "Randomised controlled trial with safety extension",
+      "date_state": "Published 2010"
+    },
+    {
+      "title": "Tesamorelin in people with HIV on integrase inhibitors",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38905488/",
+      "type": "Recent randomised controlled evidence",
+      "date_state": "Published 2024"
+    }
+  ],
+  "transfer_prohibited": [
+    "Transfer from authorised finished product to catalogue supplier powder",
+    "Transfer from trial material to unverified supplier material",
+    "Creation of dosing, injection or reconstitution guidance",
+    "Assumption of supplier purity, potency, sterility, stability or equivalence"
+  ],
+  "next_review_trigger": "Material label, indication, safety, regulatory, trial, manufacturer, quality or supplier-evidence change"
+}

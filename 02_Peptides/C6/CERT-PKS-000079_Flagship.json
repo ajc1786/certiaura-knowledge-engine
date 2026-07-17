@@ -3,8 +3,8 @@
   "asset_name": "Afamelanotide / Melanotan I",
   "knowledge_system": "PKS",
   "asset_type": "Peptide / Authorised-Active-Substance Knowledge Asset",
-  "version": "0.1.0",
-  "status": "CATALOGUE REVIEWED / AUTHORISED-PRODUCT BOUNDARY ACTIVE / NOT PLATINUM CERTIFIED",
+  "version": "0.3.0",
+  "status": "TIER 1 PRIMARY-SOURCE BATCH A COMPLETE WITHIN DEFINED SCOPE / SUPPLIER PRODUCT PASSPORT OPEN / NOT PLATINUM CERTIFIED",
   "owner": "Aidan Coleman",
   "last_review": "2026-07-16",
   "aliases": [
@@ -91,6 +91,26 @@
       "source": "CERT-PKS-000079",
       "relationship": "COMPARES_WITH",
       "target": "CERT-PKS-000009"
+    },
+    {
+      "source": "CERT-PKS-000079",
+      "relationship": "HAS_PASSPORT",
+      "target": "CERT-PPS-000057"
+    },
+    {
+      "source": "CERT-PKS-000079",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000350"
+    },
+    {
+      "source": "CERT-PKS-000079",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000351"
+    },
+    {
+      "source": "CERT-PKS-000079",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000352"
     }
   ],
   "validated_universal_human_dosing_protocol": false,
@@ -103,5 +123,26 @@
     "No equivalence to the 16 mg bioresorbable Scenesse implant",
     "Cosmetic-tanning claim and legal-status separation",
     "Long-term dermatological and pigmentary surveillance"
-  ]
+  ],
+  "readiness_tier": "T1",
+  "source_closure_build": "0035B",
+  "source_closure_scope": [
+    "current authorised-product and regulatory identity",
+    "pivotal or major randomised human evidence",
+    "current major safety and contraindication sources",
+    "supplier-product non-equivalence",
+    "field-level Product Passport requirements"
+  ],
+  "source_closure_scope_complete": true,
+  "exhaustive_literature_review": false,
+  "living_evidence_status": "ACTIVE",
+  "authoritative_product_boundary": "SCENESSE is an exact 16 mg afamelanotide subcutaneous implant for adults with erythropoietic protoporphyria, administered by trained healthcare professionals. The European authorisation is under exceptional circumstances and remains subject to post-authorisation monitoring. MT1 powder is not the implant and is not an authorised tanning or cosmetic product.",
+  "human_evidence_boundary": "Two multicentre randomised double-blind placebo-controlled trials in Europe and the United States evaluated 16 mg afamelanotide implants every 60 days in adults with erythropoietic protoporphyria and supported pain-free light-exposure evidence.",
+  "safety_source_boundary": "Current controls include trained implantation, hypersensitivity/anaphylaxis, insertion-site monitoring, skin pigmentation changes and periodic full-body skin examination. The authorised evidence does not support unsupervised powder use or cosmetic tanning.",
+  "product_passport": "CERT-PPS-000057",
+  "supplier_identity_verified": false,
+  "supplier_quality_verified": false,
+  "supplier_sterility_verified": false,
+  "authorised_product_equivalence": false,
+  "direct_sale_gate": "BLOCKED"
 }

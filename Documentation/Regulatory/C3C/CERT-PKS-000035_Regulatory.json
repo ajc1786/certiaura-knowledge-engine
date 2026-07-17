@@ -1,0 +1,40 @@
+{
+  "asset_uai": "CERT-PKS-000035",
+  "asset_name": "Teriparatide",
+  "version": "0.3.0",
+  "status_as_of": "2026-07-16",
+  "source_closure_build": "0035B",
+  "living_evidence_status": "ACTIVE",
+  "regulatory_records": [
+    {
+      "jurisdiction": "United States",
+      "authority": "FDA / DailyMed",
+      "current_status": "FORTEO and authorised generic teriparatide products are exact finished medicines.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Label, indication, approval, safety, trial, warning, recall, anti-doping or supplier-evidence change"
+    },
+    {
+      "jurisdiction": "European Union",
+      "authority": "EMA / European Commission",
+      "current_status": "FORSTEO and other authorised teriparatide products are product specific.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Label, indication, approval, safety, trial, warning, recall, anti-doping or supplier-evidence change"
+    },
+    {
+      "jurisdiction": "United Kingdom",
+      "authority": "MHRA",
+      "current_status": "Exact authorised product and biosimilar/generic status requires current verification.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Label, indication, approval, safety, trial, warning, recall, anti-doping or supplier-evidence change"
+    },
+    {
+      "jurisdiction": "International sport",
+      "authority": "WADA",
+      "current_status": "No athlete-permitted claim; current list review required.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Label, indication, approval, safety, trial, warning, recall, anti-doping or supplier-evidence change"
+    }
+  ],
+  "supplier_product_equivalence": false,
+  "commercial_release": false
+}

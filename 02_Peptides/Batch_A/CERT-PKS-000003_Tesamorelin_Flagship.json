@@ -1,8 +1,8 @@
 {
   "asset_id": "CERT-PKS-000003",
   "asset_name": "Tesamorelin",
-  "version": "0.2.0",
-  "status": "HUMAN CLINICAL EVIDENCE IDENTIFIED — DIRECT SOURCE CLOSURE PARTIAL — NOT PLATINUM CERTIFIED",
+  "version": "0.3.0",
+  "status": "TIER 1 PRIMARY-SOURCE BATCH A COMPLETE WITHIN DEFINED SCOPE / SUPPLIER PRODUCT PASSPORT OPEN / NOT PLATINUM CERTIFIED",
   "last_review": "2026-07-16",
   "evidence_maturity": "Defined U.S. approved context and substantial human evidence; pivotal primary extraction remains partial in Build 0018.",
   "source_closure": {
@@ -17,5 +17,70 @@
   },
   "key_translation_boundary": "Population-specific clinical evidence must not be broadened to ordinary obesity or cosmetic fat loss.",
   "validated_universal_human_dosing_protocol": false,
-  "platinum_certified": false
+  "platinum_certified": false,
+  "catalogue_supplier_skus": [
+    {
+      "catalogue_code": "TSM2",
+      "specification": "2 mg x 10 vials",
+      "price_usd_per_kit": 56
+    },
+    {
+      "catalogue_code": "TSM5",
+      "specification": "5 mg x 10 vials",
+      "price_usd_per_kit": 101
+    },
+    {
+      "catalogue_code": "TSM10",
+      "specification": "10 mg x 10 vials",
+      "price_usd_per_kit": 211
+    },
+    {
+      "catalogue_code": "TSM20",
+      "specification": "20 mg x 10 vials",
+      "price_usd_per_kit": 390
+    }
+  ],
+  "readiness_tier": "T1",
+  "source_closure_build": "0035B",
+  "source_closure_scope": [
+    "current authorised-product and regulatory identity",
+    "pivotal or major randomised human evidence",
+    "current major safety and contraindication sources",
+    "supplier-product non-equivalence",
+    "field-level Product Passport requirements"
+  ],
+  "source_closure_scope_complete": true,
+  "exhaustive_literature_review": false,
+  "living_evidence_status": "ACTIVE",
+  "authoritative_product_boundary": "EGRIFTA WR is an exact tesamorelin prescription biologic for reduction of excess abdominal fat in adults with HIV-associated lipodystrophy. The current label states that it is not indicated for weight-loss management and that the 11.6 mg EGRIFTA WR formulation has product-specific instructions. Supplier TSM powders do not inherit the authorised formulation, indication, excipients, quality or label.",
+  "human_evidence_boundary": "Two randomised placebo-controlled programmes in people with HIV and excess abdominal fat demonstrated reductions in visceral adipose tissue. The pivotal evidence is tied to protocol-defined tesamorelin material, populations, duration and clinical monitoring.",
+  "safety_source_boundary": "Current controls include active malignancy contraindication, IGF-1 elevation, glucose intolerance/diabetes risk, hypersensitivity, fluid retention and injection-site reactions. Long-term cardiovascular safety has not been established.",
+  "product_passport": "CERT-PPS-000052",
+  "supplier_identity_verified": false,
+  "supplier_quality_verified": false,
+  "supplier_sterility_verified": false,
+  "authorised_product_equivalence": false,
+  "direct_sale_gate": "BLOCKED",
+  "relationships": [
+    {
+      "source": "CERT-PKS-000003",
+      "relationship": "HAS_PASSPORT",
+      "target": "CERT-PPS-000052"
+    },
+    {
+      "source": "CERT-PKS-000003",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000335"
+    },
+    {
+      "source": "CERT-PKS-000003",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000336"
+    },
+    {
+      "source": "CERT-PKS-000003",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000337"
+    }
+  ]
 }

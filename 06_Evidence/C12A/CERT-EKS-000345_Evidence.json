@@ -1,0 +1,37 @@
+{
+  "asset_id": "CERT-EKS-000345",
+  "asset_name": "Liraglutide Pivotal Human Evidence Source Closure",
+  "root_asset": "CERT-PKS-000016",
+  "knowledge_system": "EKS",
+  "asset_type": "Tier 1 Source-Closed Living Evidence Object",
+  "version": "0.3.0",
+  "status": "SOURCE CLOSED WITHIN DEFINED SCOPE / LIVING EVIDENCE ACTIVE",
+  "source_closure_build": "0035B",
+  "evidence_type": "Primary human efficacy and translation evidence",
+  "evidence_grade": "B1 — pivotal or major randomised human evidence",
+  "last_review": "2026-07-16",
+  "source_closure_scope_complete": true,
+  "exhaustive_literature_review": false,
+  "controlled_conclusion": "The SCALE obesity trial established weight-management evidence for sponsor-controlled liraglutide 3.0 mg. LEADER established cardiovascular-outcome evidence for a defined liraglutide diabetes product and population. Evidence must remain product, dose, route and indication specific.",
+  "sources": [
+    {
+      "title": "A randomised controlled trial of liraglutide 3.0 mg in weight management",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26132939/",
+      "type": "SCALE pivotal randomised controlled trial",
+      "date_state": "Published 2015"
+    },
+    {
+      "title": "Liraglutide and cardiovascular outcomes in type 2 diabetes",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27295427/",
+      "type": "LEADER cardiovascular-outcome trial",
+      "date_state": "Published 2016"
+    }
+  ],
+  "transfer_prohibited": [
+    "Transfer from authorised finished product to catalogue supplier powder",
+    "Transfer from trial material to unverified supplier material",
+    "Creation of dosing, injection or reconstitution guidance",
+    "Assumption of supplier purity, potency, sterility, stability or equivalence"
+  ],
+  "next_review_trigger": "Material label, indication, safety, regulatory, trial, manufacturer, quality or supplier-evidence change"
+}

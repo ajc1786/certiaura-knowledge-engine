@@ -10,13 +10,12 @@
 
 | Claim | Permission |
 |---|---|
-| Bremelanotide / PT-141 is classified as cyclic melanocortin-receptor agonist peptide medicine/research product. | Allowed |
-| UNITED STATES AUTHORISED VYLEESI CONTEXT EXISTS FOR DEFINED PREMENOPAUSAL HSDD — CATALOGUE POWDER IS NOT AN AUTHORISED-PRODUCT EQUIVALENT | Allowed as a dated controlled headline |
-| The supplier powder matches the authorised medicine. | Not established / prohibited |
-| A universal human dosing or administration protocol is validated. | Not established / prohibited |
+| Authorised-product and pivotal human evidence sources are closed within the defined Batch A scope. | Allowed |
+| VYLEESI is an exact bremelanotide acetate 1.75 mg/0.3 mL single-dose prefilled autoinjector authorised in the United States for acquired, generalised hypoactive sexual desire disorder in premenopausal women under defined exclusions. P41 powder is not VYLEESI and has no authorised-product, device, concentration or indication equivalence. | Allowed as the controlled product boundary |
+| The catalogue powder is equivalent to an authorised finished product. | False / prohibited |
+| Pivotal trial results establish supplier-vial efficacy or safety. | False / prohibited |
+| Supplier identity, purity, potency, sterility and stability are verified. | False / prohibited |
+| A personal dosing, injection or reconstitution protocol is validated. | False / prohibited |
 | The asset is Platinum Certified. | False / prohibited |
-| Bremelanotide has a defined United States Vyleesi HSDD indication. | Allowed with exact population and product controls |
-| The catalogue PT-141 vial is equivalent to Vyleesi. | False / prohibited |
-| Bremelanotide is approved for men or for sexual performance. | False / prohibited |
 
 **Status as of:** 2026-07-16

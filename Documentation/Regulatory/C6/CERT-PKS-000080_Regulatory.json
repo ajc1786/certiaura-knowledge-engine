@@ -1,36 +1,40 @@
 {
   "asset_uai": "CERT-PKS-000080",
   "asset_name": "Bremelanotide / PT-141",
+  "version": "0.3.0",
   "status_as_of": "2026-07-16",
-  "overall_status": "UNITED STATES AUTHORISED VYLEESI CONTEXT EXISTS FOR DEFINED PREMENOPAUSAL HSDD — CATALOGUE POWDER IS NOT AN AUTHORISED-PRODUCT EQUIVALENT",
+  "source_closure_build": "0035B",
+  "living_evidence_status": "ACTIVE",
   "regulatory_records": [
     {
       "jurisdiction": "United States",
-      "authority": "FDA",
-      "current_status": "Vyleesi bremelanotide injection has an authorised indication for acquired, generalised HSDD in a defined premenopausal female population. The catalogue powder is not the authorised autoinjector.",
+      "authority": "FDA / DailyMed",
+      "current_status": "VYLEESI is an exact 1.75 mg/0.3 mL prefilled autoinjector for defined premenopausal HSDD.",
       "monitoring_state": "ACTIVE",
-      "next_review_trigger": "Approval, label, safety, product availability, enforcement, trial or anti-doping change"
-    },
-    {
-      "jurisdiction": "United Kingdom",
-      "authority": "MHRA",
-      "current_status": "No United Kingdom marketing-authorisation claim is created; direct current verification required.",
-      "monitoring_state": "ACTIVE",
-      "next_review_trigger": "Approval, label, safety, product availability, enforcement, trial or anti-doping change"
+      "next_review_trigger": "Label, indication, approval, safety, trial, warning, recall, anti-doping or supplier-evidence change"
     },
     {
       "jurisdiction": "European Union",
       "authority": "EMA / European Commission",
-      "current_status": "No central European Union marketing-authorisation claim is created; direct current verification required.",
+      "current_status": "No central supplier-product authorisation or VYLEESI-equivalence claim.",
       "monitoring_state": "ACTIVE",
-      "next_review_trigger": "Approval, label, safety, product availability, enforcement, trial or anti-doping change"
+      "next_review_trigger": "Label, indication, approval, safety, trial, warning, recall, anti-doping or supplier-evidence change"
+    },
+    {
+      "jurisdiction": "United Kingdom",
+      "authority": "MHRA",
+      "current_status": "Exact product status requires current verification; no supplier-equivalence claim.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Label, indication, approval, safety, trial, warning, recall, anti-doping or supplier-evidence change"
     },
     {
       "jurisdiction": "International sport",
       "authority": "WADA",
-      "current_status": "Current athlete-specific verification required before any permitted-status claim.",
-      "monitoring_state": "EVENT-TRIGGERED",
-      "next_review_trigger": "Approval, label, safety, product availability, enforcement, trial or anti-doping change"
+      "current_status": "No athlete-permitted or performance-enhancement claim.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Label, indication, approval, safety, trial, warning, recall, anti-doping or supplier-evidence change"
     }
-  ]
+  ],
+  "supplier_product_equivalence": false,
+  "commercial_release": false
 }

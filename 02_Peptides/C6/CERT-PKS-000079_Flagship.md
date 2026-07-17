@@ -8,53 +8,47 @@
 
 # CERT-PKS-000079 — Afamelanotide / Melanotan I
 
-**Version:** 0.1.0  
-**Status:** CATALOGUE REVIEWED / AUTHORISED-PRODUCT BOUNDARY ACTIVE / NOT PLATINUM CERTIFIED  
+**Tier:** T1 Primary-Source Closure Candidate  
+**Version:** 0.3.0  
+**Status:** SOURCE FOUNDATION COMPLETE WITHIN DEFINED SCOPE / SUPPLIER PASSPORT OPEN  
 **Last Review:** 2026-07-16
 
-## Classification
+## Authorised-product boundary
 
-Linear alpha-MSH analogue and authorised implant active substance
+SCENESSE is an exact 16 mg afamelanotide subcutaneous implant for adults with erythropoietic protoporphyria, administered by trained healthcare professionals. The European authorisation is under exceptional circumstances and remains subject to post-authorisation monitoring. MT1 powder is not the implant and is not an authorised tanning or cosmetic product.
 
-## Mechanism
+## Pivotal human evidence
 
-Melanocortin-1 receptor agonism stimulating eumelanin production. Authorised afamelanotide use is product-, implant- and indication-specific.
+Two multicentre randomised double-blind placebo-controlled trials in Europe and the United States evaluated 16 mg afamelanotide implants every 60 days in adults with erythropoietic protoporphyria and supported pain-free light-exposure evidence.
 
-## Evidence maturity
+## Current safety boundary
 
-Authorised medicine and clinical evidence exist for the Scenesse implant in erythropoietic protoporphyria. Cosmetic-tanning use and unverified powder products are separate evidence and regulatory objects.
+Current controls include trained implantation, hypersensitivity/anaphylaxis, insertion-site monitoring, skin pigmentation changes and periodic full-body skin examination. The authorised evidence does not support unsupervised powder use or cosmetic tanning.
 
-## Evidence foundation
+## New source-closed evidence
 
-- `CERT-EKS-000185`
-- `CERT-EKS-000186`
+- `CERT-EKS-000350`
+- `CERT-EKS-000351`
+- `CERT-EKS-000352`
 
-## Regulatory headline
+## Product Passport
 
-**AUTHORISED SCENESSE IMPLANT CONTEXTS EXIST FOR EPP — CATALOGUE POWDER IS NOT AN AUTHORISED-PRODUCT EQUIVALENT**
+`CERT-PPS-000057`
 
-## Catalogue pricing
+## Catalogue records
 
 | Code | Specification | USD per kit |
 |---|---|---:|
 | MT1 | 10 mg x 10 vials | $51 |
 
-## Authorised-product boundary
+## Closure state
 
-The supplier catalogue does not establish equivalence to an authorised implant, injection solution, autoinjector, manufacturer, formulation, potency standard or clinical product.
-
-## Validated universal human dosing protocol
-
-**No**
-
-## Certification blockers
-
-- Current jurisdiction-specific product information
-- Supplier powder sequence, salt, potency, purity and sterility
-- No equivalence to the 16 mg bioresorbable Scenesse implant
-- Cosmetic-tanning claim and legal-status separation
-- Long-term dermatological and pigmentary surveillance
-
-## Platinum Certified
-
-**No**
+- Authorised/current product source closure: **Complete within defined scope**
+- Pivotal human source closure: **Complete within defined scope**
+- Major safety-source closure: **Complete within defined scope**
+- Exhaustive systematic review: **No**
+- Supplier identity and formulation: **Open**
+- Supplier quality and sterility: **Open**
+- Authorised-product equivalence: **No**
+- Direct-sale gate: **Blocked**
+- Platinum Certified: **No**

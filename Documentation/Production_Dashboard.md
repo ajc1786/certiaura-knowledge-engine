@@ -1,35 +1,37 @@
 # CERTIAURA PRODUCTION DASHBOARD
 
-**Build:** 0035A  
+**Build:** 0035B  
 **Date:** 2026-07-16
 
-## Platinum Readiness
+## Tier 1 Source Closure
 
-- Product assets scored: **102 / 102**
-- T1 Primary-Source Closure Candidates: **14**
-- T2 Advanced Evidence Expansion: **13**
-- T3 Substantial Closure Required: **62**
-- T4 High Analytical/Evidence Burden: **3**
-- Q Identity/Composition Quarantine: **10**
+### Batch A complete
 
-## Controls
+- 7 Tier 1 product assets upgraded
+- 7 new Product Passports
+- 21 new source-closed EKS objects
+- 7 living regulatory profiles
+- 0 product-family UAIs
+- 0 direct-sale gates opened
+- 0 Platinum certifications
 
-- Direct-sale gates opened: **0**
-- Platinum certifications: **0**
-- Product-family UAIs allocated: **0**
+### New allocations
 
-## Current UAI maxima
+- PPS: CERT-PPS-000052–000058
+- EKS: CERT-EKS-000335–000355
 
-- PKS: CERT-PKS-000090
-- MPS: CERT-MPS-000012
-- PPS: CERT-PPS-000051
-- EKS: CERT-EKS-000334
-- SKS: CERT-SKS-000107
-- BKS: CERT-BKS-000184
-- CKS: CERT-CKS-000059
-- MKS: CERT-MKS-000181
-- GKS: CERT-GKS-000096
+### Next allocation state
+
+- PKS: CERT-PKS-000091
+- MPS: CERT-MPS-000013
+- PPS: CERT-PPS-000059
+- EKS: CERT-EKS-000356
+- SKS: CERT-SKS-000108
+- BKS: CERT-BKS-000185
+- CKS: CERT-CKS-000060
+- MKS: CERT-MKS-000182
+- GKS: CERT-GKS-000097
 
 ## Next build
 
-**Build 0035B — Tier 1 Primary-Source Extraction & Living Evidence Upgrade — Batch A**
+**Build 0035C — Tier 1 Primary-Source Extraction & Living Evidence Upgrade — Batch B**

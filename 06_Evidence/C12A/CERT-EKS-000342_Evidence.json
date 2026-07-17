@@ -1,0 +1,31 @@
+{
+  "asset_id": "CERT-EKS-000342",
+  "asset_name": "Tirzepatide Pivotal Human Evidence Source Closure",
+  "root_asset": "CERT-PKS-000012",
+  "knowledge_system": "EKS",
+  "asset_type": "Tier 1 Source-Closed Living Evidence Object",
+  "version": "0.3.0",
+  "status": "SOURCE CLOSED WITHIN DEFINED SCOPE / LIVING EVIDENCE ACTIVE",
+  "source_closure_build": "0035B",
+  "evidence_type": "Primary human efficacy and translation evidence",
+  "evidence_grade": "B1 — pivotal or major randomised human evidence",
+  "last_review": "2026-07-16",
+  "source_closure_scope_complete": true,
+  "exhaustive_literature_review": false,
+  "controlled_conclusion": "SURMOUNT-1 was a phase 3 randomised trial in 2,539 adults with obesity or overweight and a weight-related complication without diabetes. Product-specific trials and labels also support other exact indications. None validates catalogue lyophilised vials.",
+  "sources": [
+    {
+      "title": "Tirzepatide once weekly for the treatment of obesity",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35658024/",
+      "type": "SURMOUNT-1 pivotal randomised controlled trial",
+      "date_state": "Published 2022"
+    }
+  ],
+  "transfer_prohibited": [
+    "Transfer from authorised finished product to catalogue supplier powder",
+    "Transfer from trial material to unverified supplier material",
+    "Creation of dosing, injection or reconstitution guidance",
+    "Assumption of supplier purity, potency, sterility, stability or equivalence"
+  ],
+  "next_review_trigger": "Material label, indication, safety, regulatory, trial, manufacturer, quality or supplier-evidence change"
+}
