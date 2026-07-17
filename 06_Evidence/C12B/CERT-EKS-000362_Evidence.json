@@ -1,0 +1,37 @@
+{
+  "asset_id": "CERT-EKS-000362",
+  "asset_name": "Cagrilintide Product, Identity and Regulatory Source Closure",
+  "root_asset": "CERT-PKS-000013",
+  "knowledge_system": "EKS",
+  "asset_type": "Tier 1 Source-Closed Living Evidence Object",
+  "version": "0.3.0",
+  "status": "SOURCE CLOSED WITHIN DEFINED SCOPE / LIVING EVIDENCE ACTIVE",
+  "source_closure_build": "0035C",
+  "evidence_type": "Product, substance identity and current regulatory evidence",
+  "evidence_grade": "A1 — current official regulator, registry or product source",
+  "last_review": "2026-07-17",
+  "source_closure_scope_complete": true,
+  "exhaustive_literature_review": false,
+  "controlled_conclusion": "Cagrilintide remains an investigational long-acting amylin analogue. REDEFINE 1 included a cagrilintide monotherapy arm and continues an extension through 2026. The United States regulatory application filed in December 2025 concerns the fixed combination CagriSema, not catalogue CGL vials or cagrilintide monotherapy.",
+  "sources": [
+    {
+      "title": "REDEFINE 1 registry",
+      "url": "https://clinicaltrials.gov/study/NCT05567796",
+      "type": "Current authoritative trial registry",
+      "date_state": "Active extension; last update 2026-05-05"
+    },
+    {
+      "title": "CagriSema FDA submission and expected decision",
+      "url": "https://www.novonordisk.com/news-and-media/news-and-ir-materials/news-details.html?id=916567",
+      "type": "Official sponsor regulatory update",
+      "date_state": "Published 2026-06-07; decision expected Q4 2026"
+    }
+  ],
+  "transfer_prohibited": [
+    "Transfer from authorised, sponsor or trial product to catalogue supplier material",
+    "Creation of personal dosing, injection or reconstitution guidance",
+    "Assumption of supplier purity, potency, sterility, stability or equivalence",
+    "Representation of orphan designation or trial registration as marketing authorisation"
+  ],
+  "next_review_trigger": "Material approval, label, trial-result, safety, warning, recall, manufacturer, quality, anti-doping or supplier-evidence change"
+}

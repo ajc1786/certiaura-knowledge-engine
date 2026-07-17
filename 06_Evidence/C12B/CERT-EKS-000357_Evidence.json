@@ -1,0 +1,37 @@
+{
+  "asset_id": "CERT-EKS-000357",
+  "asset_name": "Somatropin Pivotal Human Evidence Source Closure",
+  "root_asset": "CERT-PKS-000020",
+  "knowledge_system": "EKS",
+  "asset_type": "Tier 1 Source-Closed Living Evidence Object",
+  "version": "0.3.0",
+  "status": "SOURCE CLOSED WITHIN DEFINED SCOPE / LIVING EVIDENCE ACTIVE",
+  "source_closure_build": "0035C",
+  "evidence_type": "Primary human efficacy and translation evidence",
+  "evidence_grade": "B1 — pivotal, major randomised or defined phase 2/3 human evidence",
+  "last_review": "2026-07-17",
+  "source_closure_scope_complete": true,
+  "exhaustive_literature_review": false,
+  "controlled_conclusion": "Randomised paediatric growth-hormone-deficiency trials show that authentic recombinant somatropin can improve growth outcomes, while controlled adult studies support replacement effects in confirmed growth-hormone deficiency. These findings are indication-, population-, product- and monitoring-specific and do not validate catalogue vials.",
+  "sources": [
+    {
+      "title": "Four-year randomised daily versus three-times-weekly somatropin trial",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/8626839/",
+      "type": "Randomised paediatric human evidence",
+      "date_state": "Published 1996"
+    },
+    {
+      "title": "Two-year placebo-controlled somatropin dose-response study in young adults",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/14602761/",
+      "type": "Randomised adult human evidence",
+      "date_state": "Published 2003"
+    }
+  ],
+  "transfer_prohibited": [
+    "Transfer from authorised, sponsor or trial product to catalogue supplier material",
+    "Creation of personal dosing, injection or reconstitution guidance",
+    "Assumption of supplier purity, potency, sterility, stability or equivalence",
+    "Representation of orphan designation or trial registration as marketing authorisation"
+  ],
+  "next_review_trigger": "Material approval, label, trial-result, safety, warning, recall, manufacturer, quality, anti-doping or supplier-evidence change"
+}

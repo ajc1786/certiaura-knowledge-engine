@@ -1,0 +1,162 @@
+{
+  "asset_id": "CERT-PKS-000013",
+  "asset_name": "Cagrilintide",
+  "knowledge_system": "PKS",
+  "asset_type": "Peptide Knowledge Asset",
+  "version": "0.3.0",
+  "status": "TIER 1 PRIMARY-SOURCE BATCH B COMPLETE WITHIN DEFINED SCOPE / SUPPLIER PRODUCT PASSPORT OPEN / NOT PLATINUM CERTIFIED",
+  "owner": "Aidan Coleman",
+  "last_review": "2026-07-17",
+  "aliases": [
+    "AM833",
+    "NN9838"
+  ],
+  "classification": "Long-acting amylin analogue peptide",
+  "mechanism_summary": "Amylin and calcitonin-receptor-family signalling affecting satiety, food intake and body-weight regulation.",
+  "evidence_maturity": "Phase 2 and phase 3 clinical-development evidence; standalone and combination evidence must remain separated.",
+  "regulatory_headline": "INVESTIGATIONAL / NO STANDALONE APPROVAL CLAIM",
+  "catalogue_supplier_skus": [
+    {
+      "catalogue_code": "CGL5",
+      "specification": "5 mg x 10 vials",
+      "price_usd_per_kit": 92
+    },
+    {
+      "catalogue_code": "CGL10",
+      "specification": "10 mg x 10 vials",
+      "price_usd_per_kit": 170
+    },
+    {
+      "catalogue_code": "CGL20",
+      "specification": "20 mg x 10 vials",
+      "price_usd_per_kit": 295
+    }
+  ],
+  "relationships": [
+    {
+      "source": "CERT-PKS-000013",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000044"
+    },
+    {
+      "source": "CERT-PKS-000013",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000045"
+    },
+    {
+      "source": "CERT-PKS-000013",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000046"
+    },
+    {
+      "source": "CERT-PKS-000013",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000021"
+    },
+    {
+      "source": "CERT-PKS-000013",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000022"
+    },
+    {
+      "source": "CERT-PKS-000013",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000003"
+    },
+    {
+      "source": "CERT-PKS-000013",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000006"
+    },
+    {
+      "source": "CERT-PKS-000013",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000007"
+    },
+    {
+      "source": "CERT-PKS-000013",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000028"
+    },
+    {
+      "source": "CERT-PKS-000013",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000030"
+    },
+    {
+      "source": "CERT-PKS-000013",
+      "relationship": "SUPPORTS_GOAL",
+      "target": "CERT-GKS-000001"
+    },
+    {
+      "source": "CERT-PKS-000013",
+      "relationship": "SUPPORTS_GOAL",
+      "target": "CERT-GKS-000014"
+    },
+    {
+      "source": "CERT-PKS-000013",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000053"
+    },
+    {
+      "source": "CERT-PKS-000013",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000054"
+    },
+    {
+      "source": "CERT-PKS-000013",
+      "relationship": "HAS_SAFETY",
+      "target": "CERT-SKS-000018"
+    },
+    {
+      "source": "CERT-PKS-000013",
+      "relationship": "HAS_PASSPORT",
+      "target": "CERT-PPS-000061"
+    },
+    {
+      "source": "CERT-PKS-000013",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000362"
+    },
+    {
+      "source": "CERT-PKS-000013",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000363"
+    },
+    {
+      "source": "CERT-PKS-000013",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000364"
+    }
+  ],
+  "validated_universal_human_dosing_protocol": false,
+  "supplier_catalogue_proves_quality": false,
+  "platinum_certified": false,
+  "certification_blockers": [
+    "No standalone approval",
+    "Current phase 3 and submission status",
+    "Combination evidence must not be assigned to monotherapy",
+    "Supplier product identity"
+  ],
+  "readiness_tier": "T1",
+  "source_closure_build": "0035C",
+  "source_closure_scope": [
+    "authorised-product, investigational-programme or substance identity",
+    "pivotal or major randomised human evidence",
+    "current safety, contraindication and regulatory controls",
+    "supplier-product non-equivalence",
+    "field-level Product Passport requirements"
+  ],
+  "source_closure_scope_complete": true,
+  "exhaustive_literature_review": false,
+  "living_evidence_status": "ACTIVE",
+  "authoritative_product_boundary": "Cagrilintide remains an investigational long-acting amylin analogue. REDEFINE 1 included a cagrilintide monotherapy arm and continues an extension through 2026. The United States regulatory application filed in December 2025 concerns the fixed combination CagriSema, not catalogue CGL vials or cagrilintide monotherapy.",
+  "human_evidence_boundary": "A 706-participant phase 2 dose-finding trial established cagrilintide monotherapy weight-management evidence. REDEFINE 1 subsequently included cagrilintide 2.4 mg as an active monotherapy arm alongside CagriSema, semaglutide and placebo. Separate monotherapy phase 3 RENEW studies were initiated.",
+  "safety_source_boundary": "The dominant reported adverse events are gastrointestinal disorders and administration-site reactions. Amylin-related gastric, nutritional and interaction effects remain formulation- and dose-specific. CagriSema safety and submission status cannot be transferred to unverified cagrilintide powder.",
+  "product_passport": "CERT-PPS-000061",
+  "supplier_identity_verified": false,
+  "supplier_quality_verified": false,
+  "supplier_sterility_verified": false,
+  "authorised_or_trial_product_equivalence": false,
+  "direct_sale_gate": "BLOCKED"
+}

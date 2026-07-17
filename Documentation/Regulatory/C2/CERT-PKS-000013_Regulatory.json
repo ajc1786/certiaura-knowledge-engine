@@ -1,0 +1,40 @@
+{
+  "asset_uai": "CERT-PKS-000013",
+  "asset_name": "Cagrilintide",
+  "version": "0.3.0",
+  "status_as_of": "2026-07-17",
+  "source_closure_build": "0035C",
+  "living_evidence_status": "ACTIVE",
+  "regulatory_records": [
+    {
+      "jurisdiction": "United States",
+      "authority": "FDA / sponsor update",
+      "current_status": "CagriSema application is under review with a decision expected Q4 2026; cagrilintide monotherapy remains investigational.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Approval, label, trial-result, safety, warning, recall, anti-doping or supplier-evidence change"
+    },
+    {
+      "jurisdiction": "Global clinical development",
+      "authority": "ClinicalTrials.gov",
+      "current_status": "REDEFINE 1 extension and separate cagrilintide monotherapy development remain active.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Approval, label, trial-result, safety, warning, recall, anti-doping or supplier-evidence change"
+    },
+    {
+      "jurisdiction": "United Kingdom",
+      "authority": "MHRA",
+      "current_status": "No cagrilintide supplier-product authorisation or equivalence.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Approval, label, trial-result, safety, warning, recall, anti-doping or supplier-evidence change"
+    },
+    {
+      "jurisdiction": "European Union",
+      "authority": "EMA / European Commission",
+      "current_status": "No cagrilintide supplier-product authorisation or equivalence.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Approval, label, trial-result, safety, warning, recall, anti-doping or supplier-evidence change"
+    }
+  ],
+  "supplier_product_equivalence": false,
+  "commercial_release": false
+}

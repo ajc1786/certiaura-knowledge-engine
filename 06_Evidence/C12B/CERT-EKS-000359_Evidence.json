@@ -1,0 +1,43 @@
+{
+  "asset_id": "CERT-EKS-000359",
+  "asset_name": "Retatrutide Product, Identity and Regulatory Source Closure",
+  "root_asset": "CERT-PKS-000001",
+  "knowledge_system": "EKS",
+  "asset_type": "Tier 1 Source-Closed Living Evidence Object",
+  "version": "0.3.0",
+  "status": "SOURCE CLOSED WITHIN DEFINED SCOPE / LIVING EVIDENCE ACTIVE",
+  "source_closure_build": "0035C",
+  "evidence_type": "Product, substance identity and current regulatory evidence",
+  "evidence_grade": "A1 — current official regulator, registry or product source",
+  "last_review": "2026-07-17",
+  "source_closure_scope_complete": true,
+  "exhaustive_literature_review": false,
+  "controlled_conclusion": "Retatrutide remains an investigational GIP, GLP-1 and glucagon receptor agonist. TRIUMPH-1 completed in April 2026 without posted registry results, while additional phase 3 studies remain active. A 2026 phase 3 type 2 diabetes trial has been published, but no catalogue RT vial inherits sponsor clinical-material identity or approval.",
+  "sources": [
+    {
+      "title": "TRIUMPH-1 phase 3 registry",
+      "url": "https://clinicaltrials.gov/study/NCT05929066",
+      "type": "Current authoritative trial registry",
+      "date_state": "Completed 2026-04; last update 2026-06-03"
+    },
+    {
+      "title": "TRIUMPH-3 cardiovascular-disease registry",
+      "url": "https://clinicaltrials.gov/study/NCT05882045",
+      "type": "Current authoritative trial registry",
+      "date_state": "Active, not recruiting; last update 2026-05-22"
+    },
+    {
+      "title": "TRIUMPH-5 retatrutide-versus-tirzepatide registry",
+      "url": "https://clinicaltrials.gov/study/NCT06662383",
+      "type": "Current authoritative trial registry",
+      "date_state": "Active, not recruiting; last update 2026-04-13"
+    }
+  ],
+  "transfer_prohibited": [
+    "Transfer from authorised, sponsor or trial product to catalogue supplier material",
+    "Creation of personal dosing, injection or reconstitution guidance",
+    "Assumption of supplier purity, potency, sterility, stability or equivalence",
+    "Representation of orphan designation or trial registration as marketing authorisation"
+  ],
+  "next_review_trigger": "Material approval, label, trial-result, safety, warning, recall, manufacturer, quality, anti-doping or supplier-evidence change"
+}

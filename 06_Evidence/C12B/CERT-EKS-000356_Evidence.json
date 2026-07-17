@@ -1,0 +1,31 @@
+{
+  "asset_id": "CERT-EKS-000356",
+  "asset_name": "Somatropin Product, Identity and Regulatory Source Closure",
+  "root_asset": "CERT-PKS-000020",
+  "knowledge_system": "EKS",
+  "asset_type": "Tier 1 Source-Closed Living Evidence Object",
+  "version": "0.3.0",
+  "status": "SOURCE CLOSED WITHIN DEFINED SCOPE / LIVING EVIDENCE ACTIVE",
+  "source_closure_build": "0035C",
+  "evidence_type": "Product, substance identity and current regulatory evidence",
+  "evidence_grade": "A1 — current official regulator, registry or product source",
+  "last_review": "2026-07-17",
+  "source_closure_scope_complete": true,
+  "exhaustive_literature_review": false,
+  "controlled_conclusion": "GENOTROPIN is an exact recombinant human growth hormone biological product with defined indications, formulations, manufacturers, delivery systems and potency. The current United States label was updated on 30 April 2026. Catalogue H-series vials do not inherit GENOTROPIN, NORDITROPIN or another licensed somatropin identity.",
+  "sources": [
+    {
+      "title": "GENOTROPIN current United States prescribing information",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ffebf88b-d257-4542-9808-74d9b7167765",
+      "type": "Authoritative current biological-product label",
+      "date_state": "Updated 2026-04-30"
+    }
+  ],
+  "transfer_prohibited": [
+    "Transfer from authorised, sponsor or trial product to catalogue supplier material",
+    "Creation of personal dosing, injection or reconstitution guidance",
+    "Assumption of supplier purity, potency, sterility, stability or equivalence",
+    "Representation of orphan designation or trial registration as marketing authorisation"
+  ],
+  "next_review_trigger": "Material approval, label, trial-result, safety, warning, recall, manufacturer, quality, anti-doping or supplier-evidence change"
+}

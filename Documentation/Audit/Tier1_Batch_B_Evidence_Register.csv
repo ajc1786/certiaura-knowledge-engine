@@ -1,0 +1,22 @@
+EKS UAI,Parent UAI,Asset Name,Evidence Type,Evidence Grade,Source Count,Defined Scope Closed,Exhaustive Review,Living Evidence,Platinum Certification
+CERT-EKS-000356,CERT-PKS-000020,Somatropin,"Product, substance identity and current regulatory evidence","A1 — current official regulator, registry or product source",1,YES,NO,ACTIVE,NO
+CERT-EKS-000357,CERT-PKS-000020,Somatropin,Primary human efficacy and translation evidence,"B1 — pivotal, major randomised or defined phase 2/3 human evidence",2,YES,NO,ACTIVE,NO
+CERT-EKS-000358,CERT-PKS-000020,Somatropin,"Safety, contraindication and current development evidence",A1/B1 — current official source plus primary clinical evidence,4,YES,NO,ACTIVE,NO
+CERT-EKS-000359,CERT-PKS-000001,Retatrutide,"Product, substance identity and current regulatory evidence","A1 — current official regulator, registry or product source",3,YES,NO,ACTIVE,NO
+CERT-EKS-000360,CERT-PKS-000001,Retatrutide,Primary human efficacy and translation evidence,"B1 — pivotal, major randomised or defined phase 2/3 human evidence",2,YES,NO,ACTIVE,NO
+CERT-EKS-000361,CERT-PKS-000001,Retatrutide,"Safety, contraindication and current development evidence",A1/B1 — current official source plus primary clinical evidence,5,YES,NO,ACTIVE,NO
+CERT-EKS-000362,CERT-PKS-000013,Cagrilintide,"Product, substance identity and current regulatory evidence","A1 — current official regulator, registry or product source",2,YES,NO,ACTIVE,NO
+CERT-EKS-000363,CERT-PKS-000013,Cagrilintide,Primary human efficacy and translation evidence,"B1 — pivotal, major randomised or defined phase 2/3 human evidence",2,YES,NO,ACTIVE,NO
+CERT-EKS-000364,CERT-PKS-000013,Cagrilintide,"Safety, contraindication and current development evidence",A1/B1 — current official source plus primary clinical evidence,5,YES,NO,ACTIVE,NO
+CERT-EKS-000365,CERT-PKS-000014,Mazdutide,"Product, substance identity and current regulatory evidence","A1 — current official regulator, registry or product source",2,YES,NO,ACTIVE,NO
+CERT-EKS-000366,CERT-PKS-000014,Mazdutide,Primary human efficacy and translation evidence,"B1 — pivotal, major randomised or defined phase 2/3 human evidence",3,YES,NO,ACTIVE,NO
+CERT-EKS-000367,CERT-PKS-000014,Mazdutide,"Safety, contraindication and current development evidence",A1/B1 — current official source plus primary clinical evidence,5,YES,NO,ACTIVE,NO
+CERT-EKS-000368,CERT-PKS-000015,Survodutide,"Product, substance identity and current regulatory evidence","A1 — current official regulator, registry or product source",3,YES,NO,ACTIVE,NO
+CERT-EKS-000369,CERT-PKS-000015,Survodutide,Primary human efficacy and translation evidence,"B1 — pivotal, major randomised or defined phase 2/3 human evidence",4,YES,NO,ACTIVE,NO
+CERT-EKS-000370,CERT-PKS-000015,Survodutide,"Safety, contraindication and current development evidence",A1/B1 — current official source plus primary clinical evidence,5,YES,NO,ACTIVE,NO
+CERT-EKS-000371,CERT-PKS-000054,Cibinetide / ARA-290,"Product, substance identity and current regulatory evidence","A1 — current official regulator, registry or product source",2,YES,NO,ACTIVE,NO
+CERT-EKS-000372,CERT-PKS-000054,Cibinetide / ARA-290,Primary human efficacy and translation evidence,"B1 — pivotal, major randomised or defined phase 2/3 human evidence",3,YES,NO,ACTIVE,NO
+CERT-EKS-000373,CERT-PKS-000054,Cibinetide / ARA-290,"Safety, contraindication and current development evidence",A1/B1 — current official source plus primary clinical evidence,5,YES,NO,ACTIVE,NO
+CERT-EKS-000374,CERT-PKS-000089,Elamipretide / SS-31,"Product, substance identity and current regulatory evidence","A1 — current official regulator, registry or product source",5,YES,NO,ACTIVE,NO
+CERT-EKS-000375,CERT-PKS-000089,Elamipretide / SS-31,Primary human efficacy and translation evidence,"B1 — pivotal, major randomised or defined phase 2/3 human evidence",0,YES,NO,ACTIVE,NO
+CERT-EKS-000376,CERT-PKS-000089,Elamipretide / SS-31,"Safety, contraindication and current development evidence",A1/B1 — current official source plus primary clinical evidence,5,YES,NO,ACTIVE,NO

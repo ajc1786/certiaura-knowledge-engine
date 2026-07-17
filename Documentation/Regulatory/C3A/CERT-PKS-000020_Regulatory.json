@@ -1,0 +1,40 @@
+{
+  "asset_uai": "CERT-PKS-000020",
+  "asset_name": "Somatropin",
+  "version": "0.3.0",
+  "status_as_of": "2026-07-17",
+  "source_closure_build": "0035C",
+  "living_evidence_status": "ACTIVE",
+  "regulatory_records": [
+    {
+      "jurisdiction": "United States",
+      "authority": "FDA / DailyMed",
+      "current_status": "GENOTROPIN is an exact licensed somatropin biological product; H-series vials are non-equivalent.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Approval, label, trial-result, safety, warning, recall, anti-doping or supplier-evidence change"
+    },
+    {
+      "jurisdiction": "United Kingdom",
+      "authority": "MHRA",
+      "current_status": "Somatropin status is exact product, indication, formulation and supply-chain specific.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Approval, label, trial-result, safety, warning, recall, anti-doping or supplier-evidence change"
+    },
+    {
+      "jurisdiction": "European Union",
+      "authority": "EMA / national authorities",
+      "current_status": "Somatropin medicines are product and jurisdiction specific; no supplier equivalence.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Approval, label, trial-result, safety, warning, recall, anti-doping or supplier-evidence change"
+    },
+    {
+      "jurisdiction": "International sport",
+      "authority": "WADA",
+      "current_status": "Growth hormone is subject to the current 2026 prohibited-list controls.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Approval, label, trial-result, safety, warning, recall, anti-doping or supplier-evidence change"
+    }
+  ],
+  "supplier_product_equivalence": false,
+  "commercial_release": false
+}

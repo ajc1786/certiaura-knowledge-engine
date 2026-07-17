@@ -1,0 +1,43 @@
+{
+  "asset_id": "CERT-EKS-000366",
+  "asset_name": "Mazdutide Pivotal Human Evidence Source Closure",
+  "root_asset": "CERT-PKS-000014",
+  "knowledge_system": "EKS",
+  "asset_type": "Tier 1 Source-Closed Living Evidence Object",
+  "version": "0.3.0",
+  "status": "SOURCE CLOSED WITHIN DEFINED SCOPE / LIVING EVIDENCE ACTIVE",
+  "source_closure_build": "0035C",
+  "evidence_type": "Primary human efficacy and translation evidence",
+  "evidence_grade": "B1 — pivotal, major randomised or defined phase 2/3 human evidence",
+  "last_review": "2026-07-17",
+  "source_closure_scope_complete": true,
+  "exhaustive_literature_review": false,
+  "controlled_conclusion": "GLORY-1 established phase 3 weight-management evidence for 4 mg and 6 mg mazdutide in Chinese adults. DREAMS-1 established phase 3 monotherapy evidence in type 2 diabetes. GLORY-2 reported 9 mg evidence in 2026, while the 9 mg supplementary application remained under Chinese regulatory review.",
+  "sources": [
+    {
+      "title": "GLORY-1 phase 3 trial",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40421736/",
+      "type": "Primary randomised phase 3 weight-management evidence",
+      "date_state": "Published 2025"
+    },
+    {
+      "title": "DREAMS-1 phase 3 trial",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41407859/",
+      "type": "Primary randomised phase 3 diabetes evidence",
+      "date_state": "Published online 2025; issue 2026"
+    },
+    {
+      "title": "GLORY-2 9 mg phase 3 trial",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42251595/",
+      "type": "Primary randomised phase 3 weight-management evidence",
+      "date_state": "Published 2026"
+    }
+  ],
+  "transfer_prohibited": [
+    "Transfer from authorised, sponsor or trial product to catalogue supplier material",
+    "Creation of personal dosing, injection or reconstitution guidance",
+    "Assumption of supplier purity, potency, sterility, stability or equivalence",
+    "Representation of orphan designation or trial registration as marketing authorisation"
+  ],
+  "next_review_trigger": "Material approval, label, trial-result, safety, warning, recall, manufacturer, quality, anti-doping or supplier-evidence change"
+}

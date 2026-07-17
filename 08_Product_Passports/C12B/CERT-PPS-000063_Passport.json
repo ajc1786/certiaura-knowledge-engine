@@ -1,0 +1,61 @@
+{
+  "asset_id": "CERT-PPS-000063",
+  "asset_name": "Survodutide Product Passport",
+  "knowledge_system": "PPS",
+  "asset_type": "Tier 1 Source-Closure Product Passport",
+  "parent_product": "CERT-PKS-000015",
+  "version": "0.3.0",
+  "status": "OPEN / SOURCE FOUNDATION COMPLETE / SUPPLIER EVIDENCE NOT CERTIFIED",
+  "source_closure_build": "0035C",
+  "source_closure_scope_complete": true,
+  "exhaustive_literature_review": false,
+  "last_review": "2026-07-17",
+  "required_fields": [
+    {
+      "field": "complete survodutide sequence and analogue substitutions",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, reference-standard, analytical, quality, stability and regulatory-comparability evidence"
+    },
+    {
+      "field": "lipidation, linker, attachment site and stereochemistry",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, reference-standard, analytical, quality, stability and regulatory-comparability evidence"
+    },
+    {
+      "field": "salt, counter-ion, molecular mass and reference standard",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, reference-standard, analytical, quality, stability and regulatory-comparability evidence"
+    },
+    {
+      "field": "manufacturer, synthesis route and batch",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, reference-standard, analytical, quality, stability and regulatory-comparability evidence"
+    },
+    {
+      "field": "HPLC, LC-MS, peptide mapping and dual-receptor potency",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, reference-standard, analytical, quality, stability and regulatory-comparability evidence"
+    },
+    {
+      "field": "formulation, excipients and container closure",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, reference-standard, analytical, quality, stability and regulatory-comparability evidence"
+    },
+    {
+      "field": "sterility, endotoxin, particles and stability",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, reference-standard, analytical, quality, stability and regulatory-comparability evidence"
+    },
+    {
+      "field": "comparability to SYNCHRONIZE or MASH trial material",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, reference-standard, analytical, quality, stability and regulatory-comparability evidence"
+    }
+  ],
+  "identity_certified": false,
+  "quality_certified": false,
+  "sterility_certified": false,
+  "authorised_or_trial_product_equivalence": false,
+  "commercial_release": false,
+  "platinum_certified": false
+}

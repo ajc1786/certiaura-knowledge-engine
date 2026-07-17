@@ -8,52 +8,45 @@
 
 # CERT-PKS-000054 — Cibinetide / ARA-290
 
-**Version:** 0.1.0  
-**Status:** CATALOGUE REVIEWED / EVIDENCE FOUNDATION CREATED / NOT PLATINUM CERTIFIED  
-**Last Review:** 2026-07-16
+**Tier:** T1 Primary-Source Closure Candidate  
+**Version:** 0.3.0  
+**Status:** SOURCE FOUNDATION COMPLETE WITHIN DEFINED SCOPE / SUPPLIER PASSPORT OPEN  
+**Last Review:** 2026-07-17
 
-## Classification
+## Product or regulatory boundary
 
-Erythropoietin helix-B-derived non-haematopoietic undecapeptide
+FDA substance records identify cibinetide as the synthetic 11-residue peptide pyroglutamyl-Glu-Gln-Leu-Glu-Arg-Ala-Leu-Asn-Ser-Ser. EMA orphan designation for sarcoidosis is not marketing authorisation. RA10 supplier powder does not inherit study-material identity, formulation, quality or orphan-designation status.
 
-## Mechanism
+## Pivotal human evidence
 
-Experimental tissue-protective and anti-inflammatory signalling associated with the innate repair receptor rather than classical erythropoietic activity.
+Small phase 2 studies evaluated ARA-290/cibinetide in sarcoidosis-associated small-fibre neuropathy, type 2 diabetes with neuropathic symptoms and diabetic macular oedema. These studies were limited in size and duration and do not establish a broadly authorised neuropathy, inflammatory or regenerative therapy.
 
-## Evidence maturity
+## Current safety boundary
 
-Human phase 1/2 development exists in neuropathy and inflammatory contexts; no established authorised therapeutic product.
+The identified short-duration studies did not reveal major safety signals, but their size and duration are inadequate to establish rare, chronic, reproductive, immunogenic, cardiovascular or interaction risks. Supplier purity, pyroglutamyl identity, sterility and human-product comparability remain open.
 
-## Evidence foundation
+## New source-closed evidence
 
-- `CERT-EKS-000135`
-- `CERT-EKS-000136`
+- `CERT-EKS-000371`
+- `CERT-EKS-000372`
+- `CERT-EKS-000373`
 
-## Regulatory headline
+## Product Passport
 
-**INVESTIGATIONAL CLINICAL-DEVELOPMENT PEPTIDE — NO APPROVAL CLAIM**
+`CERT-PPS-000064`
 
-## Catalogue pricing
+## Catalogue records
 
 | Code | Specification | USD per kit |
 |---|---|---:|
 | RA10 | 10 mg x 10 vials | $76 |
 
-## Product-quality boundary
+## Closure state
 
-The supplier catalogue does not prove sequence, mixture composition, potency, purity, sterility, approval or equivalence to published materials.
-
-## Validated universal human dosing protocol
-
-**No**
-
-## Certification blockers
-
-- No authorised indication
-- Complete phase 2 and long-term safety appraisal
-- Neuropathic and inflammatory outcome validation
-- Supplier sequence, pyroglutamate identity, purity and sterility
-
-## Platinum Certified
-
-**No**
+- Defined source scope: **Complete**
+- Exhaustive systematic review: **No**
+- Supplier identity and formulation: **Open**
+- Supplier quality and sterility: **Open**
+- Authorised or trial-product equivalence: **No**
+- Direct-sale gate: **Blocked**
+- Platinum Certified: **No**

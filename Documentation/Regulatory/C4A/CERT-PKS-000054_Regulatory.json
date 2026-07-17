@@ -1,36 +1,40 @@
 {
   "asset_uai": "CERT-PKS-000054",
   "asset_name": "Cibinetide / ARA-290",
-  "status_as_of": "2026-07-16",
-  "overall_status": "INVESTIGATIONAL CLINICAL-DEVELOPMENT PEPTIDE — NO APPROVAL CLAIM",
+  "version": "0.3.0",
+  "status_as_of": "2026-07-17",
+  "source_closure_build": "0035C",
+  "living_evidence_status": "ACTIVE",
   "regulatory_records": [
+    {
+      "jurisdiction": "Global substance identity",
+      "authority": "FDA GSRS",
+      "current_status": "Cibinetide substance identity is recorded; UNII availability is not approval.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Approval, label, trial-result, safety, warning, recall, anti-doping or supplier-evidence change"
+    },
+    {
+      "jurisdiction": "European Union",
+      "authority": "EMA",
+      "current_status": "Sarcoidosis orphan designation is not marketing authorisation.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Approval, label, trial-result, safety, warning, recall, anti-doping or supplier-evidence change"
+    },
     {
       "jurisdiction": "United States",
       "authority": "FDA",
-      "current_status": "No approval claim.",
+      "current_status": "No RA10 approval or clinical-study-material equivalence.",
       "monitoring_state": "ACTIVE",
-      "next_review_trigger": "Identity, approval, label, safety, trial, enforcement or anti-doping change"
+      "next_review_trigger": "Approval, label, trial-result, safety, warning, recall, anti-doping or supplier-evidence change"
     },
     {
       "jurisdiction": "United Kingdom",
       "authority": "MHRA",
       "current_status": "No marketing-authorisation claim.",
       "monitoring_state": "ACTIVE",
-      "next_review_trigger": "Identity, approval, label, safety, trial, enforcement or anti-doping change"
-    },
-    {
-      "jurisdiction": "European Union",
-      "authority": "EMA / European Commission",
-      "current_status": "No marketing-authorisation claim.",
-      "monitoring_state": "ACTIVE",
-      "next_review_trigger": "Identity, approval, label, safety, trial, enforcement or anti-doping change"
-    },
-    {
-      "jurisdiction": "International sport",
-      "authority": "WADA",
-      "current_status": "Current athlete-specific verification required.",
-      "monitoring_state": "EVENT-TRIGGERED",
-      "next_review_trigger": "Identity, approval, label, safety, trial, enforcement or anti-doping change"
+      "next_review_trigger": "Approval, label, trial-result, safety, warning, recall, anti-doping or supplier-evidence change"
     }
-  ]
+  ],
+  "supplier_product_equivalence": false,
+  "commercial_release": false
 }

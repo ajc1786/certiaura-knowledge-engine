@@ -1,0 +1,37 @@
+{
+  "asset_id": "CERT-EKS-000363",
+  "asset_name": "Cagrilintide Pivotal Human Evidence Source Closure",
+  "root_asset": "CERT-PKS-000013",
+  "knowledge_system": "EKS",
+  "asset_type": "Tier 1 Source-Closed Living Evidence Object",
+  "version": "0.3.0",
+  "status": "SOURCE CLOSED WITHIN DEFINED SCOPE / LIVING EVIDENCE ACTIVE",
+  "source_closure_build": "0035C",
+  "evidence_type": "Primary human efficacy and translation evidence",
+  "evidence_grade": "B1 — pivotal, major randomised or defined phase 2/3 human evidence",
+  "last_review": "2026-07-17",
+  "source_closure_scope_complete": true,
+  "exhaustive_literature_review": false,
+  "controlled_conclusion": "A 706-participant phase 2 dose-finding trial established cagrilintide monotherapy weight-management evidence. REDEFINE 1 subsequently included cagrilintide 2.4 mg as an active monotherapy arm alongside CagriSema, semaglutide and placebo. Separate monotherapy phase 3 RENEW studies were initiated.",
+  "sources": [
+    {
+      "title": "Cagrilintide phase 2 dose-finding trial",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34798060/",
+      "type": "Primary randomised phase 2 human evidence",
+      "date_state": "Published 2021"
+    },
+    {
+      "title": "REDEFINE 1 phase 3 publication",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40544433/",
+      "type": "Primary randomised phase 3 evidence including cagrilintide arm",
+      "date_state": "Published 2025"
+    }
+  ],
+  "transfer_prohibited": [
+    "Transfer from authorised, sponsor or trial product to catalogue supplier material",
+    "Creation of personal dosing, injection or reconstitution guidance",
+    "Assumption of supplier purity, potency, sterility, stability or equivalence",
+    "Representation of orphan designation or trial registration as marketing authorisation"
+  ],
+  "next_review_trigger": "Material approval, label, trial-result, safety, warning, recall, manufacturer, quality, anti-doping or supplier-evidence change"
+}

@@ -1,0 +1,296 @@
+{
+  "asset_id": "CERT-PKS-000001",
+  "asset_name": "Retatrutide",
+  "knowledge_system": "PKS",
+  "asset_type": "Flagship Peptide Knowledge Asset",
+  "version": "0.3.0",
+  "status": "TIER 1 PRIMARY-SOURCE BATCH B COMPLETE WITHIN DEFINED SCOPE / SUPPLIER PRODUCT PASSPORT OPEN / NOT PLATINUM CERTIFIED",
+  "owner": "Aidan Coleman",
+  "last_review": "2026-07-17",
+  "source_of_truth_principle": "The flagship synthesises linked objects; detailed evidence remains in its canonical Evidence, Safety and Monitoring assets.",
+  "identity": {
+    "working_name": "Retatrutide",
+    "development_code": "LY3437943",
+    "modality": "Triple receptor agonist",
+    "targets": [
+      "GLP-1 receptor",
+      "GIP receptor",
+      "Glucagon receptor"
+    ],
+    "regulatory_status_control": "No regulatory approval claim is made by this build. Regulatory assessment remains an open evidence domain."
+  },
+  "plain_english_summary": "Retatrutide is an investigational multi-receptor metabolic therapy in the Certiaura evidence model. The current knowledge base contains primary early-phase and phase 2 evidence, sponsor topline phase 3 obesity evidence, an identified phase 3 type 2 diabetes publication that still requires direct extraction, and unresolved primary-source gaps for several substudies and late-stage programmes.",
+  "mechanism_links": {
+    "ligand_pathways": [
+      "CERT-BKS-000001",
+      "CERT-BKS-000002",
+      "CERT-BKS-000003"
+    ],
+    "receptor_targets": [
+      "CERT-BKS-000010",
+      "CERT-BKS-000011",
+      "CERT-BKS-000012"
+    ],
+    "downstream_biology": [
+      "CERT-BKS-000020",
+      "CERT-BKS-000021",
+      "CERT-BKS-000022",
+      "CERT-BKS-000023"
+    ]
+  },
+  "condition_links": [
+    "CERT-CKS-000001",
+    "CERT-CKS-000002",
+    "CERT-CKS-000003"
+  ],
+  "goal_links": [
+    "CERT-GKS-000001",
+    "CERT-GKS-000002",
+    "CERT-GKS-000003"
+  ],
+  "evidence_links": [
+    "CERT-EKS-000007",
+    "CERT-EKS-000008",
+    "CERT-EKS-000009",
+    "CERT-EKS-000010",
+    "CERT-EKS-000011",
+    "CERT-EKS-000012",
+    "CERT-EKS-000013",
+    "CERT-EKS-000014"
+  ],
+  "safety_links": [
+    "CERT-SKS-000001",
+    "CERT-SKS-000002",
+    "CERT-SKS-000003",
+    "CERT-SKS-000004",
+    "CERT-SKS-000005"
+  ],
+  "monitoring_links": [
+    "CERT-MKS-000001",
+    "CERT-MKS-000002",
+    "CERT-MKS-000003",
+    "CERT-MKS-000004",
+    "CERT-MKS-000005",
+    "CERT-MKS-000006",
+    "CERT-MKS-000007",
+    "CERT-MKS-000008",
+    "CERT-MKS-000009",
+    "CERT-MKS-000010"
+  ],
+  "evidence_summary": [
+    {
+      "evidence_id": "CERT-EKS-000007",
+      "domain": "Mechanism / early clinical pharmacology",
+      "source_state": "CLOSED",
+      "permitted_use": "Receptor pharmacology, mechanism, pharmacokinetic rationale, early proof of concept"
+    },
+    {
+      "evidence_id": "CERT-EKS-000008",
+      "domain": "Obesity efficacy / safety",
+      "source_state": "CLOSED FOR CORE EXTRACTION",
+      "permitted_use": "Dose-ranging weight-loss efficacy, gastrointestinal tolerability, heart-rate signal"
+    },
+    {
+      "evidence_id": "CERT-EKS-000009",
+      "domain": "Glycaemic efficacy / weight / safety",
+      "source_state": "CLOSED",
+      "permitted_use": "HbA1c efficacy, body-weight outcomes, gastrointestinal safety, hypoglycaemia context"
+    },
+    {
+      "evidence_id": "CERT-EKS-000010",
+      "domain": "Body composition",
+      "source_state": "OPEN — PRIMARY NOT CAPTURED",
+      "permitted_use": "Body-composition domain only; detailed quantitative extraction pending"
+    },
+    {
+      "evidence_id": "CERT-EKS-000011",
+      "domain": "Pivotal obesity efficacy",
+      "source_state": "CLOSED FOR TOPLINE / OPEN FOR FULL PUBLICATION",
+      "permitted_use": "Pivotal topline efficacy and extension results"
+    },
+    {
+      "evidence_id": "CERT-EKS-000012",
+      "domain": "Phase 3 glycaemic efficacy",
+      "source_state": "IDENTIFIED — EXTRACTION BLOCKED",
+      "permitted_use": "Publication identity and development status; direct full-text extraction remains open"
+    },
+    {
+      "evidence_id": "CERT-EKS-000013",
+      "domain": "Obesity / function / safety",
+      "source_state": "OPEN — PRIMARY NOT CAPTURED",
+      "permitted_use": "Provisional late-stage evidence lead only"
+    },
+    {
+      "evidence_id": "CERT-EKS-000014",
+      "domain": "Liver fat / metabolic liver disease",
+      "source_state": "OPEN — PRIMARY NOT CAPTURED",
+      "permitted_use": "Source-discovery queue only; precise quantitative claims not promoted"
+    }
+  ],
+  "controlled_clinical_findings": [
+    {
+      "claim": "Phase 2 obesity trial: mean body-weight reduction of 24.2% at week 48 in the 12 mg group versus 2.1% with placebo.",
+      "evidence_id": "CERT-EKS-000008",
+      "source_status": "Primary evidence captured"
+    },
+    {
+      "claim": "Phase 2 type 2 diabetes trial: HbA1c reductions reached approximately 2 percentage points in the higher-dose groups at week 24.",
+      "evidence_id": "CERT-EKS-000009",
+      "source_status": "Primary evidence captured"
+    },
+    {
+      "claim": "TRIUMPH-1 sponsor topline: mean body-weight reduction of 28.3% at week 80 in the 12 mg group.",
+      "evidence_id": "CERT-EKS-000011",
+      "source_status": "Primary sponsor topline; full publication pending"
+    }
+  ],
+  "safety_summary": [
+    {
+      "asset_id": "CERT-SKS-000001",
+      "name": "Gastrointestinal Adverse Events",
+      "status": "Established evidence domain",
+      "monitoring_asset": "CERT-MKS-000007"
+    },
+    {
+      "asset_id": "CERT-SKS-000002",
+      "name": "Heart Rate Increase",
+      "status": "Primary phase 2 signal",
+      "monitoring_asset": "CERT-MKS-000006"
+    },
+    {
+      "asset_id": "CERT-SKS-000003",
+      "name": "Dysesthesia / Abnormal Skin Sensation",
+      "status": "Emerging late-stage signal",
+      "monitoring_asset": "CERT-MKS-000008"
+    },
+    {
+      "asset_id": "CERT-SKS-000004",
+      "name": "Treatment Discontinuation and Tolerability",
+      "status": "Cross-study tolerability domain",
+      "monitoring_asset": "CERT-MKS-000009"
+    },
+    {
+      "asset_id": "CERT-SKS-000005",
+      "name": "Hypoglycaemia Context",
+      "status": "Context-specific primary evidence",
+      "monitoring_asset": "CERT-MKS-000001"
+    }
+  ],
+  "monitoring_summary": [
+    {
+      "asset_id": "CERT-MKS-000001",
+      "name": "HbA1c",
+      "role": "Glycaemic efficacy / metabolic monitoring"
+    },
+    {
+      "asset_id": "CERT-MKS-000002",
+      "name": "Fasting Plasma Glucose",
+      "role": "Metabolic monitoring context"
+    },
+    {
+      "asset_id": "CERT-MKS-000003",
+      "name": "Body Weight",
+      "role": "Core efficacy outcome"
+    },
+    {
+      "asset_id": "CERT-MKS-000004",
+      "name": "Fasting Insulin",
+      "role": "Metabolic monitoring context"
+    },
+    {
+      "asset_id": "CERT-MKS-000005",
+      "name": "HOMA-IR",
+      "role": "Insulin-resistance context"
+    },
+    {
+      "asset_id": "CERT-MKS-000006",
+      "name": "Heart Rate",
+      "role": "Evidence-linked safety monitoring"
+    },
+    {
+      "asset_id": "CERT-MKS-000007",
+      "name": "Gastrointestinal Tolerability",
+      "role": "Evidence-linked tolerability monitoring"
+    },
+    {
+      "asset_id": "CERT-MKS-000008",
+      "name": "Dysesthesia / Abnormal Skin Sensation Monitoring",
+      "role": "Emerging safety-domain monitoring"
+    },
+    {
+      "asset_id": "CERT-MKS-000009",
+      "name": "Treatment Discontinuation",
+      "role": "Cross-study tolerability outcome"
+    },
+    {
+      "asset_id": "CERT-MKS-000010",
+      "name": "Body Composition",
+      "role": "Composition of total weight change"
+    }
+  ],
+  "commercial_integration": {
+    "cost_intelligence": "Framework available; no verified universal market price is asserted in this build.",
+    "product_passport": "No validated commercial Product Passport is attached in this build.",
+    "marketplace": "Marketplace linkage remains subject to product validation and the unresolved legal/regulatory route.",
+    "reports": "The consolidated asset can support future evidence, safety, monitoring and cost reports."
+  },
+  "certification_status": {
+    "platinum_certified": false,
+    "blocking_domains": [
+      "Phase 3 type 2 diabetes full-text extraction",
+      "Body-composition primary-source capture",
+      "TRIUMPH-4 primary-source capture",
+      "Liver-fat / MASLD primary-source capture",
+      "Long-term safety",
+      "Regulatory assessment",
+      "Independent replication"
+    ],
+    "headline_completion_percentage": null,
+    "reason_no_percentage": "Weighted Platinum scoring criteria are not yet sufficiently complete for a reproducible headline percentage."
+  },
+  "readiness_tier": "T1",
+  "source_closure_build": "0035C",
+  "source_closure_scope": [
+    "authorised-product, investigational-programme or substance identity",
+    "pivotal or major randomised human evidence",
+    "current safety, contraindication and regulatory controls",
+    "supplier-product non-equivalence",
+    "field-level Product Passport requirements"
+  ],
+  "source_closure_scope_complete": true,
+  "exhaustive_literature_review": false,
+  "living_evidence_status": "ACTIVE",
+  "authoritative_product_boundary": "Retatrutide remains an investigational GIP, GLP-1 and glucagon receptor agonist. TRIUMPH-1 completed in April 2026 without posted registry results, while additional phase 3 studies remain active. A 2026 phase 3 type 2 diabetes trial has been published, but no catalogue RT vial inherits sponsor clinical-material identity or approval.",
+  "human_evidence_boundary": "The 2023 phase 2 obesity trial reported dose-related weight reduction over 48 weeks. TRANSCEND-T2D-1 reported phase 3 glycaemic and weight outcomes in 2026. Current phase 3 TRIUMPH studies examine obesity and related complications, but trial material and protocols remain sponsor controlled.",
+  "safety_source_boundary": "Published retatrutide studies report predominantly gastrointestinal adverse events, with dose-related heart-rate increases in the phase 2 obesity trial. Longer-term cardiovascular, gallbladder, pancreatic, retinal, reproductive and rare-event risks remain subject to ongoing phase 3 and post-development evaluation.",
+  "product_passport": "CERT-PPS-000060",
+  "supplier_identity_verified": false,
+  "supplier_quality_verified": false,
+  "supplier_sterility_verified": false,
+  "authorised_or_trial_product_equivalence": false,
+  "validated_universal_human_dosing_protocol": false,
+  "direct_sale_gate": "BLOCKED",
+  "platinum_certified": false,
+  "relationships": [
+    {
+      "source": "CERT-PKS-000001",
+      "relationship": "HAS_PASSPORT",
+      "target": "CERT-PPS-000060"
+    },
+    {
+      "source": "CERT-PKS-000001",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000359"
+    },
+    {
+      "source": "CERT-PKS-000001",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000360"
+    },
+    {
+      "source": "CERT-PKS-000001",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000361"
+    }
+  ]
+}

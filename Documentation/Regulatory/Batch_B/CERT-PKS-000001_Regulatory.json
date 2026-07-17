@@ -1,0 +1,40 @@
+{
+  "asset_uai": "CERT-PKS-000001",
+  "asset_name": "Retatrutide",
+  "version": "0.3.0",
+  "status_as_of": "2026-07-17",
+  "source_closure_build": "0035C",
+  "living_evidence_status": "ACTIVE",
+  "regulatory_records": [
+    {
+      "jurisdiction": "Global clinical development",
+      "authority": "ClinicalTrials.gov / primary literature",
+      "current_status": "Retatrutide is in phase 3 development; TRIUMPH-1 is completed without posted registry results.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Approval, label, trial-result, safety, warning, recall, anti-doping or supplier-evidence change"
+    },
+    {
+      "jurisdiction": "United States",
+      "authority": "FDA",
+      "current_status": "No catalogue-product approval or sponsor-material equivalence.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Approval, label, trial-result, safety, warning, recall, anti-doping or supplier-evidence change"
+    },
+    {
+      "jurisdiction": "United Kingdom",
+      "authority": "MHRA",
+      "current_status": "No marketing-authorisation claim.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Approval, label, trial-result, safety, warning, recall, anti-doping or supplier-evidence change"
+    },
+    {
+      "jurisdiction": "European Union",
+      "authority": "EMA / European Commission",
+      "current_status": "No marketing-authorisation claim.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Approval, label, trial-result, safety, warning, recall, anti-doping or supplier-evidence change"
+    }
+  ],
+  "supplier_product_equivalence": false,
+  "commercial_release": false
+}

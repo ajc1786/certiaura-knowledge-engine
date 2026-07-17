@@ -1,0 +1,37 @@
+{
+  "asset_id": "CERT-EKS-000371",
+  "asset_name": "Cibinetide / ARA-290 Product, Identity and Regulatory Source Closure",
+  "root_asset": "CERT-PKS-000054",
+  "knowledge_system": "EKS",
+  "asset_type": "Tier 1 Source-Closed Living Evidence Object",
+  "version": "0.3.0",
+  "status": "SOURCE CLOSED WITHIN DEFINED SCOPE / LIVING EVIDENCE ACTIVE",
+  "source_closure_build": "0035C",
+  "evidence_type": "Product, substance identity and current regulatory evidence",
+  "evidence_grade": "A1 — current official regulator, registry or product source",
+  "last_review": "2026-07-17",
+  "source_closure_scope_complete": true,
+  "exhaustive_literature_review": false,
+  "controlled_conclusion": "FDA substance records identify cibinetide as the synthetic 11-residue peptide pyroglutamyl-Glu-Gln-Leu-Glu-Arg-Ala-Leu-Asn-Ser-Ser. EMA orphan designation for sarcoidosis is not marketing authorisation. RA10 supplier powder does not inherit study-material identity, formulation, quality or orphan-designation status.",
+  "sources": [
+    {
+      "title": "FDA GSRS cibinetide substance record",
+      "url": "https://precision.fda.gov/uniisearch/srs/unii/9w5677jkda",
+      "type": "Authoritative substance identity record",
+      "date_state": "Current record reviewed 2026-07-17"
+    },
+    {
+      "title": "EMA cibinetide orphan designation for sarcoidosis",
+      "url": "https://www.ema.europa.eu/en/medicines/human/orphan-designations/eu-3-13-1191",
+      "type": "Authoritative orphan-designation record",
+      "date_state": "Designation 2013; not marketing authorisation"
+    }
+  ],
+  "transfer_prohibited": [
+    "Transfer from authorised, sponsor or trial product to catalogue supplier material",
+    "Creation of personal dosing, injection or reconstitution guidance",
+    "Assumption of supplier purity, potency, sterility, stability or equivalence",
+    "Representation of orphan designation or trial registration as marketing authorisation"
+  ],
+  "next_review_trigger": "Material approval, label, trial-result, safety, warning, recall, manufacturer, quality, anti-doping or supplier-evidence change"
+}

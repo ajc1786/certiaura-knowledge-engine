@@ -1,0 +1,61 @@
+{
+  "asset_id": "CERT-PPS-000059",
+  "asset_name": "Somatropin Product Passport",
+  "knowledge_system": "PPS",
+  "asset_type": "Tier 1 Source-Closure Product Passport",
+  "parent_product": "CERT-PKS-000020",
+  "version": "0.3.0",
+  "status": "OPEN / SOURCE FOUNDATION COMPLETE / SUPPLIER EVIDENCE NOT CERTIFIED",
+  "source_closure_build": "0035C",
+  "source_closure_scope_complete": true,
+  "exhaustive_literature_review": false,
+  "last_review": "2026-07-17",
+  "required_fields": [
+    {
+      "field": "authentic 191-amino-acid human growth hormone sequence",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, reference-standard, analytical, quality, stability and regulatory-comparability evidence"
+    },
+    {
+      "field": "recombinant expression system and host-cell lineage",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, reference-standard, analytical, quality, stability and regulatory-comparability evidence"
+    },
+    {
+      "field": "manufacturer, biological licence, batch and supply chain",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, reference-standard, analytical, quality, stability and regulatory-comparability evidence"
+    },
+    {
+      "field": "protein mapping, intact mass, potency bioassay and aggregation",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, reference-standard, analytical, quality, stability and regulatory-comparability evidence"
+    },
+    {
+      "field": "host-cell proteins, residual DNA and process impurities",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, reference-standard, analytical, quality, stability and regulatory-comparability evidence"
+    },
+    {
+      "field": "formulation, excipients, concentration and container closure",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, reference-standard, analytical, quality, stability and regulatory-comparability evidence"
+    },
+    {
+      "field": "sterility, endotoxin, particles and stability",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, reference-standard, analytical, quality, stability and regulatory-comparability evidence"
+    },
+    {
+      "field": "comparability to an exact licensed somatropin product",
+      "status": "OPEN",
+      "closure_requirement": "Direct manufacturer, reference-standard, analytical, quality, stability and regulatory-comparability evidence"
+    }
+  ],
+  "identity_certified": false,
+  "quality_certified": false,
+  "sterility_certified": false,
+  "authorised_or_trial_product_equivalence": false,
+  "commercial_release": false,
+  "platinum_certified": false
+}

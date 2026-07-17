@@ -1,38 +1,40 @@
 {
   "asset_uai": "CERT-PKS-000089",
   "asset_name": "Elamipretide / SS-31",
-  "version": "0.2.0",
-  "status_as_of": "2026-07-16",
-  "closure_wave": "0033A",
-  "overall_status": "PARTIAL CLOSURE — CANONICAL ELAMIPRETIDE AND CURRENT FORZINITY STATUS IDENTIFIED; SUPPLIER SALT, STERILITY, FORMULATION, MANUFACTURER AND COMPARABILITY OPEN",
+  "version": "0.3.0",
+  "status_as_of": "2026-07-17",
+  "source_closure_build": "0035C",
+  "living_evidence_status": "ACTIVE",
   "regulatory_records": [
     {
       "jurisdiction": "United States",
       "authority": "FDA",
-      "current_status": "Forzinity is approved under accelerated approval for a defined Barth-syndrome population; supplier 2S10/2S50 powders are not the authorised product.",
+      "current_status": "FORZINITY received accelerated approval on 19 September 2025 for a defined Barth syndrome population.",
       "monitoring_state": "ACTIVE",
-      "next_review_trigger": "Identity, approval, label, warning, enforcement, trial, quality, safety or anti-doping change"
+      "next_review_trigger": "Approval, label, trial-result, safety, warning, recall, anti-doping or supplier-evidence change"
     },
     {
       "jurisdiction": "United States",
       "authority": "ClinicalTrials.gov",
-      "current_status": "The phase 3b/4 SPIBA-401 confirmatory trial is registered following accelerated approval.",
+      "current_status": "4TAZPower phase 3b/4 confirmatory trial is registered and was not yet recruiting at the May 2026 update.",
       "monitoring_state": "ACTIVE",
-      "next_review_trigger": "Identity, approval, label, warning, enforcement, trial, quality, safety or anti-doping change"
+      "next_review_trigger": "Approval, label, trial-result, safety, warning, recall, anti-doping or supplier-evidence change"
     },
     {
       "jurisdiction": "European Union",
       "authority": "EMA",
-      "current_status": "Elamipretide has orphan designation for Barth syndrome; orphan designation is not marketing authorisation.",
+      "current_status": "Barth syndrome orphan designation is not marketing authorisation.",
       "monitoring_state": "ACTIVE",
-      "next_review_trigger": "Identity, approval, label, warning, enforcement, trial, quality, safety or anti-doping change"
+      "next_review_trigger": "Approval, label, trial-result, safety, warning, recall, anti-doping or supplier-evidence change"
     },
     {
       "jurisdiction": "United Kingdom",
       "authority": "MHRA",
-      "current_status": "A paediatric investigation plan was published in March 2026; it is not marketing authorisation.",
+      "current_status": "March 2026 paediatric investigation plan is not marketing authorisation.",
       "monitoring_state": "ACTIVE",
-      "next_review_trigger": "Identity, approval, label, warning, enforcement, trial, quality, safety or anti-doping change"
+      "next_review_trigger": "Approval, label, trial-result, safety, warning, recall, anti-doping or supplier-evidence change"
     }
-  ]
+  ],
+  "supplier_product_equivalence": false,
+  "commercial_release": false
 }

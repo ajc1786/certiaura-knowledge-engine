@@ -6,18 +6,20 @@
 
 ---
 
-# CERT-PKS-000054 — Cibinetide / ARA-290 REGULATORY STATUS
+# CERT-PKS-000054 — Cibinetide / ARA-290 REGULATORY & LIVING EVIDENCE STATUS
 
-**Status as of:** 2026-07-16  
-**Overall:** INVESTIGATIONAL CLINICAL-DEVELOPMENT PEPTIDE — NO APPROVAL CLAIM
+**Status as of:** 2026-07-17  
+**Living evidence:** ACTIVE  
+**Supplier equivalence:** NO  
+**Direct-sale gate:** BLOCKED
 
 | Jurisdiction | Authority | Controlled position | Monitoring |
 |---|---|---|---|
-| United States | FDA | No approval claim. | ACTIVE |
+| Global substance identity | FDA GSRS | Cibinetide substance identity is recorded; UNII availability is not approval. | ACTIVE |
+| European Union | EMA | Sarcoidosis orphan designation is not marketing authorisation. | ACTIVE |
+| United States | FDA | No RA10 approval or clinical-study-material equivalence. | ACTIVE |
 | United Kingdom | MHRA | No marketing-authorisation claim. | ACTIVE |
-| European Union | EMA / European Commission | No marketing-authorisation claim. | ACTIVE |
-| International sport | WADA | Current athlete-specific verification required. | EVENT-TRIGGERED |
 
 ## Rule
 
-Regional or product-specific status does not transfer to a catalogue product or another jurisdiction.
+Regulatory and clinical evidence belongs to the exact molecule, formulation, manufacturer, product, route, indication and jurisdiction.

@@ -1,0 +1,182 @@
+{
+  "asset_id": "CERT-PKS-000014",
+  "asset_name": "Mazdutide",
+  "knowledge_system": "PKS",
+  "asset_type": "Peptide Knowledge Asset",
+  "version": "0.3.0",
+  "status": "TIER 1 PRIMARY-SOURCE BATCH B COMPLETE WITHIN DEFINED SCOPE / SUPPLIER PRODUCT PASSPORT OPEN / NOT PLATINUM CERTIFIED",
+  "owner": "Aidan Coleman",
+  "last_review": "2026-07-17",
+  "aliases": [
+    "IBI362",
+    "LY3305677"
+  ],
+  "classification": "Dual GLP-1 and glucagon receptor agonist peptide drug",
+  "mechanism_summary": "Combined GLP-1 and glucagon receptor agonism affecting appetite, glucose control, energy expenditure and liver-metabolic pathways.",
+  "evidence_maturity": "Phase 1-3 clinical evidence with an approved product context in China; other jurisdictions remain separate.",
+  "regulatory_headline": "APPROVED CONTEXT EXISTS IN CHINA / NO US-UK-EU APPROVAL CLAIM",
+  "catalogue_supplier_skus": [
+    {
+      "catalogue_code": "MDT5",
+      "specification": "5 mg x 10 vials",
+      "price_usd_per_kit": 93
+    },
+    {
+      "catalogue_code": "MDT10",
+      "specification": "10 mg x 10 vials",
+      "price_usd_per_kit": 185
+    }
+  ],
+  "relationships": [
+    {
+      "source": "CERT-PKS-000014",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000001"
+    },
+    {
+      "source": "CERT-PKS-000014",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000003"
+    },
+    {
+      "source": "CERT-PKS-000014",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000010"
+    },
+    {
+      "source": "CERT-PKS-000014",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000012"
+    },
+    {
+      "source": "CERT-PKS-000014",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000021"
+    },
+    {
+      "source": "CERT-PKS-000014",
+      "relationship": "ACTS_ON",
+      "target": "CERT-BKS-000023"
+    },
+    {
+      "source": "CERT-PKS-000014",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000001"
+    },
+    {
+      "source": "CERT-PKS-000014",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000002"
+    },
+    {
+      "source": "CERT-PKS-000014",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000003"
+    },
+    {
+      "source": "CERT-PKS-000014",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000006"
+    },
+    {
+      "source": "CERT-PKS-000014",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000007"
+    },
+    {
+      "source": "CERT-PKS-000014",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000028"
+    },
+    {
+      "source": "CERT-PKS-000014",
+      "relationship": "HAS_MONITORING",
+      "target": "CERT-MKS-000030"
+    },
+    {
+      "source": "CERT-PKS-000014",
+      "relationship": "SUPPORTS_GOAL",
+      "target": "CERT-GKS-000001"
+    },
+    {
+      "source": "CERT-PKS-000014",
+      "relationship": "SUPPORTS_GOAL",
+      "target": "CERT-GKS-000002"
+    },
+    {
+      "source": "CERT-PKS-000014",
+      "relationship": "SUPPORTS_GOAL",
+      "target": "CERT-GKS-000013"
+    },
+    {
+      "source": "CERT-PKS-000014",
+      "relationship": "SUPPORTS_GOAL",
+      "target": "CERT-GKS-000015"
+    },
+    {
+      "source": "CERT-PKS-000014",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000055"
+    },
+    {
+      "source": "CERT-PKS-000014",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000056"
+    },
+    {
+      "source": "CERT-PKS-000014",
+      "relationship": "HAS_SAFETY",
+      "target": "CERT-SKS-000019"
+    },
+    {
+      "source": "CERT-PKS-000014",
+      "relationship": "HAS_PASSPORT",
+      "target": "CERT-PPS-000062"
+    },
+    {
+      "source": "CERT-PKS-000014",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000365"
+    },
+    {
+      "source": "CERT-PKS-000014",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000366"
+    },
+    {
+      "source": "CERT-PKS-000014",
+      "relationship": "HAS_EVIDENCE",
+      "target": "CERT-EKS-000367"
+    }
+  ],
+  "validated_universal_human_dosing_protocol": false,
+  "supplier_catalogue_proves_quality": false,
+  "platinum_certified": false,
+  "certification_blockers": [
+    "Authoritative China label capture",
+    "No automatic transfer of China approval to other jurisdictions",
+    "Longer-term post-authorisation evidence",
+    "Supplier product identity"
+  ],
+  "readiness_tier": "T1",
+  "source_closure_build": "0035C",
+  "source_closure_scope": [
+    "authorised-product, investigational-programme or substance identity",
+    "pivotal or major randomised human evidence",
+    "current safety, contraindication and regulatory controls",
+    "supplier-product non-equivalence",
+    "field-level Product Passport requirements"
+  ],
+  "source_closure_scope_complete": true,
+  "exhaustive_literature_review": false,
+  "living_evidence_status": "ACTIVE",
+  "authoritative_product_boundary": "China's NMPA approved an exact mazdutide finished product for chronic weight management in June 2025 and for glycaemic control in adults with type 2 diabetes in September 2025. The approvals are product-, manufacturer-, dose-, formulation- and jurisdiction-specific. Catalogue MDT5 and MDT10 powders are not that authorised product.",
+  "human_evidence_boundary": "GLORY-1 established phase 3 weight-management evidence for 4 mg and 6 mg mazdutide in Chinese adults. DREAMS-1 established phase 3 monotherapy evidence in type 2 diabetes. GLORY-2 reported 9 mg evidence in 2026, while the 9 mg supplementary application remained under Chinese regulatory review.",
+  "safety_source_boundary": "The phase 3 programme reports predominantly gastrointestinal adverse events, including nausea, vomiting and diarrhoea. Product-specific titration, hepatic, gallbladder, pancreatic, cardiovascular and rare-event controls require the exact Chinese label and ongoing evidence. No non-Chinese authorisation is inferred.",
+  "product_passport": "CERT-PPS-000062",
+  "supplier_identity_verified": false,
+  "supplier_quality_verified": false,
+  "supplier_sterility_verified": false,
+  "authorised_or_trial_product_equivalence": false,
+  "direct_sale_gate": "BLOCKED"
+}

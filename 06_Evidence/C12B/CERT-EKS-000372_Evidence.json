@@ -1,0 +1,43 @@
+{
+  "asset_id": "CERT-EKS-000372",
+  "asset_name": "Cibinetide / ARA-290 Pivotal Human Evidence Source Closure",
+  "root_asset": "CERT-PKS-000054",
+  "knowledge_system": "EKS",
+  "asset_type": "Tier 1 Source-Closed Living Evidence Object",
+  "version": "0.3.0",
+  "status": "SOURCE CLOSED WITHIN DEFINED SCOPE / LIVING EVIDENCE ACTIVE",
+  "source_closure_build": "0035C",
+  "evidence_type": "Primary human efficacy and translation evidence",
+  "evidence_grade": "B1 — pivotal, major randomised or defined phase 2/3 human evidence",
+  "last_review": "2026-07-17",
+  "source_closure_scope_complete": true,
+  "exhaustive_literature_review": false,
+  "controlled_conclusion": "Small phase 2 studies evaluated ARA-290/cibinetide in sarcoidosis-associated small-fibre neuropathy, type 2 diabetes with neuropathic symptoms and diabetic macular oedema. These studies were limited in size and duration and do not establish a broadly authorised neuropathy, inflammatory or regenerative therapy.",
+  "sources": [
+    {
+      "title": "Cibinetide phase 2b sarcoidosis small-fibre-loss trial",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28475703/",
+      "type": "Primary randomised phase 2b human evidence",
+      "date_state": "Published 2017"
+    },
+    {
+      "title": "ARA-290 type 2 diabetes and neuropathy phase 2 study",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25387363/",
+      "type": "Primary randomised phase 2 human evidence",
+      "date_state": "Published 2014"
+    },
+    {
+      "title": "Cibinetide diabetic macular oedema phase 2 study",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32674280/",
+      "type": "Primary phase 2 human evidence",
+      "date_state": "Published 2020"
+    }
+  ],
+  "transfer_prohibited": [
+    "Transfer from authorised, sponsor or trial product to catalogue supplier material",
+    "Creation of personal dosing, injection or reconstitution guidance",
+    "Assumption of supplier purity, potency, sterility, stability or equivalence",
+    "Representation of orphan designation or trial registration as marketing authorisation"
+  ],
+  "next_review_trigger": "Material approval, label, trial-result, safety, warning, recall, manufacturer, quality, anti-doping or supplier-evidence change"
+}

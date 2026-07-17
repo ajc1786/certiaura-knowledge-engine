@@ -1,0 +1,37 @@
+{
+  "asset_id": "CERT-EKS-000360",
+  "asset_name": "Retatrutide Pivotal Human Evidence Source Closure",
+  "root_asset": "CERT-PKS-000001",
+  "knowledge_system": "EKS",
+  "asset_type": "Tier 1 Source-Closed Living Evidence Object",
+  "version": "0.3.0",
+  "status": "SOURCE CLOSED WITHIN DEFINED SCOPE / LIVING EVIDENCE ACTIVE",
+  "source_closure_build": "0035C",
+  "evidence_type": "Primary human efficacy and translation evidence",
+  "evidence_grade": "B1 — pivotal, major randomised or defined phase 2/3 human evidence",
+  "last_review": "2026-07-17",
+  "source_closure_scope_complete": true,
+  "exhaustive_literature_review": false,
+  "controlled_conclusion": "The 2023 phase 2 obesity trial reported dose-related weight reduction over 48 weeks. TRANSCEND-T2D-1 reported phase 3 glycaemic and weight outcomes in 2026. Current phase 3 TRIUMPH studies examine obesity and related complications, but trial material and protocols remain sponsor controlled.",
+  "sources": [
+    {
+      "title": "Retatrutide phase 2 obesity trial",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37366315/",
+      "type": "Primary randomised phase 2 human evidence",
+      "date_state": "Published 2023"
+    },
+    {
+      "title": "TRANSCEND-T2D-1 phase 3 trial",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42250575/",
+      "type": "Primary randomised phase 3 human evidence",
+      "date_state": "Published 2026-06"
+    }
+  ],
+  "transfer_prohibited": [
+    "Transfer from authorised, sponsor or trial product to catalogue supplier material",
+    "Creation of personal dosing, injection or reconstitution guidance",
+    "Assumption of supplier purity, potency, sterility, stability or equivalence",
+    "Representation of orphan designation or trial registration as marketing authorisation"
+  ],
+  "next_review_trigger": "Material approval, label, trial-result, safety, warning, recall, manufacturer, quality, anti-doping or supplier-evidence change"
+}

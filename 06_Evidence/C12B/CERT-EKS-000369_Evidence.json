@@ -1,0 +1,49 @@
+{
+  "asset_id": "CERT-EKS-000369",
+  "asset_name": "Survodutide Pivotal Human Evidence Source Closure",
+  "root_asset": "CERT-PKS-000015",
+  "knowledge_system": "EKS",
+  "asset_type": "Tier 1 Source-Closed Living Evidence Object",
+  "version": "0.3.0",
+  "status": "SOURCE CLOSED WITHIN DEFINED SCOPE / LIVING EVIDENCE ACTIVE",
+  "source_closure_build": "0035C",
+  "evidence_type": "Primary human efficacy and translation evidence",
+  "evidence_grade": "B1 — pivotal, major randomised or defined phase 2/3 human evidence",
+  "last_review": "2026-07-17",
+  "source_closure_scope_complete": true,
+  "exhaustive_literature_review": false,
+  "controlled_conclusion": "Phase 3 SYNCHRONIZE-1 evaluated survodutide in adults with obesity without diabetes. A phase 2 biopsy-based MASH trial reported improvement in MASH without worsening fibrosis. Other phase 3 studies cover diabetes, cardiovascular safety, China and metabolic liver disease.",
+  "sources": [
+    {
+      "title": "SYNCHRONIZE-1 phase 3 obesity publication",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42253238/",
+      "type": "Primary randomised phase 3 human evidence",
+      "date_state": "Published 2026-06"
+    },
+    {
+      "title": "Survodutide phase 2 MASH and fibrosis trial",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38847460/",
+      "type": "Primary randomised biopsy-based phase 2 evidence",
+      "date_state": "Published 2024"
+    },
+    {
+      "title": "SYNCHRONIZE cardiovascular-outcome trial",
+      "url": "https://clinicaltrials.gov/study/NCT06077864",
+      "type": "Current authoritative phase 3 registry",
+      "date_state": "Primary completion 2026-05-08"
+    },
+    {
+      "title": "SYNCHRONIZE-2 diabetes trial",
+      "url": "https://clinicaltrials.gov/study/NCT06066528",
+      "type": "Current authoritative phase 3 registry",
+      "date_state": "Last update 2026-04-24"
+    }
+  ],
+  "transfer_prohibited": [
+    "Transfer from authorised, sponsor or trial product to catalogue supplier material",
+    "Creation of personal dosing, injection or reconstitution guidance",
+    "Assumption of supplier purity, potency, sterility, stability or equivalence",
+    "Representation of orphan designation or trial registration as marketing authorisation"
+  ],
+  "next_review_trigger": "Material approval, label, trial-result, safety, warning, recall, manufacturer, quality, anti-doping or supplier-evidence change"
+}

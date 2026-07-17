@@ -1,0 +1,43 @@
+{
+  "asset_id": "CERT-EKS-000368",
+  "asset_name": "Survodutide Product, Identity and Regulatory Source Closure",
+  "root_asset": "CERT-PKS-000015",
+  "knowledge_system": "EKS",
+  "asset_type": "Tier 1 Source-Closed Living Evidence Object",
+  "version": "0.3.0",
+  "status": "SOURCE CLOSED WITHIN DEFINED SCOPE / LIVING EVIDENCE ACTIVE",
+  "source_closure_build": "0035C",
+  "evidence_type": "Product, substance identity and current regulatory evidence",
+  "evidence_grade": "A1 — current official regulator, registry or product source",
+  "last_review": "2026-07-17",
+  "source_closure_scope_complete": true,
+  "exhaustive_literature_review": false,
+  "controlled_conclusion": "Survodutide remains an investigational glucagon/GLP-1 receptor dual agonist. SYNCHRONIZE-1 completed in February 2026 and phase 3 obesity results were published in June 2026. The cardiovascular-outcome study reached primary completion in May 2026, but no catalogue SUR10 vial inherits sponsor trial-material identity or approval.",
+  "sources": [
+    {
+      "title": "SYNCHRONIZE-1 trial registry",
+      "url": "https://clinicaltrials.gov/study/NCT06066515",
+      "type": "Current authoritative trial registry",
+      "date_state": "Completed 2026-02-20"
+    },
+    {
+      "title": "SYNCHRONIZE cardiovascular-outcome trial",
+      "url": "https://clinicaltrials.gov/study/NCT06077864",
+      "type": "Current authoritative phase 3 registry",
+      "date_state": "Primary completion 2026-05-08"
+    },
+    {
+      "title": "SYNCHRONIZE-2 diabetes trial",
+      "url": "https://clinicaltrials.gov/study/NCT06066528",
+      "type": "Current authoritative phase 3 registry",
+      "date_state": "Last update 2026-04-24"
+    }
+  ],
+  "transfer_prohibited": [
+    "Transfer from authorised, sponsor or trial product to catalogue supplier material",
+    "Creation of personal dosing, injection or reconstitution guidance",
+    "Assumption of supplier purity, potency, sterility, stability or equivalence",
+    "Representation of orphan designation or trial registration as marketing authorisation"
+  ],
+  "next_review_trigger": "Material approval, label, trial-result, safety, warning, recall, manufacturer, quality, anti-doping or supplier-evidence change"
+}

@@ -1,36 +1,36 @@
 Universal Asset Identifier,Asset Name,Knowledge System,Asset Type,Status,Owner,Parent Assets,Last Review,Notes
-CERT-PKS-000003,Tesamorelin,PKS,Existing Tier 1 Product Asset — Source Upgraded,DEFINED-SCOPE SOURCE CLOSURE COMPLETE / NOT PLATINUM,Aidan Coleman,,2026-07-16,Build 0035B
-CERT-PPS-000052,Tesamorelin Product Passport,PPS,Tier 1 Source-Closure Product Passport,OPEN / NOT CERTIFIED,Aidan Coleman,CERT-PKS-000003,2026-07-16,Build 0035B
-CERT-PKS-000011,Semaglutide,PKS,Existing Tier 1 Product Asset — Source Upgraded,DEFINED-SCOPE SOURCE CLOSURE COMPLETE / NOT PLATINUM,Aidan Coleman,,2026-07-16,Build 0035B
-CERT-PPS-000053,Semaglutide Product Passport,PPS,Tier 1 Source-Closure Product Passport,OPEN / NOT CERTIFIED,Aidan Coleman,CERT-PKS-000011,2026-07-16,Build 0035B
-CERT-PKS-000012,Tirzepatide,PKS,Existing Tier 1 Product Asset — Source Upgraded,DEFINED-SCOPE SOURCE CLOSURE COMPLETE / NOT PLATINUM,Aidan Coleman,,2026-07-16,Build 0035B
-CERT-PPS-000054,Tirzepatide Product Passport,PPS,Tier 1 Source-Closure Product Passport,OPEN / NOT CERTIFIED,Aidan Coleman,CERT-PKS-000012,2026-07-16,Build 0035B
-CERT-PKS-000016,Liraglutide,PKS,Existing Tier 1 Product Asset — Source Upgraded,DEFINED-SCOPE SOURCE CLOSURE COMPLETE / NOT PLATINUM,Aidan Coleman,,2026-07-16,Build 0035B
-CERT-PPS-000055,Liraglutide Product Passport,PPS,Tier 1 Source-Closure Product Passport,OPEN / NOT CERTIFIED,Aidan Coleman,CERT-PKS-000016,2026-07-16,Build 0035B
-CERT-PKS-000035,Teriparatide,PKS,Existing Tier 1 Product Asset — Source Upgraded,DEFINED-SCOPE SOURCE CLOSURE COMPLETE / NOT PLATINUM,Aidan Coleman,,2026-07-16,Build 0035B
-CERT-PPS-000056,Teriparatide Product Passport,PPS,Tier 1 Source-Closure Product Passport,OPEN / NOT CERTIFIED,Aidan Coleman,CERT-PKS-000035,2026-07-16,Build 0035B
-CERT-PKS-000079,Afamelanotide / Melanotan I,PKS,Existing Tier 1 Product Asset — Source Upgraded,DEFINED-SCOPE SOURCE CLOSURE COMPLETE / NOT PLATINUM,Aidan Coleman,,2026-07-16,Build 0035B
-CERT-PPS-000057,Afamelanotide / Melanotan I Product Passport,PPS,Tier 1 Source-Closure Product Passport,OPEN / NOT CERTIFIED,Aidan Coleman,CERT-PKS-000079,2026-07-16,Build 0035B
-CERT-PKS-000080,Bremelanotide / PT-141,PKS,Existing Tier 1 Product Asset — Source Upgraded,DEFINED-SCOPE SOURCE CLOSURE COMPLETE / NOT PLATINUM,Aidan Coleman,,2026-07-16,Build 0035B
-CERT-PPS-000058,Bremelanotide / PT-141 Product Passport,PPS,Tier 1 Source-Closure Product Passport,OPEN / NOT CERTIFIED,Aidan Coleman,CERT-PKS-000080,2026-07-16,Build 0035B
-CERT-EKS-000335,Tesamorelin — Authorised product and molecular identity evidence,EKS,Tier 1 Source-Closed Living Evidence Object,SOURCE CLOSED WITHIN DEFINED SCOPE,Aidan Coleman,CERT-PKS-000003,2026-07-16,Build 0035B
-CERT-EKS-000336,Tesamorelin — Primary human efficacy and translation evidence,EKS,Tier 1 Source-Closed Living Evidence Object,SOURCE CLOSED WITHIN DEFINED SCOPE,Aidan Coleman,CERT-PKS-000003,2026-07-16,Build 0035B
-CERT-EKS-000337,"Tesamorelin — Safety, contraindication and current-status evidence",EKS,Tier 1 Source-Closed Living Evidence Object,SOURCE CLOSED WITHIN DEFINED SCOPE,Aidan Coleman,CERT-PKS-000003,2026-07-16,Build 0035B
-CERT-EKS-000338,Semaglutide — Authorised product and molecular identity evidence,EKS,Tier 1 Source-Closed Living Evidence Object,SOURCE CLOSED WITHIN DEFINED SCOPE,Aidan Coleman,CERT-PKS-000011,2026-07-16,Build 0035B
-CERT-EKS-000339,Semaglutide — Primary human efficacy and translation evidence,EKS,Tier 1 Source-Closed Living Evidence Object,SOURCE CLOSED WITHIN DEFINED SCOPE,Aidan Coleman,CERT-PKS-000011,2026-07-16,Build 0035B
-CERT-EKS-000340,"Semaglutide — Safety, contraindication and current-status evidence",EKS,Tier 1 Source-Closed Living Evidence Object,SOURCE CLOSED WITHIN DEFINED SCOPE,Aidan Coleman,CERT-PKS-000011,2026-07-16,Build 0035B
-CERT-EKS-000341,Tirzepatide — Authorised product and molecular identity evidence,EKS,Tier 1 Source-Closed Living Evidence Object,SOURCE CLOSED WITHIN DEFINED SCOPE,Aidan Coleman,CERT-PKS-000012,2026-07-16,Build 0035B
-CERT-EKS-000342,Tirzepatide — Primary human efficacy and translation evidence,EKS,Tier 1 Source-Closed Living Evidence Object,SOURCE CLOSED WITHIN DEFINED SCOPE,Aidan Coleman,CERT-PKS-000012,2026-07-16,Build 0035B
-CERT-EKS-000343,"Tirzepatide — Safety, contraindication and current-status evidence",EKS,Tier 1 Source-Closed Living Evidence Object,SOURCE CLOSED WITHIN DEFINED SCOPE,Aidan Coleman,CERT-PKS-000012,2026-07-16,Build 0035B
-CERT-EKS-000344,Liraglutide — Authorised product and molecular identity evidence,EKS,Tier 1 Source-Closed Living Evidence Object,SOURCE CLOSED WITHIN DEFINED SCOPE,Aidan Coleman,CERT-PKS-000016,2026-07-16,Build 0035B
-CERT-EKS-000345,Liraglutide — Primary human efficacy and translation evidence,EKS,Tier 1 Source-Closed Living Evidence Object,SOURCE CLOSED WITHIN DEFINED SCOPE,Aidan Coleman,CERT-PKS-000016,2026-07-16,Build 0035B
-CERT-EKS-000346,"Liraglutide — Safety, contraindication and current-status evidence",EKS,Tier 1 Source-Closed Living Evidence Object,SOURCE CLOSED WITHIN DEFINED SCOPE,Aidan Coleman,CERT-PKS-000016,2026-07-16,Build 0035B
-CERT-EKS-000347,Teriparatide — Authorised product and molecular identity evidence,EKS,Tier 1 Source-Closed Living Evidence Object,SOURCE CLOSED WITHIN DEFINED SCOPE,Aidan Coleman,CERT-PKS-000035,2026-07-16,Build 0035B
-CERT-EKS-000348,Teriparatide — Primary human efficacy and translation evidence,EKS,Tier 1 Source-Closed Living Evidence Object,SOURCE CLOSED WITHIN DEFINED SCOPE,Aidan Coleman,CERT-PKS-000035,2026-07-16,Build 0035B
-CERT-EKS-000349,"Teriparatide — Safety, contraindication and current-status evidence",EKS,Tier 1 Source-Closed Living Evidence Object,SOURCE CLOSED WITHIN DEFINED SCOPE,Aidan Coleman,CERT-PKS-000035,2026-07-16,Build 0035B
-CERT-EKS-000350,Afamelanotide / Melanotan I — Authorised product and molecular identity evidence,EKS,Tier 1 Source-Closed Living Evidence Object,SOURCE CLOSED WITHIN DEFINED SCOPE,Aidan Coleman,CERT-PKS-000079,2026-07-16,Build 0035B
-CERT-EKS-000351,Afamelanotide / Melanotan I — Primary human efficacy and translation evidence,EKS,Tier 1 Source-Closed Living Evidence Object,SOURCE CLOSED WITHIN DEFINED SCOPE,Aidan Coleman,CERT-PKS-000079,2026-07-16,Build 0035B
-CERT-EKS-000352,"Afamelanotide / Melanotan I — Safety, contraindication and current-status evidence",EKS,Tier 1 Source-Closed Living Evidence Object,SOURCE CLOSED WITHIN DEFINED SCOPE,Aidan Coleman,CERT-PKS-000079,2026-07-16,Build 0035B
-CERT-EKS-000353,Bremelanotide / PT-141 — Authorised product and molecular identity evidence,EKS,Tier 1 Source-Closed Living Evidence Object,SOURCE CLOSED WITHIN DEFINED SCOPE,Aidan Coleman,CERT-PKS-000080,2026-07-16,Build 0035B
-CERT-EKS-000354,Bremelanotide / PT-141 — Primary human efficacy and translation evidence,EKS,Tier 1 Source-Closed Living Evidence Object,SOURCE CLOSED WITHIN DEFINED SCOPE,Aidan Coleman,CERT-PKS-000080,2026-07-16,Build 0035B
-CERT-EKS-000355,"Bremelanotide / PT-141 — Safety, contraindication and current-status evidence",EKS,Tier 1 Source-Closed Living Evidence Object,SOURCE CLOSED WITHIN DEFINED SCOPE,Aidan Coleman,CERT-PKS-000080,2026-07-16,Build 0035B
+CERT-PKS-000020,Somatropin,PKS,Existing Tier 1 Product Asset — Source Upgraded,DEFINED-SCOPE SOURCE CLOSURE COMPLETE / NOT PLATINUM,Aidan Coleman,,2026-07-17,Build 0035C
+CERT-PPS-000059,Somatropin Product Passport,PPS,Tier 1 Source-Closure Product Passport,OPEN / NOT CERTIFIED,Aidan Coleman,CERT-PKS-000020,2026-07-17,Build 0035C — NEW
+CERT-PKS-000001,Retatrutide,PKS,Existing Tier 1 Product Asset — Source Upgraded,DEFINED-SCOPE SOURCE CLOSURE COMPLETE / NOT PLATINUM,Aidan Coleman,,2026-07-17,Build 0035C
+CERT-PPS-000060,Retatrutide Product Passport,PPS,Tier 1 Source-Closure Product Passport,OPEN / NOT CERTIFIED,Aidan Coleman,CERT-PKS-000001,2026-07-17,Build 0035C — NEW
+CERT-PKS-000013,Cagrilintide,PKS,Existing Tier 1 Product Asset — Source Upgraded,DEFINED-SCOPE SOURCE CLOSURE COMPLETE / NOT PLATINUM,Aidan Coleman,,2026-07-17,Build 0035C
+CERT-PPS-000061,Cagrilintide Product Passport,PPS,Tier 1 Source-Closure Product Passport,OPEN / NOT CERTIFIED,Aidan Coleman,CERT-PKS-000013,2026-07-17,Build 0035C — NEW
+CERT-PKS-000014,Mazdutide,PKS,Existing Tier 1 Product Asset — Source Upgraded,DEFINED-SCOPE SOURCE CLOSURE COMPLETE / NOT PLATINUM,Aidan Coleman,,2026-07-17,Build 0035C
+CERT-PPS-000062,Mazdutide Product Passport,PPS,Tier 1 Source-Closure Product Passport,OPEN / NOT CERTIFIED,Aidan Coleman,CERT-PKS-000014,2026-07-17,Build 0035C — NEW
+CERT-PKS-000015,Survodutide,PKS,Existing Tier 1 Product Asset — Source Upgraded,DEFINED-SCOPE SOURCE CLOSURE COMPLETE / NOT PLATINUM,Aidan Coleman,,2026-07-17,Build 0035C
+CERT-PPS-000063,Survodutide Product Passport,PPS,Tier 1 Source-Closure Product Passport,OPEN / NOT CERTIFIED,Aidan Coleman,CERT-PKS-000015,2026-07-17,Build 0035C — NEW
+CERT-PKS-000054,Cibinetide / ARA-290,PKS,Existing Tier 1 Product Asset — Source Upgraded,DEFINED-SCOPE SOURCE CLOSURE COMPLETE / NOT PLATINUM,Aidan Coleman,,2026-07-17,Build 0035C
+CERT-PPS-000064,Cibinetide / ARA-290 Product Passport,PPS,Tier 1 Source-Closure Product Passport,OPEN / NOT CERTIFIED,Aidan Coleman,CERT-PKS-000054,2026-07-17,Build 0035C — NEW
+CERT-PKS-000089,Elamipretide / SS-31,PKS,Existing Tier 1 Product Asset — Source Upgraded,DEFINED-SCOPE SOURCE CLOSURE COMPLETE / NOT PLATINUM,Aidan Coleman,,2026-07-17,Build 0035C
+CERT-PPS-000031,Elamipretide / SS-31 Product Passport,PPS,Tier 1 Source-Closure Product Passport,OPEN / NOT CERTIFIED,Aidan Coleman,CERT-PKS-000089,2026-07-17,Build 0035C — PATCH
+CERT-EKS-000356,"Somatropin — Product, substance identity and current regulatory evidence",EKS,Tier 1 Source-Closed Living Evidence Object,SOURCE CLOSED WITHIN DEFINED SCOPE,Aidan Coleman,CERT-PKS-000020,2026-07-17,Build 0035C
+CERT-EKS-000357,Somatropin — Primary human efficacy and translation evidence,EKS,Tier 1 Source-Closed Living Evidence Object,SOURCE CLOSED WITHIN DEFINED SCOPE,Aidan Coleman,CERT-PKS-000020,2026-07-17,Build 0035C
+CERT-EKS-000358,"Somatropin — Safety, contraindication and current development evidence",EKS,Tier 1 Source-Closed Living Evidence Object,SOURCE CLOSED WITHIN DEFINED SCOPE,Aidan Coleman,CERT-PKS-000020,2026-07-17,Build 0035C
+CERT-EKS-000359,"Retatrutide — Product, substance identity and current regulatory evidence",EKS,Tier 1 Source-Closed Living Evidence Object,SOURCE CLOSED WITHIN DEFINED SCOPE,Aidan Coleman,CERT-PKS-000001,2026-07-17,Build 0035C
+CERT-EKS-000360,Retatrutide — Primary human efficacy and translation evidence,EKS,Tier 1 Source-Closed Living Evidence Object,SOURCE CLOSED WITHIN DEFINED SCOPE,Aidan Coleman,CERT-PKS-000001,2026-07-17,Build 0035C
+CERT-EKS-000361,"Retatrutide — Safety, contraindication and current development evidence",EKS,Tier 1 Source-Closed Living Evidence Object,SOURCE CLOSED WITHIN DEFINED SCOPE,Aidan Coleman,CERT-PKS-000001,2026-07-17,Build 0035C
+CERT-EKS-000362,"Cagrilintide — Product, substance identity and current regulatory evidence",EKS,Tier 1 Source-Closed Living Evidence Object,SOURCE CLOSED WITHIN DEFINED SCOPE,Aidan Coleman,CERT-PKS-000013,2026-07-17,Build 0035C
+CERT-EKS-000363,Cagrilintide — Primary human efficacy and translation evidence,EKS,Tier 1 Source-Closed Living Evidence Object,SOURCE CLOSED WITHIN DEFINED SCOPE,Aidan Coleman,CERT-PKS-000013,2026-07-17,Build 0035C
+CERT-EKS-000364,"Cagrilintide — Safety, contraindication and current development evidence",EKS,Tier 1 Source-Closed Living Evidence Object,SOURCE CLOSED WITHIN DEFINED SCOPE,Aidan Coleman,CERT-PKS-000013,2026-07-17,Build 0035C
+CERT-EKS-000365,"Mazdutide — Product, substance identity and current regulatory evidence",EKS,Tier 1 Source-Closed Living Evidence Object,SOURCE CLOSED WITHIN DEFINED SCOPE,Aidan Coleman,CERT-PKS-000014,2026-07-17,Build 0035C
+CERT-EKS-000366,Mazdutide — Primary human efficacy and translation evidence,EKS,Tier 1 Source-Closed Living Evidence Object,SOURCE CLOSED WITHIN DEFINED SCOPE,Aidan Coleman,CERT-PKS-000014,2026-07-17,Build 0035C
+CERT-EKS-000367,"Mazdutide — Safety, contraindication and current development evidence",EKS,Tier 1 Source-Closed Living Evidence Object,SOURCE CLOSED WITHIN DEFINED SCOPE,Aidan Coleman,CERT-PKS-000014,2026-07-17,Build 0035C
+CERT-EKS-000368,"Survodutide — Product, substance identity and current regulatory evidence",EKS,Tier 1 Source-Closed Living Evidence Object,SOURCE CLOSED WITHIN DEFINED SCOPE,Aidan Coleman,CERT-PKS-000015,2026-07-17,Build 0035C
+CERT-EKS-000369,Survodutide — Primary human efficacy and translation evidence,EKS,Tier 1 Source-Closed Living Evidence Object,SOURCE CLOSED WITHIN DEFINED SCOPE,Aidan Coleman,CERT-PKS-000015,2026-07-17,Build 0035C
+CERT-EKS-000370,"Survodutide — Safety, contraindication and current development evidence",EKS,Tier 1 Source-Closed Living Evidence Object,SOURCE CLOSED WITHIN DEFINED SCOPE,Aidan Coleman,CERT-PKS-000015,2026-07-17,Build 0035C
+CERT-EKS-000371,"Cibinetide / ARA-290 — Product, substance identity and current regulatory evidence",EKS,Tier 1 Source-Closed Living Evidence Object,SOURCE CLOSED WITHIN DEFINED SCOPE,Aidan Coleman,CERT-PKS-000054,2026-07-17,Build 0035C
+CERT-EKS-000372,Cibinetide / ARA-290 — Primary human efficacy and translation evidence,EKS,Tier 1 Source-Closed Living Evidence Object,SOURCE CLOSED WITHIN DEFINED SCOPE,Aidan Coleman,CERT-PKS-000054,2026-07-17,Build 0035C
+CERT-EKS-000373,"Cibinetide / ARA-290 — Safety, contraindication and current development evidence",EKS,Tier 1 Source-Closed Living Evidence Object,SOURCE CLOSED WITHIN DEFINED SCOPE,Aidan Coleman,CERT-PKS-000054,2026-07-17,Build 0035C
+CERT-EKS-000374,"Elamipretide / SS-31 — Product, substance identity and current regulatory evidence",EKS,Tier 1 Source-Closed Living Evidence Object,SOURCE CLOSED WITHIN DEFINED SCOPE,Aidan Coleman,CERT-PKS-000089,2026-07-17,Build 0035C
+CERT-EKS-000375,Elamipretide / SS-31 — Primary human efficacy and translation evidence,EKS,Tier 1 Source-Closed Living Evidence Object,SOURCE CLOSED WITHIN DEFINED SCOPE,Aidan Coleman,CERT-PKS-000089,2026-07-17,Build 0035C
+CERT-EKS-000376,"Elamipretide / SS-31 — Safety, contraindication and current development evidence",EKS,Tier 1 Source-Closed Living Evidence Object,SOURCE CLOSED WITHIN DEFINED SCOPE,Aidan Coleman,CERT-PKS-000089,2026-07-17,Build 0035C

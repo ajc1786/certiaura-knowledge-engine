@@ -1,0 +1,24 @@
+{
+  "asset_id": "CERT-EKS-000375",
+  "asset_name": "Elamipretide / SS-31 Pivotal Human Evidence Source Closure",
+  "root_asset": "CERT-PKS-000089",
+  "knowledge_system": "EKS",
+  "asset_type": "Tier 1 Source-Closed Living Evidence Object",
+  "version": "0.3.0",
+  "status": "SOURCE CLOSED WITHIN DEFINED SCOPE / LIVING EVIDENCE ACTIVE",
+  "source_closure_build": "0035C",
+  "evidence_type": "Primary human efficacy and translation evidence",
+  "evidence_grade": "B1 — pivotal, major randomised or defined phase 2/3 human evidence",
+  "last_review": "2026-07-17",
+  "source_closure_scope_complete": true,
+  "exhaustive_literature_review": false,
+  "controlled_conclusion": "The accelerated approval is based on improvement in knee-extensor muscle strength, an intermediate clinical endpoint. The phase 3b/4 4TAZPower confirmatory trial was registered in 2026 and was not yet recruiting at its May 2026 update. Earlier Barth syndrome studies remain product- and protocol-specific.",
+  "sources": [],
+  "transfer_prohibited": [
+    "Transfer from authorised, sponsor or trial product to catalogue supplier material",
+    "Creation of personal dosing, injection or reconstitution guidance",
+    "Assumption of supplier purity, potency, sterility, stability or equivalence",
+    "Representation of orphan designation or trial registration as marketing authorisation"
+  ],
+  "next_review_trigger": "Material approval, label, trial-result, safety, warning, recall, manufacturer, quality, anti-doping or supplier-evidence change"
+}

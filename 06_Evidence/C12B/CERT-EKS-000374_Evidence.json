@@ -1,0 +1,55 @@
+{
+  "asset_id": "CERT-EKS-000374",
+  "asset_name": "Elamipretide / SS-31 Product, Identity and Regulatory Source Closure",
+  "root_asset": "CERT-PKS-000089",
+  "knowledge_system": "EKS",
+  "asset_type": "Tier 1 Source-Closed Living Evidence Object",
+  "version": "0.3.0",
+  "status": "SOURCE CLOSED WITHIN DEFINED SCOPE / LIVING EVIDENCE ACTIVE",
+  "source_closure_build": "0035C",
+  "evidence_type": "Product, substance identity and current regulatory evidence",
+  "evidence_grade": "A1 — current official regulator, registry or product source",
+  "last_review": "2026-07-17",
+  "source_closure_scope_complete": true,
+  "exhaustive_literature_review": false,
+  "controlled_conclusion": "FORZINITY received United States accelerated approval on 19 September 2025 to improve muscle strength in adults and paediatric patients with Barth syndrome weighing at least 30 kg. The approval is exact-product and indication specific. 2S10 and 2S50 powders are not the authorised sterile 80 mg/mL finished product.",
+  "sources": [
+    {
+      "title": "FORZINITY United States prescribing information",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/215244s000lbl.pdf",
+      "type": "Authoritative approved-product label",
+      "date_state": "Approved 2025-09-19"
+    },
+    {
+      "title": "FDA orphan designation and approval record",
+      "url": "https://www.accessdata.fda.gov/scripts/opdlisting/oopd/detailedIndex.cfm?cfgridkey=607817",
+      "type": "Authoritative approval record",
+      "date_state": "Marketing approval 2025-09-19"
+    },
+    {
+      "title": "4TAZPower phase 3b/4 confirmatory trial",
+      "url": "https://clinicaltrials.gov/study/NCT07531251",
+      "type": "Current authoritative trial registry",
+      "date_state": "Last update 2026-05-06; not yet recruiting"
+    },
+    {
+      "title": "EMA Barth syndrome orphan designation",
+      "url": "https://www.ema.europa.eu/en/medicines/human/orphan-designations/eu-3-21-2430",
+      "type": "Authoritative European orphan-designation record",
+      "date_state": "Orphan designation; not marketing authorisation"
+    },
+    {
+      "title": "MHRA elamipretide paediatric investigation plan",
+      "url": "https://cms.mhra.gov.uk/pip/mhra-101705-pip01-24",
+      "type": "Authoritative United Kingdom development record",
+      "date_state": "Published 2026-03-04; not marketing authorisation"
+    }
+  ],
+  "transfer_prohibited": [
+    "Transfer from authorised, sponsor or trial product to catalogue supplier material",
+    "Creation of personal dosing, injection or reconstitution guidance",
+    "Assumption of supplier purity, potency, sterility, stability or equivalence",
+    "Representation of orphan designation or trial registration as marketing authorisation"
+  ],
+  "next_review_trigger": "Material approval, label, trial-result, safety, warning, recall, manufacturer, quality, anti-doping or supplier-evidence change"
+}

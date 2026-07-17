@@ -1,0 +1,40 @@
+{
+  "asset_uai": "CERT-PKS-000014",
+  "asset_name": "Mazdutide",
+  "version": "0.3.0",
+  "status_as_of": "2026-07-17",
+  "source_closure_build": "0035C",
+  "living_evidence_status": "ACTIVE",
+  "regulatory_records": [
+    {
+      "jurisdiction": "China",
+      "authority": "NMPA / official manufacturer announcement",
+      "current_status": "Exact mazdutide finished products were approved for chronic weight management and type 2 diabetes in 2025.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Approval, label, trial-result, safety, warning, recall, anti-doping or supplier-evidence change"
+    },
+    {
+      "jurisdiction": "United States",
+      "authority": "FDA",
+      "current_status": "No United States supplier-product approval or Chinese-product equivalence.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Approval, label, trial-result, safety, warning, recall, anti-doping or supplier-evidence change"
+    },
+    {
+      "jurisdiction": "United Kingdom",
+      "authority": "MHRA",
+      "current_status": "No United Kingdom marketing-authorisation claim.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Approval, label, trial-result, safety, warning, recall, anti-doping or supplier-evidence change"
+    },
+    {
+      "jurisdiction": "European Union",
+      "authority": "EMA / European Commission",
+      "current_status": "No central European marketing-authorisation claim.",
+      "monitoring_state": "ACTIVE",
+      "next_review_trigger": "Approval, label, trial-result, safety, warning, recall, anti-doping or supplier-evidence change"
+    }
+  ],
+  "supplier_product_equivalence": false,
+  "commercial_release": false
+}
