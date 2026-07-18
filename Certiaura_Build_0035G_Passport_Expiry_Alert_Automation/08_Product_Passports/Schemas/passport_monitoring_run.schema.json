@@ -1,0 +1,451 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://certiaura.example/schemas/passport_monitoring_run.schema.json",
+  "title": "Certiaura Product Passport Monitoring Run",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "run",
+    "checks",
+    "alerts",
+    "summary",
+    "audit"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.0.0"
+    },
+    "run": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "run_id",
+        "run_type",
+        "started_at",
+        "completed_at",
+        "as_of",
+        "policy_version",
+        "engine_version",
+        "executed_by",
+        "run_status"
+      ],
+      "properties": {
+        "run_id": {
+          "type": "string",
+          "pattern": "^PPS-MON-[A-Z0-9-]{3,80}$"
+        },
+        "run_type": {
+          "enum": [
+            "SCHEDULED",
+            "EVENT_DRIVEN",
+            "MANUAL",
+            "REPLAY"
+          ]
+        },
+        "started_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "completed_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "as_of": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "policy_version": {
+          "type": "string",
+          "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$"
+        },
+        "engine_version": {
+          "type": "string",
+          "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$"
+        },
+        "executed_by": {
+          "type": "string",
+          "minLength": 2
+        },
+        "run_status": {
+          "enum": [
+            "STARTED",
+            "COMPLETED",
+            "COMPLETED_WITH_ALERTS",
+            "PARTIAL",
+            "FAILED",
+            "STALE_INPUT"
+          ]
+        },
+        "reason": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "checks": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "passport_id",
+          "passport_version",
+          "source_sha256",
+          "lifecycle_state_before",
+          "marketplace_state_before",
+          "finding_codes",
+          "highest_severity",
+          "action_instruction",
+          "human_review_required",
+          "alert_ids"
+        ],
+        "properties": {
+          "passport_id": {
+            "type": "string",
+            "pattern": "^PPS-PAS-[A-Z0-9-]{3,80}$"
+          },
+          "passport_version": {
+            "type": "string",
+            "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$"
+          },
+          "source_sha256": {
+            "type": "string",
+            "pattern": "^[a-fA-F0-9]{64}$"
+          },
+          "lifecycle_state_before": {
+            "enum": [
+              "DRAFT",
+              "READY_FOR_PUBLICATION",
+              "PUBLISHED",
+              "SUSPENDED",
+              "EXPIRED",
+              "WITHDRAWN",
+              "SUPERSEDED",
+              "ARCHIVED"
+            ]
+          },
+          "marketplace_state_before": {
+            "enum": [
+              "NOT_ASSESSED",
+              "ELIGIBLE",
+              "CONDITIONALLY_ELIGIBLE",
+              "INELIGIBLE",
+              "SUSPENDED",
+              "REMOVED"
+            ]
+          },
+          "finding_codes": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "uniqueItems": true
+          },
+          "highest_severity": {
+            "enum": [
+              "NONE",
+              "LOW",
+              "MEDIUM",
+              "HIGH",
+              "CRITICAL"
+            ]
+          },
+          "proposed_passport_state": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "proposed_marketplace_state": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "action_instruction": {
+            "enum": [
+              "NONE",
+              "QUEUE_REVIEW",
+              "QUEUE_EVIDENCE_REFRESH",
+              "QUEUE_CLAIM_REVIEW",
+              "AUTO_EXPIRE",
+              "AUTO_SUSPEND",
+              "AUTO_SUSPEND_MARKETPLACE",
+              "AUTO_REMOVE_MARKETPLACE",
+              "QUARANTINE_INPUT"
+            ]
+          },
+          "human_review_required": {
+            "type": "boolean"
+          },
+          "alert_ids": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "^PPS-ALT-[A-Z0-9-]{3,80}$"
+            },
+            "uniqueItems": true
+          }
+        }
+      }
+    },
+    "alerts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "alert_id",
+          "dedupe_key",
+          "passport_id",
+          "passport_version",
+          "alert_type",
+          "severity",
+          "priority",
+          "detected_at",
+          "due_at",
+          "finding_codes",
+          "primary_route",
+          "required_action",
+          "status",
+          "first_seen_at",
+          "last_seen_at",
+          "source_run_id"
+        ],
+        "properties": {
+          "alert_id": {
+            "type": "string",
+            "pattern": "^PPS-ALT-[A-Z0-9-]{3,80}$"
+          },
+          "dedupe_key": {
+            "type": "string",
+            "minLength": 8,
+            "maxLength": 200
+          },
+          "passport_id": {
+            "type": "string"
+          },
+          "passport_version": {
+            "type": "string"
+          },
+          "alert_type": {
+            "type": "string",
+            "minLength": 3
+          },
+          "severity": {
+            "enum": [
+              "LOW",
+              "MEDIUM",
+              "HIGH",
+              "CRITICAL"
+            ]
+          },
+          "priority": {
+            "enum": [
+              "P0",
+              "P1",
+              "P2",
+              "P3",
+              "P4"
+            ]
+          },
+          "detected_at": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "due_at": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "target_date": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "format": "date"
+          },
+          "finding_codes": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "minItems": 1,
+            "uniqueItems": true
+          },
+          "source_event_ids": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "uniqueItems": true
+          },
+          "primary_route": {
+            "type": "string",
+            "minLength": 2
+          },
+          "secondary_routes": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "uniqueItems": true
+          },
+          "required_action": {
+            "type": "string",
+            "minLength": 3
+          },
+          "proposed_passport_state": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "proposed_marketplace_state": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "status": {
+            "enum": [
+              "OPEN",
+              "ACKNOWLEDGED",
+              "IN_REVIEW",
+              "RESOLVED",
+              "CLOSED",
+              "SUPPRESSED_DUPLICATE"
+            ]
+          },
+          "first_seen_at": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "last_seen_at": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "source_run_id": {
+            "type": "string"
+          },
+          "message": {
+            "type": "string",
+            "minLength": 10
+          }
+        }
+      }
+    },
+    "summary": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "records_scanned",
+        "records_with_findings",
+        "finding_count",
+        "alert_count",
+        "protective_action_count",
+        "severity_counts",
+        "status_reconciled"
+      ],
+      "properties": {
+        "records_scanned": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "records_with_findings": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "finding_count": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "alert_count": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "protective_action_count": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "severity_counts": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "LOW",
+            "MEDIUM",
+            "HIGH",
+            "CRITICAL"
+          ],
+          "properties": {
+            "LOW": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "MEDIUM": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "HIGH": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "CRITICAL": {
+              "type": "integer",
+              "minimum": 0
+            }
+          }
+        },
+        "status_reconciled": {
+          "type": "boolean"
+        }
+      }
+    },
+    "audit": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "created_at",
+        "created_by",
+        "immutable_record",
+        "source_records_hashed",
+        "positive_approval_prohibited",
+        "validation_status"
+      ],
+      "properties": {
+        "created_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "created_by": {
+          "type": "string",
+          "minLength": 2
+        },
+        "immutable_record": {
+          "const": true
+        },
+        "source_records_hashed": {
+          "const": true
+        },
+        "positive_approval_prohibited": {
+          "const": true
+        },
+        "validation_status": {
+          "enum": [
+            "PASS",
+            "FAIL",
+            "NOT_RUN"
+          ]
+        },
+        "validation_errors": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

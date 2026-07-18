@@ -1,0 +1,426 @@
+{
+  "schema_version": "1.0.0",
+  "run": {
+    "run_id": "BAD-RUN",
+    "run_type": "SCHEDULED",
+    "started_at": "2026-07-18T09:00:00Z",
+    "completed_at": "2026-07-18T09:00:00Z",
+    "as_of": "2026-07-18T09:00:00Z",
+    "policy_version": "1.0.0",
+    "engine_version": "1.0.0",
+    "executed_by": "Certiaura Example",
+    "run_status": "COMPLETED",
+    "reason": null
+  },
+  "checks": [
+    {
+      "passport_id": "PPS-PAS-MON-002",
+      "passport_version": "1.0.0",
+      "source_sha256": "not-a-hash",
+      "lifecycle_state_before": "PUBLISHED",
+      "marketplace_state_before": "ELIGIBLE",
+      "finding_codes": [
+        "PASSPORT_EXPIRY_7D",
+        "REVIEW_DUE_7D",
+        "UPSTREAM_REVIEW_EXPIRY_7D",
+        "MARKETPLACE_REVIEW_DUE_7D",
+        "CLAIM_REVIEW_DUE_7D:CLM-002-IDENTITY"
+      ],
+      "highest_severity": "HIGH",
+      "proposed_passport_state": "PUBLISHED",
+      "proposed_marketplace_state": "ELIGIBLE",
+      "action_instruction": "AUTO_REINSTATE",
+      "human_review_required": false,
+      "alert_ids": [
+        "PPS-ALT-DEA9F45BFDF006FE",
+        "PPS-ALT-4D3CA8B557400B9F",
+        "PPS-ALT-D47EC7F9E1106933",
+        "PPS-ALT-EC5D30D79E413A18",
+        "PPS-ALT-45B5F4D432309F17"
+      ]
+    },
+    {
+      "passport_id": "PPS-PAS-MON-003",
+      "passport_version": "1.0.0",
+      "source_sha256": "c11d634a6eb7257fcccbec070a2aaf329adf054ded13c683475a56cf6b4be547",
+      "lifecycle_state_before": "PUBLISHED",
+      "marketplace_state_before": "ELIGIBLE",
+      "finding_codes": [
+        "PASSPORT_EXPIRED",
+        "REVIEW_OVERDUE",
+        "UPSTREAM_REVIEW_EXPIRED",
+        "MARKETPLACE_REVIEW_OVERDUE",
+        "CLAIM_REVIEW_OVERDUE:CLM-003-IDENTITY"
+      ],
+      "highest_severity": "CRITICAL",
+      "proposed_passport_state": "SUSPENDED",
+      "proposed_marketplace_state": "SUSPENDED",
+      "action_instruction": "AUTO_SUSPEND",
+      "human_review_required": true,
+      "alert_ids": [
+        "PPS-ALT-95DA5C00AE8680D0",
+        "PPS-ALT-98F64C29E751729E",
+        "PPS-ALT-941CD8BC2480952C",
+        "PPS-ALT-D7C5368D6E6739BF",
+        "PPS-ALT-76FB538CDF2745BC"
+      ]
+    },
+    {
+      "passport_id": "PPS-PAS-MON-004",
+      "passport_version": "1.0.0",
+      "source_sha256": "a5614dd7b504cec03306a12110348e3695fc26b051ac04b0679e608f9901e221",
+      "lifecycle_state_before": "PUBLISHED",
+      "marketplace_state_before": "ELIGIBLE",
+      "finding_codes": [
+        "OPEN_CRITICAL_TRIGGER:REPORT_INTEGRITY_DISPUTE"
+      ],
+      "highest_severity": "CRITICAL",
+      "proposed_passport_state": "SUSPENDED",
+      "proposed_marketplace_state": "SUSPENDED",
+      "action_instruction": "AUTO_SUSPEND",
+      "human_review_required": true,
+      "alert_ids": [
+        "PPS-ALT-54A747E377DA1DA4"
+      ]
+    }
+  ],
+  "alerts": [
+    {
+      "alert_id": "PPS-ALT-4D3CA8B557400B9F",
+      "dedupe_key": "PPS-PAS-MON-002|1.0.0|REVIEW_DUE_7D|2026-07-25",
+      "passport_id": "PPS-PAS-MON-002",
+      "passport_version": "1.0.0",
+      "alert_type": "PASSPORT_EXPIRY",
+      "severity": "HIGH",
+      "priority": "P2",
+      "detected_at": "2026-07-18T09:00:00Z",
+      "due_at": "2026-07-19T09:00:00Z",
+      "target_date": "2026-07-25",
+      "finding_codes": [
+        "PASSPORT_EXPIRY_7D"
+      ],
+      "source_event_ids": [],
+      "primary_route": "PPS_REVIEW_QUEUE",
+      "secondary_routes": [
+        "EKS_REFRESH_QUEUE"
+      ],
+      "required_action": "QUEUE_EVIDENCE_REFRESH",
+      "proposed_passport_state": null,
+      "proposed_marketplace_state": "ELIGIBLE",
+      "status": "OPEN",
+      "first_seen_at": "2026-07-18T09:00:00Z",
+      "last_seen_at": "2026-07-18T09:00:00Z",
+      "source_run_id": "OTHER-RUN",
+      "message": "PASSPORT_EXPIRY_7D detected for PPS-PAS-MON-002 version 1.0.0; required action: QUEUE_EVIDENCE_REFRESH."
+    },
+    {
+      "alert_id": "PPS-ALT-4D3CA8B557400B9F",
+      "dedupe_key": "PPS-PAS-MON-002|1.0.0|REVIEW_DUE_7D|2026-07-25",
+      "passport_id": "PPS-PAS-MON-002",
+      "passport_version": "1.0.0",
+      "alert_type": "REVIEW_DUE_OR_OVERDUE",
+      "severity": "HIGH",
+      "priority": "P2",
+      "detected_at": "2026-07-18T09:00:00Z",
+      "due_at": "2026-07-19T09:00:00Z",
+      "target_date": "2026-07-25",
+      "finding_codes": [
+        "REVIEW_DUE_7D"
+      ],
+      "source_event_ids": [],
+      "primary_route": "PPS_REVIEW_QUEUE",
+      "secondary_routes": [
+        "EKS_REFRESH_QUEUE"
+      ],
+      "required_action": "QUEUE_REVIEW",
+      "proposed_passport_state": null,
+      "proposed_marketplace_state": null,
+      "status": "OPEN",
+      "first_seen_at": "2026-07-18T09:00:00Z",
+      "last_seen_at": "2026-07-18T09:00:00Z",
+      "source_run_id": "PPS-MON-EXAMPLE-002",
+      "message": "REVIEW_DUE_7D detected for PPS-PAS-MON-002 version 1.0.0; required action: QUEUE_REVIEW."
+    },
+    {
+      "alert_id": "PPS-ALT-D47EC7F9E1106933",
+      "dedupe_key": "PPS-PAS-MON-002|1.0.0|UPSTREAM_REVIEW_EXPIRY_7D|2026-07-25",
+      "passport_id": "PPS-PAS-MON-002",
+      "passport_version": "1.0.0",
+      "alert_type": "PASSPORT_EXPIRY",
+      "severity": "HIGH",
+      "priority": "P2",
+      "detected_at": "2026-07-18T09:00:00Z",
+      "due_at": "2026-07-19T09:00:00Z",
+      "target_date": "2026-07-25",
+      "finding_codes": [
+        "UPSTREAM_REVIEW_EXPIRY_7D"
+      ],
+      "source_event_ids": [],
+      "primary_route": "PPS_REVIEW_QUEUE",
+      "secondary_routes": [
+        "EKS_REFRESH_QUEUE"
+      ],
+      "required_action": "QUEUE_EVIDENCE_REFRESH",
+      "proposed_passport_state": null,
+      "proposed_marketplace_state": null,
+      "status": "OPEN",
+      "first_seen_at": "2026-07-18T09:00:00Z",
+      "last_seen_at": "2026-07-18T09:00:00Z",
+      "source_run_id": "PPS-MON-EXAMPLE-002",
+      "message": "UPSTREAM_REVIEW_EXPIRY_7D detected for PPS-PAS-MON-002 version 1.0.0; required action: QUEUE_EVIDENCE_REFRESH."
+    },
+    {
+      "alert_id": "PPS-ALT-EC5D30D79E413A18",
+      "dedupe_key": "PPS-PAS-MON-002|1.0.0|MARKETPLACE_REVIEW_DUE_7D|2026-07-25",
+      "passport_id": "PPS-PAS-MON-002",
+      "passport_version": "1.0.0",
+      "alert_type": "REVIEW_DUE_OR_OVERDUE",
+      "severity": "HIGH",
+      "priority": "P2",
+      "detected_at": "2026-07-18T09:00:00Z",
+      "due_at": "2026-07-19T09:00:00Z",
+      "target_date": "2026-07-25",
+      "finding_codes": [
+        "MARKETPLACE_REVIEW_DUE_7D"
+      ],
+      "source_event_ids": [],
+      "primary_route": "PPS_REVIEW_QUEUE",
+      "secondary_routes": [
+        "EKS_REFRESH_QUEUE"
+      ],
+      "required_action": "QUEUE_REVIEW",
+      "proposed_passport_state": null,
+      "proposed_marketplace_state": null,
+      "status": "OPEN",
+      "first_seen_at": "2026-07-18T09:00:00Z",
+      "last_seen_at": "2026-07-18T09:00:00Z",
+      "source_run_id": "PPS-MON-EXAMPLE-002",
+      "message": "MARKETPLACE_REVIEW_DUE_7D detected for PPS-PAS-MON-002 version 1.0.0; required action: QUEUE_REVIEW."
+    },
+    {
+      "alert_id": "PPS-ALT-45B5F4D432309F17",
+      "dedupe_key": "PPS-PAS-MON-002|1.0.0|CLAIM_REVIEW_DUE_7D:CLM-002-IDENTITY|2026-07-25",
+      "passport_id": "PPS-PAS-MON-002",
+      "passport_version": "1.0.0",
+      "alert_type": "REVIEW_DUE_OR_OVERDUE",
+      "severity": "HIGH",
+      "priority": "P2",
+      "detected_at": "2026-07-18T09:00:00Z",
+      "due_at": "2026-07-19T09:00:00Z",
+      "target_date": "2026-07-25",
+      "finding_codes": [
+        "CLAIM_REVIEW_DUE_7D:CLM-002-IDENTITY"
+      ],
+      "source_event_ids": [],
+      "primary_route": "PPS_REVIEW_QUEUE",
+      "secondary_routes": [
+        "EKS_REFRESH_QUEUE"
+      ],
+      "required_action": "QUEUE_CLAIM_REVIEW",
+      "proposed_passport_state": null,
+      "proposed_marketplace_state": null,
+      "status": "OPEN",
+      "first_seen_at": "2026-07-18T09:00:00Z",
+      "last_seen_at": "2026-07-18T09:00:00Z",
+      "source_run_id": "PPS-MON-EXAMPLE-002",
+      "message": "CLAIM_REVIEW_DUE_7D:CLM-002-IDENTITY detected for PPS-PAS-MON-002 version 1.0.0; required action: QUEUE_CLAIM_REVIEW."
+    },
+    {
+      "alert_id": "PPS-ALT-95DA5C00AE8680D0",
+      "dedupe_key": "PPS-PAS-MON-003|1.0.0|PASSPORT_EXPIRED|2026-07-17",
+      "passport_id": "PPS-PAS-MON-003",
+      "passport_version": "1.0.0",
+      "alert_type": "PASSPORT_EXPIRED",
+      "severity": "HIGH",
+      "priority": "P1",
+      "detected_at": "2026-07-18T09:00:00Z",
+      "due_at": "2026-07-18T09:00:00Z",
+      "target_date": "2026-07-17",
+      "finding_codes": [
+        "PASSPORT_EXPIRED"
+      ],
+      "source_event_ids": [],
+      "primary_route": "PPS_REVIEW_QUEUE",
+      "secondary_routes": [
+        "MARKETPLACE_OPERATIONS"
+      ],
+      "required_action": "AUTO_EXPIRE",
+      "proposed_passport_state": "EXPIRED",
+      "proposed_marketplace_state": "REMOVED",
+      "status": "OPEN",
+      "first_seen_at": "2026-07-18T09:00:00Z",
+      "last_seen_at": "2026-07-18T09:00:00Z",
+      "source_run_id": "PPS-MON-EXAMPLE-002",
+      "message": "PASSPORT_EXPIRED detected for PPS-PAS-MON-003 version 1.0.0; required action: AUTO_EXPIRE."
+    },
+    {
+      "alert_id": "PPS-ALT-98F64C29E751729E",
+      "dedupe_key": "PPS-PAS-MON-003|1.0.0|REVIEW_OVERDUE|2026-07-17",
+      "passport_id": "PPS-PAS-MON-003",
+      "passport_version": "1.0.0",
+      "alert_type": "REVIEW_DUE_OR_OVERDUE",
+      "severity": "HIGH",
+      "priority": "P1",
+      "detected_at": "2026-07-18T09:00:00Z",
+      "due_at": "2026-07-18T13:00:00Z",
+      "target_date": "2026-07-17",
+      "finding_codes": [
+        "REVIEW_OVERDUE"
+      ],
+      "source_event_ids": [],
+      "primary_route": "PPS_REVIEW_QUEUE",
+      "secondary_routes": [
+        "EKS_REFRESH_QUEUE",
+        "MARKETPLACE_OPERATIONS"
+      ],
+      "required_action": "AUTO_SUSPEND_MARKETPLACE",
+      "proposed_passport_state": null,
+      "proposed_marketplace_state": "SUSPENDED",
+      "status": "OPEN",
+      "first_seen_at": "2026-07-18T09:00:00Z",
+      "last_seen_at": "2026-07-18T09:00:00Z",
+      "source_run_id": "PPS-MON-EXAMPLE-002",
+      "message": "REVIEW_OVERDUE detected for PPS-PAS-MON-003 version 1.0.0; required action: AUTO_SUSPEND_MARKETPLACE."
+    },
+    {
+      "alert_id": "PPS-ALT-941CD8BC2480952C",
+      "dedupe_key": "PPS-PAS-MON-003|1.0.0|UPSTREAM_REVIEW_EXPIRED|2026-07-17",
+      "passport_id": "PPS-PAS-MON-003",
+      "passport_version": "1.0.0",
+      "alert_type": "UPSTREAM_REVIEW_EXPIRED",
+      "severity": "CRITICAL",
+      "priority": "P0",
+      "detected_at": "2026-07-18T09:00:00Z",
+      "due_at": "2026-07-18T09:00:00Z",
+      "target_date": "2026-07-17",
+      "finding_codes": [
+        "UPSTREAM_REVIEW_EXPIRED"
+      ],
+      "source_event_ids": [],
+      "primary_route": "PPS_REVIEW_QUEUE",
+      "secondary_routes": [
+        "EKS_REVIEW_QUEUE",
+        "MARKETPLACE_OPERATIONS"
+      ],
+      "required_action": "AUTO_SUSPEND",
+      "proposed_passport_state": "SUSPENDED",
+      "proposed_marketplace_state": "SUSPENDED",
+      "status": "OPEN",
+      "first_seen_at": "2026-07-18T09:00:00Z",
+      "last_seen_at": "2026-07-18T09:00:00Z",
+      "source_run_id": "PPS-MON-EXAMPLE-002",
+      "message": "UPSTREAM_REVIEW_EXPIRED detected for PPS-PAS-MON-003 version 1.0.0; required action: AUTO_SUSPEND."
+    },
+    {
+      "alert_id": "PPS-ALT-D7C5368D6E6739BF",
+      "dedupe_key": "PPS-PAS-MON-003|1.0.0|MARKETPLACE_REVIEW_OVERDUE|2026-07-17",
+      "passport_id": "PPS-PAS-MON-003",
+      "passport_version": "1.0.0",
+      "alert_type": "REVIEW_DUE_OR_OVERDUE",
+      "severity": "HIGH",
+      "priority": "P1",
+      "detected_at": "2026-07-18T09:00:00Z",
+      "due_at": "2026-07-18T13:00:00Z",
+      "target_date": "2026-07-17",
+      "finding_codes": [
+        "MARKETPLACE_REVIEW_OVERDUE"
+      ],
+      "source_event_ids": [],
+      "primary_route": "PPS_REVIEW_QUEUE",
+      "secondary_routes": [
+        "EKS_REFRESH_QUEUE",
+        "MARKETPLACE_OPERATIONS"
+      ],
+      "required_action": "AUTO_SUSPEND_MARKETPLACE",
+      "proposed_passport_state": null,
+      "proposed_marketplace_state": "SUSPENDED",
+      "status": "OPEN",
+      "first_seen_at": "2026-07-18T09:00:00Z",
+      "last_seen_at": "2026-07-18T09:00:00Z",
+      "source_run_id": "PPS-MON-EXAMPLE-002",
+      "message": "MARKETPLACE_REVIEW_OVERDUE detected for PPS-PAS-MON-003 version 1.0.0; required action: AUTO_SUSPEND_MARKETPLACE."
+    },
+    {
+      "alert_id": "PPS-ALT-76FB538CDF2745BC",
+      "dedupe_key": "PPS-PAS-MON-003|1.0.0|CLAIM_REVIEW_OVERDUE:CLM-003-IDENTITY|2026-07-17",
+      "passport_id": "PPS-PAS-MON-003",
+      "passport_version": "1.0.0",
+      "alert_type": "CLAIM_REVIEW_OVERDUE",
+      "severity": "HIGH",
+      "priority": "P1",
+      "detected_at": "2026-07-18T09:00:00Z",
+      "due_at": "2026-07-18T13:00:00Z",
+      "target_date": "2026-07-17",
+      "finding_codes": [
+        "CLAIM_REVIEW_OVERDUE:CLM-003-IDENTITY"
+      ],
+      "source_event_ids": [],
+      "primary_route": "PPS_REVIEW_QUEUE",
+      "secondary_routes": [
+        "EKS_REVIEW_QUEUE"
+      ],
+      "required_action": "QUEUE_CLAIM_REVIEW",
+      "proposed_passport_state": null,
+      "proposed_marketplace_state": "SUSPENDED",
+      "status": "OPEN",
+      "first_seen_at": "2026-07-18T09:00:00Z",
+      "last_seen_at": "2026-07-18T09:00:00Z",
+      "source_run_id": "PPS-MON-EXAMPLE-002",
+      "message": "CLAIM_REVIEW_OVERDUE:CLM-003-IDENTITY detected for PPS-PAS-MON-003 version 1.0.0; required action: QUEUE_CLAIM_REVIEW."
+    },
+    {
+      "alert_id": "PPS-ALT-54A747E377DA1DA4",
+      "dedupe_key": "PPS-PAS-MON-004|1.0.0|OPEN_CRITICAL_TRIGGER:REPORT_INTEGRITY_DISPUTE|NO-DATE",
+      "passport_id": "PPS-PAS-MON-004",
+      "passport_version": "1.0.0",
+      "alert_type": "OPEN_CRITICAL_TRIGGER",
+      "severity": "CRITICAL",
+      "priority": "P0",
+      "detected_at": "2026-07-18T09:00:00Z",
+      "due_at": "2026-07-18T09:00:00Z",
+      "target_date": null,
+      "finding_codes": [
+        "OPEN_CRITICAL_TRIGGER:REPORT_INTEGRITY_DISPUTE"
+      ],
+      "source_event_ids": [
+        "PPS-EVT-MON-004"
+      ],
+      "primary_route": "PPS_REVIEW_QUEUE",
+      "secondary_routes": [
+        "LEGAL_REGULATORY",
+        "MARKETPLACE_OPERATIONS"
+      ],
+      "required_action": "AUTO_SUSPEND",
+      "proposed_passport_state": "SUSPENDED",
+      "proposed_marketplace_state": "SUSPENDED",
+      "status": "OPEN",
+      "first_seen_at": "2026-07-18T09:00:00Z",
+      "last_seen_at": "2026-07-18T09:00:00Z",
+      "source_run_id": "PPS-MON-EXAMPLE-002",
+      "message": "OPEN_CRITICAL_TRIGGER:REPORT_INTEGRITY_DISPUTE detected for PPS-PAS-MON-004 version 1.0.0; required action: AUTO_SUSPEND."
+    }
+  ],
+  "summary": {
+    "records_scanned": 3,
+    "records_with_findings": 3,
+    "finding_count": 11,
+    "alert_count": 999,
+    "protective_action_count": 2,
+    "severity_counts": {
+      "LOW": 0,
+      "MEDIUM": 0,
+      "HIGH": 0,
+      "CRITICAL": 0
+    },
+    "status_reconciled": false
+  },
+  "audit": {
+    "created_at": "2026-07-18T09:00:00Z",
+    "created_by": "Certiaura Example",
+    "immutable_record": false,
+    "source_records_hashed": false,
+    "positive_approval_prohibited": false,
+    "validation_status": "PASS",
+    "validation_errors": []
+  }
+}

@@ -1,0 +1,1 @@
+run_id,run_type,started_at,completed_at,as_of,policy_version,engine_version,records_scanned,findings,alerts,protective_actions,run_status,executed_by,output_sha256

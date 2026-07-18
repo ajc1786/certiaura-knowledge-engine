@@ -1,0 +1,1 @@
+alert_id,dedupe_key,passport_id,passport_version,alert_type,severity,priority,detected_at,due_at,primary_route,status,acknowledged_at,resolved_at,source_run_id

@@ -1,0 +1,4 @@
+change_id,build_id,change_type,target,summary,status
+CHG-0035G-001,CERT-BUILD-0035G,ADD,08_Product_Passports,"Add expiry and trigger monitoring standard, schemas, templates and registers",PROPOSED
+CHG-0035G-002,CERT-BUILD-0035G,ADD,13_Project_Genesis,"Add read-only monitoring engine, semantic validator and tests",PROPOSED
+CHG-0035G-003,CERT-BUILD-0035G,ADD,00_Build_Control,"Add build manifest, decision record and inventory",PROPOSED

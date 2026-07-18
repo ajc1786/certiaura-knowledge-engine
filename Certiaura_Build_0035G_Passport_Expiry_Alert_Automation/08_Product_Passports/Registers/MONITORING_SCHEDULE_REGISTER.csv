@@ -1,0 +1,4 @@
+schedule_id,scope,frequency,time_basis,owner,enabled,last_run_at,next_run_at,policy_version
+PPS-MON-SCH-001,All current Product Passports,DAILY,UTC,Project Genesis,false,,,1.0.0
+PPS-MON-SCH-002,Open high and critical lifecycle events,HOURLY,UTC,Project Genesis,false,,,1.0.0
+PPS-MON-SCH-003,Marketplace eligible passports,DAILY,UTC,Marketplace Operations,false,,,1.0.0

@@ -1,0 +1,55 @@
+{
+  "schema_version": "1.0.0",
+  "run": {
+    "run_id": "PPS-MON-EXAMPLE-001",
+    "run_type": "SCHEDULED",
+    "started_at": "2026-07-18T09:00:00Z",
+    "completed_at": "2026-07-18T09:00:00Z",
+    "as_of": "2026-07-18T09:00:00Z",
+    "policy_version": "1.0.0",
+    "engine_version": "1.0.0",
+    "executed_by": "Certiaura Example",
+    "run_status": "COMPLETED",
+    "reason": null
+  },
+  "checks": [
+    {
+      "passport_id": "PPS-PAS-MON-001",
+      "passport_version": "1.0.0",
+      "source_sha256": "bc6482a7d5abcdd604a5e0001785a4d1b7557da46863baf450e96fdd67b29366",
+      "lifecycle_state_before": "PUBLISHED",
+      "marketplace_state_before": "ELIGIBLE",
+      "finding_codes": [],
+      "highest_severity": "NONE",
+      "proposed_passport_state": null,
+      "proposed_marketplace_state": null,
+      "action_instruction": "NONE",
+      "human_review_required": false,
+      "alert_ids": []
+    }
+  ],
+  "alerts": [],
+  "summary": {
+    "records_scanned": 1,
+    "records_with_findings": 0,
+    "finding_count": 0,
+    "alert_count": 0,
+    "protective_action_count": 0,
+    "severity_counts": {
+      "LOW": 0,
+      "MEDIUM": 0,
+      "HIGH": 0,
+      "CRITICAL": 0
+    },
+    "status_reconciled": true
+  },
+  "audit": {
+    "created_at": "2026-07-18T09:00:00Z",
+    "created_by": "Certiaura Example",
+    "immutable_record": true,
+    "source_records_hashed": true,
+    "positive_approval_prohibited": true,
+    "validation_status": "PASS",
+    "validation_errors": []
+  }
+}

@@ -1,0 +1,217 @@
+[
+  {
+    "schema_version": "1.0.0",
+    "passport_id": "PPS-PAS-MON-002",
+    "passport_version": "1.0.0",
+    "review_decision": {
+      "review_decision_id": "PPS-REV-002",
+      "decision_status": "VERIFIED",
+      "public_passport_eligibility": "ELIGIBLE",
+      "review_decision_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "review_effective_until": "2026-07-25"
+    },
+    "lifecycle_state": "PUBLISHED",
+    "publication": {
+      "public_slug": "pps-pas-mon-002",
+      "published_at": "2026-07-01T09:00:00Z",
+      "published_by": "Reviewer A",
+      "effective_from": "2026-07-01",
+      "effective_until": "2026-07-25",
+      "next_review_date": "2026-07-25",
+      "mandatory_disclaimer": "Evidence status is limited to the stated scope and does not imply regulatory approval.",
+      "publication_gate_passed": true,
+      "suspension_reason": null,
+      "suspended_at": null,
+      "withdrawal_reason": null,
+      "successor_passport_id": null,
+      "superseded_at": null
+    },
+    "public_claims": [
+      {
+        "claim_id": "CLM-002-IDENTITY",
+        "category": "IDENTITY",
+        "display_value": "Identity confirmed within the tested sample scope.",
+        "evidence_class": "E4",
+        "source_review_decision_id": "PPS-REV-002",
+        "upstream_verified": true,
+        "upstream_public_display_approved": true,
+        "scope_statement": "Applies only to the identified tested sample and batch.",
+        "limitations": "Does not establish sterility, clinical effectiveness or suitability for human use.",
+        "last_verified_date": "2026-07-01",
+        "next_review_date": "2026-07-25",
+        "visibility": "PUBLIC"
+      }
+    ],
+    "lifecycle_events": [],
+    "marketplace": {
+      "marketplace_state": "ELIGIBLE",
+      "legal_review_status": "COMPLETE",
+      "regulatory_review_status": "COMPLETE",
+      "commercial_review_status": "COMPLETE",
+      "supplier_authority_current": true,
+      "unresolved_high_or_critical_trigger": false,
+      "marketplace_decision_id": "MPS-DEC-002",
+      "decided_by": "Marketplace Reviewer",
+      "decided_at": "2026-07-01T10:00:00Z",
+      "next_review_date": "2026-07-25",
+      "conditions": [],
+      "required_actions": []
+    },
+    "audit": {
+      "created_at": "2026-07-01T09:00:00Z",
+      "created_by": "Certiaura Example",
+      "immutable_record": true,
+      "change_requires_new_version_or_event": true
+    },
+    "relationships": []
+  },
+  {
+    "schema_version": "1.0.0",
+    "passport_id": "PPS-PAS-MON-003",
+    "passport_version": "1.0.0",
+    "review_decision": {
+      "review_decision_id": "PPS-REV-003",
+      "decision_status": "VERIFIED",
+      "public_passport_eligibility": "ELIGIBLE",
+      "review_decision_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "review_effective_until": "2026-07-17"
+    },
+    "lifecycle_state": "PUBLISHED",
+    "publication": {
+      "public_slug": "pps-pas-mon-003",
+      "published_at": "2026-07-01T09:00:00Z",
+      "published_by": "Reviewer A",
+      "effective_from": "2026-07-01",
+      "effective_until": "2026-07-17",
+      "next_review_date": "2026-07-17",
+      "mandatory_disclaimer": "Evidence status is limited to the stated scope and does not imply regulatory approval.",
+      "publication_gate_passed": true,
+      "suspension_reason": null,
+      "suspended_at": null,
+      "withdrawal_reason": null,
+      "successor_passport_id": null,
+      "superseded_at": null
+    },
+    "public_claims": [
+      {
+        "claim_id": "CLM-003-IDENTITY",
+        "category": "IDENTITY",
+        "display_value": "Identity confirmed within the tested sample scope.",
+        "evidence_class": "E4",
+        "source_review_decision_id": "PPS-REV-003",
+        "upstream_verified": true,
+        "upstream_public_display_approved": true,
+        "scope_statement": "Applies only to the identified tested sample and batch.",
+        "limitations": "Does not establish sterility, clinical effectiveness or suitability for human use.",
+        "last_verified_date": "2026-07-01",
+        "next_review_date": "2026-07-17",
+        "visibility": "PUBLIC"
+      }
+    ],
+    "lifecycle_events": [],
+    "marketplace": {
+      "marketplace_state": "ELIGIBLE",
+      "legal_review_status": "COMPLETE",
+      "regulatory_review_status": "COMPLETE",
+      "commercial_review_status": "COMPLETE",
+      "supplier_authority_current": true,
+      "unresolved_high_or_critical_trigger": false,
+      "marketplace_decision_id": "MPS-DEC-003",
+      "decided_by": "Marketplace Reviewer",
+      "decided_at": "2026-07-01T10:00:00Z",
+      "next_review_date": "2026-07-17",
+      "conditions": [],
+      "required_actions": []
+    },
+    "audit": {
+      "created_at": "2026-07-01T09:00:00Z",
+      "created_by": "Certiaura Example",
+      "immutable_record": true,
+      "change_requires_new_version_or_event": true
+    },
+    "relationships": []
+  },
+  {
+    "schema_version": "1.0.0",
+    "passport_id": "PPS-PAS-MON-004",
+    "passport_version": "1.0.0",
+    "review_decision": {
+      "review_decision_id": "PPS-REV-004",
+      "decision_status": "VERIFIED",
+      "public_passport_eligibility": "ELIGIBLE",
+      "review_decision_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "review_effective_until": "2026-10-31"
+    },
+    "lifecycle_state": "PUBLISHED",
+    "publication": {
+      "public_slug": "pps-pas-mon-004",
+      "published_at": "2026-07-01T09:00:00Z",
+      "published_by": "Reviewer A",
+      "effective_from": "2026-07-01",
+      "effective_until": "2026-10-31",
+      "next_review_date": "2026-09-30",
+      "mandatory_disclaimer": "Evidence status is limited to the stated scope and does not imply regulatory approval.",
+      "publication_gate_passed": true,
+      "suspension_reason": null,
+      "suspended_at": null,
+      "withdrawal_reason": null,
+      "successor_passport_id": null,
+      "superseded_at": null
+    },
+    "public_claims": [
+      {
+        "claim_id": "CLM-004-IDENTITY",
+        "category": "IDENTITY",
+        "display_value": "Identity confirmed within the tested sample scope.",
+        "evidence_class": "E4",
+        "source_review_decision_id": "PPS-REV-004",
+        "upstream_verified": true,
+        "upstream_public_display_approved": true,
+        "scope_statement": "Applies only to the identified tested sample and batch.",
+        "limitations": "Does not establish sterility, clinical effectiveness or suitability for human use.",
+        "last_verified_date": "2026-07-01",
+        "next_review_date": "2026-09-30",
+        "visibility": "PUBLIC"
+      }
+    ],
+    "lifecycle_events": [
+      {
+        "event_id": "PPS-EVT-MON-004",
+        "event_type": "REPORT_INTEGRITY_DISPUTE",
+        "severity": "CRITICAL",
+        "detected_at": "2026-07-18T07:30:00Z",
+        "source": "Laboratory verification channel",
+        "description": "The authenticity of the controlling report is disputed.",
+        "required_action": "Suspend passport and marketplace pending formal review.",
+        "owner": "Evidence Review",
+        "due_date": "2026-07-18",
+        "status": "OPEN",
+        "resolved_at": null,
+        "resolution": null,
+        "resulting_passport_state": null,
+        "resulting_marketplace_state": null
+      }
+    ],
+    "marketplace": {
+      "marketplace_state": "ELIGIBLE",
+      "legal_review_status": "COMPLETE",
+      "regulatory_review_status": "COMPLETE",
+      "commercial_review_status": "COMPLETE",
+      "supplier_authority_current": true,
+      "unresolved_high_or_critical_trigger": true,
+      "marketplace_decision_id": "MPS-DEC-004",
+      "decided_by": "Marketplace Reviewer",
+      "decided_at": "2026-07-01T10:00:00Z",
+      "next_review_date": "2026-09-30",
+      "conditions": [],
+      "required_actions": []
+    },
+    "audit": {
+      "created_at": "2026-07-01T09:00:00Z",
+      "created_by": "Certiaura Example",
+      "immutable_record": true,
+      "change_requires_new_version_or_event": true
+    },
+    "relationships": []
+  }
+]

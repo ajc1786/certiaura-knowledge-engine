@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0.0",
+  "run": {
+    "run_id": "PPS-MON-REPLACE",
+    "run_type": "SCHEDULED",
+    "started_at": "YYYY-MM-DDThh:mm:ssZ",
+    "completed_at": "YYYY-MM-DDThh:mm:ssZ",
+    "as_of": "YYYY-MM-DDThh:mm:ssZ",
+    "policy_version": "1.0.0",
+    "engine_version": "1.0.0",
+    "executed_by": "Project Genesis",
+    "run_status": "COMPLETED",
+    "reason": null
+  },
+  "checks": [],
+  "alerts": [],
+  "summary": {
+    "records_scanned": 0,
+    "records_with_findings": 0,
+    "finding_count": 0,
+    "alert_count": 0,
+    "protective_action_count": 0,
+    "severity_counts": {
+      "LOW": 0,
+      "MEDIUM": 0,
+      "HIGH": 0,
+      "CRITICAL": 0
+    },
+    "status_reconciled": true
+  },
+  "audit": {
+    "created_at": "YYYY-MM-DDThh:mm:ssZ",
+    "created_by": "Project Genesis",
+    "immutable_record": true,
+    "source_records_hashed": true,
+    "positive_approval_prohibited": true,
+    "validation_status": "NOT_RUN",
+    "validation_errors": []
+  }
+}
