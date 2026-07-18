@@ -1,0 +1,23 @@
+{
+  "supplier_id": "PPS-SUP-ALPHA-001",
+  "lookback_days": 365,
+  "related_cases": [
+    {
+      "case_id": "PPS-REM-2025-0041",
+      "root_cause_codes": [
+        "BATCH_TRACEABILITY_FAILURE"
+      ],
+      "severity": "HIGH",
+      "closed_at": "2026-01-12T12:00:00Z"
+    },
+    {
+      "case_id": "PPS-REM-2026-0000",
+      "root_cause_codes": [
+        "BATCH_TRACEABILITY_FAILURE"
+      ],
+      "severity": "CRITICAL",
+      "closed_at": "2026-05-02T12:00:00Z"
+    }
+  ],
+  "response_timeliness_percent": 72
+}

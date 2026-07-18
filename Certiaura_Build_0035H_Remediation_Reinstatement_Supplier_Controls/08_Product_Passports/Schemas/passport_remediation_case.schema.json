@@ -1,0 +1,129 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://certiaura.local/schemas/passport_remediation_case.schema.json",
+  "title": "Certiaura Product Passport Remediation Case",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "case",
+    "corrective_action_plan",
+    "evidence_refresh",
+    "review",
+    "reinstatement",
+    "alert_closure",
+    "supplier_performance",
+    "assessment",
+    "audit"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.0.0"
+    },
+    "case": {
+      "type": "object",
+      "required": [
+        "case_id",
+        "passport_id",
+        "passport_version",
+        "supplier_id",
+        "source_alert_ids",
+        "source_monitoring_run_id",
+        "source_record_sha256",
+        "opened_at",
+        "severity",
+        "priority",
+        "status",
+        "owner",
+        "target_due_at",
+        "root_cause_codes",
+        "repeat_failure_count",
+        "legal_hold",
+        "data_integrity_hold"
+      ],
+      "properties": {
+        "case_id": {
+          "type": "string",
+          "pattern": "^PPS-REM-[A-Z0-9-]{3,80}$"
+        },
+        "passport_id": {
+          "type": "string",
+          "pattern": "^PPS-PAS-[A-Z0-9-]{3,80}$"
+        },
+        "supplier_id": {
+          "type": "string",
+          "pattern": "^PPS-SUP-[A-Z0-9-]{3,80}$"
+        },
+        "source_record_sha256": {
+          "type": "string",
+          "pattern": "^[0-9a-fA-F]{64}$"
+        },
+        "severity": {
+          "enum": [
+            "LOW",
+            "MEDIUM",
+            "HIGH",
+            "CRITICAL"
+          ]
+        },
+        "priority": {
+          "enum": [
+            "P0",
+            "P1",
+            "P2",
+            "P3",
+            "P4"
+          ]
+        },
+        "status": {
+          "enum": [
+            "OPEN",
+            "PLAN_REQUIRED",
+            "REMEDIATION_IN_PROGRESS",
+            "EVIDENCE_REFRESH_PENDING",
+            "UNDER_REVIEW",
+            "REINSTATEMENT_READY",
+            "PARTIALLY_REINSTATED",
+            "REINSTATED",
+            "CLOSED_NO_REINSTATEMENT",
+            "ESCALATED",
+            "REJECTED"
+          ]
+        },
+        "legal_hold": {
+          "type": "boolean"
+        },
+        "data_integrity_hold": {
+          "type": "boolean"
+        },
+        "repeat_failure_count": {
+          "type": "integer",
+          "minimum": 0
+        }
+      }
+    },
+    "corrective_action_plan": {
+      "type": "object"
+    },
+    "evidence_refresh": {
+      "type": "object"
+    },
+    "review": {
+      "type": "object"
+    },
+    "reinstatement": {
+      "type": "object"
+    },
+    "alert_closure": {
+      "type": "array"
+    },
+    "supplier_performance": {
+      "type": "object"
+    },
+    "assessment": {
+      "type": "object"
+    },
+    "audit": {
+      "type": "object"
+    }
+  }
+}

@@ -1,0 +1,6 @@
+level,entry_trigger,minimum_controls,exit_authority
+NONE,No material adverse trend,Routine monitoring,Operational owner
+WATCH,One material failure or emerging delay,Increased review frequency,Quality owner
+FORMAL_IMPROVEMENT,Repeat failure missed deadline or tier D,Supplier improvement plan monthly review,Senior quality owner
+RESTRICTED,Serious repeated failure unresolved high-risk issue,Restrict submissions or marketplace activity,Senior quality and commercial approval
+SUSPENDED,Critical integrity legal counterfeit or persistent non-compliance,Suspend affected supplier activity,Executive legal or regulatory approval as applicable

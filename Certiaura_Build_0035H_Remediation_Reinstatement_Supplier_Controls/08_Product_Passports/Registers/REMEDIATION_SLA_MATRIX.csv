@@ -1,0 +1,6 @@
+priority,containment_target,plan_target,evidence_refresh_target,review_target,escalation_on_breach
+P0,Immediate,Same business day,Urgent controlled response,Immediate when complete,SUSPENDED
+P1,Same business day,Same business day,3 business days,1 business day,RESTRICTED
+P2,1 business day,1 business day,5 business days,2 business days,FORMAL_IMPROVEMENT
+P3,3 business days,3 business days,5 business days,3 business days,WATCH
+P4,Normal planning cycle,5 business days,10 business days,5 business days,WATCH

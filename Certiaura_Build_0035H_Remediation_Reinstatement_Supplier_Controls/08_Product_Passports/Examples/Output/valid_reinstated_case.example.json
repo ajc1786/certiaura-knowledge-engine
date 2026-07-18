@@ -1,0 +1,219 @@
+{
+  "schema_version": "1.0.0",
+  "case": {
+    "case_id": "PPS-REM-2026-0002",
+    "passport_id": "PPS-PAS-RETATRUTIDE-0001",
+    "passport_version": "1.2.0",
+    "supplier_id": "PPS-SUP-ALPHA-001",
+    "source_alert_ids": [
+      "PPS-ALT-2026-0001"
+    ],
+    "source_monitoring_run_id": "PPS-MON-2026-0718",
+    "source_record_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "opened_at": "2026-07-18T09:00:00Z",
+    "severity": "HIGH",
+    "priority": "P1",
+    "status": "REINSTATED",
+    "owner": "PPS Quality Review",
+    "target_due_at": "2026-07-19T17:00:00Z",
+    "root_cause_codes": [
+      "REVIEW_OR_EXPIRY_FAILURE"
+    ],
+    "root_cause_note": "Controlling evidence review expired before refresh was completed.",
+    "related_case_ids": [],
+    "repeat_failure_count": 0,
+    "legal_hold": false,
+    "data_integrity_hold": false,
+    "protective_passport_state": "SUSPENDED",
+    "protective_marketplace_state": "SUSPENDED"
+  },
+  "corrective_action_plan": {
+    "plan_id": "PPS-CAP-2026-0001",
+    "status": "COMPLETED",
+    "submitted_at": "2026-07-18T10:00:00Z",
+    "approved_by": "reviewer-quality-02",
+    "approved_at": "2026-07-18T11:00:00Z",
+    "actions": [
+      {
+        "action_id": "PPS-ACT-2026-0010",
+        "action_type": "EVIDENCE_REPLACEMENT",
+        "critical": true,
+        "owner": "supplier-quality-01",
+        "due_at": "2026-07-19T12:00:00Z",
+        "status": "COMPLETED",
+        "completion_evidence_ids": [
+          "PPS-EVD-2026-1001"
+        ],
+        "effectiveness_result": "PASS",
+        "effectiveness_reviewer_id": "reviewer-quality-02",
+        "effectiveness_reviewed_at": "2026-07-20T10:00:00Z"
+      },
+      {
+        "action_id": "PPS-ACT-2026-0011",
+        "action_type": "PROCESS_CORRECTION",
+        "critical": false,
+        "owner": "supplier-quality-01",
+        "due_at": "2026-07-22T12:00:00Z",
+        "status": "COMPLETED",
+        "completion_evidence_ids": [
+          "PPS-EVD-2026-1002"
+        ],
+        "effectiveness_result": "PASS",
+        "effectiveness_reviewer_id": "reviewer-quality-02",
+        "effectiveness_reviewed_at": "2026-07-22T14:00:00Z"
+      }
+    ]
+  },
+  "evidence_refresh": {
+    "refresh_id": "PPS-REF-2026-0002",
+    "submission_id": "PPS-SUB-2026-0090",
+    "status": "VERIFIED",
+    "submitted_at": "2026-07-19T09:00:00Z",
+    "evidence_items": [
+      {
+        "evidence_id": "PPS-EVD-2026-1001",
+        "document_type": "INDEPENDENT_LAB_REPORT",
+        "critical": true,
+        "source": "Independent laboratory",
+        "sha256": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+        "batch_specific": true,
+        "batch_id": "BATCH-RT-2026-07",
+        "issued_at": "2026-07-18T15:00:00Z",
+        "received_at": "2026-07-19T09:00:00Z",
+        "review_status": "VERIFIED",
+        "reviewer_id": "reviewer-evidence-03",
+        "reviewed_at": "2026-07-20T09:00:00Z",
+        "supersedes_evidence_id": "PPS-EVD-2025-0900"
+      },
+      {
+        "evidence_id": "PPS-EVD-2026-1002",
+        "document_type": "SUPPLIER_PROCESS_RECORD",
+        "critical": true,
+        "source": "Supplier controlled quality system",
+        "sha256": "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc",
+        "batch_specific": false,
+        "batch_id": null,
+        "issued_at": "2026-07-19T08:00:00Z",
+        "received_at": "2026-07-19T09:00:00Z",
+        "review_status": "VERIFIED",
+        "reviewer_id": "reviewer-evidence-03",
+        "reviewed_at": "2026-07-20T09:30:00Z",
+        "supersedes_evidence_id": null
+      }
+    ],
+    "mandatory_item_count": 2,
+    "verified_mandatory_count": 2,
+    "all_critical_evidence_verified": true
+  },
+  "review": {
+    "primary_reviewer_id": "reviewer-quality-04",
+    "primary_reviewer_conflict_free": true,
+    "reviewed_at": "2026-07-22T15:00:00Z",
+    "decision": "REINSTATEMENT_APPROVED",
+    "decision_reasons": [
+      "All corrective actions completed and independently verified.",
+      "Critical evidence verified and source alert resolved."
+    ],
+    "conditions": [
+      "Quarterly evidence review for 12 months."
+    ],
+    "residual_risk": "LOW",
+    "effective_until": "2027-01-22T23:59:59Z",
+    "second_approver_id": "approver-quality-05",
+    "second_approval_at": "2026-07-22T16:00:00Z",
+    "second_approval_decision": "APPROVED"
+  },
+  "reinstatement": {
+    "automatic_positive_action": false,
+    "passport": {
+      "decision": "APPROVED",
+      "target_state": "PUBLISHED",
+      "transaction_id": "PPS-TXN-2026-0101",
+      "executed_by": "passport-admin-01",
+      "executed_at": "2026-07-22T16:30:00Z",
+      "before_state_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "after_state_sha256": "dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd"
+    },
+    "marketplace": {
+      "decision": "APPROVED",
+      "target_state": "ELIGIBLE",
+      "transaction_id": "MPS-TXN-2026-0201",
+      "executed_by": "marketplace-admin-02",
+      "executed_at": "2026-07-22T17:00:00Z",
+      "listing_acknowledged": true
+    }
+  },
+  "alert_closure": [
+    {
+      "alert_id": "PPS-ALT-2026-0001",
+      "decision": "CLOSED_RESOLVED",
+      "reason": "Expired review replaced by verified evidence and approved re-review.",
+      "evidence_ids": [
+        "PPS-EVD-2026-1001",
+        "PPS-EVD-2026-1002"
+      ],
+      "closed_by": "reviewer-quality-04",
+      "closed_at": "2026-07-22T16:15:00Z",
+      "residual_risk": "LOW",
+      "recurrence_monitoring": true,
+      "related_open_alerts": []
+    }
+  ],
+  "supplier_performance": {
+    "score": 90,
+    "tier": "A",
+    "component_deductions": {
+      "severity": 10,
+      "repeat_failure": 0,
+      "overdue_actions": 0,
+      "critical_evidence": 0,
+      "sla": 0,
+      "legal_hold": 0,
+      "data_integrity_hold": 0,
+      "response_timeliness": 0
+    },
+    "repeat_failure_count": 0,
+    "response_timeliness_percent": 100,
+    "escalation_level": "NONE",
+    "improvement_plan_required": false,
+    "next_review_at": "2026-10-22T09:00:00Z"
+  },
+  "assessment": {
+    "calculated_at": "2026-07-22T16:05:00Z",
+    "calculated_by": "Project Genesis 0035H",
+    "readiness": true,
+    "recommended_case_status": "REINSTATEMENT_READY",
+    "blockers": [],
+    "recommended_escalation": "NONE",
+    "calculated_supplier_score": 90,
+    "calculated_supplier_tier": "A",
+    "automatic_reinstatement_prohibited": true
+  },
+  "audit": {
+    "created_at": "2026-07-18T09:00:00Z",
+    "created_by": "PPS Monitoring Queue",
+    "updated_at": "2026-07-22T17:00:00Z",
+    "updated_by": "marketplace-admin-02",
+    "immutable_history": true,
+    "source_records_hashed": true,
+    "approval_separation_enforced": true,
+    "change_history": [
+      {
+        "at": "2026-07-22T16:05:00Z",
+        "by": "Project Genesis 0035H",
+        "event": "REINSTATEMENT_READINESS_CONFIRMED"
+      },
+      {
+        "at": "2026-07-22T16:30:00Z",
+        "by": "passport-admin-01",
+        "event": "PASSPORT_REINSTATED"
+      },
+      {
+        "at": "2026-07-22T17:00:00Z",
+        "by": "marketplace-admin-02",
+        "event": "MARKETPLACE_REINSTATED"
+      }
+    ],
+    "validation_status": "PASS"
+  }
+}

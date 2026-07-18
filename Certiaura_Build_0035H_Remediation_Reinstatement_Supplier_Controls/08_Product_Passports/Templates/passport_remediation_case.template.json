@@ -1,0 +1,114 @@
+{
+  "schema_version": "1.0.0",
+  "case": {
+    "case_id": "PPS-REM-ALLOCATE",
+    "passport_id": "PPS-PAS-ALLOCATE",
+    "passport_version": "0.0.0",
+    "supplier_id": "PPS-SUP-ALLOCATE",
+    "source_alert_ids": [
+      "PPS-ALT-ALLOCATE"
+    ],
+    "source_monitoring_run_id": "PPS-MON-ALLOCATE",
+    "source_record_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+    "opened_at": "2026-07-18T00:00:00Z",
+    "severity": "HIGH",
+    "priority": "P1",
+    "status": "OPEN",
+    "owner": "ALLOCATE",
+    "target_due_at": "2026-07-19T00:00:00Z",
+    "root_cause_codes": [
+      "REVIEW_OR_EXPIRY_FAILURE"
+    ],
+    "root_cause_note": "",
+    "related_case_ids": [],
+    "repeat_failure_count": 0,
+    "legal_hold": false,
+    "data_integrity_hold": false,
+    "protective_passport_state": "SUSPENDED",
+    "protective_marketplace_state": "SUSPENDED"
+  },
+  "corrective_action_plan": {
+    "plan_id": "PPS-CAP-ALLOCATE",
+    "status": "DRAFT",
+    "submitted_at": null,
+    "approved_by": null,
+    "approved_at": null,
+    "actions": []
+  },
+  "evidence_refresh": {
+    "refresh_id": "PPS-REF-ALLOCATE",
+    "submission_id": "PPS-SUB-ALLOCATE",
+    "status": "NOT_STARTED",
+    "submitted_at": null,
+    "evidence_items": [],
+    "mandatory_item_count": 0,
+    "verified_mandatory_count": 0,
+    "all_critical_evidence_verified": false
+  },
+  "review": {
+    "primary_reviewer_id": null,
+    "primary_reviewer_conflict_free": null,
+    "reviewed_at": null,
+    "decision": "NOT_STARTED",
+    "decision_reasons": [],
+    "conditions": [],
+    "residual_risk": "NOT_ASSESSED",
+    "effective_until": null,
+    "second_approver_id": null,
+    "second_approval_at": null,
+    "second_approval_decision": "NOT_STARTED"
+  },
+  "reinstatement": {
+    "automatic_positive_action": false,
+    "passport": {
+      "decision": "NOT_REQUESTED",
+      "target_state": "SUSPENDED",
+      "transaction_id": null,
+      "executed_by": null,
+      "executed_at": null,
+      "before_state_sha256": null,
+      "after_state_sha256": null
+    },
+    "marketplace": {
+      "decision": "NOT_REQUESTED",
+      "target_state": "SUSPENDED",
+      "transaction_id": null,
+      "executed_by": null,
+      "executed_at": null,
+      "listing_acknowledged": false
+    }
+  },
+  "alert_closure": [],
+  "supplier_performance": {
+    "score": 0,
+    "tier": "E",
+    "component_deductions": {},
+    "repeat_failure_count": 0,
+    "response_timeliness_percent": 0,
+    "escalation_level": "WATCH",
+    "improvement_plan_required": false,
+    "next_review_at": null
+  },
+  "assessment": {
+    "calculated_at": null,
+    "calculated_by": "Project Genesis",
+    "readiness": false,
+    "recommended_case_status": "OPEN",
+    "blockers": [],
+    "recommended_escalation": "WATCH",
+    "calculated_supplier_score": 0,
+    "calculated_supplier_tier": "E",
+    "automatic_reinstatement_prohibited": true
+  },
+  "audit": {
+    "created_at": "2026-07-18T00:00:00Z",
+    "created_by": "ALLOCATE",
+    "updated_at": "2026-07-18T00:00:00Z",
+    "updated_by": "ALLOCATE",
+    "immutable_history": true,
+    "source_records_hashed": true,
+    "approval_separation_enforced": true,
+    "change_history": [],
+    "validation_status": "NOT_RUN"
+  }
+}

@@ -1,0 +1,5 @@
+repeat_count_365d,minimum_escalation,score_deduction,required_action
+0,NONE,0,Routine monitoring
+1,WATCH,8,Root-cause comparison
+2,FORMAL_IMPROVEMENT,16,Formal improvement plan
+3+,RESTRICTED,24,Senior review and submission restrictions

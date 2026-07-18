@@ -1,0 +1,177 @@
+{
+  "schema_version": "1.0.0",
+  "case": {
+    "case_id": "PPS-REM-2026-0001",
+    "passport_id": "PPS-PAS-RETATRUTIDE-0001",
+    "passport_version": "1.2.0",
+    "supplier_id": "PPS-SUP-ALPHA-001",
+    "source_alert_ids": [
+      "PPS-ALT-2026-0001"
+    ],
+    "source_monitoring_run_id": "PPS-MON-2026-0718",
+    "source_record_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "opened_at": "2026-07-18T09:00:00Z",
+    "severity": "HIGH",
+    "priority": "P1",
+    "status": "OPEN",
+    "owner": "PPS Quality Review",
+    "target_due_at": "2026-07-19T17:00:00Z",
+    "root_cause_codes": [
+      "REVIEW_OR_EXPIRY_FAILURE"
+    ],
+    "root_cause_note": "Controlling evidence review expired before refresh was completed.",
+    "related_case_ids": [],
+    "repeat_failure_count": 0,
+    "legal_hold": false,
+    "data_integrity_hold": false,
+    "protective_passport_state": "SUSPENDED",
+    "protective_marketplace_state": "SUSPENDED"
+  },
+  "corrective_action_plan": {
+    "plan_id": "PPS-CAP-2026-0001",
+    "status": "APPROVED",
+    "submitted_at": "2026-07-18T10:00:00Z",
+    "approved_by": "reviewer-quality-02",
+    "approved_at": "2026-07-18T11:00:00Z",
+    "actions": [
+      {
+        "action_id": "PPS-ACT-2026-0001",
+        "action_type": "EVIDENCE_REPLACEMENT",
+        "critical": true,
+        "owner": "supplier-quality-01",
+        "due_at": "2026-07-19T12:00:00Z",
+        "status": "IN_PROGRESS",
+        "completion_evidence_ids": [],
+        "effectiveness_result": "PENDING",
+        "effectiveness_reviewer_id": null,
+        "effectiveness_reviewed_at": null
+      },
+      {
+        "action_id": "PPS-ACT-2026-0002",
+        "action_type": "PROCESS_CORRECTION",
+        "critical": false,
+        "owner": "supplier-quality-01",
+        "due_at": "2026-07-22T12:00:00Z",
+        "status": "NOT_STARTED",
+        "completion_evidence_ids": [],
+        "effectiveness_result": "PENDING",
+        "effectiveness_reviewer_id": null,
+        "effectiveness_reviewed_at": null
+      }
+    ]
+  },
+  "evidence_refresh": {
+    "refresh_id": "PPS-REF-2026-0001",
+    "submission_id": "PPS-SUB-2026-0088",
+    "status": "IN_PROGRESS",
+    "submitted_at": "2026-07-18T12:00:00Z",
+    "evidence_items": [],
+    "mandatory_item_count": 2,
+    "verified_mandatory_count": 0,
+    "all_critical_evidence_verified": false
+  },
+  "review": {
+    "primary_reviewer_id": null,
+    "primary_reviewer_conflict_free": null,
+    "reviewed_at": null,
+    "decision": "NOT_STARTED",
+    "decision_reasons": [],
+    "conditions": [],
+    "residual_risk": "NOT_ASSESSED",
+    "effective_until": null,
+    "second_approver_id": null,
+    "second_approval_at": null,
+    "second_approval_decision": "NOT_STARTED"
+  },
+  "reinstatement": {
+    "automatic_positive_action": false,
+    "passport": {
+      "decision": "NOT_REQUESTED",
+      "target_state": "SUSPENDED",
+      "transaction_id": null,
+      "executed_by": null,
+      "executed_at": null,
+      "before_state_sha256": null,
+      "after_state_sha256": null
+    },
+    "marketplace": {
+      "decision": "NOT_REQUESTED",
+      "target_state": "SUSPENDED",
+      "transaction_id": null,
+      "executed_by": null,
+      "executed_at": null,
+      "listing_acknowledged": false
+    }
+  },
+  "alert_closure": [
+    {
+      "alert_id": "PPS-ALT-2026-0001",
+      "decision": "REMAINS_OPEN",
+      "reason": "Remediation in progress",
+      "evidence_ids": [],
+      "closed_by": null,
+      "closed_at": null,
+      "residual_risk": "HIGH",
+      "recurrence_monitoring": true,
+      "related_open_alerts": []
+    }
+  ],
+  "supplier_performance": {
+    "score": 55,
+    "tier": "D",
+    "component_deductions": {
+      "severity": 10,
+      "repeat_failure": 0,
+      "overdue_actions": 0,
+      "critical_evidence": 25,
+      "sla": 0,
+      "legal_hold": 0,
+      "data_integrity_hold": 0,
+      "response_timeliness": 10
+    },
+    "repeat_failure_count": 0,
+    "response_timeliness_percent": 60,
+    "escalation_level": "FORMAL_IMPROVEMENT",
+    "improvement_plan_required": true,
+    "next_review_at": "2026-08-18T09:00:00Z"
+  },
+  "assessment": {
+    "calculated_at": "2026-07-18T12:05:00Z",
+    "calculated_by": "Project Genesis 0035H",
+    "readiness": false,
+    "recommended_case_status": "REMEDIATION_IN_PROGRESS",
+    "blockers": [
+      "CRITICAL_ACTION_EFFECTIVENESS_NOT_PASSED",
+      "CRITICAL_ACTION_EVIDENCE_MISSING",
+      "CRITICAL_ACTION_INCOMPLETE",
+      "CRITICAL_EVIDENCE_NOT_VERIFIED",
+      "MANDATORY_EVIDENCE_COUNT_MISMATCH",
+      "PRIMARY_REVIEWER_CONFLICT",
+      "PRIMARY_REVIEW_NOT_APPROVED",
+      "RESIDUAL_RISK_NOT_ACCEPTABLE",
+      "SECOND_APPROVAL_MISSING",
+      "SOURCE_ALERT_OPEN"
+    ],
+    "recommended_escalation": "FORMAL_IMPROVEMENT",
+    "calculated_supplier_score": 55,
+    "calculated_supplier_tier": "D",
+    "automatic_reinstatement_prohibited": true
+  },
+  "audit": {
+    "created_at": "2026-07-18T09:00:00Z",
+    "created_by": "PPS Monitoring Queue",
+    "updated_at": "2026-07-18T12:05:00Z",
+    "updated_by": "Project Genesis 0035H",
+    "immutable_history": true,
+    "source_records_hashed": true,
+    "approval_separation_enforced": true,
+    "change_history": [
+      {
+        "at": "2026-07-18T12:05:00Z",
+        "by": "Project Genesis 0035H",
+        "event": "READINESS_ASSESSED"
+      }
+    ],
+    "validation_status": "PASS"
+  }
+}

@@ -1,0 +1,6 @@
+change_id,build_id,system,change_type,description,status
+CHG-0035H-001,CERT-BUILD-0035H,PPS,ADD,Add integrated remediation case and corrective-action standard,PROPOSED
+CHG-0035H-002,CERT-BUILD-0035H,EKS,ADD,Add refreshed-evidence tracking and verification linkage,PROPOSED
+CHG-0035H-003,CERT-BUILD-0035H,PPS,ADD,Add four-eyes passport reinstatement transaction controls,PROPOSED
+CHG-0035H-004,CERT-BUILD-0035H,MPS,ADD,Add separate marketplace reinstatement transaction register,PROPOSED
+CHG-0035H-005,CERT-BUILD-0035H,SYS,ADD,Add readiness assessment supplier scoring dashboard and tests,PROPOSED

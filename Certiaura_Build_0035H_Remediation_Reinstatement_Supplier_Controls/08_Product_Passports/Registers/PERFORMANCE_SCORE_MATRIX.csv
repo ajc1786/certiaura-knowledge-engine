@@ -1,0 +1,10 @@
+component,condition,deduction,cap
+case_severity,CRITICAL open case,20,20
+case_severity,HIGH open case,10,10
+repeat_failure,Each repeat failure,8,24
+overdue_actions,One or more overdue critical actions,15,15
+critical_evidence,Mandatory critical evidence not verified,25,25
+sla,Remediation service level missed,10,10
+legal_hold,Active legal hold,40,40
+data_integrity_hold,Active data-integrity hold,40,40
+response_timeliness,Below 80 percent,10,10

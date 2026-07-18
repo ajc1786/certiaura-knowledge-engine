@@ -1,0 +1,1 @@
+case_id,passport_id,supplier_id,severity,priority,status,owner,opened_at,target_due_at,repeat_failure_count,legal_hold,data_integrity_hold,last_reviewed_at,next_action

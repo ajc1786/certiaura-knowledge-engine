@@ -1,0 +1,41 @@
+{
+  "refresh_id": "PPS-REF-2026-0002",
+  "submission_id": "PPS-SUB-2026-0090",
+  "status": "VERIFIED",
+  "submitted_at": "2026-07-19T09:00:00Z",
+  "evidence_items": [
+    {
+      "evidence_id": "PPS-EVD-2026-1001",
+      "document_type": "INDEPENDENT_LAB_REPORT",
+      "critical": true,
+      "source": "Independent laboratory",
+      "sha256": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+      "batch_specific": true,
+      "batch_id": "BATCH-RT-2026-07",
+      "issued_at": "2026-07-18T15:00:00Z",
+      "received_at": "2026-07-19T09:00:00Z",
+      "review_status": "VERIFIED",
+      "reviewer_id": "reviewer-evidence-03",
+      "reviewed_at": "2026-07-20T09:00:00Z",
+      "supersedes_evidence_id": "PPS-EVD-2025-0900"
+    },
+    {
+      "evidence_id": "PPS-EVD-2026-1002",
+      "document_type": "SUPPLIER_PROCESS_RECORD",
+      "critical": true,
+      "source": "Supplier controlled quality system",
+      "sha256": "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc",
+      "batch_specific": false,
+      "batch_id": null,
+      "issued_at": "2026-07-19T08:00:00Z",
+      "received_at": "2026-07-19T09:00:00Z",
+      "review_status": "VERIFIED",
+      "reviewer_id": "reviewer-evidence-03",
+      "reviewed_at": "2026-07-20T09:30:00Z",
+      "supersedes_evidence_id": null
+    }
+  ],
+  "mandatory_item_count": 2,
+  "verified_mandatory_count": 2,
+  "all_critical_evidence_verified": true
+}
