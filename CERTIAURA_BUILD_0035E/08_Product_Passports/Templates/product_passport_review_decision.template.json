@@ -1,0 +1,82 @@
+{
+  "schema_version": "1.0.0",
+  "review_decision_id": "PPS-REV-REPLACE-ME",
+  "submission_id": "PPS-SUB-REPLACE-ME",
+  "source_submission_schema_version": "1.0.0",
+  "source_submission_sha256": "REPLACE_WITH_64_HEX_CHARACTERS",
+  "source_submission_status": "EVIDENCE_REVIEW",
+  "target_submission_status": "CLARIFICATION_REQUIRED",
+  "review_started_at": "YYYY-MM-DDTHH:MM:SSZ",
+  "review_completed_at": "YYYY-MM-DDTHH:MM:SSZ",
+  "review_team": {
+    "lead_reviewer": {
+      "name": "",
+      "role": "",
+      "conflict_declared": true,
+      "conflict_present": false,
+      "independence_statement": ""
+    }
+  },
+  "intake_assessment": {
+    "submission_validator_passed": false,
+    "declarations_complete": false,
+    "product_batch_identifiable": false,
+    "evidence_hashes_present": false,
+    "claim_evidence_links_valid": false,
+    "duplicate_check_status": "NOT_COMPLETED",
+    "intake_outcome": "CLARIFICATION_REQUIRED",
+    "notes": ""
+  },
+  "evidence_reviews": [],
+  "claim_reviews": [
+    {
+      "claim_id": "CLM-REPLACE-ME",
+      "category": "PRODUCT_IDENTITY",
+      "decision": "UNVERIFIED",
+      "evidence_ids": [],
+      "evidence_class_awarded": "E0",
+      "batch_specific": true,
+      "batch_link_confirmed": false,
+      "reviewer": "",
+      "review_date": "YYYY-MM-DD",
+      "scope_statement": "",
+      "limitations": "",
+      "public_display_approved": false
+    }
+  ],
+  "risk_assessment": {
+    "integrity_risk": "MEDIUM",
+    "supplier_identity_risk": "MEDIUM",
+    "manufacturer_identity_risk": "MEDIUM",
+    "product_identity_risk": "MEDIUM",
+    "batch_traceability_risk": "MEDIUM",
+    "evidence_independence_risk": "MEDIUM",
+    "expiry_risk": "MEDIUM",
+    "regulatory_misrepresentation_risk": "MEDIUM",
+    "conflict_of_interest_risk": "LOW",
+    "overall_risk": "MEDIUM",
+    "critical_flags": [],
+    "mitigations": []
+  },
+  "decision": {
+    "decision_status": "CLARIFICATION_REQUIRED",
+    "decision_reason": "Replace with reason",
+    "conditions": [],
+    "required_actions": [
+      "Replace with required action"
+    ],
+    "public_passport_eligibility": "NOT_ELIGIBLE",
+    "marketplace_eligibility": "NOT_ASSESSED",
+    "decided_by": "",
+    "decided_at": "YYYY-MM-DDTHH:MM:SSZ",
+    "next_review_date": "YYYY-MM-DD"
+  },
+  "audit": {
+    "created_at": "YYYY-MM-DDTHH:MM:SSZ",
+    "created_by": "",
+    "immutable_record": true,
+    "change_requires_superseding_decision": true,
+    "notes": ""
+  },
+  "relationships": []
+}

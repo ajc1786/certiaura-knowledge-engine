@@ -1,0 +1,113 @@
+{
+  "schema_version": "1.0.0",
+  "review_decision_id": "PPS-REV-EXAMPLE-CONDITIONAL-001",
+  "submission_id": "PPS-SUB-EXAMPLE-CONDITIONAL-001",
+  "source_submission_schema_version": "1.0.0",
+  "source_submission_sha256": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+  "source_submission_status": "EVIDENCE_REVIEW",
+  "target_submission_status": "CONDITIONALLY_ACCEPTED",
+  "review_started_at": "2026-07-18T09:00:00Z",
+  "review_completed_at": "2026-07-18T11:00:00Z",
+  "review_team": {
+    "lead_reviewer": {
+      "name": "Example Lead Reviewer",
+      "role": "Evidence Reviewer",
+      "conflict_declared": true,
+      "conflict_present": false,
+      "independence_statement": "No conflict declared."
+    }
+  },
+  "intake_assessment": {
+    "submission_validator_passed": true,
+    "declarations_complete": true,
+    "product_batch_identifiable": true,
+    "evidence_hashes_present": true,
+    "claim_evidence_links_valid": true,
+    "duplicate_check_status": "NO_DUPLICATE",
+    "intake_outcome": "PROCEED",
+    "notes": "Intake passed; evidence independence incomplete."
+  },
+  "evidence_reviews": [
+    {
+      "evidence_id": "EVD-SPEC-001",
+      "evidence_type": "SPECIFICATION",
+      "integrity_status": "PASS",
+      "provenance_status": "THIRD_PARTY_TRACEABLE",
+      "issuer_check_status": "PENDING",
+      "applicability_confirmed": true,
+      "batch_link_confirmed": true,
+      "scope_check_status": "ADEQUATE_WITH_LIMITATIONS",
+      "expiry_status": "CURRENT",
+      "outcome": "ACCEPTED_WITH_LIMITATIONS",
+      "reviewer": "Example Lead Reviewer",
+      "reviewed_at": "2026-07-18T10:00:00Z",
+      "notes": "Direct issuer confirmation pending."
+    }
+  ],
+  "claim_reviews": [
+    {
+      "claim_id": "CLM-STRENGTH-001",
+      "category": "STRENGTH",
+      "decision": "PARTIALLY_VERIFIED",
+      "evidence_ids": [
+        "EVD-SPEC-001"
+      ],
+      "evidence_class_awarded": "E3",
+      "batch_specific": true,
+      "batch_link_confirmed": true,
+      "reviewer": "Example Lead Reviewer",
+      "review_date": "2026-07-18",
+      "next_review_date": "2026-08-18",
+      "scope_statement": "Traceable report supports the stated batch, pending direct issuer confirmation.",
+      "limitations": "Not approved for unrestricted public display.",
+      "public_display_approved": false
+    }
+  ],
+  "risk_assessment": {
+    "integrity_risk": "LOW",
+    "supplier_identity_risk": "LOW",
+    "manufacturer_identity_risk": "MEDIUM",
+    "product_identity_risk": "MEDIUM",
+    "batch_traceability_risk": "LOW",
+    "evidence_independence_risk": "MEDIUM",
+    "expiry_risk": "LOW",
+    "regulatory_misrepresentation_risk": "LOW",
+    "conflict_of_interest_risk": "LOW",
+    "overall_risk": "MEDIUM",
+    "critical_flags": [],
+    "mitigations": [
+      "Obtain direct issuer confirmation before VERIFIED status."
+    ]
+  },
+  "decision": {
+    "decision_status": "CONDITIONALLY_ACCEPTED",
+    "decision_reason": "Submission is traceable but direct issuer confirmation remains outstanding.",
+    "conditions": [
+      "No unrestricted public display of the strength claim."
+    ],
+    "required_actions": [
+      "Obtain direct issuer confirmation for EVD-SPEC-001."
+    ],
+    "public_passport_eligibility": "RESTRICTED",
+    "marketplace_eligibility": "NOT_ELIGIBLE",
+    "marketplace_decision_basis": "Conditional evidence status is insufficient for marketplace eligibility.",
+    "decided_by": "Example Lead Reviewer",
+    "decided_at": "2026-07-18T11:00:00Z",
+    "next_review_date": "2026-08-18"
+  },
+  "audit": {
+    "created_at": "2026-07-18T11:00:00Z",
+    "created_by": "Project Genesis Example",
+    "immutable_record": true,
+    "change_requires_superseding_decision": true,
+    "notes": "Example only."
+  },
+  "relationships": [
+    {
+      "type": "RELATED_TO",
+      "target": "PPS-SUB-EXAMPLE-CONDITIONAL-001",
+      "strength": "DIRECT",
+      "source": "CERT-BUILD-0035E"
+    }
+  ]
+}

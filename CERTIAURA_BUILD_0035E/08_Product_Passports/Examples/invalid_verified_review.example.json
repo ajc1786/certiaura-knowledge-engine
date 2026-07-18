@@ -1,0 +1,151 @@
+{
+  "schema_version": "1.0.0",
+  "review_decision_id": "BAD-ID",
+  "submission_id": "PPS-SUB-EXAMPLE-VALID-001",
+  "source_submission_schema_version": "1.0.0",
+  "source_submission_sha256": "not-a-hash",
+  "source_submission_status": "EVIDENCE_REVIEW",
+  "target_submission_status": "VERIFIED",
+  "review_started_at": "2026-07-18T09:00:00Z",
+  "review_completed_at": "2026-07-18T12:00:00Z",
+  "review_team": {
+    "lead_reviewer": {
+      "name": "Example Lead Reviewer",
+      "role": "Evidence Reviewer",
+      "conflict_declared": true,
+      "conflict_present": false,
+      "independence_statement": "No financial or supplier relationship declared."
+    },
+    "final_approver": {
+      "name": "Example Lead Reviewer",
+      "role": "Product Passport Approver",
+      "conflict_declared": true,
+      "conflict_present": true,
+      "independence_statement": "Independent of the submission and primary review."
+    }
+  },
+  "intake_assessment": {
+    "submission_validator_passed": true,
+    "declarations_complete": true,
+    "product_batch_identifiable": true,
+    "evidence_hashes_present": false,
+    "claim_evidence_links_valid": true,
+    "duplicate_check_status": "NO_DUPLICATE",
+    "intake_outcome": "PROCEED",
+    "notes": "All intake controls passed."
+  },
+  "evidence_reviews": [
+    {
+      "evidence_id": "EVD-IDENTITY-001",
+      "evidence_type": "LAB_REPORT",
+      "integrity_status": "FAIL",
+      "provenance_status": "DIRECT_ISSUER_CONFIRMED",
+      "issuer_check_status": "CONFIRMED",
+      "applicability_confirmed": true,
+      "batch_link_confirmed": true,
+      "scope_check_status": "ADEQUATE",
+      "expiry_status": "CURRENT",
+      "outcome": "REJECTED",
+      "reviewer": "Example Lead Reviewer",
+      "reviewed_at": "2026-07-18T10:00:00Z",
+      "notes": "Issuer and batch confirmed."
+    },
+    {
+      "evidence_id": "EVD-PURITY-001",
+      "evidence_type": "LAB_REPORT",
+      "integrity_status": "PASS",
+      "provenance_status": "INDEPENDENT_VERIFICATION_COMPLETE",
+      "issuer_check_status": "CONFIRMED",
+      "applicability_confirmed": true,
+      "batch_link_confirmed": true,
+      "scope_check_status": "ADEQUATE_WITH_LIMITATIONS",
+      "expiry_status": "CURRENT",
+      "outcome": "ACCEPTED_WITH_LIMITATIONS",
+      "reviewer": "Example Lead Reviewer",
+      "reviewed_at": "2026-07-18T10:30:00Z",
+      "notes": "Supports analytical purity only; does not establish sterility or safety."
+    }
+  ],
+  "claim_reviews": [
+    {
+      "claim_id": "CLM-PRODUCT-IDENTITY-001",
+      "category": "PRODUCT_IDENTITY",
+      "decision": "VERIFIED",
+      "evidence_ids": [
+        "EVD-IDENTITY-001"
+      ],
+      "evidence_class_awarded": "E2",
+      "batch_specific": true,
+      "batch_link_confirmed": false,
+      "reviewer": "Example Lead Reviewer",
+      "review_date": "2026-07-18",
+      "next_review_date": "2027-01-18",
+      "scope_statement": "Identity supported for the stated product and batch only.",
+      "limitations": "No inference beyond tested identity.",
+      "public_display_approved": true
+    },
+    {
+      "claim_id": "CLM-PURITY-001",
+      "category": "PURITY",
+      "decision": "PARTIALLY_VERIFIED",
+      "evidence_ids": [
+        "EVD-PURITY-001"
+      ],
+      "evidence_class_awarded": "E4",
+      "batch_specific": true,
+      "batch_link_confirmed": true,
+      "reviewer": "Example Lead Reviewer",
+      "review_date": "2026-07-18",
+      "next_review_date": "2027-01-18",
+      "scope_statement": "Method-specific analytical purity result for the stated batch.",
+      "limitations": "Does not establish sterility, endotoxin status, clinical safety or regulatory approval.",
+      "public_display_approved": true
+    }
+  ],
+  "risk_assessment": {
+    "integrity_risk": "LOW",
+    "supplier_identity_risk": "LOW",
+    "manufacturer_identity_risk": "MEDIUM",
+    "product_identity_risk": "LOW",
+    "batch_traceability_risk": "LOW",
+    "evidence_independence_risk": "LOW",
+    "expiry_risk": "LOW",
+    "regulatory_misrepresentation_risk": "LOW",
+    "conflict_of_interest_risk": "LOW",
+    "overall_risk": "HIGH",
+    "critical_flags": [
+      "Suspected evidence alteration"
+    ],
+    "mitigations": [
+      "Manufacturer identity limitation displayed and monitored."
+    ]
+  },
+  "decision": {
+    "decision_status": "VERIFIED",
+    "decision_reason": "All mandatory verification gates passed for the approved claims and stated batch.",
+    "conditions": [],
+    "required_actions": [],
+    "public_passport_eligibility": "ELIGIBLE",
+    "marketplace_eligibility": "ELIGIBLE",
+    "marketplace_decision_basis": "Evidence verification does not determine legal or commercial listing eligibility.",
+    "decided_by": "Example Final Approver",
+    "decided_at": "2026-07-18T12:00:00Z",
+    "effective_until": "2027-01-18",
+    "next_review_date": "2027-01-18"
+  },
+  "audit": {
+    "created_at": "2026-07-18T12:00:00Z",
+    "created_by": "Project Genesis Example",
+    "immutable_record": false,
+    "change_requires_superseding_decision": true,
+    "notes": "Example only; no real supplier or evidence represented."
+  },
+  "relationships": [
+    {
+      "type": "RELATED_TO",
+      "target": "PPS-SUB-EXAMPLE-VALID-001",
+      "strength": "DIRECT",
+      "source": "CERT-BUILD-0035E"
+    }
+  ]
+}

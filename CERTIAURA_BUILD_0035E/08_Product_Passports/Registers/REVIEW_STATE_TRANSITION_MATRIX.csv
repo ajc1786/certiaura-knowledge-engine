@@ -1,0 +1,28 @@
+source_status,target_status,permitted,minimum_gate,public_display,marketplace
+SUBMITTED,EVIDENCE_REVIEW,Yes,Intake passed,Blocked,Not assessed
+SUBMITTED,CLARIFICATION_REQUIRED,Yes,Resolvable intake gap,Blocked,Not eligible
+SUBMITTED,QUARANTINED,Yes,Material integrity or identity concern,Blocked,Not eligible
+SUBMITTED,REJECTED,Yes,Non-remediable failure,Blocked,Not eligible
+INTAKE_CHECK,EVIDENCE_REVIEW,Yes,Intake passed,Blocked,Not assessed
+INTAKE_CHECK,CLARIFICATION_REQUIRED,Yes,Resolvable intake gap,Blocked,Not eligible
+INTAKE_CHECK,QUARANTINED,Yes,Material concern,Blocked,Not eligible
+INTAKE_CHECK,REJECTED,Yes,Non-remediable failure,Blocked,Not eligible
+EVIDENCE_REVIEW,CLARIFICATION_REQUIRED,Yes,Resolvable evidence gap,Blocked or restricted,Not eligible
+EVIDENCE_REVIEW,QUARANTINED,Yes,Integrity identity or batch concern,Blocked,Not eligible
+EVIDENCE_REVIEW,REJECTED,Yes,Failed evidence or false claim,Blocked,Not eligible
+EVIDENCE_REVIEW,CONDITIONALLY_ACCEPTED,Yes,Non-critical gaps with explicit conditions,Restricted,Restricted or not eligible
+EVIDENCE_REVIEW,VERIFIED,Yes,All mandatory verification gates passed,Claim-specific approved display,Separately assessed
+CLARIFICATION_REQUIRED,EVIDENCE_REVIEW,Yes,Requested material received,Blocked,Not assessed
+CLARIFICATION_REQUIRED,QUARANTINED,Yes,New material concern,Blocked,Not eligible
+CLARIFICATION_REQUIRED,REJECTED,Yes,Failure not remedied,Blocked,Not eligible
+CLARIFICATION_REQUIRED,CONDITIONALLY_ACCEPTED,Yes,Non-critical gaps remain,Restricted,Restricted or not eligible
+CLARIFICATION_REQUIRED,VERIFIED,Yes,All mandatory gates passed after clarification,Claim-specific approved display,Separately assessed
+CONDITIONALLY_ACCEPTED,EVIDENCE_REVIEW,Yes,Re-review opened,Restricted,Restricted or not eligible
+CONDITIONALLY_ACCEPTED,VERIFIED,Yes,Conditions discharged and gates passed,Claim-specific approved display,Separately assessed
+CONDITIONALLY_ACCEPTED,EXPIRED,Yes,Review or condition date elapsed,Blocked,Not eligible
+CONDITIONALLY_ACCEPTED,REJECTED,Yes,Condition failed or adverse evidence,Blocked,Not eligible
+VERIFIED,EXPIRED,Yes,Validity or review date elapsed,Blocked,Not eligible
+VERIFIED,QUARANTINED,Yes,Post-approval integrity concern,Blocked,Not eligible
+VERIFIED,SUPERSEDED,Yes,Successor decision effective,Use successor,Use successor
+EXPIRED,EVIDENCE_REVIEW,Yes,Re-review opened,Blocked,Not assessed
+EXPIRED,SUPERSEDED,Yes,Successor decision effective,Use successor,Use successor

@@ -1,0 +1,6 @@
+change_id,build_id,date,system,change_type,asset_or_area,summary,status,uai_action
+CHG-0035E-001,CERT-BUILD-0035E,2026-07-18,PPS,ADD,Review workflow,Add supplier evidence review verification and Product Passport approval workflow,PROPOSED,UAI_ALLOCATION_REQUIRED
+CHG-0035E-002,CERT-BUILD-0035E,2026-07-18,PPS,ADD,Review decision schema,Add machine-readable review decision object,PROPOSED,UAI_ALLOCATION_REQUIRED
+CHG-0035E-003,CERT-BUILD-0035E,2026-07-18,SYS,ADD,Project Genesis validator,Add review-decision validator and tests,PROPOSED,UAI_ALLOCATION_REQUIRED
+CHG-0035E-004,CERT-BUILD-0035E,2026-07-18,MPS,EXTEND,Marketplace eligibility control,Separate Product Passport verification from marketplace eligibility,PROPOSED,UAI_ALLOCATION_REQUIRED
+CHG-0035E-005,CERT-BUILD-0035E,2026-07-18,EKS,EXTEND,Claim verification control,Record claim-level evidence class provenance scope and limitations,PROPOSED,UAI_ALLOCATION_REQUIRED

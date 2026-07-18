@@ -1,0 +1,62 @@
+{
+  "build_id": "CERT-BUILD-0035E",
+  "title": "Add Certiaura Build 0035E supplier evidence review, verification and Product Passport approval workflow",
+  "version": "1.0.0",
+  "authorisation": "AWAITING_FOUNDER_GREEN",
+  "build_date": "2026-07-18",
+  "status": "repository_ready",
+  "canonical_status": "pending_green_import_validation_commit_push",
+  "depends_on": [
+    "CERT-BUILD-0035D"
+  ],
+  "extends": [
+    "Product Passport System",
+    "Evidence Knowledge System",
+    "Marketplace System",
+    "Project Genesis validation capability"
+  ],
+  "does_not_replace": [
+    "CERT-BUILD-0035D",
+    "Master Project Charter",
+    "Master Asset Register",
+    "Decision Log",
+    "Product Passport System",
+    "Evidence Knowledge System"
+  ],
+  "uai_allocation": "UAI_ALLOCATION_REQUIRED_ON_IMPORT",
+  "files": [
+    "00_Build_Control/BUILD_MANIFEST.json",
+    "00_Build_Control/CHANGE_LOG_PROPOSED.csv",
+    "00_Build_Control/DECISION_RECORD_0035E.md",
+    "00_Build_Control/FILE_INVENTORY.csv",
+    "08_Product_Passports/Examples/invalid_verified_review.example.json",
+    "08_Product_Passports/Examples/valid_conditional_review.example.json",
+    "08_Product_Passports/Examples/valid_verified_review.example.json",
+    "08_Product_Passports/Registers/CLAIM_REVIEW_REGISTER.csv",
+    "08_Product_Passports/Registers/REVIEW_DECISION_REGISTER.csv",
+    "08_Product_Passports/Registers/REVIEW_STATE_TRANSITION_MATRIX.csv",
+    "08_Product_Passports/Registers/RISK_AND_ESCALATION_MATRIX.csv",
+    "08_Product_Passports/Schemas/product_passport_review_decision.schema.json",
+    "08_Product_Passports/Standards/CERTIAURA_SUPPLIER_EVIDENCE_REVIEW_VERIFICATION_AND_PRODUCT_PASSPORT_APPROVAL_WORKFLOW.md",
+    "08_Product_Passports/Templates/PRODUCT_PASSPORT_REVIEWER_CHECKLIST.md",
+    "08_Product_Passports/Templates/product_passport_review_decision.template.json",
+    "13_Project_Genesis/Tests/test_product_passport_review_decision_validator.py",
+    "13_Project_Genesis/Validators/validate_product_passport_review_decision.py",
+    "BUILD_0035E_READ_ME_FIRST.md",
+    "Documentation/BUILD_0035E_IMPLEMENTATION_NOTES.md"
+  ],
+  "acceptance_tests": [
+    "All JSON files parse successfully",
+    "Valid verified example passes validator",
+    "Valid conditional example passes validator",
+    "Invalid verified example fails validator",
+    "Unit test suite passes",
+    "VERIFIED requires four-eyes approval",
+    "Public display requires a VERIFIED claim",
+    "VERIFIED claims require E4 or E5 evidence",
+    "Batch-specific VERIFIED claims require batch linkage",
+    "High or critical risk blocks VERIFIED status",
+    "Marketplace eligibility remains a separate decision",
+    "Review records are immutable and corrections require supersession"
+  ]
+}

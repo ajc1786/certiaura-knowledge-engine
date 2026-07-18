@@ -1,0 +1,597 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://certiaura.local/schemas/product_passport_review_decision.schema.json",
+  "title": "Certiaura Product Passport Review Decision",
+  "description": "Controlled review and approval object for a supplier submission created under Build 0035D. Structural validity is not evidence authentication.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "review_decision_id",
+    "submission_id",
+    "source_submission_schema_version",
+    "source_submission_sha256",
+    "source_submission_status",
+    "target_submission_status",
+    "review_started_at",
+    "review_completed_at",
+    "review_team",
+    "intake_assessment",
+    "evidence_reviews",
+    "claim_reviews",
+    "risk_assessment",
+    "decision",
+    "audit"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.0.0"
+    },
+    "review_decision_id": {
+      "type": "string",
+      "pattern": "^PPS-REV-[A-Z0-9-]{6,64}$"
+    },
+    "submission_id": {
+      "type": "string",
+      "pattern": "^PPS-SUB-[A-Z0-9-]{6,64}$"
+    },
+    "source_submission_schema_version": {
+      "const": "1.0.0"
+    },
+    "source_submission_sha256": {
+      "type": "string",
+      "pattern": "^[a-fA-F0-9]{64}$"
+    },
+    "source_submission_status": {
+      "enum": [
+        "SUBMITTED",
+        "INTAKE_CHECK",
+        "EVIDENCE_REVIEW",
+        "CLARIFICATION_REQUIRED",
+        "QUARANTINED",
+        "REJECTED",
+        "CONDITIONALLY_ACCEPTED",
+        "VERIFIED",
+        "EXPIRED",
+        "SUPERSEDED"
+      ]
+    },
+    "target_submission_status": {
+      "enum": [
+        "EVIDENCE_REVIEW",
+        "CLARIFICATION_REQUIRED",
+        "QUARANTINED",
+        "REJECTED",
+        "CONDITIONALLY_ACCEPTED",
+        "VERIFIED",
+        "EXPIRED",
+        "SUPERSEDED"
+      ]
+    },
+    "review_started_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "review_completed_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "review_team": {
+      "$ref": "#/$defs/review_team"
+    },
+    "intake_assessment": {
+      "$ref": "#/$defs/intake"
+    },
+    "evidence_reviews": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/evidence_review"
+      }
+    },
+    "claim_reviews": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/claim_review"
+      }
+    },
+    "risk_assessment": {
+      "$ref": "#/$defs/risk"
+    },
+    "decision": {
+      "$ref": "#/$defs/decision"
+    },
+    "audit": {
+      "$ref": "#/$defs/audit"
+    },
+    "relationships": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/relationship"
+      }
+    }
+  },
+  "$defs": {
+    "person": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "name",
+        "role",
+        "conflict_declared",
+        "conflict_present"
+      ],
+      "properties": {
+        "name": {
+          "type": "string",
+          "minLength": 2
+        },
+        "role": {
+          "type": "string",
+          "minLength": 2
+        },
+        "conflict_declared": {
+          "const": true
+        },
+        "conflict_present": {
+          "type": "boolean"
+        },
+        "independence_statement": {
+          "type": "string"
+        }
+      }
+    },
+    "review_team": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "lead_reviewer"
+      ],
+      "properties": {
+        "lead_reviewer": {
+          "$ref": "#/$defs/person"
+        },
+        "final_approver": {
+          "$ref": "#/$defs/person"
+        }
+      }
+    },
+    "intake": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "submission_validator_passed",
+        "declarations_complete",
+        "product_batch_identifiable",
+        "evidence_hashes_present",
+        "claim_evidence_links_valid",
+        "duplicate_check_status",
+        "intake_outcome"
+      ],
+      "properties": {
+        "submission_validator_passed": {
+          "type": "boolean"
+        },
+        "declarations_complete": {
+          "type": "boolean"
+        },
+        "product_batch_identifiable": {
+          "type": "boolean"
+        },
+        "evidence_hashes_present": {
+          "type": "boolean"
+        },
+        "claim_evidence_links_valid": {
+          "type": "boolean"
+        },
+        "duplicate_check_status": {
+          "enum": [
+            "NO_DUPLICATE",
+            "POTENTIAL_DUPLICATE",
+            "SUPERSEDING_SUBMISSION",
+            "NOT_COMPLETED"
+          ]
+        },
+        "intake_outcome": {
+          "enum": [
+            "PROCEED",
+            "CLARIFICATION_REQUIRED",
+            "QUARANTINED",
+            "REJECTED"
+          ]
+        },
+        "notes": {
+          "type": "string"
+        }
+      }
+    },
+    "evidence_review": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "evidence_id",
+        "evidence_type",
+        "integrity_status",
+        "provenance_status",
+        "issuer_check_status",
+        "applicability_confirmed",
+        "scope_check_status",
+        "expiry_status",
+        "outcome",
+        "reviewer",
+        "reviewed_at"
+      ],
+      "properties": {
+        "evidence_id": {
+          "type": "string",
+          "pattern": "^EVD-[A-Z0-9-]{3,64}$"
+        },
+        "evidence_type": {
+          "type": "string",
+          "minLength": 2
+        },
+        "integrity_status": {
+          "enum": [
+            "PASS",
+            "CONCERN",
+            "FAIL",
+            "NOT_ASSESSED"
+          ]
+        },
+        "provenance_status": {
+          "enum": [
+            "SUPPLIER_CONTROLLED",
+            "THIRD_PARTY_UNVERIFIED",
+            "THIRD_PARTY_TRACEABLE",
+            "DIRECT_ISSUER_CONFIRMED",
+            "INDEPENDENT_VERIFICATION_COMPLETE",
+            "AUTHORITATIVE_PRIMARY"
+          ]
+        },
+        "issuer_check_status": {
+          "enum": [
+            "NOT_REQUIRED",
+            "PENDING",
+            "CONFIRMED",
+            "UNCONFIRMED",
+            "CONTRADICTED"
+          ]
+        },
+        "applicability_confirmed": {
+          "type": "boolean"
+        },
+        "batch_link_confirmed": {
+          "type": "boolean"
+        },
+        "scope_check_status": {
+          "enum": [
+            "ADEQUATE",
+            "ADEQUATE_WITH_LIMITATIONS",
+            "INADEQUATE",
+            "NOT_ASSESSED"
+          ]
+        },
+        "expiry_status": {
+          "enum": [
+            "CURRENT",
+            "EXPIRING",
+            "EXPIRED",
+            "NOT_APPLICABLE",
+            "UNKNOWN"
+          ]
+        },
+        "outcome": {
+          "enum": [
+            "ACCEPTED",
+            "ACCEPTED_WITH_LIMITATIONS",
+            "CLARIFICATION_REQUIRED",
+            "QUARANTINED",
+            "REJECTED"
+          ]
+        },
+        "reviewer": {
+          "type": "string",
+          "minLength": 2
+        },
+        "reviewed_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "notes": {
+          "type": "string"
+        }
+      }
+    },
+    "claim_review": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "claim_id",
+        "category",
+        "decision",
+        "evidence_ids",
+        "evidence_class_awarded",
+        "batch_specific",
+        "batch_link_confirmed",
+        "reviewer",
+        "review_date",
+        "public_display_approved"
+      ],
+      "properties": {
+        "claim_id": {
+          "type": "string",
+          "pattern": "^CLM-[A-Z0-9-]{3,64}$"
+        },
+        "category": {
+          "type": "string",
+          "minLength": 2
+        },
+        "decision": {
+          "enum": [
+            "UNVERIFIED",
+            "PARTIALLY_VERIFIED",
+            "VERIFIED",
+            "DISPUTED",
+            "REJECTED",
+            "EXPIRED"
+          ]
+        },
+        "evidence_ids": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "pattern": "^EVD-[A-Z0-9-]{3,64}$"
+          }
+        },
+        "evidence_class_awarded": {
+          "enum": [
+            "E0",
+            "E1",
+            "E2",
+            "E3",
+            "E4",
+            "E5"
+          ]
+        },
+        "batch_specific": {
+          "type": "boolean"
+        },
+        "batch_link_confirmed": {
+          "type": "boolean"
+        },
+        "reviewer": {
+          "type": "string",
+          "minLength": 2
+        },
+        "review_date": {
+          "type": "string",
+          "format": "date"
+        },
+        "next_review_date": {
+          "type": "string",
+          "format": "date"
+        },
+        "scope_statement": {
+          "type": "string"
+        },
+        "limitations": {
+          "type": "string"
+        },
+        "public_display_approved": {
+          "type": "boolean"
+        }
+      }
+    },
+    "risk_level": {
+      "enum": [
+        "LOW",
+        "MEDIUM",
+        "HIGH",
+        "CRITICAL"
+      ]
+    },
+    "risk": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "integrity_risk",
+        "supplier_identity_risk",
+        "manufacturer_identity_risk",
+        "product_identity_risk",
+        "batch_traceability_risk",
+        "evidence_independence_risk",
+        "expiry_risk",
+        "regulatory_misrepresentation_risk",
+        "conflict_of_interest_risk",
+        "overall_risk",
+        "critical_flags"
+      ],
+      "properties": {
+        "integrity_risk": {
+          "$ref": "#/$defs/risk_level"
+        },
+        "supplier_identity_risk": {
+          "$ref": "#/$defs/risk_level"
+        },
+        "manufacturer_identity_risk": {
+          "$ref": "#/$defs/risk_level"
+        },
+        "product_identity_risk": {
+          "$ref": "#/$defs/risk_level"
+        },
+        "batch_traceability_risk": {
+          "$ref": "#/$defs/risk_level"
+        },
+        "evidence_independence_risk": {
+          "$ref": "#/$defs/risk_level"
+        },
+        "expiry_risk": {
+          "$ref": "#/$defs/risk_level"
+        },
+        "regulatory_misrepresentation_risk": {
+          "$ref": "#/$defs/risk_level"
+        },
+        "conflict_of_interest_risk": {
+          "$ref": "#/$defs/risk_level"
+        },
+        "overall_risk": {
+          "$ref": "#/$defs/risk_level"
+        },
+        "critical_flags": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "mitigations": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "decision": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "decision_status",
+        "decision_reason",
+        "conditions",
+        "required_actions",
+        "public_passport_eligibility",
+        "marketplace_eligibility",
+        "decided_by",
+        "decided_at"
+      ],
+      "properties": {
+        "decision_status": {
+          "enum": [
+            "EVIDENCE_REVIEW",
+            "CLARIFICATION_REQUIRED",
+            "QUARANTINED",
+            "REJECTED",
+            "CONDITIONALLY_ACCEPTED",
+            "VERIFIED",
+            "EXPIRED",
+            "SUPERSEDED"
+          ]
+        },
+        "decision_reason": {
+          "type": "string",
+          "minLength": 5
+        },
+        "conditions": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "required_actions": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "public_passport_eligibility": {
+          "enum": [
+            "NOT_ELIGIBLE",
+            "RESTRICTED",
+            "ELIGIBLE"
+          ]
+        },
+        "marketplace_eligibility": {
+          "enum": [
+            "NOT_ASSESSED",
+            "NOT_ELIGIBLE",
+            "RESTRICTED",
+            "ELIGIBLE"
+          ]
+        },
+        "marketplace_decision_basis": {
+          "type": "string"
+        },
+        "decided_by": {
+          "type": "string",
+          "minLength": 2
+        },
+        "decided_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "effective_until": {
+          "type": "string",
+          "format": "date"
+        },
+        "next_review_date": {
+          "type": "string",
+          "format": "date"
+        },
+        "successor_review_decision_id": {
+          "type": "string",
+          "pattern": "^PPS-REV-[A-Z0-9-]{6,64}$"
+        }
+      }
+    },
+    "audit": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "created_at",
+        "created_by",
+        "immutable_record",
+        "change_requires_superseding_decision"
+      ],
+      "properties": {
+        "created_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "created_by": {
+          "type": "string",
+          "minLength": 2
+        },
+        "immutable_record": {
+          "const": true
+        },
+        "change_requires_superseding_decision": {
+          "const": true
+        },
+        "notes": {
+          "type": "string"
+        }
+      }
+    },
+    "relationship": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "type",
+        "target"
+      ],
+      "properties": {
+        "type": {
+          "type": "string",
+          "minLength": 2
+        },
+        "target": {
+          "type": "string",
+          "minLength": 2
+        },
+        "strength": {
+          "type": "string"
+        },
+        "evidence": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "source": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

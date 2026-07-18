@@ -1,0 +1,10 @@
+risk_domain,low,medium,high,critical,mandatory_response
+INTEGRITY,No concern and hash controlled,Minor declared issue not affecting meaning,Unresolved alteration or provenance concern,Evidence tampering or material falsification suspected,High requires clarification or quarantine; critical requires quarantine
+SUPPLIER_IDENTITY,Official identity confirmed,Traceable but incomplete confirmation,Material identity gap or inconsistent entity,False or non-existent identity suspected,High blocks verification; critical quarantine or reject
+MANUFACTURER_IDENTITY,Confirmed where applicable,Declared and traceable,Material site or manufacturer uncertainty,Fabricated or contradicted manufacturer identity,High blocks verification
+PRODUCT_IDENTITY,Identity adequately supported,Minor scope limitation,Identity evidence incomplete or conflicting,Product identity cannot be established,High blocks verified identity claim; critical quarantine
+BATCH_TRACEABILITY,Batch links complete,Minor non-critical metadata gap,Missing link for material batch claim,Batch mismatch or substituted report,High blocks batch-specific verification; critical quarantine
+EVIDENCE_INDEPENDENCE,E4 or E5 adequate for claim,E3 with limitations,Supplier-controlled evidence used for material verification,Independence materially misrepresented,High blocks verification; critical quarantine
+EXPIRY,Current with adequate review window,Near expiry or short review interval,Expired material evidence relied upon,Known invalid or withdrawn evidence,High blocks verification
+REGULATORY_MISREPRESENTATION,No misleading implication,Correctable ambiguous wording,Material approval or legality implication,Deliberate false regulatory claim,High blocks public display; critical reject or quarantine
+CONFLICT_OF_INTEREST,None declared,Manageable reviewer relationship,Reviewer independence materially impaired,Undisclosed or disqualifying approver conflict,High requires reassignment; critical invalidates approval
