@@ -1,0 +1,5 @@
+tier,score_range,critical_flag_override,max_review_days,default_position
+LOW,85-100,NO,365,Qualification may be considered
+MODERATE,70-84,NO,180,Qualification or conditions may be considered
+HIGH,50-69,NO,90,Conditional approval or restriction normally required
+CRITICAL,0-49,YES,30,No positive decision; suspend or reject

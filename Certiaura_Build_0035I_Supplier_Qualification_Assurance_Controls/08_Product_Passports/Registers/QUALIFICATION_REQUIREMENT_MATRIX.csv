@@ -1,0 +1,9 @@
+requirement,mandatory_baseline,positive_decision_gate,notes
+LEGAL_REGISTRATION,YES,YES,Current traceable legal identity evidence
+OWNERSHIP_DECLARATION,YES,YES,Ownership and beneficial ownership declared
+QUALITY_SYSTEM,YES,YES,Scope-appropriate quality-system evidence
+LAB_RELATIONSHIP,YES,YES,Testing and laboratory relationships disclosed
+SUPPLY_CHAIN_TRACEABILITY,YES,YES,Traceability route evidenced
+COMPLAINT_RECALL_PROCESS,YES,YES,Complaint withdrawal and recall process evidenced
+INDEPENDENT_SECOND_APPROVAL,YES,YES,Primary reviewer and second approver must differ
+CURRENT_AUDIT_STATUS,RISK_BASED,YES_WHEN_REQUIRED,No blocking critical or major findings

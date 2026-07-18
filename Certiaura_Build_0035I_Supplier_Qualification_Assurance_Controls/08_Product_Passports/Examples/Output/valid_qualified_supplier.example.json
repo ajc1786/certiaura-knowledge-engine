@@ -1,0 +1,248 @@
+{
+  "record_id": "EXAMPLE-CERT-PPS-SUP-000001",
+  "version": "1.0.0",
+  "supplier": {
+    "supplier_id": "SUP-000001",
+    "legal_name": "Example Research Supply Ltd",
+    "trading_names": [
+      "Example Research"
+    ],
+    "registration_country": "GB",
+    "company_number": "12345678",
+    "roles": [
+      "MANUFACTURER",
+      "DISTRIBUTOR"
+    ],
+    "ownership_declared": true,
+    "beneficial_owners_declared": true,
+    "subcontractors_declared": true,
+    "primary_contact": {
+      "name": "Quality Contact",
+      "email": "quality@example.invalid"
+    }
+  },
+  "scope": {
+    "product_categories": [
+      "RESEARCH_PEPTIDES"
+    ],
+    "activities": [
+      "MANUFACTURE",
+      "DISTRIBUTE"
+    ],
+    "regions": [
+      "GB"
+    ],
+    "sites": [
+      {
+        "site_id": "SITE-001",
+        "name": "Primary Site",
+        "country": "GB",
+        "activities": [
+          "MANUFACTURE",
+          "STORAGE"
+        ]
+      }
+    ]
+  },
+  "due_diligence": {
+    "status": "COMPLETE",
+    "completed_at": "2026-07-01T11:00:00+00:00",
+    "evidence_items": [
+      {
+        "evidence_id": "EVD-001",
+        "type": "LEGAL_REGISTRATION",
+        "issuer": "Independent or declared source",
+        "issued_at": "2026-06-01T09:00:00+00:00",
+        "expires_at": "2027-06-30T00:00:00+00:00",
+        "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "status": "CURRENT",
+        "supplier_provided": false,
+        "verified_by": "REV-001",
+        "verified_at": "2026-07-01T10:00:00+00:00",
+        "scope": [
+          "ALL_APPROVED_SCOPE"
+        ]
+      },
+      {
+        "evidence_id": "EVD-002",
+        "type": "OWNERSHIP_DECLARATION",
+        "issuer": "Independent or declared source",
+        "issued_at": "2026-06-01T09:00:00+00:00",
+        "expires_at": "2027-06-30T00:00:00+00:00",
+        "sha256": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+        "status": "CURRENT",
+        "supplier_provided": true,
+        "verified_by": "REV-001",
+        "verified_at": "2026-07-01T10:00:00+00:00",
+        "scope": [
+          "ALL_APPROVED_SCOPE"
+        ]
+      },
+      {
+        "evidence_id": "EVD-003",
+        "type": "QUALITY_SYSTEM",
+        "issuer": "Independent or declared source",
+        "issued_at": "2026-06-01T09:00:00+00:00",
+        "expires_at": "2027-06-30T00:00:00+00:00",
+        "sha256": "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc",
+        "status": "CURRENT",
+        "supplier_provided": true,
+        "verified_by": "REV-001",
+        "verified_at": "2026-07-01T10:00:00+00:00",
+        "scope": [
+          "ALL_APPROVED_SCOPE"
+        ]
+      },
+      {
+        "evidence_id": "EVD-004",
+        "type": "LAB_RELATIONSHIP",
+        "issuer": "Independent or declared source",
+        "issued_at": "2026-06-01T09:00:00+00:00",
+        "expires_at": "2027-06-30T00:00:00+00:00",
+        "sha256": "dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd",
+        "status": "CURRENT",
+        "supplier_provided": true,
+        "verified_by": "REV-001",
+        "verified_at": "2026-07-01T10:00:00+00:00",
+        "scope": [
+          "ALL_APPROVED_SCOPE"
+        ]
+      },
+      {
+        "evidence_id": "EVD-005",
+        "type": "SUPPLY_CHAIN_TRACEABILITY",
+        "issuer": "Independent or declared source",
+        "issued_at": "2026-06-01T09:00:00+00:00",
+        "expires_at": "2027-06-30T00:00:00+00:00",
+        "sha256": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+        "status": "CURRENT",
+        "supplier_provided": true,
+        "verified_by": "REV-001",
+        "verified_at": "2026-07-01T10:00:00+00:00",
+        "scope": [
+          "ALL_APPROVED_SCOPE"
+        ]
+      },
+      {
+        "evidence_id": "EVD-006",
+        "type": "COMPLAINT_RECALL_PROCESS",
+        "issuer": "Independent or declared source",
+        "issued_at": "2026-06-01T09:00:00+00:00",
+        "expires_at": "2027-06-30T00:00:00+00:00",
+        "sha256": "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+        "status": "CURRENT",
+        "supplier_provided": true,
+        "verified_by": "REV-001",
+        "verified_at": "2026-07-01T10:00:00+00:00",
+        "scope": [
+          "ALL_APPROVED_SCOPE"
+        ]
+      }
+    ],
+    "declarations": {
+      "conflicts_disclosed": true,
+      "regulatory_actions_disclosed": true,
+      "data_integrity_commitment": true,
+      "subcontractors_disclosed": true
+    }
+  },
+  "risk_assessment": {
+    "as_of": "2026-07-02T09:00:00+00:00",
+    "component_deductions": {
+      "identity": 0,
+      "quality_system": 2,
+      "data_integrity": 0,
+      "laboratory_assurance": 2,
+      "traceability": 1,
+      "incident_handling": 1,
+      "responsiveness": 1,
+      "resilience": 1
+    },
+    "critical_flags": [],
+    "score": 92,
+    "tier": "LOW",
+    "human_confirmed_by": "REV-001",
+    "confirmed_at": "2026-07-02T10:00:00+00:00",
+    "rationale": "Low residual organisational risk within approved scope."
+  },
+  "qualification": {
+    "status": "QUALIFIED",
+    "decision": "APPROVED",
+    "scope_approved": [
+      "RESEARCH_PEPTIDES",
+      "SITE-001"
+    ],
+    "conditions": [],
+    "primary_reviewer_id": "REV-001",
+    "second_approver_id": "APR-002",
+    "decided_at": "2026-07-03T10:00:00+00:00",
+    "effective_from": "2026-07-03T10:00:00+00:00",
+    "effective_until": "2027-06-30T00:00:00+00:00",
+    "automatic_positive_action": false
+  },
+  "audit": {
+    "required": true,
+    "cadence_days": 365,
+    "last_audit_at": "2026-06-25T10:00:00+00:00",
+    "next_audit_due": "2027-06-20T00:00:00+00:00",
+    "audit_status": "CLOSED_ACCEPTABLE",
+    "open_findings": 0,
+    "critical_findings": 0,
+    "major_findings": 0,
+    "findings": []
+  },
+  "continuous_assurance": {
+    "monitoring_status": "ACTIVE",
+    "next_review_due": "2027-06-30T00:00:00+00:00",
+    "last_monitoring_run": "2026-07-19T12:00:00+00:00",
+    "document_expiry_watch": true,
+    "incident_watch": true,
+    "ownership_change_watch": true,
+    "laboratory_change_watch": true,
+    "triggers": []
+  },
+  "restrictions": {
+    "passport_submission_allowed": true,
+    "marketplace_supplier_eligible": true,
+    "new_products_blocked": false,
+    "active_restrictions": []
+  },
+  "integration": {
+    "supplier_register_status": "QUALIFIED",
+    "product_passport_records": [
+      "CERT-PPS-000101"
+    ],
+    "marketplace_supplier_record": "CERT-MPS-000101",
+    "downstream_review_required": false
+  },
+  "assessment": {
+    "calculated_at": "2026-07-19T12:00:00+00:00",
+    "calculated_score": 92,
+    "calculated_tier": "LOW",
+    "recommended_qualification_status": "QUALIFIED",
+    "recommended_cadence_days": 365,
+    "recommended_next_review_due": "2027-06-30T00:00:00+00:00",
+    "recommended_passport_submission_allowed": true,
+    "recommended_marketplace_supplier_eligible": true,
+    "recommended_new_products_blocked": false,
+    "recommended_restrictions": [],
+    "blockers": [],
+    "automatic_approval_prohibited": true
+  },
+  "audit_trail": {
+    "created_at": "2026-06-01T09:00:00+00:00",
+    "updated_at": "2026-07-19T12:00:00+00:00",
+    "created_by": "OPS-001",
+    "updated_by": "SYS-0035I",
+    "immutable_history": true,
+    "source_records_hashed": true,
+    "approval_separation_enforced": true,
+    "change_history": [
+      {
+        "at": "2026-07-03T10:00:00+00:00",
+        "event": "QUALIFIED",
+        "by": "APR-002"
+      }
+    ]
+  }
+}

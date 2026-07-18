@@ -1,0 +1,216 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://certiaura.local/schemas/supplier_assurance_profile.schema.json",
+  "title": "Certiaura Supplier Assurance Profile",
+  "type": "object",
+  "required": [
+    "record_id",
+    "version",
+    "supplier",
+    "scope",
+    "due_diligence",
+    "risk_assessment",
+    "qualification",
+    "audit",
+    "continuous_assurance",
+    "restrictions",
+    "integration",
+    "assessment",
+    "audit_trail"
+  ],
+  "properties": {
+    "record_id": {
+      "type": "string",
+      "minLength": 8
+    },
+    "version": {
+      "type": "string",
+      "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$"
+    },
+    "supplier": {
+      "type": "object",
+      "required": [
+        "supplier_id",
+        "legal_name",
+        "registration_country",
+        "company_number",
+        "roles",
+        "ownership_declared",
+        "beneficial_owners_declared",
+        "subcontractors_declared"
+      ],
+      "properties": {
+        "supplier_id": {
+          "type": "string"
+        },
+        "legal_name": {
+          "type": "string",
+          "minLength": 2
+        },
+        "trading_names": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "registration_country": {
+          "type": "string",
+          "pattern": "^[A-Z]{2}$"
+        },
+        "company_number": {
+          "type": "string",
+          "minLength": 2
+        },
+        "roles": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "enum": [
+              "MANUFACTURER",
+              "DISTRIBUTOR",
+              "LABORATORY",
+              "FULFILMENT",
+              "OTHER"
+            ]
+          }
+        },
+        "ownership_declared": {
+          "type": "boolean"
+        },
+        "beneficial_owners_declared": {
+          "type": "boolean"
+        },
+        "subcontractors_declared": {
+          "type": "boolean"
+        },
+        "primary_contact": {
+          "type": "object"
+        }
+      }
+    },
+    "scope": {
+      "type": "object",
+      "required": [
+        "product_categories",
+        "activities",
+        "regions",
+        "sites"
+      ],
+      "properties": {
+        "product_categories": {
+          "type": "array",
+          "minItems": 1
+        },
+        "activities": {
+          "type": "array",
+          "minItems": 1
+        },
+        "regions": {
+          "type": "array",
+          "minItems": 1
+        },
+        "sites": {
+          "type": "array",
+          "minItems": 1
+        }
+      }
+    },
+    "due_diligence": {
+      "type": "object",
+      "required": [
+        "status",
+        "completed_at",
+        "evidence_items",
+        "declarations"
+      ]
+    },
+    "risk_assessment": {
+      "type": "object",
+      "required": [
+        "as_of",
+        "component_deductions",
+        "critical_flags",
+        "score",
+        "tier",
+        "human_confirmed_by",
+        "confirmed_at",
+        "rationale"
+      ]
+    },
+    "qualification": {
+      "type": "object",
+      "required": [
+        "status",
+        "decision",
+        "scope_approved",
+        "conditions",
+        "primary_reviewer_id",
+        "second_approver_id",
+        "decided_at",
+        "effective_from",
+        "effective_until",
+        "automatic_positive_action"
+      ]
+    },
+    "audit": {
+      "type": "object",
+      "required": [
+        "required",
+        "cadence_days",
+        "audit_status",
+        "open_findings",
+        "critical_findings",
+        "major_findings",
+        "findings",
+        "next_audit_due"
+      ]
+    },
+    "continuous_assurance": {
+      "type": "object",
+      "required": [
+        "monitoring_status",
+        "next_review_due",
+        "last_monitoring_run",
+        "document_expiry_watch",
+        "incident_watch",
+        "ownership_change_watch",
+        "laboratory_change_watch",
+        "triggers"
+      ]
+    },
+    "restrictions": {
+      "type": "object",
+      "required": [
+        "passport_submission_allowed",
+        "marketplace_supplier_eligible",
+        "new_products_blocked",
+        "active_restrictions"
+      ]
+    },
+    "integration": {
+      "type": "object",
+      "required": [
+        "supplier_register_status",
+        "product_passport_records",
+        "marketplace_supplier_record",
+        "downstream_review_required"
+      ]
+    },
+    "assessment": {
+      "type": "object"
+    },
+    "audit_trail": {
+      "type": "object",
+      "required": [
+        "created_at",
+        "updated_at",
+        "created_by",
+        "updated_by",
+        "immutable_history",
+        "source_records_hashed",
+        "approval_separation_enforced",
+        "change_history"
+      ]
+    }
+  }
+}

@@ -1,0 +1,5 @@
+tier,maximum_days,minimum_audit_control
+LOW,365,Annual assurance review; audit by scope and trigger
+MODERATE,180,Six-month assurance review and targeted audit
+HIGH,90,Quarterly review and mandatory targeted audit
+CRITICAL,30,Protective restriction; urgent audit or investigation

@@ -1,0 +1,9 @@
+{
+  "trigger_id": "TRG-NEW-001",
+  "supplier_id": "SUP-000001",
+  "type": "LABORATORY_CHANGE",
+  "severity": "HIGH",
+  "detected_at": "2026-07-19T11:00:00+00:00",
+  "source": "SUPPLIER_NOTIFICATION",
+  "automatic_positive_action": false
+}

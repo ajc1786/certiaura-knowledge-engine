@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-07-19T12:00:00+00:00",
+  "alert_count": 3,
+  "alerts": [
+    {
+      "supplier_id": "SUP-000001",
+      "alert_type": "OPEN_ASSURANCE_TRIGGER",
+      "severity": "CRITICAL",
+      "due_at": "2026-07-19T12:00:00+00:00",
+      "recommended_action": "MAINTAIN_PROTECTIVE_RESTRICTIONS",
+      "source": "trigger:T",
+      "automatic_positive_action": false
+    },
+    {
+      "supplier_id": "SUP-000003",
+      "alert_type": "QUALIFICATION_EXPIRED",
+      "severity": "CRITICAL",
+      "due_at": "2026-07-19T12:00:00+00:00",
+      "recommended_action": "EXPIRE_STATUS_AND_BLOCK_POSITIVE_ACTIVITY",
+      "source": "qualification.effective_until",
+      "automatic_positive_action": false
+    },
+    {
+      "supplier_id": "SUP-000003",
+      "alert_type": "OPEN_ASSURANCE_TRIGGER",
+      "severity": "CRITICAL",
+      "due_at": "2026-07-20T10:00:00+00:00",
+      "recommended_action": "MAINTAIN_PROTECTIVE_RESTRICTIONS",
+      "source": "trigger:TRG-001",
+      "automatic_positive_action": false
+    }
+  ]
+}

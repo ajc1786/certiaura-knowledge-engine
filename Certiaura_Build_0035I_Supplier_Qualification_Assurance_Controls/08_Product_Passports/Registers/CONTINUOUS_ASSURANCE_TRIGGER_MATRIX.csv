@@ -1,0 +1,10 @@
+trigger,default_severity,automatic_protective_action,human_decision_required
+DOCUMENT_EXPIRED,HIGH,Block affected scope,YES
+OWNERSHIP_CHANGE,HIGH,Enhanced review and possible restriction,YES
+LABORATORY_CHANGE,HIGH,Block affected evidence until reviewed,YES
+CRITICAL_AUDIT_FINDING,CRITICAL,Suspend positive participation,YES
+DATA_INTEGRITY_CONCERN,CRITICAL,Suspend and preserve evidence,YES
+RECALL_OR_SERIOUS_INCIDENT,CRITICAL,Suspend affected scope,YES
+REPEATED_PASSPORT_DEFICIENCY,HIGH,Enhanced review,YES
+OVERDUE_CORRECTIVE_ACTION,HIGH,Restrict new activity,YES
+SUPPLIER_NON_RESPONSE,MODERATE,Escalate then restrict,YES

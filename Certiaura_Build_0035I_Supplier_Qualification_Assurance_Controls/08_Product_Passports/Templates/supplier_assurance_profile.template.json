@@ -1,0 +1,113 @@
+{
+  "record_id": "UAI_ALLOCATION_REQUIRED",
+  "version": "1.0.0",
+  "supplier": {
+    "supplier_id": "",
+    "legal_name": "",
+    "trading_names": [],
+    "registration_country": "",
+    "company_number": "",
+    "roles": [],
+    "ownership_declared": false,
+    "beneficial_owners_declared": false,
+    "subcontractors_declared": false,
+    "primary_contact": {
+      "name": "",
+      "email": ""
+    }
+  },
+  "scope": {
+    "product_categories": [],
+    "activities": [],
+    "regions": [],
+    "sites": []
+  },
+  "due_diligence": {
+    "status": "ONBOARDING",
+    "completed_at": null,
+    "evidence_items": [],
+    "declarations": {
+      "conflicts_disclosed": false,
+      "regulatory_actions_disclosed": false,
+      "data_integrity_commitment": false,
+      "subcontractors_disclosed": false
+    }
+  },
+  "risk_assessment": {
+    "as_of": null,
+    "component_deductions": {
+      "identity": 0,
+      "quality_system": 0,
+      "data_integrity": 0,
+      "laboratory_assurance": 0,
+      "traceability": 0,
+      "incident_handling": 0,
+      "responsiveness": 0,
+      "resilience": 0
+    },
+    "critical_flags": [],
+    "score": 100,
+    "tier": "LOW",
+    "human_confirmed_by": null,
+    "confirmed_at": null,
+    "rationale": ""
+  },
+  "qualification": {
+    "status": "PROSPECT",
+    "decision": "PENDING",
+    "scope_approved": [],
+    "conditions": [],
+    "primary_reviewer_id": null,
+    "second_approver_id": null,
+    "decided_at": null,
+    "effective_from": null,
+    "effective_until": null,
+    "automatic_positive_action": false
+  },
+  "audit": {
+    "required": true,
+    "cadence_days": 365,
+    "last_audit_at": null,
+    "next_audit_due": null,
+    "audit_status": "NOT_STARTED",
+    "open_findings": 0,
+    "critical_findings": 0,
+    "major_findings": 0,
+    "findings": []
+  },
+  "continuous_assurance": {
+    "monitoring_status": "PENDING",
+    "next_review_due": null,
+    "last_monitoring_run": null,
+    "document_expiry_watch": true,
+    "incident_watch": true,
+    "ownership_change_watch": true,
+    "laboratory_change_watch": true,
+    "triggers": []
+  },
+  "restrictions": {
+    "passport_submission_allowed": false,
+    "marketplace_supplier_eligible": false,
+    "new_products_blocked": true,
+    "active_restrictions": [
+      "ONBOARDING_ONLY"
+    ]
+  },
+  "integration": {
+    "supplier_register_status": "PROSPECT",
+    "product_passport_records": [],
+    "marketplace_supplier_record": null,
+    "downstream_review_required": false
+  },
+  "assessment": {},
+  "audit_trail": {
+    "created_at": null,
+    "updated_at": null,
+    "created_by": "",
+    "updated_by": "",
+    "immutable_history": true,
+    "source_records_hashed": true,
+    "approval_separation_enforced": true,
+    "change_history": []
+  }
+}

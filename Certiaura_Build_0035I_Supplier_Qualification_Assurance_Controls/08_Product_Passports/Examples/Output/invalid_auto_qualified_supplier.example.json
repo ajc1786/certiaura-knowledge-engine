@@ -1,0 +1,156 @@
+{
+  "record_id": "X",
+  "version": "one",
+  "supplier": {
+    "supplier_id": "SUP-000001",
+    "legal_name": "",
+    "trading_names": [
+      "Example Research"
+    ],
+    "registration_country": "United Kingdom",
+    "company_number": "",
+    "roles": [],
+    "ownership_declared": false,
+    "beneficial_owners_declared": false,
+    "subcontractors_declared": false,
+    "primary_contact": {}
+  },
+  "scope": {
+    "product_categories": [],
+    "activities": [],
+    "regions": [],
+    "sites": []
+  },
+  "due_diligence": {
+    "status": "COMPLETE",
+    "completed_at": "bad-date",
+    "evidence_items": [
+      {
+        "evidence_id": "EVD-001",
+        "type": "LEGAL_REGISTRATION",
+        "issuer": "Independent or declared source",
+        "issued_at": "2026-06-01T09:00:00+00:00",
+        "expires_at": "2027-06-30T00:00:00+00:00",
+        "sha256": "bad",
+        "status": "EXPIRED",
+        "supplier_provided": false,
+        "verified_by": "REV-001",
+        "verified_at": "bad",
+        "scope": [
+          "ALL_APPROVED_SCOPE"
+        ]
+      }
+    ],
+    "declarations": {
+      "conflicts_disclosed": false,
+      "regulatory_actions_disclosed": false,
+      "data_integrity_commitment": false,
+      "subcontractors_disclosed": false
+    }
+  },
+  "risk_assessment": {
+    "as_of": "bad",
+    "component_deductions": {
+      "identity": 0,
+      "quality_system": 2,
+      "data_integrity": 0,
+      "laboratory_assurance": 2,
+      "traceability": 1,
+      "incident_handling": 1,
+      "responsiveness": 1,
+      "resilience": 1
+    },
+    "critical_flags": [
+      "DOCUMENT_FALSIFICATION"
+    ],
+    "score": 99,
+    "tier": "LOW",
+    "human_confirmed_by": "",
+    "confirmed_at": "bad",
+    "rationale": ""
+  },
+  "qualification": {
+    "status": "QUALIFIED",
+    "decision": "APPROVED",
+    "scope_approved": [],
+    "conditions": [],
+    "primary_reviewer_id": "SAME",
+    "second_approver_id": "SAME",
+    "decided_at": "bad",
+    "effective_from": "bad",
+    "effective_until": "bad",
+    "automatic_positive_action": true
+  },
+  "audit": {
+    "required": false,
+    "cadence_days": 999,
+    "last_audit_at": "2026-06-25T10:00:00+00:00",
+    "next_audit_due": "bad",
+    "audit_status": "NOT_STARTED",
+    "open_findings": 0,
+    "critical_findings": 2,
+    "major_findings": 1,
+    "findings": [
+      {
+        "finding_id": "X",
+        "severity": "CRITICAL",
+        "status": "OPEN"
+      }
+    ]
+  },
+  "continuous_assurance": {
+    "monitoring_status": "STOPPED",
+    "next_review_due": "bad",
+    "last_monitoring_run": "bad",
+    "document_expiry_watch": false,
+    "incident_watch": false,
+    "ownership_change_watch": false,
+    "laboratory_change_watch": false,
+    "triggers": [
+      {
+        "trigger_id": "T",
+        "type": "DATA_INTEGRITY_CONCERN",
+        "severity": "CRITICAL",
+        "status": "OPEN",
+        "detected_at": "bad",
+        "source": ""
+      }
+    ]
+  },
+  "restrictions": {
+    "passport_submission_allowed": true,
+    "marketplace_supplier_eligible": true,
+    "new_products_blocked": false,
+    "active_restrictions": "none"
+  },
+  "integration": {
+    "supplier_register_status": "QUALIFIED",
+    "product_passport_records": "not-array",
+    "marketplace_supplier_record": "MPS-X",
+    "downstream_review_required": false
+  },
+  "assessment": {
+    "calculated_at": "bad",
+    "calculated_score": 100,
+    "calculated_tier": "LOW",
+    "recommended_qualification_status": "QUALIFIED",
+    "recommended_cadence_days": 365,
+    "recommended_next_review_due": "bad",
+    "recommended_passport_submission_allowed": true,
+    "recommended_marketplace_supplier_eligible": true,
+    "recommended_new_products_blocked": false,
+    "recommended_restrictions": [],
+    "blockers": [],
+    "automatic_approval_prohibited": false
+  },
+  "audit_trail": {
+    "created_at": "bad",
+    "updated_at": "bad",
+    "created_by": "",
+    "updated_by": "",
+    "immutable_history": false,
+    "source_records_hashed": false,
+    "approval_separation_enforced": false,
+    "change_history": "not-array"
+  }
+}
