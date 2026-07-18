@@ -1,0 +1,18 @@
+field_group,field_or_pattern,default_visibility,publication_rule,notes
+passport,passport_id,PUBLIC,Required,Permanent passport identifier
+passport,passport_version,PUBLIC,Required,Version must be displayed
+passport,lifecycle_state,PUBLIC,Required,Current state must be unambiguous
+supplier,trading_name,PUBLIC,Allowed when approved,Legal name may be stricter
+supplier,legal_name,MEMBER,Subject to lawful basis,May be public where appropriate
+supplier,contact_details,INTERNAL,Prohibited,Never expose reviewer or supplier personal data by default
+product,product_id,PUBLIC,Required,Supplier or Certiaura product identifier
+product,batch_number,PUBLIC,Required for batch-specific passport,Do not infer across batches
+claims,approved_public_claims,PUBLIC,Verified plus public-display-approved only,Must include limitations
+evidence,evidence_class,PUBLIC,Required per public claim,E0-E5 classification
+evidence,evidence_files,INTERNAL,No direct publication by default,"Licensing, privacy and integrity controls apply"
+review,reviewer_names,INTERNAL,Prohibited,Role may be displayed only if approved
+review,review_dates,PUBLIC,Required,Last verified and next review
+review,conflict_declarations,INTERNAL,Prohibited,Audit-only
+commercial,price_history,MEMBER,Where enabled and current,Must show observation date and basis
+commercial,marketplace_state,PUBLIC,Where marketplace enabled,Separate from passport verification
+audit,internal_notes,INTERNAL,Prohibited,Never rendered publicly

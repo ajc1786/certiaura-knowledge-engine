@@ -1,0 +1,19 @@
+source_state,target_state,permitted,minimum_control
+DRAFT,READY_FOR_PUBLICATION,YES,Publication gates assessed
+READY_FOR_PUBLICATION,PUBLISHED,YES,Authorised publication decision
+READY_FOR_PUBLICATION,DRAFT,YES,Correction required
+PUBLISHED,SUSPENDED,YES,Material trigger or controlled hold
+PUBLISHED,EXPIRED,YES,Effective period ended
+PUBLISHED,WITHDRAWN,YES,Authorised withdrawal
+PUBLISHED,SUPERSEDED,YES,Successor published and linked
+SUSPENDED,PUBLISHED,YES,Formal reinstatement and all gates revalidated
+SUSPENDED,WITHDRAWN,YES,Issue not resolved or final removal
+SUSPENDED,EXPIRED,YES,Effective period ended during suspension
+SUSPENDED,SUPERSEDED,YES,Replacement published
+EXPIRED,ARCHIVED,YES,Historical retention
+WITHDRAWN,ARCHIVED,YES,Historical retention
+SUPERSEDED,ARCHIVED,YES,Historical retention
+ARCHIVED,PUBLISHED,NO,New or superseding record required
+EXPIRED,PUBLISHED,NO,New review and version required
+WITHDRAWN,PUBLISHED,NO,New or superseding record required
+SUPERSEDED,PUBLISHED,NO,Successor controls current status

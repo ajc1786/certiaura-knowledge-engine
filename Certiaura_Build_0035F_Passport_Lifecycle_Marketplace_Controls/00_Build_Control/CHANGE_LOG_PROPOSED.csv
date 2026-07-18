@@ -1,0 +1,5 @@
+change_id,build_id,system,change_type,summary,status,effective_on
+CHG-0035F-001,CERT-BUILD-0035F,PPS,ADD,Add passport publication and lifecycle control standard,PROPOSED_ON_IMPORT,
+CHG-0035F-002,CERT-BUILD-0035F,PPS,ADD,"Add lifecycle schema, templates, examples and registers",PROPOSED_ON_IMPORT,
+CHG-0035F-003,CERT-BUILD-0035F,MPS,ADD,Add separate marketplace eligibility register and controls,PROPOSED_ON_IMPORT,
+CHG-0035F-004,CERT-BUILD-0035F,SYS,ADD,Add Project Genesis lifecycle validator and unit tests,PROPOSED_ON_IMPORT,

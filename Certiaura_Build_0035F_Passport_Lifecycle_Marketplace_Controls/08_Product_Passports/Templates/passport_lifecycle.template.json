@@ -1,0 +1,55 @@
+{
+  "schema_version": "1.0.0",
+  "passport_id": "PPS-PAS-REPLACE",
+  "passport_version": "1.0.0",
+  "source_submission_id": "PPS-SUB-REPLACE",
+  "review_decision": {
+    "review_decision_id": "PPS-REV-REPLACE",
+    "decision_status": "VERIFIED",
+    "public_passport_eligibility": "ELIGIBLE",
+    "review_decision_sha256": "REPLACE_WITH_64_HEX_CHARACTERS",
+    "review_effective_until": "YYYY-MM-DD"
+  },
+  "lifecycle_state": "DRAFT",
+  "publication": {
+    "public_slug": "replace-slug",
+    "published_at": null,
+    "published_by": null,
+    "effective_from": "YYYY-MM-DD",
+    "effective_until": "YYYY-MM-DD",
+    "next_review_date": "YYYY-MM-DD",
+    "mandatory_disclaimer": "REPLACE WITH APPROVED SCOPE AND STATUS DISCLAIMER",
+    "publication_gate_passed": false,
+    "suspension_reason": null,
+    "suspended_at": null,
+    "withdrawal_reason": null,
+    "successor_passport_id": null,
+    "superseded_at": null
+  },
+  "public_claims": [],
+  "field_visibility": [],
+  "lifecycle_events": [],
+  "marketplace": {
+    "marketplace_decision_id": null,
+    "marketplace_state": "NOT_ASSESSED",
+    "decision_basis": "Not yet assessed.",
+    "legal_review_status": "NOT_STARTED",
+    "regulatory_review_status": "NOT_STARTED",
+    "supplier_authority_current": false,
+    "commercial_review_status": "NOT_STARTED",
+    "unresolved_high_or_critical_trigger": false,
+    "conditions": [],
+    "required_actions": [],
+    "decided_by": null,
+    "decided_at": null,
+    "next_review_date": null
+  },
+  "audit": {
+    "created_at": "YYYY-MM-DDThh:mm:ssZ",
+    "created_by": "REPLACE",
+    "immutable_record": true,
+    "change_requires_new_version_or_event": true,
+    "notes": ""
+  },
+  "relationships": []
+}

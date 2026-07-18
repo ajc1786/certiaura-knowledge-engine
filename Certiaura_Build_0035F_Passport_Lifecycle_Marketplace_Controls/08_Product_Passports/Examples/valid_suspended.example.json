@@ -1,0 +1,131 @@
+{
+  "schema_version": "1.0.0",
+  "passport_id": "PPS-PAS-EXAMPLE-002",
+  "passport_version": "1.0.1",
+  "source_submission_id": "PPS-SUB-EXAMPLE-VALID-001",
+  "review_decision": {
+    "review_decision_id": "PPS-REV-EXAMPLE-VERIFIED-001",
+    "decision_status": "VERIFIED",
+    "public_passport_eligibility": "ELIGIBLE",
+    "review_decision_sha256": "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc",
+    "review_effective_until": "2027-01-18"
+  },
+  "lifecycle_state": "SUSPENDED",
+  "publication": {
+    "public_slug": "example-compound-exb-2026-001-suspended",
+    "published_at": "2026-07-18T14:00:00Z",
+    "published_by": "Example Passport Publisher",
+    "effective_from": "2026-07-18",
+    "effective_until": "2027-01-18",
+    "next_review_date": "2027-01-18",
+    "mandatory_disclaimer": "Verification is limited to the stated claims, evidence, product and batch; it is not regulatory approval or advice for human use.",
+    "publication_gate_passed": true,
+    "suspension_reason": "Laboratory report integrity query under review.",
+    "suspended_at": "2026-08-01T09:00:00Z",
+    "withdrawal_reason": null,
+    "successor_passport_id": null,
+    "superseded_at": null
+  },
+  "public_claims": [
+    {
+      "claim_id": "CLM-PRODUCT-IDENTITY-001",
+      "category": "PRODUCT_IDENTITY",
+      "display_value": "Example Compound",
+      "evidence_class": "E4",
+      "source_review_decision_id": "PPS-REV-EXAMPLE-VERIFIED-001",
+      "upstream_verified": true,
+      "upstream_public_display_approved": true,
+      "scope_statement": "Identity is supported for the stated product and batch only.",
+      "limitations": "No inference is made about sterility, clinical safety, regulatory status or other batches.",
+      "last_verified_date": "2026-07-18",
+      "next_review_date": "2027-01-18",
+      "visibility": "PUBLIC"
+    },
+    {
+      "claim_id": "CLM-PURITY-001",
+      "category": "PURITY",
+      "display_value": "Method-specific analytical result available",
+      "evidence_class": "E4",
+      "source_review_decision_id": "PPS-REV-EXAMPLE-VERIFIED-001",
+      "upstream_verified": true,
+      "upstream_public_display_approved": true,
+      "scope_statement": "The result applies only to the stated analytical method and batch.",
+      "limitations": "Analytical purity does not establish sterility, endotoxin status, clinical safety or regulatory approval.",
+      "last_verified_date": "2026-07-18",
+      "next_review_date": "2027-01-18",
+      "visibility": "PUBLIC"
+    }
+  ],
+  "field_visibility": [
+    {
+      "field": "supplier.trading_name",
+      "visibility": "PUBLIC"
+    },
+    {
+      "field": "review.review_team",
+      "visibility": "INTERNAL"
+    },
+    {
+      "field": "evidence.files",
+      "visibility": "INTERNAL"
+    }
+  ],
+  "lifecycle_events": [
+    {
+      "event_id": "PPS-EVT-EXAMPLE-001",
+      "event_type": "REPORT_INTEGRITY_DISPUTE",
+      "severity": "CRITICAL",
+      "detected_at": "2026-08-01T08:45:00Z",
+      "source": "Issuer notification",
+      "description": "Issuer requested temporary reliance hold while report provenance is rechecked.",
+      "required_action": "Suspend public current-status and marketplace eligibility pending resolution.",
+      "owner": "Evidence Governance Lead",
+      "due_date": "2026-08-01",
+      "status": "IN_REVIEW",
+      "resolved_at": null,
+      "resolution": null,
+      "resulting_passport_state": "SUSPENDED",
+      "resulting_marketplace_state": "SUSPENDED"
+    }
+  ],
+  "marketplace": {
+    "marketplace_decision_id": "MPS-DEC-EXAMPLE-001",
+    "marketplace_state": "SUSPENDED",
+    "decision_basis": "Marketplace eligibility suspended because a critical lifecycle event remains unresolved.",
+    "legal_review_status": "COMPLETE",
+    "regulatory_review_status": "COMPLETE",
+    "supplier_authority_current": true,
+    "commercial_review_status": "COMPLETE",
+    "unresolved_high_or_critical_trigger": true,
+    "conditions": [
+      "No listing or promotion while the integrity review remains open."
+    ],
+    "required_actions": [
+      "Resolve issuer confirmation and issue a new lifecycle decision."
+    ],
+    "decided_by": "Example Marketplace Approver",
+    "decided_at": "2026-08-01T09:00:00Z",
+    "next_review_date": "2026-08-02"
+  },
+  "audit": {
+    "created_at": "2026-08-01T09:00:00Z",
+    "created_by": "Project Genesis Example",
+    "immutable_record": true,
+    "change_requires_new_version_or_event": true,
+    "notes": "Example only; no real product, supplier, legal route or marketplace approval is represented."
+  },
+  "relationships": [
+    {
+      "type": "RELATED_TO",
+      "target": "PPS-REV-EXAMPLE-VERIFIED-001",
+      "strength": "DIRECT",
+      "source": "CERT-BUILD-0035F"
+    },
+    {
+      "type": "HAS_PRODUCT",
+      "target": "EX-10",
+      "strength": "DIRECT",
+      "source": "CERT-BUILD-0035F"
+    }
+  ]
+}
