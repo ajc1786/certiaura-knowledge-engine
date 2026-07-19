@@ -1,0 +1,107 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Certiaura Audit Event",
+  "description": "Compatible audit event schema supporting the transition-event model introduced by Build 0035K and the general action-event model introduced by Build 0036.",
+  "oneOf": [
+    {
+      "title": "Transition audit event",
+      "type": "object",
+      "additionalProperties": true,
+      "required": [
+        "event_id",
+        "record_id",
+        "record_type",
+        "from_status",
+        "to_status",
+        "actor_id",
+        "actor_role",
+        "timestamp",
+        "rationale"
+      ],
+      "properties": {
+        "event_id": {
+          "type": "string"
+        },
+        "record_id": {
+          "type": "string"
+        },
+        "record_type": {
+          "type": "string"
+        },
+        "from_status": {
+          "type": "string"
+        },
+        "to_status": {
+          "type": "string"
+        },
+        "actor_id": {
+          "type": "string"
+        },
+        "actor_role": {
+          "type": "string"
+        },
+        "timestamp": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "rationale": {
+          "type": "string"
+        },
+        "evidence_refs": {
+          "type": "array"
+        }
+      }
+    },
+    {
+      "title": "General action audit event",
+      "type": "object",
+      "additionalProperties": true,
+      "required": [
+        "event_id",
+        "timestamp",
+        "actor",
+        "actor_type",
+        "action",
+        "record_type",
+        "record_id",
+        "reason"
+      ],
+      "properties": {
+        "event_id": {
+          "type": "string"
+        },
+        "timestamp": {
+          "type": "string"
+        },
+        "actor": {
+          "type": "string"
+        },
+        "actor_type": {
+          "enum": [
+            "HUMAN",
+            "AUTOMATION",
+            "SYSTEM"
+          ]
+        },
+        "action": {
+          "type": "string"
+        },
+        "record_type": {
+          "type": "string"
+        },
+        "record_id": {
+          "type": "string"
+        },
+        "reason": {
+          "type": "string"
+        },
+        "before_hash": {
+          "type": "string"
+        },
+        "after_hash": {
+          "type": "string"
+        }
+      }
+    }
+  ]
+}

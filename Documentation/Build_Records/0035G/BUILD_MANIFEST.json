@@ -1,0 +1,66 @@
+{
+  "build_id": "CERT-BUILD-0035G",
+  "build_number": "0035G",
+  "build_title": "Product Passport expiry trigger monitoring and alert automation",
+  "version": "1.0.0",
+  "status": "repository_ready",
+  "authorisation": "GREEN",
+  "build_date": "2026-07-18",
+  "dependencies": [
+    "CERT-BUILD-0035D",
+    "CERT-BUILD-0035E",
+    "CERT-BUILD-0035F"
+  ],
+  "systems": [
+    "PPS",
+    "EKS",
+    "MPS",
+    "SYS"
+  ],
+  "critical_rule": "Automation may restrict or escalate; it may not verify, publish, reinstate or approve.",
+  "external_python_packages": [],
+  "acceptance": {
+    "valid_no_action_example": "PASS",
+    "valid_alert_example": "PASS",
+    "invalid_positive_action_example": "EXPECTED_FAIL",
+    "unit_tests": "14/14 PASS",
+    "zip_integrity": "PASS"
+  },
+  "files": [
+    "08_Product_Passports/Examples/Input/alert_portfolio.example.json",
+    "08_Product_Passports/Examples/Input/critical_trigger_passport.example.json",
+    "08_Product_Passports/Examples/Input/current_passport.example.json",
+    "08_Product_Passports/Examples/Input/expired_passport.example.json",
+    "08_Product_Passports/Examples/Input/expiring_passport.example.json",
+    "08_Product_Passports/Examples/Output/invalid_auto_reinstatement_run.example.json",
+    "08_Product_Passports/Examples/Output/valid_alert_run.example.json",
+    "08_Product_Passports/Examples/Output/valid_no_action_run.example.json",
+    "08_Product_Passports/Registers/ALERT_QUEUE_REGISTER.csv",
+    "08_Product_Passports/Registers/ALERT_ROUTING_MATRIX.csv",
+    "08_Product_Passports/Registers/AUTOMATION_ACTION_MATRIX.csv",
+    "08_Product_Passports/Registers/EXPIRY_THRESHOLD_MATRIX.csv",
+    "08_Product_Passports/Registers/MONITORING_RUN_REGISTER.csv",
+    "08_Product_Passports/Registers/MONITORING_SCHEDULE_REGISTER.csv",
+    "08_Product_Passports/Schemas/passport_monitoring_run.schema.json",
+    "08_Product_Passports/Standards/PASSPORT_MONITORING_ALERT_AUTOMATION_STANDARD.md",
+    "08_Product_Passports/Templates/ALERT_NOTIFICATION_TEMPLATE.md",
+    "08_Product_Passports/Templates/MONITORING_RUNBOOK.md",
+    "08_Product_Passports/Templates/passport_monitoring_run.template.json",
+    "13_Project_Genesis/Automation/run_passport_monitor.py",
+    "13_Project_Genesis/Tests/test_passport_monitor_engine.py",
+    "13_Project_Genesis/Tests/test_passport_monitoring_validator.py",
+    "13_Project_Genesis/Validators/validate_passport_monitoring_run.py",
+    "Documentation/Build_Records/0035G/BUILD_0035G_IMPLEMENTATION_NOTES.md",
+    "Documentation/Build_Records/0035G/BUILD_0035G_READ_ME_FIRST.md",
+    "Documentation/Build_Records/0035G/BUILD_MANIFEST.json",
+    "Documentation/Build_Records/0035G/CHANGE_LOG_PROPOSED.csv",
+    "Documentation/Build_Records/0035G/DECISION_RECORD_0035G.md"
+  ],
+  "routing_correction": {
+    "restored_by_build": "CERT-BUILD-0038",
+    "restoration_date": "2026-07-19",
+    "wrapper_folder_removed": true,
+    "build_record_path": "Documentation/Build_Records/0035G/",
+    "status": "REPOSITORY_READY_FOR_RESTORE"
+  }
+}
