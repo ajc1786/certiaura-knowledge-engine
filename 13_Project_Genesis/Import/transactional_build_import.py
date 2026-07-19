@@ -9,7 +9,13 @@ import zipfile
 from datetime import datetime, timezone
 from pathlib import Path, PurePosixPath
 
-from asset_register_reconciler import reconcile, resolve_register, RegisterError, norm_path, load_register, _write_register
+from asset_register_reconciler import (
+    _write_register,
+    load_register,
+    norm_path,
+    resolve_register,
+)
+from historical_asset_backfill import reconcile_full_historical_repository
 
 ALLOWED_ROOTS = {
     '00_Governance','01_Knowledge_Systems','02_Peptides','03_Biology','04_Conditions',
@@ -19,6 +25,9 @@ ALLOWED_ROOTS = {
 }
 MANIFEST_PATH = 'Documentation/Build_Records/0038/ASSET_INTENT_MANIFEST.json'
 CONFLICT_PATH = 'Documentation/Build_Records/0038/CONFLICT_POLICY.json'
+POLICY_PATH = 'Documentation/Build_Records/0038/HISTORICAL_ASSET_BACKFILL_POLICY.json'
+FULL_REPORT_PATH = 'Documentation/Build_Records/0038/FULL_HISTORICAL_ASSET_REGISTER_REPORT.json'
+CENSUS_REPORT_PATH = 'Documentation/Build_Records/0038/HISTORICAL_ASSET_CENSUS_REPORT.json'
 
 
 def sha256_bytes(data: bytes) -> str:
@@ -49,21 +58,29 @@ def inspect_pack(zip_path: Path, repo: Path, asset_register: Path | None = None)
     errors: list[dict] = []
     plan: list[dict] = []
     seen_ci: dict[str, str] = {}
+    historical_report = None
+
     with zipfile.ZipFile(zip_path) as zf:
         files = [i for i in zf.infolist() if not i.is_dir()]
+        incoming_files = {i.filename: zf.read(i.filename) for i in files}
         if not files:
             errors.append({'code': 'EMPTY_PACKAGE'})
         roots = {PurePosixPath(i.filename).parts[0] for i in files if PurePosixPath(i.filename).parts}
         if len(roots) == 1 and next(iter(roots), '') not in ALLOWED_ROOTS:
             errors.append({'code': 'BUILD_WRAPPER_FOLDER'})
-        if MANIFEST_PATH not in zf.namelist():
+
+        if MANIFEST_PATH not in incoming_files:
             errors.append({'code': 'ASSET_INTENT_MANIFEST_MISSING', 'path': MANIFEST_PATH})
             manifest = {'file_classifications': [], 'formal_assets': [], 'build_number': '0038'}
         else:
-            manifest = json.loads(zf.read(MANIFEST_PATH))
+            manifest = json.loads(incoming_files[MANIFEST_PATH])
+        if POLICY_PATH not in incoming_files:
+            errors.append({'code': 'HISTORICAL_ASSET_BACKFILL_POLICY_MISSING', 'path': POLICY_PATH})
+
         classified = {x['path'] for x in manifest.get('file_classifications', [])}
         policy = load_policy(zf)
         approved = {x['path']: x for x in policy.get('approved_replacements', [])}
+
         for info in files:
             member_errors = validate_member(info.filename)
             if member_errors:
@@ -76,7 +93,7 @@ def inspect_pack(zip_path: Path, repo: Path, asset_register: Path | None = None)
             seen_ci[key] = info.filename
             if info.filename not in classified:
                 errors.append({'code': 'UNCLASSIFIED_PACKAGE_FILE', 'path': info.filename})
-            data = zf.read(info.filename)
+            data = incoming_files[info.filename]
             incoming = sha256_bytes(data)
             target = repo.joinpath(*PurePosixPath(info.filename).parts)
             if not target.exists():
@@ -93,28 +110,48 @@ def inspect_pack(zip_path: Path, repo: Path, asset_register: Path | None = None)
                     action = 'BLOCK_NONIDENTICAL_COLLISION'
             plan.append({'path': info.filename, 'action': action, 'sha256': incoming, 'size_bytes': len(data)})
 
-        # Extract manifest to a temporary path for reconciliation planning.
-        register_report = None
         try:
             with tempfile.TemporaryDirectory() as td:
-                mp = Path(td) / 'manifest.json'
-                mp.write_text(json.dumps(manifest), encoding='utf-8')
-                register_report = reconcile(repo, mp, asset_register, apply=False)
+                td_path = Path(td)
+                manifest_path = td_path / 'asset_intent_manifest.json'
+                policy_path = td_path / 'historical_policy.json'
+                manifest_path.write_bytes(incoming_files.get(MANIFEST_PATH, b'{}'))
+                policy_path.write_bytes(incoming_files.get(POLICY_PATH, b'{}'))
+                historical_report = reconcile_full_historical_repository(
+                    repo,
+                    manifest_path,
+                    policy_path,
+                    asset_register,
+                    additional_files=incoming_files,
+                    apply=False,
+                )
         except Exception as exc:
-            errors.append({'code': 'MASTER_ASSET_REGISTER_PREFLIGHT_FAILED', 'message': str(exc)})
+            errors.append({'code': 'FULL_HISTORICAL_ASSET_REGISTER_PREFLIGHT_FAILED', 'message': str(exc)})
 
     blocked = [x for x in plan if x['action'].startswith('BLOCK_')]
     return {
-        'valid': not errors and not blocked and bool(register_report and register_report.get('valid')),
+        'valid': not errors and not blocked and bool(historical_report and historical_report.get('valid')),
         'errors': errors,
         'routing_plan': plan,
-        'asset_register_change_report': register_report,
+        'full_historical_asset_register_report': historical_report,
         'summary': {
             'files': len(plan),
             'create': sum(1 for x in plan if x['action'] == 'CREATE'),
             'skip_identical': sum(1 for x in plan if x['action'] == 'SKIP_IDENTICAL'),
             'approved_replace': sum(1 for x in plan if x['action'] == 'APPROVED_REPLACE'),
             'blocked': len(blocked),
+            'historical_registerable_assets': (
+                historical_report.get('summary', {}).get('registerable_assets', 0)
+                if historical_report else 0
+            ),
+            'historical_register_creates': (
+                historical_report.get('summary', {}).get('register_creates', 0)
+                if historical_report else 0
+            ),
+            'historical_register_updates': (
+                historical_report.get('summary', {}).get('register_updates', 0)
+                if historical_report else 0
+            ),
         }
     }
 
@@ -149,13 +186,12 @@ def _rollback(repo: Path, backup: Path, backup_manifest: dict) -> None:
             target.unlink()
 
 
-def _validate_repo(repo: Path, manifest: dict, register_report: dict) -> list[dict]:
+def _validate_repo(repo: Path, manifest: dict, historical_report: dict) -> list[dict]:
     errors: list[dict] = []
-    for item in manifest.get('formal_assets', []):
+    for item in historical_report.get('census', {}).get('registerable_assets', []):
         target = repo.joinpath(*PurePosixPath(item['repository_path']).parts)
         if not target.is_file():
-            errors.append({'code': 'ORPHAN_FORMAL_ASSET', 'path': item['repository_path']})
-    # Validate touched JSON and Python files.
+            errors.append({'code': 'ORPHAN_REGISTERABLE_HISTORICAL_ASSET', 'path': item['repository_path']})
     for item in manifest.get('file_classifications', []):
         path = item['path']
         target = repo.joinpath(*PurePosixPath(path).parts)
@@ -168,8 +204,9 @@ def _validate_repo(repo: Path, manifest: dict, register_report: dict) -> list[di
                 compile(target.read_text(encoding='utf-8'), str(target), 'exec')
         except Exception as exc:
             errors.append({'code': 'POST_IMPORT_FILE_VALIDATION_FAILED', 'path': path, 'message': str(exc)})
-    if not register_report.get('valid'):
-        errors.append({'code': 'ASSET_REGISTER_RECONCILIATION_INVALID'})
+    if not historical_report.get('valid') or not historical_report.get('applied'):
+        errors.append({'code': 'FULL_HISTORICAL_ASSET_REGISTER_RECONCILIATION_INVALID'})
+    errors.extend(historical_report.get('coverage_errors', []))
     return errors
 
 
@@ -178,37 +215,40 @@ def _advance_checkpoint(repo: Path) -> None:
     if not path.is_file():
         raise RuntimeError('CONTINUITY_CHECKPOINT_MISSING_AFTER_IMPORT')
     text = path.read_text(encoding='utf-8')
-    text = text.replace('**Version:** 1.2.0', '**Version:** 1.2.1', 1)
-    text = text.replace('"version": "1.2.0"', '"version": "1.2.1"', 1)
+    text = text.replace('**Version:** 1.3.0', '**Version:** 1.3.1', 1)
+    text = text.replace('"version": "1.3.0"', '"version": "1.3.1"', 1)
     text = text.replace(
-        '**Checkpoint status:** BUILD 0038 DELIVERED — TRANSACTIONAL IMPORT PENDING',
-        '**Checkpoint status:** BUILD 0038 IMPORTED AND REPOSITORY VALIDATED — COMMIT/PUSH PENDING',
+        '**Checkpoint status:** BUILD 0038 FULL HISTORICAL RECONCILIATION DELIVERED — IMPORT PENDING',
+        '**Checkpoint status:** BUILD 0038 FULL HISTORICAL RECONCILIATION IMPORTED AND VALIDATED — COMMIT/PUSH PENDING',
         1,
     )
     text = text.replace(
-        'Import corrected Build 0038 through the transactional Project Genesis importer, review the dry-run routing and Asset Register Change Reports, then apply and validate.',
+        'Import the corrected Build 0038 package and review the full historical repository census and Master Asset Register Change Report before apply.',
         'Commit and push corrected Build 0038 using the locked commit message, then confirm GitHub Actions green.',
         1,
     )
-    text = text.replace('"required_action": "IMPORT_TRANSACTIONALLY"', '"required_action": "COMMIT_PUSH_CONFIRM_ACTIONS"', 1)
+    text = text.replace('"required_action": "IMPORT_FULL_HISTORICAL_RECONCILIATION"', '"required_action": "COMMIT_PUSH_CONFIRM_ACTIONS"', 1)
     text = text.replace(
-        '"immediate_next_action": "Import corrected Build 0038 transactionally, review dry-run reports, reconcile the Master Asset Register and validate the repository"',
+        '"immediate_next_action": "Import corrected Build 0038 and complete full historical Master Asset Register reconciliation"',
         '"immediate_next_action": "Commit and push corrected Build 0038 and confirm GitHub Actions green"',
         1,
     )
     path.write_text(text, encoding='utf-8')
 
 
-
-def _sync_checkpoint_register_version(register: Path) -> None:
+def _sync_checkpoint_register(register: Path) -> None:
     rows, meta = load_register(register)
     wanted = norm_path('00_Governance/CERTIAURA_LOCKED_BUILD_CONTINUITY_AND_CHECKPOINT.md')
     matches = [row for row in rows if norm_path(row.get('Repository Path')) == wanted]
     if len(matches) != 1:
         raise RuntimeError(f'CHECKPOINT_ASSET_REGISTER_MATCH_INVALID: {len(matches)}')
-    matches[0]['Version'] = '1.2.1'
+    checkpoint_path = register.parents[1] / '00_Governance' / 'CERTIAURA_LOCKED_BUILD_CONTINUITY_AND_CHECKPOINT.md'
+    matches[0]['Version'] = '1.3.1'
     matches[0]['Status'] = 'LOCKED_ACTIVE'
+    if checkpoint_path.is_file():
+        matches[0]['File SHA256'] = sha256_bytes(checkpoint_path.read_bytes())
     _write_register(register, rows, meta)
+
 
 def apply_pack(zip_path: Path, repo: Path, backup_root: Path, asset_register: Path | None = None) -> dict:
     preflight = inspect_pack(zip_path, repo, asset_register)
@@ -226,19 +266,36 @@ def apply_pack(zip_path: Path, repo: Path, backup_root: Path, asset_register: Pa
                 target = repo.joinpath(*PurePosixPath(item['path']).parts)
                 target.parent.mkdir(parents=True, exist_ok=True)
                 target.write_bytes(zf.read(item['path']))
+
         manifest_path = repo / MANIFEST_PATH
-        register_report_path = repo / 'Documentation/Build_Records/0038/ASSET_REGISTER_CHANGE_REPORT.json'
-        register_report = reconcile(repo, manifest_path, asset_register, apply=True, report_path=register_report_path)
-        validation_errors = _validate_repo(repo, json.loads(manifest_path.read_text(encoding='utf-8')), register_report)
+        policy_path = repo / POLICY_PATH
+        historical_report_path = repo / FULL_REPORT_PATH
+        census_report_path = repo / CENSUS_REPORT_PATH
+        historical_report = reconcile_full_historical_repository(
+            repo,
+            manifest_path,
+            policy_path,
+            asset_register,
+            additional_files=None,
+            apply=True,
+            report_path=historical_report_path,
+            census_report_path=census_report_path,
+        )
+        validation_errors = _validate_repo(
+            repo,
+            json.loads(manifest_path.read_text(encoding='utf-8')),
+            historical_report,
+        )
         if validation_errors:
             raise RuntimeError(json.dumps(validation_errors))
+
         _advance_checkpoint(repo)
-        _sync_checkpoint_register_version(register)
+        _sync_checkpoint_register(register)
         report = {
             **preflight,
             'applied': True,
             'backup_path': str(backup),
-            'asset_register_change_report': register_report,
+            'full_historical_asset_register_report': historical_report,
             'post_import_validation': {'valid': True, 'errors': []},
         }
         report_path = repo / 'Documentation/Build_Records/0038/IMPORT_REPORT.json'
@@ -253,7 +310,7 @@ def apply_pack(zip_path: Path, repo: Path, backup_root: Path, asset_register: Pa
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description='Transactional Certiaura Build 0038 importer')
+    parser = argparse.ArgumentParser(description='Transactional Certiaura Build 0038 importer with full historical asset-register reconciliation')
     parser.add_argument('zip_path', type=Path)
     parser.add_argument('repository', type=Path)
     parser.add_argument('--asset-register', type=Path)
@@ -261,7 +318,12 @@ def main() -> int:
     parser.add_argument('--backup-root', type=Path)
     parser.add_argument('--report', type=Path)
     args = parser.parse_args()
-    result = apply_pack(args.zip_path, args.repository, args.backup_root or args.repository / '.certiaura_backups', args.asset_register) if args.apply else inspect_pack(args.zip_path, args.repository, args.asset_register)
+    result = apply_pack(
+        args.zip_path,
+        args.repository,
+        args.backup_root or args.repository / '.certiaura_backups',
+        args.asset_register,
+    ) if args.apply else inspect_pack(args.zip_path, args.repository, args.asset_register)
     output = json.dumps(result, indent=2)
     print(output)
     if args.report:

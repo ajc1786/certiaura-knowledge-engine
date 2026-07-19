@@ -1,9 +1,9 @@
 {
   "build_id": "CERT-BUILD-0038",
   "build_number": "0038",
-  "title": "repository restoration canonical routing and Master Asset Register reconciliation for Builds 0035E to 0036",
-  "package_version": "1.2.0",
-  "status": "GENERATED_DELIVERED",
+  "title": "repository restoration canonical routing and complete historical Master Asset Register reconciliation",
+  "package_version": "1.3.0",
+  "status": "GENERATED_DELIVERED_SUPERSEDES_PRIOR_0038_PACKAGES",
   "restores_builds": [
     "0035E",
     "0035F",
@@ -25,6 +25,35 @@
     "rollback_on_failure": true
   },
   "project_genesis_entry_point": "13_Project_Genesis/Import/transactional_build_import.py",
-  "commit_message": "Add Certiaura Build 0038 repository restoration canonical routing and Master Asset Register reconciliation for Builds 0035E to 0036",
-  "proposed_next_action": "Import, validate, commit, push and confirm Actions green; then reissue Build 0037."
+  "commit_message": "Add Certiaura Build 0038 repository restoration canonical routing and complete historical Master Asset Register reconciliation",
+  "proposed_next_action": "Import, review the full historical census and register change report, validate, commit, push and confirm Actions green; then reissue Build 0037.",
+  "full_historical_reconciliation": {
+    "required": true,
+    "scope": "All prior registerable repository assets and items",
+    "repository_wide_census": true,
+    "prior_build_provenance_recovery": true,
+    "preserve_existing_uai": true,
+    "allocate_new_only_if_unmatched": true,
+    "block_orphans_and_duplicates": true,
+    "transactional_with_files": true,
+    "rollback_on_failure": true
+  },
+  "package_file_count": 408,
+  "focused_tests": {
+    "passed": 19,
+    "failed": 0
+  },
+  "syntax_validation": {
+    "json_files": 113,
+    "python_files": 82,
+    "errors": 0
+  },
+  "synthetic_full_historical_reconciliation": {
+    "dry_run": "PASS",
+    "transactional_apply": "PASS",
+    "registerable_assets": 239,
+    "register_entries_after_import": 239,
+    "uai_unique": true,
+    "checkpoint_version_after_import": "1.3.1"
+  }
 }

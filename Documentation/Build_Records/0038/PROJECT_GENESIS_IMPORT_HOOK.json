@@ -1,6 +1,6 @@
 {
   "build_number": "0038",
-  "import_mode": "TRANSACTIONAL",
+  "import_mode": "TRANSACTIONAL_FULL_HISTORICAL_RECONCILIATION",
   "preflight_entry_point": "13_Project_Genesis/Import/transactional_build_import.py",
   "dry_run_arguments": [
     "<zip_path>",
@@ -16,5 +16,10 @@
     "Documentation/Build_Records/0038/IMPORT_REPORT.json"
   ],
   "requires_unique_master_asset_register": true,
-  "block_commit_on_failure": true
+  "block_commit_on_failure": true,
+  "historical_census_policy": "Documentation/Build_Records/0038/HISTORICAL_ASSET_BACKFILL_POLICY.json",
+  "full_historical_asset_register_reconciliation": true,
+  "prior_build_provenance_recovery": true,
+  "block_orphan_register_entries": true,
+  "block_unregistered_repository_assets": true
 }

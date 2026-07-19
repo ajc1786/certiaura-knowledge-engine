@@ -1,7 +1,7 @@
 # CERTIAURA LOCKED BUILD CONTINUITY AND CHECKPOINT
 
 **Document ID:** CERT-GOV-CONT-002  
-**Version:** 1.2.0  
+**Version:** 1.3.0  
 **Status:** LOCKED — ACTIVE  
 **Effective date:** 2026-07-19  
 **Last updated:** 2026-07-19  
@@ -611,17 +611,22 @@ That package must **not** be imported.
 Build 0038 must be reissued under the same build identity as a corrected integrated package:
 
 ```text
-Build 0038 — repository restoration canonical routing and Master Asset Register reconciliation for Builds 0035E to 0036
+Build 0038 — repository restoration canonical routing and complete historical Master Asset Register reconciliation
 ```
 
 The corrected Build 0038 must:
 
 - restore Builds 0035E through 0036 directly into canonical repository paths;
 - include no build-named wrapper folder;
+- perform a full repository-wide census of all prior registerable Certiaura items, not only the restored builds;
+- use all available prior Build Records and file inventories to recover build provenance;
+- classify standards, schemas, templates, registers, scripts, validators, automation, dashboards, reports, controlled documentation, datasets and reusable media as applicable;
+- explicitly report excluded build records, tests, examples, caches and temporary outputs;
 - locate and reconcile the existing Master Asset Register;
 - preserve existing Universal Asset Identifiers;
 - allocate identifiers only for genuinely new formal assets;
-- detect orphaned files and orphaned register entries;
+- detect orphaned files and orphaned register entries across the entire repository;
+- update all missing historical asset entries, not only assets introduced by Builds 0035E through 0036;
 - update relationships, applicable registers, change log, Production Dashboard and build records;
 - provide dry-run routing and Asset Register Change Reports;
 - provide backup, transactional rollback and post-import validation;
@@ -653,14 +658,14 @@ Build 0039 — evidence ingestion citation management living evidence surveillan
 ## 17. Current continuation checkpoint
 
 **Checkpoint date:** 2026-07-19  
-**Checkpoint status:** BUILD 0038 DELIVERED — TRANSACTIONAL IMPORT PENDING
+**Checkpoint status:** BUILD 0038 FULL HISTORICAL RECONCILIATION DELIVERED — IMPORT PENDING
 
 ### Last confirmed project position
 
 - The founder has deleted the incorrectly routed root-level folders for Builds **0035E–0036**.
 - Their content now requires controlled restoration to canonical repository paths.
 - The first generated Build 0038 package remains superseded and must not be imported.
-- Corrected Build 0038 Version 1.2.0 has been generated and delivered with automatic Master Asset Register reconciliation, dry-run controls and rollback-safe transactional import.
+- Corrected Build 0038 Version 1.3.0 has been generated and delivered with repository-wide historical asset census, complete Master Asset Register reconciliation, dry-run controls and rollback-safe transactional import.
 - Build 0037 remains generated but requires corrected routing and register reconciliation before installation.
 - The 0035 lettered series remains closed at 0035K.
 - New materially distinct integrated work packages use whole build numbers.
@@ -668,7 +673,7 @@ Build 0039 — evidence ingestion citation management living evidence surveillan
 ### Immediate next action
 
 ```text
-Import corrected Build 0038 through the transactional Project Genesis importer, review the dry-run routing and Asset Register Change Reports, then apply and validate.
+Import the corrected Build 0038 package and review the full historical repository census and Master Asset Register Change Report before apply.
 ```
 
 ### Required close-out sequence for corrected Build 0038
@@ -694,7 +699,7 @@ Build 0039 — evidence ingestion citation management living evidence surveillan
 Do not proceed to Build 0039 until:
 
 - corrected Build 0038 has restored Builds 0035E–0036;
-- Master Asset Register reconciliation passes;
+- the full historical repository census and Master Asset Register reconciliation pass;
 - repository validation passes;
 - corrected Build 0038 is committed and pushed;
 - GitHub Actions for Build 0038 are green;
@@ -725,6 +730,8 @@ Do not proceed to Build 0039 until:
 | 2026-07-19 | Block build closure where formal assets or register entries are orphaned | LOCKED |
 | 2026-07-19 | Reissue Build 0038 before import with integrated asset register reconciliation | LOCKED |
 | 2026-07-19 | Generate corrected Build 0038 with transactional Master Asset Register reconciliation | LOCKED |
+| 2026-07-19 | Expand Build 0038 reconciliation to all prior registerable repository assets and items | LOCKED |
+| 2026-07-19 | Require full historical repository census and prior-build provenance recovery | LOCKED |
 
 ---
 
@@ -733,7 +740,7 @@ Do not proceed to Build 0039 until:
 ```json
 {
   "document_id": "CERT-GOV-CONT-002",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "status": "LOCKED_ACTIVE",
   "checkpoint_date": "2026-07-19",
   "canonical_repository_path": "00_Governance/CERTIAURA_LOCKED_BUILD_CONTINUITY_AND_CHECKPOINT.md",
@@ -753,6 +760,9 @@ Do not proceed to Build 0039 until:
     "parallel_register_prohibited": true,
     "asset_intent_manifest_required": true,
     "automatic_reconciliation_required": true,
+    "full_historical_repository_census_required": true,
+    "all_prior_registerable_items_required": true,
+    "prior_build_provenance_recovery_required": true,
     "preserve_existing_uai": true,
     "transactional_with_file_import": true,
     "dry_run_change_report_required": true,
@@ -776,13 +786,14 @@ Do not proceed to Build 0039 until:
   },
   "current_pending_build": {
     "build_number": "0038",
-    "title": "repository restoration canonical routing and Master Asset Register reconciliation for Builds 0035E to 0036",
-    "required_action": "IMPORT_TRANSACTIONALLY",
-    "previous_generated_package_approved_for_import": false,
+    "title": "repository restoration canonical routing and complete historical Master Asset Register reconciliation",
+    "required_action": "IMPORT_FULL_HISTORICAL_RECONCILIATION",
+    "previous_generated_packages_approved_for_import": false,
     "corrected_package_generated": true,
-    "corrected_package_version": "1.2.0"
+    "corrected_package_version": "1.3.0",
+    "scope": "Restore Builds 0035E-0036 and reconcile every registerable prior repository item"
   },
-  "immediate_next_action": "Import corrected Build 0038 transactionally, review dry-run reports, reconcile the Master Asset Register and validate the repository",
+  "immediate_next_action": "Import corrected Build 0038 and complete full historical Master Asset Register reconciliation",
   "next_action_after_0038": {
     "build_number": "0037",
     "title": "Scientific content claims advertising AI recommendation and responsible communications controls",
@@ -792,7 +803,7 @@ Do not proceed to Build 0039 until:
     "build_number": "0039",
     "title": "evidence ingestion citation management living evidence surveillance and scientific review controls"
   },
-  "hold_point": "Do not start Build 0039 until corrected Builds 0038 and 0037 are imported, asset-register reconciled, repository validated, committed and pushed, with GitHub Actions green"
+  "hold_point": "Do not start Build 0039 until corrected Builds 0038 and 0037 are imported, full-historical asset-register reconciled, repository validated, committed and pushed, with GitHub Actions green"
 }
 ```
 

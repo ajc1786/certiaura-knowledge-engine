@@ -1,9 +1,10 @@
 {
   "build_number": "0038",
   "build_id": "CERT-BUILD-0038",
-  "manifest_version": "1.0.0",
-  "generated_at": "2026-07-19T11:30:05.741046+00:00",
-  "purpose": "Restore Builds 0035E-0036 and reconcile formal assets with the existing canonical Master Asset Register.",
+  "manifest_version": "1.1.0",
+  "generated_at": "2026-07-19T00:00:00+00:00",
+  "purpose": "Restore Builds 0035E-0036 and reconcile all prior registerable repository items with the existing canonical Master Asset Register.",
+  "full_historical_reconciliation": true,
   "file_classifications": [
     {
       "path": "00_Governance/CERTIAURA_LOCKED_BUILD_CONTINUITY_AND_CHECKPOINT.md",
@@ -1026,6 +1027,10 @@
       "classification": "SCRIPT"
     },
     {
+      "path": "13_Project_Genesis/Import/historical_asset_backfill.py",
+      "classification": "SCRIPT"
+    },
+    {
       "path": "13_Project_Genesis/Import/transactional_build_import.py",
       "classification": "SCRIPT"
     },
@@ -1047,6 +1052,10 @@
     },
     {
       "path": "13_Project_Genesis/Standards/AUTOMATION_BOUNDARY_0036.md",
+      "classification": "FORMAL_ASSET"
+    },
+    {
+      "path": "13_Project_Genesis/Standards/HISTORICAL_ASSET_REGISTER_BACKFILL_STANDARD.md",
       "classification": "FORMAL_ASSET"
     },
     {
@@ -1151,6 +1160,10 @@
     },
     {
       "path": "13_Project_Genesis/Tests/test_build_0038_asset_register_transaction.py",
+      "classification": "TEST"
+    },
+    {
+      "path": "13_Project_Genesis/Tests/test_build_0038_full_historical_backfill.py",
       "classification": "TEST"
     },
     {
@@ -1490,6 +1503,18 @@
       "classification": "BUILD_RECORD"
     },
     {
+      "path": "Documentation/Build_Records/0038/FULL_HISTORICAL_ASSET_REGISTER_REPORT_TEMPLATE.json",
+      "classification": "BUILD_RECORD"
+    },
+    {
+      "path": "Documentation/Build_Records/0038/HISTORICAL_ASSET_BACKFILL_POLICY.json",
+      "classification": "BUILD_RECORD"
+    },
+    {
+      "path": "Documentation/Build_Records/0038/HISTORICAL_ASSET_CENSUS_REPORT_TEMPLATE.json",
+      "classification": "BUILD_RECORD"
+    },
+    {
       "path": "Documentation/Build_Records/0038/MASTER_ASSET_REGISTER_FIELD_MAPPING.json",
       "classification": "BUILD_RECORD"
     },
@@ -1622,9 +1647,10 @@
       "knowledge_system": "SYS",
       "intended_action": "UPDATE",
       "existing_uai": null,
-      "reconciliation_mode": "RESTORE_PRESERVE_IDENTITY",
+      "reconciliation_mode": "RESTORE_OR_BACKFILL_PRESERVE_IDENTITY",
       "allow_create_if_missing": true,
-      "proposed_version": "1.2.0",
+      "allow_title_match": false,
+      "proposed_version": "1.3.0",
       "proposed_status": "LOCKED_ACTIVE",
       "owner": "Certiaura",
       "completion_percentage": 100,
@@ -1638,17 +1664,23 @@
       "next_review": "",
       "build_provenance": [
         "CERT-BUILD-0038"
-      ]
+      ],
+      "source_builds": [
+        "0038"
+      ],
+      "registration_basis": "EXPLICIT_BUILD_0038_FORMAL_ASSET",
+      "file_sha256": "67f2dfafc8e6214c93d647d730fda72ddf9392da6d7a1726d1bd8603f8cc0cbe"
     },
     {
       "repository_path": "05_Monitoring/Standards/POST_MARKET_SURVEILLANCE_STANDARD.md",
-      "asset_title": "POST MARKET SURVEILLANCE STANDARD",
+      "asset_title": "Post-Market Surveillance Standard",
       "asset_type": "Standard",
       "knowledge_system": "MKS",
       "intended_action": "UPDATE",
       "existing_uai": null,
-      "reconciliation_mode": "RESTORE_PRESERVE_IDENTITY",
+      "reconciliation_mode": "RESTORE_OR_BACKFILL_PRESERVE_IDENTITY",
       "allow_create_if_missing": true,
+      "allow_title_match": false,
       "proposed_version": "1.0.0",
       "proposed_status": "ACTIVE",
       "owner": "Certiaura",
@@ -1663,17 +1695,23 @@
       "next_review": "",
       "build_provenance": [
         "CERT-BUILD-0038"
-      ]
+      ],
+      "source_builds": [
+        "0038"
+      ],
+      "registration_basis": "EXPLICIT_BUILD_0038_FORMAL_ASSET",
+      "file_sha256": "ba4d65836fb815d72a7bfec12c1dfdef059bee0259c28c0074d6ee5b5f8ee913"
     },
     {
       "repository_path": "05_Monitoring/Standards/REGULATORY_REPORTING_ASSESSMENT_STANDARD.md",
-      "asset_title": "REGULATORY REPORTING ASSESSMENT STANDARD",
+      "asset_title": "Regulatory Reporting Assessment Standard",
       "asset_type": "Standard",
       "knowledge_system": "MKS",
       "intended_action": "UPDATE",
       "existing_uai": null,
-      "reconciliation_mode": "RESTORE_PRESERVE_IDENTITY",
+      "reconciliation_mode": "RESTORE_OR_BACKFILL_PRESERVE_IDENTITY",
       "allow_create_if_missing": true,
+      "allow_title_match": false,
       "proposed_version": "1.0.0",
       "proposed_status": "ACTIVE",
       "owner": "Certiaura",
@@ -1688,19 +1726,25 @@
       "next_review": "",
       "build_provenance": [
         "CERT-BUILD-0038"
-      ]
+      ],
+      "source_builds": [
+        "0038"
+      ],
+      "registration_basis": "EXPLICIT_BUILD_0038_FORMAL_ASSET",
+      "file_sha256": "d30c474cbc2c37561150adacd5223a4954449c0852f0f46024a7d9316bb481dc"
     },
     {
       "repository_path": "08_Product_Passports/Standards/CERTIAURA_SUPPLIER_EVIDENCE_REVIEW_VERIFICATION_AND_PRODUCT_PASSPORT_APPROVAL_WORKFLOW.md",
-      "asset_title": "CERTIAURA SUPPLIER EVIDENCE REVIEW VERIFICATION AND PRODUCT PASSPORT APPROVAL WORKFLOW",
+      "asset_title": "CERTIAURA SUPPLIER EVIDENCE REVIEW, VERIFICATION AND PRODUCT PASSPORT™ APPROVAL WORKFLOW",
       "asset_type": "Standard",
       "knowledge_system": "PPS",
       "intended_action": "UPDATE",
       "existing_uai": null,
-      "reconciliation_mode": "RESTORE_PRESERVE_IDENTITY",
+      "reconciliation_mode": "RESTORE_OR_BACKFILL_PRESERVE_IDENTITY",
       "allow_create_if_missing": true,
+      "allow_title_match": false,
       "proposed_version": "1.0.0",
-      "proposed_status": "ACTIVE",
+      "proposed_status": " Repository-ready proposed standard",
       "owner": "Certiaura",
       "completion_percentage": 100,
       "parent_assets": [],
@@ -1713,17 +1757,23 @@
       "next_review": "",
       "build_provenance": [
         "CERT-BUILD-0038"
-      ]
+      ],
+      "source_builds": [
+        "0038"
+      ],
+      "registration_basis": "EXPLICIT_BUILD_0038_FORMAL_ASSET",
+      "file_sha256": "491b78f855579dd0105850d606682c12a44c633da63e8e402924f83730e56826"
     },
     {
       "repository_path": "08_Product_Passports/Standards/ORDER_PRODUCT_PASSPORT_GATE.md",
-      "asset_title": "ORDER PRODUCT PASSPORT GATE",
+      "asset_title": "Order-to-Product Passport Gate",
       "asset_type": "Standard",
       "knowledge_system": "PPS",
       "intended_action": "UPDATE",
       "existing_uai": null,
-      "reconciliation_mode": "RESTORE_PRESERVE_IDENTITY",
+      "reconciliation_mode": "RESTORE_OR_BACKFILL_PRESERVE_IDENTITY",
       "allow_create_if_missing": true,
+      "allow_title_match": false,
       "proposed_version": "1.0.0",
       "proposed_status": "ACTIVE",
       "owner": "Certiaura",
@@ -1738,19 +1788,25 @@
       "next_review": "",
       "build_provenance": [
         "CERT-BUILD-0038"
-      ]
+      ],
+      "source_builds": [
+        "0038"
+      ],
+      "registration_basis": "EXPLICIT_BUILD_0038_FORMAL_ASSET",
+      "file_sha256": "2e11410dd9581e9f89468cf58a00ed4646a03a7a6d2d6116c151aa59a8f0825d"
     },
     {
       "repository_path": "08_Product_Passports/Standards/PASSPORT_LIFECYCLE_MARKETPLACE_STANDARD.md",
-      "asset_title": "PASSPORT LIFECYCLE MARKETPLACE STANDARD",
+      "asset_title": "CERTIAURA PRODUCT PASSPORT™ PUBLICATION, LIFECYCLE AND MARKETPLACE CONTROL STANDARD",
       "asset_type": "Standard",
       "knowledge_system": "PPS",
       "intended_action": "UPDATE",
       "existing_uai": null,
-      "reconciliation_mode": "RESTORE_PRESERVE_IDENTITY",
+      "reconciliation_mode": "RESTORE_OR_BACKFILL_PRESERVE_IDENTITY",
       "allow_create_if_missing": true,
+      "allow_title_match": false,
       "proposed_version": "1.0.0",
-      "proposed_status": "ACTIVE",
+      "proposed_status": " Repository-ready approved build",
       "owner": "Certiaura",
       "completion_percentage": 100,
       "parent_assets": [],
@@ -1763,19 +1819,25 @@
       "next_review": "",
       "build_provenance": [
         "CERT-BUILD-0038"
-      ]
+      ],
+      "source_builds": [
+        "0038"
+      ],
+      "registration_basis": "EXPLICIT_BUILD_0038_FORMAL_ASSET",
+      "file_sha256": "1b719086d15a628ac611021babb434a579f3fa8ce813f33891986f821cf07474"
     },
     {
       "repository_path": "08_Product_Passports/Standards/PASSPORT_MONITORING_ALERT_AUTOMATION_STANDARD.md",
-      "asset_title": "PASSPORT MONITORING ALERT AUTOMATION STANDARD",
+      "asset_title": "CERTIAURA PRODUCT PASSPORT™ EXPIRY, TRIGGER MONITORING AND ALERT AUTOMATION STANDARD",
       "asset_type": "Standard",
       "knowledge_system": "PPS",
       "intended_action": "UPDATE",
       "existing_uai": null,
-      "reconciliation_mode": "RESTORE_PRESERVE_IDENTITY",
+      "reconciliation_mode": "RESTORE_OR_BACKFILL_PRESERVE_IDENTITY",
       "allow_create_if_missing": true,
+      "allow_title_match": false,
       "proposed_version": "1.0.0",
-      "proposed_status": "ACTIVE",
+      "proposed_status": " Repository-ready approved build",
       "owner": "Certiaura",
       "completion_percentage": 100,
       "parent_assets": [],
@@ -1788,19 +1850,25 @@
       "next_review": "",
       "build_provenance": [
         "CERT-BUILD-0038"
-      ]
+      ],
+      "source_builds": [
+        "0038"
+      ],
+      "registration_basis": "EXPLICIT_BUILD_0038_FORMAL_ASSET",
+      "file_sha256": "560fcd5ee363774235e00ceda81f0f16063e4bb2e783d5f3ddc4f23ce91be0e9"
     },
     {
       "repository_path": "08_Product_Passports/Standards/PASSPORT_REMEDIATION_REINSTATEMENT_SUPPLIER_STANDARD.md",
-      "asset_title": "PASSPORT REMEDIATION REINSTATEMENT SUPPLIER STANDARD",
+      "asset_title": "CERTIAURA PRODUCT PASSPORT™ REMEDIATION, EVIDENCE REFRESH, REINSTATEMENT AND SUPPLIER PERFORMANCE STANDARD",
       "asset_type": "Standard",
       "knowledge_system": "PPS",
       "intended_action": "UPDATE",
       "existing_uai": null,
-      "reconciliation_mode": "RESTORE_PRESERVE_IDENTITY",
+      "reconciliation_mode": "RESTORE_OR_BACKFILL_PRESERVE_IDENTITY",
       "allow_create_if_missing": true,
+      "allow_title_match": false,
       "proposed_version": "1.0.0",
-      "proposed_status": "ACTIVE",
+      "proposed_status": " Repository-ready approved build",
       "owner": "Certiaura",
       "completion_percentage": 100,
       "parent_assets": [],
@@ -1813,19 +1881,25 @@
       "next_review": "",
       "build_provenance": [
         "CERT-BUILD-0038"
-      ]
+      ],
+      "source_builds": [
+        "0038"
+      ],
+      "registration_basis": "EXPLICIT_BUILD_0038_FORMAL_ASSET",
+      "file_sha256": "dd8e3fc736c3c94fc987d0a735c9cd6334192f01ce18c438b877c95604e37396"
     },
     {
       "repository_path": "08_Product_Passports/Standards/SUPPLIER_QUALIFICATION_ASSURANCE_STANDARD.md",
-      "asset_title": "SUPPLIER QUALIFICATION ASSURANCE STANDARD",
+      "asset_title": "CERTIAURA SUPPLIER QUALIFICATION, ONBOARDING, RISK TIERING, AUDIT AND CONTINUOUS ASSURANCE STANDARD",
       "asset_type": "Standard",
       "knowledge_system": "PPS",
       "intended_action": "UPDATE",
       "existing_uai": null,
-      "reconciliation_mode": "RESTORE_PRESERVE_IDENTITY",
+      "reconciliation_mode": "RESTORE_OR_BACKFILL_PRESERVE_IDENTITY",
       "allow_create_if_missing": true,
+      "allow_title_match": false,
       "proposed_version": "1.0.0",
-      "proposed_status": "ACTIVE",
+      "proposed_status": " Repository-ready approved build",
       "owner": "Certiaura",
       "completion_percentage": 100,
       "parent_assets": [],
@@ -1838,17 +1912,23 @@
       "next_review": "",
       "build_provenance": [
         "CERT-BUILD-0038"
-      ]
+      ],
+      "source_builds": [
+        "0038"
+      ],
+      "registration_basis": "EXPLICIT_BUILD_0038_FORMAL_ASSET",
+      "file_sha256": "36944d4aeaf3a8fac80d4710523a46aa0e6a51aae68420a1b4c0fc1c9bf07906"
     },
     {
       "repository_path": "09_Cost_Intelligence/Standards/PAYMENT_HOLD_SETTLEMENT_STANDARD.md",
-      "asset_title": "PAYMENT HOLD SETTLEMENT STANDARD",
+      "asset_title": "Payment Hold and Settlement Standard",
       "asset_type": "Standard",
       "knowledge_system": "CIS",
       "intended_action": "UPDATE",
       "existing_uai": null,
-      "reconciliation_mode": "RESTORE_PRESERVE_IDENTITY",
+      "reconciliation_mode": "RESTORE_OR_BACKFILL_PRESERVE_IDENTITY",
       "allow_create_if_missing": true,
+      "allow_title_match": false,
       "proposed_version": "1.0.0",
       "proposed_status": "ACTIVE",
       "owner": "Certiaura",
@@ -1863,17 +1943,23 @@
       "next_review": "",
       "build_provenance": [
         "CERT-BUILD-0038"
-      ]
+      ],
+      "source_builds": [
+        "0038"
+      ],
+      "registration_basis": "EXPLICIT_BUILD_0038_FORMAL_ASSET",
+      "file_sha256": "b0b9bb599b6a10daaa24c08ffe26704f7ccacdb131c5c04a8be673e7fb6f39b8"
     },
     {
       "repository_path": "09_Cost_Intelligence/Standards/SUPPLIER_TOTAL_COST_MODEL.md",
-      "asset_title": "SUPPLIER TOTAL COST MODEL",
+      "asset_title": "Supplier Total Cost Model",
       "asset_type": "Standard",
       "knowledge_system": "CIS",
       "intended_action": "UPDATE",
       "existing_uai": null,
-      "reconciliation_mode": "RESTORE_PRESERVE_IDENTITY",
+      "reconciliation_mode": "RESTORE_OR_BACKFILL_PRESERVE_IDENTITY",
       "allow_create_if_missing": true,
+      "allow_title_match": false,
       "proposed_version": "1.0.0",
       "proposed_status": "ACTIVE",
       "owner": "Certiaura",
@@ -1888,17 +1974,23 @@
       "next_review": "",
       "build_provenance": [
         "CERT-BUILD-0038"
-      ]
+      ],
+      "source_builds": [
+        "0038"
+      ],
+      "registration_basis": "EXPLICIT_BUILD_0038_FORMAL_ASSET",
+      "file_sha256": "698a2faa80eace6723f330493833adcd9ec565ac76485aa40ca04edda5052a06"
     },
     {
       "repository_path": "10_Marketplace/Standards/CONSENT_PRIVACY_ACCESS_STANDARD.md",
-      "asset_title": "CONSENT PRIVACY ACCESS STANDARD",
+      "asset_title": "Consent, Privacy and Access Standard",
       "asset_type": "Standard",
       "knowledge_system": "MPS",
       "intended_action": "UPDATE",
       "existing_uai": null,
-      "reconciliation_mode": "RESTORE_PRESERVE_IDENTITY",
+      "reconciliation_mode": "RESTORE_OR_BACKFILL_PRESERVE_IDENTITY",
       "allow_create_if_missing": true,
+      "allow_title_match": false,
       "proposed_version": "1.0.0",
       "proposed_status": "ACTIVE",
       "owner": "Certiaura",
@@ -1913,17 +2005,23 @@
       "next_review": "",
       "build_provenance": [
         "CERT-BUILD-0038"
-      ]
+      ],
+      "source_builds": [
+        "0038"
+      ],
+      "registration_basis": "EXPLICIT_BUILD_0038_FORMAL_ASSET",
+      "file_sha256": "f8de2e4372f8424d8ea46d8caa263dc9b7f0d7ca983be31fc5adcec1e82e4248"
     },
     {
       "repository_path": "10_Marketplace/Standards/CONTRACT_ORDER_RELEASE_STANDARD.md",
-      "asset_title": "CONTRACT ORDER RELEASE STANDARD",
+      "asset_title": "Contract and Order Release Standard",
       "asset_type": "Standard",
       "knowledge_system": "MPS",
       "intended_action": "UPDATE",
       "existing_uai": null,
-      "reconciliation_mode": "RESTORE_PRESERVE_IDENTITY",
+      "reconciliation_mode": "RESTORE_OR_BACKFILL_PRESERVE_IDENTITY",
       "allow_create_if_missing": true,
+      "allow_title_match": false,
       "proposed_version": "1.0.0",
       "proposed_status": "ACTIVE",
       "owner": "Certiaura",
@@ -1938,17 +2036,23 @@
       "next_review": "",
       "build_provenance": [
         "CERT-BUILD-0038"
-      ]
+      ],
+      "source_builds": [
+        "0038"
+      ],
+      "registration_basis": "EXPLICIT_BUILD_0038_FORMAL_ASSET",
+      "file_sha256": "07aee6ae5b78e4428174acb63a2ec8625e35c215d79b32cb1b5b06d49ebcb6e2"
     },
     {
       "repository_path": "10_Marketplace/Standards/CUSTOMER_ELIGIBILITY_JURISDICTION_STANDARD.md",
-      "asset_title": "CUSTOMER ELIGIBILITY JURISDICTION STANDARD",
+      "asset_title": "Customer Eligibility and Jurisdiction Standard",
       "asset_type": "Standard",
       "knowledge_system": "MPS",
       "intended_action": "UPDATE",
       "existing_uai": null,
-      "reconciliation_mode": "RESTORE_PRESERVE_IDENTITY",
+      "reconciliation_mode": "RESTORE_OR_BACKFILL_PRESERVE_IDENTITY",
       "allow_create_if_missing": true,
+      "allow_title_match": false,
       "proposed_version": "1.0.0",
       "proposed_status": "ACTIVE",
       "owner": "Certiaura",
@@ -1963,17 +2067,23 @@
       "next_review": "",
       "build_provenance": [
         "CERT-BUILD-0038"
-      ]
+      ],
+      "source_builds": [
+        "0038"
+      ],
+      "registration_basis": "EXPLICIT_BUILD_0038_FORMAL_ASSET",
+      "file_sha256": "ff5555776a2ea16310c4a0e68c1d2d803e6b9a089f7031baa013ba5aeb3bed61"
     },
     {
       "repository_path": "10_Marketplace/Standards/FULFILMENT_RECEIPT_STANDARD.md",
-      "asset_title": "FULFILMENT RECEIPT STANDARD",
+      "asset_title": "Fulfilment, Cold-Chain and Goods Receipt Standard",
       "asset_type": "Standard",
       "knowledge_system": "MPS",
       "intended_action": "UPDATE",
       "existing_uai": null,
-      "reconciliation_mode": "RESTORE_PRESERVE_IDENTITY",
+      "reconciliation_mode": "RESTORE_OR_BACKFILL_PRESERVE_IDENTITY",
       "allow_create_if_missing": true,
+      "allow_title_match": false,
       "proposed_version": "1.0.0",
       "proposed_status": "ACTIVE",
       "owner": "Certiaura",
@@ -1988,17 +2098,23 @@
       "next_review": "",
       "build_provenance": [
         "CERT-BUILD-0038"
-      ]
+      ],
+      "source_builds": [
+        "0038"
+      ],
+      "registration_basis": "EXPLICIT_BUILD_0038_FORMAL_ASSET",
+      "file_sha256": "e97909855413a5a35d5f19ab2245d6b07105664d1f87e35c7fd04b8be0b13061"
     },
     {
       "repository_path": "10_Marketplace/Standards/INCIDENT_WITHDRAWAL_RECALL_STANDARD.md",
-      "asset_title": "INCIDENT WITHDRAWAL RECALL STANDARD",
+      "asset_title": "Incident, Withdrawal and Recall Standard",
       "asset_type": "Standard",
       "knowledge_system": "MPS",
       "intended_action": "UPDATE",
       "existing_uai": null,
-      "reconciliation_mode": "RESTORE_PRESERVE_IDENTITY",
+      "reconciliation_mode": "RESTORE_OR_BACKFILL_PRESERVE_IDENTITY",
       "allow_create_if_missing": true,
+      "allow_title_match": false,
       "proposed_version": "1.0.0",
       "proposed_status": "ACTIVE",
       "owner": "Certiaura",
@@ -2013,20 +2129,26 @@
       "next_review": "",
       "build_provenance": [
         "CERT-BUILD-0038"
-      ]
+      ],
+      "source_builds": [
+        "0038"
+      ],
+      "registration_basis": "EXPLICIT_BUILD_0038_FORMAL_ASSET",
+      "file_sha256": "2ef03aa53c69127286aa156af6fb8e78761ca7bde63abcc51539710c06f6b3e3"
     },
     {
       "repository_path": "10_Marketplace/Standards/MARKETPLACE_ORDER_INCIDENT_RECALL_SETTLEMENT_STANDARD.md",
-      "asset_title": "MARKETPLACE ORDER INCIDENT RECALL SETTLEMENT STANDARD",
+      "asset_title": "Marketplace Contracting, Order Assurance, Fulfilment, Incident, Recall and Settlement Standard",
       "asset_type": "Standard",
       "knowledge_system": "MPS",
       "intended_action": "UPDATE",
       "existing_uai": null,
-      "reconciliation_mode": "RESTORE_PRESERVE_IDENTITY",
+      "reconciliation_mode": "RESTORE_OR_BACKFILL_PRESERVE_IDENTITY",
       "allow_create_if_missing": true,
+      "allow_title_match": false,
       "proposed_version": "1.0.0",
-      "proposed_status": "ACTIVE",
-      "owner": "Certiaura",
+      "proposed_status": " Proposed repository asset",
+      "owner": " Marketplace / Quality / Commercial",
       "completion_percentage": 100,
       "parent_assets": [],
       "child_assets": [],
@@ -2038,17 +2160,23 @@
       "next_review": "",
       "build_provenance": [
         "CERT-BUILD-0038"
-      ]
+      ],
+      "source_builds": [
+        "0038"
+      ],
+      "registration_basis": "EXPLICIT_BUILD_0038_FORMAL_ASSET",
+      "file_sha256": "6a4e1783337df99e5dd929caa97728b5a3445ccd5796636627f4ffaa7ad13977"
     },
     {
       "repository_path": "10_Marketplace/Standards/RESPONSIBLE_USE_COMMUNICATION_STANDARD.md",
-      "asset_title": "RESPONSIBLE USE COMMUNICATION STANDARD",
+      "asset_title": "Responsible-Use Communication Standard",
       "asset_type": "Standard",
       "knowledge_system": "MPS",
       "intended_action": "UPDATE",
       "existing_uai": null,
-      "reconciliation_mode": "RESTORE_PRESERVE_IDENTITY",
+      "reconciliation_mode": "RESTORE_OR_BACKFILL_PRESERVE_IDENTITY",
       "allow_create_if_missing": true,
+      "allow_title_match": false,
       "proposed_version": "1.0.0",
       "proposed_status": "ACTIVE",
       "owner": "Certiaura",
@@ -2063,19 +2191,25 @@
       "next_review": "",
       "build_provenance": [
         "CERT-BUILD-0038"
-      ]
+      ],
+      "source_builds": [
+        "0038"
+      ],
+      "registration_basis": "EXPLICIT_BUILD_0038_FORMAL_ASSET",
+      "file_sha256": "3bb79dbcbf1ddb04db2932bab29512c74eacabda719c382e964569952f3eb5bc"
     },
     {
       "repository_path": "10_Marketplace/Standards/SUPPLIER_PORTFOLIO_RESILIENCE_COMMERCIAL_STANDARD.md",
-      "asset_title": "SUPPLIER PORTFOLIO RESILIENCE COMMERCIAL STANDARD",
+      "asset_title": "CERTIAURA SUPPLIER PORTFOLIO RISK, SOURCING RESILIENCE, PERFORMANCE ANALYTICS AND COMMERCIAL CONTROLS STANDARD",
       "asset_type": "Standard",
       "knowledge_system": "MPS",
       "intended_action": "UPDATE",
       "existing_uai": null,
-      "reconciliation_mode": "RESTORE_PRESERVE_IDENTITY",
+      "reconciliation_mode": "RESTORE_OR_BACKFILL_PRESERVE_IDENTITY",
       "allow_create_if_missing": true,
+      "allow_title_match": false,
       "proposed_version": "1.0.0",
-      "proposed_status": "ACTIVE",
+      "proposed_status": " Repository-ready approved build",
       "owner": "Certiaura",
       "completion_percentage": 100,
       "parent_assets": [],
@@ -2088,17 +2222,23 @@
       "next_review": "",
       "build_provenance": [
         "CERT-BUILD-0038"
-      ]
+      ],
+      "source_builds": [
+        "0038"
+      ],
+      "registration_basis": "EXPLICIT_BUILD_0038_FORMAL_ASSET",
+      "file_sha256": "7f36cc39a8759d5ee4f7c178f3761d46f94a43abc04b6255e030429ed861854f"
     },
     {
       "repository_path": "13_Project_Genesis/Standards/AUTOMATION_BOUNDARY_0036.md",
-      "asset_title": "AUTOMATION BOUNDARY 0036",
+      "asset_title": "Build 0036 Automation Boundary",
       "asset_type": "Standard",
       "knowledge_system": "SYS",
       "intended_action": "UPDATE",
       "existing_uai": null,
-      "reconciliation_mode": "RESTORE_PRESERVE_IDENTITY",
+      "reconciliation_mode": "RESTORE_OR_BACKFILL_PRESERVE_IDENTITY",
       "allow_create_if_missing": true,
+      "allow_title_match": false,
       "proposed_version": "1.0.0",
       "proposed_status": "ACTIVE",
       "owner": "Certiaura",
@@ -2113,19 +2253,56 @@
       "next_review": "",
       "build_provenance": [
         "CERT-BUILD-0038"
-      ]
+      ],
+      "source_builds": [
+        "0038"
+      ],
+      "registration_basis": "EXPLICIT_BUILD_0038_FORMAL_ASSET",
+      "file_sha256": "077ad97d61e7efb69f69124ad9552b7ca7d4c09089aedc1d131b0ae7f0e80745"
+    },
+    {
+      "repository_path": "13_Project_Genesis/Standards/HISTORICAL_ASSET_REGISTER_BACKFILL_STANDARD.md",
+      "asset_title": "CERTIAURA HISTORICAL ASSET REGISTER BACKFILL STANDARD",
+      "asset_type": "Standard",
+      "knowledge_system": "SYS",
+      "intended_action": "UPDATE",
+      "existing_uai": null,
+      "reconciliation_mode": "RESTORE_OR_BACKFILL_PRESERVE_IDENTITY",
+      "allow_create_if_missing": true,
+      "allow_title_match": false,
+      "proposed_version": "1.0.0",
+      "proposed_status": " ACTIVE",
+      "owner": " Certiaura",
+      "completion_percentage": 100,
+      "parent_assets": [],
+      "child_assets": [],
+      "relationships": [],
+      "evidence_links": [],
+      "report_links": [],
+      "marketplace_links": [],
+      "last_review": "2026-07-19",
+      "next_review": "",
+      "build_provenance": [
+        "CERT-BUILD-0038"
+      ],
+      "source_builds": [
+        "0038"
+      ],
+      "registration_basis": "EXPLICIT_BUILD_0038_FORMAL_ASSET",
+      "file_sha256": "09643e04c16eba2e5bafad061efa139848bb7fffca62473baf4ec2f5cfce0e43"
     },
     {
       "repository_path": "Standards/CERTIAURA_BUILD_PACK_ROUTING_STANDARD.md",
-      "asset_title": "CERTIAURA BUILD PACK ROUTING STANDARD",
+      "asset_title": "Certiaura Build Pack Routing Standard",
       "asset_type": "Standard",
       "knowledge_system": "SYS",
       "intended_action": "UPDATE",
       "existing_uai": null,
-      "reconciliation_mode": "RESTORE_PRESERVE_IDENTITY",
+      "reconciliation_mode": "RESTORE_OR_BACKFILL_PRESERVE_IDENTITY",
       "allow_create_if_missing": true,
+      "allow_title_match": false,
       "proposed_version": "1.0.0",
-      "proposed_status": "ACTIVE",
+      "proposed_status": " Locked implementation control",
       "owner": "Certiaura",
       "completion_percentage": 100,
       "parent_assets": [],
@@ -2138,18 +2315,12 @@
       "next_review": "",
       "build_provenance": [
         "CERT-BUILD-0038"
-      ]
+      ],
+      "source_builds": [
+        "0038"
+      ],
+      "registration_basis": "EXPLICIT_BUILD_0038_FORMAL_ASSET",
+      "file_sha256": "850c35f0cf3de8484750dfd7c8e6e1513787e463075a5a5bff1ba1c423498af0"
     }
-  ],
-  "identity_policy": {
-    "preserve_existing_uai": true,
-    "match_order": [
-      "existing_uai",
-      "canonical_repository_path",
-      "asset_title_plus_knowledge_system"
-    ],
-    "allocate_if_no_match": true,
-    "quarantine_ambiguous_matches": true,
-    "reuse_retired_identifiers": false
-  }
+  ]
 }

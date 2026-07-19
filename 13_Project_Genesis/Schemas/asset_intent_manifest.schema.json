@@ -85,9 +85,37 @@
           },
           "allow_create_if_missing": {
             "type": "boolean"
+          },
+          "asset_type": {
+            "type": "string"
+          },
+          "source_builds": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "registration_basis": {
+            "type": "string"
+          },
+          "file_sha256": {
+            "type": "string",
+            "pattern": "^[a-f0-9]{64}$"
+          },
+          "build_provenance": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "reconciliation_mode": {
+            "type": "string"
           }
         }
       }
+    },
+    "full_historical_reconciliation": {
+      "type": "boolean"
     }
   }
 }

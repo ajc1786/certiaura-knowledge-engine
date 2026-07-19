@@ -19,12 +19,17 @@
     "Next Review",
     "Change History",
     "Build Provenance",
-    "Last Updated"
+    "Last Updated",
+    "Asset Type",
+    "Source Builds",
+    "Registration Basis",
+    "File SHA256"
   ],
   "supported_formats": [
     "CSV",
     "JSON list",
     "JSON object with assets array"
   ],
-  "uai_pattern": "CERT-[SYSTEM]-[NUMBER]"
+  "uai_pattern": "CERT-[SYSTEM]-[NUMBER]",
+  "historical_backfill": "Repository-wide census of all registerable prior items"
 }

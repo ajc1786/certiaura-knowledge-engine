@@ -1,0 +1,40 @@
+{
+  "policy_version": "1.0.0",
+  "purpose": "Classify and reconcile all registerable historical Certiaura repository items, not only files restored from Builds 0035E to 0036.",
+  "canonical_roots": [
+    "00_Governance", "01_Knowledge_Systems", "02_Peptides", "03_Biology",
+    "04_Conditions", "05_Monitoring", "06_Evidence", "07_Goals",
+    "08_Product_Passports", "09_Cost_Intelligence", "10_Marketplace",
+    "11_Academy", "12_Reports", "13_Project_Genesis", "Assets", "Database",
+    "Documentation", "Images", "Schemas", "Scripts", "Standards", "Templates"
+  ],
+  "excluded_directory_names": [
+    ".git", ".github", ".certiaura_backups", "__pycache__", "node_modules",
+    ".venv", "venv", "Build_Records", "Tests", "Examples", "Fixtures"
+  ],
+  "excluded_filename_patterns": [
+    "*.pyc", "*.pyo", "*.tmp", "*.temp", "*.bak", "*.log", "*.sha256",
+    "PACKAGE_CONTENT_SHA256.csv", "FILE_INVENTORY.csv", "BUILD_MANIFEST.json",
+    "CHANGE_LOG_PROPOSED.csv", "COMMIT_MESSAGE.txt", "TEST_REPORT.txt",
+    "*.example.*", "*.generated.*"
+  ],
+  "excluded_exact_paths": [],
+  "registerable_extensions": [
+    ".md", ".json", ".yaml", ".yml", ".csv", ".py", ".ps1", ".sql",
+    ".html", ".htm", ".xml", ".txt", ".pdf", ".docx", ".xlsx", ".pptx",
+    ".png", ".jpg", ".jpeg", ".svg", ".webp"
+  ],
+  "include_readme_files": true,
+  "include_registers": true,
+  "include_schemas": true,
+  "include_templates": true,
+  "include_scripts": true,
+  "include_dashboards": true,
+  "include_media": true,
+  "default_status": "ACTIVE",
+  "default_owner": "Certiaura",
+  "default_version": "1.0.0",
+  "allowed_missing_register_statuses": [
+    "RETIRED", "SUPERSEDED", "ARCHIVED", "DEPRECATED", "APPROVED_EXCEPTION"
+  ]
+}

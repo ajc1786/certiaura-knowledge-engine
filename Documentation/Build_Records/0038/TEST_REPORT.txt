@@ -1,22 +1,16 @@
+Build 0038 Version 1.3.0 focused validation
 
-test_allocates_next_uai_for_genuine_new_asset (test_build_0038_asset_register_transaction.AssetRegisterTests.test_allocates_next_uai_for_genuine_new_asset) ... ok
-test_ambiguous_register_blocks (test_build_0038_asset_register_transaction.AssetRegisterTests.test_ambiguous_register_blocks) ... ok
-test_duplicate_uai_blocks (test_build_0038_asset_register_transaction.AssetRegisterTests.test_duplicate_uai_blocks) ... ok
-test_missing_register_blocks (test_build_0038_asset_register_transaction.AssetRegisterTests.test_missing_register_blocks) ... ok
-test_path_traversal_rejected (test_build_0038_asset_register_transaction.AssetRegisterTests.test_path_traversal_rejected) ... ok
-test_preserves_existing_uai_by_path (test_build_0038_asset_register_transaction.AssetRegisterTests.test_preserves_existing_uai_by_path) ... ok
-test_resolve_unique_register (test_build_0038_asset_register_transaction.AssetRegisterTests.test_resolve_unique_register) ... ok
-test_wrapper_root_rejected_as_unauthorised (test_build_0038_asset_register_transaction.AssetRegisterTests.test_wrapper_root_rejected_as_unauthorised) ... ok
-
-----------------------------------------------------------------------
-Ran 8 tests in 0.012s
-
-OK
-
-Synthetic transactional import against a temporary repository: PASS
-- Unique canonical Master Asset Register resolved
-- 402 repository-relative files planned
-- 21 formal assets reconciled
-- UAI allocation and preservation controls passed
-- Checkpoint advanced to Version 1.2.1 after import
-- No __pycache__ or .pyc files left in repository
+- Asset register transaction tests: 8/8 passed
+- Full historical backfill tests: 7/7 passed
+- Build-pack routing tests: 4/4 passed
+- Total focused automated tests: 19/19 passed
+- Synthetic repository dry run: passed
+- Synthetic repository transactional apply: passed
+- Existing Universal Asset Identifier preservation: passed
+- New identifier allocation by Knowledge System: passed
+- Prior-build provenance recovery: passed
+- Duplicate incoming UAI blocking: passed
+- Duplicate-title path separation: passed
+- Active orphan register entry blocking: passed
+- Retired orphan exception handling: passed
+- Full rollback-safe transaction: passed

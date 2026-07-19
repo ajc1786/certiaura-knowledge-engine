@@ -5,7 +5,7 @@
   "approved_replacements": [
     {
       "path": "00_Governance/CERTIAURA_LOCKED_BUILD_CONTINUITY_AND_CHECKPOINT.md",
-      "reason": "Founder-authorised continuity checkpoint progression from 1.1.0 to 1.2.0",
+      "reason": "Founder-authorised continuity checkpoint progression from 1.1.0 to 1.3.0 with full historical asset reconciliation",
       "backup_required": true
     },
     {

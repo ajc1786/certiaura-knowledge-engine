@@ -13,15 +13,17 @@ REGISTER_NAME_RE = re.compile(r"master[^a-z0-9]*asset[^a-z0-9]*register", re.I)
 UAI_RE = re.compile(r"^CERT-([A-Z]+)-(\d{6})$")
 
 CANONICAL_FIELDS = [
-    "Universal Asset Identifier", "Asset Title", "Knowledge System", "Repository Path",
+    "Universal Asset Identifier", "Asset Title", "Asset Type", "Knowledge System", "Repository Path",
     "Version", "Status", "Owner", "Completion Percentage", "Parent Assets", "Child Assets",
     "Relationship List", "Evidence Links", "Report Links", "Marketplace Links", "Last Review",
-    "Next Review", "Change History", "Build Provenance", "Last Updated"
+    "Next Review", "Change History", "Build Provenance", "Source Builds", "Registration Basis",
+    "File SHA256", "Last Updated"
 ]
 
 ALIASES = {
     "uai": ["Universal Asset Identifier", "UAI", "Asset ID", "Asset_ID", "asset_id", "id"],
     "title": ["Asset Title", "Title", "Name", "asset_title", "title"],
+    "asset_type": ["Asset Type", "Type", "asset_type", "type"],
     "system": ["Knowledge System", "System", "knowledge_system", "system"],
     "path": ["Repository Path", "Canonical Path", "Path", "repository_path", "canonical_path", "path"],
     "version": ["Version", "version"],
@@ -38,6 +40,9 @@ ALIASES = {
     "next_review": ["Next Review", "next_review"],
     "history": ["Change History", "change_history"],
     "provenance": ["Build Provenance", "build_provenance"],
+    "source_builds": ["Source Builds", "source_builds"],
+    "registration_basis": ["Registration Basis", "registration_basis"],
+    "file_sha256": ["File SHA256", "SHA256", "sha256", "file_sha256"],
     "updated": ["Last Updated", "last_updated"]
 }
 
@@ -115,12 +120,13 @@ def _alias_value(row: dict[str, Any], key: str) -> str:
 def _canonicalise(row: dict[str, Any]) -> dict[str, str]:
     out = {str(k): "" if v is None else (json.dumps(v, ensure_ascii=False) if isinstance(v, (dict, list)) else str(v)) for k, v in row.items()}
     mapping = {
-        "Universal Asset Identifier": "uai", "Asset Title": "title", "Knowledge System": "system",
+        "Universal Asset Identifier": "uai", "Asset Title": "title", "Asset Type": "asset_type", "Knowledge System": "system",
         "Repository Path": "path", "Version": "version", "Status": "status", "Owner": "owner",
         "Completion Percentage": "completion", "Parent Assets": "parents", "Child Assets": "children",
         "Relationship List": "relationships", "Evidence Links": "evidence", "Report Links": "reports",
         "Marketplace Links": "marketplace", "Last Review": "last_review", "Next Review": "next_review",
-        "Change History": "history", "Build Provenance": "provenance", "Last Updated": "updated"
+        "Change History": "history", "Build Provenance": "provenance", "Source Builds": "source_builds",
+        "Registration Basis": "registration_basis", "File SHA256": "file_sha256", "Last Updated": "updated"
     }
     for canonical, alias_key in mapping.items():
         if not out.get(canonical):
@@ -213,6 +219,15 @@ def plan_reconciliation(rows: list[dict[str, str]], formal_assets: list[dict[str
     maxima = _next_numbers(working)
     now = datetime.now(timezone.utc).isoformat()
 
+    incoming_uai_paths: dict[str, set[str]] = {}
+    for incoming_asset in formal_assets:
+        incoming_uai = (incoming_asset.get("existing_uai") or "").strip()
+        if incoming_uai:
+            incoming_uai_paths.setdefault(incoming_uai, set()).add(norm_path(incoming_asset.get("repository_path")))
+    for incoming_uai, paths in incoming_uai_paths.items():
+        if len(paths) > 1:
+            conflicts.append({"code": "DUPLICATE_INCOMING_UAI", "value": incoming_uai, "paths": sorted(paths)})
+
     for asset in formal_assets:
         path = asset["repository_path"].replace("\\", "/").strip("/")
         title = asset["asset_title"].strip()
@@ -224,7 +239,7 @@ def plan_reconciliation(rows: list[dict[str, str]], formal_assets: list[dict[str
             matches = [i for i, row in enumerate(working) if row.get("Universal Asset Identifier", "").strip() == supplied_uai]
         if not matches:
             matches = [i for i, row in enumerate(working) if norm_path(row.get("Repository Path")) == norm_path(path)]
-        if not matches:
+        if not matches and asset.get("allow_title_match", False):
             matches = [i for i, row in enumerate(working) if norm_text(row.get("Asset Title")) == norm_text(title) and norm_text(row.get("Knowledge System")) == norm_text(system)]
 
         if len(matches) > 1:
@@ -241,6 +256,7 @@ def plan_reconciliation(rows: list[dict[str, str]], formal_assets: list[dict[str
             row.update({
                 "Universal Asset Identifier": preserved,
                 "Asset Title": title,
+                "Asset Type": asset.get("asset_type") or row.get("Asset Type") or "Knowledge Asset",
                 "Knowledge System": system,
                 "Repository Path": path,
                 "Version": asset.get("proposed_version") or row.get("Version") or "1.0.0",
@@ -252,7 +268,10 @@ def plan_reconciliation(rows: list[dict[str, str]], formal_assets: list[dict[str
                 "Evidence Links": _serialise(asset.get("evidence_links"), row.get("Evidence Links", "")),
                 "Report Links": _serialise(asset.get("report_links"), row.get("Report Links", "")),
                 "Marketplace Links": _serialise(asset.get("marketplace_links"), row.get("Marketplace Links", "")),
-                "Build Provenance": _append_history(row.get("Build Provenance", ""), f"CERT-BUILD-{build_number}"),
+                "Build Provenance": _merge_list_history(row.get("Build Provenance", ""), asset.get("build_provenance") or [f"CERT-BUILD-{build_number}"]),
+                "Source Builds": _merge_list_history(row.get("Source Builds", ""), asset.get("source_builds") or []),
+                "Registration Basis": asset.get("registration_basis") or row.get("Registration Basis") or "BUILD_MANIFEST",
+                "File SHA256": asset.get("file_sha256") or row.get("File SHA256") or "",
                 "Change History": _append_history(row.get("Change History", ""), f"{now}: restored/reconciled by Build {build_number}"),
                 "Last Updated": now,
             })
@@ -266,6 +285,7 @@ def plan_reconciliation(rows: list[dict[str, str]], formal_assets: list[dict[str
             new_row.update({
                 "Universal Asset Identifier": uai,
                 "Asset Title": title,
+                "Asset Type": asset.get("asset_type") or "Knowledge Asset",
                 "Knowledge System": system,
                 "Repository Path": path,
                 "Version": asset.get("proposed_version") or "1.0.0",
@@ -281,7 +301,10 @@ def plan_reconciliation(rows: list[dict[str, str]], formal_assets: list[dict[str
                 "Last Review": asset.get("last_review") or "",
                 "Next Review": asset.get("next_review") or "",
                 "Change History": f"{now}: created/restored by Build {build_number}",
-                "Build Provenance": f"CERT-BUILD-{build_number}",
+                "Build Provenance": _merge_list_history("", asset.get("build_provenance") or [f"CERT-BUILD-{build_number}"]),
+                "Source Builds": _merge_list_history("", asset.get("source_builds") or []),
+                "Registration Basis": asset.get("registration_basis") or "BUILD_MANIFEST",
+                "File SHA256": asset.get("file_sha256") or "",
                 "Last Updated": now,
             })
             working.append(new_row)
@@ -312,6 +335,19 @@ def _serialise(value: Any, existing: str) -> str:
         return value
     return json.dumps(value, ensure_ascii=False, sort_keys=True)
 
+
+
+def _merge_list_history(existing: str, values: Any) -> str:
+    current = [x.strip() for x in re.split(r"[|,;]", existing or "") if x.strip()]
+    if isinstance(values, str):
+        incoming = [x.strip() for x in re.split(r"[|,;]", values) if x.strip()]
+    else:
+        incoming = [str(x).strip() for x in (values or []) if str(x).strip()]
+    merged: list[str] = []
+    for item in current + incoming:
+        if item not in merged:
+            merged.append(item)
+    return " | ".join(merged)
 
 def _append_history(existing: str, item: str) -> str:
     existing = (existing or "").strip()
