@@ -11,3 +11,15 @@ Three non-identical canonical path collisions were identified across the restora
 | `13_Project_Genesis/Registers/AUDIT_EVENT_REGISTER.csv` | 0035K, 0036 | Superset column structure supporting both event models |
 
 Python cache files and compiled `.pyc` files were excluded as generated artefacts.
+
+
+## Live Master Asset Register reconciliation correction
+
+The previous repair run identified two systemic identity-model conflicts:
+
+| Conflict | Previous effect | Version 1.4.0 resolution |
+|---|---|---|
+| New UAI allocation collided with explicit historical UAI values appearing later in the census | 238 duplicate allocations and 238 post-reconciliation duplicates | Reserve every valid incoming UAI before allocating any new identifier |
+| Several repository files explicitly represented the same formal asset and UAI | 15 duplicate incoming UAI groups and 323 coverage failures | Consolidate to one canonical register row and record other representations in `Supporting Files` |
+
+The transaction remains blocked for genuine duplicate register rows, ambiguous identities, orphan active entries and non-identical file collisions.

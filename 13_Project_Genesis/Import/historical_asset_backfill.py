@@ -72,6 +72,7 @@ DEFAULT_POLICY: dict[str, Any] = {
 }
 
 TEXT_EXTENSIONS = {".md", ".json", ".yaml", ".yml", ".csv", ".py", ".ps1", ".sql", ".html", ".htm", ".xml", ".txt"}
+DOWNLOAD_DUPLICATE_SUFFIX_RE = re.compile(r"\(\d+\)(?=\.[^.]+$)")
 
 
 def load_policy(path: Path | None) -> dict[str, Any]:
@@ -99,6 +100,8 @@ def _is_excluded(rel: str, policy: dict[str, Any], register_rel: str | None) -> 
         return True, "CANONICAL_REGISTER_SELF_EXCLUSION"
     if norm_path(rel) in {norm_path(x) for x in policy.get("excluded_exact_paths", [])}:
         return True, "EXCLUDED_EXACT_PATH"
+    if DOWNLOAD_DUPLICATE_SUFFIX_RE.search(p.name):
+        return True, "DOWNLOAD_DUPLICATE_SUFFIX"
     if _matches_glob(p.name, policy.get("excluded_filename_patterns", [])):
         return True, "EXCLUDED_FILENAME_PATTERN"
     if p.suffix.lower() not in set(policy["registerable_extensions"]):
@@ -331,10 +334,118 @@ def _merge_explicit_assets(discovered: list[dict[str, Any]], explicit: list[dict
     return [merged[k] for k in sorted(merged)]
 
 
+def _canonical_representation_rank(asset: dict[str, Any]) -> tuple[int, int, str]:
+    """Choose one canonical repository path when one UAI has several file representations."""
+    path = PurePosixPath(asset["repository_path"])
+    name = path.name.lower()
+    suffix = path.suffix.lower()
+    if suffix == ".json" and "flagship" in name:
+        tier = 0
+    elif suffix == ".json":
+        tier = 1
+    elif suffix == ".md" and "flagship" in name:
+        tier = 2
+    elif suffix == ".md":
+        tier = 3
+    else:
+        tier = 4
+    return (tier, len(path.parts), path.as_posix().lower())
+
+
+def consolidate_shared_uai_representations(
+    assets: list[dict[str, Any]],
+) -> tuple[list[dict[str, Any]], list[dict[str, Any]]]:
+    """
+    A Universal Asset Identifier identifies one formal asset, not one physical file.
+    JSON, Markdown, maps and other serialisations that explicitly declare the same UAI
+    are consolidated into one register row. The preferred representation becomes the
+    canonical Repository Path and the others are retained in Supporting Files.
+    """
+    explicit_groups: dict[str, list[dict[str, Any]]] = defaultdict(list)
+    independent: list[dict[str, Any]] = []
+
+    for asset in assets:
+        uai = (asset.get("existing_uai") or "").strip()
+        if UAI_RE.fullmatch(uai):
+            explicit_groups[uai].append(asset)
+        else:
+            independent.append(asset)
+
+    consolidated: list[dict[str, Any]] = list(independent)
+    events: list[dict[str, Any]] = []
+
+    for uai, group in sorted(explicit_groups.items()):
+        ordered = sorted(group, key=_canonical_representation_rank)
+        canonical = deepcopy(ordered[0])
+        supporting = [x["repository_path"] for x in ordered[1:]]
+
+        source_builds = sorted({
+            str(build)
+            for item in ordered
+            for build in item.get("source_builds", [])
+            if str(build).strip()
+        })
+        provenance = []
+        for item in ordered:
+            for value in item.get("build_provenance", []):
+                if value not in provenance:
+                    provenance.append(value)
+
+        canonical["supporting_files"] = supporting
+        canonical["source_builds"] = source_builds
+        canonical["build_provenance"] = provenance or canonical.get("build_provenance", [])
+        canonical["representation_count"] = len(ordered)
+        canonical["registration_basis"] = (
+            "HISTORICAL_REPOSITORY_CENSUS_CONSOLIDATED_SHARED_UAI"
+            if len(ordered) > 1
+            else canonical.get("registration_basis", "HISTORICAL_REPOSITORY_CENSUS")
+        )
+        consolidated.append(canonical)
+
+        if supporting:
+            events.append({
+                "code": "SHARED_UAI_REPRESENTATIONS_CONSOLIDATED",
+                "uai": uai,
+                "canonical_path": canonical["repository_path"],
+                "supporting_files": supporting,
+                "representation_count": len(ordered),
+            })
+
+    return sorted(consolidated, key=lambda x: norm_path(x["repository_path"])), events
+
+
+def _deserialise_paths(value: Any) -> list[str]:
+    if value in (None, "", [], {}):
+        return []
+    if isinstance(value, list):
+        return [str(x).strip() for x in value if str(x).strip()]
+    if isinstance(value, str):
+        stripped = value.strip()
+        if not stripped:
+            return []
+        if stripped.startswith("["):
+            try:
+                parsed = json.loads(stripped)
+                if isinstance(parsed, list):
+                    return [str(x).strip() for x in parsed if str(x).strip()]
+            except Exception:
+                pass
+        return [x.strip() for x in re.split(r"\s*[|;]\s*", stripped) if x.strip()]
+    return [str(value).strip()]
+
+
 def _validate_register_coverage(repo: Path, rows: list[dict[str, str]], candidates: list[dict[str, Any]], policy: dict[str, Any], additional_paths: set[str] | None = None) -> list[dict[str, Any]]:
     errors: list[dict[str, Any]] = []
     additional_paths = {norm_path(x) for x in (additional_paths or set())}
-    by_path = {norm_path(row.get("Repository Path")): row for row in rows if norm_path(row.get("Repository Path"))}
+    by_path: dict[str, dict[str, str]] = {}
+    for row in rows:
+        canonical = norm_path(row.get("Repository Path"))
+        if canonical:
+            by_path[canonical] = row
+        for supporting in _deserialise_paths(row.get("Supporting Files", "")):
+            supporting_key = norm_path(supporting)
+            if supporting_key:
+                by_path[supporting_key] = row
     for asset in candidates:
         if norm_path(asset["repository_path"]) not in by_path:
             errors.append({"code": "UNREGISTERED_HISTORICAL_ASSET", "path": asset["repository_path"]})
@@ -375,7 +486,8 @@ def plan_full_historical_reconciliation(
     register = resolve_register(repo, explicit_register or CANONICAL_REGISTER_RELATIVE_PATH)
     rows, _ = load_register(register)
     census = discover_historical_assets(repo, policy, additional_files, register)
-    merged_assets = _merge_explicit_assets(census["registerable_assets"], base_manifest.get("formal_assets", []))
+    merged_assets_raw = _merge_explicit_assets(census["registerable_assets"], base_manifest.get("formal_assets", []))
+    merged_assets, representation_events = consolidate_shared_uai_representations(merged_assets_raw)
     plan = plan_reconciliation(rows, merged_assets, base_manifest.get("build_number", "0038"))
     coverage_errors = _validate_register_coverage(
         repo,
@@ -388,6 +500,9 @@ def plan_full_historical_reconciliation(
     summary = {
         **census["summary"],
         **{f"register_{k}": v for k, v in plan["summary"].items()},
+        "shared_uai_representation_groups": len(representation_events),
+        "supporting_file_links": sum(len(x.get("supporting_files", [])) for x in representation_events),
+        "canonical_assets_after_consolidation": len(merged_assets),
         "total_conflicts": len(conflicts),
     }
     return {
@@ -395,6 +510,7 @@ def plan_full_historical_reconciliation(
         "register_path": register.relative_to(repo).as_posix(),
         "census": census,
         "merged_formal_assets": merged_assets,
+        "representation_consolidation_events": representation_events,
         "changes": plan["changes"],
         "conflicts": conflicts,
         "summary": summary,

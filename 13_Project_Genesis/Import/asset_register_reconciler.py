@@ -19,7 +19,7 @@ PLACEHOLDER_UAI_VALUES = {
 
 CANONICAL_FIELDS = [
     "Universal Asset Identifier", "Asset Title", "Asset Type", "Knowledge System", "Repository Path",
-    "Version", "Status", "Owner", "Completion Percentage", "Parent Assets", "Child Assets",
+    "Supporting Files", "Version", "Status", "Owner", "Completion Percentage", "Parent Assets", "Child Assets",
     "Relationship List", "Evidence Links", "Report Links", "Marketplace Links", "Last Review",
     "Next Review", "Change History", "Build Provenance", "Source Builds", "Registration Basis",
     "File SHA256", "Last Updated"
@@ -31,6 +31,7 @@ ALIASES = {
     "asset_type": ["Asset Type", "Type", "asset_type", "type"],
     "system": ["Knowledge System", "System", "knowledge_system", "system"],
     "path": ["Repository Path", "Canonical Path", "Path", "repository_path", "canonical_path", "path"],
+    "supporting_files": ["Supporting Files", "Related Files", "supporting_files", "related_files"],
     "version": ["Version", "version"],
     "status": ["Status", "status"],
     "owner": ["Owner", "owner"],
@@ -137,7 +138,7 @@ def _canonicalise(row: dict[str, Any]) -> dict[str, str]:
     out = {str(k): "" if v is None else (json.dumps(v, ensure_ascii=False) if isinstance(v, (dict, list)) else str(v)) for k, v in row.items()}
     mapping = {
         "Universal Asset Identifier": "uai", "Asset Title": "title", "Asset Type": "asset_type", "Knowledge System": "system",
-        "Repository Path": "path", "Version": "version", "Status": "status", "Owner": "owner",
+        "Repository Path": "path", "Supporting Files": "supporting_files", "Version": "version", "Status": "status", "Owner": "owner",
         "Completion Percentage": "completion", "Parent Assets": "parents", "Child Assets": "children",
         "Relationship List": "relationships", "Evidence Links": "evidence", "Report Links": "reports",
         "Marketplace Links": "marketplace", "Last Review": "last_review", "Next Review": "next_review",
@@ -336,14 +337,17 @@ def plan_reconciliation(rows: list[dict[str, str]], formal_assets: list[dict[str
     maxima = _next_numbers(working)
     now = datetime.now(timezone.utc).isoformat()
 
-    incoming_uai_paths: dict[str, set[str]] = {}
+    # Reserve every valid incoming identifier before allocating any new identifiers.
+    # This prevents an early unnumbered file from being allocated an identifier that
+    # already belongs to a later historical asset in the same census.
+    reserved_incoming_uais: set[str] = set()
     for incoming_asset in formal_assets:
         incoming_uai = (incoming_asset.get("existing_uai") or "").strip()
-        if incoming_uai:
-            incoming_uai_paths.setdefault(incoming_uai, set()).add(norm_path(incoming_asset.get("repository_path")))
-    for incoming_uai, paths in incoming_uai_paths.items():
-        if len(paths) > 1:
-            conflicts.append({"code": "DUPLICATE_INCOMING_UAI", "value": incoming_uai, "paths": sorted(paths)})
+        match = UAI_RE.fullmatch(incoming_uai)
+        if match:
+            reserved_incoming_uais.add(incoming_uai)
+            system_code, number = match.group(1), int(match.group(2))
+            maxima[system_code] = max(maxima.get(system_code, 0), number)
 
     for asset in formal_assets:
         path = asset["repository_path"].replace("\\", "/").strip("/")
@@ -377,6 +381,7 @@ def plan_reconciliation(rows: list[dict[str, str]], formal_assets: list[dict[str
                 "Asset Type": asset.get("asset_type") or row.get("Asset Type") or "Knowledge Asset",
                 "Knowledge System": system,
                 "Repository Path": path,
+                "Supporting Files": _merge_list_history(row.get("Supporting Files", ""), asset.get("supporting_files") or []),
                 "Version": asset.get("proposed_version") or row.get("Version") or "1.0.0",
                 "Status": asset.get("proposed_status") or row.get("Status") or "ACTIVE",
                 "Owner": asset.get("owner") or row.get("Owner") or "Certiaura",
@@ -407,6 +412,7 @@ def plan_reconciliation(rows: list[dict[str, str]], formal_assets: list[dict[str
                 "Asset Type": asset.get("asset_type") or "Knowledge Asset",
                 "Knowledge System": system,
                 "Repository Path": path,
+                "Supporting Files": _merge_list_history("", asset.get("supporting_files") or []),
                 "Version": asset.get("proposed_version") or "1.0.0",
                 "Status": asset.get("proposed_status") or "ACTIVE",
                 "Owner": asset.get("owner") or "Certiaura",

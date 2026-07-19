@@ -1,0 +1,31 @@
+{
+  "build_number": "0038",
+  "package_version": "1.4.0",
+  "source": "Founder-provided live repair reports",
+  "previous_run": {
+    "valid": false,
+    "applied": false,
+    "repository_files_considered": 3089,
+    "registerable_files": 2879,
+    "original_register_rows": 1,
+    "legacy_placeholders_removed_planned": 1,
+    "total_conflicts": 814,
+    "conflict_counts": {
+      "UNREGISTERED_HISTORICAL_ASSET": 323,
+      "DUPLICATE_UAI": 238,
+      "DUPLICATE_UAI_AFTER_RECONCILIATION": 238,
+      "DUPLICATE_INCOMING_UAI": 15
+    }
+  },
+  "patched_replay": {
+    "input_registerable_files": 2879,
+    "shared_uai_groups_consolidated": 15,
+    "supporting_file_links": 18,
+    "canonical_assets_after_consolidation": 2861,
+    "blocking_conflicts": 0,
+    "legacy_placeholder_removed": true,
+    "identifier_reservation_test": "PASS",
+    "coverage_test": "PASS"
+  },
+  "decision": "Previous rollback was correct; use Version 1.4.0 only."
+}

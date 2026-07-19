@@ -1,9 +1,9 @@
 {
   "build_number": "0038",
   "build_id": "CERT-BUILD-0038",
-  "manifest_version": "1.2.0",
-  "generated_at": "2026-07-19T12:56:11.641065+00:00",
-  "purpose": "Restore Builds 0035E-0036, repair the exact canonical Master Asset Register, and reconcile all prior registerable repository items.",
+  "manifest_version": "1.4.0",
+  "generated_at": "2026-07-19T13:29:25.797315+00:00",
+  "purpose": "Build 0038 Version 1.4.0 rollback-safe restoration and full historical Master Asset Register reconciliation with one-UAI/one-asset representation consolidation.",
   "full_historical_reconciliation": true,
   "file_classifications": [
     {
@@ -1515,6 +1515,10 @@
       "classification": "BUILD_RECORD"
     },
     {
+      "path": "Documentation/Build_Records/0038/FAILURE_ROOT_CAUSE_AND_CORRECTION.md",
+      "classification": "BUILD_RECORD"
+    },
+    {
       "path": "Documentation/Build_Records/0038/FILE_INVENTORY.csv",
       "classification": "BUILD_RECORD"
     },
@@ -1528,6 +1532,10 @@
     },
     {
       "path": "Documentation/Build_Records/0038/HISTORICAL_ASSET_CENSUS_REPORT_TEMPLATE.json",
+      "classification": "BUILD_RECORD"
+    },
+    {
+      "path": "Documentation/Build_Records/0038/LIVE_FAILURE_REGRESSION_REPORT.json",
       "classification": "BUILD_RECORD"
     },
     {
@@ -1670,7 +1678,7 @@
       "reconciliation_mode": "RESTORE_OR_BACKFILL_PRESERVE_IDENTITY",
       "allow_create_if_missing": true,
       "allow_title_match": false,
-      "proposed_version": "1.2.0",
+      "proposed_version": "1.4.0",
       "proposed_status": "LOCKED_ACTIVE",
       "owner": "Certiaura",
       "completion_percentage": 100,
@@ -1689,7 +1697,7 @@
         "0038"
       ],
       "registration_basis": "EXPLICIT_BUILD_0038_FORMAL_ASSET",
-      "file_sha256": "7e3f7a97b68b2baeea75d3ba76d9439f0a0823a25f1f3c9d26d79384a28cd451"
+      "file_sha256": "98f3977cd138f1b79ea2c66d1aaccb8471a3f3115284fd35007b651d2cb6181f"
     },
     {
       "repository_path": "05_Monitoring/Standards/POST_MARKET_SURVEILLANCE_STANDARD.md",
@@ -2373,5 +2381,12 @@
       "registration_basis": "EXPLICIT_BUILD_0038_FORMAL_ASSET",
       "file_sha256": "850c35f0cf3de8484750dfd7c8e6e1513787e463075a5a5bff1ba1c423498af0"
     }
-  ]
+  ],
+  "historical_reconciliation_controls": {
+    "enabled": true,
+    "one_uai_one_formal_asset": true,
+    "supporting_files_field": "Supporting Files",
+    "reserve_incoming_uai_before_allocation": true,
+    "exclude_download_duplicate_suffixes": true
+  }
 }

@@ -37,5 +37,13 @@
   "fallback_windows_launcher": "13_Project_Genesis/Import/Run_Master_Asset_Register_Repair.cmd",
   "button_open_verification_report": "Documentation/Build_Records/0038/MASTER_ASSET_REGISTER_BUTTON_VERIFICATION.json",
   "legacy_placeholder_value_to_remove": "NO NEW UAI",
-  "minimum_valid_asset_rows_after_repair": 10
+  "minimum_valid_asset_rows_after_repair": 10,
+  "package_version": "1.4.0",
+  "shared_uai_representation_consolidation": true,
+  "reserve_incoming_uai_before_allocation": true,
+  "supporting_files_field": "Supporting Files",
+  "dry_run_acceptance": {
+    "total_conflicts": 0,
+    "allow_apply_only_if_valid": true
+  }
 }

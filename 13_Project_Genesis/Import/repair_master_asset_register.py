@@ -20,7 +20,7 @@ from asset_register_reconciler import (
     norm_path,
     resolve_register,
 )
-from historical_asset_backfill import reconcile_full_historical_repository
+from historical_asset_backfill import reconcile_full_historical_repository, _deserialise_paths
 
 BUILD_RECORD = Path("Documentation/Build_Records/0038")
 MANIFEST = BUILD_RECORD / "ASSET_INTENT_MANIFEST.json"
@@ -38,6 +38,7 @@ def verify(repo: Path) -> dict:
     invalid = []
     duplicate_uai = []
     duplicate_paths = []
+    missing_supporting_files = []
     seen_uai: dict[str, int] = {}
     seen_path: dict[str, int] = {}
     for index, row in enumerate(rows):
@@ -60,6 +61,16 @@ def verify(repo: Path) -> dict:
             if path in seen_path:
                 duplicate_paths.append({"path": path, "rows": [seen_path[path], index]})
             seen_path[path] = index
+        for supporting in _deserialise_paths(row.get("Supporting Files", "")):
+            supporting_path = norm_path(supporting)
+            if not supporting_path:
+                continue
+            if supporting_path in seen_path:
+                duplicate_paths.append({"path": supporting_path, "rows": [seen_path[supporting_path], index], "kind": "SUPPORTING_FILE_COLLISION"})
+            seen_path[supporting_path] = index
+            target = repo.joinpath(*Path(supporting).parts)
+            if not target.is_file():
+                missing_supporting_files.append({"row": index, "path": supporting})
     report = {
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "canonical_register_path": CANONICAL_REGISTER_RELATIVE_PATH.as_posix(),
@@ -70,12 +81,13 @@ def verify(repo: Path) -> dict:
         "invalid_rows": invalid,
         "duplicate_uai": duplicate_uai,
         "duplicate_paths": duplicate_paths,
+        "missing_supporting_files": missing_supporting_files,
         "button_open_target_verified": register == (repo / CANONICAL_REGISTER_RELATIVE_PATH).resolve(),
     }
     report["valid"] = (
         report["button_open_target_verified"] and
         len(valid_rows) >= 10 and
-        not placeholders and not invalid and not duplicate_uai and not duplicate_paths
+        not placeholders and not invalid and not duplicate_uai and not duplicate_paths and not missing_supporting_files
     )
     return report
 

@@ -2,8 +2,8 @@
   "build_id": "CERT-BUILD-0038",
   "build_number": "0038",
   "title": "repository restoration canonical routing and complete historical Master Asset Register reconciliation",
-  "package_version": "1.3.0",
-  "status": "GENERATED_DELIVERED_SUPERSEDES_PRIOR_0038_PACKAGES",
+  "package_version": "1.4.0",
+  "status": "GENERATED_DELIVERED_CONFLICT_RESOLUTION_REISSUE_SUPERSEDES_PRIOR_0038_PACKAGES",
   "restores_builds": [
     "0035E",
     "0035F",
@@ -22,7 +22,11 @@
     "preserve_existing_uai": true,
     "allocate_new_only_if_unmatched": true,
     "transactional_with_files": true,
-    "rollback_on_failure": true
+    "rollback_on_failure": true,
+    "one_uai_one_formal_asset": true,
+    "supporting_file_representation_consolidation": true,
+    "reserve_incoming_uai_before_allocation": true,
+    "exclude_download_duplicate_suffixes": true
   },
   "project_genesis_entry_point": "13_Project_Genesis/Import/transactional_build_import.py",
   "commit_message": "Add Certiaura Build 0038 repository restoration canonical routing and complete historical Master Asset Register reconciliation",
@@ -36,24 +40,38 @@
     "allocate_new_only_if_unmatched": true,
     "block_orphans_and_duplicates": true,
     "transactional_with_files": true,
-    "rollback_on_failure": true
+    "rollback_on_failure": true,
+    "one_uai_one_formal_asset": true,
+    "supporting_files_field": "Supporting Files",
+    "reserve_incoming_uai_before_allocation": true
   },
-  "package_file_count": 408,
+  "package_file_count": 415,
   "focused_tests": {
-    "passed": 19,
+    "passed": 22,
     "failed": 0
   },
   "syntax_validation": {
-    "json_files": 113,
-    "python_files": 82,
+    "json_files": 114,
+    "python_files": 84,
     "errors": 0
   },
   "synthetic_full_historical_reconciliation": {
     "dry_run": "PASS",
     "transactional_apply": "PASS",
-    "registerable_assets": 239,
-    "register_entries_after_import": 239,
+    "registerable_assets": 241,
+    "register_entries_after_import": 241,
+    "legacy_placeholder_removed": true,
     "uai_unique": true,
-    "checkpoint_version_after_import": "1.3.1"
+    "checkpoint_version_after_import": "1.4.1"
+  },
+  "live_failure_dataset_regression": {
+    "source": "Founder-provided Build 0038 repair reports",
+    "registerable_files": 2879,
+    "previous_total_conflicts": 814,
+    "previous_duplicate_allocation_conflicts": 476,
+    "previous_unregistered_coverage_conflicts": 323,
+    "shared_uai_groups": 15,
+    "patched_plan_conflicts": 0,
+    "patched_canonical_register_rows": 2860
   }
 }

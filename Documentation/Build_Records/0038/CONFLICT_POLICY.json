@@ -1,52 +1,187 @@
 {
   "build_number": "0038",
-  "policy_version": "1.0.0",
+  "policy_version": "1.1.0",
   "default_nonidentical_collision_action": "BLOCK",
   "approved_replacements": [
     {
       "path": "00_Governance/CERTIAURA_LOCKED_BUILD_CONTINUITY_AND_CHECKPOINT.md",
-      "reason": "Corrected Build 0038 canonical Master Asset Register repair reissue",
-      "requires_human_review": false
+      "reason": "Build 0038 Version 1.4.0 conflict-resolution reissue after live rollback",
+      "requires_human_review": false,
+      "backup_required": true
     },
     {
       "path": "13_Project_Genesis/Import/asset_register_reconciler.py",
-      "reason": "Corrected Build 0038 canonical Master Asset Register repair reissue",
-      "requires_human_review": false
+      "reason": "Build 0038 Version 1.4.0 conflict-resolution reissue after live rollback",
+      "requires_human_review": false,
+      "backup_required": true
     },
     {
       "path": "13_Project_Genesis/Import/build_pack_router.py",
-      "reason": "Upgrade import routing to the locked transactional standard",
+      "reason": "Build 0038 Version 1.4.0 conflict-resolution reissue after live rollback",
+      "requires_human_review": false,
       "backup_required": true
     },
     {
       "path": "13_Project_Genesis/Import/historical_asset_backfill.py",
-      "reason": "Corrected Build 0038 canonical Master Asset Register repair reissue",
-      "requires_human_review": false
+      "reason": "Build 0038 Version 1.4.0 conflict-resolution reissue after live rollback",
+      "requires_human_review": false,
+      "backup_required": true
+    },
+    {
+      "path": "13_Project_Genesis/Import/repair_master_asset_register.py",
+      "reason": "Build 0038 Version 1.4.0 conflict-resolution reissue after live rollback",
+      "requires_human_review": false,
+      "backup_required": true
     },
     {
       "path": "13_Project_Genesis/Import/transactional_build_import.py",
-      "reason": "Corrected Build 0038 canonical Master Asset Register repair reissue",
-      "requires_human_review": false
+      "reason": "Build 0038 Version 1.4.0 conflict-resolution reissue after live rollback",
+      "requires_human_review": false,
+      "backup_required": true
+    },
+    {
+      "path": "13_Project_Genesis/Tests/test_build_0038_asset_register_transaction.py",
+      "reason": "Build 0038 Version 1.4.0 conflict-resolution reissue after live rollback",
+      "requires_human_review": false,
+      "backup_required": true
+    },
+    {
+      "path": "13_Project_Genesis/Tests/test_build_0038_full_historical_backfill.py",
+      "reason": "Build 0038 Version 1.4.0 conflict-resolution reissue after live rollback",
+      "requires_human_review": false,
+      "backup_required": true
     },
     {
       "path": "Documentation/Build_Records/0038/ASSET_INTENT_MANIFEST.json",
-      "reason": "Corrected Build 0038 canonical Master Asset Register repair reissue",
-      "requires_human_review": false
+      "reason": "Build 0038 Version 1.4.0 conflict-resolution reissue after live rollback",
+      "requires_human_review": false,
+      "backup_required": true
+    },
+    {
+      "path": "Documentation/Build_Records/0038/ASSET_REGISTER_CHANGE_REPORT_TEMPLATE.json",
+      "reason": "Build 0038 Version 1.4.0 conflict-resolution reissue after live rollback",
+      "requires_human_review": false,
+      "backup_required": true
     },
     {
       "path": "Documentation/Build_Records/0038/BUILD_0038_READ_ME_FIRST.md",
-      "reason": "Corrected Build 0038 canonical Master Asset Register repair reissue",
-      "requires_human_review": false
+      "reason": "Build 0038 Version 1.4.0 conflict-resolution reissue after live rollback",
+      "requires_human_review": false,
+      "backup_required": true
+    },
+    {
+      "path": "Documentation/Build_Records/0038/BUILD_MANIFEST.json",
+      "reason": "Build 0038 Version 1.4.0 conflict-resolution reissue after live rollback",
+      "requires_human_review": false,
+      "backup_required": true
+    },
+    {
+      "path": "Documentation/Build_Records/0038/COLLISION_RESOLUTION_REPORT.md",
+      "reason": "Build 0038 Version 1.4.0 conflict-resolution reissue after live rollback",
+      "requires_human_review": false,
+      "backup_required": true
     },
     {
       "path": "Documentation/Build_Records/0038/COMMIT_MESSAGE.txt",
-      "reason": "Corrected Build 0038 canonical Master Asset Register repair reissue",
-      "requires_human_review": false
+      "reason": "Build 0038 Version 1.4.0 conflict-resolution reissue after live rollback",
+      "requires_human_review": false,
+      "backup_required": true
+    },
+    {
+      "path": "Documentation/Build_Records/0038/CONFLICT_POLICY.json",
+      "reason": "Build 0038 Version 1.4.0 conflict-resolution reissue after live rollback",
+      "requires_human_review": false,
+      "backup_required": true
+    },
+    {
+      "path": "Documentation/Build_Records/0038/FAILURE_ROOT_CAUSE_AND_CORRECTION.md",
+      "reason": "Build 0038 Version 1.4.0 conflict-resolution reissue after live rollback",
+      "requires_human_review": false,
+      "backup_required": true
+    },
+    {
+      "path": "Documentation/Build_Records/0038/FILE_INVENTORY.csv",
+      "reason": "Build 0038 Version 1.4.0 conflict-resolution reissue after live rollback",
+      "requires_human_review": false,
+      "backup_required": true
+    },
+    {
+      "path": "Documentation/Build_Records/0038/FULL_HISTORICAL_ASSET_REGISTER_REPORT_TEMPLATE.json",
+      "reason": "Build 0038 Version 1.4.0 conflict-resolution reissue after live rollback",
+      "requires_human_review": false,
+      "backup_required": true
+    },
+    {
+      "path": "Documentation/Build_Records/0038/HISTORICAL_ASSET_BACKFILL_POLICY.json",
+      "reason": "Build 0038 Version 1.4.0 conflict-resolution reissue after live rollback",
+      "requires_human_review": false,
+      "backup_required": true
+    },
+    {
+      "path": "Documentation/Build_Records/0038/HISTORICAL_ASSET_CENSUS_REPORT_TEMPLATE.json",
+      "reason": "Build 0038 Version 1.4.0 conflict-resolution reissue after live rollback",
+      "requires_human_review": false,
+      "backup_required": true
+    },
+    {
+      "path": "Documentation/Build_Records/0038/LIVE_FAILURE_REGRESSION_REPORT.json",
+      "reason": "Build 0038 Version 1.4.0 conflict-resolution reissue after live rollback",
+      "requires_human_review": false,
+      "backup_required": true
+    },
+    {
+      "path": "Documentation/Build_Records/0038/MASTER_ASSET_REGISTER_FIELD_MAPPING.json",
+      "reason": "Build 0038 Version 1.4.0 conflict-resolution reissue after live rollback",
+      "requires_human_review": false,
+      "backup_required": true
+    },
+    {
+      "path": "Documentation/Build_Records/0038/MASTER_ASSET_REGISTER_REPAIR_INSTRUCTIONS.md",
+      "reason": "Build 0038 Version 1.4.0 conflict-resolution reissue after live rollback",
+      "requires_human_review": false,
+      "backup_required": true
+    },
+    {
+      "path": "Documentation/Build_Records/0038/PACKAGE_CONTENT_SHA256.csv",
+      "reason": "Build 0038 Version 1.4.0 conflict-resolution reissue after live rollback",
+      "requires_human_review": false,
+      "backup_required": true
     },
     {
       "path": "Documentation/Build_Records/0038/PROJECT_GENESIS_IMPORT_HOOK.json",
-      "reason": "Corrected Build 0038 canonical Master Asset Register repair reissue",
-      "requires_human_review": false
+      "reason": "Build 0038 Version 1.4.0 conflict-resolution reissue after live rollback",
+      "requires_human_review": false,
+      "backup_required": true
+    },
+    {
+      "path": "Documentation/Build_Records/0038/PROPOSED_NEXT_ACTION.md",
+      "reason": "Build 0038 Version 1.4.0 conflict-resolution reissue after live rollback",
+      "requires_human_review": false,
+      "backup_required": true
+    },
+    {
+      "path": "Documentation/Build_Records/0038/RESTORATION_SOURCE_MANIFEST.csv",
+      "reason": "Build 0038 Version 1.4.0 conflict-resolution reissue after live rollback",
+      "requires_human_review": false,
+      "backup_required": true
+    },
+    {
+      "path": "Documentation/Build_Records/0038/ROLLBACK_RUNBOOK.md",
+      "reason": "Build 0038 Version 1.4.0 conflict-resolution reissue after live rollback",
+      "requires_human_review": false,
+      "backup_required": true
+    },
+    {
+      "path": "Documentation/Build_Records/0038/TEST_REPORT.txt",
+      "reason": "Build 0038 Version 1.4.0 conflict-resolution reissue after live rollback",
+      "requires_human_review": false,
+      "backup_required": true
+    },
+    {
+      "path": "Documentation/Build_Records/0038/VALIDATION_REPORT.md",
+      "reason": "Build 0038 Version 1.4.0 conflict-resolution reissue after live rollback",
+      "requires_human_review": false,
+      "backup_required": true
     }
   ]
 }

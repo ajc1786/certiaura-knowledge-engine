@@ -1,0 +1,14 @@
+{
+  "generated_at": "2026-07-19T18:56:58.820505+00:00",
+  "canonical_register_path": "Documentation/Master_Asset_Register.csv",
+  "resolved_register_path": "Documentation/Master_Asset_Register.csv",
+  "row_count": 2860,
+  "valid_asset_rows": 2860,
+  "legacy_placeholder_rows": [],
+  "invalid_rows": [],
+  "duplicate_uai": [],
+  "duplicate_paths": [],
+  "missing_supporting_files": [],
+  "button_open_target_verified": true,
+  "valid": true
+}

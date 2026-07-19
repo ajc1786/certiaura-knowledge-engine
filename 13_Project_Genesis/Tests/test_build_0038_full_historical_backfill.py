@@ -132,16 +132,19 @@ class FullHistoricalBackfillTests(unittest.TestCase):
         )
         self.assertTrue(report["valid"], report["conflicts"])
 
-    def test_duplicate_embedded_uai_is_blocked(self) -> None:
+    def test_shared_uai_representations_are_consolidated(self) -> None:
         first = self.repo / "08_Product_Passports" / "Standards" / "DUPLICATE_ONE.md"
-        second = self.repo / "08_Product_Passports" / "Standards" / "DUPLICATE_TWO.md"
+        second = self.repo / "08_Product_Passports" / "Standards" / "DUPLICATE_TWO.json"
         first.write_text("# One\n\n**UAI:** CERT-PPS-000777\n", encoding="utf-8")
-        second.write_text("# Two\n\n**UAI:** CERT-PPS-000777\n", encoding="utf-8")
+        second.write_text(json.dumps({"title": "One", "uai": "CERT-PPS-000777"}), encoding="utf-8")
         report = plan_full_historical_reconciliation(
             self.repo, self.manifest, None, self.register, {}
         )
-        self.assertFalse(report["valid"])
-        self.assertTrue(any(x["code"] == "DUPLICATE_INCOMING_UAI" for x in report["conflicts"]))
+        self.assertTrue(report["valid"], report["conflicts"])
+        self.assertEqual(report["summary"]["shared_uai_representation_groups"], 1)
+        self.assertEqual(report["summary"]["supporting_file_links"], 1)
+        matching = [row for row in report["changes"] if row.get("uai") == "CERT-PPS-000777"]
+        self.assertEqual(len(matching), 1)
 
     def test_duplicate_titles_on_different_paths_do_not_merge(self) -> None:
         first = self.repo / "08_Product_Passports" / "Standards" / "TITLE_ONE.md"

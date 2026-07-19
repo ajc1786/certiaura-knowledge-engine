@@ -1,27 +1,49 @@
 # BUILD 0038 — READ ME FIRST
 
-**Corrected reissue:** Canonical Master Asset Register repair
+**Conflict-resolution reissue:** Version 1.4.0
+**Status:** Supersedes every prior Build 0038 ZIP.
 
-This package supersedes every prior Build 0038 ZIP.
+## Why the previous repair was rolled back
+
+The live repository census identified 2,879 registerable files. The earlier algorithm incorrectly treated every physical file as a separate formal asset while also preserving Universal Asset Identifiers embedded in canonical JSON records.
+
+That created:
+
+- 238 identifier collisions during allocation;
+- the same 238 duplicate identifiers after reconciliation;
+- 15 shared-UAI representation conflicts;
+- 323 historical-file coverage failures;
+- 814 total blocking conflicts.
+
+Rollback was therefore the correct protective outcome.
+
+## Corrected identity model
+
+One Universal Asset Identifier represents one formal asset.
+
+When several files explicitly represent the same asset:
+
+- one file is selected as the canonical `Repository Path`;
+- the remaining representations are retained in `Supporting Files`;
+- no duplicate Master Asset Register row is created;
+- every incoming explicit identifier is reserved before new identifiers are allocated.
+
+The package also excludes downloaded duplicate-suffix files such as `(1)` and `(2)` from formal asset registration.
 
 ## Confirmed live target
 
 `Documentation/Master_Asset_Register.csv`
 
-The current legacy row `NO NEW UAI` is treated as a placeholder, removed during reconciliation, and replaced by permanent `CERT-[SYSTEM]-[NUMBER]` records generated from the full live repository census.
+The `NO NEW UAI` placeholder is removed only after the conflict-free transaction passes all gates.
 
-## Import behaviour
+## Required process
 
-1. Project Genesis dry-runs routing and the historical asset census.
-2. It backs up repository files and the exact canonical CSV.
-3. It restores Builds 0035E–0036 to canonical paths.
-4. It repairs and populates the exact CSV in the same transaction.
-5. It validates identifiers, canonical paths, orphan coverage and the Project Genesis button-open target.
-6. It rolls back the entire transaction if any mandatory check fails.
-
-## Fallback for an older Project Genesis interface
-
-Run `13_Project_Genesis/Import/Run_Master_Asset_Register_Repair.cmd`.
+1. Import this ZIP through Project Genesis.
+2. Run the dry run.
+3. Confirm the report shows zero blocking register conflicts.
+4. Apply the transaction.
+5. Open the Master Asset Register from the Project Genesis button.
+6. Validate, commit, push and confirm GitHub Actions green.
 
 ## Exact commit message
 

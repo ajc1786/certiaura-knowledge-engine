@@ -5,6 +5,7 @@
     "Asset Title",
     "Knowledge System",
     "Repository Path",
+    "Supporting Files",
     "Version",
     "Status",
     "Owner",
@@ -31,5 +32,6 @@
     "JSON object with assets array"
   ],
   "uai_pattern": "CERT-[SYSTEM]-[NUMBER]",
-  "historical_backfill": "Repository-wide census of all registerable prior items"
+  "historical_backfill": "Repository-wide census of all registerable prior items",
+  "shared_uai_representation_rule": "One UAI equals one formal asset; additional file representations are listed in Supporting Files."
 }

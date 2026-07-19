@@ -3,6 +3,7 @@ from __future__ import annotations
 import argparse
 import hashlib
 import json
+import re
 import shutil
 import tempfile
 import zipfile
@@ -220,21 +221,25 @@ def _advance_checkpoint(repo: Path) -> None:
     if not path.is_file():
         raise RuntimeError('CONTINUITY_CHECKPOINT_MISSING_AFTER_IMPORT')
     text = path.read_text(encoding='utf-8')
-    text = text.replace('**Version:** 1.3.0', '**Version:** 1.3.1', 1)
-    text = text.replace('"version": "1.3.0"', '"version": "1.3.1"', 1)
+    text, count = re.subn(r'(?m)^\*\*Version:\*\*\s+1\.4\.0\s*$', '**Version:** 1.4.1  ', text, count=1)
+    if count != 1:
+        raise RuntimeError('CONTINUITY_CHECKPOINT_VERSION_NOT_ADVANCED')
+    text, count = re.subn(r'"version":\s*"1\.4\.0"', '"version": "1.4.1"', text, count=1)
+    if count != 1:
+        raise RuntimeError('CONTINUITY_MACHINE_CHECKPOINT_VERSION_NOT_ADVANCED')
     text = text.replace(
-        '**Checkpoint status:** BUILD 0038 FULL HISTORICAL RECONCILIATION DELIVERED — IMPORT PENDING',
+        '**Checkpoint status:** BUILD 0038 CONFLICT-RESOLUTION REISSUE DELIVERED — IMPORT PENDING',
         '**Checkpoint status:** BUILD 0038 FULL HISTORICAL RECONCILIATION IMPORTED AND VALIDATED — COMMIT/PUSH PENDING',
         1,
     )
     text = text.replace(
-        'Import the corrected Build 0038 package and review the full historical repository census and Master Asset Register Change Report before apply.',
+        'Import the Build 0038 Version 1.4.0 conflict-resolution reissue, review the dry-run consolidation report, apply, validate, commit and push.',
         'Commit and push corrected Build 0038 using the locked commit message, then confirm GitHub Actions green.',
         1,
     )
-    text = text.replace('"required_action": "IMPORT_FULL_HISTORICAL_RECONCILIATION"', '"required_action": "COMMIT_PUSH_CONFIRM_ACTIONS"', 1)
+    text = text.replace('"required_action": "IMPORT_CONFLICT_RESOLUTION_REISSUE"', '"required_action": "COMMIT_PUSH_CONFIRM_ACTIONS"', 1)
     text = text.replace(
-        '"immediate_next_action": "Import corrected Build 0038 and complete full historical Master Asset Register reconciliation"',
+        '"immediate_next_action": "Import Build 0038 Version 1.4.0 and complete canonical asset representation consolidation"',
         '"immediate_next_action": "Commit and push corrected Build 0038 and confirm GitHub Actions green"',
         1,
     )
@@ -248,7 +253,7 @@ def _sync_checkpoint_register(register: Path) -> None:
     if len(matches) != 1:
         raise RuntimeError(f'CHECKPOINT_ASSET_REGISTER_MATCH_INVALID: {len(matches)}')
     checkpoint_path = register.parents[1] / '00_Governance' / 'CERTIAURA_LOCKED_BUILD_CONTINUITY_AND_CHECKPOINT.md'
-    matches[0]['Version'] = '1.3.1'
+    matches[0]['Version'] = '1.4.1'
     matches[0]['Status'] = 'LOCKED_ACTIVE'
     if checkpoint_path.is_file():
         matches[0]['File SHA256'] = sha256_bytes(checkpoint_path.read_bytes())

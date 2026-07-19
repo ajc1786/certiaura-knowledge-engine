@@ -58,6 +58,25 @@ class AssetRegisterTests(unittest.TestCase):
         self.assertEqual(result['changes'][0]['uai'], 'CERT-PPS-000008')
         self.assertEqual(result['changes'][0]['action'], 'CREATE')
 
+    def test_incoming_explicit_identifiers_are_reserved_before_allocation(self):
+        rows = []
+        unnumbered = self.asset(
+            path="08_Product_Passports/Standards/UNNUMBERED.md",
+            title="Unnumbered",
+            system="PPS",
+        )
+        explicit = self.asset(
+            path="08_Product_Passports/Standards/EXPLICIT.md",
+            title="Explicit",
+            system="PPS",
+        )
+        explicit["existing_uai"] = "CERT-PPS-000001"
+        result = plan_reconciliation(rows, [unnumbered, explicit], "0038")
+        self.assertTrue(result["valid"], result["conflicts"])
+        changes = {x["path"]: x["uai"] for x in result["changes"]}
+        self.assertEqual(changes["08_Product_Passports/Standards/EXPLICIT.md"], "CERT-PPS-000001")
+        self.assertEqual(changes["08_Product_Passports/Standards/UNNUMBERED.md"], "CERT-PPS-000002")
+
     def test_duplicate_uai_blocks(self):
         rows = [
             {"Universal Asset Identifier": "CERT-PPS-000007", "Asset Title": "A", "Knowledge System": "PPS", "Repository Path": "a"},

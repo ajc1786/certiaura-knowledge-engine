@@ -1,12 +1,12 @@
 # CERTIAURA LOCKED BUILD CONTINUITY AND CHECKPOINT
 
-**Document ID:** CERT-GOV-CONT-002  
-**Version:** 1.2.0  
-**Status:** LOCKED — ACTIVE  
-**Effective date:** 2026-07-19  
-**Last updated:** 2026-07-19  
-**Authority:** Explicit founder instruction from Aidan Coleman  
-**Canonical repository path:** `00_Governance/CERTIAURA_LOCKED_BUILD_CONTINUITY_AND_CHECKPOINT.md`  
+**Document ID:** CERT-GOV-CONT-002
+**Version:** 1.4.1  
+**Status:** LOCKED — ACTIVE
+**Effective date:** 2026-07-19
+**Last updated:** 2026-07-19
+**Authority:** Explicit founder instruction from Aidan Coleman
+**Canonical repository path:** `00_Governance/CERTIAURA_LOCKED_BUILD_CONTINUITY_AND_CHECKPOINT.md`
 **GPT Project use:** Upload this file to the Certiaura GPT Project sources and replace it with the latest version whenever the continuation checkpoint is updated.
 
 ---
@@ -662,22 +662,24 @@ Build 0039 — evidence ingestion citation management living evidence surveillan
 
 ## 17. Current continuation checkpoint
 
-**Checkpoint date:** 2026-07-19  
-**Checkpoint status:** BUILD 0038 CANONICAL MASTER ASSET REGISTER REPAIR DELIVERED — IMPORT PENDING
+**Checkpoint date:** 2026-07-19
+**Checkpoint status:** BUILD 0038 FULL HISTORICAL RECONCILIATION IMPORTED AND VALIDATED — COMMIT/PUSH PENDING
 
 ### Last confirmed project position
 
 - The founder has deleted the incorrectly routed root-level folders for Builds **0035E–0036**.
 - Their content now requires controlled restoration to canonical repository paths.
-- The first generated Build 0038 package is not approved for import because it lacks automatic Master Asset Register reconciliation.
+- The previous Build 0038 repair attempt was correctly blocked and rolled back after the live census exposed 814 reconciliation conflicts, including identifier-allocation collisions and shared-UAI file representations.
 - Build 0037 remains generated but requires corrected routing and register reconciliation before installation.
 - The 0035 lettered series remains closed at 0035K.
 - New materially distinct integrated work packages use whole build numbers.
+- The failed repair report identified **2,879 registerable files**, **814 total conflicts**, **238 duplicate allocations**, **15 shared-UAI representation groups**, and **323 coverage failures**.
+- The transaction correctly remained unapplied and the canonical CSV was preserved.
 
 ### Immediate next action
 
 ```text
-Import the corrected Build 0038 package, allow Project Genesis to repair `Documentation/Master_Asset_Register.csv`, then verify the populated register from the Project Genesis button.
+Commit and push corrected Build 0038 using the locked commit message, then confirm GitHub Actions green.
 ```
 
 ### Required close-out sequence for corrected Build 0038
@@ -735,6 +737,11 @@ Do not proceed to Build 0039 until:
 | 2026-07-19 | Reissue Build 0038 before import with integrated asset register reconciliation | LOCKED |
 | 2026-07-19 | Hard-target `Documentation/Master_Asset_Register.csv` and remove the `NO NEW UAI` placeholder through full historical reconciliation | LOCKED |
 | 2026-07-19 | Verify the exact Project Genesis button-open register after every reconciliation | LOCKED |
+| 2026-07-19 | Treat one Universal Asset Identifier as one formal asset even where several repository files represent it | LOCKED |
+| 2026-07-19 | Record non-canonical representations under `Supporting Files` instead of creating duplicate register rows | LOCKED |
+| 2026-07-19 | Reserve all existing and incoming Universal Asset Identifiers before allocating new identifiers | LOCKED |
+| 2026-07-19 | Exclude downloaded duplicate-suffix files such as `(1)` and `(2)` from formal asset registration | LOCKED |
+| 2026-07-19 | Preserve rollback behaviour when live reconciliation exposes unresolved conflicts | LOCKED |
 
 ---
 
@@ -743,7 +750,7 @@ Do not proceed to Build 0039 until:
 ```json
 {
   "document_id": "CERT-GOV-CONT-002",
-  "version": "1.2.0",
+  "version": "1.4.1",
   "status": "LOCKED_ACTIVE",
   "checkpoint_date": "2026-07-19",
   "canonical_repository_path": "00_Governance/CERTIAURA_LOCKED_BUILD_CONTINUITY_AND_CHECKPOINT.md",
@@ -769,7 +776,11 @@ Do not proceed to Build 0039 until:
     "rollback_files_and_register_together": true,
     "block_orphan_formal_assets": true,
     "block_orphan_register_entries": true,
-    "block_duplicate_uai": true
+    "block_duplicate_uai": true,
+    "one_uai_one_formal_asset": true,
+    "supporting_files_field": "Supporting Files",
+    "reserve_incoming_uai_before_allocation": true,
+    "exclude_download_duplicate_suffixes": true
   },
   "founder_confirmed_repository_action": {
     "deleted_incorrect_root_build_folders": [
@@ -787,10 +798,10 @@ Do not proceed to Build 0039 until:
   "current_pending_build": {
     "build_number": "0038",
     "title": "repository restoration canonical routing and Master Asset Register reconciliation for Builds 0035E to 0036",
-    "required_action": "IMPORT_CANONICAL_REGISTER_REPAIR",
+    "required_action": "COMMIT_PUSH_CONFIRM_ACTIONS",
     "previous_generated_package_approved_for_import": false
   },
-  "immediate_next_action": "Import corrected Build 0038 and verify the canonical Master Asset Register from Project Genesis",
+  "immediate_next_action": "Commit and push corrected Build 0038 and confirm GitHub Actions green",
   "next_action_after_0038": {
     "build_number": "0037",
     "title": "Scientific content claims advertising AI recommendation and responsible communications controls",

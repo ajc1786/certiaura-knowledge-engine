@@ -1,7 +1,21 @@
 # Master Asset Register Repair Instructions
 
-The corrected Build 0038 import must update `Documentation/Master_Asset_Register.csv`.
+Use only the Build 0038 Version 1.4.0 conflict-resolution reissue.
 
-After successful import, select **Open Master Asset Register** in Project Genesis. The file must contain populated permanent identifiers and must not contain `NO NEW UAI`.
+The corrected import updates:
 
-If the installed Project Genesis interface reports that post-apply hooks are unsupported, run `13_Project_Genesis/Import/Run_Master_Asset_Register_Repair.cmd` once, then reopen the register.
+`Documentation/Master_Asset_Register.csv`
+
+## Dry-run acceptance gate
+
+Proceed to apply only when the dry-run report confirms:
+
+- `total_conflicts` equals `0`;
+- no duplicate incoming or allocated Universal Asset Identifier remains;
+- all physical representations are covered by either `Repository Path` or `Supporting Files`;
+- the `NO NEW UAI` placeholder is scheduled for removal;
+- the target register is the exact CSV opened by Project Genesis.
+
+After successful apply, select **Open Master Asset Register** in Project Genesis. The register must contain populated permanent identifiers and must not contain `NO NEW UAI`.
+
+Do not manually edit or bypass a failed transaction.

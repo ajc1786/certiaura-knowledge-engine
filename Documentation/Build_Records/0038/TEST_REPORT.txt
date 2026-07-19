@@ -1,16 +1,21 @@
-Build 0038 Version 1.3.0 focused validation
+Build 0038 Version 1.4.0 focused validation
 
-- Asset register transaction tests: 8/8 passed
-- Full historical backfill tests: 7/7 passed
+- Asset register transaction and identifier-reservation tests: 9/9 passed
+- Canonical register repair tests: 2/2 passed
+- Full historical backfill and shared-UAI consolidation tests: 7/7 passed
 - Build-pack routing tests: 4/4 passed
-- Total focused automated tests: 19/19 passed
-- Synthetic repository dry run: passed
-- Synthetic repository transactional apply: passed
-- Existing Universal Asset Identifier preservation: passed
-- New identifier allocation by Knowledge System: passed
-- Prior-build provenance recovery: passed
-- Duplicate incoming UAI blocking: passed
-- Duplicate-title path separation: passed
-- Active orphan register entry blocking: passed
-- Retired orphan exception handling: passed
-- Full rollback-safe transaction: passed
+- Total focused automated tests: 22/22 passed
+- Founder live-failure report replay: passed
+- Previous 814 blocking conflicts reduced to 0 in patched planning replay
+- Shared-UAI groups consolidated: 15
+- Supporting-file paths retained: 18
+- Incoming explicit UAI reservation: passed
+- Historical coverage validation: passed
+- Legacy placeholder removal planning: passed
+- JSON parse validation: 114/114 passed
+- Python syntax validation: 84/84 passed
+- Rollback behaviour retained: passed
+- Final package synthetic dry run: passed
+- Final package synthetic transactional apply: passed
+- Synthetic canonical register rows: 241
+- Synthetic Project Genesis button verification: passed
