@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Marketplace Contract",
+  "type": "object",
+  "required": [
+    "record_type",
+    "contract_id",
+    "supplier_id",
+    "status",
+    "legal_route",
+    "terms",
+    "approvals",
+    "automation_approved"
+  ],
+  "properties": {
+    "record_type": {
+      "const": "MARKETPLACE_CONTRACT"
+    },
+    "contract_id": {
+      "type": "string",
+      "minLength": 5
+    },
+    "supplier_id": {
+      "type": "string"
+    },
+    "status": {
+      "enum": [
+        "DRAFT",
+        "PENDING_REVIEW",
+        "APPROVED",
+        "SUSPENDED",
+        "EXPIRED",
+        "TERMINATED"
+      ]
+    },
+    "legal_route": {
+      "type": "object"
+    },
+    "terms": {
+      "type": "object"
+    },
+    "approvals": {
+      "type": "array",
+      "minItems": 2
+    },
+    "automation_approved": {
+      "const": false
+    }
+  },
+  "additionalProperties": true
+}

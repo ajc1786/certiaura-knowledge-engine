@@ -1,0 +1,25 @@
+{
+  "incident_id": "INC-0035K-CRIT-001",
+  "recall_id": "RCL-0035K-001",
+  "products": [
+    "CERT-PPS-000210"
+  ],
+  "batches": [
+    "RT40-260701-A"
+  ],
+  "orders": [
+    "ORD-0035K-001"
+  ],
+  "recipients": [
+    "RECIP-001",
+    "RECIP-002"
+  ],
+  "population": 2,
+  "traceability": {
+    "upstream_complete": true,
+    "downstream_complete": true,
+    "completeness_percent": 100,
+    "last_reconciled_at": "2026-07-21T09:00:00+00:00"
+  },
+  "automation_authority": "IDENTIFY_AND_DRAFT_ONLY"
+}

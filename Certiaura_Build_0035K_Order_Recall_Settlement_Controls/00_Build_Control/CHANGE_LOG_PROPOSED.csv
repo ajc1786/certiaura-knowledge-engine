@@ -1,0 +1,5 @@
+change_id,build_id,date,system,change_type,summary,status
+CERT-CHG-0035K-001,CERT-BUILD-0035K,2026-07-19,MPS,ADD,Marketplace contract and order release controls,PROPOSED
+CERT-CHG-0035K-002,CERT-BUILD-0035K,2026-07-19,MPS/SKS,ADD,Fulfilment incident withdrawal and recall controls,PROPOSED
+CERT-CHG-0035K-003,CERT-BUILD-0035K,2026-07-19,CIS,ADD,Payment hold reconciliation and settlement controls,PROPOSED
+CERT-CHG-0035K-004,CERT-BUILD-0035K,2026-07-19,SYS,ADD,Project Genesis validation automation dashboards and tests,PROPOSED

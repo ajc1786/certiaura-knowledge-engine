@@ -1,0 +1,43 @@
+{
+  "build_id": "CERT-BUILD-0035K",
+  "build_number": "0035K",
+  "build_title": "Marketplace contracting, order assurance, fulfilment, incident response, recall and settlement controls",
+  "version": "1.0.0",
+  "status": "repository_ready",
+  "authorisation": "GREEN",
+  "build_date": "2026-07-19",
+  "dependencies": [
+    "CERT-BUILD-0035D",
+    "CERT-BUILD-0035E",
+    "CERT-BUILD-0035F",
+    "CERT-BUILD-0035G",
+    "CERT-BUILD-0035H",
+    "CERT-BUILD-0035I",
+    "CERT-BUILD-0035J"
+  ],
+  "systems": [
+    "PPS",
+    "MPS",
+    "CIS",
+    "EKS",
+    "SKS",
+    "SYS"
+  ],
+  "critical_rule": "Automation may validate, calculate, monitor, restrict, quarantine, alert and recommend; it may not approve contracts, release orders, accept excursions, close incidents or recalls, release payment holds or approve settlements.",
+  "commit_message": "Add Certiaura Build 0035K Marketplace contracting order assurance fulfilment incident response recall and settlement controls",
+  "external_python_packages": [],
+  "acceptance": {
+    "valid_contract_order": "PASS",
+    "invalid_automatic_order_release": "FAIL_AS_DESIGNED_28_BREACHES",
+    "valid_fulfilment_excursion": "PASS",
+    "valid_critical_recall": "PASS",
+    "invalid_recall_without_traceability": "FAIL_AS_DESIGNED_24_BREACHES",
+    "valid_settlement": "PASS",
+    "invalid_settlement_open_incident": "FAIL_AS_DESIGNED_15_BREACHES",
+    "automation": "PASS",
+    "dashboards": "PASS",
+    "unit_tests": "48/48 PASS",
+    "json_files_validated": 23,
+    "python_files_compiled": 18
+  }
+}

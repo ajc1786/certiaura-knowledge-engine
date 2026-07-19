@@ -1,0 +1,35 @@
+{
+  "record_type": "INCIDENT_RECALL_CASE",
+  "incident_id": "INC-TBA",
+  "severity": "PENDING",
+  "status": "OPEN",
+  "source": "",
+  "affected_scope": {
+    "products": [],
+    "batches": [],
+    "orders": [],
+    "recipients": []
+  },
+  "traceability": {
+    "upstream_complete": false,
+    "downstream_complete": false,
+    "completeness_percent": 0
+  },
+  "protective_actions": {
+    "passport_restricted": false,
+    "marketplace_suspended": false,
+    "order_blocked": false,
+    "payment_hold": false
+  },
+  "recall_decision": {
+    "status": "PENDING",
+    "scope": "",
+    "approved_by": [],
+    "approved_at": null,
+    "automation_initiated": false
+  },
+  "notifications": [],
+  "effectiveness_checks": [],
+  "capa_ids": [],
+  "audit_events": []
+}

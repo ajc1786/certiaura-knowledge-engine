@@ -1,0 +1,76 @@
+{
+  "record_type": "FULFILMENT_RECEIPT",
+  "shipment_id": "SHP-0035K-001",
+  "order_id": "ORD-0035K-001",
+  "supplier_id": "SUP-000104",
+  "product_passport_id": "CERT-PPS-000210",
+  "batch_id": "RT40-260701-A",
+  "carrier": "Controlled Logistics Ltd",
+  "dispatched_at": "2026-07-19T10:00:00+00:00",
+  "expected_at": "2026-07-20T12:00:00+00:00",
+  "delivered_at": "2026-07-20T11:30:00+00:00",
+  "storage": {
+    "required_min_c": 2.0,
+    "required_max_c": 8.0,
+    "readings": [
+      {
+        "at": "2026-07-19T10:00:00+00:00",
+        "c": 4.2
+      },
+      {
+        "at": "2026-07-20T02:00:00+00:00",
+        "c": 8.6
+      },
+      {
+        "at": "2026-07-20T11:30:00+00:00",
+        "c": 5.1
+      }
+    ],
+    "excursion_detected": true,
+    "excursion_duration_minutes": 18
+  },
+  "chain_of_custody": [
+    {
+      "sequence": 1,
+      "actor": "SUP-000104",
+      "event": "DISPATCH",
+      "at": "2026-07-19T10:00:00+00:00"
+    },
+    {
+      "sequence": 2,
+      "actor": "CARRIER-044",
+      "event": "IN_TRANSIT_SCAN",
+      "at": "2026-07-20T02:00:00+00:00"
+    },
+    {
+      "sequence": 3,
+      "actor": "REC-010",
+      "event": "DELIVERY",
+      "at": "2026-07-20T11:30:00+00:00"
+    }
+  ],
+  "tamper_evidence": {
+    "intact": true,
+    "details": "Seal matched dispatch record"
+  },
+  "receipt": {
+    "received_at": "2026-07-20T11:30:00+00:00",
+    "recipient_id": "REC-010",
+    "quantity_ordered": 10,
+    "quantity_received": 10,
+    "identity_match": true,
+    "batch_match": true,
+    "packaging_condition": "INTACT"
+  },
+  "disposition": {
+    "status": "ACCEPTED_WITH_JUSTIFICATION",
+    "quarantined": true,
+    "decision_by": "QUA-009",
+    "decision_at": "2026-07-20T16:00:00+00:00",
+    "rationale": "Documented short excursion assessed against stability evidence CERT-EKS-004410",
+    "evidence_refs": [
+      "CERT-EKS-004410"
+    ],
+    "automation_approved": false
+  }
+}

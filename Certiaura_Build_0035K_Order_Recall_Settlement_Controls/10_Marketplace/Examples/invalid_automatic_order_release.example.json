@@ -1,0 +1,94 @@
+{
+  "record_type": "ORDER_ASSURANCE",
+  "order_id": "ORD-0035K-BAD-001",
+  "supplier_id": "SUP-BLOCKED",
+  "contract_id": "CON-0035K-001",
+  "product_passport_id": "CERT-PPS-000210",
+  "batch_id": "UNKNOWN",
+  "jurisdiction": "ZZ",
+  "intended_use": "controlled_research_marketplace",
+  "contract": {
+    "record_type": "MARKETPLACE_CONTRACT",
+    "contract_id": "CON-0035K-001",
+    "supplier_id": "SUP-000104",
+    "status": "EXPIRED",
+    "effective_date": "2026-07-01",
+    "expiry_date": "2026-01-01",
+    "scope": [
+      "controlled_research_marketplace"
+    ],
+    "jurisdictions": [
+      "GB"
+    ],
+    "legal_route": {
+      "sale_route_status": "PENDING",
+      "approval_reference": "LEGAL-GB-2026-014",
+      "approved_by": "LEG-002",
+      "approved_at": "2026-06-25T10:00:00+00:00"
+    },
+    "terms": {
+      "quality_agreement": false,
+      "audit_rights": false,
+      "evidence_access": false,
+      "traceability_duties": false,
+      "recall_cooperation": false,
+      "payment_hold_rights": false,
+      "termination_rights": false
+    },
+    "approvals": [
+      {
+        "role": "COMMERCIAL",
+        "person_id": "BOT-1",
+        "decision": "APPROVE",
+        "conflict_declared": true
+      }
+    ],
+    "automation_approved": true
+  },
+  "gates": {
+    "supplier_assurance": "SUSPENDED",
+    "contract": "EXPIRED",
+    "legal_route": "PENDING",
+    "passport": "SUSPENDED",
+    "marketplace": "INELIGIBLE",
+    "batch_evidence": "MISMATCH",
+    "incident_block": "OPEN_CRITICAL"
+  },
+  "line_items": [],
+  "pricing": {
+    "currency": "",
+    "total": -1
+  },
+  "release_decision": {
+    "status": "RELEASED",
+    "approved_by": [
+      {
+        "role": "BOT",
+        "person_id": "AUTO-1",
+        "conflict_declared": true
+      }
+    ],
+    "approved_at": null,
+    "automation_approved": true,
+    "gate_snapshot_hash": ""
+  },
+  "substitution": {
+    "requested": true,
+    "approved": false,
+    "new_supplier_id": "SUP-UNKNOWN"
+  },
+  "open_incidents": [
+    "INC-CRIT-999"
+  ],
+  "audit_events": [
+    {
+      "event_id": "EVT-001",
+      "from_status": "PENDING",
+      "to_status": "RELEASED",
+      "actor_id": "COM-014",
+      "actor_role": "COMMERCIAL",
+      "timestamp": "2026-07-19T09:00:00+00:00",
+      "rationale": "All gates passed"
+    }
+  ]
+}

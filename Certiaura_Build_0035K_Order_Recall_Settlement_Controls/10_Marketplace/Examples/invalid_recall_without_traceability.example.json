@@ -1,0 +1,57 @@
+{
+  "record_type": "INCIDENT_RECALL_CASE",
+  "incident_id": "INC-0035K-BAD-RECALL",
+  "recall_id": "RCL-0035K-001",
+  "severity": "CRITICAL",
+  "status": "CLOSED",
+  "source": "identity discrepancy confirmed by independent test",
+  "affected_scope": {
+    "products": [],
+    "batches": [],
+    "orders": [],
+    "recipients": [],
+    "population": 2
+  },
+  "traceability": {
+    "upstream_complete": false,
+    "downstream_complete": false,
+    "completeness_percent": 12
+  },
+  "protective_actions": {
+    "passport_restricted": false,
+    "marketplace_suspended": false,
+    "order_blocked": false,
+    "payment_hold": false,
+    "stock_quarantined": false
+  },
+  "incident_command": {
+    "commander_id": "",
+    "appointed_at": null
+  },
+  "recall_decision": {
+    "status": "CLOSED",
+    "scope": "NARROWED_BY_BOT",
+    "depth": "NONE",
+    "urgency": "ROUTINE",
+    "approved_by": [
+      {
+        "role": "BOT",
+        "person_id": "AUTO"
+      }
+    ],
+    "approved_at": null,
+    "automation_initiated": true
+  },
+  "regulatory_assessment": {
+    "required": true,
+    "status": "NOT_DONE"
+  },
+  "notifications": [],
+  "effectiveness_checks": [],
+  "capa_ids": [],
+  "closure": {
+    "status": "CLOSED",
+    "approved_by": [],
+    "automation_closed": true
+  }
+}

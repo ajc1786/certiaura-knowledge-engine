@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Settlement Case",
+  "type": "object",
+  "required": [
+    "record_type",
+    "settlement_id",
+    "linked_incident_id",
+    "operational_prerequisites",
+    "hold",
+    "financials",
+    "approvals"
+  ],
+  "properties": {
+    "record_type": {
+      "const": "SETTLEMENT_CASE"
+    },
+    "settlement_id": {
+      "type": "string"
+    },
+    "hold": {
+      "type": "object"
+    },
+    "financials": {
+      "type": "object"
+    },
+    "approvals": {
+      "type": "array",
+      "minItems": 2
+    }
+  },
+  "additionalProperties": true
+}

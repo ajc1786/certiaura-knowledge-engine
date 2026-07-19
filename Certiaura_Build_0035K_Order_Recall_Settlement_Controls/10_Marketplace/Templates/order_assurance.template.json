@@ -1,0 +1,28 @@
+{
+  "record_type": "ORDER_ASSURANCE",
+  "order_id": "ORD-TBA",
+  "supplier_id": "SUP-TBA",
+  "contract_id": "CON-TBA",
+  "product_passport_id": "CERT-PPS-TBA",
+  "batch_id": "BATCH-TBA",
+  "jurisdiction": "GB",
+  "gates": {
+    "supplier_assurance": "PENDING",
+    "contract": "PENDING",
+    "legal_route": "PENDING",
+    "passport": "PENDING",
+    "marketplace": "PENDING",
+    "batch_evidence": "PENDING",
+    "incident_block": "UNKNOWN"
+  },
+  "release_decision": {
+    "status": "PENDING",
+    "approved_by": [],
+    "approved_at": null,
+    "conflicts_checked": false,
+    "automation_approved": false
+  },
+  "line_items": [],
+  "pricing": {},
+  "audit_events": []
+}

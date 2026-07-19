@@ -1,0 +1,1 @@
+receipt_id,shipment_id,order_id,batch_id,quantity_ordered,quantity_received,identity_match,condition,disposition,decision_by

@@ -1,0 +1,29 @@
+{
+  "record_type": "SETTLEMENT_CASE",
+  "settlement_id": "SET-TBA",
+  "linked_incident_id": "INC-TBA",
+  "status": "DRAFT",
+  "operational_prerequisites": {
+    "incident_closed": false,
+    "recall_reconciled": false,
+    "returns_reconciled": false,
+    "open_disputes": true
+  },
+  "hold": {
+    "status": "ACTIVE",
+    "release_approved_by": [],
+    "automation_released": false
+  },
+  "financials": {
+    "currency": "GBP",
+    "gross_exposure": 0,
+    "recoveries": 0,
+    "credits": 0,
+    "write_off": 0,
+    "final_settlement": 0,
+    "tax_reviewed": false
+  },
+  "approvals": [],
+  "continuing_obligations": [],
+  "audit_events": []
+}

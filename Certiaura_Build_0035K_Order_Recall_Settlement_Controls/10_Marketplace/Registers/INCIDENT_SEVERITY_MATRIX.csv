@@ -1,0 +1,5 @@
+severity,example,triage_target_hours,order_block,passport_restriction,marketplace_suspension,payment_hold,incident_command
+LOW,administrative issue without product impact,72,NO,NO,NO,CONDITIONAL,LOCAL_OWNER
+MEDIUM,limited quality/service issue,24,SCOPE_BASED,SCOPE_BASED,SCOPE_BASED,CONDITIONAL,QUALITY_OWNER
+HIGH,credible material quality or distribution risk,4,YES,YES,YES,YES,SENIOR_COMMAND
+CRITICAL,"serious safety, identity, contamination or uncontrolled distribution risk",1,YES,YES,YES,YES,EXECUTIVE_COMMAND

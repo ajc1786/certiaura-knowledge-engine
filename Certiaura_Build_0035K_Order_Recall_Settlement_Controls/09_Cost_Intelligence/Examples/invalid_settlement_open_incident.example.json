@@ -1,0 +1,46 @@
+{
+  "record_type": "SETTLEMENT_CASE",
+  "settlement_id": "SET-0035K-BAD-001",
+  "supplier_id": "SUP-000104",
+  "linked_incident_id": "INC-0035K-CRIT-001",
+  "status": "SETTLED",
+  "operational_prerequisites": {
+    "incident_closed": false,
+    "recall_reconciled": false,
+    "returns_reconciled": false,
+    "open_disputes": true,
+    "capa_plan_approved": false
+  },
+  "hold": {
+    "status": "RELEASED",
+    "release_approved_by": [
+      {
+        "role": "BOT",
+        "person_id": "AUTO"
+      }
+    ],
+    "released_at": null,
+    "automation_released": true
+  },
+  "financials": {
+    "currency": "",
+    "gross_exposure": 100,
+    "recoveries": 90,
+    "credits": 90,
+    "write_off": 90,
+    "final_settlement": 999,
+    "tax_reviewed": false,
+    "calculation_verified": false
+  },
+  "approvals": [
+    {
+      "role": "BOT",
+      "person_id": "AUTO",
+      "decision": "APPROVE",
+      "conflict_declared": true
+    }
+  ],
+  "continuing_obligations": [],
+  "automation_approved": true,
+  "closed_at": null
+}

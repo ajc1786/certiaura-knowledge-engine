@@ -1,0 +1,62 @@
+{
+  "record_type": "SETTLEMENT_CASE",
+  "settlement_id": "SET-0035K-001",
+  "supplier_id": "SUP-000104",
+  "linked_incident_id": "INC-0035K-CRIT-001",
+  "status": "SETTLED",
+  "operational_prerequisites": {
+    "incident_closed": true,
+    "recall_reconciled": true,
+    "returns_reconciled": true,
+    "open_disputes": false,
+    "capa_plan_approved": true
+  },
+  "hold": {
+    "hold_id": "HOLD-0035K-001",
+    "status": "RELEASED",
+    "release_approved_by": [
+      {
+        "role": "FINANCE",
+        "person_id": "FIN-002"
+      },
+      {
+        "role": "QUALITY",
+        "person_id": "QUA-012"
+      }
+    ],
+    "released_at": "2026-08-15T10:00:00+00:00",
+    "automation_released": false
+  },
+  "financials": {
+    "currency": "GBP",
+    "gross_exposure": 12500.0,
+    "recoveries": 6000.0,
+    "credits": 2500.0,
+    "write_off": 500.0,
+    "final_settlement": 3500.0,
+    "tax_reviewed": true,
+    "calculation_verified": true
+  },
+  "approvals": [
+    {
+      "role": "COMMERCIAL",
+      "person_id": "COM-011",
+      "decision": "APPROVE",
+      "conflict_declared": false,
+      "at": "2026-08-15T11:00:00+00:00"
+    },
+    {
+      "role": "FINANCE",
+      "person_id": "FIN-005",
+      "decision": "APPROVE",
+      "conflict_declared": false,
+      "at": "2026-08-15T12:00:00+00:00"
+    }
+  ],
+  "continuing_obligations": [
+    "CAPA effectiveness review due 2026-10-01",
+    "Supplier assurance remains suspended pending audit"
+  ],
+  "automation_approved": false,
+  "closed_at": "2026-08-15T12:15:00+00:00"
+}

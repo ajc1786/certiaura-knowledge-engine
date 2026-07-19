@@ -1,0 +1,33 @@
+{
+  "record_type": "FULFILMENT_RECEIPT",
+  "shipment_id": "SHP-TBA",
+  "order_id": "ORD-TBA",
+  "supplier_id": "SUP-TBA",
+  "product_passport_id": "CERT-PPS-TBA",
+  "batch_id": "BATCH-TBA",
+  "storage": {
+    "required_min_c": null,
+    "required_max_c": null,
+    "readings": [],
+    "excursion_detected": false
+  },
+  "chain_of_custody": [],
+  "tamper_evidence": {
+    "intact": null,
+    "details": ""
+  },
+  "receipt": {
+    "received_at": null,
+    "recipient_id": null,
+    "quantity_ordered": 0,
+    "quantity_received": 0,
+    "identity_match": null
+  },
+  "disposition": {
+    "status": "PENDING",
+    "decision_by": null,
+    "decision_at": null,
+    "rationale": "",
+    "automation_approved": false
+  }
+}

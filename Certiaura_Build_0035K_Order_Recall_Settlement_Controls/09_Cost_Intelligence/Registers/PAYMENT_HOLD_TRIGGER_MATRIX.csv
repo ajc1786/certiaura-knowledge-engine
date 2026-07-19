@@ -1,0 +1,6 @@
+trigger,default_action,minimum_release_evidence,required_approval
+OPEN_CRITICAL_INCIDENT,FULL_HOLD,incident closure or defined authorised partial release,FINANCE_AND_QUALITY
+ACTIVE_RECALL,FULL_HOLD,"reconciliation, exposure and recovery position",FINANCE_AND_INCIDENT_COMMAND
+UNRESOLVED_NON_CONFORMANCE,DISPUTED_AMOUNT_HOLD,quality disposition and commercial valuation,FINANCE_AND_COMMERCIAL
+QUANTITY_DISPUTE,DISPUTED_AMOUNT_HOLD,receipt reconciliation,FINANCE_AND_COMMERCIAL
+MISSING_BATCH_EVIDENCE,FULL_HOLD,verified evidence and approved disposition,FINANCE_AND_QUALITY

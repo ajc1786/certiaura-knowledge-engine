@@ -1,0 +1,114 @@
+{
+  "record_type": "ORDER_ASSURANCE",
+  "order_id": "ORD-0035K-001",
+  "supplier_id": "SUP-000104",
+  "contract_id": "CON-0035K-001",
+  "product_passport_id": "CERT-PPS-000210",
+  "batch_id": "RT40-260701-A",
+  "jurisdiction": "GB",
+  "intended_use": "controlled_research_marketplace",
+  "contract": {
+    "record_type": "MARKETPLACE_CONTRACT",
+    "contract_id": "CON-0035K-001",
+    "supplier_id": "SUP-000104",
+    "status": "APPROVED",
+    "effective_date": "2026-07-01",
+    "expiry_date": "2027-06-30",
+    "scope": [
+      "controlled_research_marketplace"
+    ],
+    "jurisdictions": [
+      "GB"
+    ],
+    "legal_route": {
+      "sale_route_status": "APPROVED",
+      "approval_reference": "LEGAL-GB-2026-014",
+      "approved_by": "LEG-002",
+      "approved_at": "2026-06-25T10:00:00+00:00"
+    },
+    "terms": {
+      "quality_agreement": true,
+      "audit_rights": true,
+      "evidence_access": true,
+      "traceability_duties": true,
+      "recall_cooperation": true,
+      "payment_hold_rights": true,
+      "termination_rights": true
+    },
+    "approvals": [
+      {
+        "role": "COMMERCIAL",
+        "person_id": "COM-011",
+        "decision": "APPROVE",
+        "conflict_declared": false,
+        "at": "2026-06-28T10:00:00+00:00"
+      },
+      {
+        "role": "QUALITY",
+        "person_id": "QUA-007",
+        "decision": "APPROVE",
+        "conflict_declared": false,
+        "at": "2026-06-28T11:00:00+00:00"
+      }
+    ],
+    "automation_approved": false
+  },
+  "gates": {
+    "supplier_assurance": "QUALIFIED",
+    "contract": "APPROVED",
+    "legal_route": "APPROVED",
+    "passport": "ACTIVE",
+    "marketplace": "ELIGIBLE",
+    "batch_evidence": "VERIFIED",
+    "incident_block": "CLEAR"
+  },
+  "line_items": [
+    {
+      "sku": "RT40",
+      "description": "Research material",
+      "quantity": 10,
+      "unit": "vial",
+      "batch_id": "RT40-260701-A"
+    }
+  ],
+  "pricing": {
+    "currency": "USD",
+    "unit_price": 21.6,
+    "shipping": 35,
+    "total": 251.0,
+    "approved_quote": "Q-260719-01"
+  },
+  "release_decision": {
+    "status": "RELEASED",
+    "approved_by": [
+      {
+        "role": "COMMERCIAL",
+        "person_id": "COM-014",
+        "conflict_declared": false
+      },
+      {
+        "role": "QUALITY",
+        "person_id": "QUA-009",
+        "conflict_declared": false
+      }
+    ],
+    "approved_at": "2026-07-19T09:00:00+00:00",
+    "automation_approved": false,
+    "gate_snapshot_hash": "sha256:valid-example"
+  },
+  "substitution": {
+    "requested": false
+  },
+  "open_incidents": [],
+  "audit_events": [
+    {
+      "event_id": "EVT-001",
+      "from_status": "PENDING",
+      "to_status": "RELEASED",
+      "actor_id": "COM-014",
+      "actor_role": "COMMERCIAL",
+      "timestamp": "2026-07-19T09:00:00+00:00",
+      "rationale": "All gates passed"
+    }
+  ]
+}

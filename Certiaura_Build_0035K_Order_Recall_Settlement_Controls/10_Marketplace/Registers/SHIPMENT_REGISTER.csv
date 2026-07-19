@@ -1,0 +1,1 @@
+shipment_id,order_id,carrier,dispatched_at,expected_at,delivered_at,custody_complete,temperature_status,tamper_status,current_status

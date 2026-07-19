@@ -1,0 +1,22 @@
+{
+  "holds": [
+    {
+      "settlement_id": "SET-0035K-001",
+      "recommended_hold": "ELIGIBLE_FOR_HUMAN_RELEASE_REVIEW",
+      "reasons": [],
+      "automation_authority": "NO_HOLD_RELEASE_AUTHORITY"
+    },
+    {
+      "settlement_id": "SET-0035K-BAD-001",
+      "recommended_hold": "ACTIVE",
+      "reasons": [
+        "incident_closed",
+        "recall_reconciled",
+        "returns_reconciled",
+        "open_disputes",
+        "capa_plan_approved"
+      ],
+      "automation_authority": "NO_HOLD_RELEASE_AUTHORITY"
+    }
+  ]
+}

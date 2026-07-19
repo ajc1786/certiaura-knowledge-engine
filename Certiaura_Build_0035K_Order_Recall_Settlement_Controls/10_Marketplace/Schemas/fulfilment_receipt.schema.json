@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Fulfilment and Receipt",
+  "type": "object",
+  "required": [
+    "record_type",
+    "shipment_id",
+    "order_id",
+    "storage",
+    "chain_of_custody",
+    "receipt",
+    "disposition"
+  ],
+  "properties": {
+    "record_type": {
+      "const": "FULFILMENT_RECEIPT"
+    },
+    "shipment_id": {
+      "type": "string"
+    },
+    "storage": {
+      "type": "object"
+    },
+    "chain_of_custody": {
+      "type": "array",
+      "minItems": 2
+    },
+    "receipt": {
+      "type": "object"
+    },
+    "disposition": {
+      "type": "object"
+    }
+  },
+  "additionalProperties": true
+}

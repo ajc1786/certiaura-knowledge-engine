@@ -1,0 +1,30 @@
+{
+  "record_type": "MARKETPLACE_CONTRACT",
+  "contract_id": "CON-TBA",
+  "supplier_id": "SUP-TBA",
+  "status": "PENDING_REVIEW",
+  "scope": [],
+  "jurisdictions": [
+    "GB"
+  ],
+  "effective_date": "YYYY-MM-DD",
+  "expiry_date": "YYYY-MM-DD",
+  "legal_route": {
+    "sale_route_status": "PENDING",
+    "approval_reference": null,
+    "approved_by": null,
+    "approved_at": null
+  },
+  "terms": {
+    "quality_agreement": false,
+    "audit_rights": false,
+    "evidence_access": false,
+    "traceability_duties": false,
+    "recall_cooperation": false,
+    "payment_hold_rights": false,
+    "termination_rights": false
+  },
+  "approvals": [],
+  "automation_approved": false,
+  "audit_events": []
+}

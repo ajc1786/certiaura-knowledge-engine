@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Incident and Recall",
+  "type": "object",
+  "required": [
+    "record_type",
+    "incident_id",
+    "severity",
+    "status",
+    "affected_scope",
+    "traceability",
+    "protective_actions",
+    "recall_decision"
+  ],
+  "properties": {
+    "record_type": {
+      "const": "INCIDENT_RECALL_CASE"
+    },
+    "incident_id": {
+      "type": "string"
+    },
+    "severity": {
+      "enum": [
+        "LOW",
+        "MEDIUM",
+        "HIGH",
+        "CRITICAL"
+      ]
+    },
+    "traceability": {
+      "type": "object"
+    },
+    "recall_decision": {
+      "type": "object"
+    }
+  },
+  "additionalProperties": true
+}

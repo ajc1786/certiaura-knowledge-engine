@@ -1,0 +1,11 @@
+{
+  "automation_authority": "ALERT_AND_RESTRICT_ONLY",
+  "alerts": [
+    {
+      "shipment_id": "SHP-0035K-001",
+      "type": "TEMPERATURE_EXCURSION",
+      "protective_action": "QUARANTINE",
+      "human_disposition": "ACCEPTED_WITH_JUSTIFICATION"
+    }
+  ]
+}

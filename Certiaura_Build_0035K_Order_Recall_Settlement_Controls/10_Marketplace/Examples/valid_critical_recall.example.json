@@ -1,0 +1,103 @@
+{
+  "record_type": "INCIDENT_RECALL_CASE",
+  "incident_id": "INC-0035K-CRIT-001",
+  "recall_id": "RCL-0035K-001",
+  "severity": "CRITICAL",
+  "status": "RECALL_ACTIVE",
+  "source": "identity discrepancy confirmed by independent test",
+  "affected_scope": {
+    "products": [
+      "CERT-PPS-000210"
+    ],
+    "batches": [
+      "RT40-260701-A"
+    ],
+    "orders": [
+      "ORD-0035K-001"
+    ],
+    "recipients": [
+      "RECIP-001",
+      "RECIP-002"
+    ],
+    "population": 2
+  },
+  "traceability": {
+    "upstream_complete": true,
+    "downstream_complete": true,
+    "completeness_percent": 100,
+    "last_reconciled_at": "2026-07-21T09:00:00+00:00"
+  },
+  "protective_actions": {
+    "passport_restricted": true,
+    "marketplace_suspended": true,
+    "order_blocked": true,
+    "payment_hold": true,
+    "stock_quarantined": true
+  },
+  "incident_command": {
+    "commander_id": "IC-001",
+    "appointed_at": "2026-07-21T08:00:00+00:00"
+  },
+  "recall_decision": {
+    "status": "INITIATED",
+    "scope": "ALL_AFFECTED_BATCH_AND_DISTRIBUTION",
+    "depth": "RECIPIENT",
+    "urgency": "IMMEDIATE",
+    "approved_by": [
+      {
+        "role": "INCIDENT_COMMAND",
+        "person_id": "IC-001",
+        "conflict_declared": false
+      },
+      {
+        "role": "QUALITY",
+        "person_id": "QUA-012",
+        "conflict_declared": false
+      }
+    ],
+    "approved_at": "2026-07-21T09:15:00+00:00",
+    "automation_initiated": false
+  },
+  "regulatory_assessment": {
+    "required": true,
+    "owner": "LEG-002",
+    "status": "COMPLETED",
+    "reference": "REG-ASS-2026-019"
+  },
+  "notifications": [
+    {
+      "recipient_id": "RECIP-001",
+      "sent_at": "2026-07-21T09:30:00+00:00",
+      "delivery_status": "DELIVERED",
+      "response_status": "ACKNOWLEDGED"
+    },
+    {
+      "recipient_id": "RECIP-002",
+      "sent_at": "2026-07-21T09:31:00+00:00",
+      "delivery_status": "DELIVERED",
+      "response_status": "ACKNOWLEDGED"
+    }
+  ],
+  "effectiveness_checks": [
+    {
+      "metric": "contact_rate",
+      "target": 100,
+      "actual": 100,
+      "status": "PASS"
+    },
+    {
+      "metric": "reconciliation_rate",
+      "target": 100,
+      "actual": 50,
+      "status": "OPEN"
+    }
+  ],
+  "capa_ids": [
+    "CAPA-0035K-001"
+  ],
+  "closure": {
+    "status": "OPEN",
+    "approved_by": [],
+    "automation_closed": false
+  }
+}
