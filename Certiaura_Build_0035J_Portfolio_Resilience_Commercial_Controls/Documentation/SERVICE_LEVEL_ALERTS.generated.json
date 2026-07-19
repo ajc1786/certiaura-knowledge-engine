@@ -1,0 +1,13 @@
+{
+  "as_of": "2026-07-19T12:00:00+00:00",
+  "alerts": [
+    {
+      "supplier_id": "SUP-000001",
+      "alert_type": "OTIF_BREACH",
+      "severity": "CRITICAL",
+      "actual": 60,
+      "target": 95,
+      "automatic_positive_action": false
+    }
+  ]
+}

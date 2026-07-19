@@ -1,0 +1,7 @@
+criterion,default_weight,minimum_weight,blocking_override
+ASSURANCE,25,1,Supplier not current or out of scope
+QUALITY,20,1,Critical quality or integrity failure
+DELIVERY,15,1,Unacceptable continuity risk
+RESILIENCE,20,1,Unmitigated critical dependency
+TOTAL_COST,15,1,Cannot override assurance or safety
+SERVICE,5,1,Repeated unresolved severe breach

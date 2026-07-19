@@ -1,0 +1,61 @@
+{
+  "decision_id": "SOURCE-REPLACE",
+  "version": "1.0.0",
+  "requirement": {
+    "category_id": "",
+    "description": "",
+    "quantity": 0,
+    "currency": "GBP",
+    "required_by": "",
+    "critical": false,
+    "approved_scope": ""
+  },
+  "criteria_weights": {
+    "assurance": 25,
+    "quality": 20,
+    "delivery": 15,
+    "resilience": 20,
+    "total_cost": 15,
+    "service": 5
+  },
+  "candidates": [],
+  "calculated_recommendation": {
+    "supplier_id": "",
+    "weighted_score": 0,
+    "recommendation_only": true,
+    "generated_at": "",
+    "engine_version": "0035J-1.0.0"
+  },
+  "decision": {
+    "status": "PENDING",
+    "selected_supplier_id": null,
+    "rationale": "",
+    "reviewer_id": "",
+    "approver_id": "",
+    "decided_at": null,
+    "automatic_award": false,
+    "price_only": false,
+    "conditions": [],
+    "next_review_due": null
+  },
+  "assurance_checks": {
+    "all_candidates_scope_checked": false,
+    "selected_supplier_current": false,
+    "product_evidence_separate": true,
+    "marketplace_eligibility_separate": true
+  },
+  "sole_source_exception": {
+    "applies": false,
+    "reason": null,
+    "market_evidence": null,
+    "mitigation": null,
+    "owner_id": null,
+    "retest_due": null,
+    "approved_by": null
+  },
+  "conflicts": [],
+  "audit_trail": {
+    "immutable_history": true,
+    "events": []
+  }
+}

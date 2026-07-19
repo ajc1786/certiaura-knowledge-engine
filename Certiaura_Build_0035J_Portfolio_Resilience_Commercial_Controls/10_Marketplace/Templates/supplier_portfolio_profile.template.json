@@ -1,0 +1,42 @@
+{
+  "record_id": "PORTFOLIO-REPLACE",
+  "version": "1.0.0",
+  "as_of": "YYYY-MM-DDTHH:MM:SS+00:00",
+  "portfolio": {
+    "portfolio_id": "PORT-REPLACE",
+    "name": "",
+    "owner_id": "",
+    "currency": "GBP",
+    "annual_spend": 0,
+    "review_frequency_days": 90
+  },
+  "suppliers": [],
+  "categories": [],
+  "concentration": {
+    "hhi": 0,
+    "max_supplier_percent": 0,
+    "top_three_percent": 0,
+    "critical_single_source_count": 0,
+    "calculated_at": "",
+    "calculation_source": "PROJECT_GENESIS"
+  },
+  "resilience": {
+    "rating": "REVIEW_REQUIRED",
+    "open_actions": [],
+    "owner_id": "",
+    "next_review_due": ""
+  },
+  "governance": {
+    "calculated_only": true,
+    "human_review_required": true,
+    "automatic_award": false,
+    "reviewer_id": "",
+    "approver_id": "",
+    "reviewed_at": "",
+    "conflicts_declared": true
+  },
+  "audit_trail": {
+    "immutable_history": true,
+    "events": []
+  }
+}

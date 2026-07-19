@@ -1,0 +1,75 @@
+{
+  "decision_id": "BAD",
+  "version": "v1",
+  "requirement": {
+    "category_id": "CAT-PEP",
+    "description": "Research material supply",
+    "quantity": 1000,
+    "currency": "GBP",
+    "required_by": "bad",
+    "critical": true,
+    "approved_scope": "PEPTIDE"
+  },
+  "criteria_weights": {
+    "total_cost": 100
+  },
+  "candidates": [
+    {
+      "supplier_id": "SUP-BAD",
+      "assurance_status": "SUSPENDED",
+      "scope_current": false,
+      "blocking_flags": [
+        "ASSURANCE_SUSPENDED"
+      ],
+      "scores": {
+        "assurance": 0,
+        "quality": 20,
+        "delivery": 20,
+        "resilience": 0,
+        "total_cost": 100,
+        "service": 20
+      },
+      "total_cost": 1000,
+      "weighted_score": 100
+    }
+  ],
+  "calculated_recommendation": {
+    "supplier_id": "SUP-BAD",
+    "weighted_score": 100,
+    "recommendation_only": false,
+    "generated_at": "bad",
+    "engine_version": "UNKNOWN"
+  },
+  "decision": {
+    "status": "APPROVED",
+    "selected_supplier_id": "SUP-BAD",
+    "rationale": "Cheapest",
+    "reviewer_id": "SAME",
+    "approver_id": "SAME",
+    "decided_at": "bad",
+    "automatic_award": true,
+    "price_only": true,
+    "conditions": [],
+    "next_review_due": null
+  },
+  "assurance_checks": {
+    "all_candidates_scope_checked": false,
+    "selected_supplier_current": false,
+    "product_evidence_separate": false,
+    "marketplace_eligibility_separate": false
+  },
+  "sole_source_exception": {
+    "applies": false,
+    "reason": null,
+    "market_evidence": null,
+    "mitigation": null,
+    "owner_id": null,
+    "retest_due": null,
+    "approved_by": null
+  },
+  "conflicts": [],
+  "audit_trail": {
+    "immutable_history": false,
+    "events": []
+  }
+}

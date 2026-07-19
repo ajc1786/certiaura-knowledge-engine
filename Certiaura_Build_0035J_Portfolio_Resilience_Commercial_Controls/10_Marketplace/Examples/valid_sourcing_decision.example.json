@@ -1,0 +1,117 @@
+{
+  "decision_id": "SOURCE-0035J-001",
+  "version": "1.0.0",
+  "requirement": {
+    "category_id": "CAT-PEP",
+    "description": "Research material supply",
+    "quantity": 1000,
+    "currency": "GBP",
+    "required_by": "2026-09-01T00:00:00+00:00",
+    "critical": true,
+    "approved_scope": "PEPTIDE"
+  },
+  "criteria_weights": {
+    "assurance": 25,
+    "quality": 20,
+    "delivery": 15,
+    "resilience": 20,
+    "total_cost": 15,
+    "service": 5
+  },
+  "candidates": [
+    {
+      "supplier_id": "SUP-000001",
+      "assurance_status": "QUALIFIED",
+      "scope_current": true,
+      "blocking_flags": [],
+      "scores": {
+        "assurance": 95,
+        "quality": 92,
+        "delivery": 90,
+        "resilience": 88,
+        "total_cost": 82,
+        "service": 91
+      },
+      "total_cost": 108000,
+      "weighted_score": 90.1
+    },
+    {
+      "supplier_id": "SUP-000002",
+      "assurance_status": "QUALIFIED",
+      "scope_current": true,
+      "blocking_flags": [],
+      "scores": {
+        "assurance": 93,
+        "quality": 89,
+        "delivery": 94,
+        "resilience": 92,
+        "total_cost": 88,
+        "service": 90
+      },
+      "total_cost": 104000,
+      "weighted_score": 91.25
+    }
+  ],
+  "calculated_recommendation": {
+    "supplier_id": "SUP-000002",
+    "weighted_score": 91.25,
+    "recommendation_only": true,
+    "generated_at": "2026-07-19T12:00:00+00:00",
+    "engine_version": "0035J-1.0.0"
+  },
+  "decision": {
+    "status": "APPROVED",
+    "selected_supplier_id": "SUP-000002",
+    "rationale": "Selected on the strongest combined assurance, delivery, resilience and total-cost outcome; not on unit price alone.",
+    "reviewer_id": "USR-SRC-01",
+    "approver_id": "USR-SRC-02",
+    "decided_at": "2026-07-19T12:30:00+00:00",
+    "automatic_award": false,
+    "price_only": false,
+    "conditions": [
+      "Quarterly service review",
+      "Maintain alternative source readiness"
+    ],
+    "next_review_due": "2026-10-17T12:00:00+00:00"
+  },
+  "assurance_checks": {
+    "all_candidates_scope_checked": true,
+    "selected_supplier_current": true,
+    "product_evidence_separate": true,
+    "marketplace_eligibility_separate": true
+  },
+  "sole_source_exception": {
+    "applies": false,
+    "reason": null,
+    "market_evidence": null,
+    "mitigation": null,
+    "owner_id": null,
+    "retest_due": null,
+    "approved_by": null
+  },
+  "conflicts": [
+    {
+      "person_id": "USR-SRC-01",
+      "declared": true,
+      "conflict": false,
+      "resolution": "NONE"
+    },
+    {
+      "person_id": "USR-SRC-02",
+      "declared": true,
+      "conflict": false,
+      "resolution": "NONE"
+    }
+  ],
+  "audit_trail": {
+    "immutable_history": true,
+    "events": [
+      {
+        "event_id": "EVT-SRC-001",
+        "event": "DECISION_APPROVED",
+        "at": "2026-07-19T12:30:00+00:00",
+        "actor_id": "USR-SRC-02"
+      }
+    ]
+  }
+}

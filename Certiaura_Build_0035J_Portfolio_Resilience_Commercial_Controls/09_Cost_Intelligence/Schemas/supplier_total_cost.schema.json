@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://certiaura.local/schemas/supplier_total_cost.schema.json",
+  "title": "Certiaura Supplier Total Cost Record",
+  "type": "object",
+  "required": [
+    "supplier_id",
+    "currency",
+    "period",
+    "purchase_cost",
+    "landed_cost",
+    "assurance_cost",
+    "operational_cost",
+    "risk_adjusted_cost",
+    "exit_cost",
+    "total_cost",
+    "assumptions",
+    "reviewed_by"
+  ],
+  "properties": {
+    "purchase_cost": {
+      "type": "number",
+      "minimum": 0
+    },
+    "landed_cost": {
+      "type": "number",
+      "minimum": 0
+    },
+    "assurance_cost": {
+      "type": "number",
+      "minimum": 0
+    },
+    "operational_cost": {
+      "type": "number",
+      "minimum": 0
+    },
+    "risk_adjusted_cost": {
+      "type": "number",
+      "minimum": 0
+    },
+    "exit_cost": {
+      "type": "number",
+      "minimum": 0
+    },
+    "total_cost": {
+      "type": "number",
+      "minimum": 0
+    }
+  },
+  "additionalProperties": true
+}

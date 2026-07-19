@@ -1,0 +1,5 @@
+metric,warning_trigger,critical_trigger,default_action
+ON_TIME_IN_FULL_PERCENT,<95,<85,Review / corrective action / alternative-source readiness
+EVIDENCE_RESPONSE_DAYS,>5,>10,Escalate evidence response and restrict new submissions if repeated
+CORRECTIVE_ACTION_OVERDUE_COUNT,>0,>2,"Escalate, hold new award and consider assurance review"
+QUALITY_REJECTION_PERCENT,>2,>5,Product and supplier review

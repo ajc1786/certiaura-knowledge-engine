@@ -1,0 +1,56 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://certiaura.local/schemas/supplier_portfolio_profile.schema.json",
+  "title": "Certiaura Supplier Portfolio Profile",
+  "type": "object",
+  "required": [
+    "record_id",
+    "version",
+    "as_of",
+    "portfolio",
+    "suppliers",
+    "categories",
+    "concentration",
+    "resilience",
+    "governance",
+    "audit_trail"
+  ],
+  "properties": {
+    "record_id": {
+      "type": "string",
+      "minLength": 8
+    },
+    "version": {
+      "type": "string",
+      "pattern": "^\\d+\\.\\d+\\.\\d+$"
+    },
+    "as_of": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "portfolio": {
+      "type": "object"
+    },
+    "suppliers": {
+      "type": "array",
+      "minItems": 1
+    },
+    "categories": {
+      "type": "array",
+      "minItems": 1
+    },
+    "concentration": {
+      "type": "object"
+    },
+    "resilience": {
+      "type": "object"
+    },
+    "governance": {
+      "type": "object"
+    },
+    "audit_trail": {
+      "type": "object"
+    }
+  },
+  "additionalProperties": true
+}

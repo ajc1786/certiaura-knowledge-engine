@@ -1,0 +1,54 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://certiaura.local/schemas/sourcing_decision.schema.json",
+  "title": "Certiaura Sourcing Decision",
+  "type": "object",
+  "required": [
+    "decision_id",
+    "version",
+    "requirement",
+    "criteria_weights",
+    "candidates",
+    "calculated_recommendation",
+    "decision",
+    "assurance_checks",
+    "conflicts",
+    "audit_trail"
+  ],
+  "properties": {
+    "decision_id": {
+      "type": "string",
+      "minLength": 8
+    },
+    "version": {
+      "type": "string",
+      "pattern": "^\\d+\\.\\d+\\.\\d+$"
+    },
+    "requirement": {
+      "type": "object"
+    },
+    "criteria_weights": {
+      "type": "object"
+    },
+    "candidates": {
+      "type": "array",
+      "minItems": 1
+    },
+    "calculated_recommendation": {
+      "type": "object"
+    },
+    "decision": {
+      "type": "object"
+    },
+    "assurance_checks": {
+      "type": "object"
+    },
+    "conflicts": {
+      "type": "array"
+    },
+    "audit_trail": {
+      "type": "object"
+    }
+  },
+  "additionalProperties": true
+}

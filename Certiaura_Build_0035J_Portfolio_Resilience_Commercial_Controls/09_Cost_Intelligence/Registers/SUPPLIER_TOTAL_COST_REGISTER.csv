@@ -1,0 +1,1 @@
+cost_record_id,supplier_id,category_id,currency,period,purchase_cost,landed_cost,assurance_cost,operational_cost,risk_adjusted_cost,exit_cost,total_cost,confidence,reviewed_by,reviewed_at

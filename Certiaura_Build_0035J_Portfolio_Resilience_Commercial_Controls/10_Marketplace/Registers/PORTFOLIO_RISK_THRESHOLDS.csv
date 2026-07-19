@@ -1,0 +1,5 @@
+metric,green,amber,red,override_rule
+MAX_SUPPLIER_PERCENT,<=40,>40 and <=60,>60,Critical single-source risk may force RED
+HHI,<=1800,>1800 and <=2500,>2500,Integrity or assurance failure overrides score
+TOP_THREE_PERCENT,<=75,>75 and <=90,>90,Critical dependency may force RED
+CRITICAL_SINGLE_SOURCE_UNMITIGATED,0,0 with approved mitigation,>=1,Any unmitigated critical single source is RED

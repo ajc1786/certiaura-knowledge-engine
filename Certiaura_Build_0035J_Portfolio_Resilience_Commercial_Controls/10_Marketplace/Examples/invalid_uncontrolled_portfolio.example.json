@@ -1,0 +1,411 @@
+{
+  "record_id": "BAD",
+  "version": "one",
+  "as_of": "not-a-date",
+  "portfolio": {
+    "portfolio_id": "PORT-000001",
+    "name": "Core research supply portfolio",
+    "owner_id": "",
+    "currency": "GBP",
+    "annual_spend": 0,
+    "review_frequency_days": 90
+  },
+  "suppliers": [
+    {
+      "supplier_id": "SUP-000001",
+      "legal_name": "Aurelia Scientific Ltd",
+      "assurance_status": "SUSPENDED",
+      "approved_scope_status": "CURRENT",
+      "panel_status": "ACTIVE",
+      "annual_spend": 280000,
+      "spend_percent": 90,
+      "critical_categories": [
+        "PEPTIDE"
+      ],
+      "regions": [
+        "GB"
+      ],
+      "sites": [
+        "SITE-1"
+      ],
+      "performance": {
+        "quality_score": 130,
+        "delivery_score": 94,
+        "responsiveness_score": 92,
+        "evidence_score": 95,
+        "sample_size": 0,
+        "period": "2026-H1"
+      },
+      "sla": {
+        "on_time_in_full_percent": 60,
+        "target_on_time_in_full_percent": 95,
+        "evidence_response_days": 3,
+        "target_evidence_response_days": 5,
+        "open_overdue_corrective_actions": 0
+      },
+      "commercial": {
+        "currency": "GBP",
+        "purchase_cost": 78000.0,
+        "landed_cost": 8000.0,
+        "assurance_cost": 3000.0,
+        "operational_cost": 4000.0,
+        "risk_adjusted_cost": 5000.0,
+        "exit_cost": 2000.0,
+        "total_cost": 1,
+        "payment_terms_days": 30,
+        "price_valid_until": "2026-12-31"
+      },
+      "continuity": {
+        "bcp_status": "NOT_TESTED",
+        "last_tested_at": "2026-05-01T09:00:00+00:00",
+        "recovery_time_hours": 48,
+        "capacity_status": "AVAILABLE"
+      },
+      "marketplace": {
+        "commercial_eligible": true,
+        "decision_id": null,
+        "reviewer_id": "SAME",
+        "approver_id": "SAME",
+        "decided_at": null
+      }
+    },
+    {
+      "supplier_id": "SUP-000002",
+      "legal_name": "Northstar Research Supply Ltd",
+      "assurance_status": "QUALIFIED",
+      "approved_scope_status": "CURRENT",
+      "panel_status": "ACTIVE",
+      "annual_spend": 240000,
+      "spend_percent": 24,
+      "critical_categories": [
+        "PEPTIDE"
+      ],
+      "regions": [
+        "GB"
+      ],
+      "sites": [
+        "SITE-2"
+      ],
+      "performance": {
+        "quality_score": 90,
+        "delivery_score": 94,
+        "responsiveness_score": 92,
+        "evidence_score": 95,
+        "sample_size": 24,
+        "period": "2026-H1"
+      },
+      "sla": {
+        "on_time_in_full_percent": 97,
+        "target_on_time_in_full_percent": 95,
+        "evidence_response_days": 3,
+        "target_evidence_response_days": 5,
+        "open_overdue_corrective_actions": 0
+      },
+      "commercial": {
+        "currency": "GBP",
+        "purchase_cost": 78000.0,
+        "landed_cost": 8000.0,
+        "assurance_cost": 3000.0,
+        "operational_cost": 4000.0,
+        "risk_adjusted_cost": 5000.0,
+        "exit_cost": 2000.0,
+        "total_cost": 100000,
+        "payment_terms_days": 30,
+        "price_valid_until": "2026-12-31"
+      },
+      "continuity": {
+        "bcp_status": "TESTED",
+        "last_tested_at": "2026-05-01T09:00:00+00:00",
+        "recovery_time_hours": 48,
+        "capacity_status": "AVAILABLE"
+      },
+      "marketplace": {
+        "commercial_eligible": true,
+        "decision_id": "MCE-SUP-000002",
+        "reviewer_id": "USR-COM-01",
+        "approver_id": "USR-COM-02",
+        "decided_at": "2026-07-10T10:00:00+00:00"
+      }
+    },
+    {
+      "supplier_id": "SUP-000003",
+      "legal_name": "Helix Laboratory Services Ltd",
+      "assurance_status": "QUALIFIED",
+      "approved_scope_status": "CURRENT",
+      "panel_status": "ACTIVE",
+      "annual_spend": 200000,
+      "spend_percent": 20,
+      "critical_categories": [
+        "LAB_TESTING"
+      ],
+      "regions": [
+        "GB"
+      ],
+      "sites": [
+        "SITE-3"
+      ],
+      "performance": {
+        "quality_score": 90,
+        "delivery_score": 94,
+        "responsiveness_score": 92,
+        "evidence_score": 95,
+        "sample_size": 24,
+        "period": "2026-H1"
+      },
+      "sla": {
+        "on_time_in_full_percent": 97,
+        "target_on_time_in_full_percent": 95,
+        "evidence_response_days": 3,
+        "target_evidence_response_days": 5,
+        "open_overdue_corrective_actions": 0
+      },
+      "commercial": {
+        "currency": "GBP",
+        "purchase_cost": 70200.0,
+        "landed_cost": 7200.0,
+        "assurance_cost": 2700.0,
+        "operational_cost": 3600.0,
+        "risk_adjusted_cost": 4500.0,
+        "exit_cost": 1800.0,
+        "total_cost": 90000,
+        "payment_terms_days": 30,
+        "price_valid_until": "2026-12-31"
+      },
+      "continuity": {
+        "bcp_status": "TESTED",
+        "last_tested_at": "2026-05-01T09:00:00+00:00",
+        "recovery_time_hours": 48,
+        "capacity_status": "AVAILABLE"
+      },
+      "marketplace": {
+        "commercial_eligible": true,
+        "decision_id": "MCE-SUP-000003",
+        "reviewer_id": "USR-COM-01",
+        "approver_id": "USR-COM-02",
+        "decided_at": "2026-07-10T10:00:00+00:00"
+      }
+    },
+    {
+      "supplier_id": "SUP-000004",
+      "legal_name": "ColdChain Systems Ltd",
+      "assurance_status": "QUALIFIED",
+      "approved_scope_status": "CURRENT",
+      "panel_status": "ACTIVE",
+      "annual_spend": 160000,
+      "spend_percent": 16,
+      "critical_categories": [
+        "LOGISTICS"
+      ],
+      "regions": [
+        "GB"
+      ],
+      "sites": [
+        "SITE-4"
+      ],
+      "performance": {
+        "quality_score": 90,
+        "delivery_score": 94,
+        "responsiveness_score": 92,
+        "evidence_score": 95,
+        "sample_size": 24,
+        "period": "2026-H1"
+      },
+      "sla": {
+        "on_time_in_full_percent": 97,
+        "target_on_time_in_full_percent": 95,
+        "evidence_response_days": 3,
+        "target_evidence_response_days": 5,
+        "open_overdue_corrective_actions": 0
+      },
+      "commercial": {
+        "currency": "GBP",
+        "purchase_cost": 62400.0,
+        "landed_cost": 6400.0,
+        "assurance_cost": 2400.0,
+        "operational_cost": 3200.0,
+        "risk_adjusted_cost": 4000.0,
+        "exit_cost": 1600.0,
+        "total_cost": 80000,
+        "payment_terms_days": 30,
+        "price_valid_until": "2026-12-31"
+      },
+      "continuity": {
+        "bcp_status": "TESTED",
+        "last_tested_at": "2026-05-01T09:00:00+00:00",
+        "recovery_time_hours": 48,
+        "capacity_status": "AVAILABLE"
+      },
+      "marketplace": {
+        "commercial_eligible": true,
+        "decision_id": "MCE-SUP-000004",
+        "reviewer_id": "USR-COM-01",
+        "approver_id": "USR-COM-02",
+        "decided_at": "2026-07-10T10:00:00+00:00"
+      }
+    },
+    {
+      "supplier_id": "SUP-000005",
+      "legal_name": "Archive Storage Services Ltd",
+      "assurance_status": "QUALIFIED",
+      "approved_scope_status": "CURRENT",
+      "panel_status": "ACTIVE",
+      "annual_spend": 120000,
+      "spend_percent": 12,
+      "critical_categories": [
+        "STORAGE"
+      ],
+      "regions": [
+        "GB"
+      ],
+      "sites": [
+        "SITE-5"
+      ],
+      "performance": {
+        "quality_score": 90,
+        "delivery_score": 94,
+        "responsiveness_score": 92,
+        "evidence_score": 95,
+        "sample_size": 24,
+        "period": "2026-H1"
+      },
+      "sla": {
+        "on_time_in_full_percent": 97,
+        "target_on_time_in_full_percent": 95,
+        "evidence_response_days": 3,
+        "target_evidence_response_days": 5,
+        "open_overdue_corrective_actions": 0
+      },
+      "commercial": {
+        "currency": "GBP",
+        "purchase_cost": 46800.0,
+        "landed_cost": 4800.0,
+        "assurance_cost": 1800.0,
+        "operational_cost": 2400.0,
+        "risk_adjusted_cost": 3000.0,
+        "exit_cost": 1200.0,
+        "total_cost": 60000,
+        "payment_terms_days": 30,
+        "price_valid_until": "2026-12-31"
+      },
+      "continuity": {
+        "bcp_status": "TESTED",
+        "last_tested_at": "2026-05-01T09:00:00+00:00",
+        "recovery_time_hours": 48,
+        "capacity_status": "AVAILABLE"
+      },
+      "marketplace": {
+        "commercial_eligible": true,
+        "decision_id": "MCE-SUP-000005",
+        "reviewer_id": "USR-COM-01",
+        "approver_id": "USR-COM-02",
+        "decided_at": "2026-07-10T10:00:00+00:00"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "category_id": "CAT-PEP",
+      "name": "Peptide research materials",
+      "critical": true,
+      "annual_spend": 520000,
+      "primary_supplier_id": "SUP-000001",
+      "approved_supplier_ids": [
+        "SUP-000001"
+      ],
+      "active_alternatives": [],
+      "sole_source": true,
+      "mitigation": null,
+      "owner_id": "USR-CAT-01",
+      "next_review_due": "2026-10-17T12:00:00+00:00"
+    },
+    {
+      "category_id": "CAT-LAB",
+      "name": "Independent laboratory testing",
+      "critical": true,
+      "annual_spend": 200000,
+      "primary_supplier_id": "SUP-000003",
+      "approved_supplier_ids": [
+        "SUP-000003",
+        "SUP-000002"
+      ],
+      "active_alternatives": [
+        "SUP-000002"
+      ],
+      "sole_source": false,
+      "mitigation": null,
+      "owner_id": "USR-CAT-02",
+      "next_review_due": "2026-10-17T12:00:00+00:00"
+    },
+    {
+      "category_id": "CAT-LOG",
+      "name": "Temperature-controlled logistics",
+      "critical": false,
+      "annual_spend": 160000,
+      "primary_supplier_id": "SUP-000004",
+      "approved_supplier_ids": [
+        "SUP-000004"
+      ],
+      "active_alternatives": [],
+      "sole_source": true,
+      "mitigation": {
+        "status": "APPROVED",
+        "reason": "Specialist lane during pilot",
+        "owner_id": "USR-CAT-03",
+        "due_at": "2026-09-30T12:00:00+00:00",
+        "approved_by": "USR-RISK-02",
+        "market_retest_due": "2026-09-01T12:00:00+00:00"
+      },
+      "owner_id": "USR-CAT-03",
+      "next_review_due": "2026-09-01T12:00:00+00:00"
+    },
+    {
+      "category_id": "CAT-STO",
+      "name": "Archive storage",
+      "critical": false,
+      "annual_spend": 120000,
+      "primary_supplier_id": "SUP-000005",
+      "approved_supplier_ids": [
+        "SUP-000005"
+      ],
+      "active_alternatives": [],
+      "sole_source": true,
+      "mitigation": {
+        "status": "APPROVED",
+        "reason": "Low consequence archive service",
+        "owner_id": "USR-CAT-04",
+        "due_at": "2026-10-31T12:00:00+00:00",
+        "approved_by": "USR-RISK-02",
+        "market_retest_due": "2026-10-01T12:00:00+00:00"
+      },
+      "owner_id": "USR-CAT-04",
+      "next_review_due": "2026-10-01T12:00:00+00:00"
+    }
+  ],
+  "concentration": {
+    "hhi": 1,
+    "max_supplier_percent": 1,
+    "top_three_percent": 1,
+    "critical_single_source_count": 0,
+    "calculated_at": "bad",
+    "calculation_source": "MANUAL"
+  },
+  "resilience": {
+    "rating": "GREEN",
+    "open_actions": [],
+    "owner_id": "",
+    "next_review_due": "bad"
+  },
+  "governance": {
+    "calculated_only": false,
+    "human_review_required": false,
+    "automatic_award": true,
+    "reviewer_id": "SAME",
+    "approver_id": "SAME",
+    "reviewed_at": "bad",
+    "conflicts_declared": false
+  },
+  "audit_trail": {
+    "immutable_history": false,
+    "events": []
+  }
+}
