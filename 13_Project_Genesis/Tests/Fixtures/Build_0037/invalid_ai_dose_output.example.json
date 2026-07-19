@@ -1,0 +1,32 @@
+{
+  "ai_output_id": "AI-OUT-DOSE-001",
+  "output_type": "DOSE_OR_TITRATION",
+  "personalisation_level": "PERSONAL_HEALTH",
+  "audience": "PUBLIC",
+  "jurisdiction": "UK",
+  "health_data_used": true,
+  "intended_purpose": "Provide a personal dose",
+  "medical_device_assessment": "PENDING",
+  "dpia_status": "PENDING",
+  "evidence_refs": [],
+  "uncertainty_statement": "",
+  "warnings": [
+    "Not medical advice"
+  ],
+  "commercial_interest": true,
+  "commercial_interest_disclosure": "",
+  "human_review": {
+    "required": false,
+    "status": "NOT_REQUIRED",
+    "reviewer": null
+  },
+  "risk_level": "HIGH",
+  "disposition": "ALLOW",
+  "model_version": "certiaura-model-policy-1.0",
+  "prompt_record": "PROMPT-001",
+  "output_record": "OUTPUT-001",
+  "status": "APPROVED",
+  "build_provenance": [
+    "CERT-BUILD-0037"
+  ]
+}

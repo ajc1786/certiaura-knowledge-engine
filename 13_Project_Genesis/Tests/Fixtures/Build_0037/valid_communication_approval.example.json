@@ -1,0 +1,36 @@
+{
+  "communication_id": "COMM-EDU-001",
+  "title": "Evidence summary page",
+  "audience": "PUBLIC",
+  "jurisdiction": "UK",
+  "channels": [
+    "WEBSITE"
+  ],
+  "claim_ids": [
+    "CLAIM-EDU-001"
+  ],
+  "product_regulatory_classification": "NOT_APPLICABLE",
+  "commercial_interest": false,
+  "commercial_interest_disclosure": "",
+  "ai_involvement": "DRAFTING",
+  "vulnerable_audience_controls": [
+    "No urgency or fear framing"
+  ],
+  "required_disclosures": [
+    "Educational information only"
+  ],
+  "approval_level": "L2",
+  "reviews": {
+    "scientific": "APPROVED",
+    "communications": "APPROVED",
+    "medical": "NOT_REQUIRED",
+    "legal_regulatory": "NOT_REQUIRED",
+    "data_protection": "NOT_REQUIRED"
+  },
+  "decision": "APPROVED",
+  "approval_expiry": "2027-01-19",
+  "status": "ACTIVE",
+  "build_provenance": [
+    "CERT-BUILD-0037"
+  ]
+}

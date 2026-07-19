@@ -1,0 +1,32 @@
+{
+  "claim_id": "CLAIM-REPLACE-ME",
+  "exact_claim_text": "",
+  "claim_classes": [
+    "SCIENTIFIC_EDUCATIONAL"
+  ],
+  "risk_level": "MEDIUM",
+  "audience": "INTERNAL",
+  "jurisdiction": "UK",
+  "channels": [
+    "KNOWLEDGE_ASSET"
+  ],
+  "commercial_purpose": false,
+  "commercial_interest_disclosure": "",
+  "product_regulatory_classification": "NOT_APPLICABLE",
+  "evidence": [],
+  "limitations": [],
+  "required_disclosures": [],
+  "ai_involvement": "NONE",
+  "reviews": {
+    "scientific": "PENDING",
+    "communications": "NOT_REQUIRED",
+    "medical": "NOT_REQUIRED",
+    "legal_regulatory": "NOT_REQUIRED"
+  },
+  "disposition": "DRAFT",
+  "approval_expiry": null,
+  "status": "DRAFT",
+  "build_provenance": [
+    "CERT-BUILD-0037"
+  ]
+}

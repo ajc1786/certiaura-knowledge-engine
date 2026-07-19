@@ -1,0 +1,43 @@
+{
+  "claim_id": "CLAIM-COMP-001",
+  "exact_claim_text": "Current recorded price data shows option A has a lower listed unit cost than option B as at the review date.",
+  "claim_classes": [
+    "COMPARATIVE",
+    "COMMERCIAL"
+  ],
+  "risk_level": "HIGH",
+  "audience": "PUBLIC",
+  "jurisdiction": "UK",
+  "channels": [
+    "WEBSITE"
+  ],
+  "commercial_purpose": true,
+  "commercial_interest_disclosure": "Certiaura may receive affiliate income from listed suppliers.",
+  "product_regulatory_classification": "NOT_APPLICABLE",
+  "evidence": [
+    {
+      "evidence_id": "CERT-CIS-000001",
+      "support_level": "DIRECT"
+    }
+  ],
+  "limitations": [
+    "Preliminary evidence",
+    "Not a treatment recommendation"
+  ],
+  "required_disclosures": [
+    "Educational information only"
+  ],
+  "ai_involvement": "DRAFTING",
+  "reviews": {
+    "scientific": "APPROVED",
+    "communications": "APPROVED_WITH_CONDITIONS",
+    "medical": "NOT_REQUIRED",
+    "legal_regulatory": "NOT_REQUIRED"
+  },
+  "disposition": "APPROVED_WITH_CONDITIONS",
+  "approval_expiry": "2027-01-19",
+  "status": "ACTIVE",
+  "build_provenance": [
+    "CERT-BUILD-0037"
+  ]
+}

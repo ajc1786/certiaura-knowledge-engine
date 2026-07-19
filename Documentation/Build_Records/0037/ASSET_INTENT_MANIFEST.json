@@ -1,0 +1,601 @@
+{
+  "build_number": "0037",
+  "build_id": "CERT-BUILD-0037",
+  "build_title": "Scientific content claims advertising AI recommendation and responsible communications controls",
+  "package_version": "1.1.0-corrected-reissue",
+  "generated_at": "2026-07-19T19:17:24.476533+00:00",
+  "canonical_master_asset_register": "Documentation/Master_Asset_Register.csv",
+  "master_asset_register_included": false,
+  "automatic_reconciliation_required": true,
+  "preserve_existing_uai": true,
+  "allocation_rule": "Allocate a new UAI only for a genuinely new formal asset after strongest-identifier matching; quarantine ambiguity.",
+  "package_files": [
+    {
+      "repository_path": "00_Governance/AI_RECOMMENDATION_SAFETY_BOUNDARY_STANDARD.md",
+      "classification": "FORMAL_ASSET",
+      "build_provenance": [
+        "CERT-BUILD-0037"
+      ],
+      "asset_title": "Certiaura Artificial Intelligence Recommendation Safety Boundary Standard",
+      "asset_type": "Governance Control",
+      "knowledge_system": "SYS",
+      "intended_action": "CREATE",
+      "existing_uai": null,
+      "preserve_existing_uai": true,
+      "identity_match": "EXISTING_UAI_THEN_EXACT_PATH_THEN_STRONG_METADATA_OR_QUARANTINE",
+      "proposed_version": "1.0.0",
+      "proposed_status": "ACTIVE",
+      "owner": "Certiaura",
+      "parent_assets": [],
+      "child_assets": [],
+      "relationships": [],
+      "evidence_links": [],
+      "report_links": [],
+      "marketplace_links": [],
+      "product_passport_links": [],
+      "last_review": "2026-07-19",
+      "next_review": "2027-01-19",
+      "source_builds": [
+        "0037"
+      ],
+      "registration_basis": "BUILD_0037_FORMAL_ASSET"
+    },
+    {
+      "repository_path": "00_Governance/CERTIAURA_LOCKED_BUILD_CONTINUITY_AND_CHECKPOINT.md",
+      "classification": "FORMAL_ASSET",
+      "build_provenance": [
+        "CERT-BUILD-0037"
+      ],
+      "asset_title": "Certiaura Locked Build Continuity and Checkpoint",
+      "asset_type": "Governance Control",
+      "knowledge_system": "SYS",
+      "intended_action": "UPDATE",
+      "existing_uai": null,
+      "preserve_existing_uai": true,
+      "identity_match": "EXISTING_UAI_THEN_EXACT_PATH_THEN_STRONG_METADATA_OR_QUARANTINE",
+      "proposed_version": "1.4.0",
+      "proposed_status": "LOCKED_ACTIVE",
+      "owner": "Certiaura",
+      "parent_assets": [],
+      "child_assets": [],
+      "relationships": [],
+      "evidence_links": [],
+      "report_links": [],
+      "marketplace_links": [],
+      "product_passport_links": [],
+      "last_review": "2026-07-19",
+      "next_review": "2027-01-19",
+      "source_builds": [
+        "0037"
+      ],
+      "registration_basis": "BUILD_0037_FORMAL_ASSET"
+    },
+    {
+      "repository_path": "00_Governance/RESPONSIBLE_COMMUNICATIONS_APPROVAL_WORKFLOW.md",
+      "classification": "FORMAL_ASSET",
+      "build_provenance": [
+        "CERT-BUILD-0037"
+      ],
+      "asset_title": "Certiaura Responsible Communications Approval Workflow",
+      "asset_type": "Governance Control",
+      "knowledge_system": "SYS",
+      "intended_action": "CREATE",
+      "existing_uai": null,
+      "preserve_existing_uai": true,
+      "identity_match": "EXISTING_UAI_THEN_EXACT_PATH_THEN_STRONG_METADATA_OR_QUARANTINE",
+      "proposed_version": "1.0.0",
+      "proposed_status": "ACTIVE",
+      "owner": "Certiaura",
+      "parent_assets": [],
+      "child_assets": [],
+      "relationships": [],
+      "evidence_links": [],
+      "report_links": [],
+      "marketplace_links": [],
+      "product_passport_links": [],
+      "last_review": "2026-07-19",
+      "next_review": "2027-01-19",
+      "source_builds": [
+        "0037"
+      ],
+      "registration_basis": "BUILD_0037_FORMAL_ASSET"
+    },
+    {
+      "repository_path": "00_Governance/SCIENTIFIC_CLAIMS_ADVERTISING_AI_COMMUNICATIONS_STANDARD.md",
+      "classification": "FORMAL_ASSET",
+      "build_provenance": [
+        "CERT-BUILD-0037"
+      ],
+      "asset_title": "Certiaura Scientific Claims, Advertising, Artificial Intelligence Recommendation and Communications Standard",
+      "asset_type": "Governance Control",
+      "knowledge_system": "SYS",
+      "intended_action": "CREATE",
+      "existing_uai": null,
+      "preserve_existing_uai": true,
+      "identity_match": "EXISTING_UAI_THEN_EXACT_PATH_THEN_STRONG_METADATA_OR_QUARANTINE",
+      "proposed_version": "1.0.0",
+      "proposed_status": "ACTIVE",
+      "owner": "Certiaura",
+      "parent_assets": [],
+      "child_assets": [],
+      "relationships": [],
+      "evidence_links": [],
+      "report_links": [],
+      "marketplace_links": [],
+      "product_passport_links": [],
+      "last_review": "2026-07-19",
+      "next_review": "2027-01-19",
+      "source_builds": [
+        "0037"
+      ],
+      "registration_basis": "BUILD_0037_FORMAL_ASSET"
+    },
+    {
+      "repository_path": "06_Evidence/Regulatory/UK_HEALTH_CLAIMS_ADVERTISING_AI_SOURCE_REGISTER.json",
+      "classification": "FORMAL_ASSET",
+      "build_provenance": [
+        "CERT-BUILD-0037"
+      ],
+      "asset_title": "UK Health Claims Advertising and AI Source Register",
+      "asset_type": "Evidence Register",
+      "knowledge_system": "EKS",
+      "intended_action": "CREATE",
+      "existing_uai": null,
+      "preserve_existing_uai": true,
+      "identity_match": "EXISTING_UAI_THEN_EXACT_PATH_THEN_STRONG_METADATA_OR_QUARANTINE",
+      "proposed_version": "1.0.0",
+      "proposed_status": "ACTIVE",
+      "owner": "Certiaura",
+      "parent_assets": [],
+      "child_assets": [],
+      "relationships": [],
+      "evidence_links": [],
+      "report_links": [],
+      "marketplace_links": [],
+      "product_passport_links": [],
+      "last_review": "2026-07-19",
+      "next_review": "2027-01-19",
+      "source_builds": [
+        "0037"
+      ],
+      "registration_basis": "BUILD_0037_FORMAL_ASSET"
+    },
+    {
+      "repository_path": "13_Project_Genesis/Import/run_build_0037_import.py",
+      "classification": "SCRIPT",
+      "build_provenance": [
+        "CERT-BUILD-0037"
+      ]
+    },
+    {
+      "repository_path": "13_Project_Genesis/Tests/Fixtures/Build_0037/conditional_commercial_claim.example.json",
+      "classification": "EXAMPLE",
+      "build_provenance": [
+        "CERT-BUILD-0037"
+      ]
+    },
+    {
+      "repository_path": "13_Project_Genesis/Tests/Fixtures/Build_0037/invalid_ai_dose_output.example.json",
+      "classification": "EXAMPLE",
+      "build_provenance": [
+        "CERT-BUILD-0037"
+      ]
+    },
+    {
+      "repository_path": "13_Project_Genesis/Tests/Fixtures/Build_0037/invalid_medicinal_claim.example.json",
+      "classification": "EXAMPLE",
+      "build_provenance": [
+        "CERT-BUILD-0037"
+      ]
+    },
+    {
+      "repository_path": "13_Project_Genesis/Tests/Fixtures/Build_0037/invalid_public_pom_communication.example.json",
+      "classification": "EXAMPLE",
+      "build_provenance": [
+        "CERT-BUILD-0037"
+      ]
+    },
+    {
+      "repository_path": "13_Project_Genesis/Tests/Fixtures/Build_0037/valid_ai_educational_output.example.json",
+      "classification": "EXAMPLE",
+      "build_provenance": [
+        "CERT-BUILD-0037"
+      ]
+    },
+    {
+      "repository_path": "13_Project_Genesis/Tests/Fixtures/Build_0037/valid_communication_approval.example.json",
+      "classification": "EXAMPLE",
+      "build_provenance": [
+        "CERT-BUILD-0037"
+      ]
+    },
+    {
+      "repository_path": "13_Project_Genesis/Tests/Fixtures/Build_0037/valid_scientific_claim.example.json",
+      "classification": "EXAMPLE",
+      "build_provenance": [
+        "CERT-BUILD-0037"
+      ]
+    },
+    {
+      "repository_path": "13_Project_Genesis/Tests/test_build_0037_controls.py",
+      "classification": "TEST",
+      "build_provenance": [
+        "CERT-BUILD-0037"
+      ]
+    },
+    {
+      "repository_path": "13_Project_Genesis/Tests/test_build_0037_manifest_controls.py",
+      "classification": "TEST",
+      "build_provenance": [
+        "CERT-BUILD-0037"
+      ]
+    },
+    {
+      "repository_path": "13_Project_Genesis/Validators/validate_ai_recommendation_output.py",
+      "classification": "SCRIPT",
+      "build_provenance": [
+        "CERT-BUILD-0037"
+      ]
+    },
+    {
+      "repository_path": "13_Project_Genesis/Validators/validate_build_0037_repository.py",
+      "classification": "SCRIPT",
+      "build_provenance": [
+        "CERT-BUILD-0037"
+      ]
+    },
+    {
+      "repository_path": "13_Project_Genesis/Validators/validate_communication_approval.py",
+      "classification": "SCRIPT",
+      "build_provenance": [
+        "CERT-BUILD-0037"
+      ]
+    },
+    {
+      "repository_path": "13_Project_Genesis/Validators/validate_scientific_claim.py",
+      "classification": "SCRIPT",
+      "build_provenance": [
+        "CERT-BUILD-0037"
+      ]
+    },
+    {
+      "repository_path": "Database/Registers/AI_Recommendation_Risk_Register.csv",
+      "classification": "FORMAL_ASSET",
+      "build_provenance": [
+        "CERT-BUILD-0037"
+      ],
+      "asset_title": "AI Recommendation Risk Register",
+      "asset_type": "Register",
+      "knowledge_system": "SYS",
+      "intended_action": "CREATE",
+      "existing_uai": null,
+      "preserve_existing_uai": true,
+      "identity_match": "EXISTING_UAI_THEN_EXACT_PATH_THEN_STRONG_METADATA_OR_QUARANTINE",
+      "proposed_version": "1.0.0",
+      "proposed_status": "ACTIVE",
+      "owner": "Certiaura",
+      "parent_assets": [],
+      "child_assets": [],
+      "relationships": [],
+      "evidence_links": [],
+      "report_links": [],
+      "marketplace_links": [],
+      "product_passport_links": [],
+      "last_review": "2026-07-19",
+      "next_review": "2027-01-19",
+      "source_builds": [
+        "0037"
+      ],
+      "registration_basis": "BUILD_0037_FORMAL_ASSET"
+    },
+    {
+      "repository_path": "Database/Registers/Communication_Approvals_Register.csv",
+      "classification": "FORMAL_ASSET",
+      "build_provenance": [
+        "CERT-BUILD-0037"
+      ],
+      "asset_title": "Communication Approvals Register",
+      "asset_type": "Register",
+      "knowledge_system": "SYS",
+      "intended_action": "CREATE",
+      "existing_uai": null,
+      "preserve_existing_uai": true,
+      "identity_match": "EXISTING_UAI_THEN_EXACT_PATH_THEN_STRONG_METADATA_OR_QUARANTINE",
+      "proposed_version": "1.0.0",
+      "proposed_status": "ACTIVE",
+      "owner": "Certiaura",
+      "parent_assets": [],
+      "child_assets": [],
+      "relationships": [],
+      "evidence_links": [],
+      "report_links": [],
+      "marketplace_links": [],
+      "product_passport_links": [],
+      "last_review": "2026-07-19",
+      "next_review": "2027-01-19",
+      "source_builds": [
+        "0037"
+      ],
+      "registration_basis": "BUILD_0037_FORMAL_ASSET"
+    },
+    {
+      "repository_path": "Database/Registers/Scientific_Claims_Register.csv",
+      "classification": "FORMAL_ASSET",
+      "build_provenance": [
+        "CERT-BUILD-0037"
+      ],
+      "asset_title": "Scientific Claims Register",
+      "asset_type": "Register",
+      "knowledge_system": "EKS",
+      "intended_action": "CREATE",
+      "existing_uai": null,
+      "preserve_existing_uai": true,
+      "identity_match": "EXISTING_UAI_THEN_EXACT_PATH_THEN_STRONG_METADATA_OR_QUARANTINE",
+      "proposed_version": "1.0.0",
+      "proposed_status": "ACTIVE",
+      "owner": "Certiaura",
+      "parent_assets": [],
+      "child_assets": [],
+      "relationships": [],
+      "evidence_links": [],
+      "report_links": [],
+      "marketplace_links": [],
+      "product_passport_links": [],
+      "last_review": "2026-07-19",
+      "next_review": "2027-01-19",
+      "source_builds": [
+        "0037"
+      ],
+      "registration_basis": "BUILD_0037_FORMAL_ASSET"
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0037/ASSET_INTENT_MANIFEST.json",
+      "classification": "BUILD_RECORD",
+      "build_provenance": [
+        "CERT-BUILD-0037"
+      ]
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0037/ASSET_REGISTER_RECONCILIATION_POLICY.json",
+      "classification": "BUILD_RECORD",
+      "build_provenance": [
+        "CERT-BUILD-0037"
+      ]
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0037/BUILD_0037_READ_ME_FIRST.md",
+      "classification": "BUILD_RECORD",
+      "build_provenance": [
+        "CERT-BUILD-0037"
+      ]
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0037/BUILD_MANIFEST.json",
+      "classification": "BUILD_RECORD",
+      "build_provenance": [
+        "CERT-BUILD-0037"
+      ]
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0037/COMMIT_MESSAGE.txt",
+      "classification": "BUILD_RECORD",
+      "build_provenance": [
+        "CERT-BUILD-0037"
+      ]
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0037/CONFLICT_POLICY.json",
+      "classification": "BUILD_RECORD",
+      "build_provenance": [
+        "CERT-BUILD-0037"
+      ]
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0037/DECISION_RECORD.md",
+      "classification": "BUILD_RECORD",
+      "build_provenance": [
+        "CERT-BUILD-0037"
+      ]
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0037/DRY_RUN_ASSET_REGISTER_CHANGE_REPORT_TEMPLATE.json",
+      "classification": "BUILD_RECORD",
+      "build_provenance": [
+        "CERT-BUILD-0037"
+      ]
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0037/DRY_RUN_ROUTING_REPORT_TEMPLATE.json",
+      "classification": "BUILD_RECORD",
+      "build_provenance": [
+        "CERT-BUILD-0037"
+      ]
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0037/FILE_INVENTORY.csv",
+      "classification": "BUILD_RECORD",
+      "build_provenance": [
+        "CERT-BUILD-0037"
+      ]
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0037/PACKAGE_CONTENT_SHA256.csv",
+      "classification": "BUILD_RECORD",
+      "build_provenance": [
+        "CERT-BUILD-0037"
+      ]
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0037/PRE_RELEASE_SYNTHETIC_DRY_RUN_REPORT.json",
+      "classification": "BUILD_RECORD",
+      "build_provenance": [
+        "CERT-BUILD-0037"
+      ]
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0037/PRODUCTION_DASHBOARD_UPDATE.json",
+      "classification": "BUILD_RECORD",
+      "build_provenance": [
+        "CERT-BUILD-0037"
+      ]
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0037/PROJECT_GENESIS_IMPORT_HOOK.json",
+      "classification": "BUILD_RECORD",
+      "build_provenance": [
+        "CERT-BUILD-0037"
+      ]
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0037/PROPOSED_CHANGE_LOG_ENTRY.md",
+      "classification": "BUILD_RECORD",
+      "build_provenance": [
+        "CERT-BUILD-0037"
+      ]
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0037/PROPOSED_NEXT_ACTION.md",
+      "classification": "BUILD_RECORD",
+      "build_provenance": [
+        "CERT-BUILD-0037"
+      ]
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0037/ROLLBACK_RUNBOOK.md",
+      "classification": "BUILD_RECORD",
+      "build_provenance": [
+        "CERT-BUILD-0037"
+      ]
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0037/ROUTING_MANIFEST.json",
+      "classification": "BUILD_RECORD",
+      "build_provenance": [
+        "CERT-BUILD-0037"
+      ]
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0037/SOURCE_REFERENCE_REGISTER.md",
+      "classification": "BUILD_RECORD",
+      "build_provenance": [
+        "CERT-BUILD-0037"
+      ]
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0037/TEST_REPORT.txt",
+      "classification": "BUILD_RECORD",
+      "build_provenance": [
+        "CERT-BUILD-0037"
+      ]
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0037/VALIDATION_REPORT.md",
+      "classification": "BUILD_RECORD",
+      "build_provenance": [
+        "CERT-BUILD-0037"
+      ]
+    },
+    {
+      "repository_path": "Schemas/ai_recommendation_output.schema.json",
+      "classification": "SCHEMA",
+      "build_provenance": [
+        "CERT-BUILD-0037"
+      ]
+    },
+    {
+      "repository_path": "Schemas/communication_approval_record.schema.json",
+      "classification": "SCHEMA",
+      "build_provenance": [
+        "CERT-BUILD-0037"
+      ]
+    },
+    {
+      "repository_path": "Schemas/scientific_claim_record.schema.json",
+      "classification": "SCHEMA",
+      "build_provenance": [
+        "CERT-BUILD-0037"
+      ]
+    },
+    {
+      "repository_path": "Standards/COMMUNICATION_CHANNEL_AND_APPROVAL_MATRIX.md",
+      "classification": "FORMAL_ASSET",
+      "build_provenance": [
+        "CERT-BUILD-0037"
+      ],
+      "asset_title": "Communication Channel and Approval Matrix",
+      "asset_type": "Standard",
+      "knowledge_system": "SYS",
+      "intended_action": "CREATE",
+      "existing_uai": null,
+      "preserve_existing_uai": true,
+      "identity_match": "EXISTING_UAI_THEN_EXACT_PATH_THEN_STRONG_METADATA_OR_QUARANTINE",
+      "proposed_version": "1.0.0",
+      "proposed_status": "ACTIVE",
+      "owner": "Certiaura",
+      "parent_assets": [],
+      "child_assets": [],
+      "relationships": [],
+      "evidence_links": [],
+      "report_links": [],
+      "marketplace_links": [],
+      "product_passport_links": [],
+      "last_review": "2026-07-19",
+      "next_review": "2027-01-19",
+      "source_builds": [
+        "0037"
+      ],
+      "registration_basis": "BUILD_0037_FORMAL_ASSET"
+    },
+    {
+      "repository_path": "Standards/SCIENTIFIC_CLAIM_CLASSIFICATION_MATRIX.md",
+      "classification": "FORMAL_ASSET",
+      "build_provenance": [
+        "CERT-BUILD-0037"
+      ],
+      "asset_title": "Scientific Claim Classification and Decision Matrix",
+      "asset_type": "Standard",
+      "knowledge_system": "SYS",
+      "intended_action": "CREATE",
+      "existing_uai": null,
+      "preserve_existing_uai": true,
+      "identity_match": "EXISTING_UAI_THEN_EXACT_PATH_THEN_STRONG_METADATA_OR_QUARANTINE",
+      "proposed_version": "1.0.0",
+      "proposed_status": "ACTIVE",
+      "owner": "Certiaura",
+      "parent_assets": [],
+      "child_assets": [],
+      "relationships": [],
+      "evidence_links": [],
+      "report_links": [],
+      "marketplace_links": [],
+      "product_passport_links": [],
+      "last_review": "2026-07-19",
+      "next_review": "2027-01-19",
+      "source_builds": [
+        "0037"
+      ],
+      "registration_basis": "BUILD_0037_FORMAL_ASSET"
+    },
+    {
+      "repository_path": "Templates/AI_Recommendation_Output.template.json",
+      "classification": "TEMPLATE",
+      "build_provenance": [
+        "CERT-BUILD-0037"
+      ]
+    },
+    {
+      "repository_path": "Templates/Communication_Approval_Record.template.json",
+      "classification": "TEMPLATE",
+      "build_provenance": [
+        "CERT-BUILD-0037"
+      ]
+    },
+    {
+      "repository_path": "Templates/Scientific_Claim_Record.template.json",
+      "classification": "TEMPLATE",
+      "build_provenance": [
+        "CERT-BUILD-0037"
+      ]
+    }
+  ]
+}

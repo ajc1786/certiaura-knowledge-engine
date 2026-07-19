@@ -1,0 +1,16 @@
+{
+  "generated_at": "2026-07-19T19:17:24.476533+00:00",
+  "mode": "PACKAGE_PRE_RELEASE_SYNTHETIC",
+  "live_repository_modified": false,
+  "package_wrapper_folder": false,
+  "repository_relative_routing": true,
+  "allowed_roots_only": true,
+  "canonical_register_expected": "Documentation/Master_Asset_Register.csv",
+  "canonical_register_in_package": false,
+  "runtime_baseline_rows": 2860,
+  "runtime_dry_run_required": true,
+  "preserve_existing_uai": true,
+  "default_nonidentical_collision_action": "BLOCK",
+  "transactional_rollback_required": true,
+  "result": "PASS_PACKAGE_GATE_RUNTIME_RECONCILIATION_PENDING"
+}

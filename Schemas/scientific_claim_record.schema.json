@@ -1,0 +1,215 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://certiaura.local/schemas/scientific_claim_record.schema.json",
+  "title": "Certiaura Scientific Claim Record",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "claim_id",
+    "exact_claim_text",
+    "claim_classes",
+    "risk_level",
+    "audience",
+    "jurisdiction",
+    "channels",
+    "commercial_purpose",
+    "product_regulatory_classification",
+    "evidence",
+    "ai_involvement",
+    "reviews",
+    "disposition",
+    "status",
+    "build_provenance"
+  ],
+  "properties": {
+    "claim_id": {
+      "type": "string",
+      "pattern": "^CLAIM-[A-Z0-9-]+$"
+    },
+    "exact_claim_text": {
+      "type": "string",
+      "minLength": 1
+    },
+    "claim_classes": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "enum": [
+          "FACTUAL_IDENTITY",
+          "SCIENTIFIC_EDUCATIONAL",
+          "COMPARATIVE",
+          "HEALTH",
+          "MEDICINAL",
+          "SAFETY",
+          "COMMERCIAL",
+          "TESTIMONIAL",
+          "AI_RECOMMENDATION"
+        ]
+      }
+    },
+    "risk_level": {
+      "enum": [
+        "LOW",
+        "MEDIUM",
+        "HIGH",
+        "PROHIBITED"
+      ]
+    },
+    "audience": {
+      "enum": [
+        "INTERNAL",
+        "PROFESSIONAL",
+        "PUBLIC",
+        "MIXED"
+      ]
+    },
+    "jurisdiction": {
+      "type": "string",
+      "minLength": 2
+    },
+    "channels": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    },
+    "commercial_purpose": {
+      "type": "boolean"
+    },
+    "commercial_interest_disclosure": {
+      "type": "string"
+    },
+    "product_regulatory_classification": {
+      "enum": [
+        "NOT_APPLICABLE",
+        "GENERAL_PRODUCT",
+        "MEDICAL_DEVICE",
+        "LICENSED_MEDICINE",
+        "PRESCRIPTION_ONLY_MEDICINE",
+        "UNLICENSED_PRODUCT",
+        "UNKNOWN"
+      ]
+    },
+    "evidence": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "evidence_id",
+          "support_level"
+        ],
+        "properties": {
+          "evidence_id": {
+            "type": "string"
+          },
+          "support_level": {
+            "enum": [
+              "DIRECT",
+              "INDIRECT",
+              "PRELIMINARY",
+              "CONTRADICTORY",
+              "NOT_SUPPORTIVE"
+            ]
+          }
+        }
+      }
+    },
+    "limitations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "required_disclosures": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "ai_involvement": {
+      "enum": [
+        "NONE",
+        "DRAFTING",
+        "SYNTHESIS",
+        "RECOMMENDATION",
+        "PERSONALISATION"
+      ]
+    },
+    "reviews": {
+      "type": "object",
+      "required": [
+        "scientific",
+        "communications",
+        "medical",
+        "legal_regulatory"
+      ],
+      "properties": {
+        "scientific": {
+          "enum": [
+            "NOT_REQUIRED",
+            "PENDING",
+            "APPROVED",
+            "APPROVED_WITH_CONDITIONS",
+            "REJECTED"
+          ]
+        },
+        "communications": {
+          "enum": [
+            "NOT_REQUIRED",
+            "PENDING",
+            "APPROVED",
+            "APPROVED_WITH_CONDITIONS",
+            "REJECTED"
+          ]
+        },
+        "medical": {
+          "enum": [
+            "NOT_REQUIRED",
+            "PENDING",
+            "APPROVED",
+            "APPROVED_WITH_CONDITIONS",
+            "REJECTED"
+          ]
+        },
+        "legal_regulatory": {
+          "enum": [
+            "NOT_REQUIRED",
+            "PENDING",
+            "APPROVED",
+            "APPROVED_WITH_CONDITIONS",
+            "REJECTED"
+          ]
+        }
+      }
+    },
+    "disposition": {
+      "enum": [
+        "DRAFT",
+        "HOLD",
+        "APPROVED",
+        "APPROVED_WITH_CONDITIONS",
+        "REJECTED",
+        "QUARANTINED",
+        "WITHDRAWN"
+      ]
+    },
+    "approval_expiry": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date"
+    },
+    "status": {
+      "type": "string"
+    },
+    "build_provenance": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

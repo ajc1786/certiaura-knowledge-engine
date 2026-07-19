@@ -1,0 +1,48 @@
+{
+  "build_number": "0037",
+  "canonical_register": "Documentation/Master_Asset_Register.csv",
+  "baseline_rows_confirmed_by_founder": 2860,
+  "parallel_register_prohibited": true,
+  "include_master_register_in_package": false,
+  "preserve_existing_uai": true,
+  "identity_match_priority": [
+    "existing_uai",
+    "exact_repository_path",
+    "prior_path_and_hash",
+    "title_system_type",
+    "quarantine_if_ambiguous"
+  ],
+  "allocate_new_uai_only_for_genuinely_new_assets": true,
+  "uai_pattern": "CERT-[SYSTEM]-[NUMBER]",
+  "required_dry_run_outputs": [
+    "created_assets",
+    "updated_assets",
+    "preserved_identifiers",
+    "new_identifiers",
+    "ambiguous_matches",
+    "relationship_changes",
+    "excluded_non_assets",
+    "expected_register_total",
+    "conflicts"
+  ],
+  "block_conditions": [
+    "missing_or_ambiguous_register",
+    "blank_uai",
+    "duplicate_uai",
+    "invalid_uai",
+    "orphan_formal_asset",
+    "active_orphan_register_entry",
+    "unresolved_nonidentical_collision",
+    "NO NEW UAI placeholder"
+  ],
+  "transaction_scope": [
+    "repository_files",
+    "Master Asset Register",
+    "relationships",
+    "applicable registers",
+    "change log",
+    "Production Dashboard",
+    "build records",
+    "continuity checkpoint"
+  ]
+}

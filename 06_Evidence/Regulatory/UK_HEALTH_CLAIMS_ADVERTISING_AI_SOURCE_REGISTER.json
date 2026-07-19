@@ -1,0 +1,81 @@
+{
+  "document_id": "CERT-EKS-UK-COMMS-001",
+  "version": "1.0.0",
+  "status": "ACTIVE_REFERENCE",
+  "jurisdiction": "United Kingdom",
+  "last_review": "2026-07-19",
+  "next_review": "2027-01-19",
+  "sources": [
+    {
+      "authority": "Advertising Standards Authority / Committee of Advertising Practice",
+      "title": "CAP Code Section 12 — Medicines, medical devices, health-related products and beauty products",
+      "url": "https://www.asa.org.uk/type/non_broadcast/code_section/12.html",
+      "control_relevance": [
+        "substantiation",
+        "medicinal claims",
+        "prescription-only medicines",
+        "safety",
+        "diagnosis and treatment"
+      ]
+    },
+    {
+      "authority": "Medicines and Healthcare products Regulatory Agency",
+      "title": "The Blue Guide: Advertising and promotion of medicines in the UK",
+      "url": "https://www.gov.uk/government/publications/blue-guide-advertising-and-promotions-of-medicines-in-the-uk",
+      "control_relevance": [
+        "medicine advertising",
+        "promotion",
+        "public and professional audiences"
+      ]
+    },
+    {
+      "authority": "Medicines and Healthcare products Regulatory Agency",
+      "title": "Software and artificial intelligence as a medical device",
+      "url": "https://www.gov.uk/government/publications/software-and-artificial-intelligence-ai-as-a-medical-device",
+      "control_relevance": [
+        "intended purpose",
+        "qualification",
+        "classification",
+        "evidence",
+        "transparency"
+      ]
+    },
+    {
+      "authority": "Information Commissioner’s Office",
+      "title": "Guidance on AI and data protection",
+      "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/",
+      "control_relevance": [
+        "accountability",
+        "DPIA",
+        "lawfulness",
+        "fairness",
+        "transparency",
+        "accuracy",
+        "rights"
+      ]
+    },
+    {
+      "authority": "Information Commissioner’s Office",
+      "title": "Automated decision-making and profiling",
+      "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/individual-rights/automated-decision-making-and-profiling/",
+      "control_relevance": [
+        "human intervention",
+        "challenge",
+        "significant decisions",
+        "special-category data"
+      ]
+    },
+    {
+      "authority": "Competition and Markets Authority",
+      "title": "Unfair commercial practices under the Digital Markets, Competition and Consumers Act 2024",
+      "url": "https://www.gov.uk/government/publications/unfair-commercial-practices-cma207",
+      "control_relevance": [
+        "misleading actions",
+        "misleading omissions",
+        "commercial intent",
+        "consumer decisions"
+      ]
+    }
+  ],
+  "review_rule": "Check source currency before relying on this register for a live release decision."
+}

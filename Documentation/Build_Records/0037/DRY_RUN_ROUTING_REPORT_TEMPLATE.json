@@ -1,0 +1,12 @@
+{
+  "valid": false,
+  "applied": false,
+  "wrapper_folder_detected": null,
+  "allowed_roots_only": null,
+  "incoming_paths": [],
+  "identical_paths": [],
+  "new_paths": [],
+  "approved_replacements": [],
+  "blocked_collisions": [],
+  "case_collisions": []
+}

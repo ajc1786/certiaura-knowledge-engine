@@ -1,0 +1,30 @@
+{
+  "build_number": "0037",
+  "build_id": "CERT-BUILD-0037",
+  "title": "Scientific content claims advertising AI recommendation and responsible communications controls",
+  "status": "GENERATED_CORRECTED_REISSUE",
+  "generated_at": "2026-07-19T19:17:24.476533+00:00",
+  "dependency": {
+    "build_number": "0038",
+    "required_status": "ACTIONS_GREEN_CLOSED"
+  },
+  "package_structure": "FLAT_REPOSITORY_RELATIVE",
+  "wrapper_folder": false,
+  "canonical_master_asset_register": "Documentation/Master_Asset_Register.csv",
+  "master_asset_register_in_package": false,
+  "formal_asset_count": 10,
+  "file_count": 51,
+  "controls": [
+    "claim_level_traceability",
+    "advertising_approval",
+    "AI_recommendation_boundaries",
+    "responsible_communications",
+    "commercial_disclosure",
+    "dry_run",
+    "transactional_reconciliation",
+    "rollback",
+    "full_validation"
+  ],
+  "exact_commit_message": "Add Certiaura Build 0037 scientific content claims advertising AI recommendation and responsible communications controls",
+  "proposed_next_action": "Close Build 0037 before authorising Build 0039"
+}

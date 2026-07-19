@@ -1,0 +1,33 @@
+{
+  "build_number": "0037",
+  "requires_closed_builds": [
+    "0038"
+  ],
+  "import_mode": "TRANSACTIONAL_BUILD_IMPORT_WITH_CANONICAL_MASTER_ASSET_REGISTER_RECONCILIATION",
+  "preflight_entry_point": "13_Project_Genesis/Import/transactional_build_import.py",
+  "manual_wrapper": "13_Project_Genesis/Import/run_build_0037_import.py",
+  "dry_run_arguments": [
+    "<zip_path>",
+    "<repository_path>",
+    "--asset-register",
+    "Documentation/Master_Asset_Register.csv",
+    "--report",
+    "Documentation/Build_Records/0037/DRY_RUN_REPORT.json"
+  ],
+  "apply_arguments": [
+    "<zip_path>",
+    "<repository_path>",
+    "--apply",
+    "--asset-register",
+    "Documentation/Master_Asset_Register.csv",
+    "--report",
+    "Documentation/Build_Records/0037/IMPORT_REPORT.json"
+  ],
+  "asset_intent_manifest": "Documentation/Build_Records/0037/ASSET_INTENT_MANIFEST.json",
+  "routing_manifest": "Documentation/Build_Records/0037/ROUTING_MANIFEST.json",
+  "conflict_policy": "Documentation/Build_Records/0037/CONFLICT_POLICY.json",
+  "requires_unique_master_asset_register": true,
+  "preserve_existing_uai": true,
+  "block_commit_on_failure": true,
+  "post_apply_validation": "13_Project_Genesis/Validators/validate_build_0037_repository.py"
+}

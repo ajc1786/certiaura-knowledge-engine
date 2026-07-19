@@ -1,0 +1,30 @@
+{
+  "ai_output_id": "AI-OUT-REPLACE-ME",
+  "output_type": "EDUCATIONAL_SYNTHESIS",
+  "personalisation_level": "NONE",
+  "audience": "INTERNAL",
+  "jurisdiction": "UK",
+  "health_data_used": false,
+  "intended_purpose": "Educational evidence synthesis",
+  "medical_device_assessment": "NOT_REQUIRED",
+  "dpia_status": "NOT_REQUIRED",
+  "evidence_refs": [],
+  "uncertainty_statement": "",
+  "warnings": [],
+  "commercial_interest": false,
+  "commercial_interest_disclosure": "",
+  "human_review": {
+    "required": false,
+    "status": "NOT_REQUIRED",
+    "reviewer": null
+  },
+  "risk_level": "MEDIUM",
+  "disposition": "ALLOW_WITH_CONTROLS",
+  "model_version": "",
+  "prompt_record": "",
+  "output_record": "",
+  "status": "DRAFT",
+  "build_provenance": [
+    "CERT-BUILD-0037"
+  ]
+}

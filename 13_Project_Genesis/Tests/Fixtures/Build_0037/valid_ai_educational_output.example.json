@@ -1,0 +1,34 @@
+{
+  "ai_output_id": "AI-OUT-EDU-001",
+  "output_type": "EDUCATIONAL_SYNTHESIS",
+  "personalisation_level": "NONE",
+  "audience": "PUBLIC",
+  "jurisdiction": "UK",
+  "health_data_used": false,
+  "intended_purpose": "Summarise approved evidence without selecting treatment",
+  "medical_device_assessment": "NOT_REQUIRED",
+  "dpia_status": "NOT_REQUIRED",
+  "evidence_refs": [
+    "CERT-EKS-000001"
+  ],
+  "uncertainty_statement": "Evidence is preliminary and does not establish personal benefit.",
+  "warnings": [
+    "Not medical advice"
+  ],
+  "commercial_interest": false,
+  "commercial_interest_disclosure": "",
+  "human_review": {
+    "required": false,
+    "status": "NOT_REQUIRED",
+    "reviewer": null
+  },
+  "risk_level": "MEDIUM",
+  "disposition": "ALLOW_WITH_CONTROLS",
+  "model_version": "certiaura-model-policy-1.0",
+  "prompt_record": "PROMPT-001",
+  "output_record": "OUTPUT-001",
+  "status": "APPROVED",
+  "build_provenance": [
+    "CERT-BUILD-0037"
+  ]
+}

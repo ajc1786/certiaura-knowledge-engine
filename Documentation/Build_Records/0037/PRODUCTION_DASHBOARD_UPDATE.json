@@ -1,0 +1,17 @@
+{
+  "build_number": "0037",
+  "title": "Scientific content claims advertising AI recommendation and responsible communications controls",
+  "status": "GENERATED_CORRECTED_REISSUE",
+  "last_closed_build": "0038",
+  "next_gate": "PROJECT_GENESIS_DRY_RUN",
+  "following_build": "0039",
+  "following_build_status": "ON_HOLD",
+  "completion_conditions": [
+    "dry_run_reviewed",
+    "transaction_applied",
+    "master_asset_register_reconciled",
+    "repository_validated",
+    "committed_pushed",
+    "github_actions_green"
+  ]
+}

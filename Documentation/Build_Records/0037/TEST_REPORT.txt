@@ -1,0 +1,29 @@
+Build 0037 corrected reissue focused validation
+
+test_all_schemas_parse (test_build_0037_controls.Build0037ControlTests.test_all_schemas_parse) ... ok
+test_conditional_commercial_claim (test_build_0037_controls.Build0037ControlTests.test_conditional_commercial_claim) ... ok
+test_invalid_ai_dose_output (test_build_0037_controls.Build0037ControlTests.test_invalid_ai_dose_output) ... ok
+test_invalid_medicinal_claim (test_build_0037_controls.Build0037ControlTests.test_invalid_medicinal_claim) ... ok
+test_invalid_public_pom_communication (test_build_0037_controls.Build0037ControlTests.test_invalid_public_pom_communication) ... ok
+test_valid_ai_educational_output (test_build_0037_controls.Build0037ControlTests.test_valid_ai_educational_output) ... ok
+test_valid_communication (test_build_0037_controls.Build0037ControlTests.test_valid_communication) ... ok
+test_valid_scientific_claim (test_build_0037_controls.Build0037ControlTests.test_valid_scientific_claim) ... ok
+test_every_formal_asset_preserves_identity (test_build_0037_manifest_controls.ManifestControls.test_every_formal_asset_preserves_identity) ... ok
+test_manifest_is_complete (test_build_0037_manifest_controls.ManifestControls.test_manifest_is_complete) ... ok
+test_no_wrapper_and_allowed_roots (test_build_0037_manifest_controls.ManifestControls.test_no_wrapper_and_allowed_roots) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.029s
+
+OK
+
+Validator outcome checks:
+{"validator": "13_Project_Genesis/Validators/validate_scientific_claim.py", "fixture": "13_Project_Genesis/Tests/Fixtures/Build_0037/valid_scientific_claim.example.json", "expected_exit": 0, "actual_exit": 0, "pass": true}
+{"validator": "13_Project_Genesis/Validators/validate_scientific_claim.py", "fixture": "13_Project_Genesis/Tests/Fixtures/Build_0037/conditional_commercial_claim.example.json", "expected_exit": 0, "actual_exit": 0, "pass": true}
+{"validator": "13_Project_Genesis/Validators/validate_scientific_claim.py", "fixture": "13_Project_Genesis/Tests/Fixtures/Build_0037/invalid_medicinal_claim.example.json", "expected_exit": 1, "actual_exit": 1, "pass": true}
+{"validator": "13_Project_Genesis/Validators/validate_communication_approval.py", "fixture": "13_Project_Genesis/Tests/Fixtures/Build_0037/valid_communication_approval.example.json", "expected_exit": 0, "actual_exit": 0, "pass": true}
+{"validator": "13_Project_Genesis/Validators/validate_communication_approval.py", "fixture": "13_Project_Genesis/Tests/Fixtures/Build_0037/invalid_public_pom_communication.example.json", "expected_exit": 1, "actual_exit": 1, "pass": true}
+{"validator": "13_Project_Genesis/Validators/validate_ai_recommendation_output.py", "fixture": "13_Project_Genesis/Tests/Fixtures/Build_0037/valid_ai_educational_output.example.json", "expected_exit": 0, "actual_exit": 0, "pass": true}
+{"validator": "13_Project_Genesis/Validators/validate_ai_recommendation_output.py", "fixture": "13_Project_Genesis/Tests/Fixtures/Build_0037/invalid_ai_dose_output.example.json", "expected_exit": 1, "actual_exit": 1, "pass": true}
+
+Overall: PASS

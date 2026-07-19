@@ -1,0 +1,32 @@
+{
+  "communication_id": "COMM-REPLACE-ME",
+  "title": "",
+  "audience": "INTERNAL",
+  "jurisdiction": "UK",
+  "channels": [
+    "KNOWLEDGE_ASSET"
+  ],
+  "claim_ids": [
+    "CLAIM-REPLACE-ME"
+  ],
+  "product_regulatory_classification": "NOT_APPLICABLE",
+  "commercial_interest": false,
+  "commercial_interest_disclosure": "",
+  "ai_involvement": "NONE",
+  "vulnerable_audience_controls": [],
+  "required_disclosures": [],
+  "approval_level": "L2",
+  "reviews": {
+    "scientific": "PENDING",
+    "communications": "PENDING",
+    "medical": "NOT_REQUIRED",
+    "legal_regulatory": "NOT_REQUIRED",
+    "data_protection": "NOT_REQUIRED"
+  },
+  "decision": "DRAFT",
+  "approval_expiry": null,
+  "status": "DRAFT",
+  "build_provenance": [
+    "CERT-BUILD-0037"
+  ]
+}

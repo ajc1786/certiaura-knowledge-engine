@@ -1,0 +1,17 @@
+{
+  "build_number": "0037",
+  "policy_version": "1.0.0",
+  "default_nonidentical_collision_action": "BLOCK",
+  "identical_files": "SKIP_WITH_AUDIT",
+  "case_only_collision": "BLOCK",
+  "ambiguous_asset_identity": "QUARANTINE",
+  "approved_replacements": [
+    {
+      "path": "00_Governance/CERTIAURA_LOCKED_BUILD_CONTINUITY_AND_CHECKPOINT.md",
+      "reason": "Update live continuation checkpoint after Build 0038 closure and Build 0037 corrected generation",
+      "requires_backup": true,
+      "preserve_existing_uai": true
+    }
+  ],
+  "all_other_nonidentical_existing_paths": "BLOCK_PENDING_HUMAN_DECISION"
+}

@@ -1,12 +1,12 @@
 # CERTIAURA LOCKED BUILD CONTINUITY AND CHECKPOINT
 
-**Document ID:** CERT-GOV-CONT-002
-**Version:** 1.4.1  
-**Status:** LOCKED — ACTIVE
-**Effective date:** 2026-07-19
-**Last updated:** 2026-07-19
-**Authority:** Explicit founder instruction from Aidan Coleman
-**Canonical repository path:** `00_Governance/CERTIAURA_LOCKED_BUILD_CONTINUITY_AND_CHECKPOINT.md`
+**Document ID:** CERT-GOV-CONT-002  
+**Version:** 1.4.0  
+**Status:** LOCKED — ACTIVE  
+**Effective date:** 2026-07-19  
+**Last updated:** 2026-07-19  
+**Authority:** Explicit founder instruction from Aidan Coleman  
+**Canonical repository path:** `00_Governance/CERTIAURA_LOCKED_BUILD_CONTINUITY_AND_CHECKPOINT.md`  
 **GPT Project use:** Upload this file to the Certiaura GPT Project sources and replace it with the latest version whenever the continuation checkpoint is updated.
 
 ---
@@ -592,129 +592,84 @@ Where the source files and the founder's latest explicit message conflict, the l
 
 ---
 
-## 16. Current locked correction
 
-### Founder-confirmed repository position
+## 16. Current locked position
 
-The founder has deleted the incorrectly routed root-level build folders for Builds **0035E through 0036** from the working repository.
+### Build 0038 closure confirmed by the founder
 
-The repository therefore requires a controlled restoration of the deleted build content into canonical repository-relative paths.
+Build 0038 — repository restoration canonical routing and complete historical Master Asset Register reconciliation — is confirmed `ACTIONS_GREEN_CLOSED`.
 
-Deletion of those folders does not authorise deletion or renumbering of any corresponding formal asset identities.
+Confirmed outcomes:
 
-### Build 0038 correction
+- corrected package contained 415 files;
+- canonical Master Asset Register path is `Documentation/Master_Asset_Register.csv`;
+- Master Asset Register contains 2,860 formal asset rows;
+- blank Universal Asset Identifiers: 0;
+- duplicate Universal Asset Identifier groups: 0;
+- legacy `NO NEW UAI` placeholder removed;
+- `Supporting Files` field implemented;
+- transactional import completed successfully;
+- total conflicts: 0;
+- repository validation, commit, push and GitHub Actions closure confirmed.
 
-An initial Build 0038 restoration package was generated, but it did not include automatic Master Asset Register reconciliation.
+### Build 0037 corrected reissue
 
-That package must **not** be imported.
-
-Build 0038 must be reissued under the same build identity as a corrected integrated package:
-
-```text
-Build 0038 — repository restoration canonical routing and Master Asset Register reconciliation for Builds 0035E to 0036
-```
-
-The corrected Build 0038 must:
-
-- restore Builds 0035E through 0036 directly into canonical repository paths;
-- include no build-named wrapper folder;
-- locate and reconcile the existing Master Asset Register;
-- preserve existing Universal Asset Identifiers;
-- allocate identifiers only for genuinely new formal assets;
-- detect orphaned files and orphaned register entries;
-- update relationships, applicable registers, change log, Production Dashboard and build records;
-- provide dry-run routing and Asset Register Change Reports;
-- provide backup, transactional rollback and post-import validation;
-- remove no additional repository content without an explicit approved action;
-- block commit and push if asset reconciliation fails.
-
-### Canonical register diagnosis and repair
-
-Project Genesis has been confirmed to open:
+Build 0037 retains its original identity and title:
 
 ```text
-Documentation/Master_Asset_Register.csv
+Build 0037 — Scientific content claims advertising AI recommendation and responsible communications controls
 ```
 
-The live file contains the legacy `NO NEW UAI` placeholder row only. Corrected Build 0038 therefore hard-targets this exact CSV, recognises the existing `Asset Name` field, removes the placeholder after repository census, backfills all registerable prior assets, writes atomically, verifies the Project Genesis button target and rolls back on failure.
-
-### Build 0037
-
-Build 0037 remains generated but not correctly installed.
-
-After Build 0038 has restored and validated the prerequisite repository position, Build 0037 must be reissued with:
+The corrected reissue is generated with:
 
 - flat repository-relative routing;
-- no build-named wrapper folder;
-- an Asset Intent Manifest;
-- automatic Master Asset Register reconciliation;
-- transactional rollback and full repository validation.
+- no build-named wrapper directory;
+- a complete Asset Intent Manifest;
+- automatic reconciliation against `Documentation/Master_Asset_Register.csv` through the installed Build 0038 transactional importer;
+- preservation of existing Universal Asset Identifiers;
+- dry-run routing, collision and Asset Register change reporting;
+- backup and transactional rollback;
+- full repository and Master Asset Register validation;
+- claim, communications and artificial intelligence output schemas, validators, examples and automated tests.
 
 ### Following scientific build
-
-After corrected Builds 0038 and 0037 are imported, validated, committed, pushed and confirmed green, the planned scientific production package is:
 
 ```text
 Build 0039 — evidence ingestion citation management living evidence surveillance and scientific review controls
 ```
+
+Build 0039 remains planned and is not authorised to start until Build 0037 is imported, reconciled, repository-validated, committed, pushed and confirmed GitHub Actions green.
 
 ---
 
 ## 17. Current continuation checkpoint
 
-**Checkpoint date:** 2026-07-19
-**Checkpoint status:** BUILD 0038 FULL HISTORICAL RECONCILIATION IMPORTED AND VALIDATED — COMMIT/PUSH PENDING
+**Checkpoint date:** 2026-07-19  
+**Checkpoint status:** ACTIVE — BUILD 0037 CORRECTED REISSUE GENERATED
 
-### Last confirmed project position
+### Last closed build
 
-- The founder has deleted the incorrectly routed root-level folders for Builds **0035E–0036**.
-- Their content now requires controlled restoration to canonical repository paths.
-- The previous Build 0038 repair attempt was correctly blocked and rolled back after the live census exposed 814 reconciliation conflicts, including identifier-allocation collisions and shared-UAI file representations.
-- Build 0037 remains generated but requires corrected routing and register reconciliation before installation.
-- The 0035 lettered series remains closed at 0035K.
-- New materially distinct integrated work packages use whole build numbers.
-- The failed repair report identified **2,879 registerable files**, **814 total conflicts**, **238 duplicate allocations**, **15 shared-UAI representation groups**, and **323 coverage failures**.
-- The transaction correctly remained unapplied and the canonical CSV was preserved.
+```text
+Build 0038 — ACTIONS_GREEN_CLOSED
+```
+
+### Current pending build
+
+```text
+Build 0037 — GENERATED corrected reissue; awaiting Project Genesis import and closure
+```
 
 ### Immediate next action
 
 ```text
-Commit and push corrected Build 0038 using the locked commit message, then confirm GitHub Actions green.
+Import corrected Build 0037 through Project Genesis → review dry-run routing and Master Asset Register Change Reports → apply the transaction → run full repository validation → commit and push using the exact locked commit message → confirm GitHub Actions green.
 ```
 
-### Required close-out sequence for corrected Build 0038
+### Hold point
 
-```text
-Import through Project Genesis → review dry-run reports → reconcile assets and relationships → validate repository → commit and push → confirm GitHub Actions green.
-```
-
-### Next action after Build 0038 closes
-
-```text
-Reissue Build 0037 with flat repository-relative routing and automatic Master Asset Register reconciliation.
-```
-
-### Following planned build
-
-```text
-Build 0039 — evidence ingestion citation management living evidence surveillance and scientific review controls
-```
-
-### Current hold point
-
-Do not proceed to Build 0039 until:
-
-- corrected Build 0038 has restored Builds 0035E–0036;
-- Master Asset Register reconciliation passes;
-- repository validation passes;
-- corrected Build 0038 is committed and pushed;
-- GitHub Actions for Build 0038 are green;
-- Build 0037 is reissued with correct routing and register controls;
-- Build 0037 is imported, validated, committed and pushed;
-- GitHub Actions for Build 0037 are green.
+Do not start Build 0039 until corrected Build 0037 reaches `ACTIONS_GREEN_CLOSED`.
 
 ---
-
 ## 18. Decision history
 
 | Date | Decision | Status |
@@ -735,13 +690,8 @@ Do not proceed to Build 0039 until:
 | 2026-07-19 | Treat file import and Master Asset Register update as one rollback-safe transaction | LOCKED |
 | 2026-07-19 | Block build closure where formal assets or register entries are orphaned | LOCKED |
 | 2026-07-19 | Reissue Build 0038 before import with integrated asset register reconciliation | LOCKED |
-| 2026-07-19 | Hard-target `Documentation/Master_Asset_Register.csv` and remove the `NO NEW UAI` placeholder through full historical reconciliation | LOCKED |
-| 2026-07-19 | Verify the exact Project Genesis button-open register after every reconciliation | LOCKED |
-| 2026-07-19 | Treat one Universal Asset Identifier as one formal asset even where several repository files represent it | LOCKED |
-| 2026-07-19 | Record non-canonical representations under `Supporting Files` instead of creating duplicate register rows | LOCKED |
-| 2026-07-19 | Reserve all existing and incoming Universal Asset Identifiers before allocating new identifiers | LOCKED |
-| 2026-07-19 | Exclude downloaded duplicate-suffix files such as `(1)` and `(2)` from formal asset registration | LOCKED |
-| 2026-07-19 | Preserve rollback behaviour when live reconciliation exposes unresolved conflicts | LOCKED |
+| 2026-07-19 | Confirm Build 0038 repository restoration and complete historical Master Asset Register reconciliation as ACTIONS_GREEN_CLOSED | LOCKED |
+| 2026-07-19 | Reissue Build 0037 with flat routing, complete Asset Intent Manifest and Build 0038 transactional register reconciliation controls | LOCKED |
 
 ---
 
@@ -750,68 +700,45 @@ Do not proceed to Build 0039 until:
 ```json
 {
   "document_id": "CERT-GOV-CONT-002",
-  "version": "1.4.1",
+  "version": "1.4.0",
   "status": "LOCKED_ACTIVE",
   "checkpoint_date": "2026-07-19",
   "canonical_repository_path": "00_Governance/CERTIAURA_LOCKED_BUILD_CONTINUITY_AND_CHECKPOINT.md",
   "zip_naming_pattern": "Certiaura_Build_[BUILD_NUMBER]_[Short_Descriptive_Title].zip",
-  "zip_filename_target_max_characters": 80,
-  "zip_filename_absolute_max_characters": 100,
   "zip_wrapper_folder_allowed": false,
-  "build_record_path_pattern": "Documentation/Build_Records/[BUILD_NUMBER]/",
-  "commit_pattern": "Add Certiaura Build [BUILD_NUMBER] [full agreed build title in sentence case]",
-  "delivery": {
-    "zip_links": 1,
-    "include_exact_commit_message": true,
-    "include_proposed_next_action": true
-  },
-  "asset_register_governance": {
-    "canonical_register_only": true,
-    "parallel_register_prohibited": true,
-    "asset_intent_manifest_required": true,
-    "automatic_reconciliation_required": true,
-    "preserve_existing_uai": true,
-    "transactional_with_file_import": true,
-    "dry_run_change_report_required": true,
-    "rollback_files_and_register_together": true,
-    "block_orphan_formal_assets": true,
-    "block_orphan_register_entries": true,
-    "block_duplicate_uai": true,
-    "one_uai_one_formal_asset": true,
-    "supporting_files_field": "Supporting Files",
-    "reserve_incoming_uai_before_allocation": true,
-    "exclude_download_duplicate_suffixes": true
-  },
-  "founder_confirmed_repository_action": {
-    "deleted_incorrect_root_build_folders": [
-      "0035E",
-      "0035F",
-      "0035G",
-      "0035H",
-      "0035I",
-      "0035J",
-      "0035K",
-      "0036"
-    ],
-    "status": "RESTORATION_REQUIRED"
+  "canonical_master_asset_register": "Documentation/Master_Asset_Register.csv",
+  "last_closed_build": {
+    "build_number": "0038",
+    "title": "repository restoration canonical routing and complete historical Master Asset Register reconciliation",
+    "status": "ACTIONS_GREEN_CLOSED",
+    "package_files": 415,
+    "master_asset_register_rows": 2860,
+    "blank_uai_rows": 0,
+    "duplicate_uai_groups": 0,
+    "legacy_placeholder_present": false,
+    "supporting_files_field": true,
+    "transactional_import": "SUCCESS",
+    "conflicts": 0
   },
   "current_pending_build": {
-    "build_number": "0038",
-    "title": "repository restoration canonical routing and Master Asset Register reconciliation for Builds 0035E to 0036",
-    "required_action": "COMMIT_PUSH_CONFIRM_ACTIONS",
-    "previous_generated_package_approved_for_import": false
-  },
-  "immediate_next_action": "Commit and push corrected Build 0038 and confirm GitHub Actions green",
-  "next_action_after_0038": {
     "build_number": "0037",
     "title": "Scientific content claims advertising AI recommendation and responsible communications controls",
-    "required_action": "REISSUE_WITH_FLAT_ROUTING_AND_ASSET_REGISTER_RECONCILIATION"
+    "status": "GENERATED_CORRECTED_REISSUE",
+    "flat_repository_relative_routing": true,
+    "asset_intent_manifest_complete": true,
+    "automatic_master_asset_register_reconciliation": true,
+    "preserve_existing_uai": true,
+    "dry_run_required": true,
+    "transactional_rollback": true,
+    "full_repository_validation": true
   },
+  "immediate_next_action": "Import corrected Build 0037 through Project Genesis, review dry-run reports, apply transaction, validate, commit and push, then confirm GitHub Actions green",
   "following_planned_build": {
     "build_number": "0039",
-    "title": "evidence ingestion citation management living evidence surveillance and scientific review controls"
+    "title": "evidence ingestion citation management living evidence surveillance and scientific review controls",
+    "status": "PLANNED_ON_HOLD"
   },
-  "hold_point": "Do not start Build 0039 until corrected Builds 0038 and 0037 are imported, asset-register reconciled, repository validated, committed and pushed, with GitHub Actions green"
+  "hold_point": "Do not start Build 0039 until corrected Build 0037 reaches ACTIONS_GREEN_CLOSED"
 }
 ```
 

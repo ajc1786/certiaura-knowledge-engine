@@ -1,0 +1,21 @@
+{
+  "valid": false,
+  "applied": false,
+  "register_path": "Documentation/Master_Asset_Register.csv",
+  "baseline_rows": 2860,
+  "assets_to_create": [],
+  "assets_to_update": [],
+  "preserved_identifiers": [],
+  "new_identifiers": [],
+  "duplicate_or_ambiguous_matches": [],
+  "relationship_additions": [],
+  "relationship_removals": [],
+  "supersessions": [],
+  "retirements": [],
+  "excluded_non_assets": [],
+  "unresolved_conflicts": [],
+  "expected_register_total": null,
+  "blank_uai_rows": null,
+  "duplicate_uai_groups": null,
+  "placeholder_present": null
+}
