@@ -1,0 +1,45 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": true,
+  "required": [
+    "record_type",
+    "access_id",
+    "customer_id",
+    "role",
+    "status",
+    "mfa_required",
+    "approved_by",
+    "approved_at",
+    "expires_at"
+  ],
+  "properties": {
+    "record_type": {
+      "const": "access_control"
+    },
+    "access_id": {
+      "type": "string"
+    },
+    "customer_id": {
+      "type": "string"
+    },
+    "role": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "mfa_required": {
+      "type": "boolean"
+    },
+    "approved_by": {
+      "type": "string"
+    },
+    "approved_at": {
+      "type": "string"
+    },
+    "expires_at": {
+      "type": "string"
+    }
+  }
+}

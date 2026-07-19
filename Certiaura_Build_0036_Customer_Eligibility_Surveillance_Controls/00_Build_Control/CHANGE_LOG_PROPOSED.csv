@@ -1,0 +1,5 @@
+change_id,build_id,asset_path,change_type,summary,status
+CERT-CHG-0036-001,CERT-BUILD-0036,10_Marketplace,ADD,"Customer eligibility, jurisdiction, consent and privacy controls",PROPOSED
+CERT-CHG-0036-002,CERT-BUILD-0036,05_Monitoring,ADD,Post-market surveillance and reporting assessment controls,PROPOSED
+CERT-CHG-0036-003,CERT-BUILD-0036,13_Project_Genesis,ADD,"Validators, monitors, dashboards and tests",PROPOSED
+CERT-CHG-0036-004,CERT-BUILD-0036,00_Build_Control,AMEND,Apply whole-number rule for distinct integrated work packages,PROPOSED

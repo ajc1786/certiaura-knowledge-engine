@@ -1,0 +1,30 @@
+{
+  "record_type": "privacy_request",
+  "request_id": "PRIV-INVALID-AUTO",
+  "customer_id": "CUST-PSEUDO-001",
+  "request_type": "ACCESS",
+  "received_at": "2026-07-10T09:00:00Z",
+  "identity_confirmed": false,
+  "legal_review": {
+    "required": true,
+    "reviewer": "",
+    "reviewed_at": "",
+    "basis": ""
+  },
+  "decision": {
+    "status": "COMPLETED",
+    "decision_by": "automation",
+    "decision_at": "",
+    "due_at": "2026-08-10T09:00:00Z",
+    "closed_at": "2026-07-10T09:01:00Z",
+    "reason": ""
+  },
+  "audit": [
+    {
+      "actor": "automation",
+      "actor_type": "AUTOMATION",
+      "action": "AUTO_CLOSE",
+      "timestamp": "2026-07-10T09:01:00Z"
+    }
+  ]
+}

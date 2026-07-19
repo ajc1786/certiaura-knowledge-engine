@@ -1,0 +1,4 @@
+threshold_id,term,window_days,minimum_cases,severity_floor,action
+THR-001,quality_failure,30,3,MODERATE,OPEN_TREND_REVIEW
+THR-002,temperature_excursion,30,2,HIGH,RESTRICT_BATCH_AND_ESCALATE
+THR-003,serious_safety_signal,365,1,CRITICAL,IMMEDIATE_INCIDENT_COMMAND

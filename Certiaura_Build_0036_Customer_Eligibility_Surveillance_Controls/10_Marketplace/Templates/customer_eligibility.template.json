@@ -1,0 +1,56 @@
+{
+  "record_type": "customer_eligibility",
+  "eligibility_id": "",
+  "customer_id": "",
+  "customer_type": "INDIVIDUAL",
+  "jurisdiction": {
+    "country_code": "",
+    "route_status": "PENDING",
+    "legal_review_id": "",
+    "review_due": ""
+  },
+  "identity_verification": {
+    "status": "PENDING",
+    "method": "",
+    "checked_by": "",
+    "checked_at": "",
+    "expires_at": ""
+  },
+  "intended_use": {
+    "category": "",
+    "declaration": "",
+    "responsible_use_version": "",
+    "acknowledged_at": ""
+  },
+  "privacy": {
+    "notice_version": "",
+    "notice_accepted": false,
+    "legal_basis": "",
+    "retention_schedule_id": "",
+    "data_minimised": false,
+    "pseudonymised": false
+  },
+  "access": {
+    "role": "",
+    "status": "PENDING",
+    "mfa_required": true,
+    "approved_by": "",
+    "approved_at": "",
+    "expires_at": ""
+  },
+  "risk": {
+    "tier": "MEDIUM",
+    "flags": [],
+    "human_review_required": true,
+    "review_status": "PENDING"
+  },
+  "decision": {
+    "status": "PENDING",
+    "decision_by": "",
+    "decision_at": "",
+    "independent_reviewer": "",
+    "conditions": [],
+    "expiry_at": "",
+    "reinstatement": false
+  }
+}

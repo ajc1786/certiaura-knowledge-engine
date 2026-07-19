@@ -1,0 +1,24 @@
+{
+  "case_count": 3,
+  "signals": [
+    {
+      "product_id": "PROD-001",
+      "term": "COMPLAINT",
+      "case_count": 1,
+      "review_recommendation": "CONTINUE_MONITORING"
+    },
+    {
+      "product_id": "PROD-002",
+      "term": "quality_failure",
+      "case_count": 1,
+      "review_recommendation": "CONTINUE_MONITORING"
+    },
+    {
+      "product_id": "UNKNOWN",
+      "term": "COMPLAINT",
+      "case_count": 1,
+      "review_recommendation": "CONTINUE_MONITORING"
+    }
+  ],
+  "authority": "AGGREGATE_AND_RECOMMEND_ONLY"
+}

@@ -1,0 +1,30 @@
+{
+  "record_type": "privacy_request",
+  "request_id": "PRIV-0036-001",
+  "customer_id": "CUST-PSEUDO-001",
+  "request_type": "ACCESS",
+  "received_at": "2026-07-10T09:00:00Z",
+  "identity_confirmed": true,
+  "legal_review": {
+    "required": false,
+    "reviewer": "privacy.reviewer",
+    "reviewed_at": "2026-07-10T10:00:00Z",
+    "basis": "Standard access request; no exemption identified"
+  },
+  "decision": {
+    "status": "COMPLETED",
+    "decision_by": "privacy.reviewer",
+    "decision_at": "2026-07-12T12:00:00Z",
+    "due_at": "2026-08-10T09:00:00Z",
+    "closed_at": "2026-07-12T12:05:00Z",
+    "reason": "Verified export supplied through secure channel"
+  },
+  "audit": [
+    {
+      "actor": "privacy.reviewer",
+      "actor_type": "HUMAN",
+      "action": "CLOSE_REQUEST",
+      "timestamp": "2026-07-12T12:05:00Z"
+    }
+  ]
+}

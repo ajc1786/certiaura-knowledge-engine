@@ -1,0 +1,45 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": true,
+  "required": [
+    "record_type",
+    "privacy_record_id",
+    "customer_id",
+    "notice_version",
+    "legal_basis",
+    "consent_records",
+    "retention_schedule_id",
+    "data_minimised",
+    "pseudonymised"
+  ],
+  "properties": {
+    "record_type": {
+      "const": "consent_privacy"
+    },
+    "privacy_record_id": {
+      "type": "string"
+    },
+    "customer_id": {
+      "type": "string"
+    },
+    "notice_version": {
+      "type": "string"
+    },
+    "legal_basis": {
+      "type": "string"
+    },
+    "consent_records": {
+      "type": "array"
+    },
+    "retention_schedule_id": {
+      "type": "string"
+    },
+    "data_minimised": {
+      "type": "boolean"
+    },
+    "pseudonymised": {
+      "type": "boolean"
+    }
+  }
+}

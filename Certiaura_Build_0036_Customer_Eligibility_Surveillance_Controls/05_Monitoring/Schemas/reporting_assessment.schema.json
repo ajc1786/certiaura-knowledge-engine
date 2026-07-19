@@ -1,0 +1,56 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": true,
+  "required": [
+    "record_type",
+    "assessment_id",
+    "case_id",
+    "jurisdiction",
+    "authority_route",
+    "reportability",
+    "decision_by",
+    "decision_at",
+    "due_at",
+    "submission"
+  ],
+  "properties": {
+    "record_type": {
+      "const": "reporting_assessment"
+    },
+    "assessment_id": {
+      "type": "string"
+    },
+    "case_id": {
+      "type": "string"
+    },
+    "jurisdiction": {
+      "type": "string"
+    },
+    "authority_route": {
+      "type": "string"
+    },
+    "reportability": {
+      "enum": [
+        "REQUIRED",
+        "NOT_REQUIRED",
+        "PENDING"
+      ]
+    },
+    "decision_by": {
+      "type": "string"
+    },
+    "decision_at": {
+      "type": "string"
+    },
+    "due_at": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "submission": {
+      "type": "object"
+    }
+  }
+}

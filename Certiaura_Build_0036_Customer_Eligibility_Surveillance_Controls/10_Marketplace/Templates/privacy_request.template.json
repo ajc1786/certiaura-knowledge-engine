@@ -1,0 +1,23 @@
+{
+  "record_type": "privacy_request",
+  "request_id": "",
+  "customer_id": "",
+  "request_type": "ACCESS",
+  "received_at": "",
+  "identity_confirmed": false,
+  "legal_review": {
+    "required": false,
+    "reviewer": "",
+    "reviewed_at": "",
+    "basis": ""
+  },
+  "decision": {
+    "status": "RECEIVED",
+    "decision_by": "",
+    "decision_at": "",
+    "due_at": "",
+    "closed_at": "",
+    "reason": ""
+  },
+  "audit": []
+}

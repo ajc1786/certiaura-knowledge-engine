@@ -1,0 +1,62 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": true,
+  "required": [
+    "record_type",
+    "case_id",
+    "source",
+    "severity",
+    "traceability",
+    "privacy",
+    "triage",
+    "investigation",
+    "protective_actions",
+    "reporting_assessment",
+    "closure",
+    "audit"
+  ],
+  "properties": {
+    "record_type": {
+      "const": "surveillance_case"
+    },
+    "case_id": {
+      "type": "string"
+    },
+    "source": {
+      "type": "string"
+    },
+    "severity": {
+      "enum": [
+        "LOW",
+        "MODERATE",
+        "HIGH",
+        "CRITICAL"
+      ]
+    },
+    "traceability": {
+      "type": "object"
+    },
+    "privacy": {
+      "type": "object"
+    },
+    "triage": {
+      "type": "object"
+    },
+    "investigation": {
+      "type": "object"
+    },
+    "protective_actions": {
+      "type": "array"
+    },
+    "reporting_assessment": {
+      "type": "object"
+    },
+    "closure": {
+      "type": "object"
+    },
+    "audit": {
+      "type": "array"
+    }
+  }
+}

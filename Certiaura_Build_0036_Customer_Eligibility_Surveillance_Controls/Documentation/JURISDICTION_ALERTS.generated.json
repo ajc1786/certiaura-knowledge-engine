@@ -1,0 +1,18 @@
+{
+  "alert_count": 2,
+  "alerts": [
+    {
+      "file": "invalid_automatic_eligibility.example.json",
+      "eligibility_id": "ELIG-INVALID-AUTO",
+      "route_status": "PENDING",
+      "action": "BLOCK_ACCESS_AND_REVIEW"
+    },
+    {
+      "file": "invalid_prohibited_jurisdiction.example.json",
+      "eligibility_id": "ELIG-INVALID-PROHIBITED",
+      "route_status": "PROHIBITED",
+      "action": "BLOCK_ACCESS_AND_REVIEW"
+    }
+  ],
+  "authority": "PROTECTIVE_RESTRICTION_ONLY"
+}

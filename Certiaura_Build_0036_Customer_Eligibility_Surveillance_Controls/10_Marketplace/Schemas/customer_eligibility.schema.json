@@ -1,0 +1,56 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": true,
+  "required": [
+    "record_type",
+    "eligibility_id",
+    "customer_id",
+    "customer_type",
+    "jurisdiction",
+    "identity_verification",
+    "intended_use",
+    "privacy",
+    "access",
+    "risk",
+    "decision"
+  ],
+  "properties": {
+    "record_type": {
+      "const": "customer_eligibility"
+    },
+    "eligibility_id": {
+      "type": "string"
+    },
+    "customer_id": {
+      "type": "string"
+    },
+    "customer_type": {
+      "enum": [
+        "INDIVIDUAL",
+        "ORGANISATION"
+      ]
+    },
+    "jurisdiction": {
+      "type": "object"
+    },
+    "identity_verification": {
+      "type": "object"
+    },
+    "intended_use": {
+      "type": "object"
+    },
+    "privacy": {
+      "type": "object"
+    },
+    "access": {
+      "type": "object"
+    },
+    "risk": {
+      "type": "object"
+    },
+    "decision": {
+      "type": "object"
+    }
+  }
+}

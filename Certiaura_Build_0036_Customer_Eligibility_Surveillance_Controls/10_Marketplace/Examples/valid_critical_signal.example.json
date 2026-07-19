@@ -1,0 +1,64 @@
+{
+  "record_type": "surveillance_case",
+  "case_id": "SURV-0036-001",
+  "source": "COMPLAINT",
+  "severity": "CRITICAL",
+  "traceability": {
+    "product_id": "PROD-001",
+    "passport_id": "CERT-PPS-000101",
+    "batch_id": "BATCH-001",
+    "order_id": "ORDER-001",
+    "unavailable_reason": ""
+  },
+  "privacy": {
+    "customer_id_pseudonym": "CUST-HASH-001",
+    "sensitive_data_minimised": true,
+    "raw_medical_data_stored": false
+  },
+  "triage": {
+    "status": "COMPLETE",
+    "reviewer": "safety.reviewer",
+    "reviewed_at": "2026-07-18T11:00:00Z",
+    "duplicate_check_complete": true
+  },
+  "investigation": {
+    "status": "IN_PROGRESS",
+    "lead": "incident.lead",
+    "root_cause": "UNDER_INVESTIGATION",
+    "capa_ids": [
+      "CAPA-001"
+    ],
+    "effectiveness_check": "PENDING"
+  },
+  "protective_actions": [
+    "BLOCK_BATCH",
+    "SUSPEND_LISTING",
+    "QUARANTINE_STOCK",
+    "NOTIFY_INCIDENT_COMMAND"
+  ],
+  "reporting_assessment": {
+    "status": "COMPLETE",
+    "jurisdiction": "GB",
+    "reportability": "REQUIRED",
+    "decision_by": "regulatory.reviewer",
+    "decision_at": "2026-07-18T11:15:00Z",
+    "due_at": "2026-07-19T11:15:00Z",
+    "report_reference": "REPORT-DRAFT-001",
+    "independent_reviewer": "regulatory.independent"
+  },
+  "closure": {
+    "status": "OPEN",
+    "approved_by": "",
+    "approved_at": "",
+    "independent_approver": "",
+    "rationale": ""
+  },
+  "audit": [
+    {
+      "actor": "incident.lead",
+      "actor_type": "HUMAN",
+      "action": "OPEN_CRITICAL_CASE",
+      "timestamp": "2026-07-18T10:50:00Z"
+    }
+  ]
+}

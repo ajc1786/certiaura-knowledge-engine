@@ -1,0 +1,16 @@
+{
+  "alert_count": 2,
+  "alerts": [
+    {
+      "file": "invalid_automatic_eligibility.example.json",
+      "record_id": "ELIG-INVALID-AUTO",
+      "issue": "MISSING_LEGAL_BASIS"
+    },
+    {
+      "file": "invalid_automatic_eligibility.example.json",
+      "record_id": "ELIG-INVALID-AUTO",
+      "issue": "DATA_MINIMISATION_NOT_CONFIRMED"
+    }
+  ],
+  "authority": "ALERT_ONLY"
+}

@@ -1,0 +1,8 @@
+{
+  "eligibility_id": "ELIG-0036-001",
+  "validator_valid": true,
+  "breach_count": 0,
+  "human_decision": "ELIGIBLE",
+  "automation_recommendation": "ALLOW_EXISTING_DECISION",
+  "automation_authority": "NO_APPROVAL_AUTHORITY"
+}

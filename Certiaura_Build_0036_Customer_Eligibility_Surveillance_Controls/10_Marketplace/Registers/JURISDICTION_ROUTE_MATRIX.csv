@@ -1,0 +1,4 @@
+route_id,country_code,customer_type,intended_use,route_status,legal_review_id,effective_from,review_due,notes
+ROUTE-DEMO-GB-001,GB,ORGANISATION,LABORATORY_RESEARCH,PENDING_LEGAL_REVIEW,LEGAL-PLACEHOLDER-001,,,Illustrative only; not authority to transact
+ROUTE-DEMO-GB-002,GB,INDIVIDUAL,EDUCATIONAL_CONTENT,APPROVED,LEGAL-DEMO-002,2026-07-01,2027-07-01,Demo route for non-transactional educational access only
+ROUTE-DEMO-XX-001,XX,INDIVIDUAL,RESTRICTED_PRODUCT_ACCESS,PROHIBITED,LEGAL-DEMO-003,2026-07-01,2027-07-01,Synthetic prohibited example

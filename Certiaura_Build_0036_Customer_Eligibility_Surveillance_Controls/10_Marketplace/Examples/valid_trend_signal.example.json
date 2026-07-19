@@ -1,0 +1,66 @@
+{
+  "record_type": "surveillance_case",
+  "case_id": "SURV-0036-002",
+  "source": "SIGNAL_AGGREGATION",
+  "severity": "MODERATE",
+  "traceability": {
+    "product_id": "PROD-002",
+    "passport_id": "CERT-PPS-000102",
+    "batch_id": "MULTIPLE",
+    "order_id": "MULTIPLE",
+    "unavailable_reason": ""
+  },
+  "privacy": {
+    "customer_id_pseudonym": "AGGREGATED",
+    "sensitive_data_minimised": true,
+    "raw_medical_data_stored": false
+  },
+  "triage": {
+    "status": "COMPLETE",
+    "reviewer": "quality.reviewer",
+    "reviewed_at": "2026-07-18T12:00:00Z",
+    "duplicate_check_complete": true
+  },
+  "investigation": {
+    "status": "IN_PROGRESS",
+    "lead": "quality.lead",
+    "root_cause": "TREND_UNDER_REVIEW",
+    "capa_ids": [],
+    "effectiveness_check": "PENDING"
+  },
+  "protective_actions": [
+    "MONITOR_TREND",
+    "SUPPLIER_INFORMATION_REQUEST"
+  ],
+  "reporting_assessment": {
+    "status": "COMPLETE",
+    "jurisdiction": "GB",
+    "reportability": "NOT_REQUIRED",
+    "decision_by": "regulatory.reviewer",
+    "decision_at": "2026-07-18T12:15:00Z",
+    "due_at": null,
+    "report_reference": "",
+    "independent_reviewer": ""
+  },
+  "closure": {
+    "status": "OPEN",
+    "approved_by": "",
+    "approved_at": "",
+    "independent_approver": "",
+    "rationale": ""
+  },
+  "signal": {
+    "term": "quality_failure",
+    "window_days": 30,
+    "case_count": 4,
+    "threshold_id": "THR-001"
+  },
+  "audit": [
+    {
+      "actor": "signal.aggregator",
+      "actor_type": "AUTOMATION",
+      "action": "OPEN_TREND_REVIEW",
+      "timestamp": "2026-07-18T11:50:00Z"
+    }
+  ]
+}

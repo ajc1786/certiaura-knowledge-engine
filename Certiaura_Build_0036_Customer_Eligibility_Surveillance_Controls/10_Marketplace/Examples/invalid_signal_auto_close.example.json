@@ -1,0 +1,57 @@
+{
+  "record_type": "surveillance_case",
+  "case_id": "SURV-INVALID-AUTO-CLOSE",
+  "source": "COMPLAINT",
+  "severity": "CRITICAL",
+  "traceability": {
+    "product_id": "",
+    "passport_id": "",
+    "batch_id": "",
+    "order_id": "",
+    "unavailable_reason": ""
+  },
+  "privacy": {
+    "customer_id_pseudonym": "RAW-NAME-EXPOSED",
+    "sensitive_data_minimised": false,
+    "raw_medical_data_stored": true
+  },
+  "triage": {
+    "status": "COMPLETE",
+    "reviewer": "automation",
+    "reviewed_at": "",
+    "duplicate_check_complete": false
+  },
+  "investigation": {
+    "status": "COMPLETE",
+    "lead": "automation",
+    "root_cause": "",
+    "capa_ids": [],
+    "effectiveness_check": "PENDING"
+  },
+  "protective_actions": [],
+  "reporting_assessment": {
+    "status": "COMPLETE",
+    "jurisdiction": "",
+    "reportability": "NOT_REQUIRED",
+    "decision_by": "automation",
+    "decision_at": "",
+    "due_at": null,
+    "report_reference": "",
+    "independent_reviewer": ""
+  },
+  "closure": {
+    "status": "CLOSED",
+    "approved_by": "automation",
+    "approved_at": "2026-07-18T10:51:00Z",
+    "independent_approver": "",
+    "rationale": ""
+  },
+  "audit": [
+    {
+      "actor": "automation",
+      "actor_type": "AUTOMATION",
+      "action": "AUTO_CLOSE",
+      "timestamp": "2026-07-18T10:51:00Z"
+    }
+  ]
+}

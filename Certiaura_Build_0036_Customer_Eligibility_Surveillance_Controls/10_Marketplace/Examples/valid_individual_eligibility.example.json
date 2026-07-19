@@ -1,0 +1,58 @@
+{
+  "record_type": "customer_eligibility",
+  "eligibility_id": "ELIG-0036-001",
+  "customer_id": "CUST-PSEUDO-001",
+  "customer_type": "INDIVIDUAL",
+  "jurisdiction": {
+    "country_code": "GB",
+    "route_status": "APPROVED",
+    "legal_review_id": "LEGAL-DEMO-002",
+    "review_due": "2027-07-01"
+  },
+  "identity_verification": {
+    "status": "VERIFIED",
+    "method": "PROPORTIONATE_ID_CHECK",
+    "checked_by": "reviewer.alpha",
+    "checked_at": "2026-07-18T09:00:00Z",
+    "expires_at": "2027-07-18T09:00:00Z"
+  },
+  "intended_use": {
+    "category": "EDUCATIONAL_CONTENT",
+    "declaration": "Access to non-transactional educational resources",
+    "responsible_use_version": "RU-1.0",
+    "acknowledged_at": "2026-07-18T09:05:00Z"
+  },
+  "privacy": {
+    "notice_version": "PN-1.0",
+    "notice_accepted": true,
+    "legal_basis": "CONTRACT_AND_LEGITIMATE_INTEREST_RECORDED",
+    "retention_schedule_id": "RET-CUST-01",
+    "data_minimised": true,
+    "pseudonymised": true
+  },
+  "access": {
+    "role": "EDUCATION_MEMBER",
+    "status": "APPROVED",
+    "mfa_required": true,
+    "approved_by": "access.reviewer",
+    "approved_at": "2026-07-18T09:20:00Z",
+    "expires_at": "2027-07-18T09:20:00Z"
+  },
+  "risk": {
+    "tier": "LOW",
+    "flags": [],
+    "human_review_required": true,
+    "review_status": "COMPLETE"
+  },
+  "decision": {
+    "status": "ELIGIBLE",
+    "decision_by": "eligibility.reviewer",
+    "decision_at": "2026-07-18T09:30:00Z",
+    "independent_reviewer": "",
+    "conditions": [
+      "Educational access only"
+    ],
+    "expiry_at": "2027-07-18T09:30:00Z",
+    "reinstatement": false
+  }
+}

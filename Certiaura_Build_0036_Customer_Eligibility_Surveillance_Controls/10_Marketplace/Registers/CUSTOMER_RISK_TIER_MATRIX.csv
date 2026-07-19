@@ -1,0 +1,5 @@
+risk_tier,criteria,minimum_review,decision_requirement,review_frequency,access_default
+LOW,No material flags; approved route,Standard reviewer,Named human approval,Annual,Least privilege
+MEDIUM,One or more controlled flags,Senior reviewer,Human approval with conditions,Six-monthly,Restricted
+HIGH,Material or repeated risk flags,Senior plus independent reviewer,Conditional or ineligible decision,Quarterly,Blocked pending approval
+PROHIBITED,Prohibited route or unacceptable risk,Compliance/legal escalation,Ineligible or suspended only,Event driven,Blocked

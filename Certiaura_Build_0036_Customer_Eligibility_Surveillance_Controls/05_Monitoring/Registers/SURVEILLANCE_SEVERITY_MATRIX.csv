@@ -1,0 +1,5 @@
+severity,example_trigger,initial_action,reporting_assessment,closure_approval
+LOW,Isolated non-serious issue,Log and trend,If required by route,Case reviewer
+MODERATE,Recurring/material quality issue,Investigate and monitor,Documented assessment,Senior reviewer
+HIGH,Credible safety/quality/traceability risk,Restrict and escalate,Mandatory human assessment,Independent approver
+CRITICAL,Serious or potentially widespread risk,Immediate block/quarantine/incident command,Urgent human assessment,Independent senior approver

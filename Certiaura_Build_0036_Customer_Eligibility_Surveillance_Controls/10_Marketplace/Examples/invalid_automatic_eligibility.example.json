@@ -1,0 +1,58 @@
+{
+  "record_type": "customer_eligibility",
+  "eligibility_id": "ELIG-INVALID-AUTO",
+  "customer_id": "CUST-PSEUDO-001",
+  "customer_type": "INDIVIDUAL",
+  "jurisdiction": {
+    "country_code": "GB",
+    "route_status": "PENDING",
+    "legal_review_id": "",
+    "review_due": ""
+  },
+  "identity_verification": {
+    "status": "PENDING",
+    "method": "PROPORTIONATE_ID_CHECK",
+    "checked_by": "automation",
+    "checked_at": "2026-07-18T09:00:00Z",
+    "expires_at": ""
+  },
+  "intended_use": {
+    "category": "EDUCATIONAL_CONTENT",
+    "declaration": "Access to non-transactional educational resources",
+    "responsible_use_version": "RU-1.0",
+    "acknowledged_at": "2026-07-18T09:05:00Z"
+  },
+  "privacy": {
+    "notice_version": "PN-1.0",
+    "notice_accepted": false,
+    "legal_basis": "",
+    "retention_schedule_id": "RET-CUST-01",
+    "data_minimised": false,
+    "pseudonymised": false
+  },
+  "access": {
+    "role": "EDUCATION_MEMBER",
+    "status": "APPROVED",
+    "mfa_required": false,
+    "approved_by": "automation",
+    "approved_at": "2026-07-18T09:20:00Z",
+    "expires_at": ""
+  },
+  "risk": {
+    "tier": "HIGH",
+    "flags": [
+      "IDENTITY_MISMATCH"
+    ],
+    "human_review_required": true,
+    "review_status": "PENDING"
+  },
+  "decision": {
+    "status": "ELIGIBLE",
+    "decision_by": "automation",
+    "decision_at": "2026-07-18T09:30:00Z",
+    "independent_reviewer": "",
+    "conditions": [],
+    "expiry_at": "",
+    "reinstatement": true
+  }
+}

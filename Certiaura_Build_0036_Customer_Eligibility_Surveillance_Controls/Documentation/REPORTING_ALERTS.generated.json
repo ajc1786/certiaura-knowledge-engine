@@ -1,0 +1,12 @@
+{
+  "alert_count": 1,
+  "alerts": [
+    {
+      "case_id": "SURV-0036-001",
+      "due_at": "2026-07-19T11:15:00Z",
+      "status": "UPCOMING",
+      "report_reference": "REPORT-DRAFT-001"
+    }
+  ],
+  "authority": "DEADLINE_ALERT_ONLY"
+}

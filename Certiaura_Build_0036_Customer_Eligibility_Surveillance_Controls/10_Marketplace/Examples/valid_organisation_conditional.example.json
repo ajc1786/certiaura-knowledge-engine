@@ -1,0 +1,71 @@
+{
+  "record_type": "customer_eligibility",
+  "eligibility_id": "ELIG-0036-002",
+  "customer_id": "ORG-PSEUDO-002",
+  "customer_type": "ORGANISATION",
+  "organisation_checks": {
+    "legal_name_verified": true,
+    "registration_reference": "DEMO-REG-002",
+    "authority_verified": true,
+    "beneficial_owner_check": "COMPLETE",
+    "sanctions_screen_status": "CLEAR",
+    "reviewer": "org.reviewer"
+  },
+  "jurisdiction": {
+    "country_code": "GB",
+    "route_status": "APPROVED",
+    "legal_review_id": "LEGAL-DEMO-ORG-004",
+    "review_due": "2027-01-01"
+  },
+  "identity_verification": {
+    "status": "VERIFIED",
+    "method": "ORG_AUTHORITY_AND_ID",
+    "checked_by": "org.reviewer",
+    "checked_at": "2026-07-18T10:00:00Z",
+    "expires_at": "2027-01-01T00:00:00Z"
+  },
+  "intended_use": {
+    "category": "LABORATORY_RESEARCH",
+    "declaration": "Controlled laboratory research under organisation procedures",
+    "responsible_use_version": "RU-1.0",
+    "acknowledged_at": "2026-07-18T10:05:00Z"
+  },
+  "privacy": {
+    "notice_version": "PN-1.0",
+    "notice_accepted": true,
+    "legal_basis": "CONTRACT_RECORDED",
+    "retention_schedule_id": "RET-ORG-01",
+    "data_minimised": true,
+    "pseudonymised": true
+  },
+  "access": {
+    "role": "ORG_RESEARCH_BUYER",
+    "status": "APPROVED",
+    "mfa_required": true,
+    "approved_by": "access.reviewer",
+    "approved_at": "2026-07-18T10:20:00Z",
+    "expires_at": "2027-01-01T00:00:00Z"
+  },
+  "risk": {
+    "tier": "HIGH",
+    "flags": [
+      "NEW_ORGANISATION",
+      "LIMITED_HISTORY"
+    ],
+    "human_review_required": true,
+    "review_status": "COMPLETE"
+  },
+  "decision": {
+    "status": "CONDITIONAL",
+    "decision_by": "senior.eligibility",
+    "decision_at": "2026-07-18T10:30:00Z",
+    "independent_reviewer": "independent.reviewer",
+    "conditions": [
+      "Order value cap",
+      "Quarterly review",
+      "Route-specific catalogue only"
+    ],
+    "expiry_at": "2027-01-01T00:00:00Z",
+    "reinstatement": false
+  }
+}

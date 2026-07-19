@@ -1,0 +1,45 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": true,
+  "required": [
+    "record_type",
+    "request_id",
+    "customer_id",
+    "request_type",
+    "received_at",
+    "identity_confirmed",
+    "legal_review",
+    "decision",
+    "audit"
+  ],
+  "properties": {
+    "record_type": {
+      "const": "privacy_request"
+    },
+    "request_id": {
+      "type": "string"
+    },
+    "customer_id": {
+      "type": "string"
+    },
+    "request_type": {
+      "type": "string"
+    },
+    "received_at": {
+      "type": "string"
+    },
+    "identity_confirmed": {
+      "type": "boolean"
+    },
+    "legal_review": {
+      "type": "object"
+    },
+    "decision": {
+      "type": "object"
+    },
+    "audit": {
+      "type": "array"
+    }
+  }
+}
