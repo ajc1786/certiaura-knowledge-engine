@@ -1,9 +1,9 @@
 {
   "build_number": "0038",
   "build_id": "CERT-BUILD-0038",
-  "manifest_version": "1.1.0",
-  "generated_at": "2026-07-19T00:00:00+00:00",
-  "purpose": "Restore Builds 0035E-0036 and reconcile all prior registerable repository items with the existing canonical Master Asset Register.",
+  "manifest_version": "1.2.0",
+  "generated_at": "2026-07-19T12:56:11.641065+00:00",
+  "purpose": "Restore Builds 0035E-0036, repair the exact canonical Master Asset Register, and reconcile all prior registerable repository items.",
   "full_historical_reconciliation": true,
   "file_classifications": [
     {
@@ -63,11 +63,11 @@
       "classification": "TEMPLATE"
     },
     {
-      "path": "05_Monitoring/Templates/surveillance_case.template.json",
+      "path": "05_Monitoring/Templates/SURVEILLANCE_TRIAGE_TEMPLATE.md",
       "classification": "TEMPLATE"
     },
     {
-      "path": "05_Monitoring/Templates/SURVEILLANCE_TRIAGE_TEMPLATE.md",
+      "path": "05_Monitoring/Templates/surveillance_case.template.json",
       "classification": "TEMPLATE"
     },
     {
@@ -119,14 +119,6 @@
       "classification": "EXAMPLE"
     },
     {
-      "path": "08_Product_Passports/Examples/invalid_active_listing.example.json",
-      "classification": "EXAMPLE"
-    },
-    {
-      "path": "08_Product_Passports/Examples/invalid_verified_review.example.json",
-      "classification": "EXAMPLE"
-    },
-    {
       "path": "08_Product_Passports/Examples/Output/invalid_auto_qualified_supplier.example.json",
       "classification": "EXAMPLE"
     },
@@ -168,6 +160,14 @@
     },
     {
       "path": "08_Product_Passports/Examples/Output/valid_suspended_supplier.example.json",
+      "classification": "EXAMPLE"
+    },
+    {
+      "path": "08_Product_Passports/Examples/invalid_active_listing.example.json",
+      "classification": "EXAMPLE"
+    },
+    {
+      "path": "08_Product_Passports/Examples/invalid_verified_review.example.json",
       "classification": "EXAMPLE"
     },
     {
@@ -399,22 +399,6 @@
       "classification": "TEMPLATE"
     },
     {
-      "path": "08_Product_Passports/Templates/passport_lifecycle.template.json",
-      "classification": "TEMPLATE"
-    },
-    {
-      "path": "08_Product_Passports/Templates/passport_monitoring_run.template.json",
-      "classification": "TEMPLATE"
-    },
-    {
-      "path": "08_Product_Passports/Templates/passport_remediation_case.template.json",
-      "classification": "TEMPLATE"
-    },
-    {
-      "path": "08_Product_Passports/Templates/product_passport_review_decision.template.json",
-      "classification": "TEMPLATE"
-    },
-    {
       "path": "08_Product_Passports/Templates/PRODUCT_PASSPORT_REVIEWER_CHECKLIST.md",
       "classification": "TEMPLATE"
     },
@@ -435,10 +419,6 @@
       "classification": "TEMPLATE"
     },
     {
-      "path": "08_Product_Passports/Templates/supplier_assurance_profile.template.json",
-      "classification": "TEMPLATE"
-    },
-    {
       "path": "08_Product_Passports/Templates/SUPPLIER_AUDIT_PLAN_TEMPLATE.md",
       "classification": "TEMPLATE"
     },
@@ -456,6 +436,26 @@
     },
     {
       "path": "08_Product_Passports/Templates/SUPPLIER_IMPROVEMENT_PLAN_TEMPLATE.md",
+      "classification": "TEMPLATE"
+    },
+    {
+      "path": "08_Product_Passports/Templates/passport_lifecycle.template.json",
+      "classification": "TEMPLATE"
+    },
+    {
+      "path": "08_Product_Passports/Templates/passport_monitoring_run.template.json",
+      "classification": "TEMPLATE"
+    },
+    {
+      "path": "08_Product_Passports/Templates/passport_remediation_case.template.json",
+      "classification": "TEMPLATE"
+    },
+    {
+      "path": "08_Product_Passports/Templates/product_passport_review_decision.template.json",
+      "classification": "TEMPLATE"
+    },
+    {
+      "path": "08_Product_Passports/Templates/supplier_assurance_profile.template.json",
       "classification": "TEMPLATE"
     },
     {
@@ -507,15 +507,15 @@
       "classification": "TEMPLATE"
     },
     {
-      "path": "09_Cost_Intelligence/Templates/settlement.template.json",
-      "classification": "TEMPLATE"
-    },
-    {
       "path": "09_Cost_Intelligence/Templates/SETTLEMENT_REVIEW_TEMPLATE.md",
       "classification": "TEMPLATE"
     },
     {
       "path": "09_Cost_Intelligence/Templates/SUPPLIER_COMMERCIAL_REVIEW_TEMPLATE.md",
+      "classification": "TEMPLATE"
+    },
+    {
+      "path": "09_Cost_Intelligence/Templates/settlement.template.json",
       "classification": "TEMPLATE"
     },
     {
@@ -823,10 +823,6 @@
       "classification": "TEMPLATE"
     },
     {
-      "path": "10_Marketplace/Templates/customer_eligibility.template.json",
-      "classification": "TEMPLATE"
-    },
-    {
       "path": "10_Marketplace/Templates/CUSTOMER_ELIGIBILITY_REVIEW_TEMPLATE.md",
       "classification": "TEMPLATE"
     },
@@ -835,15 +831,7 @@
       "classification": "TEMPLATE"
     },
     {
-      "path": "10_Marketplace/Templates/fulfilment_receipt.template.json",
-      "classification": "TEMPLATE"
-    },
-    {
       "path": "10_Marketplace/Templates/GOODS_RECEIPT_TEMPLATE.md",
-      "classification": "TEMPLATE"
-    },
-    {
-      "path": "10_Marketplace/Templates/incident_recall.template.json",
       "classification": "TEMPLATE"
     },
     {
@@ -851,23 +839,11 @@
       "classification": "TEMPLATE"
     },
     {
-      "path": "10_Marketplace/Templates/marketplace_contract.template.json",
-      "classification": "TEMPLATE"
-    },
-    {
       "path": "10_Marketplace/Templates/MARKETPLACE_CONTRACT_REVIEW_TEMPLATE.md",
       "classification": "TEMPLATE"
     },
     {
-      "path": "10_Marketplace/Templates/order_assurance.template.json",
-      "classification": "TEMPLATE"
-    },
-    {
       "path": "10_Marketplace/Templates/ORDER_RELEASE_PACK_TEMPLATE.md",
-      "classification": "TEMPLATE"
-    },
-    {
-      "path": "10_Marketplace/Templates/privacy_request.template.json",
       "classification": "TEMPLATE"
     },
     {
@@ -891,19 +867,43 @@
       "classification": "TEMPLATE"
     },
     {
-      "path": "10_Marketplace/Templates/sourcing_decision.template.json",
-      "classification": "TEMPLATE"
-    },
-    {
       "path": "10_Marketplace/Templates/SOURCING_DECISION_TEMPLATE.md",
       "classification": "TEMPLATE"
     },
     {
-      "path": "10_Marketplace/Templates/supplier_portfolio_profile.template.json",
+      "path": "10_Marketplace/Templates/SUPPLIER_PORTFOLIO_REVIEW_TEMPLATE.md",
       "classification": "TEMPLATE"
     },
     {
-      "path": "10_Marketplace/Templates/SUPPLIER_PORTFOLIO_REVIEW_TEMPLATE.md",
+      "path": "10_Marketplace/Templates/customer_eligibility.template.json",
+      "classification": "TEMPLATE"
+    },
+    {
+      "path": "10_Marketplace/Templates/fulfilment_receipt.template.json",
+      "classification": "TEMPLATE"
+    },
+    {
+      "path": "10_Marketplace/Templates/incident_recall.template.json",
+      "classification": "TEMPLATE"
+    },
+    {
+      "path": "10_Marketplace/Templates/marketplace_contract.template.json",
+      "classification": "TEMPLATE"
+    },
+    {
+      "path": "10_Marketplace/Templates/order_assurance.template.json",
+      "classification": "TEMPLATE"
+    },
+    {
+      "path": "10_Marketplace/Templates/privacy_request.template.json",
+      "classification": "TEMPLATE"
+    },
+    {
+      "path": "10_Marketplace/Templates/sourcing_decision.template.json",
+      "classification": "TEMPLATE"
+    },
+    {
+      "path": "10_Marketplace/Templates/supplier_portfolio_profile.template.json",
       "classification": "TEMPLATE"
     },
     {
@@ -1019,6 +1019,10 @@
       "classification": "SCRIPT"
     },
     {
+      "path": "13_Project_Genesis/Import/Run_Master_Asset_Register_Repair.cmd",
+      "classification": "SCRIPT"
+    },
+    {
       "path": "13_Project_Genesis/Import/asset_register_reconciler.py",
       "classification": "SCRIPT"
     },
@@ -1028,6 +1032,10 @@
     },
     {
       "path": "13_Project_Genesis/Import/historical_asset_backfill.py",
+      "classification": "SCRIPT"
+    },
+    {
+      "path": "13_Project_Genesis/Import/repair_master_asset_register.py",
       "classification": "SCRIPT"
     },
     {
@@ -1056,6 +1064,10 @@
     },
     {
       "path": "13_Project_Genesis/Standards/HISTORICAL_ASSET_REGISTER_BACKFILL_STANDARD.md",
+      "classification": "FORMAL_ASSET"
+    },
+    {
+      "path": "13_Project_Genesis/Standards/MASTER_ASSET_REGISTER_CANONICAL_REPAIR_STANDARD.md",
       "classification": "FORMAL_ASSET"
     },
     {
@@ -1160,6 +1172,10 @@
     },
     {
       "path": "13_Project_Genesis/Tests/test_build_0038_asset_register_transaction.py",
+      "classification": "TEST"
+    },
+    {
+      "path": "13_Project_Genesis/Tests/test_build_0038_canonical_register_repair.py",
       "classification": "TEST"
     },
     {
@@ -1519,6 +1535,10 @@
       "classification": "BUILD_RECORD"
     },
     {
+      "path": "Documentation/Build_Records/0038/MASTER_ASSET_REGISTER_REPAIR_INSTRUCTIONS.md",
+      "classification": "BUILD_RECORD"
+    },
+    {
       "path": "Documentation/Build_Records/0038/PACKAGE_CONTENT_SHA256.csv",
       "classification": "BUILD_RECORD"
     },
@@ -1650,7 +1670,7 @@
       "reconciliation_mode": "RESTORE_OR_BACKFILL_PRESERVE_IDENTITY",
       "allow_create_if_missing": true,
       "allow_title_match": false,
-      "proposed_version": "1.3.0",
+      "proposed_version": "1.2.0",
       "proposed_status": "LOCKED_ACTIVE",
       "owner": "Certiaura",
       "completion_percentage": 100,
@@ -1669,7 +1689,7 @@
         "0038"
       ],
       "registration_basis": "EXPLICIT_BUILD_0038_FORMAL_ASSET",
-      "file_sha256": "67f2dfafc8e6214c93d647d730fda72ddf9392da6d7a1726d1bd8603f8cc0cbe"
+      "file_sha256": "7e3f7a97b68b2baeea75d3ba76d9439f0a0823a25f1f3c9d26d79384a28cd451"
     },
     {
       "repository_path": "05_Monitoring/Standards/POST_MARKET_SURVEILLANCE_STANDARD.md",
@@ -2290,6 +2310,37 @@
       ],
       "registration_basis": "EXPLICIT_BUILD_0038_FORMAL_ASSET",
       "file_sha256": "09643e04c16eba2e5bafad061efa139848bb7fffca62473baf4ec2f5cfce0e43"
+    },
+    {
+      "repository_path": "13_Project_Genesis/Standards/MASTER_ASSET_REGISTER_CANONICAL_REPAIR_STANDARD.md",
+      "asset_title": "Master Asset Register Canonical Repair Standard",
+      "asset_type": "Standard",
+      "knowledge_system": "SYS",
+      "intended_action": "CREATE",
+      "existing_uai": null,
+      "reconciliation_mode": "CREATE_IF_MISSING_PRESERVE_IDENTITY",
+      "allow_create_if_missing": true,
+      "allow_title_match": false,
+      "proposed_version": "1.0.0",
+      "proposed_status": "ACTIVE",
+      "owner": "Certiaura",
+      "completion_percentage": 100,
+      "parent_assets": [],
+      "child_assets": [],
+      "relationships": [],
+      "evidence_links": [],
+      "report_links": [],
+      "marketplace_links": [],
+      "last_review": "2026-07-19",
+      "next_review": "",
+      "build_provenance": [
+        "CERT-BUILD-0038"
+      ],
+      "source_builds": [
+        "0038"
+      ],
+      "registration_basis": "EXPLICIT_BUILD_0038_FORMAL_ASSET",
+      "file_sha256": "fae48448b728dffd4da4864e38a3475ed0536db51e8e3410c17e4029264cea55"
     },
     {
       "repository_path": "Standards/CERTIAURA_BUILD_PACK_ROUTING_STANDARD.md",

@@ -11,6 +11,8 @@ from pathlib import Path, PurePosixPath
 from typing import Any, Iterable
 
 from asset_register_reconciler import (
+    CANONICAL_REGISTER_RELATIVE_PATH,
+    UAI_RE,
     _write_register,
     infer_system,
     load_register,
@@ -350,6 +352,15 @@ def _validate_register_coverage(repo: Path, rows: list[dict[str, str]], candidat
                 "path": path,
                 "status": status,
             })
+    seen_uai: set[str] = set()
+    for row in rows:
+        uai = row.get("Universal Asset Identifier", "").strip()
+        path = row.get("Repository Path", "").strip()
+        if not UAI_RE.fullmatch(uai):
+            errors.append({"code": "INVALID_OR_MISSING_UAI_AFTER_RECONCILIATION", "uai": uai, "path": path})
+        elif uai in seen_uai:
+            errors.append({"code": "DUPLICATE_UAI_AFTER_RECONCILIATION", "uai": uai})
+        seen_uai.add(uai)
     return errors
 
 
@@ -361,7 +372,7 @@ def plan_full_historical_reconciliation(
     additional_files: dict[str, bytes] | None = None,
 ) -> dict[str, Any]:
     policy = load_policy(policy_path)
-    register = resolve_register(repo, explicit_register)
+    register = resolve_register(repo, explicit_register or CANONICAL_REGISTER_RELATIVE_PATH)
     rows, _ = load_register(register)
     census = discover_historical_assets(repo, policy, additional_files, register)
     merged_assets = _merge_explicit_assets(census["registerable_assets"], base_manifest.get("formal_assets", []))
@@ -402,7 +413,7 @@ def reconcile_full_historical_repository(
     census_report_path: Path | None = None,
 ) -> dict[str, Any]:
     manifest = json.loads(base_manifest_path.read_text(encoding="utf-8"))
-    register = resolve_register(repo, explicit_register)
+    register = resolve_register(repo, explicit_register or CANONICAL_REGISTER_RELATIVE_PATH)
     rows, meta = load_register(register)
     result = plan_full_historical_reconciliation(
         repo, manifest, policy_path, explicit_register, additional_files

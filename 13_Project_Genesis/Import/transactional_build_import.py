@@ -10,12 +10,15 @@ from datetime import datetime, timezone
 from pathlib import Path, PurePosixPath
 
 from asset_register_reconciler import (
+    CANONICAL_REGISTER_RELATIVE_PATH,
+    UAI_RE,
     _write_register,
     load_register,
     norm_path,
     resolve_register,
 )
 from historical_asset_backfill import reconcile_full_historical_repository
+from repair_master_asset_register import verify as verify_master_asset_register
 
 ALLOWED_ROOTS = {
     '00_Governance','01_Knowledge_Systems','02_Peptides','03_Biology','04_Conditions',
@@ -28,6 +31,7 @@ CONFLICT_PATH = 'Documentation/Build_Records/0038/CONFLICT_POLICY.json'
 POLICY_PATH = 'Documentation/Build_Records/0038/HISTORICAL_ASSET_BACKFILL_POLICY.json'
 FULL_REPORT_PATH = 'Documentation/Build_Records/0038/FULL_HISTORICAL_ASSET_REGISTER_REPORT.json'
 CENSUS_REPORT_PATH = 'Documentation/Build_Records/0038/HISTORICAL_ASSET_CENSUS_REPORT.json'
+BUTTON_VERIFY_PATH = 'Documentation/Build_Records/0038/MASTER_ASSET_REGISTER_BUTTON_VERIFICATION.json'
 
 
 def sha256_bytes(data: bytes) -> str:
@@ -55,6 +59,7 @@ def load_policy(zf: zipfile.ZipFile) -> dict:
 
 
 def inspect_pack(zip_path: Path, repo: Path, asset_register: Path | None = None) -> dict:
+    asset_register = asset_register or CANONICAL_REGISTER_RELATIVE_PATH
     errors: list[dict] = []
     plan: list[dict] = []
     seen_ci: dict[str, str] = {}
@@ -255,6 +260,7 @@ def apply_pack(zip_path: Path, repo: Path, backup_root: Path, asset_register: Pa
     if not preflight['valid']:
         preflight['applied'] = False
         return preflight
+    asset_register = asset_register or CANONICAL_REGISTER_RELATIVE_PATH
     register = resolve_register(repo, asset_register)
     touched = [x['path'] for x in preflight['routing_plan'] if x['action'] in {'CREATE', 'APPROVED_REPLACE'}]
     backup, backup_manifest = _backup(repo, touched, register, backup_root)
@@ -286,6 +292,10 @@ def apply_pack(zip_path: Path, repo: Path, backup_root: Path, asset_register: Pa
             json.loads(manifest_path.read_text(encoding='utf-8')),
             historical_report,
         )
+        verification = verify_master_asset_register(repo)
+        (repo / BUTTON_VERIFY_PATH).write_text(json.dumps(verification, indent=2) + "\n", encoding="utf-8")
+        if not verification.get("valid"):
+            validation_errors.append({"code": "CANONICAL_MASTER_ASSET_REGISTER_BUTTON_VERIFICATION_FAILED", "details": verification})
         if validation_errors:
             raise RuntimeError(json.dumps(validation_errors))
 
@@ -297,6 +307,7 @@ def apply_pack(zip_path: Path, repo: Path, backup_root: Path, asset_register: Pa
             'backup_path': str(backup),
             'full_historical_asset_register_report': historical_report,
             'post_import_validation': {'valid': True, 'errors': []},
+            'master_asset_register_button_verification': verification,
         }
         report_path = repo / 'Documentation/Build_Records/0038/IMPORT_REPORT.json'
         report_path.write_text(json.dumps(report, indent=2) + '\n', encoding='utf-8')
@@ -313,7 +324,7 @@ def main() -> int:
     parser = argparse.ArgumentParser(description='Transactional Certiaura Build 0038 importer with full historical asset-register reconciliation')
     parser.add_argument('zip_path', type=Path)
     parser.add_argument('repository', type=Path)
-    parser.add_argument('--asset-register', type=Path)
+    parser.add_argument('--asset-register', type=Path, default=CANONICAL_REGISTER_RELATIVE_PATH)
     parser.add_argument('--apply', action='store_true')
     parser.add_argument('--backup-root', type=Path)
     parser.add_argument('--report', type=Path)

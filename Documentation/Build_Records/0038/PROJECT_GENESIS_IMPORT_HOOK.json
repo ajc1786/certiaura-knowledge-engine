@@ -1,10 +1,12 @@
 {
   "build_number": "0038",
-  "import_mode": "TRANSACTIONAL_FULL_HISTORICAL_RECONCILIATION",
+  "import_mode": "TRANSACTIONAL_FULL_HISTORICAL_RECONCILIATION_AND_CANONICAL_REGISTER_REPAIR",
   "preflight_entry_point": "13_Project_Genesis/Import/transactional_build_import.py",
   "dry_run_arguments": [
     "<zip_path>",
     "<repository_path>",
+    "--asset-register",
+    "Documentation/Master_Asset_Register.csv",
     "--report",
     "Documentation/Build_Records/0038/DRY_RUN_REPORT.json"
   ],
@@ -12,6 +14,8 @@
     "<zip_path>",
     "<repository_path>",
     "--apply",
+    "--asset-register",
+    "Documentation/Master_Asset_Register.csv",
     "--report",
     "Documentation/Build_Records/0038/IMPORT_REPORT.json"
   ],
@@ -21,5 +25,17 @@
   "full_historical_asset_register_reconciliation": true,
   "prior_build_provenance_recovery": true,
   "block_orphan_register_entries": true,
-  "block_unregistered_repository_assets": true
+  "block_unregistered_repository_assets": true,
+  "canonical_master_asset_register": "Documentation/Master_Asset_Register.csv",
+  "post_apply_entry_point": "13_Project_Genesis/Import/repair_master_asset_register.py",
+  "post_apply_arguments": [
+    "<repository_path>",
+    "--apply",
+    "--report",
+    "Documentation/Build_Records/0038/MASTER_ASSET_REGISTER_REPAIR_REPORT.json"
+  ],
+  "fallback_windows_launcher": "13_Project_Genesis/Import/Run_Master_Asset_Register_Repair.cmd",
+  "button_open_verification_report": "Documentation/Build_Records/0038/MASTER_ASSET_REGISTER_BUTTON_VERIFICATION.json",
+  "legacy_placeholder_value_to_remove": "NO NEW UAI",
+  "minimum_valid_asset_rows_after_repair": 10
 }

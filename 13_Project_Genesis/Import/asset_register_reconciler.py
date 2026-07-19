@@ -2,15 +2,20 @@ from __future__ import annotations
 
 import csv
 import json
+import os
 import re
+import tempfile
 from copy import deepcopy
-from dataclasses import dataclass
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
+CANONICAL_REGISTER_RELATIVE_PATH = Path("Documentation") / "Master_Asset_Register.csv"
 REGISTER_NAME_RE = re.compile(r"master[^a-z0-9]*asset[^a-z0-9]*register", re.I)
 UAI_RE = re.compile(r"^CERT-([A-Z]+)-(\d{6})$")
+PLACEHOLDER_UAI_VALUES = {
+    "NO NEW UAI", "NO UAI", "NEW UAI REQUIRED", "TBC", "TBD", "PENDING", "UNALLOCATED", "NONE"
+}
 
 CANONICAL_FIELDS = [
     "Universal Asset Identifier", "Asset Title", "Asset Type", "Knowledge System", "Repository Path",
@@ -22,7 +27,7 @@ CANONICAL_FIELDS = [
 
 ALIASES = {
     "uai": ["Universal Asset Identifier", "UAI", "Asset ID", "Asset_ID", "asset_id", "id"],
-    "title": ["Asset Title", "Title", "Name", "asset_title", "title"],
+    "title": ["Asset Title", "Asset Name", "Title", "Name", "asset_title", "asset_name", "title"],
     "asset_type": ["Asset Type", "Type", "asset_type", "type"],
     "system": ["Knowledge System", "System", "knowledge_system", "system"],
     "path": ["Repository Path", "Canonical Path", "Path", "repository_path", "canonical_path", "path"],
@@ -43,7 +48,8 @@ ALIASES = {
     "source_builds": ["Source Builds", "source_builds"],
     "registration_basis": ["Registration Basis", "registration_basis"],
     "file_sha256": ["File SHA256", "SHA256", "sha256", "file_sha256"],
-    "updated": ["Last Updated", "last_updated"]
+    "updated": ["Last Updated", "last_updated"],
+    "notes": ["Notes", "notes"],
 }
 
 SYSTEM_ROOTS = {
@@ -68,8 +74,14 @@ def norm_text(value: str | None) -> str:
     return re.sub(r"\s+", " ", (value or "").strip()).lower()
 
 
+def is_valid_uai(value: str | None) -> bool:
+    return bool(UAI_RE.fullmatch((value or "").strip()))
+
+
 def _candidate_registers(repo: Path) -> list[Path]:
+    canonical = repo / CANONICAL_REGISTER_RELATIVE_PATH
     exact = [
+        canonical,
         repo / "Database" / "MASTER_ASSET_REGISTER.csv",
         repo / "Database" / "MASTER_ASSET_REGISTER.json",
         repo / "Database" / "Master_Asset_Register.csv",
@@ -94,11 +106,15 @@ def _candidate_registers(repo: Path) -> list[Path]:
 
 
 def resolve_register(repo: Path, explicit: Path | None = None) -> Path:
+    repo = repo.resolve()
     if explicit is not None:
         p = explicit if explicit.is_absolute() else repo / explicit
         if not p.is_file():
             raise RegisterError(f"MASTER_ASSET_REGISTER_NOT_FOUND: {p}")
         return p.resolve()
+    canonical = (repo / CANONICAL_REGISTER_RELATIVE_PATH).resolve()
+    if canonical.is_file():
+        return canonical
     candidates = _candidate_registers(repo)
     if not candidates:
         raise RegisterError("MASTER_ASSET_REGISTER_NOT_FOUND")
@@ -131,6 +147,8 @@ def _canonicalise(row: dict[str, Any]) -> dict[str, str]:
     for canonical, alias_key in mapping.items():
         if not out.get(canonical):
             out[canonical] = _alias_value(row, alias_key)
+    if not out.get("Asset Name") and out.get("Asset Title"):
+        out["Asset Name"] = out["Asset Title"]
     return out
 
 
@@ -154,23 +172,93 @@ def load_register(path: Path) -> tuple[list[dict[str, str]], dict[str, Any]]:
     return [_canonicalise(dict(x)) for x in raw], {"format": "json", "shape": shape, "original": data}
 
 
+def _csv_fields(meta: dict[str, Any]) -> list[str]:
+    original = [x for x in meta.get("fieldnames", []) if x]
+    fields = list(original)
+    for field in CANONICAL_FIELDS:
+        if field == "Asset Title" and "Asset Name" in fields:
+            continue
+        if field not in fields:
+            fields.append(field)
+    return fields
+
+
+def _row_for_output(row: dict[str, str], fields: list[str]) -> dict[str, str]:
+    out = dict(row)
+    if "Asset Name" in fields:
+        out["Asset Name"] = row.get("Asset Title") or row.get("Asset Name", "")
+    return {k: out.get(k, "") for k in fields}
+
+
 def _write_register(path: Path, rows: list[dict[str, str]], meta: dict[str, Any]) -> None:
-    if meta["format"] == "csv":
-        original = [x for x in meta.get("fieldnames", []) if x]
-        fields = original + [x for x in CANONICAL_FIELDS if x not in original]
-        with path.open("w", encoding="utf-8", newline="") as fh:
-            writer = csv.DictWriter(fh, fieldnames=fields, extrasaction="ignore")
-            writer.writeheader()
-            for row in rows:
-                writer.writerow({k: row.get(k, "") for k in fields})
-        return
-    original = deepcopy(meta.get("original"))
-    if meta.get("shape") == "list":
-        payload: Any = rows
-    else:
-        payload = original if isinstance(original, dict) else {}
-        payload["assets"] = rows
-    path.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    path.parent.mkdir(parents=True, exist_ok=True)
+    fd, temp_name = tempfile.mkstemp(prefix=path.name + ".", suffix=".tmp", dir=str(path.parent))
+    os.close(fd)
+    temp = Path(temp_name)
+    try:
+        if meta["format"] == "csv":
+            fields = _csv_fields(meta)
+            with temp.open("w", encoding="utf-8-sig", newline="") as fh:
+                writer = csv.DictWriter(fh, fieldnames=fields, extrasaction="ignore")
+                writer.writeheader()
+                for row in rows:
+                    writer.writerow(_row_for_output(row, fields))
+                fh.flush()
+                os.fsync(fh.fileno())
+        else:
+            original = deepcopy(meta.get("original"))
+            if meta.get("shape") == "list":
+                payload: Any = rows
+            else:
+                payload = original if isinstance(original, dict) else {}
+                payload["assets"] = rows
+            with temp.open("w", encoding="utf-8") as fh:
+                fh.write(json.dumps(payload, indent=2, ensure_ascii=False) + "\n")
+                fh.flush()
+                os.fsync(fh.fileno())
+        os.replace(temp, path)
+    finally:
+        if temp.exists():
+            temp.unlink()
+
+
+def _is_legacy_placeholder(row: dict[str, str]) -> bool:
+    uai = row.get("Universal Asset Identifier", "").strip().upper()
+    path = norm_path(row.get("Repository Path"))
+    title = norm_text(row.get("Asset Title") or row.get("Asset Name"))
+    notes = norm_text(row.get("Notes"))
+    explicit_placeholder = uai in PLACEHOLDER_UAI_VALUES or "NO NEW UAI" in uai
+    descriptive_placeholder = (
+        not path and not is_valid_uai(uai) and title.startswith("build ") and
+        ("no permanent uai" in notes or uai == "" or explicit_placeholder)
+    )
+    return not path and (explicit_placeholder or descriptive_placeholder)
+
+
+def sanitise_legacy_rows(rows: list[dict[str, str]]) -> tuple[list[dict[str, str]], list[dict[str, Any]], list[dict[str, Any]]]:
+    cleaned: list[dict[str, str]] = []
+    changes: list[dict[str, Any]] = []
+    conflicts: list[dict[str, Any]] = []
+    for index, row in enumerate(rows):
+        uai = row.get("Universal Asset Identifier", "").strip()
+        path = norm_path(row.get("Repository Path"))
+        if _is_legacy_placeholder(row):
+            changes.append({
+                "action": "REMOVE_LEGACY_PLACEHOLDER",
+                "row": index,
+                "legacy_uai": uai,
+                "title": row.get("Asset Title") or row.get("Asset Name", ""),
+            })
+            continue
+        if uai and not is_valid_uai(uai):
+            if path:
+                row = dict(row)
+                row["Universal Asset Identifier"] = ""
+                changes.append({"action": "CLEAR_INVALID_LEGACY_UAI", "row": index, "legacy_uai": uai, "path": path})
+            else:
+                conflicts.append({"code": "INVALID_LEGACY_UAI_WITHOUT_PATH", "row": index, "value": uai})
+        cleaned.append(row)
+    return cleaned, changes, conflicts
 
 
 def _assert_unique(rows: list[dict[str, str]]) -> list[dict[str, str]]:
@@ -181,7 +269,9 @@ def _assert_unique(rows: list[dict[str, str]]) -> list[dict[str, str]]:
         uai = row.get("Universal Asset Identifier", "").strip()
         path = norm_path(row.get("Repository Path"))
         if uai:
-            if uai in by_id:
+            if not is_valid_uai(uai):
+                conflicts.append({"code": "INVALID_UAI", "value": uai, "rows": str(idx)})
+            elif uai in by_id:
                 conflicts.append({"code": "DUPLICATE_UAI", "value": uai, "rows": f"{by_id[uai]},{idx}"})
             by_id[uai] = idx
         if path:
@@ -212,10 +302,37 @@ def infer_system(path: str) -> str:
     return SYSTEM_ROOTS.get(root, "SYS")
 
 
+def _serialise(value: Any, existing: str) -> str:
+    if value in (None, [], {}, ""):
+        return existing
+    if isinstance(value, str):
+        return value
+    return json.dumps(value, ensure_ascii=False, sort_keys=True)
+
+
+def _merge_list_history(existing: str, values: Any) -> str:
+    current = [x.strip() for x in re.split(r"[|,;]", existing or "") if x.strip()]
+    if isinstance(values, str):
+        incoming = [x.strip() for x in re.split(r"[|,;]", values) if x.strip()]
+    else:
+        incoming = [str(x).strip() for x in (values or []) if str(x).strip()]
+    merged: list[str] = []
+    for item in current + incoming:
+        if item not in merged:
+            merged.append(item)
+    return " | ".join(merged)
+
+
+def _append_history(existing: str, item: str) -> str:
+    existing = (existing or "").strip()
+    return f"{existing} | {item}" if existing else item
+
+
 def plan_reconciliation(rows: list[dict[str, str]], formal_assets: list[dict[str, Any]], build_number: str) -> dict[str, Any]:
-    working = deepcopy(rows)
-    conflicts = _assert_unique(working)
-    changes: list[dict[str, Any]] = []
+    original_count = len(rows)
+    working, legacy_changes, sanitise_conflicts = sanitise_legacy_rows(deepcopy(rows))
+    conflicts = list(sanitise_conflicts) + _assert_unique(working)
+    changes: list[dict[str, Any]] = list(legacy_changes)
     maxima = _next_numbers(working)
     now = datetime.now(timezone.utc).isoformat()
 
@@ -250,12 +367,13 @@ def plan_reconciliation(rows: list[dict[str, str]], formal_assets: list[dict[str
             idx = matches[0]
             row = working[idx]
             preserved = row.get("Universal Asset Identifier", "").strip()
-            if not preserved:
+            if not is_valid_uai(preserved):
                 preserved = _allocate(system, maxima)
             old_path = row.get("Repository Path", "")
             row.update({
                 "Universal Asset Identifier": preserved,
                 "Asset Title": title,
+                "Asset Name": title,
                 "Asset Type": asset.get("asset_type") or row.get("Asset Type") or "Knowledge Asset",
                 "Knowledge System": system,
                 "Repository Path": path,
@@ -280,11 +398,12 @@ def plan_reconciliation(rows: list[dict[str, str]], formal_assets: list[dict[str
             if not asset.get("allow_create_if_missing", False):
                 conflicts.append({"code": "ASSET_NOT_FOUND_CREATE_NOT_ALLOWED", "path": path, "title": title})
                 continue
-            uai = supplied_uai or _allocate(system, maxima)
+            uai = supplied_uai if is_valid_uai(supplied_uai) else _allocate(system, maxima)
             new_row = {field: "" for field in CANONICAL_FIELDS}
             new_row.update({
                 "Universal Asset Identifier": uai,
                 "Asset Title": title,
+                "Asset Name": title,
                 "Asset Type": asset.get("asset_type") or "Knowledge Asset",
                 "Knowledge System": system,
                 "Repository Path": path,
@@ -311,14 +430,21 @@ def plan_reconciliation(rows: list[dict[str, str]], formal_assets: list[dict[str
             changes.append({"action": "CREATE", "uai": uai, "path": path})
 
     conflicts.extend(_assert_unique(working))
+    for row_index, row in enumerate(working):
+        if not is_valid_uai(row.get("Universal Asset Identifier")):
+            conflicts.append({"code": "ACTIVE_ROW_WITHOUT_VALID_UAI", "row": row_index, "title": row.get("Asset Title", "")})
+        if not norm_path(row.get("Repository Path")):
+            conflicts.append({"code": "ACTIVE_ROW_WITHOUT_REPOSITORY_PATH", "row": row_index, "uai": row.get("Universal Asset Identifier", "")})
     unique_conflicts = []
     seen = set()
-    for c in conflicts:
-        key = json.dumps(c, sort_keys=True)
+    for conflict in conflicts:
+        key = json.dumps(conflict, sort_keys=True)
         if key not in seen:
-            unique_conflicts.append(c); seen.add(key)
+            unique_conflicts.append(conflict)
+            seen.add(key)
     summary = {
-        "existing_assets": len(rows),
+        "original_register_rows": original_count,
+        "legacy_placeholders_removed": sum(1 for x in changes if x["action"] == "REMOVE_LEGACY_PLACEHOLDER"),
         "formal_assets_in_manifest": len(formal_assets),
         "creates": sum(1 for x in changes if x["action"] == "CREATE"),
         "updates": sum(1 for x in changes if x["action"] == "UPDATE"),
@@ -328,38 +454,12 @@ def plan_reconciliation(rows: list[dict[str, str]], formal_assets: list[dict[str
     return {"valid": not unique_conflicts, "summary": summary, "changes": changes, "conflicts": unique_conflicts, "rows": working}
 
 
-def _serialise(value: Any, existing: str) -> str:
-    if value in (None, [], {}, ""):
-        return existing
-    if isinstance(value, str):
-        return value
-    return json.dumps(value, ensure_ascii=False, sort_keys=True)
-
-
-
-def _merge_list_history(existing: str, values: Any) -> str:
-    current = [x.strip() for x in re.split(r"[|,;]", existing or "") if x.strip()]
-    if isinstance(values, str):
-        incoming = [x.strip() for x in re.split(r"[|,;]", values) if x.strip()]
-    else:
-        incoming = [str(x).strip() for x in (values or []) if str(x).strip()]
-    merged: list[str] = []
-    for item in current + incoming:
-        if item not in merged:
-            merged.append(item)
-    return " | ".join(merged)
-
-def _append_history(existing: str, item: str) -> str:
-    existing = (existing or "").strip()
-    return f"{existing} | {item}" if existing else item
-
-
 def reconcile(repo: Path, manifest_path: Path, explicit_register: Path | None = None, apply: bool = False, report_path: Path | None = None) -> dict[str, Any]:
-    register = resolve_register(repo, explicit_register)
+    register = resolve_register(repo, explicit_register or CANONICAL_REGISTER_RELATIVE_PATH)
     rows, meta = load_register(register)
     manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
     result = plan_reconciliation(rows, manifest.get("formal_assets", []), manifest["build_number"])
-    result["register_path"] = str(register.relative_to(repo))
+    result["register_path"] = str(register.relative_to(repo)).replace("\\", "/")
     if apply and result["valid"]:
         _write_register(register, result.pop("rows"), meta)
         result["applied"] = True
