@@ -1,0 +1,20 @@
+{
+  "build_number": "0038",
+  "import_mode": "TRANSACTIONAL",
+  "preflight_entry_point": "13_Project_Genesis/Import/transactional_build_import.py",
+  "dry_run_arguments": [
+    "<zip_path>",
+    "<repository_path>",
+    "--report",
+    "Documentation/Build_Records/0038/DRY_RUN_REPORT.json"
+  ],
+  "apply_arguments": [
+    "<zip_path>",
+    "<repository_path>",
+    "--apply",
+    "--report",
+    "Documentation/Build_Records/0038/IMPORT_REPORT.json"
+  ],
+  "requires_unique_master_asset_register": true,
+  "block_commit_on_failure": true
+}

@@ -1,0 +1,2155 @@
+{
+  "build_number": "0038",
+  "build_id": "CERT-BUILD-0038",
+  "manifest_version": "1.0.0",
+  "generated_at": "2026-07-19T11:30:05.741046+00:00",
+  "purpose": "Restore Builds 0035E-0036 and reconcile formal assets with the existing canonical Master Asset Register.",
+  "file_classifications": [
+    {
+      "path": "00_Governance/CERTIAURA_LOCKED_BUILD_CONTINUITY_AND_CHECKPOINT.md",
+      "classification": "FORMAL_ASSET"
+    },
+    {
+      "path": "05_Monitoring/Registers/CUSTOMER_COMMUNICATION_REGISTER.csv",
+      "classification": "SUPPORTING_FILE"
+    },
+    {
+      "path": "05_Monitoring/Registers/REGULATORY_REPORTING_REGISTER.csv",
+      "classification": "SUPPORTING_FILE"
+    },
+    {
+      "path": "05_Monitoring/Registers/SIGNAL_AGGREGATION_REGISTER.csv",
+      "classification": "SUPPORTING_FILE"
+    },
+    {
+      "path": "05_Monitoring/Registers/SIGNAL_THRESHOLD_MATRIX.csv",
+      "classification": "SUPPORTING_FILE"
+    },
+    {
+      "path": "05_Monitoring/Registers/SURVEILLANCE_ACTION_REGISTER.csv",
+      "classification": "SUPPORTING_FILE"
+    },
+    {
+      "path": "05_Monitoring/Registers/SURVEILLANCE_CASE_REGISTER.csv",
+      "classification": "SUPPORTING_FILE"
+    },
+    {
+      "path": "05_Monitoring/Registers/SURVEILLANCE_SEVERITY_MATRIX.csv",
+      "classification": "SUPPORTING_FILE"
+    },
+    {
+      "path": "05_Monitoring/Schemas/reporting_assessment.schema.json",
+      "classification": "SCHEMA"
+    },
+    {
+      "path": "05_Monitoring/Schemas/surveillance_case.schema.json",
+      "classification": "SCHEMA"
+    },
+    {
+      "path": "05_Monitoring/Standards/POST_MARKET_SURVEILLANCE_STANDARD.md",
+      "classification": "FORMAL_ASSET"
+    },
+    {
+      "path": "05_Monitoring/Standards/REGULATORY_REPORTING_ASSESSMENT_STANDARD.md",
+      "classification": "FORMAL_ASSET"
+    },
+    {
+      "path": "05_Monitoring/Templates/CASE_CLOSURE_TEMPLATE.md",
+      "classification": "TEMPLATE"
+    },
+    {
+      "path": "05_Monitoring/Templates/REGULATORY_REPORTING_ASSESSMENT_TEMPLATE.md",
+      "classification": "TEMPLATE"
+    },
+    {
+      "path": "05_Monitoring/Templates/surveillance_case.template.json",
+      "classification": "TEMPLATE"
+    },
+    {
+      "path": "05_Monitoring/Templates/SURVEILLANCE_TRIAGE_TEMPLATE.md",
+      "classification": "TEMPLATE"
+    },
+    {
+      "path": "06_Evidence/Registers/EVIDENCE_REFRESH_REGISTER.csv",
+      "classification": "SUPPORTING_FILE"
+    },
+    {
+      "path": "06_Evidence/Registers/SUPPLIER_EVIDENCE_EXPIRY_REGISTER.csv",
+      "classification": "SUPPORTING_FILE"
+    },
+    {
+      "path": "08_Product_Passports/Examples/Input/alert_portfolio.example.json",
+      "classification": "EXAMPLE"
+    },
+    {
+      "path": "08_Product_Passports/Examples/Input/assurance_trigger.example.json",
+      "classification": "EXAMPLE"
+    },
+    {
+      "path": "08_Product_Passports/Examples/Input/critical_trigger_passport.example.json",
+      "classification": "EXAMPLE"
+    },
+    {
+      "path": "08_Product_Passports/Examples/Input/current_passport.example.json",
+      "classification": "EXAMPLE"
+    },
+    {
+      "path": "08_Product_Passports/Examples/Input/expired_passport.example.json",
+      "classification": "EXAMPLE"
+    },
+    {
+      "path": "08_Product_Passports/Examples/Input/expiring_passport.example.json",
+      "classification": "EXAMPLE"
+    },
+    {
+      "path": "08_Product_Passports/Examples/Input/refreshed_evidence.example.json",
+      "classification": "EXAMPLE"
+    },
+    {
+      "path": "08_Product_Passports/Examples/Input/source_alert.example.json",
+      "classification": "EXAMPLE"
+    },
+    {
+      "path": "08_Product_Passports/Examples/Input/supplier_history.example.json",
+      "classification": "EXAMPLE"
+    },
+    {
+      "path": "08_Product_Passports/Examples/Input/supplier_onboarding_submission.example.json",
+      "classification": "EXAMPLE"
+    },
+    {
+      "path": "08_Product_Passports/Examples/invalid_active_listing.example.json",
+      "classification": "EXAMPLE"
+    },
+    {
+      "path": "08_Product_Passports/Examples/invalid_verified_review.example.json",
+      "classification": "EXAMPLE"
+    },
+    {
+      "path": "08_Product_Passports/Examples/Output/invalid_auto_qualified_supplier.example.json",
+      "classification": "EXAMPLE"
+    },
+    {
+      "path": "08_Product_Passports/Examples/Output/invalid_auto_reinstatement.example.json",
+      "classification": "EXAMPLE"
+    },
+    {
+      "path": "08_Product_Passports/Examples/Output/invalid_auto_reinstatement_run.example.json",
+      "classification": "EXAMPLE"
+    },
+    {
+      "path": "08_Product_Passports/Examples/Output/valid_alert_run.example.json",
+      "classification": "EXAMPLE"
+    },
+    {
+      "path": "08_Product_Passports/Examples/Output/valid_conditional_supplier.example.json",
+      "classification": "EXAMPLE"
+    },
+    {
+      "path": "08_Product_Passports/Examples/Output/valid_no_action_run.example.json",
+      "classification": "EXAMPLE"
+    },
+    {
+      "path": "08_Product_Passports/Examples/Output/valid_open_remediation.example.json",
+      "classification": "EXAMPLE"
+    },
+    {
+      "path": "08_Product_Passports/Examples/Output/valid_qualified_supplier.example.json",
+      "classification": "EXAMPLE"
+    },
+    {
+      "path": "08_Product_Passports/Examples/Output/valid_reinstated_case.example.json",
+      "classification": "EXAMPLE"
+    },
+    {
+      "path": "08_Product_Passports/Examples/Output/valid_supplier_escalation.example.json",
+      "classification": "EXAMPLE"
+    },
+    {
+      "path": "08_Product_Passports/Examples/Output/valid_suspended_supplier.example.json",
+      "classification": "EXAMPLE"
+    },
+    {
+      "path": "08_Product_Passports/Examples/valid_conditional_review.example.json",
+      "classification": "EXAMPLE"
+    },
+    {
+      "path": "08_Product_Passports/Examples/valid_published.example.json",
+      "classification": "EXAMPLE"
+    },
+    {
+      "path": "08_Product_Passports/Examples/valid_suspended.example.json",
+      "classification": "EXAMPLE"
+    },
+    {
+      "path": "08_Product_Passports/Examples/valid_verified_review.example.json",
+      "classification": "EXAMPLE"
+    },
+    {
+      "path": "08_Product_Passports/Registers/ALERT_CLOSURE_REGISTER.csv",
+      "classification": "SUPPORTING_FILE"
+    },
+    {
+      "path": "08_Product_Passports/Registers/ALERT_QUEUE_REGISTER.csv",
+      "classification": "SUPPORTING_FILE"
+    },
+    {
+      "path": "08_Product_Passports/Registers/ALERT_ROUTING_MATRIX.csv",
+      "classification": "SUPPORTING_FILE"
+    },
+    {
+      "path": "08_Product_Passports/Registers/APPROVED_SUPPLIER_LIST.csv",
+      "classification": "SUPPORTING_FILE"
+    },
+    {
+      "path": "08_Product_Passports/Registers/ASSURANCE_EVENT_REGISTER.csv",
+      "classification": "SUPPORTING_FILE"
+    },
+    {
+      "path": "08_Product_Passports/Registers/AUDIT_CADENCE_MATRIX.csv",
+      "classification": "SUPPORTING_FILE"
+    },
+    {
+      "path": "08_Product_Passports/Registers/AUDIT_SCHEDULE_REGISTER.csv",
+      "classification": "SUPPORTING_FILE"
+    },
+    {
+      "path": "08_Product_Passports/Registers/AUTOMATION_ACTION_MATRIX.csv",
+      "classification": "SUPPORTING_FILE"
+    },
+    {
+      "path": "08_Product_Passports/Registers/CLAIM_REVIEW_REGISTER.csv",
+      "classification": "SUPPORTING_FILE"
+    },
+    {
+      "path": "08_Product_Passports/Registers/CONTINUOUS_ASSURANCE_TRIGGER_MATRIX.csv",
+      "classification": "SUPPORTING_FILE"
+    },
+    {
+      "path": "08_Product_Passports/Registers/CORRECTIVE_ACTION_REGISTER.csv",
+      "classification": "SUPPORTING_FILE"
+    },
+    {
+      "path": "08_Product_Passports/Registers/EXPIRY_THRESHOLD_MATRIX.csv",
+      "classification": "SUPPORTING_FILE"
+    },
+    {
+      "path": "08_Product_Passports/Registers/LIFECYCLE_EVENT_REGISTER.csv",
+      "classification": "SUPPORTING_FILE"
+    },
+    {
+      "path": "08_Product_Passports/Registers/LIFECYCLE_TRIGGER_MATRIX.csv",
+      "classification": "SUPPORTING_FILE"
+    },
+    {
+      "path": "08_Product_Passports/Registers/MONITORING_RUN_REGISTER.csv",
+      "classification": "SUPPORTING_FILE"
+    },
+    {
+      "path": "08_Product_Passports/Registers/MONITORING_SCHEDULE_REGISTER.csv",
+      "classification": "SUPPORTING_FILE"
+    },
+    {
+      "path": "08_Product_Passports/Registers/ORDER_PRODUCT_PASSPORT_GATE_REGISTER.csv",
+      "classification": "SUPPORTING_FILE"
+    },
+    {
+      "path": "08_Product_Passports/Registers/PASSPORT_PUBLICATION_REGISTER.csv",
+      "classification": "SUPPORTING_FILE"
+    },
+    {
+      "path": "08_Product_Passports/Registers/PASSPORT_STATE_MATRIX.csv",
+      "classification": "SUPPORTING_FILE"
+    },
+    {
+      "path": "08_Product_Passports/Registers/PERFORMANCE_SCORE_MATRIX.csv",
+      "classification": "SUPPORTING_FILE"
+    },
+    {
+      "path": "08_Product_Passports/Registers/PUBLIC_FIELD_MATRIX.csv",
+      "classification": "SUPPORTING_FILE"
+    },
+    {
+      "path": "08_Product_Passports/Registers/QUALIFICATION_DECISION_REGISTER.csv",
+      "classification": "SUPPORTING_FILE"
+    },
+    {
+      "path": "08_Product_Passports/Registers/QUALIFICATION_REQUIREMENT_MATRIX.csv",
+      "classification": "SUPPORTING_FILE"
+    },
+    {
+      "path": "08_Product_Passports/Registers/REINSTATEMENT_REGISTER.csv",
+      "classification": "SUPPORTING_FILE"
+    },
+    {
+      "path": "08_Product_Passports/Registers/REMEDIATION_CASE_REGISTER.csv",
+      "classification": "SUPPORTING_FILE"
+    },
+    {
+      "path": "08_Product_Passports/Registers/REMEDIATION_SLA_MATRIX.csv",
+      "classification": "SUPPORTING_FILE"
+    },
+    {
+      "path": "08_Product_Passports/Registers/REPEAT_FAILURE_MATRIX.csv",
+      "classification": "SUPPORTING_FILE"
+    },
+    {
+      "path": "08_Product_Passports/Registers/REVIEW_DECISION_REGISTER.csv",
+      "classification": "SUPPORTING_FILE"
+    },
+    {
+      "path": "08_Product_Passports/Registers/REVIEW_STATE_TRANSITION_MATRIX.csv",
+      "classification": "SUPPORTING_FILE"
+    },
+    {
+      "path": "08_Product_Passports/Registers/RISK_AND_ESCALATION_MATRIX.csv",
+      "classification": "SUPPORTING_FILE"
+    },
+    {
+      "path": "08_Product_Passports/Registers/RISK_TIER_MATRIX.csv",
+      "classification": "SUPPORTING_FILE"
+    },
+    {
+      "path": "08_Product_Passports/Registers/SUPPLIER_ESCALATION_MATRIX.csv",
+      "classification": "SUPPORTING_FILE"
+    },
+    {
+      "path": "08_Product_Passports/Registers/SUPPLIER_MASTER_REGISTER.csv",
+      "classification": "SUPPORTING_FILE"
+    },
+    {
+      "path": "08_Product_Passports/Registers/SUPPLIER_PERFORMANCE_REGISTER.csv",
+      "classification": "SUPPORTING_FILE"
+    },
+    {
+      "path": "08_Product_Passports/Registers/SUPPLIER_RESTRICTION_REGISTER.csv",
+      "classification": "SUPPORTING_FILE"
+    },
+    {
+      "path": "08_Product_Passports/Schemas/passport_lifecycle.schema.json",
+      "classification": "SCHEMA"
+    },
+    {
+      "path": "08_Product_Passports/Schemas/passport_monitoring_run.schema.json",
+      "classification": "SCHEMA"
+    },
+    {
+      "path": "08_Product_Passports/Schemas/passport_remediation_case.schema.json",
+      "classification": "SCHEMA"
+    },
+    {
+      "path": "08_Product_Passports/Schemas/product_passport_review_decision.schema.json",
+      "classification": "SCHEMA"
+    },
+    {
+      "path": "08_Product_Passports/Schemas/supplier_assurance_profile.schema.json",
+      "classification": "SCHEMA"
+    },
+    {
+      "path": "08_Product_Passports/Standards/CERTIAURA_SUPPLIER_EVIDENCE_REVIEW_VERIFICATION_AND_PRODUCT_PASSPORT_APPROVAL_WORKFLOW.md",
+      "classification": "FORMAL_ASSET"
+    },
+    {
+      "path": "08_Product_Passports/Standards/ORDER_PRODUCT_PASSPORT_GATE.md",
+      "classification": "FORMAL_ASSET"
+    },
+    {
+      "path": "08_Product_Passports/Standards/PASSPORT_LIFECYCLE_MARKETPLACE_STANDARD.md",
+      "classification": "FORMAL_ASSET"
+    },
+    {
+      "path": "08_Product_Passports/Standards/PASSPORT_MONITORING_ALERT_AUTOMATION_STANDARD.md",
+      "classification": "FORMAL_ASSET"
+    },
+    {
+      "path": "08_Product_Passports/Standards/PASSPORT_REMEDIATION_REINSTATEMENT_SUPPLIER_STANDARD.md",
+      "classification": "FORMAL_ASSET"
+    },
+    {
+      "path": "08_Product_Passports/Standards/SUPPLIER_QUALIFICATION_ASSURANCE_STANDARD.md",
+      "classification": "FORMAL_ASSET"
+    },
+    {
+      "path": "08_Product_Passports/Templates/ALERT_CLOSURE_TEMPLATE.md",
+      "classification": "TEMPLATE"
+    },
+    {
+      "path": "08_Product_Passports/Templates/ALERT_NOTIFICATION_TEMPLATE.md",
+      "classification": "TEMPLATE"
+    },
+    {
+      "path": "08_Product_Passports/Templates/CONTINUOUS_ASSURANCE_REVIEW_TEMPLATE.md",
+      "classification": "TEMPLATE"
+    },
+    {
+      "path": "08_Product_Passports/Templates/CORRECTIVE_ACTION_PLAN_TEMPLATE.md",
+      "classification": "TEMPLATE"
+    },
+    {
+      "path": "08_Product_Passports/Templates/EVIDENCE_REFRESH_CHECKLIST.md",
+      "classification": "TEMPLATE"
+    },
+    {
+      "path": "08_Product_Passports/Templates/LIFECYCLE_EVENT_FORM.md",
+      "classification": "TEMPLATE"
+    },
+    {
+      "path": "08_Product_Passports/Templates/MONITORING_RUNBOOK.md",
+      "classification": "TEMPLATE"
+    },
+    {
+      "path": "08_Product_Passports/Templates/passport_lifecycle.template.json",
+      "classification": "TEMPLATE"
+    },
+    {
+      "path": "08_Product_Passports/Templates/passport_monitoring_run.template.json",
+      "classification": "TEMPLATE"
+    },
+    {
+      "path": "08_Product_Passports/Templates/passport_remediation_case.template.json",
+      "classification": "TEMPLATE"
+    },
+    {
+      "path": "08_Product_Passports/Templates/product_passport_review_decision.template.json",
+      "classification": "TEMPLATE"
+    },
+    {
+      "path": "08_Product_Passports/Templates/PRODUCT_PASSPORT_REVIEWER_CHECKLIST.md",
+      "classification": "TEMPLATE"
+    },
+    {
+      "path": "08_Product_Passports/Templates/PUBLICATION_CHECKLIST.md",
+      "classification": "TEMPLATE"
+    },
+    {
+      "path": "08_Product_Passports/Templates/QUALIFICATION_DECISION_TEMPLATE.md",
+      "classification": "TEMPLATE"
+    },
+    {
+      "path": "08_Product_Passports/Templates/REINSTATEMENT_DECISION_TEMPLATE.md",
+      "classification": "TEMPLATE"
+    },
+    {
+      "path": "08_Product_Passports/Templates/RESTRICTION_SUSPENSION_NOTICE_TEMPLATE.md",
+      "classification": "TEMPLATE"
+    },
+    {
+      "path": "08_Product_Passports/Templates/supplier_assurance_profile.template.json",
+      "classification": "TEMPLATE"
+    },
+    {
+      "path": "08_Product_Passports/Templates/SUPPLIER_AUDIT_PLAN_TEMPLATE.md",
+      "classification": "TEMPLATE"
+    },
+    {
+      "path": "08_Product_Passports/Templates/SUPPLIER_AUDIT_REPORT_TEMPLATE.md",
+      "classification": "TEMPLATE"
+    },
+    {
+      "path": "08_Product_Passports/Templates/SUPPLIER_DECLARATION_TEMPLATE.md",
+      "classification": "TEMPLATE"
+    },
+    {
+      "path": "08_Product_Passports/Templates/SUPPLIER_DUE_DILIGENCE_QUESTIONNAIRE.md",
+      "classification": "TEMPLATE"
+    },
+    {
+      "path": "08_Product_Passports/Templates/SUPPLIER_IMPROVEMENT_PLAN_TEMPLATE.md",
+      "classification": "TEMPLATE"
+    },
+    {
+      "path": "09_Cost_Intelligence/Examples/invalid_settlement_open_incident.example.json",
+      "classification": "EXAMPLE"
+    },
+    {
+      "path": "09_Cost_Intelligence/Examples/valid_settlement.example.json",
+      "classification": "EXAMPLE"
+    },
+    {
+      "path": "09_Cost_Intelligence/Registers/COMMERCIAL_TERMS_REGISTER.csv",
+      "classification": "SUPPORTING_FILE"
+    },
+    {
+      "path": "09_Cost_Intelligence/Registers/PAYMENT_HOLD_REGISTER.csv",
+      "classification": "SUPPORTING_FILE"
+    },
+    {
+      "path": "09_Cost_Intelligence/Registers/PAYMENT_HOLD_TRIGGER_MATRIX.csv",
+      "classification": "SUPPORTING_FILE"
+    },
+    {
+      "path": "09_Cost_Intelligence/Registers/SETTLEMENT_REGISTER.csv",
+      "classification": "SUPPORTING_FILE"
+    },
+    {
+      "path": "09_Cost_Intelligence/Registers/SUPPLIER_TOTAL_COST_REGISTER.csv",
+      "classification": "SUPPORTING_FILE"
+    },
+    {
+      "path": "09_Cost_Intelligence/Schemas/settlement.schema.json",
+      "classification": "SCHEMA"
+    },
+    {
+      "path": "09_Cost_Intelligence/Schemas/supplier_total_cost.schema.json",
+      "classification": "SCHEMA"
+    },
+    {
+      "path": "09_Cost_Intelligence/Standards/PAYMENT_HOLD_SETTLEMENT_STANDARD.md",
+      "classification": "FORMAL_ASSET"
+    },
+    {
+      "path": "09_Cost_Intelligence/Standards/SUPPLIER_TOTAL_COST_MODEL.md",
+      "classification": "FORMAL_ASSET"
+    },
+    {
+      "path": "09_Cost_Intelligence/Templates/PAYMENT_HOLD_TEMPLATE.md",
+      "classification": "TEMPLATE"
+    },
+    {
+      "path": "09_Cost_Intelligence/Templates/settlement.template.json",
+      "classification": "TEMPLATE"
+    },
+    {
+      "path": "09_Cost_Intelligence/Templates/SETTLEMENT_REVIEW_TEMPLATE.md",
+      "classification": "TEMPLATE"
+    },
+    {
+      "path": "09_Cost_Intelligence/Templates/SUPPLIER_COMMERCIAL_REVIEW_TEMPLATE.md",
+      "classification": "TEMPLATE"
+    },
+    {
+      "path": "10_Marketplace/Examples/invalid_automatic_eligibility.example.json",
+      "classification": "EXAMPLE"
+    },
+    {
+      "path": "10_Marketplace/Examples/invalid_automatic_order_release.example.json",
+      "classification": "EXAMPLE"
+    },
+    {
+      "path": "10_Marketplace/Examples/invalid_automatic_sole_source_award.example.json",
+      "classification": "EXAMPLE"
+    },
+    {
+      "path": "10_Marketplace/Examples/invalid_privacy_auto_close.example.json",
+      "classification": "EXAMPLE"
+    },
+    {
+      "path": "10_Marketplace/Examples/invalid_prohibited_jurisdiction.example.json",
+      "classification": "EXAMPLE"
+    },
+    {
+      "path": "10_Marketplace/Examples/invalid_recall_without_traceability.example.json",
+      "classification": "EXAMPLE"
+    },
+    {
+      "path": "10_Marketplace/Examples/invalid_signal_auto_close.example.json",
+      "classification": "EXAMPLE"
+    },
+    {
+      "path": "10_Marketplace/Examples/invalid_uncontrolled_portfolio.example.json",
+      "classification": "EXAMPLE"
+    },
+    {
+      "path": "10_Marketplace/Examples/valid_concentrated_mitigated_portfolio.example.json",
+      "classification": "EXAMPLE"
+    },
+    {
+      "path": "10_Marketplace/Examples/valid_contract_order.example.json",
+      "classification": "EXAMPLE"
+    },
+    {
+      "path": "10_Marketplace/Examples/valid_critical_recall.example.json",
+      "classification": "EXAMPLE"
+    },
+    {
+      "path": "10_Marketplace/Examples/valid_critical_signal.example.json",
+      "classification": "EXAMPLE"
+    },
+    {
+      "path": "10_Marketplace/Examples/valid_diversified_portfolio.example.json",
+      "classification": "EXAMPLE"
+    },
+    {
+      "path": "10_Marketplace/Examples/valid_fulfilment_excursion.example.json",
+      "classification": "EXAMPLE"
+    },
+    {
+      "path": "10_Marketplace/Examples/valid_individual_eligibility.example.json",
+      "classification": "EXAMPLE"
+    },
+    {
+      "path": "10_Marketplace/Examples/valid_organisation_conditional.example.json",
+      "classification": "EXAMPLE"
+    },
+    {
+      "path": "10_Marketplace/Examples/valid_privacy_request.example.json",
+      "classification": "EXAMPLE"
+    },
+    {
+      "path": "10_Marketplace/Examples/valid_sourcing_decision.example.json",
+      "classification": "EXAMPLE"
+    },
+    {
+      "path": "10_Marketplace/Examples/valid_trend_signal.example.json",
+      "classification": "EXAMPLE"
+    },
+    {
+      "path": "10_Marketplace/Registers/ACCESS_CONTROL_REGISTER.csv",
+      "classification": "SUPPORTING_FILE"
+    },
+    {
+      "path": "10_Marketplace/Registers/ALTERNATIVE_SOURCE_REGISTER.csv",
+      "classification": "SUPPORTING_FILE"
+    },
+    {
+      "path": "10_Marketplace/Registers/APPROVED_PANEL_REGISTER.csv",
+      "classification": "SUPPORTING_FILE"
+    },
+    {
+      "path": "10_Marketplace/Registers/CAPA_REGISTER.csv",
+      "classification": "SUPPORTING_FILE"
+    },
+    {
+      "path": "10_Marketplace/Registers/COMPLAINT_REGISTER.csv",
+      "classification": "SUPPORTING_FILE"
+    },
+    {
+      "path": "10_Marketplace/Registers/CONSENT_PRIVACY_REGISTER.csv",
+      "classification": "SUPPORTING_FILE"
+    },
+    {
+      "path": "10_Marketplace/Registers/CUSTOMER_ELIGIBILITY_REGISTER.csv",
+      "classification": "SUPPORTING_FILE"
+    },
+    {
+      "path": "10_Marketplace/Registers/CUSTOMER_NOTIFICATION_REGISTER.csv",
+      "classification": "SUPPORTING_FILE"
+    },
+    {
+      "path": "10_Marketplace/Registers/CUSTOMER_RISK_FLAG_REGISTER.csv",
+      "classification": "SUPPORTING_FILE"
+    },
+    {
+      "path": "10_Marketplace/Registers/CUSTOMER_RISK_TIER_MATRIX.csv",
+      "classification": "SUPPORTING_FILE"
+    },
+    {
+      "path": "10_Marketplace/Registers/GOODS_RECEIPT_REGISTER.csv",
+      "classification": "SUPPORTING_FILE"
+    },
+    {
+      "path": "10_Marketplace/Registers/INCIDENT_REGISTER.csv",
+      "classification": "SUPPORTING_FILE"
+    },
+    {
+      "path": "10_Marketplace/Registers/INCIDENT_SEVERITY_MATRIX.csv",
+      "classification": "SUPPORTING_FILE"
+    },
+    {
+      "path": "10_Marketplace/Registers/JURISDICTION_ROUTE_MATRIX.csv",
+      "classification": "SUPPORTING_FILE"
+    },
+    {
+      "path": "10_Marketplace/Registers/MARKETPLACE_COMMERCIAL_ELIGIBILITY_REGISTER.csv",
+      "classification": "SUPPORTING_FILE"
+    },
+    {
+      "path": "10_Marketplace/Registers/MARKETPLACE_CONTRACT_REGISTER.csv",
+      "classification": "SUPPORTING_FILE"
+    },
+    {
+      "path": "10_Marketplace/Registers/MARKETPLACE_ELIGIBILITY_REGISTER.csv",
+      "classification": "SUPPORTING_FILE"
+    },
+    {
+      "path": "10_Marketplace/Registers/MARKETPLACE_REINSTATEMENT_REGISTER.csv",
+      "classification": "SUPPORTING_FILE"
+    },
+    {
+      "path": "10_Marketplace/Registers/NON_CONFORMANCE_REGISTER.csv",
+      "classification": "SUPPORTING_FILE"
+    },
+    {
+      "path": "10_Marketplace/Registers/ORDER_ASSURANCE_REGISTER.csv",
+      "classification": "SUPPORTING_FILE"
+    },
+    {
+      "path": "10_Marketplace/Registers/ORDER_RELEASE_GATE_MATRIX.csv",
+      "classification": "SUPPORTING_FILE"
+    },
+    {
+      "path": "10_Marketplace/Registers/ORGANISATION_DUE_DILIGENCE_REGISTER.csv",
+      "classification": "SUPPORTING_FILE"
+    },
+    {
+      "path": "10_Marketplace/Registers/PORTFOLIO_RISK_THRESHOLDS.csv",
+      "classification": "SUPPORTING_FILE"
+    },
+    {
+      "path": "10_Marketplace/Registers/PRIVACY_RIGHTS_REQUEST_REGISTER.csv",
+      "classification": "SUPPORTING_FILE"
+    },
+    {
+      "path": "10_Marketplace/Registers/RESILIENCE_ACTION_REGISTER.csv",
+      "classification": "SUPPORTING_FILE"
+    },
+    {
+      "path": "10_Marketplace/Registers/RESPONSIBLE_USE_ACKNOWLEDGEMENT_REGISTER.csv",
+      "classification": "SUPPORTING_FILE"
+    },
+    {
+      "path": "10_Marketplace/Registers/SERVICE_LEVEL_PERFORMANCE_REGISTER.csv",
+      "classification": "SUPPORTING_FILE"
+    },
+    {
+      "path": "10_Marketplace/Registers/SERVICE_LEVEL_TRIGGER_MATRIX.csv",
+      "classification": "SUPPORTING_FILE"
+    },
+    {
+      "path": "10_Marketplace/Registers/SHIPMENT_REGISTER.csv",
+      "classification": "SUPPORTING_FILE"
+    },
+    {
+      "path": "10_Marketplace/Registers/SOURCING_CRITERIA_MATRIX.csv",
+      "classification": "SUPPORTING_FILE"
+    },
+    {
+      "path": "10_Marketplace/Registers/SOURCING_DECISION_REGISTER.csv",
+      "classification": "SUPPORTING_FILE"
+    },
+    {
+      "path": "10_Marketplace/Registers/SUPPLIER_CONCENTRATION_REGISTER.csv",
+      "classification": "SUPPORTING_FILE"
+    },
+    {
+      "path": "10_Marketplace/Registers/SUPPLIER_MARKETPLACE_ELIGIBILITY_REGISTER.csv",
+      "classification": "SUPPORTING_FILE"
+    },
+    {
+      "path": "10_Marketplace/Registers/SUPPLIER_PORTFOLIO_REGISTER.csv",
+      "classification": "SUPPORTING_FILE"
+    },
+    {
+      "path": "10_Marketplace/Registers/TEMPERATURE_EXCURSION_REGISTER.csv",
+      "classification": "SUPPORTING_FILE"
+    },
+    {
+      "path": "10_Marketplace/Registers/WITHDRAWAL_RECALL_REGISTER.csv",
+      "classification": "SUPPORTING_FILE"
+    },
+    {
+      "path": "10_Marketplace/Schemas/access_control.schema.json",
+      "classification": "SCHEMA"
+    },
+    {
+      "path": "10_Marketplace/Schemas/consent_privacy.schema.json",
+      "classification": "SCHEMA"
+    },
+    {
+      "path": "10_Marketplace/Schemas/customer_eligibility.schema.json",
+      "classification": "SCHEMA"
+    },
+    {
+      "path": "10_Marketplace/Schemas/fulfilment_receipt.schema.json",
+      "classification": "SCHEMA"
+    },
+    {
+      "path": "10_Marketplace/Schemas/incident_recall.schema.json",
+      "classification": "SCHEMA"
+    },
+    {
+      "path": "10_Marketplace/Schemas/marketplace_contract.schema.json",
+      "classification": "SCHEMA"
+    },
+    {
+      "path": "10_Marketplace/Schemas/order_assurance.schema.json",
+      "classification": "SCHEMA"
+    },
+    {
+      "path": "10_Marketplace/Schemas/privacy_request.schema.json",
+      "classification": "SCHEMA"
+    },
+    {
+      "path": "10_Marketplace/Schemas/sourcing_decision.schema.json",
+      "classification": "SCHEMA"
+    },
+    {
+      "path": "10_Marketplace/Schemas/supplier_portfolio_profile.schema.json",
+      "classification": "SCHEMA"
+    },
+    {
+      "path": "10_Marketplace/Standards/CONSENT_PRIVACY_ACCESS_STANDARD.md",
+      "classification": "FORMAL_ASSET"
+    },
+    {
+      "path": "10_Marketplace/Standards/CONTRACT_ORDER_RELEASE_STANDARD.md",
+      "classification": "FORMAL_ASSET"
+    },
+    {
+      "path": "10_Marketplace/Standards/CUSTOMER_ELIGIBILITY_JURISDICTION_STANDARD.md",
+      "classification": "FORMAL_ASSET"
+    },
+    {
+      "path": "10_Marketplace/Standards/FULFILMENT_RECEIPT_STANDARD.md",
+      "classification": "FORMAL_ASSET"
+    },
+    {
+      "path": "10_Marketplace/Standards/INCIDENT_WITHDRAWAL_RECALL_STANDARD.md",
+      "classification": "FORMAL_ASSET"
+    },
+    {
+      "path": "10_Marketplace/Standards/MARKETPLACE_ORDER_INCIDENT_RECALL_SETTLEMENT_STANDARD.md",
+      "classification": "FORMAL_ASSET"
+    },
+    {
+      "path": "10_Marketplace/Standards/RESPONSIBLE_USE_COMMUNICATION_STANDARD.md",
+      "classification": "FORMAL_ASSET"
+    },
+    {
+      "path": "10_Marketplace/Standards/SUPPLIER_PORTFOLIO_RESILIENCE_COMMERCIAL_STANDARD.md",
+      "classification": "FORMAL_ASSET"
+    },
+    {
+      "path": "10_Marketplace/Templates/ALTERNATIVE_SOURCE_PLAN_TEMPLATE.md",
+      "classification": "TEMPLATE"
+    },
+    {
+      "path": "10_Marketplace/Templates/APPROVED_PANEL_REVIEW_TEMPLATE.md",
+      "classification": "TEMPLATE"
+    },
+    {
+      "path": "10_Marketplace/Templates/COMPLAINT_INCIDENT_TEMPLATE.md",
+      "classification": "TEMPLATE"
+    },
+    {
+      "path": "10_Marketplace/Templates/customer_eligibility.template.json",
+      "classification": "TEMPLATE"
+    },
+    {
+      "path": "10_Marketplace/Templates/CUSTOMER_ELIGIBILITY_REVIEW_TEMPLATE.md",
+      "classification": "TEMPLATE"
+    },
+    {
+      "path": "10_Marketplace/Templates/FULFILMENT_EXCEPTION_TEMPLATE.md",
+      "classification": "TEMPLATE"
+    },
+    {
+      "path": "10_Marketplace/Templates/fulfilment_receipt.template.json",
+      "classification": "TEMPLATE"
+    },
+    {
+      "path": "10_Marketplace/Templates/GOODS_RECEIPT_TEMPLATE.md",
+      "classification": "TEMPLATE"
+    },
+    {
+      "path": "10_Marketplace/Templates/incident_recall.template.json",
+      "classification": "TEMPLATE"
+    },
+    {
+      "path": "10_Marketplace/Templates/MARKETPLACE_COMMERCIAL_ELIGIBILITY_TEMPLATE.md",
+      "classification": "TEMPLATE"
+    },
+    {
+      "path": "10_Marketplace/Templates/marketplace_contract.template.json",
+      "classification": "TEMPLATE"
+    },
+    {
+      "path": "10_Marketplace/Templates/MARKETPLACE_CONTRACT_REVIEW_TEMPLATE.md",
+      "classification": "TEMPLATE"
+    },
+    {
+      "path": "10_Marketplace/Templates/order_assurance.template.json",
+      "classification": "TEMPLATE"
+    },
+    {
+      "path": "10_Marketplace/Templates/ORDER_RELEASE_PACK_TEMPLATE.md",
+      "classification": "TEMPLATE"
+    },
+    {
+      "path": "10_Marketplace/Templates/privacy_request.template.json",
+      "classification": "TEMPLATE"
+    },
+    {
+      "path": "10_Marketplace/Templates/PRIVACY_REQUEST_REVIEW_TEMPLATE.md",
+      "classification": "TEMPLATE"
+    },
+    {
+      "path": "10_Marketplace/Templates/RECALL_ACTION_TEMPLATE.md",
+      "classification": "TEMPLATE"
+    },
+    {
+      "path": "10_Marketplace/Templates/RESPONSIBLE_USE_ACKNOWLEDGEMENT_TEMPLATE.md",
+      "classification": "TEMPLATE"
+    },
+    {
+      "path": "10_Marketplace/Templates/SERVICE_LEVEL_SCORECARD_TEMPLATE.md",
+      "classification": "TEMPLATE"
+    },
+    {
+      "path": "10_Marketplace/Templates/SOLE_SOURCE_EXCEPTION_TEMPLATE.md",
+      "classification": "TEMPLATE"
+    },
+    {
+      "path": "10_Marketplace/Templates/sourcing_decision.template.json",
+      "classification": "TEMPLATE"
+    },
+    {
+      "path": "10_Marketplace/Templates/SOURCING_DECISION_TEMPLATE.md",
+      "classification": "TEMPLATE"
+    },
+    {
+      "path": "10_Marketplace/Templates/supplier_portfolio_profile.template.json",
+      "classification": "TEMPLATE"
+    },
+    {
+      "path": "10_Marketplace/Templates/SUPPLIER_PORTFOLIO_REVIEW_TEMPLATE.md",
+      "classification": "TEMPLATE"
+    },
+    {
+      "path": "13_Project_Genesis/Automation/assess_remediation_case.py",
+      "classification": "SCRIPT"
+    },
+    {
+      "path": "13_Project_Genesis/Automation/assess_supplier_assurance.py",
+      "classification": "SCRIPT"
+    },
+    {
+      "path": "13_Project_Genesis/Automation/eligibility_gate.py",
+      "classification": "SCRIPT"
+    },
+    {
+      "path": "13_Project_Genesis/Automation/jurisdiction_access_monitor.py",
+      "classification": "SCRIPT"
+    },
+    {
+      "path": "13_Project_Genesis/Automation/monitor_fulfilment.py",
+      "classification": "SCRIPT"
+    },
+    {
+      "path": "13_Project_Genesis/Automation/monitor_service_levels.py",
+      "classification": "SCRIPT"
+    },
+    {
+      "path": "13_Project_Genesis/Automation/order_release_gate.py",
+      "classification": "SCRIPT"
+    },
+    {
+      "path": "13_Project_Genesis/Automation/portfolio_analytics.py",
+      "classification": "SCRIPT"
+    },
+    {
+      "path": "13_Project_Genesis/Automation/privacy_retention_monitor.py",
+      "classification": "SCRIPT"
+    },
+    {
+      "path": "13_Project_Genesis/Automation/rank_sourcing_options.py",
+      "classification": "SCRIPT"
+    },
+    {
+      "path": "13_Project_Genesis/Automation/reporting_deadline_monitor.py",
+      "classification": "SCRIPT"
+    },
+    {
+      "path": "13_Project_Genesis/Automation/run_passport_monitor.py",
+      "classification": "SCRIPT"
+    },
+    {
+      "path": "13_Project_Genesis/Automation/schedule_supplier_assurance.py",
+      "classification": "SCRIPT"
+    },
+    {
+      "path": "13_Project_Genesis/Automation/settlement_hold_engine.py",
+      "classification": "SCRIPT"
+    },
+    {
+      "path": "13_Project_Genesis/Automation/signal_aggregator.py",
+      "classification": "SCRIPT"
+    },
+    {
+      "path": "13_Project_Genesis/Automation/surveillance_escalation_engine.py",
+      "classification": "SCRIPT"
+    },
+    {
+      "path": "13_Project_Genesis/Automation/trace_recall.py",
+      "classification": "SCRIPT"
+    },
+    {
+      "path": "13_Project_Genesis/Dashboards/generate_eligibility_dashboard.py",
+      "classification": "SCRIPT"
+    },
+    {
+      "path": "13_Project_Genesis/Dashboards/generate_incident_dashboard.py",
+      "classification": "SCRIPT"
+    },
+    {
+      "path": "13_Project_Genesis/Dashboards/generate_operations_dashboard.py",
+      "classification": "SCRIPT"
+    },
+    {
+      "path": "13_Project_Genesis/Dashboards/generate_portfolio_dashboard.py",
+      "classification": "SCRIPT"
+    },
+    {
+      "path": "13_Project_Genesis/Dashboards/generate_privacy_dashboard.py",
+      "classification": "SCRIPT"
+    },
+    {
+      "path": "13_Project_Genesis/Dashboards/generate_reporting_dashboard.py",
+      "classification": "SCRIPT"
+    },
+    {
+      "path": "13_Project_Genesis/Dashboards/generate_settlement_dashboard.py",
+      "classification": "SCRIPT"
+    },
+    {
+      "path": "13_Project_Genesis/Dashboards/generate_supplier_assurance_dashboard.py",
+      "classification": "SCRIPT"
+    },
+    {
+      "path": "13_Project_Genesis/Dashboards/generate_supplier_dashboard.py",
+      "classification": "SCRIPT"
+    },
+    {
+      "path": "13_Project_Genesis/Dashboards/generate_supplier_scorecard.py",
+      "classification": "SCRIPT"
+    },
+    {
+      "path": "13_Project_Genesis/Dashboards/generate_surveillance_dashboard.py",
+      "classification": "SCRIPT"
+    },
+    {
+      "path": "13_Project_Genesis/Import/asset_register_reconciler.py",
+      "classification": "SCRIPT"
+    },
+    {
+      "path": "13_Project_Genesis/Import/build_pack_router.py",
+      "classification": "SCRIPT"
+    },
+    {
+      "path": "13_Project_Genesis/Import/transactional_build_import.py",
+      "classification": "SCRIPT"
+    },
+    {
+      "path": "13_Project_Genesis/Registers/AUDIT_EVENT_REGISTER.csv",
+      "classification": "SUPPORTING_FILE"
+    },
+    {
+      "path": "13_Project_Genesis/Schemas/asset_intent_manifest.schema.json",
+      "classification": "SCHEMA"
+    },
+    {
+      "path": "13_Project_Genesis/Schemas/asset_register_change_report.schema.json",
+      "classification": "SCHEMA"
+    },
+    {
+      "path": "13_Project_Genesis/Schemas/audit_event.schema.json",
+      "classification": "SCHEMA"
+    },
+    {
+      "path": "13_Project_Genesis/Standards/AUTOMATION_BOUNDARY_0036.md",
+      "classification": "FORMAL_ASSET"
+    },
+    {
+      "path": "13_Project_Genesis/Tests/test_0035h_assessment.py",
+      "classification": "TEST"
+    },
+    {
+      "path": "13_Project_Genesis/Tests/test_0035h_dashboard.py",
+      "classification": "TEST"
+    },
+    {
+      "path": "13_Project_Genesis/Tests/test_0035h_validator.py",
+      "classification": "TEST"
+    },
+    {
+      "path": "13_Project_Genesis/Tests/test_0035i_assessment.py",
+      "classification": "TEST"
+    },
+    {
+      "path": "13_Project_Genesis/Tests/test_0035i_dashboard.py",
+      "classification": "TEST"
+    },
+    {
+      "path": "13_Project_Genesis/Tests/test_0035i_scheduler.py",
+      "classification": "TEST"
+    },
+    {
+      "path": "13_Project_Genesis/Tests/test_0035i_validator.py",
+      "classification": "TEST"
+    },
+    {
+      "path": "13_Project_Genesis/Tests/test_0035j_analytics.py",
+      "classification": "TEST"
+    },
+    {
+      "path": "13_Project_Genesis/Tests/test_0035j_dashboards.py",
+      "classification": "TEST"
+    },
+    {
+      "path": "13_Project_Genesis/Tests/test_0035j_portfolio_validator.py",
+      "classification": "TEST"
+    },
+    {
+      "path": "13_Project_Genesis/Tests/test_0035j_sourcing_validator.py",
+      "classification": "TEST"
+    },
+    {
+      "path": "13_Project_Genesis/Tests/test_0035k_automation.py",
+      "classification": "TEST"
+    },
+    {
+      "path": "13_Project_Genesis/Tests/test_0035k_contract_order.py",
+      "classification": "TEST"
+    },
+    {
+      "path": "13_Project_Genesis/Tests/test_0035k_dashboards.py",
+      "classification": "TEST"
+    },
+    {
+      "path": "13_Project_Genesis/Tests/test_0035k_fulfilment.py",
+      "classification": "TEST"
+    },
+    {
+      "path": "13_Project_Genesis/Tests/test_0035k_incident_recall.py",
+      "classification": "TEST"
+    },
+    {
+      "path": "13_Project_Genesis/Tests/test_0035k_settlement.py",
+      "classification": "TEST"
+    },
+    {
+      "path": "13_Project_Genesis/Tests/test_0036_automation.py",
+      "classification": "TEST"
+    },
+    {
+      "path": "13_Project_Genesis/Tests/test_0036_controls.py",
+      "classification": "TEST"
+    },
+    {
+      "path": "13_Project_Genesis/Tests/test_0036_customer.py",
+      "classification": "TEST"
+    },
+    {
+      "path": "13_Project_Genesis/Tests/test_0036_dashboards.py",
+      "classification": "TEST"
+    },
+    {
+      "path": "13_Project_Genesis/Tests/test_0036_privacy.py",
+      "classification": "TEST"
+    },
+    {
+      "path": "13_Project_Genesis/Tests/test_0036_registers.py",
+      "classification": "TEST"
+    },
+    {
+      "path": "13_Project_Genesis/Tests/test_0036_schemas.py",
+      "classification": "TEST"
+    },
+    {
+      "path": "13_Project_Genesis/Tests/test_0036_surveillance.py",
+      "classification": "TEST"
+    },
+    {
+      "path": "13_Project_Genesis/Tests/test_build_0038_asset_register_transaction.py",
+      "classification": "TEST"
+    },
+    {
+      "path": "13_Project_Genesis/Tests/test_build_pack_routing.py",
+      "classification": "TEST"
+    },
+    {
+      "path": "13_Project_Genesis/Tests/test_passport_lifecycle_validator.py",
+      "classification": "TEST"
+    },
+    {
+      "path": "13_Project_Genesis/Tests/test_passport_monitor_engine.py",
+      "classification": "TEST"
+    },
+    {
+      "path": "13_Project_Genesis/Tests/test_passport_monitoring_validator.py",
+      "classification": "TEST"
+    },
+    {
+      "path": "13_Project_Genesis/Tests/test_product_passport_review_decision_validator.py",
+      "classification": "TEST"
+    },
+    {
+      "path": "13_Project_Genesis/Validators/control_library.py",
+      "classification": "SCRIPT"
+    },
+    {
+      "path": "13_Project_Genesis/Validators/validate_access_control.py",
+      "classification": "SCRIPT"
+    },
+    {
+      "path": "13_Project_Genesis/Validators/validate_build_pack_routing.py",
+      "classification": "SCRIPT"
+    },
+    {
+      "path": "13_Project_Genesis/Validators/validate_contract_order.py",
+      "classification": "SCRIPT"
+    },
+    {
+      "path": "13_Project_Genesis/Validators/validate_customer_eligibility.py",
+      "classification": "SCRIPT"
+    },
+    {
+      "path": "13_Project_Genesis/Validators/validate_fulfilment_receipt.py",
+      "classification": "SCRIPT"
+    },
+    {
+      "path": "13_Project_Genesis/Validators/validate_incident_recall.py",
+      "classification": "SCRIPT"
+    },
+    {
+      "path": "13_Project_Genesis/Validators/validate_passport_lifecycle.py",
+      "classification": "SCRIPT"
+    },
+    {
+      "path": "13_Project_Genesis/Validators/validate_passport_monitoring_run.py",
+      "classification": "SCRIPT"
+    },
+    {
+      "path": "13_Project_Genesis/Validators/validate_privacy_record.py",
+      "classification": "SCRIPT"
+    },
+    {
+      "path": "13_Project_Genesis/Validators/validate_product_passport_review_decision.py",
+      "classification": "SCRIPT"
+    },
+    {
+      "path": "13_Project_Genesis/Validators/validate_remediation_case.py",
+      "classification": "SCRIPT"
+    },
+    {
+      "path": "13_Project_Genesis/Validators/validate_reporting_assessment.py",
+      "classification": "SCRIPT"
+    },
+    {
+      "path": "13_Project_Genesis/Validators/validate_settlement.py",
+      "classification": "SCRIPT"
+    },
+    {
+      "path": "13_Project_Genesis/Validators/validate_sourcing_decision.py",
+      "classification": "SCRIPT"
+    },
+    {
+      "path": "13_Project_Genesis/Validators/validate_supplier_assurance.py",
+      "classification": "SCRIPT"
+    },
+    {
+      "path": "13_Project_Genesis/Validators/validate_supplier_portfolio.py",
+      "classification": "SCRIPT"
+    },
+    {
+      "path": "13_Project_Genesis/Validators/validate_surveillance_case.py",
+      "classification": "SCRIPT"
+    },
+    {
+      "path": "Documentation/BUILD_0035H_VALIDATION_REPORT.md",
+      "classification": "SUPPORTING_FILE"
+    },
+    {
+      "path": "Documentation/BUILD_0035I_VALIDATION_REPORT.md",
+      "classification": "SUPPORTING_FILE"
+    },
+    {
+      "path": "Documentation/BUILD_0035J_VALIDATION_REPORT.md",
+      "classification": "SUPPORTING_FILE"
+    },
+    {
+      "path": "Documentation/BUILD_0035K_VALIDATION_REPORT.md",
+      "classification": "SUPPORTING_FILE"
+    },
+    {
+      "path": "Documentation/BUILD_0036_VALIDATION_REPORT.md",
+      "classification": "SUPPORTING_FILE"
+    },
+    {
+      "path": "Documentation/Build_Records/0035E/BUILD_0035E_IMPLEMENTATION_NOTES.md",
+      "classification": "BUILD_RECORD"
+    },
+    {
+      "path": "Documentation/Build_Records/0035E/BUILD_0035E_READ_ME_FIRST.md",
+      "classification": "BUILD_RECORD"
+    },
+    {
+      "path": "Documentation/Build_Records/0035E/BUILD_MANIFEST.json",
+      "classification": "BUILD_RECORD"
+    },
+    {
+      "path": "Documentation/Build_Records/0035E/CHANGE_LOG_PROPOSED.csv",
+      "classification": "BUILD_RECORD"
+    },
+    {
+      "path": "Documentation/Build_Records/0035E/DECISION_RECORD_0035E.md",
+      "classification": "BUILD_RECORD"
+    },
+    {
+      "path": "Documentation/Build_Records/0035E/FILE_INVENTORY.csv",
+      "classification": "BUILD_RECORD"
+    },
+    {
+      "path": "Documentation/Build_Records/0035F/BUILD_0035F_IMPLEMENTATION_NOTES.md",
+      "classification": "BUILD_RECORD"
+    },
+    {
+      "path": "Documentation/Build_Records/0035F/BUILD_0035F_READ_ME_FIRST.md",
+      "classification": "BUILD_RECORD"
+    },
+    {
+      "path": "Documentation/Build_Records/0035F/BUILD_MANIFEST.json",
+      "classification": "BUILD_RECORD"
+    },
+    {
+      "path": "Documentation/Build_Records/0035F/CHANGE_LOG_PROPOSED.csv",
+      "classification": "BUILD_RECORD"
+    },
+    {
+      "path": "Documentation/Build_Records/0035F/DECISION_RECORD_0035F.md",
+      "classification": "BUILD_RECORD"
+    },
+    {
+      "path": "Documentation/Build_Records/0035F/FILE_INVENTORY.csv",
+      "classification": "BUILD_RECORD"
+    },
+    {
+      "path": "Documentation/Build_Records/0035G/BUILD_0035G_IMPLEMENTATION_NOTES.md",
+      "classification": "BUILD_RECORD"
+    },
+    {
+      "path": "Documentation/Build_Records/0035G/BUILD_0035G_READ_ME_FIRST.md",
+      "classification": "BUILD_RECORD"
+    },
+    {
+      "path": "Documentation/Build_Records/0035G/BUILD_MANIFEST.json",
+      "classification": "BUILD_RECORD"
+    },
+    {
+      "path": "Documentation/Build_Records/0035G/CHANGE_LOG_PROPOSED.csv",
+      "classification": "BUILD_RECORD"
+    },
+    {
+      "path": "Documentation/Build_Records/0035G/DECISION_RECORD_0035G.md",
+      "classification": "BUILD_RECORD"
+    },
+    {
+      "path": "Documentation/Build_Records/0035G/FILE_INVENTORY.csv",
+      "classification": "BUILD_RECORD"
+    },
+    {
+      "path": "Documentation/Build_Records/0035H/BUILD_0035H_IMPLEMENTATION_NOTES.md",
+      "classification": "BUILD_RECORD"
+    },
+    {
+      "path": "Documentation/Build_Records/0035H/BUILD_0035H_READ_ME_FIRST.md",
+      "classification": "BUILD_RECORD"
+    },
+    {
+      "path": "Documentation/Build_Records/0035H/BUILD_MANIFEST.json",
+      "classification": "BUILD_RECORD"
+    },
+    {
+      "path": "Documentation/Build_Records/0035H/CHANGE_LOG_PROPOSED.csv",
+      "classification": "BUILD_RECORD"
+    },
+    {
+      "path": "Documentation/Build_Records/0035H/DECISION_RECORD_0035H.md",
+      "classification": "BUILD_RECORD"
+    },
+    {
+      "path": "Documentation/Build_Records/0035H/FILE_INVENTORY.csv",
+      "classification": "BUILD_RECORD"
+    },
+    {
+      "path": "Documentation/Build_Records/0035I/BUILD_0035I_IMPLEMENTATION_NOTES.md",
+      "classification": "BUILD_RECORD"
+    },
+    {
+      "path": "Documentation/Build_Records/0035I/BUILD_0035I_READ_ME_FIRST.md",
+      "classification": "BUILD_RECORD"
+    },
+    {
+      "path": "Documentation/Build_Records/0035I/BUILD_MANIFEST.json",
+      "classification": "BUILD_RECORD"
+    },
+    {
+      "path": "Documentation/Build_Records/0035I/CHANGE_LOG_PROPOSED.csv",
+      "classification": "BUILD_RECORD"
+    },
+    {
+      "path": "Documentation/Build_Records/0035I/DECISION_RECORD_0035I.md",
+      "classification": "BUILD_RECORD"
+    },
+    {
+      "path": "Documentation/Build_Records/0035I/FILE_INVENTORY.csv",
+      "classification": "BUILD_RECORD"
+    },
+    {
+      "path": "Documentation/Build_Records/0035J/BUILD_0035J_IMPLEMENTATION_NOTES.md",
+      "classification": "BUILD_RECORD"
+    },
+    {
+      "path": "Documentation/Build_Records/0035J/BUILD_0035J_READ_ME_FIRST.md",
+      "classification": "BUILD_RECORD"
+    },
+    {
+      "path": "Documentation/Build_Records/0035J/BUILD_MANIFEST.json",
+      "classification": "BUILD_RECORD"
+    },
+    {
+      "path": "Documentation/Build_Records/0035J/CHANGE_LOG_PROPOSED.csv",
+      "classification": "BUILD_RECORD"
+    },
+    {
+      "path": "Documentation/Build_Records/0035J/DECISION_RECORD_0035J.md",
+      "classification": "BUILD_RECORD"
+    },
+    {
+      "path": "Documentation/Build_Records/0035J/FILE_INVENTORY.csv",
+      "classification": "BUILD_RECORD"
+    },
+    {
+      "path": "Documentation/Build_Records/0035K/BUILD_0035K_IMPLEMENTATION_NOTES.md",
+      "classification": "BUILD_RECORD"
+    },
+    {
+      "path": "Documentation/Build_Records/0035K/BUILD_0035K_READ_ME_FIRST.md",
+      "classification": "BUILD_RECORD"
+    },
+    {
+      "path": "Documentation/Build_Records/0035K/BUILD_MANIFEST.json",
+      "classification": "BUILD_RECORD"
+    },
+    {
+      "path": "Documentation/Build_Records/0035K/CHANGE_LOG_PROPOSED.csv",
+      "classification": "BUILD_RECORD"
+    },
+    {
+      "path": "Documentation/Build_Records/0035K/DECISION_RECORD_0035K.md",
+      "classification": "BUILD_RECORD"
+    },
+    {
+      "path": "Documentation/Build_Records/0035K/FILE_INVENTORY.csv",
+      "classification": "BUILD_RECORD"
+    },
+    {
+      "path": "Documentation/Build_Records/0036/BUILD_0036_IMPLEMENTATION_NOTES.md",
+      "classification": "BUILD_RECORD"
+    },
+    {
+      "path": "Documentation/Build_Records/0036/BUILD_0036_READ_ME_FIRST.md",
+      "classification": "BUILD_RECORD"
+    },
+    {
+      "path": "Documentation/Build_Records/0036/BUILD_MANIFEST.json",
+      "classification": "BUILD_RECORD"
+    },
+    {
+      "path": "Documentation/Build_Records/0036/CHANGE_LOG_PROPOSED.csv",
+      "classification": "BUILD_RECORD"
+    },
+    {
+      "path": "Documentation/Build_Records/0036/DECISION_RECORD_0036.md",
+      "classification": "BUILD_RECORD"
+    },
+    {
+      "path": "Documentation/Build_Records/0036/FILE_INVENTORY.csv",
+      "classification": "BUILD_RECORD"
+    },
+    {
+      "path": "Documentation/Build_Records/0038/ASSET_INTENT_MANIFEST.json",
+      "classification": "BUILD_RECORD"
+    },
+    {
+      "path": "Documentation/Build_Records/0038/ASSET_REGISTER_CHANGE_REPORT_TEMPLATE.json",
+      "classification": "BUILD_RECORD"
+    },
+    {
+      "path": "Documentation/Build_Records/0038/BUILD_0038_READ_ME_FIRST.md",
+      "classification": "BUILD_RECORD"
+    },
+    {
+      "path": "Documentation/Build_Records/0038/BUILD_MANIFEST.json",
+      "classification": "BUILD_RECORD"
+    },
+    {
+      "path": "Documentation/Build_Records/0038/COLLISION_RESOLUTION_REPORT.md",
+      "classification": "BUILD_RECORD"
+    },
+    {
+      "path": "Documentation/Build_Records/0038/COMMIT_MESSAGE.txt",
+      "classification": "BUILD_RECORD"
+    },
+    {
+      "path": "Documentation/Build_Records/0038/CONFLICT_POLICY.json",
+      "classification": "BUILD_RECORD"
+    },
+    {
+      "path": "Documentation/Build_Records/0038/FILE_INVENTORY.csv",
+      "classification": "BUILD_RECORD"
+    },
+    {
+      "path": "Documentation/Build_Records/0038/MASTER_ASSET_REGISTER_FIELD_MAPPING.json",
+      "classification": "BUILD_RECORD"
+    },
+    {
+      "path": "Documentation/Build_Records/0038/PACKAGE_CONTENT_SHA256.csv",
+      "classification": "BUILD_RECORD"
+    },
+    {
+      "path": "Documentation/Build_Records/0038/PROJECT_GENESIS_IMPORT_HOOK.json",
+      "classification": "BUILD_RECORD"
+    },
+    {
+      "path": "Documentation/Build_Records/0038/PROPOSED_NEXT_ACTION.md",
+      "classification": "BUILD_RECORD"
+    },
+    {
+      "path": "Documentation/Build_Records/0038/RESTORATION_SOURCE_MANIFEST.csv",
+      "classification": "BUILD_RECORD"
+    },
+    {
+      "path": "Documentation/Build_Records/0038/ROLLBACK_RUNBOOK.md",
+      "classification": "BUILD_RECORD"
+    },
+    {
+      "path": "Documentation/Build_Records/0038/TEST_REPORT.txt",
+      "classification": "BUILD_RECORD"
+    },
+    {
+      "path": "Documentation/Build_Records/0038/VALIDATION_REPORT.md",
+      "classification": "BUILD_RECORD"
+    },
+    {
+      "path": "Documentation/ELIGIBILITY_DASHBOARD.generated.md",
+      "classification": "SUPPORTING_FILE"
+    },
+    {
+      "path": "Documentation/ELIGIBILITY_GATE.generated.json",
+      "classification": "SUPPORTING_FILE"
+    },
+    {
+      "path": "Documentation/FULFILMENT_ALERTS.generated.json",
+      "classification": "SUPPORTING_FILE"
+    },
+    {
+      "path": "Documentation/INCIDENT_RECALL_DASHBOARD.generated.md",
+      "classification": "SUPPORTING_FILE"
+    },
+    {
+      "path": "Documentation/JURISDICTION_ALERTS.generated.json",
+      "classification": "SUPPORTING_FILE"
+    },
+    {
+      "path": "Documentation/OPERATIONS_DASHBOARD.generated.md",
+      "classification": "SUPPORTING_FILE"
+    },
+    {
+      "path": "Documentation/ORDER_RELEASE_GATE.generated.json",
+      "classification": "SUPPORTING_FILE"
+    },
+    {
+      "path": "Documentation/PRIVACY_ALERTS.generated.json",
+      "classification": "SUPPORTING_FILE"
+    },
+    {
+      "path": "Documentation/PRIVACY_DASHBOARD.generated.md",
+      "classification": "SUPPORTING_FILE"
+    },
+    {
+      "path": "Documentation/RECALL_TRACE.generated.json",
+      "classification": "SUPPORTING_FILE"
+    },
+    {
+      "path": "Documentation/REPORTING_ALERTS.generated.json",
+      "classification": "SUPPORTING_FILE"
+    },
+    {
+      "path": "Documentation/REPORTING_DASHBOARD.generated.md",
+      "classification": "SUPPORTING_FILE"
+    },
+    {
+      "path": "Documentation/SERVICE_LEVEL_ALERTS.generated.json",
+      "classification": "SUPPORTING_FILE"
+    },
+    {
+      "path": "Documentation/SETTLEMENT_DASHBOARD.generated.md",
+      "classification": "SUPPORTING_FILE"
+    },
+    {
+      "path": "Documentation/SETTLEMENT_HOLDS.generated.json",
+      "classification": "SUPPORTING_FILE"
+    },
+    {
+      "path": "Documentation/SIGNAL_AGGREGATION.generated.json",
+      "classification": "SUPPORTING_FILE"
+    },
+    {
+      "path": "Documentation/SUPPLIER_ASSURANCE_ALERTS.generated.json",
+      "classification": "SUPPORTING_FILE"
+    },
+    {
+      "path": "Documentation/SUPPLIER_ASSURANCE_DASHBOARD.generated.md",
+      "classification": "SUPPORTING_FILE"
+    },
+    {
+      "path": "Documentation/SUPPLIER_PERFORMANCE_DASHBOARD.example.md",
+      "classification": "SUPPORTING_FILE"
+    },
+    {
+      "path": "Documentation/SUPPLIER_PORTFOLIO_DASHBOARD.generated.md",
+      "classification": "SUPPORTING_FILE"
+    },
+    {
+      "path": "Documentation/SUPPLIER_SCORECARD.generated.md",
+      "classification": "SUPPORTING_FILE"
+    },
+    {
+      "path": "Documentation/SURVEILLANCE_DASHBOARD.generated.md",
+      "classification": "SUPPORTING_FILE"
+    },
+    {
+      "path": "Standards/CERTIAURA_BUILD_PACK_ROUTING_STANDARD.md",
+      "classification": "FORMAL_ASSET"
+    }
+  ],
+  "formal_assets": [
+    {
+      "repository_path": "00_Governance/CERTIAURA_LOCKED_BUILD_CONTINUITY_AND_CHECKPOINT.md",
+      "asset_title": "CERTIAURA LOCKED BUILD CONTINUITY AND CHECKPOINT",
+      "asset_type": "Governance Control",
+      "knowledge_system": "SYS",
+      "intended_action": "UPDATE",
+      "existing_uai": null,
+      "reconciliation_mode": "RESTORE_PRESERVE_IDENTITY",
+      "allow_create_if_missing": true,
+      "proposed_version": "1.2.0",
+      "proposed_status": "LOCKED_ACTIVE",
+      "owner": "Certiaura",
+      "completion_percentage": 100,
+      "parent_assets": [],
+      "child_assets": [],
+      "relationships": [],
+      "evidence_links": [],
+      "report_links": [],
+      "marketplace_links": [],
+      "last_review": "2026-07-19",
+      "next_review": "",
+      "build_provenance": [
+        "CERT-BUILD-0038"
+      ]
+    },
+    {
+      "repository_path": "05_Monitoring/Standards/POST_MARKET_SURVEILLANCE_STANDARD.md",
+      "asset_title": "POST MARKET SURVEILLANCE STANDARD",
+      "asset_type": "Standard",
+      "knowledge_system": "MKS",
+      "intended_action": "UPDATE",
+      "existing_uai": null,
+      "reconciliation_mode": "RESTORE_PRESERVE_IDENTITY",
+      "allow_create_if_missing": true,
+      "proposed_version": "1.0.0",
+      "proposed_status": "ACTIVE",
+      "owner": "Certiaura",
+      "completion_percentage": 100,
+      "parent_assets": [],
+      "child_assets": [],
+      "relationships": [],
+      "evidence_links": [],
+      "report_links": [],
+      "marketplace_links": [],
+      "last_review": "2026-07-19",
+      "next_review": "",
+      "build_provenance": [
+        "CERT-BUILD-0038"
+      ]
+    },
+    {
+      "repository_path": "05_Monitoring/Standards/REGULATORY_REPORTING_ASSESSMENT_STANDARD.md",
+      "asset_title": "REGULATORY REPORTING ASSESSMENT STANDARD",
+      "asset_type": "Standard",
+      "knowledge_system": "MKS",
+      "intended_action": "UPDATE",
+      "existing_uai": null,
+      "reconciliation_mode": "RESTORE_PRESERVE_IDENTITY",
+      "allow_create_if_missing": true,
+      "proposed_version": "1.0.0",
+      "proposed_status": "ACTIVE",
+      "owner": "Certiaura",
+      "completion_percentage": 100,
+      "parent_assets": [],
+      "child_assets": [],
+      "relationships": [],
+      "evidence_links": [],
+      "report_links": [],
+      "marketplace_links": [],
+      "last_review": "2026-07-19",
+      "next_review": "",
+      "build_provenance": [
+        "CERT-BUILD-0038"
+      ]
+    },
+    {
+      "repository_path": "08_Product_Passports/Standards/CERTIAURA_SUPPLIER_EVIDENCE_REVIEW_VERIFICATION_AND_PRODUCT_PASSPORT_APPROVAL_WORKFLOW.md",
+      "asset_title": "CERTIAURA SUPPLIER EVIDENCE REVIEW VERIFICATION AND PRODUCT PASSPORT APPROVAL WORKFLOW",
+      "asset_type": "Standard",
+      "knowledge_system": "PPS",
+      "intended_action": "UPDATE",
+      "existing_uai": null,
+      "reconciliation_mode": "RESTORE_PRESERVE_IDENTITY",
+      "allow_create_if_missing": true,
+      "proposed_version": "1.0.0",
+      "proposed_status": "ACTIVE",
+      "owner": "Certiaura",
+      "completion_percentage": 100,
+      "parent_assets": [],
+      "child_assets": [],
+      "relationships": [],
+      "evidence_links": [],
+      "report_links": [],
+      "marketplace_links": [],
+      "last_review": "2026-07-19",
+      "next_review": "",
+      "build_provenance": [
+        "CERT-BUILD-0038"
+      ]
+    },
+    {
+      "repository_path": "08_Product_Passports/Standards/ORDER_PRODUCT_PASSPORT_GATE.md",
+      "asset_title": "ORDER PRODUCT PASSPORT GATE",
+      "asset_type": "Standard",
+      "knowledge_system": "PPS",
+      "intended_action": "UPDATE",
+      "existing_uai": null,
+      "reconciliation_mode": "RESTORE_PRESERVE_IDENTITY",
+      "allow_create_if_missing": true,
+      "proposed_version": "1.0.0",
+      "proposed_status": "ACTIVE",
+      "owner": "Certiaura",
+      "completion_percentage": 100,
+      "parent_assets": [],
+      "child_assets": [],
+      "relationships": [],
+      "evidence_links": [],
+      "report_links": [],
+      "marketplace_links": [],
+      "last_review": "2026-07-19",
+      "next_review": "",
+      "build_provenance": [
+        "CERT-BUILD-0038"
+      ]
+    },
+    {
+      "repository_path": "08_Product_Passports/Standards/PASSPORT_LIFECYCLE_MARKETPLACE_STANDARD.md",
+      "asset_title": "PASSPORT LIFECYCLE MARKETPLACE STANDARD",
+      "asset_type": "Standard",
+      "knowledge_system": "PPS",
+      "intended_action": "UPDATE",
+      "existing_uai": null,
+      "reconciliation_mode": "RESTORE_PRESERVE_IDENTITY",
+      "allow_create_if_missing": true,
+      "proposed_version": "1.0.0",
+      "proposed_status": "ACTIVE",
+      "owner": "Certiaura",
+      "completion_percentage": 100,
+      "parent_assets": [],
+      "child_assets": [],
+      "relationships": [],
+      "evidence_links": [],
+      "report_links": [],
+      "marketplace_links": [],
+      "last_review": "2026-07-19",
+      "next_review": "",
+      "build_provenance": [
+        "CERT-BUILD-0038"
+      ]
+    },
+    {
+      "repository_path": "08_Product_Passports/Standards/PASSPORT_MONITORING_ALERT_AUTOMATION_STANDARD.md",
+      "asset_title": "PASSPORT MONITORING ALERT AUTOMATION STANDARD",
+      "asset_type": "Standard",
+      "knowledge_system": "PPS",
+      "intended_action": "UPDATE",
+      "existing_uai": null,
+      "reconciliation_mode": "RESTORE_PRESERVE_IDENTITY",
+      "allow_create_if_missing": true,
+      "proposed_version": "1.0.0",
+      "proposed_status": "ACTIVE",
+      "owner": "Certiaura",
+      "completion_percentage": 100,
+      "parent_assets": [],
+      "child_assets": [],
+      "relationships": [],
+      "evidence_links": [],
+      "report_links": [],
+      "marketplace_links": [],
+      "last_review": "2026-07-19",
+      "next_review": "",
+      "build_provenance": [
+        "CERT-BUILD-0038"
+      ]
+    },
+    {
+      "repository_path": "08_Product_Passports/Standards/PASSPORT_REMEDIATION_REINSTATEMENT_SUPPLIER_STANDARD.md",
+      "asset_title": "PASSPORT REMEDIATION REINSTATEMENT SUPPLIER STANDARD",
+      "asset_type": "Standard",
+      "knowledge_system": "PPS",
+      "intended_action": "UPDATE",
+      "existing_uai": null,
+      "reconciliation_mode": "RESTORE_PRESERVE_IDENTITY",
+      "allow_create_if_missing": true,
+      "proposed_version": "1.0.0",
+      "proposed_status": "ACTIVE",
+      "owner": "Certiaura",
+      "completion_percentage": 100,
+      "parent_assets": [],
+      "child_assets": [],
+      "relationships": [],
+      "evidence_links": [],
+      "report_links": [],
+      "marketplace_links": [],
+      "last_review": "2026-07-19",
+      "next_review": "",
+      "build_provenance": [
+        "CERT-BUILD-0038"
+      ]
+    },
+    {
+      "repository_path": "08_Product_Passports/Standards/SUPPLIER_QUALIFICATION_ASSURANCE_STANDARD.md",
+      "asset_title": "SUPPLIER QUALIFICATION ASSURANCE STANDARD",
+      "asset_type": "Standard",
+      "knowledge_system": "PPS",
+      "intended_action": "UPDATE",
+      "existing_uai": null,
+      "reconciliation_mode": "RESTORE_PRESERVE_IDENTITY",
+      "allow_create_if_missing": true,
+      "proposed_version": "1.0.0",
+      "proposed_status": "ACTIVE",
+      "owner": "Certiaura",
+      "completion_percentage": 100,
+      "parent_assets": [],
+      "child_assets": [],
+      "relationships": [],
+      "evidence_links": [],
+      "report_links": [],
+      "marketplace_links": [],
+      "last_review": "2026-07-19",
+      "next_review": "",
+      "build_provenance": [
+        "CERT-BUILD-0038"
+      ]
+    },
+    {
+      "repository_path": "09_Cost_Intelligence/Standards/PAYMENT_HOLD_SETTLEMENT_STANDARD.md",
+      "asset_title": "PAYMENT HOLD SETTLEMENT STANDARD",
+      "asset_type": "Standard",
+      "knowledge_system": "CIS",
+      "intended_action": "UPDATE",
+      "existing_uai": null,
+      "reconciliation_mode": "RESTORE_PRESERVE_IDENTITY",
+      "allow_create_if_missing": true,
+      "proposed_version": "1.0.0",
+      "proposed_status": "ACTIVE",
+      "owner": "Certiaura",
+      "completion_percentage": 100,
+      "parent_assets": [],
+      "child_assets": [],
+      "relationships": [],
+      "evidence_links": [],
+      "report_links": [],
+      "marketplace_links": [],
+      "last_review": "2026-07-19",
+      "next_review": "",
+      "build_provenance": [
+        "CERT-BUILD-0038"
+      ]
+    },
+    {
+      "repository_path": "09_Cost_Intelligence/Standards/SUPPLIER_TOTAL_COST_MODEL.md",
+      "asset_title": "SUPPLIER TOTAL COST MODEL",
+      "asset_type": "Standard",
+      "knowledge_system": "CIS",
+      "intended_action": "UPDATE",
+      "existing_uai": null,
+      "reconciliation_mode": "RESTORE_PRESERVE_IDENTITY",
+      "allow_create_if_missing": true,
+      "proposed_version": "1.0.0",
+      "proposed_status": "ACTIVE",
+      "owner": "Certiaura",
+      "completion_percentage": 100,
+      "parent_assets": [],
+      "child_assets": [],
+      "relationships": [],
+      "evidence_links": [],
+      "report_links": [],
+      "marketplace_links": [],
+      "last_review": "2026-07-19",
+      "next_review": "",
+      "build_provenance": [
+        "CERT-BUILD-0038"
+      ]
+    },
+    {
+      "repository_path": "10_Marketplace/Standards/CONSENT_PRIVACY_ACCESS_STANDARD.md",
+      "asset_title": "CONSENT PRIVACY ACCESS STANDARD",
+      "asset_type": "Standard",
+      "knowledge_system": "MPS",
+      "intended_action": "UPDATE",
+      "existing_uai": null,
+      "reconciliation_mode": "RESTORE_PRESERVE_IDENTITY",
+      "allow_create_if_missing": true,
+      "proposed_version": "1.0.0",
+      "proposed_status": "ACTIVE",
+      "owner": "Certiaura",
+      "completion_percentage": 100,
+      "parent_assets": [],
+      "child_assets": [],
+      "relationships": [],
+      "evidence_links": [],
+      "report_links": [],
+      "marketplace_links": [],
+      "last_review": "2026-07-19",
+      "next_review": "",
+      "build_provenance": [
+        "CERT-BUILD-0038"
+      ]
+    },
+    {
+      "repository_path": "10_Marketplace/Standards/CONTRACT_ORDER_RELEASE_STANDARD.md",
+      "asset_title": "CONTRACT ORDER RELEASE STANDARD",
+      "asset_type": "Standard",
+      "knowledge_system": "MPS",
+      "intended_action": "UPDATE",
+      "existing_uai": null,
+      "reconciliation_mode": "RESTORE_PRESERVE_IDENTITY",
+      "allow_create_if_missing": true,
+      "proposed_version": "1.0.0",
+      "proposed_status": "ACTIVE",
+      "owner": "Certiaura",
+      "completion_percentage": 100,
+      "parent_assets": [],
+      "child_assets": [],
+      "relationships": [],
+      "evidence_links": [],
+      "report_links": [],
+      "marketplace_links": [],
+      "last_review": "2026-07-19",
+      "next_review": "",
+      "build_provenance": [
+        "CERT-BUILD-0038"
+      ]
+    },
+    {
+      "repository_path": "10_Marketplace/Standards/CUSTOMER_ELIGIBILITY_JURISDICTION_STANDARD.md",
+      "asset_title": "CUSTOMER ELIGIBILITY JURISDICTION STANDARD",
+      "asset_type": "Standard",
+      "knowledge_system": "MPS",
+      "intended_action": "UPDATE",
+      "existing_uai": null,
+      "reconciliation_mode": "RESTORE_PRESERVE_IDENTITY",
+      "allow_create_if_missing": true,
+      "proposed_version": "1.0.0",
+      "proposed_status": "ACTIVE",
+      "owner": "Certiaura",
+      "completion_percentage": 100,
+      "parent_assets": [],
+      "child_assets": [],
+      "relationships": [],
+      "evidence_links": [],
+      "report_links": [],
+      "marketplace_links": [],
+      "last_review": "2026-07-19",
+      "next_review": "",
+      "build_provenance": [
+        "CERT-BUILD-0038"
+      ]
+    },
+    {
+      "repository_path": "10_Marketplace/Standards/FULFILMENT_RECEIPT_STANDARD.md",
+      "asset_title": "FULFILMENT RECEIPT STANDARD",
+      "asset_type": "Standard",
+      "knowledge_system": "MPS",
+      "intended_action": "UPDATE",
+      "existing_uai": null,
+      "reconciliation_mode": "RESTORE_PRESERVE_IDENTITY",
+      "allow_create_if_missing": true,
+      "proposed_version": "1.0.0",
+      "proposed_status": "ACTIVE",
+      "owner": "Certiaura",
+      "completion_percentage": 100,
+      "parent_assets": [],
+      "child_assets": [],
+      "relationships": [],
+      "evidence_links": [],
+      "report_links": [],
+      "marketplace_links": [],
+      "last_review": "2026-07-19",
+      "next_review": "",
+      "build_provenance": [
+        "CERT-BUILD-0038"
+      ]
+    },
+    {
+      "repository_path": "10_Marketplace/Standards/INCIDENT_WITHDRAWAL_RECALL_STANDARD.md",
+      "asset_title": "INCIDENT WITHDRAWAL RECALL STANDARD",
+      "asset_type": "Standard",
+      "knowledge_system": "MPS",
+      "intended_action": "UPDATE",
+      "existing_uai": null,
+      "reconciliation_mode": "RESTORE_PRESERVE_IDENTITY",
+      "allow_create_if_missing": true,
+      "proposed_version": "1.0.0",
+      "proposed_status": "ACTIVE",
+      "owner": "Certiaura",
+      "completion_percentage": 100,
+      "parent_assets": [],
+      "child_assets": [],
+      "relationships": [],
+      "evidence_links": [],
+      "report_links": [],
+      "marketplace_links": [],
+      "last_review": "2026-07-19",
+      "next_review": "",
+      "build_provenance": [
+        "CERT-BUILD-0038"
+      ]
+    },
+    {
+      "repository_path": "10_Marketplace/Standards/MARKETPLACE_ORDER_INCIDENT_RECALL_SETTLEMENT_STANDARD.md",
+      "asset_title": "MARKETPLACE ORDER INCIDENT RECALL SETTLEMENT STANDARD",
+      "asset_type": "Standard",
+      "knowledge_system": "MPS",
+      "intended_action": "UPDATE",
+      "existing_uai": null,
+      "reconciliation_mode": "RESTORE_PRESERVE_IDENTITY",
+      "allow_create_if_missing": true,
+      "proposed_version": "1.0.0",
+      "proposed_status": "ACTIVE",
+      "owner": "Certiaura",
+      "completion_percentage": 100,
+      "parent_assets": [],
+      "child_assets": [],
+      "relationships": [],
+      "evidence_links": [],
+      "report_links": [],
+      "marketplace_links": [],
+      "last_review": "2026-07-19",
+      "next_review": "",
+      "build_provenance": [
+        "CERT-BUILD-0038"
+      ]
+    },
+    {
+      "repository_path": "10_Marketplace/Standards/RESPONSIBLE_USE_COMMUNICATION_STANDARD.md",
+      "asset_title": "RESPONSIBLE USE COMMUNICATION STANDARD",
+      "asset_type": "Standard",
+      "knowledge_system": "MPS",
+      "intended_action": "UPDATE",
+      "existing_uai": null,
+      "reconciliation_mode": "RESTORE_PRESERVE_IDENTITY",
+      "allow_create_if_missing": true,
+      "proposed_version": "1.0.0",
+      "proposed_status": "ACTIVE",
+      "owner": "Certiaura",
+      "completion_percentage": 100,
+      "parent_assets": [],
+      "child_assets": [],
+      "relationships": [],
+      "evidence_links": [],
+      "report_links": [],
+      "marketplace_links": [],
+      "last_review": "2026-07-19",
+      "next_review": "",
+      "build_provenance": [
+        "CERT-BUILD-0038"
+      ]
+    },
+    {
+      "repository_path": "10_Marketplace/Standards/SUPPLIER_PORTFOLIO_RESILIENCE_COMMERCIAL_STANDARD.md",
+      "asset_title": "SUPPLIER PORTFOLIO RESILIENCE COMMERCIAL STANDARD",
+      "asset_type": "Standard",
+      "knowledge_system": "MPS",
+      "intended_action": "UPDATE",
+      "existing_uai": null,
+      "reconciliation_mode": "RESTORE_PRESERVE_IDENTITY",
+      "allow_create_if_missing": true,
+      "proposed_version": "1.0.0",
+      "proposed_status": "ACTIVE",
+      "owner": "Certiaura",
+      "completion_percentage": 100,
+      "parent_assets": [],
+      "child_assets": [],
+      "relationships": [],
+      "evidence_links": [],
+      "report_links": [],
+      "marketplace_links": [],
+      "last_review": "2026-07-19",
+      "next_review": "",
+      "build_provenance": [
+        "CERT-BUILD-0038"
+      ]
+    },
+    {
+      "repository_path": "13_Project_Genesis/Standards/AUTOMATION_BOUNDARY_0036.md",
+      "asset_title": "AUTOMATION BOUNDARY 0036",
+      "asset_type": "Standard",
+      "knowledge_system": "SYS",
+      "intended_action": "UPDATE",
+      "existing_uai": null,
+      "reconciliation_mode": "RESTORE_PRESERVE_IDENTITY",
+      "allow_create_if_missing": true,
+      "proposed_version": "1.0.0",
+      "proposed_status": "ACTIVE",
+      "owner": "Certiaura",
+      "completion_percentage": 100,
+      "parent_assets": [],
+      "child_assets": [],
+      "relationships": [],
+      "evidence_links": [],
+      "report_links": [],
+      "marketplace_links": [],
+      "last_review": "2026-07-19",
+      "next_review": "",
+      "build_provenance": [
+        "CERT-BUILD-0038"
+      ]
+    },
+    {
+      "repository_path": "Standards/CERTIAURA_BUILD_PACK_ROUTING_STANDARD.md",
+      "asset_title": "CERTIAURA BUILD PACK ROUTING STANDARD",
+      "asset_type": "Standard",
+      "knowledge_system": "SYS",
+      "intended_action": "UPDATE",
+      "existing_uai": null,
+      "reconciliation_mode": "RESTORE_PRESERVE_IDENTITY",
+      "allow_create_if_missing": true,
+      "proposed_version": "1.0.0",
+      "proposed_status": "ACTIVE",
+      "owner": "Certiaura",
+      "completion_percentage": 100,
+      "parent_assets": [],
+      "child_assets": [],
+      "relationships": [],
+      "evidence_links": [],
+      "report_links": [],
+      "marketplace_links": [],
+      "last_review": "2026-07-19",
+      "next_review": "",
+      "build_provenance": [
+        "CERT-BUILD-0038"
+      ]
+    }
+  ],
+  "identity_policy": {
+    "preserve_existing_uai": true,
+    "match_order": [
+      "existing_uai",
+      "canonical_repository_path",
+      "asset_title_plus_knowledge_system"
+    ],
+    "allocate_if_no_match": true,
+    "quarantine_ambiguous_matches": true,
+    "reuse_retired_identifiers": false
+  }
+}

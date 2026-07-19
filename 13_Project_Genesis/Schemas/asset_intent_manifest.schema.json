@@ -1,0 +1,93 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://certiaura.local/schemas/asset-intent-manifest.schema.json",
+  "title": "Certiaura Asset Intent Manifest",
+  "type": "object",
+  "required": [
+    "build_number",
+    "manifest_version",
+    "file_classifications",
+    "formal_assets"
+  ],
+  "properties": {
+    "build_number": {
+      "type": "string",
+      "pattern": "^\\d{4}[A-Z]?$"
+    },
+    "manifest_version": {
+      "type": "string"
+    },
+    "generated_at": {
+      "type": "string"
+    },
+    "file_classifications": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "path",
+          "classification"
+        ],
+        "properties": {
+          "path": {
+            "type": "string"
+          },
+          "classification": {
+            "enum": [
+              "FORMAL_ASSET",
+              "SUPPORTING_FILE",
+              "SCHEMA",
+              "SCRIPT",
+              "TEMPLATE",
+              "TEST",
+              "EXAMPLE",
+              "BUILD_RECORD",
+              "NON_ASSET_ADMIN"
+            ]
+          }
+        }
+      }
+    },
+    "formal_assets": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "repository_path",
+          "asset_title",
+          "knowledge_system",
+          "intended_action"
+        ],
+        "properties": {
+          "repository_path": {
+            "type": "string"
+          },
+          "asset_title": {
+            "type": "string"
+          },
+          "knowledge_system": {
+            "type": "string"
+          },
+          "intended_action": {
+            "enum": [
+              "CREATE",
+              "UPDATE",
+              "SUPERSEDE",
+              "RETIRE",
+              "NO_CHANGE"
+            ]
+          },
+          "existing_uai": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "allow_create_if_missing": {
+            "type": "boolean"
+          }
+        }
+      }
+    }
+  }
+}

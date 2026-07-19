@@ -1,7 +1,7 @@
 # CERTIAURA LOCKED BUILD CONTINUITY AND CHECKPOINT
 
 **Document ID:** CERT-GOV-CONT-002  
-**Version:** 1.2.0  
+**Version:** 1.1.0  
 **Status:** LOCKED — ACTIVE  
 **Effective date:** 2026-07-19  
 **Last updated:** 2026-07-19  
@@ -653,14 +653,13 @@ Build 0039 — evidence ingestion citation management living evidence surveillan
 ## 17. Current continuation checkpoint
 
 **Checkpoint date:** 2026-07-19  
-**Checkpoint status:** BUILD 0038 DELIVERED — TRANSACTIONAL IMPORT PENDING
+**Checkpoint status:** ACTIVE — RESTORATION AND ASSET REGISTER CORRECTION REQUIRED
 
 ### Last confirmed project position
 
 - The founder has deleted the incorrectly routed root-level folders for Builds **0035E–0036**.
 - Their content now requires controlled restoration to canonical repository paths.
-- The first generated Build 0038 package remains superseded and must not be imported.
-- Corrected Build 0038 Version 1.2.0 has been generated and delivered with automatic Master Asset Register reconciliation, dry-run controls and rollback-safe transactional import.
+- The first generated Build 0038 package is not approved for import because it lacks automatic Master Asset Register reconciliation.
 - Build 0037 remains generated but requires corrected routing and register reconciliation before installation.
 - The 0035 lettered series remains closed at 0035K.
 - New materially distinct integrated work packages use whole build numbers.
@@ -668,7 +667,7 @@ Build 0039 — evidence ingestion citation management living evidence surveillan
 ### Immediate next action
 
 ```text
-Import corrected Build 0038 through the transactional Project Genesis importer, review the dry-run routing and Asset Register Change Reports, then apply and validate.
+Reissue Build 0038 with canonical restoration routing, automatic Master Asset Register reconciliation, transactional import, rollback and full validation.
 ```
 
 ### Required close-out sequence for corrected Build 0038
@@ -724,7 +723,6 @@ Do not proceed to Build 0039 until:
 | 2026-07-19 | Treat file import and Master Asset Register update as one rollback-safe transaction | LOCKED |
 | 2026-07-19 | Block build closure where formal assets or register entries are orphaned | LOCKED |
 | 2026-07-19 | Reissue Build 0038 before import with integrated asset register reconciliation | LOCKED |
-| 2026-07-19 | Generate corrected Build 0038 with transactional Master Asset Register reconciliation | LOCKED |
 
 ---
 
@@ -733,7 +731,7 @@ Do not proceed to Build 0039 until:
 ```json
 {
   "document_id": "CERT-GOV-CONT-002",
-  "version": "1.2.0",
+  "version": "1.1.0",
   "status": "LOCKED_ACTIVE",
   "checkpoint_date": "2026-07-19",
   "canonical_repository_path": "00_Governance/CERTIAURA_LOCKED_BUILD_CONTINUITY_AND_CHECKPOINT.md",
@@ -777,12 +775,10 @@ Do not proceed to Build 0039 until:
   "current_pending_build": {
     "build_number": "0038",
     "title": "repository restoration canonical routing and Master Asset Register reconciliation for Builds 0035E to 0036",
-    "required_action": "IMPORT_TRANSACTIONALLY",
-    "previous_generated_package_approved_for_import": false,
-    "corrected_package_generated": true,
-    "corrected_package_version": "1.2.0"
+    "required_action": "REISSUE_BEFORE_IMPORT",
+    "previous_generated_package_approved_for_import": false
   },
-  "immediate_next_action": "Import corrected Build 0038 transactionally, review dry-run reports, reconcile the Master Asset Register and validate the repository",
+  "immediate_next_action": "Reissue Build 0038 with canonical restoration routing and automatic Master Asset Register reconciliation",
   "next_action_after_0038": {
     "build_number": "0037",
     "title": "Scientific content claims advertising AI recommendation and responsible communications controls",

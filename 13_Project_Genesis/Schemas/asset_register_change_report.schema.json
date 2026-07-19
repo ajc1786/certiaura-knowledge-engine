@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://certiaura.local/schemas/asset-register-change-report.schema.json",
+  "title": "Master Asset Register Change Report",
+  "type": "object",
+  "required": [
+    "valid",
+    "register_path",
+    "summary",
+    "changes",
+    "conflicts"
+  ],
+  "properties": {
+    "valid": {
+      "type": "boolean"
+    },
+    "register_path": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "summary": {
+      "type": "object"
+    },
+    "changes": {
+      "type": "array"
+    },
+    "conflicts": {
+      "type": "array"
+    }
+  }
+}

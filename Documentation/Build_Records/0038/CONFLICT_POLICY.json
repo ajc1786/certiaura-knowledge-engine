@@ -1,0 +1,17 @@
+{
+  "build_number": "0038",
+  "policy_version": "1.0.0",
+  "default_nonidentical_collision_action": "BLOCK",
+  "approved_replacements": [
+    {
+      "path": "00_Governance/CERTIAURA_LOCKED_BUILD_CONTINUITY_AND_CHECKPOINT.md",
+      "reason": "Founder-authorised continuity checkpoint progression from 1.1.0 to 1.2.0",
+      "backup_required": true
+    },
+    {
+      "path": "13_Project_Genesis/Import/build_pack_router.py",
+      "reason": "Upgrade import routing to the locked transactional standard",
+      "backup_required": true
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "purpose": "Alias map used to reconcile the existing canonical Master Asset Register without creating a replacement register.",
+  "canonical_fields": [
+    "Universal Asset Identifier",
+    "Asset Title",
+    "Knowledge System",
+    "Repository Path",
+    "Version",
+    "Status",
+    "Owner",
+    "Completion Percentage",
+    "Parent Assets",
+    "Child Assets",
+    "Relationship List",
+    "Evidence Links",
+    "Report Links",
+    "Marketplace Links",
+    "Last Review",
+    "Next Review",
+    "Change History",
+    "Build Provenance",
+    "Last Updated"
+  ],
+  "supported_formats": [
+    "CSV",
+    "JSON list",
+    "JSON object with assets array"
+  ],
+  "uai_pattern": "CERT-[SYSTEM]-[NUMBER]"
+}

@@ -1,0 +1,14 @@
+{
+  "valid": null,
+  "register_path": null,
+  "summary": {
+    "existing_assets": 0,
+    "formal_assets_in_manifest": 0,
+    "creates": 0,
+    "updates": 0,
+    "expected_assets_after_import": 0,
+    "conflicts": 0
+  },
+  "changes": [],
+  "conflicts": []
+}

@@ -1,6 +1,22 @@
 
-...........................................................................................................
+test_allocates_next_uai_for_genuine_new_asset (test_build_0038_asset_register_transaction.AssetRegisterTests.test_allocates_next_uai_for_genuine_new_asset) ... ok
+test_ambiguous_register_blocks (test_build_0038_asset_register_transaction.AssetRegisterTests.test_ambiguous_register_blocks) ... ok
+test_duplicate_uai_blocks (test_build_0038_asset_register_transaction.AssetRegisterTests.test_duplicate_uai_blocks) ... ok
+test_missing_register_blocks (test_build_0038_asset_register_transaction.AssetRegisterTests.test_missing_register_blocks) ... ok
+test_path_traversal_rejected (test_build_0038_asset_register_transaction.AssetRegisterTests.test_path_traversal_rejected) ... ok
+test_preserves_existing_uai_by_path (test_build_0038_asset_register_transaction.AssetRegisterTests.test_preserves_existing_uai_by_path) ... ok
+test_resolve_unique_register (test_build_0038_asset_register_transaction.AssetRegisterTests.test_resolve_unique_register) ... ok
+test_wrapper_root_rejected_as_unauthorised (test_build_0038_asset_register_transaction.AssetRegisterTests.test_wrapper_root_rejected_as_unauthorised) ... ok
+
 ----------------------------------------------------------------------
-Ran 107 tests in 0.025s
+Ran 8 tests in 0.012s
 
 OK
+
+Synthetic transactional import against a temporary repository: PASS
+- Unique canonical Master Asset Register resolved
+- 402 repository-relative files planned
+- 21 formal assets reconciled
+- UAI allocation and preservation controls passed
+- Checkpoint advanced to Version 1.2.1 after import
+- No __pycache__ or .pyc files left in repository
