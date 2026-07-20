@@ -56,6 +56,10 @@
                                         "valid":  true,
                                         "commit":  "d1557f4cd7d4f4bc05385929e047f44d1e72d214",
                                         "actions":  "GREEN",
-                                        "verified_on":  "2026-07-20T16:37:38"
+                                        "verified_on":  "2026-07-20T16:37:38",
+                                        "closure_state":  "ACTIONS_GREEN_CLOSED",
+                                        "closeout_evidence_commit":  "96324d10ddcb0c0e8e553a1cf678f74d0aa62902",
+                                        "closeout_actions":  "GREEN",
+                                        "closed_on":  "2026-07-20T16:49:43"
                                     }
 }

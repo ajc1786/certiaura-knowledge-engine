@@ -48,12 +48,25 @@
                          "control":  "State-aware import and two-stage close-out automation",
                          "status":  "VERIFIED",
                          "verified_on":  "2026-07-20T16:37:38"
+                     },
+                     {
+                         "control_id":  "B0042-LL-009",
+                         "control":  "Optional or migrating JSON properties must be written with Add-Member -Force rather than direct assignment under StrictMode",
+                         "status":  "VERIFIED",
+                         "verified_on":  "2026-07-20T16:49:43",
+                         "defect":  "The first final close-out run failed because CONTINUITY_CHECKPOINT_DELTA.json did not contain closure_gate and direct assignment was blocked.",
+                         "corrective_action":  "Recover only authorised partial files, then create or replace closure_gate through Add-Member -Force.",
+                         "preventive_control":  "Close-out schema-variance regression test and Set-OptionalProperty helper."
                      }
                  ],
     "closure_verification":  {
-                                 "status":  "VERIFIED_PENDING_CLOSEOUT_ACTIONS",
                                  "import_commit":  "d1557f4cd7d4f4bc05385929e047f44d1e72d214",
                                  "import_actions":  "GREEN",
-                                 "verified_on":  "2026-07-20T16:37:38"
+                                 "verified_on":  "2026-07-20T16:37:38",
+                                 "status":  "VERIFIED",
+                                 "final_state":  "ACTIONS_GREEN_CLOSED",
+                                 "closeout_evidence_commit":  "96324d10ddcb0c0e8e553a1cf678f74d0aa62902",
+                                 "closeout_actions":  "GREEN",
+                                 "closed_on":  "2026-07-20T16:49:43"
                              }
 }

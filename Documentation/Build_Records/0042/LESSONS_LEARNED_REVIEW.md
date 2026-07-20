@@ -41,3 +41,19 @@ The close-out launcher must record defects, root causes, time lost, corrective a
 
 All Build 0042 lessons-learned controls are verified against the canonical import. Final closure remains pending the close-out evidence and checkpoint Actions gates.
 <!-- CERTIAURA_BUILD_0042_CANONICAL_CLOSEOUT_END -->
+
+<!-- CERTIAURA_BUILD_0042_FINAL_CLOSURE_BEGIN -->
+## Final closure evidence
+
+**Close-out evidence commit:** `96324d10ddcb0c0e8e553a1cf678f74d0aa62902`
+**Close-out evidence GitHub Actions:** **GREEN**
+**Closed on:** 2026-07-20T16:49:43
+
+### Close-out defect resolved
+
+The first final-checkpoint attempt stopped before staging, commit or push because `CONTINUITY_CHECKPOINT_DELTA.json` did not contain a `closure_gate` property and Windows PowerShell StrictMode rejected direct assignment.
+
+The interrupted files were externally backed up and restored to the verified close-out evidence commit. The corrected workflow creates or replaces optional JSON properties through `Add-Member -Force` and verifies the final documentary state before declaring closure.
+
+Build 0042 is recorded as `ACTIONS_GREEN_CLOSED`. The next authorised integrated package is Build 0043 - retatrutide patient journey report generation and AI query integration baseline.
+<!-- CERTIAURA_BUILD_0042_FINAL_CLOSURE_END -->
