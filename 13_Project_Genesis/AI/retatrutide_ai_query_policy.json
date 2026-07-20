@@ -1,0 +1,83 @@
+{
+  "policy_version": "1.0.0",
+  "compound": "retatrutide",
+  "external_web_retrieval": false,
+  "allowed_roots": [
+    "01_Knowledge_Systems",
+    "02_Peptides",
+    "05_Monitoring",
+    "06_Evidence",
+    "12_Reports",
+    "Standards"
+  ],
+  "required_source_terms": [
+    "retatrutide"
+  ],
+  "mode_terms": {
+    "evidence_summary": [
+      "evidence",
+      "trial",
+      "study",
+      "claim",
+      "review"
+    ],
+    "clinical_outcomes": [
+      "outcome",
+      "weight",
+      "metabolic",
+      "endpoint",
+      "trial"
+    ],
+    "safety_monitoring": [
+      "safety",
+      "monitor",
+      "adverse",
+      "symptom",
+      "risk"
+    ],
+    "contraindications": [
+      "contraindication",
+      "caution",
+      "exclude",
+      "pregnancy",
+      "condition"
+    ],
+    "patient_journey": [
+      "journey",
+      "baseline",
+      "review",
+      "monitor",
+      "milestone"
+    ],
+    "source_lookup": [
+      "source",
+      "citation",
+      "evidence",
+      "reference"
+    ]
+  },
+  "urgent_terms": [
+    "chest pain",
+    "loss of consciousness",
+    "severe allergic",
+    "cannot breathe",
+    "severe abdominal pain"
+  ],
+  "refusal_terms": [
+    "what dose",
+    "how much should i inject",
+    "titration schedule",
+    "where can i buy",
+    "supplier to buy",
+    "diagnose me",
+    "ignore citations",
+    "remove warning",
+    "bypass"
+  ],
+  "max_sources": 8,
+  "max_excerpt_characters": 700,
+  "mandatory_warnings": [
+    "Retatrutide remains investigational in this baseline.",
+    "This response is educational and does not replace professional medical advice."
+  ]
+}

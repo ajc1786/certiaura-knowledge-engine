@@ -1,0 +1,36 @@
+{
+  "build_number": "0043",
+  "package_version": "1.0.1",
+  "validation_date": "2026-07-20",
+  "status": "CORRECTED_REISSUE_NON_WINDOWS_VALIDATED_WINDOWS_PS51_REPEAT_REQUIRED",
+  "defect_correction": {
+    "observed_gate": "Windows PowerShell 5.1 parser precheck",
+    "root_cause": "Non-ASCII Unicode punctuation in UTF-8-without-BOM PowerShell script",
+    "correction": "All .ps1 files ASCII-only with repository-normalised LF line endings",
+    "same_build_identity": true
+  },
+  "results": {
+    "package_preflight": "PASS",
+    "package_file_classification": "PASS_ALL_FILES",
+    "package_content_sha256": "PASS",
+    "powershell_ascii_gate": "PASS",
+    "json_parse": "PASS",
+    "python_compile": "PASS",
+    "python_unit_tests": "PASS_6_OF_6",
+    "repository_validator": "PASS",
+    "synthetic_dry_run": "DRY_RUN_VALIDATED",
+    "synthetic_transactional_apply": "APPLIED_VALIDATED",
+    "external_backup": "PASS",
+    "master_asset_register_reconciliation": "PASS_2_FORMAL_ASSETS",
+    "unrelated_history_preserved": "PASS",
+    "report_generation": "READY_FOR_CLINICIAN_DISCUSSION",
+    "ai_grounded_answer": "ANSWERED_GROUNDED",
+    "ai_dosing_refusal": "REFUSED_SAFETY_BOUNDARY",
+    "ai_urgent_routing": "URGENT_CLINICAL_ROUTING",
+    "runtime_artifacts": "NONE",
+    "unexpected_deletions": "NONE",
+    "git_diff_check": "PASS",
+    "git_diff_cached_check": "PASS"
+  },
+  "remaining_release_gate": "Repeat complete real Windows PowerShell 5.1 regression on corrected package before canonical import"
+}

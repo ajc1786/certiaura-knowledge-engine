@@ -1,0 +1,10 @@
+{
+  "schema_version": "1.0.0",
+  "query_text": "What safety and monitoring topics are present in the canonical retatrutide baseline?",
+  "query_mode": "safety_monitoring",
+  "request_context": {
+    "audience": "PATIENT_DISCUSSION_SUPPORT",
+    "personalised_medical_request": false,
+    "patient_reference": null
+  }
+}

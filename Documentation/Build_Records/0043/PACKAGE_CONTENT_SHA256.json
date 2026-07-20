@@ -1,0 +1,226 @@
+{
+  "algorithm": "SHA-256",
+  "scope": "All package files except this checksum record",
+  "files": [
+    {
+      "path": "12_Reports/Retatrutide/Examples/conditional_patient_profile.example.json",
+      "sha256": "33809e5ad69441d5c7ae85f4843e8adfced90261d7f941c2fa275abe1a3a2ff4",
+      "size_bytes": 765
+    },
+    {
+      "path": "12_Reports/Retatrutide/Examples/invalid_identifiable_patient_profile.example.json",
+      "sha256": "6523b0cc3ea4798c26fb5cb68c7c28ae9de4c067386f216d69421b82aba76330",
+      "size_bytes": 775
+    },
+    {
+      "path": "12_Reports/Retatrutide/Examples/urgent_patient_profile.example.json",
+      "sha256": "5083d4a93705e90811061090ec96056494575abc1a35c369c1b5dd9f3ea1ea6b",
+      "size_bytes": 792
+    },
+    {
+      "path": "12_Reports/Retatrutide/Examples/valid_patient_profile.example.json",
+      "sha256": "0c8fcbdb0c9ec47a9e5340d7255302e4abaf107c16afcb4b1f43250490908b65",
+      "size_bytes": 778
+    },
+    {
+      "path": "12_Reports/Retatrutide/Patient_Journey/__UAI___Retatrutide_Patient_Journey_Report_Baseline.md",
+      "sha256": "95bd2068a7ecb7f4a2a301cf88d71899acc1c508806298af16e8e71f6c0e7282",
+      "size_bytes": 1039
+    },
+    {
+      "path": "13_Project_Genesis/AI/Examples/refused_dosing_query.example.json",
+      "sha256": "f085c148290f88cc69b013c116b94f8f54e19984233ebf6eaefd673675ce03e1",
+      "size_bytes": 299
+    },
+    {
+      "path": "13_Project_Genesis/AI/Examples/urgent_symptom_query.example.json",
+      "sha256": "4d8e072f308a104670a9c6366ef6536ebcdb9e9b4bb3ed604df3a125ad51e60d",
+      "size_bytes": 318
+    },
+    {
+      "path": "13_Project_Genesis/AI/Examples/valid_evidence_query.example.json",
+      "sha256": "4892a5c21e45ab3b366816397f2b0ee4800d04aae70b42d6ad711053a7c49a8d",
+      "size_bytes": 324
+    },
+    {
+      "path": "13_Project_Genesis/AI/Examples/valid_safety_query.example.json",
+      "sha256": "599c95bc67daf84475c395ad2e02dc1f2c545b6601a66e43d04349f92071e70a",
+      "size_bytes": 320
+    },
+    {
+      "path": "13_Project_Genesis/AI/__UAI___Retatrutide_AI_Query_Integration_Baseline.md",
+      "sha256": "bbae6001d64a7204e9a38b06fd1167d42f713601b7c474d7406dd0cd214ffc03",
+      "size_bytes": 818
+    },
+    {
+      "path": "13_Project_Genesis/AI/retatrutide_ai_query_policy.json",
+      "sha256": "1f81dd3a529bce5562cda7dbe94bdb553edb5142c69c95f017a29e9224275305",
+      "size_bytes": 1609
+    },
+    {
+      "path": "13_Project_Genesis/Tests/test_build_0043_retatrutide_patient_journey_ai.py",
+      "sha256": "8ab4e83f2d9b08518e293dd53ab5121209c43cd322898ffe4b0172afbc3d5679",
+      "size_bytes": 3334
+    },
+    {
+      "path": "13_Project_Genesis/Validators/validate_build_0043_retatrutide_patient_journey_ai.py",
+      "sha256": "15d89455906f326d28dd609d75fce74c1e5e10ed6fd5c1b1ca6f2da7681dfd83",
+      "size_bytes": 2108
+    },
+    {
+      "path": "Documentation/Build_Records/0043/ASSET_INTENT_MANIFEST.json",
+      "sha256": "b4c8d0836b6e8b70ca570f50bfe2fa808078fd8d36443761afd36670eb834647",
+      "size_bytes": 8508
+    },
+    {
+      "path": "Documentation/Build_Records/0043/BUILD_MANIFEST.json",
+      "sha256": "7282f89d5ec25c587c4cf2c27fec2ad9c3d210a061915d0bc64d4d58b35206d2",
+      "size_bytes": 1283
+    },
+    {
+      "path": "Documentation/Build_Records/0043/CONTINUATION_CHECKPOINT_UPDATE.md",
+      "sha256": "f51b7d597e5f34d0aa910506c2ca2044e94ec50826378cc35c535633c2ad900d",
+      "size_bytes": 1043
+    },
+    {
+      "path": "Documentation/Build_Records/0043/CORRECTED_REISSUE_VALIDATION_REPORT.json",
+      "sha256": "12d0160f6f4fefdc697f1f3c0019f372d227d77df21d7d0f48cf681b9e69b003",
+      "size_bytes": 1518
+    },
+    {
+      "path": "Documentation/Build_Records/0043/CORRECTION_RECORD.md",
+      "sha256": "41bc3dddef7d7ef91e5f5f4c120e453f07f0a27ea39d6c153ee18a92b7384c06",
+      "size_bytes": 1325
+    },
+    {
+      "path": "Documentation/Build_Records/0043/DECISION_RECORD.md",
+      "sha256": "00b73708e7405e68db4c932d311df0385d4bfe625bdd7bbb20ca1b0a0cee1703",
+      "size_bytes": 669
+    },
+    {
+      "path": "Documentation/Build_Records/0043/LESSONS_LEARNED_BASELINE.md",
+      "sha256": "1ad934d3739de6625c0af96afa5269ecbec4b5529dfbbb5a623782e604429cf0",
+      "size_bytes": 1742
+    },
+    {
+      "path": "Documentation/Build_Records/0043/PACKAGE_INVENTORY.json",
+      "sha256": "fa071a9d926f4363bbd3049c9c3b2adc13ecfc013729589a557f52f3293da3d8",
+      "size_bytes": 3047
+    },
+    {
+      "path": "Documentation/Build_Records/0043/PROPOSED_CHANGE_LOG.md",
+      "sha256": "3dd33c35872d574bee7bb1a85e299ffc8f69588d2a3bb5b503d0363e89658269",
+      "size_bytes": 720
+    },
+    {
+      "path": "Documentation/Build_Records/0043/PROPOSED_NEXT_ACTION.md",
+      "sha256": "4e33b3eb57c98f3b588db2427e89e37434194d12ee06de41afd3149e95ad8c48",
+      "size_bytes": 377
+    },
+    {
+      "path": "Documentation/Build_Records/0043/READ_ME_FIRST.md",
+      "sha256": "f3ec19a8c407faa60895f182ec347f6cdef4b87c7e533ce3928becf9692d258a",
+      "size_bytes": 2519
+    },
+    {
+      "path": "Documentation/Build_Records/0043/ROUTING_MANIFEST.json",
+      "sha256": "3c2eda2644c12c68589b86ac0c216432ab928b99d47df2fb8592b876542b1123",
+      "size_bytes": 652
+    },
+    {
+      "path": "Documentation/Build_Records/0043/WINDOWS_PS51_REGRESSION_MATRIX.md",
+      "sha256": "395838fe79e9745dcb1104914aae81f230f2883025196682e33dad01c45b8b5f",
+      "size_bytes": 993
+    },
+    {
+      "path": "Documentation/Build_Records/0043/WINDOWS_PS51_RELEASE_GATE_STATUS.json",
+      "sha256": "50660a34bb0b28f8063150ab62ed4d24c680dd5ebc84d96b3fed191358b80e95",
+      "size_bytes": 1149
+    },
+    {
+      "path": "Schemas/retatrutide_ai_query.schema.json",
+      "sha256": "6d11fd4be9e51e27e1e401c755d8e6bba454151322b311f2d5bff54a534728f5",
+      "size_bytes": 1313
+    },
+    {
+      "path": "Schemas/retatrutide_ai_response.schema.json",
+      "sha256": "9b4489d6c1cf595302722351d6a755d7193881bbacae5c204740b55845819ed4",
+      "size_bytes": 2129
+    },
+    {
+      "path": "Schemas/retatrutide_patient_journey_report.schema.json",
+      "sha256": "75f37680e0b97893d469b896e4a18947bbe9c7d267fca445623acba64a2faa7a",
+      "size_bytes": 3420
+    },
+    {
+      "path": "Schemas/retatrutide_patient_profile.schema.json",
+      "sha256": "b7b179e22ecab256267e84dfa8c0e70b02a09485eed4190ec7c7a6861bb4e5c8",
+      "size_bytes": 4081
+    },
+    {
+      "path": "Scripts/Invoke_Certiaura_Build_0043_Import.ps1",
+      "sha256": "5b4d440c6254a2efc5e0f4101afcc9de0e496e8c643c1d1f5764d4c149f6606d",
+      "size_bytes": 921
+    },
+    {
+      "path": "Scripts/Invoke_Certiaura_Build_0043_Preflight.ps1",
+      "sha256": "b46950f9ea9914eb0abf5bb7f640a3096f9bd8bc58cca259dd6717f5b867a451",
+      "size_bytes": 581
+    },
+    {
+      "path": "Scripts/Invoke_Certiaura_Build_0043_Windows_PS51_Regression.ps1",
+      "sha256": "635b61188cf9b3240c894b020dc500c3ac75df9e64bd7322d1785cf3c726f88a",
+      "size_bytes": 6816
+    },
+    {
+      "path": "Scripts/Run_Certiaura_Build_0043.ps1",
+      "sha256": "38443c38cd4002e4561041df83d87e86f0776b3f3eebd17bc9764d8795444daf",
+      "size_bytes": 7209
+    },
+    {
+      "path": "Scripts/generate_retatrutide_patient_journey_report.py",
+      "sha256": "870a00202b1a1d85f26c17fd790760883ce454eacd1e6a01682d5f52bf15e671",
+      "size_bytes": 8292
+    },
+    {
+      "path": "Scripts/import_certiaura_build_0043.py",
+      "sha256": "043a4b7bfb54b5336909f470bb18792973c5e80a8bda5a5cce0d9af6939a3497",
+      "size_bytes": 8283
+    },
+    {
+      "path": "Scripts/preflight_certiaura_build_0043.py",
+      "sha256": "3c094a38128dae538865ac6201ea3b34ef0b7fd1402ee2a7cb405d1c960408ab",
+      "size_bytes": 2868
+    },
+    {
+      "path": "Scripts/query_retatrutide_knowledge.py",
+      "sha256": "b622a7a390ee49a05e4b8f6ce95b90a3ae9f0fdfb6d6f2b00465294b36c84d40",
+      "size_bytes": 5009
+    },
+    {
+      "path": "Standards/RETATRUTIDE_AI_QUERY_INTEGRATION_STANDARD.md",
+      "sha256": "858c335e3f18d67bc186de6bc814379d020049e9d1616a3e6c65b54e59dbccb4",
+      "size_bytes": 2019
+    },
+    {
+      "path": "Standards/RETATRUTIDE_PATIENT_JOURNEY_REPORT_STANDARD.md",
+      "sha256": "6c4c34809ee9229f4b31d5fe0e0064921434271760af5fc0596df294ab387101",
+      "size_bytes": 2538
+    },
+    {
+      "path": "Templates/retatrutide_patient_journey_report.template.html",
+      "sha256": "fd6c27bbe17a7d39a9a0f313aaeff8d4f17214f82074e1c2d819bce21216cbe9",
+      "size_bytes": 744
+    },
+    {
+      "path": "Templates/retatrutide_patient_journey_report.template.md",
+      "sha256": "a8007dad80ec134d6eaf0eab2878b8c7561d3be418b34ad206ae6e50418c6f13",
+      "size_bytes": 692
+    },
+    {
+      "path": "Templates/retatrutide_patient_profile.template.json",
+      "sha256": "19d8e969108f51d3c45346054e1df447e2f7071d940324cb54e644caf0ac6eae",
+      "size_bytes": 656
+    }
+  ]
+}

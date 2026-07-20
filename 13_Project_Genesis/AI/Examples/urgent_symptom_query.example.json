@@ -1,0 +1,10 @@
+{
+  "schema_version": "1.0.0",
+  "query_text": "I have severe abdominal pain and persistent vomiting. What should I do?",
+  "query_mode": "safety_monitoring",
+  "request_context": {
+    "audience": "PATIENT_DISCUSSION_SUPPORT",
+    "personalised_medical_request": true,
+    "patient_reference": "SYNTH-RPJ-0001"
+  }
+}

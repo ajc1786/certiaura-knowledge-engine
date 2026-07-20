@@ -1,0 +1,271 @@
+{
+  "build_number": "0043",
+  "build_title": "retatrutide patient journey report generation and AI query integration baseline",
+  "manifest_version": "1.0.1",
+  "canonical_register": "Documentation/Master_Asset_Register.csv",
+  "assets": [
+    {
+      "repository_path": "12_Reports/Retatrutide/Patient_Journey/__UAI___Retatrutide_Patient_Journey_Report_Baseline.md",
+      "classification": "FORMAL_ASSET",
+      "asset_title": "Retatrutide Patient Journey Report Generation Baseline",
+      "asset_type": "Report Knowledge Asset",
+      "knowledge_system": "RKS",
+      "intended_action": "CREATE",
+      "existing_uai": null,
+      "proposed_version": "1.0.0",
+      "proposed_status": "BASELINE",
+      "owner": "Certiaura",
+      "completion_percentage": 75,
+      "parent_assets": [
+        "CERT-PKS-000001"
+      ],
+      "child_assets": [],
+      "relationships": [
+        {
+          "type": "HAS_REPORT",
+          "target": "CERT-PKS-000001"
+        },
+        {
+          "type": "REQUIRES",
+          "target": "BUILD_0041_EVIDENCE_BASELINE"
+        },
+        {
+          "type": "REQUIRES",
+          "target": "BUILD_0042_SAFETY_BASELINE"
+        }
+      ],
+      "evidence_links": [],
+      "report_links": [],
+      "marketplace_links": [],
+      "supporting_files": [
+        "Standards/RETATRUTIDE_PATIENT_JOURNEY_REPORT_STANDARD.md",
+        "Schemas/retatrutide_patient_journey_report.schema.json",
+        "Scripts/generate_retatrutide_patient_journey_report.py"
+      ],
+      "allow_replace": false
+    },
+    {
+      "repository_path": "13_Project_Genesis/AI/__UAI___Retatrutide_AI_Query_Integration_Baseline.md",
+      "classification": "FORMAL_ASSET",
+      "asset_title": "Retatrutide AI Query Integration Baseline",
+      "asset_type": "Platform Component",
+      "knowledge_system": "SYS",
+      "intended_action": "CREATE",
+      "existing_uai": null,
+      "proposed_version": "1.0.0",
+      "proposed_status": "BASELINE",
+      "owner": "Certiaura",
+      "completion_percentage": 70,
+      "parent_assets": [
+        "CERT-PKS-000001"
+      ],
+      "child_assets": [],
+      "relationships": [
+        {
+          "type": "REQUIRES",
+          "target": "BUILD_0041_EVIDENCE_BASELINE"
+        },
+        {
+          "type": "REQUIRES",
+          "target": "BUILD_0042_SAFETY_BASELINE"
+        },
+        {
+          "type": "GENERATES",
+          "target": "RETATRUTIDE_AI_GROUNDED_RESPONSE"
+        }
+      ],
+      "evidence_links": [],
+      "report_links": [],
+      "marketplace_links": [],
+      "supporting_files": [
+        "Standards/RETATRUTIDE_AI_QUERY_INTEGRATION_STANDARD.md",
+        "Schemas/retatrutide_ai_query.schema.json",
+        "Schemas/retatrutide_ai_response.schema.json",
+        "Scripts/query_retatrutide_knowledge.py"
+      ],
+      "allow_replace": false
+    }
+  ],
+  "file_classifications": [
+    {
+      "path": "12_Reports/Retatrutide/Examples/conditional_patient_profile.example.json",
+      "classification": "EXAMPLE"
+    },
+    {
+      "path": "12_Reports/Retatrutide/Examples/invalid_identifiable_patient_profile.example.json",
+      "classification": "EXAMPLE"
+    },
+    {
+      "path": "12_Reports/Retatrutide/Examples/urgent_patient_profile.example.json",
+      "classification": "EXAMPLE"
+    },
+    {
+      "path": "12_Reports/Retatrutide/Examples/valid_patient_profile.example.json",
+      "classification": "EXAMPLE"
+    },
+    {
+      "path": "12_Reports/Retatrutide/Patient_Journey/__UAI___Retatrutide_Patient_Journey_Report_Baseline.md",
+      "classification": "FORMAL_ASSET"
+    },
+    {
+      "path": "13_Project_Genesis/AI/Examples/refused_dosing_query.example.json",
+      "classification": "EXAMPLE"
+    },
+    {
+      "path": "13_Project_Genesis/AI/Examples/urgent_symptom_query.example.json",
+      "classification": "EXAMPLE"
+    },
+    {
+      "path": "13_Project_Genesis/AI/Examples/valid_evidence_query.example.json",
+      "classification": "EXAMPLE"
+    },
+    {
+      "path": "13_Project_Genesis/AI/Examples/valid_safety_query.example.json",
+      "classification": "EXAMPLE"
+    },
+    {
+      "path": "13_Project_Genesis/AI/__UAI___Retatrutide_AI_Query_Integration_Baseline.md",
+      "classification": "FORMAL_ASSET"
+    },
+    {
+      "path": "13_Project_Genesis/AI/retatrutide_ai_query_policy.json",
+      "classification": "SUPPORTING_FILE"
+    },
+    {
+      "path": "13_Project_Genesis/Tests/test_build_0043_retatrutide_patient_journey_ai.py",
+      "classification": "TEST"
+    },
+    {
+      "path": "13_Project_Genesis/Validators/validate_build_0043_retatrutide_patient_journey_ai.py",
+      "classification": "SCRIPT"
+    },
+    {
+      "path": "Documentation/Build_Records/0043/ASSET_INTENT_MANIFEST.json",
+      "classification": "BUILD_RECORD"
+    },
+    {
+      "path": "Documentation/Build_Records/0043/BUILD_MANIFEST.json",
+      "classification": "BUILD_RECORD"
+    },
+    {
+      "path": "Documentation/Build_Records/0043/CONTINUATION_CHECKPOINT_UPDATE.md",
+      "classification": "BUILD_RECORD"
+    },
+    {
+      "path": "Documentation/Build_Records/0043/CORRECTED_REISSUE_VALIDATION_REPORT.json",
+      "classification": "BUILD_RECORD"
+    },
+    {
+      "path": "Documentation/Build_Records/0043/CORRECTION_RECORD.md",
+      "classification": "BUILD_RECORD"
+    },
+    {
+      "path": "Documentation/Build_Records/0043/DECISION_RECORD.md",
+      "classification": "BUILD_RECORD"
+    },
+    {
+      "path": "Documentation/Build_Records/0043/LESSONS_LEARNED_BASELINE.md",
+      "classification": "BUILD_RECORD"
+    },
+    {
+      "path": "Documentation/Build_Records/0043/PACKAGE_CONTENT_SHA256.json",
+      "classification": "BUILD_RECORD"
+    },
+    {
+      "path": "Documentation/Build_Records/0043/PACKAGE_INVENTORY.json",
+      "classification": "BUILD_RECORD"
+    },
+    {
+      "path": "Documentation/Build_Records/0043/PROPOSED_CHANGE_LOG.md",
+      "classification": "BUILD_RECORD"
+    },
+    {
+      "path": "Documentation/Build_Records/0043/PROPOSED_NEXT_ACTION.md",
+      "classification": "BUILD_RECORD"
+    },
+    {
+      "path": "Documentation/Build_Records/0043/READ_ME_FIRST.md",
+      "classification": "BUILD_RECORD"
+    },
+    {
+      "path": "Documentation/Build_Records/0043/ROUTING_MANIFEST.json",
+      "classification": "BUILD_RECORD"
+    },
+    {
+      "path": "Documentation/Build_Records/0043/WINDOWS_PS51_REGRESSION_MATRIX.md",
+      "classification": "BUILD_RECORD"
+    },
+    {
+      "path": "Documentation/Build_Records/0043/WINDOWS_PS51_RELEASE_GATE_STATUS.json",
+      "classification": "BUILD_RECORD"
+    },
+    {
+      "path": "Schemas/retatrutide_ai_query.schema.json",
+      "classification": "SCHEMA"
+    },
+    {
+      "path": "Schemas/retatrutide_ai_response.schema.json",
+      "classification": "SCHEMA"
+    },
+    {
+      "path": "Schemas/retatrutide_patient_journey_report.schema.json",
+      "classification": "SCHEMA"
+    },
+    {
+      "path": "Schemas/retatrutide_patient_profile.schema.json",
+      "classification": "SCHEMA"
+    },
+    {
+      "path": "Scripts/Invoke_Certiaura_Build_0043_Import.ps1",
+      "classification": "SCRIPT"
+    },
+    {
+      "path": "Scripts/Invoke_Certiaura_Build_0043_Preflight.ps1",
+      "classification": "SCRIPT"
+    },
+    {
+      "path": "Scripts/Invoke_Certiaura_Build_0043_Windows_PS51_Regression.ps1",
+      "classification": "SCRIPT"
+    },
+    {
+      "path": "Scripts/Run_Certiaura_Build_0043.ps1",
+      "classification": "SCRIPT"
+    },
+    {
+      "path": "Scripts/generate_retatrutide_patient_journey_report.py",
+      "classification": "SCRIPT"
+    },
+    {
+      "path": "Scripts/import_certiaura_build_0043.py",
+      "classification": "SCRIPT"
+    },
+    {
+      "path": "Scripts/preflight_certiaura_build_0043.py",
+      "classification": "SCRIPT"
+    },
+    {
+      "path": "Scripts/query_retatrutide_knowledge.py",
+      "classification": "SCRIPT"
+    },
+    {
+      "path": "Standards/RETATRUTIDE_AI_QUERY_INTEGRATION_STANDARD.md",
+      "classification": "SUPPORTING_FILE"
+    },
+    {
+      "path": "Standards/RETATRUTIDE_PATIENT_JOURNEY_REPORT_STANDARD.md",
+      "classification": "SUPPORTING_FILE"
+    },
+    {
+      "path": "Templates/retatrutide_patient_journey_report.template.html",
+      "classification": "TEMPLATE"
+    },
+    {
+      "path": "Templates/retatrutide_patient_journey_report.template.md",
+      "classification": "TEMPLATE"
+    },
+    {
+      "path": "Templates/retatrutide_patient_profile.template.json",
+      "classification": "TEMPLATE"
+    }
+  ]
+}

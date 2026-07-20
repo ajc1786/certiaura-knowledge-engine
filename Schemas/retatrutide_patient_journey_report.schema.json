@@ -1,0 +1,171 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://certiaura.local/schemas/retatrutide_patient_journey_report.schema.json",
+  "title": "Retatrutide Patient Journey Report",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "report_id",
+    "generated_at_utc",
+    "input_sha256",
+    "patient_reference",
+    "report_state",
+    "scope_notice",
+    "journey_phase",
+    "baseline_summary",
+    "monitoring",
+    "safety",
+    "clinical_outcomes",
+    "uncertainty",
+    "clinician_discussion_prompts",
+    "sources"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.0.0"
+    },
+    "report_id": {
+      "type": "string",
+      "pattern": "^RPJ-[A-F0-9]{16}$"
+    },
+    "generated_at_utc": {
+      "type": "string"
+    },
+    "input_sha256": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "patient_reference": {
+      "type": "string"
+    },
+    "report_state": {
+      "enum": [
+        "READY_FOR_CLINICIAN_DISCUSSION",
+        "CONDITIONAL_MISSING_DATA",
+        "URGENT_CLINICAL_ROUTING",
+        "BLOCKED_UNSAFE_OR_UNSUPPORTED"
+      ]
+    },
+    "scope_notice": {
+      "type": "array",
+      "minItems": 3,
+      "items": {
+        "type": "string"
+      }
+    },
+    "journey_phase": {
+      "type": "string"
+    },
+    "baseline_summary": {
+      "type": "object"
+    },
+    "monitoring": {
+      "type": "object",
+      "required": [
+        "status",
+        "items"
+      ],
+      "properties": {
+        "status": {
+          "type": "string"
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "type": "object"
+          }
+        }
+      }
+    },
+    "safety": {
+      "type": "object",
+      "required": [
+        "routing",
+        "flags",
+        "cautions"
+      ],
+      "properties": {
+        "routing": {
+          "type": "string"
+        },
+        "flags": {
+          "type": "array"
+        },
+        "cautions": {
+          "type": "array"
+        }
+      }
+    },
+    "clinical_outcomes": {
+      "type": "object",
+      "required": [
+        "status",
+        "claims"
+      ],
+      "properties": {
+        "status": {
+          "type": "string"
+        },
+        "claims": {
+          "type": "array",
+          "items": {
+            "type": "object"
+          }
+        }
+      }
+    },
+    "uncertainty": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    },
+    "clinician_discussion_prompts": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "repository_path",
+          "source_status"
+        ],
+        "properties": {
+          "repository_path": {
+            "type": "string"
+          },
+          "uai": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "claim_or_evidence_id": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "review_status": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "source_status": {
+            "enum": [
+              "RESOLVED",
+              "SOURCE_NOT_RESOLVED"
+            ]
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": "1.0.0",
+  "query_text": "Summarise the reviewed evidence position for retatrutide and cite the repository sources.",
+  "query_mode": "evidence_summary",
+  "request_context": {
+    "audience": "PATIENT_DISCUSSION_SUPPORT",
+    "personalised_medical_request": false,
+    "patient_reference": null
+  }
+}

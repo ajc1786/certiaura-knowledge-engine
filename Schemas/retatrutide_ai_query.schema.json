@@ -1,0 +1,60 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://certiaura.local/schemas/retatrutide_ai_query.schema.json",
+  "title": "Retatrutide AI Query",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "query_text",
+    "query_mode",
+    "request_context"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.0.0"
+    },
+    "query_text": {
+      "type": "string",
+      "minLength": 3,
+      "maxLength": 1200
+    },
+    "query_mode": {
+      "enum": [
+        "evidence_summary",
+        "clinical_outcomes",
+        "safety_monitoring",
+        "contraindications",
+        "patient_journey",
+        "source_lookup"
+      ]
+    },
+    "request_context": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "audience",
+        "personalised_medical_request"
+      ],
+      "properties": {
+        "audience": {
+          "enum": [
+            "PUBLIC",
+            "PATIENT_DISCUSSION_SUPPORT",
+            "PROFESSIONAL",
+            "INTERNAL_REVIEW"
+          ]
+        },
+        "personalised_medical_request": {
+          "type": "boolean"
+        },
+        "patient_reference": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    }
+  }
+}

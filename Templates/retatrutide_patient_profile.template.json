@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0.0",
+  "patient_reference": "PSEUDONYM_REQUIRED",
+  "journey_phase": "PRE_TREATMENT_DISCUSSION",
+  "clinical_supervision": false,
+  "baseline": {
+    "age_band": "40_49",
+    "sex_recorded_for_clinical_context": "NOT_RECORDED",
+    "height_cm": 0,
+    "weight_kg": 0,
+    "goals": []
+  },
+  "monitoring_inputs": {
+    "last_clinical_review_date": null,
+    "data_completeness": "INSUFFICIENT",
+    "known_conditions": [],
+    "current_medicines_discussed_with_clinician": false
+  },
+  "symptom_flags": [
+    "NONE"
+  ],
+  "consent": {
+    "pseudonymised_processing_confirmed": true,
+    "educational_use_acknowledged": true
+  }
+}

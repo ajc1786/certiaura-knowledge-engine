@@ -1,0 +1,100 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://certiaura.local/schemas/retatrutide_ai_response.schema.json",
+  "title": "Retatrutide AI Grounded Response",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "query_id",
+    "policy_version",
+    "generated_at_utc",
+    "query_sha256",
+    "retrieval_set_sha256",
+    "response_state",
+    "answer",
+    "warnings",
+    "sources"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.0.0"
+    },
+    "query_id": {
+      "type": "string",
+      "pattern": "^RAI-[A-F0-9]{16}$"
+    },
+    "policy_version": {
+      "const": "1.0.0"
+    },
+    "generated_at_utc": {
+      "type": "string"
+    },
+    "query_sha256": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "retrieval_set_sha256": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "response_state": {
+      "enum": [
+        "ANSWERED_GROUNDED",
+        "ABSTAINED_INSUFFICIENT_EVIDENCE",
+        "REFUSED_SAFETY_BOUNDARY",
+        "URGENT_CLINICAL_ROUTING",
+        "ERROR_SOURCE_INTEGRITY"
+      ]
+    },
+    "answer": {
+      "type": "string"
+    },
+    "warnings": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "repository_path",
+          "excerpt_sha256"
+        ],
+        "properties": {
+          "repository_path": {
+            "type": "string"
+          },
+          "uai": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "claim_or_evidence_id": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "review_status": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "excerpt": {
+            "type": "string"
+          },
+          "excerpt_sha256": {
+            "type": "string",
+            "pattern": "^[a-f0-9]{64}$"
+          }
+        }
+      }
+    }
+  }
+}

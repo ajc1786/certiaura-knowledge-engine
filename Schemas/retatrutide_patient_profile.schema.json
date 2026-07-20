@@ -1,0 +1,179 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://certiaura.local/schemas/retatrutide_patient_profile.schema.json",
+  "title": "Retatrutide Pseudonymised Patient Journey Input",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "patient_reference",
+    "journey_phase",
+    "clinical_supervision",
+    "baseline",
+    "monitoring_inputs",
+    "symptom_flags",
+    "consent"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.0.0"
+    },
+    "patient_reference": {
+      "type": "string",
+      "pattern": "^[A-Z0-9_-]{4,40}$"
+    },
+    "journey_phase": {
+      "enum": [
+        "PRE_TREATMENT_DISCUSSION",
+        "BASELINE_ASSESSMENT",
+        "EARLY_MONITORING",
+        "ONGOING_MONITORING",
+        "TREATMENT_REVIEW",
+        "POST_TREATMENT_REVIEW"
+      ]
+    },
+    "clinical_supervision": {
+      "type": "boolean"
+    },
+    "baseline": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "age_band",
+        "sex_recorded_for_clinical_context",
+        "height_cm",
+        "weight_kg",
+        "goals"
+      ],
+      "properties": {
+        "age_band": {
+          "enum": [
+            "18_29",
+            "30_39",
+            "40_49",
+            "50_59",
+            "60_69",
+            "70_PLUS"
+          ]
+        },
+        "sex_recorded_for_clinical_context": {
+          "enum": [
+            "FEMALE",
+            "MALE",
+            "INTERSEX_OR_OTHER",
+            "NOT_RECORDED"
+          ]
+        },
+        "height_cm": {
+          "type": "number",
+          "minimum": 120,
+          "maximum": 230
+        },
+        "weight_kg": {
+          "type": "number",
+          "minimum": 35,
+          "maximum": 350
+        },
+        "goals": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 8,
+          "items": {
+            "type": "string",
+            "minLength": 2,
+            "maxLength": 120
+          }
+        }
+      }
+    },
+    "monitoring_inputs": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "last_clinical_review_date",
+        "data_completeness",
+        "known_conditions",
+        "current_medicines_discussed_with_clinician"
+      ],
+      "properties": {
+        "last_clinical_review_date": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date"
+        },
+        "data_completeness": {
+          "enum": [
+            "COMPLETE_FOR_BASELINE",
+            "PARTIAL",
+            "INSUFFICIENT"
+          ]
+        },
+        "known_conditions": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "maxLength": 160
+          }
+        },
+        "current_medicines_discussed_with_clinician": {
+          "type": "boolean"
+        }
+      }
+    },
+    "symptom_flags": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "enum": [
+          "NONE",
+          "SEVERE_ABDOMINAL_PAIN",
+          "PERSISTENT_VOMITING",
+          "SIGNS_OF_SEVERE_ALLERGIC_REACTION",
+          "LOSS_OF_CONSCIOUSNESS",
+          "CHEST_PAIN",
+          "SEVERE_DEHYDRATION_CONCERN",
+          "OTHER_URGENT_CONCERN"
+        ]
+      }
+    },
+    "consent": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "pseudonymised_processing_confirmed",
+        "educational_use_acknowledged"
+      ],
+      "properties": {
+        "pseudonymised_processing_confirmed": {
+          "const": true
+        },
+        "educational_use_acknowledged": {
+          "const": true
+        }
+      }
+    }
+  },
+  "allOf": [
+    {
+      "not": {
+        "properties": {
+          "symptom_flags": {
+            "contains": {
+              "const": "NONE"
+            },
+            "minContains": 1
+          },
+          "clinical_supervision": {
+            "const": false
+          }
+        },
+        "required": [
+          "symptom_flags",
+          "clinical_supervision"
+        ]
+      }
+    }
+  ]
+}

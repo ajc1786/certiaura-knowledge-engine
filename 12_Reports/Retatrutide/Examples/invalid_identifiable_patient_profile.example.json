@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0.0",
+  "patient_reference": "John Smith",
+  "journey_phase": "BASELINE_ASSESSMENT",
+  "clinical_supervision": true,
+  "baseline": {
+    "age_band": "40_49",
+    "sex_recorded_for_clinical_context": "MALE",
+    "height_cm": 183,
+    "weight_kg": 106,
+    "goals": [
+      "Discuss evidence-based weight-management options with a clinician",
+      "Establish a monitoring baseline"
+    ]
+  },
+  "monitoring_inputs": {
+    "last_clinical_review_date": "2026-07-01",
+    "data_completeness": "COMPLETE_FOR_BASELINE",
+    "known_conditions": [],
+    "current_medicines_discussed_with_clinician": true
+  },
+  "symptom_flags": [
+    "NONE"
+  ],
+  "consent": {
+    "pseudonymised_processing_confirmed": false,
+    "educational_use_acknowledged": true
+  }
+}
