@@ -35,7 +35,7 @@ No canonical repository time was consumed because package production occurred ou
 
 This review must be re-opened after the canonical import to record actual importer behaviour, defects, time lost, corrective actions and GitHub Actions evidence. Build 0041 must not reach `ACTIONS_GREEN_CLOSED` until that close-out section is completed and verified.
 
-## Delivery integration correction â€” package v1.0.2
+## Delivery integration correction Ã¢â‚¬â€ package v1.0.2
 
 - **Defect:** The Build 0041 package and PowerShell implementation shortcut were initially issued as separate downloads.
 - **Root cause:** The single-link delivery requirement had not yet been integrated into the build-generation template.
@@ -96,3 +96,13 @@ The real canonical import completed transactionally without repository, register
 
 All applicable Build 0041 lessons-learned controls are implemented and verified against the successful canonical import. Build 0041 is eligible for `ACTIONS_GREEN_CLOSED` after this close-out record is committed, pushed and its GitHub Actions workflow is confirmed green.
 <!-- CERTIAURA_BUILD_0041_CANONICAL_CLOSEOUT_END -->
+
+<!-- CERTIAURA_BUILD_0041_FINAL_CLOSURE_BEGIN -->
+## Final closure evidence
+
+**Close-out evidence commit:** `6fb136094f2705608b4afd302c4bae16a56ccbea`
+**Close-out evidence GitHub Actions:** **GREEN**
+**Closed on:** 2026-07-20T15:34:16
+
+The canonical import, actual validation evidence, lessons-learned controls and close-out evidence have all been verified. Build 0041 is recorded as `ACTIONS_GREEN_CLOSED`. The next authorised integrated package is Build 0042.
+<!-- CERTIAURA_BUILD_0041_FINAL_CLOSURE_END -->

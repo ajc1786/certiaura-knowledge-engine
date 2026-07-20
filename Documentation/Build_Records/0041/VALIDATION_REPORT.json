@@ -68,6 +68,10 @@
                                         "unexpected_deletions":  0,
                                         "runtime_artifacts":  0,
                                         "git_diff_check":  "PASS",
-                                        "git_diff_cached_check":  "PASS"
+                                        "git_diff_cached_check":  "PASS",
+                                        "closeout_evidence_commit":  "6fb136094f2705608b4afd302c4bae16a56ccbea",
+                                        "closeout_actions":  "GREEN",
+                                        "closure_state":  "ACTIONS_GREEN_CLOSED",
+                                        "closed_on":  "2026-07-20T15:34:16"
                                     }
 }

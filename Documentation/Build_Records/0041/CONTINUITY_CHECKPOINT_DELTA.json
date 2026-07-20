@@ -1,20 +1,22 @@
 {
     "schema_version":  "1.0.0",
     "last_closed_build":  {
-                              "build_number":  "0040",
+                              "build_number":  "0041",
+                              "title":  "retatrutide evidence corpus citation graph and scientific review baseline",
                               "state":  "ACTIONS_GREEN_CLOSED",
-                              "commit":  "6f4dfb11dfdc4b28fe736972864ec1acf1a1e056"
+                              "canonical_import_commit":  "a63fe923160e5bface3f794f068cbfaeb7a3cd9f",
+                              "closeout_evidence_commit":  "6fb136094f2705608b4afd302c4bae16a56ccbea",
+                              "closed_on":  "2026-07-20T15:34:16"
                           },
     "current_build":  {
                           "build_number":  "0041",
                           "title":  "retatrutide evidence corpus citation graph and scientific review baseline",
-                          "canonical_import_commit":  "a63fe923160e5bface3f794f068cbfaeb7a3cd9f",
-                          "state":  "LESSONS_VERIFIED_PENDING_CLOSEOUT_ACTIONS"
+                          "state":  "ACTIONS_GREEN_CLOSED"
                       },
-    "immediate_next_action":  "Commit and push the Build 0041 close-out evidence, then confirm GitHub Actions green.",
+    "immediate_next_action":  "Begin Build 0042 - Retatrutide safety, monitoring, contraindication and clinical-outcome integration baseline.",
     "following_planned_build":  {
                                     "build_number":  "0042",
                                     "title":  "Retatrutide safety monitoring contraindication and clinical-outcome integration baseline"
                                 },
-    "closure_gate":  "Lessons verified; close-out commit Actions pending."
+    "closure_gate":  "COMPLETE"
 }
