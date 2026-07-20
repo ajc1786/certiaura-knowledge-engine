@@ -1,12 +1,17 @@
 {
-  "build_number": "0042",
-  "package_state": "GENERATED",
-  "canonical_state": "NOT_IMPORTED",
-  "scientific_scope": {
-    "safety_signals": 8,
-    "monitoring_domains": 6,
-    "contraindication_entries": 6,
-    "outcomes": 7
-  },
-  "closure_gate": "Actual import, GitHub Actions and lessons verification required."
+    "build_number":  "0042",
+    "package_state":  "IMPORTED",
+    "canonical_state":  "LESSONS_VERIFIED_PENDING_CLOSEOUT_ACTIONS",
+    "scientific_scope":  {
+                             "safety_signals":  8,
+                             "monitoring_domains":  6,
+                             "contraindication_entries":  6,
+                             "outcomes":  7
+                         },
+    "closure_gate":  "Actual import, GitHub Actions and lessons verification required.",
+    "canonical_import":  {
+                             "commit":  "d1557f4cd7d4f4bc05385929e047f44d1e72d214",
+                             "actions":  "GREEN",
+                             "verified_on":  "2026-07-20T16:37:38"
+                         }
 }

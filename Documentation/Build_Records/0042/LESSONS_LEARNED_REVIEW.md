@@ -23,3 +23,21 @@
 ## Required close-out evidence
 
 The close-out launcher must record defects, root causes, time lost, corrective actions, preventive controls, actual dry-run/apply results, backup path, register totals, validation results, tests, Git checks, import commit, Actions evidence and final checkpoint evidence.
+
+<!-- CERTIAURA_BUILD_0042_CANONICAL_CLOSEOUT_BEGIN -->
+## Canonical import verification
+
+**Verified on:** 2026-07-20T16:37:38
+**Import commit:** `d1557f4cd7d4f4bc05385929e047f44d1e72d214`
+**Transactional backup:** `C:\Users\enqui\OneDrive\Documents\CERTIAURA\Backups\Build_0042_Pre_Import_20260720T153601Z`
+**Package SHA-256:** `3DD8F5B3C9F2B7EF44048478A82C10C2FA1E8844E87DF9721C7296C6B5528C11`
+
+- Formal assets reconciled: **8**
+- Master Asset Register expected total: **2897**
+- Scientific validator: **PASS**
+- Regression tests: **PASS**
+- GitHub Actions for import commit: **GREEN**
+- Known launcher regression controls: **VERIFIED**
+
+All Build 0042 lessons-learned controls are verified against the canonical import. Final closure remains pending the close-out evidence and checkpoint Actions gates.
+<!-- CERTIAURA_BUILD_0042_CANONICAL_CLOSEOUT_END -->

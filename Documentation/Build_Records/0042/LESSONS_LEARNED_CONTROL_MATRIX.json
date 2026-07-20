@@ -1,48 +1,59 @@
 {
-  "build_number": "0042",
-  "controls": [
-    {
-      "control_id": "B0042-LL-001",
-      "control": "ASCII-only executable scripts and native parser precheck",
-      "status": "IMPLEMENTED_PENDING_CANONICAL_VERIFICATION"
-    },
-    {
-      "control_id": "B0042-LL-002",
-      "control": "Adjacent inner ZIP exact SHA-256 resolution only",
-      "status": "IMPLEMENTED_PENDING_CANONICAL_VERIFICATION"
-    },
-    {
-      "control_id": "B0042-LL-003",
-      "control": "Known PowerShell/CMD regression pattern rejection",
-      "status": "IMPLEMENTED_PENDING_CANONICAL_VERIFICATION"
-    },
-    {
-      "control_id": "B0042-LL-004",
-      "control": "Central trailing-whitespace stripping plus both Git diff checks",
-      "status": "IMPLEMENTED_PENDING_CANONICAL_VERIFICATION"
-    },
-    {
-      "control_id": "B0042-LL-005",
-      "control": "Trial exclusion versus approved contraindication separation",
-      "status": "IMPLEMENTED_PENDING_CANONICAL_VERIFICATION"
-    },
-    {
-      "control_id": "B0042-LL-006",
-      "control": "Evidence maturity separation for peer-reviewed, sponsor topline and ongoing trials",
-      "status": "IMPLEMENTED_PENDING_CANONICAL_VERIFICATION"
-    },
-    {
-      "control_id": "B0042-LL-007",
-      "control": "No personal dosing, treatment or diagnostic instructions",
-      "status": "IMPLEMENTED_PENDING_CANONICAL_VERIFICATION"
-    },
-    {
-      "control_id": "B0042-LL-008",
-      "control": "State-aware import and two-stage close-out automation",
-      "status": "IMPLEMENTED_PENDING_CANONICAL_VERIFICATION"
-    }
-  ],
-  "closure_verification": {
-    "status": "PENDING_CANONICAL_IMPORT"
-  }
+    "build_number":  "0042",
+    "controls":  [
+                     {
+                         "control_id":  "B0042-LL-001",
+                         "control":  "ASCII-only executable scripts and native parser precheck",
+                         "status":  "VERIFIED",
+                         "verified_on":  "2026-07-20T16:37:38"
+                     },
+                     {
+                         "control_id":  "B0042-LL-002",
+                         "control":  "Adjacent inner ZIP exact SHA-256 resolution only",
+                         "status":  "VERIFIED",
+                         "verified_on":  "2026-07-20T16:37:38"
+                     },
+                     {
+                         "control_id":  "B0042-LL-003",
+                         "control":  "Known PowerShell/CMD regression pattern rejection",
+                         "status":  "VERIFIED",
+                         "verified_on":  "2026-07-20T16:37:38"
+                     },
+                     {
+                         "control_id":  "B0042-LL-004",
+                         "control":  "Central trailing-whitespace stripping plus both Git diff checks",
+                         "status":  "VERIFIED",
+                         "verified_on":  "2026-07-20T16:37:38"
+                     },
+                     {
+                         "control_id":  "B0042-LL-005",
+                         "control":  "Trial exclusion versus approved contraindication separation",
+                         "status":  "VERIFIED",
+                         "verified_on":  "2026-07-20T16:37:38"
+                     },
+                     {
+                         "control_id":  "B0042-LL-006",
+                         "control":  "Evidence maturity separation for peer-reviewed, sponsor topline and ongoing trials",
+                         "status":  "VERIFIED",
+                         "verified_on":  "2026-07-20T16:37:38"
+                     },
+                     {
+                         "control_id":  "B0042-LL-007",
+                         "control":  "No personal dosing, treatment or diagnostic instructions",
+                         "status":  "VERIFIED",
+                         "verified_on":  "2026-07-20T16:37:38"
+                     },
+                     {
+                         "control_id":  "B0042-LL-008",
+                         "control":  "State-aware import and two-stage close-out automation",
+                         "status":  "VERIFIED",
+                         "verified_on":  "2026-07-20T16:37:38"
+                     }
+                 ],
+    "closure_verification":  {
+                                 "status":  "VERIFIED_PENDING_CLOSEOUT_ACTIONS",
+                                 "import_commit":  "d1557f4cd7d4f4bc05385929e047f44d1e72d214",
+                                 "import_actions":  "GREEN",
+                                 "verified_on":  "2026-07-20T16:37:38"
+                             }
 }
