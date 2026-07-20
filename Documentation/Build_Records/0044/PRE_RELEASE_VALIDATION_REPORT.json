@@ -1,0 +1,49 @@
+{
+  "build_number": "0044",
+  "status": "CORRECTED_REISSUE_CANDIDATE_WINDOWS_PS51_GATE_REQUIRED",
+  "validation_date": "2026-07-20",
+  "package_file_count": 52,
+  "formal_asset_count": 2,
+  "results": {
+    "flat_repository_routing": "PASS",
+    "no_build_wrapper_folder": "PASS",
+    "asset_intent_manifest_complete": "PASS_52_OF_52",
+    "package_content_checksums": "PASS",
+    "json_parsing": "PASS",
+    "python_compilation": "PASS",
+    "powershell_ascii_only": "PASS",
+    "repository_text_hygiene": "PASS",
+    "synthetic_build_0043_dependency_install": "PASS",
+    "project_genesis_dry_run": "DRY_RUN_VALIDATED",
+    "project_genesis_apply": "APPLIED_VALIDATED",
+    "transactional_backup": "PASS",
+    "master_asset_register_reconciliation": "PASS_2_FORMAL_ASSETS",
+    "repository_validator": "PASS_EXACT_MANIFEST_AND_BUILD_PROVENANCE_SCOPE",
+    "automated_tests": "PASS_13_OF_13",
+    "patient_journey_report": "READY_FOR_CLINICIAN_DISCUSSION",
+    "branded_html_render": "PASS_DETERMINISTIC",
+    "packaged_pdf_structure": "PASS",
+    "packaged_pdf_visual_inspection": "PASS_2_PAGES",
+    "controlled_conversation_grounded": "ACTIVE_GROUNDED",
+    "controlled_conversation_personal_medical_request": "SAFETY_BOUNDARY_ENFORCED",
+    "controlled_conversation_urgent": "LOCKED_URGENT_ROUTING",
+    "controlled_conversation_identifier": "IDENTIFIABLE_INPUT_REJECTED",
+    "unrelated_history_preserved": "PASS",
+    "runtime_artifacts": "NONE",
+    "git_diff_check": "PASS",
+    "git_cached_diff_check": "PASS",
+    "unrelated_uai_000044_historical_noise": "IGNORED_AS_REQUIRED"
+  },
+  "remaining_release_gate": {
+    "windows_powershell_5_1_end_to_end": "PENDING_CORRECTED_REISSUE",
+    "required_success_line": "BUILD 0044 WINDOWS POWERSHELL 5.1 REGRESSION: PASS",
+    "canonical_import_authorised": false
+  },
+  "correction_validation": {
+    "original_windows_gate": "FAIL_CLOSED",
+    "root_cause_reproduced": true,
+    "exact_scope_fix": "PASS",
+    "deliberately_noncompliant_unrelated_000044_fixture": "PRESERVED_AND_IGNORED",
+    "canonical_import_authorised": false
+  }
+}

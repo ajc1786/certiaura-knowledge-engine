@@ -1,0 +1,211 @@
+{
+  "build_number": "0044",
+  "algorithm": "SHA-256",
+  "scope": "All package files except this checksum record",
+  "files": [
+    {
+      "path": "12_Reports/Retatrutide/Examples/branded_patient_report_input.example.json",
+      "sha256": "c0b10c67e7d049472e7e00a2b0382204f1c2a5fb5ad6478db850f77fbb508eaf"
+    },
+    {
+      "path": "12_Reports/Retatrutide/Patient_Interface/__UAI___Retatrutide_Patient_Facing_Interface_Baseline.md",
+      "sha256": "bafa2ec3d089c5cd5356ae8056e70a1bd485aee7ac434e491a2696a5bbef6f2f"
+    },
+    {
+      "path": "13_Project_Genesis/AI/Examples/controlled_conversation_identifiable_input.example.json",
+      "sha256": "42f98be17397690a130112058c28339ebec6ad75413b579278234a5e163cc60f"
+    },
+    {
+      "path": "13_Project_Genesis/AI/Examples/controlled_conversation_personal_dosing.example.json",
+      "sha256": "16ae394db8cbbe57e3b23307ce69f39ca5b0ba960b04023553a941a36729a714"
+    },
+    {
+      "path": "13_Project_Genesis/AI/Examples/controlled_conversation_urgent.example.json",
+      "sha256": "3e05c113ded8a444773fdcabfd3c06fbd631e00a885f7564351408702d1ffdc8"
+    },
+    {
+      "path": "13_Project_Genesis/AI/Examples/controlled_conversation_valid.example.json",
+      "sha256": "c072722c4a7202ce1ea8810f240d165bc90c897ff46dbdb2f4dbe790c4b6ab5f"
+    },
+    {
+      "path": "13_Project_Genesis/AI/__UAI___Retatrutide_Controlled_Conversation_Workflow_Baseline.md",
+      "sha256": "0d406bef56785fabacdccf63247b78e4810ad022f8af4b702e29bdf70dd82da3"
+    },
+    {
+      "path": "13_Project_Genesis/AI/retatrutide_controlled_conversation_policy.json",
+      "sha256": "d02590e70ac8c107111ac1a58594b04bcfd1c6b76a53b43e7a446eef978f562a"
+    },
+    {
+      "path": "13_Project_Genesis/Tests/test_build_0044_retatrutide_interface_report_workflow.py",
+      "sha256": "a2e9df2927a78e212b6d792cf38ef4a9c74ea5a1945f5d0d524022d81967ceba"
+    },
+    {
+      "path": "13_Project_Genesis/UI/Retatrutide_Patient_Interface/README.md",
+      "sha256": "94c50524d76be09aeca3a70aa1d440e75e6d885d35dc522dbe142775b08c6a48"
+    },
+    {
+      "path": "13_Project_Genesis/UI/Retatrutide_Patient_Interface/app.js",
+      "sha256": "0a3f3c97b163822d387b9c01002834b30fee75caff3ed669f64871d93dadf330"
+    },
+    {
+      "path": "13_Project_Genesis/UI/Retatrutide_Patient_Interface/index.html",
+      "sha256": "1e1769195140e293ce36ed53e72d78d52406930711dd7eba5547dbaab88bac07"
+    },
+    {
+      "path": "13_Project_Genesis/UI/Retatrutide_Patient_Interface/styles.css",
+      "sha256": "85becf8dd869d6f1238ab7e292c5e485b2bae367daa334735c03ddaddaedbd73"
+    },
+    {
+      "path": "13_Project_Genesis/Validators/validate_build_0044_retatrutide_interface_report_workflow.py",
+      "sha256": "6266edfa2d948d927eb56969272cc6f8101c10e8a72e6b1eb2a9e497c4b8c2c3"
+    },
+    {
+      "path": "Documentation/Build_Records/0044/ASSET_INTENT_MANIFEST.json",
+      "sha256": "b249ddb487bb8ae33bf40f81e7ab7242ed778d96bed8cb147d6618180abfe9f8"
+    },
+    {
+      "path": "Documentation/Build_Records/0044/BUILD_0043_CLOSURE_EVIDENCE.json",
+      "sha256": "e06b57e12c876145ca3d385cf3a109d7d3d6db2b3da0828925da703d97be451f"
+    },
+    {
+      "path": "Documentation/Build_Records/0044/BUILD_MANIFEST.json",
+      "sha256": "a92fc8be44c17083bbc32c259a481d340029026c9a9ce16ea060464e59a751aa"
+    },
+    {
+      "path": "Documentation/Build_Records/0044/CONTINUATION_CHECKPOINT_UPDATE.md",
+      "sha256": "78659e2c6aaa7b200a88f5b39b60ab6041248d7eb743da3c1384bcdfee3240c5"
+    },
+    {
+      "path": "Documentation/Build_Records/0044/DECISION_RECORD.md",
+      "sha256": "59c6a16542d9b3bd115eab0569d8f6f157241e870525dc0b9e41bbec99f52a0f"
+    },
+    {
+      "path": "Documentation/Build_Records/0044/EXAMPLE_BRANDED_PATIENT_REPORT.html",
+      "sha256": "319bc1e29675251cc8c3a96cffaffddbfef2f85e5a94c57966b6a2d755cfbf61"
+    },
+    {
+      "path": "Documentation/Build_Records/0044/EXAMPLE_BRANDED_PATIENT_REPORT.pdf",
+      "sha256": "6fa6d6e9f76f1d7908697668869b920e9edeb49a5e783cee61ab2b601c23c8b4"
+    },
+    {
+      "path": "Documentation/Build_Records/0044/EXAMPLE_BRANDED_PATIENT_REPORT_MANIFEST.json",
+      "sha256": "d090f1dafe4ecdb53182a7a387b4cc2abc1bbfd0595c5be094502359b09ecdcb"
+    },
+    {
+      "path": "Documentation/Build_Records/0044/LESSONS_LEARNED_BASELINE.md",
+      "sha256": "0a4598e9d0ea9243e9e3202b358586a06a5a2dc78b4ea068949e1854d0cfbf5e"
+    },
+    {
+      "path": "Documentation/Build_Records/0044/PACKAGE_INVENTORY.json",
+      "sha256": "86e479acc35e414a3b15f88c5d3ec6e2bd9ba0c99f3ff6bf228fb5d341ce9ab5"
+    },
+    {
+      "path": "Documentation/Build_Records/0044/PDF_VISUAL_INSPECTION_REPORT.json",
+      "sha256": "fd37058be8f0bc23affa9571d457e510823245486c63ca8262df5d798451c786"
+    },
+    {
+      "path": "Documentation/Build_Records/0044/PRE_RELEASE_VALIDATION_REPORT.json",
+      "sha256": "a410c53edf0c28a882385a917a6dbeeaf2cb61b3f730f141cfc77b9b6bc96b0f"
+    },
+    {
+      "path": "Documentation/Build_Records/0044/PROPOSED_CHANGE_LOG.md",
+      "sha256": "772f8e1f10dc9f68e3f08c83fd80338787890debfddf54371f2b88d77aad1ffc"
+    },
+    {
+      "path": "Documentation/Build_Records/0044/PROPOSED_NEXT_ACTION.md",
+      "sha256": "e380d288e533fa9f6607e04c740ba7e00767d3d96c249ee74d987fb4882c98d4"
+    },
+    {
+      "path": "Documentation/Build_Records/0044/READ_ME_FIRST.md",
+      "sha256": "63c2d9de39d3024f3752bc7576a2072aae58b68b1d0f106ebfc6a31eb4da9a56"
+    },
+    {
+      "path": "Documentation/Build_Records/0044/ROUTING_MANIFEST.json",
+      "sha256": "6a8a3b6531afe37f0661777e3c4f0f72c84142642870162af77a9f342a3cadc0"
+    },
+    {
+      "path": "Documentation/Build_Records/0044/WINDOWS_PS51_REGRESSION_MATRIX.md",
+      "sha256": "eb2c31fc3df1b44efbb47da2fd66b9c9412160af53088b56a2e01cb4cfbdce95"
+    },
+    {
+      "path": "Documentation/Build_Records/0044/WINDOWS_PS51_RELEASE_GATE_STATUS.json",
+      "sha256": "34f4a23730c9ca3b11d690881a9b2bdda683bdcd1c16913df2072f9e8346609f"
+    },
+    {
+      "path": "Schemas/retatrutide_branded_report_manifest.schema.json",
+      "sha256": "e71c4475d70325debc125026a011314d83323084e9d0f5193cc74d6a9c4f0891"
+    },
+    {
+      "path": "Schemas/retatrutide_controlled_conversation_request.schema.json",
+      "sha256": "d70e21c11a22179ec7e838e35947f389807c18c1ee3780d8cb7f0d4b5a6c8e71"
+    },
+    {
+      "path": "Schemas/retatrutide_controlled_conversation_response.schema.json",
+      "sha256": "8a18694c9ef36001b815e645cb9ac6696986bba96322e090821667b1180ca4ee"
+    },
+    {
+      "path": "Scripts/Convert_Certiaura_Build_0044_Report_To_Pdf.ps1",
+      "sha256": "0240d38650146891645a2e5c82c2ea565bcfeb0316498d82eb4bf9884ab1372d"
+    },
+    {
+      "path": "Scripts/Invoke_Certiaura_Build_0044_Import.ps1",
+      "sha256": "d22c0ce7e03a8e1cb2e5e9647be0cdfc6aa22ea6f004db2440343ab6a975b42a"
+    },
+    {
+      "path": "Scripts/Invoke_Certiaura_Build_0044_Preflight.ps1",
+      "sha256": "2fa33768812e4d7adc812c4796d6ccb91983eca68a5eefcc66e195c6e4320a01"
+    },
+    {
+      "path": "Scripts/Invoke_Certiaura_Build_0044_Windows_PS51_Regression.ps1",
+      "sha256": "0148ee1abc399601f11bcda1d202e84dd78e9c8621b62fe9c747289b9774a85d"
+    },
+    {
+      "path": "Scripts/Run_Certiaura_Build_0044.ps1",
+      "sha256": "c794be70db6d4834a56ea3d7b7b9a04985586ebbcdc430be5df34f0976a03fc4"
+    },
+    {
+      "path": "Scripts/Start_Certiaura_Retatrutide_Patient_Interface.ps1",
+      "sha256": "3090ea9f74bc8a6f9b02f5b641aa17413707cce71f3d921ea23e53589dc07d3c"
+    },
+    {
+      "path": "Scripts/import_certiaura_build_0044.py",
+      "sha256": "97c9e0b2363967667b6930267b6c3b9cd8c3e66586de8cc4a6475c8a8288677c"
+    },
+    {
+      "path": "Scripts/preflight_certiaura_build_0044.py",
+      "sha256": "4a66de7fb8fe36b9d5b9a97445829d79aeab40eed4783f71ab497b845a24ff78"
+    },
+    {
+      "path": "Scripts/render_retatrutide_branded_report.py",
+      "sha256": "d7466fc6e0234f7993ab4d62dca07e43db80ca34c84b947f932f6f98c6a2bb39"
+    },
+    {
+      "path": "Scripts/run_retatrutide_controlled_conversation.py",
+      "sha256": "3d659f754257e705e1a5186817ccce5250f822d409b512064704397756cfc8e1"
+    },
+    {
+      "path": "Scripts/serve_retatrutide_patient_interface.py",
+      "sha256": "72e3397ca8ac7a02e172ff516ed73da80de7da3f19d95135591ede6fdfcbf86e"
+    },
+    {
+      "path": "Standards/RETATRUTIDE_BRANDED_REPORT_RENDERING_STANDARD.md",
+      "sha256": "a75de9a698bca5a908e97e6c1f761c783d896820914611f9a60a1db2e10d9eff"
+    },
+    {
+      "path": "Standards/RETATRUTIDE_CONTROLLED_CONVERSATION_STANDARD.md",
+      "sha256": "6ae8269cebc31806642a4fb8d70f06bb18154204fe6573743478dbf79a0c7c20"
+    },
+    {
+      "path": "Standards/RETATRUTIDE_PATIENT_FACING_INTERFACE_STANDARD.md",
+      "sha256": "a2b55a5ee21831d68d267da756ffc4cf3bdeb75560a45c122484f3dabb82a19e"
+    },
+    {
+      "path": "Templates/retatrutide_patient_report_branded.template.html",
+      "sha256": "0f3711f94b5d0dccf9b644383bb430db8fff94a002f9e1c34adcdc36f8f64a13"
+    },
+    {
+      "path": "Templates/retatrutide_report_brand_tokens.json",
+      "sha256": "cb304c6312fcb1dad51ea76d658964accabfbdd8fe0783cb709025088bec7a9c"
+    }
+  ]
+}

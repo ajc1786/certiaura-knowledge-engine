@@ -1,0 +1,61 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://certiaura.local/schemas/retatrutide_controlled_conversation_response.schema.json",
+  "title": "Retatrutide Controlled Conversation Response",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "session_id",
+    "policy_version",
+    "session_state",
+    "urgent_lock",
+    "turn_count",
+    "exchanges",
+    "warnings"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.0.0"
+    },
+    "session_id": {
+      "type": "string",
+      "pattern": "^RCW-[A-F0-9]{16}$"
+    },
+    "policy_version": {
+      "const": "1.0.0"
+    },
+    "session_state": {
+      "enum": [
+        "ACTIVE_GROUNDED",
+        "ACTIVE_WITH_ABSTENTION",
+        "SAFETY_BOUNDARY_ENFORCED",
+        "IDENTIFIABLE_INPUT_REJECTED",
+        "LOCKED_URGENT_ROUTING",
+        "TURN_LIMIT_REACHED"
+      ]
+    },
+    "urgent_lock": {
+      "type": "boolean"
+    },
+    "turn_count": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 12
+    },
+    "exchanges": {
+      "type": "array",
+      "maxItems": 12,
+      "items": {
+        "type": "object"
+      }
+    },
+    "warnings": {
+      "type": "array",
+      "minItems": 2,
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "schema_version": "1.0.0",
+  "session_reference": "DOSE-DEMO-0044",
+  "audience": "PATIENT_DISCUSSION_SUPPORT",
+  "patient_reference": "DEMO-0044",
+  "turns": [
+    {
+      "query_text": "Tell me exactly what dose I should take and how to titrate it.",
+      "query_mode": "patient_journey",
+      "personalised_medical_request": true
+    }
+  ]
+}

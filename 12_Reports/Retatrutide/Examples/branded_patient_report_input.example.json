@@ -1,0 +1,81 @@
+{
+  "schema_version": "1.0.0",
+  "report_id": "RPJ-A1B2C3D4E5F60708",
+  "generated_at_utc": "2026-07-20T18:00:00Z",
+  "input_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "patient_reference": "DEMO-0044",
+  "report_state": "READY_FOR_CLINICIAN_DISCUSSION",
+  "scope_notice": [
+    "Retatrutide is treated as investigational in this baseline.",
+    "This report is educational and supports clinician discussion; it is not diagnosis, prescribing or dosing advice.",
+    "Only canonical repository sources are used; unresolved sources are disclosed rather than invented."
+  ],
+  "journey_phase": "BASELINE_ASSESSMENT",
+  "baseline_summary": {
+    "age_band": "40_49",
+    "height_cm": 180,
+    "weight_kg": 104.5,
+    "goals": [
+      "Prepare for a clinician-led baseline discussion",
+      "Understand monitoring and safety questions"
+    ],
+    "clinical_supervision": true
+  },
+  "monitoring": {
+    "status": "SOURCE_RESOLVED",
+    "items": [
+      {
+        "repository_path": "05_Monitoring/Retatrutide/CERT-MKS-999998_Synthetic.md",
+        "uai": "CERT-MKS-999998",
+        "claim_or_evidence_id": null,
+        "review_status": "REVIEWED",
+        "source_status": "RESOLVED"
+      }
+    ]
+  },
+  "safety": {
+    "routing": "Routine clinician discussion required",
+    "flags": [],
+    "cautions": [
+      "Individual suitability and monitoring require professional assessment."
+    ]
+  },
+  "clinical_outcomes": {
+    "status": "SOURCE_RESOLVED",
+    "claims": [
+      {
+        "repository_path": "06_Evidence/Retatrutide/CERT-EKS-999998_Synthetic.md",
+        "uai": "CERT-EKS-999998",
+        "claim_or_evidence_id": null,
+        "review_status": "REVIEWED",
+        "source_status": "RESOLVED"
+      }
+    ]
+  },
+  "uncertainty": [
+    "The engine does not predict an individual response.",
+    "Repository evidence and review status may change through living-evidence controls."
+  ],
+  "clinician_discussion_prompts": [
+    "What baseline assessment is clinically appropriate?",
+    "Which contraindications or cautions apply to my circumstances?",
+    "What monitoring and review schedule is appropriate?",
+    "What symptoms require urgent assessment?"
+  ],
+  "sources": [
+    {
+      "repository_path": "05_Monitoring/Retatrutide/CERT-MKS-999998_Synthetic.md",
+      "uai": "CERT-MKS-999998",
+      "claim_or_evidence_id": null,
+      "review_status": "REVIEWED",
+      "source_status": "RESOLVED"
+    },
+    {
+      "repository_path": "06_Evidence/Retatrutide/CERT-EKS-999998_Synthetic.md",
+      "uai": "CERT-EKS-999998",
+      "claim_or_evidence_id": null,
+      "review_status": "REVIEWED",
+      "source_status": "RESOLVED"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "policy_version": "1.0.0",
+  "max_turns": 12,
+  "max_request_bytes": 131072,
+  "loopback_hosts": [
+    "127.0.0.1",
+    "localhost",
+    "::1"
+  ],
+  "urgent_lock": true,
+  "persist_request_bodies": false,
+  "allowed_query_modes": [
+    "evidence_summary",
+    "clinical_outcomes",
+    "safety_monitoring",
+    "contraindications",
+    "patient_journey",
+    "source_lookup"
+  ],
+  "direct_identifier_patterns": [
+    {
+      "name": "email",
+      "pattern": "(?i)\\b[A-Z0-9._%+-]+@[A-Z0-9.-]+\\.[A-Z]{2,}\\b"
+    },
+    {
+      "name": "uk_phone",
+      "pattern": "(?<!\\d)(?:\\+44\\s?\\d{4}|0\\d{4})[\\s-]?\\d{3}[\\s-]?\\d{3}(?!\\d)"
+    },
+    {
+      "name": "nhs_number",
+      "pattern": "(?i)\\bNHS(?:\\s+number)?\\s*[:#-]?\\s*\\d{3}\\s*\\d{3}\\s*\\d{4}\\b"
+    },
+    {
+      "name": "date_of_birth",
+      "pattern": "(?i)\\b(?:date of birth|dob)\\s*[:#-]"
+    },
+    {
+      "name": "full_name_label",
+      "pattern": "(?i)\\b(?:full name|patient name)\\s*[:#-]"
+    }
+  ],
+  "mandatory_warnings": [
+    "Educational discussion support only; not diagnosis, prescribing or dosing advice.",
+    "Retatrutide is treated as investigational in this baseline.",
+    "Seek professional medical assessment for personal symptoms, contraindications and treatment decisions."
+  ]
+}

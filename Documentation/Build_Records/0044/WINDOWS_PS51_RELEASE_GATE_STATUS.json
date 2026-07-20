@@ -1,0 +1,24 @@
+{
+  "build_number": "0044",
+  "status": "CORRECTED_REISSUE_PENDING_REAL_WINDOWS_POWERSHELL_5_1_REGRESSION",
+  "release_blocker": {
+    "status": "ACTIVE_REISSUE_GATE",
+    "requirement": "Complete bundled full operator regression on Windows PowerShell 5.1",
+    "effect": "Package must not be imported into the canonical repository before PASS"
+  },
+  "required_success_line": "BUILD 0044 WINDOWS POWERSHELL 5.1 REGRESSION: PASS",
+  "lessons_regression": {
+    "ascii_only_powershell": "ENFORCED",
+    "strictmode_array_normalisation": "ENFORCED",
+    "generated_text_git_hygiene": "ENFORCED",
+    "cleanup_before_success": "ENFORCED",
+    "exact_manifest_provenance_validator_scope": "ENFORCED"
+  },
+  "correction": {
+    "first_windows_result": "FAIL_CLOSED",
+    "failure_stage": "POST_IMPORT_REPOSITORY_VALIDATOR",
+    "canonical_repository_modified": false,
+    "cause": "Build-number substring collided with unrelated UAI serial 000044",
+    "reissue_required": true
+  }
+}

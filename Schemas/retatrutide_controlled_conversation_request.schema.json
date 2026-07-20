@@ -1,0 +1,72 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://certiaura.local/schemas/retatrutide_controlled_conversation_request.schema.json",
+  "title": "Retatrutide Controlled Conversation Request",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "session_reference",
+    "audience",
+    "patient_reference",
+    "turns"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.0.0"
+    },
+    "session_reference": {
+      "type": "string",
+      "pattern": "^[A-Z0-9_-]{4,40}$"
+    },
+    "audience": {
+      "enum": [
+        "PUBLIC",
+        "PATIENT_DISCUSSION_SUPPORT",
+        "PROFESSIONAL",
+        "INTERNAL_REVIEW"
+      ]
+    },
+    "patient_reference": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "pattern": "^[A-Z0-9_-]{4,40}$"
+    },
+    "turns": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 12,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "query_text",
+          "query_mode",
+          "personalised_medical_request"
+        ],
+        "properties": {
+          "query_text": {
+            "type": "string",
+            "minLength": 3,
+            "maxLength": 1200
+          },
+          "query_mode": {
+            "enum": [
+              "evidence_summary",
+              "clinical_outcomes",
+              "safety_monitoring",
+              "contraindications",
+              "patient_journey",
+              "source_lookup"
+            ]
+          },
+          "personalised_medical_request": {
+            "type": "boolean"
+          }
+        }
+      }
+    }
+  }
+}

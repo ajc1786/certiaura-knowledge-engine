@@ -1,0 +1,302 @@
+{
+  "build_number": "0044",
+  "build_title": "retatrutide patient-facing interface, branded report rendering and controlled conversation workflow baseline",
+  "manifest_version": "1.0.1",
+  "canonical_register": "Documentation/Master_Asset_Register.csv",
+  "assets": [
+    {
+      "repository_path": "12_Reports/Retatrutide/Patient_Interface/__UAI___Retatrutide_Patient_Facing_Interface_Baseline.md",
+      "classification": "FORMAL_ASSET",
+      "asset_title": "Retatrutide Patient-Facing Interface Baseline",
+      "asset_type": "Report Interface Knowledge Asset",
+      "knowledge_system": "RKS",
+      "intended_action": "CREATE",
+      "existing_uai": null,
+      "proposed_version": "1.0.0",
+      "proposed_status": "BASELINE",
+      "owner": "Certiaura",
+      "completion_percentage": 72,
+      "parent_assets": [
+        "CERT-PKS-000001"
+      ],
+      "child_assets": [],
+      "relationships": [
+        {
+          "type": "HAS_REPORT",
+          "target": "CERT-PKS-000001"
+        },
+        {
+          "type": "REQUIRES",
+          "target": "CERT-BUILD-0043"
+        },
+        {
+          "type": "GENERATES",
+          "target": "RETATRUTIDE_BRANDED_PATIENT_REPORT"
+        }
+      ],
+      "evidence_links": [],
+      "report_links": [],
+      "marketplace_links": [],
+      "supporting_files": [
+        "Standards/RETATRUTIDE_PATIENT_FACING_INTERFACE_STANDARD.md",
+        "Standards/RETATRUTIDE_BRANDED_REPORT_RENDERING_STANDARD.md",
+        "13_Project_Genesis/UI/Retatrutide_Patient_Interface/index.html",
+        "Scripts/render_retatrutide_branded_report.py",
+        "Scripts/Convert_Certiaura_Build_0044_Report_To_Pdf.ps1"
+      ],
+      "allow_replace": false
+    },
+    {
+      "repository_path": "13_Project_Genesis/AI/__UAI___Retatrutide_Controlled_Conversation_Workflow_Baseline.md",
+      "classification": "FORMAL_ASSET",
+      "asset_title": "Retatrutide Controlled Conversation Workflow Baseline",
+      "asset_type": "Platform Component",
+      "knowledge_system": "SYS",
+      "intended_action": "CREATE",
+      "existing_uai": null,
+      "proposed_version": "1.0.0",
+      "proposed_status": "BASELINE",
+      "owner": "Certiaura",
+      "completion_percentage": 70,
+      "parent_assets": [
+        "CERT-PKS-000001"
+      ],
+      "child_assets": [],
+      "relationships": [
+        {
+          "type": "REQUIRES",
+          "target": "CERT-BUILD-0043"
+        },
+        {
+          "type": "GENERATES",
+          "target": "RETATRUTIDE_CONTROLLED_CONVERSATION"
+        },
+        {
+          "type": "HAS_SAFETY",
+          "target": "BUILD_0042_SAFETY_BASELINE"
+        }
+      ],
+      "evidence_links": [],
+      "report_links": [],
+      "marketplace_links": [],
+      "supporting_files": [
+        "Standards/RETATRUTIDE_CONTROLLED_CONVERSATION_STANDARD.md",
+        "Schemas/retatrutide_controlled_conversation_request.schema.json",
+        "Schemas/retatrutide_controlled_conversation_response.schema.json",
+        "Scripts/run_retatrutide_controlled_conversation.py",
+        "13_Project_Genesis/AI/retatrutide_controlled_conversation_policy.json"
+      ],
+      "allow_replace": false
+    }
+  ],
+  "file_classifications": [
+    {
+      "path": "12_Reports/Retatrutide/Examples/branded_patient_report_input.example.json",
+      "classification": "EXAMPLE"
+    },
+    {
+      "path": "12_Reports/Retatrutide/Patient_Interface/__UAI___Retatrutide_Patient_Facing_Interface_Baseline.md",
+      "classification": "FORMAL_ASSET"
+    },
+    {
+      "path": "13_Project_Genesis/AI/Examples/controlled_conversation_identifiable_input.example.json",
+      "classification": "EXAMPLE"
+    },
+    {
+      "path": "13_Project_Genesis/AI/Examples/controlled_conversation_personal_dosing.example.json",
+      "classification": "EXAMPLE"
+    },
+    {
+      "path": "13_Project_Genesis/AI/Examples/controlled_conversation_urgent.example.json",
+      "classification": "EXAMPLE"
+    },
+    {
+      "path": "13_Project_Genesis/AI/Examples/controlled_conversation_valid.example.json",
+      "classification": "EXAMPLE"
+    },
+    {
+      "path": "13_Project_Genesis/AI/__UAI___Retatrutide_Controlled_Conversation_Workflow_Baseline.md",
+      "classification": "FORMAL_ASSET"
+    },
+    {
+      "path": "13_Project_Genesis/AI/retatrutide_controlled_conversation_policy.json",
+      "classification": "SUPPORTING_FILE"
+    },
+    {
+      "path": "13_Project_Genesis/Tests/test_build_0044_retatrutide_interface_report_workflow.py",
+      "classification": "TEST"
+    },
+    {
+      "path": "13_Project_Genesis/UI/Retatrutide_Patient_Interface/README.md",
+      "classification": "SUPPORTING_FILE"
+    },
+    {
+      "path": "13_Project_Genesis/UI/Retatrutide_Patient_Interface/app.js",
+      "classification": "SUPPORTING_FILE"
+    },
+    {
+      "path": "13_Project_Genesis/UI/Retatrutide_Patient_Interface/index.html",
+      "classification": "SUPPORTING_FILE"
+    },
+    {
+      "path": "13_Project_Genesis/UI/Retatrutide_Patient_Interface/styles.css",
+      "classification": "SUPPORTING_FILE"
+    },
+    {
+      "path": "13_Project_Genesis/Validators/validate_build_0044_retatrutide_interface_report_workflow.py",
+      "classification": "SCRIPT"
+    },
+    {
+      "path": "Documentation/Build_Records/0044/ASSET_INTENT_MANIFEST.json",
+      "classification": "BUILD_RECORD"
+    },
+    {
+      "path": "Documentation/Build_Records/0044/BUILD_0043_CLOSURE_EVIDENCE.json",
+      "classification": "BUILD_RECORD"
+    },
+    {
+      "path": "Documentation/Build_Records/0044/BUILD_MANIFEST.json",
+      "classification": "BUILD_RECORD"
+    },
+    {
+      "path": "Documentation/Build_Records/0044/CONTINUATION_CHECKPOINT_UPDATE.md",
+      "classification": "BUILD_RECORD"
+    },
+    {
+      "path": "Documentation/Build_Records/0044/DECISION_RECORD.md",
+      "classification": "BUILD_RECORD"
+    },
+    {
+      "path": "Documentation/Build_Records/0044/EXAMPLE_BRANDED_PATIENT_REPORT.html",
+      "classification": "BUILD_RECORD"
+    },
+    {
+      "path": "Documentation/Build_Records/0044/EXAMPLE_BRANDED_PATIENT_REPORT.pdf",
+      "classification": "BUILD_RECORD"
+    },
+    {
+      "path": "Documentation/Build_Records/0044/EXAMPLE_BRANDED_PATIENT_REPORT_MANIFEST.json",
+      "classification": "BUILD_RECORD"
+    },
+    {
+      "path": "Documentation/Build_Records/0044/LESSONS_LEARNED_BASELINE.md",
+      "classification": "BUILD_RECORD"
+    },
+    {
+      "path": "Documentation/Build_Records/0044/PACKAGE_CONTENT_SHA256.json",
+      "classification": "BUILD_RECORD"
+    },
+    {
+      "path": "Documentation/Build_Records/0044/PACKAGE_INVENTORY.json",
+      "classification": "BUILD_RECORD"
+    },
+    {
+      "path": "Documentation/Build_Records/0044/PDF_VISUAL_INSPECTION_REPORT.json",
+      "classification": "BUILD_RECORD"
+    },
+    {
+      "path": "Documentation/Build_Records/0044/PRE_RELEASE_VALIDATION_REPORT.json",
+      "classification": "BUILD_RECORD"
+    },
+    {
+      "path": "Documentation/Build_Records/0044/PROPOSED_CHANGE_LOG.md",
+      "classification": "BUILD_RECORD"
+    },
+    {
+      "path": "Documentation/Build_Records/0044/PROPOSED_NEXT_ACTION.md",
+      "classification": "BUILD_RECORD"
+    },
+    {
+      "path": "Documentation/Build_Records/0044/READ_ME_FIRST.md",
+      "classification": "BUILD_RECORD"
+    },
+    {
+      "path": "Documentation/Build_Records/0044/ROUTING_MANIFEST.json",
+      "classification": "BUILD_RECORD"
+    },
+    {
+      "path": "Documentation/Build_Records/0044/WINDOWS_PS51_REGRESSION_MATRIX.md",
+      "classification": "BUILD_RECORD"
+    },
+    {
+      "path": "Documentation/Build_Records/0044/WINDOWS_PS51_RELEASE_GATE_STATUS.json",
+      "classification": "BUILD_RECORD"
+    },
+    {
+      "path": "Schemas/retatrutide_branded_report_manifest.schema.json",
+      "classification": "SCHEMA"
+    },
+    {
+      "path": "Schemas/retatrutide_controlled_conversation_request.schema.json",
+      "classification": "SCHEMA"
+    },
+    {
+      "path": "Schemas/retatrutide_controlled_conversation_response.schema.json",
+      "classification": "SCHEMA"
+    },
+    {
+      "path": "Scripts/Convert_Certiaura_Build_0044_Report_To_Pdf.ps1",
+      "classification": "SCRIPT"
+    },
+    {
+      "path": "Scripts/Invoke_Certiaura_Build_0044_Import.ps1",
+      "classification": "SCRIPT"
+    },
+    {
+      "path": "Scripts/Invoke_Certiaura_Build_0044_Preflight.ps1",
+      "classification": "SCRIPT"
+    },
+    {
+      "path": "Scripts/Invoke_Certiaura_Build_0044_Windows_PS51_Regression.ps1",
+      "classification": "SCRIPT"
+    },
+    {
+      "path": "Scripts/Run_Certiaura_Build_0044.ps1",
+      "classification": "SCRIPT"
+    },
+    {
+      "path": "Scripts/Start_Certiaura_Retatrutide_Patient_Interface.ps1",
+      "classification": "SCRIPT"
+    },
+    {
+      "path": "Scripts/import_certiaura_build_0044.py",
+      "classification": "SCRIPT"
+    },
+    {
+      "path": "Scripts/preflight_certiaura_build_0044.py",
+      "classification": "SCRIPT"
+    },
+    {
+      "path": "Scripts/render_retatrutide_branded_report.py",
+      "classification": "SCRIPT"
+    },
+    {
+      "path": "Scripts/run_retatrutide_controlled_conversation.py",
+      "classification": "SCRIPT"
+    },
+    {
+      "path": "Scripts/serve_retatrutide_patient_interface.py",
+      "classification": "SCRIPT"
+    },
+    {
+      "path": "Standards/RETATRUTIDE_BRANDED_REPORT_RENDERING_STANDARD.md",
+      "classification": "SUPPORTING_FILE"
+    },
+    {
+      "path": "Standards/RETATRUTIDE_CONTROLLED_CONVERSATION_STANDARD.md",
+      "classification": "SUPPORTING_FILE"
+    },
+    {
+      "path": "Standards/RETATRUTIDE_PATIENT_FACING_INTERFACE_STANDARD.md",
+      "classification": "SUPPORTING_FILE"
+    },
+    {
+      "path": "Templates/retatrutide_patient_report_branded.template.html",
+      "classification": "TEMPLATE"
+    },
+    {
+      "path": "Templates/retatrutide_report_brand_tokens.json",
+      "classification": "TEMPLATE"
+    }
+  ]
+}

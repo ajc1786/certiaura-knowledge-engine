@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0.0",
+  "render_id": "RBR-5ECE5F3A1430DB9A",
+  "renderer_version": "1.0.0",
+  "brand_token_version": "1.0.0",
+  "input_sha256": "c533fb379ffe4e47ecd7f0446dbedfdda552fc973b1d258359923311a44085ed",
+  "html_sha256": "319bc1e29675251cc8c3a96cffaffddbfef2f85e5a94c57966b6a2d755cfbf61",
+  "report_id": "RPJ-A1B2C3D4E5F60708",
+  "report_state": "READY_FOR_CLINICIAN_DISCUSSION",
+  "source_count": 2,
+  "remote_dependencies": false,
+  "output_html": "Documentation/Build_Records/0044/EXAMPLE_BRANDED_PATIENT_REPORT.html",
+  "output_pdf": "Documentation/Build_Records/0044/EXAMPLE_BRANDED_PATIENT_REPORT.pdf",
+  "pdf_sha256": "6fa6d6e9f76f1d7908697668869b920e9edeb49a5e783cee61ab2b601c23c8b4",
+  "pdf_renderer_for_packaged_example": "WeasyPrint 68.0",
+  "production_windows_pdf_renderer": "Installed Microsoft Edge or Google Chrome"
+}

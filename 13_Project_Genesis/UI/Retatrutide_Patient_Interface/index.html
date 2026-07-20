@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Certiaura Retatrutide Patient Journey</title>
+<link rel="stylesheet" href="styles.css">
+<script src="app.js" defer></script>
+</head>
+<body>
+<header class="topbar">
+  <div>
+    <p class="eyebrow">CERTIAURA</p>
+    <h1>Retatrutide patient journey</h1>
+    <p class="subtitle">Evidence-grounded discussion support. No diagnosis, prescribing or personalised dosing.</p>
+  </div>
+  <div class="status-pill" id="healthStatus">Local service: checking</div>
+</header>
+
+<main class="shell">
+  <aside class="safety-panel" aria-label="Safety boundaries">
+    <h2>Before you continue</h2>
+    <ul>
+      <li>Use a pseudonymous patient reference only.</li>
+      <li>Do not enter a name, email address, phone number, NHS number or date of birth.</li>
+      <li>Urgent symptoms are routed to immediate clinical help and lock the conversation.</li>
+      <li>Outputs are educational discussion support and require clinician review.</li>
+    </ul>
+    <p class="privacy-note">This baseline stores no request body in browser storage or a database. Session data remains in memory until the page is refreshed.</p>
+  </aside>
+
+  <section class="workspace">
+    <div class="tabs" role="tablist" aria-label="Patient journey tools">
+      <button class="tab active" type="button" role="tab" aria-selected="true" data-panel="reportPanel">Journey report</button>
+      <button class="tab" type="button" role="tab" aria-selected="false" data-panel="conversationPanel">Controlled conversation</button>
+    </div>
+
+    <section id="reportPanel" class="panel active" role="tabpanel">
+      <div class="panel-heading">
+        <div>
+          <p class="step">WORKFLOW 01</p>
+          <h2>Generate a patient journey report</h2>
+        </div>
+        <button type="button" class="secondary" id="loadProfileExample">Load safe example</button>
+      </div>
+      <label for="profileInput">Pseudonymised profile JSON</label>
+      <textarea id="profileInput" spellcheck="false" rows="18" aria-describedby="profileHint"></textarea>
+      <p id="profileHint" class="hint">The installed Build 0043 profile schema and safety engine validate this input.</p>
+      <div class="actions">
+        <button type="button" class="primary" id="generateReport">Generate report</button>
+        <button type="button" class="secondary" id="clearReport">Clear</button>
+      </div>
+      <div id="reportMessage" class="message" aria-live="polite"></div>
+      <div id="reportOutput" class="output" hidden></div>
+    </section>
+
+    <section id="conversationPanel" class="panel" role="tabpanel" hidden>
+      <div class="panel-heading">
+        <div>
+          <p class="step">WORKFLOW 02</p>
+          <h2>Ask an evidence-grounded question</h2>
+        </div>
+        <button type="button" class="secondary" id="resetConversation">Reset session</button>
+      </div>
+      <div class="form-grid">
+        <div>
+          <label for="sessionReference">Session reference</label>
+          <input id="sessionReference" value="SESSION_0044" autocomplete="off">
+        </div>
+        <div>
+          <label for="patientReference">Patient reference</label>
+          <input id="patientReference" value="PATIENT_0044" autocomplete="off">
+        </div>
+        <div>
+          <label for="queryMode">Question category</label>
+          <select id="queryMode">
+            <option value="evidence_summary">Evidence summary</option>
+            <option value="clinical_outcomes">Clinical outcomes</option>
+            <option value="safety_monitoring">Safety and monitoring</option>
+            <option value="contraindications">Contraindications</option>
+            <option value="patient_journey">Patient journey</option>
+            <option value="source_lookup">Source lookup</option>
+          </select>
+        </div>
+        <div class="check-wrap">
+          <input type="checkbox" id="personalisedRequest">
+          <label for="personalisedRequest">This asks for personalised medical advice</label>
+        </div>
+      </div>
+      <label for="questionInput">Question</label>
+      <textarea id="questionInput" rows="5" placeholder="Example: What safety monitoring topics are represented in the installed evidence baseline?"></textarea>
+      <div class="actions">
+        <button type="button" class="primary" id="askQuestion">Submit question</button>
+      </div>
+      <div id="conversationMessage" class="message" aria-live="polite"></div>
+      <ol id="conversationOutput" class="conversation" aria-live="polite"></ol>
+    </section>
+  </section>
+</main>
+
+<footer>
+  <span>Certiaura Build 0044 baseline</span>
+  <span>Loopback only | memory only | repository grounded</span>
+</footer>
+</body>
+</html>

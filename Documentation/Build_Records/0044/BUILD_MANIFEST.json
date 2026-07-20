@@ -1,0 +1,62 @@
+{
+  "build_number": "0044",
+  "build_id": "CERT-BUILD-0044",
+  "title": "retatrutide patient-facing interface, branded report rendering and controlled conversation workflow baseline",
+  "version": "1.0.1",
+  "date": "2026-07-20",
+  "status": "CORRECTED_REISSUE_CANDIDATE_WINDOWS_PS51_GATE_REQUIRED",
+  "dependencies": [
+    {
+      "build": "0041",
+      "status_required": "ACTIONS_GREEN_CLOSED"
+    },
+    {
+      "build": "0042",
+      "status_required": "ACTIONS_GREEN_CLOSED"
+    },
+    {
+      "build": "0043",
+      "status_required": "ACTIONS_GREEN_CLOSED",
+      "implementation_commit": "08793de672383c51df31d83015a9e768a09e16fd",
+      "correction_commit_prefix": "cc6e92e",
+      "github_actions_run": 86,
+      "github_actions_status": "GREEN"
+    }
+  ],
+  "commit_message": "Add Certiaura Build 0044 retatrutide patient-facing interface, branded report rendering and controlled conversation workflow baseline",
+  "formal_asset_count": 2,
+  "integrated_capabilities": [
+    "loopback-only patient-facing interface",
+    "deterministic branded HTML report rendering",
+    "controlled Chromium-family PDF rendering",
+    "bounded multi-turn evidence-grounded conversation",
+    "direct-identifier rejection",
+    "personalised medical request refusal",
+    "urgent-routing session lock",
+    "transactional Project Genesis import and Master Asset Register reconciliation"
+  ],
+  "release_gate": {
+    "windows_powershell_5_1_end_to_end": "REQUIRED_BEFORE_REPOSITORY_IMPORT",
+    "package_sha256": "EXTERNAL_DELIVERY_CONTROL"
+  },
+  "next_build": "0045",
+  "lessons_carried_forward": [
+    "PowerShell scripts are ASCII-only and parsed under Windows PowerShell 5.1",
+    "Variable-cardinality pipelines are array-normalised before Count or indexing",
+    "Generated repository text is UTF-8 without BOM, LF, no trailing whitespace, one final newline",
+    "Both Git whitespace checks run before commit",
+    "Cleanup and OneDrive restart complete before success is declared",
+    "Python runtime artefacts block release",
+    "Validator scope is derived from exact manifest paths and Build Provenance, never numeric filename substrings"
+  ],
+  "package_file_count": 52,
+  "candidate_validation": "PASS_AFTER_VALIDATOR_SCOPE_CORRECTION_EXCEPT_REAL_WINDOWS_PS51_GATE",
+  "correction": {
+    "issue": "Post-import validator selected unrelated historical assets whose UAI serial contained 000044",
+    "root_cause": "Substring matching of 0044 was used as a proxy for build ownership",
+    "repository_effect": "None; failure occurred only in the temporary synthetic repository",
+    "corrective_action": "Resolve exact owned files from Asset Intent Manifest and CERT-BUILD-0044 provenance",
+    "preventive_control": "Build validators and tests must not infer ownership from filename substrings",
+    "regression_fixture": "Committed unrelated CRLF/trailing-whitespace file named CERT-BKS-000044_Synthetic_Historical_Text.md"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "brand_token_version": "1.0.0",
+  "wordmark": "CERTIAURA",
+  "strapline": "Evidence. Clarity. Confidence.",
+  "primary": "#17324D",
+  "secondary": "#2D6A73",
+  "accent": "#B6904A",
+  "surface": "#F4F7F9",
+  "text": "#17212B",
+  "muted": "#5C6873",
+  "danger": "#9B1C1C",
+  "font_stack": "Arial, Helvetica, sans-serif",
+  "canonical_logo_policy": "Fallback text wordmark only until an approved repository logo path is supplied."
+}

@@ -1,0 +1,18 @@
+{
+  "schema_version": "1.0.0",
+  "session_reference": "URGENT-DEMO-0044",
+  "audience": "PATIENT_DISCUSSION_SUPPORT",
+  "patient_reference": "DEMO-0044",
+  "turns": [
+    {
+      "query_text": "I have severe abdominal pain and persistent vomiting. What should I do?",
+      "query_mode": "safety_monitoring",
+      "personalised_medical_request": false
+    },
+    {
+      "query_text": "Can you just summarise the trial results instead?",
+      "query_mode": "clinical_outcomes",
+      "personalised_medical_request": false
+    }
+  ]
+}

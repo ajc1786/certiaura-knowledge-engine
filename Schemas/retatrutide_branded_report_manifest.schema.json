@@ -1,0 +1,59 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://certiaura.local/schemas/retatrutide_branded_report_manifest.schema.json",
+  "title": "Retatrutide Branded Report Render Manifest",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "render_id",
+    "renderer_version",
+    "brand_token_version",
+    "input_sha256",
+    "html_sha256",
+    "report_id",
+    "report_state",
+    "source_count",
+    "remote_dependencies",
+    "output_html"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.0.0"
+    },
+    "render_id": {
+      "type": "string",
+      "pattern": "^RBR-[A-F0-9]{16}$"
+    },
+    "renderer_version": {
+      "const": "1.0.0"
+    },
+    "brand_token_version": {
+      "const": "1.0.0"
+    },
+    "input_sha256": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "html_sha256": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "report_id": {
+      "type": "string"
+    },
+    "report_state": {
+      "type": "string"
+    },
+    "source_count": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "remote_dependencies": {
+      "const": false
+    },
+    "output_html": {
+      "type": "string"
+    }
+  }
+}

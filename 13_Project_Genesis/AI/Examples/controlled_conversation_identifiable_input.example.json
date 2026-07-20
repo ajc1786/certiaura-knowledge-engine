@@ -1,0 +1,13 @@
+{
+  "schema_version": "1.0.0",
+  "session_reference": "PRIVACY-DEMO-0044",
+  "audience": "PATIENT_DISCUSSION_SUPPORT",
+  "patient_reference": "DEMO-0044",
+  "turns": [
+    {
+      "query_text": "My email is patient@example.com. What monitoring applies?",
+      "query_mode": "safety_monitoring",
+      "personalised_medical_request": false
+    }
+  ]
+}

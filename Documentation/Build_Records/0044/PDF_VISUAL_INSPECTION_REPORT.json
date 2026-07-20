@@ -1,0 +1,16 @@
+{
+  "build_number": "0044",
+  "file": "Documentation/Build_Records/0044/EXAMPLE_BRANDED_PATIENT_REPORT.pdf",
+  "page_count": 2,
+  "render_dpi": 120,
+  "inspection_result": "PASS",
+  "checks": {
+    "no_clipped_text": true,
+    "no_overlapping_text": true,
+    "source_table_readable": true,
+    "safety_boundary_visible": true,
+    "footer_and_hashes_visible": true,
+    "branding_consistent": true
+  },
+  "notes": "Packaged example visually inspected after rendering both pages to PNG."
+}

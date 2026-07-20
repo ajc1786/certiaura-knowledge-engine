@@ -1,0 +1,18 @@
+{
+  "schema_version": "1.0.0",
+  "session_reference": "DEMO-SESSION-0044",
+  "audience": "PATIENT_DISCUSSION_SUPPORT",
+  "patient_reference": "DEMO-0044",
+  "turns": [
+    {
+      "query_text": "What monitoring topics should be discussed with a clinician for retatrutide?",
+      "query_mode": "safety_monitoring",
+      "personalised_medical_request": false
+    },
+    {
+      "query_text": "What uncertainty should I keep in mind when reading the outcome evidence?",
+      "query_mode": "clinical_outcomes",
+      "personalised_medical_request": false
+    }
+  ]
+}
