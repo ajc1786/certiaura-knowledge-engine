@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.1.0",
+  "blocking": true,
+  "entry_point": "13_Project_Genesis/Release/build_package_preflight.py",
+  "target": "exact_final_zip",
+  "actual_importer_dry_run_required": true,
+  "actual_importer_apply_required": true,
+  "build_neutral_importer_or_current_runner_required": true,
+  "realistic_master_asset_register_required": true,
+  "transaction_backup_and_journal_required": true,
+  "stage_all_before_git_checks": true,
+  "commands_after_staging": [
+    "git diff --check",
+    "git diff --cached --check"
+  ],
+  "release_on_failure": false
+}

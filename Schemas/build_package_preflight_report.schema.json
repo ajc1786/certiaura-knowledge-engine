@@ -1,0 +1,62 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://certiaura.invalid/schemas/build_package_preflight_report.schema.json",
+  "title": "Certiaura Build Package Preflight Report",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "package",
+    "valid",
+    "gates",
+    "errors"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.0.0"
+    },
+    "package": {
+      "type": "string",
+      "minLength": 1
+    },
+    "build_number": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "pattern": "^[0-9]{4}[A-Za-z]?$"
+    },
+    "package_file_count": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "staged_file_count": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "valid": {
+      "type": "boolean"
+    },
+    "gates": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "boolean"
+      }
+    },
+    "synthetic_repository": {
+      "type": "object"
+    },
+    "warnings": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "errors": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "additionalProperties": false
+}

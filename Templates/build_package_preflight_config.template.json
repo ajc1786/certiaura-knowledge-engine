@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.0.0",
+  "release_gate_version": "1.0.0",
+  "allowed_roots": [
+    "00_Governance",
+    "01_Knowledge_Systems",
+    "02_Peptides",
+    "03_Biology",
+    "04_Conditions",
+    "05_Monitoring",
+    "06_Evidence",
+    "07_Goals",
+    "08_Product_Passports",
+    "09_Cost_Intelligence",
+    "10_Marketplace",
+    "11_Academy",
+    "12_Reports",
+    "13_Project_Genesis",
+    "Assets",
+    "Database",
+    "Documentation",
+    "Images",
+    "Schemas",
+    "Scripts",
+    "Standards",
+    "Templates"
+  ],
+  "require_no_wrapper_folder": true,
+  "require_inventory_member_equality": true,
+  "require_checksum_validation": true,
+  "require_lf_line_endings": true,
+  "require_final_newline": true,
+  "prohibit_trailing_whitespace": true,
+  "prohibit_runtime_artifacts": true,
+  "synthetic_repository": {
+    "required": true,
+    "minimum_unrelated_historical_files": 4,
+    "require_historical_commit": true,
+    "require_preservation_hash_check": true
+  },
+  "git_gates_after_staging": [
+    "git diff --check",
+    "git diff --cached --check"
+  ],
+  "destructive_deletions_permitted": false
+}

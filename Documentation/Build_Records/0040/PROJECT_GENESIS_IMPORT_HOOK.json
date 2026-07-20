@@ -1,0 +1,19 @@
+{
+  "build_number": "0040",
+  "package_version": "1.1.0",
+  "corrected_reissue": true,
+  "transactional_importer": "13_Project_Genesis/Import/transactional_build_import.py",
+  "current_build_runner": "13_Project_Genesis/Import/run_build_0040_import.py",
+  "powershell_entry_point": "Scripts/Invoke_Certiaura_Build_0040_Import.ps1",
+  "post_import_validator": "13_Project_Genesis/Validators/validate_build_0040_repository.py",
+  "test_pattern": "test_build_0040*.py",
+  "future_pre_delivery_hook": "13_Project_Genesis/Release/build_package_preflight_hook.json",
+  "blocking": true,
+  "asset_register": {
+    "baseline_expected_rows": 2870,
+    "new_formal_assets": 1,
+    "expected_rows_after_import": 2871,
+    "preserve_existing_uai": true,
+    "allocate_new_uai": true
+  }
+}

@@ -1,0 +1,234 @@
+{
+  "schema_version": "1.1.0",
+  "build_number": "0040",
+  "package_version": "1.1.0",
+  "allowlisted_roots": [
+    "00_Governance",
+    "13_Project_Genesis",
+    "Documentation",
+    "Schemas",
+    "Scripts",
+    "Standards",
+    "Templates"
+  ],
+  "wrapper_folder_allowed": false,
+  "files": [
+    {
+      "path": "00_Governance/CERTIAURA_LOCKED_BUILD_CONTINUITY_AND_CHECKPOINT.md",
+      "destination": "00_Governance/CERTIAURA_LOCKED_BUILD_CONTINUITY_AND_CHECKPOINT.md",
+      "root": "00_Governance",
+      "classification": "FORMAL_ASSET",
+      "action": "REPLACE_FILE"
+    },
+    {
+      "path": "13_Project_Genesis/Import/run_build_0040_import.py",
+      "destination": "13_Project_Genesis/Import/run_build_0040_import.py",
+      "root": "13_Project_Genesis",
+      "classification": "SCRIPT",
+      "action": "CREATE_FILE"
+    },
+    {
+      "path": "13_Project_Genesis/Import/transactional_build_import.py",
+      "destination": "13_Project_Genesis/Import/transactional_build_import.py",
+      "root": "13_Project_Genesis",
+      "classification": "FORMAL_ASSET",
+      "action": "REPLACE_FILE"
+    },
+    {
+      "path": "13_Project_Genesis/Release/build_package_preflight.py",
+      "destination": "13_Project_Genesis/Release/build_package_preflight.py",
+      "root": "13_Project_Genesis",
+      "classification": "SCRIPT",
+      "action": "CREATE_FILE"
+    },
+    {
+      "path": "13_Project_Genesis/Release/build_package_preflight_hook.json",
+      "destination": "13_Project_Genesis/Release/build_package_preflight_hook.json",
+      "root": "13_Project_Genesis",
+      "classification": "SCRIPT",
+      "action": "CREATE_FILE"
+    },
+    {
+      "path": "13_Project_Genesis/Tests/Fixtures/Build_0040/DEFECT_MATRIX.json",
+      "destination": "13_Project_Genesis/Tests/Fixtures/Build_0040/DEFECT_MATRIX.json",
+      "root": "13_Project_Genesis",
+      "classification": "TEST",
+      "action": "CREATE_FILE"
+    },
+    {
+      "path": "13_Project_Genesis/Tests/test_build_0040_preflight.py",
+      "destination": "13_Project_Genesis/Tests/test_build_0040_preflight.py",
+      "root": "13_Project_Genesis",
+      "classification": "TEST",
+      "action": "CREATE_FILE"
+    },
+    {
+      "path": "13_Project_Genesis/Tests/test_build_0040_transactional_importer_compatibility.py",
+      "destination": "13_Project_Genesis/Tests/test_build_0040_transactional_importer_compatibility.py",
+      "root": "13_Project_Genesis",
+      "classification": "TEST",
+      "action": "CREATE_FILE"
+    },
+    {
+      "path": "13_Project_Genesis/Tools/Run_Build_Package_Preflight.cmd",
+      "destination": "13_Project_Genesis/Tools/Run_Build_Package_Preflight.cmd",
+      "root": "13_Project_Genesis",
+      "classification": "SCRIPT",
+      "action": "CREATE_FILE"
+    },
+    {
+      "path": "13_Project_Genesis/Validators/validate_build_0040_repository.py",
+      "destination": "13_Project_Genesis/Validators/validate_build_0040_repository.py",
+      "root": "13_Project_Genesis",
+      "classification": "SCRIPT",
+      "action": "CREATE_FILE"
+    },
+    {
+      "path": "Documentation/Build_Records/0040/ASSET_INTENT_MANIFEST.json",
+      "destination": "Documentation/Build_Records/0040/ASSET_INTENT_MANIFEST.json",
+      "root": "Documentation",
+      "classification": "BUILD_RECORD",
+      "action": "CREATE_FILE"
+    },
+    {
+      "path": "Documentation/Build_Records/0040/BUILD_0040_READ_ME_FIRST.md",
+      "destination": "Documentation/Build_Records/0040/BUILD_0040_READ_ME_FIRST.md",
+      "root": "Documentation",
+      "classification": "BUILD_RECORD",
+      "action": "CREATE_FILE"
+    },
+    {
+      "path": "Documentation/Build_Records/0040/BUILD_MANIFEST.json",
+      "destination": "Documentation/Build_Records/0040/BUILD_MANIFEST.json",
+      "root": "Documentation",
+      "classification": "BUILD_RECORD",
+      "action": "CREATE_FILE"
+    },
+    {
+      "path": "Documentation/Build_Records/0040/CHECKSUMS.sha256",
+      "destination": "Documentation/Build_Records/0040/CHECKSUMS.sha256",
+      "root": "Documentation",
+      "classification": "BUILD_RECORD",
+      "action": "CREATE_FILE"
+    },
+    {
+      "path": "Documentation/Build_Records/0040/COMMIT_MESSAGE.txt",
+      "destination": "Documentation/Build_Records/0040/COMMIT_MESSAGE.txt",
+      "root": "Documentation",
+      "classification": "BUILD_RECORD",
+      "action": "CREATE_FILE"
+    },
+    {
+      "path": "Documentation/Build_Records/0040/DECISION_RECORD_0040.md",
+      "destination": "Documentation/Build_Records/0040/DECISION_RECORD_0040.md",
+      "root": "Documentation",
+      "classification": "BUILD_RECORD",
+      "action": "CREATE_FILE"
+    },
+    {
+      "path": "Documentation/Build_Records/0040/PACKAGE_INVENTORY.csv",
+      "destination": "Documentation/Build_Records/0040/PACKAGE_INVENTORY.csv",
+      "root": "Documentation",
+      "classification": "BUILD_RECORD",
+      "action": "CREATE_FILE"
+    },
+    {
+      "path": "Documentation/Build_Records/0040/PRE_RELEASE_SYNTHETIC_IMPORT_REPORT.json",
+      "destination": "Documentation/Build_Records/0040/PRE_RELEASE_SYNTHETIC_IMPORT_REPORT.json",
+      "root": "Documentation",
+      "classification": "BUILD_RECORD",
+      "action": "CREATE_FILE"
+    },
+    {
+      "path": "Documentation/Build_Records/0040/PRODUCTION_DASHBOARD_UPDATE.json",
+      "destination": "Documentation/Build_Records/0040/PRODUCTION_DASHBOARD_UPDATE.json",
+      "root": "Documentation",
+      "classification": "BUILD_RECORD",
+      "action": "CREATE_FILE"
+    },
+    {
+      "path": "Documentation/Build_Records/0040/PROJECT_GENESIS_IMPORT_HOOK.json",
+      "destination": "Documentation/Build_Records/0040/PROJECT_GENESIS_IMPORT_HOOK.json",
+      "root": "Documentation",
+      "classification": "BUILD_RECORD",
+      "action": "CREATE_FILE"
+    },
+    {
+      "path": "Documentation/Build_Records/0040/PROPOSED_CHANGE_LOG_ENTRY.md",
+      "destination": "Documentation/Build_Records/0040/PROPOSED_CHANGE_LOG_ENTRY.md",
+      "root": "Documentation",
+      "classification": "BUILD_RECORD",
+      "action": "CREATE_FILE"
+    },
+    {
+      "path": "Documentation/Build_Records/0040/PROPOSED_NEXT_ACTION.md",
+      "destination": "Documentation/Build_Records/0040/PROPOSED_NEXT_ACTION.md",
+      "root": "Documentation",
+      "classification": "BUILD_RECORD",
+      "action": "CREATE_FILE"
+    },
+    {
+      "path": "Documentation/Build_Records/0040/ROLLBACK_RUNBOOK.md",
+      "destination": "Documentation/Build_Records/0040/ROLLBACK_RUNBOOK.md",
+      "root": "Documentation",
+      "classification": "BUILD_RECORD",
+      "action": "CREATE_FILE"
+    },
+    {
+      "path": "Documentation/Build_Records/0040/ROUTING_MANIFEST.json",
+      "destination": "Documentation/Build_Records/0040/ROUTING_MANIFEST.json",
+      "root": "Documentation",
+      "classification": "BUILD_RECORD",
+      "action": "CREATE_FILE"
+    },
+    {
+      "path": "Documentation/Build_Records/0040/TEST_REPORT.json",
+      "destination": "Documentation/Build_Records/0040/TEST_REPORT.json",
+      "root": "Documentation",
+      "classification": "BUILD_RECORD",
+      "action": "CREATE_FILE"
+    },
+    {
+      "path": "Documentation/Build_Records/0040/VALIDATION_REPORT.json",
+      "destination": "Documentation/Build_Records/0040/VALIDATION_REPORT.json",
+      "root": "Documentation",
+      "classification": "BUILD_RECORD",
+      "action": "CREATE_FILE"
+    },
+    {
+      "path": "Schemas/build_package_preflight_report.schema.json",
+      "destination": "Schemas/build_package_preflight_report.schema.json",
+      "root": "Schemas",
+      "classification": "SCHEMA",
+      "action": "CREATE_FILE"
+    },
+    {
+      "path": "Scripts/Invoke_Certiaura_Build_0040_Import.ps1",
+      "destination": "Scripts/Invoke_Certiaura_Build_0040_Import.ps1",
+      "root": "Scripts",
+      "classification": "SCRIPT",
+      "action": "CREATE_FILE"
+    },
+    {
+      "path": "Scripts/Invoke_Certiaura_Build_Preflight.ps1",
+      "destination": "Scripts/Invoke_Certiaura_Build_Preflight.ps1",
+      "root": "Scripts",
+      "classification": "SCRIPT",
+      "action": "CREATE_FILE"
+    },
+    {
+      "path": "Standards/BUILD_PACKAGE_AUTOMATED_PREFLIGHT_AND_SYNTHETIC_IMPORT_STANDARD.md",
+      "destination": "Standards/BUILD_PACKAGE_AUTOMATED_PREFLIGHT_AND_SYNTHETIC_IMPORT_STANDARD.md",
+      "root": "Standards",
+      "classification": "FORMAL_ASSET",
+      "action": "CREATE_FILE"
+    },
+    {
+      "path": "Templates/build_package_preflight_config.template.json",
+      "destination": "Templates/build_package_preflight_config.template.json",
+      "root": "Templates",
+      "classification": "TEMPLATE",
+      "action": "CREATE_FILE"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.1.0",
+  "build_number": "0040",
+  "package_version": "1.1.0",
+  "corrected_reissue": true,
+  "valid": true,
+  "test_suite": {
+    "tests_run": 9,
+    "failures": 0,
+    "errors": 0,
+    "status": "PASS"
+  },
+  "gates": {
+    "final_zip_validation": "PASS",
+    "actual_transactional_importer_dry_run": "PASS",
+    "actual_transactional_importer_apply": "PASS",
+    "current_build_metadata_validation": "PASS",
+    "master_asset_register_reconciliation": "PASS",
+    "identifier_allocation_validation": "PASS",
+    "transaction_backup_and_journal": "PASS",
+    "unrelated_history_preservation": "PASS",
+    "unexpected_deletions": "PASS",
+    "git_diff_check_after_staging": "PASS",
+    "git_diff_cached_check_after_staging": "PASS",
+    "runtime_artifacts": "PASS",
+    "prior_build_importer_residue_regression": "PASS"
+  },
+  "package_file_count": 31,
+  "synthetic_staged_path_count": 32,
+  "lessons_learned": "Package release now requires execution of the actual build-neutral importer in dry-run and apply modes against the exact final ZIP."
+}

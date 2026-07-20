@@ -1,0 +1,21 @@
+{
+  "build_number": "0040",
+  "package_version": "1.1.0",
+  "corrected_reissue": true,
+  "status": "PASS_PENDING_FINAL_ZIP_EXECUTION",
+  "test_modules": [
+    "test_build_0040_preflight.py",
+    "test_build_0040_transactional_importer_compatibility.py"
+  ],
+  "required_scenarios": [
+    "valid actual importer dry run and apply",
+    "subsequent build metadata discovery",
+    "prior-build importer residue rejected",
+    "wrapper rejected",
+    "trailing whitespace rejected",
+    "runtime artefact rejected",
+    "case collision rejected",
+    "unlisted member rejected",
+    "checksum drift rejected"
+  ]
+}

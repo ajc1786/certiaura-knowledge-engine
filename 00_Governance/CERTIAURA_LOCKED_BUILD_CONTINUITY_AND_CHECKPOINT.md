@@ -1,7 +1,7 @@
 # CERTIAURA LOCKED BUILD CONTINUITY AND CHECKPOINT
 
 **Document ID:** CERT-GOV-CONT-002
-**Version:** 1.4.1
+**Version:** 1.3.0
 **Status:** LOCKED — ACTIVE
 **Effective date:** 2026-07-19
 **Last updated:** 2026-07-20
@@ -592,172 +592,212 @@ Where the source files and the founder's latest explicit message conflict, the l
 
 ---
 
-## 16. Current locked correction
+## 16. Build 0039 closure and lessons learned
 
-### Founder-confirmed repository position
+Build 0039 is closed at `ACTIONS_GREEN_CLOSED` on commit:
 
-- Build 0038 is closed, committed, pushed and GitHub Actions are green.
-- The canonical repository is clean at the Build 0038 baseline.
-- Build 0039 retains the title `evidence ingestion citation management living evidence surveillance and scientific review controls`.
-- Build 0039 package version 1.3.0 is withdrawn because of the recovery directory-cleanup defect.
-- Build 0039 package version 1.3.1 is withdrawn because its manifest regression test scanned the entire installed repository instead of package-owned paths.
-- Both withdrawn packages must not be applied.
-- Build 0040 remains on hold until Build 0039 reaches `ACTIONS_GREEN_CLOSED`.
+```text
+87624e9f1a9623d57c2ba583ecc5957754d8f527
+```
 
-### Build 0039 v1.3.2 mandatory correction
+The closed build title is:
 
-The Build 0039 reissue keeps the same build number and full title and is released as package version **1.3.1**.
+```text
+evidence ingestion citation management living evidence surveillance and scientific review controls
+```
 
-The recovery and rollback controls must:
+The Build 0039 installation and correction cycle established the following locked lessons:
 
-1. remove a directory only when it is recorded as created by the current transaction;
-2. prove that the directory is empty immediately before removal;
-3. use non-recursive directory removal only;
-4. never recursively remove an existing canonical repository directory;
-5. preserve pre-existing sibling files and sibling folders;
-6. hash-check transaction-created files before deleting them during recovery;
-7. restore replaced files and the Master Asset Register from the transactional backup;
-8. report skipped cleanup where a directory is non-empty or a file has changed;
-9. include regression tests for existing parent directories, sibling files, sibling folders and nested sibling content.
+- future packages must pass a complete synthetic installation into a temporary Git repository containing unrelated historical files before delivery;
+- the exact ZIP proposed for delivery must be validated, not only its source-generation directory;
+- all package changes must be staged in the synthetic repository before running both `git diff --check` and `git diff --cached --check`;
+- trailing whitespace, malformed text, inconsistent line endings, missing final newlines, invalid encoding, unexpected deletion, unstaged change, untracked file or runtime artefact blocks release;
+- generated Python bytecode and cache directories must never be packaged;
+- the package inventory and manifest must be validated against the package itself;
+- a successful source-tree test is not a substitute for a successful final-ZIP test.
 
-The withdrawn v1.3.0 and v1.3.1 packages remain prohibited. The manifest test must compare the Asset Intent Manifest with the package inventory and verify declared files exist, while ignoring unrelated repository content.
+## 17. Locked automated preflight and synthetic-import release controls
 
----
+Build 0040 implements the Build 0039 lessons as an automated fail-closed release gate.
 
-## 17. Current continuation checkpoint
+The first Build 0040 package proved that package-level synthetic extraction alone is insufficient. During installation preparation, the installed Project Genesis transactional importer was found to contain hard-coded Build 0039 metadata, paths, package version and report destinations.
+
+That first Build 0040 package was blocked before repository import.
+
+Every future package must now pass the exact final ZIP through the actual transactional importer that will be used for the real repository.
+
+Release is blocked unless all of the following pass:
+
+1. ZIP path safety and repository-root allowlist;
+2. absence of a build-named wrapper folder;
+3. duplicate-path and case-collision checks;
+4. package inventory equality with ZIP members;
+5. checksum verification from ZIP member bytes;
+6. build, routing and Asset Intent Manifest validation from inside the ZIP;
+7. UTF-8 and line-ending normalisation;
+8. trailing-whitespace and final-newline checks;
+9. JSON parsing and Python compilation;
+10. runtime-artefact exclusion;
+11. synthetic Git repository creation with unrelated tracked history;
+12. realistic Master Asset Register creation with existing identifiers;
+13. execution of the actual importer in dry-run mode;
+14. proof that the dry run makes no repository change;
+15. current-build number, title, package version and manifest-path verification;
+16. execution of the actual importer in apply mode;
+17. transaction backup and journal verification;
+18. Master Asset Register reconciliation and identifier allocation verification;
+19. preservation of unrelated historical file hashes;
+20. absence of unexpected tracked deletion;
+21. staging of all package and register changes;
+22. `git diff --check` after staging;
+23. `git diff --cached --check` after staging;
+24. absence of unstaged or untracked residue after staging;
+25. exact staged-path equality with the imported transaction.
+
+Transactional importers must be genuinely build-neutral or be accompanied by a dedicated, tested current-build runner.
+
+Hard-coded prior-build metadata, report routing, manifest locations, package versions or compatibility uncertainty block release.
+
+The canonical implementation is:
+
+```text
+13_Project_Genesis/Release/build_package_preflight.py
+```
+
+The canonical build-neutral importer is:
+
+```text
+13_Project_Genesis/Import/transactional_build_import.py
+```
+
+The governing standard is:
+
+```text
+Standards/BUILD_PACKAGE_AUTOMATED_PREFLIGHT_AND_SYNTHETIC_IMPORT_STANDARD.md
+```
+
+All founder-facing execution instructions remain PowerShell-first and copy-and-paste ready.
+
+## 18. Current continuation checkpoint
 
 **Checkpoint date:** 2026-07-20
-**Checkpoint status:** ACTIVE — BUILD 0039 v1.3.2 REISSUED, AWAITING CONTROLLED DRY RUN AND IMPORT
+**Checkpoint status:** ACTIVE — BUILD 0040 CORRECTED REISSUE DELIVERED, IMPORT PENDING
 
 ### Last closed build
 
 ```text
-Build 0038 — ACTIONS_GREEN_CLOSED
+Build 0039 — evidence ingestion citation management living evidence surveillance and scientific review controls
+Status: ACTIONS_GREEN_CLOSED
+Commit: 87624e9f1a9623d57c2ba583ecc5957754d8f527
 ```
 
 ### Current pending build
 
 ```text
-Build 0039 — evidence ingestion citation management living evidence surveillance and scientific review controls
-Package version: 1.3.2
-State: GENERATED / DELIVERED
+Build 0040 — automated build-package preflight synthetic repository import and release integrity controls
+Status: DELIVERED — CORRECTED REISSUE
+```
+
+### Recorded defect
+
+```text
+The first Build 0040 package did not execute the real Project Genesis transactional importer during package preflight. Static inspection found Build 0039 metadata hard-coded in the installed importer. Import was blocked before repository modification.
+```
+
+### Correction included
+
+```text
+Build-neutral transactional importer; dedicated Build 0040 runner; real importer dry-run and apply synthetic testing; current-build metadata checks; realistic Master Asset Register reconciliation; transaction backup and journal validation; prior-build residue regression test.
 ```
 
 ### Immediate next action
 
-1. Pause OneDrive synchronisation.
-2. Confirm the repository is clean at the Build 0038 baseline.
-3. Use only the Build 0039 v1.3.2 package; v1.3.0 and v1.3.1 are withdrawn.
-4. Run the Project Genesis dry run.
-5. Review routing, collision, Master Asset Register and recovery-safety reports.
-6. Apply only when all mandatory gates pass.
-
-### Required close-out sequence
-
 ```text
-Pause OneDrive → dry run → review reports → transactional import → repository validation → commit and push → confirm GitHub Actions green
+Run the corrected Build 0040 PowerShell dry run, verify the generated report, run the PowerShell apply transaction, validate the repository, stage all changes, run both Git diff checks, commit and push, then confirm GitHub Actions green.
 ```
 
-### Exact future commit message
+### Hold point
 
-```text
-Add Certiaura Build 0039 evidence ingestion citation management living evidence surveillance and scientific review controls
-```
+Do not represent Build 0040 as closed until:
 
-### Following planned action
+- the corrected final ZIP passes its complete release-gate version 1.1.0 preflight;
+- the real Build 0040 transactional dry run passes;
+- the dry run reports correct Build 0040 metadata and makes no repository change;
+- the apply transaction completes with a backup and transaction journal;
+- the new SYS formal asset receives one permanent Universal Asset Identifier;
+- the canonical Master Asset Register reconciles without duplicate or orphan records;
+- the repository validator passes;
+- all Build 0040 regression tests pass;
+- `git diff --check` passes after staging;
+- `git diff --cached --check` passes after staging;
+- no unexpected deletion or runtime artefact remains;
+- the exact commit is pushed;
+- GitHub Actions are green.
 
-```text
-Build 0040 remains on hold until Build 0039 is ACTIONS_GREEN_CLOSED.
-```
-
----
-
-## 18. Decision history
+## 19. Decision history additions
 
 | Date | Decision | Status |
 |---|---|---|
-| 2026-07-19 | Use concise convention-compliant ZIP filenames | LOCKED |
-| 2026-07-19 | Target filename length ≤80 characters; absolute maximum 100 | LOCKED |
-| 2026-07-19 | Use one ZIP link, exact commit message and proposed next action | LOCKED |
-| 2026-07-19 | Use exact `Add Certiaura Build...` commit convention | LOCKED |
-| 2026-07-19 | Default to larger integrated work-package builds | LOCKED |
-| 2026-07-19 | Prohibit build-named wrapper folders inside ZIPs | LOCKED |
-| 2026-07-19 | Require Asset Intent Manifest and automatic Master Asset Register reconciliation | LOCKED |
-| 2026-07-19 | Treat file import and Master Asset Register update as one rollback-safe transaction | LOCKED |
-| 2026-07-20 | Build 0038 confirmed closed, pushed and Actions green | LOCKED CHECKPOINT |
-| 2026-07-20 | Withdraw Build 0039 package v1.3.0 and prohibit use of the current `(3).zip` | LOCKED |
-| 2026-07-20 | Withdraw Build 0039 package v1.3.1 because its manifest test was not installation-context-safe | LOCKED |
-| 2026-07-20 | Reissue Build 0039 under the same build number and title as package v1.3.2 | LOCKED |
-| 2026-07-20 | Directory cleanup is limited to transaction-created directories proven empty and removed non-recursively | LOCKED |
-| 2026-07-20 | Require regression tests with pre-existing sibling files and folders | LOCKED |
-| 2026-07-20 | Retain Build 0039 external backups and failed-import evidence outside the repository | LOCKED |
-| 2026-07-20 | Build 0040 remains on hold | LOCKED |
+| 2026-07-20 | Close Build 0039 at commit `87624e9f1a9623d57c2ba583ecc5957754d8f527` | LOCKED |
+| 2026-07-20 | Require final-ZIP validation rather than source-folder-only validation | LOCKED |
+| 2026-07-20 | Require synthetic installation into a temporary Git repository with unrelated tracked history | LOCKED |
+| 2026-07-20 | Require both Git diff checks after staging all package changes | LOCKED |
+| 2026-07-20 | Block release for whitespace, line-ending, encoding, deletion, residue or runtime-artefact failures | LOCKED |
+| 2026-07-20 | Validate package inventory and manifests against the package itself | LOCKED |
+| 2026-07-20 | Require every final package to execute the actual Project Genesis importer in dry-run and apply mode during synthetic testing | LOCKED |
+| 2026-07-20 | Require transactional importers to be build-neutral or have a dedicated tested current-build runner | LOCKED |
+| 2026-07-20 | Block release for prior-build hard-coded metadata, paths, versions, report routing or importer uncertainty | LOCKED |
+| 2026-07-20 | Require realistic Master Asset Register reconciliation, identifier allocation, backup and transaction-journal validation in synthetic testing | LOCKED |
+| 2026-07-20 | Require importer compatibility regression tests for every future build package | LOCKED |
+| 2026-07-20 | Correct and reissue Build 0040 under the same build identity rather than consume Build 0041 | LOCKED |
+| 2026-07-20 | Use PowerShell-first execution for all future Certiaura build and repository workflows | LOCKED |
 
----
-
-## 19. Machine-readable checkpoint
+## 20. Machine-readable checkpoint
 
 ```json
 {
   "document_id": "CERT-GOV-CONT-002",
-  "version": "1.4.1",
+  "version": "1.3.0",
   "status": "LOCKED_ACTIVE",
   "checkpoint_date": "2026-07-20",
   "last_closed_build": {
-    "build_number": "0038",
-    "state": "ACTIONS_GREEN_CLOSED"
+    "build_number": "0039",
+    "status": "ACTIONS_GREEN_CLOSED",
+    "commit": "87624e9f1a9623d57c2ba583ecc5957754d8f527"
   },
   "current_pending_build": {
-    "build_number": "0039",
-    "title": "evidence ingestion citation management living evidence surveillance and scientific review controls",
-    "package_version": "1.3.2",
-    "state": "GENERATED_DELIVERED",
-    "withdrawn_package_versions": [
-      "1.3.0",
-      "1.3.1"
-    ],
-    "withdrawn_package_must_not_be_applied": true
-  },
-  "recovery_safety": {
-    "remove_only_transaction_created_directories": true,
-    "prove_empty_before_directory_removal": true,
-    "recursive_directory_removal_prohibited": true,
-    "preserve_existing_repository_directories": true,
-    "preserve_pre_existing_sibling_files_and_folders": true,
-    "hash_check_created_files_before_recovery_deletion": true,
-    "regression_tests_required": true
-  },
-  "external_failed_import_evidence_retained": true,
-  "onedrive": {
-    "may_run_now": true,
-    "must_pause_before_dry_run_or_import": true
-  },
-  "exact_commit_message": "Add Certiaura Build 0039 evidence ingestion citation management living evidence surveillance and scientific review controls",
-  "following_build": {
     "build_number": "0040",
-    "state": "ON_HOLD"
-  }
+    "title": "automated build-package preflight synthetic repository import and release integrity controls",
+    "status": "DELIVERED_CORRECTED_REISSUE"
+  },
+  "known_defect": {
+    "first_0040_package_import_blocked": true,
+    "reason": "Installed transactional importer retained hard-coded Build 0039 metadata and had not been executed by package preflight"
+  },
+  "release_gate": {
+    "version": "1.1.0",
+    "final_zip_validation_required": true,
+    "synthetic_git_import_required": true,
+    "actual_importer_dry_run_required": true,
+    "actual_importer_apply_required": true,
+    "build_neutral_importer_or_current_runner_required": true,
+    "current_build_metadata_validation_required": true,
+    "realistic_master_asset_register_required": true,
+    "transaction_backup_and_journal_required": true,
+    "unrelated_history_required": true,
+    "stage_all_before_git_checks": true,
+    "git_diff_check_required": true,
+    "git_diff_cached_check_required": true,
+    "runtime_artifacts_block_release": true,
+    "inventory_validated_against_zip": true,
+    "prior_build_importer_residue_blocks_release": true,
+    "importer_regression_test_required": true,
+    "powershell_first_execution": true
+  },
+  "immediate_next_action": "Run corrected Build 0040 PowerShell dry run, verify, apply, validate, stage, run both Git diff checks, commit, push and confirm Actions green"
 }
 ```
 
----
+## 21. Authority and amendment rule
 
-## 20. Authority and amendment rule
-
-This document is locked by explicit founder instruction.
-
-It remains in force until Aidan Coleman explicitly:
-
-- amends it;
-- supersedes it; or
-- approves a later replacement control.
-
-Any proposed change must state:
-
-1. the exact existing rule being changed;
-2. the reason;
-3. the replacement;
-4. whether the old rule is amended, superseded or retained;
-5. the effect on the current continuation checkpoint.
-
-No assistant, developer or automation may silently alter these rules.
+This document remains locked by explicit founder instruction. No release tool, assistant or collaborator may weaken the Build 0040 release gates without an explicit recorded amendment.

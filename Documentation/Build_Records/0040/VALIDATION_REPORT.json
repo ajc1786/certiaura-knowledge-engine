@@ -1,0 +1,19 @@
+{
+  "build_number": "0040",
+  "package_version": "1.1.0",
+  "corrected_reissue": true,
+  "status": "PASS_PENDING_FINAL_ZIP_EXECUTION",
+  "validated_controls": [
+    "BUILD_NEUTRAL_IMPORTER_SOURCE",
+    "CURRENT_BUILD_RUNNER",
+    "POWERSHELL_FIRST_IMPORT",
+    "ACTUAL_IMPORTER_DRY_RUN",
+    "ACTUAL_IMPORTER_APPLY",
+    "CURRENT_BUILD_METADATA_MATCH",
+    "MASTER_ASSET_REGISTER_RECONCILIATION",
+    "TRANSACTION_BACKUP_AND_JOURNAL",
+    "UNRELATED_HISTORY_PRESERVATION",
+    "POST_STAGING_GIT_DIFF_CHECKS"
+  ],
+  "release_gate_version": "1.1.0"
+}

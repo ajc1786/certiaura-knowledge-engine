@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.1.0",
+  "build_number": "0040",
+  "build_id": "CERT-BUILD-0040",
+  "build_title": "automated build-package preflight synthetic repository import and release integrity controls",
+  "package_version": "1.1.0",
+  "build_date": "2026-07-20",
+  "status": "DELIVERED_CORRECTED_REISSUE",
+  "corrected_reissue": true,
+  "supersedes_package_version": "1.0.0",
+  "dependency": {
+    "build_number": "0039",
+    "status": "ACTIONS_GREEN_CLOSED",
+    "commit": "87624e9f1a9623d57c2ba583ecc5957754d8f527"
+  },
+  "exact_commit_message": "Add Certiaura Build 0040 automated build-package preflight synthetic repository import and release integrity controls",
+  "release_gate_version": "1.1.0",
+  "package_file_count": 31,
+  "destructive_deletions_permitted": false,
+  "baseline_master_asset_register_rows": 2870,
+  "formal_assets_created": 1,
+  "formal_assets_updated": 2,
+  "expected_master_asset_register_rows": 2871,
+  "mandatory_controls": [
+    "FINAL_ZIP_VALIDATION",
+    "PACKAGE_MEMBER_INVENTORY_EQUALITY",
+    "ACTUAL_TRANSACTIONAL_IMPORTER_DRY_RUN",
+    "ACTUAL_TRANSACTIONAL_IMPORTER_APPLY",
+    "CURRENT_BUILD_METADATA_VALIDATION",
+    "REALISTIC_MASTER_ASSET_REGISTER_RECONCILIATION",
+    "TRANSACTION_BACKUP_AND_JOURNAL",
+    "UNRELATED_HISTORY_PRESERVATION",
+    "STAGE_ALL_TRANSACTION_CHANGES",
+    "GIT_DIFF_CHECK_AFTER_STAGING",
+    "GIT_DIFF_CACHED_CHECK_AFTER_STAGING",
+    "NO_UNEXPECTED_DELETIONS",
+    "NO_RUNTIME_ARTIFACTS",
+    "PRIOR_BUILD_IMPORTER_RESIDUE_REJECTION",
+    "POWERSHELL_FIRST_EXECUTION"
+  ]
+}

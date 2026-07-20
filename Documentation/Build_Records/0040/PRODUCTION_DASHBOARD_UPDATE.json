@@ -1,0 +1,11 @@
+{
+  "build_number": "0040",
+  "status": "DELIVERED_CORRECTED_REISSUE",
+  "last_closed_build": "0039",
+  "dependency_commit": "87624e9f1a9623d57c2ba583ecc5957754d8f527",
+  "release_gate_version": "1.1.0",
+  "first_package_blocked_before_import": true,
+  "defect": "Prior-build metadata remained hard-coded in the installed transactional importer",
+  "correction": "Build-neutral importer plus actual dry-run and apply synthetic transaction testing",
+  "next_gate": "POWERSHELL_TRANSACTIONAL_DRY_RUN"
+}

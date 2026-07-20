@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.1.0",
+  "build_number": "0040",
+  "defects": [
+    "wrapper_folder",
+    "trailing_whitespace",
+    "runtime_artifact",
+    "case_only_collision",
+    "unlisted_member",
+    "checksum_drift",
+    "prior_build_importer_metadata",
+    "wrong_build_record_path",
+    "missing_current_build_runner",
+    "transaction_journal_metadata_mismatch"
+  ]
+}
