@@ -1,31 +1,45 @@
 {
-  "build_number": "0043",
-  "status": "CORRECTED_REISSUE_CANDIDATE_NOT_RELEASED",
-  "non_windows_validation": {
-    "package_preflight": "PASS",
-    "package_file_classification": "PASS_ALL_FILES",
-    "package_content_sha256": "PASS",
-    "powershell_ascii_gate": "PASS",
-    "python_unit_tests": "PASS_6_OF_6",
-    "synthetic_dry_run": "PASS",
-    "synthetic_transactional_apply": "PASS",
-    "master_asset_register_reconciliation": "PASS",
-    "report_generation": "PASS",
-    "ai_grounded_answer": "PASS",
-    "ai_dosing_refusal": "PASS",
-    "ai_urgent_routing": "PASS",
-    "git_diff_check": "PASS",
-    "git_diff_cached_check": "PASS"
-  },
-  "release_blocker": {
-    "gate": "COMPLETE_REAL_WORLD_WINDOWS_POWERSHELL_5_1_OPERATOR_REGRESSION",
-    "status": "REPEAT_REQUIRED_ON_CORRECTED_PACKAGE",
-    "effect": "Do not import, commit or push Build 0043 until the bundled regression returns PASS."
-  },
-  "observed_failure": {
-    "gate": "WINDOWS_POWERSHELL_5_1_PARSER_PRECHECK",
-    "result": "BLOCKED_AS_DESIGNED",
-    "defect": "Unicode em dash in UTF-8-without-BOM Run_Certiaura_Build_0043.ps1",
-    "corrected_in_version": "1.0.1"
-  }
+    "build_number":  "0043",
+    "status":  "WINDOWS_PS51_REGRESSION_PASSED_IMPLEMENTATION_COMMITTED_POST_PUSH_CORRECTION_PENDING",
+    "non_windows_validation":  {
+                                   "package_preflight":  "PASS",
+                                   "package_file_classification":  "PASS_ALL_FILES",
+                                   "package_content_sha256":  "PASS",
+                                   "powershell_ascii_gate":  "PASS",
+                                   "python_unit_tests":  "PASS_6_OF_6",
+                                   "synthetic_dry_run":  "PASS",
+                                   "synthetic_transactional_apply":  "PASS",
+                                   "master_asset_register_reconciliation":  "PASS",
+                                   "report_generation":  "PASS",
+                                   "ai_grounded_answer":  "PASS",
+                                   "ai_dosing_refusal":  "PASS",
+                                   "ai_urgent_routing":  "PASS",
+                                   "git_diff_check":  "PASS",
+                                   "git_diff_cached_check":  "PASS"
+                               },
+    "release_blocker":  {
+                            "gate":  "COMPLETE_REAL_WORLD_WINDOWS_POWERSHELL_5_1_OPERATOR_REGRESSION",
+                            "status":  "CLEARED",
+                            "effect":  "Windows PowerShell 5.1 release regression passed before canonical import."
+                        },
+    "observed_failure":  {
+                             "gate":  "WINDOWS_POWERSHELL_5_1_PARSER_PRECHECK",
+                             "result":  "BLOCKED_AS_DESIGNED",
+                             "defect":  "Unicode em dash in UTF-8-without-BOM Run_Certiaura_Build_0043.ps1",
+                             "corrected_in_version":  "1.0.1"
+                         },
+    "windows_powershell_5_1_result":  {
+                                          "result":  "PASS",
+                                          "automated_tests":  "PASS_6_OF_6",
+                                          "patient_report":  "READY_FOR_CLINICIAN_DISCUSSION",
+                                          "ai_query":  "ANSWERED_GROUNDED"
+                                      },
+    "post_push_failure":  {
+                              "stage":  "FINALLY_ONEDRIVE_RESTART",
+                              "repository_import_affected":  false,
+                              "commit_affected":  false,
+                              "push_affected":  false,
+                              "root_cause":  "Single pipeline result was a scalar under Windows PowerShell 5.1 StrictMode",
+                              "required_action":  "Commit same-build correction and obtain green GitHub Actions"
+                          }
 }

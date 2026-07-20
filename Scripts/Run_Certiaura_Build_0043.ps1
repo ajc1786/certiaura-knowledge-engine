@@ -18,7 +18,15 @@ function Stop-OneDriveSafely {
  return [pscustomobject]$State
 }
 function Start-OneDriveIfRequired($State) {
- if(-not $State.WasRunning){return}; $C=@($State.Executable,(Join-Path $env:LOCALAPPDATA "Microsoft\OneDrive\OneDrive.exe"),(Join-Path $env:ProgramFiles "Microsoft OneDrive\OneDrive.exe"),(Join-Path ${env:ProgramFiles(x86)} "Microsoft OneDrive\OneDrive.exe"))|Where-Object{$_ -and (Test-Path -LiteralPath $_ -PathType Leaf)}|Select-Object -Unique
+ if(-not $State.WasRunning){return}
+ # StrictMode array-normalisation: preserve Count when one path resolves.
+ $CandidatePaths=New-Object System.Collections.Generic.List[string]
+ if($State.Executable){$CandidatePaths.Add([string]$State.Executable)}
+ if($env:LOCALAPPDATA){$CandidatePaths.Add((Join-Path $env:LOCALAPPDATA "Microsoft\OneDrive\OneDrive.exe"))}
+ if($env:ProgramFiles){$CandidatePaths.Add((Join-Path $env:ProgramFiles "Microsoft OneDrive\OneDrive.exe"))}
+ $ProgramFilesX86=[Environment]::GetEnvironmentVariable("ProgramFiles(x86)")
+ if($ProgramFilesX86){$CandidatePaths.Add((Join-Path $ProgramFilesX86 "Microsoft OneDrive\OneDrive.exe"))}
+ $C=@($CandidatePaths|Where-Object{$_ -and (Test-Path -LiteralPath $_ -PathType Leaf)}|Select-Object -Unique)
  if($C.Count -gt 0){Start-Process -FilePath $C[0]|Out-Null}else{Write-Warning "OneDrive restart path could not be resolved."}
 }
 $OneDrive=[pscustomobject]@{WasRunning=$false;Executable=$null}; $Extract=$null

@@ -21,3 +21,27 @@
 | `git diff --check` | PASS |
 | `git diff --cached --check` | PASS |
 | OneDrive restoration | Restored to prior state |
+
+
+## Post-success cleanup and recovery path
+
+The full Windows PowerShell 5.1 operator regression must verify:
+
+- the implementation commit and push complete successfully;
+- the `finally` block executes;
+- a single resolved OneDrive executable remains an array;
+- `Count` and indexed access succeed under StrictMode;
+- OneDrive restarts after both successful and failed controlled workflows;
+- a cleanup failure cannot misrepresent whether the implementation commit was pushed.
+
+## Generated text and Git hygiene gate
+
+The Windows PowerShell 5.1 regression must verify that every generated or amended Markdown, JSON, CSV, Python, PowerShell, command and text file has:
+
+- UTF-8 without BOM where UTF-8 is required;
+- ASCII-only content for PowerShell scripts where mandated;
+- LF repository line endings;
+- no trailing spaces or tabs;
+- one final newline;
+- a passing `git diff --check`;
+- a passing `git diff --cached --check`.

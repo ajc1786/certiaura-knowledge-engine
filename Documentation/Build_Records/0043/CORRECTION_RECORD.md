@@ -19,3 +19,22 @@ The script contained a Unicode em dash in an otherwise UTF-8-without-BOM `.ps1` 
 ## Release effect
 
 The earlier Build 0043 ZIP is superseded and must not be imported. The corrected reissue retains the same Build 0043 title and exact commit message. The real Windows PowerShell 5.1 end-to-end regression remains mandatory before canonical import.
+
+
+## Post-push OneDrive restart StrictMode defect
+
+- **Observed stage:** after the Build 0043 implementation commit and push had succeeded.
+- **Failure:** `Start-OneDriveIfRequired` evaluated `.Count` on a scalar string.
+- **Root cause:** the candidate-path pipeline was not wrapped around its complete output. Windows PowerShell 5.1 returned a scalar when exactly one executable path resolved.
+- **Repository effect:** none; the implementation commit and remote push completed before the failure.
+- **Operational effect:** OneDrive restart did not complete automatically and the wrapper workflow returned exit code 1.
+- **Corrective action:** force the complete candidate pipeline into an array before evaluating `Count`.
+- **Closure effect:** Build 0043 remains open until the correction commit and its GitHub Actions run are green.
+
+## Correction-stage text normalisation defect
+
+- **Observed gate:** `git diff --check`.
+- **Failure:** generated Markdown contained line-ending characters interpreted as trailing whitespace.
+- **Repository effect:** none; Git blocked the correction before staging, commit and push.
+- **Corrective action:** normalise affected text files to UTF-8 without BOM, LF line endings, no trailing spaces or tabs, and exactly one final newline.
+- **Preventive control:** every generated or amended text file must be normalised before either Git whitespace check.

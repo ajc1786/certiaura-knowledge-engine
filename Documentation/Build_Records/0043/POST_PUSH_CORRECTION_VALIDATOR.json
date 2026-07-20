@@ -1,0 +1,9 @@
+{
+  "valid": true,
+  "errors": [],
+  "checks": {
+    "required_files": "PASS",
+    "json_parse": "PASS",
+    "safety_boundaries": "PASS"
+  }
+}

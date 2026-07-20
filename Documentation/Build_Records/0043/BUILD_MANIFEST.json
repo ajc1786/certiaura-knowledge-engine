@@ -1,35 +1,42 @@
 {
-  "build_number": "0043",
-  "build_id": "CERT-BUILD-0043",
-  "title": "retatrutide patient journey report generation and AI query integration baseline",
-  "version": "1.0.1",
-  "date": "2026-07-20",
-  "status": "CORRECTED_REISSUE_CANDIDATE_WINDOWS_PS51_GATE_REQUIRED",
-  "dependencies": [
-    {
-      "build": "0041",
-      "status_required": "ACTIONS_GREEN_CLOSED"
-    },
-    {
-      "build": "0042",
-      "status_required": "ACTIONS_GREEN_CLOSED",
-      "required_commits": [
-        "d1557f4cd7d4f4bc05385929e047f44d1e72d214",
-        "96324d10ddcb0c0e8e553a1cf678f74d0aa62902"
-      ],
-      "closure_prefix": "13a458561afbcbe47c11a"
-    }
-  ],
-  "commit_message": "Add Certiaura Build 0043 retatrutide patient journey report generation and AI query integration baseline",
-  "formal_asset_count": 2,
-  "release_gate": {
-    "windows_powershell_5_1_end_to_end": "REQUIRED_BEFORE_REPOSITORY_IMPORT"
-  },
-  "next_build": "0044",
-  "reissue": {
-    "same_build_identity": true,
-    "supersedes_previous_package": true,
-    "reason": "Windows PowerShell 5.1 parser defect caused by non-ASCII punctuation in a UTF-8-without-BOM script",
-    "corrective_control": "All .ps1 files ASCII-only with repository-normalised LF; preflight and regression gates reject non-ASCII bytes"
-  }
+    "build_number":  "0043",
+    "build_id":  "CERT-BUILD-0043",
+    "title":  "retatrutide patient journey report generation and AI query integration baseline",
+    "version":  "1.0.2",
+    "date":  "2026-07-20",
+    "status":  "COMMITTED_PUSHED_POST_PUSH_CORRECTION_PENDING_ACTIONS_GREEN",
+    "dependencies":  [
+                         {
+                             "build":  "0041",
+                             "status_required":  "ACTIONS_GREEN_CLOSED"
+                         },
+                         {
+                             "build":  "0042",
+                             "status_required":  "ACTIONS_GREEN_CLOSED",
+                             "required_commits":  [
+                                                      "d1557f4cd7d4f4bc05385929e047f44d1e72d214",
+                                                      "96324d10ddcb0c0e8e553a1cf678f74d0aa62902"
+                                                  ],
+                             "closure_prefix":  "13a458561afbcbe47c11a"
+                         }
+                     ],
+    "commit_message":  "Add Certiaura Build 0043 retatrutide patient journey report generation and AI query integration baseline",
+    "formal_asset_count":  2,
+    "release_gate":  {
+                         "windows_powershell_5_1_end_to_end":  "REQUIRED_BEFORE_REPOSITORY_IMPORT"
+                     },
+    "next_build":  "0044",
+    "reissue":  {
+                    "same_build_identity":  true,
+                    "supersedes_previous_package":  true,
+                    "reason":  "Windows PowerShell 5.1 parser defect caused by non-ASCII punctuation in a UTF-8-without-BOM script",
+                    "corrective_control":  "All .ps1 files ASCII-only with repository-normalised LF; preflight and regression gates reject non-ASCII bytes"
+                },
+    "post_push_correction":  {
+                                 "observed_stage":  "FINALLY_ONEDRIVE_RESTART",
+                                 "defect":  "Scalar pipeline result did not expose Count under StrictMode",
+                                 "implementation_commit":  "08793de672383c51df31d83015a9e768a09e16fd",
+                                 "correction_status":  "APPLIED_PENDING_CORRECTION_COMMIT",
+                                 "correction_control":  "Array-normalise OneDrive candidate pipeline before Count evaluation"
+                             }
 }
