@@ -1,0 +1,25 @@
+{
+  "record_type": "citation_provenance",
+  "citation_id": "CIT-EX-0001",
+  "title": "Controlled example evidence source",
+  "source_type": "peer_reviewed_article",
+  "identifiers": {
+    "doi": "10.0000/certiaura.example.1",
+    "pmid": "00000001"
+  },
+  "publication_date": "2025-01-01",
+  "retrieved_at": "2026-07-20T00:00:00Z",
+  "source_url": "https://example.invalid/evidence/1",
+  "rights": {
+    "metadata_use": "permitted",
+    "full_text_storage": "not_stored",
+    "basis": "link_only"
+  },
+  "review_status": "human_verified",
+  "approved_for_claim_use": true,
+  "provenance": {
+    "ingested_by": "Project Genesis",
+    "ingestion_method": "manual"
+  },
+  "content_hash": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+}

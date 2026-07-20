@@ -1,0 +1,45 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://certiaura.local/schemas/living_evidence_surveillance_event.schema.json",
+  "title": "Living Evidence Surveillance Event",
+  "type": "object",
+  "required": [
+    "record_type",
+    "event_id",
+    "query_id",
+    "detected_at",
+    "classification",
+    "result_ids",
+    "triage"
+  ],
+  "additionalProperties": true,
+  "properties": {
+    "record_type": {
+      "const": "living_evidence_surveillance_event"
+    },
+    "event_id": {
+      "type": "string"
+    },
+    "query_id": {
+      "type": "string"
+    },
+    "detected_at": {
+      "type": "string"
+    },
+    "classification": {
+      "enum": [
+        "NO_CHANGE",
+        "POTENTIAL_UPDATE",
+        "URGENT_SAFETY",
+        "RETRACTION_OR_CORRECTION",
+        "METHOD_ONLY"
+      ]
+    },
+    "result_ids": {
+      "type": "array"
+    },
+    "triage": {
+      "type": "object"
+    }
+  }
+}

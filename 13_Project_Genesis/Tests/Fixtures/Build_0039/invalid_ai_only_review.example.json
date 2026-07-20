@@ -1,0 +1,21 @@
+{
+  "record_type": "scientific_review",
+  "review_id": "REV-EX-0001",
+  "citation_id": "CIT-EX-0001",
+  "reviewer": {
+    "name": "Automated Agent",
+    "role": "AI",
+    "human": false
+  },
+  "decision": "CONDITIONAL",
+  "certainty": "MODERATE",
+  "limitations": [
+    "Example-only record",
+    "Generalisability requires review"
+  ],
+  "reviewed_at": "2026-07-20T03:00:00Z",
+  "ai_assistance": {
+    "used": true,
+    "final_authority": "ai"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "version": "1.1.0",
+  "canonical_register": "Documentation/Master_Asset_Register.csv",
+  "preserve_existing_uai": true,
+  "allocate_new_only_for_create": true,
+  "transactional_with_files": true,
+  "block_duplicate_uai": true,
+  "block_duplicate_path": true,
+  "block_orphan_formal_assets": true
+}

@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://certiaura.local/schemas/evidence_ingestion_record.schema.json",
+  "title": "Evidence Ingestion Record",
+  "type": "object",
+  "required": [
+    "record_type",
+    "ingestion_id",
+    "citation_id",
+    "state",
+    "rights_check",
+    "deduplication",
+    "ingested_at"
+  ],
+  "additionalProperties": true,
+  "properties": {
+    "record_type": {
+      "const": "evidence_ingestion"
+    },
+    "ingestion_id": {
+      "type": "string"
+    },
+    "citation_id": {
+      "type": "string"
+    },
+    "state": {
+      "enum": [
+        "DISCOVERED",
+        "RIGHTS_CHECKED",
+        "NORMALISED",
+        "DEDUPLICATED",
+        "INGESTED",
+        "TRIAGED",
+        "IN_REVIEW",
+        "APPROVED",
+        "CONDITIONAL",
+        "REJECTED",
+        "QUARANTINED",
+        "SUPERSEDED",
+        "RETRACTED"
+      ]
+    },
+    "rights_check": {
+      "type": "object"
+    },
+    "deduplication": {
+      "type": "object"
+    },
+    "ingested_at": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,647 @@
+{
+  "schema_version": "2.1.0",
+  "generated_at": "2026-07-20T09:11:58+00:00",
+  "build_number": "0039",
+  "build_title": "evidence ingestion citation management living evidence surveillance and scientific review controls",
+  "package_version": "1.3.2",
+  "zip_path": "C:\\Users\\enqui\\Dropbox\\PC\\Downloads\\Certiaura_Build_0039_Evidence_Living_Review_Controls.zip",
+  "repository_path": "C:\\Users\\enqui\\OneDrive\\Documents\\CERTIAURA\\Repository\\certiaura-knowledge-engine",
+  "apply_requested": true,
+  "asset_manifest_path": "Documentation/Build_Records/0039/ASSET_INTENT_MANIFEST.json",
+  "package_file_count": 90,
+  "formal_asset_count": 12,
+  "roots": [
+    "00_Governance",
+    "06_Evidence",
+    "13_Project_Genesis",
+    "Database",
+    "Documentation",
+    "Schemas",
+    "Standards",
+    "Templates"
+  ],
+  "wrapper_folder_detected": false,
+  "unauthorised_roots": [],
+  "case_collisions": [],
+  "file_actions": [
+    {
+      "path": "00_Governance/CERTIAURA_LOCKED_BUILD_CONTINUITY_AND_CHECKPOINT.md",
+      "classification": "FORMAL_ASSET",
+      "action": "APPROVED_REPLACEMENT",
+      "incoming_sha256": "b733c83055f8bad72a563f8d95d717aa3f25bbd2b91ec1e77c9e948112587663"
+    },
+    {
+      "path": "00_Governance/EVIDENCE_INGESTION_CITATION_LIVING_EVIDENCE_SCIENTIFIC_REVIEW_STANDARD.md",
+      "classification": "FORMAL_ASSET",
+      "action": "CREATE_FILE",
+      "incoming_sha256": "ddf92df99802a6a91108c0ea407e44239349ff444d681eae411f0a3bc091ee54"
+    },
+    {
+      "path": "00_Governance/LIVING_EVIDENCE_SURVEILLANCE_AND_UPDATE_STANDARD.md",
+      "classification": "FORMAL_ASSET",
+      "action": "CREATE_FILE",
+      "incoming_sha256": "ee7a15c2701690dfb311ba2463dd5d02fe186b88857182dcddcdbe7e52948b83"
+    },
+    {
+      "path": "00_Governance/PROJECT_GENESIS_GUIDED_DRY_RUN_AND_IMPORT_STANDARD.md",
+      "classification": "FORMAL_ASSET",
+      "action": "CREATE_FILE",
+      "incoming_sha256": "fd1c9dd827e16daeecf58121ab75271d9c79cd449e4cfa26f9b68205e34f1b68"
+    },
+    {
+      "path": "00_Governance/SCIENTIFIC_REVIEW_APPROVAL_AND_ESCALATION_WORKFLOW.md",
+      "classification": "FORMAL_ASSET",
+      "action": "CREATE_FILE",
+      "incoming_sha256": "5969d2fe5ad0d9d850888f0ed88f334df431f48ecf7a9a86636ea2a48992d400"
+    },
+    {
+      "path": "06_Evidence/Registers/EVIDENCE_SOURCE_CONNECTOR_REGISTER.json",
+      "classification": "FORMAL_ASSET",
+      "action": "CREATE_FILE",
+      "incoming_sha256": "a257a4f252100e006fb44f2d939f34aeb21105b247ba17354bc9cf46cc20d541"
+    },
+    {
+      "path": "06_Evidence/Standards/CITATION_PROVENANCE_AND_DEDUPLICATION_STANDARD.md",
+      "classification": "FORMAL_ASSET",
+      "action": "CREATE_FILE",
+      "incoming_sha256": "ef3da2d8fd33af9f45e63e6cb5dd21c0290df4642698a594d3bfafe3938c2a36"
+    },
+    {
+      "path": "06_Evidence/Standards/EVIDENCE_QUALITY_CERTAINTY_AND_LIMITATIONS_STANDARD.md",
+      "classification": "FORMAL_ASSET",
+      "action": "CREATE_FILE",
+      "incoming_sha256": "7764819a9820d54e632b25e95a926aea82c9e54080352a61d73ef72373fc936a"
+    },
+    {
+      "path": "13_Project_Genesis/Import/recover_failed_build_import.py",
+      "classification": "SCRIPT",
+      "action": "CREATE_FILE",
+      "incoming_sha256": "2e950c7bdc4a3da19dc07d964c37f6e93c30f9cdaedfef42d2aff0ee5d61e1eb"
+    },
+    {
+      "path": "13_Project_Genesis/Import/run_build_0039_import.py",
+      "classification": "SCRIPT",
+      "action": "CREATE_FILE",
+      "incoming_sha256": "e8310ce4993e2aec92bf3f6076c8a616039af857cfda4a6672c30e1719eea68c"
+    },
+    {
+      "path": "13_Project_Genesis/Import/transactional_build_import.py",
+      "classification": "FORMAL_ASSET",
+      "action": "APPROVED_REPLACEMENT",
+      "incoming_sha256": "3e8e95a695bcc41debef3d29bbb1e7c5f416055d218e5cb59f8f6aa398963146"
+    },
+    {
+      "path": "13_Project_Genesis/Tests/Fixtures/Build_0039/invalid_ai_only_review.example.json",
+      "classification": "EXAMPLE",
+      "action": "CREATE_FILE",
+      "incoming_sha256": "f954918a38c8be72adf9fbea42ef9da454e6a90288abb0267364e38ba4197696"
+    },
+    {
+      "path": "13_Project_Genesis/Tests/Fixtures/Build_0039/invalid_full_text_rights.example.json",
+      "classification": "EXAMPLE",
+      "action": "CREATE_FILE",
+      "incoming_sha256": "d63d93a3fb37221759bf1636119d9c38cb881b6dc07bcbe9a18da2d10ce4942b"
+    },
+    {
+      "path": "13_Project_Genesis/Tests/Fixtures/Build_0039/invalid_retraction_no_action.example.json",
+      "classification": "EXAMPLE",
+      "action": "CREATE_FILE",
+      "incoming_sha256": "50db1de6ea28ab7a38d83eae35dd938bc046b86e3115eee23f5e5411ed291275"
+    },
+    {
+      "path": "13_Project_Genesis/Tests/Fixtures/Build_0039/invalid_surveillance_query.example.json",
+      "classification": "EXAMPLE",
+      "action": "CREATE_FILE",
+      "incoming_sha256": "1d6c6302ce5ea4e1d2f9a1006ea9dd2b3a30b77434cd10982343fd4ab3d4d243"
+    },
+    {
+      "path": "13_Project_Genesis/Tests/Fixtures/Build_0039/invalid_unreviewed_citation.example.json",
+      "classification": "EXAMPLE",
+      "action": "CREATE_FILE",
+      "incoming_sha256": "9bdb6e0dc693efdc66841baf79992958114bd3ea45d3479f8a06c41264b9110a"
+    },
+    {
+      "path": "13_Project_Genesis/Tests/Fixtures/Build_0039/valid_citation.example.json",
+      "classification": "EXAMPLE",
+      "action": "CREATE_FILE",
+      "incoming_sha256": "87309b353da57af5fd31c01bf62719bbfbe821f2ffd8afcf1898679cb5147d81"
+    },
+    {
+      "path": "13_Project_Genesis/Tests/Fixtures/Build_0039/valid_evidence_ingestion.example.json",
+      "classification": "EXAMPLE",
+      "action": "CREATE_FILE",
+      "incoming_sha256": "804ee1ea13b935d174a59e5230a11bd0d4f79318f7c68e59c6d6b44e30b5e97c"
+    },
+    {
+      "path": "13_Project_Genesis/Tests/Fixtures/Build_0039/valid_impact_assessment.example.json",
+      "classification": "EXAMPLE",
+      "action": "CREATE_FILE",
+      "incoming_sha256": "a23caa567befc922d8c0b0a727d80b5e961807e7db3aaf8e04aa2a13081f6ad8"
+    },
+    {
+      "path": "13_Project_Genesis/Tests/Fixtures/Build_0039/valid_retraction_event.example.json",
+      "classification": "EXAMPLE",
+      "action": "CREATE_FILE",
+      "incoming_sha256": "2135897df5ae4f0593cfcb3fb3ca2031a132d25c4ec6f1d96ddbd00b2a5270db"
+    },
+    {
+      "path": "13_Project_Genesis/Tests/Fixtures/Build_0039/valid_scientific_review.example.json",
+      "classification": "EXAMPLE",
+      "action": "CREATE_FILE",
+      "incoming_sha256": "c651b739c61d1afd2ad00e14ccfe00a1628d73c82f0c00ae945b593543d73cb2"
+    },
+    {
+      "path": "13_Project_Genesis/Tests/Fixtures/Build_0039/valid_surveillance_event.example.json",
+      "classification": "EXAMPLE",
+      "action": "CREATE_FILE",
+      "incoming_sha256": "b7c07bf77fa0c5cefcd59d2c873d173cfbffef1c435bce2d14c5e27e51bebb5d"
+    },
+    {
+      "path": "13_Project_Genesis/Tests/Fixtures/Build_0039/valid_surveillance_query.example.json",
+      "classification": "EXAMPLE",
+      "action": "CREATE_FILE",
+      "incoming_sha256": "a83c09b35a0f6cd80bc8edd12db4074016185bc4416f02646fe76eb3f13f2413"
+    },
+    {
+      "path": "13_Project_Genesis/Tests/test_build_0039_evidence_controls.py",
+      "classification": "TEST",
+      "action": "CREATE_FILE",
+      "incoming_sha256": "0e3ae598068465dcaf3c46d2632a4522bc73ad88f13f5ac16263e2340ad7a11a"
+    },
+    {
+      "path": "13_Project_Genesis/Tests/test_build_0039_guided_dry_run_assistant.py",
+      "classification": "TEST",
+      "action": "CREATE_FILE",
+      "incoming_sha256": "3a370d9b5a1cb87dd8acb0810d997292f29c7aa910f419255588ce869cd283f2"
+    },
+    {
+      "path": "13_Project_Genesis/Tests/test_build_0039_manifest_controls.py",
+      "classification": "TEST",
+      "action": "CREATE_FILE",
+      "incoming_sha256": "77b37b60632efa82dba64b24bed161fa3cdfabc7ce17a35ddf352c7a4ca8cec5"
+    },
+    {
+      "path": "13_Project_Genesis/Tests/test_build_0039_recovery_safety.py",
+      "classification": "TEST",
+      "action": "CREATE_FILE",
+      "incoming_sha256": "af096b1b023f4e7af1f6665f41c9cd4b47022ae2044c620ef459a70792a04714"
+    },
+    {
+      "path": "13_Project_Genesis/Tests/test_build_0039_referential_integrity.py",
+      "classification": "TEST",
+      "action": "CREATE_FILE",
+      "incoming_sha256": "749ef6092ef9f45d707e75f2460835a77d4a15eecde284c3eed7f2a5a13dbb31"
+    },
+    {
+      "path": "13_Project_Genesis/Tests/test_build_0039_repository_validator.py",
+      "classification": "TEST",
+      "action": "CREATE_FILE",
+      "incoming_sha256": "ccc67dcf7f89c5275a4086c6da302ace94293b74b827c116f5159c94335e1bed"
+    },
+    {
+      "path": "13_Project_Genesis/Tests/test_build_0039_transactional_importer_compatibility.py",
+      "classification": "TEST",
+      "action": "CREATE_FILE",
+      "incoming_sha256": "097d44a8eb82990bb5e6c24f8376f1dc3cce18565b33b34b28cc3a812223740b"
+    },
+    {
+      "path": "13_Project_Genesis/Tools/Launch_Project_Genesis_Dry_Run_Assistant.cmd",
+      "classification": "SCRIPT",
+      "action": "CREATE_FILE",
+      "incoming_sha256": "04900d6c16fc24f598079131819e8cb83b276de3d0745a857719b7b7bf32dcdf"
+    },
+    {
+      "path": "13_Project_Genesis/Tools/project_genesis_dry_run_assistant.py",
+      "classification": "SCRIPT",
+      "action": "CREATE_FILE",
+      "incoming_sha256": "040705eba60482ecdd9754faa58a73f01354457998aaf504c727da80aed4594c"
+    },
+    {
+      "path": "13_Project_Genesis/Tools/project_genesis_dry_run_core.py",
+      "classification": "SCRIPT",
+      "action": "CREATE_FILE",
+      "incoming_sha256": "c10e04a82b74965b8df4ff0820b8fa9a868d16b440e7c037f05d664ac008145d"
+    },
+    {
+      "path": "13_Project_Genesis/Validators/assess_evidence_update_impact.py",
+      "classification": "SCRIPT",
+      "action": "CREATE_FILE",
+      "incoming_sha256": "f4dc3cb618ab9b77cd3c2a251c3f553dbe67423ef4ec657c6e2f3de98286e30f"
+    },
+    {
+      "path": "13_Project_Genesis/Validators/detect_evidence_duplicates.py",
+      "classification": "SCRIPT",
+      "action": "CREATE_FILE",
+      "incoming_sha256": "a6e816f0ef1ad19599368a24810ba5e327812fb567e1219c43af0b55f547b95c"
+    },
+    {
+      "path": "13_Project_Genesis/Validators/evidence_control_common.py",
+      "classification": "SCRIPT",
+      "action": "CREATE_FILE",
+      "incoming_sha256": "49b68f521fc63c1ef3c39686faa3985a9a24ee23f6f0823bccb5e70282bfc704"
+    },
+    {
+      "path": "13_Project_Genesis/Validators/validate_build_0039_repository.py",
+      "classification": "SCRIPT",
+      "action": "CREATE_FILE",
+      "incoming_sha256": "e11d68d472059f2dc854f545c2f20ab510f61ed63add6c12f35ebd3bb641650c"
+    },
+    {
+      "path": "13_Project_Genesis/Validators/validate_citation_provenance.py",
+      "classification": "SCRIPT",
+      "action": "CREATE_FILE",
+      "incoming_sha256": "f3c31249649cfd9798c00b2c4cddd1c41add47356a7c08a59335b71ef03c1107"
+    },
+    {
+      "path": "13_Project_Genesis/Validators/validate_evidence_ingestion.py",
+      "classification": "SCRIPT",
+      "action": "CREATE_FILE",
+      "incoming_sha256": "cae9ee1b9ebdf7485894d4fb7d1af7a0ab7d68d04c49bfb222df9bbf9c199296"
+    },
+    {
+      "path": "13_Project_Genesis/Validators/validate_living_evidence_surveillance.py",
+      "classification": "SCRIPT",
+      "action": "CREATE_FILE",
+      "incoming_sha256": "1ec639c844c556828b469fedaddb163cba3531d2e614fbaf4ef8ec97f58603c2"
+    },
+    {
+      "path": "13_Project_Genesis/Validators/validate_retraction_correction_event.py",
+      "classification": "SCRIPT",
+      "action": "CREATE_FILE",
+      "incoming_sha256": "2c835894e3b6faf02ad56525f217ee6c0dfce63e4db622c523e84ec02e280389"
+    },
+    {
+      "path": "13_Project_Genesis/Validators/validate_scientific_review.py",
+      "classification": "SCRIPT",
+      "action": "CREATE_FILE",
+      "incoming_sha256": "82bc0894049d4f63aad75eff13c1e2cac169ab55bf7abf84cdc3bb1efb784ac3"
+    },
+    {
+      "path": "Database/Registers/Citation_Provenance_Register.csv",
+      "classification": "SUPPORTING_FILE",
+      "action": "CREATE_FILE",
+      "incoming_sha256": "abde45819febf053290ce981461d07667ea2285d5a92754429b608d27a592298"
+    },
+    {
+      "path": "Database/Registers/Evidence_Ingestion_Queue.csv",
+      "classification": "SUPPORTING_FILE",
+      "action": "CREATE_FILE",
+      "incoming_sha256": "ec23e95281d35e8be0ed087853c30f304a82af7fb85557fd896a7b7bd3ae6023"
+    },
+    {
+      "path": "Database/Registers/Evidence_Update_Impact_Register.csv",
+      "classification": "SUPPORTING_FILE",
+      "action": "CREATE_FILE",
+      "incoming_sha256": "11fa1137ed9115763dd8a9d236e94e29bcffad2b7e987923798b74d03eba2718"
+    },
+    {
+      "path": "Database/Registers/Living_Evidence_Surveillance_Register.csv",
+      "classification": "SUPPORTING_FILE",
+      "action": "CREATE_FILE",
+      "incoming_sha256": "3aaee0f757ab0a66e0972d0eab4e052d5053f32bb7e1cadfea2f14848d243249"
+    },
+    {
+      "path": "Database/Registers/Retraction_Correction_Register.csv",
+      "classification": "SUPPORTING_FILE",
+      "action": "CREATE_FILE",
+      "incoming_sha256": "b0017954402c47b195859c450f78ffc727789d86109aeb9623135ce84eb27f4b"
+    },
+    {
+      "path": "Database/Registers/Scientific_Review_Register.csv",
+      "classification": "SUPPORTING_FILE",
+      "action": "CREATE_FILE",
+      "incoming_sha256": "fbe555a108db0dae2c85f87a5c30dafc77ea5baf0803662f1f675fb88b189d9e"
+    },
+    {
+      "path": "Documentation/Build_Records/0039/ASSET_INTENT_MANIFEST.json",
+      "classification": "BUILD_RECORD",
+      "action": "CREATE_FILE",
+      "incoming_sha256": "d981ccf4da3d09c03dcebd23cdab0e8a90f8a96db37eab2e7c99b1ca439d6bb0"
+    },
+    {
+      "path": "Documentation/Build_Records/0039/ASSET_REGISTER_RECONCILIATION_POLICY.json",
+      "classification": "BUILD_RECORD",
+      "action": "CREATE_FILE",
+      "incoming_sha256": "56568abc7dcd43a5d33f66c6b456a3e56f0f8a66b83e1b731f56bc43a9fb44dc"
+    },
+    {
+      "path": "Documentation/Build_Records/0039/BUILD_0039_READ_ME_FIRST.md",
+      "classification": "BUILD_RECORD",
+      "action": "CREATE_FILE",
+      "incoming_sha256": "49ff12b2906fd3908502954a9d603d17b951a8ac431b25d23bec411059ffd738"
+    },
+    {
+      "path": "Documentation/Build_Records/0039/BUILD_MANIFEST.json",
+      "classification": "BUILD_RECORD",
+      "action": "CREATE_FILE",
+      "incoming_sha256": "be39a18f4b1bf48e0eceac63d648f5837d56764e613d6ff6b37441799a2d3fde"
+    },
+    {
+      "path": "Documentation/Build_Records/0039/COMMIT_MESSAGE.txt",
+      "classification": "BUILD_RECORD",
+      "action": "CREATE_FILE",
+      "incoming_sha256": "43593bf21e405b69b55cd6cf1699ab4eaa128933a7cbd4f4dd1714d213b47e23"
+    },
+    {
+      "path": "Documentation/Build_Records/0039/CONFLICT_POLICY.json",
+      "classification": "BUILD_RECORD",
+      "action": "CREATE_FILE",
+      "incoming_sha256": "155f7fef5a2424716108294fead12264f13cbdca3cae46b9def06b6e71320128"
+    },
+    {
+      "path": "Documentation/Build_Records/0039/DECISION_RECORD.md",
+      "classification": "BUILD_RECORD",
+      "action": "CREATE_FILE",
+      "incoming_sha256": "2b4547ca626d94a015625ca82b9692d1c959eb23385c41a4be234df41bab5d9c"
+    },
+    {
+      "path": "Documentation/Build_Records/0039/DRY_RUN_ASSET_REGISTER_CHANGE_REPORT_TEMPLATE.json",
+      "classification": "BUILD_RECORD",
+      "action": "CREATE_FILE",
+      "incoming_sha256": "1f5fbf2b3104ee95b3488b7e3dd8b6f34426393f2ca003b98e534aca04313b66"
+    },
+    {
+      "path": "Documentation/Build_Records/0039/DRY_RUN_ROUTING_REPORT_TEMPLATE.json",
+      "classification": "BUILD_RECORD",
+      "action": "CREATE_FILE",
+      "incoming_sha256": "af584a430fdbe1136e1bb93e039a0b48b582a56acb8d688a4a0ece9ab184468e"
+    },
+    {
+      "path": "Documentation/Build_Records/0039/FILE_INVENTORY.csv",
+      "classification": "BUILD_RECORD",
+      "action": "CREATE_FILE",
+      "incoming_sha256": "e81dcc2f35f5bc22010e72a1acdc38afb061eebdfb0230cdfa601ec133f8a7a0"
+    },
+    {
+      "path": "Documentation/Build_Records/0039/PACKAGE_CONTENT_SHA256.csv",
+      "classification": "BUILD_RECORD",
+      "action": "CREATE_FILE",
+      "incoming_sha256": "dfb8e6298fc392cf54f81591b54105db53b9b5610a867d451bc3235903ce2f40"
+    },
+    {
+      "path": "Documentation/Build_Records/0039/PACKAGE_VERSION.json",
+      "classification": "BUILD_RECORD",
+      "action": "CREATE_FILE",
+      "incoming_sha256": "727ba62c254a5ba2d1e22bdeaf1d4281f5c21ffa18fe8843b05e10e9ee17661a"
+    },
+    {
+      "path": "Documentation/Build_Records/0039/PRE_RELEASE_SYNTHETIC_DRY_RUN_REPORT.json",
+      "classification": "BUILD_RECORD",
+      "action": "CREATE_FILE",
+      "incoming_sha256": "3506ba9cbc6c3b1ab5b168f52c129e310118f15f08b689d6f653938187450984"
+    },
+    {
+      "path": "Documentation/Build_Records/0039/PRODUCTION_DASHBOARD_UPDATE.json",
+      "classification": "BUILD_RECORD",
+      "action": "CREATE_FILE",
+      "incoming_sha256": "11d3f08c30233bdf5f5c14be00214a7adf20db28fc2bd8849779dcf9eabcff6f"
+    },
+    {
+      "path": "Documentation/Build_Records/0039/PROJECT_GENESIS_IMPORT_HOOK.json",
+      "classification": "BUILD_RECORD",
+      "action": "CREATE_FILE",
+      "incoming_sha256": "3efeec122af51d906e8468c9754c62b7498b8a3efa101bb3836192c90d60801b"
+    },
+    {
+      "path": "Documentation/Build_Records/0039/PROPOSED_CHANGE_LOG_ENTRY.md",
+      "classification": "BUILD_RECORD",
+      "action": "CREATE_FILE",
+      "incoming_sha256": "33cb47a167699b5cdc52b3bb467530d10afaec6b10b892ce8652be9d41af1438"
+    },
+    {
+      "path": "Documentation/Build_Records/0039/PROPOSED_NEXT_ACTION.md",
+      "classification": "BUILD_RECORD",
+      "action": "CREATE_FILE",
+      "incoming_sha256": "22cf0f2a20f1e4eced2ace4c5aa9e88391eb83fb2342bee191c45f4c497d8540"
+    },
+    {
+      "path": "Documentation/Build_Records/0039/RECOVERY_REGRESSION_TEST_REPORT.json",
+      "classification": "BUILD_RECORD",
+      "action": "CREATE_FILE",
+      "incoming_sha256": "b2aa2801695a5899a53bca5606fc385076a1e00c45fff710c8d2142790fff1a7"
+    },
+    {
+      "path": "Documentation/Build_Records/0039/RECOVERY_UTILITY_SAFETY_STANDARD.md",
+      "classification": "BUILD_RECORD",
+      "action": "CREATE_FILE",
+      "incoming_sha256": "bef9a15bb60a16997595bc42cbcbba054a310106726ab31cfb04c4e0612f2b03"
+    },
+    {
+      "path": "Documentation/Build_Records/0039/ROLLBACK_RUNBOOK.md",
+      "classification": "BUILD_RECORD",
+      "action": "CREATE_FILE",
+      "incoming_sha256": "4bfb6d1bf9d9a60cd9b77e7190cb69b61a645c051f5a34502c52b79385d083c3"
+    },
+    {
+      "path": "Documentation/Build_Records/0039/ROUTING_MANIFEST.json",
+      "classification": "BUILD_RECORD",
+      "action": "CREATE_FILE",
+      "incoming_sha256": "211d8459996f7bdf162313aedd70f1d981df835bc5220158ff8c8f111800f4c2"
+    },
+    {
+      "path": "Documentation/Build_Records/0039/SOURCE_REFERENCE_REGISTER.md",
+      "classification": "BUILD_RECORD",
+      "action": "CREATE_FILE",
+      "incoming_sha256": "eecda8a900d1316861faea8bb7199658436768b0122158d7d0063175af1bf600"
+    },
+    {
+      "path": "Documentation/Build_Records/0039/TEST_REPORT.txt",
+      "classification": "BUILD_RECORD",
+      "action": "CREATE_FILE",
+      "incoming_sha256": "f3abb033acdd37a43071ecaf9cdf6c47d1f7fb0807f481e24635c992bd89dece"
+    },
+    {
+      "path": "Documentation/Build_Records/0039/VALIDATION_REPORT.md",
+      "classification": "BUILD_RECORD",
+      "action": "CREATE_FILE",
+      "incoming_sha256": "3228e3f9be00856d00ab3c40292dc7e10625a97ca8a94c1c0b7b386f8755b3fa"
+    },
+    {
+      "path": "Documentation/PROJECT_GENESIS_DRY_RUN_ASSISTANT_USER_GUIDE.md",
+      "classification": "SUPPORTING_FILE",
+      "action": "CREATE_FILE",
+      "incoming_sha256": "a188ecb16aff178b8611de9815dce3f9a0b9adff812d945b4e0e3e14d12ce2ae"
+    },
+    {
+      "path": "Schemas/citation_provenance_record.schema.json",
+      "classification": "SCHEMA",
+      "action": "CREATE_FILE",
+      "incoming_sha256": "619741b3531a31b59df7716d85a2995670dc9745fc0ab61e03ad548202455f70"
+    },
+    {
+      "path": "Schemas/evidence_ingestion_record.schema.json",
+      "classification": "SCHEMA",
+      "action": "CREATE_FILE",
+      "incoming_sha256": "005c7941173f657034d609b07f01518cfcdd9e9dd52e3ee6b37a77727a6516ed"
+    },
+    {
+      "path": "Schemas/evidence_update_impact_assessment.schema.json",
+      "classification": "SCHEMA",
+      "action": "CREATE_FILE",
+      "incoming_sha256": "9bcfa9d07cacaff1a351797ec9f31a3a660f3efa21763fb69fb78fc476a1aeb9"
+    },
+    {
+      "path": "Schemas/living_evidence_surveillance_event.schema.json",
+      "classification": "SCHEMA",
+      "action": "CREATE_FILE",
+      "incoming_sha256": "5f0a1052ef7b3b76b5d6ec48e6d97fcf9e19d5bccc002d12f4221715add37334"
+    },
+    {
+      "path": "Schemas/living_evidence_surveillance_query.schema.json",
+      "classification": "SCHEMA",
+      "action": "CREATE_FILE",
+      "incoming_sha256": "14b4ff7fdb53203ebd20a8125eb1997c3a9c9eca73ba9d67046d530fbd21b53b"
+    },
+    {
+      "path": "Schemas/retraction_correction_event.schema.json",
+      "classification": "SCHEMA",
+      "action": "CREATE_FILE",
+      "incoming_sha256": "4e2db41e1f8ac953a885fc8117668cad94fc50a1d09f157fcd2e144f1a343de0"
+    },
+    {
+      "path": "Schemas/scientific_review_record.schema.json",
+      "classification": "SCHEMA",
+      "action": "CREATE_FILE",
+      "incoming_sha256": "b2f8b797b4feb151e10b855b614f523d1990cdfa9796e49d1caedcc9fc8ae13a"
+    },
+    {
+      "path": "Standards/EVIDENCE_INGESTION_STATE_MACHINE.md",
+      "classification": "FORMAL_ASSET",
+      "action": "CREATE_FILE",
+      "incoming_sha256": "395baba817f374dd8310a509e9bdddef03ffdbd0af31e16dbf14be3583bbd0cc"
+    },
+    {
+      "path": "Standards/EVIDENCE_SOURCE_RELIABILITY_HIERARCHY.md",
+      "classification": "FORMAL_ASSET",
+      "action": "CREATE_FILE",
+      "incoming_sha256": "81d71809ada1b786f6d690013d07795a942345c56a08f37d305672ab538106cd"
+    },
+    {
+      "path": "Standards/SCIENTIFIC_REVIEW_DECISION_MATRIX.md",
+      "classification": "FORMAL_ASSET",
+      "action": "CREATE_FILE",
+      "incoming_sha256": "d38430ab326c1f205dda693d2561fe05e3cca90c10733e12c4059aba8cae3f69"
+    },
+    {
+      "path": "Templates/Citation_Provenance_Record.template.json",
+      "classification": "TEMPLATE",
+      "action": "CREATE_FILE",
+      "incoming_sha256": "cc7d57be83815bdc53596ade44cc9ecbc2aa4187ea694d3c262217c4a0bac663"
+    },
+    {
+      "path": "Templates/Evidence_Ingestion_Record.template.json",
+      "classification": "TEMPLATE",
+      "action": "CREATE_FILE",
+      "incoming_sha256": "9d5d2c6db76b4bfaf90f640534d1bba32cde7cf478ce4befb51ca8165dca153e"
+    },
+    {
+      "path": "Templates/Evidence_Update_Impact_Assessment.template.json",
+      "classification": "TEMPLATE",
+      "action": "CREATE_FILE",
+      "incoming_sha256": "2912f338a9658eb55a3a814a46f6f51662c15d825b96cfa735186bdc93de7795"
+    },
+    {
+      "path": "Templates/Living_Evidence_Surveillance_Event.template.json",
+      "classification": "TEMPLATE",
+      "action": "CREATE_FILE",
+      "incoming_sha256": "3337db39e83f2323c2314e99437153b255375e4783014954fd16a45d12501ca7"
+    },
+    {
+      "path": "Templates/Living_Evidence_Surveillance_Query.template.json",
+      "classification": "TEMPLATE",
+      "action": "CREATE_FILE",
+      "incoming_sha256": "561097e58d2f85203f65a88b93fcc543637bd97ccd393bd102ab7bfbd9d5a338"
+    },
+    {
+      "path": "Templates/Retraction_Correction_Event.template.json",
+      "classification": "TEMPLATE",
+      "action": "CREATE_FILE",
+      "incoming_sha256": "5a7428873100dbb0ad838e4f1e22db9b1645c68e0c58c4a8ff744d9d7b30c8d8"
+    },
+    {
+      "path": "Templates/Scientific_Review_Record.template.json",
+      "classification": "TEMPLATE",
+      "action": "CREATE_FILE",
+      "incoming_sha256": "69e39262aba88538f08c2efb182ac65ca751f129354c33433d784f94574c7153"
+    }
+  ],
+  "assets_to_create": [
+    {
+      "path": "00_Governance/EVIDENCE_INGESTION_CITATION_LIVING_EVIDENCE_SCIENTIFIC_REVIEW_STANDARD.md",
+      "uai": "CERT-EKS-000751",
+      "action": "CREATE"
+    },
+    {
+      "path": "00_Governance/LIVING_EVIDENCE_SURVEILLANCE_AND_UPDATE_STANDARD.md",
+      "uai": "CERT-EKS-000752",
+      "action": "CREATE"
+    },
+    {
+      "path": "00_Governance/PROJECT_GENESIS_GUIDED_DRY_RUN_AND_IMPORT_STANDARD.md",
+      "uai": "CERT-SYS-000848",
+      "action": "CREATE"
+    },
+    {
+      "path": "00_Governance/SCIENTIFIC_REVIEW_APPROVAL_AND_ESCALATION_WORKFLOW.md",
+      "uai": "CERT-EKS-000753",
+      "action": "CREATE"
+    },
+    {
+      "path": "06_Evidence/Registers/EVIDENCE_SOURCE_CONNECTOR_REGISTER.json",
+      "uai": "CERT-EKS-000754",
+      "action": "CREATE"
+    },
+    {
+      "path": "06_Evidence/Standards/CITATION_PROVENANCE_AND_DEDUPLICATION_STANDARD.md",
+      "uai": "CERT-EKS-000755",
+      "action": "CREATE"
+    },
+    {
+      "path": "06_Evidence/Standards/EVIDENCE_QUALITY_CERTAINTY_AND_LIMITATIONS_STANDARD.md",
+      "uai": "CERT-EKS-000756",
+      "action": "CREATE"
+    },
+    {
+      "path": "Standards/EVIDENCE_INGESTION_STATE_MACHINE.md",
+      "uai": "CERT-EKS-000757",
+      "action": "CREATE"
+    },
+    {
+      "path": "Standards/EVIDENCE_SOURCE_RELIABILITY_HIERARCHY.md",
+      "uai": "CERT-EKS-000758",
+      "action": "CREATE"
+    },
+    {
+      "path": "Standards/SCIENTIFIC_REVIEW_DECISION_MATRIX.md",
+      "uai": "CERT-EKS-000759",
+      "action": "CREATE"
+    }
+  ],
+  "assets_to_update": [
+    {
+      "path": "00_Governance/CERTIAURA_LOCKED_BUILD_CONTINUITY_AND_CHECKPOINT.md",
+      "uai": "CERT-SYS-000009",
+      "action": "UPDATE"
+    },
+    {
+      "path": "13_Project_Genesis/Import/transactional_build_import.py",
+      "uai": "CERT-SYS-000082",
+      "action": "UPDATE"
+    }
+  ],
+  "expected_register_total": 2870,
+  "conflicts": [],
+  "errors": [],
+  "warnings": [],
+  "valid": true,
+  "apply_allowed": true,
+  "applied": true,
+  "transaction_status": "APPLIED_VALIDATED",
+  "backup_root": "C:\\Users\\enqui\\OneDrive\\Documents\\CERTIAURA\\Backups\\Build_0039_Pre_Import_20260720_101158",
+  "transaction_journal": "C:\\Users\\enqui\\OneDrive\\Documents\\CERTIAURA\\Backups\\Build_0039_Pre_Import_20260720_101158\\TRANSACTION_JOURNAL.json",
+  "recovery_safety": {
+    "recursive_directory_deletion_used": false,
+    "empty_only_directory_cleanup": true,
+    "transaction_created_directories_only": true
+  }
+}

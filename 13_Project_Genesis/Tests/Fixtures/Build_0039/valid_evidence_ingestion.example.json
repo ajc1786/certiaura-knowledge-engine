@@ -1,0 +1,16 @@
+{
+  "record_type": "evidence_ingestion",
+  "ingestion_id": "ING-EX-0001",
+  "citation_id": "CIT-EX-0001",
+  "state": "INGESTED",
+  "rights_check": {
+    "status": "PASS",
+    "full_text_stored": false
+  },
+  "deduplication": {
+    "status": "UNIQUE",
+    "matched_ids": []
+  },
+  "ingested_at": "2026-07-20T00:10:00Z",
+  "actor": "evidence-analyst"
+}

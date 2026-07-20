@@ -1,0 +1,14 @@
+{
+  "record_type": "living_evidence_surveillance_query",
+  "query_id": "SUR-Q-0001",
+  "question": "Has material evidence changed?",
+  "search_expression": "(compound OR synonym) AND (trial OR safety)",
+  "sources": [
+    "SRC-PUBMED",
+    "SRC-CTGOV"
+  ],
+  "cadence": "WEEKLY",
+  "owner": "Evidence Team",
+  "status": "ACTIVE",
+  "next_run": "2026-07-27"
+}

@@ -1,0 +1,18 @@
+{
+  "record_type": "evidence_update_impact",
+  "impact_id": "IMP-EX-0001",
+  "source_event_id": "RET-EX-0001",
+  "impact_level": "MATERIAL",
+  "affected_assets": [
+    "CERT-PKS-000001"
+  ],
+  "required_actions": [
+    "REVIEW_DEPENDENT_CLAIMS",
+    "RECORD_CHANGE_HISTORY"
+  ],
+  "reviewer": {
+    "name": "Example Human Reviewer",
+    "role": "Senior Scientific Reviewer",
+    "human": true
+  }
+}

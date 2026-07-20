@@ -1,0 +1,748 @@
+{
+  "schema_version": "2.1.0",
+  "build_id": "CERT-BUILD-0039",
+  "build_number": "0039",
+  "build_title": "evidence ingestion citation management living evidence surveillance and scientific review controls",
+  "package_version": "1.3.2",
+  "all_package_files_classified": true,
+  "files": [
+    {
+      "repository_path": "00_Governance/CERTIAURA_LOCKED_BUILD_CONTINUITY_AND_CHECKPOINT.md",
+      "classification": "FORMAL_ASSET",
+      "asset_title": "Certiaura Locked Build Continuity and Checkpoint",
+      "asset_type": "Governance Control",
+      "knowledge_system": "SYS",
+      "intended_action": "UPDATE",
+      "existing_uai": "CERT-SYS-000009",
+      "proposed_uai": null,
+      "proposed_version": "1.4.1",
+      "proposed_status": "ACTIVE",
+      "owner": "Certiaura",
+      "completion_percentage": 100,
+      "parent_assets": [],
+      "child_assets": [],
+      "relationships": [],
+      "evidence_links": [],
+      "report_links": [],
+      "marketplace_links": [],
+      "last_review": "2026-07-20",
+      "next_review": "2026-10-20",
+      "build_provenance": [
+        "CERT-BUILD-0039"
+      ],
+      "source_builds": [
+        "0039"
+      ],
+      "registration_basis": "BUILD_0039_CONTROLLED_IMPORT"
+    },
+    {
+      "repository_path": "00_Governance/EVIDENCE_INGESTION_CITATION_LIVING_EVIDENCE_SCIENTIFIC_REVIEW_STANDARD.md",
+      "classification": "FORMAL_ASSET",
+      "asset_title": "Evidence Ingestion Citation Living Evidence Scientific Review Standard",
+      "asset_type": "Evidence Standard",
+      "knowledge_system": "EKS",
+      "intended_action": "CREATE",
+      "existing_uai": null,
+      "proposed_uai": "CERT-EKS-000751",
+      "proposed_version": "1.0.0",
+      "proposed_status": "ACTIVE",
+      "owner": "Certiaura",
+      "completion_percentage": 100,
+      "parent_assets": [],
+      "child_assets": [],
+      "relationships": [],
+      "evidence_links": [],
+      "report_links": [],
+      "marketplace_links": [],
+      "last_review": "2026-07-20",
+      "next_review": "2026-10-20",
+      "build_provenance": [
+        "CERT-BUILD-0039"
+      ],
+      "source_builds": [
+        "0039"
+      ],
+      "registration_basis": "BUILD_0039_CONTROLLED_IMPORT"
+    },
+    {
+      "repository_path": "00_Governance/LIVING_EVIDENCE_SURVEILLANCE_AND_UPDATE_STANDARD.md",
+      "classification": "FORMAL_ASSET",
+      "asset_title": "Living Evidence Surveillance And Update Standard",
+      "asset_type": "Evidence Standard",
+      "knowledge_system": "EKS",
+      "intended_action": "CREATE",
+      "existing_uai": null,
+      "proposed_uai": "CERT-EKS-000752",
+      "proposed_version": "1.0.0",
+      "proposed_status": "ACTIVE",
+      "owner": "Certiaura",
+      "completion_percentage": 100,
+      "parent_assets": [],
+      "child_assets": [],
+      "relationships": [],
+      "evidence_links": [],
+      "report_links": [],
+      "marketplace_links": [],
+      "last_review": "2026-07-20",
+      "next_review": "2026-10-20",
+      "build_provenance": [
+        "CERT-BUILD-0039"
+      ],
+      "source_builds": [
+        "0039"
+      ],
+      "registration_basis": "BUILD_0039_CONTROLLED_IMPORT"
+    },
+    {
+      "repository_path": "00_Governance/PROJECT_GENESIS_GUIDED_DRY_RUN_AND_IMPORT_STANDARD.md",
+      "classification": "FORMAL_ASSET",
+      "asset_title": "Project Genesis Guided Dry Run And Import Standard",
+      "asset_type": "Platform Standard",
+      "knowledge_system": "SYS",
+      "intended_action": "CREATE",
+      "existing_uai": null,
+      "proposed_uai": "CERT-SYS-000848",
+      "proposed_version": "1.1.0",
+      "proposed_status": "ACTIVE",
+      "owner": "Certiaura",
+      "completion_percentage": 100,
+      "parent_assets": [],
+      "child_assets": [],
+      "relationships": [],
+      "evidence_links": [],
+      "report_links": [],
+      "marketplace_links": [],
+      "last_review": "2026-07-20",
+      "next_review": "2026-10-20",
+      "build_provenance": [
+        "CERT-BUILD-0039"
+      ],
+      "source_builds": [
+        "0039"
+      ],
+      "registration_basis": "BUILD_0039_CONTROLLED_IMPORT"
+    },
+    {
+      "repository_path": "00_Governance/SCIENTIFIC_REVIEW_APPROVAL_AND_ESCALATION_WORKFLOW.md",
+      "classification": "FORMAL_ASSET",
+      "asset_title": "Scientific Review Approval And Escalation Workflow",
+      "asset_type": "Evidence Standard",
+      "knowledge_system": "EKS",
+      "intended_action": "CREATE",
+      "existing_uai": null,
+      "proposed_uai": "CERT-EKS-000753",
+      "proposed_version": "1.0.0",
+      "proposed_status": "ACTIVE",
+      "owner": "Certiaura",
+      "completion_percentage": 100,
+      "parent_assets": [],
+      "child_assets": [],
+      "relationships": [],
+      "evidence_links": [],
+      "report_links": [],
+      "marketplace_links": [],
+      "last_review": "2026-07-20",
+      "next_review": "2026-10-20",
+      "build_provenance": [
+        "CERT-BUILD-0039"
+      ],
+      "source_builds": [
+        "0039"
+      ],
+      "registration_basis": "BUILD_0039_CONTROLLED_IMPORT"
+    },
+    {
+      "repository_path": "06_Evidence/Registers/EVIDENCE_SOURCE_CONNECTOR_REGISTER.json",
+      "classification": "FORMAL_ASSET",
+      "asset_title": "Evidence Source Connector Register",
+      "asset_type": "Evidence Register",
+      "knowledge_system": "EKS",
+      "intended_action": "CREATE",
+      "existing_uai": null,
+      "proposed_uai": "CERT-EKS-000754",
+      "proposed_version": "1.0.0",
+      "proposed_status": "ACTIVE",
+      "owner": "Certiaura",
+      "completion_percentage": 100,
+      "parent_assets": [],
+      "child_assets": [],
+      "relationships": [],
+      "evidence_links": [],
+      "report_links": [],
+      "marketplace_links": [],
+      "last_review": "2026-07-20",
+      "next_review": "2026-10-20",
+      "build_provenance": [
+        "CERT-BUILD-0039"
+      ],
+      "source_builds": [
+        "0039"
+      ],
+      "registration_basis": "BUILD_0039_CONTROLLED_IMPORT"
+    },
+    {
+      "repository_path": "06_Evidence/Standards/CITATION_PROVENANCE_AND_DEDUPLICATION_STANDARD.md",
+      "classification": "FORMAL_ASSET",
+      "asset_title": "Citation Provenance and Deduplication Standard",
+      "asset_type": "Evidence Standard",
+      "knowledge_system": "EKS",
+      "intended_action": "CREATE",
+      "existing_uai": null,
+      "proposed_uai": "CERT-EKS-000755",
+      "proposed_version": "1.0.0",
+      "proposed_status": "ACTIVE",
+      "owner": "Certiaura",
+      "completion_percentage": 100,
+      "parent_assets": [],
+      "child_assets": [],
+      "relationships": [],
+      "evidence_links": [],
+      "report_links": [],
+      "marketplace_links": [],
+      "last_review": "2026-07-20",
+      "next_review": "2026-10-20",
+      "build_provenance": [
+        "CERT-BUILD-0039"
+      ],
+      "source_builds": [
+        "0039"
+      ],
+      "registration_basis": "BUILD_0039_CONTROLLED_IMPORT"
+    },
+    {
+      "repository_path": "06_Evidence/Standards/EVIDENCE_QUALITY_CERTAINTY_AND_LIMITATIONS_STANDARD.md",
+      "classification": "FORMAL_ASSET",
+      "asset_title": "Evidence Quality Certainty and Limitations Standard",
+      "asset_type": "Evidence Standard",
+      "knowledge_system": "EKS",
+      "intended_action": "CREATE",
+      "existing_uai": null,
+      "proposed_uai": "CERT-EKS-000756",
+      "proposed_version": "1.0.0",
+      "proposed_status": "ACTIVE",
+      "owner": "Certiaura",
+      "completion_percentage": 100,
+      "parent_assets": [],
+      "child_assets": [],
+      "relationships": [],
+      "evidence_links": [],
+      "report_links": [],
+      "marketplace_links": [],
+      "last_review": "2026-07-20",
+      "next_review": "2026-10-20",
+      "build_provenance": [
+        "CERT-BUILD-0039"
+      ],
+      "source_builds": [
+        "0039"
+      ],
+      "registration_basis": "BUILD_0039_CONTROLLED_IMPORT"
+    },
+    {
+      "repository_path": "13_Project_Genesis/Import/recover_failed_build_import.py",
+      "classification": "SCRIPT",
+      "intended_action": "CREATE"
+    },
+    {
+      "repository_path": "13_Project_Genesis/Import/run_build_0039_import.py",
+      "classification": "SCRIPT",
+      "intended_action": "CREATE"
+    },
+    {
+      "repository_path": "13_Project_Genesis/Import/transactional_build_import.py",
+      "classification": "FORMAL_ASSET",
+      "asset_title": "Transactional Build Import",
+      "asset_type": "Platform Component",
+      "knowledge_system": "SYS",
+      "intended_action": "UPDATE",
+      "existing_uai": "CERT-SYS-000082",
+      "proposed_uai": null,
+      "proposed_version": "1.3.2",
+      "proposed_status": "ACTIVE",
+      "owner": "Certiaura",
+      "completion_percentage": 100,
+      "parent_assets": [],
+      "child_assets": [],
+      "relationships": [],
+      "evidence_links": [],
+      "report_links": [],
+      "marketplace_links": [],
+      "last_review": "2026-07-20",
+      "next_review": "2026-10-20",
+      "build_provenance": [
+        "CERT-BUILD-0039"
+      ],
+      "source_builds": [
+        "0039"
+      ],
+      "registration_basis": "BUILD_0039_CONTROLLED_IMPORT"
+    },
+    {
+      "repository_path": "13_Project_Genesis/Tests/Fixtures/Build_0039/invalid_ai_only_review.example.json",
+      "classification": "EXAMPLE",
+      "intended_action": "CREATE"
+    },
+    {
+      "repository_path": "13_Project_Genesis/Tests/Fixtures/Build_0039/invalid_full_text_rights.example.json",
+      "classification": "EXAMPLE",
+      "intended_action": "CREATE"
+    },
+    {
+      "repository_path": "13_Project_Genesis/Tests/Fixtures/Build_0039/invalid_retraction_no_action.example.json",
+      "classification": "EXAMPLE",
+      "intended_action": "CREATE"
+    },
+    {
+      "repository_path": "13_Project_Genesis/Tests/Fixtures/Build_0039/invalid_surveillance_query.example.json",
+      "classification": "EXAMPLE",
+      "intended_action": "CREATE"
+    },
+    {
+      "repository_path": "13_Project_Genesis/Tests/Fixtures/Build_0039/invalid_unreviewed_citation.example.json",
+      "classification": "EXAMPLE",
+      "intended_action": "CREATE"
+    },
+    {
+      "repository_path": "13_Project_Genesis/Tests/Fixtures/Build_0039/valid_citation.example.json",
+      "classification": "EXAMPLE",
+      "intended_action": "CREATE"
+    },
+    {
+      "repository_path": "13_Project_Genesis/Tests/Fixtures/Build_0039/valid_evidence_ingestion.example.json",
+      "classification": "EXAMPLE",
+      "intended_action": "CREATE"
+    },
+    {
+      "repository_path": "13_Project_Genesis/Tests/Fixtures/Build_0039/valid_impact_assessment.example.json",
+      "classification": "EXAMPLE",
+      "intended_action": "CREATE"
+    },
+    {
+      "repository_path": "13_Project_Genesis/Tests/Fixtures/Build_0039/valid_retraction_event.example.json",
+      "classification": "EXAMPLE",
+      "intended_action": "CREATE"
+    },
+    {
+      "repository_path": "13_Project_Genesis/Tests/Fixtures/Build_0039/valid_scientific_review.example.json",
+      "classification": "EXAMPLE",
+      "intended_action": "CREATE"
+    },
+    {
+      "repository_path": "13_Project_Genesis/Tests/Fixtures/Build_0039/valid_surveillance_event.example.json",
+      "classification": "EXAMPLE",
+      "intended_action": "CREATE"
+    },
+    {
+      "repository_path": "13_Project_Genesis/Tests/Fixtures/Build_0039/valid_surveillance_query.example.json",
+      "classification": "EXAMPLE",
+      "intended_action": "CREATE"
+    },
+    {
+      "repository_path": "13_Project_Genesis/Tests/test_build_0039_evidence_controls.py",
+      "classification": "TEST",
+      "intended_action": "CREATE"
+    },
+    {
+      "repository_path": "13_Project_Genesis/Tests/test_build_0039_guided_dry_run_assistant.py",
+      "classification": "TEST",
+      "intended_action": "CREATE"
+    },
+    {
+      "repository_path": "13_Project_Genesis/Tests/test_build_0039_manifest_controls.py",
+      "classification": "TEST",
+      "intended_action": "CREATE"
+    },
+    {
+      "repository_path": "13_Project_Genesis/Tests/test_build_0039_recovery_safety.py",
+      "classification": "TEST",
+      "intended_action": "CREATE"
+    },
+    {
+      "repository_path": "13_Project_Genesis/Tests/test_build_0039_referential_integrity.py",
+      "classification": "TEST",
+      "intended_action": "CREATE"
+    },
+    {
+      "repository_path": "13_Project_Genesis/Tests/test_build_0039_repository_validator.py",
+      "classification": "TEST",
+      "intended_action": "CREATE"
+    },
+    {
+      "repository_path": "13_Project_Genesis/Tests/test_build_0039_transactional_importer_compatibility.py",
+      "classification": "TEST",
+      "intended_action": "CREATE"
+    },
+    {
+      "repository_path": "13_Project_Genesis/Tools/Launch_Project_Genesis_Dry_Run_Assistant.cmd",
+      "classification": "SCRIPT",
+      "intended_action": "CREATE"
+    },
+    {
+      "repository_path": "13_Project_Genesis/Tools/project_genesis_dry_run_assistant.py",
+      "classification": "SCRIPT",
+      "intended_action": "CREATE"
+    },
+    {
+      "repository_path": "13_Project_Genesis/Tools/project_genesis_dry_run_core.py",
+      "classification": "SCRIPT",
+      "intended_action": "CREATE"
+    },
+    {
+      "repository_path": "13_Project_Genesis/Validators/assess_evidence_update_impact.py",
+      "classification": "SCRIPT",
+      "intended_action": "CREATE"
+    },
+    {
+      "repository_path": "13_Project_Genesis/Validators/detect_evidence_duplicates.py",
+      "classification": "SCRIPT",
+      "intended_action": "CREATE"
+    },
+    {
+      "repository_path": "13_Project_Genesis/Validators/evidence_control_common.py",
+      "classification": "SCRIPT",
+      "intended_action": "CREATE"
+    },
+    {
+      "repository_path": "13_Project_Genesis/Validators/validate_build_0039_repository.py",
+      "classification": "SCRIPT",
+      "intended_action": "CREATE"
+    },
+    {
+      "repository_path": "13_Project_Genesis/Validators/validate_citation_provenance.py",
+      "classification": "SCRIPT",
+      "intended_action": "CREATE"
+    },
+    {
+      "repository_path": "13_Project_Genesis/Validators/validate_evidence_ingestion.py",
+      "classification": "SCRIPT",
+      "intended_action": "CREATE"
+    },
+    {
+      "repository_path": "13_Project_Genesis/Validators/validate_living_evidence_surveillance.py",
+      "classification": "SCRIPT",
+      "intended_action": "CREATE"
+    },
+    {
+      "repository_path": "13_Project_Genesis/Validators/validate_retraction_correction_event.py",
+      "classification": "SCRIPT",
+      "intended_action": "CREATE"
+    },
+    {
+      "repository_path": "13_Project_Genesis/Validators/validate_scientific_review.py",
+      "classification": "SCRIPT",
+      "intended_action": "CREATE"
+    },
+    {
+      "repository_path": "Database/Registers/Citation_Provenance_Register.csv",
+      "classification": "SUPPORTING_FILE",
+      "intended_action": "CREATE"
+    },
+    {
+      "repository_path": "Database/Registers/Evidence_Ingestion_Queue.csv",
+      "classification": "SUPPORTING_FILE",
+      "intended_action": "CREATE"
+    },
+    {
+      "repository_path": "Database/Registers/Evidence_Update_Impact_Register.csv",
+      "classification": "SUPPORTING_FILE",
+      "intended_action": "CREATE"
+    },
+    {
+      "repository_path": "Database/Registers/Living_Evidence_Surveillance_Register.csv",
+      "classification": "SUPPORTING_FILE",
+      "intended_action": "CREATE"
+    },
+    {
+      "repository_path": "Database/Registers/Retraction_Correction_Register.csv",
+      "classification": "SUPPORTING_FILE",
+      "intended_action": "CREATE"
+    },
+    {
+      "repository_path": "Database/Registers/Scientific_Review_Register.csv",
+      "classification": "SUPPORTING_FILE",
+      "intended_action": "CREATE"
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0039/ASSET_INTENT_MANIFEST.json",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE"
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0039/ASSET_REGISTER_RECONCILIATION_POLICY.json",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE"
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0039/BUILD_0039_READ_ME_FIRST.md",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE"
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0039/BUILD_MANIFEST.json",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE"
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0039/COMMIT_MESSAGE.txt",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE"
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0039/CONFLICT_POLICY.json",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE"
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0039/DECISION_RECORD.md",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE"
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0039/DRY_RUN_ASSET_REGISTER_CHANGE_REPORT_TEMPLATE.json",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE"
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0039/DRY_RUN_ROUTING_REPORT_TEMPLATE.json",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE"
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0039/FILE_INVENTORY.csv",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE"
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0039/PACKAGE_CONTENT_SHA256.csv",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE"
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0039/PACKAGE_VERSION.json",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE"
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0039/PRE_RELEASE_SYNTHETIC_DRY_RUN_REPORT.json",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE"
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0039/PRODUCTION_DASHBOARD_UPDATE.json",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE"
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0039/PROJECT_GENESIS_IMPORT_HOOK.json",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE"
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0039/PROPOSED_CHANGE_LOG_ENTRY.md",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE"
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0039/PROPOSED_NEXT_ACTION.md",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE"
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0039/RECOVERY_REGRESSION_TEST_REPORT.json",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE"
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0039/RECOVERY_UTILITY_SAFETY_STANDARD.md",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE"
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0039/ROLLBACK_RUNBOOK.md",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE"
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0039/ROUTING_MANIFEST.json",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE"
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0039/SOURCE_REFERENCE_REGISTER.md",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE"
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0039/TEST_REPORT.txt",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE"
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0039/VALIDATION_REPORT.md",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE"
+    },
+    {
+      "repository_path": "Documentation/PROJECT_GENESIS_DRY_RUN_ASSISTANT_USER_GUIDE.md",
+      "classification": "SUPPORTING_FILE",
+      "intended_action": "CREATE"
+    },
+    {
+      "repository_path": "Schemas/citation_provenance_record.schema.json",
+      "classification": "SCHEMA",
+      "intended_action": "CREATE"
+    },
+    {
+      "repository_path": "Schemas/evidence_ingestion_record.schema.json",
+      "classification": "SCHEMA",
+      "intended_action": "CREATE"
+    },
+    {
+      "repository_path": "Schemas/evidence_update_impact_assessment.schema.json",
+      "classification": "SCHEMA",
+      "intended_action": "CREATE"
+    },
+    {
+      "repository_path": "Schemas/living_evidence_surveillance_event.schema.json",
+      "classification": "SCHEMA",
+      "intended_action": "CREATE"
+    },
+    {
+      "repository_path": "Schemas/living_evidence_surveillance_query.schema.json",
+      "classification": "SCHEMA",
+      "intended_action": "CREATE"
+    },
+    {
+      "repository_path": "Schemas/retraction_correction_event.schema.json",
+      "classification": "SCHEMA",
+      "intended_action": "CREATE"
+    },
+    {
+      "repository_path": "Schemas/scientific_review_record.schema.json",
+      "classification": "SCHEMA",
+      "intended_action": "CREATE"
+    },
+    {
+      "repository_path": "Standards/EVIDENCE_INGESTION_STATE_MACHINE.md",
+      "classification": "FORMAL_ASSET",
+      "asset_title": "Evidence Ingestion State Machine",
+      "asset_type": "State Machine",
+      "knowledge_system": "EKS",
+      "intended_action": "CREATE",
+      "existing_uai": null,
+      "proposed_uai": "CERT-EKS-000757",
+      "proposed_version": "1.0.0",
+      "proposed_status": "ACTIVE",
+      "owner": "Certiaura",
+      "completion_percentage": 100,
+      "parent_assets": [],
+      "child_assets": [],
+      "relationships": [],
+      "evidence_links": [],
+      "report_links": [],
+      "marketplace_links": [],
+      "last_review": "2026-07-20",
+      "next_review": "2026-10-20",
+      "build_provenance": [
+        "CERT-BUILD-0039"
+      ],
+      "source_builds": [
+        "0039"
+      ],
+      "registration_basis": "BUILD_0039_CONTROLLED_IMPORT"
+    },
+    {
+      "repository_path": "Standards/EVIDENCE_SOURCE_RELIABILITY_HIERARCHY.md",
+      "classification": "FORMAL_ASSET",
+      "asset_title": "Evidence Source Reliability Hierarchy",
+      "asset_type": "Evidence Standard",
+      "knowledge_system": "EKS",
+      "intended_action": "CREATE",
+      "existing_uai": null,
+      "proposed_uai": "CERT-EKS-000758",
+      "proposed_version": "1.0.0",
+      "proposed_status": "ACTIVE",
+      "owner": "Certiaura",
+      "completion_percentage": 100,
+      "parent_assets": [],
+      "child_assets": [],
+      "relationships": [],
+      "evidence_links": [],
+      "report_links": [],
+      "marketplace_links": [],
+      "last_review": "2026-07-20",
+      "next_review": "2026-10-20",
+      "build_provenance": [
+        "CERT-BUILD-0039"
+      ],
+      "source_builds": [
+        "0039"
+      ],
+      "registration_basis": "BUILD_0039_CONTROLLED_IMPORT"
+    },
+    {
+      "repository_path": "Standards/SCIENTIFIC_REVIEW_DECISION_MATRIX.md",
+      "classification": "FORMAL_ASSET",
+      "asset_title": "Scientific Review Decision Matrix",
+      "asset_type": "Decision Matrix",
+      "knowledge_system": "EKS",
+      "intended_action": "CREATE",
+      "existing_uai": null,
+      "proposed_uai": "CERT-EKS-000759",
+      "proposed_version": "1.0.0",
+      "proposed_status": "ACTIVE",
+      "owner": "Certiaura",
+      "completion_percentage": 100,
+      "parent_assets": [],
+      "child_assets": [],
+      "relationships": [],
+      "evidence_links": [],
+      "report_links": [],
+      "marketplace_links": [],
+      "last_review": "2026-07-20",
+      "next_review": "2026-10-20",
+      "build_provenance": [
+        "CERT-BUILD-0039"
+      ],
+      "source_builds": [
+        "0039"
+      ],
+      "registration_basis": "BUILD_0039_CONTROLLED_IMPORT"
+    },
+    {
+      "repository_path": "Templates/Citation_Provenance_Record.template.json",
+      "classification": "TEMPLATE",
+      "intended_action": "CREATE"
+    },
+    {
+      "repository_path": "Templates/Evidence_Ingestion_Record.template.json",
+      "classification": "TEMPLATE",
+      "intended_action": "CREATE"
+    },
+    {
+      "repository_path": "Templates/Evidence_Update_Impact_Assessment.template.json",
+      "classification": "TEMPLATE",
+      "intended_action": "CREATE"
+    },
+    {
+      "repository_path": "Templates/Living_Evidence_Surveillance_Event.template.json",
+      "classification": "TEMPLATE",
+      "intended_action": "CREATE"
+    },
+    {
+      "repository_path": "Templates/Living_Evidence_Surveillance_Query.template.json",
+      "classification": "TEMPLATE",
+      "intended_action": "CREATE"
+    },
+    {
+      "repository_path": "Templates/Retraction_Correction_Event.template.json",
+      "classification": "TEMPLATE",
+      "intended_action": "CREATE"
+    },
+    {
+      "repository_path": "Templates/Scientific_Review_Record.template.json",
+      "classification": "TEMPLATE",
+      "intended_action": "CREATE"
+    }
+  ]
+}

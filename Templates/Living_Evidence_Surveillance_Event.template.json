@@ -1,0 +1,12 @@
+{
+  "record_type": "living_evidence_surveillance_event",
+  "event_id": "SUR-EVT-[ALLOCATE]",
+  "query_id": "SUR-Q-[REQUIRED]",
+  "detected_at": "2026-07-20T01:00:00Z",
+  "classification": "POTENTIAL_UPDATE",
+  "result_ids": [],
+  "triage": {
+    "status": "HUMAN_REVIEW_REQUIRED",
+    "owner": "Evidence Team"
+  }
+}

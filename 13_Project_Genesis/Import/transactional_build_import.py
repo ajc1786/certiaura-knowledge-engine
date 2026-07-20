@@ -1,352 +1,238 @@
 from __future__ import annotations
 
 import argparse
+import csv
 import hashlib
 import json
-import re
+import os
 import shutil
+import subprocess
+import sys
 import tempfile
 import zipfile
 from datetime import datetime, timezone
 from pathlib import Path, PurePosixPath
+from typing import Any
 
-from asset_register_reconciler import (
-    CANONICAL_REGISTER_RELATIVE_PATH,
-    UAI_RE,
-    _write_register,
-    load_register,
-    norm_path,
-    resolve_register,
-)
-from historical_asset_backfill import reconcile_full_historical_repository
-from repair_master_asset_register import verify as verify_master_asset_register
-
-ALLOWED_ROOTS = {
-    '00_Governance','01_Knowledge_Systems','02_Peptides','03_Biology','04_Conditions',
-    '05_Monitoring','06_Evidence','07_Goals','08_Product_Passports','09_Cost_Intelligence',
-    '10_Marketplace','11_Academy','12_Reports','13_Project_Genesis','Assets','Database',
-    'Documentation','Images','Schemas','Scripts','Standards','Templates'
-}
-MANIFEST_PATH = 'Documentation/Build_Records/0038/ASSET_INTENT_MANIFEST.json'
-CONFLICT_PATH = 'Documentation/Build_Records/0038/CONFLICT_POLICY.json'
-POLICY_PATH = 'Documentation/Build_Records/0038/HISTORICAL_ASSET_BACKFILL_POLICY.json'
-FULL_REPORT_PATH = 'Documentation/Build_Records/0038/FULL_HISTORICAL_ASSET_REGISTER_REPORT.json'
-CENSUS_REPORT_PATH = 'Documentation/Build_Records/0038/HISTORICAL_ASSET_CENSUS_REPORT.json'
-BUTTON_VERIFY_PATH = 'Documentation/Build_Records/0038/MASTER_ASSET_REGISTER_BUTTON_VERIFICATION.json'
+ALLOWED_ROOTS={"00_Governance","01_Knowledge_Systems","02_Peptides","03_Biology","04_Conditions","05_Monitoring","06_Evidence","07_Goals","08_Product_Passports","09_Cost_Intelligence","10_Marketplace","11_Academy","12_Reports","13_Project_Genesis","Assets","Database","Documentation","Images","Schemas","Scripts","Standards","Templates"}
+BUILD_RECORD="Documentation/Build_Records/0039"
+APPROVED_REPLACEMENTS={"00_Governance/CERTIAURA_LOCKED_BUILD_CONTINUITY_AND_CHECKPOINT.md","13_Project_Genesis/Import/transactional_build_import.py"}
+REGISTER_UAI="Universal Asset Identifier"
+REGISTER_PATH="Repository Path"
 
 
-def sha256_bytes(data: bytes) -> str:
-    return hashlib.sha256(data).hexdigest()
+def utc_now(): return datetime.now(timezone.utc).replace(microsecond=0).isoformat()
+def sha256_bytes(data: bytes): return hashlib.sha256(data).hexdigest()
+def sha256_file(path: Path):
+    h=hashlib.sha256()
+    with path.open("rb") as f:
+        for chunk in iter(lambda:f.read(1024*1024),b""): h.update(chunk)
+    return h.hexdigest()
+def norm_rel(path: str):
+    p=PurePosixPath(path.replace("\\","/"))
+    if p.is_absolute() or ".." in p.parts or not p.parts: raise ValueError(f"Unsafe package path: {path}")
+    return p.as_posix()
+def safe_repo_path(repo: Path, rel: str):
+    rel=norm_rel(rel); target=(repo/Path(*PurePosixPath(rel).parts)).resolve(); base=repo.resolve()
+    try: target.relative_to(base)
+    except ValueError as exc: raise ValueError(f"Path escapes repository: {rel}") from exc
+    return target
 
+def load_manifest(zf: zipfile.ZipFile):
+    name=f"{BUILD_RECORD}/ASSET_INTENT_MANIFEST.json"
+    try: return json.loads(zf.read(name).decode("utf-8"))
+    except KeyError as exc: raise ValueError(f"Missing {name}") from exc
 
-def validate_member(name: str) -> list[str]:
-    p = PurePosixPath(name)
-    errors: list[str] = []
-    if p.is_absolute() or '..' in p.parts:
-        errors.append('UNSAFE_PATH')
-    if not p.parts:
-        errors.append('EMPTY_PATH')
-    elif p.parts[0] not in ALLOWED_ROOTS:
-        errors.append('UNAUTHORISED_ROOT')
-    if any(x == '__pycache__' for x in p.parts) or name.endswith('.pyc'):
-        errors.append('GENERATED_CACHE_FILE')
-    return errors
+def inspect_package(zf: zipfile.ZipFile):
+    names=[]; lower={}; collisions=[]
+    for info in zf.infolist():
+        if info.is_dir(): continue
+        name=norm_rel(info.filename); names.append(name)
+        key=name.casefold()
+        if key in lower and lower[key]!=name: collisions.append([lower[key],name])
+        lower[key]=name
+    roots=sorted({PurePosixPath(n).parts[0] for n in names})
+    unauthorized=sorted(set(roots)-ALLOWED_ROOTS)
+    wrapper=bool(len(roots)==1 and (roots[0].lower().startswith("certiaura_build_") or roots[0].lower().startswith("build_")))
+    return names,roots,unauthorized,wrapper,collisions
 
+def read_register(path: Path):
+    if not path.exists(): raise ValueError(f"Master Asset Register missing: {path}")
+    with path.open("r",encoding="utf-8-sig",newline="") as f:
+        reader=csv.DictReader(f); rows=list(reader); fields=reader.fieldnames or []
+    if REGISTER_UAI not in fields or REGISTER_PATH not in fields: raise ValueError("Master Asset Register missing required columns")
+    uais=[r.get(REGISTER_UAI,"").strip() for r in rows if r.get(REGISTER_UAI,"").strip()]
+    paths=[r.get(REGISTER_PATH,"").strip().replace("\\","/") for r in rows if r.get(REGISTER_PATH,"").strip()]
+    if len(uais)!=len(set(uais)): raise ValueError("Master Asset Register contains duplicate Universal Asset Identifiers")
+    if len([p.casefold() for p in paths])!=len(set(p.casefold() for p in paths)): raise ValueError("Master Asset Register contains duplicate repository paths")
+    return fields,rows
 
-def load_policy(zf: zipfile.ZipFile) -> dict:
-    if CONFLICT_PATH not in zf.namelist():
-        return {'approved_replacements': []}
-    return json.loads(zf.read(CONFLICT_PATH))
+def write_register(path: Path, fields: list[str], rows: list[dict[str,str]]):
+    with path.open("w",encoding="utf-8",newline="") as f:
+        w=csv.DictWriter(f,fieldnames=fields,extrasaction="ignore",lineterminator="\n"); w.writeheader(); w.writerows(rows)
 
-
-def inspect_pack(zip_path: Path, repo: Path, asset_register: Path | None = None) -> dict:
-    asset_register = asset_register or CANONICAL_REGISTER_RELATIVE_PATH
-    errors: list[dict] = []
-    plan: list[dict] = []
-    seen_ci: dict[str, str] = {}
-    historical_report = None
-
-    with zipfile.ZipFile(zip_path) as zf:
-        files = [i for i in zf.infolist() if not i.is_dir()]
-        incoming_files = {i.filename: zf.read(i.filename) for i in files}
-        if not files:
-            errors.append({'code': 'EMPTY_PACKAGE'})
-        roots = {PurePosixPath(i.filename).parts[0] for i in files if PurePosixPath(i.filename).parts}
-        if len(roots) == 1 and next(iter(roots), '') not in ALLOWED_ROOTS:
-            errors.append({'code': 'BUILD_WRAPPER_FOLDER'})
-
-        if MANIFEST_PATH not in incoming_files:
-            errors.append({'code': 'ASSET_INTENT_MANIFEST_MISSING', 'path': MANIFEST_PATH})
-            manifest = {'file_classifications': [], 'formal_assets': [], 'build_number': '0038'}
-        else:
-            manifest = json.loads(incoming_files[MANIFEST_PATH])
-        if POLICY_PATH not in incoming_files:
-            errors.append({'code': 'HISTORICAL_ASSET_BACKFILL_POLICY_MISSING', 'path': POLICY_PATH})
-
-        classified = {x['path'] for x in manifest.get('file_classifications', [])}
-        policy = load_policy(zf)
-        approved = {x['path']: x for x in policy.get('approved_replacements', [])}
-
-        for info in files:
-            member_errors = validate_member(info.filename)
-            if member_errors:
-                errors.append({'code': ','.join(member_errors), 'path': info.filename})
-                continue
-            key = info.filename.lower()
-            if key in seen_ci and seen_ci[key] != info.filename:
-                errors.append({'code': 'CASE_COLLISION', 'path': info.filename, 'other': seen_ci[key]})
-                continue
-            seen_ci[key] = info.filename
-            if info.filename not in classified:
-                errors.append({'code': 'UNCLASSIFIED_PACKAGE_FILE', 'path': info.filename})
-            data = incoming_files[info.filename]
-            incoming = sha256_bytes(data)
-            target = repo.joinpath(*PurePosixPath(info.filename).parts)
-            if not target.exists():
-                action = 'CREATE'
-            elif target.is_dir():
-                action = 'BLOCK_DIRECTORY_COLLISION'
-            else:
-                current = sha256_bytes(target.read_bytes())
-                if current == incoming:
-                    action = 'SKIP_IDENTICAL'
-                elif info.filename in approved:
-                    action = 'APPROVED_REPLACE'
-                else:
-                    action = 'BLOCK_NONIDENTICAL_COLLISION'
-            plan.append({'path': info.filename, 'action': action, 'sha256': incoming, 'size_bytes': len(data)})
-
-        try:
-            with tempfile.TemporaryDirectory() as td:
-                td_path = Path(td)
-                manifest_path = td_path / 'asset_intent_manifest.json'
-                policy_path = td_path / 'historical_policy.json'
-                manifest_path.write_bytes(incoming_files.get(MANIFEST_PATH, b'{}'))
-                policy_path.write_bytes(incoming_files.get(POLICY_PATH, b'{}'))
-                historical_report = reconcile_full_historical_repository(
-                    repo,
-                    manifest_path,
-                    policy_path,
-                    asset_register,
-                    additional_files=incoming_files,
-                    apply=False,
-                )
-        except Exception as exc:
-            errors.append({'code': 'FULL_HISTORICAL_ASSET_REGISTER_PREFLIGHT_FAILED', 'message': str(exc)})
-
-    blocked = [x for x in plan if x['action'].startswith('BLOCK_')]
-    return {
-        'valid': not errors and not blocked and bool(historical_report and historical_report.get('valid')),
-        'errors': errors,
-        'routing_plan': plan,
-        'full_historical_asset_register_report': historical_report,
-        'summary': {
-            'files': len(plan),
-            'create': sum(1 for x in plan if x['action'] == 'CREATE'),
-            'skip_identical': sum(1 for x in plan if x['action'] == 'SKIP_IDENTICAL'),
-            'approved_replace': sum(1 for x in plan if x['action'] == 'APPROVED_REPLACE'),
-            'blocked': len(blocked),
-            'historical_registerable_assets': (
-                historical_report.get('summary', {}).get('registerable_assets', 0)
-                if historical_report else 0
-            ),
-            'historical_register_creates': (
-                historical_report.get('summary', {}).get('register_creates', 0)
-                if historical_report else 0
-            ),
-            'historical_register_updates': (
-                historical_report.get('summary', {}).get('register_updates', 0)
-                if historical_report else 0
-            ),
+def reconcile_register(fields, rows, formal_assets):
+    by_uai={r.get(REGISTER_UAI,"").strip():r for r in rows if r.get(REGISTER_UAI,"").strip()}
+    by_path={r.get(REGISTER_PATH,"").strip().replace("\\","/").casefold():r for r in rows if r.get(REGISTER_PATH,"").strip()}
+    changes=[]
+    for asset in formal_assets:
+        rel=asset["repository_path"]; action=asset["intended_action"]
+        uai=(asset.get("existing_uai") or asset.get("proposed_uai") or "").strip()
+        target=by_uai.get(uai) or by_path.get(rel.casefold())
+        if action=="UPDATE":
+            if target is None: raise ValueError(f"UPDATE formal asset not found in Master Asset Register: {rel} / {uai}")
+        elif action=="CREATE":
+            if target is not None: raise ValueError(f"CREATE formal asset conflicts with existing register identity: {rel} / {uai}")
+            target={field:"" for field in fields}; rows.append(target)
+        else: raise ValueError(f"Unsupported intended_action for Build 0039: {action}")
+        mapping={
+            "Universal Asset Identifier":uai,
+            "Asset Name":asset.get("asset_title",""),
+            "Knowledge System":asset.get("knowledge_system",""),
+            "Asset Type":asset.get("asset_type",""),
+            "Status":asset.get("proposed_status","ACTIVE"),
+            "Owner":asset.get("owner","Certiaura"),
+            "Repository Path":rel,
+            "Version":asset.get("proposed_version",""),
+            "Completion Percentage":str(asset.get("completion_percentage",100)),
+            "Last Review":asset.get("last_review",""),
+            "Next Review":asset.get("next_review",""),
+            "Build Provenance":";".join(asset.get("build_provenance",[])),
+            "Source Builds":";".join(asset.get("source_builds",[])),
+            "Registration Basis":asset.get("registration_basis","BUILD_IMPORT")
         }
-    }
+        for key,val in mapping.items():
+            if key in fields: target[key]=val
+        by_uai[uai]=target; by_path[rel.casefold()]=target
+        changes.append({"path":rel,"uai":uai,"action":action})
+    return rows,changes
 
+def ensure_parent(target: Path, repo: Path, created_dirs: list[str]):
+    missing=[]; cur=target.parent
+    while cur!=repo and not cur.exists(): missing.append(cur); cur=cur.parent
+    for directory in reversed(missing):
+        directory.mkdir()
+        created_dirs.append(directory.relative_to(repo).as_posix())
 
-def _backup(repo: Path, paths: list[str], register: Path, backup_root: Path) -> tuple[Path, dict]:
-    stamp = datetime.now(timezone.utc).strftime('%Y%m%dT%H%M%SZ')
-    backup = backup_root / f'build_0038_{stamp}'
-    backup.mkdir(parents=True, exist_ok=False)
-    manifest = {'created_at': stamp, 'files': []}
-    all_paths = list(dict.fromkeys(paths + [str(register.relative_to(repo)).replace('\\', '/')]))
-    for rel in all_paths:
-        target = repo.joinpath(*PurePosixPath(rel).parts)
-        entry = {'path': rel, 'existed': target.is_file()}
-        if target.is_file():
-            dest = backup.joinpath(*PurePosixPath(rel).parts)
-            dest.parent.mkdir(parents=True, exist_ok=True)
-            shutil.copy2(target, dest)
-            entry['sha256'] = sha256_bytes(target.read_bytes())
-        manifest['files'].append(entry)
-    (backup / 'ROLLBACK_MANIFEST.json').write_text(json.dumps(manifest, indent=2) + '\n', encoding='utf-8')
-    return backup, manifest
-
-
-def _rollback(repo: Path, backup: Path, backup_manifest: dict) -> None:
-    for entry in reversed(backup_manifest['files']):
-        target = repo.joinpath(*PurePosixPath(entry['path']).parts)
-        if entry['existed']:
-            source = backup.joinpath(*PurePosixPath(entry['path']).parts)
-            target.parent.mkdir(parents=True, exist_ok=True)
-            shutil.copy2(source, target)
-        elif target.exists() and target.is_file():
-            target.unlink()
-
-
-def _validate_repo(repo: Path, manifest: dict, historical_report: dict) -> list[dict]:
-    errors: list[dict] = []
-    for item in historical_report.get('census', {}).get('registerable_assets', []):
-        target = repo.joinpath(*PurePosixPath(item['repository_path']).parts)
-        if not target.is_file():
-            errors.append({'code': 'ORPHAN_REGISTERABLE_HISTORICAL_ASSET', 'path': item['repository_path']})
-    for item in manifest.get('file_classifications', []):
-        path = item['path']
-        target = repo.joinpath(*PurePosixPath(path).parts)
-        if not target.is_file():
-            continue
-        try:
-            if target.suffix.lower() == '.json':
-                json.loads(target.read_text(encoding='utf-8'))
-            elif target.suffix.lower() == '.py':
-                compile(target.read_text(encoding='utf-8'), str(target), 'exec')
+def safe_remove_empty_directories(repo: Path, created_directories: list[str], actions: list[dict[str,Any]]):
+    """Remove only transaction-created directories that are proven empty. Never recursive."""
+    unique=sorted(set(created_directories),key=lambda p:len(PurePosixPath(p).parts),reverse=True)
+    for rel in unique:
+        try: directory=safe_repo_path(repo,rel)
         except Exception as exc:
-            errors.append({'code': 'POST_IMPORT_FILE_VALIDATION_FAILED', 'path': path, 'message': str(exc)})
-    if not historical_report.get('valid') or not historical_report.get('applied'):
-        errors.append({'code': 'FULL_HISTORICAL_ASSET_REGISTER_RECONCILIATION_INVALID'})
-    errors.extend(historical_report.get('coverage_errors', []))
-    return errors
+            actions.append({"path":rel,"action":"SKIP_DIRECTORY","reason":str(exc)}); continue
+        if not directory.exists(): actions.append({"path":rel,"action":"DIRECTORY_ALREADY_ABSENT"}); continue
+        if not directory.is_dir(): actions.append({"path":rel,"action":"SKIP_DIRECTORY","reason":"not_a_directory"}); continue
+        try: empty=next(directory.iterdir(),None) is None
+        except OSError as exc:
+            actions.append({"path":rel,"action":"SKIP_DIRECTORY","reason":f"cannot_prove_empty:{exc}"}); continue
+        if not empty:
+            actions.append({"path":rel,"action":"PRESERVE_NONEMPTY_DIRECTORY"}); continue
+        try:
+            directory.rmdir()
+            actions.append({"path":rel,"action":"REMOVE_EMPTY_TRANSACTION_DIRECTORY"})
+        except OSError as exc:
+            actions.append({"path":rel,"action":"SKIP_DIRECTORY","reason":f"rmdir_failed:{exc}"})
 
+def recover_transaction(repo: Path, journal: dict[str,Any], apply: bool=True):
+    actions=[]; backup=Path(journal["backup_root"])
+    for item in reversed(journal.get("created_files",[])):
+        rel=item["path"]; target=safe_repo_path(repo,rel)
+        if not target.exists(): actions.append({"path":rel,"action":"FILE_ALREADY_ABSENT"}); continue
+        current=sha256_file(target); expected=item.get("applied_sha256")
+        if expected and current!=expected:
+            actions.append({"path":rel,"action":"PRESERVE_CHANGED_CREATED_FILE","current_sha256":current}); continue
+        if apply: target.unlink()
+        actions.append({"path":rel,"action":"REMOVE_TRANSACTION_CREATED_FILE" if apply else "WOULD_REMOVE_TRANSACTION_CREATED_FILE"})
+    for item in journal.get("replaced_files",[]):
+        rel=item["path"]; source=backup/item["backup_rel"]; target=safe_repo_path(repo,rel)
+        if not source.exists(): actions.append({"path":rel,"action":"RESTORE_FAILED","reason":"backup_missing"}); continue
+        if apply:
+            target.parent.mkdir(parents=True,exist_ok=True); shutil.copy2(source,target)
+        actions.append({"path":rel,"action":"RESTORE_REPLACED_FILE" if apply else "WOULD_RESTORE_REPLACED_FILE"})
+    if apply: safe_remove_empty_directories(repo,journal.get("created_directories",[]),actions)
+    else:
+        for rel in journal.get("created_directories",[]): actions.append({"path":rel,"action":"WOULD_REMOVE_ONLY_IF_EMPTY_AND_TRANSACTION_CREATED"})
+    return {"valid":True,"applied":apply,"actions":actions,"recursive_directory_deletion_used":False}
 
-def _advance_checkpoint(repo: Path) -> None:
-    path = repo / '00_Governance' / 'CERTIAURA_LOCKED_BUILD_CONTINUITY_AND_CHECKPOINT.md'
-    if not path.is_file():
-        raise RuntimeError('CONTINUITY_CHECKPOINT_MISSING_AFTER_IMPORT')
-    text = path.read_text(encoding='utf-8')
-    text, count = re.subn(r'(?m)^\*\*Version:\*\*\s+1\.4\.0\s*$', '**Version:** 1.4.1  ', text, count=1)
-    if count != 1:
-        raise RuntimeError('CONTINUITY_CHECKPOINT_VERSION_NOT_ADVANCED')
-    text, count = re.subn(r'"version":\s*"1\.4\.0"', '"version": "1.4.1"', text, count=1)
-    if count != 1:
-        raise RuntimeError('CONTINUITY_MACHINE_CHECKPOINT_VERSION_NOT_ADVANCED')
-    text = text.replace(
-        '**Checkpoint status:** BUILD 0038 CONFLICT-RESOLUTION REISSUE DELIVERED — IMPORT PENDING',
-        '**Checkpoint status:** BUILD 0038 FULL HISTORICAL RECONCILIATION IMPORTED AND VALIDATED — COMMIT/PUSH PENDING',
-        1,
-    )
-    text = text.replace(
-        'Import the Build 0038 Version 1.4.0 conflict-resolution reissue, review the dry-run consolidation report, apply, validate, commit and push.',
-        'Commit and push corrected Build 0038 using the locked commit message, then confirm GitHub Actions green.',
-        1,
-    )
-    text = text.replace('"required_action": "IMPORT_CONFLICT_RESOLUTION_REISSUE"', '"required_action": "COMMIT_PUSH_CONFIRM_ACTIONS"', 1)
-    text = text.replace(
-        '"immediate_next_action": "Import Build 0038 Version 1.4.0 and complete canonical asset representation consolidation"',
-        '"immediate_next_action": "Commit and push corrected Build 0038 and confirm GitHub Actions green"',
-        1,
-    )
-    path.write_text(text, encoding='utf-8')
+def write_json_report(repo: Path, report_arg: str, data: dict[str,Any]):
+    report=Path(report_arg)
+    if not report.is_absolute(): report=safe_repo_path(repo,report_arg)
+    report.parent.mkdir(parents=True,exist_ok=True)
+    report.write_text(json.dumps(data,indent=2,ensure_ascii=False)+"\n",encoding="utf-8")
+    return report
 
+def external_backup_root(repo: Path, build_number: str):
+    parents=list(repo.resolve().parents)
+    certiaura_root=parents[1] if len(parents)>1 else repo.parent
+    stamp=datetime.now().strftime("%Y%m%d_%H%M%S")
+    root=certiaura_root/"Backups"/f"Build_{build_number}_Pre_Import_{stamp}"
+    root.mkdir(parents=True,exist_ok=False)
+    return root
 
-def _sync_checkpoint_register(register: Path) -> None:
-    rows, meta = load_register(register)
-    wanted = norm_path('00_Governance/CERTIAURA_LOCKED_BUILD_CONTINUITY_AND_CHECKPOINT.md')
-    matches = [row for row in rows if norm_path(row.get('Repository Path')) == wanted]
-    if len(matches) != 1:
-        raise RuntimeError(f'CHECKPOINT_ASSET_REGISTER_MATCH_INVALID: {len(matches)}')
-    checkpoint_path = register.parents[1] / '00_Governance' / 'CERTIAURA_LOCKED_BUILD_CONTINUITY_AND_CHECKPOINT.md'
-    matches[0]['Version'] = '1.4.1'
-    matches[0]['Status'] = 'LOCKED_ACTIVE'
-    if checkpoint_path.is_file():
-        matches[0]['File SHA256'] = sha256_bytes(checkpoint_path.read_bytes())
-    _write_register(register, rows, meta)
-
-
-def apply_pack(zip_path: Path, repo: Path, backup_root: Path, asset_register: Path | None = None) -> dict:
-    preflight = inspect_pack(zip_path, repo, asset_register)
-    if not preflight['valid']:
-        preflight['applied'] = False
-        return preflight
-    asset_register = asset_register or CANONICAL_REGISTER_RELATIVE_PATH
-    register = resolve_register(repo, asset_register)
-    touched = [x['path'] for x in preflight['routing_plan'] if x['action'] in {'CREATE', 'APPROVED_REPLACE'}]
-    backup, backup_manifest = _backup(repo, touched, register, backup_root)
+def main(argv=None):
+    p=argparse.ArgumentParser(); p.add_argument("zip_path"); p.add_argument("repository_path"); p.add_argument("--apply",action="store_true"); p.add_argument("--asset-register",default="Documentation/Master_Asset_Register.csv"); p.add_argument("--report",default=f"{BUILD_RECORD}/GUIDED_DRY_RUN_REPORT.json")
+    args=p.parse_args(argv); repo=Path(args.repository_path).resolve(); zpath=Path(args.zip_path).resolve(); errors=[]; warnings=[]
+    report={"schema_version":"2.1.0","generated_at":utc_now(),"build_number":"0039","build_title":"evidence ingestion citation management living evidence surveillance and scientific review controls","package_version":"1.3.2","zip_path":str(zpath),"repository_path":str(repo),"apply_requested":args.apply}
     try:
-        with zipfile.ZipFile(zip_path) as zf:
-            for item in preflight['routing_plan']:
-                if item['action'] not in {'CREATE', 'APPROVED_REPLACE'}:
-                    continue
-                target = repo.joinpath(*PurePosixPath(item['path']).parts)
-                target.parent.mkdir(parents=True, exist_ok=True)
-                target.write_bytes(zf.read(item['path']))
-
-        manifest_path = repo / MANIFEST_PATH
-        policy_path = repo / POLICY_PATH
-        historical_report_path = repo / FULL_REPORT_PATH
-        census_report_path = repo / CENSUS_REPORT_PATH
-        historical_report = reconcile_full_historical_repository(
-            repo,
-            manifest_path,
-            policy_path,
-            asset_register,
-            additional_files=None,
-            apply=True,
-            report_path=historical_report_path,
-            census_report_path=census_report_path,
-        )
-        validation_errors = _validate_repo(
-            repo,
-            json.loads(manifest_path.read_text(encoding='utf-8')),
-            historical_report,
-        )
-        verification = verify_master_asset_register(repo)
-        (repo / BUTTON_VERIFY_PATH).write_text(json.dumps(verification, indent=2) + "\n", encoding="utf-8")
-        if not verification.get("valid"):
-            validation_errors.append({"code": "CANONICAL_MASTER_ASSET_REGISTER_BUTTON_VERIFICATION_FAILED", "details": verification})
-        if validation_errors:
-            raise RuntimeError(json.dumps(validation_errors))
-
-        _advance_checkpoint(repo)
-        _sync_checkpoint_register(register)
-        report = {
-            **preflight,
-            'applied': True,
-            'backup_path': str(backup),
-            'full_historical_asset_register_report': historical_report,
-            'post_import_validation': {'valid': True, 'errors': []},
-            'master_asset_register_button_verification': verification,
-        }
-        report_path = repo / 'Documentation/Build_Records/0038/IMPORT_REPORT.json'
-        report_path.write_text(json.dumps(report, indent=2) + '\n', encoding='utf-8')
-        return report
+        if not repo.is_dir(): raise ValueError("Repository path is not a directory")
+        reg=safe_repo_path(repo,args.asset_register); fields,rows=read_register(reg)
+        with zipfile.ZipFile(zpath) as zf:
+            names,roots,unauthorized,wrapper,case_collisions=inspect_package(zf); manifest=load_manifest(zf)
+            declared={f["repository_path"]:f for f in manifest.get("files",[])}
+            unclassified=sorted(set(names)-set(declared)); missing=sorted(set(declared)-set(names))
+            if unauthorized: errors.append({"code":"UNAUTHORISED_ROOTS","roots":unauthorized})
+            if wrapper: errors.append({"code":"WRAPPER_FOLDER_DETECTED"})
+            if case_collisions: errors.append({"code":"CASE_COLLISIONS","paths":case_collisions})
+            if unclassified: errors.append({"code":"UNCLASSIFIED_PACKAGE_FILES","paths":unclassified})
+            if missing: errors.append({"code":"DECLARED_FILES_MISSING","paths":missing})
+            if manifest.get("package_version")!="1.3.2": errors.append({"code":"PACKAGE_VERSION_MISMATCH"})
+            file_actions=[]; conflicts=[]
+            for name in names:
+                incoming=zf.read(name); target=safe_repo_path(repo,name); inc_hash=sha256_bytes(incoming)
+                if not target.exists(): action="CREATE_FILE"
+                elif target.is_dir(): action="REJECT_PATH_IS_DIRECTORY"; conflicts.append(name)
+                else:
+                    current=sha256_file(target)
+                    if current==inc_hash: action="SKIP_IDENTICAL"
+                    elif name in APPROVED_REPLACEMENTS: action="APPROVED_REPLACEMENT"
+                    else: action="BLOCK_NONIDENTICAL_EXISTING"; conflicts.append(name)
+                file_actions.append({"path":name,"classification":declared.get(name,{}).get("classification"),"action":action,"incoming_sha256":inc_hash})
+            formal=[dict(f) for f in manifest.get("files",[]) if f.get("classification")=="FORMAL_ASSET"]
+            proposed_rows,reg_changes=reconcile_register(fields,[dict(r) for r in rows],formal)
+            report.update({"asset_manifest_path":f"{BUILD_RECORD}/ASSET_INTENT_MANIFEST.json","package_file_count":len(names),"formal_asset_count":len(formal),"roots":roots,"wrapper_folder_detected":wrapper,"unauthorised_roots":unauthorized,"case_collisions":case_collisions,"file_actions":file_actions,"assets_to_create":[c for c in reg_changes if c["action"]=="CREATE"],"assets_to_update":[c for c in reg_changes if c["action"]=="UPDATE"],"expected_register_total":len(proposed_rows),"conflicts":conflicts})
+            if conflicts: errors.append({"code":"UNRESOLVED_FILE_CONFLICTS","paths":conflicts})
+            report["errors"]=errors; report["warnings"]=warnings; report["valid"]=not errors; report["apply_allowed"]=not errors
+            if args.apply and not errors:
+                backup=external_backup_root(repo,"0039"); journal={"schema_version":"1.1.0","build_number":"0039","package_version":"1.3.2","repository_path":str(repo),"backup_root":str(backup),"created_files":[],"replaced_files":[],"created_directories":[],"created_at":utc_now()}
+                reg_backup=backup/args.asset_register; reg_backup.parent.mkdir(parents=True,exist_ok=True); shutil.copy2(reg,reg_backup)
+                journal["replaced_files"].append({"path":args.asset_register,"backup_rel":args.asset_register})
+                try:
+                    for action in file_actions:
+                        if action["action"]=="SKIP_IDENTICAL": continue
+                        rel=action["path"]; target=safe_repo_path(repo,rel); ensure_parent(target,repo,journal["created_directories"])
+                        if target.exists():
+                            b=backup/"files"/Path(*PurePosixPath(rel).parts); b.parent.mkdir(parents=True,exist_ok=True); shutil.copy2(target,b); journal["replaced_files"].append({"path":rel,"backup_rel":b.relative_to(backup).as_posix()})
+                        else: journal["created_files"].append({"path":rel,"applied_sha256":action["incoming_sha256"]})
+                        target.write_bytes(zf.read(rel))
+                    write_register(reg,fields,proposed_rows)
+                    # post-apply validation
+                    for action in file_actions:
+                        target=safe_repo_path(repo,action["path"])
+                        if not target.is_file() or sha256_file(target)!=action["incoming_sha256"]: raise RuntimeError(f"Post-apply hash validation failed: {action['path']}")
+                    read_register(reg)
+                    journal_path=backup/"TRANSACTION_JOURNAL.json"; journal_path.write_text(json.dumps(journal,indent=2)+"\n",encoding="utf-8")
+                    report.update({"applied":True,"transaction_status":"APPLIED_VALIDATED","backup_root":str(backup),"transaction_journal":str(journal_path),"recovery_safety":{"recursive_directory_deletion_used":False,"empty_only_directory_cleanup":True,"transaction_created_directories_only":True}})
+                except Exception as exc:
+                    journal_path=backup/"TRANSACTION_JOURNAL.json"; journal_path.write_text(json.dumps(journal,indent=2)+"\n",encoding="utf-8")
+                    recovery=recover_transaction(repo,journal,apply=True)
+                    report.update({"applied":False,"transaction_status":"FAILED_ROLLED_BACK","apply_error":str(exc),"backup_root":str(backup),"transaction_journal":str(journal_path),"recovery":recovery})
+                    report["valid"]=False; report["errors"].append({"code":"APPLY_FAILED_ROLLED_BACK","message":str(exc)})
+            else: report["applied"]=False
     except Exception as exc:
-        _rollback(repo, backup, backup_manifest)
-        preflight['applied'] = False
-        preflight['rolled_back'] = True
-        preflight['runtime_error'] = str(exc)
-        return preflight
+        report.update({"valid":False,"apply_allowed":False,"applied":False}); report.setdefault("errors",[]).append({"code":"IMPORTER_EXCEPTION","message":str(exc)})
+    write_json_report(repo,args.report,report)
+    print(json.dumps(report,indent=2,ensure_ascii=False))
+    return 0 if report.get("valid") else 1
 
-
-def main() -> int:
-    parser = argparse.ArgumentParser(description='Transactional Certiaura Build 0038 importer with full historical asset-register reconciliation')
-    parser.add_argument('zip_path', type=Path)
-    parser.add_argument('repository', type=Path)
-    parser.add_argument('--asset-register', type=Path, default=CANONICAL_REGISTER_RELATIVE_PATH)
-    parser.add_argument('--apply', action='store_true')
-    parser.add_argument('--backup-root', type=Path)
-    parser.add_argument('--report', type=Path)
-    args = parser.parse_args()
-    result = apply_pack(
-        args.zip_path,
-        args.repository,
-        args.backup_root or args.repository / '.certiaura_backups',
-        args.asset_register,
-    ) if args.apply else inspect_pack(args.zip_path, args.repository, args.asset_register)
-    output = json.dumps(result, indent=2)
-    print(output)
-    if args.report:
-        args.report.parent.mkdir(parents=True, exist_ok=True)
-        args.report.write_text(output + '\n', encoding='utf-8')
-    return 0 if result.get('valid') and (not args.apply or result.get('applied')) else 1
-
-
-if __name__ == '__main__':
-    raise SystemExit(main())
+if __name__=="__main__": raise SystemExit(main())

@@ -1,12 +1,12 @@
 # CERTIAURA LOCKED BUILD CONTINUITY AND CHECKPOINT
 
-**Document ID:** CERT-GOV-CONT-002  
-**Version:** 1.4.0  
-**Status:** LOCKED — ACTIVE  
-**Effective date:** 2026-07-19  
-**Last updated:** 2026-07-19  
-**Authority:** Explicit founder instruction from Aidan Coleman  
-**Canonical repository path:** `00_Governance/CERTIAURA_LOCKED_BUILD_CONTINUITY_AND_CHECKPOINT.md`  
+**Document ID:** CERT-GOV-CONT-002
+**Version:** 1.4.1
+**Status:** LOCKED — ACTIVE
+**Effective date:** 2026-07-19
+**Last updated:** 2026-07-20
+**Authority:** Explicit founder instruction from Aidan Coleman
+**Canonical repository path:** `00_Governance/CERTIAURA_LOCKED_BUILD_CONTINUITY_AND_CHECKPOINT.md`
 **GPT Project use:** Upload this file to the Certiaura GPT Project sources and replace it with the latest version whenever the continuation checkpoint is updated.
 
 ---
@@ -592,60 +592,42 @@ Where the source files and the founder's latest explicit message conflict, the l
 
 ---
 
+## 16. Current locked correction
 
-## 16. Current locked position
+### Founder-confirmed repository position
 
-### Build 0038 closure confirmed by the founder
+- Build 0038 is closed, committed, pushed and GitHub Actions are green.
+- The canonical repository is clean at the Build 0038 baseline.
+- Build 0039 retains the title `evidence ingestion citation management living evidence surveillance and scientific review controls`.
+- Build 0039 package version 1.3.0 is withdrawn because of the recovery directory-cleanup defect.
+- Build 0039 package version 1.3.1 is withdrawn because its manifest regression test scanned the entire installed repository instead of package-owned paths.
+- Both withdrawn packages must not be applied.
+- Build 0040 remains on hold until Build 0039 reaches `ACTIONS_GREEN_CLOSED`.
 
-Build 0038 — repository restoration canonical routing and complete historical Master Asset Register reconciliation — is confirmed `ACTIONS_GREEN_CLOSED`.
+### Build 0039 v1.3.2 mandatory correction
 
-Confirmed outcomes:
+The Build 0039 reissue keeps the same build number and full title and is released as package version **1.3.1**.
 
-- corrected package contained 415 files;
-- canonical Master Asset Register path is `Documentation/Master_Asset_Register.csv`;
-- Master Asset Register contains 2,860 formal asset rows;
-- blank Universal Asset Identifiers: 0;
-- duplicate Universal Asset Identifier groups: 0;
-- legacy `NO NEW UAI` placeholder removed;
-- `Supporting Files` field implemented;
-- transactional import completed successfully;
-- total conflicts: 0;
-- repository validation, commit, push and GitHub Actions closure confirmed.
+The recovery and rollback controls must:
 
-### Build 0037 corrected reissue
+1. remove a directory only when it is recorded as created by the current transaction;
+2. prove that the directory is empty immediately before removal;
+3. use non-recursive directory removal only;
+4. never recursively remove an existing canonical repository directory;
+5. preserve pre-existing sibling files and sibling folders;
+6. hash-check transaction-created files before deleting them during recovery;
+7. restore replaced files and the Master Asset Register from the transactional backup;
+8. report skipped cleanup where a directory is non-empty or a file has changed;
+9. include regression tests for existing parent directories, sibling files, sibling folders and nested sibling content.
 
-Build 0037 retains its original identity and title:
-
-```text
-Build 0037 — Scientific content claims advertising AI recommendation and responsible communications controls
-```
-
-The corrected reissue is generated with:
-
-- flat repository-relative routing;
-- no build-named wrapper directory;
-- a complete Asset Intent Manifest;
-- automatic reconciliation against `Documentation/Master_Asset_Register.csv` through the installed Build 0038 transactional importer;
-- preservation of existing Universal Asset Identifiers;
-- dry-run routing, collision and Asset Register change reporting;
-- backup and transactional rollback;
-- full repository and Master Asset Register validation;
-- claim, communications and artificial intelligence output schemas, validators, examples and automated tests.
-
-### Following scientific build
-
-```text
-Build 0039 — evidence ingestion citation management living evidence surveillance and scientific review controls
-```
-
-Build 0039 remains planned and is not authorised to start until Build 0037 is imported, reconciled, repository-validated, committed, pushed and confirmed GitHub Actions green.
+The withdrawn v1.3.0 and v1.3.1 packages remain prohibited. The manifest test must compare the Asset Intent Manifest with the package inventory and verify declared files exist, while ignoring unrelated repository content.
 
 ---
 
 ## 17. Current continuation checkpoint
 
-**Checkpoint date:** 2026-07-19  
-**Checkpoint status:** ACTIVE — BUILD 0037 CORRECTED REISSUE GENERATED
+**Checkpoint date:** 2026-07-20
+**Checkpoint status:** ACTIVE — BUILD 0039 v1.3.2 REISSUED, AWAITING CONTROLLED DRY RUN AND IMPORT
 
 ### Last closed build
 
@@ -656,20 +638,40 @@ Build 0038 — ACTIONS_GREEN_CLOSED
 ### Current pending build
 
 ```text
-Build 0037 — GENERATED corrected reissue; awaiting Project Genesis import and closure
+Build 0039 — evidence ingestion citation management living evidence surveillance and scientific review controls
+Package version: 1.3.2
+State: GENERATED / DELIVERED
 ```
 
 ### Immediate next action
 
+1. Pause OneDrive synchronisation.
+2. Confirm the repository is clean at the Build 0038 baseline.
+3. Use only the Build 0039 v1.3.2 package; v1.3.0 and v1.3.1 are withdrawn.
+4. Run the Project Genesis dry run.
+5. Review routing, collision, Master Asset Register and recovery-safety reports.
+6. Apply only when all mandatory gates pass.
+
+### Required close-out sequence
+
 ```text
-Import corrected Build 0037 through Project Genesis → review dry-run routing and Master Asset Register Change Reports → apply the transaction → run full repository validation → commit and push using the exact locked commit message → confirm GitHub Actions green.
+Pause OneDrive → dry run → review reports → transactional import → repository validation → commit and push → confirm GitHub Actions green
 ```
 
-### Hold point
+### Exact future commit message
 
-Do not start Build 0039 until corrected Build 0037 reaches `ACTIONS_GREEN_CLOSED`.
+```text
+Add Certiaura Build 0039 evidence ingestion citation management living evidence surveillance and scientific review controls
+```
+
+### Following planned action
+
+```text
+Build 0040 remains on hold until Build 0039 is ACTIONS_GREEN_CLOSED.
+```
 
 ---
+
 ## 18. Decision history
 
 | Date | Decision | Status |
@@ -679,19 +681,17 @@ Do not start Build 0039 until corrected Build 0037 reaches `ACTIONS_GREEN_CLOSED
 | 2026-07-19 | Use one ZIP link, exact commit message and proposed next action | LOCKED |
 | 2026-07-19 | Use exact `Add Certiaura Build...` commit convention | LOCKED |
 | 2026-07-19 | Default to larger integrated work-package builds | LOCKED |
-| 2026-07-19 | Use whole build numbers for materially distinct work packages | LOCKED |
 | 2026-07-19 | Prohibit build-named wrapper folders inside ZIPs | LOCKED |
-| 2026-07-19 | Route build records to `Documentation/Build_Records/[BUILD_NUMBER]/` | LOCKED |
-| 2026-07-19 | Correct root build folders through controlled migration | LOCKED |
-| 2026-07-19 | Maintain a live continuation checkpoint for new-chat continuity | LOCKED |
-| 2026-07-19 | Require an Asset Intent Manifest in every build pack | LOCKED |
-| 2026-07-19 | Automatically reconcile the existing Master Asset Register on every formal asset import | LOCKED |
-| 2026-07-19 | Preserve existing Universal Asset Identifiers during update, move, restoration, supersession and retirement | LOCKED |
+| 2026-07-19 | Require Asset Intent Manifest and automatic Master Asset Register reconciliation | LOCKED |
 | 2026-07-19 | Treat file import and Master Asset Register update as one rollback-safe transaction | LOCKED |
-| 2026-07-19 | Block build closure where formal assets or register entries are orphaned | LOCKED |
-| 2026-07-19 | Reissue Build 0038 before import with integrated asset register reconciliation | LOCKED |
-| 2026-07-19 | Confirm Build 0038 repository restoration and complete historical Master Asset Register reconciliation as ACTIONS_GREEN_CLOSED | LOCKED |
-| 2026-07-19 | Reissue Build 0037 with flat routing, complete Asset Intent Manifest and Build 0038 transactional register reconciliation controls | LOCKED |
+| 2026-07-20 | Build 0038 confirmed closed, pushed and Actions green | LOCKED CHECKPOINT |
+| 2026-07-20 | Withdraw Build 0039 package v1.3.0 and prohibit use of the current `(3).zip` | LOCKED |
+| 2026-07-20 | Withdraw Build 0039 package v1.3.1 because its manifest test was not installation-context-safe | LOCKED |
+| 2026-07-20 | Reissue Build 0039 under the same build number and title as package v1.3.2 | LOCKED |
+| 2026-07-20 | Directory cleanup is limited to transaction-created directories proven empty and removed non-recursively | LOCKED |
+| 2026-07-20 | Require regression tests with pre-existing sibling files and folders | LOCKED |
+| 2026-07-20 | Retain Build 0039 external backups and failed-import evidence outside the repository | LOCKED |
+| 2026-07-20 | Build 0040 remains on hold | LOCKED |
 
 ---
 
@@ -700,45 +700,43 @@ Do not start Build 0039 until corrected Build 0037 reaches `ACTIONS_GREEN_CLOSED
 ```json
 {
   "document_id": "CERT-GOV-CONT-002",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "status": "LOCKED_ACTIVE",
-  "checkpoint_date": "2026-07-19",
-  "canonical_repository_path": "00_Governance/CERTIAURA_LOCKED_BUILD_CONTINUITY_AND_CHECKPOINT.md",
-  "zip_naming_pattern": "Certiaura_Build_[BUILD_NUMBER]_[Short_Descriptive_Title].zip",
-  "zip_wrapper_folder_allowed": false,
-  "canonical_master_asset_register": "Documentation/Master_Asset_Register.csv",
+  "checkpoint_date": "2026-07-20",
   "last_closed_build": {
     "build_number": "0038",
-    "title": "repository restoration canonical routing and complete historical Master Asset Register reconciliation",
-    "status": "ACTIONS_GREEN_CLOSED",
-    "package_files": 415,
-    "master_asset_register_rows": 2860,
-    "blank_uai_rows": 0,
-    "duplicate_uai_groups": 0,
-    "legacy_placeholder_present": false,
-    "supporting_files_field": true,
-    "transactional_import": "SUCCESS",
-    "conflicts": 0
+    "state": "ACTIONS_GREEN_CLOSED"
   },
   "current_pending_build": {
-    "build_number": "0037",
-    "title": "Scientific content claims advertising AI recommendation and responsible communications controls",
-    "status": "GENERATED_CORRECTED_REISSUE",
-    "flat_repository_relative_routing": true,
-    "asset_intent_manifest_complete": true,
-    "automatic_master_asset_register_reconciliation": true,
-    "preserve_existing_uai": true,
-    "dry_run_required": true,
-    "transactional_rollback": true,
-    "full_repository_validation": true
-  },
-  "immediate_next_action": "Import corrected Build 0037 through Project Genesis, review dry-run reports, apply transaction, validate, commit and push, then confirm GitHub Actions green",
-  "following_planned_build": {
     "build_number": "0039",
     "title": "evidence ingestion citation management living evidence surveillance and scientific review controls",
-    "status": "PLANNED_ON_HOLD"
+    "package_version": "1.3.2",
+    "state": "GENERATED_DELIVERED",
+    "withdrawn_package_versions": [
+      "1.3.0",
+      "1.3.1"
+    ],
+    "withdrawn_package_must_not_be_applied": true
   },
-  "hold_point": "Do not start Build 0039 until corrected Build 0037 reaches ACTIONS_GREEN_CLOSED"
+  "recovery_safety": {
+    "remove_only_transaction_created_directories": true,
+    "prove_empty_before_directory_removal": true,
+    "recursive_directory_removal_prohibited": true,
+    "preserve_existing_repository_directories": true,
+    "preserve_pre_existing_sibling_files_and_folders": true,
+    "hash_check_created_files_before_recovery_deletion": true,
+    "regression_tests_required": true
+  },
+  "external_failed_import_evidence_retained": true,
+  "onedrive": {
+    "may_run_now": true,
+    "must_pause_before_dry_run_or_import": true
+  },
+  "exact_commit_message": "Add Certiaura Build 0039 evidence ingestion citation management living evidence surveillance and scientific review controls",
+  "following_build": {
+    "build_number": "0040",
+    "state": "ON_HOLD"
+  }
 }
 ```
 

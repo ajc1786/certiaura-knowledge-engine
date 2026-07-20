@@ -1,0 +1,38 @@
+{
+  "build_id": "CERT-BUILD-0039",
+  "build_number": "0039",
+  "build_title": "evidence ingestion citation management living evidence surveillance and scientific review controls",
+  "package_version": "1.3.2",
+  "status": "GENERATED",
+  "reissue": {
+    "withdrawn_versions": [
+      "1.3.0",
+      "1.3.1"
+    ],
+    "reason": "recovery cleanup defect followed by installation-context-unsafe manifest test",
+    "new_capability": false
+  },
+  "dependencies": [
+    {
+      "build_number": "0038",
+      "required_state": "ACTIONS_GREEN_CLOSED"
+    }
+  ],
+  "roots": [
+    "00_Governance",
+    "06_Evidence",
+    "13_Project_Genesis",
+    "Database",
+    "Documentation",
+    "Schemas",
+    "Standards",
+    "Templates"
+  ],
+  "wrapper_folder_allowed": false,
+  "asset_intent_manifest": "Documentation/Build_Records/0039/ASSET_INTENT_MANIFEST.json",
+  "commit_message": "Add Certiaura Build 0039 evidence ingestion citation management living evidence surveillance and scientific review controls",
+  "next_build": {
+    "build_number": "0040",
+    "state": "ON_HOLD"
+  }
+}

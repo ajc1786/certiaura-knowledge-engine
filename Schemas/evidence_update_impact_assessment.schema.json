@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://certiaura.local/schemas/evidence_update_impact_assessment.schema.json",
+  "title": "Evidence Update Impact Assessment",
+  "type": "object",
+  "required": [
+    "record_type",
+    "impact_id",
+    "source_event_id",
+    "impact_level",
+    "affected_assets",
+    "required_actions",
+    "reviewer"
+  ],
+  "additionalProperties": true,
+  "properties": {
+    "record_type": {
+      "const": "evidence_update_impact"
+    },
+    "impact_id": {
+      "type": "string"
+    },
+    "source_event_id": {
+      "type": "string"
+    },
+    "impact_level": {
+      "enum": [
+        "NONE",
+        "MINOR",
+        "MATERIAL",
+        "URGENT_SAFETY"
+      ]
+    },
+    "affected_assets": {
+      "type": "array"
+    },
+    "required_actions": {
+      "type": "array"
+    },
+    "reviewer": {
+      "type": "object"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "build_number": "0039",
+  "package_version": "1.3.2",
+  "preflight_entry_point": "13_Project_Genesis/Import/transactional_build_import.py",
+  "recovery_entry_point": "13_Project_Genesis/Import/recover_failed_build_import.py",
+  "asset_register": "Documentation/Master_Asset_Register.csv",
+  "dry_run_report": "Documentation/Build_Records/0039/GUIDED_DRY_RUN_REPORT.json",
+  "apply_report": "Documentation/Build_Records/0039/GUIDED_IMPORT_REPORT.json",
+  "external_backup_required": true,
+  "recursive_directory_deletion_prohibited": true,
+  "pause_onedrive_before_run": true
+}

@@ -1,0 +1,22 @@
+{
+  "record_type": "citation_provenance",
+  "citation_id": "CIT-[ALLOCATE]",
+  "title": "",
+  "source_type": "peer_reviewed_article",
+  "identifiers": {},
+  "publication_date": "2025-01-01",
+  "retrieved_at": "2026-07-20T00:00:00Z",
+  "source_url": "https://example.invalid/evidence/1",
+  "rights": {
+    "metadata_use": "permitted",
+    "full_text_storage": "not_stored",
+    "basis": "link_only"
+  },
+  "review_status": "unreviewed",
+  "approved_for_claim_use": false,
+  "provenance": {
+    "ingested_by": "Project Genesis",
+    "ingestion_method": "manual"
+  },
+  "content_hash": "0000000000000000000000000000000000000000000000000000000000000000"
+}

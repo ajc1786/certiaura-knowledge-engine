@@ -1,0 +1,13 @@
+{
+  "record_type": "retraction_correction_event",
+  "event_id": "RET-EX-0001",
+  "citation_id": "CIT-EX-0001",
+  "event_type": "CORRECTION",
+  "detected_at": "2026-07-20T02:00:00Z",
+  "authority": "Publisher notice",
+  "action_plan": [
+    "QUARANTINE_DEPENDENT_CLAIMS",
+    "RUN_IMPACT_ASSESSMENT",
+    "HUMAN_REVIEW"
+  ]
+}

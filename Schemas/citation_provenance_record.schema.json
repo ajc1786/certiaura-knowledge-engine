@@ -1,0 +1,66 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://certiaura.local/schemas/citation_provenance_record.schema.json",
+  "title": "Citation Provenance Record",
+  "type": "object",
+  "required": [
+    "record_type",
+    "citation_id",
+    "title",
+    "source_type",
+    "identifiers",
+    "retrieved_at",
+    "rights",
+    "review_status",
+    "content_hash"
+  ],
+  "additionalProperties": true,
+  "properties": {
+    "record_type": {
+      "const": "citation_provenance"
+    },
+    "citation_id": {
+      "type": "string",
+      "minLength": 3
+    },
+    "title": {
+      "type": "string",
+      "minLength": 3
+    },
+    "source_type": {
+      "enum": [
+        "peer_reviewed_article",
+        "preprint",
+        "trial_registry",
+        "regulatory_document",
+        "systematic_review",
+        "metadata_record",
+        "other"
+      ]
+    },
+    "identifiers": {
+      "type": "object"
+    },
+    "retrieved_at": {
+      "type": "string"
+    },
+    "rights": {
+      "type": "object"
+    },
+    "review_status": {
+      "enum": [
+        "unreviewed",
+        "human_verified",
+        "rejected",
+        "quarantined"
+      ]
+    },
+    "approved_for_claim_use": {
+      "type": "boolean"
+    },
+    "content_hash": {
+      "type": "string",
+      "pattern": "^[a-fA-F0-9]{64}$"
+    }
+  }
+}

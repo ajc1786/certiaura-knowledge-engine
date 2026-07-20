@@ -1,0 +1,12 @@
+{
+  "build_number": "0039",
+  "package_version": "1.3.2",
+  "reissue_of": "1.3.1",
+  "withdrawn_versions": [
+    "1.3.0",
+    "1.3.1"
+  ],
+  "status": "CORRECTED_REISSUE",
+  "withdrawn_package_must_not_be_used": true,
+  "correction": "installation-context-safe manifest validation while retaining safe empty-only non-recursive recovery controls"
+}

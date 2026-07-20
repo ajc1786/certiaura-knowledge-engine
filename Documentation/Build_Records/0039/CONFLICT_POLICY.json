@@ -1,0 +1,11 @@
+{
+  "version": "1.1.0",
+  "default": "BLOCK_NONIDENTICAL_EXISTING",
+  "approved_replacements": [
+    "00_Governance/CERTIAURA_LOCKED_BUILD_CONTINUITY_AND_CHECKPOINT.md",
+    "13_Project_Genesis/Import/transactional_build_import.py"
+  ],
+  "identical": "SKIP_WITH_AUDIT",
+  "case_only_collision": "REJECT",
+  "unresolved": "BLOCK_IMPORT"
+}

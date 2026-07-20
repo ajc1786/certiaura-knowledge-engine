@@ -1,0 +1,54 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://certiaura.local/schemas/living_evidence_surveillance_query.schema.json",
+  "title": "Living Evidence Surveillance Query",
+  "type": "object",
+  "required": [
+    "record_type",
+    "query_id",
+    "question",
+    "search_expression",
+    "sources",
+    "cadence",
+    "owner",
+    "status"
+  ],
+  "additionalProperties": true,
+  "properties": {
+    "record_type": {
+      "const": "living_evidence_surveillance_query"
+    },
+    "query_id": {
+      "type": "string"
+    },
+    "question": {
+      "type": "string"
+    },
+    "search_expression": {
+      "type": "string"
+    },
+    "sources": {
+      "type": "array",
+      "minItems": 1
+    },
+    "cadence": {
+      "enum": [
+        "DAILY",
+        "WEEKLY",
+        "MONTHLY",
+        "QUARTERLY",
+        "ON_DEMAND"
+      ]
+    },
+    "owner": {
+      "type": "string"
+    },
+    "status": {
+      "enum": [
+        "ACTIVE",
+        "PAUSED",
+        "RETIRED"
+      ]
+    }
+  }
+}

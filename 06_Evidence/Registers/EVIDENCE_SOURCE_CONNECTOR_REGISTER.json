@@ -1,0 +1,52 @@
+{
+  "uai": "CERT-EKS-000754",
+  "version": "1.0.0",
+  "status": "ACTIVE",
+  "owner": "Certiaura",
+  "connectors": [
+    {
+      "connector_id": "SRC-PUBMED",
+      "name": "PubMed",
+      "source_class": "bibliographic_database",
+      "supports_identifiers": [
+        "PMID",
+        "DOI"
+      ],
+      "default_cadence": "WEEKLY",
+      "rights_mode": "metadata_and_links"
+    },
+    {
+      "connector_id": "SRC-CTGOV",
+      "name": "ClinicalTrials.gov",
+      "source_class": "trial_registry",
+      "supports_identifiers": [
+        "NCT"
+      ],
+      "default_cadence": "WEEKLY",
+      "rights_mode": "registry_record"
+    },
+    {
+      "connector_id": "SRC-CROSSREF",
+      "name": "Crossref",
+      "source_class": "metadata_registry",
+      "supports_identifiers": [
+        "DOI"
+      ],
+      "default_cadence": "MONTHLY",
+      "rights_mode": "metadata_only"
+    },
+    {
+      "connector_id": "SRC-MANUAL",
+      "name": "Controlled manual intake",
+      "source_class": "manual",
+      "supports_identifiers": [
+        "DOI",
+        "PMID",
+        "NCT",
+        "URL"
+      ],
+      "default_cadence": "ON_DEMAND",
+      "rights_mode": "recorded_per_source"
+    }
+  ]
+}

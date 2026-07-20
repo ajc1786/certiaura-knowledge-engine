@@ -1,0 +1,15 @@
+{
+  "build_number": "0039",
+  "package_version": "1.3.2",
+  "status": "FAIL",
+  "controls": {
+    "pre_existing_sibling_file_preserved": true,
+    "pre_existing_sibling_folder_preserved": true,
+    "nested_sibling_content_preserved": true,
+    "nonempty_transaction_directory_preserved": true,
+    "changed_created_file_preserved": true,
+    "empty_transaction_directory_removed_non_recursively": true,
+    "recursive_directory_deletion_used": false
+  },
+  "test_module": "13_Project_Genesis/Tests/test_build_0039_recovery_safety.py"
+}

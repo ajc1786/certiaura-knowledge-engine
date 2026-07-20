@@ -1,0 +1,59 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://certiaura.local/schemas/scientific_review_record.schema.json",
+  "title": "Scientific Review Record",
+  "type": "object",
+  "required": [
+    "record_type",
+    "review_id",
+    "citation_id",
+    "reviewer",
+    "decision",
+    "certainty",
+    "limitations",
+    "reviewed_at"
+  ],
+  "additionalProperties": true,
+  "properties": {
+    "record_type": {
+      "const": "scientific_review"
+    },
+    "review_id": {
+      "type": "string"
+    },
+    "citation_id": {
+      "type": "string"
+    },
+    "reviewer": {
+      "type": "object"
+    },
+    "decision": {
+      "enum": [
+        "APPROVED",
+        "CONDITIONAL",
+        "REJECTED",
+        "ESCALATED",
+        "SUPERSEDED"
+      ]
+    },
+    "certainty": {
+      "enum": [
+        "HIGH",
+        "MODERATE",
+        "LOW",
+        "VERY_LOW",
+        "INSUFFICIENT",
+        "NOT_APPLICABLE"
+      ]
+    },
+    "limitations": {
+      "type": "array"
+    },
+    "reviewed_at": {
+      "type": "string"
+    },
+    "ai_assistance": {
+      "type": "object"
+    }
+  }
+}

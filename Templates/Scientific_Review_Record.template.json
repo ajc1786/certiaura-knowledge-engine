@@ -1,0 +1,18 @@
+{
+  "record_type": "scientific_review",
+  "review_id": "REV-[ALLOCATE]",
+  "citation_id": "CIT-[REQUIRED]",
+  "reviewer": {
+    "name": "",
+    "role": "Scientific Reviewer",
+    "human": true
+  },
+  "decision": "CONDITIONAL",
+  "certainty": "MODERATE",
+  "limitations": [],
+  "reviewed_at": "2026-07-20T03:00:00Z",
+  "ai_assistance": {
+    "used": true,
+    "final_authority": "human"
+  }
+}

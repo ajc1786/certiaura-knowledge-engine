@@ -1,0 +1,9 @@
+{
+  "record_type": "retraction_correction_event",
+  "event_id": "RET-[ALLOCATE]",
+  "citation_id": "CIT-[REQUIRED]",
+  "event_type": "CORRECTION",
+  "detected_at": "2026-07-20T02:00:00Z",
+  "authority": "Publisher notice",
+  "action_plan": []
+}

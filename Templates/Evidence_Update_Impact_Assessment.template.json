@@ -1,0 +1,13 @@
+{
+  "record_type": "evidence_update_impact",
+  "impact_id": "IMP-[ALLOCATE]",
+  "source_event_id": "[REQUIRED]",
+  "impact_level": "MATERIAL",
+  "affected_assets": [],
+  "required_actions": [],
+  "reviewer": {
+    "name": "Example Human Reviewer",
+    "role": "Senior Scientific Reviewer",
+    "human": true
+  }
+}

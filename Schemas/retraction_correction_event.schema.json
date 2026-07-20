@@ -1,0 +1,45 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://certiaura.local/schemas/retraction_correction_event.schema.json",
+  "title": "Retraction Correction Event",
+  "type": "object",
+  "required": [
+    "record_type",
+    "event_id",
+    "citation_id",
+    "event_type",
+    "detected_at",
+    "authority",
+    "action_plan"
+  ],
+  "additionalProperties": true,
+  "properties": {
+    "record_type": {
+      "const": "retraction_correction_event"
+    },
+    "event_id": {
+      "type": "string"
+    },
+    "citation_id": {
+      "type": "string"
+    },
+    "event_type": {
+      "enum": [
+        "RETRACTION",
+        "CORRECTION",
+        "EXPRESSION_OF_CONCERN",
+        "WITHDRAWAL"
+      ]
+    },
+    "detected_at": {
+      "type": "string"
+    },
+    "authority": {
+      "type": "string"
+    },
+    "action_plan": {
+      "type": "array",
+      "minItems": 1
+    }
+  }
+}
