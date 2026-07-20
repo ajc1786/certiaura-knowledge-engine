@@ -1,0 +1,47 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "certiaura://schemas/retatrutide_clinician_handoff.schema.json",
+  "title": "Retatrutide Clinician Handoff",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "handoff_id",
+    "journey_id",
+    "handoff_state",
+    "reporting_window",
+    "summary",
+    "review_status",
+    "provenance",
+    "safety_boundary"
+  ],
+  "properties": {
+    "handoff_id": {
+      "type": "string",
+      "pattern": "^RCH-[A-F0-9]{16}$"
+    },
+    "journey_id": {
+      "type": "string"
+    },
+    "handoff_state": {
+      "enum": [
+        "READY_FOR_CLINICIAN_DISCUSSION",
+        "URGENT_CLINICAL_ROUTING"
+      ]
+    },
+    "reporting_window": {
+      "type": "object"
+    },
+    "summary": {
+      "type": "object"
+    },
+    "review_status": {
+      "type": "object"
+    },
+    "provenance": {
+      "type": "object"
+    },
+    "safety_boundary": {
+      "type": "string"
+    }
+  }
+}

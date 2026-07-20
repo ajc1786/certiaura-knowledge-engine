@@ -1,0 +1,64 @@
+{
+  "build_number": "0045",
+  "build_title": "retatrutide longitudinal journey tracking, review scheduling and clinician handoff baseline",
+  "version": "1.0.2",
+  "status": "CORRECTED_REISSUE_WINDOWS_PS51_GATE_REQUIRED",
+  "build_provenance": "CERT-BUILD-0045",
+  "exact_commit_message": "Add Certiaura Build 0045 retatrutide longitudinal journey tracking, review scheduling and clinician handoff baseline",
+  "dependencies": [
+    {
+      "build": "0043",
+      "status": "ACTIONS_GREEN_CLOSED"
+    },
+    {
+      "build": "0044",
+      "status": "ACTIONS_GREEN_CLOSED",
+      "closure_commit_prefix": "46d92c2"
+    }
+  ],
+  "capabilities": [
+    "append-only pseudonymised journey ledger",
+    "tamper-evident event hash chain",
+    "deterministic administrative review scheduling",
+    "urgent routing lock",
+    "source-traceable clinician handoff JSON and Markdown",
+    "memory-only local journey viewer",
+    "Project Genesis transactional import and rollback"
+  ],
+  "prohibited_outputs": [
+    "diagnosis",
+    "personalised dosing",
+    "titration",
+    "treatment selection",
+    "procurement advice"
+  ],
+  "release_controls": [
+    "Windows PowerShell 5.1 full regression",
+    "ASCII-only PowerShell",
+    "LF repository text hygiene",
+    "exact manifest and build-provenance validator scope",
+    "external-only transactional backups",
+    "canonical register uniqueness",
+    "post-import rollback before commit",
+    "git diff --check",
+    "git diff --cached --check"
+  ],
+  "package_file_count": 52,
+  "candidate_validation": "PASS_EXCEPT_REPEAT_REAL_WINDOWS_PS51_GATE",
+  "correction_history": [
+    {
+      "stage": "WINDOWS_PS51_REGRESSION",
+      "result": "FAIL_CLOSED",
+      "root_cause": "Raw seed events lacked event_id before append-time sorting",
+      "correction": "Normalise raw and enriched events before deterministic sort and hash-chain rebuild",
+      "superseded_candidate_import_authorised": false
+    },
+    {
+      "stage": "WINDOWS_PS51_REGRESSION_EXPECTED_NEGATIVE_FIXTURE",
+      "result": "FAIL_CLOSED",
+      "root_cause": "Windows PowerShell 5.1 converted expected native stderr into a terminating NativeCommandError under ErrorActionPreference Stop",
+      "correction": "Temporarily use non-terminating native error handling, capture LASTEXITCODE, restore ErrorActionPreference and assert no rejected-output file exists",
+      "superseded_candidate_import_authorised": false
+    }
+  ]
+}

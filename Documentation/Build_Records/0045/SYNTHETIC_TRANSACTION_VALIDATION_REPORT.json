@@ -1,0 +1,40 @@
+{
+  "build_number": "0045",
+  "negative_internal_backup_fixture": {
+    "expected": "DRY_RUN_BLOCKED",
+    "actual": "DRY_RUN_BLOCKED",
+    "pass": true
+  },
+  "dry_run": {
+    "status": "DRY_RUN_VALIDATED",
+    "valid": true,
+    "allocations": 3
+  },
+  "apply": {
+    "status": "APPLIED_VALIDATED",
+    "valid": true,
+    "external_backup_created": true
+  },
+  "repository_validator": {
+    "valid": true,
+    "build_number": "0045",
+    "dependency_count": 6,
+    "formal_asset_rows": 3,
+    "owned_text_file_count": 52,
+    "validator_scope": "EXACT_ASSET_INTENT_AND_BUILD_PROVENANCE",
+    "external_backup_only": true,
+    "ui_security_baseline": true,
+    "errors": []
+  },
+  "git_diff_check": "PASS",
+  "git_diff_cached_check": "PASS",
+  "historical_unrelated_file_preserved": "PASS",
+  "automated_tests": "16/16 PASS",
+  "raw_seed_cli_append": {
+    "status": "PASS",
+    "input_state": "RAW_SEED_WITHOUT_EVENT_IDS",
+    "resulting_event_count": 5,
+    "journey_state": "LOCKED_URGENT_ROUTING",
+    "all_events_enriched": true
+  }
+}

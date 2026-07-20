@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "certiaura://schemas/retatrutide_longitudinal_journey.schema.json",
+  "title": "Retatrutide Longitudinal Journey",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "journey_id",
+    "version",
+    "journey_state",
+    "events",
+    "chain_head"
+  ],
+  "properties": {
+    "journey_id": {
+      "type": "string",
+      "pattern": "^RJ-[A-Z0-9]{8,24}$"
+    },
+    "version": {
+      "const": "1.0.0"
+    },
+    "journey_state": {
+      "enum": [
+        "ACTIVE",
+        "CLINICIAN_DISCUSSION_REQUIRED",
+        "LOCKED_URGENT_ROUTING"
+      ]
+    },
+    "events": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "chain_head": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    }
+  }
+}

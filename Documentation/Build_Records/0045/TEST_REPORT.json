@@ -1,0 +1,16 @@
+{
+  "build_number": "0045",
+  "test_suite": "test_build_0045_retatrutide_longitudinal_review_handoff.py",
+  "tests_run": 17,
+  "result": "PASS",
+  "runtime_outputs": {
+    "journey_state": "ACTIVE",
+    "review_schedule_state": "CLINICIAN_DISCUSSION_REQUIRED",
+    "clinician_handoff_state": "READY_FOR_CLINICIAN_DISCUSSION",
+    "urgent_routing": "PASS",
+    "identifiable_input_rejection": "PASS",
+    "raw_seed_cli_append": "PASS",
+    "raw_seed_events_enriched": "PASS_5_OF_5",
+    "ps51_expected_negative_capture_static": "PASS"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "build_number": "0045",
+  "status": "CORRECTED_REISSUE_PENDING_REPEAT_WINDOWS_POWERSHELL_5_1_REGRESSION",
+  "required_result": "BUILD 0045 WINDOWS POWERSHELL 5.1 REGRESSION: PASS",
+  "canonical_import_authorised": false,
+  "release_blocker": {
+    "status": "OPEN",
+    "reason": "Second corrected same-build package requires a fresh real Windows PowerShell 5.1 PASS"
+  },
+  "prior_attempt": {
+    "result": "FAIL_CLOSED",
+    "stage": "Urgent event append against packaged raw seed journey",
+    "root_cause": "Existing seed events had no event_id before append-time sorting",
+    "canonical_repository_modified": false
+  },
+  "prior_attempts": [
+    {
+      "result": "FAIL_CLOSED",
+      "stage": "Urgent event append against packaged raw seed journey",
+      "root_cause": "Existing seed events had no event_id before append-time sorting",
+      "canonical_repository_modified": false
+    },
+    {
+      "result": "FAIL_CLOSED",
+      "stage": "Expected direct-identifier rejection fixture",
+      "root_cause": "Native stderr became terminating NativeCommandError under ErrorActionPreference Stop before LASTEXITCODE inspection",
+      "canonical_repository_modified": false
+    }
+  ]
+}

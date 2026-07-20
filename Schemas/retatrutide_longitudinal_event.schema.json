@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "certiaura://schemas/retatrutide_longitudinal_event.schema.json",
+  "title": "Retatrutide Longitudinal Event",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "journey_id",
+    "observed_at",
+    "event_type",
+    "payload",
+    "source_refs"
+  ],
+  "properties": {
+    "journey_id": {
+      "type": "string",
+      "pattern": "^RJ-[A-Z0-9]{8,24}$"
+    },
+    "observed_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "event_type": {
+      "enum": [
+        "BASELINE",
+        "MEASUREMENT",
+        "SYMPTOM",
+        "MONITORING",
+        "REVIEW",
+        "QUESTION"
+      ]
+    },
+    "payload": {
+      "type": "object"
+    },
+    "source_refs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1
+    },
+    "direct_identifiers": {
+      "type": "object",
+      "maxProperties": 0
+    }
+  }
+}

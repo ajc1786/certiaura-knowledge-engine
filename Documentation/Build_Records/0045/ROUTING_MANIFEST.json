@@ -1,0 +1,265 @@
+{
+  "build_number": "0045",
+  "canonical_routes": [
+    {
+      "source": "05_Monitoring/Retatrutide/Examples/longitudinal_event_identifiable.example.json",
+      "target": "05_Monitoring/Retatrutide/Examples/longitudinal_event_identifiable.example.json",
+      "classification": "EXAMPLE"
+    },
+    {
+      "source": "05_Monitoring/Retatrutide/Examples/longitudinal_event_urgent.example.json",
+      "target": "05_Monitoring/Retatrutide/Examples/longitudinal_event_urgent.example.json",
+      "classification": "EXAMPLE"
+    },
+    {
+      "source": "05_Monitoring/Retatrutide/Examples/longitudinal_journey_seed.example.json",
+      "target": "05_Monitoring/Retatrutide/Examples/longitudinal_journey_seed.example.json",
+      "classification": "EXAMPLE"
+    },
+    {
+      "source": "05_Monitoring/Retatrutide/Longitudinal_Journey/__UAI___Retatrutide_Longitudinal_Journey_Tracking_Baseline.md",
+      "target": "05_Monitoring/Retatrutide/Longitudinal_Journey/__UAI___Retatrutide_Longitudinal_Journey_Tracking_Baseline.md",
+      "classification": "FORMAL_ASSET"
+    },
+    {
+      "source": "05_Monitoring/Retatrutide/Review_Scheduling/__UAI___Retatrutide_Review_Scheduling_Baseline.md",
+      "target": "05_Monitoring/Retatrutide/Review_Scheduling/__UAI___Retatrutide_Review_Scheduling_Baseline.md",
+      "classification": "FORMAL_ASSET"
+    },
+    {
+      "source": "12_Reports/Retatrutide/Clinician_Handoff/__UAI___Retatrutide_Clinician_Handoff_Baseline.md",
+      "target": "12_Reports/Retatrutide/Clinician_Handoff/__UAI___Retatrutide_Clinician_Handoff_Baseline.md",
+      "classification": "FORMAL_ASSET"
+    },
+    {
+      "source": "13_Project_Genesis/AI/retatrutide_review_scheduling_policy.json",
+      "target": "13_Project_Genesis/AI/retatrutide_review_scheduling_policy.json",
+      "classification": "SUPPORTING_FILE"
+    },
+    {
+      "source": "13_Project_Genesis/Tests/test_build_0045_retatrutide_longitudinal_review_handoff.py",
+      "target": "13_Project_Genesis/Tests/test_build_0045_retatrutide_longitudinal_review_handoff.py",
+      "classification": "TEST"
+    },
+    {
+      "source": "13_Project_Genesis/UI/Retatrutide_Longitudinal_Journey/README.md",
+      "target": "13_Project_Genesis/UI/Retatrutide_Longitudinal_Journey/README.md",
+      "classification": "SUPPORTING_FILE"
+    },
+    {
+      "source": "13_Project_Genesis/UI/Retatrutide_Longitudinal_Journey/app.js",
+      "target": "13_Project_Genesis/UI/Retatrutide_Longitudinal_Journey/app.js",
+      "classification": "SUPPORTING_FILE"
+    },
+    {
+      "source": "13_Project_Genesis/UI/Retatrutide_Longitudinal_Journey/index.html",
+      "target": "13_Project_Genesis/UI/Retatrutide_Longitudinal_Journey/index.html",
+      "classification": "SUPPORTING_FILE"
+    },
+    {
+      "source": "13_Project_Genesis/UI/Retatrutide_Longitudinal_Journey/styles.css",
+      "target": "13_Project_Genesis/UI/Retatrutide_Longitudinal_Journey/styles.css",
+      "classification": "SUPPORTING_FILE"
+    },
+    {
+      "source": "13_Project_Genesis/Validators/validate_build_0045_retatrutide_longitudinal_review_handoff.py",
+      "target": "13_Project_Genesis/Validators/validate_build_0045_retatrutide_longitudinal_review_handoff.py",
+      "classification": "SCRIPT"
+    },
+    {
+      "source": "Documentation/Build_Records/0045/ASSET_INTENT_MANIFEST.json",
+      "target": "Documentation/Build_Records/0045/ASSET_INTENT_MANIFEST.json",
+      "classification": "BUILD_RECORD"
+    },
+    {
+      "source": "Documentation/Build_Records/0045/BUILD_0044_CLOSURE_EVIDENCE.json",
+      "target": "Documentation/Build_Records/0045/BUILD_0044_CLOSURE_EVIDENCE.json",
+      "classification": "BUILD_RECORD"
+    },
+    {
+      "source": "Documentation/Build_Records/0045/BUILD_MANIFEST.json",
+      "target": "Documentation/Build_Records/0045/BUILD_MANIFEST.json",
+      "classification": "BUILD_RECORD"
+    },
+    {
+      "source": "Documentation/Build_Records/0045/CONTINUATION_CHECKPOINT_UPDATE.md",
+      "target": "Documentation/Build_Records/0045/CONTINUATION_CHECKPOINT_UPDATE.md",
+      "classification": "BUILD_RECORD"
+    },
+    {
+      "source": "Documentation/Build_Records/0045/DECISION_RECORD.md",
+      "target": "Documentation/Build_Records/0045/DECISION_RECORD.md",
+      "classification": "BUILD_RECORD"
+    },
+    {
+      "source": "Documentation/Build_Records/0045/EXAMPLE_CLINICIAN_HANDOFF.json",
+      "target": "Documentation/Build_Records/0045/EXAMPLE_CLINICIAN_HANDOFF.json",
+      "classification": "EXAMPLE"
+    },
+    {
+      "source": "Documentation/Build_Records/0045/EXAMPLE_CLINICIAN_HANDOFF.md",
+      "target": "Documentation/Build_Records/0045/EXAMPLE_CLINICIAN_HANDOFF.md",
+      "classification": "EXAMPLE"
+    },
+    {
+      "source": "Documentation/Build_Records/0045/EXAMPLE_LONGITUDINAL_JOURNEY.json",
+      "target": "Documentation/Build_Records/0045/EXAMPLE_LONGITUDINAL_JOURNEY.json",
+      "classification": "EXAMPLE"
+    },
+    {
+      "source": "Documentation/Build_Records/0045/EXAMPLE_REVIEW_SCHEDULE.json",
+      "target": "Documentation/Build_Records/0045/EXAMPLE_REVIEW_SCHEDULE.json",
+      "classification": "EXAMPLE"
+    },
+    {
+      "source": "Documentation/Build_Records/0045/LESSONS_LEARNED_BASELINE.md",
+      "target": "Documentation/Build_Records/0045/LESSONS_LEARNED_BASELINE.md",
+      "classification": "BUILD_RECORD"
+    },
+    {
+      "source": "Documentation/Build_Records/0045/PACKAGE_CONTENT_SHA256.json",
+      "target": "Documentation/Build_Records/0045/PACKAGE_CONTENT_SHA256.json",
+      "classification": "BUILD_RECORD"
+    },
+    {
+      "source": "Documentation/Build_Records/0045/PACKAGE_INVENTORY.json",
+      "target": "Documentation/Build_Records/0045/PACKAGE_INVENTORY.json",
+      "classification": "BUILD_RECORD"
+    },
+    {
+      "source": "Documentation/Build_Records/0045/PRE_RELEASE_VALIDATION_REPORT.json",
+      "target": "Documentation/Build_Records/0045/PRE_RELEASE_VALIDATION_REPORT.json",
+      "classification": "BUILD_RECORD"
+    },
+    {
+      "source": "Documentation/Build_Records/0045/PROPOSED_CHANGE_LOG.md",
+      "target": "Documentation/Build_Records/0045/PROPOSED_CHANGE_LOG.md",
+      "classification": "BUILD_RECORD"
+    },
+    {
+      "source": "Documentation/Build_Records/0045/PROPOSED_NEXT_ACTION.md",
+      "target": "Documentation/Build_Records/0045/PROPOSED_NEXT_ACTION.md",
+      "classification": "BUILD_RECORD"
+    },
+    {
+      "source": "Documentation/Build_Records/0045/READ_ME_FIRST.md",
+      "target": "Documentation/Build_Records/0045/READ_ME_FIRST.md",
+      "classification": "BUILD_RECORD"
+    },
+    {
+      "source": "Documentation/Build_Records/0045/ROUTING_MANIFEST.json",
+      "target": "Documentation/Build_Records/0045/ROUTING_MANIFEST.json",
+      "classification": "BUILD_RECORD"
+    },
+    {
+      "source": "Documentation/Build_Records/0045/SYNTHETIC_TRANSACTION_VALIDATION_REPORT.json",
+      "target": "Documentation/Build_Records/0045/SYNTHETIC_TRANSACTION_VALIDATION_REPORT.json",
+      "classification": "BUILD_RECORD"
+    },
+    {
+      "source": "Documentation/Build_Records/0045/TEST_REPORT.json",
+      "target": "Documentation/Build_Records/0045/TEST_REPORT.json",
+      "classification": "BUILD_RECORD"
+    },
+    {
+      "source": "Documentation/Build_Records/0045/WINDOWS_PS51_REGRESSION_MATRIX.md",
+      "target": "Documentation/Build_Records/0045/WINDOWS_PS51_REGRESSION_MATRIX.md",
+      "classification": "BUILD_RECORD"
+    },
+    {
+      "source": "Documentation/Build_Records/0045/WINDOWS_PS51_RELEASE_GATE_STATUS.json",
+      "target": "Documentation/Build_Records/0045/WINDOWS_PS51_RELEASE_GATE_STATUS.json",
+      "classification": "BUILD_RECORD"
+    },
+    {
+      "source": "Schemas/retatrutide_clinician_handoff.schema.json",
+      "target": "Schemas/retatrutide_clinician_handoff.schema.json",
+      "classification": "SCHEMA"
+    },
+    {
+      "source": "Schemas/retatrutide_longitudinal_event.schema.json",
+      "target": "Schemas/retatrutide_longitudinal_event.schema.json",
+      "classification": "SCHEMA"
+    },
+    {
+      "source": "Schemas/retatrutide_longitudinal_journey.schema.json",
+      "target": "Schemas/retatrutide_longitudinal_journey.schema.json",
+      "classification": "SCHEMA"
+    },
+    {
+      "source": "Schemas/retatrutide_review_schedule.schema.json",
+      "target": "Schemas/retatrutide_review_schedule.schema.json",
+      "classification": "SCHEMA"
+    },
+    {
+      "source": "Scripts/Invoke_Certiaura_Build_0045_Import.ps1",
+      "target": "Scripts/Invoke_Certiaura_Build_0045_Import.ps1",
+      "classification": "SCRIPT"
+    },
+    {
+      "source": "Scripts/Invoke_Certiaura_Build_0045_Preflight.ps1",
+      "target": "Scripts/Invoke_Certiaura_Build_0045_Preflight.ps1",
+      "classification": "SCRIPT"
+    },
+    {
+      "source": "Scripts/Invoke_Certiaura_Build_0045_Windows_PS51_Regression.ps1",
+      "target": "Scripts/Invoke_Certiaura_Build_0045_Windows_PS51_Regression.ps1",
+      "classification": "SCRIPT"
+    },
+    {
+      "source": "Scripts/Run_Certiaura_Build_0045.ps1",
+      "target": "Scripts/Run_Certiaura_Build_0045.ps1",
+      "classification": "SCRIPT"
+    },
+    {
+      "source": "Scripts/build_retatrutide_longitudinal_journey.py",
+      "target": "Scripts/build_retatrutide_longitudinal_journey.py",
+      "classification": "SCRIPT"
+    },
+    {
+      "source": "Scripts/generate_retatrutide_clinician_handoff.py",
+      "target": "Scripts/generate_retatrutide_clinician_handoff.py",
+      "classification": "SCRIPT"
+    },
+    {
+      "source": "Scripts/generate_retatrutide_review_schedule.py",
+      "target": "Scripts/generate_retatrutide_review_schedule.py",
+      "classification": "SCRIPT"
+    },
+    {
+      "source": "Scripts/import_certiaura_build_0045.py",
+      "target": "Scripts/import_certiaura_build_0045.py",
+      "classification": "SCRIPT"
+    },
+    {
+      "source": "Scripts/preflight_certiaura_build_0045.py",
+      "target": "Scripts/preflight_certiaura_build_0045.py",
+      "classification": "SCRIPT"
+    },
+    {
+      "source": "Scripts/record_retatrutide_longitudinal_event.py",
+      "target": "Scripts/record_retatrutide_longitudinal_event.py",
+      "classification": "SCRIPT"
+    },
+    {
+      "source": "Standards/RETATRUTIDE_CLINICIAN_HANDOFF_STANDARD.md",
+      "target": "Standards/RETATRUTIDE_CLINICIAN_HANDOFF_STANDARD.md",
+      "classification": "SUPPORTING_FILE"
+    },
+    {
+      "source": "Standards/RETATRUTIDE_LONGITUDINAL_JOURNEY_TRACKING_STANDARD.md",
+      "target": "Standards/RETATRUTIDE_LONGITUDINAL_JOURNEY_TRACKING_STANDARD.md",
+      "classification": "SUPPORTING_FILE"
+    },
+    {
+      "source": "Standards/RETATRUTIDE_REVIEW_SCHEDULING_STANDARD.md",
+      "target": "Standards/RETATRUTIDE_REVIEW_SCHEDULING_STANDARD.md",
+      "classification": "SUPPORTING_FILE"
+    },
+    {
+      "source": "Templates/retatrutide_clinician_handoff.template.md",
+      "target": "Templates/retatrutide_clinician_handoff.template.md",
+      "classification": "TEMPLATE"
+    }
+  ]
+}

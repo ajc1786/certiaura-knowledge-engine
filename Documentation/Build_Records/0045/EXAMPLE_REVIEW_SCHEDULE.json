@@ -1,0 +1,23 @@
+{
+  "schedule_id": "RRS-5F302CF787DB93E1",
+  "journey_id": "RJ-DEMO0045",
+  "schedule_state": "CLINICIAN_DISCUSSION_REQUIRED",
+  "items": [
+    {
+      "rule_id": "BASELINE_REVIEW",
+      "label": "Initial clinician discussion review",
+      "due_at": "2026-07-15T09:00:00Z",
+      "state": "OVERDUE",
+      "source_event_id": "RJE-726D1D9F8AF6A1CC"
+    },
+    {
+      "rule_id": "MONITORING_REVIEW",
+      "label": "Monitoring review",
+      "due_at": "2026-08-12T09:00:00Z",
+      "state": "DUE",
+      "source_event_id": "RJE-3CBB4D3CC870E04E"
+    }
+  ],
+  "source_chain_head": "8f0497d41d4e56f489fd471671c4e1038c3df62059cd2ea9063f8e84bed46fd3",
+  "as_of": "2026-07-20T12:00:00Z"
+}

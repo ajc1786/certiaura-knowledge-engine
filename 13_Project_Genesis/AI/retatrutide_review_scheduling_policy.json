@@ -1,0 +1,39 @@
+{
+  "policy_id": "CERT-BUILD-0045-REVIEW-SCHEDULING",
+  "version": "1.0.0",
+  "routine_rules": [
+    {
+      "rule_id": "BASELINE_REVIEW",
+      "source_event_type": "BASELINE",
+      "days_after": 14,
+      "label": "Initial clinician discussion review"
+    },
+    {
+      "rule_id": "ROUTINE_REVIEW",
+      "source_event_type": "REVIEW",
+      "days_after": 28,
+      "label": "Routine clinician discussion review"
+    },
+    {
+      "rule_id": "MONITORING_REVIEW",
+      "source_event_type": "MONITORING",
+      "days_after": 28,
+      "label": "Monitoring review"
+    }
+  ],
+  "urgent_terms": [
+    "severe abdominal pain",
+    "chest pain",
+    "difficulty breathing",
+    "fainting",
+    "suicidal thoughts",
+    "persistent vomiting"
+  ],
+  "prohibited_outputs": [
+    "diagnosis",
+    "personalised dose",
+    "titration",
+    "treatment selection",
+    "procurement instruction"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "journey_id": "RJ-DEMO0045",
+  "events": [
+    {
+      "journey_id": "RJ-DEMO0045",
+      "observed_at": "2026-07-01T09:00:00Z",
+      "event_type": "BASELINE",
+      "payload": {
+        "weight_kg": 106.0,
+        "notes": "Pseudonymised baseline for clinician discussion."
+      },
+      "source_refs": [
+        "CERT-PKS-000001",
+        "CERT-BUILD-0044"
+      ]
+    },
+    {
+      "journey_id": "RJ-DEMO0045",
+      "observed_at": "2026-07-08T09:00:00Z",
+      "event_type": "MEASUREMENT",
+      "payload": {
+        "weight_kg": 104.8
+      },
+      "source_refs": [
+        "PATIENT_RECORDED_MEASUREMENT"
+      ]
+    },
+    {
+      "journey_id": "RJ-DEMO0045",
+      "observed_at": "2026-07-12T10:30:00Z",
+      "event_type": "SYMPTOM",
+      "payload": {
+        "symptom": "mild nausea",
+        "severity": "mild",
+        "resolved": true
+      },
+      "source_refs": [
+        "PATIENT_RECORDED_SYMPTOM"
+      ]
+    },
+    {
+      "journey_id": "RJ-DEMO0045",
+      "observed_at": "2026-07-15T09:00:00Z",
+      "event_type": "MONITORING",
+      "payload": {
+        "review_note": "Monitoring information recorded for clinician discussion."
+      },
+      "source_refs": [
+        "CERT-MKS-000001"
+      ]
+    }
+  ]
+}

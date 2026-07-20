@@ -1,0 +1,8 @@
+{
+  "build_number": "0044",
+  "status": "ACTIONS_GREEN_CLOSED",
+  "closure_commit_prefix": "46d92c2",
+  "github_actions": "GREEN",
+  "evidence_basis": "Founder-provided GitHub Actions result and explicit continuation instruction",
+  "build_0045_dependency_authorised": true
+}

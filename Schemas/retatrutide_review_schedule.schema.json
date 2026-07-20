@@ -1,0 +1,39 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "certiaura://schemas/retatrutide_review_schedule.schema.json",
+  "title": "Retatrutide Review Schedule",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schedule_id",
+    "journey_id",
+    "schedule_state",
+    "items",
+    "source_chain_head"
+  ],
+  "properties": {
+    "schedule_id": {
+      "type": "string",
+      "pattern": "^RRS-[A-F0-9]{16}$"
+    },
+    "journey_id": {
+      "type": "string"
+    },
+    "schedule_state": {
+      "enum": [
+        "ROUTINE",
+        "CLINICIAN_DISCUSSION_REQUIRED",
+        "LOCKED_URGENT_ROUTING"
+      ]
+    },
+    "items": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "source_chain_head": {
+      "type": "string"
+    }
+  }
+}

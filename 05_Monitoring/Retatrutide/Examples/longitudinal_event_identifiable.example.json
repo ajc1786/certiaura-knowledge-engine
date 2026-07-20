@@ -1,0 +1,11 @@
+{
+  "journey_id": "RJ-DEMO0045",
+  "observed_at": "2026-07-16T12:00:00Z",
+  "event_type": "QUESTION",
+  "payload": {
+    "question": "Please call me at 07123 456789."
+  },
+  "source_refs": [
+    "PATIENT_RECORDED_QUESTION"
+  ]
+}
