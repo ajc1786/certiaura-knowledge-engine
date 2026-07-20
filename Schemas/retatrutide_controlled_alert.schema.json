@@ -1,0 +1,68 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "certiaura://schemas/retatrutide_controlled_alert.schema.json",
+  "title": "Retatrutide Controlled Alert",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "alert_id",
+    "journey_id",
+    "analytics_id",
+    "schedule_id",
+    "alert_state",
+    "reasons",
+    "message",
+    "evidence_refs",
+    "safety_boundary"
+  ],
+  "properties": {
+    "alert_id": {
+      "type": "string",
+      "pattern": "^RCA-[A-F0-9]{16}$"
+    },
+    "journey_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "analytics_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "schedule_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "alert_state": {
+      "enum": [
+        "NO_ALERT",
+        "INSUFFICIENT_DATA",
+        "CLINICIAN_DISCUSSION_REQUIRED",
+        "LOCKED_URGENT_ROUTING"
+      ]
+    },
+    "reasons": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "message": {
+      "type": "string"
+    },
+    "evidence_refs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "safety_boundary": {
+      "type": "string"
+    }
+  }
+}

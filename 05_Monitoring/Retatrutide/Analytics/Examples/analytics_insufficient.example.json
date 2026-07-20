@@ -1,0 +1,25 @@
+{
+  "journey_id": "RJ-LOWDATA46",
+  "version": "1.0.0",
+  "journey_state": "ACTIVE",
+  "events": [
+    {
+      "journey_id": "RJ-DEMO0046",
+      "observed_at": "2026-07-01T09:00:00Z",
+      "event_type": "BASELINE",
+      "payload": {
+        "weight_kg": 106.0,
+        "waist_cm": 110.0,
+        "wellbeing_score": 6
+      },
+      "source_refs": [
+        "CERT-PKS-000001",
+        "CERT-MKS-000196"
+      ],
+      "event_id": "RJE-0046A00000000001",
+      "prior_chain_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+      "event_hash": "1111111111111111111111111111111111111111111111111111111111111111"
+    }
+  ],
+  "chain_head": "1111111111111111111111111111111111111111111111111111111111111111"
+}

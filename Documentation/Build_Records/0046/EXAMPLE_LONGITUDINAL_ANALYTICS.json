@@ -1,0 +1,102 @@
+{
+  "analytics_id": "RLA-234D0E81A3621F10",
+  "journey_id": "RJ-DEMO0046",
+  "journey_state": "ACTIVE",
+  "analytics_state": "READY_FOR_REVIEW",
+  "event_count": 4,
+  "metrics": [
+    {
+      "metric": "weight_kg",
+      "label": "Weight",
+      "unit": "kg",
+      "observation_count": 3,
+      "data_state": "SUFFICIENT",
+      "first_value": 106.0,
+      "latest_value": 103.6,
+      "absolute_change": -2.4,
+      "percentage_change": -2.2642,
+      "direction": "DECREASE",
+      "first_observed_at": "2026-07-01T09:00:00Z",
+      "latest_observed_at": "2026-07-15T09:00:00Z",
+      "source_event_ids": [
+        "RJE-0046A00000000001",
+        "RJE-0046A00000000002",
+        "RJE-0046A00000000003"
+      ],
+      "source_refs": [
+        "CERT-MKS-000196",
+        "CERT-PKS-000001",
+        "PATIENT_RECORDED_MEASUREMENT"
+      ],
+      "evidence_refs": [
+        "CERT-MKS-000196",
+        "CERT-PKS-000001"
+      ]
+    },
+    {
+      "metric": "waist_cm",
+      "label": "Waist circumference",
+      "unit": "cm",
+      "observation_count": 3,
+      "data_state": "SUFFICIENT",
+      "first_value": 110.0,
+      "latest_value": 107.0,
+      "absolute_change": -3.0,
+      "percentage_change": -2.7273,
+      "direction": "DECREASE",
+      "first_observed_at": "2026-07-01T09:00:00Z",
+      "latest_observed_at": "2026-07-15T09:00:00Z",
+      "source_event_ids": [
+        "RJE-0046A00000000001",
+        "RJE-0046A00000000002",
+        "RJE-0046A00000000003"
+      ],
+      "source_refs": [
+        "CERT-MKS-000196",
+        "CERT-PKS-000001",
+        "PATIENT_RECORDED_MEASUREMENT"
+      ],
+      "evidence_refs": [
+        "CERT-MKS-000196"
+      ]
+    },
+    {
+      "metric": "wellbeing_score",
+      "label": "Self-recorded wellbeing",
+      "unit": "score",
+      "observation_count": 3,
+      "data_state": "SUFFICIENT",
+      "first_value": 6.0,
+      "latest_value": 7.0,
+      "absolute_change": 1.0,
+      "percentage_change": 16.6667,
+      "direction": "INCREASE",
+      "first_observed_at": "2026-07-01T09:00:00Z",
+      "latest_observed_at": "2026-07-15T09:00:00Z",
+      "source_event_ids": [
+        "RJE-0046A00000000001",
+        "RJE-0046A00000000002",
+        "RJE-0046A00000000003"
+      ],
+      "source_refs": [
+        "CERT-MKS-000196",
+        "CERT-PKS-000001",
+        "PATIENT_RECORDED_MEASUREMENT"
+      ],
+      "evidence_refs": [
+        "PATIENT_RECORDED_OUTCOME"
+      ]
+    }
+  ],
+  "provenance": {
+    "chain_head": "4444444444444444444444444444444444444444444444444444444444444444",
+    "source_refs": [
+      "CERT-MKS-000196",
+      "CERT-MKS-000197",
+      "CERT-PKS-000001",
+      "PATIENT_RECORDED_MEASUREMENT"
+    ],
+    "policy_id": "RETATRUTIDE_CONTROLLED_ALERTING_BASELINE_1_0"
+  },
+  "safety_boundary": "Descriptive analytics only. This output does not diagnose, recommend treatment, select a dose or alter titration."
+}

@@ -1,0 +1,11 @@
+{
+  "alert_id": "RCA-24317613D21ABCA3",
+  "journey_id": "RJ-DEMO0046",
+  "analytics_id": "RLA-234D0E81A3621F10",
+  "schedule_id": "RRS-DEMO0046",
+  "alert_state": "NO_ALERT",
+  "reasons": [],
+  "message": "No controlled alert was generated. Continue the documented review process.",
+  "evidence_refs": [],
+  "safety_boundary": "This alert does not diagnose, prescribe, recommend a dose, alter titration or select treatment."
+}

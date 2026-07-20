@@ -1,0 +1,54 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "certiaura://schemas/retatrutide_longitudinal_analytics.schema.json",
+  "title": "Retatrutide Longitudinal Analytics",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "analytics_id",
+    "journey_id",
+    "analytics_state",
+    "event_count",
+    "metrics",
+    "provenance",
+    "safety_boundary"
+  ],
+  "properties": {
+    "analytics_id": {
+      "type": "string",
+      "pattern": "^RLA-[A-F0-9]{16}$"
+    },
+    "journey_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "journey_state": {
+      "type": "string"
+    },
+    "analytics_state": {
+      "enum": [
+        "READY_FOR_REVIEW",
+        "INSUFFICIENT_DATA",
+        "LOCKED_URGENT_ROUTING"
+      ]
+    },
+    "event_count": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "metrics": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "provenance": {
+      "type": "object"
+    },
+    "safety_boundary": {
+      "type": "string"
+    }
+  }
+}

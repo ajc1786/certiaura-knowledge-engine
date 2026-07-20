@@ -1,0 +1,43 @@
+{
+  "build_number": "0046",
+  "build_title": "retatrutide evidence-linked longitudinal analytics, outcome trend visualisation and controlled alerting baseline",
+  "version": "1.0.0",
+  "status": "GENERATED_WINDOWS_PS51_GATE_REQUIRED",
+  "build_provenance": "CERT-BUILD-0046",
+  "exact_commit_message": "Add Certiaura Build 0046 retatrutide evidence-linked longitudinal analytics, outcome trend visualisation and controlled alerting baseline",
+  "dependencies": [
+    {
+      "build": "0045",
+      "status": "ACTIONS_GREEN_CLOSED",
+      "commit_resolution": "CANONICAL_HISTORY_EXACT_SUBJECT_AND_ANCESTRY"
+    }
+  ],
+  "capabilities": [
+    "evidence-linked descriptive longitudinal analytics",
+    "deterministic local SVG outcome trends",
+    "controlled review alerting",
+    "urgent routing precedence",
+    "memory-only local analytics viewer",
+    "Project Genesis transactional import and rollback"
+  ],
+  "prohibited_outputs": [
+    "diagnosis",
+    "personalised dosing",
+    "titration",
+    "treatment selection",
+    "procurement advice"
+  ],
+  "release_controls": [
+    "Windows PowerShell 5.1 full regression",
+    "ASCII-only PowerShell",
+    "package checksum validation",
+    "LF repository text hygiene",
+    "exact manifest and build-provenance validator scope",
+    "external-only transactional backups",
+    "canonical register uniqueness",
+    "git diff --check",
+    "git diff --cached --check"
+  ],
+  "package_file_count": 52,
+  "candidate_validation": "PASS_EXCEPT_REAL_WINDOWS_PS51_GATE"
+}

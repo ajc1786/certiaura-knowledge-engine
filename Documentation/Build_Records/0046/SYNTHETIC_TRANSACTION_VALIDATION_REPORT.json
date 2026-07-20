@@ -1,0 +1,12 @@
+{
+  "build_number": "0046",
+  "result": "PASS",
+  "dry_run": "DRY_RUN_VALIDATED",
+  "apply": "APPLIED_VALIDATED",
+  "formal_asset_allocations": 3,
+  "external_backup_only": true,
+  "historical_uai_000046_fixture": "PRESERVED_AND_EXCLUDED_BY_EXACT_SCOPE",
+  "git_diff_check": "PASS",
+  "git_diff_cached_check": "PASS",
+  "note": "Generator-side synthetic validation completed on Linux; real Windows PowerShell 5.1 gate remains mandatory."
+}

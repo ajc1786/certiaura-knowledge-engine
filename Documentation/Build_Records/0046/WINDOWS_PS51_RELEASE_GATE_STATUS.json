@@ -1,0 +1,6 @@
+{
+  "build_number": "0046",
+  "status": "REAL_WINDOWS_PS51_GATE_REQUIRED",
+  "required_endpoint": "BUILD 0046 WINDOWS POWERSHELL 5.1 REGRESSION: PASS",
+  "import_authorised": false
+}

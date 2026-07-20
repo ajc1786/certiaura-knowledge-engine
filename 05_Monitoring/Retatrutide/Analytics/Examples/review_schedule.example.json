@@ -1,0 +1,15 @@
+{
+  "schedule_id": "RRS-DEMO0046",
+  "schedule_state": "ROUTINE",
+  "as_of": "2026-07-20T12:00:00Z",
+  "items": [
+    {
+      "item_type": "CLINICIAN_REVIEW",
+      "due_at": "2026-07-29T09:00:00Z",
+      "state": "SCHEDULED",
+      "source_refs": [
+        "CERT-MKS-000197"
+      ]
+    }
+  ]
+}

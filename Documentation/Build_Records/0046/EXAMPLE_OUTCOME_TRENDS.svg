@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="570" viewBox="0 0 960 570" role="img" aria-labelledby="title desc">
+<title id="title">Retatrutide longitudinal outcome trends</title>
+<desc id="desc">Deterministic descriptive trend visualisation for clinician discussion.</desc>
+<rect width="100%" height="100%" fill="white"/>
+<text x="40" y="44" font-family="Arial" font-size="24">Retatrutide outcome trends</text>
+<text x="40" y="72" font-family="Arial" font-size="13">State: READY_FOR_REVIEW</text>
+<rect x="40" y="100" width="880" height="125" fill="none" stroke="#555"/>
+<text x="55" y="124" font-family="Arial" font-size="16">Weight</text>
+<line x1="70" y1="143.00" x2="890" y2="213.00" stroke="#222" stroke-width="3"/>
+<circle cx="70" cy="143.00" r="5" fill="#222"/><circle cx="890" cy="213.00" r="5" fill="#222"/>
+<text x="70" y="212" font-family="Arial" font-size="12">106 kg</text>
+<text x="810" y="212" font-family="Arial" font-size="12">103.6 kg</text>
+<text x="410" y="212" font-family="Arial" font-size="12">DECREASE | 3 observations</text>
+<rect x="40" y="250" width="880" height="125" fill="none" stroke="#555"/>
+<text x="55" y="274" font-family="Arial" font-size="16">Waist circumference</text>
+<line x1="70" y1="293.00" x2="890" y2="363.00" stroke="#222" stroke-width="3"/>
+<circle cx="70" cy="293.00" r="5" fill="#222"/><circle cx="890" cy="363.00" r="5" fill="#222"/>
+<text x="70" y="362" font-family="Arial" font-size="12">110 cm</text>
+<text x="810" y="362" font-family="Arial" font-size="12">107 cm</text>
+<text x="410" y="362" font-family="Arial" font-size="12">DECREASE | 3 observations</text>
+<rect x="40" y="400" width="880" height="125" fill="none" stroke="#555"/>
+<text x="55" y="424" font-family="Arial" font-size="16">Self-recorded wellbeing</text>
+<line x1="70" y1="513.00" x2="890" y2="443.00" stroke="#222" stroke-width="3"/>
+<circle cx="70" cy="513.00" r="5" fill="#222"/><circle cx="890" cy="443.00" r="5" fill="#222"/>
+<text x="70" y="512" font-family="Arial" font-size="12">6 score</text>
+<text x="810" y="512" font-family="Arial" font-size="12">7 score</text>
+<text x="410" y="512" font-family="Arial" font-size="12">INCREASE | 3 observations</text>
+</svg>

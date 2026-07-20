@@ -1,0 +1,11 @@
+{
+  "build_number": "0046",
+  "result": "PASS_EXCEPT_REAL_WINDOWS_PS51_GATE",
+  "package_file_count": 52,
+  "formal_asset_count": 3,
+  "python_tests": 21,
+  "text_hygiene": "PASS",
+  "python_compile": "PASS",
+  "package_checksums": "PASS_AFTER_FINALISATION",
+  "windows_ps51": "REQUIRED"
+}

@@ -1,0 +1,17 @@
+{
+  "build_number": "0046",
+  "canonical_register": "Documentation/Master_Asset_Register.csv",
+  "package_root_mode": "FLAT_REPOSITORY_RELATIVE",
+  "roots": [
+    "05_Monitoring",
+    "12_Reports",
+    "13_Project_Genesis",
+    "Documentation",
+    "Schemas",
+    "Scripts",
+    "Standards",
+    "Templates"
+  ],
+  "formal_asset_count": 3,
+  "all_files_classified": true
+}

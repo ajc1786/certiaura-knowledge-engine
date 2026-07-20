@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "certiaura://schemas/retatrutide_outcome_trend_manifest.schema.json",
+  "title": "Retatrutide Outcome Trend Manifest",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "trend_id",
+    "analytics_id",
+    "trend_state",
+    "metric_count",
+    "svg_sha256",
+    "safety_boundary"
+  ],
+  "properties": {
+    "trend_id": {
+      "type": "string",
+      "pattern": "^RTV-[A-F0-9]{16}$"
+    },
+    "analytics_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "trend_state": {
+      "type": "string"
+    },
+    "metric_count": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "svg_sha256": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "safety_boundary": {
+      "type": "string"
+    }
+  }
+}

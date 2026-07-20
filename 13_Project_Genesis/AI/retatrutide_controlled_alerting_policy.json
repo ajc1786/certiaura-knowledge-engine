@@ -1,0 +1,54 @@
+{
+  "policy_id": "RETATRUTIDE_CONTROLLED_ALERTING_BASELINE_1_0",
+  "version": "1.0.0",
+  "tracked_metrics": {
+    "weight_kg": {
+      "label": "Weight",
+      "unit": "kg",
+      "minimum_observations": 2,
+      "review_change_percent": 8.0,
+      "evidence_refs": [
+        "CERT-PKS-000001",
+        "CERT-MKS-000196"
+      ]
+    },
+    "waist_cm": {
+      "label": "Waist circumference",
+      "unit": "cm",
+      "minimum_observations": 2,
+      "review_change_percent": 8.0,
+      "evidence_refs": [
+        "CERT-MKS-000196"
+      ]
+    },
+    "wellbeing_score": {
+      "label": "Self-recorded wellbeing",
+      "unit": "score",
+      "minimum_observations": 2,
+      "review_change_percent": 35.0,
+      "evidence_refs": [
+        "PATIENT_RECORDED_OUTCOME"
+      ]
+    }
+  },
+  "review_states_triggering_discussion": [
+    "CLINICIAN_DISCUSSION_REQUIRED",
+    "OVERDUE"
+  ],
+  "urgent_journey_states": [
+    "LOCKED_URGENT_ROUTING"
+  ],
+  "prohibited_outputs": [
+    "diagnosis",
+    "personalised dosing",
+    "titration",
+    "treatment selection",
+    "procurement advice"
+  ],
+  "alert_messages": {
+    "NO_ALERT": "No controlled alert was generated. Continue the documented review process.",
+    "INSUFFICIENT_DATA": "Insufficient longitudinal information for a controlled trend alert.",
+    "CLINICIAN_DISCUSSION_REQUIRED": "Recorded information meets a configured review condition. Discuss it with a qualified clinician.",
+    "LOCKED_URGENT_ROUTING": "Urgent routing is locked. Use the applicable local urgent or emergency care pathway."
+  }
+}
