@@ -1,0 +1,69 @@
+{
+  "schema_version": "1.0.0",
+  "compound": "Retatrutide",
+  "approved_label_exists": false,
+  "investigational_status_notice": "Retatrutide remains investigational, has no approved product label, and is not approved for public use. This asset is evidence intelligence, not prescribing guidance.",
+  "entries": [
+    {
+      "entry_id": "RET-CON-001",
+      "category": "APPROVED_LABEL_CONTRAINDICATIONS",
+      "status": "NOT_ESTABLISHED",
+      "statement": "No approved retatrutide product label or regulator-established contraindication section exists.",
+      "evidence_refs": [
+        "RET-EVD-0012"
+      ],
+      "governance_action": "BLOCK any claim that an approved retatrutide contraindication list exists."
+    },
+    {
+      "entry_id": "RET-CON-002",
+      "category": "TRIAL_ELIGIBILITY_EXCLUSION",
+      "status": "PROTOCOL_SPECIFIC",
+      "statement": "Relevant phase 2 protocols excluded a history of acute or chronic pancreatitis.",
+      "evidence_refs": [
+        "NCT04881760",
+        "NCT04867785"
+      ],
+      "governance_action": "Preserve as trial eligibility provenance only."
+    },
+    {
+      "entry_id": "RET-CON-003",
+      "category": "TRIAL_POPULATION_BOUNDARY",
+      "status": "PROTOCOL_SPECIFIC",
+      "statement": "The obesity phase 2 trial excluded type 1 and type 2 diabetes; results must not be extrapolated across that boundary without separate evidence.",
+      "evidence_refs": [
+        "NCT04881760"
+      ],
+      "governance_action": "Attach population boundary to every derived obesity claim."
+    },
+    {
+      "entry_id": "RET-CON-004",
+      "category": "TRIAL_ELIGIBILITY_EXCLUSION",
+      "status": "PROTOCOL_SPECIFIC",
+      "statement": "The type 2 diabetes phase 2 protocol excluded type 1 diabetes, ketoacidosis, specified retinal disease and a history of pancreatitis.",
+      "evidence_refs": [
+        "NCT04867785"
+      ],
+      "governance_action": "Do not convert eligibility criteria into a marketed-product contraindication."
+    },
+    {
+      "entry_id": "RET-CON-005",
+      "category": "CLASS_DERIVED_OR_THEORETICAL_CAUTION",
+      "status": "DO_NOT_TRANSPOSE",
+      "statement": "Contraindications or warnings from approved GLP-1 or dual-agonist labels must not be silently copied to investigational retatrutide.",
+      "evidence_refs": [
+        "RET-EVD-0012"
+      ],
+      "governance_action": "Require retatrutide-specific regulatory or trial evidence before classification."
+    },
+    {
+      "entry_id": "RET-CON-006",
+      "category": "PUBLIC_USE",
+      "status": "PROHIBITED_OUTSIDE_CLINICAL_TRIAL",
+      "statement": "Retatrutide is investigational and not available for public use; products sold outside authorised clinical trials have unverifiable identity, purity and dose.",
+      "evidence_refs": [
+        "RET-EVD-0012"
+      ],
+      "governance_action": "Display investigational-status warning and block administration guidance."
+    }
+  ]
+}

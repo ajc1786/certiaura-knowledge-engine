@@ -1,0 +1,470 @@
+{
+  "schema_version": "1.0.0",
+  "build_number": "0042",
+  "canonical_register_path": "Documentation/Master_Asset_Register.csv",
+  "formal_assets": [
+    {
+      "repository_relative_path": "02_Peptides/CERT-PKS-000001_Retatrutide/RETATRUTIDE_SAFETY_MONITORING_INTEGRATION_BASELINE.md",
+      "asset_title": "Retatrutide safety monitoring integration baseline",
+      "asset_type": "Scientific Integration Asset",
+      "knowledge_system": "PKS",
+      "intended_action": "CREATE",
+      "existing_uai": null,
+      "uai_allocation": "REQUIRED_DURING_CANONICAL_RECONCILIATION",
+      "proposed_version": "1.0.0",
+      "proposed_status": "ACTIVE",
+      "owner": "Certiaura",
+      "completion_percentage": 100,
+      "parent_assets": [
+        "CERT-PKS-000001"
+      ],
+      "relationships": [
+        {
+          "type": "RELATED_TO",
+          "target": "CERT-PKS-000001"
+        }
+      ],
+      "evidence_links": [
+        "https://www.nejm.org/doi/full/10.1056/NEJMoa2301972",
+        "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(23)01053-X/fulltext",
+        "https://clinicaltrials.gov/study/NCT05042154",
+        "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)00967-0/abstract",
+        "https://investor.lilly.com/news-releases/news-release-details/lillys-triple-agonist-retatrutide-delivered-powerful-weight-loss"
+      ],
+      "build_provenance": [
+        "CERT-BUILD-0042"
+      ]
+    },
+    {
+      "repository_relative_path": "06_Evidence/Retatrutide/RETATRUTIDE_SAFETY_SOURCE_MAP.json",
+      "asset_title": "Retatrutide safety source map",
+      "asset_type": "Evidence Source Map",
+      "knowledge_system": "EKS",
+      "intended_action": "CREATE",
+      "existing_uai": null,
+      "uai_allocation": "REQUIRED_DURING_CANONICAL_RECONCILIATION",
+      "proposed_version": "1.0.0",
+      "proposed_status": "ACTIVE",
+      "owner": "Certiaura",
+      "completion_percentage": 100,
+      "parent_assets": [
+        "CERT-PKS-000001"
+      ],
+      "relationships": [
+        {
+          "type": "RELATED_TO",
+          "target": "CERT-PKS-000001"
+        }
+      ],
+      "evidence_links": [
+        "https://www.nejm.org/doi/full/10.1056/NEJMoa2301972",
+        "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(23)01053-X/fulltext",
+        "https://clinicaltrials.gov/study/NCT05042154",
+        "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)00967-0/abstract",
+        "https://investor.lilly.com/news-releases/news-release-details/lillys-triple-agonist-retatrutide-delivered-powerful-weight-loss"
+      ],
+      "build_provenance": [
+        "CERT-BUILD-0042"
+      ]
+    },
+    {
+      "repository_relative_path": "06_Evidence/Retatrutide/RETATRUTIDE_SAFETY_SIGNAL_MATRIX.json",
+      "asset_title": "Retatrutide safety signal matrix",
+      "asset_type": "Safety Evidence Asset",
+      "knowledge_system": "SKS",
+      "intended_action": "CREATE",
+      "existing_uai": null,
+      "uai_allocation": "REQUIRED_DURING_CANONICAL_RECONCILIATION",
+      "proposed_version": "1.0.0",
+      "proposed_status": "ACTIVE",
+      "owner": "Certiaura",
+      "completion_percentage": 100,
+      "parent_assets": [
+        "CERT-PKS-000001"
+      ],
+      "relationships": [
+        {
+          "type": "RELATED_TO",
+          "target": "CERT-PKS-000001"
+        }
+      ],
+      "evidence_links": [
+        "https://www.nejm.org/doi/full/10.1056/NEJMoa2301972",
+        "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(23)01053-X/fulltext",
+        "https://clinicaltrials.gov/study/NCT05042154",
+        "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)00967-0/abstract",
+        "https://investor.lilly.com/news-releases/news-release-details/lillys-triple-agonist-retatrutide-delivered-powerful-weight-loss"
+      ],
+      "build_provenance": [
+        "CERT-BUILD-0042"
+      ]
+    },
+    {
+      "repository_relative_path": "05_Monitoring/Retatrutide/RETATRUTIDE_MONITORING_DOMAIN_MATRIX.json",
+      "asset_title": "Retatrutide monitoring domain matrix",
+      "asset_type": "Monitoring Asset",
+      "knowledge_system": "MKS",
+      "intended_action": "CREATE",
+      "existing_uai": null,
+      "uai_allocation": "REQUIRED_DURING_CANONICAL_RECONCILIATION",
+      "proposed_version": "1.0.0",
+      "proposed_status": "ACTIVE",
+      "owner": "Certiaura",
+      "completion_percentage": 100,
+      "parent_assets": [
+        "CERT-PKS-000001"
+      ],
+      "relationships": [
+        {
+          "type": "RELATED_TO",
+          "target": "CERT-PKS-000001"
+        }
+      ],
+      "evidence_links": [
+        "https://www.nejm.org/doi/full/10.1056/NEJMoa2301972",
+        "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(23)01053-X/fulltext",
+        "https://clinicaltrials.gov/study/NCT05042154",
+        "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)00967-0/abstract",
+        "https://investor.lilly.com/news-releases/news-release-details/lillys-triple-agonist-retatrutide-delivered-powerful-weight-loss"
+      ],
+      "build_provenance": [
+        "CERT-BUILD-0042"
+      ]
+    },
+    {
+      "repository_relative_path": "05_Monitoring/Retatrutide/RETATRUTIDE_MONITORING_EVENT_MODEL.json",
+      "asset_title": "Retatrutide monitoring event model",
+      "asset_type": "Monitoring Data Contract",
+      "knowledge_system": "MKS",
+      "intended_action": "CREATE",
+      "existing_uai": null,
+      "uai_allocation": "REQUIRED_DURING_CANONICAL_RECONCILIATION",
+      "proposed_version": "1.0.0",
+      "proposed_status": "ACTIVE",
+      "owner": "Certiaura",
+      "completion_percentage": 100,
+      "parent_assets": [
+        "CERT-PKS-000001"
+      ],
+      "relationships": [
+        {
+          "type": "RELATED_TO",
+          "target": "CERT-PKS-000001"
+        }
+      ],
+      "evidence_links": [
+        "https://www.nejm.org/doi/full/10.1056/NEJMoa2301972",
+        "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(23)01053-X/fulltext",
+        "https://clinicaltrials.gov/study/NCT05042154",
+        "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)00967-0/abstract",
+        "https://investor.lilly.com/news-releases/news-release-details/lillys-triple-agonist-retatrutide-delivered-powerful-weight-loss"
+      ],
+      "build_provenance": [
+        "CERT-BUILD-0042"
+      ]
+    },
+    {
+      "repository_relative_path": "01_Knowledge_Systems/SKS/Retatrutide/RETATRUTIDE_CONTRAINDICATION_PRECAUTION_MATRIX.json",
+      "asset_title": "Retatrutide contraindication and precaution matrix",
+      "asset_type": "Safety Matrix Asset",
+      "knowledge_system": "SKS",
+      "intended_action": "CREATE",
+      "existing_uai": null,
+      "uai_allocation": "REQUIRED_DURING_CANONICAL_RECONCILIATION",
+      "proposed_version": "1.0.0",
+      "proposed_status": "ACTIVE",
+      "owner": "Certiaura",
+      "completion_percentage": 100,
+      "parent_assets": [
+        "CERT-PKS-000001"
+      ],
+      "relationships": [
+        {
+          "type": "RELATED_TO",
+          "target": "CERT-PKS-000001"
+        }
+      ],
+      "evidence_links": [
+        "https://www.nejm.org/doi/full/10.1056/NEJMoa2301972",
+        "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(23)01053-X/fulltext",
+        "https://clinicaltrials.gov/study/NCT05042154",
+        "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)00967-0/abstract",
+        "https://investor.lilly.com/news-releases/news-release-details/lillys-triple-agonist-retatrutide-delivered-powerful-weight-loss"
+      ],
+      "build_provenance": [
+        "CERT-BUILD-0042"
+      ]
+    },
+    {
+      "repository_relative_path": "06_Evidence/Retatrutide/RETATRUTIDE_CLINICAL_OUTCOME_INTEGRATION.json",
+      "asset_title": "Retatrutide clinical outcome integration",
+      "asset_type": "Clinical Outcome Evidence Asset",
+      "knowledge_system": "EKS",
+      "intended_action": "CREATE",
+      "existing_uai": null,
+      "uai_allocation": "REQUIRED_DURING_CANONICAL_RECONCILIATION",
+      "proposed_version": "1.0.0",
+      "proposed_status": "ACTIVE",
+      "owner": "Certiaura",
+      "completion_percentage": 100,
+      "parent_assets": [
+        "CERT-PKS-000001"
+      ],
+      "relationships": [
+        {
+          "type": "RELATED_TO",
+          "target": "CERT-PKS-000001"
+        }
+      ],
+      "evidence_links": [
+        "https://www.nejm.org/doi/full/10.1056/NEJMoa2301972",
+        "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(23)01053-X/fulltext",
+        "https://clinicaltrials.gov/study/NCT05042154",
+        "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)00967-0/abstract",
+        "https://investor.lilly.com/news-releases/news-release-details/lillys-triple-agonist-retatrutide-delivered-powerful-weight-loss"
+      ],
+      "build_provenance": [
+        "CERT-BUILD-0042"
+      ]
+    },
+    {
+      "repository_relative_path": "06_Evidence/Retatrutide/RETATRUTIDE_SAFETY_CLAIM_GRAPH.json",
+      "asset_title": "Retatrutide safety claim graph",
+      "asset_type": "Evidence Relationship Asset",
+      "knowledge_system": "EKS",
+      "intended_action": "CREATE",
+      "existing_uai": null,
+      "uai_allocation": "REQUIRED_DURING_CANONICAL_RECONCILIATION",
+      "proposed_version": "1.0.0",
+      "proposed_status": "ACTIVE",
+      "owner": "Certiaura",
+      "completion_percentage": 100,
+      "parent_assets": [
+        "CERT-PKS-000001"
+      ],
+      "relationships": [
+        {
+          "type": "RELATED_TO",
+          "target": "CERT-PKS-000001"
+        }
+      ],
+      "evidence_links": [
+        "https://www.nejm.org/doi/full/10.1056/NEJMoa2301972",
+        "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(23)01053-X/fulltext",
+        "https://clinicaltrials.gov/study/NCT05042154",
+        "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)00967-0/abstract",
+        "https://investor.lilly.com/news-releases/news-release-details/lillys-triple-agonist-retatrutide-delivered-powerful-weight-loss"
+      ],
+      "build_provenance": [
+        "CERT-BUILD-0042"
+      ]
+    }
+  ],
+  "files": [
+    {
+      "path": "01_Knowledge_Systems/SKS/Retatrutide/RETATRUTIDE_CONTRAINDICATION_PRECAUTION_MATRIX.json",
+      "classification": "FORMAL_ASSET",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "02_Peptides/CERT-PKS-000001_Retatrutide/RETATRUTIDE_SAFETY_MONITORING_INTEGRATION_BASELINE.md",
+      "classification": "FORMAL_ASSET",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "05_Monitoring/Retatrutide/RETATRUTIDE_MONITORING_DOMAIN_MATRIX.json",
+      "classification": "FORMAL_ASSET",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "05_Monitoring/Retatrutide/RETATRUTIDE_MONITORING_EVENT_MODEL.json",
+      "classification": "FORMAL_ASSET",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "06_Evidence/Retatrutide/RETATRUTIDE_CLINICAL_OUTCOME_INTEGRATION.json",
+      "classification": "FORMAL_ASSET",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "06_Evidence/Retatrutide/RETATRUTIDE_SAFETY_CLAIM_GRAPH.json",
+      "classification": "FORMAL_ASSET",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "06_Evidence/Retatrutide/RETATRUTIDE_SAFETY_SIGNAL_MATRIX.json",
+      "classification": "FORMAL_ASSET",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "06_Evidence/Retatrutide/RETATRUTIDE_SAFETY_SOURCE_MAP.json",
+      "classification": "FORMAL_ASSET",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "13_Project_Genesis/Import/run_build_0042_import.py",
+      "classification": "SCRIPT",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "13_Project_Genesis/Release/run_build_0042_preflight.py",
+      "classification": "SCRIPT",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "13_Project_Genesis/Tests/Fixtures/Build_0042/invalid_approved_contraindication.example.json",
+      "classification": "EXAMPLE",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "13_Project_Genesis/Tests/Fixtures/Build_0042/invalid_missing_evidence.example.json",
+      "classification": "EXAMPLE",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "13_Project_Genesis/Tests/Fixtures/Build_0042/invalid_prescriptive_monitoring.example.json",
+      "classification": "EXAMPLE",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "13_Project_Genesis/Tests/test_build_0042_retatrutide_safety_integration.py",
+      "classification": "TEST",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "13_Project_Genesis/Validators/validate_retatrutide_safety_integration.py",
+      "classification": "SCRIPT",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "Documentation/Build_Records/0042/ASSET_INTENT_MANIFEST.json",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "Documentation/Build_Records/0042/BUILD_0042_READ_ME_FIRST.md",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "Documentation/Build_Records/0042/BUILD_MANIFEST.json",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "Documentation/Build_Records/0042/CHECKSUMS.sha256",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "Documentation/Build_Records/0042/COMMIT_MESSAGE.txt",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "Documentation/Build_Records/0042/CONTINUITY_CHECKPOINT_DELTA.json",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "Documentation/Build_Records/0042/DECISION_RECORD_0042.md",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "Documentation/Build_Records/0042/LESSONS_LEARNED_CONTROL_MATRIX.json",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "Documentation/Build_Records/0042/LESSONS_LEARNED_REVIEW.md",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "Documentation/Build_Records/0042/PACKAGE_INVENTORY.csv",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "Documentation/Build_Records/0042/PACKAGE_VERSION.json",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "Documentation/Build_Records/0042/PRE_RELEASE_SYNTHETIC_IMPORT_REPORT.json",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "Documentation/Build_Records/0042/PRODUCTION_DASHBOARD_UPDATE.json",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "Documentation/Build_Records/0042/PROJECT_GENESIS_IMPORT_HOOK.json",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "Documentation/Build_Records/0042/PROPOSED_CHANGE_LOG_ENTRY.md",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "Documentation/Build_Records/0042/PROPOSED_NEXT_ACTION.md",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "Documentation/Build_Records/0042/ROLLBACK_RUNBOOK.md",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "Documentation/Build_Records/0042/ROUTING_MANIFEST.json",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "Documentation/Build_Records/0042/TEST_REPORT.json",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "Documentation/Build_Records/0042/VALIDATION_REPORT.json",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "Schemas/retatrutide_contraindication_matrix.schema.json",
+      "classification": "SCHEMA",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "Schemas/retatrutide_monitoring_domain.schema.json",
+      "classification": "SCHEMA",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "Schemas/retatrutide_safety_signal_matrix.schema.json",
+      "classification": "SCHEMA",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "Scripts/Invoke_Certiaura_Build_0042_Import.ps1",
+      "classification": "SCRIPT",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "Scripts/Invoke_Certiaura_Build_0042_Preflight.ps1",
+      "classification": "SCRIPT",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "Templates/RETATRUTIDE_SAFETY_SIGNAL_TEMPLATE.json",
+      "classification": "TEMPLATE",
+      "intended_action": "CREATE"
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "schema_version": "1.0.0",
+  "compound": "Retatrutide",
+  "status": "SCIENTIFIC_REVIEW_BASELINE",
+  "investigational_status_notice": "Retatrutide remains investigational, has no approved product label, and is not approved for public use. This asset is evidence intelligence, not prescribing guidance.",
+  "signals": [
+    {
+      "signal_id": "RET-SAF-001",
+      "name": "Gastrointestinal tolerability events",
+      "classification": "OBSERVED_TREATMENT_EMERGENT_ADVERSE_EVENT",
+      "evidence_strength": "HIGH_FOR_FREQUENCY_PATTERN",
+      "observed_pattern": "Nausea, diarrhoea, constipation and vomiting were common, generally dose-related, and concentrated around escalation in published and phase 3 datasets.",
+      "monitoring_domains": [
+        "event severity",
+        "persistence",
+        "treatment discontinuation",
+        "hydration-related consequences"
+      ],
+      "evidence_refs": [
+        "RET-EVD-0003",
+        "RET-EVD-0004",
+        "RET-EVD-0007",
+        "RET-EVD-0008"
+      ],
+      "clinical_guardrail": "No dosing or treatment adjustment instruction is encoded."
+    },
+    {
+      "signal_id": "RET-SAF-002",
+      "name": "Heart-rate increase",
+      "classification": "OBSERVED_PHYSIOLOGICAL_SIGNAL",
+      "evidence_strength": "MODERATE",
+      "observed_pattern": "Dose-dependent heart-rate increases were observed in the phase 2 obesity trial, peaking during follow-up and declining thereafter; long-term clinical significance remains unresolved.",
+      "monitoring_domains": [
+        "resting heart rate",
+        "cardiovascular symptoms",
+        "trial-level cardiovascular outcomes"
+      ],
+      "evidence_refs": [
+        "RET-EVD-0003",
+        "RET-EVD-0010",
+        "NCT06383390"
+      ],
+      "clinical_guardrail": "This is a research surveillance field, not a diagnostic or treatment rule."
+    },
+    {
+      "signal_id": "RET-SAF-003",
+      "name": "Dysesthesia",
+      "classification": "OBSERVED_TREATMENT_EMERGENT_ADVERSE_EVENT",
+      "evidence_strength": "MODERATE_PHASE_3",
+      "observed_pattern": "Sponsor-reported phase 3 datasets describe dysesthesia, generally mild to moderate and often resolving during treatment.",
+      "monitoring_domains": [
+        "onset",
+        "severity",
+        "persistence",
+        "functional impact",
+        "discontinuation"
+      ],
+      "evidence_refs": [
+        "RET-EVD-0007",
+        "RET-EVD-0008",
+        "LILLY-TRIUMPH-4-2025"
+      ],
+      "clinical_guardrail": "Sponsor-reported findings remain separated from approved-label claims."
+    },
+    {
+      "signal_id": "RET-SAF-004",
+      "name": "Adverse-event-related discontinuation",
+      "classification": "INTEGRATED_TOLERABILITY_OUTCOME",
+      "evidence_strength": "HIGH_FOR_TRIAL_OBSERVATION",
+      "observed_pattern": "Discontinuation due to adverse events varied by dose, population and trial; interpretation requires the exact trial denominator and estimand.",
+      "monitoring_domains": [
+        "reason for discontinuation",
+        "dose group",
+        "baseline BMI",
+        "trial population"
+      ],
+      "evidence_refs": [
+        "RET-EVD-0003",
+        "RET-EVD-0007",
+        "RET-EVD-0008",
+        "LILLY-TRIUMPH-4-2025"
+      ],
+      "clinical_guardrail": "Rates are not pooled across heterogeneous trials."
+    },
+    {
+      "signal_id": "RET-SAF-005",
+      "name": "Potential excessive or rapid weight reduction",
+      "classification": "OUTCOME_REQUIRING_SAFETY_CONTEXT",
+      "evidence_strength": "MODERATE_SPONSOR_REPORTED",
+      "observed_pattern": "TRIUMPH-4 sponsor reporting noted discontinuations that included perceived excessive weight loss and dependence on baseline BMI.",
+      "monitoring_domains": [
+        "weight trajectory",
+        "baseline BMI",
+        "functional status",
+        "discontinuation reason"
+      ],
+      "evidence_refs": [
+        "LILLY-TRIUMPH-4-2025"
+      ],
+      "clinical_guardrail": "No target weight-loss rate or management instruction is encoded."
+    },
+    {
+      "signal_id": "RET-SAF-006",
+      "name": "Hypoglycaemia context in type 2 diabetes",
+      "classification": "CONTEXT_DEPENDENT_SIGNAL_UNDER_STUDY",
+      "evidence_strength": "INCOMPLETE",
+      "observed_pattern": "Glycaemic outcomes and hypoglycaemia require trial- and background-therapy-specific interpretation; dedicated mechanistic study remains relevant.",
+      "monitoring_domains": [
+        "documented glucose events",
+        "background glucose-lowering therapy",
+        "event severity"
+      ],
+      "evidence_refs": [
+        "RET-EVD-0004",
+        "RET-EVD-0007"
+      ],
+      "clinical_guardrail": "No universal risk statement is inferred across populations."
+    },
+    {
+      "signal_id": "RET-SAF-007",
+      "name": "Pancreatitis history as trial eligibility exclusion",
+      "classification": "TRIAL_EXCLUSION_NOT_ESTABLISHED_PRODUCT_CONTRAINDICATION",
+      "evidence_strength": "OFFICIAL_REGISTRY",
+      "observed_pattern": "Published trial registry eligibility criteria excluded participants with a history of pancreatitis in relevant studies.",
+      "monitoring_domains": [
+        "protocol eligibility provenance",
+        "case ascertainment"
+      ],
+      "evidence_refs": [
+        "NCT04881760",
+        "NCT04867785"
+      ],
+      "clinical_guardrail": "Trial exclusion is not represented as an approved retatrutide contraindication."
+    },
+    {
+      "signal_id": "RET-SAF-008",
+      "name": "Cardiovascular and renal outcome uncertainty",
+      "classification": "MAJOR_OUTCOME_UNRESOLVED",
+      "evidence_strength": "ONGOING_PHASE_3",
+      "observed_pattern": "Dedicated cardiovascular and renal outcome trials are ongoing; surrogate-factor changes must not be represented as proven event reduction.",
+      "monitoring_domains": [
+        "major adverse cardiovascular events",
+        "kidney function outcomes",
+        "trial completion status"
+      ],
+      "evidence_refs": [
+        "RET-EVD-0010",
+        "NCT06383390"
+      ],
+      "clinical_guardrail": "No cardiovascular or renal benefit claim is permitted before outcome evidence is available."
+    }
+  ]
+}

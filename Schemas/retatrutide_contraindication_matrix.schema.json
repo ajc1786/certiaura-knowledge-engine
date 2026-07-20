@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Retatrutide contraindication and precaution matrix",
+  "type": "object",
+  "required": [
+    "approved_label_exists",
+    "entries"
+  ],
+  "properties": {
+    "approved_label_exists": {
+      "const": false
+    },
+    "entries": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "entry_id",
+          "category",
+          "status",
+          "statement",
+          "evidence_refs",
+          "governance_action"
+        ]
+      }
+    }
+  }
+}

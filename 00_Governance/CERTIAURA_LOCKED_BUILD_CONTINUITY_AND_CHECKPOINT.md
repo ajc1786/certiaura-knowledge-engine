@@ -803,14 +803,12 @@ Do not represent Build 0040 as closed until:
 This document remains locked by explicit founder instruction. No release tool, assistant or collaborator may weaken the Build 0040 release gates without an explicit recorded amendment.
 
 <!-- CERTIAURA_ACTIVE_CHECKPOINT_BEGIN -->
-## Active continuation checkpoint - Build 0041 closed
+## Active continuation checkpoint - Build 0042
 
-- Last closed build: **0041 - retatrutide evidence corpus citation graph and scientific review baseline**.
-- State: `ACTIONS_GREEN_CLOSED`.
-- Canonical import commit: `a63fe923160e5bface3f794f068cbfaeb7a3cd9f`.
-- Close-out evidence commit: `6fb136094f2705608b4afd302c4bae16a56ccbea`.
-- Canonical import GitHub Actions: **GREEN**.
-- Close-out evidence GitHub Actions: **GREEN**.
-- Lessons-learned controls: **VERIFIED**.
-- Immediate next action: begin Build 0042 - Retatrutide safety, monitoring, contraindication and clinical-outcome integration baseline.
+- Last closed build: **0041** at `eb6ef1ad3f5f3e95accd6f1b01d392548e8e9174` (`ACTIONS_GREEN_CLOSED`).
+- Current build: **0042 - retatrutide safety monitoring contraindication and clinical-outcome integration baseline**.
+- Current state after import: `IMPORTED` pending validation, commit, push, GitHub Actions and lessons-learned closure.
+- Immediate next action: complete post-import validation and commit using the locked message.
+- Closure gate: do not set `ACTIONS_GREEN_CLOSED` until actual import evidence and lessons-learned controls are verified.
+- Following planned package: Build 0043 - retatrutide patient journey report generation and AI query integration baseline.
 <!-- CERTIAURA_ACTIVE_CHECKPOINT_END -->

@@ -1,0 +1,13 @@
+{
+  "approved_label_exists": true,
+  "entries": [
+    {
+      "entry_id": "RET-CON-X",
+      "category": "APPROVED_LABEL_CONTRAINDICATIONS",
+      "status": "ESTABLISHED",
+      "statement": "approved contraindication",
+      "evidence_refs": [],
+      "governance_action": ""
+    }
+  ]
+}

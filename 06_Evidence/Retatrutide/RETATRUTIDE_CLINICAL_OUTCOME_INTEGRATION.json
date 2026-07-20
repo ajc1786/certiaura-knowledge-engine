@@ -1,0 +1,108 @@
+{
+  "schema_version": "1.0.0",
+  "compound": "Retatrutide",
+  "status": "EVIDENCE_MATURITY_CONTROLLED",
+  "investigational_status_notice": "Retatrutide remains investigational, has no approved product label, and is not approved for public use. This asset is evidence intelligence, not prescribing guidance.",
+  "outcomes": [
+    {
+      "outcome_id": "RET-OUT-001",
+      "domain": "Body weight - phase 2 obesity",
+      "result_summary": "Phase 2 randomised evidence reported substantial dose-dependent weight reduction through 48 weeks, with the highest-dose group reaching approximately 24% mean reduction.",
+      "evidence_status": "PEER_REVIEWED",
+      "evidence_refs": [
+        "RET-EVD-0003"
+      ],
+      "safety_links": [
+        "RET-SAF-001",
+        "RET-SAF-002",
+        "RET-SAF-004"
+      ]
+    },
+    {
+      "outcome_id": "RET-OUT-002",
+      "domain": "Body weight - TRIUMPH-1",
+      "result_summary": "Sponsor-reported phase 3 topline results described approximately 28% mean weight reduction at 80 weeks in the 12 mg arm.",
+      "evidence_status": "SPONSOR_TOPLINE_PENDING_FULL_PEER_REVIEW",
+      "evidence_refs": [
+        "RET-EVD-0008"
+      ],
+      "safety_links": [
+        "RET-SAF-001",
+        "RET-SAF-003",
+        "RET-SAF-004",
+        "RET-SAF-005"
+      ]
+    },
+    {
+      "outcome_id": "RET-OUT-003",
+      "domain": "Type 2 diabetes glycaemic and weight outcomes",
+      "result_summary": "Phase 2 and phase 3 randomised evidence supports reductions in HbA1c and body weight, with interpretation tied to population, dose group and background therapy.",
+      "evidence_status": "PEER_REVIEWED_PHASE_2_AND_PHASE_3",
+      "evidence_refs": [
+        "RET-EVD-0004",
+        "RET-EVD-0007"
+      ],
+      "safety_links": [
+        "RET-SAF-001",
+        "RET-SAF-003",
+        "RET-SAF-006"
+      ]
+    },
+    {
+      "outcome_id": "RET-OUT-004",
+      "domain": "Knee osteoarthritis pain",
+      "result_summary": "Sponsor-reported TRIUMPH-4 results indicate improvement in weight and osteoarthritis pain; complete peer-reviewed interpretation remains required.",
+      "evidence_status": "SPONSOR_TOPLINE",
+      "evidence_refs": [
+        "LILLY-TRIUMPH-4-2025",
+        "RET-EVD-0009"
+      ],
+      "safety_links": [
+        "RET-SAF-001",
+        "RET-SAF-003",
+        "RET-SAF-004",
+        "RET-SAF-005"
+      ]
+    },
+    {
+      "outcome_id": "RET-OUT-005",
+      "domain": "Obstructive sleep apnoea",
+      "result_summary": "TRIUMPH-1 included an obstructive sleep apnoea basket study; outcome claims remain evidence-version controlled.",
+      "evidence_status": "SPONSOR_REPORTED_AND_REGISTRY",
+      "evidence_refs": [
+        "RET-EVD-0008",
+        "RET-EVD-0009"
+      ],
+      "safety_links": [
+        "RET-SAF-004",
+        "RET-SAF-005"
+      ]
+    },
+    {
+      "outcome_id": "RET-OUT-006",
+      "domain": "Metabolic liver disease",
+      "result_summary": "Phase 2a evidence supports liver-fat and metabolic outcome assessment; it does not establish an approved indication.",
+      "evidence_status": "PEER_REVIEWED_PHASE_2A",
+      "evidence_refs": [
+        "RET-EVD-0005"
+      ],
+      "safety_links": [
+        "RET-SAF-004"
+      ]
+    },
+    {
+      "outcome_id": "RET-OUT-007",
+      "domain": "Cardiovascular and renal clinical outcomes",
+      "result_summary": "Definitive event-reduction evidence is not established; dedicated outcome trials are ongoing.",
+      "evidence_status": "UNRESOLVED_ONGOING_TRIALS",
+      "evidence_refs": [
+        "RET-EVD-0010",
+        "NCT06383390"
+      ],
+      "safety_links": [
+        "RET-SAF-002",
+        "RET-SAF-008"
+      ]
+    }
+  ]
+}

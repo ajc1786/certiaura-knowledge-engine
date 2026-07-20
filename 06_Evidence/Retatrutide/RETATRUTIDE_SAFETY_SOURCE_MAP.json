@@ -1,0 +1,68 @@
+{
+  "schema_version": "1.0.0",
+  "compound": "Retatrutide",
+  "generated_on": "2026-07-20",
+  "investigational_status_notice": "Retatrutide remains investigational, has no approved product label, and is not approved for public use. This asset is evidence intelligence, not prescribing guidance.",
+  "sources": {
+    "RET-EVD-0003": {
+      "title": "Triple-Hormone-Receptor Agonist Retatrutide for Obesity - A Phase 2 Trial",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2301972",
+      "tier": "PEER_REVIEWED_RANDOMISED_PHASE_2"
+    },
+    "RET-EVD-0004": {
+      "title": "Retatrutide for people with type 2 diabetes - phase 2 trial",
+      "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(23)01053-X/fulltext",
+      "tier": "PEER_REVIEWED_RANDOMISED_PHASE_2"
+    },
+    "RET-EVD-0005": {
+      "title": "Retatrutide for metabolic dysfunction-associated steatotic liver disease - phase 2a",
+      "url": "https://clinicaltrials.gov/study/NCT05042154",
+      "tier": "PEER_REVIEWED_RANDOMISED_PHASE_2A"
+    },
+    "RET-EVD-0007": {
+      "title": "TRANSCEND-T2D-1 phase 3 trial",
+      "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)00967-0/abstract",
+      "tier": "PEER_REVIEWED_RANDOMISED_PHASE_3"
+    },
+    "RET-EVD-0008": {
+      "title": "TRIUMPH-1 phase 3 topline results",
+      "url": "https://investor.lilly.com/news-releases/news-release-details/lillys-triple-agonist-retatrutide-delivered-powerful-weight-loss",
+      "tier": "SPONSOR_TOPLINE_PHASE_3"
+    },
+    "RET-EVD-0009": {
+      "title": "TRIUMPH registrational programme rationale and design",
+      "url": "https://clinicaltrials.gov/study/NCT05929066",
+      "tier": "OFFICIAL_TRIAL_REGISTRY"
+    },
+    "RET-EVD-0010": {
+      "title": "TRIUMPH-3 cardiovascular disease trial",
+      "url": "https://clinicaltrials.gov/study/NCT05882045",
+      "tier": "OFFICIAL_TRIAL_REGISTRY"
+    },
+    "RET-EVD-0012": {
+      "title": "Lilly medically reviewed retatrutide status statement",
+      "url": "https://www.lilly.com/news/stories/what-to-know-about-retatrutide",
+      "tier": "OFFICIAL_DEVELOPER_STATUS"
+    },
+    "NCT04881760": {
+      "title": "Phase 2 obesity trial registry",
+      "url": "https://clinicaltrials.gov/study/NCT04881760",
+      "tier": "OFFICIAL_TRIAL_REGISTRY"
+    },
+    "NCT04867785": {
+      "title": "Phase 2 type 2 diabetes trial registry",
+      "url": "https://clinicaltrials.gov/study/NCT04867785",
+      "tier": "OFFICIAL_TRIAL_REGISTRY"
+    },
+    "NCT06383390": {
+      "title": "Cardiovascular and renal outcomes trial",
+      "url": "https://clinicaltrials.gov/study/NCT06383390",
+      "tier": "OFFICIAL_TRIAL_REGISTRY"
+    },
+    "LILLY-TRIUMPH-4-2025": {
+      "title": "TRIUMPH-4 sponsor-reported phase 3 results",
+      "url": "https://investor.lilly.com/news-releases/news-release-details/lillys-triple-agonist-retatrutide-delivered-weight-loss-average",
+      "tier": "SPONSOR_TOPLINE_PHASE_3"
+    }
+  }
+}

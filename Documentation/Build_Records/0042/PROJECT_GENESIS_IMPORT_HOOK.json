@@ -1,0 +1,9 @@
+{
+  "build_number": "0042",
+  "installed_importer_contract": "13_Project_Genesis/Import/transactional_build_import.py",
+  "package_runner": "13_Project_Genesis/Import/run_build_0042_import.py",
+  "dry_run_required": true,
+  "transactional_apply_required": true,
+  "register_reconciliation_required": true,
+  "rollback_required": true
+}

@@ -1,0 +1,10 @@
+{
+  "signal_id": "RET-SAF-XXX",
+  "name": "",
+  "classification": "",
+  "evidence_strength": "",
+  "observed_pattern": "",
+  "monitoring_domains": [],
+  "evidence_refs": [],
+  "clinical_guardrail": "No dosing or treatment instruction."
+}

@@ -1,0 +1,330 @@
+{
+  "schema_version": "1.0.0",
+  "compound": "Retatrutide",
+  "nodes": [
+    {
+      "id": "RET-SAF-001",
+      "type": "SAFETY_SIGNAL"
+    },
+    {
+      "id": "RET-SAF-002",
+      "type": "SAFETY_SIGNAL"
+    },
+    {
+      "id": "RET-SAF-003",
+      "type": "SAFETY_SIGNAL"
+    },
+    {
+      "id": "RET-SAF-004",
+      "type": "SAFETY_SIGNAL"
+    },
+    {
+      "id": "RET-SAF-005",
+      "type": "SAFETY_SIGNAL"
+    },
+    {
+      "id": "RET-SAF-006",
+      "type": "SAFETY_SIGNAL"
+    },
+    {
+      "id": "RET-SAF-007",
+      "type": "SAFETY_SIGNAL"
+    },
+    {
+      "id": "RET-SAF-008",
+      "type": "SAFETY_SIGNAL"
+    },
+    {
+      "id": "RET-OUT-001",
+      "type": "CLINICAL_OUTCOME"
+    },
+    {
+      "id": "RET-OUT-002",
+      "type": "CLINICAL_OUTCOME"
+    },
+    {
+      "id": "RET-OUT-003",
+      "type": "CLINICAL_OUTCOME"
+    },
+    {
+      "id": "RET-OUT-004",
+      "type": "CLINICAL_OUTCOME"
+    },
+    {
+      "id": "RET-OUT-005",
+      "type": "CLINICAL_OUTCOME"
+    },
+    {
+      "id": "RET-OUT-006",
+      "type": "CLINICAL_OUTCOME"
+    },
+    {
+      "id": "RET-OUT-007",
+      "type": "CLINICAL_OUTCOME"
+    }
+  ],
+  "edges": [
+    {
+      "source": "RET-OUT-001",
+      "relationship": "HAS_SAFETY_CONTEXT",
+      "target": "RET-SAF-001"
+    },
+    {
+      "source": "RET-OUT-001",
+      "relationship": "HAS_SAFETY_CONTEXT",
+      "target": "RET-SAF-002"
+    },
+    {
+      "source": "RET-OUT-001",
+      "relationship": "HAS_SAFETY_CONTEXT",
+      "target": "RET-SAF-004"
+    },
+    {
+      "source": "RET-OUT-002",
+      "relationship": "HAS_SAFETY_CONTEXT",
+      "target": "RET-SAF-001"
+    },
+    {
+      "source": "RET-OUT-002",
+      "relationship": "HAS_SAFETY_CONTEXT",
+      "target": "RET-SAF-003"
+    },
+    {
+      "source": "RET-OUT-002",
+      "relationship": "HAS_SAFETY_CONTEXT",
+      "target": "RET-SAF-004"
+    },
+    {
+      "source": "RET-OUT-002",
+      "relationship": "HAS_SAFETY_CONTEXT",
+      "target": "RET-SAF-005"
+    },
+    {
+      "source": "RET-OUT-003",
+      "relationship": "HAS_SAFETY_CONTEXT",
+      "target": "RET-SAF-001"
+    },
+    {
+      "source": "RET-OUT-003",
+      "relationship": "HAS_SAFETY_CONTEXT",
+      "target": "RET-SAF-003"
+    },
+    {
+      "source": "RET-OUT-003",
+      "relationship": "HAS_SAFETY_CONTEXT",
+      "target": "RET-SAF-006"
+    },
+    {
+      "source": "RET-OUT-004",
+      "relationship": "HAS_SAFETY_CONTEXT",
+      "target": "RET-SAF-001"
+    },
+    {
+      "source": "RET-OUT-004",
+      "relationship": "HAS_SAFETY_CONTEXT",
+      "target": "RET-SAF-003"
+    },
+    {
+      "source": "RET-OUT-004",
+      "relationship": "HAS_SAFETY_CONTEXT",
+      "target": "RET-SAF-004"
+    },
+    {
+      "source": "RET-OUT-004",
+      "relationship": "HAS_SAFETY_CONTEXT",
+      "target": "RET-SAF-005"
+    },
+    {
+      "source": "RET-OUT-005",
+      "relationship": "HAS_SAFETY_CONTEXT",
+      "target": "RET-SAF-004"
+    },
+    {
+      "source": "RET-OUT-005",
+      "relationship": "HAS_SAFETY_CONTEXT",
+      "target": "RET-SAF-005"
+    },
+    {
+      "source": "RET-OUT-006",
+      "relationship": "HAS_SAFETY_CONTEXT",
+      "target": "RET-SAF-004"
+    },
+    {
+      "source": "RET-OUT-007",
+      "relationship": "HAS_SAFETY_CONTEXT",
+      "target": "RET-SAF-002"
+    },
+    {
+      "source": "RET-OUT-007",
+      "relationship": "HAS_SAFETY_CONTEXT",
+      "target": "RET-SAF-008"
+    }
+  ],
+  "evidence_edges": [
+    {
+      "source": "RET-SAF-001",
+      "relationship": "HAS_EVIDENCE",
+      "target": "RET-EVD-0003"
+    },
+    {
+      "source": "RET-SAF-001",
+      "relationship": "HAS_EVIDENCE",
+      "target": "RET-EVD-0004"
+    },
+    {
+      "source": "RET-SAF-001",
+      "relationship": "HAS_EVIDENCE",
+      "target": "RET-EVD-0007"
+    },
+    {
+      "source": "RET-SAF-001",
+      "relationship": "HAS_EVIDENCE",
+      "target": "RET-EVD-0008"
+    },
+    {
+      "source": "RET-SAF-002",
+      "relationship": "HAS_EVIDENCE",
+      "target": "RET-EVD-0003"
+    },
+    {
+      "source": "RET-SAF-002",
+      "relationship": "HAS_EVIDENCE",
+      "target": "RET-EVD-0010"
+    },
+    {
+      "source": "RET-SAF-002",
+      "relationship": "HAS_EVIDENCE",
+      "target": "NCT06383390"
+    },
+    {
+      "source": "RET-SAF-003",
+      "relationship": "HAS_EVIDENCE",
+      "target": "RET-EVD-0007"
+    },
+    {
+      "source": "RET-SAF-003",
+      "relationship": "HAS_EVIDENCE",
+      "target": "RET-EVD-0008"
+    },
+    {
+      "source": "RET-SAF-003",
+      "relationship": "HAS_EVIDENCE",
+      "target": "LILLY-TRIUMPH-4-2025"
+    },
+    {
+      "source": "RET-SAF-004",
+      "relationship": "HAS_EVIDENCE",
+      "target": "RET-EVD-0003"
+    },
+    {
+      "source": "RET-SAF-004",
+      "relationship": "HAS_EVIDENCE",
+      "target": "RET-EVD-0007"
+    },
+    {
+      "source": "RET-SAF-004",
+      "relationship": "HAS_EVIDENCE",
+      "target": "RET-EVD-0008"
+    },
+    {
+      "source": "RET-SAF-004",
+      "relationship": "HAS_EVIDENCE",
+      "target": "LILLY-TRIUMPH-4-2025"
+    },
+    {
+      "source": "RET-SAF-005",
+      "relationship": "HAS_EVIDENCE",
+      "target": "LILLY-TRIUMPH-4-2025"
+    },
+    {
+      "source": "RET-SAF-006",
+      "relationship": "HAS_EVIDENCE",
+      "target": "RET-EVD-0004"
+    },
+    {
+      "source": "RET-SAF-006",
+      "relationship": "HAS_EVIDENCE",
+      "target": "RET-EVD-0007"
+    },
+    {
+      "source": "RET-SAF-007",
+      "relationship": "HAS_EVIDENCE",
+      "target": "NCT04881760"
+    },
+    {
+      "source": "RET-SAF-007",
+      "relationship": "HAS_EVIDENCE",
+      "target": "NCT04867785"
+    },
+    {
+      "source": "RET-SAF-008",
+      "relationship": "HAS_EVIDENCE",
+      "target": "RET-EVD-0010"
+    },
+    {
+      "source": "RET-SAF-008",
+      "relationship": "HAS_EVIDENCE",
+      "target": "NCT06383390"
+    },
+    {
+      "source": "RET-OUT-001",
+      "relationship": "HAS_EVIDENCE",
+      "target": "RET-EVD-0003"
+    },
+    {
+      "source": "RET-OUT-002",
+      "relationship": "HAS_EVIDENCE",
+      "target": "RET-EVD-0008"
+    },
+    {
+      "source": "RET-OUT-003",
+      "relationship": "HAS_EVIDENCE",
+      "target": "RET-EVD-0004"
+    },
+    {
+      "source": "RET-OUT-003",
+      "relationship": "HAS_EVIDENCE",
+      "target": "RET-EVD-0007"
+    },
+    {
+      "source": "RET-OUT-004",
+      "relationship": "HAS_EVIDENCE",
+      "target": "LILLY-TRIUMPH-4-2025"
+    },
+    {
+      "source": "RET-OUT-004",
+      "relationship": "HAS_EVIDENCE",
+      "target": "RET-EVD-0009"
+    },
+    {
+      "source": "RET-OUT-005",
+      "relationship": "HAS_EVIDENCE",
+      "target": "RET-EVD-0008"
+    },
+    {
+      "source": "RET-OUT-005",
+      "relationship": "HAS_EVIDENCE",
+      "target": "RET-EVD-0009"
+    },
+    {
+      "source": "RET-OUT-006",
+      "relationship": "HAS_EVIDENCE",
+      "target": "RET-EVD-0005"
+    },
+    {
+      "source": "RET-OUT-007",
+      "relationship": "HAS_EVIDENCE",
+      "target": "RET-EVD-0010"
+    },
+    {
+      "source": "RET-OUT-007",
+      "relationship": "HAS_EVIDENCE",
+      "target": "NCT06383390"
+    }
+  ],
+  "guardrails": [
+    "No approved-label contraindication claim",
+    "No personal dosing or monitoring instruction",
+    "No cardiovascular or renal event-reduction claim before outcome evidence"
+  ]
+}

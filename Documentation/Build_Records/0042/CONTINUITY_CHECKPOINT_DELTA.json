@@ -1,0 +1,17 @@
+{
+  "last_closed_build": {
+    "build_number": "0041",
+    "state": "ACTIONS_GREEN_CLOSED",
+    "commit": "eb6ef1ad3f5f3e95accd6f1b01d392548e8e9174"
+  },
+  "current_build": {
+    "build_number": "0042",
+    "title": "retatrutide safety monitoring contraindication and clinical-outcome integration baseline",
+    "state": "DELIVERED"
+  },
+  "immediate_next_action": "Import through the Build 0042 implementation launcher.",
+  "following_planned_build": {
+    "build_number": "0043",
+    "title": "retatrutide patient journey report generation and AI query integration baseline"
+  }
+}

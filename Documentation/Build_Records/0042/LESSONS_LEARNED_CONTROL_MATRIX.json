@@ -1,0 +1,48 @@
+{
+  "build_number": "0042",
+  "controls": [
+    {
+      "control_id": "B0042-LL-001",
+      "control": "ASCII-only executable scripts and native parser precheck",
+      "status": "IMPLEMENTED_PENDING_CANONICAL_VERIFICATION"
+    },
+    {
+      "control_id": "B0042-LL-002",
+      "control": "Adjacent inner ZIP exact SHA-256 resolution only",
+      "status": "IMPLEMENTED_PENDING_CANONICAL_VERIFICATION"
+    },
+    {
+      "control_id": "B0042-LL-003",
+      "control": "Known PowerShell/CMD regression pattern rejection",
+      "status": "IMPLEMENTED_PENDING_CANONICAL_VERIFICATION"
+    },
+    {
+      "control_id": "B0042-LL-004",
+      "control": "Central trailing-whitespace stripping plus both Git diff checks",
+      "status": "IMPLEMENTED_PENDING_CANONICAL_VERIFICATION"
+    },
+    {
+      "control_id": "B0042-LL-005",
+      "control": "Trial exclusion versus approved contraindication separation",
+      "status": "IMPLEMENTED_PENDING_CANONICAL_VERIFICATION"
+    },
+    {
+      "control_id": "B0042-LL-006",
+      "control": "Evidence maturity separation for peer-reviewed, sponsor topline and ongoing trials",
+      "status": "IMPLEMENTED_PENDING_CANONICAL_VERIFICATION"
+    },
+    {
+      "control_id": "B0042-LL-007",
+      "control": "No personal dosing, treatment or diagnostic instructions",
+      "status": "IMPLEMENTED_PENDING_CANONICAL_VERIFICATION"
+    },
+    {
+      "control_id": "B0042-LL-008",
+      "control": "State-aware import and two-stage close-out automation",
+      "status": "IMPLEMENTED_PENDING_CANONICAL_VERIFICATION"
+    }
+  ],
+  "closure_verification": {
+    "status": "PENDING_CANONICAL_IMPORT"
+  }
+}

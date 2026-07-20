@@ -1,0 +1,131 @@
+{
+  "schema_version": "1.0.0",
+  "compound": "Retatrutide",
+  "purpose": "Evidence-intelligence monitoring domains only",
+  "investigational_status_notice": "Retatrutide remains investigational, has no approved product label, and is not approved for public use. This asset is evidence intelligence, not prescribing guidance.",
+  "domains": [
+    {
+      "domain_id": "RET-MON-001",
+      "domain": "Gastrointestinal tolerability",
+      "purpose": "Structure trial and evidence review of gastrointestinal adverse events.",
+      "data_elements": [
+        "event term",
+        "severity",
+        "onset relative to escalation",
+        "duration",
+        "seriousness",
+        "discontinuation"
+      ],
+      "trigger_type": "EVIDENCE_REVIEW_ONLY",
+      "evidence_refs": [
+        "RET-SAF-001"
+      ],
+      "prohibited_output": [
+        "dose change instruction",
+        "self-treatment advice"
+      ]
+    },
+    {
+      "domain_id": "RET-MON-002",
+      "domain": "Cardiovascular physiology",
+      "purpose": "Track heart-rate and cardiovascular-symptom evidence without converting it into clinical advice.",
+      "data_elements": [
+        "resting heart rate",
+        "change from baseline",
+        "time point",
+        "symptom context",
+        "adjudicated outcome status"
+      ],
+      "trigger_type": "EVIDENCE_REVIEW_ONLY",
+      "evidence_refs": [
+        "RET-SAF-002",
+        "RET-SAF-008"
+      ],
+      "prohibited_output": [
+        "diagnosis",
+        "treatment threshold"
+      ]
+    },
+    {
+      "domain_id": "RET-MON-003",
+      "domain": "Weight trajectory and body composition",
+      "purpose": "Integrate efficacy trajectory with tolerability and discontinuation context.",
+      "data_elements": [
+        "baseline weight",
+        "percent change",
+        "time point",
+        "baseline BMI",
+        "body composition method",
+        "discontinuation reason"
+      ],
+      "trigger_type": "EVIDENCE_REVIEW_ONLY",
+      "evidence_refs": [
+        "RET-SAF-004",
+        "RET-SAF-005"
+      ],
+      "prohibited_output": [
+        "personal target",
+        "prescriptive rate"
+      ]
+    },
+    {
+      "domain_id": "RET-MON-004",
+      "domain": "Glycaemic outcomes and hypoglycaemia",
+      "purpose": "Separate trial glycaemic outcomes from context-dependent safety events.",
+      "data_elements": [
+        "HbA1c change",
+        "fasting glucose",
+        "documented hypoglycaemia",
+        "background therapy",
+        "population"
+      ],
+      "trigger_type": "EVIDENCE_REVIEW_ONLY",
+      "evidence_refs": [
+        "RET-SAF-006"
+      ],
+      "prohibited_output": [
+        "medication adjustment",
+        "individual glucose target"
+      ]
+    },
+    {
+      "domain_id": "RET-MON-005",
+      "domain": "Neurological sensory events",
+      "purpose": "Capture dysesthesia frequency, severity, resolution and discontinuation.",
+      "data_elements": [
+        "event definition",
+        "severity",
+        "time to onset",
+        "resolution",
+        "functional impact"
+      ],
+      "trigger_type": "EVIDENCE_REVIEW_ONLY",
+      "evidence_refs": [
+        "RET-SAF-003"
+      ],
+      "prohibited_output": [
+        "diagnosis",
+        "treatment instruction"
+      ]
+    },
+    {
+      "domain_id": "RET-MON-006",
+      "domain": "Investigational product identity and provenance",
+      "purpose": "Prevent unapproved or illicit product claims from entering scientific assets.",
+      "data_elements": [
+        "regulatory status",
+        "source provenance",
+        "trial sponsor",
+        "batch identity if trial-authorised"
+      ],
+      "trigger_type": "GOVERNANCE_BLOCK",
+      "evidence_refs": [
+        "RET-EVD-0012"
+      ],
+      "prohibited_output": [
+        "supplier endorsement",
+        "public-use instruction"
+      ]
+    }
+  ]
+}

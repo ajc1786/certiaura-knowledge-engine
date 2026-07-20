@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.0.0",
+  "compound": "Retatrutide",
+  "event_fields": [
+    "event_id",
+    "domain_id",
+    "population",
+    "trial_identifier",
+    "dose_group_as_reported",
+    "time_point_as_reported",
+    "event_term",
+    "severity_as_reported",
+    "seriousness_as_reported",
+    "outcome_as_reported",
+    "evidence_ref",
+    "review_status"
+  ],
+  "required_provenance": [
+    "source identifier",
+    "source URL",
+    "retrieval date",
+    "reviewer"
+  ],
+  "prohibited_fields": [
+    "personal dose recommendation",
+    "self-administration instruction",
+    "treatment adjustment",
+    "diagnostic conclusion"
+  ],
+  "investigational_status_notice": "Retatrutide remains investigational, has no approved product label, and is not approved for public use. This asset is evidence intelligence, not prescribing guidance."
+}

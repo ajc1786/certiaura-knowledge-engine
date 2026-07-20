@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Retatrutide safety signal matrix",
+  "type": "object",
+  "required": [
+    "compound",
+    "investigational_status_notice",
+    "signals"
+  ],
+  "properties": {
+    "compound": {
+      "const": "Retatrutide"
+    },
+    "signals": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "signal_id",
+          "classification",
+          "observed_pattern",
+          "evidence_refs",
+          "clinical_guardrail"
+        ]
+      }
+    }
+  }
+}

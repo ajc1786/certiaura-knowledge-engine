@@ -1,0 +1,12 @@
+{
+  "build_number": "0042",
+  "package_state": "GENERATED",
+  "canonical_state": "NOT_IMPORTED",
+  "scientific_scope": {
+    "safety_signals": 8,
+    "monitoring_domains": 6,
+    "contraindication_entries": 6,
+    "outcomes": 7
+  },
+  "closure_gate": "Actual import, GitHub Actions and lessons verification required."
+}

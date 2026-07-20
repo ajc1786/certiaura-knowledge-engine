@@ -1,0 +1,196 @@
+{
+  "schema_version": "1.0.0",
+  "build_number": "0042",
+  "flat_repository_relative": true,
+  "wrapper_folder": false,
+  "allowed_roots": [
+    "00_Governance",
+    "01_Knowledge_Systems",
+    "02_Peptides",
+    "03_Biology",
+    "04_Conditions",
+    "05_Monitoring",
+    "06_Evidence",
+    "07_Goals",
+    "08_Product_Passports",
+    "09_Cost_Intelligence",
+    "10_Marketplace",
+    "11_Academy",
+    "12_Reports",
+    "13_Project_Genesis",
+    "Assets",
+    "Database",
+    "Documentation",
+    "Images",
+    "Schemas",
+    "Scripts",
+    "Standards",
+    "Templates"
+  ],
+  "routes": [
+    {
+      "path": "01_Knowledge_Systems/SKS/Retatrutide/RETATRUTIDE_CONTRAINDICATION_PRECAUTION_MATRIX.json",
+      "root": "01_Knowledge_Systems"
+    },
+    {
+      "path": "02_Peptides/CERT-PKS-000001_Retatrutide/RETATRUTIDE_SAFETY_MONITORING_INTEGRATION_BASELINE.md",
+      "root": "02_Peptides"
+    },
+    {
+      "path": "05_Monitoring/Retatrutide/RETATRUTIDE_MONITORING_DOMAIN_MATRIX.json",
+      "root": "05_Monitoring"
+    },
+    {
+      "path": "05_Monitoring/Retatrutide/RETATRUTIDE_MONITORING_EVENT_MODEL.json",
+      "root": "05_Monitoring"
+    },
+    {
+      "path": "06_Evidence/Retatrutide/RETATRUTIDE_CLINICAL_OUTCOME_INTEGRATION.json",
+      "root": "06_Evidence"
+    },
+    {
+      "path": "06_Evidence/Retatrutide/RETATRUTIDE_SAFETY_CLAIM_GRAPH.json",
+      "root": "06_Evidence"
+    },
+    {
+      "path": "06_Evidence/Retatrutide/RETATRUTIDE_SAFETY_SIGNAL_MATRIX.json",
+      "root": "06_Evidence"
+    },
+    {
+      "path": "06_Evidence/Retatrutide/RETATRUTIDE_SAFETY_SOURCE_MAP.json",
+      "root": "06_Evidence"
+    },
+    {
+      "path": "13_Project_Genesis/Import/run_build_0042_import.py",
+      "root": "13_Project_Genesis"
+    },
+    {
+      "path": "13_Project_Genesis/Release/run_build_0042_preflight.py",
+      "root": "13_Project_Genesis"
+    },
+    {
+      "path": "13_Project_Genesis/Tests/Fixtures/Build_0042/invalid_approved_contraindication.example.json",
+      "root": "13_Project_Genesis"
+    },
+    {
+      "path": "13_Project_Genesis/Tests/Fixtures/Build_0042/invalid_missing_evidence.example.json",
+      "root": "13_Project_Genesis"
+    },
+    {
+      "path": "13_Project_Genesis/Tests/Fixtures/Build_0042/invalid_prescriptive_monitoring.example.json",
+      "root": "13_Project_Genesis"
+    },
+    {
+      "path": "13_Project_Genesis/Tests/test_build_0042_retatrutide_safety_integration.py",
+      "root": "13_Project_Genesis"
+    },
+    {
+      "path": "13_Project_Genesis/Validators/validate_retatrutide_safety_integration.py",
+      "root": "13_Project_Genesis"
+    },
+    {
+      "path": "Documentation/Build_Records/0042/ASSET_INTENT_MANIFEST.json",
+      "root": "Documentation"
+    },
+    {
+      "path": "Documentation/Build_Records/0042/BUILD_0042_READ_ME_FIRST.md",
+      "root": "Documentation"
+    },
+    {
+      "path": "Documentation/Build_Records/0042/BUILD_MANIFEST.json",
+      "root": "Documentation"
+    },
+    {
+      "path": "Documentation/Build_Records/0042/CHECKSUMS.sha256",
+      "root": "Documentation"
+    },
+    {
+      "path": "Documentation/Build_Records/0042/COMMIT_MESSAGE.txt",
+      "root": "Documentation"
+    },
+    {
+      "path": "Documentation/Build_Records/0042/CONTINUITY_CHECKPOINT_DELTA.json",
+      "root": "Documentation"
+    },
+    {
+      "path": "Documentation/Build_Records/0042/DECISION_RECORD_0042.md",
+      "root": "Documentation"
+    },
+    {
+      "path": "Documentation/Build_Records/0042/LESSONS_LEARNED_CONTROL_MATRIX.json",
+      "root": "Documentation"
+    },
+    {
+      "path": "Documentation/Build_Records/0042/LESSONS_LEARNED_REVIEW.md",
+      "root": "Documentation"
+    },
+    {
+      "path": "Documentation/Build_Records/0042/PACKAGE_INVENTORY.csv",
+      "root": "Documentation"
+    },
+    {
+      "path": "Documentation/Build_Records/0042/PACKAGE_VERSION.json",
+      "root": "Documentation"
+    },
+    {
+      "path": "Documentation/Build_Records/0042/PRE_RELEASE_SYNTHETIC_IMPORT_REPORT.json",
+      "root": "Documentation"
+    },
+    {
+      "path": "Documentation/Build_Records/0042/PRODUCTION_DASHBOARD_UPDATE.json",
+      "root": "Documentation"
+    },
+    {
+      "path": "Documentation/Build_Records/0042/PROJECT_GENESIS_IMPORT_HOOK.json",
+      "root": "Documentation"
+    },
+    {
+      "path": "Documentation/Build_Records/0042/PROPOSED_CHANGE_LOG_ENTRY.md",
+      "root": "Documentation"
+    },
+    {
+      "path": "Documentation/Build_Records/0042/PROPOSED_NEXT_ACTION.md",
+      "root": "Documentation"
+    },
+    {
+      "path": "Documentation/Build_Records/0042/ROLLBACK_RUNBOOK.md",
+      "root": "Documentation"
+    },
+    {
+      "path": "Documentation/Build_Records/0042/ROUTING_MANIFEST.json",
+      "root": "Documentation"
+    },
+    {
+      "path": "Documentation/Build_Records/0042/TEST_REPORT.json",
+      "root": "Documentation"
+    },
+    {
+      "path": "Documentation/Build_Records/0042/VALIDATION_REPORT.json",
+      "root": "Documentation"
+    },
+    {
+      "path": "Schemas/retatrutide_contraindication_matrix.schema.json",
+      "root": "Schemas"
+    },
+    {
+      "path": "Schemas/retatrutide_monitoring_domain.schema.json",
+      "root": "Schemas"
+    },
+    {
+      "path": "Schemas/retatrutide_safety_signal_matrix.schema.json",
+      "root": "Schemas"
+    },
+    {
+      "path": "Scripts/Invoke_Certiaura_Build_0042_Import.ps1",
+      "root": "Scripts"
+    },
+    {
+      "path": "Scripts/Invoke_Certiaura_Build_0042_Preflight.ps1",
+      "root": "Scripts"
+    },
+    {
+      "path": "Templates/RETATRUTIDE_SAFETY_SIGNAL_TEMPLATE.json",
+      "root": "Templates"
+    }
+  ]
+}
