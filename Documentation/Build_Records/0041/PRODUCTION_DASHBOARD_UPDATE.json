@@ -1,0 +1,24 @@
+{
+  "build_number": "0041",
+  "title": "retatrutide evidence corpus citation graph and scientific review baseline",
+  "authorisation": "GREEN_AUTHORISED",
+  "package_state": "GENERATED",
+  "canonical_state": "NOT_IMPORTED",
+  "dependencies": [
+    {
+      "build_number": "0039",
+      "relationship": "uses evidence governance and validators"
+    },
+    {
+      "build_number": "0040",
+      "relationship": "uses release preflight and synthetic import gate"
+    }
+  ],
+  "success_metrics": {
+    "evidence_objects": 12,
+    "claim_rows": 16,
+    "broken_graph_edges": 0,
+    "unclassified_files": 0,
+    "new_uai_hardcoded": 0
+  }
+}

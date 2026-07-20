@@ -1,0 +1,49 @@
+{
+  "evidence_id": "RET-EVD-0003",
+  "title": "Triple-Hormone-Receptor Agonist Retatrutide for Obesity — A Phase 2 Trial",
+  "source_type": "peer_reviewed_journal_article",
+  "publication_status": "published",
+  "peer_review_status": "peer_reviewed",
+  "study_design": "phase 2 randomised double-blind placebo-controlled trial",
+  "primary_identifier": {
+    "type": "PMID",
+    "value": "37366315"
+  },
+  "identifiers": {
+    "pmid": "37366315",
+    "doi": "10.1056/NEJMoa2301972",
+    "nct": "NCT04881760"
+  },
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37366315/",
+  "publication_date": "2023-08-10",
+  "journal_or_registry": "New England Journal of Medicine",
+  "sponsor_or_funder": "Eli Lilly and Company",
+  "population": "338 adults with obesity or overweight and a weight-related condition, without diabetes",
+  "intervention": "once-weekly retatrutide 1 mg, 4 mg, 8 mg or 12 mg with differing starting doses",
+  "comparator": "placebo",
+  "duration": "48 weeks",
+  "key_results": [
+    "At 48 weeks, mean bodyweight change at 12 mg was approximately -24.2% versus -2.1% with placebo.",
+    "Weight reduction had not clearly plateaued at the end of the trial."
+  ],
+  "safety_findings": [
+    "Gastrointestinal adverse events were the most common and were dose related.",
+    "Dose-dependent increases in heart rate were observed and later declined after peaking."
+  ],
+  "limitations": [
+    "Phase 2 size and duration; not designed to establish long-term cardiovascular outcomes or regulatory approval."
+  ],
+  "claim_support": [
+    "RET-CLM-OBE-001",
+    "RET-CLM-SAF-001",
+    "RET-CLM-SAF-002"
+  ],
+  "evidence_tier": "TIER_1_RANDOMISED_PRIMARY",
+  "review_status": "SCIENTIFIC_REVIEW_BASELINE_ACCEPTED",
+  "provenance": {
+    "retrieved_on": "2026-07-20",
+    "retrieved_by": "Certiaura Build 0041",
+    "verification_method": "PMID, DOI and NCT cross-check"
+  },
+  "investigational_status_notice": "Retatrutide remains investigational and is not approved for public use."
+}

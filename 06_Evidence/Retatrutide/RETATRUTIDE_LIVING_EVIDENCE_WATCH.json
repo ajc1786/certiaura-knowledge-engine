@@ -1,0 +1,70 @@
+{
+  "schema_version": "1.0.0",
+  "watch_id": "RET-LIVING-EVIDENCE-WATCH-001",
+  "compound": "Retatrutide",
+  "status": "ACTIVE",
+  "baseline_date": "2026-07-20",
+  "sources": [
+    {
+      "source": "PubMed",
+      "query": "retatrutide OR LY3437943",
+      "frequency": "weekly",
+      "priority": "HIGH"
+    },
+    {
+      "source": "ClinicalTrials.gov",
+      "query": "retatrutide OR LY3437943",
+      "frequency": "weekly",
+      "priority": "HIGH"
+    },
+    {
+      "source": "FDA",
+      "query": "retatrutide",
+      "frequency": "weekly",
+      "priority": "CRITICAL_REGULATORY"
+    },
+    {
+      "source": "MHRA",
+      "query": "retatrutide",
+      "frequency": "weekly",
+      "priority": "CRITICAL_UK_REGULATORY"
+    },
+    {
+      "source": "EMA",
+      "query": "retatrutide",
+      "frequency": "weekly",
+      "priority": "CRITICAL_REGULATORY"
+    },
+    {
+      "source": "Eli Lilly medical and investor releases",
+      "query": "retatrutide",
+      "frequency": "weekly",
+      "priority": "MEDIUM_OFFICIAL_NON_PEER_REVIEWED"
+    }
+  ],
+  "trigger_rules": [
+    {
+      "trigger": "new_peer_reviewed_trial",
+      "action": "INGEST_DEDUPLICATE_REVIEW_IMPACT_ASSESSMENT"
+    },
+    {
+      "trigger": "topline_to_peer_reviewed_transition",
+      "action": "REPLACE_CONDITIONAL_SOURCE_AND_REVIEW_CLAIM"
+    },
+    {
+      "trigger": "regulatory_status_change",
+      "action": "IMMEDIATE_ESCALATION_AND_PUBLIC_COPY_REVIEW"
+    },
+    {
+      "trigger": "retraction_or_correction",
+      "action": "FREEZE_AFFECTED_CLAIMS_AND_RUN_DEPENDENCY_IMPACT"
+    },
+    {
+      "trigger": "new_safety_signal",
+      "action": "SAFETY_ESCALATION_AND_WARNING_REVIEW"
+    }
+  ],
+  "last_checked": "2026-07-20",
+  "next_check": "2026-07-27",
+  "owner": "EKS scientific surveillance"
+}

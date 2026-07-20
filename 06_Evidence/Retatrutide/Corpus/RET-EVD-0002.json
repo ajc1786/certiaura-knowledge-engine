@@ -1,0 +1,46 @@
+{
+  "evidence_id": "RET-EVD-0002",
+  "title": "LY3437943, a novel triple GIP, GLP-1, and glucagon receptor agonist in people with type 2 diabetes: a phase 1b, multicentre, double-blind, placebo-controlled, randomised, multiple-ascending dose trial",
+  "source_type": "peer_reviewed_journal_article",
+  "publication_status": "published",
+  "peer_review_status": "peer_reviewed",
+  "study_design": "phase 1b randomised double-blind placebo-controlled multiple-ascending-dose trial",
+  "primary_identifier": {
+    "type": "PMID",
+    "value": "36354040"
+  },
+  "identifiers": {
+    "pmid": "36354040",
+    "doi": "",
+    "nct": "NCT04143802"
+  },
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36354040/",
+  "publication_date": "2022-11-12",
+  "journal_or_registry": "The Lancet",
+  "sponsor_or_funder": "Eli Lilly and Company",
+  "population": "adults with type 2 diabetes",
+  "intervention": "once-weekly LY3437943 dose escalation",
+  "comparator": "placebo",
+  "duration": "12 weeks",
+  "key_results": [
+    "Supported dose-dependent glucose and bodyweight effects suitable for phase 2 evaluation."
+  ],
+  "safety_findings": [
+    "Gastrointestinal adverse events were prominent during dose escalation."
+  ],
+  "limitations": [
+    "Small early-phase trial and short duration."
+  ],
+  "claim_support": [
+    "RET-CLM-T2D-001",
+    "RET-CLM-SAF-001"
+  ],
+  "evidence_tier": "TIER_2_EARLY_PHASE_PRIMARY",
+  "review_status": "SCIENTIFIC_REVIEW_BASELINE_ACCEPTED",
+  "provenance": {
+    "retrieved_on": "2026-07-20",
+    "retrieved_by": "Certiaura Build 0041",
+    "verification_method": "PMID and ClinicalTrials.gov identifier cross-check"
+  },
+  "investigational_status_notice": "Retatrutide remains investigational and is not approved for public use."
+}

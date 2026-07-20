@@ -1,0 +1,45 @@
+{
+  "evidence_id": "RET-EVD-XXXX",
+  "title": "",
+  "source_type": "peer_reviewed_journal_article",
+  "publication_status": "published",
+  "peer_review_status": "peer_reviewed",
+  "study_design": "",
+  "primary_identifier": {
+    "type": "PMID",
+    "value": ""
+  },
+  "identifiers": {
+    "pmid": "",
+    "doi": "",
+    "nct": ""
+  },
+  "source_url": "https://",
+  "publication_date": "YYYY-MM-DD",
+  "journal_or_registry": "",
+  "sponsor_or_funder": "",
+  "population": "",
+  "intervention": "",
+  "comparator": "",
+  "duration": "",
+  "key_results": [
+    ""
+  ],
+  "safety_findings": [
+    ""
+  ],
+  "limitations": [
+    ""
+  ],
+  "claim_support": [
+    "RET-CLM-XXXX"
+  ],
+  "evidence_tier": "",
+  "review_status": "PENDING",
+  "provenance": {
+    "retrieved_on": "YYYY-MM-DD",
+    "retrieved_by": "",
+    "verification_method": ""
+  },
+  "investigational_status_notice": "Retatrutide remains investigational and is not approved for public use."
+}

@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://certiaura.local/schemas/retatrutide_citation_graph.schema.json",
+  "title": "Retatrutide Citation Graph",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "graph_id",
+    "baseline_date",
+    "nodes",
+    "edges"
+  ],
+  "properties": {
+    "nodes": {
+      "type": "array",
+      "minItems": 1
+    },
+    "edges": {
+      "type": "array",
+      "minItems": 1
+    }
+  }
+}

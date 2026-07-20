@@ -1,0 +1,458 @@
+{
+  "schema_version": "1.0.0",
+  "graph_id": "RETATRUTIDE-CITATION-GRAPH-001",
+  "baseline_date": "2026-07-20",
+  "nodes": [
+    {
+      "node_id": "RET-EVD-0001",
+      "node_type": "EVIDENCE",
+      "label": "LY3437943, a novel triple glucagon, GIP, and GLP-1 receptor agonist for glycemic control and weight loss: From discovery to clinical proof of concept"
+    },
+    {
+      "node_id": "RET-EVD-0002",
+      "node_type": "EVIDENCE",
+      "label": "LY3437943, a novel triple GIP, GLP-1, and glucagon receptor agonist in people with type 2 diabetes: a phase 1b, multicentre, double-blind, placebo-controlled, randomised, multiple-ascending dose trial"
+    },
+    {
+      "node_id": "RET-EVD-0003",
+      "node_type": "EVIDENCE",
+      "label": "Triple-Hormone-Receptor Agonist Retatrutide for Obesity — A Phase 2 Trial"
+    },
+    {
+      "node_id": "RET-EVD-0004",
+      "node_type": "EVIDENCE",
+      "label": "Retatrutide, a GIP, GLP-1 and glucagon receptor agonist, for people with type 2 diabetes: a randomised, double-blind, placebo and active-controlled, parallel-group phase 2 trial"
+    },
+    {
+      "node_id": "RET-EVD-0005",
+      "node_type": "EVIDENCE",
+      "label": "Triple hormone receptor agonist retatrutide for metabolic dysfunction-associated steatotic liver disease: a randomized phase 2a trial"
+    },
+    {
+      "node_id": "RET-EVD-0006",
+      "node_type": "EVIDENCE",
+      "label": "Effects of retatrutide on body composition in people with type 2 diabetes: a substudy of a phase 2, double-blind, parallel-group, placebo-controlled, randomised trial"
+    },
+    {
+      "node_id": "RET-EVD-0007",
+      "node_type": "EVIDENCE",
+      "label": "Efficacy and safety of retatrutide, a GIP, GLP-1, and glucagon receptor agonist, in adults with type 2 diabetes (TRANSCEND-T2D-1): a double-blind, randomised, phase 3 trial"
+    },
+    {
+      "node_id": "RET-EVD-0008",
+      "node_type": "EVIDENCE",
+      "label": "TRIUMPH-1 Phase 3 topline results"
+    },
+    {
+      "node_id": "RET-EVD-0009",
+      "node_type": "EVIDENCE",
+      "label": "Retatrutide for the treatment of obesity, obstructive sleep apnoea and knee osteoarthritis: rationale and design of the TRIUMPH registrational clinical trials"
+    },
+    {
+      "node_id": "RET-EVD-0010",
+      "node_type": "EVIDENCE",
+      "label": "TRIUMPH-3: Retatrutide in participants with obesity or overweight and cardiovascular disease"
+    },
+    {
+      "node_id": "RET-EVD-0011",
+      "node_type": "EVIDENCE",
+      "label": "Structural insights into the triple agonism at GLP-1R, GIPR and GCGR manifested by retatrutide"
+    },
+    {
+      "node_id": "RET-EVD-0012",
+      "node_type": "EVIDENCE",
+      "label": "What to know about retatrutide"
+    },
+    {
+      "node_id": "RET-CLM-MECH-001",
+      "node_type": "CLAIM",
+      "label": "Retatrutide is a single peptide agonist at GIP, GLP-1 and glucagon receptors."
+    },
+    {
+      "node_id": "RET-CLM-MECH-002",
+      "node_type": "CLAIM",
+      "label": "Structural studies describe retatrutide engagement of GLP-1R, GIPR and GCGR."
+    },
+    {
+      "node_id": "RET-CLM-OBE-001",
+      "node_type": "CLAIM",
+      "label": "In the phase 2 obesity trial, the 12 mg group had approximately 24.2% mean weight reduction at 48 weeks."
+    },
+    {
+      "node_id": "RET-CLM-OBE-002",
+      "node_type": "CLAIM",
+      "label": "TRIUMPH-1 sponsor topline results reported 28.3% mean weight reduction at 80 weeks at 12 mg."
+    },
+    {
+      "node_id": "RET-CLM-T2D-001",
+      "node_type": "CLAIM",
+      "label": "Early phase evidence supported dose escalation into later type 2 diabetes trials."
+    },
+    {
+      "node_id": "RET-CLM-T2D-002",
+      "node_type": "CLAIM",
+      "label": "Phase 2 retatrutide improved HbA1c and bodyweight compared with controls."
+    },
+    {
+      "node_id": "RET-CLM-T2D-003",
+      "node_type": "CLAIM",
+      "label": "TRANSCEND-T2D-1 phase 3 results support glycaemic and weight efficacy in adults with type 2 diabetes."
+    },
+    {
+      "node_id": "RET-CLM-LIVER-001",
+      "node_type": "CLAIM",
+      "label": "A phase 2a substudy reported substantial liver-fat reductions at higher doses."
+    },
+    {
+      "node_id": "RET-CLM-BODY-001",
+      "node_type": "CLAIM",
+      "label": "A DXA substudy found higher-dose retatrutide reduced total fat mass and did not show a disproportionate lean-mass loss relative to other obesity treatments."
+    },
+    {
+      "node_id": "RET-CLM-SAF-001",
+      "node_type": "CLAIM",
+      "label": "Gastrointestinal adverse events are the most consistently reported tolerability issue across clinical trials."
+    },
+    {
+      "node_id": "RET-CLM-SAF-002",
+      "node_type": "CLAIM",
+      "label": "Dose-dependent heart-rate increases were observed in the phase 2 obesity trial."
+    },
+    {
+      "node_id": "RET-CLM-SAF-003",
+      "node_type": "CLAIM",
+      "label": "Products sold as retatrutide outside authorised trials cannot be assumed to be authentic, pure or correctly dosed."
+    },
+    {
+      "node_id": "RET-CLM-REG-001",
+      "node_type": "CLAIM",
+      "label": "Retatrutide is investigational and not approved for public use as of the baseline date."
+    },
+    {
+      "node_id": "RET-CLM-DEV-001",
+      "node_type": "CLAIM",
+      "label": "The development programme progressed from translational discovery into phase 2 and phase 3 trials."
+    },
+    {
+      "node_id": "RET-CLM-DEV-002",
+      "node_type": "CLAIM",
+      "label": "The TRIUMPH programme evaluates obesity and selected obesity-related conditions under registrational designs."
+    },
+    {
+      "node_id": "RET-CLM-DEV-003",
+      "node_type": "CLAIM",
+      "label": "TRIUMPH-3 evaluates retatrutide in a cardiovascular-disease population over an extended follow-up period."
+    },
+    {
+      "node_id": "CERT-PKS-000001",
+      "node_type": "FORMAL_ASSET",
+      "label": "Retatrutide flagship knowledge asset"
+    },
+    {
+      "node_id": "CERT-EKS-000007",
+      "node_type": "FORMAL_ASSET",
+      "label": "Retatrutide discovery to clinical proof-of-concept evidence asset"
+    }
+  ],
+  "edges": [
+    {
+      "edge_id": "EDGE-RET-CLM-MECH-001-RET-EVD-0001",
+      "source": "RET-EVD-0001",
+      "target": "RET-CLM-MECH-001",
+      "relationship": "SUPPORTS_CLAIM",
+      "strength": "HIGH"
+    },
+    {
+      "edge_id": "EDGE-RET-CLM-MECH-001-RET-EVD-0011",
+      "source": "RET-EVD-0011",
+      "target": "RET-CLM-MECH-001",
+      "relationship": "SUPPORTS_CLAIM",
+      "strength": "HIGH"
+    },
+    {
+      "edge_id": "EDGE-RET-CLM-MECH-001-FLAGSHIP",
+      "source": "RET-CLM-MECH-001",
+      "target": "CERT-PKS-000001",
+      "relationship": "INFORMS_ASSET",
+      "strength": "SUPPORTED"
+    },
+    {
+      "edge_id": "EDGE-RET-CLM-MECH-002-RET-EVD-0011",
+      "source": "RET-EVD-0011",
+      "target": "RET-CLM-MECH-002",
+      "relationship": "SUPPORTS_CLAIM",
+      "strength": "MODERATE"
+    },
+    {
+      "edge_id": "EDGE-RET-CLM-MECH-002-FLAGSHIP",
+      "source": "RET-CLM-MECH-002",
+      "target": "CERT-PKS-000001",
+      "relationship": "INFORMS_ASSET",
+      "strength": "SUPPORTED"
+    },
+    {
+      "edge_id": "EDGE-RET-CLM-OBE-001-RET-EVD-0003",
+      "source": "RET-EVD-0003",
+      "target": "RET-CLM-OBE-001",
+      "relationship": "SUPPORTS_CLAIM",
+      "strength": "HIGH_FOR_TRIAL_POPULATION"
+    },
+    {
+      "edge_id": "EDGE-RET-CLM-OBE-001-FLAGSHIP",
+      "source": "RET-CLM-OBE-001",
+      "target": "CERT-PKS-000001",
+      "relationship": "INFORMS_ASSET",
+      "strength": "SUPPORTED"
+    },
+    {
+      "edge_id": "EDGE-RET-CLM-OBE-002-RET-EVD-0008",
+      "source": "RET-EVD-0008",
+      "target": "RET-CLM-OBE-002",
+      "relationship": "SUPPORTS_CLAIM",
+      "strength": "MODERATE_PENDING_PEER_REVIEW"
+    },
+    {
+      "edge_id": "EDGE-RET-CLM-OBE-002-RET-EVD-0009",
+      "source": "RET-EVD-0009",
+      "target": "RET-CLM-OBE-002",
+      "relationship": "SUPPORTS_CLAIM",
+      "strength": "MODERATE_PENDING_PEER_REVIEW"
+    },
+    {
+      "edge_id": "EDGE-RET-CLM-OBE-002-FLAGSHIP",
+      "source": "RET-CLM-OBE-002",
+      "target": "CERT-PKS-000001",
+      "relationship": "INFORMS_ASSET",
+      "strength": "CONDITIONAL"
+    },
+    {
+      "edge_id": "EDGE-RET-CLM-T2D-001-RET-EVD-0002",
+      "source": "RET-EVD-0002",
+      "target": "RET-CLM-T2D-001",
+      "relationship": "SUPPORTS_CLAIM",
+      "strength": "MODERATE"
+    },
+    {
+      "edge_id": "EDGE-RET-CLM-T2D-001-FLAGSHIP",
+      "source": "RET-CLM-T2D-001",
+      "target": "CERT-PKS-000001",
+      "relationship": "INFORMS_ASSET",
+      "strength": "SUPPORTED"
+    },
+    {
+      "edge_id": "EDGE-RET-CLM-T2D-002-RET-EVD-0004",
+      "source": "RET-EVD-0004",
+      "target": "RET-CLM-T2D-002",
+      "relationship": "SUPPORTS_CLAIM",
+      "strength": "HIGH_FOR_TRIAL_POPULATION"
+    },
+    {
+      "edge_id": "EDGE-RET-CLM-T2D-002-FLAGSHIP",
+      "source": "RET-CLM-T2D-002",
+      "target": "CERT-PKS-000001",
+      "relationship": "INFORMS_ASSET",
+      "strength": "SUPPORTED"
+    },
+    {
+      "edge_id": "EDGE-RET-CLM-T2D-003-RET-EVD-0007",
+      "source": "RET-EVD-0007",
+      "target": "RET-CLM-T2D-003",
+      "relationship": "SUPPORTS_CLAIM",
+      "strength": "HIGH_FOR_TRIAL_POPULATION"
+    },
+    {
+      "edge_id": "EDGE-RET-CLM-T2D-003-FLAGSHIP",
+      "source": "RET-CLM-T2D-003",
+      "target": "CERT-PKS-000001",
+      "relationship": "INFORMS_ASSET",
+      "strength": "SUPPORTED"
+    },
+    {
+      "edge_id": "EDGE-RET-CLM-LIVER-001-RET-EVD-0005",
+      "source": "RET-EVD-0005",
+      "target": "RET-CLM-LIVER-001",
+      "relationship": "SUPPORTS_CLAIM",
+      "strength": "MODERATE"
+    },
+    {
+      "edge_id": "EDGE-RET-CLM-LIVER-001-FLAGSHIP",
+      "source": "RET-CLM-LIVER-001",
+      "target": "CERT-PKS-000001",
+      "relationship": "INFORMS_ASSET",
+      "strength": "SUPPORTED"
+    },
+    {
+      "edge_id": "EDGE-RET-CLM-BODY-001-RET-EVD-0006",
+      "source": "RET-EVD-0006",
+      "target": "RET-CLM-BODY-001",
+      "relationship": "SUPPORTS_CLAIM",
+      "strength": "MODERATE"
+    },
+    {
+      "edge_id": "EDGE-RET-CLM-BODY-001-FLAGSHIP",
+      "source": "RET-CLM-BODY-001",
+      "target": "CERT-PKS-000001",
+      "relationship": "INFORMS_ASSET",
+      "strength": "SUPPORTED"
+    },
+    {
+      "edge_id": "EDGE-RET-CLM-SAF-001-RET-EVD-0002",
+      "source": "RET-EVD-0002",
+      "target": "RET-CLM-SAF-001",
+      "relationship": "SUPPORTS_CLAIM",
+      "strength": "HIGH"
+    },
+    {
+      "edge_id": "EDGE-RET-CLM-SAF-001-RET-EVD-0003",
+      "source": "RET-EVD-0003",
+      "target": "RET-CLM-SAF-001",
+      "relationship": "SUPPORTS_CLAIM",
+      "strength": "HIGH"
+    },
+    {
+      "edge_id": "EDGE-RET-CLM-SAF-001-RET-EVD-0004",
+      "source": "RET-EVD-0004",
+      "target": "RET-CLM-SAF-001",
+      "relationship": "SUPPORTS_CLAIM",
+      "strength": "HIGH"
+    },
+    {
+      "edge_id": "EDGE-RET-CLM-SAF-001-RET-EVD-0006",
+      "source": "RET-EVD-0006",
+      "target": "RET-CLM-SAF-001",
+      "relationship": "SUPPORTS_CLAIM",
+      "strength": "HIGH"
+    },
+    {
+      "edge_id": "EDGE-RET-CLM-SAF-001-RET-EVD-0007",
+      "source": "RET-EVD-0007",
+      "target": "RET-CLM-SAF-001",
+      "relationship": "SUPPORTS_CLAIM",
+      "strength": "HIGH"
+    },
+    {
+      "edge_id": "EDGE-RET-CLM-SAF-001-FLAGSHIP",
+      "source": "RET-CLM-SAF-001",
+      "target": "CERT-PKS-000001",
+      "relationship": "INFORMS_ASSET",
+      "strength": "SUPPORTED"
+    },
+    {
+      "edge_id": "EDGE-RET-CLM-SAF-002-RET-EVD-0003",
+      "source": "RET-EVD-0003",
+      "target": "RET-CLM-SAF-002",
+      "relationship": "SUPPORTS_CLAIM",
+      "strength": "MODERATE"
+    },
+    {
+      "edge_id": "EDGE-RET-CLM-SAF-002-FLAGSHIP",
+      "source": "RET-CLM-SAF-002",
+      "target": "CERT-PKS-000001",
+      "relationship": "INFORMS_ASSET",
+      "strength": "SUPPORTED"
+    },
+    {
+      "edge_id": "EDGE-RET-CLM-SAF-003-RET-EVD-0012",
+      "source": "RET-EVD-0012",
+      "target": "RET-CLM-SAF-003",
+      "relationship": "SUPPORTS_CLAIM",
+      "strength": "HIGH"
+    },
+    {
+      "edge_id": "EDGE-RET-CLM-SAF-003-FLAGSHIP",
+      "source": "RET-CLM-SAF-003",
+      "target": "CERT-PKS-000001",
+      "relationship": "INFORMS_ASSET",
+      "strength": "SUPPORTED_AS_RISK_WARNING"
+    },
+    {
+      "edge_id": "EDGE-RET-CLM-REG-001-RET-EVD-0012",
+      "source": "RET-EVD-0012",
+      "target": "RET-CLM-REG-001",
+      "relationship": "SUPPORTS_CLAIM",
+      "strength": "HIGH_AS_OF_DATE"
+    },
+    {
+      "edge_id": "EDGE-RET-CLM-REG-001-FLAGSHIP",
+      "source": "RET-CLM-REG-001",
+      "target": "CERT-PKS-000001",
+      "relationship": "INFORMS_ASSET",
+      "strength": "SUPPORTED"
+    },
+    {
+      "edge_id": "EDGE-RET-CLM-DEV-001-RET-EVD-0001",
+      "source": "RET-EVD-0001",
+      "target": "RET-CLM-DEV-001",
+      "relationship": "SUPPORTS_CLAIM",
+      "strength": "HIGH"
+    },
+    {
+      "edge_id": "EDGE-RET-CLM-DEV-001-RET-EVD-0003",
+      "source": "RET-EVD-0003",
+      "target": "RET-CLM-DEV-001",
+      "relationship": "SUPPORTS_CLAIM",
+      "strength": "HIGH"
+    },
+    {
+      "edge_id": "EDGE-RET-CLM-DEV-001-RET-EVD-0007",
+      "source": "RET-EVD-0007",
+      "target": "RET-CLM-DEV-001",
+      "relationship": "SUPPORTS_CLAIM",
+      "strength": "HIGH"
+    },
+    {
+      "edge_id": "EDGE-RET-CLM-DEV-001-RET-EVD-0009",
+      "source": "RET-EVD-0009",
+      "target": "RET-CLM-DEV-001",
+      "relationship": "SUPPORTS_CLAIM",
+      "strength": "HIGH"
+    },
+    {
+      "edge_id": "EDGE-RET-CLM-DEV-001-FLAGSHIP",
+      "source": "RET-CLM-DEV-001",
+      "target": "CERT-PKS-000001",
+      "relationship": "INFORMS_ASSET",
+      "strength": "SUPPORTED"
+    },
+    {
+      "edge_id": "EDGE-RET-CLM-DEV-002-RET-EVD-0009",
+      "source": "RET-EVD-0009",
+      "target": "RET-CLM-DEV-002",
+      "relationship": "SUPPORTS_CLAIM",
+      "strength": "HIGH"
+    },
+    {
+      "edge_id": "EDGE-RET-CLM-DEV-002-FLAGSHIP",
+      "source": "RET-CLM-DEV-002",
+      "target": "CERT-PKS-000001",
+      "relationship": "INFORMS_ASSET",
+      "strength": "SUPPORTED"
+    },
+    {
+      "edge_id": "EDGE-RET-CLM-DEV-003-RET-EVD-0010",
+      "source": "RET-EVD-0010",
+      "target": "RET-CLM-DEV-003",
+      "relationship": "SUPPORTS_CLAIM",
+      "strength": "HIGH"
+    },
+    {
+      "edge_id": "EDGE-RET-CLM-DEV-003-FLAGSHIP",
+      "source": "RET-CLM-DEV-003",
+      "target": "CERT-PKS-000001",
+      "relationship": "INFORMS_ASSET",
+      "strength": "SUPPORTED_AS_PROTOCOL"
+    },
+    {
+      "edge_id": "EDGE-RET-EVD-0001-EKS000007",
+      "source": "RET-EVD-0001",
+      "target": "CERT-EKS-000007",
+      "relationship": "UPDATES_EVIDENCE_BASELINE",
+      "strength": "HIGH"
+    }
+  ],
+  "integrity_rules": [
+    "Every edge endpoint must exist",
+    "Every public claim must have at least one supporting evidence node",
+    "Registry protocol nodes must not be represented as results"
+  ]
+}

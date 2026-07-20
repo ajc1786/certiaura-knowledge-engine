@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "build_number": "0041",
+  "package_version": "1.0.4",
+  "runner": "13_Project_Genesis/Import/run_build_0041_import.py",
+  "powershell_entry_point": "Scripts/Invoke_Certiaura_Build_0041_Import.ps1",
+  "requires_installed_importer": "13_Project_Genesis/Import/transactional_build_import.py",
+  "metadata_discovery": {
+    "build_manifest": "Documentation/Build_Records/0041/BUILD_MANIFEST.json",
+    "asset_intent_manifest": "Documentation/Build_Records/0041/ASSET_INTENT_MANIFEST.json"
+  },
+  "modes": [
+    "dry_run",
+    "apply"
+  ],
+  "sha256_addressed": true,
+  "fail_closed": true,
+  "implementation_shortcut": "Scripts/Run_Certiaura_Build_0041.ps1",
+  "shortcut_hash_input": "MANDATORY_DETACHED_SHA256_FROM_IMPLEMENTATION_BUNDLE",
+  "windows_powershell_compatibility": {
+    "executable_script_encoding": "ASCII_ONLY",
+    "native_parser_precheck_required": true,
+    "reason": "Windows PowerShell 5.1 may interpret UTF-8 without BOM using the active ANSI code page."
+  },
+  "implementation_launcher_controls": {
+    "normal_entry_point": "START_BUILD_0041.cmd",
+    "interactive_script_pasting_prohibited": true,
+    "package_resolution_scope": "launcher_directory_only",
+    "package_identity": "SHA256",
+    "explicit_package_path_handoff": true,
+    "one_drive_path_resolution": "ordered full-path iteration without scalar indexing"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "evidence_id": "RET-EVD-0010",
+  "title": "TRIUMPH-3: Retatrutide in participants with obesity or overweight and cardiovascular disease",
+  "source_type": "clinical_trial_registry_record",
+  "publication_status": "active_or_completed_registry_record",
+  "peer_review_status": "not_applicable_registry",
+  "study_design": "phase 3 randomised clinical trial registry record",
+  "primary_identifier": {
+    "type": "NCT",
+    "value": "NCT05882045"
+  },
+  "identifiers": {
+    "pmid": "",
+    "doi": "",
+    "nct": "NCT05882045"
+  },
+  "source_url": "https://clinicaltrials.gov/study/NCT05882045",
+  "publication_date": "2023-06-02",
+  "journal_or_registry": "ClinicalTrials.gov",
+  "sponsor_or_funder": "Eli Lilly and Company",
+  "population": "participants with obesity or overweight and established cardiovascular disease",
+  "intervention": "once-weekly retatrutide",
+  "comparator": "placebo",
+  "duration": "approximately 113 weeks",
+  "key_results": [
+    "Registry establishes the dedicated cardiovascular-risk population and planned outcome framework."
+  ],
+  "safety_findings": [
+    "Registry evidence does not provide final safety conclusions."
+  ],
+  "limitations": [
+    "Registry protocol record; final results must be sourced separately when available."
+  ],
+  "claim_support": [
+    "RET-CLM-DEV-003"
+  ],
+  "evidence_tier": "TIER_2_REGISTRY_PRIMARY",
+  "review_status": "SURVEILLANCE_ACTIVE",
+  "provenance": {
+    "retrieved_on": "2026-07-20",
+    "retrieved_by": "Certiaura Build 0041",
+    "verification_method": "ClinicalTrials.gov record"
+  },
+  "investigational_status_notice": "Retatrutide remains investigational and is not approved for public use."
+}

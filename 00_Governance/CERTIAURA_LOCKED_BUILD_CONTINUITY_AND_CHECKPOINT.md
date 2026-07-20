@@ -801,3 +801,14 @@ Do not represent Build 0040 as closed until:
 ## 21. Authority and amendment rule
 
 This document remains locked by explicit founder instruction. No release tool, assistant or collaborator may weaken the Build 0040 release gates without an explicit recorded amendment.
+
+<!-- CERTIAURA_ACTIVE_CHECKPOINT_BEGIN -->
+## Active continuation checkpoint — Build 0041
+
+- Last closed build: **0040** at `6f4dfb11dfdc4b28fe736972864ec1acf1a1e056` (`ACTIONS_GREEN_CLOSED`).
+- Current build: **0041 — retatrutide evidence corpus citation graph and scientific review baseline**.
+- Current state after import: `IMPORTED` pending repository validation, commit, push and GitHub Actions green.
+- Immediate next action: run post-import validators, both Git diff checks, stage all package changes, confirm no deletions, residue or runtime artefacts, then commit and push using the locked message.
+- Closure gate: do not set `ACTIONS_GREEN_CLOSED` until Actions are green and the Build 0041 lessons-learned record is verified.
+- Following planned integrated package: Build 0042 — Retatrutide safety, monitoring, contraindication and clinical-outcome integration baseline.
+<!-- CERTIAURA_ACTIVE_CHECKPOINT_END -->

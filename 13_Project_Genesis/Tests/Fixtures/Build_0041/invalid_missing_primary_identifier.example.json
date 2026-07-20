@@ -1,0 +1,47 @@
+{
+  "evidence_id": "RET-EVD-0001",
+  "title": "LY3437943, a novel triple glucagon, GIP, and GLP-1 receptor agonist for glycemic control and weight loss: From discovery to clinical proof of concept",
+  "source_type": "peer_reviewed_journal_article",
+  "publication_status": "published",
+  "peer_review_status": "peer_reviewed",
+  "study_design": "translational discovery, preclinical pharmacology and early clinical proof of concept",
+  "primary_identifier": {
+    "type": "PMID",
+    "value": ""
+  },
+  "identifiers": {
+    "pmid": "35985340",
+    "doi": "10.1016/j.cmet.2022.07.013",
+    "nct": ""
+  },
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35985340/",
+  "publication_date": "2022-09-06",
+  "journal_or_registry": "Cell Metabolism",
+  "sponsor_or_funder": "Eli Lilly and Company",
+  "population": "preclinical models and early clinical participants",
+  "intervention": "LY3437943 (retatrutide)",
+  "comparator": "model-appropriate comparators",
+  "duration": "study-specific",
+  "key_results": [
+    "Established retatrutide as a single peptide agonist at GIP, GLP-1 and glucagon receptors.",
+    "Provided the translational foundation for later obesity and type 2 diabetes trials."
+  ],
+  "safety_findings": [
+    "Early clinical safety findings were exploratory and not sufficient for long-term safety conclusions."
+  ],
+  "limitations": [
+    "Includes preclinical and early clinical evidence; later phase randomised trials govern clinical-effect estimates."
+  ],
+  "claim_support": [
+    "RET-CLM-MECH-001",
+    "RET-CLM-DEV-001"
+  ],
+  "evidence_tier": "TIER_2_TRANSLATIONAL_PRIMARY",
+  "review_status": "SCIENTIFIC_REVIEW_BASELINE_ACCEPTED",
+  "provenance": {
+    "retrieved_on": "2026-07-20",
+    "retrieved_by": "Certiaura Build 0041",
+    "verification_method": "PMID and DOI cross-check"
+  },
+  "investigational_status_notice": "Retatrutide remains investigational and is not approved for public use."
+}

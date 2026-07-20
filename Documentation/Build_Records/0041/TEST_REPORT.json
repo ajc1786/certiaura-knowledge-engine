@@ -1,0 +1,13 @@
+{
+  "build_number": "0041",
+  "package_version": "1.0.4",
+  "valid": true,
+  "command": "python -B -m unittest discover -s 13_Project_Genesis/Tests -p test_build_0041_*.py -v",
+  "test_count": 7,
+  "stdout": "",
+  "stderr": "test_import_wrapper_receives_explicit_package_path (test_build_0041_retatrutide_evidence_corpus.Build0041EvidenceTests.test_import_wrapper_receives_explicit_package_path) ... ok\ntest_invalid_primary_identifier_is_rejected (test_build_0041_retatrutide_evidence_corpus.Build0041EvidenceTests.test_invalid_primary_identifier_is_rejected) ... ok\ntest_one_drive_restart_uses_a_full_path_resolver (test_build_0041_retatrutide_evidence_corpus.Build0041EvidenceTests.test_one_drive_restart_uses_a_full_path_resolver) ... ok\ntest_registry_is_not_results (test_build_0041_retatrutide_evidence_corpus.Build0041EvidenceTests.test_registry_is_not_results) ... ok\ntest_sponsor_topline_is_conditional (test_build_0041_retatrutide_evidence_corpus.Build0041EvidenceTests.test_sponsor_topline_is_conditional) ... ok\ntest_valid_corpus (test_build_0041_retatrutide_evidence_corpus.Build0041EvidenceTests.test_valid_corpus) ... ok\ntest_windows_powershell_launchers_are_ascii_safe (test_build_0041_retatrutide_evidence_corpus.Build0041EvidenceTests.test_windows_powershell_launchers_are_ascii_safe) ... ok\n\n----------------------------------------------------------------------\nRan 7 tests in 0.171s\n\nOK\n",
+  "windows_powershell_5_1_ascii_compatibility": true,
+  "one_drive_full_path_resolution": true,
+  "explicit_package_path_handoff": true,
+  "runtime_artifacts_removed": true
+}

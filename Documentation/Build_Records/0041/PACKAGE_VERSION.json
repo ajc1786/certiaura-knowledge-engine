@@ -1,0 +1,54 @@
+{
+  "build_number": "0041",
+  "package_version": "1.0.4",
+  "build_title": "retatrutide evidence corpus citation graph and scientific review baseline",
+  "generated_on": "2026-07-20",
+  "requires_closed_build": {
+    "build_number": "0040",
+    "commit": "6f4dfb11dfdc4b28fe736972864ec1acf1a1e056"
+  },
+  "status": "GENERATED",
+  "correction_history": [
+    {
+      "version": "1.0.1",
+      "date": "2026-07-20",
+      "defects_corrected": [
+        "Mandatory investigational-status phrase did not exactly match the validator contract.",
+        "Registry protocol regression assertion required explicit final-results wording."
+      ],
+      "build_number_unchanged": true,
+      "complete_retest_required": true
+    },
+    {
+      "version": "1.0.2",
+      "date": "2026-07-20",
+      "defects_corrected": [
+        "PowerShell implementation shortcut was delivered separately from the build package, increasing manual handling and creating avoidable package-selection risk.",
+        "The shortcut did not support a one-link implementation bundle with a detached exact SHA-256 input."
+      ],
+      "build_number_unchanged": true,
+      "complete_retest_required": true
+    },
+    {
+      "version": "1.0.3",
+      "date": "2026-07-20",
+      "defects_corrected": [
+        "The implementation launcher contained a non-ASCII em dash in a UTF-8 file without a byte-order mark, which Windows PowerShell 5.1 decoded as a smart-quote byte and rejected with a missing string terminator parser error.",
+        "The release gate validated UTF-8 and line endings but did not enforce Windows PowerShell 5.1 source-decoding compatibility or run a native parser precheck before launcher execution."
+      ],
+      "build_number_unchanged": true,
+      "complete_retest_required": true
+    },
+    {
+      "version": "1.0.4",
+      "date": "2026-07-20",
+      "defects_corrected": [
+        "The OneDrive restart candidate pipeline returned a scalar string when only one executable path existed, so indexing with [0] supplied only the first character to Start-Process.",
+        "The recovery path allowed the complete launcher body to be pasted into an interactive PowerShell prompt, where script-scope param and try/finally constructs were parsed as unrelated commands and mandatory variables were never initialised.",
+        "The package import wrapper rediscovered ZIPs across broad download roots instead of receiving the already SHA-verified adjacent inner package path from the implementation launcher."
+      ],
+      "build_number_unchanged": true,
+      "complete_retest_required": true
+    }
+  ]
+}

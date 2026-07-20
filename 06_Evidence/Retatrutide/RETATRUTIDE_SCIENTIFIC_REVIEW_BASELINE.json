@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0.0",
+  "review_id": "RET-SCI-REVIEW-BASELINE-001",
+  "compound": "Retatrutide",
+  "flagship_uai": "CERT-PKS-000001",
+  "review_date": "2026-07-20",
+  "review_scope": [
+    "mechanism",
+    "obesity efficacy",
+    "type 2 diabetes efficacy",
+    "liver fat",
+    "body composition",
+    "safety",
+    "development status",
+    "regulatory status"
+  ],
+  "review_outcome": "CONDITIONALLY_ACCEPTED_AS_INVESTIGATIONAL_EVIDENCE_BASELINE",
+  "evidence_counts": {
+    "total": 12,
+    "peer_reviewed": 9,
+    "official_non_peer_reviewed": 2,
+    "registry": 1
+  },
+  "approved_claim_ids": [
+    "RET-CLM-MECH-001",
+    "RET-CLM-MECH-002",
+    "RET-CLM-OBE-001",
+    "RET-CLM-T2D-001",
+    "RET-CLM-T2D-002",
+    "RET-CLM-T2D-003",
+    "RET-CLM-LIVER-001",
+    "RET-CLM-BODY-001",
+    "RET-CLM-SAF-001",
+    "RET-CLM-SAF-002",
+    "RET-CLM-SAF-003",
+    "RET-CLM-REG-001",
+    "RET-CLM-DEV-001",
+    "RET-CLM-DEV-002",
+    "RET-CLM-DEV-003"
+  ],
+  "conditional_claim_ids": [
+    "RET-CLM-OBE-002"
+  ],
+  "prohibited_inferences": [
+    "Do not state or imply that retatrutide is approved, generally available, safe for self-administration or appropriate for an individual.",
+    "Do not convert trial doses into personal dosing instructions.",
+    "Do not treat sponsor topline communications as equivalent to a peer-reviewed full report.",
+    "Do not infer cardiovascular, renal, mortality or long-term safety benefit without outcome evidence.",
+    "Do not claim authenticity, purity or dosing accuracy for products sold outside authorised trials."
+  ],
+  "mandatory_public_notice": "Retatrutide remains investigational and is not approved for public use. Information is educational and evidence-focused, not personal medical advice.",
+  "reviewers": [
+    {
+      "role": "Scientific reviewer",
+      "status": "HUMAN_APPROVAL_REQUIRED_BEFORE_PUBLICATION"
+    }
+  ],
+  "next_review_triggers": [
+    "peer-reviewed TRIUMPH-1 publication",
+    "regulatory submission or approval decision",
+    "trial status or results update",
+    "safety signal",
+    "retraction or correction",
+    "new comparative trial"
+  ],
+  "next_scheduled_review": "2026-08-20"
+}

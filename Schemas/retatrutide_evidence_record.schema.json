@@ -1,0 +1,130 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://certiaura.local/schemas/retatrutide_evidence_record.schema.json",
+  "title": "Retatrutide Evidence Record",
+  "type": "object",
+  "required": [
+    "evidence_id",
+    "title",
+    "source_type",
+    "publication_status",
+    "peer_review_status",
+    "study_design",
+    "primary_identifier",
+    "source_url",
+    "publication_date",
+    "key_results",
+    "safety_findings",
+    "limitations",
+    "claim_support",
+    "evidence_tier",
+    "review_status",
+    "provenance",
+    "investigational_status_notice"
+  ],
+  "properties": {
+    "evidence_id": {
+      "type": "string",
+      "pattern": "^RET-EVD-[0-9]{4}$"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 10
+    },
+    "source_type": {
+      "type": "string"
+    },
+    "publication_status": {
+      "type": "string"
+    },
+    "peer_review_status": {
+      "enum": [
+        "peer_reviewed",
+        "not_peer_reviewed",
+        "not_applicable_registry"
+      ]
+    },
+    "study_design": {
+      "type": "string"
+    },
+    "primary_identifier": {
+      "type": "object",
+      "required": [
+        "type",
+        "value"
+      ],
+      "properties": {
+        "type": {
+          "enum": [
+            "PMID",
+            "NCT",
+            "URL"
+          ]
+        },
+        "value": {
+          "type": "string",
+          "minLength": 4
+        }
+      },
+      "additionalProperties": false
+    },
+    "identifiers": {
+      "type": "object"
+    },
+    "source_url": {
+      "type": "string",
+      "pattern": "^https://"
+    },
+    "publication_date": {
+      "type": "string",
+      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+    },
+    "key_results": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    },
+    "safety_findings": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    },
+    "limitations": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    },
+    "claim_support": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "pattern": "^RET-CLM-"
+      }
+    },
+    "evidence_tier": {
+      "type": "string"
+    },
+    "review_status": {
+      "type": "string"
+    },
+    "provenance": {
+      "type": "object",
+      "required": [
+        "retrieved_on",
+        "retrieved_by",
+        "verification_method"
+      ]
+    },
+    "investigational_status_notice": {
+      "const": "Retatrutide remains investigational and is not approved for public use."
+    }
+  },
+  "additionalProperties": true
+}

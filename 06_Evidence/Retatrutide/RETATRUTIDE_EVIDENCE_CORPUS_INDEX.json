@@ -1,0 +1,156 @@
+{
+  "schema_version": "1.0.0",
+  "asset_title": "Retatrutide Evidence Corpus Index",
+  "compound": {
+    "preferred_name": "Retatrutide",
+    "development_code": "LY3437943",
+    "flagship_uai": "CERT-PKS-000001"
+  },
+  "baseline_date": "2026-07-20",
+  "status": "SCIENTIFIC_REVIEW_BASELINE",
+  "evidence_count": 12,
+  "records": [
+    {
+      "evidence_id": "RET-EVD-0001",
+      "title": "LY3437943, a novel triple glucagon, GIP, and GLP-1 receptor agonist for glycemic control and weight loss: From discovery to clinical proof of concept",
+      "path": "06_Evidence/Retatrutide/Corpus/RET-EVD-0001.json",
+      "primary_identifier": {
+        "type": "PMID",
+        "value": "35985340"
+      },
+      "evidence_tier": "TIER_2_TRANSLATIONAL_PRIMARY",
+      "review_status": "SCIENTIFIC_REVIEW_BASELINE_ACCEPTED"
+    },
+    {
+      "evidence_id": "RET-EVD-0002",
+      "title": "LY3437943, a novel triple GIP, GLP-1, and glucagon receptor agonist in people with type 2 diabetes: a phase 1b, multicentre, double-blind, placebo-controlled, randomised, multiple-ascending dose trial",
+      "path": "06_Evidence/Retatrutide/Corpus/RET-EVD-0002.json",
+      "primary_identifier": {
+        "type": "PMID",
+        "value": "36354040"
+      },
+      "evidence_tier": "TIER_2_EARLY_PHASE_PRIMARY",
+      "review_status": "SCIENTIFIC_REVIEW_BASELINE_ACCEPTED"
+    },
+    {
+      "evidence_id": "RET-EVD-0003",
+      "title": "Triple-Hormone-Receptor Agonist Retatrutide for Obesity — A Phase 2 Trial",
+      "path": "06_Evidence/Retatrutide/Corpus/RET-EVD-0003.json",
+      "primary_identifier": {
+        "type": "PMID",
+        "value": "37366315"
+      },
+      "evidence_tier": "TIER_1_RANDOMISED_PRIMARY",
+      "review_status": "SCIENTIFIC_REVIEW_BASELINE_ACCEPTED"
+    },
+    {
+      "evidence_id": "RET-EVD-0004",
+      "title": "Retatrutide, a GIP, GLP-1 and glucagon receptor agonist, for people with type 2 diabetes: a randomised, double-blind, placebo and active-controlled, parallel-group phase 2 trial",
+      "path": "06_Evidence/Retatrutide/Corpus/RET-EVD-0004.json",
+      "primary_identifier": {
+        "type": "PMID",
+        "value": "37385280"
+      },
+      "evidence_tier": "TIER_1_RANDOMISED_PRIMARY",
+      "review_status": "SCIENTIFIC_REVIEW_BASELINE_ACCEPTED"
+    },
+    {
+      "evidence_id": "RET-EVD-0005",
+      "title": "Triple hormone receptor agonist retatrutide for metabolic dysfunction-associated steatotic liver disease: a randomized phase 2a trial",
+      "path": "06_Evidence/Retatrutide/Corpus/RET-EVD-0005.json",
+      "primary_identifier": {
+        "type": "PMID",
+        "value": "38858523"
+      },
+      "evidence_tier": "TIER_1_RANDOMISED_PRIMARY",
+      "review_status": "SCIENTIFIC_REVIEW_BASELINE_ACCEPTED"
+    },
+    {
+      "evidence_id": "RET-EVD-0006",
+      "title": "Effects of retatrutide on body composition in people with type 2 diabetes: a substudy of a phase 2, double-blind, parallel-group, placebo-controlled, randomised trial",
+      "path": "06_Evidence/Retatrutide/Corpus/RET-EVD-0006.json",
+      "primary_identifier": {
+        "type": "PMID",
+        "value": "40609566"
+      },
+      "evidence_tier": "TIER_1_RANDOMISED_SUBSTUDY",
+      "review_status": "SCIENTIFIC_REVIEW_BASELINE_ACCEPTED"
+    },
+    {
+      "evidence_id": "RET-EVD-0007",
+      "title": "Efficacy and safety of retatrutide, a GIP, GLP-1, and glucagon receptor agonist, in adults with type 2 diabetes (TRANSCEND-T2D-1): a double-blind, randomised, phase 3 trial",
+      "path": "06_Evidence/Retatrutide/Corpus/RET-EVD-0007.json",
+      "primary_identifier": {
+        "type": "PMID",
+        "value": "42250575"
+      },
+      "evidence_tier": "TIER_1_PHASE_3_RANDOMISED_PRIMARY",
+      "review_status": "SCIENTIFIC_REVIEW_BASELINE_ACCEPTED"
+    },
+    {
+      "evidence_id": "RET-EVD-0008",
+      "title": "TRIUMPH-1 Phase 3 topline results",
+      "path": "06_Evidence/Retatrutide/Corpus/RET-EVD-0008.json",
+      "primary_identifier": {
+        "type": "NCT",
+        "value": "NCT05929066"
+      },
+      "evidence_tier": "TIER_3_OFFICIAL_NON_PEER_REVIEWED",
+      "review_status": "CONDITIONAL_PENDING_PEER_REVIEW"
+    },
+    {
+      "evidence_id": "RET-EVD-0009",
+      "title": "Retatrutide for the treatment of obesity, obstructive sleep apnoea and knee osteoarthritis: rationale and design of the TRIUMPH registrational clinical trials",
+      "path": "06_Evidence/Retatrutide/Corpus/RET-EVD-0009.json",
+      "primary_identifier": {
+        "type": "PMID",
+        "value": "41090431"
+      },
+      "evidence_tier": "TIER_2_PROTOCOL_PRIMARY",
+      "review_status": "SCIENTIFIC_REVIEW_BASELINE_ACCEPTED"
+    },
+    {
+      "evidence_id": "RET-EVD-0010",
+      "title": "TRIUMPH-3: Retatrutide in participants with obesity or overweight and cardiovascular disease",
+      "path": "06_Evidence/Retatrutide/Corpus/RET-EVD-0010.json",
+      "primary_identifier": {
+        "type": "NCT",
+        "value": "NCT05882045"
+      },
+      "evidence_tier": "TIER_2_REGISTRY_PRIMARY",
+      "review_status": "SURVEILLANCE_ACTIVE"
+    },
+    {
+      "evidence_id": "RET-EVD-0011",
+      "title": "Structural insights into the triple agonism at GLP-1R, GIPR and GCGR manifested by retatrutide",
+      "path": "06_Evidence/Retatrutide/Corpus/RET-EVD-0011.json",
+      "primary_identifier": {
+        "type": "PMID",
+        "value": "39019866"
+      },
+      "evidence_tier": "TIER_2_MECHANISTIC_PRIMARY",
+      "review_status": "SCIENTIFIC_REVIEW_BASELINE_ACCEPTED"
+    },
+    {
+      "evidence_id": "RET-EVD-0012",
+      "title": "What to know about retatrutide",
+      "path": "06_Evidence/Retatrutide/Corpus/RET-EVD-0012.json",
+      "primary_identifier": {
+        "type": "URL",
+        "value": "https://www.lilly.com/news/stories/what-to-know-about-retatrutide"
+      },
+      "evidence_tier": "TIER_3_OFFICIAL_STATUS_SOURCE",
+      "review_status": "LIVING_STATUS_SOURCE_ACCEPTED"
+    }
+  ],
+  "quality_controls": {
+    "primary_source_preference": true,
+    "peer_review_status_explicit": true,
+    "sponsor_topline_separated": true,
+    "registry_records_not_treated_as_results": true,
+    "investigational_status_notice_required": true,
+    "claim_level_linkage_required": true
+  },
+  "next_review": "2026-08-20",
+  "living_evidence_watch_path": "06_Evidence/Retatrutide/RETATRUTIDE_LIVING_EVIDENCE_WATCH.json"
+}

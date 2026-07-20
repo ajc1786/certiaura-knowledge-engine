@@ -1,0 +1,45 @@
+{
+  "evidence_id": "RET-EVD-0005",
+  "title": "Triple hormone receptor agonist retatrutide for metabolic dysfunction-associated steatotic liver disease: a randomized phase 2a trial",
+  "source_type": "peer_reviewed_journal_article",
+  "publication_status": "published",
+  "peer_review_status": "peer_reviewed",
+  "study_design": "randomised phase 2a liver-fat substudy",
+  "primary_identifier": {
+    "type": "PMID",
+    "value": "38858523"
+  },
+  "identifiers": {
+    "pmid": "38858523",
+    "doi": "10.1038/s41591-024-03018-2",
+    "nct": "NCT04881760"
+  },
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38858523/",
+  "publication_date": "2024-06-10",
+  "journal_or_registry": "Nature Medicine",
+  "sponsor_or_funder": "Eli Lilly and Company",
+  "population": "participants with obesity and metabolic dysfunction-associated steatotic liver disease in a phase 2 substudy",
+  "intervention": "once-weekly retatrutide",
+  "comparator": "placebo",
+  "duration": "24 and 48 weeks",
+  "key_results": [
+    "Substantial reductions in liver fat were observed in higher-dose retatrutide groups."
+  ],
+  "safety_findings": [
+    "Safety interpretation remained consistent with the parent phase 2 programme."
+  ],
+  "limitations": [
+    "Substudy sample and imaging endpoints do not establish clinical liver-outcome benefit."
+  ],
+  "claim_support": [
+    "RET-CLM-LIVER-001"
+  ],
+  "evidence_tier": "TIER_1_RANDOMISED_PRIMARY",
+  "review_status": "SCIENTIFIC_REVIEW_BASELINE_ACCEPTED",
+  "provenance": {
+    "retrieved_on": "2026-07-20",
+    "retrieved_by": "Certiaura Build 0041",
+    "verification_method": "PMID, DOI and parent NCT cross-check"
+  },
+  "investigational_status_notice": "Retatrutide remains investigational and is not approved for public use."
+}

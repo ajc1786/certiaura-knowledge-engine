@@ -1,0 +1,45 @@
+{
+  "evidence_id": "RET-EVD-0009",
+  "title": "Retatrutide for the treatment of obesity, obstructive sleep apnoea and knee osteoarthritis: rationale and design of the TRIUMPH registrational clinical trials",
+  "source_type": "peer_reviewed_journal_article",
+  "publication_status": "published",
+  "peer_review_status": "peer_reviewed",
+  "study_design": "phase 3 programme rationale and design paper",
+  "primary_identifier": {
+    "type": "PMID",
+    "value": "41090431"
+  },
+  "identifiers": {
+    "pmid": "41090431",
+    "doi": "10.1111/dom.70209",
+    "nct": "NCT05929066"
+  },
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41090431/",
+  "publication_date": "2025-10-14",
+  "journal_or_registry": "Diabetes, Obesity and Metabolism",
+  "sponsor_or_funder": "Eli Lilly and Company",
+  "population": "phase 3 programme populations with obesity and related conditions",
+  "intervention": "once-weekly retatrutide",
+  "comparator": "trial-specific comparators",
+  "duration": "trial-specific",
+  "key_results": [
+    "Defines the planned registrational programme, endpoints, estimands and linked condition cohorts."
+  ],
+  "safety_findings": [
+    "Design paper; no final efficacy or safety outcome interpretation."
+  ],
+  "limitations": [
+    "Protocol and design evidence does not establish treatment effect."
+  ],
+  "claim_support": [
+    "RET-CLM-DEV-002"
+  ],
+  "evidence_tier": "TIER_2_PROTOCOL_PRIMARY",
+  "review_status": "SCIENTIFIC_REVIEW_BASELINE_ACCEPTED",
+  "provenance": {
+    "retrieved_on": "2026-07-20",
+    "retrieved_by": "Certiaura Build 0041",
+    "verification_method": "PMID, DOI and master NCT cross-check"
+  },
+  "investigational_status_notice": "Retatrutide remains investigational and is not approved for public use."
+}

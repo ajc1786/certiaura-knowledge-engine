@@ -1,0 +1,46 @@
+{
+  "evidence_id": "RET-EVD-0007",
+  "title": "Efficacy and safety of retatrutide, a GIP, GLP-1, and glucagon receptor agonist, in adults with type 2 diabetes (TRANSCEND-T2D-1): a double-blind, randomised, phase 3 trial",
+  "source_type": "peer_reviewed_journal_article",
+  "publication_status": "published",
+  "peer_review_status": "peer_reviewed",
+  "study_design": "phase 3 double-blind randomised trial",
+  "primary_identifier": {
+    "type": "PMID",
+    "value": "42250575"
+  },
+  "identifiers": {
+    "pmid": "42250575",
+    "doi": "10.1016/S0140-6736(26)00967-0",
+    "nct": "NCT06354660"
+  },
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42250575/",
+  "publication_date": "2026-06-13",
+  "journal_or_registry": "The Lancet",
+  "sponsor_or_funder": "Eli Lilly and Company",
+  "population": "537 adults with type 2 diabetes inadequately controlled with diet and exercise",
+  "intervention": "once-weekly retatrutide 4 mg, 9 mg or 12 mg",
+  "comparator": "placebo",
+  "duration": "40 weeks",
+  "key_results": [
+    "All studied doses improved glycaemic control and reduced bodyweight compared with placebo."
+  ],
+  "safety_findings": [
+    "Gastrointestinal adverse events remained the most common tolerability findings."
+  ],
+  "limitations": [
+    "Longer-term cardiovascular, renal and population-specific outcomes require dedicated trials."
+  ],
+  "claim_support": [
+    "RET-CLM-T2D-003",
+    "RET-CLM-SAF-001"
+  ],
+  "evidence_tier": "TIER_1_PHASE_3_RANDOMISED_PRIMARY",
+  "review_status": "SCIENTIFIC_REVIEW_BASELINE_ACCEPTED",
+  "provenance": {
+    "retrieved_on": "2026-07-20",
+    "retrieved_by": "Certiaura Build 0041",
+    "verification_method": "PMID, DOI and NCT cross-check"
+  },
+  "investigational_status_notice": "Retatrutide remains investigational and is not approved for public use."
+}

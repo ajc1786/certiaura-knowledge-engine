@@ -1,0 +1,704 @@
+{
+  "schema_version": "1.0.0",
+  "build_number": "0041",
+  "canonical_register_path": "Documentation/Master_Asset_Register.csv",
+  "formal_assets": [
+    {
+      "repository_relative_path": "02_Peptides/CERT-PKS-000001_Retatrutide/RETATRUTIDE_EVIDENCE_REVIEW_BASELINE.md",
+      "asset_title": "Retatrutide Evidence Review Baseline",
+      "asset_type": "Knowledge Asset Module",
+      "knowledge_system": "PKS",
+      "intended_action": "CREATE",
+      "existing_uai": null,
+      "uai_allocation": "REQUIRED_DURING_CANONICAL_RECONCILIATION",
+      "proposed_version": "1.0.0",
+      "proposed_status": "ACTIVE",
+      "owner": "Certiaura",
+      "completion_percentage": 100,
+      "parent_assets": [
+        "CERT-PKS-000001"
+      ],
+      "relationships": [
+        {
+          "type": "RELATED_TO",
+          "target": "CERT-PKS-000001"
+        }
+      ],
+      "build_provenance": [
+        "CERT-BUILD-0041"
+      ]
+    },
+    {
+      "repository_relative_path": "06_Evidence/Retatrutide/RETATRUTIDE_EVIDENCE_CORPUS_INDEX.json",
+      "asset_title": "Retatrutide Evidence Corpus Index",
+      "asset_type": "Evidence Corpus",
+      "knowledge_system": "EKS",
+      "intended_action": "CREATE",
+      "existing_uai": null,
+      "uai_allocation": "REQUIRED_DURING_CANONICAL_RECONCILIATION",
+      "proposed_version": "1.0.0",
+      "proposed_status": "ACTIVE",
+      "owner": "Certiaura",
+      "completion_percentage": 100,
+      "parent_assets": [
+        "CERT-PKS-000001"
+      ],
+      "relationships": [
+        {
+          "type": "RELATED_TO",
+          "target": "CERT-PKS-000001"
+        }
+      ],
+      "build_provenance": [
+        "CERT-BUILD-0041"
+      ]
+    },
+    {
+      "repository_relative_path": "06_Evidence/Retatrutide/RETATRUTIDE_CITATION_GRAPH.json",
+      "asset_title": "Retatrutide Citation Graph",
+      "asset_type": "Citation Graph",
+      "knowledge_system": "EKS",
+      "intended_action": "CREATE",
+      "existing_uai": null,
+      "uai_allocation": "REQUIRED_DURING_CANONICAL_RECONCILIATION",
+      "proposed_version": "1.0.0",
+      "proposed_status": "ACTIVE",
+      "owner": "Certiaura",
+      "completion_percentage": 100,
+      "parent_assets": [
+        "CERT-PKS-000001"
+      ],
+      "relationships": [
+        {
+          "type": "RELATED_TO",
+          "target": "CERT-PKS-000001"
+        }
+      ],
+      "build_provenance": [
+        "CERT-BUILD-0041"
+      ]
+    },
+    {
+      "repository_relative_path": "06_Evidence/Retatrutide/RETATRUTIDE_CLAIM_EVIDENCE_MATRIX.csv",
+      "asset_title": "Retatrutide Claim Evidence Matrix",
+      "asset_type": "Evidence Matrix",
+      "knowledge_system": "EKS",
+      "intended_action": "CREATE",
+      "existing_uai": null,
+      "uai_allocation": "REQUIRED_DURING_CANONICAL_RECONCILIATION",
+      "proposed_version": "1.0.0",
+      "proposed_status": "ACTIVE",
+      "owner": "Certiaura",
+      "completion_percentage": 100,
+      "parent_assets": [
+        "CERT-PKS-000001"
+      ],
+      "relationships": [
+        {
+          "type": "RELATED_TO",
+          "target": "CERT-PKS-000001"
+        }
+      ],
+      "build_provenance": [
+        "CERT-BUILD-0041"
+      ]
+    },
+    {
+      "repository_relative_path": "06_Evidence/Retatrutide/RETATRUTIDE_SCIENTIFIC_REVIEW_BASELINE.json",
+      "asset_title": "Retatrutide Scientific Review Baseline",
+      "asset_type": "Scientific Review",
+      "knowledge_system": "EKS",
+      "intended_action": "CREATE",
+      "existing_uai": null,
+      "uai_allocation": "REQUIRED_DURING_CANONICAL_RECONCILIATION",
+      "proposed_version": "1.0.0",
+      "proposed_status": "ACTIVE",
+      "owner": "Certiaura",
+      "completion_percentage": 100,
+      "parent_assets": [
+        "CERT-PKS-000001"
+      ],
+      "relationships": [
+        {
+          "type": "RELATED_TO",
+          "target": "CERT-PKS-000001"
+        }
+      ],
+      "build_provenance": [
+        "CERT-BUILD-0041"
+      ]
+    },
+    {
+      "repository_relative_path": "06_Evidence/Retatrutide/RETATRUTIDE_LIVING_EVIDENCE_WATCH.json",
+      "asset_title": "Retatrutide Living Evidence Watch",
+      "asset_type": "Living Evidence Watch",
+      "knowledge_system": "EKS",
+      "intended_action": "CREATE",
+      "existing_uai": null,
+      "uai_allocation": "REQUIRED_DURING_CANONICAL_RECONCILIATION",
+      "proposed_version": "1.0.0",
+      "proposed_status": "ACTIVE",
+      "owner": "Certiaura",
+      "completion_percentage": 100,
+      "parent_assets": [
+        "CERT-PKS-000001"
+      ],
+      "relationships": [
+        {
+          "type": "RELATED_TO",
+          "target": "CERT-PKS-000001"
+        }
+      ],
+      "build_provenance": [
+        "CERT-BUILD-0041"
+      ]
+    },
+    {
+      "repository_relative_path": "06_Evidence/Retatrutide/Corpus/RET-EVD-0001.json",
+      "asset_title": "LY3437943, a novel triple glucagon, GIP, and GLP-1 receptor agonist for glycemic control and weight loss: From discovery to clinical proof of concept",
+      "asset_type": "Evidence Object",
+      "knowledge_system": "EKS",
+      "intended_action": "CREATE",
+      "existing_uai": null,
+      "uai_allocation": "REQUIRED_DURING_CANONICAL_RECONCILIATION",
+      "proposed_version": "1.0.0",
+      "proposed_status": "ACTIVE",
+      "owner": "Certiaura",
+      "completion_percentage": 100,
+      "parent_assets": [
+        "CERT-PKS-000001"
+      ],
+      "relationships": [
+        {
+          "type": "RELATED_TO",
+          "target": "CERT-PKS-000001"
+        }
+      ],
+      "build_provenance": [
+        "CERT-BUILD-0041"
+      ]
+    },
+    {
+      "repository_relative_path": "06_Evidence/Retatrutide/Corpus/RET-EVD-0002.json",
+      "asset_title": "LY3437943, a novel triple GIP, GLP-1, and glucagon receptor agonist in people with type 2 diabetes: a phase 1b, multicentre, double-blind, placebo-controlled, randomised, multiple-ascending dose trial",
+      "asset_type": "Evidence Object",
+      "knowledge_system": "EKS",
+      "intended_action": "CREATE",
+      "existing_uai": null,
+      "uai_allocation": "REQUIRED_DURING_CANONICAL_RECONCILIATION",
+      "proposed_version": "1.0.0",
+      "proposed_status": "ACTIVE",
+      "owner": "Certiaura",
+      "completion_percentage": 100,
+      "parent_assets": [
+        "CERT-PKS-000001"
+      ],
+      "relationships": [
+        {
+          "type": "RELATED_TO",
+          "target": "CERT-PKS-000001"
+        }
+      ],
+      "build_provenance": [
+        "CERT-BUILD-0041"
+      ]
+    },
+    {
+      "repository_relative_path": "06_Evidence/Retatrutide/Corpus/RET-EVD-0003.json",
+      "asset_title": "Triple-Hormone-Receptor Agonist Retatrutide for Obesity \u2014 A Phase 2 Trial",
+      "asset_type": "Evidence Object",
+      "knowledge_system": "EKS",
+      "intended_action": "CREATE",
+      "existing_uai": null,
+      "uai_allocation": "REQUIRED_DURING_CANONICAL_RECONCILIATION",
+      "proposed_version": "1.0.0",
+      "proposed_status": "ACTIVE",
+      "owner": "Certiaura",
+      "completion_percentage": 100,
+      "parent_assets": [
+        "CERT-PKS-000001"
+      ],
+      "relationships": [
+        {
+          "type": "RELATED_TO",
+          "target": "CERT-PKS-000001"
+        }
+      ],
+      "build_provenance": [
+        "CERT-BUILD-0041"
+      ]
+    },
+    {
+      "repository_relative_path": "06_Evidence/Retatrutide/Corpus/RET-EVD-0004.json",
+      "asset_title": "Retatrutide, a GIP, GLP-1 and glucagon receptor agonist, for people with type 2 diabetes: a randomised, double-blind, placebo and active-controlled, parallel-group phase 2 trial",
+      "asset_type": "Evidence Object",
+      "knowledge_system": "EKS",
+      "intended_action": "CREATE",
+      "existing_uai": null,
+      "uai_allocation": "REQUIRED_DURING_CANONICAL_RECONCILIATION",
+      "proposed_version": "1.0.0",
+      "proposed_status": "ACTIVE",
+      "owner": "Certiaura",
+      "completion_percentage": 100,
+      "parent_assets": [
+        "CERT-PKS-000001"
+      ],
+      "relationships": [
+        {
+          "type": "RELATED_TO",
+          "target": "CERT-PKS-000001"
+        }
+      ],
+      "build_provenance": [
+        "CERT-BUILD-0041"
+      ]
+    },
+    {
+      "repository_relative_path": "06_Evidence/Retatrutide/Corpus/RET-EVD-0005.json",
+      "asset_title": "Triple hormone receptor agonist retatrutide for metabolic dysfunction-associated steatotic liver disease: a randomized phase 2a trial",
+      "asset_type": "Evidence Object",
+      "knowledge_system": "EKS",
+      "intended_action": "CREATE",
+      "existing_uai": null,
+      "uai_allocation": "REQUIRED_DURING_CANONICAL_RECONCILIATION",
+      "proposed_version": "1.0.0",
+      "proposed_status": "ACTIVE",
+      "owner": "Certiaura",
+      "completion_percentage": 100,
+      "parent_assets": [
+        "CERT-PKS-000001"
+      ],
+      "relationships": [
+        {
+          "type": "RELATED_TO",
+          "target": "CERT-PKS-000001"
+        }
+      ],
+      "build_provenance": [
+        "CERT-BUILD-0041"
+      ]
+    },
+    {
+      "repository_relative_path": "06_Evidence/Retatrutide/Corpus/RET-EVD-0006.json",
+      "asset_title": "Effects of retatrutide on body composition in people with type 2 diabetes: a substudy of a phase 2, double-blind, parallel-group, placebo-controlled, randomised trial",
+      "asset_type": "Evidence Object",
+      "knowledge_system": "EKS",
+      "intended_action": "CREATE",
+      "existing_uai": null,
+      "uai_allocation": "REQUIRED_DURING_CANONICAL_RECONCILIATION",
+      "proposed_version": "1.0.0",
+      "proposed_status": "ACTIVE",
+      "owner": "Certiaura",
+      "completion_percentage": 100,
+      "parent_assets": [
+        "CERT-PKS-000001"
+      ],
+      "relationships": [
+        {
+          "type": "RELATED_TO",
+          "target": "CERT-PKS-000001"
+        }
+      ],
+      "build_provenance": [
+        "CERT-BUILD-0041"
+      ]
+    },
+    {
+      "repository_relative_path": "06_Evidence/Retatrutide/Corpus/RET-EVD-0007.json",
+      "asset_title": "Efficacy and safety of retatrutide, a GIP, GLP-1, and glucagon receptor agonist, in adults with type 2 diabetes (TRANSCEND-T2D-1): a double-blind, randomised, phase 3 trial",
+      "asset_type": "Evidence Object",
+      "knowledge_system": "EKS",
+      "intended_action": "CREATE",
+      "existing_uai": null,
+      "uai_allocation": "REQUIRED_DURING_CANONICAL_RECONCILIATION",
+      "proposed_version": "1.0.0",
+      "proposed_status": "ACTIVE",
+      "owner": "Certiaura",
+      "completion_percentage": 100,
+      "parent_assets": [
+        "CERT-PKS-000001"
+      ],
+      "relationships": [
+        {
+          "type": "RELATED_TO",
+          "target": "CERT-PKS-000001"
+        }
+      ],
+      "build_provenance": [
+        "CERT-BUILD-0041"
+      ]
+    },
+    {
+      "repository_relative_path": "06_Evidence/Retatrutide/Corpus/RET-EVD-0008.json",
+      "asset_title": "TRIUMPH-1 Phase 3 topline results",
+      "asset_type": "Evidence Object",
+      "knowledge_system": "EKS",
+      "intended_action": "CREATE",
+      "existing_uai": null,
+      "uai_allocation": "REQUIRED_DURING_CANONICAL_RECONCILIATION",
+      "proposed_version": "1.0.0",
+      "proposed_status": "ACTIVE",
+      "owner": "Certiaura",
+      "completion_percentage": 100,
+      "parent_assets": [
+        "CERT-PKS-000001"
+      ],
+      "relationships": [
+        {
+          "type": "RELATED_TO",
+          "target": "CERT-PKS-000001"
+        }
+      ],
+      "build_provenance": [
+        "CERT-BUILD-0041"
+      ]
+    },
+    {
+      "repository_relative_path": "06_Evidence/Retatrutide/Corpus/RET-EVD-0009.json",
+      "asset_title": "Retatrutide for the treatment of obesity, obstructive sleep apnoea and knee osteoarthritis: rationale and design of the TRIUMPH registrational clinical trials",
+      "asset_type": "Evidence Object",
+      "knowledge_system": "EKS",
+      "intended_action": "CREATE",
+      "existing_uai": null,
+      "uai_allocation": "REQUIRED_DURING_CANONICAL_RECONCILIATION",
+      "proposed_version": "1.0.0",
+      "proposed_status": "ACTIVE",
+      "owner": "Certiaura",
+      "completion_percentage": 100,
+      "parent_assets": [
+        "CERT-PKS-000001"
+      ],
+      "relationships": [
+        {
+          "type": "RELATED_TO",
+          "target": "CERT-PKS-000001"
+        }
+      ],
+      "build_provenance": [
+        "CERT-BUILD-0041"
+      ]
+    },
+    {
+      "repository_relative_path": "06_Evidence/Retatrutide/Corpus/RET-EVD-0010.json",
+      "asset_title": "TRIUMPH-3: Retatrutide in participants with obesity or overweight and cardiovascular disease",
+      "asset_type": "Evidence Object",
+      "knowledge_system": "EKS",
+      "intended_action": "CREATE",
+      "existing_uai": null,
+      "uai_allocation": "REQUIRED_DURING_CANONICAL_RECONCILIATION",
+      "proposed_version": "1.0.0",
+      "proposed_status": "ACTIVE",
+      "owner": "Certiaura",
+      "completion_percentage": 100,
+      "parent_assets": [
+        "CERT-PKS-000001"
+      ],
+      "relationships": [
+        {
+          "type": "RELATED_TO",
+          "target": "CERT-PKS-000001"
+        }
+      ],
+      "build_provenance": [
+        "CERT-BUILD-0041"
+      ]
+    },
+    {
+      "repository_relative_path": "06_Evidence/Retatrutide/Corpus/RET-EVD-0011.json",
+      "asset_title": "Structural insights into the triple agonism at GLP-1R, GIPR and GCGR manifested by retatrutide",
+      "asset_type": "Evidence Object",
+      "knowledge_system": "EKS",
+      "intended_action": "CREATE",
+      "existing_uai": null,
+      "uai_allocation": "REQUIRED_DURING_CANONICAL_RECONCILIATION",
+      "proposed_version": "1.0.0",
+      "proposed_status": "ACTIVE",
+      "owner": "Certiaura",
+      "completion_percentage": 100,
+      "parent_assets": [
+        "CERT-PKS-000001"
+      ],
+      "relationships": [
+        {
+          "type": "RELATED_TO",
+          "target": "CERT-PKS-000001"
+        }
+      ],
+      "build_provenance": [
+        "CERT-BUILD-0041"
+      ]
+    },
+    {
+      "repository_relative_path": "06_Evidence/Retatrutide/Corpus/RET-EVD-0012.json",
+      "asset_title": "What to know about retatrutide",
+      "asset_type": "Evidence Object",
+      "knowledge_system": "EKS",
+      "intended_action": "CREATE",
+      "existing_uai": null,
+      "uai_allocation": "REQUIRED_DURING_CANONICAL_RECONCILIATION",
+      "proposed_version": "1.0.0",
+      "proposed_status": "ACTIVE",
+      "owner": "Certiaura",
+      "completion_percentage": 100,
+      "parent_assets": [
+        "CERT-PKS-000001"
+      ],
+      "relationships": [
+        {
+          "type": "RELATED_TO",
+          "target": "CERT-PKS-000001"
+        }
+      ],
+      "build_provenance": [
+        "CERT-BUILD-0041"
+      ]
+    }
+  ],
+  "files": [
+    {
+      "path": "02_Peptides/CERT-PKS-000001_Retatrutide/RETATRUTIDE_EVIDENCE_REVIEW_BASELINE.md",
+      "classification": "FORMAL_ASSET",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "06_Evidence/Retatrutide/Corpus/RET-EVD-0001.json",
+      "classification": "FORMAL_ASSET",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "06_Evidence/Retatrutide/Corpus/RET-EVD-0002.json",
+      "classification": "FORMAL_ASSET",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "06_Evidence/Retatrutide/Corpus/RET-EVD-0003.json",
+      "classification": "FORMAL_ASSET",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "06_Evidence/Retatrutide/Corpus/RET-EVD-0004.json",
+      "classification": "FORMAL_ASSET",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "06_Evidence/Retatrutide/Corpus/RET-EVD-0005.json",
+      "classification": "FORMAL_ASSET",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "06_Evidence/Retatrutide/Corpus/RET-EVD-0006.json",
+      "classification": "FORMAL_ASSET",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "06_Evidence/Retatrutide/Corpus/RET-EVD-0007.json",
+      "classification": "FORMAL_ASSET",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "06_Evidence/Retatrutide/Corpus/RET-EVD-0008.json",
+      "classification": "FORMAL_ASSET",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "06_Evidence/Retatrutide/Corpus/RET-EVD-0009.json",
+      "classification": "FORMAL_ASSET",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "06_Evidence/Retatrutide/Corpus/RET-EVD-0010.json",
+      "classification": "FORMAL_ASSET",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "06_Evidence/Retatrutide/Corpus/RET-EVD-0011.json",
+      "classification": "FORMAL_ASSET",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "06_Evidence/Retatrutide/Corpus/RET-EVD-0012.json",
+      "classification": "FORMAL_ASSET",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "06_Evidence/Retatrutide/RETATRUTIDE_CITATION_GRAPH.json",
+      "classification": "FORMAL_ASSET",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "06_Evidence/Retatrutide/RETATRUTIDE_CLAIM_EVIDENCE_MATRIX.csv",
+      "classification": "FORMAL_ASSET",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "06_Evidence/Retatrutide/RETATRUTIDE_EVIDENCE_CORPUS_INDEX.json",
+      "classification": "FORMAL_ASSET",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "06_Evidence/Retatrutide/RETATRUTIDE_LIVING_EVIDENCE_WATCH.json",
+      "classification": "FORMAL_ASSET",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "06_Evidence/Retatrutide/RETATRUTIDE_SCIENTIFIC_REVIEW_BASELINE.json",
+      "classification": "FORMAL_ASSET",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "13_Project_Genesis/Import/run_build_0041_import.py",
+      "classification": "SCRIPT",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "13_Project_Genesis/Release/run_build_0041_preflight.py",
+      "classification": "SCRIPT",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "13_Project_Genesis/Tests/Fixtures/Build_0041/invalid_missing_primary_identifier.example.json",
+      "classification": "EXAMPLE",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "13_Project_Genesis/Tests/test_build_0041_retatrutide_evidence_corpus.py",
+      "classification": "TEST",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "13_Project_Genesis/Validators/validate_retatrutide_evidence_corpus.py",
+      "classification": "SCRIPT",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "Documentation/Build_Records/0041/ASSET_INTENT_MANIFEST.json",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "Documentation/Build_Records/0041/BUILD_0041_READ_ME_FIRST.md",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "Documentation/Build_Records/0041/BUILD_MANIFEST.json",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "Documentation/Build_Records/0041/CHECKSUMS.sha256",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "Documentation/Build_Records/0041/COMMIT_MESSAGE.txt",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "Documentation/Build_Records/0041/CONTINUITY_CHECKPOINT_DELTA.json",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "Documentation/Build_Records/0041/DECISION_RECORD_0041.md",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "Documentation/Build_Records/0041/LESSONS_LEARNED_CONTROL_MATRIX.json",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "Documentation/Build_Records/0041/LESSONS_LEARNED_REVIEW.md",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "Documentation/Build_Records/0041/PACKAGE_INVENTORY.csv",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "Documentation/Build_Records/0041/PACKAGE_VERSION.json",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "Documentation/Build_Records/0041/PRE_RELEASE_SYNTHETIC_IMPORT_REPORT.json",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "Documentation/Build_Records/0041/PRODUCTION_DASHBOARD_UPDATE.json",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "Documentation/Build_Records/0041/PROJECT_GENESIS_IMPORT_HOOK.json",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "Documentation/Build_Records/0041/PROPOSED_CHANGE_LOG_ENTRY.md",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "Documentation/Build_Records/0041/PROPOSED_NEXT_ACTION.md",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "Documentation/Build_Records/0041/ROLLBACK_RUNBOOK.md",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "Documentation/Build_Records/0041/ROUTING_MANIFEST.json",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "Documentation/Build_Records/0041/TEST_REPORT.json",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "Documentation/Build_Records/0041/VALIDATION_REPORT.json",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "Schemas/retatrutide_citation_graph.schema.json",
+      "classification": "SCHEMA",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "Schemas/retatrutide_evidence_record.schema.json",
+      "classification": "SCHEMA",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "Scripts/Invoke_Certiaura_Build_0041_Import.ps1",
+      "classification": "SCRIPT",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "Scripts/Invoke_Certiaura_Build_0041_Preflight.ps1",
+      "classification": "SCRIPT",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "Scripts/Run_Certiaura_Build_0041.ps1",
+      "classification": "SCRIPT",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "Templates/RETATRUTIDE_EVIDENCE_RECORD_TEMPLATE.json",
+      "classification": "TEMPLATE",
+      "intended_action": "CREATE"
+    }
+  ]
+}

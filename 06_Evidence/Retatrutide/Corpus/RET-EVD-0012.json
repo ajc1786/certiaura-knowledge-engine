@@ -1,0 +1,46 @@
+{
+  "evidence_id": "RET-EVD-0012",
+  "title": "What to know about retatrutide",
+  "source_type": "official_sponsor_medical_information_page",
+  "publication_status": "living_web_source",
+  "peer_review_status": "not_peer_reviewed",
+  "study_design": "official status and programme summary",
+  "primary_identifier": {
+    "type": "URL",
+    "value": "https://www.lilly.com/news/stories/what-to-know-about-retatrutide"
+  },
+  "identifiers": {
+    "pmid": "",
+    "doi": "",
+    "nct": ""
+  },
+  "source_url": "https://www.lilly.com/news/stories/what-to-know-about-retatrutide",
+  "publication_date": "2026-06-01",
+  "journal_or_registry": "Eli Lilly and Company",
+  "sponsor_or_funder": "Eli Lilly and Company",
+  "population": "not applicable",
+  "intervention": "not applicable",
+  "comparator": "not applicable",
+  "duration": "living source",
+  "key_results": [
+    "States that retatrutide is investigational, not approved by any regulatory agency and not available for public use."
+  ],
+  "safety_findings": [
+    "Warns against products claiming to be retatrutide outside authorised clinical trials."
+  ],
+  "limitations": [
+    "Sponsor-authored status page; regulatory status must also be checked against regulator databases before public release."
+  ],
+  "claim_support": [
+    "RET-CLM-REG-001",
+    "RET-CLM-SAF-003"
+  ],
+  "evidence_tier": "TIER_3_OFFICIAL_STATUS_SOURCE",
+  "review_status": "LIVING_STATUS_SOURCE_ACCEPTED",
+  "provenance": {
+    "retrieved_on": "2026-07-20",
+    "retrieved_by": "Certiaura Build 0041",
+    "verification_method": "official sponsor page"
+  },
+  "investigational_status_notice": "Retatrutide remains investigational and is not approved for public use."
+}

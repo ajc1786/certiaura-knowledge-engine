@@ -1,0 +1,46 @@
+{
+  "evidence_id": "RET-EVD-0004",
+  "title": "Retatrutide, a GIP, GLP-1 and glucagon receptor agonist, for people with type 2 diabetes: a randomised, double-blind, placebo and active-controlled, parallel-group phase 2 trial",
+  "source_type": "peer_reviewed_journal_article",
+  "publication_status": "published",
+  "peer_review_status": "peer_reviewed",
+  "study_design": "phase 2 randomised double-blind placebo- and active-controlled trial",
+  "primary_identifier": {
+    "type": "PMID",
+    "value": "37385280"
+  },
+  "identifiers": {
+    "pmid": "37385280",
+    "doi": "",
+    "nct": "NCT04867785"
+  },
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37385280/",
+  "publication_date": "2023-08-12",
+  "journal_or_registry": "The Lancet",
+  "sponsor_or_funder": "Eli Lilly and Company",
+  "population": "adults with type 2 diabetes",
+  "intervention": "once-weekly retatrutide across dose groups",
+  "comparator": "placebo and dulaglutide 1.5 mg",
+  "duration": "36 weeks",
+  "key_results": [
+    "Retatrutide produced clinically meaningful HbA1c and bodyweight reductions in the studied population."
+  ],
+  "safety_findings": [
+    "Gastrointestinal events were the most frequently reported adverse events."
+  ],
+  "limitations": [
+    "Phase 2 duration and selected trial population limit long-term and general-population inference."
+  ],
+  "claim_support": [
+    "RET-CLM-T2D-002",
+    "RET-CLM-SAF-001"
+  ],
+  "evidence_tier": "TIER_1_RANDOMISED_PRIMARY",
+  "review_status": "SCIENTIFIC_REVIEW_BASELINE_ACCEPTED",
+  "provenance": {
+    "retrieved_on": "2026-07-20",
+    "retrieved_by": "Certiaura Build 0041",
+    "verification_method": "PMID and NCT cross-check"
+  },
+  "investigational_status_notice": "Retatrutide remains investigational and is not approved for public use."
+}

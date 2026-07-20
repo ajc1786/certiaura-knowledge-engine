@@ -1,0 +1,46 @@
+{
+  "evidence_id": "RET-EVD-0006",
+  "title": "Effects of retatrutide on body composition in people with type 2 diabetes: a substudy of a phase 2, double-blind, parallel-group, placebo-controlled, randomised trial",
+  "source_type": "peer_reviewed_journal_article",
+  "publication_status": "published",
+  "peer_review_status": "peer_reviewed",
+  "study_design": "prespecified body-composition substudy of a phase 2 randomised trial",
+  "primary_identifier": {
+    "type": "PMID",
+    "value": "40609566"
+  },
+  "identifiers": {
+    "pmid": "40609566",
+    "doi": "10.1016/S2213-8587(25)00092-0",
+    "nct": "NCT04867785"
+  },
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40609566/",
+  "publication_date": "2025-06-30",
+  "journal_or_registry": "The Lancet Diabetes & Endocrinology",
+  "sponsor_or_funder": "Eli Lilly and Company",
+  "population": "189 adults with type 2 diabetes enrolled in a DXA substudy",
+  "intervention": "retatrutide dose groups",
+  "comparator": "placebo and dulaglutide",
+  "duration": "36 weeks",
+  "key_results": [
+    "Retatrutide significantly reduced total fat mass versus placebo at the higher studied doses.",
+    "The proportion of lean-mass loss relative to total weight loss was reported as similar to other obesity treatments."
+  ],
+  "safety_findings": [
+    "Gastrointestinal events were the most frequently reported adverse events; no deaths were reported in the substudy."
+  ],
+  "limitations": [
+    "Not all randomised participants completed paired DXA measurements; body-composition endpoints were secondary to the parent trial."
+  ],
+  "claim_support": [
+    "RET-CLM-BODY-001"
+  ],
+  "evidence_tier": "TIER_1_RANDOMISED_SUBSTUDY",
+  "review_status": "SCIENTIFIC_REVIEW_BASELINE_ACCEPTED",
+  "provenance": {
+    "retrieved_on": "2026-07-20",
+    "retrieved_by": "Certiaura Build 0041",
+    "verification_method": "PMID, DOI and NCT cross-check"
+  },
+  "investigational_status_notice": "Retatrutide remains investigational and is not approved for public use."
+}

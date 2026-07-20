@@ -1,0 +1,45 @@
+{
+  "evidence_id": "RET-EVD-0011",
+  "title": "Structural insights into the triple agonism at GLP-1R, GIPR and GCGR manifested by retatrutide",
+  "source_type": "peer_reviewed_journal_article",
+  "publication_status": "published",
+  "peer_review_status": "peer_reviewed",
+  "study_design": "structural biology and receptor pharmacology study",
+  "primary_identifier": {
+    "type": "PMID",
+    "value": "39019866"
+  },
+  "identifiers": {
+    "pmid": "39019866",
+    "doi": "10.1038/s41421-024-00700-0",
+    "nct": ""
+  },
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39019866/",
+  "publication_date": "2024-07-17",
+  "journal_or_registry": "Cell Discovery",
+  "sponsor_or_funder": "academic institutions; see source declarations",
+  "population": "receptor complexes and in-vitro pharmacology systems",
+  "intervention": "retatrutide receptor binding and signalling",
+  "comparator": "endogenous and synthetic peptide agonists",
+  "duration": "not applicable",
+  "key_results": [
+    "Cryo-electron microscopy and mutational analyses described retatrutide recognition at GLP-1R, GIPR and GCGR."
+  ],
+  "safety_findings": [
+    "Not a clinical safety study."
+  ],
+  "limitations": [
+    "Structural and in-vitro findings do not directly quantify human clinical benefit or risk."
+  ],
+  "claim_support": [
+    "RET-CLM-MECH-002"
+  ],
+  "evidence_tier": "TIER_2_MECHANISTIC_PRIMARY",
+  "review_status": "SCIENTIFIC_REVIEW_BASELINE_ACCEPTED",
+  "provenance": {
+    "retrieved_on": "2026-07-20",
+    "retrieved_by": "Certiaura Build 0041",
+    "verification_method": "PMID and DOI cross-check"
+  },
+  "investigational_status_notice": "Retatrutide remains investigational and is not approved for public use."
+}

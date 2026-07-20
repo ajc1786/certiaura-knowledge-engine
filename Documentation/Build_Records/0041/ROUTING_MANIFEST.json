@@ -1,0 +1,228 @@
+{
+  "schema_version": "1.0.0",
+  "build_number": "0041",
+  "flat_repository_relative": true,
+  "wrapper_folder": false,
+  "allowed_roots": [
+    "00_Governance",
+    "01_Knowledge_Systems",
+    "02_Peptides",
+    "03_Biology",
+    "04_Conditions",
+    "05_Monitoring",
+    "06_Evidence",
+    "07_Goals",
+    "08_Product_Passports",
+    "09_Cost_Intelligence",
+    "10_Marketplace",
+    "11_Academy",
+    "12_Reports",
+    "13_Project_Genesis",
+    "Assets",
+    "Database",
+    "Documentation",
+    "Images",
+    "Schemas",
+    "Scripts",
+    "Standards",
+    "Templates"
+  ],
+  "routes": [
+    {
+      "path": "02_Peptides/CERT-PKS-000001_Retatrutide/RETATRUTIDE_EVIDENCE_REVIEW_BASELINE.md",
+      "root": "02_Peptides"
+    },
+    {
+      "path": "06_Evidence/Retatrutide/Corpus/RET-EVD-0001.json",
+      "root": "06_Evidence"
+    },
+    {
+      "path": "06_Evidence/Retatrutide/Corpus/RET-EVD-0002.json",
+      "root": "06_Evidence"
+    },
+    {
+      "path": "06_Evidence/Retatrutide/Corpus/RET-EVD-0003.json",
+      "root": "06_Evidence"
+    },
+    {
+      "path": "06_Evidence/Retatrutide/Corpus/RET-EVD-0004.json",
+      "root": "06_Evidence"
+    },
+    {
+      "path": "06_Evidence/Retatrutide/Corpus/RET-EVD-0005.json",
+      "root": "06_Evidence"
+    },
+    {
+      "path": "06_Evidence/Retatrutide/Corpus/RET-EVD-0006.json",
+      "root": "06_Evidence"
+    },
+    {
+      "path": "06_Evidence/Retatrutide/Corpus/RET-EVD-0007.json",
+      "root": "06_Evidence"
+    },
+    {
+      "path": "06_Evidence/Retatrutide/Corpus/RET-EVD-0008.json",
+      "root": "06_Evidence"
+    },
+    {
+      "path": "06_Evidence/Retatrutide/Corpus/RET-EVD-0009.json",
+      "root": "06_Evidence"
+    },
+    {
+      "path": "06_Evidence/Retatrutide/Corpus/RET-EVD-0010.json",
+      "root": "06_Evidence"
+    },
+    {
+      "path": "06_Evidence/Retatrutide/Corpus/RET-EVD-0011.json",
+      "root": "06_Evidence"
+    },
+    {
+      "path": "06_Evidence/Retatrutide/Corpus/RET-EVD-0012.json",
+      "root": "06_Evidence"
+    },
+    {
+      "path": "06_Evidence/Retatrutide/RETATRUTIDE_CITATION_GRAPH.json",
+      "root": "06_Evidence"
+    },
+    {
+      "path": "06_Evidence/Retatrutide/RETATRUTIDE_CLAIM_EVIDENCE_MATRIX.csv",
+      "root": "06_Evidence"
+    },
+    {
+      "path": "06_Evidence/Retatrutide/RETATRUTIDE_EVIDENCE_CORPUS_INDEX.json",
+      "root": "06_Evidence"
+    },
+    {
+      "path": "06_Evidence/Retatrutide/RETATRUTIDE_LIVING_EVIDENCE_WATCH.json",
+      "root": "06_Evidence"
+    },
+    {
+      "path": "06_Evidence/Retatrutide/RETATRUTIDE_SCIENTIFIC_REVIEW_BASELINE.json",
+      "root": "06_Evidence"
+    },
+    {
+      "path": "13_Project_Genesis/Import/run_build_0041_import.py",
+      "root": "13_Project_Genesis"
+    },
+    {
+      "path": "13_Project_Genesis/Release/run_build_0041_preflight.py",
+      "root": "13_Project_Genesis"
+    },
+    {
+      "path": "13_Project_Genesis/Tests/Fixtures/Build_0041/invalid_missing_primary_identifier.example.json",
+      "root": "13_Project_Genesis"
+    },
+    {
+      "path": "13_Project_Genesis/Tests/test_build_0041_retatrutide_evidence_corpus.py",
+      "root": "13_Project_Genesis"
+    },
+    {
+      "path": "13_Project_Genesis/Validators/validate_retatrutide_evidence_corpus.py",
+      "root": "13_Project_Genesis"
+    },
+    {
+      "path": "Documentation/Build_Records/0041/ASSET_INTENT_MANIFEST.json",
+      "root": "Documentation"
+    },
+    {
+      "path": "Documentation/Build_Records/0041/BUILD_0041_READ_ME_FIRST.md",
+      "root": "Documentation"
+    },
+    {
+      "path": "Documentation/Build_Records/0041/BUILD_MANIFEST.json",
+      "root": "Documentation"
+    },
+    {
+      "path": "Documentation/Build_Records/0041/CHECKSUMS.sha256",
+      "root": "Documentation"
+    },
+    {
+      "path": "Documentation/Build_Records/0041/COMMIT_MESSAGE.txt",
+      "root": "Documentation"
+    },
+    {
+      "path": "Documentation/Build_Records/0041/CONTINUITY_CHECKPOINT_DELTA.json",
+      "root": "Documentation"
+    },
+    {
+      "path": "Documentation/Build_Records/0041/DECISION_RECORD_0041.md",
+      "root": "Documentation"
+    },
+    {
+      "path": "Documentation/Build_Records/0041/LESSONS_LEARNED_CONTROL_MATRIX.json",
+      "root": "Documentation"
+    },
+    {
+      "path": "Documentation/Build_Records/0041/LESSONS_LEARNED_REVIEW.md",
+      "root": "Documentation"
+    },
+    {
+      "path": "Documentation/Build_Records/0041/PACKAGE_INVENTORY.csv",
+      "root": "Documentation"
+    },
+    {
+      "path": "Documentation/Build_Records/0041/PACKAGE_VERSION.json",
+      "root": "Documentation"
+    },
+    {
+      "path": "Documentation/Build_Records/0041/PRE_RELEASE_SYNTHETIC_IMPORT_REPORT.json",
+      "root": "Documentation"
+    },
+    {
+      "path": "Documentation/Build_Records/0041/PRODUCTION_DASHBOARD_UPDATE.json",
+      "root": "Documentation"
+    },
+    {
+      "path": "Documentation/Build_Records/0041/PROJECT_GENESIS_IMPORT_HOOK.json",
+      "root": "Documentation"
+    },
+    {
+      "path": "Documentation/Build_Records/0041/PROPOSED_CHANGE_LOG_ENTRY.md",
+      "root": "Documentation"
+    },
+    {
+      "path": "Documentation/Build_Records/0041/PROPOSED_NEXT_ACTION.md",
+      "root": "Documentation"
+    },
+    {
+      "path": "Documentation/Build_Records/0041/ROLLBACK_RUNBOOK.md",
+      "root": "Documentation"
+    },
+    {
+      "path": "Documentation/Build_Records/0041/ROUTING_MANIFEST.json",
+      "root": "Documentation"
+    },
+    {
+      "path": "Documentation/Build_Records/0041/TEST_REPORT.json",
+      "root": "Documentation"
+    },
+    {
+      "path": "Documentation/Build_Records/0041/VALIDATION_REPORT.json",
+      "root": "Documentation"
+    },
+    {
+      "path": "Schemas/retatrutide_citation_graph.schema.json",
+      "root": "Schemas"
+    },
+    {
+      "path": "Schemas/retatrutide_evidence_record.schema.json",
+      "root": "Schemas"
+    },
+    {
+      "path": "Scripts/Invoke_Certiaura_Build_0041_Import.ps1",
+      "root": "Scripts"
+    },
+    {
+      "path": "Scripts/Invoke_Certiaura_Build_0041_Preflight.ps1",
+      "root": "Scripts"
+    },
+    {
+      "path": "Scripts/Run_Certiaura_Build_0041.ps1",
+      "root": "Scripts"
+    },
+    {
+      "path": "Templates/RETATRUTIDE_EVIDENCE_RECORD_TEMPLATE.json",
+      "root": "Templates"
+    }
+  ]
+}
