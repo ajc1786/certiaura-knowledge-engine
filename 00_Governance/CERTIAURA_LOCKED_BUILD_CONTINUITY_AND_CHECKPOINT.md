@@ -2,7 +2,7 @@
 
 **Document ID:** CERT-GOV-CONT-002
 **Version:** 1.3.0
-**Status:** LOCKED — ACTIVE
+**Status:** LOCKED â€” ACTIVE
 **Effective date:** 2026-07-19
 **Last updated:** 2026-07-20
 **Authority:** Explicit founder instruction from Aidan Coleman
@@ -681,12 +681,12 @@ All founder-facing execution instructions remain PowerShell-first and copy-and-p
 ## 18. Current continuation checkpoint
 
 **Checkpoint date:** 2026-07-20
-**Checkpoint status:** ACTIVE — BUILD 0040 CORRECTED REISSUE DELIVERED, IMPORT PENDING
+**Checkpoint status:** ACTIVE â€” BUILD 0040 CORRECTED REISSUE DELIVERED, IMPORT PENDING
 
 ### Last closed build
 
 ```text
-Build 0039 — evidence ingestion citation management living evidence surveillance and scientific review controls
+Build 0039 â€” evidence ingestion citation management living evidence surveillance and scientific review controls
 Status: ACTIONS_GREEN_CLOSED
 Commit: 87624e9f1a9623d57c2ba583ecc5957754d8f527
 ```
@@ -694,8 +694,8 @@ Commit: 87624e9f1a9623d57c2ba583ecc5957754d8f527
 ### Current pending build
 
 ```text
-Build 0040 — automated build-package preflight synthetic repository import and release integrity controls
-Status: DELIVERED — CORRECTED REISSUE
+Build 0040 â€” automated build-package preflight synthetic repository import and release integrity controls
+Status: DELIVERED â€” CORRECTED REISSUE
 ```
 
 ### Recorded defect
@@ -803,12 +803,13 @@ Do not represent Build 0040 as closed until:
 This document remains locked by explicit founder instruction. No release tool, assistant or collaborator may weaken the Build 0040 release gates without an explicit recorded amendment.
 
 <!-- CERTIAURA_ACTIVE_CHECKPOINT_BEGIN -->
-## Active continuation checkpoint — Build 0041
+## Active continuation checkpoint - Build 0041 close-out
 
 - Last closed build: **0040** at `6f4dfb11dfdc4b28fe736972864ec1acf1a1e056` (`ACTIONS_GREEN_CLOSED`).
-- Current build: **0041 — retatrutide evidence corpus citation graph and scientific review baseline**.
-- Current state after import: `IMPORTED` pending repository validation, commit, push and GitHub Actions green.
-- Immediate next action: run post-import validators, both Git diff checks, stage all package changes, confirm no deletions, residue or runtime artefacts, then commit and push using the locked message.
-- Closure gate: do not set `ACTIONS_GREEN_CLOSED` until Actions are green and the Build 0041 lessons-learned record is verified.
-- Following planned integrated package: Build 0042 — Retatrutide safety, monitoring, contraindication and clinical-outcome integration baseline.
+- Build 0041 canonical import commit: `a63fe923160e5bface3f794f068cbfaeb7a3cd9f`.
+- Build 0041 import GitHub Actions: **GREEN**.
+- Build 0041 lessons-learned controls: **VERIFIED**.
+- Current state: `LESSONS_VERIFIED_PENDING_CLOSEOUT_ACTIONS`.
+- Immediate next action: commit and push this close-out evidence and confirm GitHub Actions green.
+- Following authorised integrated package after closure: Build 0042 - Retatrutide safety, monitoring, contraindication and clinical-outcome integration baseline.
 <!-- CERTIAURA_ACTIVE_CHECKPOINT_END -->

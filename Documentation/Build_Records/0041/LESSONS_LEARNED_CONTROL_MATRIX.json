@@ -1,79 +1,205 @@
 {
-  "schema_version": "1.0.0",
-  "build_number": "0041",
-  "controls": [
-    {
-      "lesson": "Build-neutral metadata discovery",
-      "implemented_in": [
-        "13_Project_Genesis/Import/run_build_0041_import.py",
-        "Documentation/Build_Records/0041/BUILD_MANIFEST.json"
-      ],
-      "regression": "synthetic dry run and apply"
-    },
-    {
-      "lesson": "Synthetic Git installation with unrelated history",
-      "implemented_in": [
-        "13_Project_Genesis/Release/run_build_0041_preflight.py"
-      ],
-      "regression": "pre-release synthetic import report"
-    },
-    {
-      "lesson": "Source maturity separation",
-      "implemented_in": [
-        "06_Evidence/Retatrutide/Corpus",
-        "06_Evidence/Retatrutide/RETATRUTIDE_CLAIM_EVIDENCE_MATRIX.csv"
-      ],
-      "regression": "sponsor and registry unit tests"
-    },
-    {
-      "lesson": "No hard-coded new UAI",
-      "implemented_in": [
-        "Documentation/Build_Records/0041/ASSET_INTENT_MANIFEST.json",
-        "13_Project_Genesis/Import/run_build_0041_import.py"
-      ],
-      "regression": "synthetic register allocation"
-    },
-    {
-      "lesson": "Lessons learned before closure",
-      "implemented_in": [
-        "Documentation/Build_Records/0041/LESSONS_LEARNED_REVIEW.md"
-      ],
-      "regression": "closure gate in continuity delta"
-    },
-    {
-      "control_id": "CERT-LL-0041-DELIVERY-001",
-      "defect": "Separate build-package and PowerShell-shortcut downloads",
-      "preventive_control": "One implementation-bundle ZIP containing the canonical inner package, detached SHA-256 and PowerShell launcher",
-      "regression_test": "Verify bundle inventory; launcher's expected hash must match the inner package; inner package must pass the complete release gate",
-      "status": "VERIFIED"
-    },
-    {
-      "control_id": "CERT-LL-0041-PS51-001",
-      "defect": "Windows PowerShell 5.1 parser failure caused by non-ASCII UTF-8 source without a byte-order mark",
-      "preventive_control": "ASCII-only .ps1/.cmd files plus native PowerShell parser precheck in the double-click starter",
-      "regression_test": "Package preflight and unit test reject non-ASCII executable scripts; starter parses launcher before execution",
-      "status": "VERIFIED"
-    },
-    {
-      "control_id": "CERT-LL-0041-PSCARD-001",
-      "defect": "OneDrive executable path collapsed to a scalar string and [0] returned its first character",
-      "preventive_control": "Iterate candidate full paths directly; never index an unnormalised pipeline result for an executable path",
-      "regression_test": "Static package test rejects Start-Process -FilePath $Candidates[0] and requires Resolve-OneDriveExecutable iteration",
-      "status": "VERIFIED"
-    },
-    {
-      "control_id": "CERT-LL-0041-ENTRY-001",
-      "defect": "Launcher source was pasted into an interactive shell and lost script-unit semantics",
-      "preventive_control": "Normal operator entry is the double-click CMD starter; instructions prohibit interactive source pasting",
-      "regression_test": "Implementation bundle read-me and starter provide one executable entry point with native parser precheck",
-      "status": "VERIFIED"
-    },
-    {
-      "control_id": "CERT-LL-0041-PKGPATH-001",
-      "defect": "Import wrapper performed broad ZIP rediscovery after the launcher had already verified the package",
-      "preventive_control": "Launcher resolves one adjacent package by SHA-256 and hands the explicit path to the import wrapper",
-      "regression_test": "Unit test and preflight gate require explicit Package parameter and reject broad download-root discovery",
-      "status": "VERIFIED"
-    }
-  ]
+    "schema_version":  "1.0.0",
+    "build_number":  "0041",
+    "controls":  [
+                     {
+                         "lesson":  "Build-neutral metadata discovery",
+                         "implemented_in":  [
+                                                "13_Project_Genesis/Import/run_build_0041_import.py",
+                                                "Documentation/Build_Records/0041/BUILD_MANIFEST.json"
+                                            ],
+                         "regression":  "synthetic dry run and apply",
+                         "status":  "VERIFIED",
+                         "verified_on":  "2026-07-20T15:30:30",
+                         "verification_evidence":  {
+                                                       "canonical_import_commit":  "a63fe923160e5bface3f794f068cbfaeb7a3cd9f",
+                                                       "github_actions":  "GREEN",
+                                                       "dry_run_report":  "C:\\Users\\enqui\\OneDrive\\Documents\\CERTIAURA\\Build_Reports\\0041\\BUILD_0041_DRY_RUN_20260720_135956.json",
+                                                       "apply_report":  "C:\\Users\\enqui\\OneDrive\\Documents\\CERTIAURA\\Build_Reports\\0041\\BUILD_0041_APPLY_20260720_135956.json",
+                                                       "master_asset_register_total":  2889,
+                                                       "scientific_evidence_objects":  12,
+                                                       "regression_tests":  7
+                                                   }
+                     },
+                     {
+                         "lesson":  "Synthetic Git installation with unrelated history",
+                         "implemented_in":  [
+                                                "13_Project_Genesis/Release/run_build_0041_preflight.py"
+                                            ],
+                         "regression":  "pre-release synthetic import report",
+                         "status":  "VERIFIED",
+                         "verified_on":  "2026-07-20T15:30:30",
+                         "verification_evidence":  {
+                                                       "canonical_import_commit":  "a63fe923160e5bface3f794f068cbfaeb7a3cd9f",
+                                                       "github_actions":  "GREEN",
+                                                       "dry_run_report":  "C:\\Users\\enqui\\OneDrive\\Documents\\CERTIAURA\\Build_Reports\\0041\\BUILD_0041_DRY_RUN_20260720_135956.json",
+                                                       "apply_report":  "C:\\Users\\enqui\\OneDrive\\Documents\\CERTIAURA\\Build_Reports\\0041\\BUILD_0041_APPLY_20260720_135956.json",
+                                                       "master_asset_register_total":  2889,
+                                                       "scientific_evidence_objects":  12,
+                                                       "regression_tests":  7
+                                                   }
+                     },
+                     {
+                         "lesson":  "Source maturity separation",
+                         "implemented_in":  [
+                                                "06_Evidence/Retatrutide/Corpus",
+                                                "06_Evidence/Retatrutide/RETATRUTIDE_CLAIM_EVIDENCE_MATRIX.csv"
+                                            ],
+                         "regression":  "sponsor and registry unit tests",
+                         "status":  "VERIFIED",
+                         "verified_on":  "2026-07-20T15:30:30",
+                         "verification_evidence":  {
+                                                       "canonical_import_commit":  "a63fe923160e5bface3f794f068cbfaeb7a3cd9f",
+                                                       "github_actions":  "GREEN",
+                                                       "dry_run_report":  "C:\\Users\\enqui\\OneDrive\\Documents\\CERTIAURA\\Build_Reports\\0041\\BUILD_0041_DRY_RUN_20260720_135956.json",
+                                                       "apply_report":  "C:\\Users\\enqui\\OneDrive\\Documents\\CERTIAURA\\Build_Reports\\0041\\BUILD_0041_APPLY_20260720_135956.json",
+                                                       "master_asset_register_total":  2889,
+                                                       "scientific_evidence_objects":  12,
+                                                       "regression_tests":  7
+                                                   }
+                     },
+                     {
+                         "lesson":  "No hard-coded new UAI",
+                         "implemented_in":  [
+                                                "Documentation/Build_Records/0041/ASSET_INTENT_MANIFEST.json",
+                                                "13_Project_Genesis/Import/run_build_0041_import.py"
+                                            ],
+                         "regression":  "synthetic register allocation",
+                         "status":  "VERIFIED",
+                         "verified_on":  "2026-07-20T15:30:30",
+                         "verification_evidence":  {
+                                                       "canonical_import_commit":  "a63fe923160e5bface3f794f068cbfaeb7a3cd9f",
+                                                       "github_actions":  "GREEN",
+                                                       "dry_run_report":  "C:\\Users\\enqui\\OneDrive\\Documents\\CERTIAURA\\Build_Reports\\0041\\BUILD_0041_DRY_RUN_20260720_135956.json",
+                                                       "apply_report":  "C:\\Users\\enqui\\OneDrive\\Documents\\CERTIAURA\\Build_Reports\\0041\\BUILD_0041_APPLY_20260720_135956.json",
+                                                       "master_asset_register_total":  2889,
+                                                       "scientific_evidence_objects":  12,
+                                                       "regression_tests":  7
+                                                   }
+                     },
+                     {
+                         "lesson":  "Lessons learned before closure",
+                         "implemented_in":  [
+                                                "Documentation/Build_Records/0041/LESSONS_LEARNED_REVIEW.md"
+                                            ],
+                         "regression":  "closure gate in continuity delta",
+                         "status":  "VERIFIED",
+                         "verified_on":  "2026-07-20T15:30:30",
+                         "verification_evidence":  {
+                                                       "canonical_import_commit":  "a63fe923160e5bface3f794f068cbfaeb7a3cd9f",
+                                                       "github_actions":  "GREEN",
+                                                       "dry_run_report":  "C:\\Users\\enqui\\OneDrive\\Documents\\CERTIAURA\\Build_Reports\\0041\\BUILD_0041_DRY_RUN_20260720_135956.json",
+                                                       "apply_report":  "C:\\Users\\enqui\\OneDrive\\Documents\\CERTIAURA\\Build_Reports\\0041\\BUILD_0041_APPLY_20260720_135956.json",
+                                                       "master_asset_register_total":  2889,
+                                                       "scientific_evidence_objects":  12,
+                                                       "regression_tests":  7
+                                                   }
+                     },
+                     {
+                         "control_id":  "CERT-LL-0041-DELIVERY-001",
+                         "defect":  "Separate build-package and PowerShell-shortcut downloads",
+                         "preventive_control":  "One implementation-bundle ZIP containing the canonical inner package, detached SHA-256 and PowerShell launcher",
+                         "regression_test":  "Verify bundle inventory; launcher\u0027s expected hash must match the inner package; inner package must pass the complete release gate",
+                         "status":  "VERIFIED",
+                         "verified_on":  "2026-07-20T15:30:30",
+                         "verification_evidence":  {
+                                                       "canonical_import_commit":  "a63fe923160e5bface3f794f068cbfaeb7a3cd9f",
+                                                       "github_actions":  "GREEN",
+                                                       "dry_run_report":  "C:\\Users\\enqui\\OneDrive\\Documents\\CERTIAURA\\Build_Reports\\0041\\BUILD_0041_DRY_RUN_20260720_135956.json",
+                                                       "apply_report":  "C:\\Users\\enqui\\OneDrive\\Documents\\CERTIAURA\\Build_Reports\\0041\\BUILD_0041_APPLY_20260720_135956.json",
+                                                       "master_asset_register_total":  2889,
+                                                       "scientific_evidence_objects":  12,
+                                                       "regression_tests":  7
+                                                   }
+                     },
+                     {
+                         "control_id":  "CERT-LL-0041-PS51-001",
+                         "defect":  "Windows PowerShell 5.1 parser failure caused by non-ASCII UTF-8 source without a byte-order mark",
+                         "preventive_control":  "ASCII-only .ps1/.cmd files plus native PowerShell parser precheck in the double-click starter",
+                         "regression_test":  "Package preflight and unit test reject non-ASCII executable scripts; starter parses launcher before execution",
+                         "status":  "VERIFIED",
+                         "verified_on":  "2026-07-20T15:30:30",
+                         "verification_evidence":  {
+                                                       "canonical_import_commit":  "a63fe923160e5bface3f794f068cbfaeb7a3cd9f",
+                                                       "github_actions":  "GREEN",
+                                                       "dry_run_report":  "C:\\Users\\enqui\\OneDrive\\Documents\\CERTIAURA\\Build_Reports\\0041\\BUILD_0041_DRY_RUN_20260720_135956.json",
+                                                       "apply_report":  "C:\\Users\\enqui\\OneDrive\\Documents\\CERTIAURA\\Build_Reports\\0041\\BUILD_0041_APPLY_20260720_135956.json",
+                                                       "master_asset_register_total":  2889,
+                                                       "scientific_evidence_objects":  12,
+                                                       "regression_tests":  7
+                                                   }
+                     },
+                     {
+                         "control_id":  "CERT-LL-0041-PSCARD-001",
+                         "defect":  "OneDrive executable path collapsed to a scalar string and [0] returned its first character",
+                         "preventive_control":  "Iterate candidate full paths directly; never index an unnormalised pipeline result for an executable path",
+                         "regression_test":  "Static package test rejects Start-Process -FilePath $Candidates[0] and requires Resolve-OneDriveExecutable iteration",
+                         "status":  "VERIFIED",
+                         "verified_on":  "2026-07-20T15:30:30",
+                         "verification_evidence":  {
+                                                       "canonical_import_commit":  "a63fe923160e5bface3f794f068cbfaeb7a3cd9f",
+                                                       "github_actions":  "GREEN",
+                                                       "dry_run_report":  "C:\\Users\\enqui\\OneDrive\\Documents\\CERTIAURA\\Build_Reports\\0041\\BUILD_0041_DRY_RUN_20260720_135956.json",
+                                                       "apply_report":  "C:\\Users\\enqui\\OneDrive\\Documents\\CERTIAURA\\Build_Reports\\0041\\BUILD_0041_APPLY_20260720_135956.json",
+                                                       "master_asset_register_total":  2889,
+                                                       "scientific_evidence_objects":  12,
+                                                       "regression_tests":  7
+                                                   }
+                     },
+                     {
+                         "control_id":  "CERT-LL-0041-ENTRY-001",
+                         "defect":  "Launcher source was pasted into an interactive shell and lost script-unit semantics",
+                         "preventive_control":  "Normal operator entry is the double-click CMD starter; instructions prohibit interactive source pasting",
+                         "regression_test":  "Implementation bundle read-me and starter provide one executable entry point with native parser precheck",
+                         "status":  "VERIFIED",
+                         "verified_on":  "2026-07-20T15:30:30",
+                         "verification_evidence":  {
+                                                       "canonical_import_commit":  "a63fe923160e5bface3f794f068cbfaeb7a3cd9f",
+                                                       "github_actions":  "GREEN",
+                                                       "dry_run_report":  "C:\\Users\\enqui\\OneDrive\\Documents\\CERTIAURA\\Build_Reports\\0041\\BUILD_0041_DRY_RUN_20260720_135956.json",
+                                                       "apply_report":  "C:\\Users\\enqui\\OneDrive\\Documents\\CERTIAURA\\Build_Reports\\0041\\BUILD_0041_APPLY_20260720_135956.json",
+                                                       "master_asset_register_total":  2889,
+                                                       "scientific_evidence_objects":  12,
+                                                       "regression_tests":  7
+                                                   }
+                     },
+                     {
+                         "control_id":  "CERT-LL-0041-PKGPATH-001",
+                         "defect":  "Import wrapper performed broad ZIP rediscovery after the launcher had already verified the package",
+                         "preventive_control":  "Launcher resolves one adjacent package by SHA-256 and hands the explicit path to the import wrapper",
+                         "regression_test":  "Unit test and preflight gate require explicit Package parameter and reject broad download-root discovery",
+                         "status":  "VERIFIED",
+                         "verified_on":  "2026-07-20T15:30:30",
+                         "verification_evidence":  {
+                                                       "canonical_import_commit":  "a63fe923160e5bface3f794f068cbfaeb7a3cd9f",
+                                                       "github_actions":  "GREEN",
+                                                       "dry_run_report":  "C:\\Users\\enqui\\OneDrive\\Documents\\CERTIAURA\\Build_Reports\\0041\\BUILD_0041_DRY_RUN_20260720_135956.json",
+                                                       "apply_report":  "C:\\Users\\enqui\\OneDrive\\Documents\\CERTIAURA\\Build_Reports\\0041\\BUILD_0041_APPLY_20260720_135956.json",
+                                                       "master_asset_register_total":  2889,
+                                                       "scientific_evidence_objects":  12,
+                                                       "regression_tests":  7
+                                                   }
+                     }
+                 ],
+    "closure_verification":  {
+                                 "status":  "VERIFIED",
+                                 "verified_on":  "2026-07-20T15:30:30",
+                                 "canonical_import_commit":  "a63fe923160e5bface3f794f068cbfaeb7a3cd9f",
+                                 "github_actions":  {
+                                                        "method":  "HUMAN_CONFIRMED_EXACT_COMMIT_CHECKS",
+                                                        "commit":  "a63fe923160e5bface3f794f068cbfaeb7a3cd9f",
+                                                        "verified_on":  "2026-07-20T15:30:14",
+                                                        "checks_url":  "https://github.com/ajc1786/certiaura-knowledge-engine/commit/a63fe923160e5bface3f794f068cbfaeb7a3cd9f/checks",
+                                                        "runs":  [
+
+                                                                 ]
+                                                    },
+                                 "package_file_count":  49,
+                                 "formal_asset_count":  18,
+                                 "allocated_identifier_count":  18,
+                                 "master_asset_register_total":  2889,
+                                 "evidence_count":  12,
+                                 "regression_test_count":  7,
+                                 "transactional_backup":  "C:\\Users\\enqui\\OneDrive\\Documents\\CERTIAURA\\Backups\\Build_0041_Pre_Import_20260720T130101Z"
+                             }
 }

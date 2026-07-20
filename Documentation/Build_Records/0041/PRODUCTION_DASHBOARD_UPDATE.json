@@ -1,24 +1,31 @@
 {
-  "build_number": "0041",
-  "title": "retatrutide evidence corpus citation graph and scientific review baseline",
-  "authorisation": "GREEN_AUTHORISED",
-  "package_state": "GENERATED",
-  "canonical_state": "NOT_IMPORTED",
-  "dependencies": [
-    {
-      "build_number": "0039",
-      "relationship": "uses evidence governance and validators"
-    },
-    {
-      "build_number": "0040",
-      "relationship": "uses release preflight and synthetic import gate"
-    }
-  ],
-  "success_metrics": {
-    "evidence_objects": 12,
-    "claim_rows": 16,
-    "broken_graph_edges": 0,
-    "unclassified_files": 0,
-    "new_uai_hardcoded": 0
-  }
+    "build_number":  "0041",
+    "title":  "retatrutide evidence corpus citation graph and scientific review baseline",
+    "authorisation":  "GREEN_AUTHORISED",
+    "package_state":  "IMPORTED",
+    "canonical_state":  "LESSONS_VERIFIED_PENDING_CLOSEOUT_ACTIONS",
+    "dependencies":  [
+                         {
+                             "build_number":  "0039",
+                             "relationship":  "uses evidence governance and validators"
+                         },
+                         {
+                             "build_number":  "0040",
+                             "relationship":  "uses release preflight and synthetic import gate"
+                         }
+                     ],
+    "success_metrics":  {
+                            "evidence_objects":  12,
+                            "claim_rows":  16,
+                            "broken_graph_edges":  0,
+                            "unclassified_files":  0,
+                            "new_uai_hardcoded":  0
+                        },
+    "canonical_import":  {
+                             "commit":  "a63fe923160e5bface3f794f068cbfaeb7a3cd9f",
+                             "actions":  "GREEN",
+                             "lessons_learned_controls":  "VERIFIED",
+                             "verified_on":  "2026-07-20T15:30:30",
+                             "master_asset_register_total":  2889
+                         }
 }

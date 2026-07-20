@@ -1,20 +1,20 @@
 {
-  "schema_version": "1.0.0",
-  "last_closed_build": {
-    "build_number": "0040",
-    "state": "ACTIONS_GREEN_CLOSED",
-    "commit": "6f4dfb11dfdc4b28fe736972864ec1acf1a1e056"
-  },
-  "current_build": {
-    "build_number": "0041",
-    "title": "retatrutide evidence corpus citation graph and scientific review baseline",
-    "state_before_import": "DELIVERED",
-    "state_after_apply": "IMPORTED"
-  },
-  "immediate_next_action": "actual installed Project Genesis dry run, review, transactional apply and full repository validation",
-  "following_planned_build": {
-    "build_number": "0042",
-    "title": "Retatrutide safety monitoring contraindication and clinical-outcome integration baseline"
-  },
-  "closure_gate": "Actions green and lessons learned verified"
+    "schema_version":  "1.0.0",
+    "last_closed_build":  {
+                              "build_number":  "0040",
+                              "state":  "ACTIONS_GREEN_CLOSED",
+                              "commit":  "6f4dfb11dfdc4b28fe736972864ec1acf1a1e056"
+                          },
+    "current_build":  {
+                          "build_number":  "0041",
+                          "title":  "retatrutide evidence corpus citation graph and scientific review baseline",
+                          "canonical_import_commit":  "a63fe923160e5bface3f794f068cbfaeb7a3cd9f",
+                          "state":  "LESSONS_VERIFIED_PENDING_CLOSEOUT_ACTIONS"
+                      },
+    "immediate_next_action":  "Commit and push the Build 0041 close-out evidence, then confirm GitHub Actions green.",
+    "following_planned_build":  {
+                                    "build_number":  "0042",
+                                    "title":  "Retatrutide safety monitoring contraindication and clinical-outcome integration baseline"
+                                },
+    "closure_gate":  "Lessons verified; close-out commit Actions pending."
 }

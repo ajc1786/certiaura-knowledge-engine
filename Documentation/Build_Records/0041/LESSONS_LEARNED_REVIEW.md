@@ -35,7 +35,7 @@ No canonical repository time was consumed because package production occurred ou
 
 This review must be re-opened after the canonical import to record actual importer behaviour, defects, time lost, corrective actions and GitHub Actions evidence. Build 0041 must not reach `ACTIONS_GREEN_CLOSED` until that close-out section is completed and verified.
 
-## Delivery integration correction — package v1.0.2
+## Delivery integration correction â€” package v1.0.2
 
 - **Defect:** The Build 0041 package and PowerShell implementation shortcut were initially issued as separate downloads.
 - **Root cause:** The single-link delivery requirement had not yet been integrated into the build-generation template.
@@ -61,3 +61,38 @@ This review must be re-opened after the canonical import to record actual import
 - **Corrective actions:** Retain Build 0041, increase package version to 1.0.4, iterate candidate executable paths directly, resolve the inner package only beside the launcher by exact SHA-256, pass its explicit path to the import wrapper, preserve and restore the prior backup environment variable, and make the starter pause on every exit.
 - **Preventive controls:** No executable path may be selected by indexing an unnormalised pipeline result. One-click bundle launchers must use one package resolver and explicit path handoff. Instructions must prohibit pasting launcher source into an interactive shell. Static preflight gates and regression tests must enforce these controls.
 - **Regression evidence:** Seven package tests, new full-path and explicit-package-handoff preflight gates, complete package self-validation, synthetic dry-run/apply, transactional backup and Master Asset Register reconciliation, and both mandatory Git whitespace checks.
+
+<!-- CERTIAURA_BUILD_0041_CANONICAL_CLOSEOUT_BEGIN -->
+## Canonical import and closure verification
+
+**Verified on:** 2026-07-20T15:30:30
+**Canonical import commit:** `a63fe923160e5bface3f794f068cbfaeb7a3cd9f`
+**GitHub Actions verification method:** HUMAN_CONFIRMED_EXACT_COMMIT_CHECKS
+**Dry-run report:** `C:\Users\enqui\OneDrive\Documents\CERTIAURA\Build_Reports\0041\BUILD_0041_DRY_RUN_20260720_135956.json`
+**Apply report:** `C:\Users\enqui\OneDrive\Documents\CERTIAURA\Build_Reports\0041\BUILD_0041_APPLY_20260720_135956.json`
+**Transactional backup:** `C:\Users\enqui\OneDrive\Documents\CERTIAURA\Backups\Build_0041_Pre_Import_20260720T130101Z`
+
+### Actual canonical results
+
+- Package files validated and applied: **49**
+- Formal assets reconciled: **18**
+- Universal Asset Identifiers allocated: **18**
+- Allocated identifier range: **CERT-PKS-000433 to CERT-EKS-000776**
+- Master Asset Register total after import: **2889**
+- Evidence objects validated: **12**
+- Regression tests passed: **7**
+- Unexpected deletions: **0**
+- Runtime artefacts: **0**
+- Unstaged changes after staging: **0**
+- `git diff --check`: **PASS**
+- `git diff --cached --check`: **PASS**
+- GitHub Actions for the canonical import commit: **GREEN**
+
+### Actual defects and time lost
+
+The real canonical import completed transactionally without repository, register or scientific validation failure. The implementation and close-out cycle exposed Windows PowerShell 5.1 encoding incompatibility, scalar executable-path indexing, broad package rediscovery, interactive source pasting, incorrect CMD caret escaping and generated Markdown trailing whitespace. The trailing-whitespace defect was blocked by git diff --cached --check before commit or push. The corrective controls are central trailing-whitespace normalisation, exact interrupted-run recovery, ASCII-only executables and native parser prechecks. The root causes, corrective actions, preventive controls and regression evidence are recorded in this review and the control matrix.
+
+### Closure decision
+
+All applicable Build 0041 lessons-learned controls are implemented and verified against the successful canonical import. Build 0041 is eligible for `ACTIONS_GREEN_CLOSED` after this close-out record is committed, pushed and its GitHub Actions workflow is confirmed green.
+<!-- CERTIAURA_BUILD_0041_CANONICAL_CLOSEOUT_END -->
