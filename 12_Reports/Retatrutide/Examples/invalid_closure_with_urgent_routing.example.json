@@ -1,0 +1,12 @@
+{
+  "build_provenance": "CERT-BUILD-0050",
+  "case_id": "CASE-RTA-0003",
+  "closure_state": "CLOSURE_APPROVED",
+  "open_action_count": 0,
+  "urgent_routing_active": true,
+  "current_approved_export_id": "EXP-RTA-0005",
+  "quality_assurance_review_id": "QA-RTA-0003",
+  "decision_actor_role": "AUTHORISED_CLOSURE_REVIEWER",
+  "decided_at": "2026-07-21T20:00:00Z",
+  "notes": "Invalid downgrade of urgent routing."
+}

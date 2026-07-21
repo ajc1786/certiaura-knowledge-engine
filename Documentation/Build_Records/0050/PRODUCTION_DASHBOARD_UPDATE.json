@@ -1,0 +1,7 @@
+{
+  "build_id": "CERT-BUILD-0050",
+  "status": "GENERATED_CANDIDATE_WINDOWS_PS51_GATE_REQUIRED",
+  "formal_assets": 6,
+  "tests": 20,
+  "next_gate": "WINDOWS_POWERSHELL_5_1_REGRESSION"
+}

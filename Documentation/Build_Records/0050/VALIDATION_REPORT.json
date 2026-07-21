@@ -1,0 +1,11 @@
+{
+  "build_id": "CERT-BUILD-0050",
+  "package_preflight": "PASS",
+  "schemas": "PASS",
+  "examples": "PASS",
+  "asset_ownership": "PASS",
+  "validator_scope": "EXACT_ASSET_INTENT_MANIFEST_PATHS",
+  "shared_folder_glob": "PROHIBITED",
+  "synthetic_transaction": "PASS",
+  "windows_ps51": "RELEASE_BLOCKING"
+}

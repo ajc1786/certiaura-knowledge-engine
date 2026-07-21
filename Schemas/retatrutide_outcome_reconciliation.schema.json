@@ -1,0 +1,54 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Retatrutide outcome reconciliation",
+  "type": "object",
+  "required": [
+    "build_provenance",
+    "reconciliation_id",
+    "case_id",
+    "latest_follow_up_id",
+    "current_approved_export_id",
+    "evidence_snapshot_id",
+    "outcome_status",
+    "reconciled_at"
+  ],
+  "properties": {
+    "build_provenance": {
+      "const": "CERT-BUILD-0050"
+    },
+    "reconciliation_id": {
+      "type": "string"
+    },
+    "case_id": {
+      "type": "string"
+    },
+    "latest_follow_up_id": {
+      "type": "string"
+    },
+    "current_approved_export_id": {
+      "type": "string"
+    },
+    "evidence_snapshot_id": {
+      "type": "string"
+    },
+    "outcome_status": {
+      "enum": [
+        "CONSISTENT",
+        "VARIANCE_REQUIRES_REVIEW",
+        "INSUFFICIENT_DATA",
+        "LOCKED_URGENT_ROUTING"
+      ]
+    },
+    "reconciled_at": {
+      "type": "string"
+    },
+    "source_hashes": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[A-F0-9]{64}$"
+      }
+    }
+  },
+  "additionalProperties": false
+}

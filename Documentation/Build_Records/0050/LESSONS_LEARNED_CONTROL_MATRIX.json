@@ -1,0 +1,61 @@
+{
+  "build_id": "CERT-BUILD-0050",
+  "controls": [
+    {
+      "control": "ACCUMULATED_PRIOR_BUILD_LESSONS_REVIEW",
+      "status": "PASS"
+    },
+    {
+      "control": "CURRENT_BUILD_LESSONS_RECORDED",
+      "status": "PASS"
+    },
+    {
+      "control": "LESSONS_CONVERTED_TO_REGRESSION_CONTROLS",
+      "status": "PASS"
+    },
+    {
+      "control": "CONTINUITY_CHECKPOINT_UPDATED",
+      "status": "PASS"
+    },
+    {
+      "control": "CLOSURE_READINESS_FAIL_CLOSED",
+      "status": "IMPLEMENTED_AND_NEGATIVE_TESTED"
+    },
+    {
+      "control": "URGENT_ROUTING_NON_DOWNGRADE",
+      "status": "IMPLEMENTED_AND_NEGATIVE_TESTED"
+    },
+    {
+      "control": "OPEN_ACTION_ESCALATION",
+      "status": "IMPLEMENTED_AND_TESTED"
+    },
+    {
+      "control": "OUTCOME_RECONCILIATION_HASH_INTEGRITY",
+      "status": "IMPLEMENTED_AND_NEGATIVE_TESTED"
+    },
+    {
+      "control": "QUALITY_ASSURANCE_ROLE_SEPARATION",
+      "status": "IMPLEMENTED_AND_TESTED"
+    },
+    {
+      "control": "EXACT_BUILD_0049_PREDECESSOR_PRESERVATION",
+      "status": "SYNTHETIC_REGRESSION_REQUIRED"
+    },
+    {
+      "control": "WINDOWS_POWERSHELL_5_1_OPERATOR_REGRESSION",
+      "status": "RELEASE_BLOCKING"
+    },
+    {
+      "control": "POST_APPLY_VALIDATOR_EXACT_MANIFEST_OWNERSHIP",
+      "status": "IMPLEMENTED_AND_RUNTIME_TESTED"
+    },
+    {
+      "control": "SHARED_EXAMPLES_FOLDER_GLOB_PROHIBITED",
+      "status": "IMPLEMENTED_AND_STATICALLY_TESTED"
+    },
+    {
+      "control": "BUILD_0049_PREDECESSOR_EXAMPLE_SCOPE_FIXTURE",
+      "status": "PRESERVED_AND_EXCLUDED"
+    }
+  ]
+}

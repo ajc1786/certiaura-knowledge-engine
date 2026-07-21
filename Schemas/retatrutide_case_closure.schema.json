@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Retatrutide case closure",
+  "type": "object",
+  "required": [
+    "build_provenance",
+    "case_id",
+    "closure_state",
+    "open_action_count",
+    "urgent_routing_active",
+    "current_approved_export_id",
+    "quality_assurance_review_id",
+    "decision_actor_role",
+    "decided_at"
+  ],
+  "properties": {
+    "build_provenance": {
+      "const": "CERT-BUILD-0050"
+    },
+    "case_id": {
+      "type": "string",
+      "pattern": "^CASE-[A-Z0-9-]+$"
+    },
+    "closure_state": {
+      "enum": [
+        "CLOSURE_NOT_READY",
+        "CLOSURE_PENDING_ACTIONS",
+        "CLOSURE_PENDING_CLINICAL_REVIEW",
+        "CLOSURE_APPROVED",
+        "CLOSURE_REOPENED",
+        "LOCKED_URGENT_ROUTING"
+      ]
+    },
+    "open_action_count": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "urgent_routing_active": {
+      "type": "boolean"
+    },
+    "current_approved_export_id": {
+      "type": "string"
+    },
+    "quality_assurance_review_id": {
+      "type": "string"
+    },
+    "decision_actor_role": {
+      "type": "string"
+    },
+    "decided_at": {
+      "type": "string"
+    },
+    "notes": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": false
+}

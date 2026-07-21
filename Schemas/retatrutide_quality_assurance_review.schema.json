@@ -1,0 +1,54 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Retatrutide quality assurance review",
+  "type": "object",
+  "required": [
+    "build_provenance",
+    "review_id",
+    "case_id",
+    "generator_actor_role",
+    "reviewer_actor_role",
+    "decision",
+    "reviewed_at",
+    "checks"
+  ],
+  "properties": {
+    "build_provenance": {
+      "const": "CERT-BUILD-0050"
+    },
+    "review_id": {
+      "type": "string"
+    },
+    "case_id": {
+      "type": "string"
+    },
+    "generator_actor_role": {
+      "type": "string"
+    },
+    "reviewer_actor_role": {
+      "type": "string"
+    },
+    "decision": {
+      "enum": [
+        "PASS",
+        "PASS_WITH_ACTIONS",
+        "REWORK_REQUIRED",
+        "LOCKED_URGENT_ROUTING"
+      ]
+    },
+    "reviewed_at": {
+      "type": "string"
+    },
+    "checks": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    },
+    "notes": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": false
+}

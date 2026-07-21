@@ -1,0 +1,8 @@
+{
+  "build_id": "CERT-BUILD-0050",
+  "package_version": "1.0.0-rc2",
+  "candidate": "validator_exact_manifest_ownership_correction",
+  "generated_date": "2026-07-21",
+  "scope": "case review closure, unresolved-action escalation, outcome reconciliation and quality assurance analytics",
+  "correction": "Scope post-apply validator to exact Build 0050 Asset Intent Manifest example paths and exclude predecessor examples."
+}

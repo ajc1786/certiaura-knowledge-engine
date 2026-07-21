@@ -1,0 +1,7 @@
+{
+  "build_id": "CERT-BUILD-0050",
+  "ascii_only": true,
+  "array_normalisation": true,
+  "strictmode_empty_collection_safe": true,
+  "status": "REAL_WORLD_GATE_REQUIRED"
+}

@@ -1,0 +1,8 @@
+{
+  "build_id": "CERT-BUILD-0050",
+  "package_version": "1.0.0-rc2",
+  "status": "WINDOWS_PS51_GATE_REQUIRED",
+  "canonical_repository_modified": false,
+  "prior_attempt": "POST_APPLY_ROLLED_BACK_CLEAN",
+  "correction": "exact Asset Intent Manifest validator scope"
+}

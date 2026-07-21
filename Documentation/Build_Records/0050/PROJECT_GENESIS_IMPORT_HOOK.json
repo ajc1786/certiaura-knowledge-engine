@@ -1,0 +1,6 @@
+{
+  "build_id": "CERT-BUILD-0050",
+  "importer": "13_Project_Genesis/Import/build_0050_transactional_import.py",
+  "rollback": "13_Project_Genesis/Import/rollback_build_0050_pending_import.py",
+  "transactional": true
+}

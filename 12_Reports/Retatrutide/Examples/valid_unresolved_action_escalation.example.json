@@ -1,0 +1,11 @@
+{
+  "build_provenance": "CERT-BUILD-0050",
+  "action_id": "ACT-RTA-0001",
+  "case_id": "CASE-RTA-0002",
+  "action_type": "CLINICAL_REVIEW",
+  "status": "ESCALATION_REQUIRED",
+  "owner_role": "CLINICAL_REVIEW_COORDINATOR",
+  "due_at": "2026-07-20T12:00:00Z",
+  "urgent_routing_locked": false,
+  "resolution_evidence_id": null
+}

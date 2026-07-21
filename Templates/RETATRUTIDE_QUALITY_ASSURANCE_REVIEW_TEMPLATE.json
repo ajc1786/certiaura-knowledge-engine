@@ -1,0 +1,15 @@
+{
+  "build_provenance": "CERT-BUILD-0050",
+  "review_id": "QA-RTA-0001",
+  "case_id": "CASE-RTA-0001",
+  "generator_actor_role": "REPORT_GENERATOR",
+  "reviewer_actor_role": "QUALITY_ASSURANCE_REVIEWER",
+  "decision": "PASS",
+  "reviewed_at": "2026-07-21T20:00:00Z",
+  "checks": [
+    "open_actions_reconciled",
+    "urgent_routing_clear",
+    "export_chain_current",
+    "evidence_snapshot_complete"
+  ]
+}

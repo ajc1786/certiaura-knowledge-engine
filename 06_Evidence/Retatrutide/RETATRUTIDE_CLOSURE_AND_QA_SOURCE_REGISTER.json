@@ -1,0 +1,27 @@
+{
+  "build_provenance": "CERT-BUILD-0050",
+  "version": "1.0.0",
+  "evidence_classes": [
+    {
+      "class": "LONGITUDINAL_EVENT_PROVENANCE",
+      "required": true
+    },
+    {
+      "class": "FOLLOW_UP_AND_FEEDBACK_PROVENANCE",
+      "required": true
+    },
+    {
+      "class": "APPROVED_EXPORT_VERSION_CHAIN",
+      "required": true
+    },
+    {
+      "class": "OPEN_ACTION_STATUS_EVIDENCE",
+      "required": true
+    },
+    {
+      "class": "QUALITY_ASSURANCE_REVIEW_EVIDENCE",
+      "required": true
+    }
+  ],
+  "rule": "Evidence classes remain distinct and missing required provenance blocks closure."
+}

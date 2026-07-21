@@ -1,0 +1,60 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Retatrutide unresolved action",
+  "type": "object",
+  "required": [
+    "build_provenance",
+    "action_id",
+    "case_id",
+    "action_type",
+    "status",
+    "owner_role",
+    "due_at",
+    "urgent_routing_locked"
+  ],
+  "properties": {
+    "build_provenance": {
+      "const": "CERT-BUILD-0050"
+    },
+    "action_id": {
+      "type": "string"
+    },
+    "case_id": {
+      "type": "string"
+    },
+    "action_type": {
+      "enum": [
+        "INFORMATION",
+        "DATA_CORRECTION",
+        "CLINICAL_REVIEW",
+        "EXPORT_AMENDMENT",
+        "URGENT_ROUTING"
+      ]
+    },
+    "status": {
+      "enum": [
+        "OPEN",
+        "IN_PROGRESS",
+        "RESOLVED",
+        "ESCALATION_REQUIRED",
+        "LOCKED_URGENT_ROUTING"
+      ]
+    },
+    "owner_role": {
+      "type": "string"
+    },
+    "due_at": {
+      "type": "string"
+    },
+    "urgent_routing_locked": {
+      "type": "boolean"
+    },
+    "resolution_evidence_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  },
+  "additionalProperties": false
+}

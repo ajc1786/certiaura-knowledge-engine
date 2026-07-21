@@ -1,0 +1,234 @@
+{
+  "build_id": "CERT-BUILD-0050",
+  "routing_rule": "REPOSITORY_RELATIVE_NO_WRAPPER",
+  "paths": [
+    {
+      "path": "02_Peptides/CERT-PKS-000001_Retatrutide/Monitoring/RETATRUTIDE_CASE_REVIEW_CLOSURE_AND_OUTCOME_RECONCILIATION_STANDARD.md",
+      "root": "02_Peptides"
+    },
+    {
+      "path": "05_Monitoring/Retatrutide/RETATRUTIDE_OUTCOME_RECONCILIATION_DEFINITION.json",
+      "root": "05_Monitoring"
+    },
+    {
+      "path": "05_Monitoring/Standards/RETATRUTIDE_UNRESOLVED_ACTION_ESCALATION_WORKFLOW.md",
+      "root": "05_Monitoring"
+    },
+    {
+      "path": "06_Evidence/Retatrutide/RETATRUTIDE_CLOSURE_AND_QA_SOURCE_REGISTER.json",
+      "root": "06_Evidence"
+    },
+    {
+      "path": "12_Reports/Retatrutide/Examples/conditional_open_actions_closure.example.json",
+      "root": "12_Reports"
+    },
+    {
+      "path": "12_Reports/Retatrutide/Examples/invalid_autonomous_treatment_closure.example.json",
+      "root": "12_Reports"
+    },
+    {
+      "path": "12_Reports/Retatrutide/Examples/invalid_closure_with_urgent_routing.example.json",
+      "root": "12_Reports"
+    },
+    {
+      "path": "12_Reports/Retatrutide/Examples/invalid_direct_identifier_closure.example.json",
+      "root": "12_Reports"
+    },
+    {
+      "path": "12_Reports/Retatrutide/Examples/invalid_reconciliation_hash.example.json",
+      "root": "12_Reports"
+    },
+    {
+      "path": "12_Reports/Retatrutide/Examples/valid_case_closure.example.json",
+      "root": "12_Reports"
+    },
+    {
+      "path": "12_Reports/Retatrutide/Examples/valid_outcome_reconciliation.example.json",
+      "root": "12_Reports"
+    },
+    {
+      "path": "12_Reports/Retatrutide/Examples/valid_quality_assurance_review.example.json",
+      "root": "12_Reports"
+    },
+    {
+      "path": "12_Reports/Retatrutide/Examples/valid_unresolved_action_escalation.example.json",
+      "root": "12_Reports"
+    },
+    {
+      "path": "12_Reports/Standards/RETATRUTIDE_CASE_CLOSURE_AND_QA_REPORTING_STANDARD.md",
+      "root": "12_Reports"
+    },
+    {
+      "path": "13_Project_Genesis/Import/build_0050_transactional_import.py",
+      "root": "13_Project_Genesis"
+    },
+    {
+      "path": "13_Project_Genesis/Import/rollback_build_0050_pending_import.py",
+      "root": "13_Project_Genesis"
+    },
+    {
+      "path": "13_Project_Genesis/Reports/generate_retatrutide_case_closure_quality_assurance.py",
+      "root": "13_Project_Genesis"
+    },
+    {
+      "path": "13_Project_Genesis/Tests/test_build_0050_retatrutide_case_closure_quality_assurance.py",
+      "root": "13_Project_Genesis"
+    },
+    {
+      "path": "13_Project_Genesis/Validators/build_0050_asset_ownership.py",
+      "root": "13_Project_Genesis"
+    },
+    {
+      "path": "13_Project_Genesis/Validators/validate_retatrutide_case_closure_quality_assurance.py",
+      "root": "13_Project_Genesis"
+    },
+    {
+      "path": "13_Project_Genesis/Validators/verify_build_0050_package.py",
+      "root": "13_Project_Genesis"
+    },
+    {
+      "path": "Documentation/Build_Records/0050/ASSET_INTENT_MANIFEST.json",
+      "root": "Documentation"
+    },
+    {
+      "path": "Documentation/Build_Records/0050/BUILD_0050_READ_ME_FIRST.md",
+      "root": "Documentation"
+    },
+    {
+      "path": "Documentation/Build_Records/0050/BUILD_MANIFEST.json",
+      "root": "Documentation"
+    },
+    {
+      "path": "Documentation/Build_Records/0050/CHECKSUMS.sha256",
+      "root": "Documentation"
+    },
+    {
+      "path": "Documentation/Build_Records/0050/COMMIT_MESSAGE.txt",
+      "root": "Documentation"
+    },
+    {
+      "path": "Documentation/Build_Records/0050/CONTINUITY_CHECKPOINT_DELTA.json",
+      "root": "Documentation"
+    },
+    {
+      "path": "Documentation/Build_Records/0050/DECISION_RECORD_0050.md",
+      "root": "Documentation"
+    },
+    {
+      "path": "Documentation/Build_Records/0050/LESSONS_LEARNED_CONTROL_MATRIX.json",
+      "root": "Documentation"
+    },
+    {
+      "path": "Documentation/Build_Records/0050/LESSONS_LEARNED_REVIEW.md",
+      "root": "Documentation"
+    },
+    {
+      "path": "Documentation/Build_Records/0050/PACKAGE_INVENTORY.csv",
+      "root": "Documentation"
+    },
+    {
+      "path": "Documentation/Build_Records/0050/PACKAGE_VERSION.json",
+      "root": "Documentation"
+    },
+    {
+      "path": "Documentation/Build_Records/0050/PRE_RELEASE_SYNTHETIC_IMPORT_REPORT.json",
+      "root": "Documentation"
+    },
+    {
+      "path": "Documentation/Build_Records/0050/PRODUCTION_DASHBOARD_UPDATE.json",
+      "root": "Documentation"
+    },
+    {
+      "path": "Documentation/Build_Records/0050/PROJECT_GENESIS_IMPORT_HOOK.json",
+      "root": "Documentation"
+    },
+    {
+      "path": "Documentation/Build_Records/0050/PROPOSED_CHANGE_LOG_ENTRY.md",
+      "root": "Documentation"
+    },
+    {
+      "path": "Documentation/Build_Records/0050/PROPOSED_NEXT_ACTION.md",
+      "root": "Documentation"
+    },
+    {
+      "path": "Documentation/Build_Records/0050/REAL_WORLD_OPERATOR_WORKFLOW_REGRESSION_REPORT.json",
+      "root": "Documentation"
+    },
+    {
+      "path": "Documentation/Build_Records/0050/ROLLBACK_RUNBOOK.md",
+      "root": "Documentation"
+    },
+    {
+      "path": "Documentation/Build_Records/0050/ROUTING_MANIFEST.json",
+      "root": "Documentation"
+    },
+    {
+      "path": "Documentation/Build_Records/0050/TEST_REPORT.json",
+      "root": "Documentation"
+    },
+    {
+      "path": "Documentation/Build_Records/0050/VALIDATION_REPORT.json",
+      "root": "Documentation"
+    },
+    {
+      "path": "Documentation/Build_Records/0050/WINDOWS_POWERSHELL_5_1_COMPATIBILITY_REPORT.json",
+      "root": "Documentation"
+    },
+    {
+      "path": "Schemas/retatrutide_case_closure.schema.json",
+      "root": "Schemas"
+    },
+    {
+      "path": "Schemas/retatrutide_outcome_reconciliation.schema.json",
+      "root": "Schemas"
+    },
+    {
+      "path": "Schemas/retatrutide_quality_assurance_review.schema.json",
+      "root": "Schemas"
+    },
+    {
+      "path": "Schemas/retatrutide_unresolved_action.schema.json",
+      "root": "Schemas"
+    },
+    {
+      "path": "Scripts/Invoke_Certiaura_Build_0050_Import.ps1",
+      "root": "Scripts"
+    },
+    {
+      "path": "Scripts/Invoke_Certiaura_Build_0050_Preflight.ps1",
+      "root": "Scripts"
+    },
+    {
+      "path": "Scripts/Invoke_Certiaura_Build_0050_Windows_PS51_Regression.ps1",
+      "root": "Scripts"
+    },
+    {
+      "path": "Scripts/Run_Certiaura_Build_0050.ps1",
+      "root": "Scripts"
+    },
+    {
+      "path": "Scripts/START_BUILD_0050.cmd",
+      "root": "Scripts"
+    },
+    {
+      "path": "Standards/RETATRUTIDE_CASE_CLOSURE_GOVERNANCE_AND_SAFETY_BOUNDARY.md",
+      "root": "Standards"
+    },
+    {
+      "path": "Templates/RETATRUTIDE_CASE_CLOSURE_TEMPLATE.json",
+      "root": "Templates"
+    },
+    {
+      "path": "Templates/RETATRUTIDE_OUTCOME_RECONCILIATION_TEMPLATE.json",
+      "root": "Templates"
+    },
+    {
+      "path": "Templates/RETATRUTIDE_QUALITY_ASSURANCE_REVIEW_TEMPLATE.json",
+      "root": "Templates"
+    },
+    {
+      "path": "Templates/RETATRUTIDE_UNRESOLVED_ACTION_TEMPLATE.json",
+      "root": "Templates"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "build_provenance": "CERT-BUILD-0050",
+  "version": "1.0.0",
+  "purpose": "Reconcile longitudinal outcomes, open actions, approved exports and follow-up records before closure.",
+  "closure_states": [
+    "CLOSURE_NOT_READY",
+    "CLOSURE_PENDING_ACTIONS",
+    "CLOSURE_PENDING_CLINICAL_REVIEW",
+    "CLOSURE_APPROVED",
+    "CLOSURE_REOPENED",
+    "LOCKED_URGENT_ROUTING"
+  ],
+  "required_links": [
+    "journey_id",
+    "latest_follow_up_id",
+    "current_approved_export_id",
+    "open_action_register_id",
+    "evidence_snapshot_id"
+  ],
+  "prohibited_capabilities": [
+    "diagnosis",
+    "prescribing",
+    "dose_change",
+    "autonomous_treatment",
+    "false_reassurance"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "build_provenance": "CERT-BUILD-0050",
+  "reconciliation_id": "REC-RTA-0001",
+  "case_id": "CASE-RTA-0001",
+  "latest_follow_up_id": "FUP-RTA-0008",
+  "current_approved_export_id": "EXP-RTA-0003",
+  "evidence_snapshot_id": "EVID-RTA-0010",
+  "outcome_status": "CONSISTENT",
+  "reconciled_at": "2026-07-21T20:00:00Z",
+  "source_hashes": [
+    "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+    "BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB"
+  ]
+}
