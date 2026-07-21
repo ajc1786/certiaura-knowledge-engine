@@ -1,0 +1,9 @@
+{
+  "build_id": "CERT-BUILD-0051",
+  "status": "CANDIDATE_REQUIRES_REAL_WINDOWS_PS51_GATE",
+  "ascii_only": true,
+  "array_normalisation": "EXPLICIT_TOARRAY",
+  "strict_mode": "LATEST",
+  "package_version": "1.0.0-rc2",
+  "predecessor_fixture_no_overlap_gate": true
+}

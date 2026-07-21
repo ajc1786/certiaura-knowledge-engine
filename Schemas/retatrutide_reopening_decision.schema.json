@@ -1,0 +1,50 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Retatrutide governed reopening decision",
+  "type": "object",
+  "required": [
+    "build_provenance",
+    "case_id",
+    "trigger_id",
+    "decision",
+    "reviewer_actor_role",
+    "generator_actor_role",
+    "decided_at",
+    "urgent_routing_active"
+  ],
+  "properties": {
+    "build_provenance": {
+      "const": "CERT-BUILD-0051"
+    },
+    "case_id": {
+      "type": "string"
+    },
+    "trigger_id": {
+      "type": "string"
+    },
+    "decision": {
+      "enum": [
+        "REOPEN_APPROVED",
+        "REOPEN_REJECTED",
+        "MORE_INFORMATION_REQUIRED",
+        "LOCKED_URGENT_ROUTING"
+      ]
+    },
+    "reviewer_actor_role": {
+      "type": "string"
+    },
+    "generator_actor_role": {
+      "type": "string"
+    },
+    "decided_at": {
+      "type": "string"
+    },
+    "urgent_routing_active": {
+      "type": "boolean"
+    },
+    "reason": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": false
+}

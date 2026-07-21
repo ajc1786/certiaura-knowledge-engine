@@ -1,0 +1,13 @@
+{
+  "build_provenance": "CERT-BUILD-0051",
+  "analytics_id": "ANA-RTA-0002",
+  "case_id": "CASE-RTA-0007",
+  "recurrence_state": "RECURRENCE_SIGNAL_REVIEW_REQUIRED",
+  "observation_count": 2,
+  "source_hashes": [
+    "NOT-A-SHA"
+  ],
+  "generated_actor_role": "ANALYTICS_GENERATOR",
+  "human_review_required": true,
+  "notes": "Invalid source hash fixture."
+}

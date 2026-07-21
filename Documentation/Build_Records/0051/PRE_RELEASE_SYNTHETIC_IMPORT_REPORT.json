@@ -1,0 +1,22 @@
+{
+  "build_id": "CERT-BUILD-0051",
+  "status": "PASS",
+  "package_file_count": 58,
+  "formal_assets": 6,
+  "automated_tests": "26/26 PASS",
+  "synthetic_dry_run": "DRY_RUN_VALIDATED",
+  "synthetic_apply": "APPLIED_VALIDATED",
+  "external_transactional_backup": "PASS",
+  "post_apply_rollback": "ROLLED_BACK_CLEAN",
+  "clean_reapply": "APPLIED_VALIDATED",
+  "master_asset_register_rows": "1 TO 7",
+  "predecessor_build_0050_assets": "PRESERVED_UNCHANGED",
+  "unrelated_historical_crlf_fixture": "PRESERVED_AND_EXCLUDED",
+  "git_diff_check": "PASS",
+  "git_diff_cached_check": "PASS",
+  "synthetic_commit_push": "PASS",
+  "runtime_artefacts": "NONE",
+  "predecessor_fixture_manifest_intersection": "EMPTY",
+  "predecessor_fixture_dry_run": "DRY_RUN_VALIDATED",
+  "package_version": "1.0.0-rc2"
+}

@@ -1,0 +1,13 @@
+{
+  "build_provenance": "CERT-BUILD-0051",
+  "review_id": "REV-RTA-0001",
+  "case_id": "CASE-RTA-0001",
+  "scheduled_at": "2026-10-21T09:00:00Z",
+  "completed_at": "2026-10-21T10:00:00Z",
+  "review_state": "REVIEW_COMPLETED",
+  "reviewer_actor_role": "AUTHORISED_HUMAN_REVIEWER",
+  "source_hashes": [
+    "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+  ],
+  "notes": "Periodic governance review completed."
+}

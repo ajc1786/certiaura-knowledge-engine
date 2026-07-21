@@ -1,0 +1,14 @@
+{
+  "build_provenance": "CERT-BUILD-0051",
+  "analytics_id": "ANA-RTA-0001",
+  "case_id": "CASE-RTA-0001",
+  "recurrence_state": "RECURRENCE_SIGNAL_REVIEW_REQUIRED",
+  "observation_count": 3,
+  "source_hashes": [
+    "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+    "BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB"
+  ],
+  "generated_actor_role": "ANALYTICS_GENERATOR",
+  "human_review_required": true,
+  "notes": "Descriptive signal only."
+}

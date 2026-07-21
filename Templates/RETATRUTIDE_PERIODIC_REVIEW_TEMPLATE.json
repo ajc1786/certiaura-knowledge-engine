@@ -1,0 +1,11 @@
+{
+  "build_provenance": "CERT-BUILD-0051",
+  "review_id": "REV-REPLACE",
+  "case_id": "CASE-REPLACE",
+  "scheduled_at": "YYYY-MM-DDTHH:MM:SSZ",
+  "completed_at": null,
+  "review_state": "REVIEW_NOT_DUE",
+  "reviewer_actor_role": "AUTHORISED_HUMAN_REVIEWER",
+  "source_hashes": [],
+  "notes": ""
+}

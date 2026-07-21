@@ -1,0 +1,11 @@
+{
+  "build_provenance": "CERT-BUILD-0051",
+  "analytics_id": "ANA-REPLACE",
+  "case_id": "CASE-REPLACE",
+  "recurrence_state": "INSUFFICIENT_DATA",
+  "observation_count": 0,
+  "source_hashes": [],
+  "generated_actor_role": "ANALYTICS_GENERATOR",
+  "human_review_required": true,
+  "notes": ""
+}

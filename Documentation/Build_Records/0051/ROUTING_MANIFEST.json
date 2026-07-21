@@ -1,0 +1,17 @@
+{
+  "build_id": "CERT-BUILD-0051",
+  "zip_wrapper_folder_allowed": false,
+  "routing": "REPOSITORY_RELATIVE",
+  "authorised_roots": [
+    "02_Peptides",
+    "05_Monitoring",
+    "06_Evidence",
+    "12_Reports",
+    "13_Project_Genesis",
+    "Documentation",
+    "Schemas",
+    "Scripts",
+    "Standards",
+    "Templates"
+  ]
+}

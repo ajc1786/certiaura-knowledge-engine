@@ -1,0 +1,56 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Retatrutide post-closure surveillance",
+  "type": "object",
+  "required": [
+    "build_provenance",
+    "case_id",
+    "closure_record_id",
+    "surveillance_state",
+    "review_due_at",
+    "urgent_routing_active",
+    "trigger_ids",
+    "generated_actor_role"
+  ],
+  "properties": {
+    "build_provenance": {
+      "const": "CERT-BUILD-0051"
+    },
+    "case_id": {
+      "type": "string",
+      "pattern": "^CASE-[A-Z0-9-]+$"
+    },
+    "closure_record_id": {
+      "type": "string"
+    },
+    "surveillance_state": {
+      "enum": [
+        "SURVEILLANCE_NOT_DUE",
+        "SURVEILLANCE_DUE",
+        "SURVEILLANCE_COMPLETED",
+        "SURVEILLANCE_OVERDUE",
+        "LOCKED_URGENT_ROUTING",
+        "SURVEILLANCE_ENDED"
+      ]
+    },
+    "review_due_at": {
+      "type": "string"
+    },
+    "urgent_routing_active": {
+      "type": "boolean"
+    },
+    "trigger_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "generated_actor_role": {
+      "type": "string"
+    },
+    "notes": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": false
+}

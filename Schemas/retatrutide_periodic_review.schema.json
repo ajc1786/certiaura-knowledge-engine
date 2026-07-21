@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Retatrutide periodic post-closure review",
+  "type": "object",
+  "required": [
+    "build_provenance",
+    "review_id",
+    "case_id",
+    "scheduled_at",
+    "completed_at",
+    "review_state",
+    "reviewer_actor_role",
+    "source_hashes"
+  ],
+  "properties": {
+    "build_provenance": {
+      "const": "CERT-BUILD-0051"
+    },
+    "review_id": {
+      "type": "string"
+    },
+    "case_id": {
+      "type": "string"
+    },
+    "scheduled_at": {
+      "type": "string"
+    },
+    "completed_at": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "review_state": {
+      "enum": [
+        "REVIEW_NOT_DUE",
+        "REVIEW_DUE",
+        "REVIEW_COMPLETED",
+        "REVIEW_OVERDUE",
+        "LOCKED_URGENT_ROUTING"
+      ]
+    },
+    "reviewer_actor_role": {
+      "type": "string"
+    },
+    "source_hashes": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[A-F0-9]{64}$"
+      }
+    },
+    "notes": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": false
+}

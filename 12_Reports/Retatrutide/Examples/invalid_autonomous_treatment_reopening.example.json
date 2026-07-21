@@ -1,0 +1,11 @@
+{
+  "build_provenance": "CERT-BUILD-0051",
+  "case_id": "CASE-RTA-0003",
+  "trigger_id": "TRG-RTA-0003",
+  "decision": "REOPEN_APPROVED",
+  "reviewer_actor_role": "AI_SYSTEM",
+  "generator_actor_role": "AI_SYSTEM",
+  "decided_at": "2026-10-21T11:00:00Z",
+  "urgent_routing_active": false,
+  "reason": "Increase dose and continue treatment."
+}

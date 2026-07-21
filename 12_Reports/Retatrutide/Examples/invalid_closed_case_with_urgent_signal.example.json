@@ -1,0 +1,13 @@
+{
+  "build_provenance": "CERT-BUILD-0051",
+  "case_id": "CASE-RTA-0006",
+  "closure_record_id": "CLOSE-RTA-0006",
+  "surveillance_state": "SURVEILLANCE_ENDED",
+  "review_due_at": "2026-10-21T09:00:00Z",
+  "urgent_routing_active": true,
+  "trigger_ids": [
+    "TRG-RTA-URGENT"
+  ],
+  "generated_actor_role": "SURVEILLANCE_COORDINATOR",
+  "notes": "Urgent signal cannot remain closed."
+}

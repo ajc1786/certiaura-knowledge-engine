@@ -1,0 +1,35 @@
+{
+  "build_id": "CERT-BUILD-0051",
+  "controls": [
+    {
+      "lesson": "Exact ownership only",
+      "control": "Asset Intent Manifest exact paths and provenance",
+      "regression": "Predecessor shared-folder fixture excluded"
+    },
+    {
+      "lesson": "Human reopening authority",
+      "control": "AI_SYSTEM and self-review blocked",
+      "regression": "invalid autonomous reopening fixture"
+    },
+    {
+      "lesson": "Urgent precedence",
+      "control": "urgent signals require LOCKED_URGENT_ROUTING",
+      "regression": "invalid closed urgent case fixture"
+    },
+    {
+      "lesson": "Transactional safety",
+      "control": "external backup and post-apply rollback",
+      "regression": "synthetic rollback and clean reapply"
+    },
+    {
+      "lesson": "Generated source must be executable",
+      "control": "Memory-only Python compilation plus generator execution",
+      "regression": "bundle generator creates manifest and Markdown summary"
+    },
+    {
+      "lesson": "Synthetic predecessor fixtures must never overlap current package paths",
+      "control": "Build predecessor fixture paths from exact prior build identity and compare them against the current Asset Intent Manifest before repository creation",
+      "regression": "Manifest-to-fixture set intersection is empty and executable predecessor dry-run returns DRY_RUN_VALIDATED with no conflicts"
+    }
+  ]
+}

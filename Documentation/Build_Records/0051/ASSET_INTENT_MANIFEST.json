@@ -1,0 +1,463 @@
+{
+  "schema_version": "1.0.0",
+  "build_id": "CERT-BUILD-0051",
+  "build_number": "0051",
+  "ownership_rule": "EXACT_REPOSITORY_RELATIVE_PATH_AND_EXACT_BUILD_PROVENANCE",
+  "substring_matching_prohibited": true,
+  "files": [
+    {
+      "path": "02_Peptides/CERT-PKS-000001_Retatrutide/Monitoring/RETATRUTIDE_POST_CLOSURE_SURVEILLANCE_AND_REOPENING_STANDARD.md",
+      "classification": "FORMAL_ASSET",
+      "intended_action": "CREATE",
+      "build_provenance": "CERT-BUILD-0051",
+      "allow_replace": false,
+      "asset_title": "Retatrutide Post-Closure Surveillance and Governed Reopening Standard",
+      "asset_type": "MONITORING_STANDARD",
+      "knowledge_system": "MKS",
+      "uai": "UAI_ALLOCATION_REQUIRED",
+      "owner": "Certiaura Scientific and Clinical Governance",
+      "status": "CONTROLLED_BASELINE",
+      "version": "1.0.0",
+      "registration_basis": "BUILD_0051_ASSET_INTENT_MANIFEST_EXACT_PATH"
+    },
+    {
+      "path": "05_Monitoring/Retatrutide/RETATRUTIDE_POST_CLOSURE_SURVEILLANCE_DEFINITION.json",
+      "classification": "FORMAL_ASSET",
+      "intended_action": "CREATE",
+      "build_provenance": "CERT-BUILD-0051",
+      "allow_replace": false,
+      "asset_title": "Retatrutide Post-Closure Surveillance Definition",
+      "asset_type": "MONITORING_DEFINITION",
+      "knowledge_system": "MKS",
+      "uai": "UAI_ALLOCATION_REQUIRED",
+      "owner": "Certiaura Scientific and Clinical Governance",
+      "status": "CONTROLLED_BASELINE",
+      "version": "1.0.0",
+      "registration_basis": "BUILD_0051_ASSET_INTENT_MANIFEST_EXACT_PATH"
+    },
+    {
+      "path": "05_Monitoring/Standards/RETATRUTIDE_GOVERNED_CASE_REOPENING_WORKFLOW.md",
+      "classification": "FORMAL_ASSET",
+      "intended_action": "CREATE",
+      "build_provenance": "CERT-BUILD-0051",
+      "allow_replace": false,
+      "asset_title": "Retatrutide Governed Case Reopening Workflow",
+      "asset_type": "WORKFLOW_STANDARD",
+      "knowledge_system": "MKS",
+      "uai": "UAI_ALLOCATION_REQUIRED",
+      "owner": "Certiaura Scientific and Clinical Governance",
+      "status": "CONTROLLED_BASELINE",
+      "version": "1.0.0",
+      "registration_basis": "BUILD_0051_ASSET_INTENT_MANIFEST_EXACT_PATH"
+    },
+    {
+      "path": "06_Evidence/Retatrutide/RETATRUTIDE_POST_CLOSURE_SURVEILLANCE_SOURCE_REGISTER.json",
+      "classification": "FORMAL_ASSET",
+      "intended_action": "CREATE",
+      "build_provenance": "CERT-BUILD-0051",
+      "allow_replace": false,
+      "asset_title": "Retatrutide Post-Closure Surveillance Source Register",
+      "asset_type": "EVIDENCE_SOURCE_REGISTER",
+      "knowledge_system": "EKS",
+      "uai": "UAI_ALLOCATION_REQUIRED",
+      "owner": "Certiaura Evidence Governance",
+      "status": "CONTROLLED_BASELINE",
+      "version": "1.0.0",
+      "registration_basis": "BUILD_0051_ASSET_INTENT_MANIFEST_EXACT_PATH"
+    },
+    {
+      "path": "12_Reports/Retatrutide/Examples/conditional_review_not_due.example.json",
+      "classification": "EXAMPLE",
+      "intended_action": "CREATE",
+      "build_provenance": "CERT-BUILD-0051",
+      "allow_replace": false
+    },
+    {
+      "path": "12_Reports/Retatrutide/Examples/invalid_autonomous_treatment_reopening.example.json",
+      "classification": "EXAMPLE",
+      "intended_action": "CREATE",
+      "build_provenance": "CERT-BUILD-0051",
+      "allow_replace": false
+    },
+    {
+      "path": "12_Reports/Retatrutide/Examples/invalid_closed_case_with_urgent_signal.example.json",
+      "classification": "EXAMPLE",
+      "intended_action": "CREATE",
+      "build_provenance": "CERT-BUILD-0051",
+      "allow_replace": false
+    },
+    {
+      "path": "12_Reports/Retatrutide/Examples/invalid_direct_identifier_surveillance.example.json",
+      "classification": "EXAMPLE",
+      "intended_action": "CREATE",
+      "build_provenance": "CERT-BUILD-0051",
+      "allow_replace": false
+    },
+    {
+      "path": "12_Reports/Retatrutide/Examples/invalid_recurrence_hash.example.json",
+      "classification": "EXAMPLE",
+      "intended_action": "CREATE",
+      "build_provenance": "CERT-BUILD-0051",
+      "allow_replace": false
+    },
+    {
+      "path": "12_Reports/Retatrutide/Examples/invalid_reopen_without_trigger.example.json",
+      "classification": "EXAMPLE",
+      "intended_action": "CREATE",
+      "build_provenance": "CERT-BUILD-0051",
+      "allow_replace": false
+    },
+    {
+      "path": "12_Reports/Retatrutide/Examples/valid_periodic_review.example.json",
+      "classification": "EXAMPLE",
+      "intended_action": "CREATE",
+      "build_provenance": "CERT-BUILD-0051",
+      "allow_replace": false
+    },
+    {
+      "path": "12_Reports/Retatrutide/Examples/valid_post_closure_surveillance.example.json",
+      "classification": "EXAMPLE",
+      "intended_action": "CREATE",
+      "build_provenance": "CERT-BUILD-0051",
+      "allow_replace": false
+    },
+    {
+      "path": "12_Reports/Retatrutide/Examples/valid_recurrence_analytics.example.json",
+      "classification": "EXAMPLE",
+      "intended_action": "CREATE",
+      "build_provenance": "CERT-BUILD-0051",
+      "allow_replace": false
+    },
+    {
+      "path": "12_Reports/Retatrutide/Examples/valid_reopening_decision.example.json",
+      "classification": "EXAMPLE",
+      "intended_action": "CREATE",
+      "build_provenance": "CERT-BUILD-0051",
+      "allow_replace": false
+    },
+    {
+      "path": "12_Reports/Standards/RETATRUTIDE_POST_CLOSURE_REVIEW_AND_RECURRENCE_REPORTING_STANDARD.md",
+      "classification": "FORMAL_ASSET",
+      "intended_action": "CREATE",
+      "build_provenance": "CERT-BUILD-0051",
+      "allow_replace": false,
+      "asset_title": "Retatrutide Post-Closure Review and Recurrence Reporting Standard",
+      "asset_type": "REPORTING_STANDARD",
+      "knowledge_system": "RKS",
+      "uai": "UAI_ALLOCATION_REQUIRED",
+      "owner": "Certiaura Reporting and Clinical Governance",
+      "status": "CONTROLLED_BASELINE",
+      "version": "1.0.0",
+      "registration_basis": "BUILD_0051_ASSET_INTENT_MANIFEST_EXACT_PATH"
+    },
+    {
+      "path": "13_Project_Genesis/Import/build_0051_transactional_import.py",
+      "classification": "SCRIPT",
+      "intended_action": "CREATE",
+      "build_provenance": "CERT-BUILD-0051",
+      "allow_replace": false
+    },
+    {
+      "path": "13_Project_Genesis/Import/rollback_build_0051_pending_import.py",
+      "classification": "SCRIPT",
+      "intended_action": "CREATE",
+      "build_provenance": "CERT-BUILD-0051",
+      "allow_replace": false
+    },
+    {
+      "path": "13_Project_Genesis/Reports/generate_retatrutide_post_closure_surveillance_reopening.py",
+      "classification": "SCRIPT",
+      "intended_action": "CREATE",
+      "build_provenance": "CERT-BUILD-0051",
+      "allow_replace": false
+    },
+    {
+      "path": "13_Project_Genesis/Tests/test_build_0051_retatrutide_post_closure_surveillance_reopening.py",
+      "classification": "TEST",
+      "intended_action": "CREATE",
+      "build_provenance": "CERT-BUILD-0051",
+      "allow_replace": false
+    },
+    {
+      "path": "13_Project_Genesis/Validators/build_0051_asset_ownership.py",
+      "classification": "SCRIPT",
+      "intended_action": "CREATE",
+      "build_provenance": "CERT-BUILD-0051",
+      "allow_replace": false
+    },
+    {
+      "path": "13_Project_Genesis/Validators/validate_retatrutide_post_closure_surveillance_reopening.py",
+      "classification": "SCRIPT",
+      "intended_action": "CREATE",
+      "build_provenance": "CERT-BUILD-0051",
+      "allow_replace": false
+    },
+    {
+      "path": "13_Project_Genesis/Validators/verify_build_0051_package.py",
+      "classification": "SCRIPT",
+      "intended_action": "CREATE",
+      "build_provenance": "CERT-BUILD-0051",
+      "allow_replace": false
+    },
+    {
+      "path": "Documentation/Build_Records/0051/ASSET_INTENT_MANIFEST.json",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE",
+      "build_provenance": "CERT-BUILD-0051",
+      "allow_replace": false
+    },
+    {
+      "path": "Documentation/Build_Records/0051/BUILD_0051_READ_ME_FIRST.md",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE",
+      "build_provenance": "CERT-BUILD-0051",
+      "allow_replace": false
+    },
+    {
+      "path": "Documentation/Build_Records/0051/BUILD_MANIFEST.json",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE",
+      "build_provenance": "CERT-BUILD-0051",
+      "allow_replace": false
+    },
+    {
+      "path": "Documentation/Build_Records/0051/CHECKSUMS.sha256",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE",
+      "build_provenance": "CERT-BUILD-0051",
+      "allow_replace": false
+    },
+    {
+      "path": "Documentation/Build_Records/0051/COMMIT_MESSAGE.txt",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE",
+      "build_provenance": "CERT-BUILD-0051",
+      "allow_replace": false
+    },
+    {
+      "path": "Documentation/Build_Records/0051/CONTINUITY_CHECKPOINT_DELTA.json",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE",
+      "build_provenance": "CERT-BUILD-0051",
+      "allow_replace": false
+    },
+    {
+      "path": "Documentation/Build_Records/0051/DECISION_RECORD_0051.md",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE",
+      "build_provenance": "CERT-BUILD-0051",
+      "allow_replace": false
+    },
+    {
+      "path": "Documentation/Build_Records/0051/LESSONS_LEARNED_CONTROL_MATRIX.json",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE",
+      "build_provenance": "CERT-BUILD-0051",
+      "allow_replace": false
+    },
+    {
+      "path": "Documentation/Build_Records/0051/LESSONS_LEARNED_REVIEW.md",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE",
+      "build_provenance": "CERT-BUILD-0051",
+      "allow_replace": false
+    },
+    {
+      "path": "Documentation/Build_Records/0051/PACKAGE_INVENTORY.csv",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE",
+      "build_provenance": "CERT-BUILD-0051",
+      "allow_replace": false
+    },
+    {
+      "path": "Documentation/Build_Records/0051/PACKAGE_VERSION.json",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE",
+      "build_provenance": "CERT-BUILD-0051",
+      "allow_replace": false
+    },
+    {
+      "path": "Documentation/Build_Records/0051/PRE_RELEASE_SYNTHETIC_IMPORT_REPORT.json",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE",
+      "build_provenance": "CERT-BUILD-0051",
+      "allow_replace": false
+    },
+    {
+      "path": "Documentation/Build_Records/0051/PRODUCTION_DASHBOARD_UPDATE.json",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE",
+      "build_provenance": "CERT-BUILD-0051",
+      "allow_replace": false
+    },
+    {
+      "path": "Documentation/Build_Records/0051/PROJECT_GENESIS_IMPORT_HOOK.json",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE",
+      "build_provenance": "CERT-BUILD-0051",
+      "allow_replace": false
+    },
+    {
+      "path": "Documentation/Build_Records/0051/PROPOSED_CHANGE_LOG_ENTRY.md",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE",
+      "build_provenance": "CERT-BUILD-0051",
+      "allow_replace": false
+    },
+    {
+      "path": "Documentation/Build_Records/0051/PROPOSED_NEXT_ACTION.md",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE",
+      "build_provenance": "CERT-BUILD-0051",
+      "allow_replace": false
+    },
+    {
+      "path": "Documentation/Build_Records/0051/REAL_WORLD_OPERATOR_WORKFLOW_REGRESSION_REPORT.json",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE",
+      "build_provenance": "CERT-BUILD-0051",
+      "allow_replace": false
+    },
+    {
+      "path": "Documentation/Build_Records/0051/ROLLBACK_RUNBOOK.md",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE",
+      "build_provenance": "CERT-BUILD-0051",
+      "allow_replace": false
+    },
+    {
+      "path": "Documentation/Build_Records/0051/ROUTING_MANIFEST.json",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE",
+      "build_provenance": "CERT-BUILD-0051",
+      "allow_replace": false
+    },
+    {
+      "path": "Documentation/Build_Records/0051/TEST_REPORT.json",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE",
+      "build_provenance": "CERT-BUILD-0051",
+      "allow_replace": false
+    },
+    {
+      "path": "Documentation/Build_Records/0051/VALIDATION_REPORT.json",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE",
+      "build_provenance": "CERT-BUILD-0051",
+      "allow_replace": false
+    },
+    {
+      "path": "Documentation/Build_Records/0051/WINDOWS_POWERSHELL_5_1_COMPATIBILITY_REPORT.json",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE",
+      "build_provenance": "CERT-BUILD-0051",
+      "allow_replace": false
+    },
+    {
+      "path": "Schemas/retatrutide_periodic_review.schema.json",
+      "classification": "SCHEMA",
+      "intended_action": "CREATE",
+      "build_provenance": "CERT-BUILD-0051",
+      "allow_replace": false
+    },
+    {
+      "path": "Schemas/retatrutide_post_closure_surveillance.schema.json",
+      "classification": "SCHEMA",
+      "intended_action": "CREATE",
+      "build_provenance": "CERT-BUILD-0051",
+      "allow_replace": false
+    },
+    {
+      "path": "Schemas/retatrutide_recurrence_analytics.schema.json",
+      "classification": "SCHEMA",
+      "intended_action": "CREATE",
+      "build_provenance": "CERT-BUILD-0051",
+      "allow_replace": false
+    },
+    {
+      "path": "Schemas/retatrutide_reopening_decision.schema.json",
+      "classification": "SCHEMA",
+      "intended_action": "CREATE",
+      "build_provenance": "CERT-BUILD-0051",
+      "allow_replace": false
+    },
+    {
+      "path": "Scripts/Invoke_Certiaura_Build_0051_Import.ps1",
+      "classification": "SCRIPT",
+      "intended_action": "CREATE",
+      "build_provenance": "CERT-BUILD-0051",
+      "allow_replace": false
+    },
+    {
+      "path": "Scripts/Invoke_Certiaura_Build_0051_Preflight.ps1",
+      "classification": "SCRIPT",
+      "intended_action": "CREATE",
+      "build_provenance": "CERT-BUILD-0051",
+      "allow_replace": false
+    },
+    {
+      "path": "Scripts/Invoke_Certiaura_Build_0051_Windows_PS51_Regression.ps1",
+      "classification": "SCRIPT",
+      "intended_action": "CREATE",
+      "build_provenance": "CERT-BUILD-0051",
+      "allow_replace": false
+    },
+    {
+      "path": "Scripts/Run_Certiaura_Build_0051.ps1",
+      "classification": "SCRIPT",
+      "intended_action": "CREATE",
+      "build_provenance": "CERT-BUILD-0051",
+      "allow_replace": false
+    },
+    {
+      "path": "Scripts/START_BUILD_0051.cmd",
+      "classification": "SCRIPT",
+      "intended_action": "CREATE",
+      "build_provenance": "CERT-BUILD-0051",
+      "allow_replace": false
+    },
+    {
+      "path": "Standards/RETATRUTIDE_POST_CLOSURE_REOPENING_GOVERNANCE_AND_SAFETY_BOUNDARY.md",
+      "classification": "FORMAL_ASSET",
+      "intended_action": "CREATE",
+      "build_provenance": "CERT-BUILD-0051",
+      "allow_replace": false,
+      "asset_title": "Retatrutide Post-Closure Reopening Governance and Safety Boundary",
+      "asset_type": "GOVERNANCE_STANDARD",
+      "knowledge_system": "SYS",
+      "uai": "UAI_ALLOCATION_REQUIRED",
+      "owner": "Certiaura Governance",
+      "status": "CONTROLLED_BASELINE",
+      "version": "1.0.0",
+      "registration_basis": "BUILD_0051_ASSET_INTENT_MANIFEST_EXACT_PATH"
+    },
+    {
+      "path": "Templates/RETATRUTIDE_PERIODIC_REVIEW_TEMPLATE.json",
+      "classification": "TEMPLATE",
+      "intended_action": "CREATE",
+      "build_provenance": "CERT-BUILD-0051",
+      "allow_replace": false
+    },
+    {
+      "path": "Templates/RETATRUTIDE_POST_CLOSURE_SURVEILLANCE_TEMPLATE.json",
+      "classification": "TEMPLATE",
+      "intended_action": "CREATE",
+      "build_provenance": "CERT-BUILD-0051",
+      "allow_replace": false
+    },
+    {
+      "path": "Templates/RETATRUTIDE_RECURRENCE_ANALYTICS_TEMPLATE.json",
+      "classification": "TEMPLATE",
+      "intended_action": "CREATE",
+      "build_provenance": "CERT-BUILD-0051",
+      "allow_replace": false
+    },
+    {
+      "path": "Templates/RETATRUTIDE_REOPENING_DECISION_TEMPLATE.json",
+      "classification": "TEMPLATE",
+      "intended_action": "CREATE",
+      "build_provenance": "CERT-BUILD-0051",
+      "allow_replace": false
+    }
+  ]
+}

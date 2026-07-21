@@ -1,0 +1,11 @@
+{
+  "build_provenance": "CERT-BUILD-0051",
+  "case_id": "CASE-REPLACE",
+  "trigger_id": "TRG-REPLACE",
+  "decision": "MORE_INFORMATION_REQUIRED",
+  "reviewer_actor_role": "AUTHORISED_HUMAN_REVIEWER",
+  "generator_actor_role": "SURVEILLANCE_COORDINATOR",
+  "decided_at": "YYYY-MM-DDTHH:MM:SSZ",
+  "urgent_routing_active": false,
+  "reason": ""
+}

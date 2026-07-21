@@ -1,0 +1,11 @@
+{
+  "build_provenance": "CERT-BUILD-0051",
+  "case_id": "CASE-REPLACE",
+  "closure_record_id": "CLOSE-REPLACE",
+  "surveillance_state": "SURVEILLANCE_NOT_DUE",
+  "review_due_at": "YYYY-MM-DDTHH:MM:SSZ",
+  "urgent_routing_active": false,
+  "trigger_ids": [],
+  "generated_actor_role": "SURVEILLANCE_COORDINATOR",
+  "notes": ""
+}

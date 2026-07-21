@@ -1,0 +1,6 @@
+{
+  "build_id": "CERT-BUILD-0051",
+  "importer": "13_Project_Genesis/Import/build_0051_transactional_import.py",
+  "rollback": "13_Project_Genesis/Import/rollback_build_0051_pending_import.py",
+  "ownership": "EXACT_ASSET_INTENT_MANIFEST_PATHS"
+}

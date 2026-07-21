@@ -1,0 +1,11 @@
+{
+  "build_id": "CERT-BUILD-0051",
+  "prior_build": "0050",
+  "prior_state": "ACTIONS_GREEN_CLOSED",
+  "current_build": "0051",
+  "current_state": "GENERATED_CANDIDATE_WINDOWS_PS51_GATE_REQUIRED",
+  "authorisation": "GREEN_AUTHORISED",
+  "title": "retatrutide post-closure surveillance, governed case reopening, periodic review and recurrence analytics baseline",
+  "immediate_next_action": "Run complete Windows PowerShell 5.1 pre-release regression before canonical import.",
+  "following_planned_action": "Build 0052 scope to be selected after Build 0051 closes from the updated production queue."
+}

@@ -1,0 +1,11 @@
+{
+  "build_provenance": "CERT-BUILD-0051",
+  "case_id": "CASE-RTA-0005",
+  "trigger_id": "",
+  "decision": "REOPEN_APPROVED",
+  "reviewer_actor_role": "AUTHORISED_HUMAN_REVIEWER",
+  "generator_actor_role": "SURVEILLANCE_COORDINATOR",
+  "decided_at": "2026-10-21T11:00:00Z",
+  "urgent_routing_active": false,
+  "reason": "No documented trigger."
+}

@@ -1,0 +1,13 @@
+{
+  "build_id": "CERT-BUILD-0051",
+  "package_preflight": "PASS",
+  "schemas_parse": "PASS",
+  "memory_only_python_compilation": "PASS",
+  "ascii_powerShell_cmd": "PASS",
+  "lf_hygiene": "PASS",
+  "runtime_artefacts": "NONE",
+  "git_diff_check": "PASS",
+  "git_diff_cached_check": "PASS",
+  "predecessor_fixture_manifest_intersection": "EMPTY",
+  "initial_candidate_failure": "FAILED_CLOSED_BEFORE_CANONICAL_IMPORT"
+}

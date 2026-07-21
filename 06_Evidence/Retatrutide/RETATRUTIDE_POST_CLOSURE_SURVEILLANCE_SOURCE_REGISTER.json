@@ -1,0 +1,20 @@
+{
+  "build_provenance": "CERT-BUILD-0051",
+  "register_id": "RTA-PCS-EVID-001",
+  "version": "1.0.0",
+  "evidence_classes": [
+    "CLOSED_CASE_RECORD",
+    "FOLLOW_UP_RECORD",
+    "CLINICIAN_FEEDBACK",
+    "NEW_SAFETY_SIGNAL",
+    "NEW_SCIENTIFIC_EVIDENCE",
+    "REGULATORY_STATUS",
+    "DATA_CORRECTION"
+  ],
+  "rules": [
+    "KEEP_EVIDENCE_CLASSES_DISTINCT",
+    "SOURCE_HASH_REQUIRED",
+    "REVIEW_DATE_REQUIRED",
+    "NO_UNSUPPORTED_CLINICAL_INFERENCE"
+  ]
+}

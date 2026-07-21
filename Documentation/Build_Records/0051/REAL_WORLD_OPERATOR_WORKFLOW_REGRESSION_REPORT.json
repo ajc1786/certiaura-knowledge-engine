@@ -1,0 +1,8 @@
+{
+  "build_id": "CERT-BUILD-0051",
+  "status": "WINDOWS_PS51_GATE_REQUIRED",
+  "canonical_repository_modified": false,
+  "package_version": "1.0.0-rc2",
+  "previous_candidate": "FAILED_CLOSED_BEFORE_CANONICAL_IMPORT",
+  "previous_failure": "Synthetic predecessor fixture overlapped current Build 0051 ownership helper path"
+}

@@ -1,0 +1,55 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Retatrutide recurrence analytics",
+  "type": "object",
+  "required": [
+    "build_provenance",
+    "analytics_id",
+    "case_id",
+    "recurrence_state",
+    "observation_count",
+    "source_hashes",
+    "generated_actor_role",
+    "human_review_required"
+  ],
+  "properties": {
+    "build_provenance": {
+      "const": "CERT-BUILD-0051"
+    },
+    "analytics_id": {
+      "type": "string"
+    },
+    "case_id": {
+      "type": "string"
+    },
+    "recurrence_state": {
+      "enum": [
+        "INSUFFICIENT_DATA",
+        "NO_RECURRENCE_DETECTED",
+        "RECURRENCE_SIGNAL_REVIEW_REQUIRED",
+        "LOCKED_URGENT_ROUTING"
+      ]
+    },
+    "observation_count": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "source_hashes": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[A-F0-9]{64}$"
+      }
+    },
+    "generated_actor_role": {
+      "type": "string"
+    },
+    "human_review_required": {
+      "type": "boolean"
+    },
+    "notes": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": false
+}
