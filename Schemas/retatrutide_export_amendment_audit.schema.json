@@ -1,0 +1,85 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "title": "Retatrutide Export Amendment Audit",
+  "required": [
+    "schema_version",
+    "build_provenance",
+    "amendment_id",
+    "reason",
+    "feedback_id",
+    "predecessor_export_id",
+    "predecessor_export_sha256",
+    "replacement_export_id",
+    "replacement_export_sha256",
+    "author_role_reference",
+    "reviewer_role_reference",
+    "created_at",
+    "approved_at",
+    "state",
+    "current_approved"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.0.0"
+    },
+    "build_provenance": {
+      "const": "CERT-BUILD-0049"
+    },
+    "amendment_id": {
+      "type": "string"
+    },
+    "reason": {
+      "type": "string"
+    },
+    "feedback_id": {
+      "type": "string"
+    },
+    "predecessor_export_id": {
+      "type": "string"
+    },
+    "predecessor_export_sha256": {
+      "type": "string",
+      "pattern": "^[A-F0-9]{64}$"
+    },
+    "replacement_export_id": {
+      "type": "string"
+    },
+    "replacement_export_sha256": {
+      "type": "string",
+      "pattern": "^[A-F0-9]{64}$"
+    },
+    "author_role_reference": {
+      "type": "string"
+    },
+    "reviewer_role_reference": {
+      "type": "string"
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "approved_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "state": {
+      "enum": [
+        "DRAFT",
+        "APPROVED",
+        "SUPERSEDED",
+        "WITHDRAWN"
+      ]
+    },
+    "current_approved": {
+      "type": "boolean"
+    },
+    "supersedes_amendment_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  }
+}

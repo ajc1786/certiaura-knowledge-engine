@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0.0",
+  "build_provenance": "CERT-BUILD-0049",
+  "feedback_id": "FDB-0049-BAD2",
+  "handoff_bundle_id": "HANDOFF-0048-001",
+  "subject_reference": "SUBJ-RET-001",
+  "clinician_role_reference": "CLINICIAN-ROLE-001",
+  "received_at": "2026-07-27T15:30:00Z",
+  "disposition": "EXPORT_AMENDMENT_REQUIRED",
+  "summary": "Increase dose immediately and no clinical review needed.",
+  "requires_export_amendment": true,
+  "evidence_references": [
+    "CERT-SRC-0049-001"
+  ]
+}

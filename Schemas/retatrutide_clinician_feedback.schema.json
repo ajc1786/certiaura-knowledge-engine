@@ -1,0 +1,65 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "title": "Retatrutide Clinician Feedback",
+  "required": [
+    "schema_version",
+    "build_provenance",
+    "feedback_id",
+    "handoff_bundle_id",
+    "subject_reference",
+    "clinician_role_reference",
+    "received_at",
+    "disposition",
+    "summary",
+    "requires_export_amendment"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.0.0"
+    },
+    "build_provenance": {
+      "const": "CERT-BUILD-0049"
+    },
+    "feedback_id": {
+      "type": "string"
+    },
+    "handoff_bundle_id": {
+      "type": "string"
+    },
+    "subject_reference": {
+      "type": "string",
+      "pattern": "^SUBJ-[A-Z0-9-]+$"
+    },
+    "clinician_role_reference": {
+      "type": "string"
+    },
+    "received_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "disposition": {
+      "enum": [
+        "NO_CHANGE",
+        "CLARIFICATION_REQUIRED",
+        "DATA_CORRECTION_REQUIRED",
+        "CLINICAL_REVIEW_REQUIRED",
+        "EXPORT_AMENDMENT_REQUIRED",
+        "LOCKED_URGENT_ROUTING"
+      ]
+    },
+    "summary": {
+      "type": "string"
+    },
+    "requires_export_amendment": {
+      "type": "boolean"
+    },
+    "evidence_references": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

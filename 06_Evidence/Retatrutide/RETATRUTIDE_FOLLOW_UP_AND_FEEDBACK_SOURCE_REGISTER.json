@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0.0",
+  "build_provenance": "CERT-BUILD-0049",
+  "status": "CONTROLLED_BASELINE",
+  "purpose": "Provenance register for acknowledgement, follow-up, clinician feedback and amendment audit controls.",
+  "source_classes": [
+    {
+      "source_id": "CERT-SRC-0049-001",
+      "class": "INHERITED_CONTROLLED_ASSET",
+      "reference": "12_Reports/Standards/RETATRUTIDE_CONTROLLED_CLINICIAN_HANDOFF_BUNDLE_STANDARD.md",
+      "build": "0048"
+    },
+    {
+      "source_id": "CERT-SRC-0049-002",
+      "class": "INHERITED_CONTROLLED_ASSET",
+      "reference": "12_Reports/Standards/RETATRUTIDE_EXPORT_VERSION_CONTROL_AND_SUPERSESSION_STANDARD.md",
+      "build": "0048"
+    },
+    {
+      "source_id": "CERT-SRC-0049-003",
+      "class": "INHERITED_CONTROLLED_ASSET",
+      "reference": "Standards/RETATRUTIDE_CLINICIAN_APPROVAL_AUDIT_AND_SAFETY_BOUNDARY.md",
+      "build": "0048"
+    }
+  ],
+  "evidence_boundary": "Workflow governance only. No new efficacy, dosing or treatment claim is introduced by Build 0049."
+}

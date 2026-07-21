@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0.0",
+  "build_provenance": "CERT-BUILD-0049",
+  "follow_up_id": "FUP-0049-002",
+  "handoff_bundle_id": "HANDOFF-0048-001",
+  "acknowledgement_id": "ACK-0049-001",
+  "subject_reference": "SUBJ-RET-001",
+  "state": "LOCKED_URGENT_ROUTING",
+  "due_at": "2026-07-28T12:00:00Z",
+  "completed_at": "2026-07-27T16:00:00Z",
+  "reviewer_role_reference": "REVIEWER-ROLE-002",
+  "urgent_routing_locked": true,
+  "rationale": "Urgent concern remains locked for human clinical routing."
+}

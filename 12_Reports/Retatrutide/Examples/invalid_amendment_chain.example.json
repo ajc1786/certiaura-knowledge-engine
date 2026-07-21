@@ -1,0 +1,18 @@
+{
+  "schema_version": "1.0.0",
+  "build_provenance": "CERT-BUILD-0049",
+  "amendment_id": "AMD-0049-BAD1",
+  "reason": "Correct provenance reference requested in clinician feedback.",
+  "feedback_id": "FDB-0049-001",
+  "predecessor_export_id": "EXPORT-0049-001",
+  "predecessor_export_sha256": "BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB",
+  "replacement_export_id": "EXPORT-0049-001",
+  "replacement_export_sha256": "BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB",
+  "author_role_reference": "REPORT-AUTHOR-001",
+  "reviewer_role_reference": "CLINICAL-REVIEWER-002",
+  "created_at": "2026-07-27T16:10:00Z",
+  "approved_at": "2026-07-27T17:00:00Z",
+  "state": "APPROVED",
+  "current_approved": true,
+  "supersedes_amendment_id": "AMD-0049-BAD1"
+}

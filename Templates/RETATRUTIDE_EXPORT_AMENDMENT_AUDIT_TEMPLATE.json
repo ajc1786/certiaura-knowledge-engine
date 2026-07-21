@@ -1,0 +1,18 @@
+{
+  "schema_version": null,
+  "build_provenance": null,
+  "amendment_id": null,
+  "reason": null,
+  "feedback_id": null,
+  "predecessor_export_id": null,
+  "predecessor_export_sha256": null,
+  "replacement_export_id": null,
+  "replacement_export_sha256": null,
+  "author_role_reference": null,
+  "reviewer_role_reference": null,
+  "created_at": null,
+  "approved_at": null,
+  "state": null,
+  "current_approved": null,
+  "supersedes_amendment_id": null
+}

@@ -1,0 +1,9 @@
+{
+  "build_id": "CERT-BUILD-0049",
+  "status": "WINDOWS_PS51_GATE_REQUIRED",
+  "required_endpoint": "BUILD 0049 WINDOWS POWERSHELL 5.1 REGRESSION: PASS",
+  "canonical_repository_modified": false,
+  "candidate": "RC2_REQUIRES_REAL_WINDOWS_PS51_RUN",
+  "prior_candidate_result": "FAILED_CLOSED_BEFORE_CANONICAL_IMPORT",
+  "prior_candidate_defect": "BRITTLE_LITERAL_MANIFEST_SCOPE_ASSERTION"
+}

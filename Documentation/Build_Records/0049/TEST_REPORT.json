@@ -1,0 +1,16 @@
+{
+  "build_id": "CERT-BUILD-0049",
+  "status": "PASS",
+  "automated_tests": 19,
+  "result": "19/19 PASS",
+  "negative_fixtures": {
+    "direct_identifier": "BLOCKED_AS_DESIGNED",
+    "autonomous_treatment": "BLOCKED_AS_DESIGNED",
+    "invalid_amendment_chain": "BLOCKED_AS_DESIGNED",
+    "repository_collision": "BLOCKED_DURING_DRY_RUN"
+  },
+  "regression_fixtures": {
+    "manifest_scope_pep8_multiline_format": "PASS",
+    "exact_manifest_owned_paths_derivation": "PASS"
+  }
+}

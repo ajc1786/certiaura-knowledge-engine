@@ -1,0 +1,12 @@
+{
+  "build": "0049",
+  "title": "retatrutide controlled handoff acknowledgement, follow-up review, clinician feedback and amendment audit baseline",
+  "state": "GENERATED_CANDIDATE_WINDOWS_PS51_GATE_REQUIRED",
+  "capabilities": [
+    "handoff_acknowledgement",
+    "follow_up_review",
+    "clinician_feedback_triage",
+    "export_amendment_audit"
+  ],
+  "blocking_gate": "WINDOWS_POWERSHELL_5_1_PRE_RELEASE_REGRESSION_PASS"
+}

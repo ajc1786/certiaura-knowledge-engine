@@ -1,0 +1,64 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "title": "Retatrutide Handoff Acknowledgement",
+  "required": [
+    "schema_version",
+    "build_provenance",
+    "acknowledgement_id",
+    "handoff_bundle_id",
+    "handoff_bundle_sha256",
+    "subject_reference",
+    "state",
+    "recorded_at",
+    "actor_role_reference",
+    "meaning_boundary"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.0.0"
+    },
+    "build_provenance": {
+      "const": "CERT-BUILD-0049"
+    },
+    "acknowledgement_id": {
+      "type": "string",
+      "minLength": 6
+    },
+    "handoff_bundle_id": {
+      "type": "string",
+      "minLength": 6
+    },
+    "handoff_bundle_sha256": {
+      "type": "string",
+      "pattern": "^[A-F0-9]{64}$"
+    },
+    "subject_reference": {
+      "type": "string",
+      "pattern": "^SUBJ-[A-Z0-9-]+$"
+    },
+    "state": {
+      "enum": [
+        "ACKNOWLEDGED",
+        "DECLINED",
+        "NO_RESPONSE",
+        "EXPIRED"
+      ]
+    },
+    "recorded_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "actor_role_reference": {
+      "type": "string",
+      "minLength": 3
+    },
+    "meaning_boundary": {
+      "const": "RECEIPT_ONLY_NOT_CLINICAL_AGREEMENT"
+    },
+    "notes": {
+      "type": "string"
+    }
+  }
+}

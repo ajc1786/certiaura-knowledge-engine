@@ -1,0 +1,304 @@
+{
+  "build_id": "CERT-BUILD-0049",
+  "routing": "REPOSITORY_RELATIVE",
+  "wrapper_folder": false,
+  "allowed_roots": [
+    "02_Peptides",
+    "05_Monitoring",
+    "06_Evidence",
+    "12_Reports",
+    "13_Project_Genesis",
+    "Documentation",
+    "Schemas",
+    "Scripts",
+    "Standards",
+    "Templates"
+  ],
+  "paths": [
+    {
+      "path": "02_Peptides/CERT-PKS-000001_Retatrutide/Monitoring/RETATRUTIDE_HANDOFF_ACKNOWLEDGEMENT_AND_FOLLOW_UP_STANDARD.md",
+      "classification": "FORMAL_ASSET",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "05_Monitoring/Standards/RETATRUTIDE_CLINICIAN_FEEDBACK_TRIAGE_WORKFLOW.md",
+      "classification": "FORMAL_ASSET",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "05_Monitoring/Standards/RETATRUTIDE_FOLLOW_UP_REVIEW_WORKFLOW.md",
+      "classification": "FORMAL_ASSET",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "06_Evidence/Retatrutide/RETATRUTIDE_FOLLOW_UP_AND_FEEDBACK_SOURCE_REGISTER.json",
+      "classification": "FORMAL_ASSET",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "12_Reports/Retatrutide/Examples/conditional_no_response_acknowledgement.example.json",
+      "classification": "EXAMPLE",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "12_Reports/Retatrutide/Examples/invalid_amendment_chain.example.json",
+      "classification": "EXAMPLE",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "12_Reports/Retatrutide/Examples/invalid_autonomous_treatment_feedback.example.json",
+      "classification": "EXAMPLE",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "12_Reports/Retatrutide/Examples/invalid_direct_identifier_feedback.example.json",
+      "classification": "EXAMPLE",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "12_Reports/Retatrutide/Examples/valid_clinician_feedback_requires_amendment.example.json",
+      "classification": "EXAMPLE",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "12_Reports/Retatrutide/Examples/valid_export_amendment_audit.example.json",
+      "classification": "EXAMPLE",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "12_Reports/Retatrutide/Examples/valid_follow_up_review.example.json",
+      "classification": "EXAMPLE",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "12_Reports/Retatrutide/Examples/valid_handoff_acknowledgement.example.json",
+      "classification": "EXAMPLE",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "12_Reports/Retatrutide/Examples/valid_locked_urgent_follow_up.example.json",
+      "classification": "EXAMPLE",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "12_Reports/Standards/RETATRUTIDE_EXPORT_AMENDMENT_AND_AUDIT_STANDARD.md",
+      "classification": "FORMAL_ASSET",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "13_Project_Genesis/Import/build_0049_transactional_import.py",
+      "classification": "SCRIPT",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "13_Project_Genesis/Import/rollback_build_0049_pending_import.py",
+      "classification": "SCRIPT",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "13_Project_Genesis/Reports/generate_retatrutide_follow_up_feedback_audit.py",
+      "classification": "SCRIPT",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "13_Project_Genesis/Tests/test_build_0049_retatrutide_follow_up_feedback_audit.py",
+      "classification": "TEST",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "13_Project_Genesis/Validators/build_0049_asset_ownership.py",
+      "classification": "SCRIPT",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "13_Project_Genesis/Validators/validate_retatrutide_follow_up_feedback_audit.py",
+      "classification": "SCRIPT",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "13_Project_Genesis/Validators/verify_build_0049_package.py",
+      "classification": "SCRIPT",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "Documentation/Build_Records/0049/ASSET_INTENT_MANIFEST.json",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "Documentation/Build_Records/0049/BUILD_0049_READ_ME_FIRST.md",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "Documentation/Build_Records/0049/BUILD_MANIFEST.json",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "Documentation/Build_Records/0049/CHECKSUMS.sha256",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "Documentation/Build_Records/0049/COMMIT_MESSAGE.txt",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "Documentation/Build_Records/0049/CONTINUITY_CHECKPOINT_DELTA.json",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "Documentation/Build_Records/0049/DECISION_RECORD_0049.md",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "Documentation/Build_Records/0049/LESSONS_LEARNED_CONTROL_MATRIX.json",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "Documentation/Build_Records/0049/LESSONS_LEARNED_REVIEW.md",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "Documentation/Build_Records/0049/PACKAGE_INVENTORY.csv",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "Documentation/Build_Records/0049/PACKAGE_VERSION.json",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "Documentation/Build_Records/0049/PRE_RELEASE_SYNTHETIC_IMPORT_REPORT.json",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "Documentation/Build_Records/0049/PRODUCTION_DASHBOARD_UPDATE.json",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "Documentation/Build_Records/0049/PROJECT_GENESIS_IMPORT_HOOK.json",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "Documentation/Build_Records/0049/PROPOSED_CHANGE_LOG_ENTRY.md",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "Documentation/Build_Records/0049/PROPOSED_NEXT_ACTION.md",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "Documentation/Build_Records/0049/REAL_WORLD_OPERATOR_WORKFLOW_REGRESSION_REPORT.json",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "Documentation/Build_Records/0049/ROLLBACK_RUNBOOK.md",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "Documentation/Build_Records/0049/ROUTING_MANIFEST.json",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "Documentation/Build_Records/0049/TEST_REPORT.json",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "Documentation/Build_Records/0049/VALIDATION_REPORT.json",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "Documentation/Build_Records/0049/WINDOWS_POWERSHELL_5_1_COMPATIBILITY_REPORT.json",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "Schemas/retatrutide_clinician_feedback.schema.json",
+      "classification": "SCHEMA",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "Schemas/retatrutide_export_amendment_audit.schema.json",
+      "classification": "SCHEMA",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "Schemas/retatrutide_follow_up_review.schema.json",
+      "classification": "SCHEMA",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "Schemas/retatrutide_handoff_acknowledgement.schema.json",
+      "classification": "SCHEMA",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "Scripts/Invoke_Certiaura_Build_0049_Import.ps1",
+      "classification": "SCRIPT",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "Scripts/Invoke_Certiaura_Build_0049_Preflight.ps1",
+      "classification": "SCRIPT",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "Scripts/Invoke_Certiaura_Build_0049_Windows_PS51_Regression.ps1",
+      "classification": "SCRIPT",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "Scripts/Run_Certiaura_Build_0049.ps1",
+      "classification": "SCRIPT",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "Scripts/START_BUILD_0049.cmd",
+      "classification": "SCRIPT",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "Standards/RETATRUTIDE_FOLLOW_UP_FEEDBACK_GOVERNANCE_AND_SAFETY_BOUNDARY.md",
+      "classification": "FORMAL_ASSET",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "Templates/RETATRUTIDE_CLINICIAN_FEEDBACK_TEMPLATE.json",
+      "classification": "TEMPLATE",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "Templates/RETATRUTIDE_EXPORT_AMENDMENT_AUDIT_TEMPLATE.json",
+      "classification": "TEMPLATE",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "Templates/RETATRUTIDE_FOLLOW_UP_REVIEW_TEMPLATE.json",
+      "classification": "TEMPLATE",
+      "intended_action": "CREATE"
+    },
+    {
+      "path": "Templates/RETATRUTIDE_HANDOFF_ACKNOWLEDGEMENT_TEMPLATE.json",
+      "classification": "TEMPLATE",
+      "intended_action": "CREATE"
+    }
+  ]
+}

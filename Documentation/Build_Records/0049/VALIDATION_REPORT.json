@@ -1,0 +1,15 @@
+{
+  "build_id": "CERT-BUILD-0049",
+  "status": "PASS_CANDIDATE",
+  "package_file_count": 57,
+  "formal_asset_count": 6,
+  "schemas_parse": true,
+  "memory_only_python_compilation": "PASS",
+  "automated_tests": "19/19 PASS",
+  "ascii_only_powershell_cmd": "PASS",
+  "lf_text_hygiene": "PASS",
+  "runtime_artefacts": "NONE",
+  "windows_ps51_gate": "REQUIRED",
+  "operator_test_scope": "EXACT_ASSET_INTENT_MANIFEST_PATHS_ONLY",
+  "windows_ps51_manifest_scope_assertion": "WHITESPACE_AND_NEWLINE_TOLERANT"
+}

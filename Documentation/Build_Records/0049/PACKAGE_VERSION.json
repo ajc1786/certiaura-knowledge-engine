@@ -1,0 +1,7 @@
+{
+  "build_id": "CERT-BUILD-0049",
+  "package_version": "1.0.0-rc2",
+  "candidate": "rc2_manifest_scope_assertion_correction",
+  "generated_date": "2026-07-21",
+  "scope": "controlled acknowledgement, follow-up review, clinician feedback and amendment audit"
+}

@@ -1,0 +1,13 @@
+{
+  "schema_version": "1.0.0",
+  "build_provenance": "CERT-BUILD-0049",
+  "acknowledgement_id": "ACK-0049-002",
+  "handoff_bundle_id": "HANDOFF-0048-001",
+  "handoff_bundle_sha256": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+  "subject_reference": "SUBJ-RET-001",
+  "state": "NO_RESPONSE",
+  "recorded_at": "2026-07-21T18:30:00Z",
+  "actor_role_reference": "SYSTEM-WORKFLOW",
+  "meaning_boundary": "RECEIPT_ONLY_NOT_CLINICAL_AGREEMENT",
+  "notes": "No response recorded within the controlled interval."
+}

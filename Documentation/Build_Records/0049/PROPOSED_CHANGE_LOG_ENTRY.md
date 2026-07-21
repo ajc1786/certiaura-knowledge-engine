@@ -1,0 +1,1 @@
+Add Build 0049: retatrutide controlled handoff acknowledgement, follow-up review, clinician feedback and amendment audit baseline. Includes acknowledgement, follow-up, feedback triage, immutable amendment audit, validators, templates, examples, tests and Project Genesis transactional controls.

@@ -1,0 +1,16 @@
+{
+  "build_id": "CERT-BUILD-0049",
+  "build_number": "0049",
+  "title": "retatrutide controlled handoff acknowledgement, follow-up review, clinician feedback and amendment audit baseline",
+  "package_version": "1.0.0-rc2",
+  "dependencies": [
+    {
+      "build": "0048",
+      "required_state": "ACTIONS_GREEN_CLOSED"
+    }
+  ],
+  "formal_asset_count": 6,
+  "release_state": "GENERATED_CANDIDATE_WINDOWS_PS51_GATE_REQUIRED",
+  "release_blocker": "WINDOWS_POWERSHELL_5_1_PRE_RELEASE_REGRESSION_PASS",
+  "candidate": "rc2_manifest_scope_assertion_correction"
+}

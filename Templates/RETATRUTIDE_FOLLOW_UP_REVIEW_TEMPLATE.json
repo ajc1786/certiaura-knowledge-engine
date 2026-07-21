@@ -1,0 +1,14 @@
+{
+  "schema_version": null,
+  "build_provenance": null,
+  "follow_up_id": null,
+  "handoff_bundle_id": null,
+  "acknowledgement_id": null,
+  "subject_reference": null,
+  "state": null,
+  "due_at": null,
+  "completed_at": null,
+  "reviewer_role_reference": null,
+  "urgent_routing_locked": null,
+  "rationale": null
+}
