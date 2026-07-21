@@ -1,0 +1,14 @@
+{
+  "build_id": "CERT-BUILD-0047",
+  "prior_build": "0046",
+  "prior_state": "ACTIONS_GREEN_CLOSED",
+  "current_build": "0047",
+  "current_state": "GENERATED_CANDIDATE_WINDOWS_PS51_GATE_REQUIRED",
+  "authorisation": "GREEN_AUTHORISED",
+  "next_action": "Rollback the uncommitted RC5 canonical transaction to the clean pre-import checkpoint, then run the complete Windows PowerShell 5.1 pre-release regression with RC6 before canonical import.",
+  "candidate_revision": "1.0.0-rc6",
+  "correction": "Use unittest discovery with an explicit test root; automatically roll back any post-apply pre-commit failure using the external transactional backup and exact apply report.",
+  "package_version": "1.0.0-rc7",
+  "status": "GENERATED_CANDIDATE_WINDOWS_PS51_GATE_REQUIRED",
+  "current_position": "RC5_ROLLED_BACK_CLEAN; RC6_REGRESSION_FAILED_BEFORE_CANONICAL_IMPORT; RC7_WINDOWS_PS51_GATE_REQUIRED"
+}

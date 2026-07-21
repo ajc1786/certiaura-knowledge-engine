@@ -1,0 +1,18 @@
+{
+  "build_id": "CERT-BUILD-0047",
+  "status": "STATIC_CONTROLS_IMPLEMENTED_RUNTIME_GATE_REQUIRED",
+  "ascii_only": true,
+  "strict_mode": true,
+  "array_normalisation_rule": true,
+  "optional_json_property_direct_assignment_prohibited": true,
+  "runtime_environment_required": "Windows PowerShell 5.1",
+  "pre_release_regression_script": "Scripts/Invoke_Certiaura_Build_0047_Windows_PS51_Regression.ps1",
+  "package_copy_deduplication": "UNIQUE_CONTENT_HASH_WITH_DISTINCT_HASH_FAIL_CLOSED",
+  "generic_list_array_normalisation": "EXPLICIT_TOARRAY_BEFORE_COUNT_OR_INDEX",
+  "package_version": "1.0.0-rc7",
+  "release_gate": "RERUN_REQUIRED_FOR_RC7_PACKAGE_HASH",
+  "canonical_unittest_invocation": "DISCOVER_WITH_EXPLICIT_TEST_ROOT",
+  "post_apply_rollback": "EXTERNAL_BACKUP_AND_EXACT_APPLY_REPORT",
+  "rc7_runtime_regression_required": true,
+  "synthetic_backup_root_variable": "EXTERNALBACKUPROOT_DEFINED_ONCE_AND_REUSED"
+}

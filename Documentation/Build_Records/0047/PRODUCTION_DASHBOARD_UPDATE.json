@@ -1,0 +1,12 @@
+{
+  "build": "0047",
+  "title": "retatrutide controlled longitudinal dashboard, alert review workflow and clinician export baseline",
+  "state": "GENERATED_CANDIDATE_WINDOWS_PS51_GATE_REQUIRED",
+  "capabilities": [
+    "longitudinal_dashboard",
+    "alert_review_workflow",
+    "clinician_export",
+    "exact_path_asset_ownership"
+  ],
+  "blocking_gate": "WINDOWS_POWERSHELL_5_1_PRE_RELEASE_REGRESSION_PASS"
+}

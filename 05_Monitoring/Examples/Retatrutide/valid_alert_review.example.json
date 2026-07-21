@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "build_provenance": "CERT-BUILD-0047",
+  "alert_id": "RET-ALERT-DEMO-001",
+  "journey_id": "RET-JOURNEY-DEMO-001",
+  "rule": {
+    "rule_id": "RET-RULE-SEVERE-SYMPTOM-REVIEW",
+    "version": "1.0.0",
+    "source_reference": "LOCAL-CLINICAL-PROTOCOL-REQUIRED",
+    "approved_by": "DESIGNATED_CLINICAL_GOVERNANCE",
+    "effective_date": "2026-07-20"
+  },
+  "severity": "ROUTINE_REVIEW",
+  "state": "CLINICIAN_REVIEWED",
+  "trigger": {
+    "observation_ids": [
+      "RET-OBS-002"
+    ],
+    "summary": "Mild self-reported nausea recorded for review."
+  },
+  "review": {
+    "reviewer_role": "AUTHORISED_CLINICIAN",
+    "reviewed_at": "2026-02-03T10:00:00Z",
+    "decision": "CONTINUE_OBSERVATION_UNDER_PROTOCOL",
+    "rationale": "Reviewed within the governing clinical workflow.",
+    "permitted_actions": [
+      "CONTINUE_OBSERVATION_UNDER_PROTOCOL"
+    ]
+  },
+  "uncertainty": [
+    "Self-reported symptom severity."
+  ]
+}

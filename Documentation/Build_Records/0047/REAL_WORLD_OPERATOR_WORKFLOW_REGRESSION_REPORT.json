@@ -1,0 +1,37 @@
+{
+  "build_id": "CERT-BUILD-0047",
+  "environment": "WINDOWS_POWERSHELL_5_1_CANONICAL_ONEDRIVE_REPOSITORY",
+  "status": "RERUN_REQUIRED_FOR_RC7_PACKAGE_HASH",
+  "release_blocking": true,
+  "required_steps": [
+    "controlled rollback of any uncommitted failed apply transaction",
+    "CMD parser precheck",
+    "package hash logging and payload checksum verification",
+    "clean repository and Build 0046 closure check",
+    "OneDrive stop and restart",
+    "Project Genesis dry-run",
+    "transactional apply with external backup",
+    "Master Asset Register reconciliation",
+    "validator and unit tests",
+    "runtime artefact scan",
+    "git diff --check",
+    "git diff --cached --check",
+    "staging review",
+    "commit and push",
+    "GitHub Actions handoff"
+  ],
+  "regression_script": "Scripts/Invoke_Certiaura_Build_0047_Windows_PS51_Regression.ps1",
+  "required_endpoint": "BUILD 0047 WINDOWS POWERSHELL 5.1 REGRESSION: PASS",
+  "known_operator_defect_corrected": "GENERIC_LIST_UNARY_ARRAY_CONVERSION_ARGUMENT_TYPES_DO_NOT_MATCH",
+  "required_retest": "FULL_WINDOWS_POWERSHELL_5_1_PRE_RELEASE_REGRESSION_FOR_RC7_THEN_CANONICAL_IMPORT",
+  "canonical_repository_modified": false,
+  "known_operator_defects_corrected": [
+    "GENERIC_LIST_UNARY_ARRAY_CONVERSION_ARGUMENT_TYPES_DO_NOT_MATCH",
+    "APPLY_ONLY_CANONICAL_PATH_COLLISION_DISCOVERY",
+    "ABSOLUTE_FILE_PATH_PASSED_AS_UNITTEST_MODULE_NAME",
+    "POST_APPLY_VALIDATION_FAILURE_DID_NOT_AUTO_ROLLBACK",
+    "UNDEFINED_BACKUPROOT_IN_SECOND_SYNTHETIC_APPLY"
+  ],
+  "canonical_repository_state": "RC5_CONTROLLED_ROLLBACK_COMPLETED_REPOSITORY_CLEAN_RC7_REGRESSION_REQUIRED",
+  "rc7_correction": "USE_EXTERNALBACKUPROOT_FOR_BOTH_SYNTHETIC_APPLIES_AND_GUARD_BEFORE_REAPPLY"
+}

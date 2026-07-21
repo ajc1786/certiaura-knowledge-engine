@@ -1,0 +1,10 @@
+{
+  "build_id": "CERT-BUILD-0047",
+  "preflight": "Scripts/Invoke_Certiaura_Build_0047_Preflight.ps1",
+  "import": "Scripts/Invoke_Certiaura_Build_0047_Import.ps1",
+  "transaction_engine": "13_Project_Genesis/Import/build_0047_transactional_import.py",
+  "asset_intent_manifest": "Documentation/Build_Records/0047/ASSET_INTENT_MANIFEST.json",
+  "ownership_mode": "EXACT_PATH_AND_EXACT_BUILD_PROVENANCE",
+  "rollback": "13_Project_Genesis/Import/rollback_build_0047_pending_import.py",
+  "post_apply_failure_policy": "AUTOMATIC_ROLLBACK_BEFORE_COMMIT"
+}

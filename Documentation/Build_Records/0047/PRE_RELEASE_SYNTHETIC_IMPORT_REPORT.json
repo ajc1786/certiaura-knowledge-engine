@@ -1,0 +1,93 @@
+{
+  "build_id": "CERT-BUILD-0047",
+  "status": "PASS",
+  "executed_date": "2026-07-21",
+  "environment": "Linux temporary Git repository with unrelated historical asset plus installed Build 0045 schema and pre-existing ownership helper",
+  "package_file_count": 51,
+  "formal_asset_count": 6,
+  "initial_register_rows": 1,
+  "expected_register_rows": 7,
+  "results": [
+    {
+      "check": "flat repository-relative ZIP structure",
+      "status": "PASS"
+    },
+    {
+      "check": "exact manifest/archive equality",
+      "status": "PASS"
+    },
+    {
+      "check": "Master Asset Register create reconciliation",
+      "status": "PASS"
+    },
+    {
+      "check": "transactional backup outside repository",
+      "status": "PASS"
+    },
+    {
+      "check": "unrelated historical file retained",
+      "status": "PASS"
+    },
+    {
+      "check": "no runtime artefacts",
+      "status": "PASS"
+    },
+    {
+      "check": "git diff --check",
+      "status": "PASS"
+    },
+    {
+      "check": "git diff --cached --check",
+      "status": "PASS"
+    },
+    {
+      "check": "validator and unit tests",
+      "status": "PASS"
+    },
+    {
+      "check": "duplicate identical package content resolver control",
+      "status": "PASS_STATIC_REGRESSION"
+    },
+    {
+      "check": "PS5.1-safe generic List[object] ToArray conversion",
+      "status": "PASS_STATIC_RUNTIME_GATE_IMPLEMENTED"
+    },
+    {
+      "check": "canonical path collision inventory during dry run",
+      "status": "PASS"
+    },
+    {
+      "check": "Build 0045 longitudinal journey schema preserved",
+      "status": "PASS"
+    },
+    {
+      "check": "pre-existing ownership helper preserved",
+      "status": "PASS"
+    },
+    {
+      "check": "deliberate non-identical dry-run collision",
+      "status": "BLOCKED_AS_DESIGNED"
+    },
+    {
+      "check": "canonical unittest discovery command",
+      "status": "PASS_STATIC_REGRESSION"
+    },
+    {
+      "check": "post-apply pre-commit rollback to clean repository",
+      "status": "PASS"
+    },
+    {
+      "check": "defined external backup root reused for clean synthetic reapply",
+      "status": "PASS_STATIC_AND_SYNTHETIC"
+    }
+  ],
+  "release_blocking_windows_regression": true,
+  "note": "RC7 synthetic dry-run, apply, post-apply rollback, clean reapply and Git transaction passed with predecessor paths preserved. The regression script now reuses the defined ExternalBackupRoot for both synthetic applies. Separate Windows PowerShell 5.1 pre-release regression remains mandatory for the RC7 package hash before canonical import.",
+  "package_version": "1.0.0-rc7",
+  "automated_tests": "14/14 PASS",
+  "canonical_collision_dry_run": "PASS",
+  "build_0045_schema_preserved": "PASS",
+  "preexisting_ownership_helper_preserved": "PASS",
+  "post_apply_rollback": "ROLLED_BACK_CLEAN_AND_REAPPLIED",
+  "ps51_regression_backup_root": "DEFINED_AND_REUSED"
+}

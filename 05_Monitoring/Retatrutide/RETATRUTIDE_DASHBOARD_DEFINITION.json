@@ -1,0 +1,56 @@
+{
+  "definition_id": "RETATRUTIDE-LONGITUDINAL-DASHBOARD-V1",
+  "build_provenance": "CERT-BUILD-0047",
+  "version": "1.0.0",
+  "compound": {
+    "canonical_name": "retatrutide",
+    "development_code": "LY3437943"
+  },
+  "output_contracts": [
+    "Schemas/retatrutide_longitudinal_dashboard_journey.schema.json",
+    "Schemas/retatrutide_alert_review.schema.json",
+    "Schemas/retatrutide_clinician_export.schema.json"
+  ],
+  "panels": [
+    {
+      "panel_id": "status",
+      "title": "Investigational and Governance Status"
+    },
+    {
+      "panel_id": "data_quality",
+      "title": "Data Quality and Completeness"
+    },
+    {
+      "panel_id": "anthropometrics",
+      "title": "Anthropometric Trends"
+    },
+    {
+      "panel_id": "vitals",
+      "title": "Vital Sign Timeline"
+    },
+    {
+      "panel_id": "laboratory",
+      "title": "Laboratory Timeline"
+    },
+    {
+      "panel_id": "symptoms",
+      "title": "Symptoms and Tolerability"
+    },
+    {
+      "panel_id": "alerts",
+      "title": "Controlled Alerts and Review Status"
+    },
+    {
+      "panel_id": "export",
+      "title": "Clinician Export Readiness"
+    }
+  ],
+  "prohibited_outputs": [
+    "autonomous_diagnosis",
+    "autonomous_dose_change",
+    "autonomous_start_or_stop_instruction",
+    "contraindication_clearance",
+    "emergency_exclusion",
+    "statement_that_clinical_review_is_unnecessary"
+  ]
+}

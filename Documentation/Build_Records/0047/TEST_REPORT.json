@@ -1,0 +1,17 @@
+{
+  "build_id": "CERT-BUILD-0047",
+  "status": "PASS_WITH_WINDOWS_PS51_GATE_REQUIRED",
+  "executed_date": "2026-07-21",
+  "framework": "Python unittest",
+  "tests_run": 14,
+  "failures": 0,
+  "errors": 0,
+  "test_module": "13_Project_Genesis/Tests/test_build_0047_retatrutide_dashboard.py",
+  "release_blocking_windows_regression": true,
+  "package_version": "1.0.0-rc7",
+  "automated_tests": "14/14 PASS",
+  "canonical_collision_negative_fixture": "BLOCKED_AS_DESIGNED",
+  "canonical_test_invocation": "UNITTEST_DISCOVERY_WITH_EXPLICIT_TEST_ROOT",
+  "post_apply_rollback_fixture": "ROLLED_BACK_CLEAN",
+  "ps51_regression_backup_root": "DEFINED_EXTERNAL_BACKUP_ROOT_REUSED_FOR_BOTH_SYNTHETIC_APPLIES"
+}

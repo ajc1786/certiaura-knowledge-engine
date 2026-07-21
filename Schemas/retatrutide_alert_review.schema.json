@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://certiaura.local/schemas/retatrutide_alert_review.schema.json",
+  "title": "Retatrutide Alert Review",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "build_provenance",
+    "alert_id",
+    "journey_id",
+    "rule",
+    "severity",
+    "state",
+    "trigger",
+    "review"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.0.0"
+    },
+    "build_provenance": {
+      "const": "CERT-BUILD-0047"
+    },
+    "severity": {
+      "enum": [
+        "INFORMATIONAL",
+        "ROUTINE_REVIEW",
+        "PRIORITY_REVIEW",
+        "URGENT_REVIEW"
+      ]
+    },
+    "state": {
+      "enum": [
+        "NEW",
+        "TRIAGED",
+        "CLINICAL_REVIEW_PENDING",
+        "DATA_CORRECTION_PENDING",
+        "CLINICIAN_REVIEWED",
+        "CLOSED"
+      ]
+    }
+  },
+  "additionalProperties": true
+}

@@ -1,0 +1,83 @@
+{
+  "build_id": "CERT-BUILD-0047",
+  "status": "PASS_WITH_WINDOWS_PS51_GATE_REQUIRED",
+  "executed_date": "2026-07-21",
+  "environment": "Linux Python 3.13.5",
+  "checks": [
+    {
+      "check": "JSON parsing",
+      "status": "PASS"
+    },
+    {
+      "check": "exact Asset Intent Manifest path ownership",
+      "status": "PASS"
+    },
+    {
+      "check": "exact build provenance ownership",
+      "status": "PASS"
+    },
+    {
+      "check": "valid and conditional journey examples",
+      "status": "PASS"
+    },
+    {
+      "check": "invalid autonomous treatment example",
+      "status": "EXPECTED_FAIL"
+    },
+    {
+      "check": "valid alert review example",
+      "status": "PASS"
+    },
+    {
+      "check": "invalid treatment action alert",
+      "status": "EXPECTED_FAIL"
+    },
+    {
+      "check": "dashboard and clinician export generation",
+      "status": "PASS"
+    },
+    {
+      "check": "separate pre-release Windows PowerShell 5.1 regression gate",
+      "status": "IMPLEMENTED_RUNTIME_PENDING"
+    },
+    {
+      "check": "exact Build 0046 commit subject and ancestry",
+      "status": "IMPLEMENTED"
+    },
+    {
+      "check": "byte-identical package copy deduplication with distinct-package fail-closed",
+      "status": "IMPLEMENTED_AND_TESTED"
+    },
+    {
+      "check": "Windows PowerShell 5.1 generic List[object] explicit ToArray normalisation",
+      "status": "IMPLEMENTED_STATIC_AND_RUNTIME_REGRESSION"
+    },
+    {
+      "check": "canonical path collision inventory before apply",
+      "status": "IMPLEMENTED_AND_NEGATIVE_TESTED"
+    },
+    {
+      "check": "Build 0045 longitudinal schema and pre-existing helper preservation",
+      "status": "SYNTHETIC_HASH_VERIFIED"
+    },
+    {
+      "check": "canonical Python unittest discovery invocation",
+      "status": "IMPLEMENTED_AND_STATIC_TESTED"
+    },
+    {
+      "check": "post-apply pre-commit automatic rollback",
+      "status": "IMPLEMENTED_AND_SYNTHETICALLY_TESTED"
+    },
+    {
+      "check": "Windows PowerShell 5.1 regression external backup-root initialisation and reuse",
+      "status": "IMPLEMENTED_AND_STATIC_REGRESSION_TESTED"
+    }
+  ],
+  "owned_path_count": 51,
+  "release_blocking_windows_regression": true,
+  "package_version": "1.0.0-rc7",
+  "canonical_path_collision_inventory": "PASS",
+  "predecessor_paths_preserved": "PASS",
+  "post_apply_rollback": "PASS",
+  "ps51_regression_backup_root": "PASS_STATIC_RC7_RUNTIME_GATE_REQUIRED"
+}

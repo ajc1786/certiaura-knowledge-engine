@@ -1,0 +1,90 @@
+{
+  "build_id": "CERT-BUILD-0047",
+  "controls": [
+    {
+      "control": "WINDOWS_POWERSHELL_5_1_OPERATOR_REGRESSION",
+      "status": "RELEASE_BLOCKING_RC7_RERUN_REQUIRED"
+    },
+    {
+      "control": "TRANSACTIONAL_BACKUP_OUTSIDE_REPOSITORY",
+      "status": "IMPLEMENTED_AND_SYNTHETICALLY_TESTED"
+    },
+    {
+      "control": "EXACT_ASSET_INTENT_MANIFEST_PATH_OWNERSHIP",
+      "status": "IMPLEMENTED"
+    },
+    {
+      "control": "EXACT_BUILD_PROVENANCE_OWNERSHIP",
+      "status": "IMPLEMENTED"
+    },
+    {
+      "control": "ASCII_ONLY_POWERSHELL_CMD",
+      "status": "IMPLEMENTED"
+    },
+    {
+      "control": "ARRAY_NORMALISATION_BEFORE_COUNT_OR_INDEX",
+      "status": "EXPLICIT_TOARRAY_IMPLEMENTED_AND_WINDOWS_RUNTIME_REGRESSION_ADDED"
+    },
+    {
+      "control": "LF_NO_TRAILING_WHITESPACE",
+      "status": "IMPLEMENTED"
+    },
+    {
+      "control": "NO_RUNTIME_ARTEFACTS",
+      "status": "IMPLEMENTED"
+    },
+    {
+      "control": "GIT_DIFF_AND_CACHED_CHECK",
+      "status": "IMPLEMENTED_IN_OPERATOR_SCRIPT"
+    },
+    {
+      "control": "NO_AUTONOMOUS_TREATMENT_OR_DIAGNOSIS",
+      "status": "IMPLEMENTED_AND_NEGATIVE_TESTED"
+    },
+    {
+      "control": "SEPARATE_PRE_RELEASE_REGRESSION_BEFORE_CANONICAL_IMPORT",
+      "status": "IMPLEMENTED"
+    },
+    {
+      "control": "EXACT_PRIOR_BUILD_COMMIT_SUBJECT_AND_ANCESTRY",
+      "status": "IMPLEMENTED"
+    },
+    {
+      "control": "BYTE_IDENTICAL_PACKAGE_COPY_DEDUPLICATION",
+      "status": "IMPLEMENTED_WITH_PASS_REPORT_PACKAGE_HASH_SELECTION_AND_REGRESSION_TESTED"
+    },
+    {
+      "control": "GENERIC_LIST_UNARY_ARRAY_OPERATOR_PROHIBITED_IN_PS51_OPERATOR_PATH",
+      "status": "LOCKED_BY_RC5_CORRECTIVE_ACTION"
+    },
+    {
+      "control": "CANONICAL_PATH_COLLISION_INVENTORY_DURING_DRY_RUN",
+      "status": "IMPLEMENTED_AND_NEGATIVE_TESTED"
+    },
+    {
+      "control": "BUILD_0045_LONGITUDINAL_SCHEMA_PRESERVATION",
+      "status": "IMPLEMENTED_AND_SYNTHETICALLY_HASH_VERIFIED"
+    },
+    {
+      "control": "BUILD_SPECIFIC_OWNERSHIP_HELPER_PATH",
+      "status": "IMPLEMENTED"
+    },
+    {
+      "control": "CANONICAL_UNITTEST_DISCOVERY_WITH_EXPLICIT_TEST_ROOT",
+      "status": "IMPLEMENTED_AND_REGRESSION_TESTED"
+    },
+    {
+      "control": "POST_APPLY_PRE_COMMIT_AUTOMATIC_ROLLBACK",
+      "status": "IMPLEMENTED_AND_SYNTHETICALLY_TESTED"
+    },
+    {
+      "control": "ROLLBACK_REFUSES_CHANGED_IMPORTED_FILES",
+      "status": "IMPLEMENTED_BY_INCOMING_HASH_VERIFICATION"
+    },
+    {
+      "control": "PS51_REGRESSION_BACKUP_ROOT_DEFINED_BEFORE_USE",
+      "status": "EXTERNALBACKUPROOT_REUSED_AND_STATIC_REGRESSION_TESTED"
+    }
+  ],
+  "package_version": "1.0.0-rc7"
+}

@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0.0",
+  "build_provenance": "CERT-BUILD-0047",
+  "journey_id": "RET-JOURNEY-REPLACE",
+  "subject_reference": "SUBJ-REPLACE",
+  "compound": "retatrutide",
+  "governance": {
+    "context": "CLINICIAN_SUPERVISED_OR_TRIAL",
+    "pseudonymised": true,
+    "direct_identifiers_present": false,
+    "investigational_status_source_id": "RET-SRC-FDA-UNAPPROVED-2026",
+    "status_checked_date": "YYYY-MM-DD",
+    "clinician_or_investigator_route": "REPLACE"
+  },
+  "observations": [],
+  "alert_rules": []
+}

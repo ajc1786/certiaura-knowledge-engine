@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0.0",
+  "build_provenance": "CERT-BUILD-0047",
+  "alert_id": "RET-ALERT-REPLACE",
+  "journey_id": "RET-JOURNEY-REPLACE",
+  "rule": {
+    "rule_id": "REPLACE",
+    "version": "1.0.0",
+    "source_reference": "REPLACE",
+    "approved_by": "REPLACE",
+    "effective_date": "YYYY-MM-DD"
+  },
+  "severity": "ROUTINE_REVIEW",
+  "state": "NEW",
+  "trigger": {
+    "observation_ids": [],
+    "summary": "REPLACE"
+  },
+  "review": {
+    "reviewer_role": null,
+    "reviewed_at": null,
+    "decision": null,
+    "rationale": null,
+    "permitted_actions": []
+  },
+  "uncertainty": []
+}

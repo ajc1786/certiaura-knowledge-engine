@@ -1,0 +1,18 @@
+{
+  "build_id": "CERT-BUILD-0047",
+  "wrapper_folder_allowed": false,
+  "allowed_roots": [
+    "02_Peptides",
+    "05_Monitoring",
+    "06_Evidence",
+    "12_Reports",
+    "13_Project_Genesis",
+    "Documentation",
+    "Schemas",
+    "Scripts",
+    "Standards",
+    "Templates"
+  ],
+  "build_record_root": "Documentation/Build_Records/0047",
+  "conflict_policy": "FAIL_CLOSED_UNLESS_EXACT_MANIFEST_UPDATE_AND_ALLOW_REPLACE"
+}

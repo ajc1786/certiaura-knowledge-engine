@@ -1,0 +1,90 @@
+{
+  "asset_title": "Retatrutide Longitudinal Dashboard Source Register",
+  "build_provenance": "CERT-BUILD-0047",
+  "version": "1.0.0",
+  "as_of_date": "2026-07-20",
+  "regulatory_status_statement": "Retatrutide is investigational and is not an FDA-approved drug. Jurisdiction-specific status must be rechecked at export time.",
+  "sources": [
+    {
+      "source_id": "RET-SRC-NEJM-PHASE2-2023",
+      "source_type": "PEER_REVIEWED_RANDOMIZED_TRIAL",
+      "title": "Triple-Hormone-Receptor Agonist Retatrutide for Obesity",
+      "publisher": "New England Journal of Medicine",
+      "published_date": "2023-08-10",
+      "doi": "10.1056/NEJMoa2301972",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2301972",
+      "use": [
+        "mechanism_context",
+        "phase_2_outcome_context",
+        "adverse_event_context"
+      ],
+      "limitations": [
+        "phase_2",
+        "does_not_establish_regulatory_approval"
+      ]
+    },
+    {
+      "source_id": "RET-SRC-CTG-TRIUMPH-MASTER",
+      "source_type": "CLINICAL_TRIAL_REGISTRY",
+      "title": "A Study of Retatrutide in Participants Who Have Obesity or Overweight",
+      "registry": "ClinicalTrials.gov",
+      "identifier": "NCT05929066",
+      "url": "https://clinicaltrials.gov/study/NCT05929066",
+      "use": [
+        "phase_3_protocol_context",
+        "visit_and_outcome_context"
+      ],
+      "limitations": [
+        "registry_record",
+        "status_can_change"
+      ]
+    },
+    {
+      "source_id": "RET-SRC-CTG-CV-OUTCOMES",
+      "source_type": "CLINICAL_TRIAL_REGISTRY",
+      "title": "Retatrutide in Obesity and Established Cardiovascular Disease",
+      "registry": "ClinicalTrials.gov",
+      "identifier": "NCT05882045",
+      "url": "https://clinicaltrials.gov/study/NCT05882045",
+      "use": [
+        "cardiovascular_outcomes_context"
+      ],
+      "limitations": [
+        "registry_record",
+        "status_can_change"
+      ]
+    },
+    {
+      "source_id": "RET-SRC-FDA-UNAPPROVED-2026",
+      "source_type": "REGULATORY_SAFETY_STATEMENT",
+      "title": "FDA's Concerns with Unapproved GLP-1 Drugs Used for Weight Loss",
+      "publisher": "U.S. Food and Drug Administration",
+      "published_date": "2026-06-15",
+      "url": "https://www.fda.gov/drugs/drug-alerts-and-statements/fdas-concerns-unapproved-glp-1-drugs-used-weight-loss",
+      "use": [
+        "investigational_status",
+        "unapproved_product_boundary"
+      ],
+      "limitations": [
+        "US_regulatory_context"
+      ]
+    },
+    {
+      "source_id": "RET-SRC-LILLY-TRIUMPH1-2026",
+      "source_type": "SPONSOR_PHASE3_TOPLINE_RELEASE",
+      "title": "TRIUMPH-1 Phase 3 obesity topline results",
+      "publisher": "Eli Lilly and Company",
+      "published_date": "2026-05-21",
+      "url": "https://investor.lilly.com/news-releases/news-release-details/lillys-triple-agonist-retatrutide-delivered-powerful-weight-loss",
+      "use": [
+        "current_development_context"
+      ],
+      "limitations": [
+        "sponsor_release",
+        "not_a_regulatory_approval",
+        "requires_peer_review_confirmation"
+      ]
+    }
+  ],
+  "review_rule": "Recheck regulatory and trial status before each clinician export and record the retrieval date."
+}

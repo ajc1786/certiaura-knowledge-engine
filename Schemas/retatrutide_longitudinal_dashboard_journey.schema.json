@@ -1,0 +1,46 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://certiaura.local/schemas/retatrutide_longitudinal_dashboard_journey.schema.json",
+  "title": "Retatrutide Longitudinal Dashboard Journey",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "build_provenance",
+    "journey_id",
+    "subject_reference",
+    "compound",
+    "governance",
+    "observations",
+    "alert_rules"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.0.0"
+    },
+    "build_provenance": {
+      "const": "CERT-BUILD-0047"
+    },
+    "journey_id": {
+      "type": "string",
+      "pattern": "^RET-JOURNEY-[A-Z0-9-]+$"
+    },
+    "subject_reference": {
+      "type": "string",
+      "pattern": "^SUBJ-[A-Z0-9-]+$"
+    },
+    "compound": {
+      "const": "retatrutide"
+    },
+    "governance": {
+      "type": "object"
+    },
+    "observations": {
+      "type": "array",
+      "minItems": 1
+    },
+    "alert_rules": {
+      "type": "array"
+    }
+  },
+  "additionalProperties": true
+}

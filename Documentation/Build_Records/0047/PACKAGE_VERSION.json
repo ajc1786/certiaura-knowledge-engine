@@ -1,0 +1,9 @@
+{
+  "build_id": "CERT-BUILD-0047",
+  "build_number": "0047",
+  "title": "retatrutide controlled longitudinal dashboard, alert review workflow and clinician export baseline",
+  "package_version": "1.0.0-rc7",
+  "status": "GENERATED_CANDIDATE_WINDOWS_PS51_GATE_REQUIRED",
+  "generated_date": "2026-07-21",
+  "release_gate": "WINDOWS_POWERSHELL_5_1_REAL_WORLD_OPERATOR_WORKFLOW_PASS_REQUIRED"
+}

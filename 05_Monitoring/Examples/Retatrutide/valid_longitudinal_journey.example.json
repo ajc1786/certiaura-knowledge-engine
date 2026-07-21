@@ -1,0 +1,114 @@
+{
+  "schema_version": "1.0.0",
+  "build_provenance": "CERT-BUILD-0047",
+  "journey_id": "RET-JOURNEY-DEMO-001",
+  "subject_reference": "SUBJ-DEMO-001",
+  "compound": "retatrutide",
+  "governance": {
+    "context": "CLINICIAN_SUPERVISED_OR_TRIAL",
+    "pseudonymised": true,
+    "direct_identifiers_present": false,
+    "investigational_status_source_id": "RET-SRC-FDA-UNAPPROVED-2026",
+    "status_checked_date": "2026-07-20",
+    "clinician_or_investigator_route": "DESIGNATED_REVIEW_TEAM"
+  },
+  "observations": [
+    {
+      "observation_id": "RET-OBS-001",
+      "observed_date": "2026-01-05",
+      "source_type": "CLINICIAN_ENTERED",
+      "source_reference": "CLINIC-BASELINE-001",
+      "weight_kg": 112.4,
+      "waist_cm": 121.0,
+      "pulse_bpm": 78,
+      "blood_pressure": {
+        "systolic_mm_hg": 132,
+        "diastolic_mm_hg": 84
+      },
+      "symptoms": [],
+      "laboratory": {},
+      "exposure_record": {
+        "recorded_only": true,
+        "protocol_reference": "TRIAL-OR-CLINIC-PROTOCOL",
+        "amount": null,
+        "unit": null
+      }
+    },
+    {
+      "observation_id": "RET-OBS-002",
+      "observed_date": "2026-02-02",
+      "source_type": "CLINICIAN_ENTERED",
+      "source_reference": "CLINIC-FOLLOWUP-001",
+      "weight_kg": 108.9,
+      "waist_cm": 117.5,
+      "pulse_bpm": 80,
+      "blood_pressure": {
+        "systolic_mm_hg": 128,
+        "diastolic_mm_hg": 82
+      },
+      "symptoms": [
+        {
+          "term": "nausea",
+          "severity": "MILD",
+          "source": "SELF_REPORTED"
+        }
+      ],
+      "laboratory": {},
+      "exposure_record": {
+        "recorded_only": true,
+        "protocol_reference": "TRIAL-OR-CLINIC-PROTOCOL",
+        "amount": null,
+        "unit": null
+      }
+    },
+    {
+      "observation_id": "RET-OBS-003",
+      "observed_date": "2026-03-02",
+      "source_type": "CLINICIAN_ENTERED",
+      "source_reference": "CLINIC-FOLLOWUP-002",
+      "weight_kg": 105.8,
+      "waist_cm": 114.0,
+      "pulse_bpm": 79,
+      "blood_pressure": {
+        "systolic_mm_hg": 126,
+        "diastolic_mm_hg": 80
+      },
+      "symptoms": [
+        {
+          "term": "nausea",
+          "severity": "RESOLVED",
+          "source": "SELF_REPORTED"
+        }
+      ],
+      "laboratory": {
+        "hba1c_percent": 5.6,
+        "alt_u_l": 31
+      },
+      "exposure_record": {
+        "recorded_only": true,
+        "protocol_reference": "TRIAL-OR-CLINIC-PROTOCOL",
+        "amount": null,
+        "unit": null
+      }
+    }
+  ],
+  "alert_rules": [
+    {
+      "rule_id": "RET-RULE-SEVERE-SYMPTOM-REVIEW",
+      "version": "1.0.0",
+      "effective_date": "2026-07-20",
+      "source_reference": "LOCAL-CLINICAL-PROTOCOL-REQUIRED",
+      "approved_by": "DESIGNATED_CLINICAL_GOVERNANCE",
+      "logic": {
+        "field": "symptoms[].severity",
+        "operator": "IN",
+        "value": [
+          "SEVERE",
+          "URGENT"
+        ]
+      },
+      "severity": "URGENT_REVIEW",
+      "automatic_action": "CLINICIAN_DECISION_REQUIRED"
+    }
+  ]
+}
