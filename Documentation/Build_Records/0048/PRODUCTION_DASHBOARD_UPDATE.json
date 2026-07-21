@@ -1,0 +1,13 @@
+{
+  "build": "0048",
+  "title": "retatrutide clinician review approval, export version control, controlled handoff and audit trail baseline",
+  "state": "GENERATED_CANDIDATE_WINDOWS_PS51_GATE_REQUIRED",
+  "capabilities": [
+    "clinician_review_approval",
+    "export_version_control",
+    "controlled_handoff_bundle",
+    "acknowledgement_receipt",
+    "audit_trail"
+  ],
+  "blocking_gate": "WINDOWS_POWERSHELL_5_1_PRE_RELEASE_REGRESSION_PASS"
+}

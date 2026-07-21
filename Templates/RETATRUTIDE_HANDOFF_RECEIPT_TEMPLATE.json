@@ -1,0 +1,11 @@
+{
+  "schema_version": "1.0.0",
+  "build_provenance": "CERT-BUILD-0048",
+  "receipt_id": "RET-RECEIPT-REPLACE",
+  "bundle_id": "RET-HANDOFF-REPLACE",
+  "bundle_manifest_sha256": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+  "received_at": "2026-07-21T00:00:00Z",
+  "recipient_role_reference": "AUTHORISED_RECIPIENT_ROLE",
+  "acknowledgement_state": "RECEIVED_INTACT",
+  "notes": ""
+}

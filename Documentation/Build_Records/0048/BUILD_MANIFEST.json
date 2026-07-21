@@ -1,0 +1,16 @@
+{
+  "build_id": "CERT-BUILD-0048",
+  "build_number": "0048",
+  "title": "retatrutide clinician review approval, export version control, controlled handoff and audit trail baseline",
+  "package_version": "1.0.0-rc2",
+  "dependencies": [
+    {
+      "build": "0047",
+      "required_state": "ACTIONS_GREEN_CLOSED"
+    }
+  ],
+  "formal_asset_count": 6,
+  "release_state": "GENERATED_CANDIDATE_WINDOWS_PS51_GATE_REQUIRED",
+  "release_blocker": "WINDOWS_POWERSHELL_5_1_PRE_RELEASE_REGRESSION_PASS",
+  "candidate": "corrected_operator_test_scope"
+}

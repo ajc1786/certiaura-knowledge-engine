@@ -1,0 +1,7 @@
+{
+  "build_id": "CERT-BUILD-0048",
+  "package_version": "1.0.0-rc2",
+  "candidate": "rc2_exact_manifest_owned_test_scope",
+  "generated_date": "2026-07-21",
+  "correction": "Post-apply test hygiene is limited to exact Build 0048 Asset Intent Manifest paths; unrelated historical repository line endings are excluded."
+}

@@ -1,0 +1,15 @@
+{
+  "build_id": "CERT-BUILD-0048",
+  "status": "PASS_CANDIDATE",
+  "package_file_count": 55,
+  "formal_asset_count": 6,
+  "schemas_parse": true,
+  "memory_only_python_compilation": "PASS",
+  "automated_tests": "16/16 PASS",
+  "ascii_only_powershell_cmd": "PASS",
+  "lf_text_hygiene": "PASS",
+  "runtime_artefacts": "NONE",
+  "windows_ps51_gate": "REQUIRED",
+  "operator_test_scope": "EXACT_ASSET_INTENT_MANIFEST_PATHS_ONLY",
+  "unrelated_historical_crlf_fixture": "PRESERVED_AND_EXCLUDED"
+}

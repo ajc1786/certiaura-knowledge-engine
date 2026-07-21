@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0.0",
+  "build_provenance": "CERT-BUILD-0048",
+  "bundle_id": "RET-HANDOFF-REPLACE",
+  "export_id": "RET-EXPORT-REPLACE",
+  "approval_review_id": "RET-REVIEW-REPLACE",
+  "state": "BUNDLE_DRAFT",
+  "created_at": "2026-07-21T00:00:00Z",
+  "expires_at": "2026-07-28T00:00:00Z",
+  "components": [],
+  "privacy": {
+    "pseudonymised": true,
+    "direct_identifiers_present": false
+  },
+  "urgent_routing_status": "NONE_RECORDED",
+  "safety_statement": "Research and clinician-review information only; not a prescription, diagnosis or treatment instruction."
+}

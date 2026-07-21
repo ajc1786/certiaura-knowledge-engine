@@ -1,0 +1,107 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://certiaura.local/schemas/retatrutide_clinician_review_decision.schema.json",
+  "title": "Retatrutide Clinician Review Decision",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "build_provenance",
+    "review_id",
+    "export_id",
+    "export_sha256",
+    "reviewer_role_reference",
+    "generator_actor_reference",
+    "state",
+    "decision",
+    "reviewed_at",
+    "rationale",
+    "attestation"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.0.0"
+    },
+    "build_provenance": {
+      "const": "CERT-BUILD-0048"
+    },
+    "review_id": {
+      "type": "string",
+      "pattern": "^RET-REVIEW-[A-Z0-9-]+$"
+    },
+    "export_id": {
+      "type": "string",
+      "pattern": "^RET-EXPORT-[A-Z0-9-]+$"
+    },
+    "export_sha256": {
+      "type": "string",
+      "pattern": "^[A-F0-9]{64}$"
+    },
+    "reviewer_role_reference": {
+      "type": "string",
+      "minLength": 3
+    },
+    "generator_actor_reference": {
+      "type": "string",
+      "minLength": 3
+    },
+    "state": {
+      "enum": [
+        "DRAFT_REVIEW",
+        "IN_REVIEW",
+        "CHANGES_REQUIRED",
+        "APPROVED_FOR_CONTROLLED_HANDOFF",
+        "SUPERSEDED",
+        "WITHDRAWN"
+      ]
+    },
+    "decision": {
+      "enum": [
+        "CHANGES_REQUIRED",
+        "APPROVED_FOR_CONTROLLED_HANDOFF",
+        "WITHDRAWN_BY_REVIEWER",
+        "SUPERSEDED_BY_NEW_EXPORT"
+      ]
+    },
+    "reviewed_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "rationale": {
+      "type": "string",
+      "minLength": 10
+    },
+    "attestation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "human_review_confirmed",
+        "autonomous_treatment_prohibited",
+        "direct_identifiers_absent"
+      ],
+      "properties": {
+        "human_review_confirmed": {
+          "const": true
+        },
+        "autonomous_treatment_prohibited": {
+          "const": true
+        },
+        "direct_identifiers_absent": {
+          "const": true
+        }
+      }
+    },
+    "requested_corrections": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "audit_events": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    }
+  }
+}

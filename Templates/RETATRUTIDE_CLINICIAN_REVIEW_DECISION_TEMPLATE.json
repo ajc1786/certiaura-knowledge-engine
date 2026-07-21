@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0.0",
+  "build_provenance": "CERT-BUILD-0048",
+  "review_id": "RET-REVIEW-REPLACE",
+  "export_id": "RET-EXPORT-REPLACE",
+  "export_sha256": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+  "reviewer_role_reference": "AUTHORISED_REVIEWER_ROLE",
+  "generator_actor_reference": "GENERATOR_SERVICE",
+  "state": "DRAFT_REVIEW",
+  "decision": "CHANGES_REQUIRED",
+  "reviewed_at": "2026-07-21T00:00:00Z",
+  "rationale": "Replace with a human review rationale before use.",
+  "requested_corrections": [],
+  "audit_events": [],
+  "attestation": {
+    "human_review_confirmed": true,
+    "autonomous_treatment_prohibited": true,
+    "direct_identifiers_absent": true
+  }
+}

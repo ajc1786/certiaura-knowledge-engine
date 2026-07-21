@@ -1,0 +1,8 @@
+{
+  "build_id": "CERT-BUILD-0048",
+  "importer": "13_Project_Genesis/Import/build_0048_transactional_import.py",
+  "preflight": "Scripts/Invoke_Certiaura_Build_0048_Preflight.ps1",
+  "launcher": "Scripts/START_BUILD_0048.cmd",
+  "ownership": "EXACT_MANIFEST_PATH_AND_EXACT_BUILD_PROVENANCE",
+  "transactional_backup": "OUTSIDE_REPOSITORY"
+}

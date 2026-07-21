@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0.0",
+  "build_provenance": "CERT-BUILD-0048",
+  "status_checked_date": "2026-07-21",
+  "purpose": "Source and boundary register for clinician review and controlled handoff.",
+  "sources": [
+    {
+      "source_id": "RET-REG-FDA-2026-06-15",
+      "source_type": "REGULATORY_AUTHORITY",
+      "title": "FDA concerns with unapproved GLP-1 drugs used for weight loss",
+      "url": "https://www.fda.gov/drugs/drug-alerts-and-statements/fdas-concerns-unapproved-glp-1-drugs-used-weight-loss",
+      "use": "Confirms retatrutide is not an FDA-approved drug and is not eligible for compounding under US federal law."
+    },
+    {
+      "source_id": "RET-TRIAL-NCT05882045",
+      "source_type": "CLINICAL_TRIAL_REGISTRY",
+      "title": "Phase 3 retatrutide study in severe obesity and established cardiovascular disease",
+      "url": "https://clinicaltrials.gov/study/NCT05882045",
+      "use": "Current investigational programme context."
+    },
+    {
+      "source_id": "RET-PHASE3-TRIUMPH1-2026-05-21",
+      "source_type": "SPONSOR_TOPLINE",
+      "title": "TRIUMPH-1 phase 3 topline results",
+      "url": "https://investor.lilly.com/news-releases/news-release-details/lillys-triple-agonist-retatrutide-delivered-powerful-weight-loss",
+      "use": "Sponsor-reported phase 3 results; not treated as regulatory approval."
+    },
+    {
+      "source_id": "RET-PHASE2-NEJM-2023",
+      "source_type": "PEER_REVIEWED_PUBLICATION",
+      "title": "Triple-Hormone-Receptor Agonist Retatrutide for Obesity",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2301972",
+      "use": "Peer-reviewed phase 2 evidence context."
+    },
+    {
+      "source_id": "CERT-BUILD-0047-CLINICIAN-EXPORT",
+      "source_type": "INTERNAL_CONTROLLED_ASSET",
+      "title": "Retatrutide Clinician Export Baseline",
+      "repository_path": "12_Reports/Standards/RETATRUTIDE_CLINICIAN_EXPORT_BASELINE.md",
+      "use": "Predecessor export contract and safety boundary."
+    }
+  ],
+  "evidence_separation_rule": "Regulatory status, trial registry records, sponsor topline reports and peer-reviewed evidence remain distinct evidence classes."
+}

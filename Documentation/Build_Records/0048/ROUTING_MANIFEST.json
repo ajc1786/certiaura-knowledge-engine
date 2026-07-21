@@ -1,0 +1,280 @@
+{
+  "build_id": "CERT-BUILD-0048",
+  "routes": [
+    {
+      "path": "02_Peptides/CERT-PKS-000001_Retatrutide/Monitoring/RETATRUTIDE_CLINICIAN_REVIEW_APPROVAL_STANDARD.md",
+      "classification": "FORMAL_ASSET",
+      "destination_root": "02_Peptides"
+    },
+    {
+      "path": "05_Monitoring/Standards/RETATRUTIDE_CLINICIAN_REVIEW_DECISION_WORKFLOW.md",
+      "classification": "FORMAL_ASSET",
+      "destination_root": "05_Monitoring"
+    },
+    {
+      "path": "06_Evidence/Retatrutide/RETATRUTIDE_CLINICIAN_HANDOFF_SOURCE_REGISTER.json",
+      "classification": "FORMAL_ASSET",
+      "destination_root": "06_Evidence"
+    },
+    {
+      "path": "12_Reports/Retatrutide/Examples/approved_export_payload.example.json",
+      "classification": "EXAMPLE",
+      "destination_root": "12_Reports"
+    },
+    {
+      "path": "12_Reports/Retatrutide/Examples/conditional_clinician_review_changes_required.example.json",
+      "classification": "EXAMPLE",
+      "destination_root": "12_Reports"
+    },
+    {
+      "path": "12_Reports/Retatrutide/Examples/invalid_broken_supersession_chain.example.json",
+      "classification": "EXAMPLE",
+      "destination_root": "12_Reports"
+    },
+    {
+      "path": "12_Reports/Retatrutide/Examples/invalid_direct_identifier_review.example.json",
+      "classification": "EXAMPLE",
+      "destination_root": "12_Reports"
+    },
+    {
+      "path": "12_Reports/Retatrutide/Examples/invalid_self_approval.example.json",
+      "classification": "EXAMPLE",
+      "destination_root": "12_Reports"
+    },
+    {
+      "path": "12_Reports/Retatrutide/Examples/valid_clinician_review_approval.example.json",
+      "classification": "EXAMPLE",
+      "destination_root": "12_Reports"
+    },
+    {
+      "path": "12_Reports/Retatrutide/Examples/valid_export_version_chain.example.json",
+      "classification": "EXAMPLE",
+      "destination_root": "12_Reports"
+    },
+    {
+      "path": "12_Reports/Standards/RETATRUTIDE_CONTROLLED_CLINICIAN_HANDOFF_BUNDLE_STANDARD.md",
+      "classification": "FORMAL_ASSET",
+      "destination_root": "12_Reports"
+    },
+    {
+      "path": "12_Reports/Standards/RETATRUTIDE_EXPORT_VERSION_CONTROL_AND_SUPERSESSION_STANDARD.md",
+      "classification": "FORMAL_ASSET",
+      "destination_root": "12_Reports"
+    },
+    {
+      "path": "13_Project_Genesis/Import/build_0048_transactional_import.py",
+      "classification": "SCRIPT",
+      "destination_root": "13_Project_Genesis"
+    },
+    {
+      "path": "13_Project_Genesis/Import/rollback_build_0048_pending_import.py",
+      "classification": "SCRIPT",
+      "destination_root": "13_Project_Genesis"
+    },
+    {
+      "path": "13_Project_Genesis/Reports/generate_retatrutide_clinician_handoff.py",
+      "classification": "SCRIPT",
+      "destination_root": "13_Project_Genesis"
+    },
+    {
+      "path": "13_Project_Genesis/Tests/test_build_0048_retatrutide_clinician_approval_handoff.py",
+      "classification": "TEST",
+      "destination_root": "13_Project_Genesis"
+    },
+    {
+      "path": "13_Project_Genesis/Validators/build_0048_asset_ownership.py",
+      "classification": "SCRIPT",
+      "destination_root": "13_Project_Genesis"
+    },
+    {
+      "path": "13_Project_Genesis/Validators/validate_retatrutide_clinician_approval_handoff.py",
+      "classification": "SCRIPT",
+      "destination_root": "13_Project_Genesis"
+    },
+    {
+      "path": "13_Project_Genesis/Validators/verify_build_0048_package.py",
+      "classification": "SCRIPT",
+      "destination_root": "13_Project_Genesis"
+    },
+    {
+      "path": "Documentation/Build_Records/0048/ASSET_INTENT_MANIFEST.json",
+      "classification": "BUILD_RECORD",
+      "destination_root": "Documentation"
+    },
+    {
+      "path": "Documentation/Build_Records/0048/BUILD_0048_READ_ME_FIRST.md",
+      "classification": "BUILD_RECORD",
+      "destination_root": "Documentation"
+    },
+    {
+      "path": "Documentation/Build_Records/0048/BUILD_MANIFEST.json",
+      "classification": "BUILD_RECORD",
+      "destination_root": "Documentation"
+    },
+    {
+      "path": "Documentation/Build_Records/0048/CHECKSUMS.sha256",
+      "classification": "BUILD_RECORD",
+      "destination_root": "Documentation"
+    },
+    {
+      "path": "Documentation/Build_Records/0048/COMMIT_MESSAGE.txt",
+      "classification": "BUILD_RECORD",
+      "destination_root": "Documentation"
+    },
+    {
+      "path": "Documentation/Build_Records/0048/CONTINUITY_CHECKPOINT_DELTA.json",
+      "classification": "BUILD_RECORD",
+      "destination_root": "Documentation"
+    },
+    {
+      "path": "Documentation/Build_Records/0048/DECISION_RECORD_0048.md",
+      "classification": "BUILD_RECORD",
+      "destination_root": "Documentation"
+    },
+    {
+      "path": "Documentation/Build_Records/0048/LESSONS_LEARNED_CONTROL_MATRIX.json",
+      "classification": "BUILD_RECORD",
+      "destination_root": "Documentation"
+    },
+    {
+      "path": "Documentation/Build_Records/0048/LESSONS_LEARNED_REVIEW.md",
+      "classification": "BUILD_RECORD",
+      "destination_root": "Documentation"
+    },
+    {
+      "path": "Documentation/Build_Records/0048/PACKAGE_INVENTORY.csv",
+      "classification": "BUILD_RECORD",
+      "destination_root": "Documentation"
+    },
+    {
+      "path": "Documentation/Build_Records/0048/PACKAGE_VERSION.json",
+      "classification": "BUILD_RECORD",
+      "destination_root": "Documentation"
+    },
+    {
+      "path": "Documentation/Build_Records/0048/PRE_RELEASE_SYNTHETIC_IMPORT_REPORT.json",
+      "classification": "BUILD_RECORD",
+      "destination_root": "Documentation"
+    },
+    {
+      "path": "Documentation/Build_Records/0048/PRODUCTION_DASHBOARD_UPDATE.json",
+      "classification": "BUILD_RECORD",
+      "destination_root": "Documentation"
+    },
+    {
+      "path": "Documentation/Build_Records/0048/PROJECT_GENESIS_IMPORT_HOOK.json",
+      "classification": "BUILD_RECORD",
+      "destination_root": "Documentation"
+    },
+    {
+      "path": "Documentation/Build_Records/0048/PROPOSED_CHANGE_LOG_ENTRY.md",
+      "classification": "BUILD_RECORD",
+      "destination_root": "Documentation"
+    },
+    {
+      "path": "Documentation/Build_Records/0048/PROPOSED_NEXT_ACTION.md",
+      "classification": "BUILD_RECORD",
+      "destination_root": "Documentation"
+    },
+    {
+      "path": "Documentation/Build_Records/0048/REAL_WORLD_OPERATOR_WORKFLOW_REGRESSION_REPORT.json",
+      "classification": "BUILD_RECORD",
+      "destination_root": "Documentation"
+    },
+    {
+      "path": "Documentation/Build_Records/0048/ROLLBACK_RUNBOOK.md",
+      "classification": "BUILD_RECORD",
+      "destination_root": "Documentation"
+    },
+    {
+      "path": "Documentation/Build_Records/0048/ROUTING_MANIFEST.json",
+      "classification": "BUILD_RECORD",
+      "destination_root": "Documentation"
+    },
+    {
+      "path": "Documentation/Build_Records/0048/TEST_REPORT.json",
+      "classification": "BUILD_RECORD",
+      "destination_root": "Documentation"
+    },
+    {
+      "path": "Documentation/Build_Records/0048/VALIDATION_REPORT.json",
+      "classification": "BUILD_RECORD",
+      "destination_root": "Documentation"
+    },
+    {
+      "path": "Documentation/Build_Records/0048/WINDOWS_POWERSHELL_5_1_COMPATIBILITY_REPORT.json",
+      "classification": "BUILD_RECORD",
+      "destination_root": "Documentation"
+    },
+    {
+      "path": "Schemas/retatrutide_clinician_handoff_bundle.schema.json",
+      "classification": "SCHEMA",
+      "destination_root": "Schemas"
+    },
+    {
+      "path": "Schemas/retatrutide_clinician_review_decision.schema.json",
+      "classification": "SCHEMA",
+      "destination_root": "Schemas"
+    },
+    {
+      "path": "Schemas/retatrutide_export_version_chain.schema.json",
+      "classification": "SCHEMA",
+      "destination_root": "Schemas"
+    },
+    {
+      "path": "Schemas/retatrutide_handoff_receipt.schema.json",
+      "classification": "SCHEMA",
+      "destination_root": "Schemas"
+    },
+    {
+      "path": "Scripts/Invoke_Certiaura_Build_0048_Import.ps1",
+      "classification": "SCRIPT",
+      "destination_root": "Scripts"
+    },
+    {
+      "path": "Scripts/Invoke_Certiaura_Build_0048_Preflight.ps1",
+      "classification": "SCRIPT",
+      "destination_root": "Scripts"
+    },
+    {
+      "path": "Scripts/Invoke_Certiaura_Build_0048_Windows_PS51_Regression.ps1",
+      "classification": "SCRIPT",
+      "destination_root": "Scripts"
+    },
+    {
+      "path": "Scripts/Run_Certiaura_Build_0048.ps1",
+      "classification": "SCRIPT",
+      "destination_root": "Scripts"
+    },
+    {
+      "path": "Scripts/START_BUILD_0048.cmd",
+      "classification": "SCRIPT",
+      "destination_root": "Scripts"
+    },
+    {
+      "path": "Standards/RETATRUTIDE_CLINICIAN_APPROVAL_AUDIT_AND_SAFETY_BOUNDARY.md",
+      "classification": "FORMAL_ASSET",
+      "destination_root": "Standards"
+    },
+    {
+      "path": "Templates/RETATRUTIDE_CLINICIAN_HANDOFF_BUNDLE_TEMPLATE.json",
+      "classification": "TEMPLATE",
+      "destination_root": "Templates"
+    },
+    {
+      "path": "Templates/RETATRUTIDE_CLINICIAN_REVIEW_DECISION_TEMPLATE.json",
+      "classification": "TEMPLATE",
+      "destination_root": "Templates"
+    },
+    {
+      "path": "Templates/RETATRUTIDE_EXPORT_VERSION_CHAIN_TEMPLATE.json",
+      "classification": "TEMPLATE",
+      "destination_root": "Templates"
+    },
+    {
+      "path": "Templates/RETATRUTIDE_HANDOFF_RECEIPT_TEMPLATE.json",
+      "classification": "TEMPLATE",
+      "destination_root": "Templates"
+    }
+  ]
+}

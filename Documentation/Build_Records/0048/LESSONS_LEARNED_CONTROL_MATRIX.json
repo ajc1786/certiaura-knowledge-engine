@@ -1,0 +1,73 @@
+{
+  "build_id": "CERT-BUILD-0048",
+  "controls": [
+    {
+      "control": "ACCUMULATED_PRIOR_BUILD_LESSONS_REVIEW",
+      "status": "PASS"
+    },
+    {
+      "control": "CURRENT_BUILD_LESSONS_RECORDED",
+      "status": "PASS"
+    },
+    {
+      "control": "LESSONS_CONVERTED_TO_REGRESSION_CONTROLS",
+      "status": "PASS"
+    },
+    {
+      "control": "CONTINUITY_CHECKPOINT_UPDATED",
+      "status": "PASS"
+    },
+    {
+      "control": "HUMAN_REVIEW_APPROVAL_REQUIRED",
+      "status": "IMPLEMENTED_AND_NEGATIVE_TESTED"
+    },
+    {
+      "control": "REVIEWER_GENERATOR_SEPARATION",
+      "status": "IMPLEMENTED_AND_NEGATIVE_TESTED"
+    },
+    {
+      "control": "EXPORT_HASH_BINDING",
+      "status": "IMPLEMENTED"
+    },
+    {
+      "control": "VERSION_CHAIN_CYCLE_AND_MISSING_PREDECESSOR_BLOCK",
+      "status": "IMPLEMENTED_AND_NEGATIVE_TESTED"
+    },
+    {
+      "control": "DIRECT_IDENTIFIER_REJECTION",
+      "status": "IMPLEMENTED_AND_NEGATIVE_TESTED"
+    },
+    {
+      "control": "EXACT_BUILD_0047_PREDECESSOR_PATH_PRESERVATION",
+      "status": "SYNTHETIC_REGRESSION_REQUIRED"
+    },
+    {
+      "control": "WINDOWS_POWERSHELL_5_1_OPERATOR_REGRESSION",
+      "status": "RELEASE_BLOCKING"
+    },
+    {
+      "control": "POST_APPLY_PRE_COMMIT_AUTOMATIC_ROLLBACK",
+      "status": "IMPLEMENTED"
+    },
+    {
+      "control": "EXACT_MANIFEST_PATH_AND_PROVENANCE",
+      "status": "IMPLEMENTED"
+    },
+    {
+      "control": "ASCII_LF_NO_RUNTIME_ARTEFACTS_GIT_CHECKS",
+      "status": "IMPLEMENTED"
+    },
+    {
+      "control": "EXACT_MANIFEST_OWNED_HYGIENE_TEST_SCOPE",
+      "status": "IMPLEMENTED_AND_RUNTIME_TESTED"
+    },
+    {
+      "control": "UNRELATED_HISTORICAL_CRLF_FIXTURE",
+      "status": "PRESERVED_AND_EXCLUDED"
+    },
+    {
+      "control": "BROAD_REPOSITORY_Rglob_OWNERSHIP_SCAN",
+      "status": "PROHIBITED"
+    }
+  ]
+}

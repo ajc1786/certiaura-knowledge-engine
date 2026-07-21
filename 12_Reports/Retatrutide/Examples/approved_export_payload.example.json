@@ -1,0 +1,16 @@
+{
+  "status": "DRAFT_FOR_CLINICIAN_REVIEW",
+  "build_provenance": "CERT-BUILD-0047",
+  "export_id": "RET-EXPORT-0001-V2",
+  "journey_id": "RET-JOURNEY-0001",
+  "subject_reference": "SUBJ-0001",
+  "privacy": {
+    "pseudonymised": true,
+    "direct_identifiers_present": false
+  },
+  "active_alerts": [],
+  "uncertainties": [
+    "Example research record only."
+  ],
+  "investigational_status": "Retatrutide is investigational and not FDA approved as checked 2026-07-21."
+}

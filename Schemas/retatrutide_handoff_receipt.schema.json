@@ -1,0 +1,55 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://certiaura.local/schemas/retatrutide_handoff_receipt.schema.json",
+  "title": "Retatrutide Handoff Receipt",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "build_provenance",
+    "receipt_id",
+    "bundle_id",
+    "bundle_manifest_sha256",
+    "received_at",
+    "recipient_role_reference",
+    "acknowledgement_state"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.0.0"
+    },
+    "build_provenance": {
+      "const": "CERT-BUILD-0048"
+    },
+    "receipt_id": {
+      "type": "string",
+      "pattern": "^RET-RECEIPT-[A-Z0-9-]+$"
+    },
+    "bundle_id": {
+      "type": "string"
+    },
+    "bundle_manifest_sha256": {
+      "type": "string",
+      "pattern": "^[A-F0-9]{64}$"
+    },
+    "received_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "recipient_role_reference": {
+      "type": "string",
+      "minLength": 3
+    },
+    "acknowledgement_state": {
+      "enum": [
+        "RECEIVED_INTACT",
+        "HASH_MISMATCH_REJECTED",
+        "EXPIRED_REJECTED",
+        "WITHDRAWN_REJECTED"
+      ]
+    },
+    "notes": {
+      "type": "string"
+    }
+  }
+}

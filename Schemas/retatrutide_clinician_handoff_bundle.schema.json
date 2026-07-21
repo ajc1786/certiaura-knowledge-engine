@@ -1,0 +1,107 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://certiaura.local/schemas/retatrutide_clinician_handoff_bundle.schema.json",
+  "title": "Retatrutide Clinician Handoff Bundle",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "build_provenance",
+    "bundle_id",
+    "export_id",
+    "approval_review_id",
+    "state",
+    "created_at",
+    "expires_at",
+    "components",
+    "privacy",
+    "safety_statement"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.0.0"
+    },
+    "build_provenance": {
+      "const": "CERT-BUILD-0048"
+    },
+    "bundle_id": {
+      "type": "string",
+      "pattern": "^RET-HANDOFF-[A-Z0-9-]+$"
+    },
+    "export_id": {
+      "type": "string"
+    },
+    "approval_review_id": {
+      "type": "string"
+    },
+    "state": {
+      "enum": [
+        "BUNDLE_DRAFT",
+        "READY_FOR_AUTHORISED_HANDOFF",
+        "HANDED_OFF",
+        "ACKNOWLEDGED",
+        "EXPIRED",
+        "WITHDRAWN"
+      ]
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "expires_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "components": {
+      "type": "array",
+      "minItems": 3,
+      "items": {
+        "type": "object",
+        "required": [
+          "path",
+          "sha256",
+          "bytes",
+          "role"
+        ],
+        "properties": {
+          "path": {
+            "type": "string"
+          },
+          "sha256": {
+            "type": "string",
+            "pattern": "^[A-F0-9]{64}$"
+          },
+          "bytes": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "role": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "privacy": {
+      "type": "object",
+      "required": [
+        "pseudonymised",
+        "direct_identifiers_present"
+      ],
+      "properties": {
+        "pseudonymised": {
+          "const": true
+        },
+        "direct_identifiers_present": {
+          "const": false
+        }
+      }
+    },
+    "urgent_routing_status": {
+      "type": "string"
+    },
+    "safety_statement": {
+      "type": "string",
+      "minLength": 20
+    }
+  }
+}

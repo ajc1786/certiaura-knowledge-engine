@@ -1,0 +1,11 @@
+{
+  "build_id": "CERT-BUILD-0048",
+  "prior_build": "0047",
+  "prior_state": "ACTIONS_GREEN_CLOSED",
+  "current_build": "0048",
+  "current_state": "GENERATED_CANDIDATE_WINDOWS_PS51_GATE_REQUIRED",
+  "authorisation": "GREEN_AUTHORISED",
+  "title": "retatrutide clinician review approval, export version control, controlled handoff and audit trail baseline",
+  "immediate_next_action": "Run complete Windows PowerShell 5.1 pre-release regression before canonical import.",
+  "following_planned_action": "Build 0049 scope to be selected after Build 0048 closes from the updated production queue."
+}

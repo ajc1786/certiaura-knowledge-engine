@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.0.0",
+  "build_provenance": "CERT-BUILD-0048",
+  "export_family_id": "RET-EXPORT-FAMILY-INVALID",
+  "versions": [
+    {
+      "export_id": "RET-EXPORT-0001-V1",
+      "version": "1.0.0",
+      "sha256": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+      "generated_at": "2026-07-20T09:00:00Z",
+      "state": "SUPERSEDED",
+      "source_journey_id": "RET-JOURNEY-0001",
+      "source_input_hashes": [
+        "BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB"
+      ],
+      "predecessor_export_id": null,
+      "approval_review_id": "RET-REVIEW-OLD",
+      "change_summary": "Initial approved export."
+    },
+    {
+      "export_id": "RET-EXPORT-0001-V2",
+      "version": "1.1.0",
+      "sha256": "BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB",
+      "generated_at": "2026-07-21T10:00:00Z",
+      "state": "CURRENT_APPROVED",
+      "source_journey_id": "RET-JOURNEY-0001",
+      "source_input_hashes": [
+        "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+      ],
+      "predecessor_export_id": "RET-EXPORT-MISSING",
+      "approval_review_id": "RET-REVIEW-0001",
+      "change_summary": "Corrected evidence reference and regenerated export."
+    },
+    {
+      "export_id": "RET-EXPORT-CYCLE",
+      "version": "1.2.0",
+      "sha256": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+      "generated_at": "2026-07-21T11:00:00Z",
+      "state": "CURRENT_APPROVED",
+      "source_journey_id": "RET-JOURNEY-0001",
+      "source_input_hashes": [
+        "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+      ],
+      "predecessor_export_id": "RET-EXPORT-CYCLE",
+      "approval_review_id": "RET-REVIEW-X",
+      "change_summary": "Invalid cycle and duplicate current approval."
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0.0",
+  "build_provenance": "CERT-BUILD-0048",
+  "review_id": "RET-REVIEW-INVALID-ID",
+  "export_id": "RET-EXPORT-0001-V2",
+  "export_sha256": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+  "reviewer_role_reference": "CLINICIAN-ROLE-17",
+  "generator_actor_reference": "CERTIAURA-GENERATOR-0047",
+  "state": "APPROVED_FOR_CONTROLLED_HANDOFF",
+  "decision": "APPROVED_FOR_CONTROLLED_HANDOFF",
+  "reviewed_at": "2026-07-21T12:00:00Z",
+  "rationale": "Structure, provenance, uncertainty and alert status were reviewed for controlled handoff.",
+  "requested_corrections": [],
+  "audit_events": [
+    {
+      "event_id": "EV-1",
+      "state": "IN_REVIEW",
+      "at": "2026-07-21T11:45:00Z"
+    },
+    {
+      "event_id": "EV-2",
+      "state": "APPROVED_FOR_CONTROLLED_HANDOFF",
+      "at": "2026-07-21T12:00:00Z"
+    }
+  ],
+  "attestation": {
+    "human_review_confirmed": true,
+    "autonomous_treatment_prohibited": true,
+    "direct_identifiers_absent": true
+  },
+  "patient_name": "Example Person"
+}

@@ -1,0 +1,14 @@
+{
+  "build_id": "CERT-BUILD-0048",
+  "status": "PASS",
+  "automated_tests": 16,
+  "result": "16/16 PASS",
+  "negative_fixtures": {
+    "self_approval": "BLOCKED_AS_DESIGNED",
+    "direct_identifier": "BLOCKED_AS_DESIGNED",
+    "broken_supersession": "BLOCKED_AS_DESIGNED",
+    "repository_collision": "BLOCKED_DURING_DRY_RUN"
+  },
+  "real_repository_failure_reproduction": "UNRELATED_HISTORICAL_CRLF_FIXTURE_BLOCKED_ORIGINAL_TEST",
+  "rc2_control": "HYGIENE_SCOPED_TO_EXACT_MANIFEST_OWNED_PATHS"
+}

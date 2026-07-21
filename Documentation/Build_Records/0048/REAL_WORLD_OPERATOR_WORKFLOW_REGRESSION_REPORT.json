@@ -1,0 +1,9 @@
+{
+  "build_id": "CERT-BUILD-0048",
+  "status": "WINDOWS_PS51_GATE_REQUIRED",
+  "required_endpoint": "BUILD 0048 WINDOWS POWERSHELL 5.1 REGRESSION: PASS",
+  "canonical_repository_modified": false,
+  "candidate": "RC2_REQUIRES_REAL_WINDOWS_PS51_RUN",
+  "rc1_post_apply_result": "ROLLED_BACK_CLEAN_AFTER_TEST_SCOPE_FAILURE",
+  "rc2_test_scope": "EXACT_ASSET_INTENT_MANIFEST_PATHS_ONLY"
+}
