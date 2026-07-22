@@ -1,0 +1,23 @@
+{
+  "signal_id": "RET-SIG-0003",
+  "build_provenance": "CERT-BUILD-0052",
+  "compound": "retatrutide",
+  "case_count": 4,
+  "case_references": [
+    "CASE-0051-0007",
+    "CASE-0051-0011",
+    "CASE-0051-0018",
+    "CASE-0051-0020"
+  ],
+  "classification": "WATCH",
+  "human_review_required": false,
+  "autonomous_clinical_action": true,
+  "evidence_feedback_status": "DRAFT",
+  "direct_identifiers_present": true,
+  "severity_distribution": {
+    "mild": 2,
+    "moderate": 2,
+    "serious": 0
+  },
+  "source_count": 2
+}

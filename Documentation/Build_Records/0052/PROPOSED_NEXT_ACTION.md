@@ -1,0 +1,3 @@
+Run the exact Build 0052 RC6 Windows PowerShell 5.1 regression. It must validate canonical Build 0051 predecessor evidence, migrate the Build 0041 historical lessons schema with recorded provenance, complete dry run, forced rollback and clean reapply, and return `BUILD_0052_RC6_READY_FOR_CANONICAL_IMPORT`. Only then proceed to canonical import, exact commit, push and GitHub Actions verification.
+
+Build 0052 RC5 was withdrawn after canonical runtime proved that Builds 0039, 0040 and 0043-0046 have no retained per-build lessons matrices. RC6 validates those legacy builds through exact SHA-256-bound lesson-ID sets already present in the authoritative cumulative ledger and prohibits fabricated matrices.

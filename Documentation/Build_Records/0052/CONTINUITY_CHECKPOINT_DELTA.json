@@ -1,0 +1,8 @@
+{
+  "build_number": "0052",
+  "candidate": "RC6",
+  "last_closed_build": "0051",
+  "current_status": "RC6_GENERATED_PENDING_CANONICAL_REGRESSION",
+  "required_endpoint": "BUILD_0052_RC6_READY_FOR_CANONICAL_IMPORT",
+  "next_build": "0053"
+}

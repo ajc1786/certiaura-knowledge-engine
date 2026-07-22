@@ -1,0 +1,14 @@
+{
+  "signal_id": null,
+  "build_provenance": null,
+  "compound": null,
+  "case_count": null,
+  "case_references": null,
+  "classification": null,
+  "human_review_required": null,
+  "autonomous_clinical_action": null,
+  "evidence_feedback_status": null,
+  "direct_identifiers_present": null,
+  "severity_distribution": null,
+  "source_count": null
+}

@@ -1,0 +1,30 @@
+{
+  "build_number": "0052",
+  "candidate": "RC6",
+  "required_runtime_lines": [
+    "Accumulated prior-build lessons reviewed: PASS",
+    "Current-build lessons recorded: PASS",
+    "Lessons converted to regression controls: PASS",
+    "Accumulated lessons source auto-updated: PASS",
+    "Historical lessons coverage: COMPLETE",
+    "Continuity checkpoint updated: PASS",
+    "Predecessor fixture identity: EXACT BUILD 0051 - GENERATED FROM CANONICAL GIT",
+    "Predecessor fixture provenance: PASS",
+    "Predecessor/current unauthorised manifest intersection: EMPTY",
+    "Predecessor commit subject: EXACT MATCH",
+    "Predecessor paths preserved unchanged: PASS",
+    "Executable predecessor-aware dry-run: DRY_RUN_VALIDATED",
+    "Predecessor dry-run conflicts: NONE"
+  ],
+  "static_pass_prohibited": true,
+  "historical_coverage_contract": "MATRIX_OR_HASH_BOUND_AUTHORITATIVE_LEDGER",
+  "required_ledger_only_builds": [
+    "0039",
+    "0040",
+    "0043",
+    "0044",
+    "0045",
+    "0046"
+  ],
+  "fabricated_historical_matrices_allowed": false
+}

@@ -1,0 +1,9 @@
+{
+  "decision_id": null,
+  "signal_id": null,
+  "decision": null,
+  "reviewer_role": null,
+  "case_reopening_authorised": false,
+  "knowledge_update_authorised": false,
+  "audit_timestamp": null
+}

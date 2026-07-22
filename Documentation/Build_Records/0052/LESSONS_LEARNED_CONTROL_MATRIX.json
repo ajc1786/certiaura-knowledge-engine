@@ -1,0 +1,215 @@
+{
+  "build_number": "0052",
+  "candidate": "RC6",
+  "lessons": [
+    {
+      "lesson_id": "CERT-LESSON-PRED-002",
+      "origin_builds": [
+        "0052"
+      ],
+      "control_family": "Canonical predecessor evidence",
+      "defect_or_risk": "A candidate can define its own predecessor truth and self-certify invented paths.",
+      "root_cause": "Build 0052 RC1 manually declared predecessor paths instead of deriving them from the exact canonical Git commit and closed snapshot.",
+      "preventive_control": "Prohibit packaged predecessor fixtures and candidate-authored identity files. Resolve the exact Build 0051 commit by exact subject, require it to be an ancestor of the closed snapshot, extract the manifest and every fixture byte from Git objects, bind the evidence to the final ZIP SHA-256, compare all path and UAI sets, and retain both raw and unauthorised intersections.",
+      "regression_control": "Generate predecessor evidence at runtime from a temporary clone of canonical history; run fifteen blocking mutation tests; verify fixture hashes before dry run, after forced rollback and after clean reapply; fail if canonical Git evidence is unavailable.",
+      "release_gate": "CANONICAL_PREDECESSOR_EVIDENCE_VALIDATED",
+      "status": "LOCKED_ACTIVE_REPEATED_DEFECT_ESCALATED",
+      "repeat_defect": true,
+      "evidence_paths": [
+        "13_Project_Genesis/Release/derive_build_0051_predecessor_evidence.py"
+      ]
+    },
+    {
+      "lesson_id": "CERT-LESSON-TEXT-001",
+      "origin_builds": [
+        "0052"
+      ],
+      "control_family": "Text and line-ending hygiene",
+      "defect_or_risk": "A source updater can recreate trailing whitespace after the source package itself has passed checks.",
+      "root_cause": "The previous Markdown renderer emitted two-space hard breaks and did not validate its generated output before atomic replacement.",
+      "preventive_control": "The cumulative updater renderer must use blank lines rather than Markdown trailing-space hard breaks, validate every generated line before writing, require LF and one final newline, and subject updated source files to working-tree and staged-index Git checks.",
+      "regression_control": "Execute the updater in a synthetic repository, scan generated Markdown and JSON byte-for-byte, run git diff --check and git diff --cached --check, and compare raw working-tree and index object hashes.",
+      "release_gate": "GENERATED_LESSONS_TEXT_HYGIENE_VALIDATED",
+      "status": "LOCKED_ACTIVE_REPEATED_DEFECT_ESCALATED",
+      "repeat_defect": true,
+      "evidence_paths": [
+        "Scripts/update_certiaura_accumulated_lessons.py"
+      ]
+    },
+    {
+      "lesson_id": "CERT-LESSON-PYCLI-001",
+      "origin_builds": [
+        "0052"
+      ],
+      "control_family": "PowerShell-safe Python invocation",
+      "defect_or_risk": "Windows PowerShell 5.1 can corrupt quoted inline Python source.",
+      "root_cause": "Non-trivial Python was passed through python -c across the Windows native-command boundary.",
+      "preventive_control": "Invoke committed Python files or an ASCII LF temporary harness only, always use -B, capture the exit code, require the exact endpoint and delete the harness in finally.",
+      "regression_control": "The exact delivered Windows PowerShell 5.1 script invokes only file-based Python entry points and verifies no __pycache__, pyc or pyo artefacts.",
+      "release_gate": "POWERSHELL_SAFE_PYTHON_INVOCATION_VALIDATED",
+      "status": "LOCKED_ACTIVE",
+      "repeat_defect": false,
+      "evidence_paths": [
+        "Scripts/Invoke_Certiaura_Build_0052_Windows_PS51_Regression.ps1"
+      ]
+    },
+    {
+      "lesson_id": "CERT-LESSON-NATIVE-001",
+      "origin_builds": [
+        "0052"
+      ],
+      "control_family": "Native stderr and exit-code handling",
+      "defect_or_risk": "Non-fatal Git stderr warnings can be promoted to terminating NativeCommandError records.",
+      "root_cause": "The wrapper merged stderr while ErrorActionPreference was Stop and treated the PowerShell record rather than the native exit code as authoritative.",
+      "preventive_control": "All operator-critical native commands use one wrapper that temporarily sets non-terminating error handling, captures stdout and stderr as text, restores the previous preference, and decides success from the native exit code plus exact endpoint.",
+      "regression_control": "Run Git commands that emit stderr with exit code zero and verify the wrapper continues; separately verify non-zero exit codes block.",
+      "release_gate": "NATIVE_EXIT_CODE_HANDLING_VALIDATED",
+      "status": "LOCKED_ACTIVE",
+      "repeat_defect": false,
+      "evidence_paths": [
+        "Scripts/Invoke_Certiaura_Build_0052_Windows_PS51_Regression.ps1"
+      ]
+    },
+    {
+      "lesson_id": "CERT-LESSON-DUPPKG-001",
+      "origin_builds": [
+        "0052"
+      ],
+      "control_family": "Duplicate identical package handling",
+      "defect_or_risk": "Multiple byte-identical downloaded ZIP copies can cause false ambiguity.",
+      "root_cause": "Package discovery counted matching paths as distinct identities despite exact SHA-256 equality.",
+      "preventive_control": "Normalise and deduplicate candidate full paths, permit one or more copies only when each selected candidate has the exact required SHA-256, select deterministically, and report the duplicate count.",
+      "regression_control": "Positive test with multiple identical copies and blocking negative tests for zero exact matches and wrong hashes.",
+      "release_gate": "EXACT_HASH_PACKAGE_DISCOVERY_VALIDATED",
+      "status": "LOCKED_ACTIVE",
+      "repeat_defect": false,
+      "evidence_paths": [
+        "Scripts/Invoke_Certiaura_Build_0052_Windows_PS51_Regression.ps1"
+      ]
+    },
+    {
+      "lesson_id": "CERT-LESSON-MANIFEST-SCHEMA-001",
+      "origin_builds": [
+        "0052-RC2"
+      ],
+      "control_family": "Historical manifest schema compatibility",
+      "root_cause": "Current-schema-only repository_path assumption",
+      "operator_friction": "Founder-side canonical Windows regression blocked before import",
+      "corrective_action": "Strict version-aware canonical Git manifest adapter",
+      "preventive_control": "Schema detection with path normalisation and ambiguity/traversal/duplicate/case-collision rejection",
+      "status": "LOCKED_ACTIVE",
+      "defect_or_risk": "PREDECESSOR_MANIFEST_PATH_INVALID",
+      "regression_control": "repository_path, path, string and object-map positives; alias conflict and traversal negatives",
+      "release_gate": "PREDECESSOR_MANIFEST_SCHEMA_VALIDATED"
+    },
+    {
+      "lesson_id": "CERT-LESSON-LESSON-SCHEMA-001",
+      "origin_builds": [
+        "0052-RC3"
+      ],
+      "control_family": "Historical lessons matrix schema compatibility",
+      "defect_or_risk": "A valid historical lessons matrix can be rejected because it predates fields introduced by the cumulative lessons schema.",
+      "root_cause": "Build 0052 RC3 required control_family and every current canonical field in all historical matrices without a version-aware migration path; canonical Build 0041 therefore failed with LESSON_REQUIRED_FIELD_MISSING.",
+      "preventive_control": "Use a version-aware historical lessons adapter that records every alias and backfilled field with source path, build number, record index and deterministic basis. Keep the current-build matrix strict and prohibit current-schema migration.",
+      "regression_control": "Run positive fixtures for Build 0041-style missing control_family, scalar origins, aliases and deterministic identifier backfill; run negative fixtures for empty legacy records and any current Build 0052 missing required field.",
+      "release_gate": "HISTORICAL_LESSONS_SCHEMA_MIGRATION_VALIDATED",
+      "status": "LOCKED_ACTIVE_REPEATED_DEFECT_ESCALATED",
+      "repeat_defect": true,
+      "evidence_paths": [
+        "Scripts/update_certiaura_accumulated_lessons.py",
+        "13_Project_Genesis/Tests/test_build_0052_control_regressions.py"
+      ]
+    },
+    {
+      "lesson_id": "CERT-LESSON-FAILMSG-001",
+      "origin_builds": [
+        "0052-RC3"
+      ],
+      "control_family": "Transactional failure visibility",
+      "defect_or_risk": "A transactional importer can roll back correctly but return a blank operator-facing failure message, requiring a separate diagnostic cycle.",
+      "root_cause": "The RC3 importer wrote rollback_reason only to JSON and returned exit code 3 without printing a stable failure code or report location to stderr; the wrapper did not read the report before throwing.",
+      "preventive_control": "Every non-zero transactional result must print a stable failure code, rollback reason, report path and backup path to stderr. Windows wrappers must read the report on failure and include transaction_status, rollback_completed, failure_code, rollback_reason and backup_path in the thrown error.",
+      "regression_control": "Force a post-apply exception, require exit code 3, stable BUILD_0052_TRANSACTION_ROLLED_BACK output, exact simulated rollback reason in the report, clean repository restoration and wrapper-visible failure details.",
+      "release_gate": "TRANSACTIONAL_FAILURE_REASON_VISIBLE",
+      "status": "LOCKED_ACTIVE",
+      "repeat_defect": false,
+      "evidence_paths": [
+        "13_Project_Genesis/Import/run_build_0052_import.py",
+        "Scripts/Invoke_Certiaura_Build_0052_Windows_PS51_Regression.ps1"
+      ]
+    },
+    {
+      "lesson_id": "CERT-LESSON-LAUNCH-SCOPE-001",
+      "origin_builds": [
+        "0052-RC3"
+      ],
+      "control_family": "Interactive PowerShell launcher scope",
+      "defect_or_risk": "After a failed exact-hash package search, separately pasted commands can continue and reuse a stale PackagePath from an earlier run.",
+      "root_cause": "Interactive PowerShell executes separately submitted pasted statements even after a terminating error; the launcher was not contained in one invoked script scope.",
+      "preventive_control": "Wrap complete operator launchers in one invoked script block or packaged script, initialise critical variables inside that scope, and display the selected filename and independently recalculated SHA-256 immediately before extraction.",
+      "regression_control": "Simulate zero exact-hash matches with a stale outer PackagePath and prove no extraction command executes and no stale variable is reused.",
+      "release_gate": "SCOPED_PACKAGE_LAUNCHER_VALIDATED",
+      "status": "LOCKED_ACTIVE",
+      "repeat_defect": false,
+      "evidence_paths": [
+        "Scripts/Run_Certiaura_Build_0052.ps1"
+      ]
+    },
+    {
+      "lesson_id": "CERT-LESSON-UPDATE-IDEMPOTENCE-001",
+      "origin_builds": [
+        "0052-RC4"
+      ],
+      "control_family": "Accumulated lessons updater idempotence",
+      "defect_or_risk": "A package that correctly pre-merges the current build lessons can fail during runtime replay because the updater misclassifies the same build and same origins as a new repeated defect occurrence.",
+      "root_cause": "The repeated-defect strengthening gate ran whenever repeat_defect was true, without first determining whether the incoming matrix introduced a genuinely new origin build.",
+      "preventive_control": "Treat replay of an already represented origin-build set as an idempotent update. Apply repeated-defect strengthening only when the incoming record introduces at least one new origin build; never use this rule to bypass strict current-schema validation.",
+      "regression_control": "Pre-merge the Build 0052 matrix into the cumulative source, replay the identical current matrix and require success with unchanged origins; then add a new origin using unchanged preventive and regression controls and require REPEATED_DEFECT_CONTROL_NOT_STRENGTHENED.",
+      "release_gate": "ACCUMULATED_LESSONS_IDEMPOTENT_REPLAY_VALIDATED",
+      "status": "LOCKED_ACTIVE",
+      "repeat_defect": false,
+      "evidence_paths": [
+        "Scripts/update_certiaura_accumulated_lessons.py",
+        "13_Project_Genesis/Tests/test_build_0052_control_regressions.py"
+      ]
+    },
+    {
+      "lesson_id": "CERT-LESSON-PSCOLL-001",
+      "origin_builds": [
+        "0052-RC4"
+      ],
+      "control_family": "PowerShell collection comparison semantics",
+      "defect_or_risk": "A successful multi-line native command can be falsely reported as missing a required token when collection-valued -notmatch is used as a Boolean.",
+      "root_cause": "PowerShell comparison operators applied to arrays return the elements satisfying the comparison. Non-matching lines produced a non-empty array even though another line contained the required rollback token.",
+      "preventive_control": "Normalise captured native output to one deterministic scalar string before regex matching, or explicitly count matching elements. Direct Boolean use of collection-valued -match or -notmatch is prohibited.",
+      "regression_control": "Use a multi-line fixture with unrelated lines before and after one required token and require the positive assertion to pass; use a token-free fixture and require the negative assertion to pass. Static tests reject direct .Output -notmatch usage.",
+      "release_gate": "SCALAR_NATIVE_OUTPUT_MATCHING_VALIDATED",
+      "status": "LOCKED_ACTIVE",
+      "repeat_defect": false,
+      "evidence_paths": [
+        "Scripts/Invoke_Certiaura_Build_0052_Windows_PS51_Regression.ps1",
+        "Scripts/Invoke_Certiaura_Build_0052_Import.ps1",
+        "13_Project_Genesis/Tests/test_build_0052_control_regressions.py"
+      ]
+    },
+    {
+      "lesson_id": "CERT-LESSON-HISTCOV-001",
+      "origin_builds": [
+        "0052-RC5"
+      ],
+      "control_family": "Historical lessons coverage without fabricated matrices",
+      "defect_or_risk": "A cumulative lessons updater can block a valid canonical repository because older builds predate retained per-build lesson matrices, or can be weakened by fabricating replacement matrices after the fact.",
+      "root_cause": "RC5 equated complete historical coverage exclusively with physical matrix discovery even though the locked cumulative ledger already contained exact lessons attributed to Builds 0039, 0040 and 0043-0046.",
+      "preventive_control": "Use per-build matrices when canonically present. For explicitly declared legacy builds with no canonical matrix, accept only an exact lesson-ID set already present in the authoritative cumulative ledger, bind that set by SHA-256, validate every required field and origin attribution, record the coverage mode, and prohibit synthetic matrix creation.",
+      "regression_control": "Run the updater with canonical matrices absent for the declared legacy builds and require exact hash-bound ledger coverage to pass; remove a declaration, alter an ID, change the digest or remove the build origin and require a stable blocking failure.",
+      "release_gate": "HISTORICAL_MATRIX_OR_HASH_BOUND_LEDGER_COVERAGE_VALIDATED",
+      "status": "LOCKED_ACTIVE_REPEATED_DEFECT_ESCALATED",
+      "repeat_defect": true,
+      "evidence_paths": [
+        "Scripts/update_certiaura_accumulated_lessons.py",
+        "13_Project_Genesis/Validators/validate_accumulated_lessons_source.py",
+        "13_Project_Genesis/Tests/test_build_0052_control_regressions.py"
+      ]
+    }
+  ]
+}

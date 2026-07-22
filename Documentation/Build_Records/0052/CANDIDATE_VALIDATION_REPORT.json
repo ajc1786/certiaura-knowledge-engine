@@ -1,0 +1,7 @@
+{
+  "build_number": "0052",
+  "candidate": "RC6",
+  "status": "PENDING_RUNTIME_GENERATION",
+  "purpose": "generated after exact final workflow",
+  "static_pass_prohibited": true
+}

@@ -1,0 +1,8 @@
+{
+  "build_number": "0052",
+  "candidate": "RC6",
+  "importer": "13_Project_Genesis/Import/run_build_0052_import.py",
+  "predecessor_evidence": "13_Project_Genesis/Release/derive_build_0051_predecessor_evidence.py",
+  "transactional": true,
+  "external_backup_required": true
+}

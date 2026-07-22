@@ -1,0 +1,10 @@
+{
+  "build_number": "0052",
+  "candidate": "RC6",
+  "status": "GENERATED_PENDING_CANONICAL_RUNTIME",
+  "title": "Retatrutide cross-case signal aggregation, cohort surveillance, governed escalation and controlled knowledge feedback baseline",
+  "build_provenance": "CERT-BUILD-0052",
+  "governance_source_version": "2.7.0",
+  "outside_canonical_full_transaction": "PASS",
+  "canonical_windows_ps51_regression": "PENDING"
+}

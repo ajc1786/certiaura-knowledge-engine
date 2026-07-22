@@ -1,0 +1,54 @@
+{
+  "build_number": "0052",
+  "candidate": "RC6",
+  "defects": [
+    "RC1 candidate-authored predecessor truth",
+    "PowerShell inline Python quotation corruption",
+    "duplicate identical package false ambiguity",
+    "native stderr false failure",
+    "91 trailing-space source lines",
+    "updater renderer trailing-space recurrence risk",
+    {
+      "id": "CERT-DEFECT-0052-RC2-MANIFEST-SCHEMA-001",
+      "candidate": "RC2",
+      "status": "WITHDRAWN",
+      "failure_code": "PREDECESSOR_MANIFEST_PATH_INVALID",
+      "root_cause": "Historical Build 0051 manifest path schema differed from current repository_path assumption",
+      "corrective_candidate": "RC3"
+    },
+    {
+      "id": "CERT-DEFECT-0052-RC3-LESSON-SCHEMA-001",
+      "candidate": "RC3",
+      "status": "WITHDRAWN_DO_NOT_IMPORT",
+      "failure_code": "LESSON_REQUIRED_FIELD_MISSING",
+      "failure_detail": "Documentation/Build_Records/0041/LESSONS_LEARNED_CONTROL_MATRIX.json: control_family",
+      "transaction_status": "ROLLED_BACK",
+      "corrective_candidate": "RC4"
+    },
+    {
+      "candidate": "RC4-PREDELIVERY",
+      "status": "CORRECTED_BEFORE_DELIVERY",
+      "failure_code": "REPEATED_DEFECT_CONTROL_NOT_STRENGTHENED",
+      "failure_detail": "Runtime replay of already pre-merged Build 0052 lessons was misclassified as a new occurrence.",
+      "transaction_status": "SYNTHETIC_ROLLED_BACK",
+      "corrective_candidate": "RC4"
+    },
+    {
+      "candidate": "RC4",
+      "status": "WITHDRAWN",
+      "failure_code": "FALSE_REQUIRED_TOKEN_MISSING",
+      "root_cause": "Collection-valued -notmatch used as Boolean against multi-line native output.",
+      "corrective_candidate": "RC5"
+    },
+    {
+      "candidate": "RC5",
+      "status": "WITHDRAWN_DO_NOT_IMPORT",
+      "failure_code": "HISTORICAL_LESSONS_COVERAGE_INCOMPLETE",
+      "failure_detail": "0039,0040,0043,0044,0045,0046",
+      "transaction_status": "ROLLED_BACK",
+      "root_cause": "Historical coverage required a physical matrix for every build even where the authoritative cumulative ledger retained the exact legacy lessons and the canonical repository did not retain a matrix.",
+      "corrective_candidate": "RC6"
+    }
+  ],
+  "status": "CONTROLS_STRENGTHENED"
+}

@@ -1,10 +1,10 @@
 # CERTIAURA LOCKED BUILD CONTINUITY AND CHECKPOINT
 
 **Document ID:** CERT-GOV-CONT-002
-**Version:** 1.3.0
-**Status:** LOCKED ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ACTIVE
+**Version:** 1.4.0
+**Status:** LOCKED — ACTIVE
 **Effective date:** 2026-07-19
-**Last updated:** 2026-07-20
+**Last updated:** 2026-07-21
 **Authority:** Explicit founder instruction from Aidan Coleman
 **Canonical repository path:** `00_Governance/CERTIAURA_LOCKED_BUILD_CONTINUITY_AND_CHECKPOINT.md`
 **GPT Project use:** Upload this file to the Certiaura GPT Project sources and replace it with the latest version whenever the continuation checkpoint is updated.
@@ -47,13 +47,14 @@ This document **amends and operationalises** the existing Certiaura governance b
 Before proposing, creating, repackaging or continuing any Certiaura build, the assistant must read the newest available versions of:
 
 1. `CERTIAURA_LOCKED_BUILD_CONTINUITY_AND_CHECKPOINT.md`
-2. `CERTIAURA_REFERENCE_PACK_READ_FIRST.md`
-3. `CERTIAURA_MASTER_PROJECT_CHARTER.md`
-4. `CERTIAURA_LOCKED_DECISIONS_REFERENCE.md`, where available
-5. `CERTIAURA_CONTINUITY_AND_CHANGE_CONTROL.md`
-6. `CERTIAURA_CURRENT_STATE_BASELINE.md` or the current equivalent
-7. The existing Master Asset Register at its current canonical repository path
-8. The latest installed build record and latest pending build record
+2. `CERTIAURA_LOCKED_ACCUMULATED_LESSONS_AND_CONTINUOUS_LEARNING_STANDARD.md`
+3. `CERTIAURA_REFERENCE_PACK_READ_FIRST.md`
+4. `CERTIAURA_MASTER_PROJECT_CHARTER.md`
+5. `CERTIAURA_LOCKED_DECISIONS_REFERENCE.md`, where available
+6. `CERTIAURA_CONTINUITY_AND_CHANGE_CONTROL.md`
+7. `CERTIAURA_CURRENT_STATE_BASELINE.md` or the current equivalent
+8. The existing Master Asset Register at its current canonical repository path
+9. The latest installed build record and latest pending build record
 
 The assistant must use the **latest explicit founder instruction** where it conflicts with an older document.
 
@@ -592,224 +593,209 @@ Where the source files and the founder's latest explicit message conflict, the l
 
 ---
 
-## 16. Build 0039 closure and lessons learned
+## 16. Current locked correction
 
-Build 0039 is closed at `ACTIONS_GREEN_CLOSED` on commit:
+### Founder-confirmed repository position
+
+The founder has deleted the incorrectly routed root-level build folders for Builds **0035E through 0036** from the working repository.
+
+The repository therefore requires a controlled restoration of the deleted build content into canonical repository-relative paths.
+
+Deletion of those folders does not authorise deletion or renumbering of any corresponding formal asset identities.
+
+### Build 0038 correction
+
+An initial Build 0038 restoration package was generated, but it did not include automatic Master Asset Register reconciliation.
+
+That package must **not** be imported.
+
+Build 0038 must be reissued under the same build identity as a corrected integrated package:
 
 ```text
-87624e9f1a9623d57c2ba583ecc5957754d8f527
+Build 0038 — repository restoration canonical routing and Master Asset Register reconciliation for Builds 0035E to 0036
 ```
 
-The closed build title is:
+The corrected Build 0038 must:
+
+- restore Builds 0035E through 0036 directly into canonical repository paths;
+- include no build-named wrapper folder;
+- locate and reconcile the existing Master Asset Register;
+- preserve existing Universal Asset Identifiers;
+- allocate identifiers only for genuinely new formal assets;
+- detect orphaned files and orphaned register entries;
+- update relationships, applicable registers, change log, Production Dashboard and build records;
+- provide dry-run routing and Asset Register Change Reports;
+- provide backup, transactional rollback and post-import validation;
+- remove no additional repository content without an explicit approved action;
+- block commit and push if asset reconciliation fails.
+
+### Build 0037
+
+Build 0037 remains generated but not correctly installed.
+
+After Build 0038 has restored and validated the prerequisite repository position, Build 0037 must be reissued with:
+
+- flat repository-relative routing;
+- no build-named wrapper folder;
+- an Asset Intent Manifest;
+- automatic Master Asset Register reconciliation;
+- transactional rollback and full repository validation.
+
+### Following scientific build
+
+After corrected Builds 0038 and 0037 are imported, validated, committed, pushed and confirmed green, the planned scientific production package is:
 
 ```text
-evidence ingestion citation management living evidence surveillance and scientific review controls
+Build 0039 — evidence ingestion citation management living evidence surveillance and scientific review controls
 ```
 
-The Build 0039 installation and correction cycle established the following locked lessons:
+---
 
-- future packages must pass a complete synthetic installation into a temporary Git repository containing unrelated historical files before delivery;
-- the exact ZIP proposed for delivery must be validated, not only its source-generation directory;
-- all package changes must be staged in the synthetic repository before running both `git diff --check` and `git diff --cached --check`;
-- trailing whitespace, malformed text, inconsistent line endings, missing final newlines, invalid encoding, unexpected deletion, unstaged change, untracked file or runtime artefact blocks release;
-- generated Python bytecode and cache directories must never be packaged;
-- the package inventory and manifest must be validated against the package itself;
-- a successful source-tree test is not a substitute for a successful final-ZIP test.
+## 17. Current continuation checkpoint
 
-## 17. Locked automated preflight and synthetic-import release controls
+**Checkpoint date:** 2026-07-21
+**Checkpoint status:** ACTIVE - BUILD 0052 RC6 GENERATED, CANONICAL REGRESSION REQUIRED
 
-Build 0040 implements the Build 0039 lessons as an automated fail-closed release gate.
-
-The first Build 0040 package proved that package-level synthetic extraction alone is insufficient. During installation preparation, the installed Project Genesis transactional importer was found to contain hard-coded Build 0039 metadata, paths, package version and report destinations.
-
-That first Build 0040 package was blocked before repository import.
-
-Every future package must now pass the exact final ZIP through the actual transactional importer that will be used for the real repository.
-
-Release is blocked unless all of the following pass:
-
-1. ZIP path safety and repository-root allowlist;
-2. absence of a build-named wrapper folder;
-3. duplicate-path and case-collision checks;
-4. package inventory equality with ZIP members;
-5. checksum verification from ZIP member bytes;
-6. build, routing and Asset Intent Manifest validation from inside the ZIP;
-7. UTF-8 and line-ending normalisation;
-8. trailing-whitespace and final-newline checks;
-9. JSON parsing and Python compilation;
-10. runtime-artefact exclusion;
-11. synthetic Git repository creation with unrelated tracked history;
-12. realistic Master Asset Register creation with existing identifiers;
-13. execution of the actual importer in dry-run mode;
-14. proof that the dry run makes no repository change;
-15. current-build number, title, package version and manifest-path verification;
-16. execution of the actual importer in apply mode;
-17. transaction backup and journal verification;
-18. Master Asset Register reconciliation and identifier allocation verification;
-19. preservation of unrelated historical file hashes;
-20. absence of unexpected tracked deletion;
-21. staging of all package and register changes;
-22. `git diff --check` after staging;
-23. `git diff --cached --check` after staging;
-24. absence of unstaged or untracked residue after staging;
-25. exact staged-path equality with the imported transaction.
-
-Transactional importers must be genuinely build-neutral or be accompanied by a dedicated, tested current-build runner.
-
-Hard-coded prior-build metadata, report routing, manifest locations, package versions or compatibility uncertainty block release.
-
-The canonical implementation is:
+### Last confirmed closed build
 
 ```text
-13_Project_Genesis/Release/build_package_preflight.py
-```
-
-The canonical build-neutral importer is:
-
-```text
-13_Project_Genesis/Import/transactional_build_import.py
-```
-
-The governing standard is:
-
-```text
-Standards/BUILD_PACKAGE_AUTOMATED_PREFLIGHT_AND_SYNTHETIC_IMPORT_STANDARD.md
-```
-
-All founder-facing execution instructions remain PowerShell-first and copy-and-paste ready.
-
-## 18. Current continuation checkpoint
-
-**Checkpoint date:** 2026-07-20
-**Checkpoint status:** ACTIVE ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â BUILD 0040 CORRECTED REISSUE DELIVERED, IMPORT PENDING
-
-### Last closed build
-
-```text
-Build 0039 ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â evidence ingestion citation management living evidence surveillance and scientific review controls
+Build 0051 - Retatrutide post-closure surveillance, governed case reopening, periodic review and recurrence analytics baseline
 Status: ACTIONS_GREEN_CLOSED
-Commit: 87624e9f1a9623d57c2ba583ecc5957754d8f527
+Successful package lineage: RC3
 ```
 
-### Current pending build
+### Current active build
 
 ```text
-Build 0040 ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â automated build-package preflight synthetic repository import and release integrity controls
-Status: DELIVERED ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â CORRECTED REISSUE
-```
-
-### Recorded defect
-
-```text
-The first Build 0040 package did not execute the real Project Genesis transactional importer during package preflight. Static inspection found Build 0039 metadata hard-coded in the installed importer. Import was blocked before repository modification.
-```
-
-### Correction included
-
-```text
-Build-neutral transactional importer; dedicated Build 0040 runner; real importer dry-run and apply synthetic testing; current-build metadata checks; realistic Master Asset Register reconciliation; transaction backup and journal validation; prior-build residue regression test.
+Build 0052 - Retatrutide cross-case signal aggregation, cohort surveillance, governed escalation and controlled knowledge feedback baseline
+Status: RC6 GENERATED outside the canonical repository; RC1, RC2, RC3, RC4 and RC5 withdrawn
 ```
 
 ### Immediate next action
 
+Run the final Build 0052 RC6 Windows PowerShell 5.1 regression. It must derive the exact Build 0051 predecessor evidence from canonical Git history, migrate valid historical lessons schemas with recorded provenance, keep the current matrix strict, expose rollback reasons directly, and return `BUILD_0052_RC6_READY_FOR_CANONICAL_IMPORT`. Only then complete canonical dry-run, forced rollback, clean transactional import, Master Asset Register reconciliation, repository validation, exact commit, push and GitHub Actions verification.
+
+### Following planned build
+
 ```text
-Run the corrected Build 0040 PowerShell dry run, verify the generated report, run the PowerShell apply transaction, validate the repository, stage all changes, run both Git diff checks, commit and push, then confirm GitHub Actions green.
+Build 0053 - Retatrutide controlled evidence-feedback adjudication, knowledge-asset update impact assessment and publication governance baseline
 ```
 
-### Hold point
+### Founder close-out rule
 
-Do not represent Build 0040 as closed until:
+`GREEN` is the definitive close-out phrase only after canonical import, validation, commit, push and GitHub Actions evidence exists. On `GREEN`, mark Build 0052 `ACTIONS_GREEN_CLOSED` and begin Build 0053 immediately.
 
-- the corrected final ZIP passes its complete release-gate version 1.1.0 preflight;
-- the real Build 0040 transactional dry run passes;
-- the dry run reports correct Build 0040 metadata and makes no repository change;
-- the apply transaction completes with a backup and transaction journal;
-- the new SYS formal asset receives one permanent Universal Asset Identifier;
-- the canonical Master Asset Register reconciles without duplicate or orphan records;
-- the repository validator passes;
-- all Build 0040 regression tests pass;
-- `git diff --check` passes after staging;
-- `git diff --cached --check` passes after staging;
-- no unexpected deletion or runtime artefact remains;
-- the exact commit is pushed;
-- GitHub Actions are green.
+### Mandatory predecessor release gate
 
-## 19. Decision history additions
+- Predecessor fixture identity: exact Build 0051.
+- Predecessor provenance and commit subject: exact match.
+- Predecessor/current Asset Intent Manifest intersection: empty unless an explicit approved update is declared.
+- Predecessor paths: preserved unchanged.
+- Executable predecessor-aware dry-run: `DRY_RUN_VALIDATED` with no conflicts.
+
+---
+
+## 18. Decision history
 
 | Date | Decision | Status |
 |---|---|---|
-| 2026-07-20 | Close Build 0039 at commit `87624e9f1a9623d57c2ba583ecc5957754d8f527` | LOCKED |
-| 2026-07-20 | Require final-ZIP validation rather than source-folder-only validation | LOCKED |
-| 2026-07-20 | Require synthetic installation into a temporary Git repository with unrelated tracked history | LOCKED |
-| 2026-07-20 | Require both Git diff checks after staging all package changes | LOCKED |
-| 2026-07-20 | Block release for whitespace, line-ending, encoding, deletion, residue or runtime-artefact failures | LOCKED |
-| 2026-07-20 | Validate package inventory and manifests against the package itself | LOCKED |
-| 2026-07-20 | Require every final package to execute the actual Project Genesis importer in dry-run and apply mode during synthetic testing | LOCKED |
-| 2026-07-20 | Require transactional importers to be build-neutral or have a dedicated tested current-build runner | LOCKED |
-| 2026-07-20 | Block release for prior-build hard-coded metadata, paths, versions, report routing or importer uncertainty | LOCKED |
-| 2026-07-20 | Require realistic Master Asset Register reconciliation, identifier allocation, backup and transaction-journal validation in synthetic testing | LOCKED |
-| 2026-07-20 | Require importer compatibility regression tests for every future build package | LOCKED |
-| 2026-07-20 | Correct and reissue Build 0040 under the same build identity rather than consume Build 0041 | LOCKED |
-| 2026-07-20 | Use PowerShell-first execution for all future Certiaura build and repository workflows | LOCKED |
+| 2026-07-21 | Build 0051 closed as `ACTIONS_GREEN_CLOSED` on successful RC3 lineage | LOCKED FACT |
+| 2026-07-21 | Build 0052 begins immediately after founder `GREEN` | LOCKED |
+| 2026-07-21 | Build 0052 RC1 withdrawn because predecessor truth was candidate-authored rather than derived from canonical Git objects | LOCKED FACT |
+| 2026-07-21 | Build 0052 RC3 required strict historical manifest schema detection but was withdrawn after a historical lessons matrix schema incompatibility | LOCKED |
+| 2026-07-22 | Build 0052 RC4 must use `CERT-GOV-LEARN-001` v2.5.0, recorded historical lessons migration, strict current-build schema and operator-visible transactional failure reasons | LOCKED |
+| 2026-07-22 | Build 0052 RC4 cumulative updater must treat same-build pre-merged lesson replay as idempotent while retaining stronger-control enforcement for any genuinely new origin build | LOCKED |
+| 2026-07-21 | Build 0052 RC2 withdrawn after `PREDECESSOR_MANIFEST_PATH_INVALID` exposed a current-schema-only historical manifest parser | LOCKED FACT |
+| 2026-07-21 | Every build must include executable lessons-learned controls and block closure if incomplete | LOCKED |
+| 2026-07-21 | Predecessor fixtures must identify the exact prior build and have an empty intersection with the current exact Asset Intent Manifest | LOCKED |
+| 2026-07-21 | Predecessor-aware dry-run must return `DRY_RUN_VALIDATED` with no conflicts before delivery | LOCKED |
+| 2026-07-19 | Use concise convention-compliant ZIP filenames | LOCKED |
+| 2026-07-19 | Target filename length ≤80 characters; absolute maximum 100 | LOCKED |
+| 2026-07-19 | Use one ZIP link, exact commit message and proposed next action | LOCKED |
+| 2026-07-19 | Use exact `Add Certiaura Build...` commit convention | LOCKED |
+| 2026-07-19 | Default to larger integrated work-package builds | LOCKED |
+| 2026-07-19 | Use whole build numbers for materially distinct work packages | LOCKED |
+| 2026-07-19 | Prohibit build-named wrapper folders inside ZIPs | LOCKED |
+| 2026-07-19 | Route build records to `Documentation/Build_Records/[BUILD_NUMBER]/` | LOCKED |
+| 2026-07-19 | Correct root build folders through controlled migration | LOCKED |
+| 2026-07-19 | Maintain a live continuation checkpoint for new-chat continuity | LOCKED |
+| 2026-07-19 | Require an Asset Intent Manifest in every build pack | LOCKED |
+| 2026-07-19 | Automatically reconcile the existing Master Asset Register on every formal asset import | LOCKED |
+| 2026-07-19 | Preserve existing Universal Asset Identifiers during update, move, restoration, supersession and retirement | LOCKED |
+| 2026-07-19 | Treat file import and Master Asset Register update as one rollback-safe transaction | LOCKED |
+| 2026-07-19 | Block build closure where formal assets or register entries are orphaned | LOCKED |
+| 2026-07-19 | Reissue Build 0038 before import with integrated asset register reconciliation | LOCKED |
 
-## 20. Machine-readable checkpoint
+---
+
+## 19. Machine-readable checkpoint
 
 ```json
 {
   "document_id": "CERT-GOV-CONT-002",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "status": "LOCKED_ACTIVE",
-  "checkpoint_date": "2026-07-20",
+  "checkpoint_date": "2026-07-21",
   "last_closed_build": {
-    "build_number": "0039",
+    "build_number": "0051",
     "status": "ACTIONS_GREEN_CLOSED",
-    "commit": "87624e9f1a9623d57c2ba583ecc5957754d8f527"
+    "successful_lineage": "RC3",
+    "title": "Retatrutide post-closure surveillance, governed case reopening, periodic review and recurrence analytics baseline"
   },
-  "current_pending_build": {
-    "build_number": "0040",
-    "title": "automated build-package preflight synthetic repository import and release integrity controls",
-    "status": "DELIVERED_CORRECTED_REISSUE"
+  "current_build": {
+    "build_number": "0052",
+    "status": "RC6_GENERATED_PENDING_CANONICAL_REGRESSION",
+    "title": "Retatrutide cross-case signal aggregation, cohort surveillance, governed escalation and controlled knowledge feedback baseline",
+    "required_endpoint": "BUILD_0052_RC6_READY_FOR_CANONICAL_IMPORT"
   },
-  "known_defect": {
-    "first_0040_package_import_blocked": true,
-    "reason": "Installed transactional importer retained hard-coded Build 0039 metadata and had not been executed by package preflight"
+  "following_planned_build": {
+    "build_number": "0053",
+    "title": "Retatrutide controlled evidence-feedback adjudication, knowledge-asset update impact assessment and publication governance baseline"
   },
-  "release_gate": {
-    "version": "1.1.0",
-    "final_zip_validation_required": true,
-    "synthetic_git_import_required": true,
-    "actual_importer_dry_run_required": true,
-    "actual_importer_apply_required": true,
-    "build_neutral_importer_or_current_runner_required": true,
-    "current_build_metadata_validation_required": true,
-    "realistic_master_asset_register_required": true,
-    "transaction_backup_and_journal_required": true,
-    "unrelated_history_required": true,
-    "stage_all_before_git_checks": true,
-    "git_diff_check_required": true,
-    "git_diff_cached_check_required": true,
-    "runtime_artifacts_block_release": true,
-    "inventory_validated_against_zip": true,
-    "prior_build_importer_residue_blocks_release": true,
-    "importer_regression_test_required": true,
-    "powershell_first_execution": true
+  "predecessor_gate": {
+    "exact_build": "0051",
+    "manifest_intersection_required": "EMPTY",
+    "commit_subject_required": "EXACT_MATCH",
+    "paths_preserved_required": true,
+    "dry_run_endpoint": "DRY_RUN_VALIDATED",
+    "conflicts_required": "NONE"
   },
-  "immediate_next_action": "Run corrected Build 0040 PowerShell dry run, verify, apply, validate, stage, run both Git diff checks, commit, push and confirm Actions green"
+  "green_close_phrase": "GREEN"
 }
 ```
 
-## 21. Authority and amendment rule
+---
 
-This document remains locked by explicit founder instruction. No release tool, assistant or collaborator may weaken the Build 0040 release gates without an explicit recorded amendment.
+## 20. Authority and amendment rule
 
-<!-- CERTIAURA_ACTIVE_CHECKPOINT_BEGIN -->
-## Active continuation checkpoint - Build 0042 closed
+This document is locked by explicit founder instruction.
 
-- Last closed build: **0042 - retatrutide safety monitoring contraindication and clinical-outcome integration baseline**.
-- State: `ACTIONS_GREEN_CLOSED`.
-- Canonical import commit: `d1557f4cd7d4f4bc05385929e047f44d1e72d214`.
-- Close-out evidence commit: `96324d10ddcb0c0e8e553a1cf678f74d0aa62902`.
-- Import and close-out GitHub Actions: **GREEN**.
-- Lessons-learned controls: **VERIFIED**.
-- Immediate next action: begin Build 0043 - retatrutide patient journey report generation and AI query integration baseline.
-<!-- CERTIAURA_ACTIVE_CHECKPOINT_END -->
+It remains in force until Aidan Coleman explicitly:
+
+- amends it;
+- supersedes it; or
+- approves a later replacement control.
+
+Any proposed change must state:
+
+1. the exact existing rule being changed;
+2. the reason;
+3. the replacement;
+4. whether the old rule is amended, superseded or retained;
+5. the effect on the current continuation checkpoint.
+
+No assistant, developer or automation may silently alter these rules.
+
+## Build 0052 RC3 withdrawal and RC4 correction
+
+RC3 completed canonical predecessor evidence, dry run and forced rollback, then clean reapply rolled back because the cumulative updater treated `control_family` as mandatory in the valid historical Build 0041 lessons matrix. RC4 became the corrective candidate at that stage. Historical omissions may be migrated only through recorded provenance; current Build 0052 records remain strict.
+
+## Build 0052 RC4 pre-delivery updater replay correction
+
+The full outside-canonical transaction identified that replaying the already pre-merged Build 0052 lesson matrix was incorrectly treated as a new recurrence. RC4 was corrected before delivery. Same-origin replay is now idempotent, while a genuinely new origin build with unchanged repeated-defect controls remains release-blocking.
+
+## Build 0052 RC4 withdrawal and RC5 PowerShell scalar-output correction
+
+RC4 completed package preflight and reached the intentional forced rollback. The importer returned exit code 3, rolled back cleanly, wrote the exact rollback report and emitted `BUILD_0052_TRANSACTION_ROLLED_BACK`. The regression falsely failed because `-notmatch` was applied directly to the output array. RC5 joins captured output into one deterministic scalar before matching, applies the same correction to the canonical import wrapper and includes multi-line positive and negative controls. RC1 through RC4 remain withdrawn.
+
+Build 0052 RC5 was withdrawn after canonical runtime proved that Builds 0039, 0040 and 0043-0046 have no retained per-build lessons matrices. RC6 validates those legacy builds through exact SHA-256-bound lesson-ID sets already present in the authoritative cumulative ledger and prohibits fabricated matrices.

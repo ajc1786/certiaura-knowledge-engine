@@ -1,0 +1,5191 @@
+{
+  "result": "ACCUMULATED_LESSONS_UPDATE_VALIDATED",
+  "apply_requested": true,
+  "current_build": "0052",
+  "matrix_count": 8,
+  "discovered_builds": [
+    "0041",
+    "0042",
+    "0047",
+    "0048",
+    "0049",
+    "0050",
+    "0051",
+    "0052"
+  ],
+  "discovered_matrix_builds": [
+    "0041",
+    "0042",
+    "0047",
+    "0048",
+    "0049",
+    "0050",
+    "0051",
+    "0052"
+  ],
+  "ledger_only_builds": [
+    "0039",
+    "0040",
+    "0043",
+    "0044",
+    "0045",
+    "0046"
+  ],
+  "covered_builds": [
+    "0039",
+    "0040",
+    "0041",
+    "0042",
+    "0043",
+    "0044",
+    "0045",
+    "0046",
+    "0047",
+    "0048",
+    "0049",
+    "0050",
+    "0051",
+    "0052"
+  ],
+  "ledger_only_historical_evidence": [
+    {
+      "build_number": "0039",
+      "matrix_status": "LEGACY_MATRIX_NOT_PRESENT_CANONICALLY",
+      "evidence_mode": "AUTHORITATIVE_CUMULATIVE_LEDGER_EXACT_LESSON_SET",
+      "lesson_count": 16,
+      "lesson_ids": [
+        "CERT-LESSON-BACKUP-001",
+        "CERT-LESSON-COMMIT-001",
+        "CERT-LESSON-CONT-001",
+        "CERT-LESSON-GIT-001",
+        "CERT-LESSON-GREEN-001",
+        "CERT-LESSON-MANIFEST-001",
+        "CERT-LESSON-MAR-001",
+        "CERT-LESSON-PREFLIGHT-001",
+        "CERT-LESSON-PY-001",
+        "CERT-LESSON-RELEASE-001",
+        "CERT-LESSON-ROLLBACK-001",
+        "CERT-LESSON-STATUS-001",
+        "CERT-LESSON-SYNTH-001",
+        "CERT-LESSON-TEST-001",
+        "CERT-LESSON-TEXT-001",
+        "CERT-LESSON-UAI-001"
+      ],
+      "lesson_id_set_sha256": "00D046998E8EA24399F9E35C13D53940F9CDD759D48BCA49B532F3FD843A723D",
+      "provenance": "CERT-GOV-LEARN-001 cumulative source assembled from locked cross-build continuity and lessons evidence before per-build matrix retention became universal"
+    },
+    {
+      "build_number": "0040",
+      "matrix_status": "LEGACY_MATRIX_NOT_PRESENT_CANONICALLY",
+      "evidence_mode": "AUTHORITATIVE_CUMULATIVE_LEDGER_EXACT_LESSON_SET",
+      "lesson_count": 17,
+      "lesson_ids": [
+        "CERT-LESSON-BACKUP-001",
+        "CERT-LESSON-COMMIT-001",
+        "CERT-LESSON-CONT-001",
+        "CERT-LESSON-GIT-001",
+        "CERT-LESSON-GREEN-001",
+        "CERT-LESSON-HASH-001",
+        "CERT-LESSON-LEARN-001",
+        "CERT-LESSON-LEARN-002",
+        "CERT-LESSON-MANIFEST-001",
+        "CERT-LESSON-PREFLIGHT-001",
+        "CERT-LESSON-PY-001",
+        "CERT-LESSON-RELEASE-001",
+        "CERT-LESSON-ROLLBACK-001",
+        "CERT-LESSON-STATUS-001",
+        "CERT-LESSON-SYNTH-001",
+        "CERT-LESSON-TEST-001",
+        "CERT-LESSON-TEXT-001"
+      ],
+      "lesson_id_set_sha256": "B970D1A03DEF47851E24085436B1E8F2FA7B91053BC4EABCDB721971DBD77CBF",
+      "provenance": "CERT-GOV-LEARN-001 cumulative source assembled from locked cross-build continuity and lessons evidence before per-build matrix retention became universal"
+    },
+    {
+      "build_number": "0043",
+      "matrix_status": "LEGACY_MATRIX_NOT_PRESENT_CANONICALLY",
+      "evidence_mode": "AUTHORITATIVE_CUMULATIVE_LEDGER_EXACT_LESSON_SET",
+      "lesson_count": 13,
+      "lesson_ids": [
+        "CERT-LESSON-ARRAY-001",
+        "CERT-LESSON-CONT-001",
+        "CERT-LESSON-GREEN-001",
+        "CERT-LESSON-LEARN-001",
+        "CERT-LESSON-ONEDRIVE-001",
+        "CERT-LESSON-PS51-001",
+        "CERT-LESSON-RELEASE-001",
+        "CERT-LESSON-REPO-001",
+        "CERT-LESSON-ROLLBACK-001",
+        "CERT-LESSON-SCRIPT-001",
+        "CERT-LESSON-STATUS-001",
+        "CERT-LESSON-TEST-001",
+        "CERT-LESSON-VAR-001"
+      ],
+      "lesson_id_set_sha256": "3B7E80096D1D6B130879B98F9F1AA0FFAD018878FABDD1D2231E42175EBD7DA9",
+      "provenance": "CERT-GOV-LEARN-001 cumulative source assembled from locked cross-build continuity and lessons evidence before per-build matrix retention became universal"
+    },
+    {
+      "build_number": "0044",
+      "matrix_status": "LEGACY_MATRIX_NOT_PRESENT_CANONICALLY",
+      "evidence_mode": "AUTHORITATIVE_CUMULATIVE_LEDGER_EXACT_LESSON_SET",
+      "lesson_count": 10,
+      "lesson_ids": [
+        "CERT-LESSON-CONT-001",
+        "CERT-LESSON-GREEN-001",
+        "CERT-LESSON-HASH-001",
+        "CERT-LESSON-LEARN-001",
+        "CERT-LESSON-PS51-001",
+        "CERT-LESSON-RELEASE-001",
+        "CERT-LESSON-SCRIPT-001",
+        "CERT-LESSON-STATUS-001",
+        "CERT-LESSON-TEXT-001",
+        "CERT-LESSON-VAR-001"
+      ],
+      "lesson_id_set_sha256": "8AB39DAC9E164092512813406DDCE8B293934AB98C7FEB8C3E4B529C9EBC99B0",
+      "provenance": "CERT-GOV-LEARN-001 cumulative source assembled from locked cross-build continuity and lessons evidence before per-build matrix retention became universal"
+    },
+    {
+      "build_number": "0045",
+      "matrix_status": "LEGACY_MATRIX_NOT_PRESENT_CANONICALLY",
+      "evidence_mode": "AUTHORITATIVE_CUMULATIVE_LEDGER_EXACT_LESSON_SET",
+      "lesson_count": 8,
+      "lesson_ids": [
+        "CERT-LESSON-CONT-001",
+        "CERT-LESSON-GREEN-001",
+        "CERT-LESSON-LEARN-001",
+        "CERT-LESSON-PS51-001",
+        "CERT-LESSON-RELEASE-001",
+        "CERT-LESSON-SCRIPT-001",
+        "CERT-LESSON-STATUS-001",
+        "CERT-LESSON-VAR-001"
+      ],
+      "lesson_id_set_sha256": "11F3D57399E2F76FF47D23D36A4F25655C0F85AA671FD64E84A5A43963B29A84",
+      "provenance": "CERT-GOV-LEARN-001 cumulative source assembled from locked cross-build continuity and lessons evidence before per-build matrix retention became universal"
+    },
+    {
+      "build_number": "0046",
+      "matrix_status": "LEGACY_MATRIX_NOT_PRESENT_CANONICALLY",
+      "evidence_mode": "AUTHORITATIVE_CUMULATIVE_LEDGER_EXACT_LESSON_SET",
+      "lesson_count": 9,
+      "lesson_ids": [
+        "CERT-LESSON-CONT-001",
+        "CERT-LESSON-DELIVERY-001",
+        "CERT-LESSON-GREEN-001",
+        "CERT-LESSON-LEARN-001",
+        "CERT-LESSON-PS51-001",
+        "CERT-LESSON-RELEASE-001",
+        "CERT-LESSON-SCRIPT-001",
+        "CERT-LESSON-STATUS-001",
+        "CERT-LESSON-VAR-001"
+      ],
+      "lesson_id_set_sha256": "0400E9CB4A99DA56562249641DEF625A52354176380E7A8E81BADA21E0FC75B4",
+      "provenance": "CERT-GOV-LEARN-001 cumulative source assembled from locked cross-build continuity and lessons evidence before per-build matrix retention became universal"
+    }
+  ],
+  "lesson_count_before": 49,
+  "lesson_count_after": 142,
+  "current_build_lesson_ids": [
+    "CERT-LESSON-DUPPKG-001",
+    "CERT-LESSON-FAILMSG-001",
+    "CERT-LESSON-HISTCOV-001",
+    "CERT-LESSON-LAUNCH-SCOPE-001",
+    "CERT-LESSON-LESSON-SCHEMA-001",
+    "CERT-LESSON-MANIFEST-SCHEMA-001",
+    "CERT-LESSON-NATIVE-001",
+    "CERT-LESSON-PRED-002",
+    "CERT-LESSON-PSCOLL-001",
+    "CERT-LESSON-PYCLI-001",
+    "CERT-LESSON-TEXT-001",
+    "CERT-LESSON-UPDATE-IDEMPOTENCE-001"
+  ],
+  "changes": [
+    {
+      "lesson_id": "CERT-LESSON-BACKFILL-0041-D6C63C137EED",
+      "action": "ADDED"
+    },
+    {
+      "lesson_id": "CERT-LESSON-BACKFILL-0041-23F12866368A",
+      "action": "ADDED"
+    },
+    {
+      "lesson_id": "CERT-LESSON-BACKFILL-0041-92577995AECC",
+      "action": "ADDED"
+    },
+    {
+      "lesson_id": "CERT-LESSON-BACKFILL-0041-19C9ECD5C8B8",
+      "action": "ADDED"
+    },
+    {
+      "lesson_id": "CERT-LESSON-BACKFILL-0041-BF73FEB5D76E",
+      "action": "ADDED"
+    },
+    {
+      "lesson_id": "CERT-LL-0041-DELIVERY-001",
+      "action": "ADDED"
+    },
+    {
+      "lesson_id": "CERT-LL-0041-PS51-001",
+      "action": "ADDED"
+    },
+    {
+      "lesson_id": "CERT-LL-0041-PSCARD-001",
+      "action": "ADDED"
+    },
+    {
+      "lesson_id": "CERT-LL-0041-ENTRY-001",
+      "action": "ADDED"
+    },
+    {
+      "lesson_id": "CERT-LL-0041-PKGPATH-001",
+      "action": "ADDED"
+    },
+    {
+      "lesson_id": "B0042-LL-001",
+      "action": "ADDED"
+    },
+    {
+      "lesson_id": "B0042-LL-002",
+      "action": "ADDED"
+    },
+    {
+      "lesson_id": "B0042-LL-003",
+      "action": "ADDED"
+    },
+    {
+      "lesson_id": "B0042-LL-004",
+      "action": "ADDED"
+    },
+    {
+      "lesson_id": "B0042-LL-005",
+      "action": "ADDED"
+    },
+    {
+      "lesson_id": "B0042-LL-006",
+      "action": "ADDED"
+    },
+    {
+      "lesson_id": "B0042-LL-007",
+      "action": "ADDED"
+    },
+    {
+      "lesson_id": "B0042-LL-008",
+      "action": "ADDED"
+    },
+    {
+      "lesson_id": "B0042-LL-009",
+      "action": "ADDED"
+    },
+    {
+      "lesson_id": "CERT-LESSON-BACKFILL-0047-2C92F433B7A0",
+      "action": "ADDED"
+    },
+    {
+      "lesson_id": "CERT-LESSON-BACKFILL-0047-F338910078D4",
+      "action": "ADDED"
+    },
+    {
+      "lesson_id": "CERT-LESSON-BACKFILL-0047-FF9E62094A0C",
+      "action": "ADDED"
+    },
+    {
+      "lesson_id": "CERT-LESSON-BACKFILL-0047-17CAAC697305",
+      "action": "ADDED"
+    },
+    {
+      "lesson_id": "CERT-LESSON-BACKFILL-0047-EF05FB05C15E",
+      "action": "ADDED"
+    },
+    {
+      "lesson_id": "CERT-LESSON-BACKFILL-0047-984609022025",
+      "action": "ADDED"
+    },
+    {
+      "lesson_id": "CERT-LESSON-BACKFILL-0047-6380689D56BF",
+      "action": "ADDED"
+    },
+    {
+      "lesson_id": "CERT-LESSON-BACKFILL-0047-6A20EEE07CFD",
+      "action": "ADDED"
+    },
+    {
+      "lesson_id": "CERT-LESSON-BACKFILL-0047-9C5A831126D9",
+      "action": "ADDED"
+    },
+    {
+      "lesson_id": "CERT-LESSON-BACKFILL-0047-04011237773E",
+      "action": "ADDED"
+    },
+    {
+      "lesson_id": "CERT-LESSON-BACKFILL-0047-15136D679796",
+      "action": "ADDED"
+    },
+    {
+      "lesson_id": "CERT-LESSON-BACKFILL-0047-A1DDA5C6830F",
+      "action": "ADDED"
+    },
+    {
+      "lesson_id": "CERT-LESSON-BACKFILL-0047-357CF61D2C29",
+      "action": "ADDED"
+    },
+    {
+      "lesson_id": "CERT-LESSON-BACKFILL-0047-519A0BF55D0F",
+      "action": "ADDED"
+    },
+    {
+      "lesson_id": "CERT-LESSON-BACKFILL-0047-8776AEE65E80",
+      "action": "ADDED"
+    },
+    {
+      "lesson_id": "CERT-LESSON-BACKFILL-0047-6225118CC51B",
+      "action": "ADDED"
+    },
+    {
+      "lesson_id": "CERT-LESSON-BACKFILL-0047-5A3D2F5CFD7B",
+      "action": "ADDED"
+    },
+    {
+      "lesson_id": "CERT-LESSON-BACKFILL-0047-CDD80CDF98B1",
+      "action": "ADDED"
+    },
+    {
+      "lesson_id": "CERT-LESSON-BACKFILL-0047-52C56D1D8D75",
+      "action": "ADDED"
+    },
+    {
+      "lesson_id": "CERT-LESSON-BACKFILL-0047-0D3AE78C8D80",
+      "action": "ADDED"
+    },
+    {
+      "lesson_id": "CERT-LESSON-BACKFILL-0047-0CEE6AF51474",
+      "action": "ADDED"
+    },
+    {
+      "lesson_id": "CERT-LESSON-BACKFILL-0048-99C564F15B21",
+      "action": "ADDED"
+    },
+    {
+      "lesson_id": "CERT-LESSON-BACKFILL-0048-06DE76154926",
+      "action": "ADDED"
+    },
+    {
+      "lesson_id": "CERT-LESSON-BACKFILL-0048-D748BBFB1077",
+      "action": "ADDED"
+    },
+    {
+      "lesson_id": "CERT-LESSON-BACKFILL-0048-FDE033F35C34",
+      "action": "ADDED"
+    },
+    {
+      "lesson_id": "CERT-LESSON-BACKFILL-0048-3A1627D51EAE",
+      "action": "ADDED"
+    },
+    {
+      "lesson_id": "CERT-LESSON-BACKFILL-0048-6D525C456549",
+      "action": "ADDED"
+    },
+    {
+      "lesson_id": "CERT-LESSON-BACKFILL-0048-3ABA6C3B6521",
+      "action": "ADDED"
+    },
+    {
+      "lesson_id": "CERT-LESSON-BACKFILL-0048-82E231D9F077",
+      "action": "ADDED"
+    },
+    {
+      "lesson_id": "CERT-LESSON-BACKFILL-0048-663A423304C9",
+      "action": "ADDED"
+    },
+    {
+      "lesson_id": "CERT-LESSON-BACKFILL-0048-B9FEC44D81B3",
+      "action": "ADDED"
+    },
+    {
+      "lesson_id": "CERT-LESSON-BACKFILL-0048-55D21E869365",
+      "action": "ADDED"
+    },
+    {
+      "lesson_id": "CERT-LESSON-BACKFILL-0048-249E4BF73E97",
+      "action": "ADDED"
+    },
+    {
+      "lesson_id": "CERT-LESSON-BACKFILL-0048-24A0429115D8",
+      "action": "ADDED"
+    },
+    {
+      "lesson_id": "CERT-LESSON-BACKFILL-0048-21C4F178087A",
+      "action": "ADDED"
+    },
+    {
+      "lesson_id": "CERT-LESSON-BACKFILL-0048-D82C775F088C",
+      "action": "ADDED"
+    },
+    {
+      "lesson_id": "CERT-LESSON-BACKFILL-0048-B863EEB8B2CF",
+      "action": "ADDED"
+    },
+    {
+      "lesson_id": "CERT-LESSON-BACKFILL-0048-A1F3700FA7B1",
+      "action": "ADDED"
+    },
+    {
+      "lesson_id": "CERT-LESSON-BACKFILL-0049-3DF1EF95E7C8",
+      "action": "ADDED"
+    },
+    {
+      "lesson_id": "CERT-LESSON-BACKFILL-0049-D67FA602A122",
+      "action": "ADDED"
+    },
+    {
+      "lesson_id": "CERT-LESSON-BACKFILL-0049-F94D7816FC65",
+      "action": "ADDED"
+    },
+    {
+      "lesson_id": "CERT-LESSON-BACKFILL-0049-1636C561F00E",
+      "action": "ADDED"
+    },
+    {
+      "lesson_id": "CERT-LESSON-BACKFILL-0049-092E982A6F1F",
+      "action": "ADDED"
+    },
+    {
+      "lesson_id": "CERT-LESSON-BACKFILL-0049-7A3CF1C1F090",
+      "action": "ADDED"
+    },
+    {
+      "lesson_id": "CERT-LESSON-BACKFILL-0049-6479622E9E44",
+      "action": "ADDED"
+    },
+    {
+      "lesson_id": "CERT-LESSON-BACKFILL-0049-50677C7B4046",
+      "action": "ADDED"
+    },
+    {
+      "lesson_id": "CERT-LESSON-BACKFILL-0049-C35EBC07C229",
+      "action": "ADDED"
+    },
+    {
+      "lesson_id": "CERT-LESSON-BACKFILL-0049-9EEFF368CBA5",
+      "action": "ADDED"
+    },
+    {
+      "lesson_id": "CERT-LESSON-BACKFILL-0049-A0000F65E8F6",
+      "action": "ADDED"
+    },
+    {
+      "lesson_id": "CERT-LESSON-BACKFILL-0049-B9D80B8A6CEF",
+      "action": "ADDED"
+    },
+    {
+      "lesson_id": "CERT-LESSON-BACKFILL-0049-9950BD0D2FAA",
+      "action": "ADDED"
+    },
+    {
+      "lesson_id": "CERT-LESSON-BACKFILL-0049-5B26C8977917",
+      "action": "ADDED"
+    },
+    {
+      "lesson_id": "CERT-LESSON-BACKFILL-0049-86ACF2CB8D62",
+      "action": "ADDED"
+    },
+    {
+      "lesson_id": "CERT-LESSON-BACKFILL-0049-14C4725852FE",
+      "action": "ADDED"
+    },
+    {
+      "lesson_id": "CERT-LESSON-BACKFILL-0050-4EB0508D4D72",
+      "action": "ADDED"
+    },
+    {
+      "lesson_id": "CERT-LESSON-BACKFILL-0050-7DCC6A8EBE98",
+      "action": "ADDED"
+    },
+    {
+      "lesson_id": "CERT-LESSON-BACKFILL-0050-557259D7FF88",
+      "action": "ADDED"
+    },
+    {
+      "lesson_id": "CERT-LESSON-BACKFILL-0050-494F0BF5531D",
+      "action": "ADDED"
+    },
+    {
+      "lesson_id": "CERT-LESSON-BACKFILL-0050-8A17D21252F8",
+      "action": "ADDED"
+    },
+    {
+      "lesson_id": "CERT-LESSON-BACKFILL-0050-1CD8EE68EEFF",
+      "action": "ADDED"
+    },
+    {
+      "lesson_id": "CERT-LESSON-BACKFILL-0050-E7D2000C76F8",
+      "action": "ADDED"
+    },
+    {
+      "lesson_id": "CERT-LESSON-BACKFILL-0050-7D1B2DB785E2",
+      "action": "ADDED"
+    },
+    {
+      "lesson_id": "CERT-LESSON-BACKFILL-0050-342D12B36CAC",
+      "action": "ADDED"
+    },
+    {
+      "lesson_id": "CERT-LESSON-BACKFILL-0050-CAD63750FCDA",
+      "action": "ADDED"
+    },
+    {
+      "lesson_id": "CERT-LESSON-BACKFILL-0050-4B84D036213E",
+      "action": "ADDED"
+    },
+    {
+      "lesson_id": "CERT-LESSON-BACKFILL-0050-D0C399C71E10",
+      "action": "ADDED"
+    },
+    {
+      "lesson_id": "CERT-LESSON-BACKFILL-0050-8C84AA0B5C97",
+      "action": "ADDED"
+    },
+    {
+      "lesson_id": "CERT-LESSON-BACKFILL-0050-499B8F8AB6C2",
+      "action": "ADDED"
+    },
+    {
+      "lesson_id": "CERT-LESSON-BACKFILL-0051-8BB7AD5A76D3",
+      "action": "ADDED"
+    },
+    {
+      "lesson_id": "CERT-LESSON-BACKFILL-0051-272A80B373AC",
+      "action": "ADDED"
+    },
+    {
+      "lesson_id": "CERT-LESSON-BACKFILL-0051-0911F39DE7D4",
+      "action": "ADDED"
+    },
+    {
+      "lesson_id": "CERT-LESSON-BACKFILL-0051-1849838D94EC",
+      "action": "ADDED"
+    },
+    {
+      "lesson_id": "CERT-LESSON-BACKFILL-0051-097B9C921A7A",
+      "action": "ADDED"
+    },
+    {
+      "lesson_id": "CERT-LESSON-BACKFILL-0051-8D521B0C9E06",
+      "action": "ADDED"
+    },
+    {
+      "lesson_id": "CERT-LESSON-PRED-002",
+      "action": "UPDATED"
+    },
+    {
+      "lesson_id": "CERT-LESSON-TEXT-001",
+      "action": "UPDATED"
+    },
+    {
+      "lesson_id": "CERT-LESSON-PYCLI-001",
+      "action": "UPDATED"
+    },
+    {
+      "lesson_id": "CERT-LESSON-NATIVE-001",
+      "action": "UPDATED"
+    },
+    {
+      "lesson_id": "CERT-LESSON-DUPPKG-001",
+      "action": "UPDATED"
+    },
+    {
+      "lesson_id": "CERT-LESSON-MANIFEST-SCHEMA-001",
+      "action": "UPDATED"
+    },
+    {
+      "lesson_id": "CERT-LESSON-LESSON-SCHEMA-001",
+      "action": "UPDATED"
+    },
+    {
+      "lesson_id": "CERT-LESSON-FAILMSG-001",
+      "action": "UPDATED"
+    },
+    {
+      "lesson_id": "CERT-LESSON-LAUNCH-SCOPE-001",
+      "action": "UPDATED"
+    },
+    {
+      "lesson_id": "CERT-LESSON-UPDATE-IDEMPOTENCE-001",
+      "action": "UPDATED"
+    },
+    {
+      "lesson_id": "CERT-LESSON-PSCOLL-001",
+      "action": "UPDATED"
+    },
+    {
+      "lesson_id": "CERT-LESSON-HISTCOV-001",
+      "action": "UPDATED"
+    }
+  ],
+  "historical_coverage": "COMPLETE",
+  "historical_coverage_mode": "MATRIX_OR_HASH_BOUND_AUTHORITATIVE_LEDGER",
+  "strict_current_schema": "PASS",
+  "historical_schema_adapter": "VERSION_AWARE_RECORDED_MIGRATION",
+  "historical_schema_migration_count": 93,
+  "historical_schema_migrations": [
+    {
+      "source": "Documentation/Build_Records/0041/LESSONS_LEARNED_CONTROL_MATRIX.json",
+      "build_number": "0041",
+      "record_index": 1,
+      "lesson_id": "CERT-LESSON-BACKFILL-0041-D6C63C137EED",
+      "matrix_container": "controls",
+      "migrations": [
+        {
+          "field": "defect_or_risk",
+          "action": "ALIASED",
+          "basis": "lesson"
+        },
+        {
+          "field": "control_family",
+          "action": "BACKFILLED",
+          "basis": "INFERRED_FROM_DEFECT_OR_RISK"
+        },
+        {
+          "field": "root_cause",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "preventive_control",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "regression_control",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "release_gate",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "lesson_id",
+          "action": "BACKFILLED",
+          "basis": "DETERMINISTIC_HISTORICAL_BACKFILL"
+        },
+        {
+          "field": "origin_builds",
+          "action": "BACKFILLED",
+          "basis": "SOURCE_BUILD_DIRECTORY"
+        }
+      ]
+    },
+    {
+      "source": "Documentation/Build_Records/0041/LESSONS_LEARNED_CONTROL_MATRIX.json",
+      "build_number": "0041",
+      "record_index": 2,
+      "lesson_id": "CERT-LESSON-BACKFILL-0041-23F12866368A",
+      "matrix_container": "controls",
+      "migrations": [
+        {
+          "field": "defect_or_risk",
+          "action": "ALIASED",
+          "basis": "lesson"
+        },
+        {
+          "field": "control_family",
+          "action": "BACKFILLED",
+          "basis": "INFERRED_FROM_DEFECT_OR_RISK"
+        },
+        {
+          "field": "root_cause",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "preventive_control",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "regression_control",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "release_gate",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "lesson_id",
+          "action": "BACKFILLED",
+          "basis": "DETERMINISTIC_HISTORICAL_BACKFILL"
+        },
+        {
+          "field": "origin_builds",
+          "action": "BACKFILLED",
+          "basis": "SOURCE_BUILD_DIRECTORY"
+        }
+      ]
+    },
+    {
+      "source": "Documentation/Build_Records/0041/LESSONS_LEARNED_CONTROL_MATRIX.json",
+      "build_number": "0041",
+      "record_index": 3,
+      "lesson_id": "CERT-LESSON-BACKFILL-0041-92577995AECC",
+      "matrix_container": "controls",
+      "migrations": [
+        {
+          "field": "defect_or_risk",
+          "action": "ALIASED",
+          "basis": "lesson"
+        },
+        {
+          "field": "control_family",
+          "action": "BACKFILLED",
+          "basis": "INFERRED_FROM_DEFECT_OR_RISK"
+        },
+        {
+          "field": "root_cause",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "preventive_control",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "regression_control",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "release_gate",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "lesson_id",
+          "action": "BACKFILLED",
+          "basis": "DETERMINISTIC_HISTORICAL_BACKFILL"
+        },
+        {
+          "field": "origin_builds",
+          "action": "BACKFILLED",
+          "basis": "SOURCE_BUILD_DIRECTORY"
+        }
+      ]
+    },
+    {
+      "source": "Documentation/Build_Records/0041/LESSONS_LEARNED_CONTROL_MATRIX.json",
+      "build_number": "0041",
+      "record_index": 4,
+      "lesson_id": "CERT-LESSON-BACKFILL-0041-19C9ECD5C8B8",
+      "matrix_container": "controls",
+      "migrations": [
+        {
+          "field": "defect_or_risk",
+          "action": "ALIASED",
+          "basis": "lesson"
+        },
+        {
+          "field": "control_family",
+          "action": "BACKFILLED",
+          "basis": "INFERRED_FROM_DEFECT_OR_RISK"
+        },
+        {
+          "field": "root_cause",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "preventive_control",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "regression_control",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "release_gate",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "lesson_id",
+          "action": "BACKFILLED",
+          "basis": "DETERMINISTIC_HISTORICAL_BACKFILL"
+        },
+        {
+          "field": "origin_builds",
+          "action": "BACKFILLED",
+          "basis": "SOURCE_BUILD_DIRECTORY"
+        }
+      ]
+    },
+    {
+      "source": "Documentation/Build_Records/0041/LESSONS_LEARNED_CONTROL_MATRIX.json",
+      "build_number": "0041",
+      "record_index": 5,
+      "lesson_id": "CERT-LESSON-BACKFILL-0041-BF73FEB5D76E",
+      "matrix_container": "controls",
+      "migrations": [
+        {
+          "field": "defect_or_risk",
+          "action": "ALIASED",
+          "basis": "lesson"
+        },
+        {
+          "field": "control_family",
+          "action": "BACKFILLED",
+          "basis": "INFERRED_FROM_DEFECT_OR_RISK"
+        },
+        {
+          "field": "root_cause",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "preventive_control",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "regression_control",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "release_gate",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "lesson_id",
+          "action": "BACKFILLED",
+          "basis": "DETERMINISTIC_HISTORICAL_BACKFILL"
+        },
+        {
+          "field": "origin_builds",
+          "action": "BACKFILLED",
+          "basis": "SOURCE_BUILD_DIRECTORY"
+        }
+      ]
+    },
+    {
+      "source": "Documentation/Build_Records/0041/LESSONS_LEARNED_CONTROL_MATRIX.json",
+      "build_number": "0041",
+      "record_index": 6,
+      "lesson_id": "CERT-LL-0041-DELIVERY-001",
+      "matrix_container": "controls",
+      "migrations": [
+        {
+          "field": "lesson_id",
+          "action": "ALIASED",
+          "basis": "control_id"
+        },
+        {
+          "field": "defect_or_risk",
+          "action": "ALIASED",
+          "basis": "defect"
+        },
+        {
+          "field": "regression_control",
+          "action": "ALIASED",
+          "basis": "regression_test"
+        },
+        {
+          "field": "control_family",
+          "action": "BACKFILLED",
+          "basis": "INFERRED_FROM_DEFECT_OR_RISK"
+        },
+        {
+          "field": "root_cause",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "release_gate",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "origin_builds",
+          "action": "BACKFILLED",
+          "basis": "SOURCE_BUILD_DIRECTORY"
+        }
+      ]
+    },
+    {
+      "source": "Documentation/Build_Records/0041/LESSONS_LEARNED_CONTROL_MATRIX.json",
+      "build_number": "0041",
+      "record_index": 7,
+      "lesson_id": "CERT-LL-0041-PS51-001",
+      "matrix_container": "controls",
+      "migrations": [
+        {
+          "field": "lesson_id",
+          "action": "ALIASED",
+          "basis": "control_id"
+        },
+        {
+          "field": "defect_or_risk",
+          "action": "ALIASED",
+          "basis": "defect"
+        },
+        {
+          "field": "regression_control",
+          "action": "ALIASED",
+          "basis": "regression_test"
+        },
+        {
+          "field": "control_family",
+          "action": "BACKFILLED",
+          "basis": "INFERRED_FROM_DEFECT_OR_RISK"
+        },
+        {
+          "field": "root_cause",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "release_gate",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "origin_builds",
+          "action": "BACKFILLED",
+          "basis": "SOURCE_BUILD_DIRECTORY"
+        }
+      ]
+    },
+    {
+      "source": "Documentation/Build_Records/0041/LESSONS_LEARNED_CONTROL_MATRIX.json",
+      "build_number": "0041",
+      "record_index": 8,
+      "lesson_id": "CERT-LL-0041-PSCARD-001",
+      "matrix_container": "controls",
+      "migrations": [
+        {
+          "field": "lesson_id",
+          "action": "ALIASED",
+          "basis": "control_id"
+        },
+        {
+          "field": "defect_or_risk",
+          "action": "ALIASED",
+          "basis": "defect"
+        },
+        {
+          "field": "regression_control",
+          "action": "ALIASED",
+          "basis": "regression_test"
+        },
+        {
+          "field": "control_family",
+          "action": "BACKFILLED",
+          "basis": "INFERRED_FROM_DEFECT_OR_RISK"
+        },
+        {
+          "field": "root_cause",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "release_gate",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "origin_builds",
+          "action": "BACKFILLED",
+          "basis": "SOURCE_BUILD_DIRECTORY"
+        }
+      ]
+    },
+    {
+      "source": "Documentation/Build_Records/0041/LESSONS_LEARNED_CONTROL_MATRIX.json",
+      "build_number": "0041",
+      "record_index": 9,
+      "lesson_id": "CERT-LL-0041-ENTRY-001",
+      "matrix_container": "controls",
+      "migrations": [
+        {
+          "field": "lesson_id",
+          "action": "ALIASED",
+          "basis": "control_id"
+        },
+        {
+          "field": "defect_or_risk",
+          "action": "ALIASED",
+          "basis": "defect"
+        },
+        {
+          "field": "regression_control",
+          "action": "ALIASED",
+          "basis": "regression_test"
+        },
+        {
+          "field": "control_family",
+          "action": "BACKFILLED",
+          "basis": "INFERRED_FROM_DEFECT_OR_RISK"
+        },
+        {
+          "field": "root_cause",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "release_gate",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "origin_builds",
+          "action": "BACKFILLED",
+          "basis": "SOURCE_BUILD_DIRECTORY"
+        }
+      ]
+    },
+    {
+      "source": "Documentation/Build_Records/0041/LESSONS_LEARNED_CONTROL_MATRIX.json",
+      "build_number": "0041",
+      "record_index": 10,
+      "lesson_id": "CERT-LL-0041-PKGPATH-001",
+      "matrix_container": "controls",
+      "migrations": [
+        {
+          "field": "lesson_id",
+          "action": "ALIASED",
+          "basis": "control_id"
+        },
+        {
+          "field": "defect_or_risk",
+          "action": "ALIASED",
+          "basis": "defect"
+        },
+        {
+          "field": "regression_control",
+          "action": "ALIASED",
+          "basis": "regression_test"
+        },
+        {
+          "field": "control_family",
+          "action": "BACKFILLED",
+          "basis": "INFERRED_FROM_DEFECT_OR_RISK"
+        },
+        {
+          "field": "root_cause",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "release_gate",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "origin_builds",
+          "action": "BACKFILLED",
+          "basis": "SOURCE_BUILD_DIRECTORY"
+        }
+      ]
+    },
+    {
+      "source": "Documentation/Build_Records/0042/LESSONS_LEARNED_CONTROL_MATRIX.json",
+      "build_number": "0042",
+      "record_index": 1,
+      "lesson_id": "B0042-LL-001",
+      "matrix_container": "controls",
+      "migrations": [
+        {
+          "field": "lesson_id",
+          "action": "ALIASED",
+          "basis": "control_id"
+        },
+        {
+          "field": "preventive_control",
+          "action": "ALIASED",
+          "basis": "control"
+        },
+        {
+          "field": "control_family",
+          "action": "BACKFILLED",
+          "basis": "INFERRED_FROM_DEFECT_OR_RISK"
+        },
+        {
+          "field": "defect_or_risk",
+          "action": "BACKFILLED",
+          "basis": "control"
+        },
+        {
+          "field": "root_cause",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "regression_control",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "release_gate",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "origin_builds",
+          "action": "BACKFILLED",
+          "basis": "SOURCE_BUILD_DIRECTORY"
+        }
+      ]
+    },
+    {
+      "source": "Documentation/Build_Records/0042/LESSONS_LEARNED_CONTROL_MATRIX.json",
+      "build_number": "0042",
+      "record_index": 2,
+      "lesson_id": "B0042-LL-002",
+      "matrix_container": "controls",
+      "migrations": [
+        {
+          "field": "lesson_id",
+          "action": "ALIASED",
+          "basis": "control_id"
+        },
+        {
+          "field": "preventive_control",
+          "action": "ALIASED",
+          "basis": "control"
+        },
+        {
+          "field": "control_family",
+          "action": "BACKFILLED",
+          "basis": "INFERRED_FROM_DEFECT_OR_RISK"
+        },
+        {
+          "field": "defect_or_risk",
+          "action": "BACKFILLED",
+          "basis": "control"
+        },
+        {
+          "field": "root_cause",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "regression_control",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "release_gate",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "origin_builds",
+          "action": "BACKFILLED",
+          "basis": "SOURCE_BUILD_DIRECTORY"
+        }
+      ]
+    },
+    {
+      "source": "Documentation/Build_Records/0042/LESSONS_LEARNED_CONTROL_MATRIX.json",
+      "build_number": "0042",
+      "record_index": 3,
+      "lesson_id": "B0042-LL-003",
+      "matrix_container": "controls",
+      "migrations": [
+        {
+          "field": "lesson_id",
+          "action": "ALIASED",
+          "basis": "control_id"
+        },
+        {
+          "field": "preventive_control",
+          "action": "ALIASED",
+          "basis": "control"
+        },
+        {
+          "field": "control_family",
+          "action": "BACKFILLED",
+          "basis": "INFERRED_FROM_DEFECT_OR_RISK"
+        },
+        {
+          "field": "defect_or_risk",
+          "action": "BACKFILLED",
+          "basis": "control"
+        },
+        {
+          "field": "root_cause",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "regression_control",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "release_gate",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "origin_builds",
+          "action": "BACKFILLED",
+          "basis": "SOURCE_BUILD_DIRECTORY"
+        }
+      ]
+    },
+    {
+      "source": "Documentation/Build_Records/0042/LESSONS_LEARNED_CONTROL_MATRIX.json",
+      "build_number": "0042",
+      "record_index": 4,
+      "lesson_id": "B0042-LL-004",
+      "matrix_container": "controls",
+      "migrations": [
+        {
+          "field": "lesson_id",
+          "action": "ALIASED",
+          "basis": "control_id"
+        },
+        {
+          "field": "preventive_control",
+          "action": "ALIASED",
+          "basis": "control"
+        },
+        {
+          "field": "control_family",
+          "action": "BACKFILLED",
+          "basis": "INFERRED_FROM_DEFECT_OR_RISK"
+        },
+        {
+          "field": "defect_or_risk",
+          "action": "BACKFILLED",
+          "basis": "control"
+        },
+        {
+          "field": "root_cause",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "regression_control",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "release_gate",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "origin_builds",
+          "action": "BACKFILLED",
+          "basis": "SOURCE_BUILD_DIRECTORY"
+        }
+      ]
+    },
+    {
+      "source": "Documentation/Build_Records/0042/LESSONS_LEARNED_CONTROL_MATRIX.json",
+      "build_number": "0042",
+      "record_index": 5,
+      "lesson_id": "B0042-LL-005",
+      "matrix_container": "controls",
+      "migrations": [
+        {
+          "field": "lesson_id",
+          "action": "ALIASED",
+          "basis": "control_id"
+        },
+        {
+          "field": "preventive_control",
+          "action": "ALIASED",
+          "basis": "control"
+        },
+        {
+          "field": "control_family",
+          "action": "BACKFILLED",
+          "basis": "INFERRED_FROM_DEFECT_OR_RISK"
+        },
+        {
+          "field": "defect_or_risk",
+          "action": "BACKFILLED",
+          "basis": "control"
+        },
+        {
+          "field": "root_cause",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "regression_control",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "release_gate",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "origin_builds",
+          "action": "BACKFILLED",
+          "basis": "SOURCE_BUILD_DIRECTORY"
+        }
+      ]
+    },
+    {
+      "source": "Documentation/Build_Records/0042/LESSONS_LEARNED_CONTROL_MATRIX.json",
+      "build_number": "0042",
+      "record_index": 6,
+      "lesson_id": "B0042-LL-006",
+      "matrix_container": "controls",
+      "migrations": [
+        {
+          "field": "lesson_id",
+          "action": "ALIASED",
+          "basis": "control_id"
+        },
+        {
+          "field": "preventive_control",
+          "action": "ALIASED",
+          "basis": "control"
+        },
+        {
+          "field": "control_family",
+          "action": "BACKFILLED",
+          "basis": "INFERRED_FROM_DEFECT_OR_RISK"
+        },
+        {
+          "field": "defect_or_risk",
+          "action": "BACKFILLED",
+          "basis": "control"
+        },
+        {
+          "field": "root_cause",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "regression_control",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "release_gate",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "origin_builds",
+          "action": "BACKFILLED",
+          "basis": "SOURCE_BUILD_DIRECTORY"
+        }
+      ]
+    },
+    {
+      "source": "Documentation/Build_Records/0042/LESSONS_LEARNED_CONTROL_MATRIX.json",
+      "build_number": "0042",
+      "record_index": 7,
+      "lesson_id": "B0042-LL-007",
+      "matrix_container": "controls",
+      "migrations": [
+        {
+          "field": "lesson_id",
+          "action": "ALIASED",
+          "basis": "control_id"
+        },
+        {
+          "field": "preventive_control",
+          "action": "ALIASED",
+          "basis": "control"
+        },
+        {
+          "field": "control_family",
+          "action": "BACKFILLED",
+          "basis": "INFERRED_FROM_DEFECT_OR_RISK"
+        },
+        {
+          "field": "defect_or_risk",
+          "action": "BACKFILLED",
+          "basis": "control"
+        },
+        {
+          "field": "root_cause",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "regression_control",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "release_gate",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "origin_builds",
+          "action": "BACKFILLED",
+          "basis": "SOURCE_BUILD_DIRECTORY"
+        }
+      ]
+    },
+    {
+      "source": "Documentation/Build_Records/0042/LESSONS_LEARNED_CONTROL_MATRIX.json",
+      "build_number": "0042",
+      "record_index": 8,
+      "lesson_id": "B0042-LL-008",
+      "matrix_container": "controls",
+      "migrations": [
+        {
+          "field": "lesson_id",
+          "action": "ALIASED",
+          "basis": "control_id"
+        },
+        {
+          "field": "preventive_control",
+          "action": "ALIASED",
+          "basis": "control"
+        },
+        {
+          "field": "control_family",
+          "action": "BACKFILLED",
+          "basis": "INFERRED_FROM_DEFECT_OR_RISK"
+        },
+        {
+          "field": "defect_or_risk",
+          "action": "BACKFILLED",
+          "basis": "control"
+        },
+        {
+          "field": "root_cause",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "regression_control",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "release_gate",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "origin_builds",
+          "action": "BACKFILLED",
+          "basis": "SOURCE_BUILD_DIRECTORY"
+        }
+      ]
+    },
+    {
+      "source": "Documentation/Build_Records/0042/LESSONS_LEARNED_CONTROL_MATRIX.json",
+      "build_number": "0042",
+      "record_index": 9,
+      "lesson_id": "B0042-LL-009",
+      "matrix_container": "controls",
+      "migrations": [
+        {
+          "field": "lesson_id",
+          "action": "ALIASED",
+          "basis": "control_id"
+        },
+        {
+          "field": "defect_or_risk",
+          "action": "ALIASED",
+          "basis": "defect"
+        },
+        {
+          "field": "control_family",
+          "action": "BACKFILLED",
+          "basis": "INFERRED_FROM_DEFECT_OR_RISK"
+        },
+        {
+          "field": "root_cause",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "regression_control",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "release_gate",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "origin_builds",
+          "action": "BACKFILLED",
+          "basis": "SOURCE_BUILD_DIRECTORY"
+        }
+      ]
+    },
+    {
+      "source": "Documentation/Build_Records/0047/LESSONS_LEARNED_CONTROL_MATRIX.json",
+      "build_number": "0047",
+      "record_index": 1,
+      "lesson_id": "CERT-LESSON-BACKFILL-0047-2C92F433B7A0",
+      "matrix_container": "controls",
+      "migrations": [
+        {
+          "field": "preventive_control",
+          "action": "ALIASED",
+          "basis": "control"
+        },
+        {
+          "field": "control_family",
+          "action": "BACKFILLED",
+          "basis": "INFERRED_FROM_BUILD_NUMBER"
+        },
+        {
+          "field": "defect_or_risk",
+          "action": "BACKFILLED",
+          "basis": "control"
+        },
+        {
+          "field": "root_cause",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "regression_control",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "release_gate",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "lesson_id",
+          "action": "BACKFILLED",
+          "basis": "DETERMINISTIC_HISTORICAL_BACKFILL"
+        },
+        {
+          "field": "origin_builds",
+          "action": "BACKFILLED",
+          "basis": "SOURCE_BUILD_DIRECTORY"
+        }
+      ]
+    },
+    {
+      "source": "Documentation/Build_Records/0047/LESSONS_LEARNED_CONTROL_MATRIX.json",
+      "build_number": "0047",
+      "record_index": 2,
+      "lesson_id": "CERT-LESSON-BACKFILL-0047-F338910078D4",
+      "matrix_container": "controls",
+      "migrations": [
+        {
+          "field": "preventive_control",
+          "action": "ALIASED",
+          "basis": "control"
+        },
+        {
+          "field": "control_family",
+          "action": "BACKFILLED",
+          "basis": "INFERRED_FROM_BUILD_NUMBER"
+        },
+        {
+          "field": "defect_or_risk",
+          "action": "BACKFILLED",
+          "basis": "control"
+        },
+        {
+          "field": "root_cause",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "regression_control",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "release_gate",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "lesson_id",
+          "action": "BACKFILLED",
+          "basis": "DETERMINISTIC_HISTORICAL_BACKFILL"
+        },
+        {
+          "field": "origin_builds",
+          "action": "BACKFILLED",
+          "basis": "SOURCE_BUILD_DIRECTORY"
+        }
+      ]
+    },
+    {
+      "source": "Documentation/Build_Records/0047/LESSONS_LEARNED_CONTROL_MATRIX.json",
+      "build_number": "0047",
+      "record_index": 3,
+      "lesson_id": "CERT-LESSON-BACKFILL-0047-FF9E62094A0C",
+      "matrix_container": "controls",
+      "migrations": [
+        {
+          "field": "preventive_control",
+          "action": "ALIASED",
+          "basis": "control"
+        },
+        {
+          "field": "control_family",
+          "action": "BACKFILLED",
+          "basis": "INFERRED_FROM_BUILD_NUMBER"
+        },
+        {
+          "field": "defect_or_risk",
+          "action": "BACKFILLED",
+          "basis": "control"
+        },
+        {
+          "field": "root_cause",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "regression_control",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "release_gate",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "lesson_id",
+          "action": "BACKFILLED",
+          "basis": "DETERMINISTIC_HISTORICAL_BACKFILL"
+        },
+        {
+          "field": "origin_builds",
+          "action": "BACKFILLED",
+          "basis": "SOURCE_BUILD_DIRECTORY"
+        }
+      ]
+    },
+    {
+      "source": "Documentation/Build_Records/0047/LESSONS_LEARNED_CONTROL_MATRIX.json",
+      "build_number": "0047",
+      "record_index": 4,
+      "lesson_id": "CERT-LESSON-BACKFILL-0047-17CAAC697305",
+      "matrix_container": "controls",
+      "migrations": [
+        {
+          "field": "preventive_control",
+          "action": "ALIASED",
+          "basis": "control"
+        },
+        {
+          "field": "control_family",
+          "action": "BACKFILLED",
+          "basis": "INFERRED_FROM_BUILD_NUMBER"
+        },
+        {
+          "field": "defect_or_risk",
+          "action": "BACKFILLED",
+          "basis": "control"
+        },
+        {
+          "field": "root_cause",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "regression_control",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "release_gate",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "lesson_id",
+          "action": "BACKFILLED",
+          "basis": "DETERMINISTIC_HISTORICAL_BACKFILL"
+        },
+        {
+          "field": "origin_builds",
+          "action": "BACKFILLED",
+          "basis": "SOURCE_BUILD_DIRECTORY"
+        }
+      ]
+    },
+    {
+      "source": "Documentation/Build_Records/0047/LESSONS_LEARNED_CONTROL_MATRIX.json",
+      "build_number": "0047",
+      "record_index": 5,
+      "lesson_id": "CERT-LESSON-BACKFILL-0047-EF05FB05C15E",
+      "matrix_container": "controls",
+      "migrations": [
+        {
+          "field": "preventive_control",
+          "action": "ALIASED",
+          "basis": "control"
+        },
+        {
+          "field": "control_family",
+          "action": "BACKFILLED",
+          "basis": "INFERRED_FROM_BUILD_NUMBER"
+        },
+        {
+          "field": "defect_or_risk",
+          "action": "BACKFILLED",
+          "basis": "control"
+        },
+        {
+          "field": "root_cause",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "regression_control",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "release_gate",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "lesson_id",
+          "action": "BACKFILLED",
+          "basis": "DETERMINISTIC_HISTORICAL_BACKFILL"
+        },
+        {
+          "field": "origin_builds",
+          "action": "BACKFILLED",
+          "basis": "SOURCE_BUILD_DIRECTORY"
+        }
+      ]
+    },
+    {
+      "source": "Documentation/Build_Records/0047/LESSONS_LEARNED_CONTROL_MATRIX.json",
+      "build_number": "0047",
+      "record_index": 6,
+      "lesson_id": "CERT-LESSON-BACKFILL-0047-984609022025",
+      "matrix_container": "controls",
+      "migrations": [
+        {
+          "field": "preventive_control",
+          "action": "ALIASED",
+          "basis": "control"
+        },
+        {
+          "field": "control_family",
+          "action": "BACKFILLED",
+          "basis": "INFERRED_FROM_BUILD_NUMBER"
+        },
+        {
+          "field": "defect_or_risk",
+          "action": "BACKFILLED",
+          "basis": "control"
+        },
+        {
+          "field": "root_cause",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "regression_control",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "release_gate",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "lesson_id",
+          "action": "BACKFILLED",
+          "basis": "DETERMINISTIC_HISTORICAL_BACKFILL"
+        },
+        {
+          "field": "origin_builds",
+          "action": "BACKFILLED",
+          "basis": "SOURCE_BUILD_DIRECTORY"
+        }
+      ]
+    },
+    {
+      "source": "Documentation/Build_Records/0047/LESSONS_LEARNED_CONTROL_MATRIX.json",
+      "build_number": "0047",
+      "record_index": 7,
+      "lesson_id": "CERT-LESSON-BACKFILL-0047-6380689D56BF",
+      "matrix_container": "controls",
+      "migrations": [
+        {
+          "field": "preventive_control",
+          "action": "ALIASED",
+          "basis": "control"
+        },
+        {
+          "field": "control_family",
+          "action": "BACKFILLED",
+          "basis": "INFERRED_FROM_BUILD_NUMBER"
+        },
+        {
+          "field": "defect_or_risk",
+          "action": "BACKFILLED",
+          "basis": "control"
+        },
+        {
+          "field": "root_cause",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "regression_control",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "release_gate",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "lesson_id",
+          "action": "BACKFILLED",
+          "basis": "DETERMINISTIC_HISTORICAL_BACKFILL"
+        },
+        {
+          "field": "origin_builds",
+          "action": "BACKFILLED",
+          "basis": "SOURCE_BUILD_DIRECTORY"
+        }
+      ]
+    },
+    {
+      "source": "Documentation/Build_Records/0047/LESSONS_LEARNED_CONTROL_MATRIX.json",
+      "build_number": "0047",
+      "record_index": 8,
+      "lesson_id": "CERT-LESSON-BACKFILL-0047-6A20EEE07CFD",
+      "matrix_container": "controls",
+      "migrations": [
+        {
+          "field": "preventive_control",
+          "action": "ALIASED",
+          "basis": "control"
+        },
+        {
+          "field": "control_family",
+          "action": "BACKFILLED",
+          "basis": "INFERRED_FROM_BUILD_NUMBER"
+        },
+        {
+          "field": "defect_or_risk",
+          "action": "BACKFILLED",
+          "basis": "control"
+        },
+        {
+          "field": "root_cause",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "regression_control",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "release_gate",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "lesson_id",
+          "action": "BACKFILLED",
+          "basis": "DETERMINISTIC_HISTORICAL_BACKFILL"
+        },
+        {
+          "field": "origin_builds",
+          "action": "BACKFILLED",
+          "basis": "SOURCE_BUILD_DIRECTORY"
+        }
+      ]
+    },
+    {
+      "source": "Documentation/Build_Records/0047/LESSONS_LEARNED_CONTROL_MATRIX.json",
+      "build_number": "0047",
+      "record_index": 9,
+      "lesson_id": "CERT-LESSON-BACKFILL-0047-9C5A831126D9",
+      "matrix_container": "controls",
+      "migrations": [
+        {
+          "field": "preventive_control",
+          "action": "ALIASED",
+          "basis": "control"
+        },
+        {
+          "field": "control_family",
+          "action": "BACKFILLED",
+          "basis": "INFERRED_FROM_BUILD_NUMBER"
+        },
+        {
+          "field": "defect_or_risk",
+          "action": "BACKFILLED",
+          "basis": "control"
+        },
+        {
+          "field": "root_cause",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "regression_control",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "release_gate",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "lesson_id",
+          "action": "BACKFILLED",
+          "basis": "DETERMINISTIC_HISTORICAL_BACKFILL"
+        },
+        {
+          "field": "origin_builds",
+          "action": "BACKFILLED",
+          "basis": "SOURCE_BUILD_DIRECTORY"
+        }
+      ]
+    },
+    {
+      "source": "Documentation/Build_Records/0047/LESSONS_LEARNED_CONTROL_MATRIX.json",
+      "build_number": "0047",
+      "record_index": 10,
+      "lesson_id": "CERT-LESSON-BACKFILL-0047-04011237773E",
+      "matrix_container": "controls",
+      "migrations": [
+        {
+          "field": "preventive_control",
+          "action": "ALIASED",
+          "basis": "control"
+        },
+        {
+          "field": "control_family",
+          "action": "BACKFILLED",
+          "basis": "INFERRED_FROM_BUILD_NUMBER"
+        },
+        {
+          "field": "defect_or_risk",
+          "action": "BACKFILLED",
+          "basis": "control"
+        },
+        {
+          "field": "root_cause",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "regression_control",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "release_gate",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "lesson_id",
+          "action": "BACKFILLED",
+          "basis": "DETERMINISTIC_HISTORICAL_BACKFILL"
+        },
+        {
+          "field": "origin_builds",
+          "action": "BACKFILLED",
+          "basis": "SOURCE_BUILD_DIRECTORY"
+        }
+      ]
+    },
+    {
+      "source": "Documentation/Build_Records/0047/LESSONS_LEARNED_CONTROL_MATRIX.json",
+      "build_number": "0047",
+      "record_index": 11,
+      "lesson_id": "CERT-LESSON-BACKFILL-0047-15136D679796",
+      "matrix_container": "controls",
+      "migrations": [
+        {
+          "field": "preventive_control",
+          "action": "ALIASED",
+          "basis": "control"
+        },
+        {
+          "field": "control_family",
+          "action": "BACKFILLED",
+          "basis": "INFERRED_FROM_BUILD_NUMBER"
+        },
+        {
+          "field": "defect_or_risk",
+          "action": "BACKFILLED",
+          "basis": "control"
+        },
+        {
+          "field": "root_cause",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "regression_control",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "release_gate",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "lesson_id",
+          "action": "BACKFILLED",
+          "basis": "DETERMINISTIC_HISTORICAL_BACKFILL"
+        },
+        {
+          "field": "origin_builds",
+          "action": "BACKFILLED",
+          "basis": "SOURCE_BUILD_DIRECTORY"
+        }
+      ]
+    },
+    {
+      "source": "Documentation/Build_Records/0047/LESSONS_LEARNED_CONTROL_MATRIX.json",
+      "build_number": "0047",
+      "record_index": 12,
+      "lesson_id": "CERT-LESSON-BACKFILL-0047-A1DDA5C6830F",
+      "matrix_container": "controls",
+      "migrations": [
+        {
+          "field": "preventive_control",
+          "action": "ALIASED",
+          "basis": "control"
+        },
+        {
+          "field": "control_family",
+          "action": "BACKFILLED",
+          "basis": "INFERRED_FROM_BUILD_NUMBER"
+        },
+        {
+          "field": "defect_or_risk",
+          "action": "BACKFILLED",
+          "basis": "control"
+        },
+        {
+          "field": "root_cause",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "regression_control",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "release_gate",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "lesson_id",
+          "action": "BACKFILLED",
+          "basis": "DETERMINISTIC_HISTORICAL_BACKFILL"
+        },
+        {
+          "field": "origin_builds",
+          "action": "BACKFILLED",
+          "basis": "SOURCE_BUILD_DIRECTORY"
+        }
+      ]
+    },
+    {
+      "source": "Documentation/Build_Records/0047/LESSONS_LEARNED_CONTROL_MATRIX.json",
+      "build_number": "0047",
+      "record_index": 13,
+      "lesson_id": "CERT-LESSON-BACKFILL-0047-357CF61D2C29",
+      "matrix_container": "controls",
+      "migrations": [
+        {
+          "field": "preventive_control",
+          "action": "ALIASED",
+          "basis": "control"
+        },
+        {
+          "field": "control_family",
+          "action": "BACKFILLED",
+          "basis": "INFERRED_FROM_BUILD_NUMBER"
+        },
+        {
+          "field": "defect_or_risk",
+          "action": "BACKFILLED",
+          "basis": "control"
+        },
+        {
+          "field": "root_cause",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "regression_control",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "release_gate",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "lesson_id",
+          "action": "BACKFILLED",
+          "basis": "DETERMINISTIC_HISTORICAL_BACKFILL"
+        },
+        {
+          "field": "origin_builds",
+          "action": "BACKFILLED",
+          "basis": "SOURCE_BUILD_DIRECTORY"
+        }
+      ]
+    },
+    {
+      "source": "Documentation/Build_Records/0047/LESSONS_LEARNED_CONTROL_MATRIX.json",
+      "build_number": "0047",
+      "record_index": 14,
+      "lesson_id": "CERT-LESSON-BACKFILL-0047-519A0BF55D0F",
+      "matrix_container": "controls",
+      "migrations": [
+        {
+          "field": "preventive_control",
+          "action": "ALIASED",
+          "basis": "control"
+        },
+        {
+          "field": "control_family",
+          "action": "BACKFILLED",
+          "basis": "INFERRED_FROM_BUILD_NUMBER"
+        },
+        {
+          "field": "defect_or_risk",
+          "action": "BACKFILLED",
+          "basis": "control"
+        },
+        {
+          "field": "root_cause",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "regression_control",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "release_gate",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "lesson_id",
+          "action": "BACKFILLED",
+          "basis": "DETERMINISTIC_HISTORICAL_BACKFILL"
+        },
+        {
+          "field": "origin_builds",
+          "action": "BACKFILLED",
+          "basis": "SOURCE_BUILD_DIRECTORY"
+        }
+      ]
+    },
+    {
+      "source": "Documentation/Build_Records/0047/LESSONS_LEARNED_CONTROL_MATRIX.json",
+      "build_number": "0047",
+      "record_index": 15,
+      "lesson_id": "CERT-LESSON-BACKFILL-0047-8776AEE65E80",
+      "matrix_container": "controls",
+      "migrations": [
+        {
+          "field": "preventive_control",
+          "action": "ALIASED",
+          "basis": "control"
+        },
+        {
+          "field": "control_family",
+          "action": "BACKFILLED",
+          "basis": "INFERRED_FROM_BUILD_NUMBER"
+        },
+        {
+          "field": "defect_or_risk",
+          "action": "BACKFILLED",
+          "basis": "control"
+        },
+        {
+          "field": "root_cause",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "regression_control",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "release_gate",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "lesson_id",
+          "action": "BACKFILLED",
+          "basis": "DETERMINISTIC_HISTORICAL_BACKFILL"
+        },
+        {
+          "field": "origin_builds",
+          "action": "BACKFILLED",
+          "basis": "SOURCE_BUILD_DIRECTORY"
+        }
+      ]
+    },
+    {
+      "source": "Documentation/Build_Records/0047/LESSONS_LEARNED_CONTROL_MATRIX.json",
+      "build_number": "0047",
+      "record_index": 16,
+      "lesson_id": "CERT-LESSON-BACKFILL-0047-6225118CC51B",
+      "matrix_container": "controls",
+      "migrations": [
+        {
+          "field": "preventive_control",
+          "action": "ALIASED",
+          "basis": "control"
+        },
+        {
+          "field": "control_family",
+          "action": "BACKFILLED",
+          "basis": "INFERRED_FROM_BUILD_NUMBER"
+        },
+        {
+          "field": "defect_or_risk",
+          "action": "BACKFILLED",
+          "basis": "control"
+        },
+        {
+          "field": "root_cause",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "regression_control",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "release_gate",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "lesson_id",
+          "action": "BACKFILLED",
+          "basis": "DETERMINISTIC_HISTORICAL_BACKFILL"
+        },
+        {
+          "field": "origin_builds",
+          "action": "BACKFILLED",
+          "basis": "SOURCE_BUILD_DIRECTORY"
+        }
+      ]
+    },
+    {
+      "source": "Documentation/Build_Records/0047/LESSONS_LEARNED_CONTROL_MATRIX.json",
+      "build_number": "0047",
+      "record_index": 17,
+      "lesson_id": "CERT-LESSON-BACKFILL-0047-5A3D2F5CFD7B",
+      "matrix_container": "controls",
+      "migrations": [
+        {
+          "field": "preventive_control",
+          "action": "ALIASED",
+          "basis": "control"
+        },
+        {
+          "field": "control_family",
+          "action": "BACKFILLED",
+          "basis": "INFERRED_FROM_BUILD_NUMBER"
+        },
+        {
+          "field": "defect_or_risk",
+          "action": "BACKFILLED",
+          "basis": "control"
+        },
+        {
+          "field": "root_cause",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "regression_control",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "release_gate",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "lesson_id",
+          "action": "BACKFILLED",
+          "basis": "DETERMINISTIC_HISTORICAL_BACKFILL"
+        },
+        {
+          "field": "origin_builds",
+          "action": "BACKFILLED",
+          "basis": "SOURCE_BUILD_DIRECTORY"
+        }
+      ]
+    },
+    {
+      "source": "Documentation/Build_Records/0047/LESSONS_LEARNED_CONTROL_MATRIX.json",
+      "build_number": "0047",
+      "record_index": 18,
+      "lesson_id": "CERT-LESSON-BACKFILL-0047-CDD80CDF98B1",
+      "matrix_container": "controls",
+      "migrations": [
+        {
+          "field": "preventive_control",
+          "action": "ALIASED",
+          "basis": "control"
+        },
+        {
+          "field": "control_family",
+          "action": "BACKFILLED",
+          "basis": "INFERRED_FROM_BUILD_NUMBER"
+        },
+        {
+          "field": "defect_or_risk",
+          "action": "BACKFILLED",
+          "basis": "control"
+        },
+        {
+          "field": "root_cause",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "regression_control",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "release_gate",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "lesson_id",
+          "action": "BACKFILLED",
+          "basis": "DETERMINISTIC_HISTORICAL_BACKFILL"
+        },
+        {
+          "field": "origin_builds",
+          "action": "BACKFILLED",
+          "basis": "SOURCE_BUILD_DIRECTORY"
+        }
+      ]
+    },
+    {
+      "source": "Documentation/Build_Records/0047/LESSONS_LEARNED_CONTROL_MATRIX.json",
+      "build_number": "0047",
+      "record_index": 19,
+      "lesson_id": "CERT-LESSON-BACKFILL-0047-52C56D1D8D75",
+      "matrix_container": "controls",
+      "migrations": [
+        {
+          "field": "preventive_control",
+          "action": "ALIASED",
+          "basis": "control"
+        },
+        {
+          "field": "control_family",
+          "action": "BACKFILLED",
+          "basis": "INFERRED_FROM_BUILD_NUMBER"
+        },
+        {
+          "field": "defect_or_risk",
+          "action": "BACKFILLED",
+          "basis": "control"
+        },
+        {
+          "field": "root_cause",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "regression_control",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "release_gate",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "lesson_id",
+          "action": "BACKFILLED",
+          "basis": "DETERMINISTIC_HISTORICAL_BACKFILL"
+        },
+        {
+          "field": "origin_builds",
+          "action": "BACKFILLED",
+          "basis": "SOURCE_BUILD_DIRECTORY"
+        }
+      ]
+    },
+    {
+      "source": "Documentation/Build_Records/0047/LESSONS_LEARNED_CONTROL_MATRIX.json",
+      "build_number": "0047",
+      "record_index": 20,
+      "lesson_id": "CERT-LESSON-BACKFILL-0047-0D3AE78C8D80",
+      "matrix_container": "controls",
+      "migrations": [
+        {
+          "field": "preventive_control",
+          "action": "ALIASED",
+          "basis": "control"
+        },
+        {
+          "field": "control_family",
+          "action": "BACKFILLED",
+          "basis": "INFERRED_FROM_BUILD_NUMBER"
+        },
+        {
+          "field": "defect_or_risk",
+          "action": "BACKFILLED",
+          "basis": "control"
+        },
+        {
+          "field": "root_cause",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "regression_control",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "release_gate",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "lesson_id",
+          "action": "BACKFILLED",
+          "basis": "DETERMINISTIC_HISTORICAL_BACKFILL"
+        },
+        {
+          "field": "origin_builds",
+          "action": "BACKFILLED",
+          "basis": "SOURCE_BUILD_DIRECTORY"
+        }
+      ]
+    },
+    {
+      "source": "Documentation/Build_Records/0047/LESSONS_LEARNED_CONTROL_MATRIX.json",
+      "build_number": "0047",
+      "record_index": 21,
+      "lesson_id": "CERT-LESSON-BACKFILL-0047-0CEE6AF51474",
+      "matrix_container": "controls",
+      "migrations": [
+        {
+          "field": "preventive_control",
+          "action": "ALIASED",
+          "basis": "control"
+        },
+        {
+          "field": "control_family",
+          "action": "BACKFILLED",
+          "basis": "INFERRED_FROM_BUILD_NUMBER"
+        },
+        {
+          "field": "defect_or_risk",
+          "action": "BACKFILLED",
+          "basis": "control"
+        },
+        {
+          "field": "root_cause",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "regression_control",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "release_gate",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "lesson_id",
+          "action": "BACKFILLED",
+          "basis": "DETERMINISTIC_HISTORICAL_BACKFILL"
+        },
+        {
+          "field": "origin_builds",
+          "action": "BACKFILLED",
+          "basis": "SOURCE_BUILD_DIRECTORY"
+        }
+      ]
+    },
+    {
+      "source": "Documentation/Build_Records/0048/LESSONS_LEARNED_CONTROL_MATRIX.json",
+      "build_number": "0048",
+      "record_index": 1,
+      "lesson_id": "CERT-LESSON-BACKFILL-0048-99C564F15B21",
+      "matrix_container": "controls",
+      "migrations": [
+        {
+          "field": "preventive_control",
+          "action": "ALIASED",
+          "basis": "control"
+        },
+        {
+          "field": "control_family",
+          "action": "BACKFILLED",
+          "basis": "INFERRED_FROM_BUILD_NUMBER"
+        },
+        {
+          "field": "defect_or_risk",
+          "action": "BACKFILLED",
+          "basis": "control"
+        },
+        {
+          "field": "root_cause",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "regression_control",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "release_gate",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "lesson_id",
+          "action": "BACKFILLED",
+          "basis": "DETERMINISTIC_HISTORICAL_BACKFILL"
+        },
+        {
+          "field": "origin_builds",
+          "action": "BACKFILLED",
+          "basis": "SOURCE_BUILD_DIRECTORY"
+        }
+      ]
+    },
+    {
+      "source": "Documentation/Build_Records/0048/LESSONS_LEARNED_CONTROL_MATRIX.json",
+      "build_number": "0048",
+      "record_index": 2,
+      "lesson_id": "CERT-LESSON-BACKFILL-0048-06DE76154926",
+      "matrix_container": "controls",
+      "migrations": [
+        {
+          "field": "preventive_control",
+          "action": "ALIASED",
+          "basis": "control"
+        },
+        {
+          "field": "control_family",
+          "action": "BACKFILLED",
+          "basis": "INFERRED_FROM_BUILD_NUMBER"
+        },
+        {
+          "field": "defect_or_risk",
+          "action": "BACKFILLED",
+          "basis": "control"
+        },
+        {
+          "field": "root_cause",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "regression_control",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "release_gate",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "lesson_id",
+          "action": "BACKFILLED",
+          "basis": "DETERMINISTIC_HISTORICAL_BACKFILL"
+        },
+        {
+          "field": "origin_builds",
+          "action": "BACKFILLED",
+          "basis": "SOURCE_BUILD_DIRECTORY"
+        }
+      ]
+    },
+    {
+      "source": "Documentation/Build_Records/0048/LESSONS_LEARNED_CONTROL_MATRIX.json",
+      "build_number": "0048",
+      "record_index": 3,
+      "lesson_id": "CERT-LESSON-BACKFILL-0048-D748BBFB1077",
+      "matrix_container": "controls",
+      "migrations": [
+        {
+          "field": "preventive_control",
+          "action": "ALIASED",
+          "basis": "control"
+        },
+        {
+          "field": "control_family",
+          "action": "BACKFILLED",
+          "basis": "INFERRED_FROM_BUILD_NUMBER"
+        },
+        {
+          "field": "defect_or_risk",
+          "action": "BACKFILLED",
+          "basis": "control"
+        },
+        {
+          "field": "root_cause",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "regression_control",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "release_gate",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "lesson_id",
+          "action": "BACKFILLED",
+          "basis": "DETERMINISTIC_HISTORICAL_BACKFILL"
+        },
+        {
+          "field": "origin_builds",
+          "action": "BACKFILLED",
+          "basis": "SOURCE_BUILD_DIRECTORY"
+        }
+      ]
+    },
+    {
+      "source": "Documentation/Build_Records/0048/LESSONS_LEARNED_CONTROL_MATRIX.json",
+      "build_number": "0048",
+      "record_index": 4,
+      "lesson_id": "CERT-LESSON-BACKFILL-0048-FDE033F35C34",
+      "matrix_container": "controls",
+      "migrations": [
+        {
+          "field": "preventive_control",
+          "action": "ALIASED",
+          "basis": "control"
+        },
+        {
+          "field": "control_family",
+          "action": "BACKFILLED",
+          "basis": "INFERRED_FROM_BUILD_NUMBER"
+        },
+        {
+          "field": "defect_or_risk",
+          "action": "BACKFILLED",
+          "basis": "control"
+        },
+        {
+          "field": "root_cause",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "regression_control",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "release_gate",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "lesson_id",
+          "action": "BACKFILLED",
+          "basis": "DETERMINISTIC_HISTORICAL_BACKFILL"
+        },
+        {
+          "field": "origin_builds",
+          "action": "BACKFILLED",
+          "basis": "SOURCE_BUILD_DIRECTORY"
+        }
+      ]
+    },
+    {
+      "source": "Documentation/Build_Records/0048/LESSONS_LEARNED_CONTROL_MATRIX.json",
+      "build_number": "0048",
+      "record_index": 5,
+      "lesson_id": "CERT-LESSON-BACKFILL-0048-3A1627D51EAE",
+      "matrix_container": "controls",
+      "migrations": [
+        {
+          "field": "preventive_control",
+          "action": "ALIASED",
+          "basis": "control"
+        },
+        {
+          "field": "control_family",
+          "action": "BACKFILLED",
+          "basis": "INFERRED_FROM_BUILD_NUMBER"
+        },
+        {
+          "field": "defect_or_risk",
+          "action": "BACKFILLED",
+          "basis": "control"
+        },
+        {
+          "field": "root_cause",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "regression_control",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "release_gate",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "lesson_id",
+          "action": "BACKFILLED",
+          "basis": "DETERMINISTIC_HISTORICAL_BACKFILL"
+        },
+        {
+          "field": "origin_builds",
+          "action": "BACKFILLED",
+          "basis": "SOURCE_BUILD_DIRECTORY"
+        }
+      ]
+    },
+    {
+      "source": "Documentation/Build_Records/0048/LESSONS_LEARNED_CONTROL_MATRIX.json",
+      "build_number": "0048",
+      "record_index": 6,
+      "lesson_id": "CERT-LESSON-BACKFILL-0048-6D525C456549",
+      "matrix_container": "controls",
+      "migrations": [
+        {
+          "field": "preventive_control",
+          "action": "ALIASED",
+          "basis": "control"
+        },
+        {
+          "field": "control_family",
+          "action": "BACKFILLED",
+          "basis": "INFERRED_FROM_BUILD_NUMBER"
+        },
+        {
+          "field": "defect_or_risk",
+          "action": "BACKFILLED",
+          "basis": "control"
+        },
+        {
+          "field": "root_cause",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "regression_control",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "release_gate",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "lesson_id",
+          "action": "BACKFILLED",
+          "basis": "DETERMINISTIC_HISTORICAL_BACKFILL"
+        },
+        {
+          "field": "origin_builds",
+          "action": "BACKFILLED",
+          "basis": "SOURCE_BUILD_DIRECTORY"
+        }
+      ]
+    },
+    {
+      "source": "Documentation/Build_Records/0048/LESSONS_LEARNED_CONTROL_MATRIX.json",
+      "build_number": "0048",
+      "record_index": 7,
+      "lesson_id": "CERT-LESSON-BACKFILL-0048-3ABA6C3B6521",
+      "matrix_container": "controls",
+      "migrations": [
+        {
+          "field": "preventive_control",
+          "action": "ALIASED",
+          "basis": "control"
+        },
+        {
+          "field": "control_family",
+          "action": "BACKFILLED",
+          "basis": "INFERRED_FROM_BUILD_NUMBER"
+        },
+        {
+          "field": "defect_or_risk",
+          "action": "BACKFILLED",
+          "basis": "control"
+        },
+        {
+          "field": "root_cause",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "regression_control",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "release_gate",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "lesson_id",
+          "action": "BACKFILLED",
+          "basis": "DETERMINISTIC_HISTORICAL_BACKFILL"
+        },
+        {
+          "field": "origin_builds",
+          "action": "BACKFILLED",
+          "basis": "SOURCE_BUILD_DIRECTORY"
+        }
+      ]
+    },
+    {
+      "source": "Documentation/Build_Records/0048/LESSONS_LEARNED_CONTROL_MATRIX.json",
+      "build_number": "0048",
+      "record_index": 8,
+      "lesson_id": "CERT-LESSON-BACKFILL-0048-82E231D9F077",
+      "matrix_container": "controls",
+      "migrations": [
+        {
+          "field": "preventive_control",
+          "action": "ALIASED",
+          "basis": "control"
+        },
+        {
+          "field": "control_family",
+          "action": "BACKFILLED",
+          "basis": "INFERRED_FROM_BUILD_NUMBER"
+        },
+        {
+          "field": "defect_or_risk",
+          "action": "BACKFILLED",
+          "basis": "control"
+        },
+        {
+          "field": "root_cause",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "regression_control",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "release_gate",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "lesson_id",
+          "action": "BACKFILLED",
+          "basis": "DETERMINISTIC_HISTORICAL_BACKFILL"
+        },
+        {
+          "field": "origin_builds",
+          "action": "BACKFILLED",
+          "basis": "SOURCE_BUILD_DIRECTORY"
+        }
+      ]
+    },
+    {
+      "source": "Documentation/Build_Records/0048/LESSONS_LEARNED_CONTROL_MATRIX.json",
+      "build_number": "0048",
+      "record_index": 9,
+      "lesson_id": "CERT-LESSON-BACKFILL-0048-663A423304C9",
+      "matrix_container": "controls",
+      "migrations": [
+        {
+          "field": "preventive_control",
+          "action": "ALIASED",
+          "basis": "control"
+        },
+        {
+          "field": "control_family",
+          "action": "BACKFILLED",
+          "basis": "INFERRED_FROM_BUILD_NUMBER"
+        },
+        {
+          "field": "defect_or_risk",
+          "action": "BACKFILLED",
+          "basis": "control"
+        },
+        {
+          "field": "root_cause",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "regression_control",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "release_gate",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "lesson_id",
+          "action": "BACKFILLED",
+          "basis": "DETERMINISTIC_HISTORICAL_BACKFILL"
+        },
+        {
+          "field": "origin_builds",
+          "action": "BACKFILLED",
+          "basis": "SOURCE_BUILD_DIRECTORY"
+        }
+      ]
+    },
+    {
+      "source": "Documentation/Build_Records/0048/LESSONS_LEARNED_CONTROL_MATRIX.json",
+      "build_number": "0048",
+      "record_index": 10,
+      "lesson_id": "CERT-LESSON-BACKFILL-0048-B9FEC44D81B3",
+      "matrix_container": "controls",
+      "migrations": [
+        {
+          "field": "preventive_control",
+          "action": "ALIASED",
+          "basis": "control"
+        },
+        {
+          "field": "control_family",
+          "action": "BACKFILLED",
+          "basis": "INFERRED_FROM_BUILD_NUMBER"
+        },
+        {
+          "field": "defect_or_risk",
+          "action": "BACKFILLED",
+          "basis": "control"
+        },
+        {
+          "field": "root_cause",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "regression_control",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "release_gate",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "lesson_id",
+          "action": "BACKFILLED",
+          "basis": "DETERMINISTIC_HISTORICAL_BACKFILL"
+        },
+        {
+          "field": "origin_builds",
+          "action": "BACKFILLED",
+          "basis": "SOURCE_BUILD_DIRECTORY"
+        }
+      ]
+    },
+    {
+      "source": "Documentation/Build_Records/0048/LESSONS_LEARNED_CONTROL_MATRIX.json",
+      "build_number": "0048",
+      "record_index": 11,
+      "lesson_id": "CERT-LESSON-BACKFILL-0048-55D21E869365",
+      "matrix_container": "controls",
+      "migrations": [
+        {
+          "field": "preventive_control",
+          "action": "ALIASED",
+          "basis": "control"
+        },
+        {
+          "field": "control_family",
+          "action": "BACKFILLED",
+          "basis": "INFERRED_FROM_BUILD_NUMBER"
+        },
+        {
+          "field": "defect_or_risk",
+          "action": "BACKFILLED",
+          "basis": "control"
+        },
+        {
+          "field": "root_cause",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "regression_control",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "release_gate",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "lesson_id",
+          "action": "BACKFILLED",
+          "basis": "DETERMINISTIC_HISTORICAL_BACKFILL"
+        },
+        {
+          "field": "origin_builds",
+          "action": "BACKFILLED",
+          "basis": "SOURCE_BUILD_DIRECTORY"
+        }
+      ]
+    },
+    {
+      "source": "Documentation/Build_Records/0048/LESSONS_LEARNED_CONTROL_MATRIX.json",
+      "build_number": "0048",
+      "record_index": 12,
+      "lesson_id": "CERT-LESSON-BACKFILL-0048-249E4BF73E97",
+      "matrix_container": "controls",
+      "migrations": [
+        {
+          "field": "preventive_control",
+          "action": "ALIASED",
+          "basis": "control"
+        },
+        {
+          "field": "control_family",
+          "action": "BACKFILLED",
+          "basis": "INFERRED_FROM_BUILD_NUMBER"
+        },
+        {
+          "field": "defect_or_risk",
+          "action": "BACKFILLED",
+          "basis": "control"
+        },
+        {
+          "field": "root_cause",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "regression_control",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "release_gate",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "lesson_id",
+          "action": "BACKFILLED",
+          "basis": "DETERMINISTIC_HISTORICAL_BACKFILL"
+        },
+        {
+          "field": "origin_builds",
+          "action": "BACKFILLED",
+          "basis": "SOURCE_BUILD_DIRECTORY"
+        }
+      ]
+    },
+    {
+      "source": "Documentation/Build_Records/0048/LESSONS_LEARNED_CONTROL_MATRIX.json",
+      "build_number": "0048",
+      "record_index": 13,
+      "lesson_id": "CERT-LESSON-BACKFILL-0048-24A0429115D8",
+      "matrix_container": "controls",
+      "migrations": [
+        {
+          "field": "preventive_control",
+          "action": "ALIASED",
+          "basis": "control"
+        },
+        {
+          "field": "control_family",
+          "action": "BACKFILLED",
+          "basis": "INFERRED_FROM_BUILD_NUMBER"
+        },
+        {
+          "field": "defect_or_risk",
+          "action": "BACKFILLED",
+          "basis": "control"
+        },
+        {
+          "field": "root_cause",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "regression_control",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "release_gate",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "lesson_id",
+          "action": "BACKFILLED",
+          "basis": "DETERMINISTIC_HISTORICAL_BACKFILL"
+        },
+        {
+          "field": "origin_builds",
+          "action": "BACKFILLED",
+          "basis": "SOURCE_BUILD_DIRECTORY"
+        }
+      ]
+    },
+    {
+      "source": "Documentation/Build_Records/0048/LESSONS_LEARNED_CONTROL_MATRIX.json",
+      "build_number": "0048",
+      "record_index": 14,
+      "lesson_id": "CERT-LESSON-BACKFILL-0048-21C4F178087A",
+      "matrix_container": "controls",
+      "migrations": [
+        {
+          "field": "preventive_control",
+          "action": "ALIASED",
+          "basis": "control"
+        },
+        {
+          "field": "control_family",
+          "action": "BACKFILLED",
+          "basis": "INFERRED_FROM_BUILD_NUMBER"
+        },
+        {
+          "field": "defect_or_risk",
+          "action": "BACKFILLED",
+          "basis": "control"
+        },
+        {
+          "field": "root_cause",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "regression_control",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "release_gate",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "lesson_id",
+          "action": "BACKFILLED",
+          "basis": "DETERMINISTIC_HISTORICAL_BACKFILL"
+        },
+        {
+          "field": "origin_builds",
+          "action": "BACKFILLED",
+          "basis": "SOURCE_BUILD_DIRECTORY"
+        }
+      ]
+    },
+    {
+      "source": "Documentation/Build_Records/0048/LESSONS_LEARNED_CONTROL_MATRIX.json",
+      "build_number": "0048",
+      "record_index": 15,
+      "lesson_id": "CERT-LESSON-BACKFILL-0048-D82C775F088C",
+      "matrix_container": "controls",
+      "migrations": [
+        {
+          "field": "preventive_control",
+          "action": "ALIASED",
+          "basis": "control"
+        },
+        {
+          "field": "control_family",
+          "action": "BACKFILLED",
+          "basis": "INFERRED_FROM_BUILD_NUMBER"
+        },
+        {
+          "field": "defect_or_risk",
+          "action": "BACKFILLED",
+          "basis": "control"
+        },
+        {
+          "field": "root_cause",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "regression_control",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "release_gate",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "lesson_id",
+          "action": "BACKFILLED",
+          "basis": "DETERMINISTIC_HISTORICAL_BACKFILL"
+        },
+        {
+          "field": "origin_builds",
+          "action": "BACKFILLED",
+          "basis": "SOURCE_BUILD_DIRECTORY"
+        }
+      ]
+    },
+    {
+      "source": "Documentation/Build_Records/0048/LESSONS_LEARNED_CONTROL_MATRIX.json",
+      "build_number": "0048",
+      "record_index": 16,
+      "lesson_id": "CERT-LESSON-BACKFILL-0048-B863EEB8B2CF",
+      "matrix_container": "controls",
+      "migrations": [
+        {
+          "field": "preventive_control",
+          "action": "ALIASED",
+          "basis": "control"
+        },
+        {
+          "field": "control_family",
+          "action": "BACKFILLED",
+          "basis": "INFERRED_FROM_BUILD_NUMBER"
+        },
+        {
+          "field": "defect_or_risk",
+          "action": "BACKFILLED",
+          "basis": "control"
+        },
+        {
+          "field": "root_cause",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "regression_control",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "release_gate",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "lesson_id",
+          "action": "BACKFILLED",
+          "basis": "DETERMINISTIC_HISTORICAL_BACKFILL"
+        },
+        {
+          "field": "origin_builds",
+          "action": "BACKFILLED",
+          "basis": "SOURCE_BUILD_DIRECTORY"
+        }
+      ]
+    },
+    {
+      "source": "Documentation/Build_Records/0048/LESSONS_LEARNED_CONTROL_MATRIX.json",
+      "build_number": "0048",
+      "record_index": 17,
+      "lesson_id": "CERT-LESSON-BACKFILL-0048-A1F3700FA7B1",
+      "matrix_container": "controls",
+      "migrations": [
+        {
+          "field": "preventive_control",
+          "action": "ALIASED",
+          "basis": "control"
+        },
+        {
+          "field": "control_family",
+          "action": "BACKFILLED",
+          "basis": "INFERRED_FROM_BUILD_NUMBER"
+        },
+        {
+          "field": "defect_or_risk",
+          "action": "BACKFILLED",
+          "basis": "control"
+        },
+        {
+          "field": "root_cause",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "regression_control",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "release_gate",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "lesson_id",
+          "action": "BACKFILLED",
+          "basis": "DETERMINISTIC_HISTORICAL_BACKFILL"
+        },
+        {
+          "field": "origin_builds",
+          "action": "BACKFILLED",
+          "basis": "SOURCE_BUILD_DIRECTORY"
+        }
+      ]
+    },
+    {
+      "source": "Documentation/Build_Records/0049/LESSONS_LEARNED_CONTROL_MATRIX.json",
+      "build_number": "0049",
+      "record_index": 1,
+      "lesson_id": "CERT-LESSON-BACKFILL-0049-3DF1EF95E7C8",
+      "matrix_container": "controls",
+      "migrations": [
+        {
+          "field": "preventive_control",
+          "action": "ALIASED",
+          "basis": "control"
+        },
+        {
+          "field": "control_family",
+          "action": "BACKFILLED",
+          "basis": "INFERRED_FROM_BUILD_NUMBER"
+        },
+        {
+          "field": "defect_or_risk",
+          "action": "BACKFILLED",
+          "basis": "control"
+        },
+        {
+          "field": "root_cause",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "regression_control",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "release_gate",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "lesson_id",
+          "action": "BACKFILLED",
+          "basis": "DETERMINISTIC_HISTORICAL_BACKFILL"
+        },
+        {
+          "field": "origin_builds",
+          "action": "BACKFILLED",
+          "basis": "SOURCE_BUILD_DIRECTORY"
+        }
+      ]
+    },
+    {
+      "source": "Documentation/Build_Records/0049/LESSONS_LEARNED_CONTROL_MATRIX.json",
+      "build_number": "0049",
+      "record_index": 2,
+      "lesson_id": "CERT-LESSON-BACKFILL-0049-D67FA602A122",
+      "matrix_container": "controls",
+      "migrations": [
+        {
+          "field": "preventive_control",
+          "action": "ALIASED",
+          "basis": "control"
+        },
+        {
+          "field": "control_family",
+          "action": "BACKFILLED",
+          "basis": "INFERRED_FROM_BUILD_NUMBER"
+        },
+        {
+          "field": "defect_or_risk",
+          "action": "BACKFILLED",
+          "basis": "control"
+        },
+        {
+          "field": "root_cause",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "regression_control",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "release_gate",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "lesson_id",
+          "action": "BACKFILLED",
+          "basis": "DETERMINISTIC_HISTORICAL_BACKFILL"
+        },
+        {
+          "field": "origin_builds",
+          "action": "BACKFILLED",
+          "basis": "SOURCE_BUILD_DIRECTORY"
+        }
+      ]
+    },
+    {
+      "source": "Documentation/Build_Records/0049/LESSONS_LEARNED_CONTROL_MATRIX.json",
+      "build_number": "0049",
+      "record_index": 3,
+      "lesson_id": "CERT-LESSON-BACKFILL-0049-F94D7816FC65",
+      "matrix_container": "controls",
+      "migrations": [
+        {
+          "field": "preventive_control",
+          "action": "ALIASED",
+          "basis": "control"
+        },
+        {
+          "field": "control_family",
+          "action": "BACKFILLED",
+          "basis": "INFERRED_FROM_BUILD_NUMBER"
+        },
+        {
+          "field": "defect_or_risk",
+          "action": "BACKFILLED",
+          "basis": "control"
+        },
+        {
+          "field": "root_cause",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "regression_control",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "release_gate",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "lesson_id",
+          "action": "BACKFILLED",
+          "basis": "DETERMINISTIC_HISTORICAL_BACKFILL"
+        },
+        {
+          "field": "origin_builds",
+          "action": "BACKFILLED",
+          "basis": "SOURCE_BUILD_DIRECTORY"
+        }
+      ]
+    },
+    {
+      "source": "Documentation/Build_Records/0049/LESSONS_LEARNED_CONTROL_MATRIX.json",
+      "build_number": "0049",
+      "record_index": 4,
+      "lesson_id": "CERT-LESSON-BACKFILL-0049-1636C561F00E",
+      "matrix_container": "controls",
+      "migrations": [
+        {
+          "field": "preventive_control",
+          "action": "ALIASED",
+          "basis": "control"
+        },
+        {
+          "field": "control_family",
+          "action": "BACKFILLED",
+          "basis": "INFERRED_FROM_BUILD_NUMBER"
+        },
+        {
+          "field": "defect_or_risk",
+          "action": "BACKFILLED",
+          "basis": "control"
+        },
+        {
+          "field": "root_cause",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "regression_control",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "release_gate",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "lesson_id",
+          "action": "BACKFILLED",
+          "basis": "DETERMINISTIC_HISTORICAL_BACKFILL"
+        },
+        {
+          "field": "origin_builds",
+          "action": "BACKFILLED",
+          "basis": "SOURCE_BUILD_DIRECTORY"
+        }
+      ]
+    },
+    {
+      "source": "Documentation/Build_Records/0049/LESSONS_LEARNED_CONTROL_MATRIX.json",
+      "build_number": "0049",
+      "record_index": 5,
+      "lesson_id": "CERT-LESSON-BACKFILL-0049-092E982A6F1F",
+      "matrix_container": "controls",
+      "migrations": [
+        {
+          "field": "preventive_control",
+          "action": "ALIASED",
+          "basis": "control"
+        },
+        {
+          "field": "control_family",
+          "action": "BACKFILLED",
+          "basis": "INFERRED_FROM_BUILD_NUMBER"
+        },
+        {
+          "field": "defect_or_risk",
+          "action": "BACKFILLED",
+          "basis": "control"
+        },
+        {
+          "field": "root_cause",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "regression_control",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "release_gate",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "lesson_id",
+          "action": "BACKFILLED",
+          "basis": "DETERMINISTIC_HISTORICAL_BACKFILL"
+        },
+        {
+          "field": "origin_builds",
+          "action": "BACKFILLED",
+          "basis": "SOURCE_BUILD_DIRECTORY"
+        }
+      ]
+    },
+    {
+      "source": "Documentation/Build_Records/0049/LESSONS_LEARNED_CONTROL_MATRIX.json",
+      "build_number": "0049",
+      "record_index": 6,
+      "lesson_id": "CERT-LESSON-BACKFILL-0049-7A3CF1C1F090",
+      "matrix_container": "controls",
+      "migrations": [
+        {
+          "field": "preventive_control",
+          "action": "ALIASED",
+          "basis": "control"
+        },
+        {
+          "field": "control_family",
+          "action": "BACKFILLED",
+          "basis": "INFERRED_FROM_BUILD_NUMBER"
+        },
+        {
+          "field": "defect_or_risk",
+          "action": "BACKFILLED",
+          "basis": "control"
+        },
+        {
+          "field": "root_cause",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "regression_control",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "release_gate",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "lesson_id",
+          "action": "BACKFILLED",
+          "basis": "DETERMINISTIC_HISTORICAL_BACKFILL"
+        },
+        {
+          "field": "origin_builds",
+          "action": "BACKFILLED",
+          "basis": "SOURCE_BUILD_DIRECTORY"
+        }
+      ]
+    },
+    {
+      "source": "Documentation/Build_Records/0049/LESSONS_LEARNED_CONTROL_MATRIX.json",
+      "build_number": "0049",
+      "record_index": 7,
+      "lesson_id": "CERT-LESSON-BACKFILL-0049-6479622E9E44",
+      "matrix_container": "controls",
+      "migrations": [
+        {
+          "field": "preventive_control",
+          "action": "ALIASED",
+          "basis": "control"
+        },
+        {
+          "field": "control_family",
+          "action": "BACKFILLED",
+          "basis": "INFERRED_FROM_BUILD_NUMBER"
+        },
+        {
+          "field": "defect_or_risk",
+          "action": "BACKFILLED",
+          "basis": "control"
+        },
+        {
+          "field": "root_cause",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "regression_control",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "release_gate",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "lesson_id",
+          "action": "BACKFILLED",
+          "basis": "DETERMINISTIC_HISTORICAL_BACKFILL"
+        },
+        {
+          "field": "origin_builds",
+          "action": "BACKFILLED",
+          "basis": "SOURCE_BUILD_DIRECTORY"
+        }
+      ]
+    },
+    {
+      "source": "Documentation/Build_Records/0049/LESSONS_LEARNED_CONTROL_MATRIX.json",
+      "build_number": "0049",
+      "record_index": 8,
+      "lesson_id": "CERT-LESSON-BACKFILL-0049-50677C7B4046",
+      "matrix_container": "controls",
+      "migrations": [
+        {
+          "field": "preventive_control",
+          "action": "ALIASED",
+          "basis": "control"
+        },
+        {
+          "field": "control_family",
+          "action": "BACKFILLED",
+          "basis": "INFERRED_FROM_BUILD_NUMBER"
+        },
+        {
+          "field": "defect_or_risk",
+          "action": "BACKFILLED",
+          "basis": "control"
+        },
+        {
+          "field": "root_cause",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "regression_control",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "release_gate",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "lesson_id",
+          "action": "BACKFILLED",
+          "basis": "DETERMINISTIC_HISTORICAL_BACKFILL"
+        },
+        {
+          "field": "origin_builds",
+          "action": "BACKFILLED",
+          "basis": "SOURCE_BUILD_DIRECTORY"
+        }
+      ]
+    },
+    {
+      "source": "Documentation/Build_Records/0049/LESSONS_LEARNED_CONTROL_MATRIX.json",
+      "build_number": "0049",
+      "record_index": 9,
+      "lesson_id": "CERT-LESSON-BACKFILL-0049-C35EBC07C229",
+      "matrix_container": "controls",
+      "migrations": [
+        {
+          "field": "preventive_control",
+          "action": "ALIASED",
+          "basis": "control"
+        },
+        {
+          "field": "control_family",
+          "action": "BACKFILLED",
+          "basis": "INFERRED_FROM_BUILD_NUMBER"
+        },
+        {
+          "field": "defect_or_risk",
+          "action": "BACKFILLED",
+          "basis": "control"
+        },
+        {
+          "field": "root_cause",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "regression_control",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "release_gate",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "lesson_id",
+          "action": "BACKFILLED",
+          "basis": "DETERMINISTIC_HISTORICAL_BACKFILL"
+        },
+        {
+          "field": "origin_builds",
+          "action": "BACKFILLED",
+          "basis": "SOURCE_BUILD_DIRECTORY"
+        }
+      ]
+    },
+    {
+      "source": "Documentation/Build_Records/0049/LESSONS_LEARNED_CONTROL_MATRIX.json",
+      "build_number": "0049",
+      "record_index": 10,
+      "lesson_id": "CERT-LESSON-BACKFILL-0049-9EEFF368CBA5",
+      "matrix_container": "controls",
+      "migrations": [
+        {
+          "field": "preventive_control",
+          "action": "ALIASED",
+          "basis": "control"
+        },
+        {
+          "field": "control_family",
+          "action": "BACKFILLED",
+          "basis": "INFERRED_FROM_BUILD_NUMBER"
+        },
+        {
+          "field": "defect_or_risk",
+          "action": "BACKFILLED",
+          "basis": "control"
+        },
+        {
+          "field": "root_cause",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "regression_control",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "release_gate",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "lesson_id",
+          "action": "BACKFILLED",
+          "basis": "DETERMINISTIC_HISTORICAL_BACKFILL"
+        },
+        {
+          "field": "origin_builds",
+          "action": "BACKFILLED",
+          "basis": "SOURCE_BUILD_DIRECTORY"
+        }
+      ]
+    },
+    {
+      "source": "Documentation/Build_Records/0049/LESSONS_LEARNED_CONTROL_MATRIX.json",
+      "build_number": "0049",
+      "record_index": 11,
+      "lesson_id": "CERT-LESSON-BACKFILL-0049-A0000F65E8F6",
+      "matrix_container": "controls",
+      "migrations": [
+        {
+          "field": "preventive_control",
+          "action": "ALIASED",
+          "basis": "control"
+        },
+        {
+          "field": "control_family",
+          "action": "BACKFILLED",
+          "basis": "INFERRED_FROM_BUILD_NUMBER"
+        },
+        {
+          "field": "defect_or_risk",
+          "action": "BACKFILLED",
+          "basis": "control"
+        },
+        {
+          "field": "root_cause",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "regression_control",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "release_gate",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "lesson_id",
+          "action": "BACKFILLED",
+          "basis": "DETERMINISTIC_HISTORICAL_BACKFILL"
+        },
+        {
+          "field": "origin_builds",
+          "action": "BACKFILLED",
+          "basis": "SOURCE_BUILD_DIRECTORY"
+        }
+      ]
+    },
+    {
+      "source": "Documentation/Build_Records/0049/LESSONS_LEARNED_CONTROL_MATRIX.json",
+      "build_number": "0049",
+      "record_index": 12,
+      "lesson_id": "CERT-LESSON-BACKFILL-0049-B9D80B8A6CEF",
+      "matrix_container": "controls",
+      "migrations": [
+        {
+          "field": "preventive_control",
+          "action": "ALIASED",
+          "basis": "control"
+        },
+        {
+          "field": "control_family",
+          "action": "BACKFILLED",
+          "basis": "INFERRED_FROM_BUILD_NUMBER"
+        },
+        {
+          "field": "defect_or_risk",
+          "action": "BACKFILLED",
+          "basis": "control"
+        },
+        {
+          "field": "root_cause",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "regression_control",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "release_gate",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "lesson_id",
+          "action": "BACKFILLED",
+          "basis": "DETERMINISTIC_HISTORICAL_BACKFILL"
+        },
+        {
+          "field": "origin_builds",
+          "action": "BACKFILLED",
+          "basis": "SOURCE_BUILD_DIRECTORY"
+        }
+      ]
+    },
+    {
+      "source": "Documentation/Build_Records/0049/LESSONS_LEARNED_CONTROL_MATRIX.json",
+      "build_number": "0049",
+      "record_index": 13,
+      "lesson_id": "CERT-LESSON-BACKFILL-0049-9950BD0D2FAA",
+      "matrix_container": "controls",
+      "migrations": [
+        {
+          "field": "preventive_control",
+          "action": "ALIASED",
+          "basis": "control"
+        },
+        {
+          "field": "control_family",
+          "action": "BACKFILLED",
+          "basis": "INFERRED_FROM_BUILD_NUMBER"
+        },
+        {
+          "field": "defect_or_risk",
+          "action": "BACKFILLED",
+          "basis": "control"
+        },
+        {
+          "field": "root_cause",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "regression_control",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "release_gate",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "lesson_id",
+          "action": "BACKFILLED",
+          "basis": "DETERMINISTIC_HISTORICAL_BACKFILL"
+        },
+        {
+          "field": "origin_builds",
+          "action": "BACKFILLED",
+          "basis": "SOURCE_BUILD_DIRECTORY"
+        }
+      ]
+    },
+    {
+      "source": "Documentation/Build_Records/0049/LESSONS_LEARNED_CONTROL_MATRIX.json",
+      "build_number": "0049",
+      "record_index": 14,
+      "lesson_id": "CERT-LESSON-BACKFILL-0049-5B26C8977917",
+      "matrix_container": "controls",
+      "migrations": [
+        {
+          "field": "preventive_control",
+          "action": "ALIASED",
+          "basis": "control"
+        },
+        {
+          "field": "control_family",
+          "action": "BACKFILLED",
+          "basis": "INFERRED_FROM_BUILD_NUMBER"
+        },
+        {
+          "field": "defect_or_risk",
+          "action": "BACKFILLED",
+          "basis": "control"
+        },
+        {
+          "field": "root_cause",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "regression_control",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "release_gate",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "lesson_id",
+          "action": "BACKFILLED",
+          "basis": "DETERMINISTIC_HISTORICAL_BACKFILL"
+        },
+        {
+          "field": "origin_builds",
+          "action": "BACKFILLED",
+          "basis": "SOURCE_BUILD_DIRECTORY"
+        }
+      ]
+    },
+    {
+      "source": "Documentation/Build_Records/0049/LESSONS_LEARNED_CONTROL_MATRIX.json",
+      "build_number": "0049",
+      "record_index": 15,
+      "lesson_id": "CERT-LESSON-BACKFILL-0049-86ACF2CB8D62",
+      "matrix_container": "controls",
+      "migrations": [
+        {
+          "field": "preventive_control",
+          "action": "ALIASED",
+          "basis": "control"
+        },
+        {
+          "field": "control_family",
+          "action": "BACKFILLED",
+          "basis": "INFERRED_FROM_BUILD_NUMBER"
+        },
+        {
+          "field": "defect_or_risk",
+          "action": "BACKFILLED",
+          "basis": "control"
+        },
+        {
+          "field": "root_cause",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "regression_control",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "release_gate",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "lesson_id",
+          "action": "BACKFILLED",
+          "basis": "DETERMINISTIC_HISTORICAL_BACKFILL"
+        },
+        {
+          "field": "origin_builds",
+          "action": "BACKFILLED",
+          "basis": "SOURCE_BUILD_DIRECTORY"
+        }
+      ]
+    },
+    {
+      "source": "Documentation/Build_Records/0049/LESSONS_LEARNED_CONTROL_MATRIX.json",
+      "build_number": "0049",
+      "record_index": 16,
+      "lesson_id": "CERT-LESSON-BACKFILL-0049-14C4725852FE",
+      "matrix_container": "controls",
+      "migrations": [
+        {
+          "field": "preventive_control",
+          "action": "ALIASED",
+          "basis": "control"
+        },
+        {
+          "field": "control_family",
+          "action": "BACKFILLED",
+          "basis": "INFERRED_FROM_BUILD_NUMBER"
+        },
+        {
+          "field": "defect_or_risk",
+          "action": "BACKFILLED",
+          "basis": "control"
+        },
+        {
+          "field": "root_cause",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "regression_control",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "release_gate",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "lesson_id",
+          "action": "BACKFILLED",
+          "basis": "DETERMINISTIC_HISTORICAL_BACKFILL"
+        },
+        {
+          "field": "origin_builds",
+          "action": "BACKFILLED",
+          "basis": "SOURCE_BUILD_DIRECTORY"
+        }
+      ]
+    },
+    {
+      "source": "Documentation/Build_Records/0050/LESSONS_LEARNED_CONTROL_MATRIX.json",
+      "build_number": "0050",
+      "record_index": 1,
+      "lesson_id": "CERT-LESSON-BACKFILL-0050-4EB0508D4D72",
+      "matrix_container": "controls",
+      "migrations": [
+        {
+          "field": "preventive_control",
+          "action": "ALIASED",
+          "basis": "control"
+        },
+        {
+          "field": "control_family",
+          "action": "BACKFILLED",
+          "basis": "INFERRED_FROM_BUILD_NUMBER"
+        },
+        {
+          "field": "defect_or_risk",
+          "action": "BACKFILLED",
+          "basis": "control"
+        },
+        {
+          "field": "root_cause",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "regression_control",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "release_gate",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "lesson_id",
+          "action": "BACKFILLED",
+          "basis": "DETERMINISTIC_HISTORICAL_BACKFILL"
+        },
+        {
+          "field": "origin_builds",
+          "action": "BACKFILLED",
+          "basis": "SOURCE_BUILD_DIRECTORY"
+        }
+      ]
+    },
+    {
+      "source": "Documentation/Build_Records/0050/LESSONS_LEARNED_CONTROL_MATRIX.json",
+      "build_number": "0050",
+      "record_index": 2,
+      "lesson_id": "CERT-LESSON-BACKFILL-0050-7DCC6A8EBE98",
+      "matrix_container": "controls",
+      "migrations": [
+        {
+          "field": "preventive_control",
+          "action": "ALIASED",
+          "basis": "control"
+        },
+        {
+          "field": "control_family",
+          "action": "BACKFILLED",
+          "basis": "INFERRED_FROM_BUILD_NUMBER"
+        },
+        {
+          "field": "defect_or_risk",
+          "action": "BACKFILLED",
+          "basis": "control"
+        },
+        {
+          "field": "root_cause",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "regression_control",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "release_gate",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "lesson_id",
+          "action": "BACKFILLED",
+          "basis": "DETERMINISTIC_HISTORICAL_BACKFILL"
+        },
+        {
+          "field": "origin_builds",
+          "action": "BACKFILLED",
+          "basis": "SOURCE_BUILD_DIRECTORY"
+        }
+      ]
+    },
+    {
+      "source": "Documentation/Build_Records/0050/LESSONS_LEARNED_CONTROL_MATRIX.json",
+      "build_number": "0050",
+      "record_index": 3,
+      "lesson_id": "CERT-LESSON-BACKFILL-0050-557259D7FF88",
+      "matrix_container": "controls",
+      "migrations": [
+        {
+          "field": "preventive_control",
+          "action": "ALIASED",
+          "basis": "control"
+        },
+        {
+          "field": "control_family",
+          "action": "BACKFILLED",
+          "basis": "INFERRED_FROM_BUILD_NUMBER"
+        },
+        {
+          "field": "defect_or_risk",
+          "action": "BACKFILLED",
+          "basis": "control"
+        },
+        {
+          "field": "root_cause",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "regression_control",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "release_gate",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "lesson_id",
+          "action": "BACKFILLED",
+          "basis": "DETERMINISTIC_HISTORICAL_BACKFILL"
+        },
+        {
+          "field": "origin_builds",
+          "action": "BACKFILLED",
+          "basis": "SOURCE_BUILD_DIRECTORY"
+        }
+      ]
+    },
+    {
+      "source": "Documentation/Build_Records/0050/LESSONS_LEARNED_CONTROL_MATRIX.json",
+      "build_number": "0050",
+      "record_index": 4,
+      "lesson_id": "CERT-LESSON-BACKFILL-0050-494F0BF5531D",
+      "matrix_container": "controls",
+      "migrations": [
+        {
+          "field": "preventive_control",
+          "action": "ALIASED",
+          "basis": "control"
+        },
+        {
+          "field": "control_family",
+          "action": "BACKFILLED",
+          "basis": "INFERRED_FROM_BUILD_NUMBER"
+        },
+        {
+          "field": "defect_or_risk",
+          "action": "BACKFILLED",
+          "basis": "control"
+        },
+        {
+          "field": "root_cause",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "regression_control",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "release_gate",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "lesson_id",
+          "action": "BACKFILLED",
+          "basis": "DETERMINISTIC_HISTORICAL_BACKFILL"
+        },
+        {
+          "field": "origin_builds",
+          "action": "BACKFILLED",
+          "basis": "SOURCE_BUILD_DIRECTORY"
+        }
+      ]
+    },
+    {
+      "source": "Documentation/Build_Records/0050/LESSONS_LEARNED_CONTROL_MATRIX.json",
+      "build_number": "0050",
+      "record_index": 5,
+      "lesson_id": "CERT-LESSON-BACKFILL-0050-8A17D21252F8",
+      "matrix_container": "controls",
+      "migrations": [
+        {
+          "field": "preventive_control",
+          "action": "ALIASED",
+          "basis": "control"
+        },
+        {
+          "field": "control_family",
+          "action": "BACKFILLED",
+          "basis": "INFERRED_FROM_BUILD_NUMBER"
+        },
+        {
+          "field": "defect_or_risk",
+          "action": "BACKFILLED",
+          "basis": "control"
+        },
+        {
+          "field": "root_cause",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "regression_control",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "release_gate",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "lesson_id",
+          "action": "BACKFILLED",
+          "basis": "DETERMINISTIC_HISTORICAL_BACKFILL"
+        },
+        {
+          "field": "origin_builds",
+          "action": "BACKFILLED",
+          "basis": "SOURCE_BUILD_DIRECTORY"
+        }
+      ]
+    },
+    {
+      "source": "Documentation/Build_Records/0050/LESSONS_LEARNED_CONTROL_MATRIX.json",
+      "build_number": "0050",
+      "record_index": 6,
+      "lesson_id": "CERT-LESSON-BACKFILL-0050-1CD8EE68EEFF",
+      "matrix_container": "controls",
+      "migrations": [
+        {
+          "field": "preventive_control",
+          "action": "ALIASED",
+          "basis": "control"
+        },
+        {
+          "field": "control_family",
+          "action": "BACKFILLED",
+          "basis": "INFERRED_FROM_BUILD_NUMBER"
+        },
+        {
+          "field": "defect_or_risk",
+          "action": "BACKFILLED",
+          "basis": "control"
+        },
+        {
+          "field": "root_cause",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "regression_control",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "release_gate",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "lesson_id",
+          "action": "BACKFILLED",
+          "basis": "DETERMINISTIC_HISTORICAL_BACKFILL"
+        },
+        {
+          "field": "origin_builds",
+          "action": "BACKFILLED",
+          "basis": "SOURCE_BUILD_DIRECTORY"
+        }
+      ]
+    },
+    {
+      "source": "Documentation/Build_Records/0050/LESSONS_LEARNED_CONTROL_MATRIX.json",
+      "build_number": "0050",
+      "record_index": 7,
+      "lesson_id": "CERT-LESSON-BACKFILL-0050-E7D2000C76F8",
+      "matrix_container": "controls",
+      "migrations": [
+        {
+          "field": "preventive_control",
+          "action": "ALIASED",
+          "basis": "control"
+        },
+        {
+          "field": "control_family",
+          "action": "BACKFILLED",
+          "basis": "INFERRED_FROM_BUILD_NUMBER"
+        },
+        {
+          "field": "defect_or_risk",
+          "action": "BACKFILLED",
+          "basis": "control"
+        },
+        {
+          "field": "root_cause",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "regression_control",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "release_gate",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "lesson_id",
+          "action": "BACKFILLED",
+          "basis": "DETERMINISTIC_HISTORICAL_BACKFILL"
+        },
+        {
+          "field": "origin_builds",
+          "action": "BACKFILLED",
+          "basis": "SOURCE_BUILD_DIRECTORY"
+        }
+      ]
+    },
+    {
+      "source": "Documentation/Build_Records/0050/LESSONS_LEARNED_CONTROL_MATRIX.json",
+      "build_number": "0050",
+      "record_index": 8,
+      "lesson_id": "CERT-LESSON-BACKFILL-0050-7D1B2DB785E2",
+      "matrix_container": "controls",
+      "migrations": [
+        {
+          "field": "preventive_control",
+          "action": "ALIASED",
+          "basis": "control"
+        },
+        {
+          "field": "control_family",
+          "action": "BACKFILLED",
+          "basis": "INFERRED_FROM_BUILD_NUMBER"
+        },
+        {
+          "field": "defect_or_risk",
+          "action": "BACKFILLED",
+          "basis": "control"
+        },
+        {
+          "field": "root_cause",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "regression_control",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "release_gate",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "lesson_id",
+          "action": "BACKFILLED",
+          "basis": "DETERMINISTIC_HISTORICAL_BACKFILL"
+        },
+        {
+          "field": "origin_builds",
+          "action": "BACKFILLED",
+          "basis": "SOURCE_BUILD_DIRECTORY"
+        }
+      ]
+    },
+    {
+      "source": "Documentation/Build_Records/0050/LESSONS_LEARNED_CONTROL_MATRIX.json",
+      "build_number": "0050",
+      "record_index": 9,
+      "lesson_id": "CERT-LESSON-BACKFILL-0050-342D12B36CAC",
+      "matrix_container": "controls",
+      "migrations": [
+        {
+          "field": "preventive_control",
+          "action": "ALIASED",
+          "basis": "control"
+        },
+        {
+          "field": "control_family",
+          "action": "BACKFILLED",
+          "basis": "INFERRED_FROM_BUILD_NUMBER"
+        },
+        {
+          "field": "defect_or_risk",
+          "action": "BACKFILLED",
+          "basis": "control"
+        },
+        {
+          "field": "root_cause",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "regression_control",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "release_gate",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "lesson_id",
+          "action": "BACKFILLED",
+          "basis": "DETERMINISTIC_HISTORICAL_BACKFILL"
+        },
+        {
+          "field": "origin_builds",
+          "action": "BACKFILLED",
+          "basis": "SOURCE_BUILD_DIRECTORY"
+        }
+      ]
+    },
+    {
+      "source": "Documentation/Build_Records/0050/LESSONS_LEARNED_CONTROL_MATRIX.json",
+      "build_number": "0050",
+      "record_index": 10,
+      "lesson_id": "CERT-LESSON-BACKFILL-0050-CAD63750FCDA",
+      "matrix_container": "controls",
+      "migrations": [
+        {
+          "field": "preventive_control",
+          "action": "ALIASED",
+          "basis": "control"
+        },
+        {
+          "field": "control_family",
+          "action": "BACKFILLED",
+          "basis": "INFERRED_FROM_BUILD_NUMBER"
+        },
+        {
+          "field": "defect_or_risk",
+          "action": "BACKFILLED",
+          "basis": "control"
+        },
+        {
+          "field": "root_cause",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "regression_control",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "release_gate",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "lesson_id",
+          "action": "BACKFILLED",
+          "basis": "DETERMINISTIC_HISTORICAL_BACKFILL"
+        },
+        {
+          "field": "origin_builds",
+          "action": "BACKFILLED",
+          "basis": "SOURCE_BUILD_DIRECTORY"
+        }
+      ]
+    },
+    {
+      "source": "Documentation/Build_Records/0050/LESSONS_LEARNED_CONTROL_MATRIX.json",
+      "build_number": "0050",
+      "record_index": 11,
+      "lesson_id": "CERT-LESSON-BACKFILL-0050-4B84D036213E",
+      "matrix_container": "controls",
+      "migrations": [
+        {
+          "field": "preventive_control",
+          "action": "ALIASED",
+          "basis": "control"
+        },
+        {
+          "field": "control_family",
+          "action": "BACKFILLED",
+          "basis": "INFERRED_FROM_BUILD_NUMBER"
+        },
+        {
+          "field": "defect_or_risk",
+          "action": "BACKFILLED",
+          "basis": "control"
+        },
+        {
+          "field": "root_cause",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "regression_control",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "release_gate",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "lesson_id",
+          "action": "BACKFILLED",
+          "basis": "DETERMINISTIC_HISTORICAL_BACKFILL"
+        },
+        {
+          "field": "origin_builds",
+          "action": "BACKFILLED",
+          "basis": "SOURCE_BUILD_DIRECTORY"
+        }
+      ]
+    },
+    {
+      "source": "Documentation/Build_Records/0050/LESSONS_LEARNED_CONTROL_MATRIX.json",
+      "build_number": "0050",
+      "record_index": 12,
+      "lesson_id": "CERT-LESSON-BACKFILL-0050-D0C399C71E10",
+      "matrix_container": "controls",
+      "migrations": [
+        {
+          "field": "preventive_control",
+          "action": "ALIASED",
+          "basis": "control"
+        },
+        {
+          "field": "control_family",
+          "action": "BACKFILLED",
+          "basis": "INFERRED_FROM_BUILD_NUMBER"
+        },
+        {
+          "field": "defect_or_risk",
+          "action": "BACKFILLED",
+          "basis": "control"
+        },
+        {
+          "field": "root_cause",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "regression_control",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "release_gate",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "lesson_id",
+          "action": "BACKFILLED",
+          "basis": "DETERMINISTIC_HISTORICAL_BACKFILL"
+        },
+        {
+          "field": "origin_builds",
+          "action": "BACKFILLED",
+          "basis": "SOURCE_BUILD_DIRECTORY"
+        }
+      ]
+    },
+    {
+      "source": "Documentation/Build_Records/0050/LESSONS_LEARNED_CONTROL_MATRIX.json",
+      "build_number": "0050",
+      "record_index": 13,
+      "lesson_id": "CERT-LESSON-BACKFILL-0050-8C84AA0B5C97",
+      "matrix_container": "controls",
+      "migrations": [
+        {
+          "field": "preventive_control",
+          "action": "ALIASED",
+          "basis": "control"
+        },
+        {
+          "field": "control_family",
+          "action": "BACKFILLED",
+          "basis": "INFERRED_FROM_BUILD_NUMBER"
+        },
+        {
+          "field": "defect_or_risk",
+          "action": "BACKFILLED",
+          "basis": "control"
+        },
+        {
+          "field": "root_cause",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "regression_control",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "release_gate",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "lesson_id",
+          "action": "BACKFILLED",
+          "basis": "DETERMINISTIC_HISTORICAL_BACKFILL"
+        },
+        {
+          "field": "origin_builds",
+          "action": "BACKFILLED",
+          "basis": "SOURCE_BUILD_DIRECTORY"
+        }
+      ]
+    },
+    {
+      "source": "Documentation/Build_Records/0050/LESSONS_LEARNED_CONTROL_MATRIX.json",
+      "build_number": "0050",
+      "record_index": 14,
+      "lesson_id": "CERT-LESSON-BACKFILL-0050-499B8F8AB6C2",
+      "matrix_container": "controls",
+      "migrations": [
+        {
+          "field": "preventive_control",
+          "action": "ALIASED",
+          "basis": "control"
+        },
+        {
+          "field": "control_family",
+          "action": "BACKFILLED",
+          "basis": "INFERRED_FROM_BUILD_NUMBER"
+        },
+        {
+          "field": "defect_or_risk",
+          "action": "BACKFILLED",
+          "basis": "control"
+        },
+        {
+          "field": "root_cause",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "regression_control",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "release_gate",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "lesson_id",
+          "action": "BACKFILLED",
+          "basis": "DETERMINISTIC_HISTORICAL_BACKFILL"
+        },
+        {
+          "field": "origin_builds",
+          "action": "BACKFILLED",
+          "basis": "SOURCE_BUILD_DIRECTORY"
+        }
+      ]
+    },
+    {
+      "source": "Documentation/Build_Records/0051/LESSONS_LEARNED_CONTROL_MATRIX.json",
+      "build_number": "0051",
+      "record_index": 1,
+      "lesson_id": "CERT-LESSON-BACKFILL-0051-8BB7AD5A76D3",
+      "matrix_container": "controls",
+      "migrations": [
+        {
+          "field": "defect_or_risk",
+          "action": "ALIASED",
+          "basis": "lesson"
+        },
+        {
+          "field": "preventive_control",
+          "action": "ALIASED",
+          "basis": "control"
+        },
+        {
+          "field": "control_family",
+          "action": "BACKFILLED",
+          "basis": "INFERRED_FROM_DEFECT_OR_RISK"
+        },
+        {
+          "field": "root_cause",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "regression_control",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "release_gate",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "status",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "lesson_id",
+          "action": "BACKFILLED",
+          "basis": "DETERMINISTIC_HISTORICAL_BACKFILL"
+        },
+        {
+          "field": "origin_builds",
+          "action": "BACKFILLED",
+          "basis": "SOURCE_BUILD_DIRECTORY"
+        }
+      ]
+    },
+    {
+      "source": "Documentation/Build_Records/0051/LESSONS_LEARNED_CONTROL_MATRIX.json",
+      "build_number": "0051",
+      "record_index": 2,
+      "lesson_id": "CERT-LESSON-BACKFILL-0051-272A80B373AC",
+      "matrix_container": "controls",
+      "migrations": [
+        {
+          "field": "defect_or_risk",
+          "action": "ALIASED",
+          "basis": "lesson"
+        },
+        {
+          "field": "preventive_control",
+          "action": "ALIASED",
+          "basis": "control"
+        },
+        {
+          "field": "control_family",
+          "action": "BACKFILLED",
+          "basis": "INFERRED_FROM_DEFECT_OR_RISK"
+        },
+        {
+          "field": "root_cause",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "regression_control",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "release_gate",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "status",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "lesson_id",
+          "action": "BACKFILLED",
+          "basis": "DETERMINISTIC_HISTORICAL_BACKFILL"
+        },
+        {
+          "field": "origin_builds",
+          "action": "BACKFILLED",
+          "basis": "SOURCE_BUILD_DIRECTORY"
+        }
+      ]
+    },
+    {
+      "source": "Documentation/Build_Records/0051/LESSONS_LEARNED_CONTROL_MATRIX.json",
+      "build_number": "0051",
+      "record_index": 3,
+      "lesson_id": "CERT-LESSON-BACKFILL-0051-0911F39DE7D4",
+      "matrix_container": "controls",
+      "migrations": [
+        {
+          "field": "defect_or_risk",
+          "action": "ALIASED",
+          "basis": "lesson"
+        },
+        {
+          "field": "preventive_control",
+          "action": "ALIASED",
+          "basis": "control"
+        },
+        {
+          "field": "control_family",
+          "action": "BACKFILLED",
+          "basis": "INFERRED_FROM_DEFECT_OR_RISK"
+        },
+        {
+          "field": "root_cause",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "regression_control",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "release_gate",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "status",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "lesson_id",
+          "action": "BACKFILLED",
+          "basis": "DETERMINISTIC_HISTORICAL_BACKFILL"
+        },
+        {
+          "field": "origin_builds",
+          "action": "BACKFILLED",
+          "basis": "SOURCE_BUILD_DIRECTORY"
+        }
+      ]
+    },
+    {
+      "source": "Documentation/Build_Records/0051/LESSONS_LEARNED_CONTROL_MATRIX.json",
+      "build_number": "0051",
+      "record_index": 4,
+      "lesson_id": "CERT-LESSON-BACKFILL-0051-1849838D94EC",
+      "matrix_container": "controls",
+      "migrations": [
+        {
+          "field": "defect_or_risk",
+          "action": "ALIASED",
+          "basis": "lesson"
+        },
+        {
+          "field": "preventive_control",
+          "action": "ALIASED",
+          "basis": "control"
+        },
+        {
+          "field": "control_family",
+          "action": "BACKFILLED",
+          "basis": "INFERRED_FROM_DEFECT_OR_RISK"
+        },
+        {
+          "field": "root_cause",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "regression_control",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "release_gate",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "status",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "lesson_id",
+          "action": "BACKFILLED",
+          "basis": "DETERMINISTIC_HISTORICAL_BACKFILL"
+        },
+        {
+          "field": "origin_builds",
+          "action": "BACKFILLED",
+          "basis": "SOURCE_BUILD_DIRECTORY"
+        }
+      ]
+    },
+    {
+      "source": "Documentation/Build_Records/0051/LESSONS_LEARNED_CONTROL_MATRIX.json",
+      "build_number": "0051",
+      "record_index": 5,
+      "lesson_id": "CERT-LESSON-BACKFILL-0051-097B9C921A7A",
+      "matrix_container": "controls",
+      "migrations": [
+        {
+          "field": "defect_or_risk",
+          "action": "ALIASED",
+          "basis": "lesson"
+        },
+        {
+          "field": "preventive_control",
+          "action": "ALIASED",
+          "basis": "control"
+        },
+        {
+          "field": "control_family",
+          "action": "BACKFILLED",
+          "basis": "INFERRED_FROM_DEFECT_OR_RISK"
+        },
+        {
+          "field": "root_cause",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "regression_control",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "release_gate",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "status",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "lesson_id",
+          "action": "BACKFILLED",
+          "basis": "DETERMINISTIC_HISTORICAL_BACKFILL"
+        },
+        {
+          "field": "origin_builds",
+          "action": "BACKFILLED",
+          "basis": "SOURCE_BUILD_DIRECTORY"
+        }
+      ]
+    },
+    {
+      "source": "Documentation/Build_Records/0051/LESSONS_LEARNED_CONTROL_MATRIX.json",
+      "build_number": "0051",
+      "record_index": 6,
+      "lesson_id": "CERT-LESSON-BACKFILL-0051-8D521B0C9E06",
+      "matrix_container": "controls",
+      "migrations": [
+        {
+          "field": "defect_or_risk",
+          "action": "ALIASED",
+          "basis": "lesson"
+        },
+        {
+          "field": "preventive_control",
+          "action": "ALIASED",
+          "basis": "control"
+        },
+        {
+          "field": "control_family",
+          "action": "BACKFILLED",
+          "basis": "INFERRED_FROM_DEFECT_OR_RISK"
+        },
+        {
+          "field": "root_cause",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "regression_control",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "release_gate",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "status",
+          "action": "BACKFILLED",
+          "basis": "CONTROLLED_LEGACY_DEFAULT"
+        },
+        {
+          "field": "lesson_id",
+          "action": "BACKFILLED",
+          "basis": "DETERMINISTIC_HISTORICAL_BACKFILL"
+        },
+        {
+          "field": "origin_builds",
+          "action": "BACKFILLED",
+          "basis": "SOURCE_BUILD_DIRECTORY"
+        }
+      ]
+    }
+  ],
+  "markdown_json_parity": "PASS",
+  "generated_text_hygiene": "PASS",
+  "markdown_sha256_after": "C9E508A8A91478E2F60EA93C3AF3E73DC9CE03BBC8B9E307EF33D0792C5ADCD0",
+  "json_sha256_after": "5BE050ACF13753E14AD0CD1197AF92FDCE090046DAC31D94C1A61021BB879998"
+}

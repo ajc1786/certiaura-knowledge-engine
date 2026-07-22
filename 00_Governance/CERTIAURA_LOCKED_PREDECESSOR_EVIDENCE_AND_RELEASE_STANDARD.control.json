@@ -1,0 +1,36 @@
+{
+  "document_id": "CERT-GOV-PRED-001",
+  "version": "1.4.0",
+  "status": "SUPERSEDED_CONTROLS_RETAINED",
+  "effective_date": "2026-07-21",
+  "canonical_repository_path": "00_Governance/CERTIAURA_LOCKED_PREDECESSOR_EVIDENCE_AND_RELEASE_STANDARD.md",
+  "superseding_source": "00_Governance/CERTIAURA_LOCKED_ACCUMULATED_LESSONS_AND_CONTINUOUS_LEARNING_STANDARD.md",
+  "controls_weakened_or_removed": false,
+  "build_0052_rc1": "WITHDRAWN_DO_NOT_IMPORT",
+  "next_required_candidate": "BUILD_0052_RC6",
+  "manifest_schema_control": {
+    "strict_version_aware_adapter": true,
+    "supported_path_forms": [
+      "repository_path",
+      "repository_relative_path",
+      "relative_path",
+      "file_path",
+      "path",
+      "string_entry",
+      "object_map_key"
+    ],
+    "reject_alias_conflict": true,
+    "reject_traversal": true,
+    "record_detected_schema": true
+  },
+  "build_0052_rc3": {
+    "status": "WITHDRAWN_DO_NOT_IMPORT",
+    "failure_code": "LESSON_REQUIRED_FIELD_MISSING",
+    "scope": "Cumulative lessons historical schema compatibility; predecessor controls passed before transactional reapply rollback."
+  },
+  "build_0052_rc4": {
+    "status": "WITHDRAWN_DO_NOT_IMPORT",
+    "failure_code": "FALSE_REQUIRED_TOKEN_MISSING",
+    "scope": "Windows regression output assertion; predecessor evidence and rollback controls passed."
+  }
+}

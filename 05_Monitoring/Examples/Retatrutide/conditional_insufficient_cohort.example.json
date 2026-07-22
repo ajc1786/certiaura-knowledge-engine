@@ -1,0 +1,21 @@
+{
+  "signal_id": "RET-SIG-0002",
+  "build_provenance": "CERT-BUILD-0052",
+  "compound": "retatrutide",
+  "case_count": 2,
+  "case_references": [
+    "CASE-0051-0021",
+    "CASE-0051-0024"
+  ],
+  "classification": "INSUFFICIENT_DATA",
+  "human_review_required": true,
+  "autonomous_clinical_action": false,
+  "evidence_feedback_status": "BLOCKED",
+  "direct_identifiers_present": false,
+  "severity_distribution": {
+    "mild": 2,
+    "moderate": 0,
+    "serious": 0
+  },
+  "source_count": 1
+}

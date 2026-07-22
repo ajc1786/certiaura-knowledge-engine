@@ -1,0 +1,8 @@
+{
+  "build_number": "0052",
+  "candidate": "RC6",
+  "delivery_status": "GENERATED_PENDING_CANONICAL_WINDOWS_REGRESSION",
+  "one_zip_only": true,
+  "required_endpoint": "BUILD_0052_RC6_READY_FOR_CANONICAL_IMPORT",
+  "commit_message": "Add Certiaura Build 0052 retatrutide cross-case signal aggregation, cohort surveillance, governed escalation and controlled knowledge feedback baseline"
+}

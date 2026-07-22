@@ -1,0 +1,9 @@
+{
+  "decision_id": "RET-SIG-DEC-0001",
+  "signal_id": "RET-SIG-0001",
+  "decision": "CONTINUE_WATCH",
+  "reviewer_role": "Scientific governance reviewer",
+  "case_reopening_authorised": false,
+  "knowledge_update_authorised": false,
+  "audit_timestamp": "2026-07-21T20:00:00Z"
+}

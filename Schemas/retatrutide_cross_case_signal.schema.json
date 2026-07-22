@@ -1,0 +1,63 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "title": "Retatrutide cross-case signal",
+  "required": [
+    "signal_id",
+    "build_provenance",
+    "compound",
+    "case_count",
+    "case_references",
+    "classification",
+    "human_review_required",
+    "autonomous_clinical_action"
+  ],
+  "properties": {
+    "signal_id": {
+      "type": "string",
+      "pattern": "^RET-SIG-[0-9]{4}$"
+    },
+    "build_provenance": {
+      "const": "CERT-BUILD-0052"
+    },
+    "compound": {
+      "const": "retatrutide"
+    },
+    "case_count": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "case_references": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    },
+    "classification": {
+      "enum": [
+        "NO_SIGNAL",
+        "WATCH",
+        "ESCALATE",
+        "INSUFFICIENT_DATA"
+      ]
+    },
+    "human_review_required": {
+      "const": true
+    },
+    "autonomous_clinical_action": {
+      "const": false
+    },
+    "evidence_feedback_status": {
+      "enum": [
+        "NOT_APPLICABLE",
+        "DRAFT",
+        "READY_FOR_REVIEW",
+        "BLOCKED"
+      ]
+    },
+    "direct_identifiers_present": {
+      "const": false
+    }
+  }
+}

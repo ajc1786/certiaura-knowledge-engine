@@ -1,0 +1,41 @@
+{
+  "result": "OUTSIDE_CANONICAL_SYNTHETIC_VALIDATED",
+  "build_number": "0052",
+  "candidate": "RC6",
+  "scope": "outside-canonical full synthetic Git transaction using an exact-subject Build 0051 import commit and later closed snapshot",
+  "package_preflight": "PASS",
+  "predecessor_source": "CANONICAL_GIT_OBJECT_DATABASE",
+  "predecessor_manifest_schema": {
+    "container": "ARRAY",
+    "path_fields": [
+      "path"
+    ]
+  },
+  "negative_predecessor_tests": 15,
+  "dry_run": "DRY_RUN_VALIDATED",
+  "dry_run_conflicts": [],
+  "forced_rollback": "ROLLED_BACK",
+  "forced_rollback_reason_visible": "PASS",
+  "clean_reapply": "APPLIED_VALIDATED",
+  "historical_build_0041_control_family_migration": "PASS_RECORDED",
+  "strict_current_build_lesson_schema": "PASS",
+  "same_build_premerged_replay": "IDEMPOTENT_PASS",
+  "new_origin_unchanged_repeat_control": "BLOCKED_AS_REQUIRED",
+  "unit_tests": 28,
+  "scientific_validator": "PASS",
+  "repository_validator": "PASS",
+  "git_diff_check": "PASS",
+  "git_diff_cached_check": "PASS",
+  "index_byte_equality": "PASS",
+  "commit_push_path": "PASS",
+  "python_runtime_artifacts": "NONE",
+  "canonical_repository_evidence": "PENDING_EXACT_WINDOWS_PS51_RUNTIME",
+  "static_pass_reports_prohibited": true,
+  "scalar_native_output_matching": "PASS_STATIC_AND_EXECUTABLE_FIXTURE",
+  "rc4_false_failure_reproduced": "PASS",
+  "historical_legacy_matrix_absence_fixture": "PASS_EXACT_0039_0040_0043_0044_0045_0046",
+  "historical_coverage_mode": "MATRIX_OR_HASH_BOUND_AUTHORITATIVE_LEDGER",
+  "ledger_only_evidence_hash_binding": "PASS",
+  "fabricated_historical_matrices": "PROHIBITED_AND_ABSENT",
+  "rc5_canonical_failure_reproduced": "PASS"
+}

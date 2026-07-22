@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "title": "Retatrutide signal governance decision",
+  "required": [
+    "decision_id",
+    "signal_id",
+    "decision",
+    "reviewer_role",
+    "case_reopening_authorised",
+    "knowledge_update_authorised",
+    "audit_timestamp"
+  ],
+  "properties": {
+    "decision_id": {
+      "type": "string"
+    },
+    "signal_id": {
+      "type": "string"
+    },
+    "decision": {
+      "enum": [
+        "CLOSE_NO_SIGNAL",
+        "CONTINUE_WATCH",
+        "ESCALATE_REVIEW",
+        "REQUEST_MORE_DATA"
+      ]
+    },
+    "reviewer_role": {
+      "type": "string"
+    },
+    "case_reopening_authorised": {
+      "type": "boolean"
+    },
+    "knowledge_update_authorised": {
+      "type": "boolean"
+    },
+    "audit_timestamp": {
+      "type": "string"
+    }
+  }
+}

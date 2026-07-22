@@ -1,0 +1,379 @@
+{
+  "result": "PREDECESSOR_CANONICAL_EVIDENCE_VALIDATED",
+  "source": "CANONICAL_GIT_OBJECT_DATABASE",
+  "build_number": "0051",
+  "build_provenance": "CERT-BUILD-0051",
+  "import_commit_subject": "Add Certiaura Build 0051 retatrutide post-closure surveillance, governed case reopening, periodic review and recurrence analytics baseline",
+  "import_commit_sha": "14877589556e83fd457f5cbc5020e9ca31318406",
+  "closed_snapshot_sha": "14877589556e83fd457f5cbc5020e9ca31318406",
+  "predecessor_manifest_path": "Documentation/Build_Records/0051/ASSET_INTENT_MANIFEST.json",
+  "predecessor_manifest_sha256": "37165A4AA5DF7004CF23E6A3274D6A7C38059B87162B75FF417637D96D07C799",
+  "predecessor_manifest_path_schema": {
+    "container": "ARRAY",
+    "path_fields": [
+      "path"
+    ]
+  },
+  "import_closed_manifest_byte_equality": true,
+  "repository_paths": [
+    "02_Peptides/CERT-PKS-000001_Retatrutide/Monitoring/RETATRUTIDE_POST_CLOSURE_SURVEILLANCE_AND_REOPENING_STANDARD.md",
+    "05_Monitoring/Retatrutide/RETATRUTIDE_POST_CLOSURE_SURVEILLANCE_DEFINITION.json",
+    "05_Monitoring/Standards/RETATRUTIDE_GOVERNED_CASE_REOPENING_WORKFLOW.md",
+    "06_Evidence/Retatrutide/RETATRUTIDE_POST_CLOSURE_SURVEILLANCE_SOURCE_REGISTER.json",
+    "12_Reports/Retatrutide/Examples/conditional_review_not_due.example.json",
+    "12_Reports/Retatrutide/Examples/invalid_autonomous_treatment_reopening.example.json",
+    "12_Reports/Retatrutide/Examples/invalid_closed_case_with_urgent_signal.example.json",
+    "12_Reports/Retatrutide/Examples/invalid_direct_identifier_surveillance.example.json",
+    "12_Reports/Retatrutide/Examples/invalid_recurrence_hash.example.json",
+    "12_Reports/Retatrutide/Examples/invalid_reopen_without_trigger.example.json",
+    "12_Reports/Retatrutide/Examples/valid_periodic_review.example.json",
+    "12_Reports/Retatrutide/Examples/valid_post_closure_surveillance.example.json",
+    "12_Reports/Retatrutide/Examples/valid_recurrence_analytics.example.json",
+    "12_Reports/Retatrutide/Examples/valid_reopening_decision.example.json",
+    "12_Reports/Standards/RETATRUTIDE_POST_CLOSURE_REVIEW_AND_RECURRENCE_REPORTING_STANDARD.md",
+    "13_Project_Genesis/Import/build_0051_transactional_import.py",
+    "13_Project_Genesis/Import/rollback_build_0051_pending_import.py",
+    "13_Project_Genesis/Reports/generate_retatrutide_post_closure_surveillance_reopening.py",
+    "13_Project_Genesis/Tests/test_build_0051_retatrutide_post_closure_surveillance_reopening.py",
+    "13_Project_Genesis/Validators/build_0051_asset_ownership.py",
+    "13_Project_Genesis/Validators/validate_retatrutide_post_closure_surveillance_reopening.py",
+    "13_Project_Genesis/Validators/verify_build_0051_package.py",
+    "Documentation/Build_Records/0051/ASSET_INTENT_MANIFEST.json",
+    "Documentation/Build_Records/0051/BUILD_0051_READ_ME_FIRST.md",
+    "Documentation/Build_Records/0051/BUILD_MANIFEST.json",
+    "Documentation/Build_Records/0051/CHECKSUMS.sha256",
+    "Documentation/Build_Records/0051/COMMIT_MESSAGE.txt",
+    "Documentation/Build_Records/0051/CONTINUITY_CHECKPOINT_DELTA.json",
+    "Documentation/Build_Records/0051/DECISION_RECORD_0051.md",
+    "Documentation/Build_Records/0051/LESSONS_LEARNED_CONTROL_MATRIX.json",
+    "Documentation/Build_Records/0051/LESSONS_LEARNED_REVIEW.md",
+    "Documentation/Build_Records/0051/PACKAGE_INVENTORY.csv",
+    "Documentation/Build_Records/0051/PACKAGE_VERSION.json",
+    "Documentation/Build_Records/0051/PRE_RELEASE_SYNTHETIC_IMPORT_REPORT.json",
+    "Documentation/Build_Records/0051/PRODUCTION_DASHBOARD_UPDATE.json",
+    "Documentation/Build_Records/0051/PROJECT_GENESIS_IMPORT_HOOK.json",
+    "Documentation/Build_Records/0051/PROPOSED_CHANGE_LOG_ENTRY.md",
+    "Documentation/Build_Records/0051/PROPOSED_NEXT_ACTION.md",
+    "Documentation/Build_Records/0051/REAL_WORLD_OPERATOR_WORKFLOW_REGRESSION_REPORT.json",
+    "Documentation/Build_Records/0051/ROLLBACK_RUNBOOK.md",
+    "Documentation/Build_Records/0051/ROUTING_MANIFEST.json",
+    "Documentation/Build_Records/0051/TEST_REPORT.json",
+    "Documentation/Build_Records/0051/VALIDATION_REPORT.json",
+    "Documentation/Build_Records/0051/WINDOWS_POWERSHELL_5_1_COMPATIBILITY_REPORT.json",
+    "Schemas/retatrutide_periodic_review.schema.json",
+    "Schemas/retatrutide_post_closure_surveillance.schema.json",
+    "Schemas/retatrutide_recurrence_analytics.schema.json",
+    "Schemas/retatrutide_reopening_decision.schema.json",
+    "Scripts/Invoke_Certiaura_Build_0051_Import.ps1",
+    "Scripts/Invoke_Certiaura_Build_0051_Preflight.ps1",
+    "Scripts/Invoke_Certiaura_Build_0051_Windows_PS51_Regression.ps1",
+    "Scripts/Run_Certiaura_Build_0051.ps1",
+    "Scripts/START_BUILD_0051.cmd",
+    "Standards/RETATRUTIDE_POST_CLOSURE_REOPENING_GOVERNANCE_AND_SAFETY_BOUNDARY.md",
+    "Templates/RETATRUTIDE_PERIODIC_REVIEW_TEMPLATE.json",
+    "Templates/RETATRUTIDE_POST_CLOSURE_SURVEILLANCE_TEMPLATE.json",
+    "Templates/RETATRUTIDE_RECURRENCE_ANALYTICS_TEMPLATE.json",
+    "Templates/RETATRUTIDE_REOPENING_DECISION_TEMPLATE.json"
+  ],
+  "path_count": 58,
+  "path_sha256": {
+    "02_Peptides/CERT-PKS-000001_Retatrutide/Monitoring/RETATRUTIDE_POST_CLOSURE_SURVEILLANCE_AND_REOPENING_STANDARD.md": "F4CD214551DB014D593A23ADAD8BC1F379EF3BCB9063A901A8215F479747021D",
+    "05_Monitoring/Retatrutide/RETATRUTIDE_POST_CLOSURE_SURVEILLANCE_DEFINITION.json": "04EBA7F3ECE1E2E1FD125A705A199218DD0D9DD1B3B8C23A3C7FA55BCF22B2DD",
+    "05_Monitoring/Standards/RETATRUTIDE_GOVERNED_CASE_REOPENING_WORKFLOW.md": "005DBBEDC256FFFE5605E35F507F9EC8A0F1B43951C827D2B1B5C3E793DFF39F",
+    "06_Evidence/Retatrutide/RETATRUTIDE_POST_CLOSURE_SURVEILLANCE_SOURCE_REGISTER.json": "874C4D73CDAF37E55D712E25F75552FCBCE3CA48696837A937E18AEE380FABC4",
+    "12_Reports/Retatrutide/Examples/conditional_review_not_due.example.json": "8F5A287BA1DC088542B2FAC049127DEB7795814859D1204974737BE5C4334022",
+    "12_Reports/Retatrutide/Examples/invalid_autonomous_treatment_reopening.example.json": "A590B6BDF970220372A6C7733081595C7822B94EE8EE979568248D5175B910DA",
+    "12_Reports/Retatrutide/Examples/invalid_closed_case_with_urgent_signal.example.json": "4CEA8A163557B52E8BA3B8EC68D0A2739A3CF1CDD6D1D7E51A825A06CD879327",
+    "12_Reports/Retatrutide/Examples/invalid_direct_identifier_surveillance.example.json": "B94F749C986827CE799BB36BD47312E2F06F8999FCE875E20D349D62E5B5FC7C",
+    "12_Reports/Retatrutide/Examples/invalid_recurrence_hash.example.json": "539D42102E3B0D3B34C56E95FC0CAE166775D53F42617C3F0611EF1896F54A99",
+    "12_Reports/Retatrutide/Examples/invalid_reopen_without_trigger.example.json": "EA6B0D07653271E7D10DC0EB49DB7C6670BA74411BD170F1984E77DE4A9BFC75",
+    "12_Reports/Retatrutide/Examples/valid_periodic_review.example.json": "774D4073B804ACF10E9D14BF4BB58BD59901B15C67A40F738DC4D3375F0D0441",
+    "12_Reports/Retatrutide/Examples/valid_post_closure_surveillance.example.json": "0E7E8C0565210EBA74CC79FB3D675DF1A02B4FFBFB4291C58CE9C8643D021221",
+    "12_Reports/Retatrutide/Examples/valid_recurrence_analytics.example.json": "B0FCABC33D80E08165CC370EF18CADABD15671C12B383383212D34885E2EF841",
+    "12_Reports/Retatrutide/Examples/valid_reopening_decision.example.json": "CC4F350645F58BF7F1BD470BAECB5981E495FCC068C619FD2649E5EA4E2445D8",
+    "12_Reports/Standards/RETATRUTIDE_POST_CLOSURE_REVIEW_AND_RECURRENCE_REPORTING_STANDARD.md": "0583AA2BD7DA9C76BC05135BEB1908F87A942DDCB8E3E7163019834D2EF83CB4",
+    "13_Project_Genesis/Import/build_0051_transactional_import.py": "686342B7AFDE1841B3C6A6DAE79C5E49CB3D091934850BCDB6A1930C62EBEEE4",
+    "13_Project_Genesis/Import/rollback_build_0051_pending_import.py": "A2CC081EFA6CC3087C1E9E64029B983D8F7DAED7C710B5B0B0A33739106ABC3F",
+    "13_Project_Genesis/Reports/generate_retatrutide_post_closure_surveillance_reopening.py": "88B67850534FB2BE221C2604DAF03CDDB8F612437DC4FF3E1E32638137F16AA0",
+    "13_Project_Genesis/Tests/test_build_0051_retatrutide_post_closure_surveillance_reopening.py": "0415985F878AD847ED26694D2FE7E19585BF87682A7B82894FF6C24F20AFC462",
+    "13_Project_Genesis/Validators/build_0051_asset_ownership.py": "AC2F5CAC113235134E9C7E7918703A20F8F7472C7E474B6F4EE4AF4F1088DCE7",
+    "13_Project_Genesis/Validators/validate_retatrutide_post_closure_surveillance_reopening.py": "058099BC3B564AF3E56AB13B4BDE667DFFB640F2DDF582D3591C9EE7D4730FD2",
+    "13_Project_Genesis/Validators/verify_build_0051_package.py": "014937A39F324D2BD8FE2F9C8FEB635B1BB56D6A43EF14E9CB1CE756CBB7A059",
+    "Documentation/Build_Records/0051/ASSET_INTENT_MANIFEST.json": "37165A4AA5DF7004CF23E6A3274D6A7C38059B87162B75FF417637D96D07C799",
+    "Documentation/Build_Records/0051/BUILD_0051_READ_ME_FIRST.md": "1364CD4DC7733908B87FDB35BC773760E4E8A56921B5B2DE56221FB8FBCD8AF7",
+    "Documentation/Build_Records/0051/BUILD_MANIFEST.json": "D1FF2ECBF50C1CA5A4F4CE166CD89D749460B8CC2A8631758D3331E8DD666376",
+    "Documentation/Build_Records/0051/CHECKSUMS.sha256": "039FFB77B19FA91EA116510E3279FD1484951B24B599DFA928BC4E171AD1AC8F",
+    "Documentation/Build_Records/0051/COMMIT_MESSAGE.txt": "2BD1EC3BFF37677CB1E509FD723CB5D2D7D3C61D9FBB90456576E07EFAB2634C",
+    "Documentation/Build_Records/0051/CONTINUITY_CHECKPOINT_DELTA.json": "D311BB0ABCCFFA96BE263A9E343D90D5D28CD11CAB510A0823B14E89E035A344",
+    "Documentation/Build_Records/0051/DECISION_RECORD_0051.md": "EC69D048E9B9CFDB210E4D46C21A168C69ABE4616267AA312198F56650F1C37E",
+    "Documentation/Build_Records/0051/LESSONS_LEARNED_CONTROL_MATRIX.json": "31C042544F55A3E12C9C5FEB5CB85F2FBB028C25CA2A7C64368D2AB4F062E777",
+    "Documentation/Build_Records/0051/LESSONS_LEARNED_REVIEW.md": "31D962E49B307E917CF06C24B813AD74C1F9A9D69D346F77FF66871DA5821DFC",
+    "Documentation/Build_Records/0051/PACKAGE_INVENTORY.csv": "A68199FBBD0D65DB108C94553A1A2F53044ED29980E3AAE6588E077A5B196343",
+    "Documentation/Build_Records/0051/PACKAGE_VERSION.json": "318FD2E28D05CE5C5E55C945497DB5B616C99F48E9FBFA84CDA8C31E835EC0BB",
+    "Documentation/Build_Records/0051/PRE_RELEASE_SYNTHETIC_IMPORT_REPORT.json": "7B6EA82B7344A013FE520F41B6EBFA20E64C1CF463F2946CD96588300125F132",
+    "Documentation/Build_Records/0051/PRODUCTION_DASHBOARD_UPDATE.json": "B3D7CB769C5F95CA813CC99AABFC70BDFF1D7A0B5D43E0656C219104BD7E3150",
+    "Documentation/Build_Records/0051/PROJECT_GENESIS_IMPORT_HOOK.json": "EC6884C451C6F726A3765E4235D6F3D5D43CC9351A6732A903E1BDF78E712C4C",
+    "Documentation/Build_Records/0051/PROPOSED_CHANGE_LOG_ENTRY.md": "3C1CF8523A3F4C5337C718D90B4901C99D6312BB40CE4A3BAAE1425FCC983B1A",
+    "Documentation/Build_Records/0051/PROPOSED_NEXT_ACTION.md": "0D0A76A8F4893B4639580B55BFC7FFB99027574A170E2D60BB812711E4AF1764",
+    "Documentation/Build_Records/0051/REAL_WORLD_OPERATOR_WORKFLOW_REGRESSION_REPORT.json": "433FAEF725F3BA49435AC6A4A3C4394A31AB1BBE1F0061BF6A9E7C8805592EF0",
+    "Documentation/Build_Records/0051/ROLLBACK_RUNBOOK.md": "3E3186F1A4BE10453BE106D51614BDC2769E5C4FC6F9BAAE9A09F9C4B80A1E42",
+    "Documentation/Build_Records/0051/ROUTING_MANIFEST.json": "81FBDE3A823147FB6048857B1F0DB16B695B5E1697EF002A97EF5728C3722B0F",
+    "Documentation/Build_Records/0051/TEST_REPORT.json": "94C115179784A9BC98921D5FFC71C98F4A4125F8839822D1DE354A92BC69524C",
+    "Documentation/Build_Records/0051/VALIDATION_REPORT.json": "86E436DBEF6A7ADC49CEEED6EF52743AB7D211976878FFE7ACB0702E0C5EBA0C",
+    "Documentation/Build_Records/0051/WINDOWS_POWERSHELL_5_1_COMPATIBILITY_REPORT.json": "E630CC0071C5CD14B3DEC8F558F7B3AEEC84AECE6B30AFB56BB68148524A83F9",
+    "Schemas/retatrutide_periodic_review.schema.json": "789378E8B1F2F568CA792CB115E49CB07772086A2F740456EEDEC1B57B6C6378",
+    "Schemas/retatrutide_post_closure_surveillance.schema.json": "E76AD5DB50DB1E3DCFA015DE5EEDC279D181865752DF562554F0F4D0D24AAB2B",
+    "Schemas/retatrutide_recurrence_analytics.schema.json": "02BF6F0800019B9BC7484ADC9B1DFFBE7B3DF8C318C96A6C34C817B2A300A3CF",
+    "Schemas/retatrutide_reopening_decision.schema.json": "E39F08633E5C9D45E833A1863F4582CCFC602E75B78E355BF470E2C61D7491E6",
+    "Scripts/Invoke_Certiaura_Build_0051_Import.ps1": "F1B8DD28280B8E34B60723751C4B4373F928C2B9E5FF2824C5A32BA2FB2F31FA",
+    "Scripts/Invoke_Certiaura_Build_0051_Preflight.ps1": "38BFA721F2951C7D6446DAFC0711EFC32C8CDFC03C01A94F561E2C185FD0E939",
+    "Scripts/Invoke_Certiaura_Build_0051_Windows_PS51_Regression.ps1": "8B9997889F1B5389217B8591014C97A1C4BFD0D18B8BE9992B061422447C9351",
+    "Scripts/Run_Certiaura_Build_0051.ps1": "49A0FBD5A1C8BBAFD8E85879370E73FB2324C40611D5D2D4D496C6310FA17178",
+    "Scripts/START_BUILD_0051.cmd": "5FE3259E725350C59767CD5A6EB2D81F70C956E8D2CB4734A7D892BFBA59AA2E",
+    "Standards/RETATRUTIDE_POST_CLOSURE_REOPENING_GOVERNANCE_AND_SAFETY_BOUNDARY.md": "B8DBB3ED53C2E1BEA5C008D3102BF7C6EB477E3059A6FDE7B49582B90E8026BB",
+    "Templates/RETATRUTIDE_PERIODIC_REVIEW_TEMPLATE.json": "B61BB72EF77A2C4B5384F33EB0B5CCDE25987D83DA363FE838134D5CC9EEC79D",
+    "Templates/RETATRUTIDE_POST_CLOSURE_SURVEILLANCE_TEMPLATE.json": "364304BE6AA708293BCD80E19058FEC69181CC1A587E814F2AE6E5BF9699FAC9",
+    "Templates/RETATRUTIDE_RECURRENCE_ANALYTICS_TEMPLATE.json": "0BF00A07F8385A5647C80A140AF2244859AF1B0A1D5844261E9A41BFC2A05C56",
+    "Templates/RETATRUTIDE_REOPENING_DECISION_TEMPLATE.json": "2C1845B78EB7BA49E5BFCA773CAA8D3FB8467AD545BCA1EBCDDCA6471A55D6AC"
+  },
+  "universal_asset_identifiers": [
+    "UAI_ALLOCATION_REQUIRED"
+  ],
+  "raw_manifest_intersection": [],
+  "approved_replacement_intersection": [],
+  "unauthorised_manifest_intersection": [],
+  "package_sha256": "5612EAECE1C6A1C125C0F450277AC94985F86903A0D80F0CDD75B51B6484F136",
+  "negative_tests": [
+    {
+      "name": "wrong_build_number",
+      "result": "PASS",
+      "blocking_errors": [
+        "WRONG_BUILD_NUMBER"
+      ]
+    },
+    {
+      "name": "wrong_provenance",
+      "result": "PASS",
+      "blocking_errors": [
+        "WRONG_PROVENANCE"
+      ]
+    },
+    {
+      "name": "wrong_commit_subject",
+      "result": "PASS",
+      "blocking_errors": [
+        "WRONG_COMMIT_SUBJECT"
+      ]
+    },
+    {
+      "name": "missing_import_sha",
+      "result": "PASS",
+      "blocking_errors": [
+        "MISSING_IMPORT_COMMIT_SHA"
+      ]
+    },
+    {
+      "name": "missing_closed_sha",
+      "result": "PASS",
+      "blocking_errors": [
+        "MISSING_CLOSED_SNAPSHOT_SHA"
+      ]
+    },
+    {
+      "name": "wrong_manifest_sha",
+      "result": "PASS",
+      "blocking_errors": [
+        "MISSING_PREDECESSOR_MANIFEST_SHA256",
+        "PREDECESSOR_MANIFEST_SHA_MISMATCH"
+      ]
+    },
+    {
+      "name": "wrong_package_sha",
+      "result": "PASS",
+      "blocking_errors": [
+        "PACKAGE_SHA_MISMATCH"
+      ]
+    },
+    {
+      "name": "empty_paths",
+      "result": "PASS",
+      "blocking_errors": [
+        "EMPTY_PATH_LIST",
+        "HASH_PATH_SET_MISMATCH",
+        "PREDECESSOR_MANIFEST_EVIDENCE_PATH_MISMATCH"
+      ]
+    },
+    {
+      "name": "duplicate_path",
+      "result": "PASS",
+      "blocking_errors": [
+        "DUPLICATE_PATH",
+        "HASH_PATH_SET_MISMATCH",
+        "PREDECESSOR_MANIFEST_EVIDENCE_PATH_MISMATCH",
+        "FIXTURE_HASH_MISMATCH:02_Peptides/CERT-PKS-000001_Retatrutide/Monitoring/RETATRUTIDE_POST_CLOSURE_SURVEILLANCE_AND_REOPENING_STANDARD.md",
+        "FIXTURE_HASH_MISMATCH:05_Monitoring/Retatrutide/RETATRUTIDE_POST_CLOSURE_SURVEILLANCE_DEFINITION.json",
+        "FIXTURE_HASH_MISMATCH:05_Monitoring/Standards/RETATRUTIDE_GOVERNED_CASE_REOPENING_WORKFLOW.md",
+        "FIXTURE_HASH_MISMATCH:06_Evidence/Retatrutide/RETATRUTIDE_POST_CLOSURE_SURVEILLANCE_SOURCE_REGISTER.json",
+        "FIXTURE_HASH_MISMATCH:12_Reports/Retatrutide/Examples/conditional_review_not_due.example.json",
+        "FIXTURE_HASH_MISMATCH:12_Reports/Retatrutide/Examples/invalid_autonomous_treatment_reopening.example.json",
+        "FIXTURE_HASH_MISMATCH:12_Reports/Retatrutide/Examples/invalid_closed_case_with_urgent_signal.example.json",
+        "FIXTURE_HASH_MISMATCH:12_Reports/Retatrutide/Examples/invalid_direct_identifier_surveillance.example.json",
+        "FIXTURE_HASH_MISMATCH:12_Reports/Retatrutide/Examples/invalid_recurrence_hash.example.json",
+        "FIXTURE_HASH_MISMATCH:12_Reports/Retatrutide/Examples/invalid_reopen_without_trigger.example.json",
+        "FIXTURE_HASH_MISMATCH:12_Reports/Retatrutide/Examples/valid_periodic_review.example.json",
+        "FIXTURE_HASH_MISMATCH:12_Reports/Retatrutide/Examples/valid_post_closure_surveillance.example.json",
+        "FIXTURE_HASH_MISMATCH:12_Reports/Retatrutide/Examples/valid_recurrence_analytics.example.json",
+        "FIXTURE_HASH_MISMATCH:12_Reports/Retatrutide/Examples/valid_reopening_decision.example.json",
+        "FIXTURE_HASH_MISMATCH:12_Reports/Standards/RETATRUTIDE_POST_CLOSURE_REVIEW_AND_RECURRENCE_REPORTING_STANDARD.md",
+        "FIXTURE_HASH_MISMATCH:13_Project_Genesis/Import/build_0051_transactional_import.py",
+        "FIXTURE_HASH_MISMATCH:13_Project_Genesis/Import/rollback_build_0051_pending_import.py",
+        "FIXTURE_HASH_MISMATCH:13_Project_Genesis/Reports/generate_retatrutide_post_closure_surveillance_reopening.py",
+        "FIXTURE_HASH_MISMATCH:13_Project_Genesis/Tests/test_build_0051_retatrutide_post_closure_surveillance_reopening.py",
+        "FIXTURE_HASH_MISMATCH:13_Project_Genesis/Validators/build_0051_asset_ownership.py",
+        "FIXTURE_HASH_MISMATCH:13_Project_Genesis/Validators/validate_retatrutide_post_closure_surveillance_reopening.py",
+        "FIXTURE_HASH_MISMATCH:13_Project_Genesis/Validators/verify_build_0051_package.py",
+        "FIXTURE_HASH_MISMATCH:Documentation/Build_Records/0051/ASSET_INTENT_MANIFEST.json",
+        "FIXTURE_HASH_MISMATCH:Documentation/Build_Records/0051/BUILD_0051_READ_ME_FIRST.md",
+        "FIXTURE_HASH_MISMATCH:Documentation/Build_Records/0051/BUILD_MANIFEST.json",
+        "FIXTURE_HASH_MISMATCH:Documentation/Build_Records/0051/CHECKSUMS.sha256",
+        "FIXTURE_HASH_MISMATCH:Documentation/Build_Records/0051/COMMIT_MESSAGE.txt",
+        "FIXTURE_HASH_MISMATCH:Documentation/Build_Records/0051/CONTINUITY_CHECKPOINT_DELTA.json",
+        "FIXTURE_HASH_MISMATCH:Documentation/Build_Records/0051/DECISION_RECORD_0051.md",
+        "FIXTURE_HASH_MISMATCH:Documentation/Build_Records/0051/LESSONS_LEARNED_CONTROL_MATRIX.json",
+        "FIXTURE_HASH_MISMATCH:Documentation/Build_Records/0051/LESSONS_LEARNED_REVIEW.md",
+        "FIXTURE_HASH_MISMATCH:Documentation/Build_Records/0051/PACKAGE_INVENTORY.csv",
+        "FIXTURE_HASH_MISMATCH:Documentation/Build_Records/0051/PACKAGE_VERSION.json",
+        "FIXTURE_HASH_MISMATCH:Documentation/Build_Records/0051/PRE_RELEASE_SYNTHETIC_IMPORT_REPORT.json",
+        "FIXTURE_HASH_MISMATCH:Documentation/Build_Records/0051/PRODUCTION_DASHBOARD_UPDATE.json",
+        "FIXTURE_HASH_MISMATCH:Documentation/Build_Records/0051/PROJECT_GENESIS_IMPORT_HOOK.json",
+        "FIXTURE_HASH_MISMATCH:Documentation/Build_Records/0051/PROPOSED_CHANGE_LOG_ENTRY.md",
+        "FIXTURE_HASH_MISMATCH:Documentation/Build_Records/0051/PROPOSED_NEXT_ACTION.md",
+        "FIXTURE_HASH_MISMATCH:Documentation/Build_Records/0051/REAL_WORLD_OPERATOR_WORKFLOW_REGRESSION_REPORT.json",
+        "FIXTURE_HASH_MISMATCH:Documentation/Build_Records/0051/ROLLBACK_RUNBOOK.md",
+        "FIXTURE_HASH_MISMATCH:Documentation/Build_Records/0051/ROUTING_MANIFEST.json",
+        "FIXTURE_HASH_MISMATCH:Documentation/Build_Records/0051/TEST_REPORT.json",
+        "FIXTURE_HASH_MISMATCH:Documentation/Build_Records/0051/VALIDATION_REPORT.json",
+        "FIXTURE_HASH_MISMATCH:Documentation/Build_Records/0051/WINDOWS_POWERSHELL_5_1_COMPATIBILITY_REPORT.json",
+        "FIXTURE_HASH_MISMATCH:Schemas/retatrutide_periodic_review.schema.json",
+        "FIXTURE_HASH_MISMATCH:Schemas/retatrutide_post_closure_surveillance.schema.json",
+        "FIXTURE_HASH_MISMATCH:Schemas/retatrutide_recurrence_analytics.schema.json",
+        "FIXTURE_HASH_MISMATCH:Schemas/retatrutide_reopening_decision.schema.json",
+        "FIXTURE_HASH_MISMATCH:Scripts/Invoke_Certiaura_Build_0051_Import.ps1",
+        "FIXTURE_HASH_MISMATCH:Scripts/Invoke_Certiaura_Build_0051_Preflight.ps1",
+        "FIXTURE_HASH_MISMATCH:Scripts/Invoke_Certiaura_Build_0051_Windows_PS51_Regression.ps1",
+        "FIXTURE_HASH_MISMATCH:Scripts/Run_Certiaura_Build_0051.ps1",
+        "FIXTURE_HASH_MISMATCH:Scripts/START_BUILD_0051.cmd",
+        "FIXTURE_HASH_MISMATCH:Standards/RETATRUTIDE_POST_CLOSURE_REOPENING_GOVERNANCE_AND_SAFETY_BOUNDARY.md",
+        "FIXTURE_HASH_MISMATCH:Templates/RETATRUTIDE_PERIODIC_REVIEW_TEMPLATE.json",
+        "FIXTURE_HASH_MISMATCH:Templates/RETATRUTIDE_POST_CLOSURE_SURVEILLANCE_TEMPLATE.json",
+        "FIXTURE_HASH_MISMATCH:Templates/RETATRUTIDE_RECURRENCE_ANALYTICS_TEMPLATE.json",
+        "FIXTURE_HASH_MISMATCH:Templates/RETATRUTIDE_REOPENING_DECISION_TEMPLATE.json",
+        "FIXTURE_HASH_MISMATCH:02_Peptides/CERT-PKS-000001_Retatrutide/Monitoring/RETATRUTIDE_POST_CLOSURE_SURVEILLANCE_AND_REOPENING_STANDARD.md"
+      ]
+    },
+    {
+      "name": "invented_path",
+      "result": "PASS",
+      "blocking_errors": [
+        "PREDECESSOR_MANIFEST_EVIDENCE_PATH_MISMATCH",
+        "FIXTURE_PATH_MISSING:INVENTED.txt"
+      ]
+    },
+    {
+      "name": "missing_hash",
+      "result": "PASS",
+      "blocking_errors": [
+        "HASH_PATH_SET_MISMATCH",
+        "FIXTURE_HASH_MISMATCH:02_Peptides/CERT-PKS-000001_Retatrutide/Monitoring/RETATRUTIDE_POST_CLOSURE_SURVEILLANCE_AND_REOPENING_STANDARD.md",
+        "FIXTURE_HASH_MISMATCH:05_Monitoring/Retatrutide/RETATRUTIDE_POST_CLOSURE_SURVEILLANCE_DEFINITION.json",
+        "FIXTURE_HASH_MISMATCH:05_Monitoring/Standards/RETATRUTIDE_GOVERNED_CASE_REOPENING_WORKFLOW.md",
+        "FIXTURE_HASH_MISMATCH:06_Evidence/Retatrutide/RETATRUTIDE_POST_CLOSURE_SURVEILLANCE_SOURCE_REGISTER.json",
+        "FIXTURE_HASH_MISMATCH:12_Reports/Retatrutide/Examples/conditional_review_not_due.example.json",
+        "FIXTURE_HASH_MISMATCH:12_Reports/Retatrutide/Examples/invalid_autonomous_treatment_reopening.example.json",
+        "FIXTURE_HASH_MISMATCH:12_Reports/Retatrutide/Examples/invalid_closed_case_with_urgent_signal.example.json",
+        "FIXTURE_HASH_MISMATCH:12_Reports/Retatrutide/Examples/invalid_direct_identifier_surveillance.example.json",
+        "FIXTURE_HASH_MISMATCH:12_Reports/Retatrutide/Examples/invalid_recurrence_hash.example.json",
+        "FIXTURE_HASH_MISMATCH:12_Reports/Retatrutide/Examples/invalid_reopen_without_trigger.example.json",
+        "FIXTURE_HASH_MISMATCH:12_Reports/Retatrutide/Examples/valid_periodic_review.example.json",
+        "FIXTURE_HASH_MISMATCH:12_Reports/Retatrutide/Examples/valid_post_closure_surveillance.example.json",
+        "FIXTURE_HASH_MISMATCH:12_Reports/Retatrutide/Examples/valid_recurrence_analytics.example.json",
+        "FIXTURE_HASH_MISMATCH:12_Reports/Retatrutide/Examples/valid_reopening_decision.example.json",
+        "FIXTURE_HASH_MISMATCH:12_Reports/Standards/RETATRUTIDE_POST_CLOSURE_REVIEW_AND_RECURRENCE_REPORTING_STANDARD.md",
+        "FIXTURE_HASH_MISMATCH:13_Project_Genesis/Import/build_0051_transactional_import.py",
+        "FIXTURE_HASH_MISMATCH:13_Project_Genesis/Import/rollback_build_0051_pending_import.py",
+        "FIXTURE_HASH_MISMATCH:13_Project_Genesis/Reports/generate_retatrutide_post_closure_surveillance_reopening.py",
+        "FIXTURE_HASH_MISMATCH:13_Project_Genesis/Tests/test_build_0051_retatrutide_post_closure_surveillance_reopening.py",
+        "FIXTURE_HASH_MISMATCH:13_Project_Genesis/Validators/build_0051_asset_ownership.py",
+        "FIXTURE_HASH_MISMATCH:13_Project_Genesis/Validators/validate_retatrutide_post_closure_surveillance_reopening.py",
+        "FIXTURE_HASH_MISMATCH:13_Project_Genesis/Validators/verify_build_0051_package.py",
+        "FIXTURE_HASH_MISMATCH:Documentation/Build_Records/0051/ASSET_INTENT_MANIFEST.json",
+        "FIXTURE_HASH_MISMATCH:Documentation/Build_Records/0051/BUILD_0051_READ_ME_FIRST.md",
+        "FIXTURE_HASH_MISMATCH:Documentation/Build_Records/0051/BUILD_MANIFEST.json",
+        "FIXTURE_HASH_MISMATCH:Documentation/Build_Records/0051/CHECKSUMS.sha256",
+        "FIXTURE_HASH_MISMATCH:Documentation/Build_Records/0051/COMMIT_MESSAGE.txt",
+        "FIXTURE_HASH_MISMATCH:Documentation/Build_Records/0051/CONTINUITY_CHECKPOINT_DELTA.json",
+        "FIXTURE_HASH_MISMATCH:Documentation/Build_Records/0051/DECISION_RECORD_0051.md",
+        "FIXTURE_HASH_MISMATCH:Documentation/Build_Records/0051/LESSONS_LEARNED_CONTROL_MATRIX.json",
+        "FIXTURE_HASH_MISMATCH:Documentation/Build_Records/0051/LESSONS_LEARNED_REVIEW.md",
+        "FIXTURE_HASH_MISMATCH:Documentation/Build_Records/0051/PACKAGE_INVENTORY.csv",
+        "FIXTURE_HASH_MISMATCH:Documentation/Build_Records/0051/PACKAGE_VERSION.json",
+        "FIXTURE_HASH_MISMATCH:Documentation/Build_Records/0051/PRE_RELEASE_SYNTHETIC_IMPORT_REPORT.json",
+        "FIXTURE_HASH_MISMATCH:Documentation/Build_Records/0051/PRODUCTION_DASHBOARD_UPDATE.json",
+        "FIXTURE_HASH_MISMATCH:Documentation/Build_Records/0051/PROJECT_GENESIS_IMPORT_HOOK.json",
+        "FIXTURE_HASH_MISMATCH:Documentation/Build_Records/0051/PROPOSED_CHANGE_LOG_ENTRY.md",
+        "FIXTURE_HASH_MISMATCH:Documentation/Build_Records/0051/PROPOSED_NEXT_ACTION.md",
+        "FIXTURE_HASH_MISMATCH:Documentation/Build_Records/0051/REAL_WORLD_OPERATOR_WORKFLOW_REGRESSION_REPORT.json",
+        "FIXTURE_HASH_MISMATCH:Documentation/Build_Records/0051/ROLLBACK_RUNBOOK.md",
+        "FIXTURE_HASH_MISMATCH:Documentation/Build_Records/0051/ROUTING_MANIFEST.json",
+        "FIXTURE_HASH_MISMATCH:Documentation/Build_Records/0051/TEST_REPORT.json",
+        "FIXTURE_HASH_MISMATCH:Documentation/Build_Records/0051/VALIDATION_REPORT.json",
+        "FIXTURE_HASH_MISMATCH:Documentation/Build_Records/0051/WINDOWS_POWERSHELL_5_1_COMPATIBILITY_REPORT.json",
+        "FIXTURE_HASH_MISMATCH:Schemas/retatrutide_periodic_review.schema.json",
+        "FIXTURE_HASH_MISMATCH:Schemas/retatrutide_post_closure_surveillance.schema.json",
+        "FIXTURE_HASH_MISMATCH:Schemas/retatrutide_recurrence_analytics.schema.json",
+        "FIXTURE_HASH_MISMATCH:Schemas/retatrutide_reopening_decision.schema.json",
+        "FIXTURE_HASH_MISMATCH:Scripts/Invoke_Certiaura_Build_0051_Import.ps1",
+        "FIXTURE_HASH_MISMATCH:Scripts/Invoke_Certiaura_Build_0051_Preflight.ps1",
+        "FIXTURE_HASH_MISMATCH:Scripts/Invoke_Certiaura_Build_0051_Windows_PS51_Regression.ps1",
+        "FIXTURE_HASH_MISMATCH:Scripts/Run_Certiaura_Build_0051.ps1",
+        "FIXTURE_HASH_MISMATCH:Scripts/START_BUILD_0051.cmd",
+        "FIXTURE_HASH_MISMATCH:Standards/RETATRUTIDE_POST_CLOSURE_REOPENING_GOVERNANCE_AND_SAFETY_BOUNDARY.md",
+        "FIXTURE_HASH_MISMATCH:Templates/RETATRUTIDE_PERIODIC_REVIEW_TEMPLATE.json",
+        "FIXTURE_HASH_MISMATCH:Templates/RETATRUTIDE_POST_CLOSURE_SURVEILLANCE_TEMPLATE.json",
+        "FIXTURE_HASH_MISMATCH:Templates/RETATRUTIDE_RECURRENCE_ANALYTICS_TEMPLATE.json",
+        "FIXTURE_HASH_MISMATCH:Templates/RETATRUTIDE_REOPENING_DECISION_TEMPLATE.json"
+      ]
+    },
+    {
+      "name": "uai_set_tamper",
+      "result": "PASS",
+      "blocking_errors": [
+        "PREDECESSOR_UAI_SET_MISMATCH"
+      ]
+    },
+    {
+      "name": "unauthorised_intersection",
+      "result": "PASS",
+      "blocking_errors": [
+        "UNAUTHORISED_MANIFEST_INTERSECTION",
+        "APPROVED_INTERSECTION_MISMATCH"
+      ]
+    },
+    {
+      "name": "approved_intersection_record_mismatch",
+      "result": "PASS",
+      "blocking_errors": [
+        "APPROVED_INTERSECTION_MISMATCH"
+      ]
+    },
+    {
+      "name": "missing_fixture_file",
+      "result": "PASS",
+      "blocking_errors": [
+        "FIXTURE_PATH_MISSING:02_Peptides/CERT-PKS-000001_Retatrutide/Monitoring/RETATRUTIDE_POST_CLOSURE_SURVEILLANCE_AND_REOPENING_STANDARD.md"
+      ]
+    }
+  ],
+  "negative_test_count": 15,
+  "negative_tests_result": "PASS"
+}
