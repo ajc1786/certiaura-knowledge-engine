@@ -1,0 +1,27 @@
+{
+  "build_number": "0056",
+  "candidate": "RC1",
+  "created_at": "2026-07-23T11:00:00Z",
+  "created_by": "Certiaura Governance",
+  "source_baseline_build": "0055",
+  "source_baseline_commit": "977829a987baf744beab4762478d9f0a88165fb0",
+  "peptide": "Tesamorelin",
+  "selection_basis": "Build 0055 governed knowledge-architecture pilot selection",
+  "clinical_equivalence_claimed": false,
+  "clinical_decision_support_authorised": false,
+  "record_type": "tesamorelin_evidence_gap_decision",
+  "record_id": "TES-GAP-0056-001",
+  "gap_id": "TES-GAP-001",
+  "gap_category": "monitoring evidence",
+  "severity": "NONCRITICAL",
+  "evidence": [
+    "Evidence review record placeholder"
+  ],
+  "decision": "RETAIN_OPEN_WITH_CONTROL",
+  "required_action": "Complete independent review before external release",
+  "closure_authority": "Evidence governance reviewer",
+  "status": "OPEN_CONTROLLED",
+  "approvers": [
+    "Evidence governance reviewer"
+  ]
+}

@@ -2951,3 +2951,10 @@ CERT-MKS-000215,,MKS,Controlled Matrix,ACTIVE,Certiaura Governance,,,,Standards/
 CERT-RKS-000015,,RKS,Controlled Matrix,ACTIVE,Certiaura Governance,,,,Standards/RETATRUTIDE_CONTROLLED_RELEASE_AUTHORISATION_MATRIX.json,,1.0.0,,,,,,,,,Build 0055,,,,,Retatrutide Controlled Release Authorisation Matrix
 CERT-SYS-000864,,SYS,Controlled Standard,ACTIVE,Certiaura Governance,,,,Standards/RETATRUTIDE_OPERATIONAL_BASELINE_CLOSURE_STANDARD.md,,1.0.0,,,,,,,,,Build 0055,,,,,Retatrutide Operational Baseline Closure Standard
 CERT-SYS-000865,,SYS,Controlled Standard,ACTIVE,Certiaura Governance,,,,Standards/RETATRUTIDE_REUSABLE_ARCHITECTURE_HANDOFF_STANDARD.md,,1.0.0,,,,,,,,,Build 0055,,,,,Retatrutide Reusable Architecture Handoff Standard
+CERT-BKS-000177,,BKS,Controlled Matrix,ACTIVE,Certiaura Governance,,,,Standards/TESAMORELIN_BIOLOGICAL_BOUNDARY_MATRIX.json,,1.0.0,,,,,,,,,Build 0056,,,,,Tesamorelin Biological Boundary Matrix
+CERT-PKS-000436,,PKS,Controlled Matrix,ACTIVE,Certiaura Governance,,,,Standards/TESAMORELIN_CONTROLLED_PILOT_ACCEPTANCE_MATRIX.json,,1.0.0,,,,,,,,,Build 0056,,,,,Tesamorelin Controlled Pilot Acceptance Matrix
+CERT-SYS-000866,,SYS,Controlled Standard,ACTIVE,Certiaura Governance,,,,Standards/TESAMORELIN_EVIDENCE_CORPUS_MAPPING_STANDARD.md,,1.0.0,,,,,,,,,Build 0056,,,,,Tesamorelin Evidence Corpus Mapping Standard
+CERT-EKS-000785,,EKS,Controlled Matrix,ACTIVE,Certiaura Governance,,,,Standards/TESAMORELIN_EVIDENCE_GAP_AND_REVIEW_MATRIX.json,,1.0.0,,,,,,,,,Build 0056,,,,,Tesamorelin Evidence Gap and Review Matrix
+CERT-MKS-000216,,MKS,Controlled Model,ACTIVE,Certiaura Governance,,,,Standards/TESAMORELIN_MONITORING_MODEL.json,,1.0.0,,,,,,,,,Build 0056,,,,,Tesamorelin Monitoring Model
+CERT-MKS-000217,,MKS,Controlled Matrix,ACTIVE,Certiaura Governance,,,,Standards/TESAMORELIN_SAFETY_BOUNDARY_AND_ESCALATION_MATRIX.json,,1.0.0,,,,,,,,,Build 0056,,,,,Tesamorelin Safety Boundary and Escalation Matrix
+CERT-SYS-000867,,SYS,Controlled Standard,ACTIVE,Certiaura Governance,,,,Standards/TESAMORELIN_TARGET_SPECIFIC_DATA_CONTRACT_STANDARD.md,,1.0.0,,,,,,,,,Build 0056,,,,,Tesamorelin Target-Specific Data Contract Standard

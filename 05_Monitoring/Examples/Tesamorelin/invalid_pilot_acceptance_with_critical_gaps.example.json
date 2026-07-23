@@ -1,0 +1,31 @@
+{
+  "build_number": "0056",
+  "candidate": "RC1",
+  "created_at": "2026-07-23T11:00:00Z",
+  "created_by": "Certiaura Governance",
+  "source_baseline_build": "0055",
+  "source_baseline_commit": "977829a987baf744beab4762478d9f0a88165fb0",
+  "peptide": "Tesamorelin",
+  "selection_basis": "Build 0055 governed knowledge-architecture pilot selection",
+  "clinical_equivalence_claimed": false,
+  "clinical_decision_support_authorised": false,
+  "record_type": "tesamorelin_controlled_pilot_acceptance",
+  "record_id": "TES-PILOT-X01",
+  "evidence_corpus_state": "BASELINE_MAPPED",
+  "biological_boundary_state": "DEFINED",
+  "safety_boundary_state": "DEFINED",
+  "monitoring_model_state": "DEFINED",
+  "open_critical_gaps": [
+    "No adverse-event escalation route"
+  ],
+  "open_noncritical_gaps": [],
+  "pilot_scope": [
+    "all clinical uses"
+  ],
+  "prohibited_scope": [],
+  "decision": "ACCEPT_CONTROLLED_KNOWLEDGE_PILOT",
+  "conditions": [],
+  "approvers": [
+    "Reviewer"
+  ]
+}

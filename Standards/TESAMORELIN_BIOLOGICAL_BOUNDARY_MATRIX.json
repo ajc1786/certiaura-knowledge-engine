@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "build_number": "0056",
+  "peptide": "Tesamorelin",
+  "clinical_equivalence_prohibited": true,
+  "domains": [
+    {
+      "domain": "mechanism",
+      "required_state": "DEFINED",
+      "overclaim_prohibited": true
+    },
+    {
+      "domain": "population context",
+      "required_state": "EVIDENCE_LINKED",
+      "generalisation_prohibited": true
+    },
+    {
+      "domain": "outcome interpretation",
+      "required_state": "BOUNDED",
+      "guarantee_prohibited": true
+    },
+    {
+      "domain": "uncertainty",
+      "required_state": "EXPLICIT",
+      "omission_prohibited": true
+    }
+  ],
+  "prohibited_claims": [
+    "guaranteed outcome",
+    "anti-ageing conclusion",
+    "cross-peptide equivalence",
+    "universal response"
+  ],
+  "decision_states": [
+    "DEFINED",
+    "CONDITIONAL",
+    "UNDEFINED"
+  ]
+}

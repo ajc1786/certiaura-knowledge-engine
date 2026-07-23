@@ -1,0 +1,24 @@
+{
+  "build_number": "0056",
+  "mandatory": true,
+  "must_match_canonical_commit": true,
+  "workflow_name": "Certiaura Repository Validation",
+  "required_status": "completed",
+  "required_conclusion": "success",
+  "fields": [
+    "canonical_commit_sha",
+    "run_id",
+    "workflow_name",
+    "run_attempt",
+    "head_branch",
+    "event",
+    "status",
+    "conclusion",
+    "created_at",
+    "updated_at",
+    "local_origin_alignment",
+    "clean_repository",
+    "founder_GREEN"
+  ],
+  "closure_prohibited_without_run_id": true
+}

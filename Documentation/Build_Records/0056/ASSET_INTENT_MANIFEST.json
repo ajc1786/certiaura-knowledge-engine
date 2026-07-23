@@ -1,0 +1,679 @@
+{
+  "schema_version": "2.1.0",
+  "build_number": "0056",
+  "candidate": "RC1",
+  "title": "tesamorelin evidence corpus mapping, biological and safety boundary definition, target-specific data contracts, monitoring model and controlled pilot acceptance baseline",
+  "predecessor": {
+    "build_number": "0055",
+    "candidate": "RC2",
+    "commit": "977829a987baf744beab4762478d9f0a88165fb0",
+    "expected_path_count": 89,
+    "github_actions_run_id": 29997204286,
+    "historical_actions_accounting": {
+      "accounted_builds": 54,
+      "verified_run_ids": 53,
+      "controlled_exceptions": 1,
+      "unresolved": 0
+    }
+  },
+  "package_file_count": 91,
+  "generated_file_count": 8,
+  "ownership_rule": "EXACT_PACKAGE_AND_GENERATED_PATH_SET",
+  "files": [
+    {
+      "repository_path": "05_Monitoring/Examples/Tesamorelin/conditional_biological_boundary.example.json",
+      "classification": "EXAMPLE",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "05_Monitoring/Examples/Tesamorelin/conditional_evidence_corpus_map.example.json",
+      "classification": "EXAMPLE",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "05_Monitoring/Examples/Tesamorelin/conditional_monitoring_model.example.json",
+      "classification": "EXAMPLE",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "05_Monitoring/Examples/Tesamorelin/conditional_pilot_acceptance_decision.example.json",
+      "classification": "EXAMPLE",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "05_Monitoring/Examples/Tesamorelin/conditional_safety_boundary.example.json",
+      "classification": "EXAMPLE",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "05_Monitoring/Examples/Tesamorelin/invalid_biological_boundary_overclaim.example.json",
+      "classification": "EXAMPLE",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "05_Monitoring/Examples/Tesamorelin/invalid_evidence_corpus_without_sources.example.json",
+      "classification": "EXAMPLE",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "05_Monitoring/Examples/Tesamorelin/invalid_evidence_gap_autoclose.example.json",
+      "classification": "EXAMPLE",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "05_Monitoring/Examples/Tesamorelin/invalid_monitoring_model_without_stop_rules.example.json",
+      "classification": "EXAMPLE",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "05_Monitoring/Examples/Tesamorelin/invalid_pilot_acceptance_with_critical_gaps.example.json",
+      "classification": "EXAMPLE",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "05_Monitoring/Examples/Tesamorelin/invalid_safety_boundary_without_escalation.example.json",
+      "classification": "EXAMPLE",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "05_Monitoring/Examples/Tesamorelin/valid_biological_boundary.example.json",
+      "classification": "EXAMPLE",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "05_Monitoring/Examples/Tesamorelin/valid_evidence_corpus_map.example.json",
+      "classification": "EXAMPLE",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "05_Monitoring/Examples/Tesamorelin/valid_evidence_gap_decision.example.json",
+      "classification": "EXAMPLE",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "05_Monitoring/Examples/Tesamorelin/valid_monitoring_model.example.json",
+      "classification": "EXAMPLE",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "05_Monitoring/Examples/Tesamorelin/valid_pilot_acceptance_decision.example.json",
+      "classification": "EXAMPLE",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "05_Monitoring/Examples/Tesamorelin/valid_safety_boundary.example.json",
+      "classification": "EXAMPLE",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "13_Project_Genesis/Dashboards/generate_tesamorelin_pilot_summary.py",
+      "classification": "IMPLEMENTATION",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "13_Project_Genesis/Import/run_build_0056_import.py",
+      "classification": "IMPLEMENTATION",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "13_Project_Genesis/Release/derive_build_0055_predecessor_evidence.py",
+      "classification": "IMPLEMENTATION",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "13_Project_Genesis/Release/run_build_0056_preflight.py",
+      "classification": "IMPLEMENTATION",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "13_Project_Genesis/Tests/test_build_0056_cross_asset_coherence.py",
+      "classification": "TEST",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "13_Project_Genesis/Tests/test_build_0056_predecessor_evidence.py",
+      "classification": "TEST",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "13_Project_Genesis/Tests/test_build_0056_repository.py",
+      "classification": "TEST",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "13_Project_Genesis/Tests/test_build_0056_tesamorelin_pilot.py",
+      "classification": "TEST",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "13_Project_Genesis/Tests/test_build_0056_transactional_import.py",
+      "classification": "TEST",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "13_Project_Genesis/Validators/build_0056_asset_ownership.py",
+      "classification": "IMPLEMENTATION",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "13_Project_Genesis/Validators/tesamorelin_pilot_common.py",
+      "classification": "IMPLEMENTATION",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "13_Project_Genesis/Validators/validate_build_0056_repository.py",
+      "classification": "IMPLEMENTATION",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "13_Project_Genesis/Validators/validate_tesamorelin_pilot.py",
+      "classification": "IMPLEMENTATION",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "13_Project_Genesis/Validators/verify_staged_byte_equality.py",
+      "classification": "IMPLEMENTATION",
+      "intended_action": "UPDATE",
+      "package_member": true,
+      "approved_predecessor_overlap": true,
+      "master_asset_register_action": "NO_CHANGE",
+      "change_reason": "Derive reported build number from current Asset Intent Manifest"
+    },
+    {
+      "repository_path": "Database/Registers/Tesamorelin_Biological_Boundary_Register.csv",
+      "classification": "REGISTER",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Database/Registers/Tesamorelin_Controlled_Pilot_Acceptance_Register.csv",
+      "classification": "REGISTER",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Database/Registers/Tesamorelin_Evidence_Corpus_Register.csv",
+      "classification": "REGISTER",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Database/Registers/Tesamorelin_Evidence_Gap_Register.csv",
+      "classification": "REGISTER",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Database/Registers/Tesamorelin_Monitoring_Model_Register.csv",
+      "classification": "REGISTER",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Database/Registers/Tesamorelin_Safety_Boundary_Register.csv",
+      "classification": "REGISTER",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0056/ACCUMULATED_LESSONS_DELTA.json",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0056/ASSET_INTENT_MANIFEST.json",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0056/ASSET_REGISTER_RECONCILIATION_POLICY.json",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0056/BUILD_MANIFEST.json",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0056/CANDIDATE_DELIVERY.json",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0056/CHECKSUMS.sha256",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0056/COMMIT_MESSAGE.txt",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0056/CONFLICT_POLICY.json",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0056/CONTINUITY_CHECKPOINT_DELTA.json",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0056/DECISION_RECORD_0056.md",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0056/GITHUB_ACTIONS_CLOSURE_EVIDENCE_REQUIREMENTS.json",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0056/LESSONS_LEARNED_CONTROL_MATRIX.json",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0056/LESSONS_LEARNED_REVIEW.md",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0056/OUTSIDE_CANONICAL_VALIDATION_REPORT.json",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0056/PACKAGE_INVENTORY.csv",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0056/PACKAGE_VERSION.json",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0056/PREDECESSOR_REQUIREMENTS.json",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0056/PRE_AUTHORISED_PRECURSOR_STATE.json",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0056/PRE_RELEASE_VALIDATION_REPORT.json",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0056/PROJECT_GENESIS_IMPORT_HOOK.json",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0056/PROPOSED_NEXT_ACTION.md",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0056/READ_ME_FIRST.md",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0056/REAL_WORLD_OPERATOR_WORKFLOW_REGRESSION_REPORT.json",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0056/ROLLBACK_RUNBOOK.md",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0056/ROUTING_MANIFEST.json",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0056/SOURCE_INPUT_DEFECT_LOG.json",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0056/VALIDATION_REQUIREMENTS.json",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Schemas/tesamorelin_biological_boundary.schema.json",
+      "classification": "SCHEMA",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Schemas/tesamorelin_controlled_pilot_acceptance.schema.json",
+      "classification": "SCHEMA",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Schemas/tesamorelin_evidence_corpus_map.schema.json",
+      "classification": "SCHEMA",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Schemas/tesamorelin_evidence_gap_decision.schema.json",
+      "classification": "SCHEMA",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Schemas/tesamorelin_monitoring_model.schema.json",
+      "classification": "SCHEMA",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Schemas/tesamorelin_safety_boundary.schema.json",
+      "classification": "SCHEMA",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Scripts/Close_Certiaura_Build_0056.ps1",
+      "classification": "OPERATOR_SCRIPT",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Scripts/Invoke_Certiaura_Build_0056_Import.ps1",
+      "classification": "OPERATOR_SCRIPT",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Scripts/Invoke_Certiaura_Build_0056_Preflight.ps1",
+      "classification": "OPERATOR_SCRIPT",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Scripts/Invoke_Certiaura_Build_0056_Windows_PS51_Regression.ps1",
+      "classification": "OPERATOR_SCRIPT",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Scripts/Run_Certiaura_Build_0056.ps1",
+      "classification": "OPERATOR_SCRIPT",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Scripts/START_BUILD_0056.cmd",
+      "classification": "OPERATOR_SCRIPT",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Scripts/update_certiaura_build_0056_controls.py",
+      "classification": "OPERATOR_SCRIPT",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Standards/TESAMORELIN_BIOLOGICAL_BOUNDARY_MATRIX.json",
+      "classification": "FORMAL_ASSET",
+      "intended_action": "CREATE",
+      "package_member": true,
+      "asset_title": "Tesamorelin Biological Boundary Matrix",
+      "knowledge_system": "BKS",
+      "asset_type": "Controlled Matrix",
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "owner": "Certiaura Governance",
+      "master_asset_register_action": "CREATE"
+    },
+    {
+      "repository_path": "Standards/TESAMORELIN_CONTROLLED_PILOT_ACCEPTANCE_MATRIX.json",
+      "classification": "FORMAL_ASSET",
+      "intended_action": "CREATE",
+      "package_member": true,
+      "asset_title": "Tesamorelin Controlled Pilot Acceptance Matrix",
+      "knowledge_system": "PKS",
+      "asset_type": "Controlled Matrix",
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "owner": "Certiaura Governance",
+      "master_asset_register_action": "CREATE"
+    },
+    {
+      "repository_path": "Standards/TESAMORELIN_EVIDENCE_CORPUS_MAPPING_STANDARD.md",
+      "classification": "FORMAL_ASSET",
+      "intended_action": "CREATE",
+      "package_member": true,
+      "asset_title": "Tesamorelin Evidence Corpus Mapping Standard",
+      "knowledge_system": "SYS",
+      "asset_type": "Controlled Standard",
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "owner": "Certiaura Governance",
+      "master_asset_register_action": "CREATE"
+    },
+    {
+      "repository_path": "Standards/TESAMORELIN_EVIDENCE_GAP_AND_REVIEW_MATRIX.json",
+      "classification": "FORMAL_ASSET",
+      "intended_action": "CREATE",
+      "package_member": true,
+      "asset_title": "Tesamorelin Evidence Gap and Review Matrix",
+      "knowledge_system": "EKS",
+      "asset_type": "Controlled Matrix",
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "owner": "Certiaura Governance",
+      "master_asset_register_action": "CREATE"
+    },
+    {
+      "repository_path": "Standards/TESAMORELIN_MONITORING_MODEL.json",
+      "classification": "FORMAL_ASSET",
+      "intended_action": "CREATE",
+      "package_member": true,
+      "asset_title": "Tesamorelin Monitoring Model",
+      "knowledge_system": "MKS",
+      "asset_type": "Controlled Model",
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "owner": "Certiaura Governance",
+      "master_asset_register_action": "CREATE"
+    },
+    {
+      "repository_path": "Standards/TESAMORELIN_SAFETY_BOUNDARY_AND_ESCALATION_MATRIX.json",
+      "classification": "FORMAL_ASSET",
+      "intended_action": "CREATE",
+      "package_member": true,
+      "asset_title": "Tesamorelin Safety Boundary and Escalation Matrix",
+      "knowledge_system": "MKS",
+      "asset_type": "Controlled Matrix",
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "owner": "Certiaura Governance",
+      "master_asset_register_action": "CREATE"
+    },
+    {
+      "repository_path": "Standards/TESAMORELIN_TARGET_SPECIFIC_DATA_CONTRACT_STANDARD.md",
+      "classification": "FORMAL_ASSET",
+      "intended_action": "CREATE",
+      "package_member": true,
+      "asset_title": "Tesamorelin Target-Specific Data Contract Standard",
+      "knowledge_system": "SYS",
+      "asset_type": "Controlled Standard",
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "owner": "Certiaura Governance",
+      "master_asset_register_action": "CREATE"
+    },
+    {
+      "repository_path": "Templates/TESAMORELIN_BIOLOGICAL_BOUNDARY_TEMPLATE.json",
+      "classification": "TEMPLATE",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Templates/TESAMORELIN_CONTROLLED_PILOT_ACCEPTANCE_TEMPLATE.json",
+      "classification": "TEMPLATE",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Templates/TESAMORELIN_CONTROLLED_PILOT_EXECUTIVE_SUMMARY_TEMPLATE.md",
+      "classification": "TEMPLATE",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Templates/TESAMORELIN_EVIDENCE_CORPUS_MAP_TEMPLATE.json",
+      "classification": "TEMPLATE",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Templates/TESAMORELIN_EVIDENCE_GAP_DECISION_TEMPLATE.json",
+      "classification": "TEMPLATE",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Templates/TESAMORELIN_MONITORING_MODEL_TEMPLATE.json",
+      "classification": "TEMPLATE",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Templates/TESAMORELIN_SAFETY_BOUNDARY_TEMPLATE.json",
+      "classification": "TEMPLATE",
+      "intended_action": "CREATE",
+      "package_member": true
+    }
+  ],
+  "generated_files": [
+    {
+      "repository_path": "00_Governance/CERTIAURA_LOCKED_ACCUMULATED_LESSONS_AND_CONTINUOUS_LEARNING_STANDARD.control.json",
+      "classification": "NON_ASSET_ADMIN",
+      "intended_action": "UPDATE",
+      "package_member": false,
+      "approved_predecessor_overlap": true,
+      "master_asset_register_action": "NO_CHANGE"
+    },
+    {
+      "repository_path": "00_Governance/CERTIAURA_LOCKED_ACCUMULATED_LESSONS_AND_CONTINUOUS_LEARNING_STANDARD.md",
+      "classification": "NON_ASSET_ADMIN",
+      "intended_action": "UPDATE",
+      "package_member": false,
+      "approved_predecessor_overlap": true,
+      "master_asset_register_action": "NO_CHANGE"
+    },
+    {
+      "repository_path": "00_Governance/CERTIAURA_LOCKED_BUILD_CONTINUITY_AND_CHECKPOINT.md",
+      "classification": "NON_ASSET_ADMIN",
+      "intended_action": "UPDATE",
+      "package_member": false,
+      "approved_predecessor_overlap": true,
+      "master_asset_register_action": "NO_CHANGE"
+    },
+    {
+      "repository_path": "Documentation/Master_Asset_Register.csv",
+      "classification": "CANONICAL_REGISTER",
+      "intended_action": "UPDATE",
+      "package_member": false,
+      "approved_predecessor_overlap": true
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0056/ASSET_REGISTER_CHANGE_REPORT.json",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE",
+      "package_member": false
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0056/CANONICAL_IMPORT_REPORT.json",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE",
+      "package_member": false
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0056/POST_IMPORT_REPOSITORY_VALIDATION.json",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE",
+      "package_member": false
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0056/PREDECESSOR_CANONICAL_EVIDENCE.json",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE",
+      "package_member": false
+    }
+  ]
+}

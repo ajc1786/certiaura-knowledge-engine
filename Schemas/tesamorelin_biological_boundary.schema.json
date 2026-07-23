@@ -1,0 +1,90 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://certiaura.invalid/schemas/tesamorelin_biological_boundary.schema.json",
+  "title": "tesamorelin_biological_boundary",
+  "type": "object",
+  "required": [
+    "build_number",
+    "record_type",
+    "record_id",
+    "peptide",
+    "clinical_equivalence_claimed",
+    "clinical_decision_support_authorised",
+    "mechanism_summary",
+    "known_contexts",
+    "excluded_claims",
+    "uncertainties",
+    "boundary_state",
+    "decision",
+    "approvers"
+  ],
+  "properties": {
+    "build_number": {
+      "const": "0056"
+    },
+    "candidate": {
+      "const": "RC1"
+    },
+    "record_type": {
+      "const": "tesamorelin_biological_boundary"
+    },
+    "record_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "peptide": {
+      "const": "Tesamorelin"
+    },
+    "clinical_equivalence_claimed": {
+      "const": false
+    },
+    "clinical_decision_support_authorised": {
+      "const": false
+    },
+    "approvers": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "mechanism_summary": {
+      "type": "string",
+      "minLength": 1
+    },
+    "known_contexts": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    },
+    "excluded_claims": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    },
+    "uncertainties": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    },
+    "boundary_state": {
+      "enum": [
+        "DEFINED",
+        "CONDITIONAL",
+        "UNDEFINED"
+      ]
+    },
+    "decision": {
+      "enum": [
+        "ACCEPT_BIOLOGICAL_BOUNDARY",
+        "HOLD_FOR_SCIENTIFIC_REVIEW"
+      ]
+    }
+  },
+  "additionalProperties": true
+}

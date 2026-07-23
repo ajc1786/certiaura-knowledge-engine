@@ -1,0 +1,7 @@
+{
+  "build_number": "0056",
+  "importer": "13_Project_Genesis/Import/run_build_0056_import.py",
+  "launcher": "Scripts/Run_Certiaura_Build_0056.ps1",
+  "transactional": true,
+  "dry_run_before_apply": true
+}

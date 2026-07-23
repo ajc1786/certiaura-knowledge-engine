@@ -1,0 +1,17 @@
+{
+  "build_number": "0056",
+  "items": [
+    {
+      "id": "0056-DEF-001",
+      "description": "Inherited staged-byte validator reported stale Build 0053 identifier",
+      "resolution": "Derive build number from current manifest",
+      "status": "CORRECTED"
+    },
+    {
+      "id": "0056-DEF-002",
+      "description": "Cross-peptide clinical assumptions could be accidentally reused",
+      "resolution": "Target-specific contracts and explicit equivalence prohibition",
+      "status": "CONTROLLED"
+    }
+  ]
+}

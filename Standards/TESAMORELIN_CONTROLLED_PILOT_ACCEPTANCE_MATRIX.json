@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.0.0",
+  "build_number": "0056",
+  "peptide": "Tesamorelin",
+  "acceptance_gates": [
+    "EVIDENCE_CORPUS_BASELINE_MAPPED",
+    "BIOLOGICAL_BOUNDARY_DEFINED",
+    "SAFETY_BOUNDARY_DEFINED",
+    "MONITORING_MODEL_DEFINED",
+    "ZERO_OPEN_CRITICAL_GAPS",
+    "HUMAN_GOVERNANCE_APPROVAL"
+  ],
+  "permitted_scope": [
+    "knowledge ingestion",
+    "schema validation",
+    "workflow simulation",
+    "governed review"
+  ],
+  "prohibited_scope": [
+    "clinical recommendation",
+    "dosing instruction",
+    "diagnosis",
+    "prescribing",
+    "autonomous clearance"
+  ],
+  "decisions": [
+    "ACCEPT_CONTROLLED_KNOWLEDGE_PILOT",
+    "CONDITIONAL_DISCOVERY_ONLY",
+    "HOLD"
+  ]
+}

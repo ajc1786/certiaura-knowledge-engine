@@ -1,0 +1,7 @@
+{
+  "build_number": "0056",
+  "default": "FAIL_CLOSED",
+  "predecessor_overlap_requires_explicit_approval": true,
+  "unexpected_existing_create_path": "BLOCK_IMPORT",
+  "unexpected_change_outside_ownership": "BLOCK_RELEASE"
+}

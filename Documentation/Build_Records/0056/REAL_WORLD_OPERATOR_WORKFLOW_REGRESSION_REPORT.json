@@ -1,0 +1,13 @@
+{
+  "build_number": "0056",
+  "candidate": "RC1",
+  "required_platform": "Windows PowerShell 5.1",
+  "required_endpoints": [
+    "BUILD_0056_PRE_CANONICAL_FULL_SUITE_VALIDATED",
+    "BUILD_0056_OPTIONAL_PROPERTY_STRICTMODE_VALIDATED",
+    "BUILD_0056_STAGED_CHANGESET_VALIDATED",
+    "BUILD_0056_WINDOWS_PS51_REGRESSION_PASS",
+    "BUILD_0056_CANONICAL_VALIDATED_AND_STAGED"
+  ],
+  "canonical_closure_endpoint": "BUILD_0056_GITHUB_ACTIONS_GREEN"
+}

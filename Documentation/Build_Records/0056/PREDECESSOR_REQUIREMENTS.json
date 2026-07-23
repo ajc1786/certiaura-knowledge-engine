@@ -1,0 +1,11 @@
+{
+  "build_number": "0056",
+  "required_predecessor_build": "0055",
+  "required_predecessor_candidate": "RC2",
+  "required_predecessor_commit": "977829a987baf744beab4762478d9f0a88165fb0",
+  "required_predecessor_package_path_count": 89,
+  "required_predecessor_actions_run_id": 29997204286,
+  "withdrawn_predecessor_candidates": [
+    "RC1"
+  ]
+}

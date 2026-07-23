@@ -1,0 +1,8 @@
+{
+  "build_number": "0056",
+  "canonical_register": "Documentation/Master_Asset_Register.csv",
+  "automatic_reconciliation_required": true,
+  "transactional_with_import": true,
+  "preserve_existing_uai": true,
+  "parallel_register_prohibited": true
+}

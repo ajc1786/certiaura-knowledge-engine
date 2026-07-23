@@ -1,0 +1,15 @@
+{
+  "build_number": "0056",
+  "lesson_ids": [
+    "CERT-LESSON-0056-001",
+    "CERT-LESSON-0056-002",
+    "CERT-LESSON-0056-003",
+    "CERT-LESSON-0056-004",
+    "CERT-LESSON-0056-005",
+    "CERT-LESSON-0056-006",
+    "CERT-LESSON-0056-007",
+    "CERT-LESSON-0056-008"
+  ],
+  "source_build": "0055",
+  "status": "CANDIDATE"
+}

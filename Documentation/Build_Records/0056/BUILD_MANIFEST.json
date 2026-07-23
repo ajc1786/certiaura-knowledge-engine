@@ -1,0 +1,13 @@
+{
+  "build_number": "0056",
+  "candidate": "RC1",
+  "title": "tesamorelin evidence corpus mapping, biological and safety boundary definition, target-specific data contracts, monitoring model and controlled pilot acceptance baseline",
+  "predecessor_build": "0055",
+  "predecessor_candidate": "RC2",
+  "predecessor_commit": "977829a987baf744beab4762478d9f0a88165fb0",
+  "predecessor_github_actions_run_id": 29997204286,
+  "capability": "Tesamorelin evidence and boundary mapping with controlled non-clinical pilot acceptance",
+  "package_file_count": 91,
+  "generated_file_count": 8,
+  "owned_path_count": 99
+}

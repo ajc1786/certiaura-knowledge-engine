@@ -1,0 +1,50 @@
+{
+  "build_number": "0056",
+  "candidate": "RC1",
+  "created_at": "2026-07-23T11:00:00Z",
+  "created_by": "Certiaura Governance",
+  "source_baseline_build": "0055",
+  "source_baseline_commit": "977829a987baf744beab4762478d9f0a88165fb0",
+  "peptide": "Tesamorelin",
+  "selection_basis": "Build 0055 governed knowledge-architecture pilot selection",
+  "clinical_equivalence_claimed": false,
+  "clinical_decision_support_authorised": false,
+  "record_type": "tesamorelin_monitoring_model",
+  "record_id": "TES-MON-0056-001",
+  "baseline_domains": [
+    "clinical eligibility confirmation",
+    "relevant label-aligned baseline data",
+    "medication and condition review"
+  ],
+  "ongoing_domains": [
+    "tolerability",
+    "adverse events",
+    "glucose-related concerns",
+    "material clinical changes"
+  ],
+  "review_cadence": "clinician-defined and evidence-dependent",
+  "decision_rules": [
+    {
+      "rule_id": "TES-MON-R1",
+      "condition": "serious adverse event",
+      "action": "STOP_AND_ESCALATE"
+    },
+    {
+      "rule_id": "TES-MON-R2",
+      "condition": "new material contraindication",
+      "action": "HOLD_AND_REVIEW"
+    },
+    {
+      "rule_id": "TES-MON-R3",
+      "condition": "monitoring data incomplete",
+      "action": "DO_NOT_ADVANCE"
+    }
+  ],
+  "automation_limit": "No autonomous dosing, diagnosis, prescribing or clinical clearance.",
+  "model_state": "DEFINED",
+  "decision": "ACCEPT_MONITORING_MODEL_FOR_CONTROLLED_PILOT",
+  "approvers": [
+    "Monitoring governance reviewer",
+    "Safety governance reviewer"
+  ]
+}

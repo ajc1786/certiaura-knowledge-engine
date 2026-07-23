@@ -45,7 +45,7 @@ def main() -> int:
         if working_path.read_bytes() != index_bytes:
             errors.append(f"raw working-tree/index byte mismatch: {rel}")
     result = {
-        "build_number": "0053",
+        "build_number": str(manifest.get("build_number", "")),
         "path_count": len(paths),
         "valid": not errors,
         "errors": errors,

@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0.0",
+  "build_number": "0056",
+  "peptide": "Tesamorelin",
+  "baseline_domains": [
+    "eligibility confirmation",
+    "label-aligned baseline review",
+    "conditions and medicines review"
+  ],
+  "ongoing_domains": [
+    "tolerability",
+    "adverse events",
+    "glucose-related concerns",
+    "material clinical change"
+  ],
+  "data_quality_states": [
+    "COMPLETE",
+    "PARTIAL",
+    "INSUFFICIENT"
+  ],
+  "decision_actions": [
+    "CONTINUE_REVIEW",
+    "HOLD_AND_REVIEW",
+    "STOP_AND_ESCALATE",
+    "DO_NOT_ADVANCE"
+  ],
+  "clinician_defined_cadence": true,
+  "autonomous_dosing_or_prescribing_prohibited": true
+}

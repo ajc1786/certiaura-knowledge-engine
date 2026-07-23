@@ -1,0 +1,109 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://certiaura.invalid/schemas/tesamorelin_controlled_pilot_acceptance.schema.json",
+  "title": "tesamorelin_controlled_pilot_acceptance",
+  "type": "object",
+  "required": [
+    "build_number",
+    "record_type",
+    "record_id",
+    "peptide",
+    "clinical_equivalence_claimed",
+    "clinical_decision_support_authorised",
+    "evidence_corpus_state",
+    "biological_boundary_state",
+    "safety_boundary_state",
+    "monitoring_model_state",
+    "open_critical_gaps",
+    "pilot_scope",
+    "prohibited_scope",
+    "decision",
+    "approvers"
+  ],
+  "properties": {
+    "build_number": {
+      "const": "0056"
+    },
+    "candidate": {
+      "const": "RC1"
+    },
+    "record_type": {
+      "const": "tesamorelin_controlled_pilot_acceptance"
+    },
+    "record_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "peptide": {
+      "const": "Tesamorelin"
+    },
+    "clinical_equivalence_claimed": {
+      "const": false
+    },
+    "clinical_decision_support_authorised": {
+      "const": false
+    },
+    "approvers": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "evidence_corpus_state": {
+      "enum": [
+        "BASELINE_MAPPED",
+        "PARTIAL",
+        "INSUFFICIENT"
+      ]
+    },
+    "biological_boundary_state": {
+      "enum": [
+        "DEFINED",
+        "CONDITIONAL",
+        "UNDEFINED"
+      ]
+    },
+    "safety_boundary_state": {
+      "enum": [
+        "DEFINED",
+        "CONDITIONAL",
+        "UNDEFINED"
+      ]
+    },
+    "monitoring_model_state": {
+      "enum": [
+        "DEFINED",
+        "CONDITIONAL",
+        "UNDEFINED"
+      ]
+    },
+    "open_critical_gaps": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "pilot_scope": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    },
+    "prohibited_scope": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    },
+    "decision": {
+      "enum": [
+        "ACCEPT_CONTROLLED_KNOWLEDGE_PILOT",
+        "CONDITIONAL_DISCOVERY_ONLY",
+        "HOLD"
+      ]
+    }
+  },
+  "additionalProperties": true
+}

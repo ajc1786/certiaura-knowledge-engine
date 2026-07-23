@@ -1,0 +1,32 @@
+{
+  "build_number": "0056",
+  "candidate": "RC1",
+  "title": "tesamorelin evidence corpus mapping, biological and safety boundary definition, target-specific data contracts, monitoring model and controlled pilot acceptance baseline",
+  "zip_filename": "Certiaura_Build_0056_Tesamorelin_Controlled_Pilot_RC1.zip",
+  "package_sha256": "VERIFIED_EXTERNALLY_AT_DELIVERY",
+  "package_sha256_is_self_referentially_excluded": true,
+  "reserved_commit_message": "Add Certiaura Build 0056 tesamorelin evidence corpus mapping, biological and safety boundary definition, target-specific data contracts, monitoring model and controlled pilot acceptance baseline",
+  "expected_endpoint": "BUILD_0056_CANONICAL_VALIDATED_AND_STAGED",
+  "mandatory_closure_endpoint": "BUILD_0056_GITHUB_ACTIONS_GREEN",
+  "mandatory_closure_evidence": [
+    "canonical_commit_sha",
+    "github_actions_run_id",
+    "workflow_name",
+    "run_attempt",
+    "status_completed",
+    "conclusion_success",
+    "local_origin_alignment",
+    "clean_repository",
+    "founder_GREEN"
+  ],
+  "proposed_next_action": "Run a governed Tesamorelin evidence-ingestion and monitoring-workflow simulation using the Build 0056 target-specific baseline",
+  "package_file_count": 91,
+  "generated_file_count": 8,
+  "owned_path_count": 99,
+  "expected_staged_change_count": 99,
+  "approved_predecessor_overlap_count": 1,
+  "expected_no_op_count": 0,
+  "example_count": 17,
+  "formal_asset_count": 7,
+  "automated_test_count": 20
+}

@@ -2362,3 +2362,15 @@ A founder `GREEN` cannot substitute for the exact successful Actions run tied to
 ### CERT-LESSON-0055-010 - Builds 0001-0054 require complete accounting before Build 0055 closure
 
 <!-- CERTIAURA_BUILD_0055_LESSONS_END -->
+
+<!-- CERTIAURA_BUILD_0056_LESSONS_START -->
+### CERT-LESSON-0056-001 - Target-peptide evidence must be mapped independently of predecessor peptide claims
+### CERT-LESSON-0056-002 - Biological boundaries require explicit contexts, exclusions and uncertainties
+### CERT-LESSON-0056-003 - Safety boundaries require stop, hold, escalation and emergency routes
+### CERT-LESSON-0056-004 - Monitoring models must prohibit autonomous clinical clearance and dosing decisions
+### CERT-LESSON-0056-005 - Controlled pilot acceptance requires zero critical gaps and human approval
+### CERT-LESSON-0056-006 - Evidence gaps cannot close automatically or without traceable evidence
+### CERT-LESSON-0056-007 - Staged-byte reports must derive the build number from the current manifest
+### CERT-LESSON-0056-008 - Exact GitHub Actions run ID remains mandatory for canonical closure
+
+<!-- CERTIAURA_BUILD_0056_LESSONS_END -->

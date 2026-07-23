@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0.0",
+  "build_number": "0056",
+  "peptide": "Tesamorelin",
+  "severity_levels": [
+    "CRITICAL",
+    "NONCRITICAL"
+  ],
+  "states": [
+    "OPEN_CONTROLLED",
+    "CLOSED_EVIDENCED",
+    "ESCALATED"
+  ],
+  "closure_requirements": [
+    "identified evidence",
+    "human reviewer",
+    "recorded rationale",
+    "affected assets reassessed"
+  ],
+  "automatic_closure_prohibited": true,
+  "critical_gap_effect": "PILOT_ACCEPTANCE_BLOCKED"
+}

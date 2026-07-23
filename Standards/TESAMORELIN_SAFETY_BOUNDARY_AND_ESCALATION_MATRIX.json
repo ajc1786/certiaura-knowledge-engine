@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0.0",
+  "build_number": "0056",
+  "peptide": "Tesamorelin",
+  "required_domains": [
+    "contraindication categories",
+    "caution categories",
+    "monitoring dependencies",
+    "stop or escalate triggers",
+    "emergency instruction"
+  ],
+  "mandatory_actions": {
+    "serious_adverse_event": "STOP_AND_ESCALATE",
+    "new_material_contraindication": "HOLD_AND_REVIEW",
+    "incomplete_safety_information": "DO_NOT_ADVANCE",
+    "urgent_or_severe_symptoms": "DIRECT_TO_EMERGENCY_OR_URGENT_CLINICAL_CARE"
+  },
+  "autonomous_clearance_prohibited": true,
+  "clinical_review_required": true
+}
