@@ -1,0 +1,7 @@
+{
+  "build_number": "0060",
+  "required_head": "594152fcfba3b1612b71d7b6e5c23759c906e464",
+  "required_branch": "main",
+  "required_repository_state": "CLEAN",
+  "required_predecessor_status": "ACTIONS_GREEN_CLOSED"
+}

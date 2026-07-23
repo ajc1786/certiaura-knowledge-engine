@@ -1,0 +1,133 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://certiaura.invalid/schemas/bpc157_human_evidence_gap.schema.json",
+  "title": "bpc157_human_evidence_gap",
+  "type": "object",
+  "required": [
+    "build_number",
+    "candidate",
+    "record_type",
+    "record_id",
+    "peptide",
+    "clinical_recommendation_authorised",
+    "clinical_decision_support_authorised",
+    "tesamorelin_assumptions_transferred",
+    "registered_trials",
+    "completed_trials_with_results",
+    "peer_reviewed_human_studies",
+    "human_evidence_state",
+    "critical_gaps",
+    "gap_severity",
+    "decision",
+    "source_refs",
+    "approvers"
+  ],
+  "properties": {
+    "build_number": {
+      "const": "0060"
+    },
+    "candidate": {
+      "const": "RC1"
+    },
+    "peptide": {
+      "const": "BPC-157"
+    },
+    "clinical_recommendation_authorised": {
+      "const": false
+    },
+    "clinical_decision_support_authorised": {
+      "const": false
+    },
+    "tesamorelin_assumptions_transferred": {
+      "const": false
+    },
+    "record_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "approvers": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "record_type": {
+      "const": "bpc157_human_evidence_gap"
+    },
+    "registered_trials": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "completed_trials_with_results": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "peer_reviewed_human_studies": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "human_evidence_state": {
+      "enum": [
+        "VERY_LIMITED",
+        "LIMITED",
+        "EMERGING",
+        "ADEQUATE"
+      ]
+    },
+    "critical_gaps": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    },
+    "gap_severity": {
+      "enum": [
+        "LOW",
+        "MODERATE",
+        "HIGH",
+        "CRITICAL"
+      ]
+    },
+    "decision": {
+      "enum": [
+        "TRACK_ONLY",
+        "CONDITIONAL_REVIEW",
+        "HOLD_TRANSITION",
+        "READY"
+      ]
+    },
+    "source_refs": {
+      "type": "array",
+      "minItems": 2,
+      "items": {
+        "type": "object",
+        "required": [
+          "source_id",
+          "url",
+          "authority",
+          "verified_at"
+        ],
+        "properties": {
+          "source_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "url": {
+            "type": "string",
+            "minLength": 1
+          },
+          "authority": {
+            "type": "string",
+            "minLength": 1
+          },
+          "verified_at": {
+            "type": "string",
+            "minLength": 10
+          }
+        }
+      }
+    }
+  },
+  "additionalProperties": true
+}

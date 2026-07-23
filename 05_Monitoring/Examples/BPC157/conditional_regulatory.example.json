@@ -1,0 +1,38 @@
+{
+  "build_number": "0060",
+  "candidate": "RC1",
+  "peptide": "BPC-157",
+  "clinical_recommendation_authorised": false,
+  "clinical_decision_support_authorised": false,
+  "tesamorelin_assumptions_transferred": false,
+  "record_type": "bpc157_regulatory_sport_boundary",
+  "record_id": "BPC157-REG-002",
+  "fda_state": "PENDING_REVIEW",
+  "fda_basis": "FDA July 2026 PCAC briefing proposal",
+  "wada_state": "S0_PROHIBITED_AT_ALL_TIMES",
+  "wada_basis": "2026 WADA Prohibited List",
+  "human_therapeutic_approval_state": "NO_CURRENT_GOVERNMENTAL_APPROVAL_IDENTIFIED",
+  "jurisdiction_scope": [
+    "United States compounding",
+    "WADA-covered sport"
+  ],
+  "source_refs": [
+    {
+      "source_id": "BPC157-SRC-FDA-PCAC-202607",
+      "url": "https://www.fda.gov/media/193343/download",
+      "authority": "US Food and Drug Administration",
+      "verified_at": "2026-07-23"
+    },
+    {
+      "source_id": "BPC157-SRC-WADA-2026",
+      "url": "https://www.wada-ama.org/sites/default/files/2025-09/2026list_en_final_clean_september_2025.pdf",
+      "authority": "World Anti-Doping Agency",
+      "verified_at": "2026-07-23"
+    }
+  ],
+  "boundary_decision": "BOUNDARY_COMPLETE_RESTRICTED",
+  "approvers": [
+    "Regulatory reviewer",
+    "Sport integrity reviewer"
+  ]
+}

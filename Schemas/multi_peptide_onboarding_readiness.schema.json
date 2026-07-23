@@ -1,0 +1,105 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://certiaura.invalid/schemas/multi_peptide_onboarding_readiness.schema.json",
+  "title": "multi_peptide_onboarding_readiness",
+  "type": "object",
+  "required": [
+    "build_number",
+    "candidate",
+    "record_type",
+    "record_id",
+    "peptide",
+    "clinical_recommendation_authorised",
+    "clinical_decision_support_authorised",
+    "tesamorelin_assumptions_transferred",
+    "source_pilot",
+    "transition_candidate",
+    "reusable_controls",
+    "target_specific_controls",
+    "prohibited_transfers",
+    "test_results",
+    "readiness_state",
+    "decision",
+    "approvers"
+  ],
+  "properties": {
+    "build_number": {
+      "const": "0060"
+    },
+    "candidate": {
+      "const": "RC1"
+    },
+    "peptide": {
+      "const": "BPC-157"
+    },
+    "clinical_recommendation_authorised": {
+      "const": false
+    },
+    "clinical_decision_support_authorised": {
+      "const": false
+    },
+    "tesamorelin_assumptions_transferred": {
+      "const": false
+    },
+    "record_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "approvers": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "record_type": {
+      "const": "multi_peptide_onboarding_readiness"
+    },
+    "source_pilot": {
+      "const": "Tesamorelin"
+    },
+    "transition_candidate": {
+      "const": "BPC-157"
+    },
+    "reusable_controls": {
+      "type": "array",
+      "minItems": 6,
+      "items": {
+        "type": "string"
+      }
+    },
+    "target_specific_controls": {
+      "type": "array",
+      "minItems": 5,
+      "items": {
+        "type": "string"
+      }
+    },
+    "prohibited_transfers": {
+      "type": "array",
+      "minItems": 3,
+      "items": {
+        "type": "string"
+      }
+    },
+    "test_results": {
+      "type": "object"
+    },
+    "readiness_state": {
+      "enum": [
+        "REPEATABLE_WITH_HOLD",
+        "CONDITIONAL",
+        "NOT_READY",
+        "READY"
+      ]
+    },
+    "decision": {
+      "enum": [
+        "APPROVE_REPEATABLE_ONBOARDING_MODEL",
+        "CONDITIONAL_HOLD",
+        "HOLD",
+        "REJECT"
+      ]
+    }
+  },
+  "additionalProperties": true
+}

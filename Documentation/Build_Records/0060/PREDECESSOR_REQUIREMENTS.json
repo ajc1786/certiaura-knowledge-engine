@@ -1,0 +1,10 @@
+{
+  "build_number": "0060",
+  "predecessor_build": "0059",
+  "predecessor_candidate": "RC1",
+  "canonical_commit": "594152fcfba3b1612b71d7b6e5c23759c906e464",
+  "github_actions_run_id": 30005584569,
+  "expected_package_path_count": 97,
+  "source": "CANONICAL_GIT_OBJECTS",
+  "withdrawn_predecessor_candidates": []
+}

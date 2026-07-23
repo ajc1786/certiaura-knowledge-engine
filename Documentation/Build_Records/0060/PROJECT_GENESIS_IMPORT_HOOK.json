@@ -1,0 +1,7 @@
+{
+  "build_number": "0060",
+  "importer": "13_Project_Genesis/Import/run_build_0060_import.py",
+  "dry_run_required": true,
+  "transactional_backup_required": true,
+  "rollback_required": true
+}

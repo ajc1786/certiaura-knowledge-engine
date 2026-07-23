@@ -1,0 +1,44 @@
+{
+  "build_number": "0060",
+  "candidate": "RC1",
+  "peptide": "BPC-157",
+  "clinical_recommendation_authorised": false,
+  "clinical_decision_support_authorised": false,
+  "tesamorelin_assumptions_transferred": false,
+  "record_type": "multi_peptide_onboarding_readiness",
+  "record_id": "BPC157-READY-002",
+  "source_pilot": "Tesamorelin",
+  "transition_candidate": "BPC-157",
+  "reusable_controls": [
+    "source provenance",
+    "immutable evidence packs",
+    "role-separated board",
+    "independent appeal",
+    "transactional import",
+    "Git closure evidence"
+  ],
+  "target_specific_controls": [
+    "BPC-157 regulatory boundary",
+    "WADA boundary",
+    "human evidence gap",
+    "safety-quality boundary",
+    "BPC-157 monitoring triggers"
+  ],
+  "prohibited_transfers": [
+    "Tesamorelin biological assumptions",
+    "Tesamorelin safety conclusions",
+    "Tesamorelin clinical conclusions"
+  ],
+  "test_results": {
+    "predecessor_isolation": "PASS",
+    "target_specific_reconstruction": "PASS",
+    "board_workflow": "PASS",
+    "appeal_workflow": "PASS"
+  },
+  "readiness_state": "CONDITIONAL",
+  "decision": "CONDITIONAL_HOLD",
+  "approvers": [
+    "Architecture reviewer",
+    "Governance reviewer"
+  ]
+}

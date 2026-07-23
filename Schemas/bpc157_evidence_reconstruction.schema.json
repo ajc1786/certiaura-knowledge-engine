@@ -1,0 +1,142 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://certiaura.invalid/schemas/bpc157_evidence_reconstruction.schema.json",
+  "title": "bpc157_evidence_reconstruction",
+  "type": "object",
+  "required": [
+    "build_number",
+    "candidate",
+    "record_type",
+    "record_id",
+    "peptide",
+    "clinical_recommendation_authorised",
+    "clinical_decision_support_authorised",
+    "tesamorelin_assumptions_transferred",
+    "source_refs",
+    "source_tiers",
+    "human_evidence_state",
+    "regulatory_evidence_state",
+    "sport_boundary_state",
+    "critical_gaps",
+    "reconstruction_state",
+    "decision",
+    "approvers"
+  ],
+  "properties": {
+    "build_number": {
+      "const": "0060"
+    },
+    "candidate": {
+      "const": "RC1"
+    },
+    "peptide": {
+      "const": "BPC-157"
+    },
+    "clinical_recommendation_authorised": {
+      "const": false
+    },
+    "clinical_decision_support_authorised": {
+      "const": false
+    },
+    "tesamorelin_assumptions_transferred": {
+      "const": false
+    },
+    "record_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "approvers": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "record_type": {
+      "const": "bpc157_evidence_reconstruction"
+    },
+    "source_refs": {
+      "type": "array",
+      "minItems": 4,
+      "items": {
+        "type": "object",
+        "required": [
+          "source_id",
+          "url",
+          "authority",
+          "verified_at"
+        ],
+        "properties": {
+          "source_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "url": {
+            "type": "string",
+            "minLength": 1
+          },
+          "authority": {
+            "type": "string",
+            "minLength": 1
+          },
+          "verified_at": {
+            "type": "string",
+            "minLength": 10
+          }
+        }
+      }
+    },
+    "source_tiers": {
+      "type": "array",
+      "minItems": 3,
+      "items": {
+        "type": "string"
+      }
+    },
+    "human_evidence_state": {
+      "enum": [
+        "ABSENT",
+        "VERY_LIMITED",
+        "LIMITED",
+        "EMERGING",
+        "ADEQUATE"
+      ]
+    },
+    "regulatory_evidence_state": {
+      "enum": [
+        "UNVERIFIED",
+        "PROPOSAL_PENDING",
+        "RESTRICTED",
+        "CLEAR"
+      ]
+    },
+    "sport_boundary_state": {
+      "enum": [
+        "UNVERIFIED",
+        "PROHIBITED_AT_ALL_TIMES",
+        "NOT_APPLICABLE"
+      ]
+    },
+    "critical_gaps": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "reconstruction_state": {
+      "enum": [
+        "COMPLETE_WITH_CRITICAL_GAPS",
+        "PARTIAL",
+        "FAILED"
+      ]
+    },
+    "decision": {
+      "enum": [
+        "READY_FOR_REVIEW_BOARD",
+        "CONDITIONAL_REVIEW",
+        "HOLD_FOR_EVIDENCE",
+        "REJECT"
+      ]
+    }
+  },
+  "additionalProperties": true
+}

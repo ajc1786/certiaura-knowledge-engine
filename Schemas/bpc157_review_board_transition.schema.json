@@ -1,0 +1,172 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://certiaura.invalid/schemas/bpc157_review_board_transition.schema.json",
+  "title": "bpc157_review_board_transition",
+  "type": "object",
+  "required": [
+    "build_number",
+    "candidate",
+    "record_type",
+    "record_id",
+    "peptide",
+    "clinical_recommendation_authorised",
+    "clinical_decision_support_authorised",
+    "tesamorelin_assumptions_transferred",
+    "evidence_pack_id",
+    "evidence_pack_hash",
+    "roles",
+    "quorum",
+    "conflicts_disclosed",
+    "regulatory_boundary_state",
+    "human_evidence_gap_severity",
+    "sport_boundary_state",
+    "decision",
+    "rationale",
+    "conditions",
+    "approvers"
+  ],
+  "properties": {
+    "build_number": {
+      "const": "0060"
+    },
+    "candidate": {
+      "const": "RC1"
+    },
+    "peptide": {
+      "const": "BPC-157"
+    },
+    "clinical_recommendation_authorised": {
+      "const": false
+    },
+    "clinical_decision_support_authorised": {
+      "const": false
+    },
+    "tesamorelin_assumptions_transferred": {
+      "const": false
+    },
+    "record_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "approvers": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "record_type": {
+      "const": "bpc157_review_board_transition"
+    },
+    "evidence_pack_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "evidence_pack_hash": {
+      "type": "string",
+      "pattern": "^[0-9a-fA-F]{64}$"
+    },
+    "roles": {
+      "type": "array",
+      "minItems": 5,
+      "items": {
+        "type": "object",
+        "required": [
+          "role",
+          "reviewer_id",
+          "independence_confirmed",
+          "vote"
+        ],
+        "properties": {
+          "role": {
+            "enum": [
+              "CHAIR",
+              "EVIDENCE_REVIEWER",
+              "SAFETY_REVIEWER",
+              "REGULATORY_REVIEWER",
+              "GOVERNANCE_REVIEWER",
+              "SPORT_INTEGRITY_REVIEWER",
+              "OBSERVER"
+            ]
+          },
+          "reviewer_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "independence_confirmed": {
+            "type": "boolean"
+          },
+          "vote": {
+            "enum": [
+              "APPROVE_SIMULATION",
+              "CONDITIONAL_HOLD",
+              "HOLD",
+              "REJECT",
+              "ABSTAIN"
+            ]
+          }
+        }
+      }
+    },
+    "quorum": {
+      "type": "object",
+      "required": [
+        "required",
+        "present"
+      ],
+      "properties": {
+        "required": {
+          "type": "integer",
+          "minimum": 5
+        },
+        "present": {
+          "type": "integer",
+          "minimum": 0
+        }
+      }
+    },
+    "conflicts_disclosed": {
+      "type": "boolean"
+    },
+    "regulatory_boundary_state": {
+      "enum": [
+        "BOUNDARY_COMPLETE_HOLD",
+        "BOUNDARY_COMPLETE_RESTRICTED",
+        "INCOMPLETE"
+      ]
+    },
+    "human_evidence_gap_severity": {
+      "enum": [
+        "LOW",
+        "MODERATE",
+        "HIGH",
+        "CRITICAL"
+      ]
+    },
+    "sport_boundary_state": {
+      "enum": [
+        "PROHIBITED_AT_ALL_TIMES",
+        "NOT_APPLICABLE",
+        "UNKNOWN"
+      ]
+    },
+    "decision": {
+      "enum": [
+        "APPROVE_ONBOARDING_SIMULATION",
+        "CONDITIONAL_HOLD",
+        "HOLD_TRANSITION",
+        "REJECT"
+      ]
+    },
+    "rationale": {
+      "type": "string",
+      "minLength": 1
+    },
+    "conditions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "additionalProperties": true
+}

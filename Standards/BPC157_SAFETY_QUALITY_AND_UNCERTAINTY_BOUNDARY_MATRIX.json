@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "build_number": "0060",
+  "peptide": "BPC-157",
+  "domains": [
+    {
+      "domain": "PEPTIDE_AGGREGATION",
+      "state": "CONCERN_IDENTIFIED",
+      "source_id": "BPC157-SRC-FDA-PCAC-202607",
+      "route": "HOLD"
+    },
+    {
+      "domain": "PEPTIDE_RELATED_IMPURITIES",
+      "state": "CONCERN_IDENTIFIED",
+      "source_id": "BPC157-SRC-FDA-PCAC-202607",
+      "route": "HOLD"
+    },
+    {
+      "domain": "IMMUNOGENICITY",
+      "state": "CONCERN_IDENTIFIED",
+      "source_id": "BPC157-SRC-FDA-PCAC-202607",
+      "route": "HOLD"
+    },
+    {
+      "domain": "FORMULATION_AND_CONTAINER_CLOSURE",
+      "state": "INSUFFICIENTLY_STANDARDISED",
+      "source_id": "BPC157-SRC-FDA-PCAC-202607",
+      "route": "HOLD"
+    },
+    {
+      "domain": "MANUFACTURING_SOURCE",
+      "state": "SOURCE_DEPENDENT",
+      "source_id": "BPC157-SRC-FDA-BULKS-202603",
+      "route": "HOLD"
+    }
+  ],
+  "overclaim_prohibited": true,
+  "clinical_recommendation_authorised": false
+}

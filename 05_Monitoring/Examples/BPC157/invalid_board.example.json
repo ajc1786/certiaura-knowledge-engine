@@ -1,0 +1,67 @@
+{
+  "build_number": "0060",
+  "candidate": "RC1",
+  "peptide": "BPC-157",
+  "clinical_recommendation_authorised": false,
+  "clinical_decision_support_authorised": false,
+  "tesamorelin_assumptions_transferred": false,
+  "record_type": "bpc157_review_board_transition",
+  "record_id": "BPC157-BOARD-BAD",
+  "evidence_pack_id": "BPC157-PACK-001",
+  "evidence_pack_hash": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "roles": [
+    {
+      "role": "CHAIR",
+      "reviewer_id": "R1",
+      "independence_confirmed": true,
+      "vote": "HOLD"
+    },
+    {
+      "role": "EVIDENCE_REVIEWER",
+      "reviewer_id": "R2",
+      "independence_confirmed": true,
+      "vote": "HOLD"
+    },
+    {
+      "role": "SAFETY_REVIEWER",
+      "reviewer_id": "R3",
+      "independence_confirmed": true,
+      "vote": "HOLD"
+    },
+    {
+      "role": "REGULATORY_REVIEWER",
+      "reviewer_id": "R4",
+      "independence_confirmed": true,
+      "vote": "HOLD"
+    },
+    {
+      "role": "GOVERNANCE_REVIEWER",
+      "reviewer_id": "R5",
+      "independence_confirmed": true,
+      "vote": "HOLD"
+    },
+    {
+      "role": "SPORT_INTEGRITY_REVIEWER",
+      "reviewer_id": "R6",
+      "independence_confirmed": true,
+      "vote": "HOLD"
+    }
+  ],
+  "quorum": {
+    "required": 5,
+    "present": 6
+  },
+  "conflicts_disclosed": true,
+  "regulatory_boundary_state": "BOUNDARY_COMPLETE_HOLD",
+  "human_evidence_gap_severity": "CRITICAL",
+  "sport_boundary_state": "PROHIBITED_AT_ALL_TIMES",
+  "decision": "APPROVE_ONBOARDING_SIMULATION",
+  "rationale": "Target-specific evidence reconstruction is complete but critical human, regulatory, quality and sport boundaries prevent transition approval.",
+  "conditions": [
+    "refresh after material authoritative evidence change"
+  ],
+  "approvers": [
+    "Board chair",
+    "Governance reviewer"
+  ]
+}

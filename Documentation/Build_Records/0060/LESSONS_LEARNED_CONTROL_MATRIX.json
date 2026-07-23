@@ -1,0 +1,53 @@
+{
+  "build_number": "0060",
+  "controls": [
+    {
+      "id": "0060-C01",
+      "control": "target-specific BPC-157 evidence reconstruction"
+    },
+    {
+      "id": "0060-C02",
+      "control": "FDA proposal labelling"
+    },
+    {
+      "id": "0060-C03",
+      "control": "WADA S0 sport boundary"
+    },
+    {
+      "id": "0060-C04",
+      "control": "human-evidence gap severity"
+    },
+    {
+      "id": "0060-C05",
+      "control": "safety-quality uncertainty hold"
+    },
+    {
+      "id": "0060-C06",
+      "control": "no Tesamorelin assumption transfer"
+    },
+    {
+      "id": "0060-C07",
+      "control": "role-separated transition board"
+    },
+    {
+      "id": "0060-C08",
+      "control": "independent appeal and reconsideration"
+    },
+    {
+      "id": "0060-C09",
+      "control": "repeatable onboarding with hold outcome"
+    },
+    {
+      "id": "0060-C10",
+      "control": "exact predecessor subject and UAI lineage"
+    },
+    {
+      "id": "0060-C11",
+      "control": "copy-ready persisted closure evidence"
+    },
+    {
+      "id": "0060-C12",
+      "control": "non-interactive Git guard"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "build_number": "0060",
+  "requirements": [
+    "package paths equal manifest files",
+    "all JSON parses",
+    "all Python compiles",
+    "21 examples route correctly",
+    "BPC-157 authoritative source register",
+    "FDA proposal remains proposal-labelled",
+    "2026 WADA S0 boundary",
+    "human-evidence gap fail-closed",
+    "safety-quality uncertainty fail-closed",
+    "no Tesamorelin assumption transfer",
+    "role-separated review board",
+    "independent appeal",
+    "repeatable onboarding can validate with hold",
+    "copy-ready closure evidence",
+    "exact predecessor subject and UAIs",
+    "zero predecessor/current package intersection",
+    "forced rollback exact",
+    "clean reapply",
+    "MAR reconciliation",
+    "both Git diff checks",
+    "staged byte equality",
+    "non-interactive Git guard",
+    "exact Actions run before founder GREEN"
+  ]
+}

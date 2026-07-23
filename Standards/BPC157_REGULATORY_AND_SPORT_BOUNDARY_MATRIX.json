@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0.0",
+  "build_number": "0060",
+  "peptide": "BPC-157",
+  "verified_at": "2026-07-23",
+  "boundaries": [
+    {
+      "domain": "US_COMPOUNDING",
+      "state": "PROPOSAL_PENDING",
+      "controlled_position": "FDA briefing proposes not including BPC-157 free base or acetate on the 503A Bulks List; do not represent this as final agency action.",
+      "route": "HOLD"
+    },
+    {
+      "domain": "HUMAN_THERAPEUTIC_APPROVAL",
+      "state": "NO_CURRENT_GOVERNMENTAL_APPROVAL_IDENTIFIED",
+      "controlled_position": "No human therapeutic approval is asserted by Certiaura.",
+      "route": "HOLD"
+    },
+    {
+      "domain": "SPORT_INTEGRITY",
+      "state": "S0_PROHIBITED_AT_ALL_TIMES",
+      "controlled_position": "Athletes subject to the WADA Code require an explicit prohibition warning.",
+      "route": "PROHIBIT_FOR_COVERED_ATHLETES"
+    }
+  ],
+  "source_ids": [
+    "BPC157-SRC-FDA-PCAC-202607",
+    "BPC157-SRC-FDA-BULKS-202603",
+    "BPC157-SRC-WADA-2026"
+  ],
+  "clinical_recommendation_authorised": false
+}

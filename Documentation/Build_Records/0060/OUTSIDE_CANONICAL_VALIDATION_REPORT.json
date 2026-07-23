@@ -1,0 +1,15 @@
+{
+  "build_number": "0060",
+  "candidate": "RC1",
+  "package_files": 102,
+  "generated_files": 8,
+  "owned_paths": 110,
+  "formal_assets": 7,
+  "examples": 21,
+  "automated_tests": 45,
+  "synthetic_regression": "BUILD_0060_SYNTHETIC_CANONICAL_REGRESSION_PASS",
+  "git_guard_config_restored": true,
+  "copy_ready_closure_evidence_contract": true,
+  "exact_predecessor_subject_and_uai_fixture": true,
+  "result": "OUTSIDE_CANONICAL_VALIDATED"
+}

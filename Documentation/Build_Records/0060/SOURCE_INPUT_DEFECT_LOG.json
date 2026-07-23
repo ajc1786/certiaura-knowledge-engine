@@ -1,0 +1,25 @@
+{
+  "build_number": "0060",
+  "defects": [
+    {
+      "id": "0060-D01",
+      "description": "Reusable operating model could transfer Tesamorelin assumptions to BPC-157",
+      "resolution": "Target-specific reconstruction and explicit no-transfer field"
+    },
+    {
+      "id": "0060-D02",
+      "description": "Regulatory proposal could be represented as final action",
+      "resolution": "Proposal-state schema and validation"
+    },
+    {
+      "id": "0060-D03",
+      "description": "A recruiting trial could be represented as proof of effectiveness or safety",
+      "resolution": "Human-evidence gap model tracks results separately and fails closed"
+    },
+    {
+      "id": "0060-D04",
+      "description": "Architecture repeatability could be judged only by approval outcomes",
+      "resolution": "REPEATABLE_WITH_HOLD is a valid result when target-specific evidence justifies the hold"
+    }
+  ]
+}

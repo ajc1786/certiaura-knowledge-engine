@@ -1,0 +1,53 @@
+{
+  "build_number": "0060",
+  "candidate": "RC1",
+  "record_type": "bpc157_authoritative_source_register",
+  "sources": [
+    {
+      "source_id": "BPC157-SRC-FDA-PCAC-202607",
+      "authority": "US Food and Drug Administration",
+      "source_type": "REGULATORY_BRIEFING",
+      "title": "FDA evaluation of BPC-157-related bulk drug substances for the July 23-24, 2026 PCAC meeting",
+      "url": "https://www.fda.gov/media/193343/download",
+      "verified_at": "2026-07-23",
+      "controlled_finding": "FDA identified quality, impurity, aggregation and immunogenicity concerns and proposed that BPC-157 free base and acetate not be included on the 503A Bulks List; this is a proposal pending the relevant regulatory process."
+    },
+    {
+      "source_id": "BPC157-SRC-FDA-BULKS-202603",
+      "authority": "US Food and Drug Administration",
+      "source_type": "REGULATORY_GUIDANCE",
+      "title": "Bulk Drug Substances Used in Compounding",
+      "url": "https://www.fda.gov/drugs/human-drug-compounding/bulk-drug-substances-used-compounding",
+      "verified_at": "2026-07-23",
+      "controlled_finding": "Compounding from bulk drug substances is subject to statutory limits and presents patient risks requiring supplier and substance controls."
+    },
+    {
+      "source_id": "BPC157-SRC-WADA-2026",
+      "authority": "World Anti-Doping Agency",
+      "source_type": "SPORT_REGULATORY_STANDARD",
+      "title": "2026 World Anti-Doping Code Prohibited List",
+      "url": "https://www.wada-ama.org/sites/default/files/2025-09/2026list_en_final_clean_september_2025.pdf",
+      "verified_at": "2026-07-23",
+      "controlled_finding": "BPC-157 is listed under S0 non-approved substances and is prohibited at all times for athletes subject to the WADA Code."
+    },
+    {
+      "source_id": "BPC157-SRC-CT-NCT07437547",
+      "authority": "ClinicalTrials.gov",
+      "source_type": "HUMAN_TRIAL_REGISTRY",
+      "title": "BPC 157 for Acute Hamstring Muscle Strain Repair",
+      "url": "https://clinicaltrials.gov/study/NCT07437547",
+      "verified_at": "2026-07-23",
+      "controlled_finding": "A Phase 2 randomized trial is recruiting; no results are posted and the record states that human clinical evidence remains limited."
+    },
+    {
+      "source_id": "BPC157-SRC-PUBMED-40789979",
+      "authority": "PubMed indexed peer-reviewed literature",
+      "source_type": "EVIDENCE_REVIEW",
+      "title": "Regeneration or Risk? A Narrative Review of BPC-157 for Musculoskeletal Healing",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40789979/",
+      "verified_at": "2026-07-23",
+      "controlled_finding": "The review describes extensive preclinical literature but very limited human evidence and treats BPC-157 as investigational."
+    }
+  ],
+  "clinical_recommendation_authorised": false
+}

@@ -1,0 +1,62 @@
+{
+  "build_number": "0060",
+  "candidate": "RC1",
+  "peptide": "BPC-157",
+  "clinical_recommendation_authorised": false,
+  "clinical_decision_support_authorised": false,
+  "tesamorelin_assumptions_transferred": false,
+  "record_type": "bpc157_evidence_reconstruction",
+  "record_id": "BPC157-EVID-001",
+  "source_refs": [
+    {
+      "source_id": "BPC157-SRC-FDA-PCAC-202607",
+      "url": "https://www.fda.gov/media/193343/download",
+      "authority": "US Food and Drug Administration",
+      "verified_at": "2026-07-23"
+    },
+    {
+      "source_id": "BPC157-SRC-FDA-BULKS-202603",
+      "url": "https://www.fda.gov/drugs/human-drug-compounding/bulk-drug-substances-used-compounding",
+      "authority": "US Food and Drug Administration",
+      "verified_at": "2026-07-23"
+    },
+    {
+      "source_id": "BPC157-SRC-WADA-2026",
+      "url": "https://www.wada-ama.org/sites/default/files/2025-09/2026list_en_final_clean_september_2025.pdf",
+      "authority": "World Anti-Doping Agency",
+      "verified_at": "2026-07-23"
+    },
+    {
+      "source_id": "BPC157-SRC-CT-NCT07437547",
+      "url": "https://clinicaltrials.gov/study/NCT07437547",
+      "authority": "ClinicalTrials.gov",
+      "verified_at": "2026-07-23"
+    },
+    {
+      "source_id": "BPC157-SRC-PUBMED-40789979",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40789979/",
+      "authority": "PubMed indexed peer-reviewed literature",
+      "verified_at": "2026-07-23"
+    }
+  ],
+  "source_tiers": [
+    "REGULATOR",
+    "SPORT_AUTHORITY",
+    "TRIAL_REGISTRY",
+    "PEER_REVIEW"
+  ],
+  "human_evidence_state": "VERY_LIMITED",
+  "regulatory_evidence_state": "PROPOSAL_PENDING",
+  "sport_boundary_state": "PROHIBITED_AT_ALL_TIMES",
+  "critical_gaps": [
+    "completed controlled human results",
+    "long-term safety",
+    "standardised product quality"
+  ],
+  "reconstruction_state": "COMPLETE_WITH_CRITICAL_GAPS",
+  "decision": "HOLD_FOR_EVIDENCE",
+  "approvers": [
+    "Evidence reviewer",
+    "Regulatory reviewer"
+  ]
+}

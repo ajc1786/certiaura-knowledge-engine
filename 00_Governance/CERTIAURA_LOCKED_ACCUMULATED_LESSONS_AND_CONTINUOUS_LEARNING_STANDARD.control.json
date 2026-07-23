@@ -7598,7 +7598,7 @@
       ]
     }
   ],
-  "latest_build": "0059",
+  "latest_build": "0060",
   "build_0058_controls": [
     "source quality scoring",
     "conflict adjudication",
@@ -7619,5 +7619,18 @@
     "recoverable closure evidence JSON",
     "non-interactive Git guard",
     "Windows single-backslash normalisation"
+  ],
+  "build_0060_controls": [
+    "BPC-157 target-specific evidence reconstruction",
+    "FDA proposal labelling",
+    "2026 WADA S0 boundary",
+    "human-evidence gap hold",
+    "safety-quality uncertainty hold",
+    "role-separated transition board",
+    "independent appeal",
+    "no Tesamorelin assumption transfer",
+    "repeatable multi-peptide onboarding",
+    "copy-ready closure evidence",
+    "non-interactive Git guard"
   ]
 }

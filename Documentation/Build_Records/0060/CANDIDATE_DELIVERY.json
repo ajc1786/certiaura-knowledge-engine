@@ -1,0 +1,9 @@
+{
+  "build_number": "0060",
+  "candidate": "RC1",
+  "status": "DELIVERED",
+  "title": "BPC-157 governed evidence reconstruction, regulatory and sport boundary assessment, human-evidence gap control, review-board transition, appeal resolution and repeatable multi-peptide onboarding baseline",
+  "predecessor_commit": "594152fcfba3b1612b71d7b6e5c23759c906e464",
+  "predecessor_run_id": 30005584569,
+  "clinical_boundary": "NON_CLINICAL_ONLY"
+}

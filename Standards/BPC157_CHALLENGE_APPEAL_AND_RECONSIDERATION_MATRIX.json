@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0.0",
+  "build_number": "0060",
+  "peptide": "BPC-157",
+  "grounds": [
+    "new authoritative evidence",
+    "material provenance defect",
+    "regulatory status change",
+    "sport status change",
+    "conflict of interest",
+    "procedural error"
+  ],
+  "independence_rule": "No original decider may sit on the appeal panel.",
+  "outcomes": [
+    "UPHOLD_HOLD",
+    "MODIFY_CONDITIONS",
+    "RECONSIDER_WITH_NEW_EVIDENCE",
+    "REJECT_APPEAL"
+  ],
+  "automatic_reconsideration_triggers": [
+    "FDA final action",
+    "posted human trial results",
+    "WADA status change",
+    "material safety or quality alert"
+  ],
+  "clinical_recommendation_authorised": false
+}

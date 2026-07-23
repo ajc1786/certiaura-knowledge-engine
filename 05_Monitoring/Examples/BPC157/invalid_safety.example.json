@@ -1,0 +1,41 @@
+{
+  "build_number": "0060",
+  "candidate": "RC1",
+  "peptide": "BPC-157",
+  "clinical_recommendation_authorised": false,
+  "clinical_decision_support_authorised": false,
+  "tesamorelin_assumptions_transferred": false,
+  "record_type": "bpc157_safety_quality_boundary",
+  "record_id": "BPC157-SAFE-BAD",
+  "quality_domains": [
+    "aggregation",
+    "impurities",
+    "immunogenicity",
+    "formulation",
+    "manufacturing source"
+  ],
+  "immunogenicity_state": "CONCERN_IDENTIFIED",
+  "impurity_state": "CONCERN_IDENTIFIED",
+  "formulation_state": "UNSTANDARDISED",
+  "manufacturing_state": "SOURCE_DEPENDENT",
+  "critical_unknowns": [],
+  "boundary_decision": "CONTROLLED_FOR_SIMULATION_ONLY",
+  "source_refs": [
+    {
+      "source_id": "BPC157-SRC-FDA-PCAC-202607",
+      "url": "https://www.fda.gov/media/193343/download",
+      "authority": "US Food and Drug Administration",
+      "verified_at": "2026-07-23"
+    },
+    {
+      "source_id": "BPC157-SRC-FDA-BULKS-202603",
+      "url": "https://www.fda.gov/drugs/human-drug-compounding/bulk-drug-substances-used-compounding",
+      "authority": "US Food and Drug Administration",
+      "verified_at": "2026-07-23"
+    }
+  ],
+  "approvers": [
+    "Safety reviewer",
+    "Quality reviewer"
+  ]
+}

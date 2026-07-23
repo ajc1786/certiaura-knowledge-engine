@@ -876,3 +876,7 @@ Build 0058 establishes governed Tesamorelin multi-source quality assessment, con
 <!-- CERTIAURA_BUILD_0059_CHECKPOINT_START -->
 Build 0059 establishes governed Tesamorelin review-board approvals, immutable evidence-pack versions, independent challenge and appeal resolution, suspension recovery, periodic reassessment, reusable peptide-review operating-model transition and copy-ready PowerShell closure evidence. Canonical closure requires exact GitHub Actions evidence and founder GREEN.
 <!-- CERTIAURA_BUILD_0059_CHECKPOINT_END -->
+
+<!-- CERTIAURA_BUILD_0060_CHECKPOINT_START -->
+Build 0060 executes the reusable peptide-review operating model against BPC-157 as the governed second-peptide candidate. It establishes target-specific evidence reconstruction, regulatory and sport boundaries, human-evidence gap control, safety-quality uncertainty, review-board transition, independent appeal and repeatable multi-peptide onboarding readiness. Canonical closure requires exact GitHub Actions evidence and founder GREEN.
+<!-- CERTIAURA_BUILD_0060_CHECKPOINT_END -->

@@ -1,0 +1,35 @@
+{
+  "build_number": "0060",
+  "candidate": "RC1",
+  "peptide": "BPC-157",
+  "clinical_recommendation_authorised": false,
+  "clinical_decision_support_authorised": false,
+  "tesamorelin_assumptions_transferred": false,
+  "record_type": "bpc157_human_evidence_gap",
+  "record_id": "BPC157-HUMAN-BAD",
+  "registered_trials": 1,
+  "completed_trials_with_results": 0,
+  "peer_reviewed_human_studies": 3,
+  "human_evidence_state": "ADEQUATE",
+  "critical_gaps": [],
+  "gap_severity": "LOW",
+  "decision": "READY",
+  "source_refs": [
+    {
+      "source_id": "BPC157-SRC-CT-NCT07437547",
+      "url": "https://clinicaltrials.gov/study/NCT07437547",
+      "authority": "ClinicalTrials.gov",
+      "verified_at": "2026-07-23"
+    },
+    {
+      "source_id": "BPC157-SRC-PUBMED-40789979",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40789979/",
+      "authority": "PubMed indexed peer-reviewed literature",
+      "verified_at": "2026-07-23"
+    }
+  ],
+  "approvers": [
+    "Evidence reviewer",
+    "Safety reviewer"
+  ]
+}

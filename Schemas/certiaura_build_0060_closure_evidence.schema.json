@@ -1,0 +1,100 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "certiaura_build_0060_closure_evidence",
+  "type": "object",
+  "required": [
+    "build_number",
+    "candidate",
+    "title",
+    "canonical_commit",
+    "commit_subject",
+    "run_id",
+    "workflow_name",
+    "run_attempt",
+    "branch",
+    "event",
+    "status",
+    "conclusion",
+    "created_at",
+    "updated_at",
+    "actions_url",
+    "local_origin_aligned",
+    "repository_clean",
+    "git_noninteractive_guard",
+    "no_manual_cleanup_prompts",
+    "endpoint",
+    "founder_ready_status"
+  ],
+  "properties": {
+    "build_number": {
+      "const": "0060"
+    },
+    "candidate": {
+      "const": "RC1"
+    },
+    "title": {
+      "const": "BPC-157 governed evidence reconstruction, regulatory and sport boundary assessment, human-evidence gap control, review-board transition, appeal resolution and repeatable multi-peptide onboarding baseline"
+    },
+    "canonical_commit": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{40}$"
+    },
+    "commit_subject": {
+      "const": "Add Certiaura Build 0060 BPC-157 governed evidence reconstruction, regulatory and sport boundary assessment, human-evidence gap control, review-board transition, appeal resolution and repeatable multi-peptide onboarding baseline"
+    },
+    "run_id": {
+      "type": "string",
+      "pattern": "^[0-9]+$"
+    },
+    "workflow_name": {
+      "const": "Certiaura Repository Validation"
+    },
+    "run_attempt": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "branch": {
+      "const": "main"
+    },
+    "event": {
+      "const": "push"
+    },
+    "status": {
+      "const": "completed"
+    },
+    "conclusion": {
+      "const": "success"
+    },
+    "created_at": {
+      "type": "string",
+      "minLength": 1
+    },
+    "updated_at": {
+      "type": "string",
+      "minLength": 1
+    },
+    "actions_url": {
+      "type": "string",
+      "minLength": 1
+    },
+    "local_origin_aligned": {
+      "const": true
+    },
+    "repository_clean": {
+      "const": true
+    },
+    "git_noninteractive_guard": {
+      "const": true
+    },
+    "no_manual_cleanup_prompts": {
+      "const": true
+    },
+    "endpoint": {
+      "const": "BUILD_0060_GITHUB_ACTIONS_GREEN"
+    },
+    "founder_ready_status": {
+      "const": "BUILD_0060_READY_FOR_FOUNDER_GREEN"
+    }
+  },
+  "additionalProperties": false
+}

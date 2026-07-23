@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "build_number": "0060",
+  "peptide": "BPC-157",
+  "verified_at": "2026-07-23",
+  "human_evidence_state": "VERY_LIMITED",
+  "known_evidence_signals": [
+    {
+      "type": "REGISTERED_TRIAL",
+      "reference": "NCT07437547",
+      "status": "RECRUITING",
+      "results_posted": false
+    },
+    {
+      "type": "PEER_REVIEWED_REVIEW",
+      "reference": "PMID 40789979",
+      "position": "preclinical evidence broad; rigorous human evidence limited"
+    }
+  ],
+  "critical_gaps": [
+    "completed controlled human trial results",
+    "route-specific safety characterisation",
+    "dose-response evidence",
+    "long-term safety",
+    "standardised product quality and formulation"
+  ],
+  "decision_rules": {
+    "VERY_LIMITED": "HOLD_TRANSITION",
+    "LIMITED": "CONDITIONAL_REVIEW",
+    "ADEQUATE": "BOARD_REVIEW_REQUIRED"
+  },
+  "clinical_recommendation_authorised": false
+}

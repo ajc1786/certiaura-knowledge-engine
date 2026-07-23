@@ -1,0 +1,35 @@
+{
+  "build_number": "0060",
+  "candidate": "RC1",
+  "peptide": "BPC-157",
+  "clinical_recommendation_authorised": false,
+  "clinical_decision_support_authorised": false,
+  "tesamorelin_assumptions_transferred": false,
+  "record_type": "bpc157_transition_appeal",
+  "record_id": "BPC157-APPEAL-BAD",
+  "appeal_id": "AP-001",
+  "original_decision_id": "BPC157-BOARD-001",
+  "appeal_basis": "new authoritative evidence submitted",
+  "original_deciders": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5"
+  ],
+  "appeal_panel": [
+    "R1",
+    "A2"
+  ],
+  "independence_confirmed": true,
+  "evidence_pack_hash": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+  "outcome": "RECONSIDER_WITH_NEW_EVIDENCE",
+  "rationale": "New evidence must be incorporated into a new immutable pack before reconsideration.",
+  "audit_refs": [
+    "AUD-001"
+  ],
+  "approvers": [
+    "Appeal chair",
+    "Governance reviewer"
+  ]
+}

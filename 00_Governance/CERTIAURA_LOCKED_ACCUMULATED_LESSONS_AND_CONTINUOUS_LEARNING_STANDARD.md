@@ -2394,3 +2394,7 @@ Build 0058 lessons: aggregate scores must not hide rejected provenance; conflict
 <!-- CERTIAURA_BUILD_0059_LESSONS_START -->
 Build 0059 lessons: review approvals require role separation, quorum, conflict disclosure and a version-locked evidence pack; appeals require an independent panel; recovery is fail-closed until every criterion is met; reassessment cannot ignore open challenges or suspension; reusable operating models transfer governance mechanics but never peptide-specific clinical assumptions; every close script must print and persist a complete copy-ready evidence block; the Build 0058 single-backslash report-path correction and non-interactive Git guard remain mandatory.
 <!-- CERTIAURA_BUILD_0059_LESSONS_END -->
+
+<!-- CERTIAURA_BUILD_0060_LESSONS_START -->
+Build 0060 lessons: repeatability is demonstrated by rebuilding target-specific evidence and producing a justified hold when evidence is insufficient; no Tesamorelin biological or clinical assumption may transfer; regulatory proposals must remain labelled as proposals; sport prohibition and human-evidence gaps require explicit fail-closed routing; second-peptide onboarding requires exact predecessor UAI lineage, role-separated board review, independent appeal, transactional rollback, non-interactive Git closure and persisted copy-ready Actions evidence.
+<!-- CERTIAURA_BUILD_0060_LESSONS_END -->

@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "build_number": "0060",
+  "peptide": "BPC-157",
+  "mandatory_roles": [
+    "CHAIR",
+    "EVIDENCE_REVIEWER",
+    "SAFETY_REVIEWER",
+    "REGULATORY_REVIEWER",
+    "GOVERNANCE_REVIEWER"
+  ],
+  "conditional_role": "SPORT_INTEGRITY_REVIEWER",
+  "decisions": [
+    {
+      "decision": "APPROVE_ONBOARDING_SIMULATION",
+      "requirements": [
+        "no critical evidence gaps",
+        "regulatory boundary complete",
+        "safety-quality boundary controlled",
+        "version-locked evidence pack",
+        "quorum and independence"
+      ],
+      "current_baseline_eligible": false
+    },
+    {
+      "decision": "CONDITIONAL_HOLD",
+      "requirements": [
+        "complete evidence reconstruction",
+        "explicit unresolved gaps",
+        "no clinical use authorisation"
+      ],
+      "current_baseline_eligible": true
+    },
+    {
+      "decision": "HOLD_TRANSITION",
+      "requirements": [
+        "critical human-evidence, quality, regulatory or sport boundary"
+      ],
+      "current_baseline_eligible": true
+    },
+    {
+      "decision": "REJECT",
+      "requirements": [
+        "fabricated provenance, transferred peptide assumptions or unresolved integrity failure"
+      ],
+      "current_baseline_eligible": true
+    }
+  ],
+  "fail_closed": true,
+  "clinical_recommendation_authorised": false
+}
