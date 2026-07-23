@@ -1,0 +1,27 @@
+{
+  "build_number": "0055",
+  "lesson_ids": [
+    "CERT-LESSON-0055-001",
+    "CERT-LESSON-0055-002",
+    "CERT-LESSON-0055-003",
+    "CERT-LESSON-0055-004",
+    "CERT-LESSON-0055-005",
+    "CERT-LESSON-0055-006",
+    "CERT-LESSON-0055-007",
+    "CERT-LESSON-0055-008",
+    "CERT-LESSON-0055-009",
+    "CERT-LESSON-0055-010"
+  ],
+  "mandatory_controls": [
+    "explicit zero-critical-gap closure",
+    "clinical-authorisation disclaimer",
+    "peptide-specific reuse exclusion",
+    "target evidence and safety mapping",
+    "controlled reopening",
+    "exact Actions run ID",
+    "manifest-scoped current-build regression tests",
+    "historical Actions evidence reconciliation",
+    "contemporaneous versus backfilled evidence provenance",
+    "complete Builds 0001-0054 accounting before closure"
+  ]
+}

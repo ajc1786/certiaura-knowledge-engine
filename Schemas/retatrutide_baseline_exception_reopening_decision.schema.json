@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "baseline_exception_reopening_decision",
+  "type": "object",
+  "required": [
+    "build_number",
+    "record_type",
+    "exception_id",
+    "trigger_type",
+    "trigger_evidence",
+    "affected_baseline_components",
+    "decision",
+    "publication_state",
+    "approvers"
+  ],
+  "properties": {
+    "build_number": {
+      "const": "0055"
+    },
+    "record_type": {
+      "const": "baseline_exception_reopening_decision"
+    },
+    "decision": {
+      "enum": [
+        "REOPEN_CONTROLLED_SCOPE",
+        "REMEDIATE_WITHOUT_REOPENING",
+        "NO_CHANGE"
+      ]
+    },
+    "trigger_evidence": {
+      "type": "array",
+      "minItems": 1
+    },
+    "affected_baseline_components": {
+      "type": "array",
+      "minItems": 1
+    },
+    "approvers": {
+      "type": "array",
+      "minItems": 1
+    }
+  },
+  "additionalProperties": true
+}

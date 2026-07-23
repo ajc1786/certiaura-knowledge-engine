@@ -1,0 +1,21 @@
+{
+  "build_number": "0055",
+  "accepted_defects": [
+    {
+      "candidate": "RC1",
+      "status": "WITHDRAWN_PROHIBITED",
+      "defect": "Historical GitHub Actions run-ID coverage for Builds 0001-0051 was not proven before RC1 delivery.",
+      "corrective_action": "RC2 adds a live repository/GitHub audit, complete accounting register, provenance classification and fail-closed canonical gate."
+    }
+  ],
+  "inherited_controls": [
+    "predecessor fixture isolation",
+    "approved no-op update handling",
+    "StrictMode-safe optional property access",
+    "canonical register topology",
+    "LF writer policy",
+    "pre-canonical full suite",
+    "automatic rollback",
+    "exact Actions run ID closure evidence"
+  ]
+}

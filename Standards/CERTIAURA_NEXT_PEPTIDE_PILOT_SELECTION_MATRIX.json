@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0.0",
+  "build_number": "0055",
+  "dimensions": [
+    "evidence mapping readiness",
+    "safety-boundary readiness",
+    "architecture fit",
+    "operator value",
+    "regulatory sensitivity",
+    "reversibility"
+  ],
+  "decisions": [
+    "SELECT_GOVERNED_PILOT",
+    "CONDITIONAL_PILOT",
+    "DEFER",
+    "REJECT"
+  ],
+  "selection_rule": "Architecture fit cannot override missing evidence or safety boundaries.",
+  "clinical_equivalence_prohibited": true
+}

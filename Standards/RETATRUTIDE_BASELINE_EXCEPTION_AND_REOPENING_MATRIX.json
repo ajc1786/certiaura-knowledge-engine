@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0.0",
+  "build_number": "0055",
+  "triggers": [
+    "material new evidence",
+    "new safety signal",
+    "failed control",
+    "publication defect",
+    "governance breach"
+  ],
+  "decisions": [
+    "REOPEN_CONTROLLED_SCOPE",
+    "REMEDIATE_WITHOUT_REOPENING",
+    "NO_CHANGE"
+  ],
+  "mandatory_controls": [
+    "trigger evidence",
+    "affected scope",
+    "publication state",
+    "rollback assessment",
+    "human approval"
+  ]
+}

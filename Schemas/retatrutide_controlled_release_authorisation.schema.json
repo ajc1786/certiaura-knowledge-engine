@@ -1,0 +1,39 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "controlled_release_authorisation",
+  "type": "object",
+  "required": [
+    "build_number",
+    "record_type",
+    "authorisation_id",
+    "closure_decision_id",
+    "release_object",
+    "release_channel",
+    "clinical_use_disclaimer",
+    "decision",
+    "approvers"
+  ],
+  "properties": {
+    "build_number": {
+      "const": "0055"
+    },
+    "record_type": {
+      "const": "controlled_release_authorisation"
+    },
+    "decision": {
+      "enum": [
+        "AUTHORISE_CONTROLLED_RELEASE",
+        "HOLD",
+        "REJECT"
+      ]
+    },
+    "clinical_use_disclaimer": {
+      "const": true
+    },
+    "approvers": {
+      "type": "array",
+      "minItems": 1
+    }
+  },
+  "additionalProperties": true
+}

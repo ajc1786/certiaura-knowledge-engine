@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0.0",
+  "audit_timestamp_utc": "2026-07-23T09:42:40.500602+00:00",
+  "repository": "ajc1786/certiaura-knowledge-engine",
+  "repository_head": "8a9dba6615448c1ad85c44cdf89269a8fc3e00e8",
+  "build_range": {
+    "start": "0001",
+    "end": "0054"
+  },
+  "expected_build_count": 54,
+  "record_count": 54,
+  "accounted_count": 54,
+  "verified_run_id_count": 53,
+  "contemporaneous_capture_count": 0,
+  "backfilled_or_current_record_count": 53,
+  "exception_count": 1,
+  "unresolved_count": 0,
+  "all_builds_accounted": true,
+  "all_exact_run_ids_captured": false,
+  "result": "HISTORICAL_ACTIONS_AUDIT_COMPLETE"
+}

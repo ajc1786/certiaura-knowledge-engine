@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0.0",
+  "summary": {
+    "expected_build_count": 54,
+    "record_count": 54,
+    "accounted_count": 54,
+    "verified_run_id_count": 0,
+    "exception_count": 0,
+    "unresolved_count": 0,
+    "all_builds_accounted": true,
+    "all_exact_run_ids_captured": false,
+    "result": "HISTORICAL_ACTIONS_AUDIT_COMPLETE"
+  },
+  "records": [
+    {
+      "build_number": "0001",
+      "canonical_commit": null,
+      "canonical_subject": null,
+      "classification": "BUILD_COMMIT_NOT_FOUND",
+      "run_id": null,
+      "capture_status": "NOT_APPLICABLE",
+      "accounted": false
+    }
+  ]
+}

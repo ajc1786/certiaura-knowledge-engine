@@ -1,0 +1,22 @@
+{
+  "build_number": "0055",
+  "candidate": "RC2",
+  "title": "historical GitHub Actions evidence reconciliation, retatrutide baseline closure, reusable architecture handoff and governed next-peptide transition baseline",
+  "package_file_count": 89,
+  "generated_file_count": 12,
+  "formal_asset_count": 6,
+  "example_count": 14,
+  "capabilities": [
+    "historical GitHub Actions evidence reconciliation for Builds 0001-0054",
+    "Retatrutide operational baseline closure",
+    "controlled knowledge-release authorisation",
+    "reusable architecture handoff",
+    "baseline exception and reopening control",
+    "governed next-peptide pilot selection",
+    "mandatory exact GitHub Actions run ID closure evidence"
+  ],
+  "automated_test_count": 22,
+  "owned_path_count": 101,
+  "expected_staged_change_count": 100,
+  "approved_no_op_count": 1
+}

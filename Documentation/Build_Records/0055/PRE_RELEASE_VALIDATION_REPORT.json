@@ -1,0 +1,13 @@
+{
+  "build_number": "0055",
+  "candidate": "RC2",
+  "package_validation": "PASS",
+  "windows_ps51_gate": "EMBEDDED_AND_REQUIRED",
+  "actions_run_id_gate": "EMBEDDED_AND_REQUIRED_AT_CLOSURE",
+  "result": "CANDIDATE_READY",
+  "historical_actions_audit_gate": "LIVE_AUDIT_REQUIRED_BEFORE_DRY_RUN",
+  "historical_actions_required_build_range": "0001-0054",
+  "historical_actions_required_accounted_count": 54,
+  "historical_actions_required_unresolved_count": 0,
+  "synthetic_canonical_regression": "PASS"
+}

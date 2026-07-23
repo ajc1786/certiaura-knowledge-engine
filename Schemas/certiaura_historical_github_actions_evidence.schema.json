@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://certiaura.example/schemas/certiaura_historical_github_actions_evidence.schema.json",
+  "title": "Certiaura Historical GitHub Actions Evidence",
+  "type": "object",
+  "required": ["schema_version", "summary", "records"],
+  "properties": {
+    "schema_version": {"const": "1.0.0"},
+    "summary": {
+      "type": "object",
+      "required": ["record_count", "accounted_count", "unresolved_count", "all_builds_accounted", "result"]
+    },
+    "records": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["build_number", "classification", "capture_status", "accounted"],
+        "properties": {
+          "build_number": {"type": "string", "pattern": "^[0-9]{4}$"},
+          "canonical_commit": {"type": ["string", "null"], "pattern": "^[0-9a-f]{40}$"},
+          "run_id": {"type": ["string", "null"], "pattern": "^[0-9]+$"},
+          "classification": {
+            "enum": ["RUN_ID_VERIFIED", "NO_WORKFLOW_AT_COMMIT", "NO_RUN_FOUND", "RUN_FOUND_NOT_SUCCESS", "BUILD_COMMIT_NOT_FOUND"]
+          },
+          "capture_status": {
+            "enum": ["CONTEMPORANEOUS_HISTORY_CONFIRMED", "CURRENT_REPOSITORY_RECORD_ONLY", "BACKFILLED_BY_BUILD_0055", "RESOLVED_EXCEPTION", "NOT_APPLICABLE"]
+          },
+          "accounted": {"type": "boolean"}
+        }
+      }
+    }
+  }
+}

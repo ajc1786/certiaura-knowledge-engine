@@ -1,0 +1,31 @@
+{
+  "build_number": "0055",
+  "created_at": "2026-07-23T10:00:00Z",
+  "created_by": "Certiaura Governance",
+  "source_baseline_build": "0054",
+  "source_baseline_commit": "8a9dba6615448c1ad85c44cdf89269a8fc3e00e8",
+  "peptide_uai": "CERT-PKS-000001",
+  "record_type": "reusable_architecture_handoff",
+  "handoff_id": "RET-HANDOFF-0055-001",
+  "closure_decision_id": "RET-CLOSE-0055-001",
+  "generic_components": [
+    "transactional importer",
+    "predecessor evidence gate",
+    "asset ownership manifest",
+    "rollback control",
+    "Git hygiene",
+    "GitHub Actions run ID closure evidence"
+  ],
+  "excluded_peptide_specific_components": [
+    "Retatrutide clinical claims",
+    "Retatrutide thresholds",
+    "Retatrutide schemas",
+    "Retatrutide monitoring parameters"
+  ],
+  "handoff_state": "APPROVED_FOR_GOVERNED_PILOT",
+  "recipient": "Next-peptide pilot workstream",
+  "approvers": [
+    "Architecture governance reviewer",
+    "Scientific governance reviewer"
+  ]
+}

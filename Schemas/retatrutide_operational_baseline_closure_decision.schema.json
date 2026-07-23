@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "operational_baseline_closure_decision",
+  "type": "object",
+  "required": [
+    "build_number",
+    "record_type",
+    "decision_id",
+    "open_critical_gaps",
+    "closure_scope",
+    "decision",
+    "approvers"
+  ],
+  "properties": {
+    "build_number": {
+      "const": "0055"
+    },
+    "record_type": {
+      "const": "operational_baseline_closure_decision"
+    },
+    "decision": {
+      "enum": [
+        "CLOSE_BASELINE",
+        "CONDITIONAL_CLOSURE",
+        "HOLD",
+        "REJECT"
+      ]
+    },
+    "open_critical_gaps": {
+      "type": "array"
+    },
+    "closure_scope": {
+      "type": "array",
+      "minItems": 1
+    },
+    "approvers": {
+      "type": "array",
+      "minItems": 1
+    }
+  },
+  "additionalProperties": true
+}

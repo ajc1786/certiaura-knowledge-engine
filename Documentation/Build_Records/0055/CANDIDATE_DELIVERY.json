@@ -1,0 +1,31 @@
+{
+  "build_number": "0055",
+  "candidate": "RC2",
+  "title": "historical GitHub Actions evidence reconciliation, retatrutide baseline closure, reusable architecture handoff and governed next-peptide transition baseline",
+  "zip_filename": "Certiaura_Build_0055_Historical_Actions_Reconciliation_RC2.zip",
+  "package_sha256": "VERIFIED_EXTERNALLY_AT_DELIVERY",
+  "package_sha256_is_self_referentially_excluded": true,
+  "reserved_commit_message": "Add Certiaura Build 0055 historical GitHub Actions evidence reconciliation, retatrutide baseline closure, reusable architecture handoff and governed next-peptide transition baseline",
+  "expected_endpoint": "BUILD_0055_CANONICAL_VALIDATED_AND_STAGED",
+  "mandatory_closure_endpoint": "BUILD_0055_GITHUB_ACTIONS_GREEN",
+  "mandatory_closure_evidence": [
+    "canonical_commit_sha",
+    "github_actions_run_id",
+    "workflow_name",
+    "run_attempt",
+    "status_completed",
+    "conclusion_success",
+    "local_origin_alignment",
+    "clean_repository",
+    "founder_GREEN"
+  ],
+  "proposed_next_action": "Begin the selected next-peptide pilot evidence and safety-boundary mapping work package",
+  "mandatory_historical_actions_gate": "BUILD_0055_HISTORICAL_ACTIONS_AUDIT_COMPLETE",
+  "package_file_count": 89,
+  "generated_file_count": 12,
+  "owned_path_count": 101,
+  "expected_staged_change_count": 100,
+  "approved_no_op_count": 1,
+  "automated_test_count": 22,
+  "historical_audit_required_build_count": 54
+}

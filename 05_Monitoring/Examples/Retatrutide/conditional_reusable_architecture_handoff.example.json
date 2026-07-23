@@ -1,0 +1,26 @@
+{
+  "build_number": "0055",
+  "created_at": "2026-07-23T10:00:00Z",
+  "created_by": "Certiaura Governance",
+  "source_baseline_build": "0054",
+  "source_baseline_commit": "8a9dba6615448c1ad85c44cdf89269a8fc3e00e8",
+  "peptide_uai": "CERT-PKS-000001",
+  "record_type": "reusable_architecture_handoff",
+  "handoff_id": "RET-HANDOFF-0055-002",
+  "closure_decision_id": "RET-CLOSE-0055-002",
+  "generic_components": [
+    "transactional importer",
+    "release evidence controls"
+  ],
+  "excluded_peptide_specific_components": [
+    "all Retatrutide domain content"
+  ],
+  "handoff_state": "PILOT_ONLY",
+  "conditions": [
+    "No clinical content reuse until target-peptide evidence mapping is complete"
+  ],
+  "recipient": "Candidate peptide assessment workstream",
+  "approvers": [
+    "Architecture governance reviewer"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "build_number": "0055",
+  "created_at": "2026-07-23T10:00:00Z",
+  "created_by": "Certiaura Governance",
+  "source_baseline_build": "0054",
+  "source_baseline_commit": "8a9dba6615448c1ad85c44cdf89269a8fc3e00e8",
+  "peptide_uai": "CERT-PKS-000001",
+  "record_type": "reusable_architecture_handoff",
+  "handoff_id": "RET-HANDOFF-X01",
+  "closure_decision_id": "RET-CLOSE-0055-001",
+  "generic_components": [
+    "Retatrutide clinical efficacy claims",
+    "transactional importer"
+  ],
+  "excluded_peptide_specific_components": [],
+  "handoff_state": "APPROVED_FOR_GOVERNED_PILOT",
+  "recipient": "Next peptide",
+  "approvers": [
+    "Reviewer"
+  ]
+}

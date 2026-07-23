@@ -2348,3 +2348,17 @@ RC5 passed package preflight, canonical predecessor evidence and executable dry 
 A founder `GREEN` cannot substitute for the exact successful Actions run tied to the canonical commit.
 
 <!-- CERTIAURA_BUILD_0054_LESSONS_END -->
+
+<!-- CERTIAURA_BUILD_0055_LESSONS_START -->
+### CERT-LESSON-0055-001 - Baseline closure requires explicit scope and evidenced zero-critical-gap status
+### CERT-LESSON-0055-002 - Controlled knowledge release must not be represented as clinical authorisation
+### CERT-LESSON-0055-003 - Reusable architecture excludes peptide-specific clinical content by default
+### CERT-LESSON-0055-004 - Next-peptide selection requires target-specific evidence and safety boundaries
+### CERT-LESSON-0055-005 - Closed baselines require governed exception and reopening controls
+### CERT-LESSON-0055-006 - Canonical closure evidence includes the exact successful GitHub Actions run ID
+### CERT-LESSON-0055-007 - Current-build tests use exact Asset Intent Manifest paths
+### CERT-LESSON-0055-008 - Historical Actions evidence requires repository-wide reconciliation
+### CERT-LESSON-0055-009 - Backfilled evidence must be distinguished from contemporaneous capture
+### CERT-LESSON-0055-010 - Builds 0001-0054 require complete accounting before Build 0055 closure
+
+<!-- CERTIAURA_BUILD_0055_LESSONS_END -->

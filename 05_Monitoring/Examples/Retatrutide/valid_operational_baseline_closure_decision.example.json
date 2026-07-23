@@ -1,0 +1,31 @@
+{
+  "build_number": "0055",
+  "created_at": "2026-07-23T10:00:00Z",
+  "created_by": "Certiaura Governance",
+  "source_baseline_build": "0054",
+  "source_baseline_commit": "8a9dba6615448c1ad85c44cdf89269a8fc3e00e8",
+  "peptide_uai": "CERT-PKS-000001",
+  "record_type": "operational_baseline_closure_decision",
+  "decision_id": "RET-CLOSE-0055-001",
+  "assurance_state": "PASS",
+  "release_readiness_state": "RELEASE",
+  "platinum_state": "PLATINUM_READY",
+  "open_critical_gaps": [],
+  "open_noncritical_gaps": [],
+  "closure_scope": [
+    "evidence governance",
+    "monitoring",
+    "clinician handoff",
+    "knowledge change",
+    "publication",
+    "audit",
+    "rollback"
+  ],
+  "decision": "CLOSE_BASELINE",
+  "closure_effect": "Retatrutide operational architecture becomes controlled predecessor baseline",
+  "approvers": [
+    "Founder governance reviewer",
+    "Scientific governance reviewer",
+    "Operational governance reviewer"
+  ]
+}

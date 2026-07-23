@@ -1,0 +1,27 @@
+{
+  "build_number": "0055",
+  "created_at": "2026-07-23T10:00:00Z",
+  "created_by": "Certiaura Governance",
+  "source_baseline_build": "0054",
+  "source_baseline_commit": "8a9dba6615448c1ad85c44cdf89269a8fc3e00e8",
+  "peptide_uai": "CERT-PKS-000001",
+  "record_type": "operational_baseline_closure_decision",
+  "decision_id": "RET-CLOSE-0055-002",
+  "assurance_state": "CONDITIONAL",
+  "release_readiness_state": "HOLD",
+  "platinum_state": "CONDITIONAL",
+  "open_critical_gaps": [],
+  "open_noncritical_gaps": [
+    "Independent operator observation pending"
+  ],
+  "closure_scope": [
+    "repository architecture"
+  ],
+  "decision": "CONDITIONAL_CLOSURE",
+  "conditions": [
+    "Complete independent operator observation before external knowledge release"
+  ],
+  "approvers": [
+    "Operational governance reviewer"
+  ]
+}

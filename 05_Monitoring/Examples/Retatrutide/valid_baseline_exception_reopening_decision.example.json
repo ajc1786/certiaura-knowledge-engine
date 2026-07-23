@@ -1,0 +1,25 @@
+{
+  "build_number": "0055",
+  "created_at": "2026-07-23T10:00:00Z",
+  "created_by": "Certiaura Governance",
+  "source_baseline_build": "0054",
+  "source_baseline_commit": "8a9dba6615448c1ad85c44cdf89269a8fc3e00e8",
+  "peptide_uai": "CERT-PKS-000001",
+  "record_type": "baseline_exception_reopening_decision",
+  "exception_id": "RET-REOPEN-0055-001",
+  "trigger_type": "material new safety evidence",
+  "trigger_evidence": [
+    "Evidence/Retatrutide/new_material_signal.example"
+  ],
+  "affected_baseline_components": [
+    "safety boundary",
+    "monitoring threshold"
+  ],
+  "decision": "REOPEN_CONTROLLED_SCOPE",
+  "publication_state": "HOLD_AFFECTED_OUTPUTS",
+  "rollback_required": false,
+  "approvers": [
+    "Safety governance reviewer",
+    "Knowledge change reviewer"
+  ]
+}

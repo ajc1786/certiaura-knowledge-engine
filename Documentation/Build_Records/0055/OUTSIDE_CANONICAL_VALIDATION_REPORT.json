@@ -1,0 +1,26 @@
+{
+  "build_number": "0055",
+  "candidate": "RC2",
+  "status": "PACKAGE_SOURCE_VALIDATED",
+  "checks": [
+    "manifest path equality",
+    "inventory hashes",
+    "embedded checksums",
+    "JSON parse",
+    "Python compile",
+    "example contracts",
+    "tests",
+    "LF writer audit",
+    "transaction rollback",
+    "approved no-op update",
+    "StrictMode optional property control",
+    "historical audit unit tests",
+    "historical accounting bundle validation",
+    "capture provenance classification"
+  ],
+  "result": "PASS",
+  "package_file_count": 89,
+  "generated_file_count": 12,
+  "owned_path_count": 101,
+  "automated_test_count": 22
+}

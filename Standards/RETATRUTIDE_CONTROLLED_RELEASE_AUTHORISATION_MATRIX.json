@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0.0",
+  "build_number": "0055",
+  "release_objects": [
+    "controlled knowledge baseline",
+    "clinician-facing export",
+    "governed architecture handoff"
+  ],
+  "decisions": [
+    "AUTHORISE_CONTROLLED_RELEASE",
+    "HOLD",
+    "REJECT"
+  ],
+  "mandatory_inputs": [
+    "closed baseline decision",
+    "release object",
+    "release channel",
+    "clinical-use disclaimer",
+    "critical-gap status",
+    "human approvals"
+  ],
+  "prohibition": "No release authorisation may be interpreted as clinical or regulatory approval."
+}

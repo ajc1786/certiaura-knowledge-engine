@@ -1,0 +1,45 @@
+{
+  "build_number": "0055",
+  "controls": [
+    {
+      "lesson_id": "CERT-LESSON-0055-001",
+      "gate": "RETATRUTIDE_BASELINE_CLOSURE_VALIDATED"
+    },
+    {
+      "lesson_id": "CERT-LESSON-0055-002",
+      "gate": "CONTROLLED_KNOWLEDGE_RELEASE_BOUNDARY_VALIDATED"
+    },
+    {
+      "lesson_id": "CERT-LESSON-0055-003",
+      "gate": "ARCHITECTURE_HANDOFF_BOUNDARY_VALIDATED"
+    },
+    {
+      "lesson_id": "CERT-LESSON-0055-004",
+      "gate": "NEXT_PEPTIDE_PILOT_SELECTION_VALIDATED"
+    },
+    {
+      "lesson_id": "CERT-LESSON-0055-005",
+      "gate": "BASELINE_EXCEPTION_REOPENING_VALIDATED"
+    },
+    {
+      "lesson_id": "CERT-LESSON-0055-006",
+      "gate": "GITHUB_ACTIONS_RUN_ID_EVIDENCE_REQUIRED"
+    },
+    {
+      "lesson_id": "CERT-LESSON-0055-007",
+      "gate": "CURRENT_BUILD_MANIFEST_SCOPED_TESTS_VALIDATED"
+    },
+    {
+      "lesson_id": "CERT-LESSON-0055-008",
+      "gate": "HISTORICAL_ACTIONS_EVIDENCE_RECONCILED"
+    },
+    {
+      "lesson_id": "CERT-LESSON-0055-009",
+      "gate": "HISTORICAL_ACTIONS_CAPTURE_PROVENANCE_CLASSIFIED"
+    },
+    {
+      "lesson_id": "CERT-LESSON-0055-010",
+      "gate": "HISTORICAL_ACTIONS_ALL_BUILDS_ACCOUNTED"
+    }
+  ]
+}

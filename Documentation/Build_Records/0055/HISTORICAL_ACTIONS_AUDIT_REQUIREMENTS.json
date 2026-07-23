@@ -1,0 +1,24 @@
+{
+  "build_number": "0055",
+  "audit_range": {
+    "start_build": "0001",
+    "end_build": "0054"
+  },
+  "mandatory_before_canonical_staging": true,
+  "required_result": "HISTORICAL_ACTIONS_AUDIT_COMPLETE",
+  "required_record_count": 54,
+  "required_accounted_count": 54,
+  "required_unresolved_count": 0,
+  "exact_run_id_preferred": true,
+  "controlled_exceptions_allowed": [
+    "NO_WORKFLOW_AT_COMMIT",
+    "NO_RUN_FOUND",
+    "RUN_FOUND_NOT_SUCCESS",
+    "BUILD_COMMIT_NOT_FOUND"
+  ],
+  "prohibited_unresolved_classifications": [
+    "API_ERROR",
+    "INCOMPLETE_RECORD"
+  ],
+  "provenance_rule": "BACKFILLED_EVIDENCE_MUST_NOT_BE_REPRESENTED_AS_CONTEMPORANEOUS"
+}

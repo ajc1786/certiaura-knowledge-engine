@@ -1,0 +1,518 @@
+{
+  "schema_version": "1.0.0",
+  "generated_at": "2026-07-23T09:45:06.427228+00:00",
+  "source": "CANONICAL_GIT_OBJECTS",
+  "predecessor_build": "0054",
+  "predecessor_candidate": "RC4",
+  "predecessor_commit": "8a9dba6615448c1ad85c44cdf89269a8fc3e00e8",
+  "manifest_path": "Documentation/Build_Records/0054/ASSET_INTENT_MANIFEST.json",
+  "predecessor_path_count": 82,
+  "current_build": "0055",
+  "intersection": [
+    "13_Project_Genesis/Validators/verify_staged_byte_equality.py"
+  ],
+  "approved_intersection": [
+    "13_Project_Genesis/Validators/verify_staged_byte_equality.py"
+  ],
+  "prohibited_intersection": [],
+  "withdrawn_candidates": [
+    "RC1",
+    "RC2",
+    "RC3"
+  ],
+  "blobs": [
+    {
+      "repository_path": "05_Monitoring/Examples/Retatrutide/conditional_architecture_reuse_decision.example.json",
+      "git_blob": "76455418f1b6987b731229098fbbcde47157c298",
+      "sha256": "9438535e61bbd36fa46a89e51038abdf10a9429f587bb1fbe07129813f924c30",
+      "size_bytes": 668
+    },
+    {
+      "repository_path": "05_Monitoring/Examples/Retatrutide/conditional_failure_mode_coverage_assessment.example.json",
+      "git_blob": "53c6df9977a8c5ceec0f347189c4d832af5d5532",
+      "sha256": "2f27d14429e7099cdb53a26f131d4973254d11a9f44be3798b22fefc1b1bc70f",
+      "size_bytes": 684
+    },
+    {
+      "repository_path": "05_Monitoring/Examples/Retatrutide/conditional_operational_assurance_assessment.example.json",
+      "git_blob": "f41e751c4f9f727de108243a3850e9570a2e3339",
+      "sha256": "74737fc81c336308b08be8768551eb8a739152740d43a08d45a85b27a030b393",
+      "size_bytes": 883
+    },
+    {
+      "repository_path": "05_Monitoring/Examples/Retatrutide/conditional_platinum_readiness_assessment.example.json",
+      "git_blob": "b7989399aae6b6431e5af4bc0e0000ef8e6aab20",
+      "sha256": "faba8710bdc7f6e3621856ea2a5dea94c61fe7e7a85395f763f3a64efb7e086f",
+      "size_bytes": 644
+    },
+    {
+      "repository_path": "05_Monitoring/Examples/Retatrutide/invalid_autonomous_release.example.json",
+      "git_blob": "9107373c0a66c26b27a249221fda3129f613948b",
+      "sha256": "8b3125f58332ae92b3e6d7080f4d94935c8976491b8c2d350c15fa2817ab5fb3",
+      "size_bytes": 543
+    },
+    {
+      "repository_path": "05_Monitoring/Examples/Retatrutide/invalid_incomplete_workflow_coverage.example.json",
+      "git_blob": "c409de12a2c6d0bcf5cb54e5f9d89dfbcda08719",
+      "sha256": "d747b7611d9e768020bef7426a1eaf5288d208256a2ad3fc807d45cbb12b5e42",
+      "size_bytes": 417
+    },
+    {
+      "repository_path": "05_Monitoring/Examples/Retatrutide/invalid_platinum_without_evidence.example.json",
+      "git_blob": "0ba358b86d164124347f1814401b00b7f919499d",
+      "sha256": "72b5418b8746198f7a604aab3b72b1a6a369c259ce6a805ed01abc830ddbc9f6",
+      "size_bytes": 483
+    },
+    {
+      "repository_path": "05_Monitoring/Examples/Retatrutide/invalid_reuse_before_readiness.example.json",
+      "git_blob": "33cf60923ab56fbd18573f1760a8b12d6ae29332",
+      "sha256": "440714385ed22dfee87cd718fa86d3f114c1c11966c44f7d830abb2c2cf0b7f4",
+      "size_bytes": 535
+    },
+    {
+      "repository_path": "05_Monitoring/Examples/Retatrutide/invalid_uncovered_failure_mode_pass.example.json",
+      "git_blob": "2112a29354ea4b7c4421f1d22d1eceafc0b971f1",
+      "sha256": "636584336e2a58a9765419aad9d2459001fa274b33be52768f7a8817083fe251",
+      "size_bytes": 568
+    },
+    {
+      "repository_path": "05_Monitoring/Examples/Retatrutide/valid_architecture_reuse_decision.example.json",
+      "git_blob": "903338e0b83881169693540584ef05d390e719f8",
+      "sha256": "3ea19d54b5a835ac7a92bd090acc98e21f52ba27144dbf12ccf00dd4b8670bd7",
+      "size_bytes": 768
+    },
+    {
+      "repository_path": "05_Monitoring/Examples/Retatrutide/valid_controlled_release_readiness_decision.example.json",
+      "git_blob": "60ce592b71bde3a0fb5b9c22517637cd80000f69",
+      "sha256": "43fd901a319c67b28116bfff41048b385c5e9e8ac5f69a8aa680714914062909",
+      "size_bytes": 688
+    },
+    {
+      "repository_path": "05_Monitoring/Examples/Retatrutide/valid_failure_mode_coverage_assessment.example.json",
+      "git_blob": "e35e0b4e552e85d75063b702af98e7e3e660f157",
+      "sha256": "060b69e88e03acdb55522efd5b4b2f5191f1749f67b78a75d8fc70efdc5fc70f",
+      "size_bytes": 1083
+    },
+    {
+      "repository_path": "05_Monitoring/Examples/Retatrutide/valid_operational_assurance_assessment.example.json",
+      "git_blob": "e957ef858d164b3b227940248289e65c400d12e4",
+      "sha256": "dfef2444d58bf1cfb31e4b6aa482f5c9896d273d620a974a84a17be9158dd2bb",
+      "size_bytes": 867
+    },
+    {
+      "repository_path": "05_Monitoring/Examples/Retatrutide/valid_platinum_readiness_assessment.example.json",
+      "git_blob": "28668beb88491494a69446c6316ef23b23ba1ab1",
+      "sha256": "826967d279bf41aa965518e231b3d5c0239ac9e564273eabdd873540b3bcb4ed",
+      "size_bytes": 1008
+    },
+    {
+      "repository_path": "13_Project_Genesis/Dashboards/generate_retatrutide_operational_assurance_summary.py",
+      "git_blob": "5ed024bd3c885ea52ab4590119a5ad4566129153",
+      "sha256": "7f9a5ce09c15c3acaac87ce402bed2a7769f75da7a3fca27467280c92a8d711c",
+      "size_bytes": 829
+    },
+    {
+      "repository_path": "13_Project_Genesis/Import/run_build_0054_import.py",
+      "git_blob": "07323f48bf61d9d92e2c822ce887a24e8a9b1c6b",
+      "sha256": "36b21aefa042a5a79d5ebd1266b9567e95b29f8e22c25be0a25161d6a6294a85",
+      "size_bytes": 25007
+    },
+    {
+      "repository_path": "13_Project_Genesis/Release/derive_build_0053_predecessor_evidence.py",
+      "git_blob": "00269ade186b451a7590df27e6c0de0521d83feb",
+      "sha256": "72d7fc880e532bc639c8e69b7003eec0fad500b7c7ea793668b95111ac6d611b",
+      "size_bytes": 6108
+    },
+    {
+      "repository_path": "13_Project_Genesis/Release/run_build_0054_preflight.py",
+      "git_blob": "788baaf86dce515711ebc5148b31b43858cd84d7",
+      "sha256": "d6887c3aa2b239cb0b55228344a1170ff8b002cf40d9cf6bb4371fd5cc9c044f",
+      "size_bytes": 2888
+    },
+    {
+      "repository_path": "13_Project_Genesis/Tests/test_build_0054_operational_assurance.py",
+      "git_blob": "3e5aa89f01d5f3c5a64571cac415edcecfccf6f7",
+      "sha256": "f7ccb110d11d49b09024a7cc05464398daf34fd3f381c6a6d0fce91d69b4eca9",
+      "size_bytes": 1362
+    },
+    {
+      "repository_path": "13_Project_Genesis/Tests/test_build_0054_predecessor_evidence.py",
+      "git_blob": "a56ec638c824469d95223e1153bceb5731f88603",
+      "sha256": "1429fdaee9eaa1435ee1b4ae522511451653ad9d1fc3aa203faf381bdcd3a87b",
+      "size_bytes": 2308
+    },
+    {
+      "repository_path": "13_Project_Genesis/Tests/test_build_0054_repository.py",
+      "git_blob": "4f4de08564cf291d9d47d877b91b0cbf385e073d",
+      "sha256": "58f1e31707d1ef617218ab9881f07da777b34011160c9c0782d457dc0fb3ee2c",
+      "size_bytes": 3665
+    },
+    {
+      "repository_path": "13_Project_Genesis/Tests/test_build_0054_transactional_import.py",
+      "git_blob": "58567a2014e0c3864b5d8d69b0aa7d5b17232ba2",
+      "sha256": "619a1e1b8ef0277033a206e43e244ae907e7cf97db9042bfcee65861223af4c1",
+      "size_bytes": 5381
+    },
+    {
+      "repository_path": "13_Project_Genesis/Validators/build_0054_asset_ownership.py",
+      "git_blob": "1cc5d779aa71c8aa92dbc3908f6e40c2f69eaff9",
+      "sha256": "2a549caea281625d55eb3f86df917dae308ebd083d819019b1ee0acb07725c6a",
+      "size_bytes": 1019
+    },
+    {
+      "repository_path": "13_Project_Genesis/Validators/retatrutide_operational_assurance_common.py",
+      "git_blob": "3ac468a013cb0df9ea28cc03ed7eb96ba3adc07f",
+      "sha256": "529d02d1b3d1d57c95e46c8d449a1df61172abacab65d790a8cad778cd04c11a",
+      "size_bytes": 5501
+    },
+    {
+      "repository_path": "13_Project_Genesis/Validators/validate_build_0054_repository.py",
+      "git_blob": "a47de16a8e2d89305abcb5b853f9fc5b0d63b7d9",
+      "sha256": "e611a7f13a08ce4e1e23510ff93b78edc6f63cc88927945e0746dcbf91023d6b",
+      "size_bytes": 3949
+    },
+    {
+      "repository_path": "13_Project_Genesis/Validators/validate_retatrutide_operational_assurance.py",
+      "git_blob": "a0735cb6d87551d07799d89cc2f7275c29e77bfd",
+      "sha256": "b3dd599400898fee78cb1b896a98e537ebbae51e72516a71787ca90e57400188",
+      "size_bytes": 670
+    },
+    {
+      "repository_path": "13_Project_Genesis/Validators/verify_staged_byte_equality.py",
+      "git_blob": "85e48c48efbb01ff13831736fcd3d0ed7bdb2fc4",
+      "sha256": "2fb118441e31b7161869be1ba657615fb7705ad022e7ec19fd6e631d40ba8b08",
+      "size_bytes": 2067
+    },
+    {
+      "repository_path": "Database/Registers/Retatrutide_Architecture_Reuse_Decision_Register.csv",
+      "git_blob": "4ee414e201b60c12669b7c127f6cfa05c8ee7c27",
+      "sha256": "649c0a15a08a79708d7435c4e248d2d8c9c55a923dfbc3d6def8bcd2dd8f6fca",
+      "size_bytes": 102
+    },
+    {
+      "repository_path": "Database/Registers/Retatrutide_Controlled_Release_Readiness_Register.csv",
+      "git_blob": "381b2133294b1021dd6a159d957086097e88829e",
+      "sha256": "686d0f9048683830d11215632e5d5aad962b1d52b9232a321d7df7270b189fc9",
+      "size_bytes": 82
+    },
+    {
+      "repository_path": "Database/Registers/Retatrutide_Failure_Mode_Coverage_Register.csv",
+      "git_blob": "b1fdc4a68d01075581bd97db70ac1bdc58b32a82",
+      "sha256": "2c13550e00f3726840d75e2fd6d3493d64c62c367b99dc3a17356cec4999454e",
+      "size_bytes": 115
+    },
+    {
+      "repository_path": "Database/Registers/Retatrutide_Operational_Assurance_Register.csv",
+      "git_blob": "5d21769f02850d0a6dc2912945a5a94f44b55439",
+      "sha256": "d4e10fbd1032ad556a6aa18407aee99039afad24a4dc41c315be864055cee897",
+      "size_bytes": 83
+    },
+    {
+      "repository_path": "Database/Registers/Retatrutide_Platinum_Readiness_Gap_Register.csv",
+      "git_blob": "98134ef01d89158587ef059676f52d17980bdc84",
+      "sha256": "5096fa2e9bc46a4664f2dbaadcb8fd2675e3b0cf7e2b2776f0565f2a5de3d737",
+      "size_bytes": 72
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0054/ACCUMULATED_LESSONS_DELTA.json",
+      "git_blob": "9d9c9adcdbb36b17474821369f51c9e1b1b65c49",
+      "sha256": "92683104f56611828ca1cad43c26966dfade367aae7a7b9f7668945b0688fcc3",
+      "size_bytes": 524
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0054/ASSET_INTENT_MANIFEST.json",
+      "git_blob": "c548ea192b06d77a19271d06fa0987963ae1c90b",
+      "sha256": "7f3a58a8a91effb1f6858b0a1a11d8b7ebede3438f2a1572718cb21305385e15",
+      "size_bytes": 21060
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0054/ASSET_REGISTER_RECONCILIATION_POLICY.json",
+      "git_blob": "353fabc50ee8a4d07417b32ea54f8b4c83020b6e",
+      "sha256": "1236020848892bc38b7606b03233cb3f1d67bbbf6bb39c43e8e7fee10b92a013",
+      "size_bytes": 265
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0054/BUILD_MANIFEST.json",
+      "git_blob": "befee2621371e9f1d5951feb9ddf065e9157355d",
+      "sha256": "eb9fe01cab692b82956a82de52f8d48e8b0efa508e83a145094e7734f62c3c63",
+      "size_bytes": 570
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0054/CANDIDATE_DELIVERY.json",
+      "git_blob": "2c9d5f156e21e12f7a30b0c939ee67560949d210",
+      "sha256": "6bb126b0614916804d5a593b6481e349cd5fd9b2fce9cdc132c47853da6a5398",
+      "size_bytes": 1399
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0054/CHECKSUMS.sha256",
+      "git_blob": "d98bd91bcc0a8463e6c97bc97af5f43424db988e",
+      "sha256": "be16e57a828fa4ef66a4c55224d5e91fc03316d98d988cd4bfc5c321d858c6b8",
+      "size_bytes": 10719
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0054/COMMIT_MESSAGE.txt",
+      "git_blob": "7208ba64502253a37bf2e9b0ff0fde34db1a7cab",
+      "sha256": "e8d1fb59ce6d3100e3bb0c34d4e49237acc5b23d3628812f60782ace94a08bee",
+      "size_bytes": 166
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0054/CONFLICT_POLICY.json",
+      "git_blob": "498dc83ac5fa573fb72c40c44a226368b86050da",
+      "sha256": "21597796038db8228dfcbb13c67e405ce80372bab353e6d316b016f60c8c6f20",
+      "size_bytes": 136
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0054/CONTINUITY_CHECKPOINT_DELTA.json",
+      "git_blob": "7c449cd717a083b32c418821e1a52dce812dff7e",
+      "sha256": "3e33d48a509b9a09171d3127a25591ee4ca7389dabb5bec10dcc8272249032cd",
+      "size_bytes": 286
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0054/DECISION_RECORD_0054.md",
+      "git_blob": "626824602aef0d4a391f08342935959030a5478f",
+      "sha256": "afbb9b6cf73350a54f8b7b797461001fbf70788563300eb763495be1d8f71f70",
+      "size_bytes": 311
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0054/GITHUB_ACTIONS_CLOSURE_EVIDENCE_REQUIREMENTS.json",
+      "git_blob": "858bcf90922af84a620f6fbb31a28f1b98d49923",
+      "sha256": "8db077bd527b05dd983b7ecad727450d093e03274bbf33cb3870e50769a36123",
+      "size_bytes": 602
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0054/LESSONS_LEARNED_CONTROL_MATRIX.json",
+      "git_blob": "2597b64b80b5b7fdcc9501127bb7457b55e317e7",
+      "sha256": "d3d3e2496f017f50d7114b5d84570cdafc62913e555a5952cc6ec1a04f7f595a",
+      "size_bytes": 956
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0054/LESSONS_LEARNED_REVIEW.md",
+      "git_blob": "6838e97c86cbc15716d8a1258acfdc8d7028e220",
+      "sha256": "864e57a5624bf076e0c6d342c537d96104abd386b47d31e0604bf0fad97aa87a",
+      "size_bytes": 982
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0054/OUTSIDE_CANONICAL_VALIDATION_REPORT.json",
+      "git_blob": "b0f643e4bc080211911db3f954c8e9b24c201eec",
+      "sha256": "16444d2eb9cede00dec89f2273e1e6d0b594b8c05c731dd92f78e245846ca00f",
+      "size_bytes": 470
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0054/PACKAGE_INVENTORY.csv",
+      "git_blob": "1b9895fffa78316fdce6fdc42d8feba155bbd701",
+      "sha256": "1e459f5f0e0c726b0e06e3f5afd20057483a4a95cec372c30abdc2009805af09",
+      "size_bytes": 12659
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0054/PACKAGE_VERSION.json",
+      "git_blob": "cc15035608066a5ef5f43b0d7d43294c276e3237",
+      "sha256": "1fe44fad622ace6ea01673babd471999918cf138430f2c68f63baeb0a4b10c37",
+      "size_bytes": 182
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0054/PREDECESSOR_REQUIREMENTS.json",
+      "git_blob": "f986a13ce6f1305506783fc0f09be5ce1215f59e",
+      "sha256": "fe8a5e00e1b331955ee66a3fe2ca3c83eb1995c1d9f933d62c6cbb61f9c951dc",
+      "size_bytes": 324
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0054/PRE_AUTHORISED_PRECURSOR_STATE.json",
+      "git_blob": "e413a218bb71a1d518f128077a2d38b1b3586fcd",
+      "sha256": "6baeb6f190837f6c786c16ae7ae51994c41d7d29a8b961c690addcc35ff262d7",
+      "size_bytes": 160
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0054/PRE_RELEASE_VALIDATION_REPORT.json",
+      "git_blob": "28cd910bb974cb4a84a41f777e73b4bee191cc9e",
+      "sha256": "d98707ea50674adb2b89f1624b3d71494518ab38c6334e8882467b5f1fce8139",
+      "size_bytes": 223
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0054/PROJECT_GENESIS_IMPORT_HOOK.json",
+      "git_blob": "14eec937e6eaa978935dffe0843022b16257fa43",
+      "sha256": "b901858a36830bfff315b3398d8c1bdf7504ffb2953e143c7b61f44151948e12",
+      "size_bytes": 262
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0054/PROPOSED_NEXT_ACTION.md",
+      "git_blob": "37d12d1a828391413f238e71d0d98f0d0bd39009",
+      "sha256": "45396cac88c8b10b9552c6c209aaefb35597f5034cbf74a4a5cdf361538b34be",
+      "size_bytes": 295
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0054/READ_ME_FIRST.md",
+      "git_blob": "f7de559ebfc499daad495ffd1cea791e4926ea3a",
+      "sha256": "52c188cd2b2126e310137733db3f6a83ae67c37f12fe327631a056ccc9703868",
+      "size_bytes": 1358
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0054/REAL_WORLD_OPERATOR_WORKFLOW_REGRESSION_REPORT.json",
+      "git_blob": "19e56a355623b2b6e950014ca844b1b8ce540806",
+      "sha256": "3714e22d0003e8ab07a850bb8e4fff017e4901aaa500d873db6840c303e80cf5",
+      "size_bytes": 456
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0054/ROLLBACK_RUNBOOK.md",
+      "git_blob": "2699e7eb66bf9dc8e9d56cd0525296f897bcf859",
+      "sha256": "79754b252079db57255e209219ffcc57217249481a726de2c14c5e89f02e084f",
+      "size_bytes": 355
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0054/ROUTING_MANIFEST.json",
+      "git_blob": "d74c997e6861116b00e4b512cfcc8e2aba622fb6",
+      "sha256": "5ca34d1ae6c8220b862e8983f29126087ab9ef491da6c96b22ab247ce999875f",
+      "size_bytes": 15393
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0054/SOURCE_INPUT_DEFECT_LOG.json",
+      "git_blob": "bc9d0f6c53d4c8d3a0801df784a9ccb9e5ffb0b2",
+      "sha256": "f6a16c0daf826aaf65a2e3b24e7ba807df3ea3b8b79d5e33cf5116117c410c48",
+      "size_bytes": 2900
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0054/VALIDATION_REQUIREMENTS.json",
+      "git_blob": "fdad5997ab2d000f5353408f2a7e38fb4d354939",
+      "sha256": "6ceb8650ec102ef70813fbaceaa1de782dab3b6badf2c858f20c3f9bca9cf1ad",
+      "size_bytes": 475
+    },
+    {
+      "repository_path": "Schemas/retatrutide_architecture_reuse_decision.schema.json",
+      "git_blob": "d0aa4a38aea75851a7f90785822605bf501ccc3e",
+      "sha256": "cb6c2c220dcd91244f782d971993e5ab2ba341ac5d0ffc75798f79ff34eaa3a2",
+      "size_bytes": 1353
+    },
+    {
+      "repository_path": "Schemas/retatrutide_controlled_release_readiness_decision.schema.json",
+      "git_blob": "553924670fa0319c999273bea9820f9c26dba33a",
+      "sha256": "613301d702284ace532f0fb39f1e12bd77d1c8bc9f038126839c0ac4ae0d05c1",
+      "size_bytes": 1390
+    },
+    {
+      "repository_path": "Schemas/retatrutide_failure_mode_coverage_assessment.schema.json",
+      "git_blob": "296618c4bc57926a5aee01cbafb8bc4a32c91d02",
+      "sha256": "fa39036f7eea1b6487b54c2470f06e5843b2ea49f65fdfd254d7acc91bf37d70",
+      "size_bytes": 947
+    },
+    {
+      "repository_path": "Schemas/retatrutide_operational_assurance_assessment.schema.json",
+      "git_blob": "283f92970ba765ea873c5fdc7e1721b47d43eeb9",
+      "sha256": "04a9b5d8fe6eb85fd43f297bd6925d995d986240f0ab3c28069be832897fc56e",
+      "size_bytes": 1119
+    },
+    {
+      "repository_path": "Schemas/retatrutide_platinum_readiness_assessment.schema.json",
+      "git_blob": "43d53c103bff72cb6c7588c5547514fe59931a92",
+      "sha256": "f0f27851df64783e1922edaee9c40a3d85fe222ec04b299eaf9fa5335c9f3409",
+      "size_bytes": 1095
+    },
+    {
+      "repository_path": "Scripts/Close_Certiaura_Build_0054.ps1",
+      "git_blob": "a3a3a7366aff570de2a19112cdebe9c1fbfa95ff",
+      "sha256": "2086f2bdc6536a646372e831413b2f68d964e4e83c620168df3ae302645b94e2",
+      "size_bytes": 2880
+    },
+    {
+      "repository_path": "Scripts/Invoke_Certiaura_Build_0054_Import.ps1",
+      "git_blob": "f47b43665a9f3be57ee14511ce3ad9d49eb574fb",
+      "sha256": "3dbd352b9f1909ce8a0c91a06c7b8ce7666cbe41e6231f18c501717447d2ae2c",
+      "size_bytes": 1241
+    },
+    {
+      "repository_path": "Scripts/Invoke_Certiaura_Build_0054_Preflight.ps1",
+      "git_blob": "f14eae34eacbb1e684bedb91d3289271949ad83a",
+      "sha256": "6444d5450e2b8439143539721a6369c45a633feeec260b5bed4cf0dd2bfa7594",
+      "size_bytes": 652
+    },
+    {
+      "repository_path": "Scripts/Invoke_Certiaura_Build_0054_Windows_PS51_Regression.ps1",
+      "git_blob": "96c768e69eb73c2d186b5a51e3bb151ede0353c4",
+      "sha256": "af89c3e548613d395e7d27539a5b3a2eb22c1feeaee834e062160b38c4f643be",
+      "size_bytes": 10459
+    },
+    {
+      "repository_path": "Scripts/Run_Certiaura_Build_0054.ps1",
+      "git_blob": "099ea0bcf2bc4f6f5a341bc2c73ca3acd63ddbe3",
+      "sha256": "ef0c26857af61c7930832993ccc600cfc027fde7d7b2c5654bc5e49b5eb64914",
+      "size_bytes": 12818
+    },
+    {
+      "repository_path": "Scripts/START_BUILD_0054.cmd",
+      "git_blob": "82ed1ab340788729bf0e12d5a12280e5c54a718e",
+      "sha256": "5de09802de27b39f2b208ce785fda4930a5df825191243880de4843e10430a1a",
+      "size_bytes": 105
+    },
+    {
+      "repository_path": "Scripts/update_certiaura_build_0054_controls.py",
+      "git_blob": "f4eb526450d07123395151d89046ad99ecdc0eca",
+      "sha256": "e0959c68fdde8d3193bf0c1fab734053674f17853abaef6ccdb8dce5a069b66d",
+      "size_bytes": 4159
+    },
+    {
+      "repository_path": "Standards/RETATRUTIDE_ARCHITECTURE_REUSE_DECISION_STANDARD.md",
+      "git_blob": "df08749a77fa49d5fbb3e6dd2bddd063e7d1e301",
+      "sha256": "d7d35cd863faafa5e36a86124769e11f3c41f674aaf99c814fab5dedd2567bef",
+      "size_bytes": 446
+    },
+    {
+      "repository_path": "Standards/RETATRUTIDE_CONTROLLED_RELEASE_READINESS_MATRIX.json",
+      "git_blob": "81bd9f14f7a8ed03a9934c07d3c299675d4cd06a",
+      "sha256": "b3699a9047aaf617db60cd87bc3953107fcc5a15a146c30e09ada0a59c6af1ee",
+      "size_bytes": 355
+    },
+    {
+      "repository_path": "Standards/RETATRUTIDE_END_TO_END_OPERATIONAL_ASSURANCE_STANDARD.md",
+      "git_blob": "a2ea10bf56dfd1238e1f1b7fc50c26f742e7971a",
+      "sha256": "68640bb141b34c171aaf47f5de331c8c66716cfe7cdf7cca9b81a49faf11cb57",
+      "size_bytes": 1046
+    },
+    {
+      "repository_path": "Standards/RETATRUTIDE_FAILURE_MODE_COVERAGE_MATRIX.json",
+      "git_blob": "a1993807fc7f682903c7a1049de288b5c7d16cde",
+      "sha256": "87af35dc31c925419ee68feabff851d47bda76a3f78319765d6b81e671914917",
+      "size_bytes": 367
+    },
+    {
+      "repository_path": "Standards/RETATRUTIDE_PLATINUM_READINESS_ASSESSMENT_MATRIX.json",
+      "git_blob": "644d74e770cf9375372e205979082d3a1fcb88b0",
+      "sha256": "08c3edf5e5c0d16711239e7e36625a8b05a649b0f62c9eb977059cf90d315b71",
+      "size_bytes": 437
+    },
+    {
+      "repository_path": "Templates/RETATRUTIDE_ARCHITECTURE_REUSE_DECISION_TEMPLATE.json",
+      "git_blob": "903338e0b83881169693540584ef05d390e719f8",
+      "sha256": "3ea19d54b5a835ac7a92bd090acc98e21f52ba27144dbf12ccf00dd4b8670bd7",
+      "size_bytes": 768
+    },
+    {
+      "repository_path": "Templates/RETATRUTIDE_CONTROLLED_RELEASE_READINESS_DECISION_TEMPLATE.json",
+      "git_blob": "60ce592b71bde3a0fb5b9c22517637cd80000f69",
+      "sha256": "43fd901a319c67b28116bfff41048b385c5e9e8ac5f69a8aa680714914062909",
+      "size_bytes": 688
+    },
+    {
+      "repository_path": "Templates/RETATRUTIDE_FAILURE_MODE_COVERAGE_ASSESSMENT_TEMPLATE.json",
+      "git_blob": "e35e0b4e552e85d75063b702af98e7e3e660f157",
+      "sha256": "060b69e88e03acdb55522efd5b4b2f5191f1749f67b78a75d8fc70efdc5fc70f",
+      "size_bytes": 1083
+    },
+    {
+      "repository_path": "Templates/RETATRUTIDE_OPERATIONAL_ASSURANCE_ASSESSMENT_TEMPLATE.json",
+      "git_blob": "e957ef858d164b3b227940248289e65c400d12e4",
+      "sha256": "dfef2444d58bf1cfb31e4b6aa482f5c9896d273d620a974a84a17be9158dd2bb",
+      "size_bytes": 867
+    },
+    {
+      "repository_path": "Templates/RETATRUTIDE_PLATINUM_READINESS_ASSESSMENT_TEMPLATE.json",
+      "git_blob": "28668beb88491494a69446c6316ef23b23ba1ab1",
+      "sha256": "826967d279bf41aa965518e231b3d5c0239ac9e564273eabdd873540b3bcb4ed",
+      "size_bytes": 1008
+    },
+    {
+      "repository_path": "Templates/RETATRUTIDE_PLATINUM_READINESS_EXECUTIVE_SUMMARY_TEMPLATE.md",
+      "git_blob": "f466c7133ddc28e81f19db6d3338930930787339",
+      "sha256": "8cdea866f6eb1ebd8974f485307048479e43e21d20dd13ad43d46af57807f94d",
+      "size_bytes": 529
+    }
+  ],
+  "result": "PREDECESSOR_CANONICAL_SOURCE_VERIFIED"
+}

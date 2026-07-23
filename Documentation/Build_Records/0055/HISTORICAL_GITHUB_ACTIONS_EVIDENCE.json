@@ -1,0 +1,1982 @@
+{
+  "schema_version": "1.0.0",
+  "summary": {
+    "schema_version": "1.0.0",
+    "audit_timestamp_utc": "2026-07-23T09:42:40.500602+00:00",
+    "repository": "ajc1786/certiaura-knowledge-engine",
+    "repository_head": "8a9dba6615448c1ad85c44cdf89269a8fc3e00e8",
+    "build_range": {
+      "start": "0001",
+      "end": "0054"
+    },
+    "expected_build_count": 54,
+    "record_count": 54,
+    "accounted_count": 54,
+    "verified_run_id_count": 53,
+    "contemporaneous_capture_count": 0,
+    "backfilled_or_current_record_count": 53,
+    "exception_count": 1,
+    "unresolved_count": 0,
+    "all_builds_accounted": true,
+    "all_exact_run_ids_captured": false,
+    "result": "HISTORICAL_ACTIONS_AUDIT_COMPLETE"
+  },
+  "records": [
+    {
+      "build_number": "0001",
+      "candidate_commit_count": 0,
+      "candidate_commits": [],
+      "selection_basis": "NO_MATCHING_BUILD_COMMIT",
+      "canonical_commit": null,
+      "canonical_subject": null,
+      "workflow_present_at_commit": false,
+      "classification": "BUILD_COMMIT_NOT_FOUND",
+      "run_id": null,
+      "workflow_name": null,
+      "run_attempt": null,
+      "status": null,
+      "conclusion": null,
+      "branch": null,
+      "event": null,
+      "created_at": null,
+      "updated_at": null,
+      "actions_url": null,
+      "all_candidate_run_ids": [],
+      "capture_status": "RESOLVED_EXCEPTION",
+      "capture_commit": null,
+      "accounted": true
+    },
+    {
+      "build_number": "0002",
+      "candidate_commit_count": 1,
+      "candidate_commits": [
+        {
+          "commit": "76b46d5a5cb16796edd0f733fc5e30bf9cfb0b36",
+          "subject": "Add Certiaura Build 0002 preservation and migration baseline",
+          "build_label": "0002",
+          "exact_add_subject": true
+        }
+      ],
+      "selection_basis": "LATEST_EXACT_ADD_SUBJECT_ON_FIRST_PARENT_MAIN",
+      "canonical_commit": "76b46d5a5cb16796edd0f733fc5e30bf9cfb0b36",
+      "canonical_subject": "Add Certiaura Build 0002 preservation and migration baseline",
+      "workflow_present_at_commit": true,
+      "classification": "RUN_ID_VERIFIED",
+      "run_id": "29357903067",
+      "workflow_name": "Certiaura Repository Validation",
+      "run_attempt": 1,
+      "status": "completed",
+      "conclusion": "success",
+      "branch": "main",
+      "event": "push",
+      "created_at": "2026-07-14T18:27:09Z",
+      "updated_at": "2026-07-14T18:27:17Z",
+      "actions_url": "https://github.com/ajc1786/certiaura-knowledge-engine/actions/runs/29357903067",
+      "all_candidate_run_ids": [
+        "29357903067"
+      ],
+      "capture_status": "BACKFILLED_BY_BUILD_0055",
+      "capture_commit": null,
+      "accounted": true
+    },
+    {
+      "build_number": "0003",
+      "candidate_commit_count": 1,
+      "candidate_commits": [
+        {
+          "commit": "87ed78c932636ba5129006692e1c21cc4096185c",
+          "subject": "Add Certiaura Build 0003 Retatrutide evidence layer",
+          "build_label": "0003",
+          "exact_add_subject": true
+        }
+      ],
+      "selection_basis": "LATEST_EXACT_ADD_SUBJECT_ON_FIRST_PARENT_MAIN",
+      "canonical_commit": "87ed78c932636ba5129006692e1c21cc4096185c",
+      "canonical_subject": "Add Certiaura Build 0003 Retatrutide evidence layer",
+      "workflow_present_at_commit": true,
+      "classification": "RUN_ID_VERIFIED",
+      "run_id": "29368996498",
+      "workflow_name": "Certiaura Repository Validation",
+      "run_attempt": 1,
+      "status": "completed",
+      "conclusion": "success",
+      "branch": "main",
+      "event": "push",
+      "created_at": "2026-07-14T21:17:41Z",
+      "updated_at": "2026-07-14T21:17:50Z",
+      "actions_url": "https://github.com/ajc1786/certiaura-knowledge-engine/actions/runs/29368996498",
+      "all_candidate_run_ids": [
+        "29368996498"
+      ],
+      "capture_status": "BACKFILLED_BY_BUILD_0055",
+      "capture_commit": null,
+      "accounted": true
+    },
+    {
+      "build_number": "0004",
+      "candidate_commit_count": 1,
+      "candidate_commits": [
+        {
+          "commit": "9918aee5232f1af9b3cca1e3cddacd1c811f5036",
+          "subject": "Add Certiaura Build 0004 Retatrutide evidence expansion",
+          "build_label": "0004",
+          "exact_add_subject": true
+        }
+      ],
+      "selection_basis": "LATEST_EXACT_ADD_SUBJECT_ON_FIRST_PARENT_MAIN",
+      "canonical_commit": "9918aee5232f1af9b3cca1e3cddacd1c811f5036",
+      "canonical_subject": "Add Certiaura Build 0004 Retatrutide evidence expansion",
+      "workflow_present_at_commit": true,
+      "classification": "RUN_ID_VERIFIED",
+      "run_id": "29370362946",
+      "workflow_name": "Certiaura Repository Validation",
+      "run_attempt": 1,
+      "status": "completed",
+      "conclusion": "success",
+      "branch": "main",
+      "event": "push",
+      "created_at": "2026-07-14T21:40:19Z",
+      "updated_at": "2026-07-14T21:40:26Z",
+      "actions_url": "https://github.com/ajc1786/certiaura-knowledge-engine/actions/runs/29370362946",
+      "all_candidate_run_ids": [
+        "29370362946"
+      ],
+      "capture_status": "BACKFILLED_BY_BUILD_0055",
+      "capture_commit": null,
+      "accounted": true
+    },
+    {
+      "build_number": "0005",
+      "candidate_commit_count": 1,
+      "candidate_commits": [
+        {
+          "commit": "e1efdec6bd150d62e77ca8629e8a01264b3d9f6e",
+          "subject": "Add Certiaura Build 0005 evidence verification and safety expansion",
+          "build_label": "0005",
+          "exact_add_subject": true
+        }
+      ],
+      "selection_basis": "LATEST_EXACT_ADD_SUBJECT_ON_FIRST_PARENT_MAIN",
+      "canonical_commit": "e1efdec6bd150d62e77ca8629e8a01264b3d9f6e",
+      "canonical_subject": "Add Certiaura Build 0005 evidence verification and safety expansion",
+      "workflow_present_at_commit": true,
+      "classification": "RUN_ID_VERIFIED",
+      "run_id": "29371025768",
+      "workflow_name": "Certiaura Repository Validation",
+      "run_attempt": 1,
+      "status": "completed",
+      "conclusion": "success",
+      "branch": "main",
+      "event": "push",
+      "created_at": "2026-07-14T21:51:42Z",
+      "updated_at": "2026-07-14T21:51:49Z",
+      "actions_url": "https://github.com/ajc1786/certiaura-knowledge-engine/actions/runs/29371025768",
+      "all_candidate_run_ids": [
+        "29371025768"
+      ],
+      "capture_status": "BACKFILLED_BY_BUILD_0055",
+      "capture_commit": null,
+      "accounted": true
+    },
+    {
+      "build_number": "0006",
+      "candidate_commit_count": 1,
+      "candidate_commits": [
+        {
+          "commit": "092447ff15702c8e4915e81bd56a82953977dbfc",
+          "subject": "Add Certiaura Build 0006 primary source closure and integrity gate",
+          "build_label": "0006",
+          "exact_add_subject": true
+        }
+      ],
+      "selection_basis": "LATEST_EXACT_ADD_SUBJECT_ON_FIRST_PARENT_MAIN",
+      "canonical_commit": "092447ff15702c8e4915e81bd56a82953977dbfc",
+      "canonical_subject": "Add Certiaura Build 0006 primary source closure and integrity gate",
+      "workflow_present_at_commit": true,
+      "classification": "RUN_ID_VERIFIED",
+      "run_id": "29371412419",
+      "workflow_name": "Certiaura Repository Validation",
+      "run_attempt": 1,
+      "status": "completed",
+      "conclusion": "success",
+      "branch": "main",
+      "event": "push",
+      "created_at": "2026-07-14T21:58:24Z",
+      "updated_at": "2026-07-14T21:58:33Z",
+      "actions_url": "https://github.com/ajc1786/certiaura-knowledge-engine/actions/runs/29371412419",
+      "all_candidate_run_ids": [
+        "29371412419"
+      ],
+      "capture_status": "BACKFILLED_BY_BUILD_0055",
+      "capture_commit": null,
+      "accounted": true
+    },
+    {
+      "build_number": "0007",
+      "candidate_commit_count": 1,
+      "candidate_commits": [
+        {
+          "commit": "868bce8c1cd0976fc8e25b80c90f47adda8725be",
+          "subject": "Add Certiaura Build 0007 Retatrutide flagship consolidation",
+          "build_label": "0007",
+          "exact_add_subject": true
+        }
+      ],
+      "selection_basis": "LATEST_EXACT_ADD_SUBJECT_ON_FIRST_PARENT_MAIN",
+      "canonical_commit": "868bce8c1cd0976fc8e25b80c90f47adda8725be",
+      "canonical_subject": "Add Certiaura Build 0007 Retatrutide flagship consolidation",
+      "workflow_present_at_commit": true,
+      "classification": "RUN_ID_VERIFIED",
+      "run_id": "29371788172",
+      "workflow_name": "Certiaura Repository Validation",
+      "run_attempt": 1,
+      "status": "completed",
+      "conclusion": "success",
+      "branch": "main",
+      "event": "push",
+      "created_at": "2026-07-14T22:04:43Z",
+      "updated_at": "2026-07-14T22:04:54Z",
+      "actions_url": "https://github.com/ajc1786/certiaura-knowledge-engine/actions/runs/29371788172",
+      "all_candidate_run_ids": [
+        "29371788172"
+      ],
+      "capture_status": "BACKFILLED_BY_BUILD_0055",
+      "capture_commit": null,
+      "accounted": true
+    },
+    {
+      "build_number": "0008",
+      "candidate_commit_count": 1,
+      "candidate_commits": [
+        {
+          "commit": "24c6cb0f68bfe7a0594fcc8ea8c64115c2b033ad",
+          "subject": "Add Certiaura Build 0008 reusable peptide flagship template",
+          "build_label": "0008",
+          "exact_add_subject": true
+        }
+      ],
+      "selection_basis": "LATEST_EXACT_ADD_SUBJECT_ON_FIRST_PARENT_MAIN",
+      "canonical_commit": "24c6cb0f68bfe7a0594fcc8ea8c64115c2b033ad",
+      "canonical_subject": "Add Certiaura Build 0008 reusable peptide flagship template",
+      "workflow_present_at_commit": true,
+      "classification": "RUN_ID_VERIFIED",
+      "run_id": "29372045645",
+      "workflow_name": "Certiaura Repository Validation",
+      "run_attempt": 1,
+      "status": "completed",
+      "conclusion": "success",
+      "branch": "main",
+      "event": "push",
+      "created_at": "2026-07-14T22:09:18Z",
+      "updated_at": "2026-07-14T22:09:25Z",
+      "actions_url": "https://github.com/ajc1786/certiaura-knowledge-engine/actions/runs/29372045645",
+      "all_candidate_run_ids": [
+        "29372043473",
+        "29372043595",
+        "29372045645",
+        "29372044766"
+      ],
+      "capture_status": "BACKFILLED_BY_BUILD_0055",
+      "capture_commit": null,
+      "accounted": true
+    },
+    {
+      "build_number": "0009",
+      "candidate_commit_count": 1,
+      "candidate_commits": [
+        {
+          "commit": "4795493b2349f9aa17762a50732fd1e0b4a4af1f",
+          "subject": "Add Certiaura Build 0009 BPC-157 asset bootstrap and evidence foundation",
+          "build_label": "0009",
+          "exact_add_subject": true
+        }
+      ],
+      "selection_basis": "LATEST_EXACT_ADD_SUBJECT_ON_FIRST_PARENT_MAIN",
+      "canonical_commit": "4795493b2349f9aa17762a50732fd1e0b4a4af1f",
+      "canonical_subject": "Add Certiaura Build 0009 BPC-157 asset bootstrap and evidence foundation",
+      "workflow_present_at_commit": true,
+      "classification": "RUN_ID_VERIFIED",
+      "run_id": "29372547690",
+      "workflow_name": "Certiaura Repository Validation",
+      "run_attempt": 1,
+      "status": "completed",
+      "conclusion": "success",
+      "branch": "main",
+      "event": "push",
+      "created_at": "2026-07-14T22:18:23Z",
+      "updated_at": "2026-07-14T22:18:29Z",
+      "actions_url": "https://github.com/ajc1786/certiaura-knowledge-engine/actions/runs/29372547690",
+      "all_candidate_run_ids": [
+        "29372547690"
+      ],
+      "capture_status": "BACKFILLED_BY_BUILD_0055",
+      "capture_commit": null,
+      "accounted": true
+    },
+    {
+      "build_number": "0010",
+      "candidate_commit_count": 1,
+      "candidate_commits": [
+        {
+          "commit": "f19a4b0732fbaad816cc42c90e7612efb5947834",
+          "subject": "Add Certiaura Build 0010 BPC-157 primary source extraction and human evidence appraisal",
+          "build_label": "0010",
+          "exact_add_subject": true
+        }
+      ],
+      "selection_basis": "LATEST_EXACT_ADD_SUBJECT_ON_FIRST_PARENT_MAIN",
+      "canonical_commit": "f19a4b0732fbaad816cc42c90e7612efb5947834",
+      "canonical_subject": "Add Certiaura Build 0010 BPC-157 primary source extraction and human evidence appraisal",
+      "workflow_present_at_commit": true,
+      "classification": "RUN_ID_VERIFIED",
+      "run_id": "29373270648",
+      "workflow_name": "Certiaura Repository Validation",
+      "run_attempt": 1,
+      "status": "completed",
+      "conclusion": "success",
+      "branch": "main",
+      "event": "push",
+      "created_at": "2026-07-14T22:31:28Z",
+      "updated_at": "2026-07-14T22:31:35Z",
+      "actions_url": "https://github.com/ajc1786/certiaura-knowledge-engine/actions/runs/29373270648",
+      "all_candidate_run_ids": [
+        "29373270648"
+      ],
+      "capture_status": "BACKFILLED_BY_BUILD_0055",
+      "capture_commit": null,
+      "accounted": true
+    },
+    {
+      "build_number": "0011",
+      "candidate_commit_count": 1,
+      "candidate_commits": [
+        {
+          "commit": "ce7265fb1afcd612877eddf1cf0402f651827d81",
+          "subject": "Add Certiaura Build 0011 BPC-157 human evidence and regulatory status",
+          "build_label": "0011",
+          "exact_add_subject": true
+        }
+      ],
+      "selection_basis": "LATEST_EXACT_ADD_SUBJECT_ON_FIRST_PARENT_MAIN",
+      "canonical_commit": "ce7265fb1afcd612877eddf1cf0402f651827d81",
+      "canonical_subject": "Add Certiaura Build 0011 BPC-157 human evidence and regulatory status",
+      "workflow_present_at_commit": true,
+      "classification": "RUN_ID_VERIFIED",
+      "run_id": "29431046408",
+      "workflow_name": "Certiaura Repository Validation",
+      "run_attempt": 1,
+      "status": "completed",
+      "conclusion": "success",
+      "branch": "main",
+      "event": "push",
+      "created_at": "2026-07-15T16:06:49Z",
+      "updated_at": "2026-07-15T16:06:58Z",
+      "actions_url": "https://github.com/ajc1786/certiaura-knowledge-engine/actions/runs/29431046408",
+      "all_candidate_run_ids": [
+        "29431046408"
+      ],
+      "capture_status": "BACKFILLED_BY_BUILD_0055",
+      "capture_commit": null,
+      "accounted": true
+    },
+    {
+      "build_number": "0012",
+      "candidate_commit_count": 1,
+      "candidate_commits": [
+        {
+          "commit": "c04bcff70c8683c7b715eddefefe53bbde5b3e66",
+          "subject": "Add Certiaura Build 0012 universal regulatory status intelligence framework",
+          "build_label": "0012",
+          "exact_add_subject": true
+        }
+      ],
+      "selection_basis": "LATEST_EXACT_ADD_SUBJECT_ON_FIRST_PARENT_MAIN",
+      "canonical_commit": "c04bcff70c8683c7b715eddefefe53bbde5b3e66",
+      "canonical_subject": "Add Certiaura Build 0012 universal regulatory status intelligence framework",
+      "workflow_present_at_commit": true,
+      "classification": "RUN_ID_VERIFIED",
+      "run_id": "29431731801",
+      "workflow_name": "Certiaura Repository Validation",
+      "run_attempt": 1,
+      "status": "completed",
+      "conclusion": "success",
+      "branch": "main",
+      "event": "push",
+      "created_at": "2026-07-15T16:16:40Z",
+      "updated_at": "2026-07-15T16:16:47Z",
+      "actions_url": "https://github.com/ajc1786/certiaura-knowledge-engine/actions/runs/29431731801",
+      "all_candidate_run_ids": [
+        "29431731801"
+      ],
+      "capture_status": "BACKFILLED_BY_BUILD_0055",
+      "capture_commit": null,
+      "accounted": true
+    },
+    {
+      "build_number": "0013",
+      "candidate_commit_count": 1,
+      "candidate_commits": [
+        {
+          "commit": "a258ba9be33ca3767151677d544694502b216b5e",
+          "subject": "Add Certiaura Build 0013 Retatrutide regulatory status and monitoring activation",
+          "build_label": "0013",
+          "exact_add_subject": true
+        }
+      ],
+      "selection_basis": "LATEST_EXACT_ADD_SUBJECT_ON_FIRST_PARENT_MAIN",
+      "canonical_commit": "a258ba9be33ca3767151677d544694502b216b5e",
+      "canonical_subject": "Add Certiaura Build 0013 Retatrutide regulatory status and monitoring activation",
+      "workflow_present_at_commit": true,
+      "classification": "RUN_ID_VERIFIED",
+      "run_id": "29455989638",
+      "workflow_name": "Certiaura Repository Validation",
+      "run_attempt": 1,
+      "status": "completed",
+      "conclusion": "success",
+      "branch": "main",
+      "event": "push",
+      "created_at": "2026-07-15T22:36:50Z",
+      "updated_at": "2026-07-15T22:36:57Z",
+      "actions_url": "https://github.com/ajc1786/certiaura-knowledge-engine/actions/runs/29455989638",
+      "all_candidate_run_ids": [
+        "29455989638"
+      ],
+      "capture_status": "BACKFILLED_BY_BUILD_0055",
+      "capture_commit": null,
+      "accounted": true
+    },
+    {
+      "build_number": "0014",
+      "candidate_commit_count": 1,
+      "candidate_commits": [
+        {
+          "commit": "6a01eabadd4b97301370404d38104afebbbe57f9",
+          "subject": "Add Certiaura Build 0014 branding integration for Project Genesis and templates",
+          "build_label": "0014",
+          "exact_add_subject": true
+        }
+      ],
+      "selection_basis": "LATEST_EXACT_ADD_SUBJECT_ON_FIRST_PARENT_MAIN",
+      "canonical_commit": "6a01eabadd4b97301370404d38104afebbbe57f9",
+      "canonical_subject": "Add Certiaura Build 0014 branding integration for Project Genesis and templates",
+      "workflow_present_at_commit": true,
+      "classification": "RUN_ID_VERIFIED",
+      "run_id": "29456875893",
+      "workflow_name": "Certiaura Repository Validation",
+      "run_attempt": 1,
+      "status": "completed",
+      "conclusion": "success",
+      "branch": "main",
+      "event": "push",
+      "created_at": "2026-07-15T22:53:36Z",
+      "updated_at": "2026-07-15T22:53:42Z",
+      "actions_url": "https://github.com/ajc1786/certiaura-knowledge-engine/actions/runs/29456875893",
+      "all_candidate_run_ids": [
+        "29456875893"
+      ],
+      "capture_status": "BACKFILLED_BY_BUILD_0055",
+      "capture_commit": null,
+      "accounted": true
+    },
+    {
+      "build_number": "0015",
+      "candidate_commit_count": 1,
+      "candidate_commits": [
+        {
+          "commit": "85b33eb27139691dbff5e1a8a3eb9277c784fe1d",
+          "subject": "Add Certiaura Build 0015 BPC-157 preclinical source closure and safety translation",
+          "build_label": "0015",
+          "exact_add_subject": true
+        }
+      ],
+      "selection_basis": "LATEST_EXACT_ADD_SUBJECT_ON_FIRST_PARENT_MAIN",
+      "canonical_commit": "85b33eb27139691dbff5e1a8a3eb9277c784fe1d",
+      "canonical_subject": "Add Certiaura Build 0015 BPC-157 preclinical source closure and safety translation",
+      "workflow_present_at_commit": true,
+      "classification": "RUN_ID_VERIFIED",
+      "run_id": "29457404538",
+      "workflow_name": "Certiaura Repository Validation",
+      "run_attempt": 1,
+      "status": "completed",
+      "conclusion": "success",
+      "branch": "main",
+      "event": "push",
+      "created_at": "2026-07-15T23:03:47Z",
+      "updated_at": "2026-07-15T23:03:56Z",
+      "actions_url": "https://github.com/ajc1786/certiaura-knowledge-engine/actions/runs/29457404538",
+      "all_candidate_run_ids": [
+        "29457404538"
+      ],
+      "capture_status": "BACKFILLED_BY_BUILD_0055",
+      "capture_commit": null,
+      "accounted": true
+    },
+    {
+      "build_number": "0016",
+      "candidate_commit_count": 1,
+      "candidate_commits": [
+        {
+          "commit": "4d35a538e0baa49f29279e25dcd482c0c076da32",
+          "subject": "Add Certiaura Build 0016 Peptide Batch A bootstrap and evidence foundation",
+          "build_label": "0016",
+          "exact_add_subject": true
+        }
+      ],
+      "selection_basis": "LATEST_EXACT_ADD_SUBJECT_ON_FIRST_PARENT_MAIN",
+      "canonical_commit": "4d35a538e0baa49f29279e25dcd482c0c076da32",
+      "canonical_subject": "Add Certiaura Build 0016 Peptide Batch A bootstrap and evidence foundation",
+      "workflow_present_at_commit": true,
+      "classification": "RUN_ID_VERIFIED",
+      "run_id": "29465087216",
+      "workflow_name": "Certiaura Repository Validation",
+      "run_attempt": 1,
+      "status": "completed",
+      "conclusion": "success",
+      "branch": "main",
+      "event": "push",
+      "created_at": "2026-07-16T01:49:45Z",
+      "updated_at": "2026-07-16T01:49:54Z",
+      "actions_url": "https://github.com/ajc1786/certiaura-knowledge-engine/actions/runs/29465087216",
+      "all_candidate_run_ids": [
+        "29465087216"
+      ],
+      "capture_status": "BACKFILLED_BY_BUILD_0055",
+      "capture_commit": null,
+      "accounted": true
+    },
+    {
+      "build_number": "0017",
+      "candidate_commit_count": 1,
+      "candidate_commits": [
+        {
+          "commit": "9dfcfaf2c99218af1b3391fdeeb64f2c60bf5dff",
+          "subject": "Add Certiaura Build 0017 Peptide Batch B bootstrap and evidence foundation",
+          "build_label": "0017",
+          "exact_add_subject": true
+        }
+      ],
+      "selection_basis": "LATEST_EXACT_ADD_SUBJECT_ON_FIRST_PARENT_MAIN",
+      "canonical_commit": "9dfcfaf2c99218af1b3391fdeeb64f2c60bf5dff",
+      "canonical_subject": "Add Certiaura Build 0017 Peptide Batch B bootstrap and evidence foundation",
+      "workflow_present_at_commit": true,
+      "classification": "RUN_ID_VERIFIED",
+      "run_id": "29466114092",
+      "workflow_name": "Certiaura Repository Validation",
+      "run_attempt": 1,
+      "status": "completed",
+      "conclusion": "success",
+      "branch": "main",
+      "event": "push",
+      "created_at": "2026-07-16T02:14:40Z",
+      "updated_at": "2026-07-16T02:14:50Z",
+      "actions_url": "https://github.com/ajc1786/certiaura-knowledge-engine/actions/runs/29466114092",
+      "all_candidate_run_ids": [
+        "29466114092"
+      ],
+      "capture_status": "BACKFILLED_BY_BUILD_0055",
+      "capture_commit": null,
+      "accounted": true
+    },
+    {
+      "build_number": "0018",
+      "candidate_commit_count": 1,
+      "candidate_commits": [
+        {
+          "commit": "799ec6567266d4b21bddb54c8d54095dc3b914a5",
+          "subject": "Add Certiaura Build 0018 Batch A primary source extraction and evidence expansion",
+          "build_label": "0018",
+          "exact_add_subject": true
+        }
+      ],
+      "selection_basis": "LATEST_EXACT_ADD_SUBJECT_ON_FIRST_PARENT_MAIN",
+      "canonical_commit": "799ec6567266d4b21bddb54c8d54095dc3b914a5",
+      "canonical_subject": "Add Certiaura Build 0018 Batch A primary source extraction and evidence expansion",
+      "workflow_present_at_commit": true,
+      "classification": "RUN_ID_VERIFIED",
+      "run_id": "29466476762",
+      "workflow_name": "Certiaura Repository Validation",
+      "run_attempt": 1,
+      "status": "completed",
+      "conclusion": "success",
+      "branch": "main",
+      "event": "push",
+      "created_at": "2026-07-16T02:23:41Z",
+      "updated_at": "2026-07-16T02:23:50Z",
+      "actions_url": "https://github.com/ajc1786/certiaura-knowledge-engine/actions/runs/29466476762",
+      "all_candidate_run_ids": [
+        "29466476762"
+      ],
+      "capture_status": "BACKFILLED_BY_BUILD_0055",
+      "capture_commit": null,
+      "accounted": true
+    },
+    {
+      "build_number": "0019",
+      "candidate_commit_count": 1,
+      "candidate_commits": [
+        {
+          "commit": "4f239cfa3894a55624ea0e6a7c35d3724bed180c",
+          "subject": "Add Certiaura Build 0019 Batch B primary source extraction and evidence expansion",
+          "build_label": "0019",
+          "exact_add_subject": true
+        }
+      ],
+      "selection_basis": "LATEST_EXACT_ADD_SUBJECT_ON_FIRST_PARENT_MAIN",
+      "canonical_commit": "4f239cfa3894a55624ea0e6a7c35d3724bed180c",
+      "canonical_subject": "Add Certiaura Build 0019 Batch B primary source extraction and evidence expansion",
+      "workflow_present_at_commit": true,
+      "classification": "RUN_ID_VERIFIED",
+      "run_id": "29468379446",
+      "workflow_name": "Certiaura Repository Validation",
+      "run_attempt": 1,
+      "status": "completed",
+      "conclusion": "success",
+      "branch": "main",
+      "event": "push",
+      "created_at": "2026-07-16T03:11:22Z",
+      "updated_at": "2026-07-16T03:11:31Z",
+      "actions_url": "https://github.com/ajc1786/certiaura-knowledge-engine/actions/runs/29468379446",
+      "all_candidate_run_ids": [
+        "29468379446"
+      ],
+      "capture_status": "BACKFILLED_BY_BUILD_0055",
+      "capture_commit": null,
+      "accounted": true
+    },
+    {
+      "build_number": "0020",
+      "candidate_commit_count": 1,
+      "candidate_commits": [
+        {
+          "commit": "fac62f1144d6f6971b980d54936b8712e31bc66d",
+          "subject": "Add Certiaura Build 0020 catalogue master intake and review queue",
+          "build_label": "0020",
+          "exact_add_subject": true
+        }
+      ],
+      "selection_basis": "LATEST_EXACT_ADD_SUBJECT_ON_FIRST_PARENT_MAIN",
+      "canonical_commit": "fac62f1144d6f6971b980d54936b8712e31bc66d",
+      "canonical_subject": "Add Certiaura Build 0020 catalogue master intake and review queue",
+      "workflow_present_at_commit": true,
+      "classification": "RUN_ID_VERIFIED",
+      "run_id": "29480778386",
+      "workflow_name": "Certiaura Repository Validation",
+      "run_attempt": 1,
+      "status": "completed",
+      "conclusion": "success",
+      "branch": "main",
+      "event": "push",
+      "created_at": "2026-07-16T07:41:32Z",
+      "updated_at": "2026-07-16T07:41:42Z",
+      "actions_url": "https://github.com/ajc1786/certiaura-knowledge-engine/actions/runs/29480778386",
+      "all_candidate_run_ids": [
+        "29480778386"
+      ],
+      "capture_status": "BACKFILLED_BY_BUILD_0055",
+      "capture_commit": null,
+      "accounted": true
+    },
+    {
+      "build_number": "0021",
+      "candidate_commit_count": 1,
+      "candidate_commits": [
+        {
+          "commit": "949bcb1cbc022e89a08a54bc8dfa4a8b3a0399d4",
+          "subject": "Add Certiaura Build 0021 Catalogue C2 metabolic and incretin asset review",
+          "build_label": "0021",
+          "exact_add_subject": true
+        }
+      ],
+      "selection_basis": "LATEST_EXACT_ADD_SUBJECT_ON_FIRST_PARENT_MAIN",
+      "canonical_commit": "949bcb1cbc022e89a08a54bc8dfa4a8b3a0399d4",
+      "canonical_subject": "Add Certiaura Build 0021 Catalogue C2 metabolic and incretin asset review",
+      "workflow_present_at_commit": true,
+      "classification": "RUN_ID_VERIFIED",
+      "run_id": "29481653503",
+      "workflow_name": "Certiaura Repository Validation",
+      "run_attempt": 1,
+      "status": "completed",
+      "conclusion": "success",
+      "branch": "main",
+      "event": "push",
+      "created_at": "2026-07-16T07:56:30Z",
+      "updated_at": "2026-07-16T07:56:37Z",
+      "actions_url": "https://github.com/ajc1786/certiaura-knowledge-engine/actions/runs/29481653503",
+      "all_candidate_run_ids": [
+        "29481653503"
+      ],
+      "capture_status": "BACKFILLED_BY_BUILD_0055",
+      "capture_commit": null,
+      "accounted": true
+    },
+    {
+      "build_number": "0022",
+      "candidate_commit_count": 3,
+      "candidate_commits": [
+        {
+          "commit": "997d951554dfb85b98930262f27e03bc78a79e82",
+          "subject": "Add Certiaura Build 0022A GH secretagogues and GHRH axis review",
+          "build_label": "0022A",
+          "exact_add_subject": true
+        },
+        {
+          "commit": "bd5cea456a573674f9c7bf17cb5ccc38e02175c4",
+          "subject": "Add Certiaura Build 0022B IGF MGF PEG-MGF and ACE-031 review",
+          "build_label": "0022B",
+          "exact_add_subject": true
+        },
+        {
+          "commit": "a01697a9e365cd949bc5a5415249f0da44bfac9e",
+          "subject": "Add Certiaura Build 0022C reproductive pituitary bone and haematology endocrine review",
+          "build_label": "0022C",
+          "exact_add_subject": true
+        }
+      ],
+      "selection_basis": "LATEST_EXACT_ADD_SUBJECT_ON_FIRST_PARENT_MAIN",
+      "canonical_commit": "a01697a9e365cd949bc5a5415249f0da44bfac9e",
+      "canonical_subject": "Add Certiaura Build 0022C reproductive pituitary bone and haematology endocrine review",
+      "workflow_present_at_commit": true,
+      "classification": "RUN_ID_VERIFIED",
+      "run_id": "29483682494",
+      "workflow_name": "Certiaura Repository Validation",
+      "run_attempt": 1,
+      "status": "completed",
+      "conclusion": "success",
+      "branch": "main",
+      "event": "push",
+      "created_at": "2026-07-16T08:30:13Z",
+      "updated_at": "2026-07-16T08:30:20Z",
+      "actions_url": "https://github.com/ajc1786/certiaura-knowledge-engine/actions/runs/29483682494",
+      "all_candidate_run_ids": [
+        "29483682494"
+      ],
+      "capture_status": "BACKFILLED_BY_BUILD_0055",
+      "capture_commit": null,
+      "accounted": true
+    },
+    {
+      "build_number": "0023",
+      "candidate_commit_count": 2,
+      "candidate_commits": [
+        {
+          "commit": "b4e99bfc7c2e4ad3fd2c9e60661ce78ef6036211",
+          "subject": "Add Certiaura Build 0023A neurocognitive and sleep peptide review",
+          "build_label": "0023A",
+          "exact_add_subject": true
+        },
+        {
+          "commit": "8e1aba140b801300010b18ccad2bc25e1acd6d9f",
+          "subject": "Add Certiaura Build 0023B neurocognitive mixtures opioid P21 and modified peptide review",
+          "build_label": "0023B",
+          "exact_add_subject": true
+        }
+      ],
+      "selection_basis": "LATEST_EXACT_ADD_SUBJECT_ON_FIRST_PARENT_MAIN",
+      "canonical_commit": "8e1aba140b801300010b18ccad2bc25e1acd6d9f",
+      "canonical_subject": "Add Certiaura Build 0023B neurocognitive mixtures opioid P21 and modified peptide review",
+      "workflow_present_at_commit": true,
+      "classification": "RUN_ID_VERIFIED",
+      "run_id": "29485538262",
+      "workflow_name": "Certiaura Repository Validation",
+      "run_attempt": 1,
+      "status": "completed",
+      "conclusion": "success",
+      "branch": "main",
+      "event": "push",
+      "created_at": "2026-07-16T09:00:38Z",
+      "updated_at": "2026-07-16T09:00:55Z",
+      "actions_url": "https://github.com/ajc1786/certiaura-knowledge-engine/actions/runs/29485538262",
+      "all_candidate_run_ids": [
+        "29485538262"
+      ],
+      "capture_status": "BACKFILLED_BY_BUILD_0055",
+      "capture_commit": null,
+      "accounted": true
+    },
+    {
+      "build_number": "0024",
+      "candidate_commit_count": 2,
+      "candidate_commits": [
+        {
+          "commit": "aa6614489f69c3bbd6d647a352f047895b9abc0c",
+          "subject": "Add Certiaura Build 0024A immune repair and vascular peptide review",
+          "build_label": "0024A",
+          "exact_add_subject": true
+        },
+        {
+          "commit": "3b3d67eb626b5bf58ef32b6bf04fd3cafe31857c",
+          "subject": "Add Certiaura Build 0024B cosmetic and experimental repair peptide review",
+          "build_label": "0024B",
+          "exact_add_subject": true
+        }
+      ],
+      "selection_basis": "LATEST_EXACT_ADD_SUBJECT_ON_FIRST_PARENT_MAIN",
+      "canonical_commit": "3b3d67eb626b5bf58ef32b6bf04fd3cafe31857c",
+      "canonical_subject": "Add Certiaura Build 0024B cosmetic and experimental repair peptide review",
+      "workflow_present_at_commit": true,
+      "classification": "RUN_ID_VERIFIED",
+      "run_id": "29486454395",
+      "workflow_name": "Certiaura Repository Validation",
+      "run_attempt": 1,
+      "status": "completed",
+      "conclusion": "success",
+      "branch": "main",
+      "event": "push",
+      "created_at": "2026-07-16T09:15:14Z",
+      "updated_at": "2026-07-16T09:15:23Z",
+      "actions_url": "https://github.com/ajc1786/certiaura-knowledge-engine/actions/runs/29486454395",
+      "all_candidate_run_ids": [
+        "29486454395"
+      ],
+      "capture_status": "BACKFILLED_BY_BUILD_0055",
+      "capture_commit": null,
+      "accounted": true
+    },
+    {
+      "build_number": "0025",
+      "candidate_commit_count": 2,
+      "candidate_commits": [
+        {
+          "commit": "e83043ea6616626dea0ee44899180784b058aeed",
+          "subject": "Add Certiaura Build 0025A mitochondrial senolytic and modified regulatory peptide review",
+          "build_label": "0025A",
+          "exact_add_subject": true
+        },
+        {
+          "commit": "4b7422c61f3a3e0c9c7d9829a5b39fb7c97c4d4f",
+          "subject": "Add Certiaura Build 0025B organ targeted short regulatory peptide families",
+          "build_label": "0025B",
+          "exact_add_subject": true
+        }
+      ],
+      "selection_basis": "LATEST_EXACT_ADD_SUBJECT_ON_FIRST_PARENT_MAIN",
+      "canonical_commit": "4b7422c61f3a3e0c9c7d9829a5b39fb7c97c4d4f",
+      "canonical_subject": "Add Certiaura Build 0025B organ targeted short regulatory peptide families",
+      "workflow_present_at_commit": true,
+      "classification": "RUN_ID_VERIFIED",
+      "run_id": "29487245476",
+      "workflow_name": "Certiaura Repository Validation",
+      "run_attempt": 1,
+      "status": "completed",
+      "conclusion": "success",
+      "branch": "main",
+      "event": "push",
+      "created_at": "2026-07-16T09:28:10Z",
+      "updated_at": "2026-07-16T09:28:20Z",
+      "actions_url": "https://github.com/ajc1786/certiaura-knowledge-engine/actions/runs/29487245476",
+      "all_candidate_run_ids": [
+        "29487245476"
+      ],
+      "capture_status": "BACKFILLED_BY_BUILD_0055",
+      "capture_commit": null,
+      "accounted": true
+    },
+    {
+      "build_number": "0026",
+      "candidate_commit_count": 1,
+      "candidate_commits": [
+        {
+          "commit": "5f5521686d2c5111d3e8e2acfb5c88b81bf3524e",
+          "subject": "Add Certiaura Build 0026 pigmentation and sexual health melanocortin review",
+          "build_label": "0026",
+          "exact_add_subject": true
+        }
+      ],
+      "selection_basis": "LATEST_EXACT_ADD_SUBJECT_ON_FIRST_PARENT_MAIN",
+      "canonical_commit": "5f5521686d2c5111d3e8e2acfb5c88b81bf3524e",
+      "canonical_subject": "Add Certiaura Build 0026 pigmentation and sexual health melanocortin review",
+      "workflow_present_at_commit": true,
+      "classification": "RUN_ID_VERIFIED",
+      "run_id": "29490890820",
+      "workflow_name": "Certiaura Repository Validation",
+      "run_attempt": 1,
+      "status": "completed",
+      "conclusion": "success",
+      "branch": "main",
+      "event": "push",
+      "created_at": "2026-07-16T10:27:33Z",
+      "updated_at": "2026-07-16T10:27:39Z",
+      "actions_url": "https://github.com/ajc1786/certiaura-knowledge-engine/actions/runs/29490890820",
+      "all_candidate_run_ids": [
+        "29490890820"
+      ],
+      "capture_status": "BACKFILLED_BY_BUILD_0055",
+      "capture_commit": null,
+      "accounted": true
+    },
+    {
+      "build_number": "0027",
+      "candidate_commit_count": 1,
+      "candidate_commits": [
+        {
+          "commit": "0ab9080799496148f5cabeff7e6910be06a982c9",
+          "subject": "Add Certiaura Build 0027 supplier peptide blends and combination products",
+          "build_label": "0027",
+          "exact_add_subject": true
+        }
+      ],
+      "selection_basis": "LATEST_EXACT_ADD_SUBJECT_ON_FIRST_PARENT_MAIN",
+      "canonical_commit": "0ab9080799496148f5cabeff7e6910be06a982c9",
+      "canonical_subject": "Add Certiaura Build 0027 supplier peptide blends and combination products",
+      "workflow_present_at_commit": true,
+      "classification": "RUN_ID_VERIFIED",
+      "run_id": "29524463652",
+      "workflow_name": "Certiaura Repository Validation",
+      "run_attempt": 1,
+      "status": "completed",
+      "conclusion": "success",
+      "branch": "main",
+      "event": "push",
+      "created_at": "2026-07-16T18:33:58Z",
+      "updated_at": "2026-07-16T18:34:05Z",
+      "actions_url": "https://github.com/ajc1786/certiaura-knowledge-engine/actions/runs/29524463652",
+      "all_candidate_run_ids": [
+        "29524463652"
+      ],
+      "capture_status": "BACKFILLED_BY_BUILD_0055",
+      "capture_commit": null,
+      "accounted": true
+    },
+    {
+      "build_number": "0028",
+      "candidate_commit_count": 2,
+      "candidate_commits": [
+        {
+          "commit": "30efa328540255c8001c5101ba731c840b8c8943",
+          "subject": "Add Certiaura Build 0028A biochemical research and ancillary marketplace products",
+          "build_label": "0028A",
+          "exact_add_subject": true
+        },
+        {
+          "commit": "cb8f37d70090df2ba45bfd58673a4289289049ec",
+          "subject": "Add Certiaura Build 0028B biologic cosmetic and diluent ancillary products",
+          "build_label": "0028B",
+          "exact_add_subject": true
+        }
+      ],
+      "selection_basis": "LATEST_EXACT_ADD_SUBJECT_ON_FIRST_PARENT_MAIN",
+      "canonical_commit": "cb8f37d70090df2ba45bfd58673a4289289049ec",
+      "canonical_subject": "Add Certiaura Build 0028B biologic cosmetic and diluent ancillary products",
+      "workflow_present_at_commit": true,
+      "classification": "RUN_ID_VERIFIED",
+      "run_id": "29525995624",
+      "workflow_name": "Certiaura Repository Validation",
+      "run_attempt": 1,
+      "status": "completed",
+      "conclusion": "success",
+      "branch": "main",
+      "event": "push",
+      "created_at": "2026-07-16T18:56:19Z",
+      "updated_at": "2026-07-16T18:56:27Z",
+      "actions_url": "https://github.com/ajc1786/certiaura-knowledge-engine/actions/runs/29525995624",
+      "all_candidate_run_ids": [
+        "29525995624"
+      ],
+      "capture_status": "BACKFILLED_BY_BUILD_0055",
+      "capture_commit": null,
+      "accounted": true
+    },
+    {
+      "build_number": "0029",
+      "candidate_commit_count": 1,
+      "candidate_commits": [
+        {
+          "commit": "5faad410fb712feb2e754694a699d6fcc133682c",
+          "subject": "Add Certiaura Build 0029 catalogue coverage and closure audit",
+          "build_label": "0029",
+          "exact_add_subject": true
+        }
+      ],
+      "selection_basis": "LATEST_EXACT_ADD_SUBJECT_ON_FIRST_PARENT_MAIN",
+      "canonical_commit": "5faad410fb712feb2e754694a699d6fcc133682c",
+      "canonical_subject": "Add Certiaura Build 0029 catalogue coverage and closure audit",
+      "workflow_present_at_commit": true,
+      "classification": "RUN_ID_VERIFIED",
+      "run_id": "29527036132",
+      "workflow_name": "Certiaura Repository Validation",
+      "run_attempt": 1,
+      "status": "completed",
+      "conclusion": "success",
+      "branch": "main",
+      "event": "push",
+      "created_at": "2026-07-16T19:11:47Z",
+      "updated_at": "2026-07-16T19:11:57Z",
+      "actions_url": "https://github.com/ajc1786/certiaura-knowledge-engine/actions/runs/29527036132",
+      "all_candidate_run_ids": [
+        "29527036132"
+      ],
+      "capture_status": "BACKFILLED_BY_BUILD_0055",
+      "capture_commit": null,
+      "accounted": true
+    },
+    {
+      "build_number": "0030",
+      "candidate_commit_count": 1,
+      "candidate_commits": [
+        {
+          "commit": "809ffd25549155ef254206333d42be8409f3c9d7",
+          "subject": "Add Certiaura Build 0030A Elamipretide and generic GLP-1 coverage correction",
+          "build_label": "0030A",
+          "exact_add_subject": true
+        }
+      ],
+      "selection_basis": "LATEST_EXACT_ADD_SUBJECT_ON_FIRST_PARENT_MAIN",
+      "canonical_commit": "809ffd25549155ef254206333d42be8409f3c9d7",
+      "canonical_subject": "Add Certiaura Build 0030A Elamipretide and generic GLP-1 coverage correction",
+      "workflow_present_at_commit": true,
+      "classification": "RUN_ID_VERIFIED",
+      "run_id": "29527413699",
+      "workflow_name": "Certiaura Repository Validation",
+      "run_attempt": 1,
+      "status": "completed",
+      "conclusion": "success",
+      "branch": "main",
+      "event": "push",
+      "created_at": "2026-07-16T19:17:27Z",
+      "updated_at": "2026-07-16T19:17:37Z",
+      "actions_url": "https://github.com/ajc1786/certiaura-knowledge-engine/actions/runs/29527413699",
+      "all_candidate_run_ids": [
+        "29527413699"
+      ],
+      "capture_status": "BACKFILLED_BY_BUILD_0055",
+      "capture_commit": null,
+      "accounted": true
+    },
+    {
+      "build_number": "0031",
+      "candidate_commit_count": 4,
+      "candidate_commits": [
+        {
+          "commit": "9301923c762582aa117302e6a9915fa8dfde0a35",
+          "subject": "Add Certiaura Build 0031A high risk biologic and sterile product closure",
+          "build_label": "0031A",
+          "exact_add_subject": true
+        },
+        {
+          "commit": "3dab061c9ab05e2430c5c31b787de28ca16ff78f",
+          "subject": "Add Certiaura Build 0031B high risk cosmetic injectable and identity closure",
+          "build_label": "0031B",
+          "exact_add_subject": true
+        },
+        {
+          "commit": "e509fcbf6f1e70175e167231f63e3415195d8da8",
+          "subject": "Add Certiaura Build 0031C combination opioid and unknown peptide closure",
+          "build_label": "0031C",
+          "exact_add_subject": true
+        },
+        {
+          "commit": "f69141f77bdbe70b727f0103cdac6cf0bfc46c35",
+          "subject": "Add Certiaura Build 0031D remaining combination product analytical closure",
+          "build_label": "0031D",
+          "exact_add_subject": true
+        }
+      ],
+      "selection_basis": "LATEST_EXACT_ADD_SUBJECT_ON_FIRST_PARENT_MAIN",
+      "canonical_commit": "f69141f77bdbe70b727f0103cdac6cf0bfc46c35",
+      "canonical_subject": "Add Certiaura Build 0031D remaining combination product analytical closure",
+      "workflow_present_at_commit": true,
+      "classification": "RUN_ID_VERIFIED",
+      "run_id": "29529159757",
+      "workflow_name": "Certiaura Repository Validation",
+      "run_attempt": 1,
+      "status": "completed",
+      "conclusion": "success",
+      "branch": "main",
+      "event": "push",
+      "created_at": "2026-07-16T19:43:53Z",
+      "updated_at": "2026-07-16T19:44:03Z",
+      "actions_url": "https://github.com/ajc1786/certiaura-knowledge-engine/actions/runs/29529159757",
+      "all_candidate_run_ids": [
+        "29529159757"
+      ],
+      "capture_status": "BACKFILLED_BY_BUILD_0055",
+      "capture_commit": null,
+      "accounted": true
+    },
+    {
+      "build_number": "0032",
+      "candidate_commit_count": 1,
+      "candidate_commits": [
+        {
+          "commit": "3ef128b2380b03dbb52192b1ec2591242b6ba6d6",
+          "subject": "Add Certiaura Build 0032 priority closure programme status and next wave audit",
+          "build_label": "0032",
+          "exact_add_subject": true
+        }
+      ],
+      "selection_basis": "LATEST_EXACT_ADD_SUBJECT_ON_FIRST_PARENT_MAIN",
+      "canonical_commit": "3ef128b2380b03dbb52192b1ec2591242b6ba6d6",
+      "canonical_subject": "Add Certiaura Build 0032 priority closure programme status and next wave audit",
+      "workflow_present_at_commit": true,
+      "classification": "RUN_ID_VERIFIED",
+      "run_id": "29529501627",
+      "workflow_name": "Certiaura Repository Validation",
+      "run_attempt": 1,
+      "status": "completed",
+      "conclusion": "success",
+      "branch": "main",
+      "event": "push",
+      "created_at": "2026-07-16T19:49:10Z",
+      "updated_at": "2026-07-16T19:49:17Z",
+      "actions_url": "https://github.com/ajc1786/certiaura-knowledge-engine/actions/runs/29529501627",
+      "all_candidate_run_ids": [
+        "29529501627"
+      ],
+      "capture_status": "BACKFILLED_BY_BUILD_0055",
+      "capture_commit": null,
+      "accounted": true
+    },
+    {
+      "build_number": "0033",
+      "candidate_commit_count": 4,
+      "candidate_commits": [
+        {
+          "commit": "e644e92116b65ba9ccc0461f9ebb353a00a698b7",
+          "subject": "Add Certiaura Build 0033A biochemical metabolic and coverage correction closure",
+          "build_label": "0033A",
+          "exact_add_subject": true
+        },
+        {
+          "commit": "01178b61177c8ffc1d7b8c7cf26dc8a11647431c",
+          "subject": "Add Certiaura Build 0033B biologic glycoprotein and mixture identity closure",
+          "build_label": "0033B",
+          "exact_add_subject": true
+        },
+        {
+          "commit": "bd8b71b08b11e43edb9f62081d766a591fd5bc00",
+          "subject": "Add Certiaura Build 0033C senolytic and short regulatory peptide identity closure",
+          "build_label": "0033C",
+          "exact_add_subject": true
+        },
+        {
+          "commit": "76e5e56175ec5b9a6f74154ac3512461181052d6",
+          "subject": "Add Certiaura Build 0033D remaining organ regulatory peptide identity closure",
+          "build_label": "0033D",
+          "exact_add_subject": true
+        }
+      ],
+      "selection_basis": "LATEST_EXACT_ADD_SUBJECT_ON_FIRST_PARENT_MAIN",
+      "canonical_commit": "76e5e56175ec5b9a6f74154ac3512461181052d6",
+      "canonical_subject": "Add Certiaura Build 0033D remaining organ regulatory peptide identity closure",
+      "workflow_present_at_commit": true,
+      "classification": "RUN_ID_VERIFIED",
+      "run_id": "29536196858",
+      "workflow_name": "Certiaura Repository Validation",
+      "run_attempt": 1,
+      "status": "completed",
+      "conclusion": "success",
+      "branch": "main",
+      "event": "push",
+      "created_at": "2026-07-16T21:29:00Z",
+      "updated_at": "2026-07-16T21:29:06Z",
+      "actions_url": "https://github.com/ajc1786/certiaura-knowledge-engine/actions/runs/29536196858",
+      "all_candidate_run_ids": [
+        "29536196858"
+      ],
+      "capture_status": "BACKFILLED_BY_BUILD_0055",
+      "capture_commit": null,
+      "accounted": true
+    },
+    {
+      "build_number": "0034",
+      "candidate_commit_count": 1,
+      "candidate_commits": [
+        {
+          "commit": "56088cd61b4ae03db471ce82d93b69a77976ea0d",
+          "subject": "Add Certiaura Build 0034 priority closure programme completion audit",
+          "build_label": "0034",
+          "exact_add_subject": true
+        }
+      ],
+      "selection_basis": "LATEST_EXACT_ADD_SUBJECT_ON_FIRST_PARENT_MAIN",
+      "canonical_commit": "56088cd61b4ae03db471ce82d93b69a77976ea0d",
+      "canonical_subject": "Add Certiaura Build 0034 priority closure programme completion audit",
+      "workflow_present_at_commit": true,
+      "classification": "RUN_ID_VERIFIED",
+      "run_id": "29537410942",
+      "workflow_name": "Certiaura Repository Validation",
+      "run_attempt": 1,
+      "status": "completed",
+      "conclusion": "success",
+      "branch": "main",
+      "event": "push",
+      "created_at": "2026-07-16T21:48:58Z",
+      "updated_at": "2026-07-16T21:49:09Z",
+      "actions_url": "https://github.com/ajc1786/certiaura-knowledge-engine/actions/runs/29537410942",
+      "all_candidate_run_ids": [
+        "29537410942"
+      ],
+      "capture_status": "BACKFILLED_BY_BUILD_0055",
+      "capture_commit": null,
+      "accounted": true
+    },
+    {
+      "build_number": "0035",
+      "candidate_commit_count": 10,
+      "candidate_commits": [
+        {
+          "commit": "ce1c71ed92bb08950daaa51d28e60d05c8362dee",
+          "subject": "Add Certiaura Build 0035A platinum readiness and evidence sufficiency scoring",
+          "build_label": "0035A",
+          "exact_add_subject": true
+        },
+        {
+          "commit": "ce5d634f7c7b20e1244947792402c9bf267b0a47",
+          "subject": "Add Certiaura Build 0035B tier 1 primary source extraction batch A",
+          "build_label": "0035B",
+          "exact_add_subject": true
+        },
+        {
+          "commit": "8f2e33640d5d6d0ff6268ea263822f8fab9fbe69",
+          "subject": "Add Certiaura Build 0035C tier 1 primary source extraction batch B",
+          "build_label": "0035C",
+          "exact_add_subject": true
+        },
+        {
+          "commit": "1f32c0589b83d19fdc719147756c5044ccbe543a",
+          "subject": "Add Certiaura Build 0035D supplier evidence and product passport submission standard",
+          "build_label": "0035D",
+          "exact_add_subject": true
+        },
+        {
+          "commit": "70f7e4b680077d15056994f4b0e6f75e5e120723",
+          "subject": "Add Certiaura Build 0035F Product Passport publication lifecycle monitoring and marketplace eligibility controls",
+          "build_label": "0035F",
+          "exact_add_subject": true
+        },
+        {
+          "commit": "adced29974c848752b2ebba2dc91464fbda415d8",
+          "subject": "Add Certiaura Build 0035G Product Passport expiry trigger monitoring and alert automation",
+          "build_label": "0035G",
+          "exact_add_subject": true
+        },
+        {
+          "commit": "689173db5b2c37c452b3f87a4ca4ef02b112d73d",
+          "subject": "Add Certiaura Build 0035H Product Passport remediation evidence refresh reinstatement and supplier performance controls",
+          "build_label": "0035H",
+          "exact_add_subject": true
+        },
+        {
+          "commit": "9959ff6e393b6c54881864be03f93779cbe1373d",
+          "subject": "Add Certiaura Build 0035I supplier qualification onboarding risk tiering audit and continuous assurance controls",
+          "build_label": "0035I",
+          "exact_add_subject": true
+        },
+        {
+          "commit": "01b8f7640afde263f499e4f2649be5057341a0f3",
+          "subject": "Add Certiaura Build 0035J Supplier portfolio risk, sourcing resilience, performance analytics and commercial controls",
+          "build_label": "0035J",
+          "exact_add_subject": true
+        },
+        {
+          "commit": "440c6407319194d00cbf1c43941e0c65c7669068",
+          "subject": "Add Certiaura Build 0035K Marketplace contracting order assurance fulfilment incident response recall and settlement controls",
+          "build_label": "0035K",
+          "exact_add_subject": true
+        }
+      ],
+      "selection_basis": "LATEST_EXACT_ADD_SUBJECT_ON_FIRST_PARENT_MAIN",
+      "canonical_commit": "440c6407319194d00cbf1c43941e0c65c7669068",
+      "canonical_subject": "Add Certiaura Build 0035K Marketplace contracting order assurance fulfilment incident response recall and settlement controls",
+      "workflow_present_at_commit": true,
+      "classification": "RUN_ID_VERIFIED",
+      "run_id": "29678926667",
+      "workflow_name": "Certiaura Repository Validation",
+      "run_attempt": 1,
+      "status": "completed",
+      "conclusion": "success",
+      "branch": "main",
+      "event": "push",
+      "created_at": "2026-07-19T07:55:37Z",
+      "updated_at": "2026-07-19T07:55:51Z",
+      "actions_url": "https://github.com/ajc1786/certiaura-knowledge-engine/actions/runs/29678926667",
+      "all_candidate_run_ids": [
+        "29678926667"
+      ],
+      "capture_status": "BACKFILLED_BY_BUILD_0055",
+      "capture_commit": null,
+      "accounted": true
+    },
+    {
+      "build_number": "0036",
+      "candidate_commit_count": 1,
+      "candidate_commits": [
+        {
+          "commit": "e731ec2f71aa920356996564f3433e72acf7b323",
+          "subject": "Add Certiaura Build 0036 Marketplace customer eligibility jurisdiction consent privacy and post-market surveillance controls",
+          "build_label": "0036",
+          "exact_add_subject": true
+        }
+      ],
+      "selection_basis": "LATEST_EXACT_ADD_SUBJECT_ON_FIRST_PARENT_MAIN",
+      "canonical_commit": "e731ec2f71aa920356996564f3433e72acf7b323",
+      "canonical_subject": "Add Certiaura Build 0036 Marketplace customer eligibility jurisdiction consent privacy and post-market surveillance controls",
+      "workflow_present_at_commit": true,
+      "classification": "RUN_ID_VERIFIED",
+      "run_id": "29679459239",
+      "workflow_name": "Certiaura Repository Validation",
+      "run_attempt": 1,
+      "status": "completed",
+      "conclusion": "success",
+      "branch": "main",
+      "event": "push",
+      "created_at": "2026-07-19T08:13:46Z",
+      "updated_at": "2026-07-19T08:13:53Z",
+      "actions_url": "https://github.com/ajc1786/certiaura-knowledge-engine/actions/runs/29679459239",
+      "all_candidate_run_ids": [
+        "29679459239"
+      ],
+      "capture_status": "BACKFILLED_BY_BUILD_0055",
+      "capture_commit": null,
+      "accounted": true
+    },
+    {
+      "build_number": "0037",
+      "candidate_commit_count": 1,
+      "candidate_commits": [
+        {
+          "commit": "aba7a60358ced8ab2b0d485ad25d79cb967b30ce",
+          "subject": "Add Certiaura Build 0037 scientific content claims advertising AI recommendation and responsible communications controls",
+          "build_label": "0037",
+          "exact_add_subject": true
+        }
+      ],
+      "selection_basis": "LATEST_EXACT_ADD_SUBJECT_ON_FIRST_PARENT_MAIN",
+      "canonical_commit": "aba7a60358ced8ab2b0d485ad25d79cb967b30ce",
+      "canonical_subject": "Add Certiaura Build 0037 scientific content claims advertising AI recommendation and responsible communications controls",
+      "workflow_present_at_commit": true,
+      "classification": "RUN_ID_VERIFIED",
+      "run_id": "29700441313",
+      "workflow_name": "Certiaura Repository Validation",
+      "run_attempt": 1,
+      "status": "completed",
+      "conclusion": "success",
+      "branch": "main",
+      "event": "push",
+      "created_at": "2026-07-19T19:21:49Z",
+      "updated_at": "2026-07-19T19:21:58Z",
+      "actions_url": "https://github.com/ajc1786/certiaura-knowledge-engine/actions/runs/29700441313",
+      "all_candidate_run_ids": [
+        "29700441313"
+      ],
+      "capture_status": "BACKFILLED_BY_BUILD_0055",
+      "capture_commit": null,
+      "accounted": true
+    },
+    {
+      "build_number": "0038",
+      "candidate_commit_count": 5,
+      "candidate_commits": [
+        {
+          "commit": "534675eaeb5201e45db4eadcf9ae25b9e3195ae1",
+          "subject": "Add Certiaura Build 0038 repository restoration and canonical routing for Builds 0035E to 0036",
+          "build_label": "0038",
+          "exact_add_subject": true
+        },
+        {
+          "commit": "c028d53646fe79f1d562db927cc6619832d07113",
+          "subject": "Add Certiaura Build 0038 repository restoration canonical routing and Master Asset Register reconciliation for Builds 0035E to 0036",
+          "build_label": "0038",
+          "exact_add_subject": true
+        },
+        {
+          "commit": "1b79a829d1222ea61a5a060bfa0da2b394ffbd7c",
+          "subject": "Add Certiaura Build 0038 repository restoration canonical routing and complete historical Master Asset Register reconciliation",
+          "build_label": "0038",
+          "exact_add_subject": true
+        },
+        {
+          "commit": "6270180b0f6645323c993e3fdc5fde3f57938ed3",
+          "subject": "Add Certiaura Build 0038 repository restoration canonical routing and complete historical Master Asset Register reconciliation",
+          "build_label": "0038",
+          "exact_add_subject": true
+        },
+        {
+          "commit": "f16b4f51b109cad66a763b5b8f2011cdc0eef525",
+          "subject": "Add Certiaura Build 0038 repository restoration canonical routing and complete historical Master Asset Register reconciliation",
+          "build_label": "0038",
+          "exact_add_subject": true
+        }
+      ],
+      "selection_basis": "LATEST_EXACT_ADD_SUBJECT_ON_FIRST_PARENT_MAIN",
+      "canonical_commit": "f16b4f51b109cad66a763b5b8f2011cdc0eef525",
+      "canonical_subject": "Add Certiaura Build 0038 repository restoration canonical routing and complete historical Master Asset Register reconciliation",
+      "workflow_present_at_commit": true,
+      "classification": "RUN_ID_VERIFIED",
+      "run_id": "29699949887",
+      "workflow_name": "Certiaura Repository Validation",
+      "run_attempt": 1,
+      "status": "completed",
+      "conclusion": "success",
+      "branch": "main",
+      "event": "push",
+      "created_at": "2026-07-19T19:05:54Z",
+      "updated_at": "2026-07-19T19:06:02Z",
+      "actions_url": "https://github.com/ajc1786/certiaura-knowledge-engine/actions/runs/29699949887",
+      "all_candidate_run_ids": [
+        "29699949887"
+      ],
+      "capture_status": "BACKFILLED_BY_BUILD_0055",
+      "capture_commit": null,
+      "accounted": true
+    },
+    {
+      "build_number": "0039",
+      "candidate_commit_count": 1,
+      "candidate_commits": [
+        {
+          "commit": "87624e9f1a9623d57c2ba583ecc5957754d8f527",
+          "subject": "Add Certiaura Build 0039 evidence ingestion citation management living evidence surveillance and scientific review controls",
+          "build_label": "0039",
+          "exact_add_subject": true
+        }
+      ],
+      "selection_basis": "LATEST_EXACT_ADD_SUBJECT_ON_FIRST_PARENT_MAIN",
+      "canonical_commit": "87624e9f1a9623d57c2ba583ecc5957754d8f527",
+      "canonical_subject": "Add Certiaura Build 0039 evidence ingestion citation management living evidence surveillance and scientific review controls",
+      "workflow_present_at_commit": true,
+      "classification": "RUN_ID_VERIFIED",
+      "run_id": "29731167056",
+      "workflow_name": "Certiaura Repository Validation",
+      "run_attempt": 1,
+      "status": "completed",
+      "conclusion": "success",
+      "branch": "main",
+      "event": "push",
+      "created_at": "2026-07-20T09:22:05Z",
+      "updated_at": "2026-07-20T09:22:13Z",
+      "actions_url": "https://github.com/ajc1786/certiaura-knowledge-engine/actions/runs/29731167056",
+      "all_candidate_run_ids": [
+        "29731167056"
+      ],
+      "capture_status": "BACKFILLED_BY_BUILD_0055",
+      "capture_commit": null,
+      "accounted": true
+    },
+    {
+      "build_number": "0040",
+      "candidate_commit_count": 1,
+      "candidate_commits": [
+        {
+          "commit": "6f4dfb11dfdc4b28fe736972864ec1acf1a1e056",
+          "subject": "Add Certiaura Build 0040 automated build-package preflight synthetic repository import and release integrity controls",
+          "build_label": "0040",
+          "exact_add_subject": true
+        }
+      ],
+      "selection_basis": "LATEST_EXACT_ADD_SUBJECT_ON_FIRST_PARENT_MAIN",
+      "canonical_commit": "6f4dfb11dfdc4b28fe736972864ec1acf1a1e056",
+      "canonical_subject": "Add Certiaura Build 0040 automated build-package preflight synthetic repository import and release integrity controls",
+      "workflow_present_at_commit": true,
+      "classification": "RUN_ID_VERIFIED",
+      "run_id": "29739623293",
+      "workflow_name": "Certiaura Repository Validation",
+      "run_attempt": 1,
+      "status": "completed",
+      "conclusion": "success",
+      "branch": "main",
+      "event": "push",
+      "created_at": "2026-07-20T11:44:43Z",
+      "updated_at": "2026-07-20T11:44:51Z",
+      "actions_url": "https://github.com/ajc1786/certiaura-knowledge-engine/actions/runs/29739623293",
+      "all_candidate_run_ids": [
+        "29739623293"
+      ],
+      "capture_status": "BACKFILLED_BY_BUILD_0055",
+      "capture_commit": null,
+      "accounted": true
+    },
+    {
+      "build_number": "0041",
+      "candidate_commit_count": 3,
+      "candidate_commits": [
+        {
+          "commit": "a63fe923160e5bface3f794f068cbfaeb7a3cd9f",
+          "subject": "Add Certiaura Build 0041 retatrutide evidence corpus citation graph and scientific review baseline",
+          "build_label": "0041",
+          "exact_add_subject": true
+        },
+        {
+          "commit": "6fb136094f2705608b4afd302c4bae16a56ccbea",
+          "subject": "Add Certiaura Build 0041 retatrutide evidence corpus citation graph and scientific review baseline close-out",
+          "build_label": "0041",
+          "exact_add_subject": true
+        },
+        {
+          "commit": "eb6ef1ad3f5f3e95accd6f1b01d392548e8e9174",
+          "subject": "Add Certiaura Build 0041 retatrutide evidence corpus citation graph and scientific review baseline ACTIONS_GREEN_CLOSED checkpoint",
+          "build_label": "0041",
+          "exact_add_subject": true
+        }
+      ],
+      "selection_basis": "LATEST_EXACT_ADD_SUBJECT_ON_FIRST_PARENT_MAIN",
+      "canonical_commit": "eb6ef1ad3f5f3e95accd6f1b01d392548e8e9174",
+      "canonical_subject": "Add Certiaura Build 0041 retatrutide evidence corpus citation graph and scientific review baseline ACTIONS_GREEN_CLOSED checkpoint",
+      "workflow_present_at_commit": true,
+      "classification": "RUN_ID_VERIFIED",
+      "run_id": "29751230927",
+      "workflow_name": "Certiaura Repository Validation",
+      "run_attempt": 1,
+      "status": "completed",
+      "conclusion": "success",
+      "branch": "main",
+      "event": "push",
+      "created_at": "2026-07-20T14:34:22Z",
+      "updated_at": "2026-07-20T14:34:33Z",
+      "actions_url": "https://github.com/ajc1786/certiaura-knowledge-engine/actions/runs/29751230927",
+      "all_candidate_run_ids": [
+        "29751230927"
+      ],
+      "capture_status": "BACKFILLED_BY_BUILD_0055",
+      "capture_commit": null,
+      "accounted": true
+    },
+    {
+      "build_number": "0042",
+      "candidate_commit_count": 3,
+      "candidate_commits": [
+        {
+          "commit": "d1557f4cd7d4f4bc05385929e047f44d1e72d214",
+          "subject": "Add Certiaura Build 0042 retatrutide safety monitoring contraindication and clinical-outcome integration baseline",
+          "build_label": "0042",
+          "exact_add_subject": true
+        },
+        {
+          "commit": "96324d10ddcb0c0e8e553a1cf678f74d0aa62902",
+          "subject": "Add Certiaura Build 0042 retatrutide safety monitoring contraindication and clinical-outcome integration baseline close-out evidence",
+          "build_label": "0042",
+          "exact_add_subject": true
+        },
+        {
+          "commit": "13a458561afbcbe47c11a04c04dd1a7182d4b641",
+          "subject": "Add Certiaura Build 0042 retatrutide safety monitoring contraindication and clinical-outcome integration baseline ACTIONS_GREEN_CLOSED checkpoint",
+          "build_label": "0042",
+          "exact_add_subject": true
+        }
+      ],
+      "selection_basis": "LATEST_EXACT_ADD_SUBJECT_ON_FIRST_PARENT_MAIN",
+      "canonical_commit": "13a458561afbcbe47c11a04c04dd1a7182d4b641",
+      "canonical_subject": "Add Certiaura Build 0042 retatrutide safety monitoring contraindication and clinical-outcome integration baseline ACTIONS_GREEN_CLOSED checkpoint",
+      "workflow_present_at_commit": true,
+      "classification": "RUN_ID_VERIFIED",
+      "run_id": "29756935292",
+      "workflow_name": "Certiaura Repository Validation",
+      "run_attempt": 1,
+      "status": "completed",
+      "conclusion": "success",
+      "branch": "main",
+      "event": "push",
+      "created_at": "2026-07-20T15:49:54Z",
+      "updated_at": "2026-07-20T15:50:02Z",
+      "actions_url": "https://github.com/ajc1786/certiaura-knowledge-engine/actions/runs/29756935292",
+      "all_candidate_run_ids": [
+        "29756935292"
+      ],
+      "capture_status": "BACKFILLED_BY_BUILD_0055",
+      "capture_commit": null,
+      "accounted": true
+    },
+    {
+      "build_number": "0043",
+      "candidate_commit_count": 2,
+      "candidate_commits": [
+        {
+          "commit": "08793de672383c51df31d83015a9e768a09e16fd",
+          "subject": "Add Certiaura Build 0043 retatrutide patient journey report generation and AI query integration baseline",
+          "build_label": "0043",
+          "exact_add_subject": true
+        },
+        {
+          "commit": "cc6e92ea96e5fdd5ccd19e6b584cf83fc9f41c54",
+          "subject": "Correct Certiaura Build 0043 Windows PowerShell 5.1 OneDrive restart StrictMode handling",
+          "build_label": "0043",
+          "exact_add_subject": false
+        }
+      ],
+      "selection_basis": "LATEST_EXACT_ADD_SUBJECT_ON_FIRST_PARENT_MAIN",
+      "canonical_commit": "08793de672383c51df31d83015a9e768a09e16fd",
+      "canonical_subject": "Add Certiaura Build 0043 retatrutide patient journey report generation and AI query integration baseline",
+      "workflow_present_at_commit": true,
+      "classification": "RUN_ID_VERIFIED",
+      "run_id": "29763917681",
+      "workflow_name": "Certiaura Repository Validation",
+      "run_attempt": 1,
+      "status": "completed",
+      "conclusion": "success",
+      "branch": "main",
+      "event": "push",
+      "created_at": "2026-07-20T17:30:11Z",
+      "updated_at": "2026-07-20T17:30:37Z",
+      "actions_url": "https://github.com/ajc1786/certiaura-knowledge-engine/actions/runs/29763917681",
+      "all_candidate_run_ids": [
+        "29763917681"
+      ],
+      "capture_status": "BACKFILLED_BY_BUILD_0055",
+      "capture_commit": null,
+      "accounted": true
+    },
+    {
+      "build_number": "0044",
+      "candidate_commit_count": 1,
+      "candidate_commits": [
+        {
+          "commit": "46d92c2d32d7554768a60f78a8671cc07f291255",
+          "subject": "Add Certiaura Build 0044 retatrutide patient-facing interface, branded report rendering and controlled conversation workflow baseline",
+          "build_label": "0044",
+          "exact_add_subject": true
+        }
+      ],
+      "selection_basis": "LATEST_EXACT_ADD_SUBJECT_ON_FIRST_PARENT_MAIN",
+      "canonical_commit": "46d92c2d32d7554768a60f78a8671cc07f291255",
+      "canonical_subject": "Add Certiaura Build 0044 retatrutide patient-facing interface, branded report rendering and controlled conversation workflow baseline",
+      "workflow_present_at_commit": true,
+      "classification": "RUN_ID_VERIFIED",
+      "run_id": "29769614269",
+      "workflow_name": "Certiaura Repository Validation",
+      "run_attempt": 1,
+      "status": "completed",
+      "conclusion": "success",
+      "branch": "main",
+      "event": "push",
+      "created_at": "2026-07-20T18:52:25Z",
+      "updated_at": "2026-07-20T18:52:35Z",
+      "actions_url": "https://github.com/ajc1786/certiaura-knowledge-engine/actions/runs/29769614269",
+      "all_candidate_run_ids": [
+        "29769614269"
+      ],
+      "capture_status": "BACKFILLED_BY_BUILD_0055",
+      "capture_commit": null,
+      "accounted": true
+    },
+    {
+      "build_number": "0045",
+      "candidate_commit_count": 1,
+      "candidate_commits": [
+        {
+          "commit": "290560d3415d6bca2e58ccd0903fb33ce9b98d1e",
+          "subject": "Add Certiaura Build 0045 retatrutide longitudinal journey tracking, review scheduling and clinician handoff baseline",
+          "build_label": "0045",
+          "exact_add_subject": true
+        }
+      ],
+      "selection_basis": "LATEST_EXACT_ADD_SUBJECT_ON_FIRST_PARENT_MAIN",
+      "canonical_commit": "290560d3415d6bca2e58ccd0903fb33ce9b98d1e",
+      "canonical_subject": "Add Certiaura Build 0045 retatrutide longitudinal journey tracking, review scheduling and clinician handoff baseline",
+      "workflow_present_at_commit": true,
+      "classification": "RUN_ID_VERIFIED",
+      "run_id": "29779236183",
+      "workflow_name": "Certiaura Repository Validation",
+      "run_attempt": 1,
+      "status": "completed",
+      "conclusion": "success",
+      "branch": "main",
+      "event": "push",
+      "created_at": "2026-07-20T21:12:01Z",
+      "updated_at": "2026-07-20T21:12:14Z",
+      "actions_url": "https://github.com/ajc1786/certiaura-knowledge-engine/actions/runs/29779236183",
+      "all_candidate_run_ids": [
+        "29779236183"
+      ],
+      "capture_status": "BACKFILLED_BY_BUILD_0055",
+      "capture_commit": null,
+      "accounted": true
+    },
+    {
+      "build_number": "0046",
+      "candidate_commit_count": 1,
+      "candidate_commits": [
+        {
+          "commit": "922a50178663ea301189d0e02960b019b653250b",
+          "subject": "Add Certiaura Build 0046 retatrutide evidence-linked longitudinal analytics, outcome trend visualisation and controlled alerting baseline",
+          "build_label": "0046",
+          "exact_add_subject": true
+        }
+      ],
+      "selection_basis": "LATEST_EXACT_ADD_SUBJECT_ON_FIRST_PARENT_MAIN",
+      "canonical_commit": "922a50178663ea301189d0e02960b019b653250b",
+      "canonical_subject": "Add Certiaura Build 0046 retatrutide evidence-linked longitudinal analytics, outcome trend visualisation and controlled alerting baseline",
+      "workflow_present_at_commit": true,
+      "classification": "RUN_ID_VERIFIED",
+      "run_id": "29781476101",
+      "workflow_name": "Certiaura Repository Validation",
+      "run_attempt": 1,
+      "status": "completed",
+      "conclusion": "success",
+      "branch": "main",
+      "event": "push",
+      "created_at": "2026-07-20T21:46:28Z",
+      "updated_at": "2026-07-20T21:46:39Z",
+      "actions_url": "https://github.com/ajc1786/certiaura-knowledge-engine/actions/runs/29781476101",
+      "all_candidate_run_ids": [
+        "29781476101"
+      ],
+      "capture_status": "BACKFILLED_BY_BUILD_0055",
+      "capture_commit": null,
+      "accounted": true
+    },
+    {
+      "build_number": "0047",
+      "candidate_commit_count": 1,
+      "candidate_commits": [
+        {
+          "commit": "32cdbf9c6e685bcece3319590ce399cccd73c798",
+          "subject": "Add Certiaura Build 0047 retatrutide controlled longitudinal dashboard, alert review workflow and clinician export baseline",
+          "build_label": "0047",
+          "exact_add_subject": true
+        }
+      ],
+      "selection_basis": "LATEST_EXACT_ADD_SUBJECT_ON_FIRST_PARENT_MAIN",
+      "canonical_commit": "32cdbf9c6e685bcece3319590ce399cccd73c798",
+      "canonical_subject": "Add Certiaura Build 0047 retatrutide controlled longitudinal dashboard, alert review workflow and clinician export baseline",
+      "workflow_present_at_commit": true,
+      "classification": "RUN_ID_VERIFIED",
+      "run_id": "29850650542",
+      "workflow_name": "Certiaura Repository Validation",
+      "run_attempt": 1,
+      "status": "completed",
+      "conclusion": "success",
+      "branch": "main",
+      "event": "push",
+      "created_at": "2026-07-21T16:54:20Z",
+      "updated_at": "2026-07-21T16:54:28Z",
+      "actions_url": "https://github.com/ajc1786/certiaura-knowledge-engine/actions/runs/29850650542",
+      "all_candidate_run_ids": [
+        "29850650542"
+      ],
+      "capture_status": "BACKFILLED_BY_BUILD_0055",
+      "capture_commit": null,
+      "accounted": true
+    },
+    {
+      "build_number": "0048",
+      "candidate_commit_count": 1,
+      "candidate_commits": [
+        {
+          "commit": "9fd68efe4cbf2dbb0850e7e832f14e6ee7f6f872",
+          "subject": "Add Certiaura Build 0048 retatrutide clinician review approval, export version control, controlled handoff and audit trail baseline",
+          "build_label": "0048",
+          "exact_add_subject": true
+        }
+      ],
+      "selection_basis": "LATEST_EXACT_ADD_SUBJECT_ON_FIRST_PARENT_MAIN",
+      "canonical_commit": "9fd68efe4cbf2dbb0850e7e832f14e6ee7f6f872",
+      "canonical_subject": "Add Certiaura Build 0048 retatrutide clinician review approval, export version control, controlled handoff and audit trail baseline",
+      "workflow_present_at_commit": true,
+      "classification": "RUN_ID_VERIFIED",
+      "run_id": "29852711474",
+      "workflow_name": "Certiaura Repository Validation",
+      "run_attempt": 1,
+      "status": "completed",
+      "conclusion": "success",
+      "branch": "main",
+      "event": "push",
+      "created_at": "2026-07-21T17:23:11Z",
+      "updated_at": "2026-07-21T17:23:22Z",
+      "actions_url": "https://github.com/ajc1786/certiaura-knowledge-engine/actions/runs/29852711474",
+      "all_candidate_run_ids": [
+        "29852711474"
+      ],
+      "capture_status": "BACKFILLED_BY_BUILD_0055",
+      "capture_commit": null,
+      "accounted": true
+    },
+    {
+      "build_number": "0049",
+      "candidate_commit_count": 1,
+      "candidate_commits": [
+        {
+          "commit": "41091ba6a0f515d7e5b6104e5d3e909c05c937c4",
+          "subject": "Add Certiaura Build 0049 retatrutide controlled handoff acknowledgement, follow-up review, clinician feedback and amendment audit baseline",
+          "build_label": "0049",
+          "exact_add_subject": true
+        }
+      ],
+      "selection_basis": "LATEST_EXACT_ADD_SUBJECT_ON_FIRST_PARENT_MAIN",
+      "canonical_commit": "41091ba6a0f515d7e5b6104e5d3e909c05c937c4",
+      "canonical_subject": "Add Certiaura Build 0049 retatrutide controlled handoff acknowledgement, follow-up review, clinician feedback and amendment audit baseline",
+      "workflow_present_at_commit": true,
+      "classification": "RUN_ID_VERIFIED",
+      "run_id": "29856301995",
+      "workflow_name": "Certiaura Repository Validation",
+      "run_attempt": 1,
+      "status": "completed",
+      "conclusion": "success",
+      "branch": "main",
+      "event": "push",
+      "created_at": "2026-07-21T18:13:36Z",
+      "updated_at": "2026-07-21T18:13:47Z",
+      "actions_url": "https://github.com/ajc1786/certiaura-knowledge-engine/actions/runs/29856301995",
+      "all_candidate_run_ids": [
+        "29856301995"
+      ],
+      "capture_status": "BACKFILLED_BY_BUILD_0055",
+      "capture_commit": null,
+      "accounted": true
+    },
+    {
+      "build_number": "0050",
+      "candidate_commit_count": 1,
+      "candidate_commits": [
+        {
+          "commit": "fe71fcb80b2ed75a351ce05e06c27fe7b92750fd",
+          "subject": "Add Certiaura Build 0050 retatrutide case review closure, unresolved-action escalation, longitudinal outcome reconciliation and quality assurance analytics baseline",
+          "build_label": "0050",
+          "exact_add_subject": true
+        }
+      ],
+      "selection_basis": "LATEST_EXACT_ADD_SUBJECT_ON_FIRST_PARENT_MAIN",
+      "canonical_commit": "fe71fcb80b2ed75a351ce05e06c27fe7b92750fd",
+      "canonical_subject": "Add Certiaura Build 0050 retatrutide case review closure, unresolved-action escalation, longitudinal outcome reconciliation and quality assurance analytics baseline",
+      "workflow_present_at_commit": true,
+      "classification": "RUN_ID_VERIFIED",
+      "run_id": "29864922514",
+      "workflow_name": "Certiaura Repository Validation",
+      "run_attempt": 1,
+      "status": "completed",
+      "conclusion": "success",
+      "branch": "main",
+      "event": "push",
+      "created_at": "2026-07-21T20:14:36Z",
+      "updated_at": "2026-07-21T20:14:44Z",
+      "actions_url": "https://github.com/ajc1786/certiaura-knowledge-engine/actions/runs/29864922514",
+      "all_candidate_run_ids": [
+        "29864922514"
+      ],
+      "capture_status": "BACKFILLED_BY_BUILD_0055",
+      "capture_commit": null,
+      "accounted": true
+    },
+    {
+      "build_number": "0051",
+      "candidate_commit_count": 1,
+      "candidate_commits": [
+        {
+          "commit": "14877589556e83fd457f5cbc5020e9ca31318406",
+          "subject": "Add Certiaura Build 0051 retatrutide post-closure surveillance, governed case reopening, periodic review and recurrence analytics baseline",
+          "build_label": "0051",
+          "exact_add_subject": true
+        }
+      ],
+      "selection_basis": "LATEST_EXACT_ADD_SUBJECT_ON_FIRST_PARENT_MAIN",
+      "canonical_commit": "14877589556e83fd457f5cbc5020e9ca31318406",
+      "canonical_subject": "Add Certiaura Build 0051 retatrutide post-closure surveillance, governed case reopening, periodic review and recurrence analytics baseline",
+      "workflow_present_at_commit": true,
+      "classification": "RUN_ID_VERIFIED",
+      "run_id": "29869119238",
+      "workflow_name": "Certiaura Repository Validation",
+      "run_attempt": 1,
+      "status": "completed",
+      "conclusion": "success",
+      "branch": "main",
+      "event": "push",
+      "created_at": "2026-07-21T21:13:52Z",
+      "updated_at": "2026-07-21T21:14:01Z",
+      "actions_url": "https://github.com/ajc1786/certiaura-knowledge-engine/actions/runs/29869119238",
+      "all_candidate_run_ids": [
+        "29869119238"
+      ],
+      "capture_status": "BACKFILLED_BY_BUILD_0055",
+      "capture_commit": null,
+      "accounted": true
+    },
+    {
+      "build_number": "0052",
+      "candidate_commit_count": 1,
+      "candidate_commits": [
+        {
+          "commit": "890df218b4f4dea92f4ccfa36b8106de59eca1b1",
+          "subject": "Add Certiaura Build 0052 retatrutide cross-case signal aggregation, cohort surveillance, governed escalation and controlled knowledge feedback baseline",
+          "build_label": "0052",
+          "exact_add_subject": true
+        }
+      ],
+      "selection_basis": "LATEST_EXACT_ADD_SUBJECT_ON_FIRST_PARENT_MAIN",
+      "canonical_commit": "890df218b4f4dea92f4ccfa36b8106de59eca1b1",
+      "canonical_subject": "Add Certiaura Build 0052 retatrutide cross-case signal aggregation, cohort surveillance, governed escalation and controlled knowledge feedback baseline",
+      "workflow_present_at_commit": true,
+      "classification": "RUN_ID_VERIFIED",
+      "run_id": "29941074865",
+      "workflow_name": "Certiaura Repository Validation",
+      "run_attempt": 1,
+      "status": "completed",
+      "conclusion": "success",
+      "branch": "main",
+      "event": "push",
+      "created_at": "2026-07-22T17:08:31Z",
+      "updated_at": "2026-07-22T17:08:38Z",
+      "actions_url": "https://github.com/ajc1786/certiaura-knowledge-engine/actions/runs/29941074865",
+      "all_candidate_run_ids": [
+        "29941074865"
+      ],
+      "capture_status": "BACKFILLED_BY_BUILD_0055",
+      "capture_commit": null,
+      "accounted": true
+    },
+    {
+      "build_number": "0053",
+      "candidate_commit_count": 1,
+      "candidate_commits": [
+        {
+          "commit": "d5b7b84a2c543bbdd5cad8727f1c9005c27ca70d",
+          "subject": "Add Certiaura Build 0053 retatrutide governed knowledge change implementation, cross-asset impact control, controlled publication and post-change effectiveness surveillance baseline",
+          "build_label": "0053",
+          "exact_add_subject": true
+        }
+      ],
+      "selection_basis": "LATEST_EXACT_ADD_SUBJECT_ON_FIRST_PARENT_MAIN",
+      "canonical_commit": "d5b7b84a2c543bbdd5cad8727f1c9005c27ca70d",
+      "canonical_subject": "Add Certiaura Build 0053 retatrutide governed knowledge change implementation, cross-asset impact control, controlled publication and post-change effectiveness surveillance baseline",
+      "workflow_present_at_commit": true,
+      "classification": "RUN_ID_VERIFIED",
+      "run_id": "29986875639",
+      "workflow_name": "Certiaura Repository Validation",
+      "run_attempt": 1,
+      "status": "completed",
+      "conclusion": "success",
+      "branch": "main",
+      "event": "push",
+      "created_at": "2026-07-23T07:00:27Z",
+      "updated_at": "2026-07-23T07:00:38Z",
+      "actions_url": "https://github.com/ajc1786/certiaura-knowledge-engine/actions/runs/29986875639",
+      "all_candidate_run_ids": [
+        "29986875639"
+      ],
+      "capture_status": "CURRENT_REPOSITORY_RECORD_ONLY",
+      "capture_commit": null,
+      "accounted": true
+    },
+    {
+      "build_number": "0054",
+      "candidate_commit_count": 1,
+      "candidate_commits": [
+        {
+          "commit": "8a9dba6615448c1ad85c44cdf89269a8fc3e00e8",
+          "subject": "Add Certiaura Build 0054 retatrutide end-to-end operational assurance, controlled release readiness, failure-mode coverage and Platinum readiness assessment baseline",
+          "build_label": "0054",
+          "exact_add_subject": true
+        }
+      ],
+      "selection_basis": "LATEST_EXACT_ADD_SUBJECT_ON_FIRST_PARENT_MAIN",
+      "canonical_commit": "8a9dba6615448c1ad85c44cdf89269a8fc3e00e8",
+      "canonical_subject": "Add Certiaura Build 0054 retatrutide end-to-end operational assurance, controlled release readiness, failure-mode coverage and Platinum readiness assessment baseline",
+      "workflow_present_at_commit": true,
+      "classification": "RUN_ID_VERIFIED",
+      "run_id": "29993394313",
+      "workflow_name": "Certiaura Repository Validation",
+      "run_attempt": 1,
+      "status": "completed",
+      "conclusion": "success",
+      "branch": "main",
+      "event": "push",
+      "created_at": "2026-07-23T08:59:26Z",
+      "updated_at": "2026-07-23T08:59:37Z",
+      "actions_url": "https://github.com/ajc1786/certiaura-knowledge-engine/actions/runs/29993394313",
+      "all_candidate_run_ids": [
+        "29993394313"
+      ],
+      "capture_status": "BACKFILLED_BY_BUILD_0055",
+      "capture_commit": null,
+      "accounted": true
+    }
+  ]
+}

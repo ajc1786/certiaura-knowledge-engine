@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0.0",
+  "exception_count": 1,
+  "exceptions": [
+    {
+      "build_number": "0001",
+      "candidate_commit_count": 0,
+      "candidate_commits": [],
+      "selection_basis": "NO_MATCHING_BUILD_COMMIT",
+      "canonical_commit": null,
+      "canonical_subject": null,
+      "workflow_present_at_commit": false,
+      "classification": "BUILD_COMMIT_NOT_FOUND",
+      "run_id": null,
+      "workflow_name": null,
+      "run_attempt": null,
+      "status": null,
+      "conclusion": null,
+      "branch": null,
+      "event": null,
+      "created_at": null,
+      "updated_at": null,
+      "actions_url": null,
+      "all_candidate_run_ids": [],
+      "capture_status": "RESOLVED_EXCEPTION",
+      "capture_commit": null,
+      "accounted": true
+    }
+  ]
+}

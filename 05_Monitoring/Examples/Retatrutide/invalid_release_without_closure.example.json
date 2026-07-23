@@ -1,0 +1,20 @@
+{
+  "build_number": "0055",
+  "created_at": "2026-07-23T10:00:00Z",
+  "created_by": "Certiaura Governance",
+  "source_baseline_build": "0054",
+  "source_baseline_commit": "8a9dba6615448c1ad85c44cdf89269a8fc3e00e8",
+  "peptide_uai": "CERT-PKS-000001",
+  "record_type": "controlled_release_authorisation",
+  "authorisation_id": "RET-AUTH-X01",
+  "closure_decision_id": "",
+  "release_object": "Retatrutide knowledge baseline",
+  "release_channel": "public",
+  "clinical_use_disclaimer": false,
+  "unresolved_critical_gaps": [],
+  "decision": "AUTHORISE_CONTROLLED_RELEASE",
+  "effective_version": "1.0.0",
+  "approvers": [
+    "Reviewer"
+  ]
+}

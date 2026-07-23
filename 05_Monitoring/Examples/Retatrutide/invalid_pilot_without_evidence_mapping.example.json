@@ -1,0 +1,27 @@
+{
+  "build_number": "0055",
+  "created_at": "2026-07-23T10:00:00Z",
+  "created_by": "Certiaura Governance",
+  "source_baseline_build": "0054",
+  "source_baseline_commit": "8a9dba6615448c1ad85c44cdf89269a8fc3e00e8",
+  "peptide_uai": "CERT-PKS-000001",
+  "record_type": "next_peptide_pilot_selection",
+  "selection_id": "PILOT-SEL-X01",
+  "candidate_assessments": [
+    {
+      "peptide": "BPC-157",
+      "evidence_mapping_state": "NONE",
+      "safety_boundary_state": "NONE",
+      "architecture_fit_score": 5.0,
+      "selection_status": "SELECTED"
+    }
+  ],
+  "selected_peptide": "BPC-157",
+  "selection_purpose": "full implementation",
+  "clinical_equivalence_claimed": true,
+  "decision": "SELECT_GOVERNED_PILOT",
+  "prerequisites": [],
+  "approvers": [
+    "Reviewer"
+  ]
+}

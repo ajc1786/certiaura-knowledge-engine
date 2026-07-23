@@ -1,0 +1,452 @@
+{
+  "build_number": "0055",
+  "candidate": "RC2",
+  "routing_rule": "FLAT_REPOSITORY_RELATIVE",
+  "paths": [
+    {
+      "repository_path": "05_Monitoring/Examples/Retatrutide/conditional_next_peptide_pilot_selection.example.json",
+      "classification": "EXAMPLE",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "05_Monitoring/Examples/Retatrutide/conditional_operational_baseline_closure_decision.example.json",
+      "classification": "EXAMPLE",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "05_Monitoring/Examples/Retatrutide/conditional_reusable_architecture_handoff.example.json",
+      "classification": "EXAMPLE",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "05_Monitoring/Examples/Retatrutide/invalid_autonomous_pilot_approval.example.json",
+      "classification": "EXAMPLE",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "05_Monitoring/Examples/Retatrutide/invalid_closure_with_critical_gap.example.json",
+      "classification": "EXAMPLE",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "05_Monitoring/Examples/Retatrutide/invalid_handoff_including_peptide_specific_claims.example.json",
+      "classification": "EXAMPLE",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "05_Monitoring/Examples/Retatrutide/invalid_pilot_without_evidence_mapping.example.json",
+      "classification": "EXAMPLE",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "05_Monitoring/Examples/Retatrutide/invalid_release_without_closure.example.json",
+      "classification": "EXAMPLE",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "05_Monitoring/Examples/Retatrutide/invalid_reopening_without_trigger.example.json",
+      "classification": "EXAMPLE",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "05_Monitoring/Examples/Retatrutide/valid_baseline_exception_reopening_decision.example.json",
+      "classification": "EXAMPLE",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "05_Monitoring/Examples/Retatrutide/valid_controlled_release_authorisation.example.json",
+      "classification": "EXAMPLE",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "05_Monitoring/Examples/Retatrutide/valid_next_peptide_pilot_selection.example.json",
+      "classification": "EXAMPLE",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "05_Monitoring/Examples/Retatrutide/valid_operational_baseline_closure_decision.example.json",
+      "classification": "EXAMPLE",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "05_Monitoring/Examples/Retatrutide/valid_reusable_architecture_handoff.example.json",
+      "classification": "EXAMPLE",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "13_Project_Genesis/Dashboards/generate_retatrutide_baseline_closure_summary.py",
+      "classification": "SCRIPT",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "13_Project_Genesis/Import/run_build_0055_import.py",
+      "classification": "SCRIPT",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "13_Project_Genesis/Release/audit_historical_github_actions_evidence.py",
+      "classification": "SCRIPT",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "13_Project_Genesis/Release/derive_build_0054_predecessor_evidence.py",
+      "classification": "SCRIPT",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "13_Project_Genesis/Release/run_build_0055_preflight.py",
+      "classification": "SCRIPT",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "13_Project_Genesis/Tests/test_build_0055_baseline_closure.py",
+      "classification": "TEST",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "13_Project_Genesis/Tests/test_build_0055_historical_actions_audit.py",
+      "classification": "TEST",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "13_Project_Genesis/Tests/test_build_0055_predecessor_evidence.py",
+      "classification": "TEST",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "13_Project_Genesis/Tests/test_build_0055_repository.py",
+      "classification": "TEST",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "13_Project_Genesis/Tests/test_build_0055_transactional_import.py",
+      "classification": "TEST",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "13_Project_Genesis/Validators/build_0055_asset_ownership.py",
+      "classification": "SCRIPT",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "13_Project_Genesis/Validators/retatrutide_baseline_closure_common.py",
+      "classification": "SCRIPT",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "13_Project_Genesis/Validators/validate_build_0055_repository.py",
+      "classification": "SCRIPT",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "13_Project_Genesis/Validators/validate_retatrutide_baseline_closure.py",
+      "classification": "SCRIPT",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "13_Project_Genesis/Validators/verify_staged_byte_equality.py",
+      "classification": "SCRIPT",
+      "action": "UPDATE"
+    },
+    {
+      "repository_path": "Database/Registers/Certiaura_Next_Peptide_Pilot_Selection_Register.csv",
+      "classification": "SUPPORTING_FILE",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "Database/Registers/Retatrutide_Baseline_Exception_Reopening_Register.csv",
+      "classification": "SUPPORTING_FILE",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "Database/Registers/Retatrutide_Controlled_Release_Authorisation_Register.csv",
+      "classification": "SUPPORTING_FILE",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "Database/Registers/Retatrutide_Operational_Baseline_Closure_Register.csv",
+      "classification": "SUPPORTING_FILE",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "Database/Registers/Retatrutide_Reusable_Architecture_Handoff_Register.csv",
+      "classification": "SUPPORTING_FILE",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0055/ACCUMULATED_LESSONS_DELTA.json",
+      "classification": "BUILD_RECORD",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0055/ASSET_INTENT_MANIFEST.json",
+      "classification": "BUILD_RECORD",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0055/ASSET_REGISTER_RECONCILIATION_POLICY.json",
+      "classification": "BUILD_RECORD",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0055/BUILD_MANIFEST.json",
+      "classification": "BUILD_RECORD",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0055/CANDIDATE_DELIVERY.json",
+      "classification": "BUILD_RECORD",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0055/CHECKSUMS.sha256",
+      "classification": "BUILD_RECORD",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0055/COMMIT_MESSAGE.txt",
+      "classification": "BUILD_RECORD",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0055/CONFLICT_POLICY.json",
+      "classification": "BUILD_RECORD",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0055/CONTINUITY_CHECKPOINT_DELTA.json",
+      "classification": "BUILD_RECORD",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0055/DECISION_RECORD_0055.md",
+      "classification": "BUILD_RECORD",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0055/GITHUB_ACTIONS_CLOSURE_EVIDENCE_REQUIREMENTS.json",
+      "classification": "BUILD_RECORD",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0055/HISTORICAL_ACTIONS_AUDIT_REQUIREMENTS.json",
+      "classification": "BUILD_RECORD",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0055/LESSONS_LEARNED_CONTROL_MATRIX.json",
+      "classification": "BUILD_RECORD",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0055/LESSONS_LEARNED_REVIEW.md",
+      "classification": "BUILD_RECORD",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0055/OUTSIDE_CANONICAL_VALIDATION_REPORT.json",
+      "classification": "BUILD_RECORD",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0055/PACKAGE_INVENTORY.csv",
+      "classification": "BUILD_RECORD",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0055/PACKAGE_VERSION.json",
+      "classification": "BUILD_RECORD",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0055/PREDECESSOR_REQUIREMENTS.json",
+      "classification": "BUILD_RECORD",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0055/PRE_AUTHORISED_PRECURSOR_STATE.json",
+      "classification": "BUILD_RECORD",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0055/PRE_RELEASE_VALIDATION_REPORT.json",
+      "classification": "BUILD_RECORD",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0055/PROJECT_GENESIS_IMPORT_HOOK.json",
+      "classification": "BUILD_RECORD",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0055/PROPOSED_NEXT_ACTION.md",
+      "classification": "BUILD_RECORD",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0055/READ_ME_FIRST.md",
+      "classification": "BUILD_RECORD",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0055/REAL_WORLD_OPERATOR_WORKFLOW_REGRESSION_REPORT.json",
+      "classification": "BUILD_RECORD",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0055/ROLLBACK_RUNBOOK.md",
+      "classification": "BUILD_RECORD",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0055/ROUTING_MANIFEST.json",
+      "classification": "BUILD_RECORD",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0055/SOURCE_INPUT_DEFECT_LOG.json",
+      "classification": "BUILD_RECORD",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0055/VALIDATION_REQUIREMENTS.json",
+      "classification": "BUILD_RECORD",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "Schemas/certiaura_historical_github_actions_evidence.schema.json",
+      "classification": "SUPPORTING_FILE",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "Schemas/certiaura_next_peptide_pilot_selection.schema.json",
+      "classification": "SCHEMA",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "Schemas/retatrutide_baseline_exception_reopening_decision.schema.json",
+      "classification": "SCHEMA",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "Schemas/retatrutide_controlled_release_authorisation.schema.json",
+      "classification": "SCHEMA",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "Schemas/retatrutide_operational_baseline_closure_decision.schema.json",
+      "classification": "SCHEMA",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "Schemas/retatrutide_reusable_architecture_handoff.schema.json",
+      "classification": "SCHEMA",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "Scripts/Close_Certiaura_Build_0055.ps1",
+      "classification": "SCRIPT",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "Scripts/Invoke_Certiaura_Build_0055_Import.ps1",
+      "classification": "SCRIPT",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "Scripts/Invoke_Certiaura_Build_0055_Preflight.ps1",
+      "classification": "SCRIPT",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "Scripts/Invoke_Certiaura_Build_0055_Windows_PS51_Regression.ps1",
+      "classification": "SCRIPT",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "Scripts/Invoke_Certiaura_Historical_Actions_Audit.ps1",
+      "classification": "SCRIPT",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "Scripts/Run_Certiaura_Build_0055.ps1",
+      "classification": "SCRIPT",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "Scripts/START_BUILD_0055.cmd",
+      "classification": "SCRIPT",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "Scripts/update_certiaura_build_0055_controls.py",
+      "classification": "SCRIPT",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "Standards/CERTIAURA_HISTORICAL_GITHUB_ACTIONS_EVIDENCE_STANDARD.md",
+      "classification": "FORMAL_ASSET",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "Standards/CERTIAURA_NEXT_PEPTIDE_PILOT_SELECTION_MATRIX.json",
+      "classification": "FORMAL_ASSET",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "Standards/RETATRUTIDE_BASELINE_EXCEPTION_AND_REOPENING_MATRIX.json",
+      "classification": "FORMAL_ASSET",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "Standards/RETATRUTIDE_CONTROLLED_RELEASE_AUTHORISATION_MATRIX.json",
+      "classification": "FORMAL_ASSET",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "Standards/RETATRUTIDE_OPERATIONAL_BASELINE_CLOSURE_STANDARD.md",
+      "classification": "FORMAL_ASSET",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "Standards/RETATRUTIDE_REUSABLE_ARCHITECTURE_HANDOFF_STANDARD.md",
+      "classification": "FORMAL_ASSET",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "Templates/CERTIAURA_HISTORICAL_GITHUB_ACTIONS_EVIDENCE_TEMPLATE.json",
+      "classification": "SUPPORTING_FILE",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "Templates/CERTIAURA_NEXT_PEPTIDE_PILOT_SELECTION_TEMPLATE.json",
+      "classification": "TEMPLATE",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "Templates/RETATRUTIDE_BASELINE_CLOSURE_EXECUTIVE_SUMMARY_TEMPLATE.md",
+      "classification": "TEMPLATE",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "Templates/RETATRUTIDE_BASELINE_EXCEPTION_REOPENING_DECISION_TEMPLATE.json",
+      "classification": "TEMPLATE",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "Templates/RETATRUTIDE_CONTROLLED_RELEASE_AUTHORISATION_TEMPLATE.json",
+      "classification": "TEMPLATE",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "Templates/RETATRUTIDE_OPERATIONAL_BASELINE_CLOSURE_DECISION_TEMPLATE.json",
+      "classification": "TEMPLATE",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "Templates/RETATRUTIDE_REUSABLE_ARCHITECTURE_HANDOFF_TEMPLATE.json",
+      "classification": "TEMPLATE",
+      "action": "CREATE"
+    }
+  ]
+}

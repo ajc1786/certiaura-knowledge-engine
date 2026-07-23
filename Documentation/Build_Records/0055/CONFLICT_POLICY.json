@@ -1,0 +1,6 @@
+{
+  "build_number": "0055",
+  "policy": "FAIL_ON_UNDECLARED_COLLISION",
+  "approved_predecessor_overlap_requires_explicit_flag": true,
+  "byte_identical_updates_may_be_owned_no_op": true
+}
