@@ -1,0 +1,8 @@
+{
+  "build_number": "0058",
+  "candidate": "RC2",
+  "version": "1.0.1",
+  "withdrawn_candidates": [
+    "RC1"
+  ]
+}

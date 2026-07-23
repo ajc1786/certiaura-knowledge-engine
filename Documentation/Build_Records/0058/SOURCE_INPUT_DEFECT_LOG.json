@@ -1,0 +1,25 @@
+{
+  "build_number": "0058",
+  "defects": [
+    {
+      "id": "0058-D01",
+      "description": "Aggregate evidence scoring can hide a rejected or low-quality source",
+      "resolution": "Per-source fail-closed scoring and provenance checks before aggregate acceptance"
+    },
+    {
+      "id": "0058-D02",
+      "description": "Conflicting evidence can be silently averaged",
+      "resolution": "Explicit conflict record, severity, human adjudication and unresolved hold state"
+    },
+    {
+      "id": "0058-D03",
+      "description": "Future commit/push workflows could regress to interactive Git cleanup prompts",
+      "resolution": "Build 0057 non-interactive Git guard retained as mandatory closure control"
+    },
+    {
+      "id": "0058-D04",
+      "description": "RC1 Windows repository validation treated POST_IMPORT_REPOSITORY_VALIDATION.json as missing because the self-exclusion path normaliser replaced double backslashes instead of ordinary single backslashes",
+      "resolution": "RC1 withdrawn; normalise every single Windows backslash to a repository separator and regression-test the exact generated report path before RC2 release"
+    }
+  ]
+}

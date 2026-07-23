@@ -1,0 +1,119 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://certiaura.invalid/schemas/tesamorelin_pilot_continuation_decision.schema.json",
+  "title": "tesamorelin_pilot_continuation_decision",
+  "type": "object",
+  "required": [
+    "build_number",
+    "record_type",
+    "record_id",
+    "peptide",
+    "clinical_recommendation_authorised",
+    "clinical_decision_support_authorised",
+    "review_record_ids",
+    "source_quality_state",
+    "unresolved_conflicts",
+    "recurrent_signals",
+    "open_critical_gaps",
+    "amendment_state",
+    "audit_replay_state",
+    "decision",
+    "conditions",
+    "prohibited_scope",
+    "approvers"
+  ],
+  "properties": {
+    "build_number": {
+      "const": "0058"
+    },
+    "candidate": {
+      "const": "RC2"
+    },
+    "peptide": {
+      "const": "Tesamorelin"
+    },
+    "clinical_recommendation_authorised": {
+      "const": false
+    },
+    "clinical_decision_support_authorised": {
+      "const": false
+    },
+    "record_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "approvers": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "record_type": {
+      "const": "tesamorelin_pilot_continuation_decision"
+    },
+    "review_record_ids": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    },
+    "source_quality_state": {
+      "enum": [
+        "ACCEPTABLE",
+        "CONDITIONAL",
+        "UNACCEPTABLE"
+      ]
+    },
+    "unresolved_conflicts": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "recurrent_signals": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "open_critical_gaps": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "amendment_state": {
+      "enum": [
+        "NOT_REQUIRED",
+        "VALIDATED",
+        "PENDING",
+        "FAILED"
+      ]
+    },
+    "audit_replay_state": {
+      "enum": [
+        "COMPLETE",
+        "PARTIAL",
+        "FAILED"
+      ]
+    },
+    "decision": {
+      "enum": [
+        "CONTINUE_PILOT",
+        "CONTINUE_WITH_CONDITIONS",
+        "SUSPEND_PILOT",
+        "TERMINATE_PILOT"
+      ]
+    },
+    "conditions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "prohibited_scope": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "additionalProperties": true
+}

@@ -1,0 +1,17 @@
+{
+  "build_number": "0058",
+  "candidate": "RC2",
+  "required_platform": "Windows PowerShell 5.1",
+  "required_endpoints": [
+    "BUILD_0058_PRE_CANONICAL_FULL_SUITE_VALIDATED",
+    "BUILD_0058_OPTIONAL_PROPERTY_STRICTMODE_VALIDATED",
+    "BUILD_0058_STAGED_CHANGESET_VALIDATED",
+    "BUILD_0058_GIT_NONINTERACTIVE_GUARD_VALIDATED",
+    "NO_MANUAL_GIT_OBJECT_CLEANUP_PROMPTS",
+    "BUILD_0058_WINDOWS_PS51_REGRESSION_PASS",
+    "BUILD_0058_CANONICAL_VALIDATED_AND_STAGED"
+  ],
+  "canonical_closure_endpoint": "BUILD_0058_GITHUB_ACTIONS_GREEN",
+  "rc1_status": "WITHDRAWN",
+  "windows_report_path_self_exclusion_required": true
+}

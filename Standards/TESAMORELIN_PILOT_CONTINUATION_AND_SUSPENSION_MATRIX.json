@@ -1,0 +1,27 @@
+{
+  "build_number": "0058",
+  "peptide": "Tesamorelin",
+  "continuation_requirements": [
+    "acceptable source quality",
+    "zero unresolved conflicts",
+    "zero uncontrolled recurrent signals",
+    "zero critical gaps",
+    "validated amendment when required",
+    "complete audit replay",
+    "human approval"
+  ],
+  "suspension_triggers": [
+    "unresolved high or critical conflict",
+    "recurrent high-severity signal",
+    "critical gap",
+    "failed audit replay",
+    "failed amendment validation"
+  ],
+  "decisions": [
+    "CONTINUE_PILOT",
+    "CONTINUE_WITH_CONDITIONS",
+    "SUSPEND_PILOT",
+    "TERMINATE_PILOT"
+  ],
+  "clinical_decision_support_authorised": false
+}

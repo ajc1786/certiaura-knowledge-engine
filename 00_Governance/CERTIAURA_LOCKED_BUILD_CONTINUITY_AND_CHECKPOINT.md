@@ -868,3 +868,7 @@ Build 0052 RC5 was withdrawn after canonical runtime proved that Builds 0039, 00
 - Git control: automatic GC and maintenance prompts prohibited during commit, push and closure
 
 <!-- CERTIAURA_BUILD_0057_CHECKPOINT_END -->
+
+<!-- CERTIAURA_BUILD_0058_CHECKPOINT_START -->
+Build 0058 establishes governed Tesamorelin multi-source quality assessment, conflicting-evidence adjudication, longitudinal recurrence review, controlled amendment and pilot continuation or suspension governance. Canonical closure still requires exact GitHub Actions evidence and founder GREEN.
+<!-- CERTIAURA_BUILD_0058_CHECKPOINT_END -->

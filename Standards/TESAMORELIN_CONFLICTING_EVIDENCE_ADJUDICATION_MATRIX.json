@@ -1,0 +1,31 @@
+{
+  "build_number": "0058",
+  "peptide": "Tesamorelin",
+  "states": {
+    "LOW": [
+      "HUMAN_REVIEW",
+      "RESOLVED_FOR_SIMULATION"
+    ],
+    "MODERATE": [
+      "HUMAN_REVIEW",
+      "RESOLVED_FOR_SIMULATION or UNRESOLVED_HOLD"
+    ],
+    "HIGH": [
+      "REQUEST_MORE_EVIDENCE",
+      "UNRESOLVED_HOLD"
+    ],
+    "CRITICAL": [
+      "HOLD_NO_ADJUDICATION",
+      "REJECT_EVIDENCE_SET or UNRESOLVED_HOLD"
+    ]
+  },
+  "requirements": [
+    "supporting and contradicting source identities",
+    "conflict scope",
+    "severity",
+    "rationale",
+    "residual uncertainty",
+    "named approvers"
+  ],
+  "clinical_decision_support_authorised": false
+}

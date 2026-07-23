@@ -1,0 +1,25 @@
+{
+  "build_number": "0058",
+  "candidate": "RC2",
+  "peptide": "Tesamorelin",
+  "clinical_recommendation_authorised": false,
+  "clinical_decision_support_authorised": false,
+  "record_type": "tesamorelin_controlled_amendment_decision",
+  "record_id": "AMD-COND-001",
+  "amendment_id": "AMD-002",
+  "trigger_record_ids": [
+    "CED-COND-001"
+  ],
+  "current_version": "1.0.0",
+  "proposed_version": "1.1.0",
+  "changed_controls": [
+    "conflict scoring"
+  ],
+  "impact_assessment": "Validation remains incomplete.",
+  "validation_state": "PARTIAL",
+  "rollback_plan": "Restore version 1.0.0.",
+  "decision": "CONDITIONAL_HOLD",
+  "approvers": [
+    "Change approver"
+  ]
+}

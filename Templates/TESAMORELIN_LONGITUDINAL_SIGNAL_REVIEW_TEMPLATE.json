@@ -1,0 +1,19 @@
+{
+  "build_number": "0058",
+  "candidate": "RC2",
+  "peptide": "Tesamorelin",
+  "clinical_recommendation_authorised": false,
+  "clinical_decision_support_authorised": false,
+  "record_id": "<required>",
+  "approvers": [],
+  "record_type": "tesamorelin_longitudinal_signal_review",
+  "review_period": "",
+  "event_ids": [],
+  "signal_type": "",
+  "occurrence_count": 1,
+  "recurrence_state": "FIRST_OCCURRENCE",
+  "severity": "LOW",
+  "trend": "UNCERTAIN",
+  "evidence_refs": [],
+  "action": "CONTINUE_MONITORING"
+}

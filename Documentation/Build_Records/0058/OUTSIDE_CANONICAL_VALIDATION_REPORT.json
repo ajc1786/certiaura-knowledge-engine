@@ -1,0 +1,14 @@
+{
+  "build_number": "0058",
+  "candidate": "RC2",
+  "package_files": 86,
+  "generated_files": 8,
+  "owned_paths": 94,
+  "formal_assets": 6,
+  "examples": 16,
+  "automated_tests": 27,
+  "synthetic_regression": "BUILD_0058_SYNTHETIC_CANONICAL_REGRESSION_PASS",
+  "git_guard_config_restored": true,
+  "result": "OUTSIDE_CANONICAL_VALIDATED",
+  "windows_report_path_regression": "PASS"
+}

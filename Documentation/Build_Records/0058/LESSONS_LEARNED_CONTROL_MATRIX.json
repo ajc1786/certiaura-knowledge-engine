@@ -1,0 +1,33 @@
+{
+  "build_number": "0058",
+  "controls": [
+    {
+      "id": "0058-C01",
+      "control": "per-source quality and provenance scoring"
+    },
+    {
+      "id": "0058-C02",
+      "control": "explicit conflicting-evidence adjudication"
+    },
+    {
+      "id": "0058-C03",
+      "control": "longitudinal recurrence severity routing"
+    },
+    {
+      "id": "0058-C04",
+      "control": "amendment validation and rollback"
+    },
+    {
+      "id": "0058-C05",
+      "control": "pilot continuation fail-closed criteria"
+    },
+    {
+      "id": "0058-C06",
+      "control": "non-interactive Git guard retained"
+    },
+    {
+      "id": "0058-C07",
+      "control": "Windows single-backslash path normalisation and generated-report self-exclusion regression"
+    }
+  ]
+}

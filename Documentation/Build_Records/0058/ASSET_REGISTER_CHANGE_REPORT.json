@@ -1,0 +1,37 @@
+{
+  "build_number": "0058",
+  "canonical_register": "Documentation/Master_Asset_Register.csv",
+  "changes": [
+    {
+      "repository_path": "Standards/TESAMORELIN_CONFLICTING_EVIDENCE_ADJUDICATION_MATRIX.json",
+      "action": "CREATE",
+      "uai": "CERT-EKS-000787"
+    },
+    {
+      "repository_path": "Standards/TESAMORELIN_CONTROLLED_AMENDMENT_STANDARD.md",
+      "action": "CREATE",
+      "uai": "CERT-SYS-000870"
+    },
+    {
+      "repository_path": "Standards/TESAMORELIN_LONGITUDINAL_SIGNAL_RECURRENCE_MODEL.json",
+      "action": "CREATE",
+      "uai": "CERT-MKS-000220"
+    },
+    {
+      "repository_path": "Standards/TESAMORELIN_MULTI_SOURCE_EVIDENCE_ASSESSMENT_MODEL.json",
+      "action": "CREATE",
+      "uai": "CERT-EKS-000788"
+    },
+    {
+      "repository_path": "Standards/TESAMORELIN_PILOT_CONTINUATION_AND_SUSPENSION_MATRIX.json",
+      "action": "CREATE",
+      "uai": "CERT-PKS-000438"
+    },
+    {
+      "repository_path": "Standards/TESAMORELIN_SOURCE_QUALITY_SCORING_STANDARD.md",
+      "action": "CREATE",
+      "uai": "CERT-EKS-000789"
+    }
+  ],
+  "result": "ASSET_REGISTER_RECONCILED"
+}

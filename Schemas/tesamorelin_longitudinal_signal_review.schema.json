@@ -1,0 +1,113 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://certiaura.invalid/schemas/tesamorelin_longitudinal_signal_review.schema.json",
+  "title": "tesamorelin_longitudinal_signal_review",
+  "type": "object",
+  "required": [
+    "build_number",
+    "record_type",
+    "record_id",
+    "peptide",
+    "clinical_recommendation_authorised",
+    "clinical_decision_support_authorised",
+    "review_period",
+    "event_ids",
+    "signal_type",
+    "occurrence_count",
+    "recurrence_state",
+    "severity",
+    "trend",
+    "evidence_refs",
+    "action",
+    "approvers"
+  ],
+  "properties": {
+    "build_number": {
+      "const": "0058"
+    },
+    "candidate": {
+      "const": "RC2"
+    },
+    "peptide": {
+      "const": "Tesamorelin"
+    },
+    "clinical_recommendation_authorised": {
+      "const": false
+    },
+    "clinical_decision_support_authorised": {
+      "const": false
+    },
+    "record_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "approvers": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "record_type": {
+      "const": "tesamorelin_longitudinal_signal_review"
+    },
+    "review_period": {
+      "type": "string",
+      "minLength": 1
+    },
+    "event_ids": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    },
+    "signal_type": {
+      "type": "string",
+      "minLength": 1
+    },
+    "occurrence_count": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "recurrence_state": {
+      "enum": [
+        "FIRST_OCCURRENCE",
+        "ISOLATED_REPEAT",
+        "RECURRENT",
+        "PERSISTENT"
+      ]
+    },
+    "severity": {
+      "enum": [
+        "LOW",
+        "MODERATE",
+        "HIGH",
+        "CRITICAL"
+      ]
+    },
+    "trend": {
+      "enum": [
+        "STABLE",
+        "INCREASING",
+        "DECREASING",
+        "UNCERTAIN"
+      ]
+    },
+    "evidence_refs": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    },
+    "action": {
+      "enum": [
+        "CONTINUE_MONITORING",
+        "AMEND_AND_MONITOR",
+        "HOLD_AND_ESCALATE",
+        "SUSPEND_PILOT"
+      ]
+    }
+  },
+  "additionalProperties": true
+}

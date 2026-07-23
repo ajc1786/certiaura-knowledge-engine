@@ -1,0 +1,26 @@
+{
+  "build_number": "0058",
+  "candidate": "RC2",
+  "peptide": "Tesamorelin",
+  "clinical_recommendation_authorised": false,
+  "clinical_decision_support_authorised": false,
+  "record_type": "tesamorelin_controlled_amendment_decision",
+  "record_id": "AMD-VALID-001",
+  "amendment_id": "AMD-001",
+  "trigger_record_ids": [
+    "LSR-COND-001"
+  ],
+  "current_version": "1.0.0",
+  "proposed_version": "1.1.0",
+  "changed_controls": [
+    "provenance recurrence threshold",
+    "mandatory escalation route"
+  ],
+  "impact_assessment": "Tightens simulation controls without changing clinical scope.",
+  "validation_state": "COMPLETE",
+  "rollback_plan": "Restore version 1.0.0 and replay the prior audit trail.",
+  "decision": "APPROVE_FOR_SIMULATION",
+  "approvers": [
+    "Change approver"
+  ]
+}

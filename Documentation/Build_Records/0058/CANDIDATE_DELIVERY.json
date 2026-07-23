@@ -1,0 +1,15 @@
+{
+  "build_number": "0058",
+  "candidate": "RC2",
+  "status": "DELIVERED",
+  "title": "tesamorelin multi-source evidence quality assessment, conflicting-evidence adjudication, longitudinal signal recurrence, controlled amendment and pilot continuation governance baseline",
+  "predecessor_commit": "2bf6c2f9fcaacfc0d0942045178269a1241253ee",
+  "predecessor_run_id": 30001181736,
+  "clinical_boundary": "NON_CLINICAL_ONLY",
+  "withdrawn_candidates": [
+    {
+      "candidate": "RC1",
+      "reason": "Windows repository validator failed to normalise single backslashes when excluding its own generated report path"
+    }
+  ]
+}

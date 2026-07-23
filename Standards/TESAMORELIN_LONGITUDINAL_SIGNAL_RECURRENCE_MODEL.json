@@ -1,0 +1,25 @@
+{
+  "build_number": "0058",
+  "peptide": "Tesamorelin",
+  "recurrence_thresholds": {
+    "FIRST_OCCURRENCE": 1,
+    "ISOLATED_REPEAT": 2,
+    "RECURRENT": 3,
+    "PERSISTENT": 4
+  },
+  "mandatory_routes": {
+    "HIGH_RECURRENT": "HOLD_AND_ESCALATE",
+    "CRITICAL_ANY": "SUSPEND_PILOT",
+    "PERSISTENT_MODERATE": "AMEND_AND_MONITOR"
+  },
+  "requirements": [
+    "linked event identifiers",
+    "review period",
+    "occurrence count",
+    "severity",
+    "trend",
+    "evidence references",
+    "human reviewer"
+  ],
+  "clinical_recommendation_authorised": false
+}

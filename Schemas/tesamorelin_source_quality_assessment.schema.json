@@ -1,0 +1,138 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://certiaura.invalid/schemas/tesamorelin_source_quality_assessment.schema.json",
+  "title": "tesamorelin_source_quality_assessment",
+  "type": "object",
+  "required": [
+    "build_number",
+    "record_type",
+    "record_id",
+    "peptide",
+    "clinical_recommendation_authorised",
+    "clinical_decision_support_authorised",
+    "source_assessments",
+    "aggregate_score",
+    "critical_quality_gaps",
+    "decision",
+    "approvers"
+  ],
+  "properties": {
+    "build_number": {
+      "const": "0058"
+    },
+    "candidate": {
+      "const": "RC2"
+    },
+    "peptide": {
+      "const": "Tesamorelin"
+    },
+    "clinical_recommendation_authorised": {
+      "const": false
+    },
+    "clinical_decision_support_authorised": {
+      "const": false
+    },
+    "record_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "approvers": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "record_type": {
+      "const": "tesamorelin_source_quality_assessment"
+    },
+    "source_assessments": {
+      "type": "array",
+      "minItems": 2,
+      "items": {
+        "type": "object",
+        "required": [
+          "source_id",
+          "source_type",
+          "quality_score",
+          "provenance_state",
+          "recency_state",
+          "relevance_state",
+          "limitations",
+          "evidence_position"
+        ],
+        "properties": {
+          "source_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "source_type": {
+            "enum": [
+              "REGULATORY_LABEL",
+              "PEER_REVIEWED",
+              "CLINICAL_GUIDANCE",
+              "OTHER_CONTROLLED"
+            ]
+          },
+          "quality_score": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 100
+          },
+          "provenance_state": {
+            "enum": [
+              "VERIFIED",
+              "CONDITIONAL",
+              "REJECTED"
+            ]
+          },
+          "recency_state": {
+            "enum": [
+              "CURRENT",
+              "STALE",
+              "HISTORICAL"
+            ]
+          },
+          "relevance_state": {
+            "enum": [
+              "DIRECT",
+              "INDIRECT",
+              "OUT_OF_SCOPE"
+            ]
+          },
+          "limitations": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "evidence_position": {
+            "enum": [
+              "SUPPORTS",
+              "CONTRADICTS",
+              "NEUTRAL"
+            ]
+          }
+        }
+      }
+    },
+    "aggregate_score": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 100
+    },
+    "critical_quality_gaps": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "decision": {
+      "enum": [
+        "ACCEPT_FOR_REVIEW",
+        "CONDITIONAL_HOLD",
+        "REJECT"
+      ]
+    }
+  },
+  "additionalProperties": true
+}

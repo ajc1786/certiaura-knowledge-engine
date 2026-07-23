@@ -1,0 +1,16 @@
+{
+  "build_number": "0058",
+  "candidate": "RC2",
+  "title": "tesamorelin multi-source evidence quality assessment, conflicting-evidence adjudication, longitudinal signal recurrence, controlled amendment and pilot continuation governance baseline",
+  "predecessor_build": "0057",
+  "predecessor_candidate": "RC1",
+  "predecessor_commit": "2bf6c2f9fcaacfc0d0942045178269a1241253ee",
+  "predecessor_github_actions_run_id": 30001181736,
+  "capability": "Governed Tesamorelin multi-source quality, conflict, recurrence, amendment and continuation review",
+  "package_file_count": 86,
+  "generated_file_count": 8,
+  "owned_path_count": 94,
+  "withdrawn_candidates": [
+    "RC1"
+  ]
+}

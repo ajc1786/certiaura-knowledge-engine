@@ -1,0 +1,21 @@
+{
+  "build_number": "0058",
+  "peptide": "Tesamorelin",
+  "minimum_sources_for_acceptance": 3,
+  "minimum_aggregate_score": 70,
+  "dimensions": [
+    "provenance",
+    "methodological_quality",
+    "recency",
+    "direct_relevance",
+    "limitations",
+    "evidence_position"
+  ],
+  "fail_closed_conditions": [
+    "rejected provenance",
+    "critical quality gap",
+    "out-of-scope evidence represented as direct",
+    "missing human approval"
+  ],
+  "clinical_recommendation_authorised": false
+}

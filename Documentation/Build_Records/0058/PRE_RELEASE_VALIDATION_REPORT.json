@@ -1,0 +1,9 @@
+{
+  "build_number": "0058",
+  "candidate": "RC2",
+  "package_preflight": "CANDIDATE_RELEASE_VALIDATED",
+  "synthetic_canonical_regression": "PASS",
+  "result": "CANDIDATE_RELEASE_VALIDATED",
+  "rc1_status": "WITHDRAWN",
+  "rc2_correction": "WINDOWS_REPORT_PATH_SELF_EXCLUSION_VALIDATED"
+}

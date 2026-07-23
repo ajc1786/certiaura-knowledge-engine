@@ -7597,5 +7597,15 @@
         "CERT-LESSON-0057-008"
       ]
     }
+  ],
+  "latest_build": "0058",
+  "build_0058_controls": [
+    "source quality scoring",
+    "conflict adjudication",
+    "signal recurrence routing",
+    "controlled amendment",
+    "pilot continuation fail-closed",
+    "non-interactive Git guard",
+    "Windows single-backslash report-path normalisation"
   ]
 }

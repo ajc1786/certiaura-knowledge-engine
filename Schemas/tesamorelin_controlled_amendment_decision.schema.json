@@ -1,0 +1,101 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://certiaura.invalid/schemas/tesamorelin_controlled_amendment_decision.schema.json",
+  "title": "tesamorelin_controlled_amendment_decision",
+  "type": "object",
+  "required": [
+    "build_number",
+    "record_type",
+    "record_id",
+    "peptide",
+    "clinical_recommendation_authorised",
+    "clinical_decision_support_authorised",
+    "amendment_id",
+    "trigger_record_ids",
+    "current_version",
+    "proposed_version",
+    "changed_controls",
+    "impact_assessment",
+    "validation_state",
+    "rollback_plan",
+    "decision",
+    "approvers"
+  ],
+  "properties": {
+    "build_number": {
+      "const": "0058"
+    },
+    "candidate": {
+      "const": "RC2"
+    },
+    "peptide": {
+      "const": "Tesamorelin"
+    },
+    "clinical_recommendation_authorised": {
+      "const": false
+    },
+    "clinical_decision_support_authorised": {
+      "const": false
+    },
+    "record_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "approvers": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "record_type": {
+      "const": "tesamorelin_controlled_amendment_decision"
+    },
+    "amendment_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "trigger_record_ids": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    },
+    "current_version": {
+      "type": "string",
+      "minLength": 1
+    },
+    "proposed_version": {
+      "type": "string",
+      "minLength": 1
+    },
+    "changed_controls": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "impact_assessment": {
+      "type": "string",
+      "minLength": 1
+    },
+    "validation_state": {
+      "enum": [
+        "COMPLETE",
+        "PARTIAL",
+        "NOT_RUN"
+      ]
+    },
+    "rollback_plan": {
+      "type": "string"
+    },
+    "decision": {
+      "enum": [
+        "APPROVE_FOR_SIMULATION",
+        "CONDITIONAL_HOLD",
+        "REJECT"
+      ]
+    }
+  },
+  "additionalProperties": true
+}

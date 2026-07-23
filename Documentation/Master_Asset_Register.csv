@@ -2964,3 +2964,9 @@ CERT-SYS-000869,,SYS,Controlled Standard,ACTIVE,Certiaura Governance,,,,Standard
 CERT-MKS-000218,,MKS,Controlled Model,ACTIVE,Certiaura Governance,,,,Standards/TESAMORELIN_MONITORING_WORKFLOW_SIMULATION_MODEL.json,,1.0.0,,,,,,,,,Build 0057,,,,,Tesamorelin Monitoring Workflow Simulation Model
 CERT-MKS-000219,,MKS,Controlled Matrix,ACTIVE,Certiaura Governance,,,,Standards/TESAMORELIN_SAFETY_ESCALATION_ROUTING_MATRIX.json,,1.0.0,,,,,,,,,Build 0057,,,,,Tesamorelin Safety Escalation Routing Matrix
 CERT-PKS-000437,,PKS,Controlled Matrix,ACTIVE,Certiaura Governance,,,,Standards/TESAMORELIN_SIMULATION_ACCEPTANCE_MATRIX.json,,1.0.0,,,,,,,,,Build 0057,,,,,Tesamorelin Simulation Acceptance Matrix
+CERT-EKS-000787,,EKS,Controlled Matrix,ACTIVE,Certiaura Governance,,,,Standards/TESAMORELIN_CONFLICTING_EVIDENCE_ADJUDICATION_MATRIX.json,,1.0.0,,,,,,,,,Build 0058,,,,,Tesamorelin Conflicting Evidence Adjudication Matrix
+CERT-SYS-000870,,SYS,Controlled Standard,ACTIVE,Certiaura Governance,,,,Standards/TESAMORELIN_CONTROLLED_AMENDMENT_STANDARD.md,,1.0.0,,,,,,,,,Build 0058,,,,,Tesamorelin Controlled Amendment Standard
+CERT-MKS-000220,,MKS,Controlled Model,ACTIVE,Certiaura Governance,,,,Standards/TESAMORELIN_LONGITUDINAL_SIGNAL_RECURRENCE_MODEL.json,,1.0.0,,,,,,,,,Build 0058,,,,,Tesamorelin Longitudinal Signal Recurrence Model
+CERT-EKS-000788,,EKS,Controlled Model,ACTIVE,Certiaura Governance,,,,Standards/TESAMORELIN_MULTI_SOURCE_EVIDENCE_ASSESSMENT_MODEL.json,,1.0.0,,,,,,,,,Build 0058,,,,,Tesamorelin Multi-Source Evidence Assessment Model
+CERT-PKS-000438,,PKS,Controlled Matrix,ACTIVE,Certiaura Governance,,,,Standards/TESAMORELIN_PILOT_CONTINUATION_AND_SUSPENSION_MATRIX.json,,1.0.0,,,,,,,,,Build 0058,,,,,Tesamorelin Pilot Continuation and Suspension Matrix
+CERT-EKS-000789,,EKS,Controlled Standard,ACTIVE,Certiaura Governance,,,,Standards/TESAMORELIN_SOURCE_QUALITY_SCORING_STANDARD.md,,1.0.0,,,,,,,,,Build 0058,,,,,Tesamorelin Source Quality Scoring Standard

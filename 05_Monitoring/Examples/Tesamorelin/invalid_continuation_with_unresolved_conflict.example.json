@@ -1,0 +1,30 @@
+{
+  "build_number": "0058",
+  "candidate": "RC2",
+  "peptide": "Tesamorelin",
+  "clinical_recommendation_authorised": false,
+  "clinical_decision_support_authorised": false,
+  "record_type": "tesamorelin_pilot_continuation_decision",
+  "record_id": "PCD-INV-001",
+  "review_record_ids": [
+    "SQA-VALID-001",
+    "CED-COND-001"
+  ],
+  "source_quality_state": "ACCEPTABLE",
+  "unresolved_conflicts": 1,
+  "recurrent_signals": 0,
+  "open_critical_gaps": [],
+  "amendment_state": "NOT_REQUIRED",
+  "audit_replay_state": "COMPLETE",
+  "decision": "CONTINUE_PILOT",
+  "conditions": [],
+  "prohibited_scope": [
+    "clinical recommendation",
+    "dosing",
+    "diagnosis",
+    "prescribing"
+  ],
+  "approvers": [
+    "Reviewer"
+  ]
+}

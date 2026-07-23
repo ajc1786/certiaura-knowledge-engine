@@ -1,0 +1,24 @@
+{
+  "build_number": "0058",
+  "candidate": "RC2",
+  "peptide": "Tesamorelin",
+  "clinical_recommendation_authorised": false,
+  "clinical_decision_support_authorised": false,
+  "record_type": "tesamorelin_conflicting_evidence_decision",
+  "record_id": "CED-INV-001",
+  "assessment_record_id": "SQA-VALID-001",
+  "conflict_id": "CONFLICT-003",
+  "supporting_source_ids": [
+    "SRC-REG-001"
+  ],
+  "contradicting_source_ids": [],
+  "conflict_scope": "quality threshold",
+  "conflict_severity": "MODERATE",
+  "adjudication_method": "HUMAN_REVIEW",
+  "rationale": "Resolved.",
+  "residual_uncertainty": [],
+  "decision": "RESOLVED_FOR_SIMULATION",
+  "approvers": [
+    "Reviewer"
+  ]
+}

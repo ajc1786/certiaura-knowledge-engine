@@ -1,0 +1,111 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://certiaura.invalid/schemas/tesamorelin_conflicting_evidence_decision.schema.json",
+  "title": "tesamorelin_conflicting_evidence_decision",
+  "type": "object",
+  "required": [
+    "build_number",
+    "record_type",
+    "record_id",
+    "peptide",
+    "clinical_recommendation_authorised",
+    "clinical_decision_support_authorised",
+    "assessment_record_id",
+    "conflict_id",
+    "supporting_source_ids",
+    "contradicting_source_ids",
+    "conflict_scope",
+    "conflict_severity",
+    "adjudication_method",
+    "rationale",
+    "residual_uncertainty",
+    "decision",
+    "approvers"
+  ],
+  "properties": {
+    "build_number": {
+      "const": "0058"
+    },
+    "candidate": {
+      "const": "RC2"
+    },
+    "peptide": {
+      "const": "Tesamorelin"
+    },
+    "clinical_recommendation_authorised": {
+      "const": false
+    },
+    "clinical_decision_support_authorised": {
+      "const": false
+    },
+    "record_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "approvers": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "record_type": {
+      "const": "tesamorelin_conflicting_evidence_decision"
+    },
+    "assessment_record_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "conflict_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "supporting_source_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "contradicting_source_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "conflict_scope": {
+      "type": "string",
+      "minLength": 1
+    },
+    "conflict_severity": {
+      "enum": [
+        "LOW",
+        "MODERATE",
+        "HIGH",
+        "CRITICAL"
+      ]
+    },
+    "adjudication_method": {
+      "enum": [
+        "HUMAN_REVIEW",
+        "REQUEST_MORE_EVIDENCE",
+        "HOLD_NO_ADJUDICATION"
+      ]
+    },
+    "rationale": {
+      "type": "string"
+    },
+    "residual_uncertainty": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "decision": {
+      "enum": [
+        "RESOLVED_FOR_SIMULATION",
+        "UNRESOLVED_HOLD",
+        "REJECT_EVIDENCE_SET"
+      ]
+    }
+  },
+  "additionalProperties": true
+}

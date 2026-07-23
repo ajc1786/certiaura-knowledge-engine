@@ -1,0 +1,53 @@
+{
+  "build_number": "0058",
+  "candidate": "RC2",
+  "peptide": "Tesamorelin",
+  "clinical_recommendation_authorised": false,
+  "clinical_decision_support_authorised": false,
+  "record_type": "tesamorelin_source_quality_assessment",
+  "record_id": "SQA-INV-002",
+  "source_assessments": [
+    {
+      "source_id": "SRC-REG-001",
+      "source_type": "REGULATORY_LABEL",
+      "quality_score": 92,
+      "provenance_state": "VERIFIED",
+      "recency_state": "CURRENT",
+      "relevance_state": "DIRECT",
+      "limitations": [
+        "label scope is indication-specific"
+      ],
+      "evidence_position": "SUPPORTS"
+    },
+    {
+      "source_id": "SRC-PR-001",
+      "source_type": "PEER_REVIEWED",
+      "quality_score": 82,
+      "provenance_state": "CONDITIONAL",
+      "recency_state": "CURRENT",
+      "relevance_state": "DIRECT",
+      "limitations": [
+        "population boundaries apply"
+      ],
+      "evidence_position": "SUPPORTS"
+    },
+    {
+      "source_id": "SRC-GD-001",
+      "source_type": "CLINICAL_GUIDANCE",
+      "quality_score": 76,
+      "provenance_state": "VERIFIED",
+      "recency_state": "CURRENT",
+      "relevance_state": "DIRECT",
+      "limitations": [
+        "guidance context differs from simulation"
+      ],
+      "evidence_position": "NEUTRAL"
+    }
+  ],
+  "aggregate_score": 80,
+  "critical_quality_gaps": [],
+  "decision": "ACCEPT_FOR_REVIEW",
+  "approvers": [
+    "Reviewer"
+  ]
+}
