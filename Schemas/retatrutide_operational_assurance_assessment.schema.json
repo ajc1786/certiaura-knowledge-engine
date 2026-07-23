@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "operational_assurance_assessment",
+  "type": "object",
+  "properties": {
+    "record_type": {
+      "const": "operational_assurance_assessment"
+    },
+    "build_number": {
+      "const": "0054"
+    },
+    "created_at": {
+      "type": "string"
+    },
+    "created_by": {
+      "type": "string"
+    },
+    "peptide_uai": {
+      "const": "CERT-PKS-000001"
+    },
+    "assessment_id": {
+      "type": "string"
+    },
+    "coverage_domains": {
+      "type": "array"
+    },
+    "end_to_end_workflows": {
+      "type": "array"
+    },
+    "open_critical_gaps": {
+      "type": "array"
+    },
+    "overall_result": {
+      "enum": [
+        "PASS",
+        "CONDITIONAL",
+        "FAIL"
+      ]
+    },
+    "human_approver": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "record_type",
+    "build_number",
+    "created_at",
+    "created_by",
+    "peptide_uai",
+    "assessment_id",
+    "coverage_domains",
+    "end_to_end_workflows",
+    "open_critical_gaps",
+    "overall_result",
+    "human_approver"
+  ],
+  "additionalProperties": true
+}

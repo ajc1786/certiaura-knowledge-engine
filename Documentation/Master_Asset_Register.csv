@@ -2940,3 +2940,8 @@ CERT-SYS-000858,,SYS,Controlled Standard,ACTIVE,Certiaura Governance,,,,Standard
 CERT-SYS-000859,,SYS,Control Matrix,ACTIVE,Certiaura Governance,,,,Standards/RETATRUTIDE_KNOWLEDGE_CHANGE_PROPAGATION_MATRIX.json,,1.0.0,,,,,,,,,Build 0053,,,,,Retatrutide Knowledge Change Propagation Matrix
 CERT-MKS-000213,,MKS,Control Matrix,ACTIVE,Certiaura Governance,,,,Standards/RETATRUTIDE_POST_CHANGE_EFFECTIVENESS_MATRIX.json,,1.0.0,,,,,,,,,Build 0053,,,,,Retatrutide Post-Change Effectiveness Matrix
 CERT-RKS-000013,,RKS,Control Matrix,ACTIVE,Certiaura Governance,,,,Standards/RETATRUTIDE_PUBLICATION_STATE_TRANSITION_MATRIX.json,,1.0.0,,,,,,,,,Build 0053,,,,,Retatrutide Publication State Transition Matrix
+CERT-SYS-000860,,SYS,Controlled Standard,ACTIVE,Certiaura Governance,,,,Standards/RETATRUTIDE_ARCHITECTURE_REUSE_DECISION_STANDARD.md,,1.0.0,,,,,,,,,Build 0054,,,,,Retatrutide Architecture Reuse Decision Standard
+CERT-RKS-000014,,RKS,Controlled Matrix,ACTIVE,Certiaura Governance,,,,Standards/RETATRUTIDE_CONTROLLED_RELEASE_READINESS_MATRIX.json,,1.0.0,,,,,,,,,Build 0054,,,,,Retatrutide Controlled Release Readiness Matrix
+CERT-SYS-000861,,SYS,Controlled Standard,ACTIVE,Certiaura Governance,,,,Standards/RETATRUTIDE_END_TO_END_OPERATIONAL_ASSURANCE_STANDARD.md,,1.0.0,,,,,,,,,Build 0054,,,,,Retatrutide End-to-End Operational Assurance Standard
+CERT-MKS-000214,,MKS,Controlled Matrix,ACTIVE,Certiaura Governance,,,,Standards/RETATRUTIDE_FAILURE_MODE_COVERAGE_MATRIX.json,,1.0.0,,,,,,,,,Build 0054,,,,,Retatrutide Failure Mode Coverage Matrix
+CERT-SYS-000862,,SYS,Controlled Matrix,ACTIVE,Certiaura Governance,,,,Standards/RETATRUTIDE_PLATINUM_READINESS_ASSESSMENT_MATRIX.json,,1.0.0,,,,,,,,,Build 0054,,,,,Retatrutide Platinum Readiness Assessment Matrix

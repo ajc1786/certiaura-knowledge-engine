@@ -1,0 +1,50 @@
+{
+  "build_number": "0054",
+  "accepted_defects": [
+    {
+      "defect_id": "BUILD_0054_RC1_UNDECLARED_PREDECESSOR_PATH_OVERLAP",
+      "candidate": "RC1",
+      "status": "RESOLVED_IN_RC2",
+      "failed_gate": "PREDECESSOR_FIXTURE_ISOLATION",
+      "path": "13_Project_Genesis/Validators/verify_staged_byte_equality.py",
+      "root_cause": "A byte-identical predecessor control intentionally reused by Build 0054 was incorrectly declared CREATE without approved_predecessor_overlap.",
+      "canonical_repository_modified": false,
+      "corrective_action": "Declare the reused path as UPDATE with explicit approved predecessor overlap and add a predecessor-aware executable regression fixture."
+    },
+    {
+      "defect_id": "BUILD_0054_RC2_NO_OP_UPDATE_STAGED_OWNERSHIP_MISMATCH",
+      "candidate": "RC2",
+      "status": "RESOLVED_IN_RC3",
+      "failed_gate": "TEMPORARY_CLONE_STAGED_OWNERSHIP",
+      "path": "13_Project_Genesis/Validators/verify_staged_byte_equality.py",
+      "root_cause": "The staged-ownership gate incorrectly required every owned path to appear in the staged diff, while the approved predecessor UPDATE was byte-identical and therefore produced no Git change. The synthetic predecessor fixture used placeholder bytes and did not reproduce the canonical no-op condition.",
+      "canonical_repository_modified": false,
+      "corrective_action": "Preserve the exact predecessor bytes in the regression fixture; distinguish manifest ownership from the actual Git change-set; allow no-op paths only for explicit approved predecessor UPDATE entries; require the staged set to equal the actual Git change-set and reject all changes outside ownership."
+    },
+    {
+      "defect_id": "BUILD_0054_RC3_STRICTMODE_OPTIONAL_PROPERTY_ACCESS",
+      "candidate": "RC3",
+      "status": "RESOLVED_IN_RC4",
+      "failed_gate": "TEMPORARY_CLONE_OPTIONAL_NO_OP_CLASSIFICATION",
+      "path": "Scripts/Invoke_Certiaura_Build_0054_Windows_PS51_Regression.ps1",
+      "root_cause": "Under Windows PowerShell StrictMode, direct access to approved_predecessor_overlap failed on manifest entries where that optional property was absent.",
+      "canonical_repository_modified": false,
+      "corrective_action": "Resolve optional manifest properties through PSObject.Properties before reading values, add an executable mixed-entry StrictMode probe, and prohibit direct optional-property dereference in both temporary and canonical staging gates."
+    }
+  ],
+  "inherited_controls": [
+    "predecessor fixture isolation",
+    "canonical register topology",
+    "explicit LF writer policy",
+    "pre-canonical full suite",
+    "automatic rollback",
+    "GitHub Actions run ID closure evidence",
+    "owned-path versus staged-change-set separation",
+    "StrictMode-safe optional manifest property access"
+  ],
+  "withdrawn_prohibited_candidates": [
+    "RC1",
+    "RC2",
+    "RC3"
+  ]
+}

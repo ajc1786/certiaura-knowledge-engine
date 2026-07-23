@@ -1,0 +1,9 @@
+{
+  "build_number": "0054",
+  "required_predecessor_build": "0053",
+  "required_predecessor_candidate": "RC4",
+  "required_predecessor_commit": "d5b7b84a2c543bbdd5cad8727f1c9005c27ca70d",
+  "required_predecessor_package_path_count": 83,
+  "required_actions_run_id": 29986875639,
+  "required_actions_conclusion": "success"
+}

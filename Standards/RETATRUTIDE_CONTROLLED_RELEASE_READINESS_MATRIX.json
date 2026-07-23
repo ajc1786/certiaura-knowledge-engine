@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0.0",
+  "build_number": "0054",
+  "states": [
+    "RELEASE",
+    "HOLD",
+    "REMEDIATE"
+  ],
+  "release_requires": [
+    "operational assurance PASS",
+    "failure-mode coverage PASS",
+    "PLATINUM_READY",
+    "zero unresolved critical gaps",
+    "two human approvers",
+    "canonical validation and staged-byte equality"
+  ]
+}

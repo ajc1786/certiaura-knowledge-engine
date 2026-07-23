@@ -1,0 +1,34 @@
+{
+  "build_number": "0054",
+  "created_at": "2026-07-23T08:00:00Z",
+  "created_by": "Certiaura Governance",
+  "peptide_uai": "CERT-PKS-000001",
+  "record_type": "failure_mode_coverage_assessment",
+  "assessment_id": "RET-FMC-0054-001",
+  "failure_modes": [
+    {
+      "failure_mode_id": "FM-001",
+      "trigger": "partial propagation",
+      "detection_control": "expected/applied target equality",
+      "containment_control": "publication hold",
+      "rollback_control": "transaction backup",
+      "test_evidence": [
+        "test_partial_propagation_fails"
+      ],
+      "coverage_status": "COVERED"
+    },
+    {
+      "failure_mode_id": "FM-002",
+      "trigger": "post-import validation failure",
+      "detection_control": "full canonical test suite",
+      "containment_control": "commit block",
+      "rollback_control": "automatic rollback",
+      "test_evidence": [
+        "test_post_import_failure_rollback_restores_staged_repository"
+      ],
+      "coverage_status": "COVERED"
+    }
+  ],
+  "overall_coverage": "PASS",
+  "human_approver": "Risk control reviewer"
+}

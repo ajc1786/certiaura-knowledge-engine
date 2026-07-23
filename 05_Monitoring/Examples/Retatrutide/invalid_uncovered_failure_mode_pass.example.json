@@ -1,0 +1,21 @@
+{
+  "build_number": "0054",
+  "created_at": "2026-07-23T08:00:00Z",
+  "created_by": "Certiaura Governance",
+  "peptide_uai": "CERT-PKS-000001",
+  "record_type": "failure_mode_coverage_assessment",
+  "assessment_id": "RET-FMC-0054-X01",
+  "failure_modes": [
+    {
+      "failure_mode_id": "FM-X",
+      "trigger": "unknown",
+      "detection_control": "none",
+      "containment_control": "none",
+      "rollback_control": "none",
+      "test_evidence": [],
+      "coverage_status": "UNCOVERED"
+    }
+  ],
+  "overall_coverage": "PASS",
+  "human_approver": "Reviewer"
+}

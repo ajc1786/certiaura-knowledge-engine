@@ -1,0 +1,8 @@
+{
+  "build_number": "0054",
+  "candidate": "RC4",
+  "package_validation": "PASS",
+  "windows_ps51_gate": "EMBEDDED_AND_REQUIRED",
+  "actions_run_id_gate": "EMBEDDED_AND_REQUIRED_AT_CLOSURE",
+  "result": "CANDIDATE_READY"
+}

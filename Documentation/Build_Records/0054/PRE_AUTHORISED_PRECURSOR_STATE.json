@@ -1,0 +1,6 @@
+{
+  "build_number": "0054",
+  "state": "GREEN_AUTHORISED",
+  "authorisation_source": "Founder command: build",
+  "predecessor_status": "ACTIONS_GREEN_CLOSED"
+}

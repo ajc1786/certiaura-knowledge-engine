@@ -1,0 +1,20 @@
+{
+  "build_number": "0054",
+  "created_at": "2026-07-23T08:00:00Z",
+  "created_by": "Certiaura Governance",
+  "peptide_uai": "CERT-PKS-000001",
+  "record_type": "platinum_readiness_assessment",
+  "assessment_id": "RET-PLAT-0054-X01",
+  "dimensions": [
+    {
+      "dimension": "governance",
+      "score": 5.0,
+      "evidence_links": [],
+      "gaps": []
+    }
+  ],
+  "overall_score": 5.0,
+  "critical_gaps": [],
+  "readiness_state": "PLATINUM_READY",
+  "human_approver": "Panel"
+}

@@ -1,0 +1,456 @@
+{
+  "build_number": "0054",
+  "routing_rule": "FLAT_REPOSITORY_RELATIVE",
+  "paths": [
+    {
+      "repository_path": "05_Monitoring/Examples/Retatrutide/conditional_architecture_reuse_decision.example.json",
+      "classification": "EXAMPLE",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "05_Monitoring/Examples/Retatrutide/conditional_failure_mode_coverage_assessment.example.json",
+      "classification": "EXAMPLE",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "05_Monitoring/Examples/Retatrutide/conditional_operational_assurance_assessment.example.json",
+      "classification": "EXAMPLE",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "05_Monitoring/Examples/Retatrutide/conditional_platinum_readiness_assessment.example.json",
+      "classification": "EXAMPLE",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "05_Monitoring/Examples/Retatrutide/invalid_autonomous_release.example.json",
+      "classification": "EXAMPLE",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "05_Monitoring/Examples/Retatrutide/invalid_incomplete_workflow_coverage.example.json",
+      "classification": "EXAMPLE",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "05_Monitoring/Examples/Retatrutide/invalid_platinum_without_evidence.example.json",
+      "classification": "EXAMPLE",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "05_Monitoring/Examples/Retatrutide/invalid_reuse_before_readiness.example.json",
+      "classification": "EXAMPLE",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "05_Monitoring/Examples/Retatrutide/invalid_uncovered_failure_mode_pass.example.json",
+      "classification": "EXAMPLE",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "05_Monitoring/Examples/Retatrutide/valid_architecture_reuse_decision.example.json",
+      "classification": "EXAMPLE",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "05_Monitoring/Examples/Retatrutide/valid_controlled_release_readiness_decision.example.json",
+      "classification": "EXAMPLE",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "05_Monitoring/Examples/Retatrutide/valid_failure_mode_coverage_assessment.example.json",
+      "classification": "EXAMPLE",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "05_Monitoring/Examples/Retatrutide/valid_operational_assurance_assessment.example.json",
+      "classification": "EXAMPLE",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "05_Monitoring/Examples/Retatrutide/valid_platinum_readiness_assessment.example.json",
+      "classification": "EXAMPLE",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "13_Project_Genesis/Dashboards/generate_retatrutide_operational_assurance_summary.py",
+      "classification": "SCRIPT",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "13_Project_Genesis/Import/run_build_0054_import.py",
+      "classification": "SCRIPT",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "13_Project_Genesis/Release/derive_build_0053_predecessor_evidence.py",
+      "classification": "SCRIPT",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "13_Project_Genesis/Release/run_build_0054_preflight.py",
+      "classification": "SCRIPT",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "13_Project_Genesis/Tests/test_build_0054_operational_assurance.py",
+      "classification": "TEST",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "13_Project_Genesis/Tests/test_build_0054_predecessor_evidence.py",
+      "classification": "TEST",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "13_Project_Genesis/Tests/test_build_0054_repository.py",
+      "classification": "TEST",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "13_Project_Genesis/Tests/test_build_0054_transactional_import.py",
+      "classification": "TEST",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "13_Project_Genesis/Validators/build_0054_asset_ownership.py",
+      "classification": "SCRIPT",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "13_Project_Genesis/Validators/retatrutide_operational_assurance_common.py",
+      "classification": "SCRIPT",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "13_Project_Genesis/Validators/validate_build_0054_repository.py",
+      "classification": "SCRIPT",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "13_Project_Genesis/Validators/validate_retatrutide_operational_assurance.py",
+      "classification": "SCRIPT",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "13_Project_Genesis/Validators/verify_staged_byte_equality.py",
+      "classification": "SCRIPT",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "Database/Registers/Retatrutide_Architecture_Reuse_Decision_Register.csv",
+      "classification": "SUPPORTING_FILE",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "Database/Registers/Retatrutide_Controlled_Release_Readiness_Register.csv",
+      "classification": "SUPPORTING_FILE",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "Database/Registers/Retatrutide_Failure_Mode_Coverage_Register.csv",
+      "classification": "SUPPORTING_FILE",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "Database/Registers/Retatrutide_Operational_Assurance_Register.csv",
+      "classification": "SUPPORTING_FILE",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "Database/Registers/Retatrutide_Platinum_Readiness_Gap_Register.csv",
+      "classification": "SUPPORTING_FILE",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0054/ACCUMULATED_LESSONS_DELTA.json",
+      "classification": "BUILD_RECORD",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0054/ASSET_INTENT_MANIFEST.json",
+      "classification": "BUILD_RECORD",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0054/ASSET_REGISTER_RECONCILIATION_POLICY.json",
+      "classification": "BUILD_RECORD",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0054/BUILD_MANIFEST.json",
+      "classification": "BUILD_RECORD",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0054/CANDIDATE_DELIVERY.json",
+      "classification": "BUILD_RECORD",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0054/CHECKSUMS.sha256",
+      "classification": "BUILD_RECORD",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0054/COMMIT_MESSAGE.txt",
+      "classification": "BUILD_RECORD",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0054/CONFLICT_POLICY.json",
+      "classification": "BUILD_RECORD",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0054/CONTINUITY_CHECKPOINT_DELTA.json",
+      "classification": "BUILD_RECORD",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0054/DECISION_RECORD_0054.md",
+      "classification": "BUILD_RECORD",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0054/GITHUB_ACTIONS_CLOSURE_EVIDENCE_REQUIREMENTS.json",
+      "classification": "BUILD_RECORD",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0054/LESSONS_LEARNED_CONTROL_MATRIX.json",
+      "classification": "BUILD_RECORD",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0054/LESSONS_LEARNED_REVIEW.md",
+      "classification": "BUILD_RECORD",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0054/OUTSIDE_CANONICAL_VALIDATION_REPORT.json",
+      "classification": "BUILD_RECORD",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0054/PACKAGE_INVENTORY.csv",
+      "classification": "BUILD_RECORD",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0054/PACKAGE_VERSION.json",
+      "classification": "BUILD_RECORD",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0054/PREDECESSOR_REQUIREMENTS.json",
+      "classification": "BUILD_RECORD",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0054/PRE_AUTHORISED_PRECURSOR_STATE.json",
+      "classification": "BUILD_RECORD",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0054/PRE_RELEASE_VALIDATION_REPORT.json",
+      "classification": "BUILD_RECORD",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0054/PROJECT_GENESIS_IMPORT_HOOK.json",
+      "classification": "BUILD_RECORD",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0054/PROPOSED_NEXT_ACTION.md",
+      "classification": "BUILD_RECORD",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0054/READ_ME_FIRST.md",
+      "classification": "BUILD_RECORD",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0054/REAL_WORLD_OPERATOR_WORKFLOW_REGRESSION_REPORT.json",
+      "classification": "BUILD_RECORD",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0054/ROLLBACK_RUNBOOK.md",
+      "classification": "BUILD_RECORD",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0054/ROUTING_MANIFEST.json",
+      "classification": "BUILD_RECORD",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0054/SOURCE_INPUT_DEFECT_LOG.json",
+      "classification": "BUILD_RECORD",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0054/VALIDATION_REQUIREMENTS.json",
+      "classification": "BUILD_RECORD",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "Schemas/retatrutide_architecture_reuse_decision.schema.json",
+      "classification": "SCHEMA",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "Schemas/retatrutide_controlled_release_readiness_decision.schema.json",
+      "classification": "SCHEMA",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "Schemas/retatrutide_failure_mode_coverage_assessment.schema.json",
+      "classification": "SCHEMA",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "Schemas/retatrutide_operational_assurance_assessment.schema.json",
+      "classification": "SCHEMA",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "Schemas/retatrutide_platinum_readiness_assessment.schema.json",
+      "classification": "SCHEMA",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "Scripts/Close_Certiaura_Build_0054.ps1",
+      "classification": "SCRIPT",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "Scripts/Invoke_Certiaura_Build_0054_Import.ps1",
+      "classification": "SCRIPT",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "Scripts/Invoke_Certiaura_Build_0054_Preflight.ps1",
+      "classification": "SCRIPT",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "Scripts/Invoke_Certiaura_Build_0054_Windows_PS51_Regression.ps1",
+      "classification": "SCRIPT",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "Scripts/Run_Certiaura_Build_0054.ps1",
+      "classification": "SCRIPT",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "Scripts/START_BUILD_0054.cmd",
+      "classification": "SCRIPT",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "Scripts/update_certiaura_build_0054_controls.py",
+      "classification": "SCRIPT",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "Standards/RETATRUTIDE_ARCHITECTURE_REUSE_DECISION_STANDARD.md",
+      "classification": "FORMAL_ASSET",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "Standards/RETATRUTIDE_CONTROLLED_RELEASE_READINESS_MATRIX.json",
+      "classification": "FORMAL_ASSET",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "Standards/RETATRUTIDE_END_TO_END_OPERATIONAL_ASSURANCE_STANDARD.md",
+      "classification": "FORMAL_ASSET",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "Standards/RETATRUTIDE_FAILURE_MODE_COVERAGE_MATRIX.json",
+      "classification": "FORMAL_ASSET",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "Standards/RETATRUTIDE_PLATINUM_READINESS_ASSESSMENT_MATRIX.json",
+      "classification": "FORMAL_ASSET",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "Templates/RETATRUTIDE_ARCHITECTURE_REUSE_DECISION_TEMPLATE.json",
+      "classification": "TEMPLATE",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "Templates/RETATRUTIDE_CONTROLLED_RELEASE_READINESS_DECISION_TEMPLATE.json",
+      "classification": "TEMPLATE",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "Templates/RETATRUTIDE_FAILURE_MODE_COVERAGE_ASSESSMENT_TEMPLATE.json",
+      "classification": "TEMPLATE",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "Templates/RETATRUTIDE_OPERATIONAL_ASSURANCE_ASSESSMENT_TEMPLATE.json",
+      "classification": "TEMPLATE",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "Templates/RETATRUTIDE_PLATINUM_READINESS_ASSESSMENT_TEMPLATE.json",
+      "classification": "TEMPLATE",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "Templates/RETATRUTIDE_PLATINUM_READINESS_EXECUTIVE_SUMMARY_TEMPLATE.md",
+      "classification": "TEMPLATE",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "00_Governance/CERTIAURA_LOCKED_ACCUMULATED_LESSONS_AND_CONTINUOUS_LEARNING_STANDARD.control.json",
+      "classification": "NON_ASSET_ADMIN",
+      "action": "UPDATE"
+    },
+    {
+      "repository_path": "00_Governance/CERTIAURA_LOCKED_ACCUMULATED_LESSONS_AND_CONTINUOUS_LEARNING_STANDARD.md",
+      "classification": "NON_ASSET_ADMIN",
+      "action": "UPDATE"
+    },
+    {
+      "repository_path": "00_Governance/CERTIAURA_LOCKED_BUILD_CONTINUITY_AND_CHECKPOINT.md",
+      "classification": "NON_ASSET_ADMIN",
+      "action": "UPDATE"
+    },
+    {
+      "repository_path": "Documentation/Master_Asset_Register.csv",
+      "classification": "CANONICAL_REGISTER",
+      "action": "UPDATE"
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0054/ASSET_REGISTER_CHANGE_REPORT.json",
+      "classification": "BUILD_RECORD",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0054/CANONICAL_IMPORT_REPORT.json",
+      "classification": "BUILD_RECORD",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0054/POST_IMPORT_REPOSITORY_VALIDATION.json",
+      "classification": "BUILD_RECORD",
+      "action": "CREATE"
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0054/PREDECESSOR_CANONICAL_EVIDENCE.json",
+      "classification": "BUILD_RECORD",
+      "action": "CREATE"
+    }
+  ]
+}

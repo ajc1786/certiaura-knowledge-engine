@@ -1,0 +1,8 @@
+{
+  "build_number": "0054",
+  "import_script": "13_Project_Genesis/Import/run_build_0054_import.py",
+  "dry_run_required": true,
+  "forced_rollback_required": true,
+  "pre_canonical_full_suite_required": true,
+  "automatic_post_import_rollback_required": true
+}

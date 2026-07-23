@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0.0",
+  "build_number": "0054",
+  "required_control_layers": [
+    "trigger",
+    "detection_control",
+    "containment_control",
+    "rollback_control",
+    "test_evidence"
+  ],
+  "coverage_states": [
+    "COVERED",
+    "PARTIAL",
+    "UNCOVERED"
+  ],
+  "release_rule": "No RELEASE when any critical failure mode is PARTIAL or UNCOVERED."
+}

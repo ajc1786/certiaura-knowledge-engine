@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "platinum_readiness_assessment",
+  "type": "object",
+  "properties": {
+    "record_type": {
+      "const": "platinum_readiness_assessment"
+    },
+    "build_number": {
+      "const": "0054"
+    },
+    "created_at": {
+      "type": "string"
+    },
+    "created_by": {
+      "type": "string"
+    },
+    "peptide_uai": {
+      "const": "CERT-PKS-000001"
+    },
+    "assessment_id": {
+      "type": "string"
+    },
+    "dimensions": {
+      "type": "array"
+    },
+    "overall_score": {
+      "type": "number"
+    },
+    "critical_gaps": {
+      "type": "array"
+    },
+    "readiness_state": {
+      "enum": [
+        "PLATINUM_READY",
+        "CONDITIONAL",
+        "NOT_READY"
+      ]
+    },
+    "human_approver": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "record_type",
+    "build_number",
+    "created_at",
+    "created_by",
+    "peptide_uai",
+    "assessment_id",
+    "dimensions",
+    "overall_score",
+    "critical_gaps",
+    "readiness_state",
+    "human_approver"
+  ],
+  "additionalProperties": true
+}

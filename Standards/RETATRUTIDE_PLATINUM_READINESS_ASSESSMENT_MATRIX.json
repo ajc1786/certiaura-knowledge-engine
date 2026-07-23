@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0.0",
+  "build_number": "0054",
+  "dimensions": [
+    "governance",
+    "scientific evidence",
+    "safety",
+    "monitoring",
+    "reporting",
+    "auditability",
+    "operator usability",
+    "recovery",
+    "release closure"
+  ],
+  "score_scale": {
+    "minimum": 0,
+    "maximum": 5
+  },
+  "platinum_threshold": 4.5,
+  "critical_gap_override": "Any critical gap blocks PLATINUM_READY regardless of score."
+}

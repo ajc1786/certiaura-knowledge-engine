@@ -1,0 +1,29 @@
+{
+  "build_number": "0054",
+  "mandatory": true,
+  "must_match_canonical_commit": true,
+  "fields": [
+    "canonical_commit_sha",
+    "run_id",
+    "workflow_name",
+    "status",
+    "conclusion",
+    "run_attempt",
+    "branch",
+    "event",
+    "created_at",
+    "updated_at",
+    "local_head",
+    "origin_main",
+    "repository_clean",
+    "founder_phrase"
+  ],
+  "required_values": {
+    "status": "completed",
+    "conclusion": "success",
+    "branch": "main",
+    "event": "push",
+    "founder_phrase": "GREEN"
+  },
+  "closure_block": "ACTIONS_GREEN_CLOSED is prohibited if run_id is absent."
+}

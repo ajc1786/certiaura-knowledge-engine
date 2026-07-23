@@ -1,0 +1,50 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "failure_mode_coverage_assessment",
+  "type": "object",
+  "properties": {
+    "record_type": {
+      "const": "failure_mode_coverage_assessment"
+    },
+    "build_number": {
+      "const": "0054"
+    },
+    "created_at": {
+      "type": "string"
+    },
+    "created_by": {
+      "type": "string"
+    },
+    "peptide_uai": {
+      "const": "CERT-PKS-000001"
+    },
+    "assessment_id": {
+      "type": "string"
+    },
+    "failure_modes": {
+      "type": "array"
+    },
+    "overall_coverage": {
+      "enum": [
+        "PASS",
+        "CONDITIONAL",
+        "FAIL"
+      ]
+    },
+    "human_approver": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "record_type",
+    "build_number",
+    "created_at",
+    "created_by",
+    "peptide_uai",
+    "assessment_id",
+    "failure_modes",
+    "overall_coverage",
+    "human_approver"
+  ],
+  "additionalProperties": true
+}

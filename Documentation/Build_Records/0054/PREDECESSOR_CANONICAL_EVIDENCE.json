@@ -1,0 +1,524 @@
+{
+  "schema_version": "1.0.0",
+  "generated_at": "2026-07-23T08:46:23.418575+00:00",
+  "source": "CANONICAL_GIT_OBJECTS",
+  "predecessor_build": "0053",
+  "predecessor_candidate": "RC4",
+  "predecessor_commit": "d5b7b84a2c543bbdd5cad8727f1c9005c27ca70d",
+  "manifest_path": "Documentation/Build_Records/0053/ASSET_INTENT_MANIFEST.json",
+  "predecessor_path_count": 83,
+  "current_build": "0054",
+  "intersection": [
+    "13_Project_Genesis/Validators/verify_staged_byte_equality.py"
+  ],
+  "approved_intersection": [
+    "13_Project_Genesis/Validators/verify_staged_byte_equality.py"
+  ],
+  "prohibited_intersection": [],
+  "withdrawn_candidates": [
+    "RC1",
+    "RC2",
+    "RC3"
+  ],
+  "blobs": [
+    {
+      "repository_path": "05_Monitoring/Examples/Retatrutide/conditional_insufficient_evidence_change.example.json",
+      "git_blob": "f2dda857f409671cbee2a335ad320f15f6605732",
+      "sha256": "23ed547b83ed9adbd6bdd38533ae5f68cdfd9100a99cb2d96c36e2f16286acb5",
+      "size_bytes": 1007
+    },
+    {
+      "repository_path": "05_Monitoring/Examples/Retatrutide/invalid_autonomous_knowledge_change.example.json",
+      "git_blob": "9ccf1346f0abc9d1a61685c733004bfb7fd959e6",
+      "sha256": "f844354e2157bef8c6b4955d1ce475b33aa83a4cd75caba7f0204f14ea909e30",
+      "size_bytes": 1079
+    },
+    {
+      "repository_path": "05_Monitoring/Examples/Retatrutide/invalid_effectiveness_without_evidence.example.json",
+      "git_blob": "e1b1d6cd6b532ce082d56dd6d6f5e2592ec17f3d",
+      "sha256": "b1b59f6a6a1393d5d8e9089d6dfb26d4abe58f2c2e3f24f51d5eb23988c938ac",
+      "size_bytes": 852
+    },
+    {
+      "repository_path": "05_Monitoring/Examples/Retatrutide/invalid_partial_propagation.example.json",
+      "git_blob": "ff5903b8dbe8d2422c28c1261653cbdc3034fa0e",
+      "sha256": "ca459876949048e96e4c08ec39b732db35d41070ee743a91c9e67508d782aa39",
+      "size_bytes": 2411
+    },
+    {
+      "repository_path": "05_Monitoring/Examples/Retatrutide/invalid_publication_before_approval.example.json",
+      "git_blob": "e456047dc4111fc135e13f84fb96d6634cd5f4c1",
+      "sha256": "b7528e652aa4a2ef114632e5fb0684901aa541d30962750d7c4e350c47b86b57",
+      "size_bytes": 944
+    },
+    {
+      "repository_path": "05_Monitoring/Examples/Retatrutide/valid_change_implementation_package.example.json",
+      "git_blob": "6534fe9a81c03312328e817f866a3626978c169e",
+      "sha256": "e898905beaea17bdeaaecb64e4f3fa3c91b5893c4905f47760e994cd769205ce",
+      "size_bytes": 2477
+    },
+    {
+      "repository_path": "05_Monitoring/Examples/Retatrutide/valid_change_reopening_decision.example.json",
+      "git_blob": "9b5fa8f6bfd0beba4fb4557920fcd12ca61a8fa7",
+      "sha256": "35630d4432dfca6bfcb524d9e86a3a60146bda6f15fdc692d58709421fa2b81d",
+      "size_bytes": 615
+    },
+    {
+      "repository_path": "05_Monitoring/Examples/Retatrutide/valid_controlled_change_approval.example.json",
+      "git_blob": "1cd23c7999c26ed6bb425a4a8f906ea4b6870c63",
+      "sha256": "794c382f9b6e26a483055cb75800ad04c91846d1575caa42eb9a8ef33cd7513f",
+      "size_bytes": 948
+    },
+    {
+      "repository_path": "05_Monitoring/Examples/Retatrutide/valid_cross_asset_impact_assessment.example.json",
+      "git_blob": "fcd0cdba0b9b3c530cbb1d94d785fe36909cc095",
+      "sha256": "717624e9dfa91be911954b4bfb6ceed7c2d9560fc3d5760f950728326eacd564",
+      "size_bytes": 1517
+    },
+    {
+      "repository_path": "05_Monitoring/Examples/Retatrutide/valid_knowledge_change_proposal.example.json",
+      "git_blob": "37006b5f836e0400eb5fccc505369f78c9aa4a5e",
+      "sha256": "22182b8b9f21b805ad94224878af128e559e8997abb7144afe6aabb3893000d7",
+      "size_bytes": 1079
+    },
+    {
+      "repository_path": "05_Monitoring/Examples/Retatrutide/valid_post_change_effectiveness_review.example.json",
+      "git_blob": "89e96c922f15d41f1bc31c8e8aa9a3bbd5142e82",
+      "sha256": "ace3d1fd2e7780a1ee66005736ba6d69bf83fa4c3ff067b653dfd58c39ff892b",
+      "size_bytes": 872
+    },
+    {
+      "repository_path": "05_Monitoring/Examples/Retatrutide/valid_publication_release.example.json",
+      "git_blob": "ac90ccbe958c89dc8962fcd77529443a22c7dfb4",
+      "sha256": "101cd96021b1803d5271c2de25e48e1afe7ff1b7b68ef8f7097eab4ac43d5449",
+      "size_bytes": 952
+    },
+    {
+      "repository_path": "13_Project_Genesis/Dashboards/generate_retatrutide_knowledge_change_summary.py",
+      "git_blob": "5a8dcf7485c7bd4c1c442b981e1fdc26dc220f30",
+      "sha256": "81b0da4ec4963c1327efc4f7c45fb0c752f16895f86a2ea39cf4a407721d7d1b",
+      "size_bytes": 1376
+    },
+    {
+      "repository_path": "13_Project_Genesis/Import/run_build_0053_import.py",
+      "git_blob": "0c8f7a28cbca679cab373367aaa02c5a012d556f",
+      "sha256": "834c09adc13613fce14f1b8c30739d6d28b02580dcefa5dc99dcf2b28da9eb90",
+      "size_bytes": 25007
+    },
+    {
+      "repository_path": "13_Project_Genesis/Release/derive_build_0052_predecessor_evidence.py",
+      "git_blob": "96b42c0cb8a1d9b9f4020b49231e13a3cdfdbbef",
+      "sha256": "757a11cfb6215537312bac96f08f10846ceded16d1351ffb1cfbcf2ea2f14ae7",
+      "size_bytes": 6122
+    },
+    {
+      "repository_path": "13_Project_Genesis/Release/run_build_0053_preflight.py",
+      "git_blob": "0d32446b79cd9dcd00ba6437d5fbc1664ad94e3f",
+      "sha256": "7695d7cb7b7bd1dc95b9d0ccbd7c6d76c3ae1d308ec5e27be8e9ec0c93f07f30",
+      "size_bytes": 2883
+    },
+    {
+      "repository_path": "13_Project_Genesis/Tests/test_build_0053_knowledge_change.py",
+      "git_blob": "780bb310ab35232b03251f7b7100964755c0ba30",
+      "sha256": "7cf2169cfb85050c4545f13ea5740f069e756f5bdbe8d0dd033a664a9b9c315f",
+      "size_bytes": 2158
+    },
+    {
+      "repository_path": "13_Project_Genesis/Tests/test_build_0053_predecessor_evidence.py",
+      "git_blob": "ec855b63b435eca42614540056188a2d9a536ccb",
+      "sha256": "95716bed4816360488d796c97224fd4d1eacac045aff272f946fd385d2826f7a",
+      "size_bytes": 2644
+    },
+    {
+      "repository_path": "13_Project_Genesis/Tests/test_build_0053_repository.py",
+      "git_blob": "13bb983b3133d4594a7ce5f87db4ede60d70b314",
+      "sha256": "8da44dfb07f6eeb3fe2913968467ced5c483b845e8f3fa07df8adfdd6ef25be8",
+      "size_bytes": 3654
+    },
+    {
+      "repository_path": "13_Project_Genesis/Tests/test_build_0053_transactional_import.py",
+      "git_blob": "556501abea22aedb8eb5154ee0d90f4878fb1650",
+      "sha256": "f243a0f62f7a76eda3733cc7065e6317e1c049c2023c3222d7292bc9ea36589c",
+      "size_bytes": 12052
+    },
+    {
+      "repository_path": "13_Project_Genesis/Validators/build_0053_asset_ownership.py",
+      "git_blob": "1cc5d779aa71c8aa92dbc3908f6e40c2f69eaff9",
+      "sha256": "2a549caea281625d55eb3f86df917dae308ebd083d819019b1ee0acb07725c6a",
+      "size_bytes": 1019
+    },
+    {
+      "repository_path": "13_Project_Genesis/Validators/retatrutide_knowledge_change_common.py",
+      "git_blob": "6853f3fbb0a2de8ff04152b7766aebc32d691781",
+      "sha256": "ccd48e9469f8d0e2b0426be07e082432d6634e73eab9cdaf92e505cb5e45acca",
+      "size_bytes": 10064
+    },
+    {
+      "repository_path": "13_Project_Genesis/Validators/validate_build_0053_predecessor_evidence.py",
+      "git_blob": "af8cdef0af44c5339fd6187eabf6db57f603c83e",
+      "sha256": "fdce40d1b6607d167188f17fe09a1feb682b5d060923244ee960b4434948f7f7",
+      "size_bytes": 1417
+    },
+    {
+      "repository_path": "13_Project_Genesis/Validators/validate_build_0053_repository.py",
+      "git_blob": "80da1c8564f57749a8d36c80bb7ed377c2611069",
+      "sha256": "85186f5787325809815537d6900ae4ed0a6a38ce9434eff520e0664919181b6c",
+      "size_bytes": 7715
+    },
+    {
+      "repository_path": "13_Project_Genesis/Validators/validate_retatrutide_knowledge_change.py",
+      "git_blob": "d6224d042f6f921c9d6696e6e9cfd0b2b13f80b6",
+      "sha256": "bbb599c406486650e9f6d5eaeadc69a55b1b6d97c762cda825e4c606be33242c",
+      "size_bytes": 1771
+    },
+    {
+      "repository_path": "13_Project_Genesis/Validators/verify_staged_byte_equality.py",
+      "git_blob": "85e48c48efbb01ff13831736fcd3d0ed7bdb2fc4",
+      "sha256": "2fb118441e31b7161869be1ba657615fb7705ad022e7ec19fd6e631d40ba8b08",
+      "size_bytes": 2067
+    },
+    {
+      "repository_path": "Database/Registers/Retatrutide_Change_Implementation_Register.csv",
+      "git_blob": "e88ca854afc512feb42a2a22ec4f29e2f53c1eee",
+      "sha256": "d553ed95f7cf2b51c0f10027b940afb00c9d1264cf004ac3299c66d28ece51bd",
+      "size_bytes": 143
+    },
+    {
+      "repository_path": "Database/Registers/Retatrutide_Change_Reopening_Register.csv",
+      "git_blob": "3a439a8749f47f05ff1ea28bb41a61187b6deb7a",
+      "sha256": "ff3d05837a57eb7d1f7409f862aa1cad65f87bff74ecbf21c598ed2ec29b5af3",
+      "size_bytes": 94
+    },
+    {
+      "repository_path": "Database/Registers/Retatrutide_Cross_Asset_Impact_Register.csv",
+      "git_blob": "f60a1dc14052d549b8908a110e132cbc0d5a2954",
+      "sha256": "759be303bffb113fae7b6b544675aa8a92ff63f7516a073160e6af9e305ff11a",
+      "size_bytes": 109
+    },
+    {
+      "repository_path": "Database/Registers/Retatrutide_Knowledge_Change_Register.csv",
+      "git_blob": "039132d2b6e191d52b24e556c483788c76e48c29",
+      "sha256": "aad7dceab0ef2b0faa840c1f4f7ec8be084ce5be5ce55606dbf44da9b3c678a1",
+      "size_bytes": 113
+    },
+    {
+      "repository_path": "Database/Registers/Retatrutide_Post_Change_Effectiveness_Register.csv",
+      "git_blob": "bef4db771abfd98720f05624776c0ec446b0f34b",
+      "sha256": "9488f68870669a4190820fe286e3c59ccbbf0b3043ee1b22fc34d9e874219817",
+      "size_bytes": 107
+    },
+    {
+      "repository_path": "Database/Registers/Retatrutide_Publication_Release_Register.csv",
+      "git_blob": "1382bac0d99bac4ad348c1992c278cba4e1604fb",
+      "sha256": "844b90494a919c130db4ac11aa12fc48b38764987db4ace23514292af0fdc93b",
+      "size_bytes": 111
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0053/ACCUMULATED_LESSONS_DELTA.json",
+      "git_blob": "ec19b2d22b253d73d3e2e7d222a926bb08d974ec",
+      "sha256": "432484e44aca55a18fda67d595366033ab77e2914b7163cfaa32332bf1f17967",
+      "size_bytes": 1622
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0053/ASSET_INTENT_MANIFEST.json",
+      "git_blob": "ceb4157f23dd68cc0206b1e7c108b9f921b970a6",
+      "sha256": "47a73537db78f9fa2bd1d35b005b18f9e057172e03589606a19028ae9426f010",
+      "size_bytes": 22061
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0053/ASSET_REGISTER_RECONCILIATION_POLICY.json",
+      "git_blob": "78e6d641854b794bc49439ad2790a582c69cec7e",
+      "sha256": "d22d514925936f62b5ff4672365cf493abf63d3137f921bf35a8b42209bf1587",
+      "size_bytes": 697
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0053/BUILD_MANIFEST.json",
+      "git_blob": "fc3e8dd1e542323183935aba2f6c574db04b08fc",
+      "sha256": "b53f25db4c111b4bffa27da1017205e2eb10d082f535c3220da5d0e68fcc243b",
+      "size_bytes": 1208
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0053/CANDIDATE_DELIVERY.json",
+      "git_blob": "44e18901d32945222df1e840de224b96e59c3327",
+      "sha256": "f8f030a77ce91d6fd092df5aa2a57061ea92910f0e19f9143da466ddb9e67426",
+      "size_bytes": 898
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0053/CHECKSUMS.sha256",
+      "git_blob": "f94ee1d207b4d2fc8e40672df0573b13a6a66b43",
+      "sha256": "f40ec655112a4ef4e0607818dadfe1ada3adb95bcbba687589fd424d3987417f",
+      "size_bytes": 10680
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0053/COMMIT_MESSAGE.txt",
+      "git_blob": "c4ac3ecfccd15f888de2d8ef8b9e57df88b93dba",
+      "sha256": "2b7b82e87a985d75e0d166e2f13c1e462095fa11f00243a1e19d42ea137709b6",
+      "size_bytes": 182
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0053/CONFLICT_POLICY.json",
+      "git_blob": "cb43c1cc7dbf8f5f4fa3f7475d45956600d5c786",
+      "sha256": "c30180bc93beb60b706a3e4a86078f1f4aab578075ed7496be5ffcc90389bef8",
+      "size_bytes": 279
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0053/CONTINUITY_CHECKPOINT_DELTA.json",
+      "git_blob": "54d9f4a68f731261820d5d7b7009e10778376a2a",
+      "sha256": "a573fa256a1b1c4c113125c932d8ff953ff9e3c4745a89fe9654456231d9f1b9",
+      "size_bytes": 367
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0053/DECISION_RECORD_0053.md",
+      "git_blob": "969133a9f5c4ea06d85052ace3dd7727b2613784",
+      "sha256": "4d9338d0ebef93b895c82299bc5fb135f49dc099d5a680ebea5a036a6860ec55",
+      "size_bytes": 630
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0053/LESSONS_LEARNED_CONTROL_MATRIX.json",
+      "git_blob": "6d909873883c4cea4b7b75bf35c70e715f628562",
+      "sha256": "cda8ead6312f48003898edde5f0d6b00c5612166c9a9c8189907acfc4f67603a",
+      "size_bytes": 1305
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0053/LESSONS_LEARNED_REVIEW.md",
+      "git_blob": "bd5b4d41ac2527af284b0582dc76f5b74856f180",
+      "sha256": "f4e171882c5ecc0c95c3a26f372e37beac593e27a74dcbca0347d78c7c000fe6",
+      "size_bytes": 2915
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0053/OUTSIDE_CANONICAL_VALIDATION_REPORT.json",
+      "git_blob": "04e6db53846afad3027bfd5c9fbf0e88e72c39c4",
+      "sha256": "67676f021eedea29f4d051e4eb5f13d5084eef809db64fbb22f1198bf2a5fb8a",
+      "size_bytes": 920
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0053/PACKAGE_INVENTORY.csv",
+      "git_blob": "ea48d7f81a9d8ee859be95807f7973350238a1f2",
+      "sha256": "6196be70a2fa9a879f09b1b698011e86b548053267985c201c9d70b4a3a5ff93",
+      "size_bytes": 12655
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0053/PACKAGE_VERSION.json",
+      "git_blob": "7bd67a510ba1551f41958f248cc525729aa70e75",
+      "sha256": "619de87478665ae1d5776a6c887896188ee958f5bba4e12f62140899243d7258",
+      "size_bytes": 182
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0053/PREDECESSOR_REQUIREMENTS.json",
+      "git_blob": "08fa2192988eee03913ffac0e80a5f521d14d81f",
+      "sha256": "d959e7c778622b0fa78322fa17f76c0392d325cd1aaf00ed97398cdecb0acb28",
+      "size_bytes": 365
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0053/PRE_AUTHORISED_PRECURSOR_STATE.json",
+      "git_blob": "aa02e73affe87c0d2a37fb3f33ed5240bf64042e",
+      "sha256": "5cd36e8e35e56a286695536af7833aa4dbea97e02d8acfa6e59bdea723b68b05",
+      "size_bytes": 172
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0053/PRE_RELEASE_VALIDATION_REPORT.json",
+      "git_blob": "421c169a4ef3c3613f39eedade62273afa7aec2d",
+      "sha256": "e98551ff83c7a9d34bcaaf2ffd5c2b677326b9b4aa20fbb8366fd14078049420",
+      "size_bytes": 755
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0053/PROJECT_GENESIS_IMPORT_HOOK.json",
+      "git_blob": "0be974489086c5f761dc33139241542b907c6f1c",
+      "sha256": "2eb834139188dc3ab59a94477dd93cd6f276cc8acceea00067db1228cfeee042",
+      "size_bytes": 311
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0053/PROPOSED_NEXT_ACTION.md",
+      "git_blob": "0a4eccc8041f2639f935ed8bd27735c26ba81e69",
+      "sha256": "4bb6e6614a6e74dc2a2c4da7a8a9581cec595d4ba78c60731dde2ded9812e9f8",
+      "size_bytes": 335
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0053/READ_ME_FIRST.md",
+      "git_blob": "09b6857f1de4642a4094355cc6635808ac6c3ec2",
+      "sha256": "3d379170563a57764e682b20f00d49242b7c79344cd588190a3e12e500225eb1",
+      "size_bytes": 1698
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0053/REAL_WORLD_OPERATOR_WORKFLOW_REGRESSION_REPORT.json",
+      "git_blob": "d9695537da123c4541192a9681b26fcffd996ba8",
+      "sha256": "14e91ef4a7d1cd287ca218d007be45748a271dc9326a3a55096ea33dbf9d2099",
+      "size_bytes": 1186
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0053/ROLLBACK_RUNBOOK.md",
+      "git_blob": "e44471b0205a0f5a185bea33fb83ef36d1f76097",
+      "sha256": "e2e95cce796939722ebdaeee7af9da039b579afdc7a886399f840d657ee035c6",
+      "size_bytes": 662
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0053/ROUTING_MANIFEST.json",
+      "git_blob": "c8f3ce536513f87f708e31f111e499b1d788bba6",
+      "sha256": "c9a31d97d8bfce359fb04fbe4de39407588717d1efa22c186c0a2f52f56cf4fe",
+      "size_bytes": 18315
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0053/SOURCE_INPUT_DEFECT_LOG.json",
+      "git_blob": "3640afd228f0c2b1f6e2e612f91ce86c125c2d3f",
+      "sha256": "da43aca98f7c390f34f121d09c53c13da94f35adb42b43c2a2bc4ef6de7c9cf1",
+      "size_bytes": 5195
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0053/VALIDATION_REQUIREMENTS.json",
+      "git_blob": "369d4c89dc4ef081df59d75e6e052da485fb27b6",
+      "sha256": "d037a8420acdc8ad27b4ea29808d1481e7ccbfb67cd6e1b285cca17b210bf816",
+      "size_bytes": 1086
+    },
+    {
+      "repository_path": "Schemas/retatrutide_change_implementation_package.schema.json",
+      "git_blob": "ea034b8dab4f835f33987bfed6020307821c0caf",
+      "sha256": "209c0569bbf1e61a40fe48e68bb1f8098ade8b920a4d912fb2ac3fa0b247ad32",
+      "size_bytes": 2939
+    },
+    {
+      "repository_path": "Schemas/retatrutide_change_reopening_decision.schema.json",
+      "git_blob": "92390afdbfa7fd35abe3c7ac19d39a7a4a2054b0",
+      "sha256": "efd2a15254653ac84509a9cee4e8405661aa8abedc60fdd18275ec984d36ce42",
+      "size_bytes": 1965
+    },
+    {
+      "repository_path": "Schemas/retatrutide_controlled_change_approval.schema.json",
+      "git_blob": "6bc993b78926e0693c1d3b8fc7ece81f28c12000",
+      "sha256": "878bd1adda48dcb5e0c823270bfdfa229afbd5e21976a77bc37d02bff08165e9",
+      "size_bytes": 2631
+    },
+    {
+      "repository_path": "Schemas/retatrutide_cross_asset_impact_assessment.schema.json",
+      "git_blob": "183cee4553628044e6fb16826c017d8195c44831",
+      "sha256": "e7a27fcaa960e9e7f69ebb5a8ae7ac608a2eaabcfe2ef5ca7c024d11830e56ae",
+      "size_bytes": 2513
+    },
+    {
+      "repository_path": "Schemas/retatrutide_knowledge_change_proposal.schema.json",
+      "git_blob": "a80b11cb0a1b68ae35f52c7af64c68cc2f0f1b25",
+      "sha256": "cb43c76273499b3db76d6093428d9946eec61f172f956a1105b39b4d59785f0f",
+      "size_bytes": 3474
+    },
+    {
+      "repository_path": "Schemas/retatrutide_post_change_effectiveness_review.schema.json",
+      "git_blob": "7a4c7b93bee788b7ba597c74ec9e39d4e38c558a",
+      "sha256": "42e0535c4cb52451b512e14b69f36d9768c0b9831efce4218bbf21c0e1381048",
+      "size_bytes": 2395
+    },
+    {
+      "repository_path": "Schemas/retatrutide_publication_release.schema.json",
+      "git_blob": "535e741600cc25e6d58e06868a7c281dacfe5eaa",
+      "sha256": "201071e2ffae299f8ab2b15103c2eee9fbd1fd07bb1ef6dcb16c74da10799730",
+      "size_bytes": 2375
+    },
+    {
+      "repository_path": "Scripts/Invoke_Certiaura_Build_0053_Import.ps1",
+      "git_blob": "7afdd7b085e46c0b37b719e01fb36602fd7173a0",
+      "sha256": "b71871e77e1aa843892a3a843981ca3a1d3ff98197f8a0b537cd6babcde0452c",
+      "size_bytes": 1241
+    },
+    {
+      "repository_path": "Scripts/Invoke_Certiaura_Build_0053_Preflight.ps1",
+      "git_blob": "e578cc764fcff8d0baf2022845a62e0bc324d96a",
+      "sha256": "dc4b6380d92dafca80a93e64284f150b4c13c5de5b61b1424afaadb81006034d",
+      "size_bytes": 652
+    },
+    {
+      "repository_path": "Scripts/Invoke_Certiaura_Build_0053_Windows_PS51_Regression.ps1",
+      "git_blob": "1cd553b7dd81b0018d8eea60f1b568a087c3923d",
+      "sha256": "0caff0a46c1767455609a29db9a9da5a16c00099f03c4e34138d0fb44b22e680",
+      "size_bytes": 7197
+    },
+    {
+      "repository_path": "Scripts/Run_Certiaura_Build_0053.ps1",
+      "git_blob": "cdf189c6d2877a3d96e0cb8a1d7918a532c80306",
+      "sha256": "157fa61ec0112e0b00f3bc49734cf11eed6a7fbd8beec89f3e9e513bd46e1064",
+      "size_bytes": 9610
+    },
+    {
+      "repository_path": "Scripts/START_BUILD_0053.cmd",
+      "git_blob": "585ad722662227ca344ac0245aa1d156bddd387d",
+      "sha256": "29e59ffb5bbfadbbe7fe78bf477806c107591b097acb6bce3d336e54747fd33f",
+      "size_bytes": 102
+    },
+    {
+      "repository_path": "Scripts/update_certiaura_build_0053_controls.py",
+      "git_blob": "1322b89eb80f8f6ae72fcc16fb2e81903b36b2e0",
+      "sha256": "1e85e9573a24f0ba3fa2701a04fea3b8e0200604c69289b331e1c558f3c18d9f",
+      "size_bytes": 7940
+    },
+    {
+      "repository_path": "Standards/RETATRUTIDE_GOVERNED_KNOWLEDGE_CHANGE_IMPLEMENTATION_STANDARD.md",
+      "git_blob": "02ef76f2cea5db0fcc97f2b888736583c33b3551",
+      "sha256": "58558358ebfc3769d9c909f8a29a8911a3e6bf27f03030f0b7f7154c3c3973af",
+      "size_bytes": 3408
+    },
+    {
+      "repository_path": "Standards/RETATRUTIDE_KNOWLEDGE_CHANGE_PROPAGATION_MATRIX.json",
+      "git_blob": "eac726fbacb20747a37ab06b7420920dac3a45da",
+      "sha256": "5ac63c8ff0d2d0036cfbb519767fc87d283d771b2d8e701b52d2b8d828f7e000",
+      "size_bytes": 1423
+    },
+    {
+      "repository_path": "Standards/RETATRUTIDE_POST_CHANGE_EFFECTIVENESS_MATRIX.json",
+      "git_blob": "9baaf73b400180bf1ad96d4225660b59bbf36fa6",
+      "sha256": "5af74ffd743bf5becf26ccd99a62478d36d34620e7bb14b29ee79d73b9c02037",
+      "size_bytes": 973
+    },
+    {
+      "repository_path": "Standards/RETATRUTIDE_PUBLICATION_STATE_TRANSITION_MATRIX.json",
+      "git_blob": "4347f733782226e896a9dcf6c543f48c5b7ab561",
+      "sha256": "5740c6ee5ad639897db7c7e5c0d78efeba49d63c64baa270dc4806381e7434f3",
+      "size_bytes": 1250
+    },
+    {
+      "repository_path": "Templates/RETATRUTIDE_CHANGE_IMPLEMENTATION_PACKAGE_TEMPLATE.json",
+      "git_blob": "7ac863ec63bc44548ddc1dd53ff85db3de3bda87",
+      "sha256": "ce91441182f23be1696bdcc92275428a32109daa45f491550302680d69455bec",
+      "size_bytes": 2469
+    },
+    {
+      "repository_path": "Templates/RETATRUTIDE_CHANGE_REOPENING_DECISION_TEMPLATE.json",
+      "git_blob": "91e976595982412c749d38f7c64c498a377172a8",
+      "sha256": "5c370bada8fdc5c0807ba1045dc6aec9b48163f9cc3a8f4de433cb302ce99392",
+      "size_bytes": 607
+    },
+    {
+      "repository_path": "Templates/RETATRUTIDE_CONTROLLED_CHANGE_APPROVAL_TEMPLATE.json",
+      "git_blob": "8dc6e9f8cbf5db93f3e0bffcd6f501b338837afa",
+      "sha256": "bf50e8929f2edd8584cf378dda27ef0a33a6d87060078716301cf87e47072a26",
+      "size_bytes": 940
+    },
+    {
+      "repository_path": "Templates/RETATRUTIDE_CONTROLLED_CHANGE_NOTICE_TEMPLATE.md",
+      "git_blob": "6a3b890667c87537a2d3765bdcfe827572af419c",
+      "sha256": "a04e111501de99723c3849e7ff6e005647b53e13437756886001c36a4eefd0c2",
+      "size_bytes": 505
+    },
+    {
+      "repository_path": "Templates/RETATRUTIDE_CROSS_ASSET_IMPACT_ASSESSMENT_TEMPLATE.json",
+      "git_blob": "224d433d9511521d76101a6d81fcce51e7211444",
+      "sha256": "d442e7cd55d455da9d0d6a0ddae93c561cadae5014e5fab50351400f56a34695",
+      "size_bytes": 1509
+    },
+    {
+      "repository_path": "Templates/RETATRUTIDE_KNOWLEDGE_CHANGE_PROPOSAL_TEMPLATE.json",
+      "git_blob": "f7d74d1c0d942ed09c8b609310d16d6bce5fad4f",
+      "sha256": "ab056c3e2ced674a3a8c5c81d9797fe00e23cec3ad0c5d95ac01436068a3ba81",
+      "size_bytes": 1071
+    },
+    {
+      "repository_path": "Templates/RETATRUTIDE_POST_CHANGE_EFFECTIVENESS_REVIEW_TEMPLATE.json",
+      "git_blob": "a25da0dfbc1c2cc37215a505349bb8eee51806e5",
+      "sha256": "f2b21106736f296993d30fb88ba182bbedb3e5e55b507c0e435795dea87caf80",
+      "size_bytes": 864
+    },
+    {
+      "repository_path": "Templates/RETATRUTIDE_PUBLICATION_RELEASE_TEMPLATE.json",
+      "git_blob": "05289b26317ce465e19444d6c6a3fa5fa13f7ec4",
+      "sha256": "07a7374a410c953bced5d8af9fd2a2cbea3d704203b8402b04aa0e5f1b4e8348",
+      "size_bytes": 944
+    }
+  ],
+  "result": "PREDECESSOR_CANONICAL_SOURCE_VERIFIED"
+}

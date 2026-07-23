@@ -1,0 +1,70 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "architecture_reuse_decision",
+  "type": "object",
+  "properties": {
+    "record_type": {
+      "const": "architecture_reuse_decision"
+    },
+    "build_number": {
+      "const": "0054"
+    },
+    "created_at": {
+      "type": "string"
+    },
+    "created_by": {
+      "type": "string"
+    },
+    "peptide_uai": {
+      "const": "CERT-PKS-000001"
+    },
+    "assessment_id": {
+      "type": "string"
+    },
+    "source_baseline_build": {
+      "const": "0054"
+    },
+    "source_readiness_state": {
+      "type": "string"
+    },
+    "target_peptide": {
+      "type": "string"
+    },
+    "decision": {
+      "enum": [
+        "APPROVE_REUSE",
+        "PILOT_ONLY",
+        "DO_NOT_REUSE"
+      ]
+    },
+    "reusable_components": {
+      "type": "array"
+    },
+    "excluded_components": {
+      "type": "array"
+    },
+    "prerequisites": {
+      "type": "array"
+    },
+    "approvers": {
+      "type": "array"
+    }
+  },
+  "required": [
+    "record_type",
+    "build_number",
+    "created_at",
+    "created_by",
+    "peptide_uai",
+    "assessment_id",
+    "source_baseline_build",
+    "source_readiness_state",
+    "target_peptide",
+    "decision",
+    "reusable_components",
+    "excluded_components",
+    "prerequisites",
+    "approvers"
+  ],
+  "additionalProperties": true
+}

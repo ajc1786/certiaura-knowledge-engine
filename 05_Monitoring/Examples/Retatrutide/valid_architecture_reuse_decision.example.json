@@ -1,0 +1,27 @@
+{
+  "build_number": "0054",
+  "created_at": "2026-07-23T08:00:00Z",
+  "created_by": "Certiaura Governance",
+  "peptide_uai": "CERT-PKS-000001",
+  "record_type": "architecture_reuse_decision",
+  "assessment_id": "RET-REUSE-0054-001",
+  "source_baseline_build": "0054",
+  "source_readiness_state": "PLATINUM_READY",
+  "target_peptide": "BPC-157",
+  "decision": "APPROVE_REUSE",
+  "reusable_components": [
+    "transactional importer",
+    "asset intent ownership",
+    "predecessor evidence",
+    "GitHub Actions closure evidence"
+  ],
+  "excluded_components": [
+    "Retatrutide-specific schemas",
+    "Retatrutide-specific clinical claims"
+  ],
+  "prerequisites": [],
+  "approvers": [
+    "Architecture governance reviewer",
+    "Scientific governance reviewer"
+  ]
+}

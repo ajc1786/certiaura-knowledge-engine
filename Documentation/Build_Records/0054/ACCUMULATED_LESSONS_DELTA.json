@@ -1,0 +1,15 @@
+{
+  "build_number": "0054",
+  "lesson_ids": [
+    "CERT-LESSON-0054-001",
+    "CERT-LESSON-0054-002",
+    "CERT-LESSON-0054-003",
+    "CERT-LESSON-0054-004",
+    "CERT-LESSON-0054-005",
+    "CERT-LESSON-0054-006",
+    "CERT-LESSON-0054-007",
+    "CERT-LESSON-0054-008"
+  ],
+  "mandatory_new_control": "Exact GitHub Actions run ID required before closure",
+  "candidate_correction": "RC1, RC2 and RC3 withdrawn; RC4 adds StrictMode-safe optional manifest property handling while preserving approved no-op update controls."
+}

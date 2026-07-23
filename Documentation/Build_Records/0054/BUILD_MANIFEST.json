@@ -1,0 +1,17 @@
+{
+  "build_number": "0054",
+  "candidate": "RC4",
+  "title": "retatrutide end-to-end operational assurance, controlled release readiness, failure-mode coverage and Platinum readiness assessment baseline",
+  "package_file_count": 82,
+  "generated_file_count": 8,
+  "formal_asset_count": 5,
+  "example_count": 14,
+  "capabilities": [
+    "end-to-end operational assurance",
+    "failure-mode coverage",
+    "Platinum readiness assessment",
+    "controlled release readiness",
+    "architecture reuse decision",
+    "mandatory GitHub Actions run ID closure evidence"
+  ]
+}

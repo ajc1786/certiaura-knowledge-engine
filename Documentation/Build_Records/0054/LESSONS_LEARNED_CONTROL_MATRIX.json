@@ -1,0 +1,37 @@
+{
+  "build_number": "0054",
+  "controls": [
+    {
+      "lesson_id": "CERT-LESSON-0054-001",
+      "gate": "END_TO_END_OPERATIONAL_ASSURANCE_VALIDATED"
+    },
+    {
+      "lesson_id": "CERT-LESSON-0054-002",
+      "gate": "FAILURE_MODE_COVERAGE_VALIDATED"
+    },
+    {
+      "lesson_id": "CERT-LESSON-0054-003",
+      "gate": "PLATINUM_CRITICAL_GAP_OVERRIDE_VALIDATED"
+    },
+    {
+      "lesson_id": "CERT-LESSON-0054-004",
+      "gate": "ARCHITECTURE_REUSE_BOUNDARY_VALIDATED"
+    },
+    {
+      "lesson_id": "CERT-LESSON-0054-005",
+      "gate": "GITHUB_ACTIONS_RUN_ID_EVIDENCE_REQUIRED"
+    },
+    {
+      "lesson_id": "CERT-LESSON-0054-006",
+      "gate": "PREDECESSOR_REUSED_PATH_CLASSIFICATION_VALIDATED"
+    },
+    {
+      "lesson_id": "CERT-LESSON-0054-007",
+      "gate": "NO_OP_UPDATE_STAGED_CHANGESET_VALIDATED"
+    },
+    {
+      "lesson_id": "CERT-LESSON-0054-008",
+      "gate": "OPTIONAL_MANIFEST_PROPERTY_STRICTMODE_VALIDATED"
+    }
+  ]
+}

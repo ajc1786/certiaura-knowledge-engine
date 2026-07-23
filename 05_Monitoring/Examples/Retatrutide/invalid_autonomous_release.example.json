@@ -1,0 +1,18 @@
+{
+  "build_number": "0054",
+  "created_at": "2026-07-23T08:00:00Z",
+  "created_by": "Certiaura Governance",
+  "peptide_uai": "CERT-PKS-000001",
+  "record_type": "controlled_release_readiness_decision",
+  "assessment_id": "RET-REL-0054-X01",
+  "assurance_assessment_id": "RET-OAA-0054-001",
+  "failure_mode_assessment_id": "RET-FMC-0054-001",
+  "platinum_assessment_id": "RET-PLAT-0054-001",
+  "platinum_state": "PLATINUM_READY",
+  "unresolved_critical_gaps": [],
+  "evidence_links": [
+    "x"
+  ],
+  "decision": "RELEASE",
+  "approvers": []
+}

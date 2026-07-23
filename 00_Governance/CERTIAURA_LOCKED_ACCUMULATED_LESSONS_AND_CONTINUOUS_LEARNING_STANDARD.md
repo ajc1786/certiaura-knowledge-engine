@@ -2334,3 +2334,17 @@ RC5 passed package preflight, canonical predecessor evidence and executable dry 
 **Release gate:** `PRE_CANONICAL_FULL_SUITE_AND_AUTOMATIC_ROLLBACK_VALIDATED`
 
 <!-- CERTIAURA_BUILD_0053_LESSONS_END -->
+
+<!-- CERTIAURA_BUILD_0054_LESSONS_START -->
+### CERT-LESSON-0054-001 - End-to-end assurance is distinct from component validation
+### CERT-LESSON-0054-002 - Failure modes require detection, containment, rollback and executable evidence
+### CERT-LESSON-0054-003 - Critical gaps override Platinum readiness scores
+### CERT-LESSON-0054-004 - Architecture reuse requires an explicit boundary decision
+### CERT-LESSON-0054-005 - GitHub Actions run ID is mandatory closure evidence
+### CERT-LESSON-0054-006 - Intentional predecessor-path reuse requires explicit approved UPDATE classification
+### CERT-LESSON-0054-007 - Approved byte-identical updates are owned no-ops, not mandatory staged changes
+### CERT-LESSON-0054-008 - Optional manifest properties require StrictMode-safe PSObject.Properties access
+
+A founder `GREEN` cannot substitute for the exact successful Actions run tied to the canonical commit.
+
+<!-- CERTIAURA_BUILD_0054_LESSONS_END -->

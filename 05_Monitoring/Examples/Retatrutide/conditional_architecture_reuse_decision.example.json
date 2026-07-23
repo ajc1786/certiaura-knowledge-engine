@@ -1,0 +1,25 @@
+{
+  "build_number": "0054",
+  "created_at": "2026-07-23T08:00:00Z",
+  "created_by": "Certiaura Governance",
+  "peptide_uai": "CERT-PKS-000001",
+  "record_type": "architecture_reuse_decision",
+  "assessment_id": "RET-REUSE-0054-002",
+  "source_baseline_build": "0054",
+  "source_readiness_state": "CONDITIONAL",
+  "target_peptide": "Tesamorelin",
+  "decision": "PILOT_ONLY",
+  "reusable_components": [
+    "transactional importer",
+    "release evidence controls"
+  ],
+  "excluded_components": [
+    "Retatrutide domain model"
+  ],
+  "prerequisites": [
+    "Complete peptide-specific evidence mapping"
+  ],
+  "approvers": [
+    "Architecture governance reviewer"
+  ]
+}

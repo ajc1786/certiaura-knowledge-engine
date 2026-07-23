@@ -1,0 +1,70 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "controlled_release_readiness_decision",
+  "type": "object",
+  "properties": {
+    "record_type": {
+      "const": "controlled_release_readiness_decision"
+    },
+    "build_number": {
+      "const": "0054"
+    },
+    "created_at": {
+      "type": "string"
+    },
+    "created_by": {
+      "type": "string"
+    },
+    "peptide_uai": {
+      "const": "CERT-PKS-000001"
+    },
+    "assessment_id": {
+      "type": "string"
+    },
+    "assurance_assessment_id": {
+      "type": "string"
+    },
+    "failure_mode_assessment_id": {
+      "type": "string"
+    },
+    "platinum_assessment_id": {
+      "type": "string"
+    },
+    "platinum_state": {
+      "type": "string"
+    },
+    "unresolved_critical_gaps": {
+      "type": "array"
+    },
+    "evidence_links": {
+      "type": "array"
+    },
+    "decision": {
+      "enum": [
+        "RELEASE",
+        "HOLD",
+        "REMEDIATE"
+      ]
+    },
+    "approvers": {
+      "type": "array"
+    }
+  },
+  "required": [
+    "record_type",
+    "build_number",
+    "created_at",
+    "created_by",
+    "peptide_uai",
+    "assessment_id",
+    "assurance_assessment_id",
+    "failure_mode_assessment_id",
+    "platinum_assessment_id",
+    "platinum_state",
+    "unresolved_critical_gaps",
+    "evidence_links",
+    "decision",
+    "approvers"
+  ],
+  "additionalProperties": true
+}

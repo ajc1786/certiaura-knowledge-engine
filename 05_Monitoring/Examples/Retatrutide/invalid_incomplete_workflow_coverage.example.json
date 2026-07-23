@@ -1,0 +1,16 @@
+{
+  "build_number": "0054",
+  "created_at": "2026-07-23T08:00:00Z",
+  "created_by": "Certiaura Governance",
+  "peptide_uai": "CERT-PKS-000001",
+  "record_type": "operational_assurance_assessment",
+  "assessment_id": "RET-OAA-0054-X01",
+  "coverage_domains": [
+    "evidence",
+    "monitoring"
+  ],
+  "end_to_end_workflows": [],
+  "open_critical_gaps": [],
+  "overall_result": "PASS",
+  "human_approver": "Reviewer"
+}

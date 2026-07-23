@@ -1,0 +1,11 @@
+{
+  "build_number": "0054",
+  "candidate": "RC4",
+  "package_version": "1.0.3",
+  "status": "GENERATED",
+  "withdrawn_prohibited_candidates": [
+    "RC1",
+    "RC2",
+    "RC3"
+  ]
+}

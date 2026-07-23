@@ -1,0 +1,23 @@
+{
+  "build_number": "0054",
+  "created_at": "2026-07-23T08:00:00Z",
+  "created_by": "Certiaura Governance",
+  "peptide_uai": "CERT-PKS-000001",
+  "record_type": "failure_mode_coverage_assessment",
+  "assessment_id": "RET-FMC-0054-002",
+  "failure_modes": [
+    {
+      "failure_mode_id": "FM-003",
+      "trigger": "operator interruption",
+      "detection_control": "checkpoint state",
+      "containment_control": "safe stop",
+      "rollback_control": "transaction backup",
+      "test_evidence": [
+        "manual interruption drill pending"
+      ],
+      "coverage_status": "PARTIAL"
+    }
+  ],
+  "overall_coverage": "CONDITIONAL",
+  "human_approver": "Risk control reviewer"
+}

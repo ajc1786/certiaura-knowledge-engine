@@ -1,0 +1,35 @@
+{
+  "build_number": "0054",
+  "created_at": "2026-07-23T08:00:00Z",
+  "created_by": "Certiaura Governance",
+  "peptide_uai": "CERT-PKS-000001",
+  "record_type": "operational_assurance_assessment",
+  "assessment_id": "RET-OAA-0054-002",
+  "coverage_domains": [
+    "evidence",
+    "monitoring",
+    "reporting",
+    "publication",
+    "audit",
+    "rollback",
+    "security",
+    "operator usability"
+  ],
+  "end_to_end_workflows": [
+    {
+      "workflow_id": "RET-E2E-002",
+      "start": "case opening",
+      "end": "controlled closure",
+      "status": "CONDITIONAL",
+      "evidence_links": [
+        "Documentation/Build_Records/0054/VALIDATION_REQUIREMENTS.json"
+      ]
+    }
+  ],
+  "open_critical_gaps": [],
+  "open_noncritical_gaps": [
+    "Second-operator observation pending"
+  ],
+  "overall_result": "CONDITIONAL",
+  "human_approver": "Operational assurance reviewer"
+}
