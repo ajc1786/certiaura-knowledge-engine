@@ -1,0 +1,35 @@
+{
+  "build_number": "0053",
+  "rows": [
+    {
+      "lesson_id": "CERT-LESSON-0053-001",
+      "validator": "validate_retatrutide_knowledge_change.py",
+      "test": "test_build_0053_knowledge_change.py",
+      "release_gate": "CONTROLLED_PROPAGATION_VALIDATED"
+    },
+    {
+      "lesson_id": "CERT-LESSON-0053-002",
+      "validator": "validate_retatrutide_knowledge_change.py",
+      "test": "test_build_0053_knowledge_change.py",
+      "release_gate": "POST_CHANGE_EFFECTIVENESS_VALIDATED"
+    },
+    {
+      "lesson_id": "CERT-LESSON-0053-003",
+      "validator": "run_build_0053_import.py",
+      "test": "test_build_0053_transactional_import.py",
+      "release_gate": "CANONICAL_REGISTER_TOPOLOGY_REGRESSION_VALIDATED"
+    },
+    {
+      "lesson_id": "CERT-LESSON-0053-004",
+      "validator": "verify_staged_byte_equality.py",
+      "test": "test_build_0053_repository.py",
+      "release_gate": "WINDOWS_RUNTIME_TEXT_BYTE_STABILITY_VALIDATED"
+    },
+    {
+      "lesson_id": "CERT-LESSON-0053-005",
+      "validator": "Run_Certiaura_Build_0053.ps1 and Invoke_Certiaura_Build_0053_Windows_PS51_Regression.ps1",
+      "test": "test_build_0053_repository.py and test_build_0053_transactional_import.py",
+      "release_gate": "PRE_CANONICAL_FULL_SUITE_AND_AUTOMATIC_ROLLBACK_VALIDATED"
+    }
+  ]
+}

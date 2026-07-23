@@ -1,0 +1,64 @@
+{
+  "schema_version": "1.0.0",
+  "build_number": "0053",
+  "transitions": [
+    {
+      "from": "DRAFT",
+      "to": "UNDER_REVIEW",
+      "requires": [
+        "complete_impact_assessment"
+      ]
+    },
+    {
+      "from": "UNDER_REVIEW",
+      "to": "APPROVED",
+      "requires": [
+        "human_scientific_approval",
+        "human_governance_approval"
+      ]
+    },
+    {
+      "from": "APPROVED",
+      "to": "STAGED",
+      "requires": [
+        "implementation_package_valid"
+      ]
+    },
+    {
+      "from": "STAGED",
+      "to": "PUBLISHED",
+      "requires": [
+        "implementation_state_IMPLEMENTED",
+        "propagation_complete",
+        "publication_approval"
+      ]
+    },
+    {
+      "from": "PUBLISHED",
+      "to": "WITHDRAWN",
+      "requires": [
+        "withdrawal_or_rollback_decision"
+      ]
+    },
+    {
+      "from": "PUBLISHED",
+      "to": "SUPERSEDED",
+      "requires": [
+        "approved_successor_release"
+      ]
+    },
+    {
+      "from": "PUBLISHED",
+      "to": "ROLLED_BACK",
+      "requires": [
+        "rollback_trigger",
+        "human_approval"
+      ]
+    }
+  ],
+  "prohibited": [
+    "DRAFT_TO_PUBLISHED",
+    "APPROVED_TO_PUBLISHED_WITHOUT_IMPLEMENTATION",
+    "AUTONOMOUS_AI_PUBLICATION"
+  ]
+}

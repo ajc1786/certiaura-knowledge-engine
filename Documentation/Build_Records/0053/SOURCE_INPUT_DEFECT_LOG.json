@@ -1,0 +1,52 @@
+{
+  "build_number": "0053",
+  "current_candidate": "RC4",
+  "withdrawn_prohibited_candidates": [
+    "RC1",
+    "RC2",
+    "RC3"
+  ],
+  "resolved_defects": [
+    {
+      "defect_id": "BUILD_0053_RC1_MAR_TOPOLOGY_ASSUMPTION",
+      "detected_at": "2026-07-23",
+      "evidence": "Windows PowerShell 5.1 real-world regression stopped during the temporary-clone apply because the accumulated-lessons governance Markdown file was absent from the canonical Master Asset Register.",
+      "root_cause": "RC1 synthetic tests invented Master Asset Register rows for three predecessor governance control files and therefore did not reproduce the actual Build 0052 register topology.",
+      "impact": "RC1 could not pass the mandatory Windows PowerShell 5.1 regression and is prohibited from import. The canonical repository was not modified because transactional rollback returned ROLLBACK_STATE_EXACT.",
+      "corrective_action": "Classify the three generated governance control updates as NON_ASSET_ADMIN with Master Asset Register action NO_CHANGE; preserve transactional byte updates, predecessor overlap controls and rollback ownership.",
+      "preventive_control": "Synthetic predecessor fixtures must reproduce canonical formal-asset registration topology and must not invent register rows for predecessor paths.",
+      "executable_regression": "test_build_0053_transactional_import.py now runs with the governance files present in Git but absent from the Master Asset Register and requires forced rollback plus clean reapply success.",
+      "release_gate": "CANONICAL_REGISTER_TOPOLOGY_REGRESSION_VALIDATED",
+      "status": "RESOLVED_IN_RC2_RETAINED_IN_RC4"
+    },
+    {
+      "defect_id": "BUILD_0053_RC2_WINDOWS_RUNTIME_NEWLINE_TRANSLATION",
+      "detected_at": "2026-07-23",
+      "evidence": "Windows PowerShell 5.1 temporary-clone regression reported raw working-tree/index byte mismatches for ASSET_REGISTER_CHANGE_REPORT.json, CANONICAL_IMPORT_REPORT.json, POST_IMPORT_REPOSITORY_VALIDATION.json and PREDECESSOR_CANONICAL_EVIDENCE.json.",
+      "root_cause": "Runtime Python Path.write_text calls omitted an explicit newline policy. On Windows, newline=None translated LF to CRLF in the working tree, while Git normalised staged text to LF.",
+      "impact": "RC2 could not pass the mandatory raw staged-byte equality gate and is prohibited from canonical import. Failure occurred in the temporary clone before canonical apply.",
+      "corrective_action": "Force newline=\"\\n\" on every production Python write_text call, including importer reports, repository validation reports, predecessor evidence, preflight outputs, byte reports and dashboard output.",
+      "preventive_control": "AST regression rejects any production Python write_text call without an explicit LF newline argument; Windows PowerShell 5.1 regression retains exact staged-byte equality after runtime report generation.",
+      "executable_regression": "test_build_0053_repository.py audits all production Python write_text calls; temporary-clone raw staged-byte equality remains mandatory.",
+      "release_gate": "WINDOWS_RUNTIME_TEXT_BYTE_STABILITY_VALIDATED",
+      "status": "RESOLVED_IN_RC3_RETAINED_IN_RC4"
+    },
+    {
+      "defect_id": "BUILD_0053_RC3_POST_IMPORT_TEST_SCOPE_AND_ROLLBACK_ORDER",
+      "detected_at": "2026-07-23",
+      "evidence": "RC3 passed the temporary-clone Windows PowerShell 5.1 regression, then four post-import tests failed in the canonical repository because they scanned historical repository content rather than exact Build 0053 ownership. The canonical transaction was restored manually to Build 0052 with BUILD_0053_RC3_ROLLBACK_STATE_EXACT.",
+      "root_cause": "The regression did not execute the complete Build 0053 test suite before canonical apply. Four tests used repository-wide globbing or recursive scans instead of the Asset Intent Manifest and package inventory.",
+      "impact": "RC3 applied 91 uncommitted paths before post-import validation failed. No commit or push occurred, and exact transactional rollback restored the clean Build 0052 baseline.",
+      "corrective_action": "Scope all Build 0053 tests to manifest-owned package paths and examples; execute repository validation and the full Build 0053 test suite in the temporary clone before canonical apply.",
+      "preventive_control": "The operator runner automatically restores the canonical transaction backup if any post-import validation, test, staging, Git hygiene or staged-byte gate fails after apply.",
+      "executable_regression": "test_post_import_failure_rollback_restores_staged_repository proves exact restoration after a successful apply and staging; the Windows PowerShell 5.1 regression requires BUILD_0053_PRE_CANONICAL_FULL_SUITE_VALIDATED before commit/push simulation.",
+      "release_gate": "PRE_CANONICAL_FULL_SUITE_AND_AUTOMATIC_ROLLBACK_VALIDATED",
+      "status": "RESOLVED_IN_RC4"
+    }
+  ],
+  "open_defects": [],
+  "constraints": [
+    "No private repository byte access in production environment; predecessor bytes are therefore derived and verified at operator runtime from the canonical Git commit."
+  ],
+  "result": "ALL_IDENTIFIED_DEFECTS_RESOLVED_RC4"
+}

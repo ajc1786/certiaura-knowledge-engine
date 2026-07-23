@@ -1,0 +1,23 @@
+{
+  "build_number": "0053",
+  "windows_powershell_5_1": "ASCII_ONLY_SCRIPT_AND_TARGET_RUNTIME_GATE",
+  "package_sha256_resolution": "ENFORCED",
+  "repository_clean_fetch_ff_only_pull_exact_head": "ENFORCED",
+  "OneDrive_stop_restart": "ENFORCED_AROUND_CANONICAL_APPLY",
+  "project_genesis_dry_run_apply": "ENFORCED",
+  "transactional_forced_rollback": "SYNTHETIC_PASS",
+  "transactional_clean_reapply": "SYNTHETIC_PASS",
+  "master_asset_register_reconciliation": "ENFORCED",
+  "exact_asset_intent_staging": "ENFORCED",
+  "git_diff_and_cached_diff_checks": "ENFORCED",
+  "working_tree_index_byte_equality": "ENFORCED",
+  "temporary_exact_commit_and_push_path": "ENFORCED_IN_WINDOWS_PS51_REGRESSION",
+  "commit_push_actions_handoff": "RESERVED_SUBJECT_EMITTED_AFTER_STAGING",
+  "result": "SYNTHETIC_WORKFLOW_VALIDATED_TARGET_PS51_RUNTIME_REQUIRED_RC4",
+  "candidate": "RC4",
+  "rc1_runtime_failure": "REPRODUCED_AND_RESOLVED",
+  "canonical_mar_topology_without_governance_formal_rows": "SYNTHETIC_PASS",
+  "governance_non_asset_admin_transaction": "SYNTHETIC_PASS",
+  "rc2_windows_runtime_failure": "REPRODUCED_AND_RESOLVED",
+  "runtime_generated_text_lf_policy": "AST_REGRESSION_PASS"
+}

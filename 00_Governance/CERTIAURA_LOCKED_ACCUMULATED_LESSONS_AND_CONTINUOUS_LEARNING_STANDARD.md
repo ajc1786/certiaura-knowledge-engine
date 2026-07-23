@@ -2285,3 +2285,52 @@ RC4 returned exit code 3 from the intentional forced rollback, wrote `transactio
 ## Build 0052 RC5 historical coverage incident
 
 RC5 passed package preflight, canonical predecessor evidence and executable dry run. During the forced-rollback transaction, the cumulative updater correctly reported that canonical lesson matrices were absent for Builds 0039, 0040 and 0043-0046. The transaction rolled back completely. RC6 does not fabricate those historical matrices. It validates their already-consolidated lessons through an explicit exact lesson-ID set and SHA-256 binding in the authoritative cumulative control, while continuing to require and migrate real matrices wherever they exist.
+
+<!-- CERTIAURA_BUILD_0053_LESSONS_START -->
+### CERT-LESSON-0053-001 - Governed knowledge changes require complete cross-surface propagation
+
+**Origin build:** 0053
+**Status:** LOCKED_ACTIVE
+**Defect or risk:** An approved scientific or monitoring change can leave stale reports, interfaces or artificial-intelligence responses live.
+**Preventive control:** Require an exact approved expected-target set and block implementation unless the applied-target set is identical.
+**Executable regression:** Deliberately defective partial-propagation example must fail.
+**Release gate:** `CONTROLLED_PROPAGATION_VALIDATED`
+
+### CERT-LESSON-0053-002 - Publication and effectiveness evidence are separate closure gates
+
+**Origin build:** 0053
+**Status:** LOCKED_ACTIVE
+**Defect or risk:** Publication can be mistaken for effective implementation.
+**Preventive control:** Require approved implementation before publication and a later evidence-linked effectiveness review before close/watch/reopen.
+**Executable regression:** Publication-before-approval and effectiveness-without-evidence examples must fail.
+**Release gate:** `POST_CHANGE_EFFECTIVENESS_VALIDATED`
+
+### CERT-LESSON-0053-003 - Synthetic predecessor fixtures must reproduce canonical register topology
+
+**Origin build:** 0053 RC2
+**Status:** LOCKED_ACTIVE
+**Defect or risk:** A synthetic fixture can invent Master Asset Register rows for predecessor governance files and conceal a real-world import failure.
+**Preventive control:** Derive predecessor files from canonical Git and reproduce the canonical formal-asset registration topology; do not add fixture rows merely to satisfy UPDATE reconciliation.
+**Executable regression:** Governance predecessor files must exist while remaining absent from the synthetic Master Asset Register; forced rollback and clean reapply must both pass.
+**Release gate:** `CANONICAL_REGISTER_TOPOLOGY_REGRESSION_VALIDATED`
+
+### CERT-LESSON-0053-004 - Runtime-generated text must declare byte-stable newline policy
+
+**Origin build:** 0053 RC3
+**Status:** LOCKED_ACTIVE
+**Defect or risk:** Python text writers using platform-default newline translation can create CRLF working-tree bytes that Git normalises to LF in the index, failing exact staged-byte equality on Windows.
+**Preventive control:** Every production `Path.write_text` call must declare `newline="
+"`; runtime-generated reports must remain LF byte-stable before and after staging.
+**Executable regression:** An AST audit rejects any production Python `write_text` call without an explicit LF newline argument, and the Windows PowerShell 5.1 temporary-clone staged-byte gate must pass.
+**Release gate:** `WINDOWS_RUNTIME_TEXT_BYTE_STABILITY_VALIDATED`
+
+### CERT-LESSON-0053-005 - Full owned-scope tests must pass before canonical apply
+
+**Origin build:** 0053 RC4
+**Status:** LOCKED_ACTIVE
+**Defect or risk:** A temporary-clone regression can pass while later canonical tests fail if those tests are omitted before apply or scan unrelated historical repository content.
+**Preventive control:** Scope every Build 0053 test to Asset Intent Manifest ownership, run the complete repository validator and Build 0053 test suite in the temporary clone before canonical apply, and automatically restore the transaction backup after any later gate failure.
+**Executable regression:** The temporary clone must return `BUILD_0053_PRE_CANONICAL_FULL_SUITE_VALIDATED`; staged post-import rollback must return `ROLLBACK_STATE_EXACT` and a clean predecessor HEAD.
+**Release gate:** `PRE_CANONICAL_FULL_SUITE_AND_AUTOMATIC_ROLLBACK_VALIDATED`
+
+<!-- CERTIAURA_BUILD_0053_LESSONS_END -->

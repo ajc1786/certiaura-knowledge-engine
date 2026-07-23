@@ -1,0 +1,16 @@
+{
+  "build_number": "0053",
+  "candidate": "RC4",
+  "title": "retatrutide governed knowledge change implementation, cross-asset impact control, controlled publication and post-change effectiveness surveillance baseline",
+  "zip_filename": "Certiaura_Build_0053_Retatrutide_Knowledge_Change_Control_RC4.zip",
+  "package_sha256": "VERIFIED_EXTERNALLY_AT_DELIVERY",
+  "package_sha256_is_self_referentially_excluded": true,
+  "reserved_commit_message": "Add Certiaura Build 0053 retatrutide governed knowledge change implementation, cross-asset impact control, controlled publication and post-change effectiveness surveillance baseline",
+  "expected_endpoint": "BUILD_0053_CANONICAL_VALIDATED_AND_STAGED",
+  "proposed_next_action": "Build 0054 Retatrutide end-to-end operational assurance and Platinum readiness assessment",
+  "withdrawn_prohibited_candidates": [
+    "RC1",
+    "RC2",
+    "RC3"
+  ]
+}

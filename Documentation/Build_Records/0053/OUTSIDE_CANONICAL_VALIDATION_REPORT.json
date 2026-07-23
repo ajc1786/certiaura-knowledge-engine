@@ -1,0 +1,23 @@
+{
+  "build_number": "0053",
+  "candidate": "RC4",
+  "environment": "isolated Linux build workspace plus synthetic Git repositories",
+  "json_parse": "PASS",
+  "python_compile": "PASS",
+  "example_contracts": "PASS",
+  "automated_tests": "PASS",
+  "transactional_forced_rollback": "PASS",
+  "transactional_clean_reapply": "PASS",
+  "synthetic_git_diff_checks": "PASS",
+  "windows_powershell_5_1": "TARGET_RUNTIME_GATE_ENFORCED_BY_DELIVERED_RUNNER",
+  "result": "CANDIDATE_RELEASE_VALIDATED",
+  "canonical_register_topology_regression": "PASS",
+  "rc1_real_world_failure_reproduced": "PASS",
+  "rc2_windows_staged_byte_failure_reproduced": "PASS",
+  "production_write_text_lf_ast_regression": "PASS",
+  "rc3_corrected_runtime_writer_policy": "PASS",
+  "rc3_post_import_scope_failure_reproduced": "PASS",
+  "manifest_scoped_tests": "PASS",
+  "pre_canonical_full_suite": "PASS",
+  "automatic_post_import_rollback": "PASS"
+}

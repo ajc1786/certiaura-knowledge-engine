@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.0.0",
+  "build_number": "0053",
+  "created_at": "2026-07-22T19:30:00Z",
+  "created_by": "REPLACE_WITH_OPERATOR",
+  "peptide_uai": "CERT-PKS-000001",
+  "record_type": "RETATRUTIDE_CROSS_ASSET_IMPACT_ASSESSMENT",
+  "impact_id": "RET-KIA-0001",
+  "change_id": "RET-KCH-0001",
+  "impacted_assets": [
+    {
+      "asset_uai": "CERT-MKS-000001",
+      "repository_path": "05_Monitoring/Retatrutide/RETATRUTIDE_MONITORING_STANDARD.md",
+      "surface": "MKS",
+      "intended_action": "UPDATE",
+      "reason": "Primary monitoring control"
+    },
+    {
+      "asset_uai": "CERT-RKS-000001",
+      "repository_path": "12_Reports/Retatrutide/RETATRUTIDE_PATIENT_REPORT_STANDARD.md",
+      "surface": "RKS",
+      "intended_action": "UPDATE",
+      "reason": "Patient report consistency"
+    },
+    {
+      "asset_uai": "CERT-SYS-000150",
+      "repository_path": "13_Project_Genesis/AI/retatrutide_controlled_conversation_policy.json",
+      "surface": "AI",
+      "intended_action": "UPDATE",
+      "reason": "Answer policy consistency"
+    },
+    {
+      "asset_uai": "CERT-SYS-000151",
+      "repository_path": "13_Project_Genesis/UI/Retatrutide_Patient_Interface/app.js",
+      "surface": "UI",
+      "intended_action": "UPDATE",
+      "reason": "Interface monitoring language consistency"
+    }
+  ],
+  "unresolved_assets": [],
+  "all_declared": true,
+  "relationship_changes": [
+    {
+      "relationship": "HAS_MONITORING",
+      "action": "PRESERVE"
+    }
+  ],
+  "status": "COMPLETE"
+}

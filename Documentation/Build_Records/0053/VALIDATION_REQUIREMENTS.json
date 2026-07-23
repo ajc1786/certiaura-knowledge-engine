@@ -1,0 +1,32 @@
+{
+  "build_number": "0053",
+  "candidate": "RC4",
+  "required_results": [
+    "PREDECESSOR_CANONICAL_SOURCE_VERIFIED",
+    "PREDECESSOR_ISOLATION_VALIDATED",
+    "DRY_RUN_VALIDATED",
+    "ROLLBACK_STATE_EXACT",
+    "CLEAN_REAPPLY_VALIDATED",
+    "CONTROLLED_PROPAGATION_VALIDATED",
+    "POST_CHANGE_EFFECTIVENESS_VALIDATED",
+    "CANONICAL_REGISTER_TOPOLOGY_REGRESSION_VALIDATED",
+    "BUILD_0053_REPOSITORY_VALIDATED",
+    "BUILD_0053_WINDOWS_PS51_REGRESSION_PASS",
+    "BUILD_0053_PRE_CANONICAL_FULL_SUITE_VALIDATED",
+    "BUILD_0053_AUTOMATIC_ROLLBACK_STATE_EXACT",
+    "BUILD_0053_CANONICAL_VALIDATED_AND_STAGED"
+  ],
+  "git_checks": [
+    "git diff --check",
+    "git diff --cached --check",
+    "working-tree/index byte equality"
+  ],
+  "closure_requires": [
+    "exact commit",
+    "push",
+    "GitHub Actions success",
+    "founder GREEN"
+  ],
+  "runtime_generated_text_newline_policy": "Every production Path.write_text call must declare newline=\"\\n\"",
+  "post_import_failure_policy": "Automatic transactional rollback to exact predecessor state before surfacing failure"
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "build_number": "0053",
+  "outcomes": {
+    "EFFECTIVE": {
+      "required": [
+        "evidence_complete",
+        "all_mandatory_targets_met"
+      ],
+      "next_actions": [
+        "CLOSE",
+        "CONTINUE_SURVEILLANCE"
+      ]
+    },
+    "PARTIALLY_EFFECTIVE": {
+      "required": [
+        "evidence_complete",
+        "one_or_more_targets_missed"
+      ],
+      "next_actions": [
+        "REOPEN",
+        "CORRECTIVE_CHANGE"
+      ]
+    },
+    "INEFFECTIVE": {
+      "required": [
+        "evidence_complete",
+        "primary_target_missed"
+      ],
+      "next_actions": [
+        "REOPEN",
+        "ROLLBACK",
+        "CORRECTIVE_CHANGE"
+      ]
+    },
+    "INSUFFICIENT_EVIDENCE": {
+      "required": [
+        "evidence_gap_recorded"
+      ],
+      "next_actions": [
+        "WATCH",
+        "EXTEND_REVIEW"
+      ]
+    }
+  },
+  "prohibited": [
+    "EFFECTIVE_WITHOUT_EVIDENCE",
+    "AUTO_CLOSE_WITHOUT_HUMAN_DECISION"
+  ]
+}

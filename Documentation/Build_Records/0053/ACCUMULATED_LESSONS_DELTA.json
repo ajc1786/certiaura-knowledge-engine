@@ -1,0 +1,30 @@
+{
+  "build_number": "0053",
+  "lessons": [
+    {
+      "lesson_id": "CERT-LESSON-0053-001",
+      "control": "Exact expected/applied target-set equality blocks partial propagation",
+      "regression": "invalid_partial_propagation.example.json fails"
+    },
+    {
+      "lesson_id": "CERT-LESSON-0053-002",
+      "control": "Publication and effectiveness are independent closure gates",
+      "regression": "publication-before-approval and effectiveness-without-evidence examples fail"
+    },
+    {
+      "lesson_id": "CERT-LESSON-0053-003",
+      "control": "Synthetic predecessor fixtures must reproduce canonical Master Asset Register registration topology and must not invent formal-asset rows.",
+      "regression": "governance predecessor files exist in Git but are absent from the synthetic Master Asset Register; forced rollback and clean reapply must pass."
+    },
+    {
+      "lesson_id": "CERT-LESSON-0053-004",
+      "control": "All production Python text writers must declare newline=\"\\n\" so runtime-generated working-tree bytes remain identical to staged Git bytes on Windows.",
+      "regression": "AST audit of production write_text calls plus Windows PowerShell 5.1 staged-byte equality gate."
+    },
+    {
+      "lesson_id": "CERT-LESSON-0053-005",
+      "control": "All Build 0053 tests are restricted to exact manifest ownership, run in the temporary clone before canonical apply, and any later canonical gate failure triggers automatic transaction rollback.",
+      "regression": "BUILD_0053_PRE_CANONICAL_FULL_SUITE_VALIDATED plus staged post-import rollback to ROLLBACK_STATE_EXACT."
+    }
+  ]
+}

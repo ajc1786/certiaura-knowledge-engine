@@ -1,0 +1,97 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://certiaura.local/schemas/retatrutide_change_reopening_decision.schema.json",
+  "title": "Retatrutide Change Reopening Decision",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "type": "string",
+      "const": "1.0.0"
+    },
+    "record_type": {
+      "type": "string",
+      "const": "RETATRUTIDE_CHANGE_REOPENING_DECISION"
+    },
+    "build_number": {
+      "type": "string",
+      "const": "0053"
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "created_by": {
+      "type": "string",
+      "minLength": 1
+    },
+    "peptide_uai": {
+      "type": "string",
+      "const": "CERT-PKS-000001"
+    },
+    "reopening_id": {
+      "type": "string",
+      "pattern": "^RET-KRD-[0-9]{4}$"
+    },
+    "review_id": {
+      "type": "string"
+    },
+    "trigger": {
+      "type": "string",
+      "enum": [
+        "INEFFECTIVE_CHANGE",
+        "PARTIAL_EFFECTIVENESS",
+        "CONTRADICTORY_EVIDENCE",
+        "IMPLEMENTATION_DEFECT",
+        "NEW_SAFETY_SIGNAL",
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    "decision": {
+      "type": "string",
+      "enum": [
+        "REOPEN",
+        "WATCH",
+        "CLOSE",
+        "ROLLBACK"
+      ]
+    },
+    "rationale": {
+      "type": "string",
+      "minLength": 10
+    },
+    "human_approval": {
+      "type": "boolean",
+      "const": true
+    },
+    "approver_id": {
+      "type": "string"
+    },
+    "decided_at": {
+      "type": "string"
+    },
+    "new_change_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  },
+  "required": [
+    "schema_version",
+    "record_type",
+    "build_number",
+    "created_at",
+    "created_by",
+    "peptide_uai",
+    "reopening_id",
+    "review_id",
+    "trigger",
+    "decision",
+    "rationale",
+    "human_approval",
+    "approver_id",
+    "decided_at",
+    "new_change_id"
+  ]
+}

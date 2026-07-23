@@ -1,0 +1,386 @@
+{
+  "schema_version": "1.0.0",
+  "generated_at": "2026-07-23T06:48:55.104458+00:00",
+  "source": "CANONICAL_GIT_OBJECTS",
+  "predecessor_build": "0052",
+  "predecessor_candidate": "RC6",
+  "predecessor_commit": "890df218b4f4dea92f4ccfa36b8106de59eca1b1",
+  "manifest_path": "Documentation/Build_Records/0052/ASSET_INTENT_MANIFEST.json",
+  "predecessor_path_count": 59,
+  "current_build": "0053",
+  "intersection": [
+    "00_Governance/CERTIAURA_LOCKED_ACCUMULATED_LESSONS_AND_CONTINUOUS_LEARNING_STANDARD.control.json",
+    "00_Governance/CERTIAURA_LOCKED_ACCUMULATED_LESSONS_AND_CONTINUOUS_LEARNING_STANDARD.md",
+    "00_Governance/CERTIAURA_LOCKED_BUILD_CONTINUITY_AND_CHECKPOINT.md"
+  ],
+  "approved_intersection": [
+    "00_Governance/CERTIAURA_LOCKED_ACCUMULATED_LESSONS_AND_CONTINUOUS_LEARNING_STANDARD.control.json",
+    "00_Governance/CERTIAURA_LOCKED_ACCUMULATED_LESSONS_AND_CONTINUOUS_LEARNING_STANDARD.md",
+    "00_Governance/CERTIAURA_LOCKED_BUILD_CONTINUITY_AND_CHECKPOINT.md"
+  ],
+  "prohibited_intersection": [],
+  "withdrawn_candidates": [
+    "RC1",
+    "RC2",
+    "RC3",
+    "RC4",
+    "RC5"
+  ],
+  "blobs": [
+    {
+      "repository_path": "00_Governance/CERTIAURA_LOCKED_ACCUMULATED_LESSONS_AND_CONTINUOUS_LEARNING_STANDARD.control.json",
+      "git_blob": "6f2e96c1609a5b18206b3036ba1d4d004fb3d41e",
+      "sha256": "5be050acf13753e14ad0cd1197af92fdce090046dac31d94c1a61021bb879998",
+      "size_bytes": 290710
+    },
+    {
+      "repository_path": "00_Governance/CERTIAURA_LOCKED_ACCUMULATED_LESSONS_AND_CONTINUOUS_LEARNING_STANDARD.md",
+      "git_blob": "f1b9377bbd90754bef942b65446f1b503585d640",
+      "sha256": "c9e508a8a91478e2f60ea93c3af3e73dc9ce03bbc8b9e307ef33d0792c5adcd0",
+      "size_bytes": 108834
+    },
+    {
+      "repository_path": "00_Governance/CERTIAURA_LOCKED_BUILD_CONTINUITY_AND_CHECKPOINT.md",
+      "git_blob": "bce9399e43d30da36749bcb0cc8357e132f66a5a",
+      "sha256": "c1d47cb5bf24a8472391fff374cf555311053cc555d2680a1ec2152b30046587",
+      "size_bytes": 30396
+    },
+    {
+      "repository_path": "00_Governance/CERTIAURA_LOCKED_PREDECESSOR_EVIDENCE_AND_RELEASE_STANDARD.control.json",
+      "git_blob": "685dd3501575f9cc0436b0905a4fca1c5ed3dfcd",
+      "sha256": "318fd509e517141d623bdd05cee134bd61994efbf9fa57201a2b46060f60a8e0",
+      "size_bytes": 1353
+    },
+    {
+      "repository_path": "00_Governance/CERTIAURA_LOCKED_PREDECESSOR_EVIDENCE_AND_RELEASE_STANDARD.md",
+      "git_blob": "09ece6dc9d48b52e9e9751ed679bb52ecff977c5",
+      "sha256": "df72e53e945f981c103ec62bfec93001ec2921badd9810c61d170e4489282d3e",
+      "size_bytes": 2751
+    },
+    {
+      "repository_path": "05_Monitoring/Examples/Retatrutide/conditional_insufficient_cohort.example.json",
+      "git_blob": "cddb7460738cd912fe65f066cc0e907ce08fbe46",
+      "sha256": "86f2a805e3d14a141025b74e10158480c6bd44faf5a1c1ba89b739a2873ae899",
+      "size_bytes": 493
+    },
+    {
+      "repository_path": "05_Monitoring/Examples/Retatrutide/invalid_autonomous_cross_case_action.example.json",
+      "git_blob": "87eb47dae96d6d1f62eda51ec7df8742d8bd6d91",
+      "sha256": "71057433f07fbad1ca0dd4ab07de0d1aaaa432117474779121e9dd0b8eb3338e",
+      "size_bytes": 522
+    },
+    {
+      "repository_path": "05_Monitoring/Examples/Retatrutide/valid_cross_case_watch_signal.example.json",
+      "git_blob": "78d4511ac841fa31f979f48b1863a1b653ec681e",
+      "sha256": "fb8af83c61be8af209b5547c44779d5e8826ccde203cb1665f9af197d2064edf",
+      "size_bytes": 523
+    },
+    {
+      "repository_path": "05_Monitoring/Examples/Retatrutide/valid_signal_governance_decision.example.json",
+      "git_blob": "e77cfd6e4e74a110730c32c7413cb8a97d4670df",
+      "sha256": "0a5028fdef817b5bdb547cd17f5629265a804a11842175b028dc71a4ad7e72d9",
+      "size_bytes": 279
+    },
+    {
+      "repository_path": "13_Project_Genesis/Dashboards/generate_retatrutide_cross_case_signal_summary.py",
+      "git_blob": "26fdd173dfbb0357c8f1dfe9e218b6712ff1861e",
+      "sha256": "adcecf502c1c2c50c94281cd5e2fb60be46f03489b6d9c579912ca3ebe198fad",
+      "size_bytes": 556
+    },
+    {
+      "repository_path": "13_Project_Genesis/Import/run_build_0052_import.py",
+      "git_blob": "ed64ff3063c924c3841e3e6ea088734bc7661b29",
+      "sha256": "5ed55f700a71e2199c0ce29ac7b47b19334f07be6f311642fdb42dfc4c27bde6",
+      "size_bytes": 12966
+    },
+    {
+      "repository_path": "13_Project_Genesis/Release/derive_build_0051_predecessor_evidence.py",
+      "git_blob": "bd40ed55d619217ea784a387c071aaff0b0e7f17",
+      "sha256": "8d672faa8df39eafaa4d2895b9420a42ddb6b536c7dcb5b1482e32aeb2206194",
+      "size_bytes": 17790
+    },
+    {
+      "repository_path": "13_Project_Genesis/Release/run_build_0052_preflight.py",
+      "git_blob": "2f8357492abb1ea9d3e67522f4fbd6a72a5f54c9",
+      "sha256": "2818d3c36f131c9c4a52fe67da12d46ed02a8f70ea56c73635bf9346c50bed81",
+      "size_bytes": 11104
+    },
+    {
+      "repository_path": "13_Project_Genesis/Tests/test_build_0052_control_regressions.py",
+      "git_blob": "3060bc69ba032f31be9d2461f9207e74bb962427",
+      "sha256": "30c0bcf2fd0aef0a4cfb49a95b29c4bf450e82b34428e37e9eaca78510d647b1",
+      "size_bytes": 12692
+    },
+    {
+      "repository_path": "13_Project_Genesis/Tests/test_build_0052_predecessor_evidence.py",
+      "git_blob": "2889792a8b367e192dca5166bc3ca29d79ebf003",
+      "sha256": "37dd597eb346c2fec0d00b4a95110a2527387c2555ed12308feb49aee29520fe",
+      "size_bytes": 4421
+    },
+    {
+      "repository_path": "13_Project_Genesis/Tests/test_build_0052_retatrutide_cross_case_signal.py",
+      "git_blob": "755bf6309bb22a817fd2ffbde54926a04dc03fdb",
+      "sha256": "aa9ebeab60180408ab7a9c3fd8f33f8aada6e20e6152bab4311fb2ec0710a060",
+      "size_bytes": 1068
+    },
+    {
+      "repository_path": "13_Project_Genesis/Validators/build_0052_asset_ownership.py",
+      "git_blob": "4eca0cd1f18b3071a99fd937b5954358429bd6fc",
+      "sha256": "a4ff5c762a887e10b90a30a80b4edc5ee359446361f9c25dec77bda5939a10a4",
+      "size_bytes": 4160
+    },
+    {
+      "repository_path": "13_Project_Genesis/Validators/retatrutide_signal_common.py",
+      "git_blob": "259a8fe8a414f6efeb22fd4d044efaa35e89bbc2",
+      "sha256": "d8a0916ff916bfa6cd313342a495f0be52e168f734b230efaa36e3b22409a65a",
+      "size_bytes": 156
+    },
+    {
+      "repository_path": "13_Project_Genesis/Validators/validate_accumulated_lessons_source.py",
+      "git_blob": "0a33fd1f7171c2aeaf216a8287a7e607012fc929",
+      "sha256": "3074c11bbd86805077e26d494857a56ff0406baa0f2ac666ab8409fcde00d4f8",
+      "size_bytes": 4691
+    },
+    {
+      "repository_path": "13_Project_Genesis/Validators/validate_build_0052_repository.py",
+      "git_blob": "c2c6e5bfe76f7ab59474d5c7ddfa10b5e46e9595",
+      "sha256": "03053c65350d0c2b880eda893ba710b666fd63428b7626215796ffa53c47cd10",
+      "size_bytes": 3039
+    },
+    {
+      "repository_path": "13_Project_Genesis/Validators/validate_retatrutide_cross_case_signal.py",
+      "git_blob": "fbf8b47a5c473617529fa0bef898561264ac88bb",
+      "sha256": "d24465a823430525bf1d03dc23056d4e94a6e87a0bcab75b2795845b76608883",
+      "size_bytes": 2306
+    },
+    {
+      "repository_path": "Database/Registers/Retatrutide_Cross_Case_Signal_Register.csv",
+      "git_blob": "3f1211cca82f07576c191bc31f19e8fb75518e67",
+      "sha256": "21b36d5c8daf3aa90e299e4571bb71d183ac63d24b4aee5c8e81f09a87b7861c",
+      "size_bytes": 113
+    },
+    {
+      "repository_path": "Database/Registers/Retatrutide_Signal_Governance_Decision_Register.csv",
+      "git_blob": "b63164cbd2a95d2631217c6a934669db7bafe495",
+      "sha256": "9d83c6783ea9c9b790f7a8c388db2da75a25b14f9b5b1b8aa820dcf2a1d18cfd",
+      "size_bytes": 132
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0052/ACCUMULATED_LESSONS_UPDATE_REPORT.json",
+      "git_blob": "ecf3e60f1f78c67325167f0ace5d679a0661ba59",
+      "sha256": "bb3c71f4959131fb10820a8e9d0cc81b3df16e345b363c575cc5b8581eae4972",
+      "size_bytes": 142943
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0052/ASSET_INTENT_MANIFEST.json",
+      "git_blob": "d10af3f82b5ae62646203fa2f6167e4c03c64ff1",
+      "sha256": "314b6a773da81a8bdcee31a420b86870119a7c96e89c80bbef652aac14610f04",
+      "size_bytes": 20361
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0052/BUILD_MANIFEST.json",
+      "git_blob": "4d53f4974ac296a919a0ff80bbd6ef93bc3b5f48",
+      "sha256": "7b415a0c87d12d7dd3c055c9780d1f6942b2dfa0079fc46c47dc6efcc0c11f16",
+      "size_bytes": 4683
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0052/CANDIDATE_DELIVERY.json",
+      "git_blob": "1ced3908edb07341e2df48743177a366d33b6541",
+      "sha256": "495124c3cd2ae68258249da1353b5b8d88a48354989d3ddbe5a3ebff9602ab98",
+      "size_bytes": 389
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0052/CANDIDATE_VALIDATION_REPORT.json",
+      "git_blob": "5bd409040110d45dfe2b43bdf0af21d1acdceaeb",
+      "sha256": "b5542c13324c7e1692cbb1d5c921a170ee88dee9fe944417ffa1505d504b8394",
+      "size_bytes": 180
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0052/CHECKSUMS.sha256",
+      "git_blob": "0f45f831d621b403c6dd62c1a21e31ce687f42f2",
+      "sha256": "ae9e91ddd952880486e83fb579dc9b395fb78e8543df96bc6b6c889a5d217db2",
+      "size_bytes": 6478
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0052/COMMIT_MESSAGE.txt",
+      "git_blob": "01d659cc31b55e8a27568ad891fc6a5417d10889",
+      "sha256": "4dc7b4b639dd97ccc562de5fd960dc6a1e74dccd8749f4431a0dd68f9e4c3387",
+      "size_bytes": 152
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0052/CONTINUITY_CHECKPOINT_DELTA.json",
+      "git_blob": "3482c07b50d7810600adae1f5e1c1c814f774a87",
+      "sha256": "9f8f3a9bf8c9d5dec7c9cfd530053ee042143675ebfeeedec80b16033b46421f",
+      "size_bytes": 240
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0052/DECISION_RECORD_0052.md",
+      "git_blob": "3700d1ef55750a983c4fea969c2c810eb5e01a44",
+      "sha256": "8dd412abc320be97d22b7a9ad6793ec1d032430326a5a4cc0f965b3dd7b23231",
+      "size_bytes": 2097
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0052/LESSONS_COVERAGE_REPORT.json",
+      "git_blob": "bcf1ab540b9f7abc734b6d5b8e7f66bc6c55cc91",
+      "sha256": "762d1726fdc46060a28e016734a426b44a20868598f224dae0fcd4b6ba1e228b",
+      "size_bytes": 6595
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0052/LESSONS_LEARNED_CONTROL_MATRIX.json",
+      "git_blob": "7cb1c8c08bec070da0ab71d5670a7355584cc732",
+      "sha256": "a61b8a0b3369a3c5f5ea10bee9424ddd95f066196d5dc5e4ad16453a3bd5fa09",
+      "size_bytes": 15349
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0052/LESSONS_LEARNED_REVIEW.md",
+      "git_blob": "f334f13e2b3009af5447393251f850cf4e79c625",
+      "sha256": "e2c44d0d9561aca2be0d08ce9f3e1cf207365d7ac699d3c7ae6d8b344386b35b",
+      "size_bytes": 2779
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0052/OUTSIDE_CANONICAL_VALIDATION_REPORT.json",
+      "git_blob": "f0d9c4915b231cf5bb6bfe3ce4e09028fc467a44",
+      "sha256": "0a5347f0d9ac2f9bdcada1ca788cafd5752c74dea505c3e0d8f0bf796a393c99",
+      "size_bytes": 1686
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0052/PACKAGE_INVENTORY.csv",
+      "git_blob": "df79d6c1aef631e444866ce850eb0dc84226f9f8",
+      "sha256": "3bd5c68536ba177892ebc0a2c079b9ff96782573283ad28ddfc96ed8dafde295",
+      "size_bytes": 8221
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0052/PACKAGE_VERSION.json",
+      "git_blob": "fa4ed48c14f50e2171f5ec7597a785a386a228dd",
+      "sha256": "24477e162167730d31ec5cba2a6fb6666856b02adb96952ec1dda6c16f40dfe5",
+      "size_bytes": 422
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0052/PREDECESSOR_CANONICAL_EVIDENCE.json",
+      "git_blob": "a0bcbfe23c2d7e4cd17816bccefb6d1f372e2d57",
+      "sha256": "276993fde858ab78114794c0ee633eac18a2dbb9a77e697b70f6d70bafaa14ff",
+      "size_bytes": 27749
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0052/PRE_AUTHORISED_PRECURSOR_STATE.json",
+      "git_blob": "dd8e1309080f540d690123957c4f67e7684c7d83",
+      "sha256": "a8e5891c74f1e6124d3635595aabfff87387ca3107ffbbc539f1fae47a904c50",
+      "size_bytes": 1435
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0052/PROJECT_GENESIS_IMPORT_HOOK.json",
+      "git_blob": "8d602650bb6742f3815f92dc25a54b22d48e983b",
+      "sha256": "ff2d120a5c3429a1ef89ce06cc7a8ccfd44fb9a8ea2a27db8353d19ef8ee799d",
+      "size_bytes": 278
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0052/PROPOSED_NEXT_ACTION.md",
+      "git_blob": "640cbc0d72a70a088844e635fb4dcf555f66a5c2",
+      "sha256": "f2ebb46424376464a60bae04d73dfa1034e783f4defa5d3be5650d784ffa1efc",
+      "size_bytes": 709
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0052/READ_ME_FIRST.md",
+      "git_blob": "611acb7f0edabeb9bcb5d5e21ca5a673eeecf49c",
+      "sha256": "bd3d794374b90a737fb974b25ffb8d179162e8d04cd39ac85a4fc3e1b4604573",
+      "size_bytes": 1708
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0052/REAL_WORLD_OPERATOR_WORKFLOW_REGRESSION_REPORT.json",
+      "git_blob": "a8eb2bdedaf89b3278663136b59b1bcb060f2a5d",
+      "sha256": "d4addbee0793c93cef5f7f84375fff803d8e12715deed1bc18b7e33e8dda7f6a",
+      "size_bytes": 190
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0052/ROLLBACK_RUNBOOK.md",
+      "git_blob": "dffd8db0b2762cabbebffa80beca216fe6de9a08",
+      "sha256": "e667cd11674747b06191a0b39632fcb77ea1bd31533615849bc405cc47e0de23",
+      "size_bytes": 589
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0052/SOURCE_INPUT_DEFECT_LOG.json",
+      "git_blob": "20d0a896d90bb5a7d0de13b7ec3dfde0171dd136",
+      "sha256": "5652ecf63c8e91ad37cfa41b16ce4e1ae6de21a870aab06b0eb41edcb0ffa6f1",
+      "size_bytes": 2238
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0052/VALIDATION_REQUIREMENTS.json",
+      "git_blob": "76e7a50e63b9e5e49f693e16cf9df6c415665e1f",
+      "sha256": "93c89929dd42896879ecaafcaa99598eb56e50358b83e744d8664e944fe92c78",
+      "size_bytes": 1055
+    },
+    {
+      "repository_path": "Schemas/retatrutide_cross_case_signal.schema.json",
+      "git_blob": "a7e0e60a8711766887806b5e67fcc0285eb35853",
+      "sha256": "6b27af1ac2ee1c8ccf601fcb2e41a2274f702d09ad82a7cbb631c6898209f465",
+      "size_bytes": 1245
+    },
+    {
+      "repository_path": "Schemas/retatrutide_signal_governance_decision.schema.json",
+      "git_blob": "1115e8566cac95f68a1389cc453d1af709320d0a",
+      "sha256": "b69675a7668bd4ce94d73682a51446a7462116d6474462cbd7827ace7292fcc9",
+      "size_bytes": 842
+    },
+    {
+      "repository_path": "Scripts/Invoke_Certiaura_Accumulated_Lessons_Update.ps1",
+      "git_blob": "cf4bb85da89bbcf4a5687bf4d7a2d9df798deb89",
+      "sha256": "0e8828cb87a64a03d1f2fc997a9c1d193f663553cd0fc9a0d7a2241d2d196e68",
+      "size_bytes": 2006
+    },
+    {
+      "repository_path": "Scripts/Invoke_Certiaura_Build_0052_Import.ps1",
+      "git_blob": "b138567a1a277c43091f9951893233d531e07a72",
+      "sha256": "5457ac38bae427010a7a7c3b0e4c9eb07b518e6a8797914885190cc08f4c6675",
+      "size_bytes": 7581
+    },
+    {
+      "repository_path": "Scripts/Invoke_Certiaura_Build_0052_Preflight.ps1",
+      "git_blob": "98d50f317877f34a0a846e6bbcab266510e2ee02",
+      "sha256": "d99f696bd348f6ffdccc114f3a2f4a5d1498ba2060a132b2623b21821c0f0402",
+      "size_bytes": 3231
+    },
+    {
+      "repository_path": "Scripts/Invoke_Certiaura_Build_0052_Windows_PS51_Regression.ps1",
+      "git_blob": "8157d36d3e34c5e246bc2e12959bc01c5fb97c31",
+      "sha256": "d5ca9417d4ae7fe271ada5b926048d4979444d7f31d7d5dacb7e78c60679ca97",
+      "size_bytes": 24385
+    },
+    {
+      "repository_path": "Scripts/Run_Certiaura_Build_0052.ps1",
+      "git_blob": "6c5a248d57f1f38876ecc6cb286388540dc21af3",
+      "sha256": "b4ea957fdc5faedb2f56cd9969a334e6266f2416030979c3401e3ffe3343fd81",
+      "size_bytes": 963
+    },
+    {
+      "repository_path": "Scripts/START_BUILD_0052.cmd",
+      "git_blob": "4076b0c75d677e91c67937abb069a77aa774fabe",
+      "sha256": "4265a4053a3f84cafc77b642c96062dc3c48cdbb56485d5603cc8f6c06f2c7df",
+      "size_bytes": 106
+    },
+    {
+      "repository_path": "Scripts/update_certiaura_accumulated_lessons.py",
+      "git_blob": "80b43553fa694ff54034556ec6e35cc0f6bcfaf8",
+      "sha256": "8aedef2d1d0dde70165ce5cd3000b1d0b913aa1d6009fa57ea7e7fb8d9dec4d3",
+      "size_bytes": 25008
+    },
+    {
+      "repository_path": "Standards/RETATRUTIDE_CROSS_CASE_SIGNAL_GOVERNANCE_STANDARD.md",
+      "git_blob": "3dc3e16303ac044fa2314bc7cf44b3a3512c6f3c",
+      "sha256": "9fae023e89f45e62021686121d301f86e29b3560c453630d7969f73b6667e2be",
+      "size_bytes": 1906
+    },
+    {
+      "repository_path": "Templates/RETATRUTIDE_CROSS_CASE_SIGNAL_TEMPLATE.json",
+      "git_blob": "087f1fbc9f0556994da00e292333a24362281f1b",
+      "sha256": "492e9f58ab75a337ca8986e9a8ff80eb4a056964cd9684ca669f7912a01a1492",
+      "size_bytes": 349
+    },
+    {
+      "repository_path": "Templates/RETATRUTIDE_SIGNAL_GOVERNANCE_DECISION_TEMPLATE.json",
+      "git_blob": "8cff7427f88880e8dbc06540d65b5a5b881f8274",
+      "sha256": "12013e35f9c7b1612a3c00778fc4dacf13b47aa216a53f757d0670ef06288873",
+      "size_bytes": 197
+    }
+  ],
+  "result": "PREDECESSOR_CANONICAL_SOURCE_VERIFIED"
+}

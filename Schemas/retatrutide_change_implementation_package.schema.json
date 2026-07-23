@@ -1,0 +1,140 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://certiaura.local/schemas/retatrutide_change_implementation_package.schema.json",
+  "title": "Retatrutide Change Implementation Package",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "type": "string",
+      "const": "1.0.0"
+    },
+    "record_type": {
+      "type": "string",
+      "const": "RETATRUTIDE_CHANGE_IMPLEMENTATION_PACKAGE"
+    },
+    "build_number": {
+      "type": "string",
+      "const": "0053"
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "created_by": {
+      "type": "string",
+      "minLength": 1
+    },
+    "peptide_uai": {
+      "type": "string",
+      "const": "CERT-PKS-000001"
+    },
+    "implementation_id": {
+      "type": "string",
+      "pattern": "^RET-KIM-[0-9]{4}$"
+    },
+    "change_id": {
+      "type": "string"
+    },
+    "approval_id": {
+      "type": "string"
+    },
+    "approval_outcome": {
+      "type": "string",
+      "const": "APPROVED"
+    },
+    "expected_targets": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    },
+    "applied_targets": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "propagation_complete": {
+      "type": "boolean"
+    },
+    "before_after_changes": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "properties": {
+          "repository_path": {
+            "type": "string"
+          },
+          "before_version": {
+            "type": "string"
+          },
+          "after_version": {
+            "type": "string"
+          },
+          "change_hash": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "repository_path",
+          "before_version",
+          "after_version",
+          "change_hash"
+        ]
+      }
+    },
+    "rollback_plan": {
+      "type": "object",
+      "properties": {
+        "trigger_conditions": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string"
+          }
+        },
+        "restore_checkpoint": {
+          "type": "string"
+        },
+        "owner": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "trigger_conditions",
+        "restore_checkpoint",
+        "owner"
+      ]
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "STAGED",
+        "IMPLEMENTED",
+        "ROLLED_BACK",
+        "FAILED"
+      ]
+    }
+  },
+  "required": [
+    "schema_version",
+    "record_type",
+    "build_number",
+    "created_at",
+    "created_by",
+    "peptide_uai",
+    "implementation_id",
+    "change_id",
+    "approval_id",
+    "approval_outcome",
+    "expected_targets",
+    "applied_targets",
+    "propagation_complete",
+    "before_after_changes",
+    "rollback_plan",
+    "status"
+  ]
+}

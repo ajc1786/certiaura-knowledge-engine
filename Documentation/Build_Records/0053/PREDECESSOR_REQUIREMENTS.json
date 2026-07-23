@@ -1,0 +1,15 @@
+{
+  "predecessor_build": "0052",
+  "successful_candidate": "RC6",
+  "canonical_commit": "890df218b4f4dea92f4ccfa36b8106de59eca1b1",
+  "expected_asset_intent_path_count": 59,
+  "withdrawn_prohibited_candidates": [
+    "RC1",
+    "RC2",
+    "RC3",
+    "RC4",
+    "RC5"
+  ],
+  "evidence_source": "CANONICAL_GIT_OBJECTS",
+  "approved_overlap_policy": "EXPLICIT_ONLY"
+}

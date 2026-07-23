@@ -1,0 +1,26 @@
+{
+  "build_number": "0053",
+  "candidate": "RC4",
+  "manifest_package_equality": "PASS",
+  "flat_repository_relative_routing": "PASS",
+  "runtime_predecessor_evidence_derivation": "ENFORCED_AT_IMPORT",
+  "expected_predecessor_commit": "890df218b4f4dea92f4ccfa36b8106de59eca1b1",
+  "expected_predecessor_path_count": 59,
+  "prohibited_candidates": [
+    "RC1",
+    "RC2",
+    "RC3",
+    "RC4",
+    "RC5"
+  ],
+  "result": "CANDIDATE_RELEASE_VALIDATED",
+  "canonical_register_topology_regression": "PASS",
+  "build_0053_withdrawn_prohibited_candidates": [
+    "RC1",
+    "RC2",
+    "RC3"
+  ],
+  "windows_runtime_generated_report_lf_regression": "PASS",
+  "pre_canonical_full_suite_regression": "PASS",
+  "automatic_post_import_rollback_regression": "PASS"
+}

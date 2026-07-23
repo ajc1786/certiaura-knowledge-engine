@@ -1,0 +1,427 @@
+{
+  "build_number": "0053",
+  "allowed_roots": [
+    "05_Monitoring",
+    "13_Project_Genesis",
+    "Database",
+    "Documentation",
+    "Schemas",
+    "Scripts",
+    "Standards",
+    "Templates"
+  ],
+  "wrapper_folder_allowed": false,
+  "package_file_count": 83,
+  "routes": [
+    {
+      "source": "05_Monitoring/Examples/Retatrutide/conditional_insufficient_evidence_change.example.json",
+      "destination": "05_Monitoring/Examples/Retatrutide/conditional_insufficient_evidence_change.example.json"
+    },
+    {
+      "source": "05_Monitoring/Examples/Retatrutide/invalid_autonomous_knowledge_change.example.json",
+      "destination": "05_Monitoring/Examples/Retatrutide/invalid_autonomous_knowledge_change.example.json"
+    },
+    {
+      "source": "05_Monitoring/Examples/Retatrutide/invalid_effectiveness_without_evidence.example.json",
+      "destination": "05_Monitoring/Examples/Retatrutide/invalid_effectiveness_without_evidence.example.json"
+    },
+    {
+      "source": "05_Monitoring/Examples/Retatrutide/invalid_partial_propagation.example.json",
+      "destination": "05_Monitoring/Examples/Retatrutide/invalid_partial_propagation.example.json"
+    },
+    {
+      "source": "05_Monitoring/Examples/Retatrutide/invalid_publication_before_approval.example.json",
+      "destination": "05_Monitoring/Examples/Retatrutide/invalid_publication_before_approval.example.json"
+    },
+    {
+      "source": "05_Monitoring/Examples/Retatrutide/valid_change_implementation_package.example.json",
+      "destination": "05_Monitoring/Examples/Retatrutide/valid_change_implementation_package.example.json"
+    },
+    {
+      "source": "05_Monitoring/Examples/Retatrutide/valid_change_reopening_decision.example.json",
+      "destination": "05_Monitoring/Examples/Retatrutide/valid_change_reopening_decision.example.json"
+    },
+    {
+      "source": "05_Monitoring/Examples/Retatrutide/valid_controlled_change_approval.example.json",
+      "destination": "05_Monitoring/Examples/Retatrutide/valid_controlled_change_approval.example.json"
+    },
+    {
+      "source": "05_Monitoring/Examples/Retatrutide/valid_cross_asset_impact_assessment.example.json",
+      "destination": "05_Monitoring/Examples/Retatrutide/valid_cross_asset_impact_assessment.example.json"
+    },
+    {
+      "source": "05_Monitoring/Examples/Retatrutide/valid_knowledge_change_proposal.example.json",
+      "destination": "05_Monitoring/Examples/Retatrutide/valid_knowledge_change_proposal.example.json"
+    },
+    {
+      "source": "05_Monitoring/Examples/Retatrutide/valid_post_change_effectiveness_review.example.json",
+      "destination": "05_Monitoring/Examples/Retatrutide/valid_post_change_effectiveness_review.example.json"
+    },
+    {
+      "source": "05_Monitoring/Examples/Retatrutide/valid_publication_release.example.json",
+      "destination": "05_Monitoring/Examples/Retatrutide/valid_publication_release.example.json"
+    },
+    {
+      "source": "13_Project_Genesis/Dashboards/generate_retatrutide_knowledge_change_summary.py",
+      "destination": "13_Project_Genesis/Dashboards/generate_retatrutide_knowledge_change_summary.py"
+    },
+    {
+      "source": "13_Project_Genesis/Import/run_build_0053_import.py",
+      "destination": "13_Project_Genesis/Import/run_build_0053_import.py"
+    },
+    {
+      "source": "13_Project_Genesis/Release/derive_build_0052_predecessor_evidence.py",
+      "destination": "13_Project_Genesis/Release/derive_build_0052_predecessor_evidence.py"
+    },
+    {
+      "source": "13_Project_Genesis/Release/run_build_0053_preflight.py",
+      "destination": "13_Project_Genesis/Release/run_build_0053_preflight.py"
+    },
+    {
+      "source": "13_Project_Genesis/Tests/test_build_0053_knowledge_change.py",
+      "destination": "13_Project_Genesis/Tests/test_build_0053_knowledge_change.py"
+    },
+    {
+      "source": "13_Project_Genesis/Tests/test_build_0053_predecessor_evidence.py",
+      "destination": "13_Project_Genesis/Tests/test_build_0053_predecessor_evidence.py"
+    },
+    {
+      "source": "13_Project_Genesis/Tests/test_build_0053_repository.py",
+      "destination": "13_Project_Genesis/Tests/test_build_0053_repository.py"
+    },
+    {
+      "source": "13_Project_Genesis/Tests/test_build_0053_transactional_import.py",
+      "destination": "13_Project_Genesis/Tests/test_build_0053_transactional_import.py"
+    },
+    {
+      "source": "13_Project_Genesis/Validators/build_0053_asset_ownership.py",
+      "destination": "13_Project_Genesis/Validators/build_0053_asset_ownership.py"
+    },
+    {
+      "source": "13_Project_Genesis/Validators/retatrutide_knowledge_change_common.py",
+      "destination": "13_Project_Genesis/Validators/retatrutide_knowledge_change_common.py"
+    },
+    {
+      "source": "13_Project_Genesis/Validators/validate_build_0053_predecessor_evidence.py",
+      "destination": "13_Project_Genesis/Validators/validate_build_0053_predecessor_evidence.py"
+    },
+    {
+      "source": "13_Project_Genesis/Validators/validate_build_0053_repository.py",
+      "destination": "13_Project_Genesis/Validators/validate_build_0053_repository.py"
+    },
+    {
+      "source": "13_Project_Genesis/Validators/validate_retatrutide_knowledge_change.py",
+      "destination": "13_Project_Genesis/Validators/validate_retatrutide_knowledge_change.py"
+    },
+    {
+      "source": "13_Project_Genesis/Validators/verify_staged_byte_equality.py",
+      "destination": "13_Project_Genesis/Validators/verify_staged_byte_equality.py"
+    },
+    {
+      "source": "Database/Registers/Retatrutide_Change_Implementation_Register.csv",
+      "destination": "Database/Registers/Retatrutide_Change_Implementation_Register.csv"
+    },
+    {
+      "source": "Database/Registers/Retatrutide_Change_Reopening_Register.csv",
+      "destination": "Database/Registers/Retatrutide_Change_Reopening_Register.csv"
+    },
+    {
+      "source": "Database/Registers/Retatrutide_Cross_Asset_Impact_Register.csv",
+      "destination": "Database/Registers/Retatrutide_Cross_Asset_Impact_Register.csv"
+    },
+    {
+      "source": "Database/Registers/Retatrutide_Knowledge_Change_Register.csv",
+      "destination": "Database/Registers/Retatrutide_Knowledge_Change_Register.csv"
+    },
+    {
+      "source": "Database/Registers/Retatrutide_Post_Change_Effectiveness_Register.csv",
+      "destination": "Database/Registers/Retatrutide_Post_Change_Effectiveness_Register.csv"
+    },
+    {
+      "source": "Database/Registers/Retatrutide_Publication_Release_Register.csv",
+      "destination": "Database/Registers/Retatrutide_Publication_Release_Register.csv"
+    },
+    {
+      "source": "Documentation/Build_Records/0053/ACCUMULATED_LESSONS_DELTA.json",
+      "destination": "Documentation/Build_Records/0053/ACCUMULATED_LESSONS_DELTA.json"
+    },
+    {
+      "source": "Documentation/Build_Records/0053/ASSET_INTENT_MANIFEST.json",
+      "destination": "Documentation/Build_Records/0053/ASSET_INTENT_MANIFEST.json"
+    },
+    {
+      "source": "Documentation/Build_Records/0053/ASSET_REGISTER_RECONCILIATION_POLICY.json",
+      "destination": "Documentation/Build_Records/0053/ASSET_REGISTER_RECONCILIATION_POLICY.json"
+    },
+    {
+      "source": "Documentation/Build_Records/0053/BUILD_MANIFEST.json",
+      "destination": "Documentation/Build_Records/0053/BUILD_MANIFEST.json"
+    },
+    {
+      "source": "Documentation/Build_Records/0053/CANDIDATE_DELIVERY.json",
+      "destination": "Documentation/Build_Records/0053/CANDIDATE_DELIVERY.json"
+    },
+    {
+      "source": "Documentation/Build_Records/0053/CHECKSUMS.sha256",
+      "destination": "Documentation/Build_Records/0053/CHECKSUMS.sha256"
+    },
+    {
+      "source": "Documentation/Build_Records/0053/COMMIT_MESSAGE.txt",
+      "destination": "Documentation/Build_Records/0053/COMMIT_MESSAGE.txt"
+    },
+    {
+      "source": "Documentation/Build_Records/0053/CONFLICT_POLICY.json",
+      "destination": "Documentation/Build_Records/0053/CONFLICT_POLICY.json"
+    },
+    {
+      "source": "Documentation/Build_Records/0053/CONTINUITY_CHECKPOINT_DELTA.json",
+      "destination": "Documentation/Build_Records/0053/CONTINUITY_CHECKPOINT_DELTA.json"
+    },
+    {
+      "source": "Documentation/Build_Records/0053/DECISION_RECORD_0053.md",
+      "destination": "Documentation/Build_Records/0053/DECISION_RECORD_0053.md"
+    },
+    {
+      "source": "Documentation/Build_Records/0053/LESSONS_LEARNED_CONTROL_MATRIX.json",
+      "destination": "Documentation/Build_Records/0053/LESSONS_LEARNED_CONTROL_MATRIX.json"
+    },
+    {
+      "source": "Documentation/Build_Records/0053/LESSONS_LEARNED_REVIEW.md",
+      "destination": "Documentation/Build_Records/0053/LESSONS_LEARNED_REVIEW.md"
+    },
+    {
+      "source": "Documentation/Build_Records/0053/OUTSIDE_CANONICAL_VALIDATION_REPORT.json",
+      "destination": "Documentation/Build_Records/0053/OUTSIDE_CANONICAL_VALIDATION_REPORT.json"
+    },
+    {
+      "source": "Documentation/Build_Records/0053/PACKAGE_INVENTORY.csv",
+      "destination": "Documentation/Build_Records/0053/PACKAGE_INVENTORY.csv"
+    },
+    {
+      "source": "Documentation/Build_Records/0053/PACKAGE_VERSION.json",
+      "destination": "Documentation/Build_Records/0053/PACKAGE_VERSION.json"
+    },
+    {
+      "source": "Documentation/Build_Records/0053/PREDECESSOR_REQUIREMENTS.json",
+      "destination": "Documentation/Build_Records/0053/PREDECESSOR_REQUIREMENTS.json"
+    },
+    {
+      "source": "Documentation/Build_Records/0053/PRE_AUTHORISED_PRECURSOR_STATE.json",
+      "destination": "Documentation/Build_Records/0053/PRE_AUTHORISED_PRECURSOR_STATE.json"
+    },
+    {
+      "source": "Documentation/Build_Records/0053/PRE_RELEASE_VALIDATION_REPORT.json",
+      "destination": "Documentation/Build_Records/0053/PRE_RELEASE_VALIDATION_REPORT.json"
+    },
+    {
+      "source": "Documentation/Build_Records/0053/PROJECT_GENESIS_IMPORT_HOOK.json",
+      "destination": "Documentation/Build_Records/0053/PROJECT_GENESIS_IMPORT_HOOK.json"
+    },
+    {
+      "source": "Documentation/Build_Records/0053/PROPOSED_NEXT_ACTION.md",
+      "destination": "Documentation/Build_Records/0053/PROPOSED_NEXT_ACTION.md"
+    },
+    {
+      "source": "Documentation/Build_Records/0053/READ_ME_FIRST.md",
+      "destination": "Documentation/Build_Records/0053/READ_ME_FIRST.md"
+    },
+    {
+      "source": "Documentation/Build_Records/0053/REAL_WORLD_OPERATOR_WORKFLOW_REGRESSION_REPORT.json",
+      "destination": "Documentation/Build_Records/0053/REAL_WORLD_OPERATOR_WORKFLOW_REGRESSION_REPORT.json"
+    },
+    {
+      "source": "Documentation/Build_Records/0053/ROLLBACK_RUNBOOK.md",
+      "destination": "Documentation/Build_Records/0053/ROLLBACK_RUNBOOK.md"
+    },
+    {
+      "source": "Documentation/Build_Records/0053/ROUTING_MANIFEST.json",
+      "destination": "Documentation/Build_Records/0053/ROUTING_MANIFEST.json"
+    },
+    {
+      "source": "Documentation/Build_Records/0053/SOURCE_INPUT_DEFECT_LOG.json",
+      "destination": "Documentation/Build_Records/0053/SOURCE_INPUT_DEFECT_LOG.json"
+    },
+    {
+      "source": "Documentation/Build_Records/0053/VALIDATION_REQUIREMENTS.json",
+      "destination": "Documentation/Build_Records/0053/VALIDATION_REQUIREMENTS.json"
+    },
+    {
+      "source": "Schemas/retatrutide_change_implementation_package.schema.json",
+      "destination": "Schemas/retatrutide_change_implementation_package.schema.json"
+    },
+    {
+      "source": "Schemas/retatrutide_change_reopening_decision.schema.json",
+      "destination": "Schemas/retatrutide_change_reopening_decision.schema.json"
+    },
+    {
+      "source": "Schemas/retatrutide_controlled_change_approval.schema.json",
+      "destination": "Schemas/retatrutide_controlled_change_approval.schema.json"
+    },
+    {
+      "source": "Schemas/retatrutide_cross_asset_impact_assessment.schema.json",
+      "destination": "Schemas/retatrutide_cross_asset_impact_assessment.schema.json"
+    },
+    {
+      "source": "Schemas/retatrutide_knowledge_change_proposal.schema.json",
+      "destination": "Schemas/retatrutide_knowledge_change_proposal.schema.json"
+    },
+    {
+      "source": "Schemas/retatrutide_post_change_effectiveness_review.schema.json",
+      "destination": "Schemas/retatrutide_post_change_effectiveness_review.schema.json"
+    },
+    {
+      "source": "Schemas/retatrutide_publication_release.schema.json",
+      "destination": "Schemas/retatrutide_publication_release.schema.json"
+    },
+    {
+      "source": "Scripts/Invoke_Certiaura_Build_0053_Import.ps1",
+      "destination": "Scripts/Invoke_Certiaura_Build_0053_Import.ps1"
+    },
+    {
+      "source": "Scripts/Invoke_Certiaura_Build_0053_Preflight.ps1",
+      "destination": "Scripts/Invoke_Certiaura_Build_0053_Preflight.ps1"
+    },
+    {
+      "source": "Scripts/Invoke_Certiaura_Build_0053_Windows_PS51_Regression.ps1",
+      "destination": "Scripts/Invoke_Certiaura_Build_0053_Windows_PS51_Regression.ps1"
+    },
+    {
+      "source": "Scripts/Run_Certiaura_Build_0053.ps1",
+      "destination": "Scripts/Run_Certiaura_Build_0053.ps1"
+    },
+    {
+      "source": "Scripts/START_BUILD_0053.cmd",
+      "destination": "Scripts/START_BUILD_0053.cmd"
+    },
+    {
+      "source": "Scripts/update_certiaura_build_0053_controls.py",
+      "destination": "Scripts/update_certiaura_build_0053_controls.py"
+    },
+    {
+      "source": "Standards/RETATRUTIDE_GOVERNED_KNOWLEDGE_CHANGE_IMPLEMENTATION_STANDARD.md",
+      "destination": "Standards/RETATRUTIDE_GOVERNED_KNOWLEDGE_CHANGE_IMPLEMENTATION_STANDARD.md"
+    },
+    {
+      "source": "Standards/RETATRUTIDE_KNOWLEDGE_CHANGE_PROPAGATION_MATRIX.json",
+      "destination": "Standards/RETATRUTIDE_KNOWLEDGE_CHANGE_PROPAGATION_MATRIX.json"
+    },
+    {
+      "source": "Standards/RETATRUTIDE_POST_CHANGE_EFFECTIVENESS_MATRIX.json",
+      "destination": "Standards/RETATRUTIDE_POST_CHANGE_EFFECTIVENESS_MATRIX.json"
+    },
+    {
+      "source": "Standards/RETATRUTIDE_PUBLICATION_STATE_TRANSITION_MATRIX.json",
+      "destination": "Standards/RETATRUTIDE_PUBLICATION_STATE_TRANSITION_MATRIX.json"
+    },
+    {
+      "source": "Templates/RETATRUTIDE_CHANGE_IMPLEMENTATION_PACKAGE_TEMPLATE.json",
+      "destination": "Templates/RETATRUTIDE_CHANGE_IMPLEMENTATION_PACKAGE_TEMPLATE.json"
+    },
+    {
+      "source": "Templates/RETATRUTIDE_CHANGE_REOPENING_DECISION_TEMPLATE.json",
+      "destination": "Templates/RETATRUTIDE_CHANGE_REOPENING_DECISION_TEMPLATE.json"
+    },
+    {
+      "source": "Templates/RETATRUTIDE_CONTROLLED_CHANGE_APPROVAL_TEMPLATE.json",
+      "destination": "Templates/RETATRUTIDE_CONTROLLED_CHANGE_APPROVAL_TEMPLATE.json"
+    },
+    {
+      "source": "Templates/RETATRUTIDE_CONTROLLED_CHANGE_NOTICE_TEMPLATE.md",
+      "destination": "Templates/RETATRUTIDE_CONTROLLED_CHANGE_NOTICE_TEMPLATE.md"
+    },
+    {
+      "source": "Templates/RETATRUTIDE_CROSS_ASSET_IMPACT_ASSESSMENT_TEMPLATE.json",
+      "destination": "Templates/RETATRUTIDE_CROSS_ASSET_IMPACT_ASSESSMENT_TEMPLATE.json"
+    },
+    {
+      "source": "Templates/RETATRUTIDE_KNOWLEDGE_CHANGE_PROPOSAL_TEMPLATE.json",
+      "destination": "Templates/RETATRUTIDE_KNOWLEDGE_CHANGE_PROPOSAL_TEMPLATE.json"
+    },
+    {
+      "source": "Templates/RETATRUTIDE_POST_CHANGE_EFFECTIVENESS_REVIEW_TEMPLATE.json",
+      "destination": "Templates/RETATRUTIDE_POST_CHANGE_EFFECTIVENESS_REVIEW_TEMPLATE.json"
+    },
+    {
+      "source": "Templates/RETATRUTIDE_PUBLICATION_RELEASE_TEMPLATE.json",
+      "destination": "Templates/RETATRUTIDE_PUBLICATION_RELEASE_TEMPLATE.json"
+    }
+  ],
+  "generated_routes": [
+    {
+      "repository_path": "00_Governance/CERTIAURA_LOCKED_BUILD_CONTINUITY_AND_CHECKPOINT.md",
+      "classification": "FORMAL_ASSET",
+      "intended_action": "UPDATE",
+      "package_member": false,
+      "generated_at_import": true,
+      "approved_predecessor_overlap": true,
+      "knowledge_system": "SYS",
+      "version": "BUILD_0053_CHECKPOINT_APPEND",
+      "status": "LOCKED_ACTIVE",
+      "owner": "Aidan Coleman"
+    },
+    {
+      "repository_path": "00_Governance/CERTIAURA_LOCKED_ACCUMULATED_LESSONS_AND_CONTINUOUS_LEARNING_STANDARD.md",
+      "classification": "FORMAL_ASSET",
+      "intended_action": "UPDATE",
+      "package_member": false,
+      "generated_at_import": true,
+      "approved_predecessor_overlap": true,
+      "knowledge_system": "SYS",
+      "version": "BUILD_0053_LESSONS_APPEND",
+      "status": "LOCKED_ACTIVE",
+      "owner": "Aidan Coleman"
+    },
+    {
+      "repository_path": "00_Governance/CERTIAURA_LOCKED_ACCUMULATED_LESSONS_AND_CONTINUOUS_LEARNING_STANDARD.control.json",
+      "classification": "FORMAL_ASSET",
+      "intended_action": "UPDATE",
+      "package_member": false,
+      "generated_at_import": true,
+      "approved_predecessor_overlap": true,
+      "knowledge_system": "SYS",
+      "version": "BUILD_0053_CONTROL_UPDATE",
+      "status": "LOCKED_ACTIVE",
+      "owner": "Aidan Coleman"
+    },
+    {
+      "repository_path": "Documentation/Master_Asset_Register.csv",
+      "classification": "NON_ASSET_ADMIN",
+      "intended_action": "UPDATE",
+      "package_member": false,
+      "generated_at_import": true,
+      "approved_predecessor_overlap": false
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0053/PREDECESSOR_CANONICAL_EVIDENCE.json",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE",
+      "package_member": false,
+      "generated_at_import": true,
+      "approved_predecessor_overlap": false
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0053/ASSET_REGISTER_CHANGE_REPORT.json",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE",
+      "package_member": false,
+      "generated_at_import": true,
+      "approved_predecessor_overlap": false
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0053/CANONICAL_IMPORT_REPORT.json",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE",
+      "package_member": false,
+      "generated_at_import": true,
+      "approved_predecessor_overlap": false
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0053/POST_IMPORT_REPOSITORY_VALIDATION.json",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE",
+      "package_member": false,
+      "generated_at_import": true,
+      "approved_predecessor_overlap": false
+    }
+  ]
+}

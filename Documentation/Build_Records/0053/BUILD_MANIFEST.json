@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.1.0",
+  "build_number": "0053",
+  "candidate": "RC4",
+  "title": "retatrutide governed knowledge change implementation, cross-asset impact control, controlled publication and post-change effectiveness surveillance baseline",
+  "status": "GENERATED",
+  "predecessor": {
+    "build_number": "0052",
+    "candidate": "RC6",
+    "commit": "890df218b4f4dea92f4ccfa36b8106de59eca1b1",
+    "expected_path_count": 59
+  },
+  "capabilities": [
+    "governed knowledge-change intake",
+    "cross-asset impact control",
+    "human scientific and governance approval",
+    "transactional cross-surface propagation",
+    "controlled publication",
+    "post-change effectiveness surveillance",
+    "governed reopening and rollback"
+  ],
+  "reserved_commit_message": "Add Certiaura Build 0053 retatrutide governed knowledge change implementation, cross-asset impact control, controlled publication and post-change effectiveness surveillance baseline",
+  "proposed_next_build": "0054",
+  "closure_state": "NOT_CLOSED_REQUIRES_IMPORT_COMMIT_PUSH_ACTIONS_AND_FOUNDER_GREEN",
+  "candidate_lineage": {
+    "withdrawn_prohibited": [
+      "RC1",
+      "RC2",
+      "RC3"
+    ],
+    "current": "RC4"
+  }
+}

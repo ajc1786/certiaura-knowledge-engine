@@ -1,0 +1,130 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://certiaura.local/schemas/retatrutide_controlled_change_approval.schema.json",
+  "title": "Retatrutide Controlled Change Approval",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "type": "string",
+      "const": "1.0.0"
+    },
+    "record_type": {
+      "type": "string",
+      "const": "RETATRUTIDE_CONTROLLED_CHANGE_APPROVAL"
+    },
+    "build_number": {
+      "type": "string",
+      "const": "0053"
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "created_by": {
+      "type": "string",
+      "minLength": 1
+    },
+    "peptide_uai": {
+      "type": "string",
+      "const": "CERT-PKS-000001"
+    },
+    "approval_id": {
+      "type": "string",
+      "pattern": "^RET-KAP-[0-9]{4}$"
+    },
+    "change_id": {
+      "type": "string"
+    },
+    "impact_id": {
+      "type": "string"
+    },
+    "reviewers": {
+      "type": "array",
+      "minItems": 2,
+      "items": {
+        "type": "object",
+        "properties": {
+          "reviewer_id": {
+            "type": "string"
+          },
+          "role": {
+            "type": "string",
+            "enum": [
+              "SCIENTIFIC_REVIEWER",
+              "GOVERNANCE_APPROVER",
+              "SAFETY_REVIEWER",
+              "PUBLICATION_APPROVER"
+            ]
+          },
+          "decision": {
+            "type": "string",
+            "enum": [
+              "APPROVE",
+              "REJECT",
+              "CONDITION"
+            ]
+          },
+          "reviewed_at": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "reviewer_id",
+          "role",
+          "decision",
+          "reviewed_at"
+        ]
+      }
+    },
+    "outcome": {
+      "type": "string",
+      "enum": [
+        "APPROVED",
+        "REJECTED",
+        "CONDITIONAL",
+        "WATCH"
+      ]
+    },
+    "conditions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "human_approval": {
+      "type": "boolean",
+      "const": true
+    },
+    "effective_date": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "RECORDED",
+        "SUPERSEDED"
+      ]
+    }
+  },
+  "required": [
+    "schema_version",
+    "record_type",
+    "build_number",
+    "created_at",
+    "created_by",
+    "peptide_uai",
+    "approval_id",
+    "change_id",
+    "impact_id",
+    "reviewers",
+    "outcome",
+    "conditions",
+    "human_approval",
+    "effective_date",
+    "status"
+  ]
+}

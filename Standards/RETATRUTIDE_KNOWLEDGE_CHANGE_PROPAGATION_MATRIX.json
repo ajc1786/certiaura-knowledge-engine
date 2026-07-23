@@ -1,0 +1,77 @@
+{
+  "schema_version": "1.0.0",
+  "build_number": "0053",
+  "rule": "APPLIED_TARGETS_MUST_EQUAL_APPROVED_EXPECTED_TARGETS",
+  "surfaces": [
+    {
+      "surface": "PKS",
+      "required_when": [
+        "scientific_content",
+        "mechanism",
+        "summary"
+      ]
+    },
+    {
+      "surface": "SKS",
+      "required_when": [
+        "warning",
+        "contraindication",
+        "safety"
+      ]
+    },
+    {
+      "surface": "MKS",
+      "required_when": [
+        "monitoring",
+        "threshold",
+        "review_timing"
+      ]
+    },
+    {
+      "surface": "EKS",
+      "required_when": [
+        "evidence_rating",
+        "citation",
+        "living_evidence"
+      ]
+    },
+    {
+      "surface": "RKS",
+      "required_when": [
+        "professional_report",
+        "patient_report"
+      ]
+    },
+    {
+      "surface": "AI",
+      "required_when": [
+        "answer_policy",
+        "retrieval",
+        "recommendation_restriction"
+      ]
+    },
+    {
+      "surface": "URE",
+      "required_when": [
+        "relationship_add",
+        "relationship_remove",
+        "supersession"
+      ]
+    },
+    {
+      "surface": "UI",
+      "required_when": [
+        "patient_interface",
+        "professional_interface",
+        "dashboard"
+      ]
+    }
+  ],
+  "blockers": [
+    "unresolved_asset",
+    "missing_uai",
+    "version_collision",
+    "partial_propagation",
+    "missing_rollback_plan"
+  ]
+}

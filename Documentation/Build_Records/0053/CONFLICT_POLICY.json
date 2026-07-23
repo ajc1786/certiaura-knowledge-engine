@@ -1,0 +1,14 @@
+{
+  "build_number": "0053",
+  "actions": [
+    "CREATE",
+    "UPDATE",
+    "SUPERSEDE",
+    "NO_CHANGE",
+    "QUARANTINE",
+    "REJECT"
+  ],
+  "silent_overwrite_prohibited": true,
+  "unresolved_high_risk_conflict_blocks_apply": true,
+  "partial_propagation_blocks_apply": true
+}

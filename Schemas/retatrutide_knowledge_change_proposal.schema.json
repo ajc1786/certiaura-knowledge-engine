@@ -1,0 +1,149 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://certiaura.local/schemas/retatrutide_knowledge_change_proposal.schema.json",
+  "title": "Retatrutide Knowledge Change Proposal",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "type": "string",
+      "const": "1.0.0"
+    },
+    "record_type": {
+      "type": "string",
+      "const": "RETATRUTIDE_KNOWLEDGE_CHANGE_PROPOSAL"
+    },
+    "build_number": {
+      "type": "string",
+      "const": "0053"
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "created_by": {
+      "type": "string",
+      "minLength": 1
+    },
+    "peptide_uai": {
+      "type": "string",
+      "const": "CERT-PKS-000001"
+    },
+    "change_id": {
+      "type": "string",
+      "pattern": "^RET-KCH-[0-9]{4}$"
+    },
+    "originating_governance_decision_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "originating_decision_state": {
+      "type": "string",
+      "enum": [
+        "APPROVED_FOR_KNOWLEDGE_CHANGE",
+        "NO_CHANGE_WATCH"
+      ]
+    },
+    "change_classification": {
+      "type": "string",
+      "enum": [
+        "CLARIFICATION",
+        "EVIDENCE_RATING_CHANGE",
+        "MONITORING_ENHANCEMENT",
+        "WARNING_UPDATE",
+        "CONTRAINDICATION_UPDATE",
+        "REPORT_WORDING_UPDATE",
+        "AI_RESPONSE_RESTRICTION",
+        "TEMPORARY_PUBLICATION_HOLD",
+        "SUPERSESSION",
+        "NO_CHANGE_WATCH"
+      ]
+    },
+    "evidence_basis": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "proposed_changes": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "target_asset_uai": {
+            "type": "string",
+            "minLength": 1
+          },
+          "target_repository_path": {
+            "type": "string",
+            "minLength": 1
+          },
+          "current_version": {
+            "type": "string",
+            "minLength": 1
+          },
+          "proposed_version": {
+            "type": "string",
+            "minLength": 1
+          },
+          "change_summary": {
+            "type": "string",
+            "minLength": 10
+          },
+          "required_surfaces": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "required": [
+          "target_asset_uai",
+          "target_repository_path",
+          "current_version",
+          "proposed_version",
+          "change_summary",
+          "required_surfaces"
+        ]
+      }
+    },
+    "human_scientific_approval_required": {
+      "type": "boolean",
+      "const": true
+    },
+    "autonomous_action": {
+      "type": "boolean",
+      "const": false
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "DRAFT",
+        "SUBMITTED",
+        "QUARANTINED",
+        "APPROVED_FOR_ASSESSMENT"
+      ]
+    }
+  },
+  "required": [
+    "schema_version",
+    "record_type",
+    "build_number",
+    "created_at",
+    "created_by",
+    "peptide_uai",
+    "change_id",
+    "originating_governance_decision_id",
+    "originating_decision_state",
+    "change_classification",
+    "evidence_basis",
+    "proposed_changes",
+    "human_scientific_approval_required",
+    "autonomous_action",
+    "status"
+  ]
+}

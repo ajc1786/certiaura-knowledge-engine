@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0.0",
+  "build_number": "0053",
+  "created_at": "2026-07-22T19:30:00Z",
+  "created_by": "REPLACE_WITH_OPERATOR",
+  "peptide_uai": "CERT-PKS-000001",
+  "record_type": "RETATRUTIDE_PUBLICATION_RELEASE",
+  "release_id": "RET-KPR-0001",
+  "implementation_id": "RET-KIM-0001",
+  "approval_state": "APPROVED",
+  "implementation_state": "IMPLEMENTED",
+  "publication_state": "PUBLISHED",
+  "audience_channels": [
+    "INTERNAL",
+    "PROFESSIONAL",
+    "PATIENT",
+    "AI_RESPONSE"
+  ],
+  "published_assets": [
+    "05_Monitoring/Retatrutide/RETATRUTIDE_MONITORING_STANDARD.md",
+    "12_Reports/Retatrutide/RETATRUTIDE_PATIENT_REPORT_STANDARD.md",
+    "13_Project_Genesis/AI/retatrutide_controlled_conversation_policy.json",
+    "13_Project_Genesis/UI/Retatrutide_Patient_Interface/app.js"
+  ],
+  "publication_approval_id": "PUB-001",
+  "effective_at": "2026-07-23T09:00:00Z",
+  "responsible_communications_validated": true
+}

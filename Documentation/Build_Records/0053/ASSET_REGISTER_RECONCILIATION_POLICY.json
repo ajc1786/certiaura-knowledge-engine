@@ -1,0 +1,14 @@
+{
+  "build_number": "0053",
+  "canonical_register": "Documentation/Master_Asset_Register.csv",
+  "preserve_existing_uai": true,
+  "allocate_new_uai_only_for_genuine_create": true,
+  "formal_asset_without_register_entry_blocks_validation": true,
+  "transactional_with_files": true,
+  "generated_governance_control_files": {
+    "classification": "NON_ASSET_ADMIN",
+    "master_asset_register_action": "NO_CHANGE",
+    "reason": "Canonical Build 0052 register contains no formal-asset rows for these governance control paths; Build 0053 updates their bytes transactionally without inventing or reallocating UAIs."
+  },
+  "canonical_register_topology_must_be_reproduced_in_transaction_tests": true
+}

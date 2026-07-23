@@ -1,0 +1,115 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://certiaura.local/schemas/retatrutide_post_change_effectiveness_review.schema.json",
+  "title": "Retatrutide Post-Change Effectiveness Review",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "type": "string",
+      "const": "1.0.0"
+    },
+    "record_type": {
+      "type": "string",
+      "const": "RETATRUTIDE_POST_CHANGE_EFFECTIVENESS_REVIEW"
+    },
+    "build_number": {
+      "type": "string",
+      "const": "0053"
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "created_by": {
+      "type": "string",
+      "minLength": 1
+    },
+    "peptide_uai": {
+      "type": "string",
+      "const": "CERT-PKS-000001"
+    },
+    "review_id": {
+      "type": "string",
+      "pattern": "^RET-KER-[0-9]{4}$"
+    },
+    "implementation_id": {
+      "type": "string"
+    },
+    "measures": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "properties": {
+          "metric": {
+            "type": "string"
+          },
+          "baseline": {},
+          "target": {},
+          "observed": {},
+          "met": {
+            "type": "boolean"
+          },
+          "evidence_ref": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "metric",
+          "baseline",
+          "target",
+          "observed",
+          "met",
+          "evidence_ref"
+        ]
+      }
+    },
+    "evidence_complete": {
+      "type": "boolean"
+    },
+    "outcome": {
+      "type": "string",
+      "enum": [
+        "EFFECTIVE",
+        "PARTIALLY_EFFECTIVE",
+        "INEFFECTIVE",
+        "INSUFFICIENT_EVIDENCE"
+      ]
+    },
+    "next_action": {
+      "type": "string",
+      "enum": [
+        "CLOSE",
+        "CONTINUE_SURVEILLANCE",
+        "REOPEN",
+        "ROLLBACK",
+        "CORRECTIVE_CHANGE",
+        "WATCH",
+        "EXTEND_REVIEW"
+      ]
+    },
+    "reviewed_at": {
+      "type": "string"
+    },
+    "reviewer_id": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "schema_version",
+    "record_type",
+    "build_number",
+    "created_at",
+    "created_by",
+    "peptide_uai",
+    "review_id",
+    "implementation_id",
+    "measures",
+    "evidence_complete",
+    "outcome",
+    "next_action",
+    "reviewed_at",
+    "reviewer_id"
+  ]
+}

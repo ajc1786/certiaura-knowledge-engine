@@ -1,0 +1,9 @@
+{
+  "build_number": "0053",
+  "entrypoint": "13_Project_Genesis/Import/run_build_0053_import.py",
+  "requires_clean_repository": true,
+  "expected_predecessor_commit": "890df218b4f4dea92f4ccfa36b8106de59eca1b1",
+  "transactional": true,
+  "master_asset_register_reconciliation": true,
+  "rollback_safe": true
+}

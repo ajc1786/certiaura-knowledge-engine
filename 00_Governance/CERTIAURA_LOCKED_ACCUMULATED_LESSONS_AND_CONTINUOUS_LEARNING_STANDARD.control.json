@@ -7473,5 +7473,26 @@
       "rollback_status": "ROLLED_BACK_AS_DESIGNED",
       "canonical_repository_build_files_remaining": false
     }
+  ],
+  "build_updates": [
+    {
+      "build_number": "0053",
+      "status": "REPOSITORY_VALIDATED_PENDING_CLOSURE",
+      "updated_at": "2026-07-23T06:48:55.644978+00:00",
+      "release_gates": [
+        "CONTROLLED_PROPAGATION_VALIDATED",
+        "POST_CHANGE_EFFECTIVENESS_VALIDATED",
+        "CANONICAL_REGISTER_TOPOLOGY_REGRESSION_VALIDATED",
+        "WINDOWS_RUNTIME_TEXT_BYTE_STABILITY_VALIDATED",
+        "PRE_CANONICAL_FULL_SUITE_AND_AUTOMATIC_ROLLBACK_VALIDATED"
+      ],
+      "lesson_ids": [
+        "CERT-LESSON-0053-001",
+        "CERT-LESSON-0053-002",
+        "CERT-LESSON-0053-003",
+        "CERT-LESSON-0053-004",
+        "CERT-LESSON-0053-005"
+      ]
+    }
   ]
 }

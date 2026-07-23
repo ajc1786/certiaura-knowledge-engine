@@ -1,0 +1,623 @@
+{
+  "schema_version": "2.1.0",
+  "build_number": "0053",
+  "candidate": "RC4",
+  "title": "retatrutide governed knowledge change implementation, cross-asset impact control, controlled publication and post-change effectiveness surveillance baseline",
+  "predecessor": {
+    "build_number": "0052",
+    "candidate": "RC6",
+    "commit": "890df218b4f4dea92f4ccfa36b8106de59eca1b1",
+    "expected_path_count": 59
+  },
+  "package_file_count": 83,
+  "generated_file_count": 8,
+  "ownership_rule": "EXACT_PACKAGE_AND_GENERATED_PATH_SET",
+  "files": [
+    {
+      "repository_path": "05_Monitoring/Examples/Retatrutide/conditional_insufficient_evidence_change.example.json",
+      "classification": "EXAMPLE",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "05_Monitoring/Examples/Retatrutide/invalid_autonomous_knowledge_change.example.json",
+      "classification": "EXAMPLE",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "05_Monitoring/Examples/Retatrutide/invalid_effectiveness_without_evidence.example.json",
+      "classification": "EXAMPLE",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "05_Monitoring/Examples/Retatrutide/invalid_partial_propagation.example.json",
+      "classification": "EXAMPLE",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "05_Monitoring/Examples/Retatrutide/invalid_publication_before_approval.example.json",
+      "classification": "EXAMPLE",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "05_Monitoring/Examples/Retatrutide/valid_change_implementation_package.example.json",
+      "classification": "EXAMPLE",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "05_Monitoring/Examples/Retatrutide/valid_change_reopening_decision.example.json",
+      "classification": "EXAMPLE",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "05_Monitoring/Examples/Retatrutide/valid_controlled_change_approval.example.json",
+      "classification": "EXAMPLE",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "05_Monitoring/Examples/Retatrutide/valid_cross_asset_impact_assessment.example.json",
+      "classification": "EXAMPLE",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "05_Monitoring/Examples/Retatrutide/valid_knowledge_change_proposal.example.json",
+      "classification": "EXAMPLE",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "05_Monitoring/Examples/Retatrutide/valid_post_change_effectiveness_review.example.json",
+      "classification": "EXAMPLE",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "05_Monitoring/Examples/Retatrutide/valid_publication_release.example.json",
+      "classification": "EXAMPLE",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "13_Project_Genesis/Dashboards/generate_retatrutide_knowledge_change_summary.py",
+      "classification": "SCRIPT",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "13_Project_Genesis/Import/run_build_0053_import.py",
+      "classification": "SCRIPT",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "13_Project_Genesis/Release/derive_build_0052_predecessor_evidence.py",
+      "classification": "SCRIPT",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "13_Project_Genesis/Release/run_build_0053_preflight.py",
+      "classification": "SCRIPT",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "13_Project_Genesis/Tests/test_build_0053_knowledge_change.py",
+      "classification": "TEST",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "13_Project_Genesis/Tests/test_build_0053_predecessor_evidence.py",
+      "classification": "TEST",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "13_Project_Genesis/Tests/test_build_0053_repository.py",
+      "classification": "TEST",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "13_Project_Genesis/Tests/test_build_0053_transactional_import.py",
+      "classification": "TEST",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "13_Project_Genesis/Validators/build_0053_asset_ownership.py",
+      "classification": "SCRIPT",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "13_Project_Genesis/Validators/retatrutide_knowledge_change_common.py",
+      "classification": "SCRIPT",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "13_Project_Genesis/Validators/validate_build_0053_predecessor_evidence.py",
+      "classification": "SCRIPT",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "13_Project_Genesis/Validators/validate_build_0053_repository.py",
+      "classification": "SCRIPT",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "13_Project_Genesis/Validators/validate_retatrutide_knowledge_change.py",
+      "classification": "SCRIPT",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "13_Project_Genesis/Validators/verify_staged_byte_equality.py",
+      "classification": "SCRIPT",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Database/Registers/Retatrutide_Change_Implementation_Register.csv",
+      "classification": "SUPPORTING_FILE",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Database/Registers/Retatrutide_Change_Reopening_Register.csv",
+      "classification": "SUPPORTING_FILE",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Database/Registers/Retatrutide_Cross_Asset_Impact_Register.csv",
+      "classification": "SUPPORTING_FILE",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Database/Registers/Retatrutide_Knowledge_Change_Register.csv",
+      "classification": "SUPPORTING_FILE",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Database/Registers/Retatrutide_Post_Change_Effectiveness_Register.csv",
+      "classification": "SUPPORTING_FILE",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Database/Registers/Retatrutide_Publication_Release_Register.csv",
+      "classification": "SUPPORTING_FILE",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0053/ACCUMULATED_LESSONS_DELTA.json",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0053/ASSET_INTENT_MANIFEST.json",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0053/ASSET_REGISTER_RECONCILIATION_POLICY.json",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0053/BUILD_MANIFEST.json",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0053/CANDIDATE_DELIVERY.json",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0053/CHECKSUMS.sha256",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0053/COMMIT_MESSAGE.txt",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0053/CONFLICT_POLICY.json",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0053/CONTINUITY_CHECKPOINT_DELTA.json",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0053/DECISION_RECORD_0053.md",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0053/LESSONS_LEARNED_CONTROL_MATRIX.json",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0053/LESSONS_LEARNED_REVIEW.md",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0053/OUTSIDE_CANONICAL_VALIDATION_REPORT.json",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0053/PACKAGE_INVENTORY.csv",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0053/PACKAGE_VERSION.json",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0053/PREDECESSOR_REQUIREMENTS.json",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0053/PRE_AUTHORISED_PRECURSOR_STATE.json",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0053/PRE_RELEASE_VALIDATION_REPORT.json",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0053/PROJECT_GENESIS_IMPORT_HOOK.json",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0053/PROPOSED_NEXT_ACTION.md",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0053/READ_ME_FIRST.md",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0053/REAL_WORLD_OPERATOR_WORKFLOW_REGRESSION_REPORT.json",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0053/ROLLBACK_RUNBOOK.md",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0053/ROUTING_MANIFEST.json",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0053/SOURCE_INPUT_DEFECT_LOG.json",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0053/VALIDATION_REQUIREMENTS.json",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Schemas/retatrutide_change_implementation_package.schema.json",
+      "classification": "SCHEMA",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Schemas/retatrutide_change_reopening_decision.schema.json",
+      "classification": "SCHEMA",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Schemas/retatrutide_controlled_change_approval.schema.json",
+      "classification": "SCHEMA",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Schemas/retatrutide_cross_asset_impact_assessment.schema.json",
+      "classification": "SCHEMA",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Schemas/retatrutide_knowledge_change_proposal.schema.json",
+      "classification": "SCHEMA",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Schemas/retatrutide_post_change_effectiveness_review.schema.json",
+      "classification": "SCHEMA",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Schemas/retatrutide_publication_release.schema.json",
+      "classification": "SCHEMA",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Scripts/Invoke_Certiaura_Build_0053_Import.ps1",
+      "classification": "SCRIPT",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Scripts/Invoke_Certiaura_Build_0053_Preflight.ps1",
+      "classification": "SCRIPT",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Scripts/Invoke_Certiaura_Build_0053_Windows_PS51_Regression.ps1",
+      "classification": "SCRIPT",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Scripts/Run_Certiaura_Build_0053.ps1",
+      "classification": "SCRIPT",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Scripts/START_BUILD_0053.cmd",
+      "classification": "SCRIPT",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Scripts/update_certiaura_build_0053_controls.py",
+      "classification": "SCRIPT",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Standards/RETATRUTIDE_GOVERNED_KNOWLEDGE_CHANGE_IMPLEMENTATION_STANDARD.md",
+      "classification": "FORMAL_ASSET",
+      "intended_action": "CREATE",
+      "package_member": true,
+      "knowledge_system": "SYS",
+      "asset_title": "Retatrutide Governed Knowledge Change Implementation Standard",
+      "asset_type": "Controlled Standard",
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "owner": "Certiaura Governance"
+    },
+    {
+      "repository_path": "Standards/RETATRUTIDE_KNOWLEDGE_CHANGE_PROPAGATION_MATRIX.json",
+      "classification": "FORMAL_ASSET",
+      "intended_action": "CREATE",
+      "package_member": true,
+      "knowledge_system": "SYS",
+      "asset_title": "Retatrutide Knowledge Change Propagation Matrix",
+      "asset_type": "Control Matrix",
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "owner": "Certiaura Governance"
+    },
+    {
+      "repository_path": "Standards/RETATRUTIDE_POST_CHANGE_EFFECTIVENESS_MATRIX.json",
+      "classification": "FORMAL_ASSET",
+      "intended_action": "CREATE",
+      "package_member": true,
+      "knowledge_system": "MKS",
+      "asset_title": "Retatrutide Post-Change Effectiveness Matrix",
+      "asset_type": "Control Matrix",
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "owner": "Certiaura Governance"
+    },
+    {
+      "repository_path": "Standards/RETATRUTIDE_PUBLICATION_STATE_TRANSITION_MATRIX.json",
+      "classification": "FORMAL_ASSET",
+      "intended_action": "CREATE",
+      "package_member": true,
+      "knowledge_system": "RKS",
+      "asset_title": "Retatrutide Publication State Transition Matrix",
+      "asset_type": "Control Matrix",
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "owner": "Certiaura Governance"
+    },
+    {
+      "repository_path": "Templates/RETATRUTIDE_CHANGE_IMPLEMENTATION_PACKAGE_TEMPLATE.json",
+      "classification": "TEMPLATE",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Templates/RETATRUTIDE_CHANGE_REOPENING_DECISION_TEMPLATE.json",
+      "classification": "TEMPLATE",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Templates/RETATRUTIDE_CONTROLLED_CHANGE_APPROVAL_TEMPLATE.json",
+      "classification": "TEMPLATE",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Templates/RETATRUTIDE_CONTROLLED_CHANGE_NOTICE_TEMPLATE.md",
+      "classification": "TEMPLATE",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Templates/RETATRUTIDE_CROSS_ASSET_IMPACT_ASSESSMENT_TEMPLATE.json",
+      "classification": "TEMPLATE",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Templates/RETATRUTIDE_KNOWLEDGE_CHANGE_PROPOSAL_TEMPLATE.json",
+      "classification": "TEMPLATE",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Templates/RETATRUTIDE_POST_CHANGE_EFFECTIVENESS_REVIEW_TEMPLATE.json",
+      "classification": "TEMPLATE",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Templates/RETATRUTIDE_PUBLICATION_RELEASE_TEMPLATE.json",
+      "classification": "TEMPLATE",
+      "intended_action": "CREATE",
+      "package_member": true
+    }
+  ],
+  "generated_files": [
+    {
+      "repository_path": "00_Governance/CERTIAURA_LOCKED_BUILD_CONTINUITY_AND_CHECKPOINT.md",
+      "classification": "NON_ASSET_ADMIN",
+      "intended_action": "UPDATE",
+      "package_member": false,
+      "generated_at_import": true,
+      "approved_predecessor_overlap": true,
+      "knowledge_system": "SYS",
+      "version": "BUILD_0053_CHECKPOINT_APPEND",
+      "status": "LOCKED_ACTIVE",
+      "owner": "Aidan Coleman",
+      "master_asset_register_action": "NO_CHANGE",
+      "classification_basis": "Existing governance control file is not registered as a formal asset in the canonical Build 0052 Master Asset Register."
+    },
+    {
+      "repository_path": "00_Governance/CERTIAURA_LOCKED_ACCUMULATED_LESSONS_AND_CONTINUOUS_LEARNING_STANDARD.md",
+      "classification": "NON_ASSET_ADMIN",
+      "intended_action": "UPDATE",
+      "package_member": false,
+      "generated_at_import": true,
+      "approved_predecessor_overlap": true,
+      "knowledge_system": "SYS",
+      "version": "BUILD_0053_LESSONS_APPEND",
+      "status": "LOCKED_ACTIVE",
+      "owner": "Aidan Coleman",
+      "master_asset_register_action": "NO_CHANGE",
+      "classification_basis": "Existing governance control file is not registered as a formal asset in the canonical Build 0052 Master Asset Register."
+    },
+    {
+      "repository_path": "00_Governance/CERTIAURA_LOCKED_ACCUMULATED_LESSONS_AND_CONTINUOUS_LEARNING_STANDARD.control.json",
+      "classification": "NON_ASSET_ADMIN",
+      "intended_action": "UPDATE",
+      "package_member": false,
+      "generated_at_import": true,
+      "approved_predecessor_overlap": true,
+      "knowledge_system": "SYS",
+      "version": "BUILD_0053_CONTROL_UPDATE",
+      "status": "LOCKED_ACTIVE",
+      "owner": "Aidan Coleman",
+      "master_asset_register_action": "NO_CHANGE",
+      "classification_basis": "Existing governance control file is not registered as a formal asset in the canonical Build 0052 Master Asset Register."
+    },
+    {
+      "repository_path": "Documentation/Master_Asset_Register.csv",
+      "classification": "NON_ASSET_ADMIN",
+      "intended_action": "UPDATE",
+      "package_member": false,
+      "generated_at_import": true,
+      "approved_predecessor_overlap": false
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0053/PREDECESSOR_CANONICAL_EVIDENCE.json",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE",
+      "package_member": false,
+      "generated_at_import": true,
+      "approved_predecessor_overlap": false
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0053/ASSET_REGISTER_CHANGE_REPORT.json",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE",
+      "package_member": false,
+      "generated_at_import": true,
+      "approved_predecessor_overlap": false
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0053/CANONICAL_IMPORT_REPORT.json",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE",
+      "package_member": false,
+      "generated_at_import": true,
+      "approved_predecessor_overlap": false
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0053/POST_IMPORT_REPOSITORY_VALIDATION.json",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE",
+      "package_member": false,
+      "generated_at_import": true,
+      "approved_predecessor_overlap": false
+    }
+  ]
+}

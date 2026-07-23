@@ -1,0 +1,61 @@
+{
+  "schema_version": "1.0.0",
+  "build_number": "0053",
+  "created_at": "2026-07-22T19:30:00Z",
+  "created_by": "REPLACE_WITH_OPERATOR",
+  "peptide_uai": "CERT-PKS-000001",
+  "record_type": "RETATRUTIDE_CHANGE_IMPLEMENTATION_PACKAGE",
+  "implementation_id": "RET-KIM-0001",
+  "change_id": "RET-KCH-0001",
+  "approval_id": "RET-KAP-0001",
+  "approval_outcome": "APPROVED",
+  "expected_targets": [
+    "05_Monitoring/Retatrutide/RETATRUTIDE_MONITORING_STANDARD.md",
+    "12_Reports/Retatrutide/RETATRUTIDE_PATIENT_REPORT_STANDARD.md",
+    "13_Project_Genesis/AI/retatrutide_controlled_conversation_policy.json",
+    "13_Project_Genesis/UI/Retatrutide_Patient_Interface/app.js"
+  ],
+  "applied_targets": [
+    "05_Monitoring/Retatrutide/RETATRUTIDE_MONITORING_STANDARD.md",
+    "12_Reports/Retatrutide/RETATRUTIDE_PATIENT_REPORT_STANDARD.md",
+    "13_Project_Genesis/AI/retatrutide_controlled_conversation_policy.json",
+    "13_Project_Genesis/UI/Retatrutide_Patient_Interface/app.js"
+  ],
+  "propagation_complete": true,
+  "before_after_changes": [
+    {
+      "repository_path": "05_Monitoring/Retatrutide/RETATRUTIDE_MONITORING_STANDARD.md",
+      "before_version": "baseline",
+      "after_version": "approved-change-RET-KCH-0001",
+      "change_hash": "3dad5cbd563602831b2ff1d0e47838c09ff97c0664028f12505d7af052364ba3"
+    },
+    {
+      "repository_path": "12_Reports/Retatrutide/RETATRUTIDE_PATIENT_REPORT_STANDARD.md",
+      "before_version": "baseline",
+      "after_version": "approved-change-RET-KCH-0001",
+      "change_hash": "3fb29a33934b1720111a216f61aee44a19c164a1c2b587b4805da2bd0413bd33"
+    },
+    {
+      "repository_path": "13_Project_Genesis/AI/retatrutide_controlled_conversation_policy.json",
+      "before_version": "baseline",
+      "after_version": "approved-change-RET-KCH-0001",
+      "change_hash": "f23acefd81af5b622c079157ced78f2155df89128c371678c73d26a8dfa54578"
+    },
+    {
+      "repository_path": "13_Project_Genesis/UI/Retatrutide_Patient_Interface/app.js",
+      "before_version": "baseline",
+      "after_version": "approved-change-RET-KCH-0001",
+      "change_hash": "ae07619a196ce8ef6df0382c63d591eb4e167e8d0da4663282d0b8e3561e708f"
+    }
+  ],
+  "rollback_plan": {
+    "trigger_conditions": [
+      "validation_failure",
+      "contradictory_evidence",
+      "implementation_defect"
+    ],
+    "restore_checkpoint": "890df218b4f4dea92f4ccfa36b8106de59eca1b1",
+    "owner": "Certiaura Governance"
+  },
+  "status": "IMPLEMENTED"
+}
