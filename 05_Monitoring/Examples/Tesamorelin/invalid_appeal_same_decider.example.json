@@ -1,0 +1,30 @@
+{
+  "build_number": "0059",
+  "candidate": "RC1",
+  "peptide": "Tesamorelin",
+  "clinical_recommendation_authorised": false,
+  "clinical_decision_support_authorised": false,
+  "record_type": "tesamorelin_challenge_appeal_decision",
+  "record_id": "CAP-INVALID-001",
+  "challenge_id": "CH-X",
+  "original_decision_id": "DEC-X",
+  "challenge_basis": "Invalid panel.",
+  "challenger_role": "OBSERVER",
+  "original_deciders": [
+    "R-CHAIR"
+  ],
+  "appeal_panel": [
+    "R-CHAIR",
+    "AP-2"
+  ],
+  "independence_confirmed": true,
+  "evidence_pack_version": "1.0.0",
+  "outcome": "UPHOLD",
+  "rationale": "Invalid.",
+  "audit_refs": [
+    "AUD-X"
+  ],
+  "approvers": [
+    "R-CHAIR"
+  ]
+}

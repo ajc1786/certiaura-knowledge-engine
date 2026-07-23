@@ -1,0 +1,27 @@
+{
+  "build_number": "0059",
+  "candidate": "RC1",
+  "peptide": "Tesamorelin",
+  "clinical_recommendation_authorised": false,
+  "clinical_decision_support_authorised": false,
+  "record_type": "tesamorelin_evidence_pack_version",
+  "record_id": "EPV-INVALID-001",
+  "pack_id": "EP-X",
+  "version": "1.0.0",
+  "predecessor_version": null,
+  "source_refs": [
+    "SRC-1",
+    "SRC-2"
+  ],
+  "source_hashes": {
+    "SRC-1": "bad"
+  },
+  "change_summary": "Invalid hash set.",
+  "immutable_snapshot_hash": "not-a-hash",
+  "validation_state": "COMPLETE",
+  "supersedes": [],
+  "status": "APPROVED",
+  "approvers": [
+    "R-EVIDENCE"
+  ]
+}

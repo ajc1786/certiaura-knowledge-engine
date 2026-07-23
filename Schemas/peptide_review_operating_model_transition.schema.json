@@ -1,0 +1,96 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://certiaura.invalid/schemas/peptide_review_operating_model_transition.schema.json",
+  "title": "peptide_review_operating_model_transition",
+  "type": "object",
+  "required": [
+    "build_number",
+    "candidate",
+    "record_type",
+    "record_id",
+    "peptide",
+    "clinical_recommendation_authorised",
+    "clinical_decision_support_authorised",
+    "transition_id",
+    "source_pilot",
+    "reusable_controls",
+    "peptide_specific_controls",
+    "prohibited_assumptions",
+    "validation_state",
+    "decision",
+    "approvers"
+  ],
+  "properties": {
+    "build_number": {
+      "const": "0059"
+    },
+    "candidate": {
+      "const": "RC1"
+    },
+    "peptide": {
+      "const": "Tesamorelin"
+    },
+    "clinical_recommendation_authorised": {
+      "const": false
+    },
+    "clinical_decision_support_authorised": {
+      "const": false
+    },
+    "record_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "approvers": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "record_type": {
+      "const": "peptide_review_operating_model_transition"
+    },
+    "transition_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source_pilot": {
+      "const": "Tesamorelin"
+    },
+    "reusable_controls": {
+      "type": "array",
+      "minItems": 5,
+      "items": {
+        "type": "string"
+      }
+    },
+    "peptide_specific_controls": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    },
+    "prohibited_assumptions": {
+      "type": "array",
+      "minItems": 2,
+      "items": {
+        "type": "string"
+      }
+    },
+    "validation_state": {
+      "enum": [
+        "COMPLETE",
+        "PARTIAL",
+        "FAILED"
+      ]
+    },
+    "decision": {
+      "enum": [
+        "APPROVE_REUSABLE_MODEL",
+        "CONDITIONAL_HOLD",
+        "REJECT"
+      ]
+    }
+  },
+  "additionalProperties": true
+}

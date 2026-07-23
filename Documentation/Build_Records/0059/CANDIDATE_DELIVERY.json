@@ -1,0 +1,9 @@
+{
+  "build_number": "0059",
+  "candidate": "RC1",
+  "status": "DELIVERED",
+  "title": "tesamorelin governed review-board approvals, evidence-pack version control, challenge and appeal resolution, suspension recovery, periodic reassessment and reusable peptide-review operating model baseline",
+  "predecessor_commit": "011f5a47d756d638b4c0c8b2e122628ff5a6d35a",
+  "predecessor_run_id": 30003221771,
+  "clinical_boundary": "NON_CLINICAL_ONLY"
+}

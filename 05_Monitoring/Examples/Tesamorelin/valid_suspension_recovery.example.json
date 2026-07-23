@@ -1,0 +1,34 @@
+{
+  "build_number": "0059",
+  "candidate": "RC1",
+  "peptide": "Tesamorelin",
+  "clinical_recommendation_authorised": false,
+  "clinical_decision_support_authorised": false,
+  "record_type": "tesamorelin_suspension_recovery_decision",
+  "record_id": "SR-VALID-001",
+  "suspension_id": "SUSP-001",
+  "suspension_reason": "Governance evidence gap.",
+  "recovery_criteria": [
+    "Evidence gap closed",
+    "Safety route replayed"
+  ],
+  "criteria_results": [
+    {
+      "criterion": "Evidence gap closed",
+      "state": "MET",
+      "evidence_ref": "E-1"
+    },
+    {
+      "criterion": "Safety route replayed",
+      "state": "MET",
+      "evidence_ref": "E-2"
+    }
+  ],
+  "residual_risks": [],
+  "residual_risk_severity": "NONE",
+  "reentry_decision": "RECOVER_TO_SIMULATION",
+  "approvers": [
+    "R-SAFETY",
+    "R-GOV"
+  ]
+}

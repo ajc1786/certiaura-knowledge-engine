@@ -1,0 +1,32 @@
+{
+  "build_number": "0059",
+  "candidate": "RC1",
+  "peptide": "Tesamorelin",
+  "clinical_recommendation_authorised": false,
+  "clinical_decision_support_authorised": false,
+  "record_type": "tesamorelin_challenge_appeal_decision",
+  "record_id": "CAP-VALID-001",
+  "challenge_id": "CH-001",
+  "original_decision_id": "DEC-0059-001",
+  "challenge_basis": "Evidence omission was alleged and reviewed.",
+  "challenger_role": "OBSERVER",
+  "original_deciders": [
+    "R-CHAIR",
+    "R-GOV"
+  ],
+  "appeal_panel": [
+    "AP-1",
+    "AP-2"
+  ],
+  "independence_confirmed": true,
+  "evidence_pack_version": "1.0.1",
+  "outcome": "MODIFY",
+  "rationale": "Pack index amended without changing safety boundary.",
+  "audit_refs": [
+    "AUD-001"
+  ],
+  "approvers": [
+    "AP-1",
+    "AP-2"
+  ]
+}

@@ -1,0 +1,545 @@
+{
+  "schema_version": "1.0.0",
+  "generated_at": "2026-07-23T12:04:39.756686+00:00",
+  "source": "CANONICAL_GIT_OBJECTS",
+  "predecessor_build": "0058",
+  "predecessor_candidate": "RC2",
+  "predecessor_commit": "011f5a47d756d638b4c0c8b2e122628ff5a6d35a",
+  "predecessor_commit_subject": "Add Certiaura Build 0058 tesamorelin multi-source evidence quality assessment, conflicting-evidence adjudication, longitudinal signal recurrence, controlled amendment and pilot continuation governance baseline",
+  "predecessor_formal_asset_uais": {
+    "Standards/TESAMORELIN_CONFLICTING_EVIDENCE_ADJUDICATION_MATRIX.json": "CERT-EKS-000787",
+    "Standards/TESAMORELIN_CONTROLLED_AMENDMENT_STANDARD.md": "CERT-SYS-000870",
+    "Standards/TESAMORELIN_LONGITUDINAL_SIGNAL_RECURRENCE_MODEL.json": "CERT-MKS-000220",
+    "Standards/TESAMORELIN_MULTI_SOURCE_EVIDENCE_ASSESSMENT_MODEL.json": "CERT-EKS-000788",
+    "Standards/TESAMORELIN_PILOT_CONTINUATION_AND_SUSPENSION_MATRIX.json": "CERT-PKS-000438",
+    "Standards/TESAMORELIN_SOURCE_QUALITY_SCORING_STANDARD.md": "CERT-EKS-000789"
+  },
+  "manifest_path": "Documentation/Build_Records/0058/ASSET_INTENT_MANIFEST.json",
+  "predecessor_path_count": 86,
+  "current_build": "0059",
+  "intersection": [],
+  "approved_intersection": [],
+  "prohibited_intersection": [],
+  "withdrawn_candidates": [
+    "RC1"
+  ],
+  "blobs": [
+    {
+      "repository_path": "05_Monitoring/Examples/Tesamorelin/conditional_amendment_hold.example.json",
+      "git_blob": "0d9e0153d7a52da309a67b5a7d29455fec457b99",
+      "sha256": "f356bf449ef8e210c3f04cbaa0d44ddc4e5a6b5d3687714851be04c66499c2ba",
+      "size_bytes": 673
+    },
+    {
+      "repository_path": "05_Monitoring/Examples/Tesamorelin/conditional_conflicting_evidence_hold.example.json",
+      "git_blob": "a8c06cf4feeaaa94875d7cdbc5e1e60fe686ff3e",
+      "sha256": "1d1b973663202d92a6dfb98040037e8ef67750655f19a357cf32bbda553956a7",
+      "size_bytes": 785
+    },
+    {
+      "repository_path": "05_Monitoring/Examples/Tesamorelin/conditional_pilot_suspension.example.json",
+      "git_blob": "c76b0efb25a8db376bcc95a83cf6546bddd310a1",
+      "sha256": "e36c4bb050edc9ac7266312bed8206237f9b177c2bbd63235d432eb9c5727756",
+      "size_bytes": 841
+    },
+    {
+      "repository_path": "05_Monitoring/Examples/Tesamorelin/conditional_recurrent_signal_hold.example.json",
+      "git_blob": "96691eb8b2e32a539b9e0905fc37c406eb585fb4",
+      "sha256": "acc61d351022f690391e8454891aa779219d790d997f97e396bd1219d24ff79e",
+      "size_bytes": 665
+    },
+    {
+      "repository_path": "05_Monitoring/Examples/Tesamorelin/conditional_source_quality_hold.example.json",
+      "git_blob": "ad57a0b8186e2e83cdbbcd9d971d30b43ca54c06",
+      "sha256": "eeca8ea0188657a1ef3b2b796c139b8924cfe5a05b13e48a6a4b29f2ba983797",
+      "size_bytes": 1136
+    },
+    {
+      "repository_path": "05_Monitoring/Examples/Tesamorelin/invalid_amendment_without_rollback.example.json",
+      "git_blob": "605a795f7fe507db29e586f99f5f87cb0379e21c",
+      "sha256": "bf3b1f4b859fcc0eecf96f43554879ef743fdbe7625559f35cb5462025003b9f",
+      "size_bytes": 640
+    },
+    {
+      "repository_path": "05_Monitoring/Examples/Tesamorelin/invalid_conflict_resolution_without_both_sides.example.json",
+      "git_blob": "d7285040ff57f43f9a65f1ca922096ef09f30c62",
+      "sha256": "fd283ebeb70afb6b858d7ca1bbb05ec775cf37f6435919816fb2ccc5b5079dfd",
+      "size_bytes": 682
+    },
+    {
+      "repository_path": "05_Monitoring/Examples/Tesamorelin/invalid_continuation_with_unresolved_conflict.example.json",
+      "git_blob": "5ca212a2d761ffd90067ce043062ea8634506eac",
+      "sha256": "08ebf64f1ae74aa7fc8f8abd0a8a819529be15c9bc2374213f3734f68f814fe1",
+      "size_bytes": 729
+    },
+    {
+      "repository_path": "05_Monitoring/Examples/Tesamorelin/invalid_recurrent_signal_continue.example.json",
+      "git_blob": "8ad5ef40c21cb2b8bb938ed938c713b8d1ae11ea",
+      "sha256": "7c87a8f4a644e94882aa932e1762255b147d801f8e046f2e1da98cb8bfa1bf1b",
+      "size_bytes": 623
+    },
+    {
+      "repository_path": "05_Monitoring/Examples/Tesamorelin/invalid_source_quality_low_score_accept.example.json",
+      "git_blob": "1551ae8b628750dce946bc01d4f65691ba7be531",
+      "sha256": "3b0718896e4e3f27c5c446fecb1cb333eb7ef9823f28012849e505a5c4c6b306",
+      "size_bytes": 1426
+    },
+    {
+      "repository_path": "05_Monitoring/Examples/Tesamorelin/invalid_source_quality_unverified_accept.example.json",
+      "git_blob": "2b918d009c10d4d0f26970b7c63a3e5ee0041cee",
+      "sha256": "e389414b05e03f23ced81d41fd72479f6e11e0e00bb6d6f31071956642d5fa47",
+      "size_bytes": 1429
+    },
+    {
+      "repository_path": "05_Monitoring/Examples/Tesamorelin/valid_conflicting_evidence_resolution.example.json",
+      "git_blob": "8257310afe82e35814c6cdce505f400724181055",
+      "sha256": "318d4f2a1966cc5870bc5dcd39c38c8ad5ccd5b4944dead7b336c0b4518cd6a5",
+      "size_bytes": 885
+    },
+    {
+      "repository_path": "05_Monitoring/Examples/Tesamorelin/valid_controlled_amendment.example.json",
+      "git_blob": "2d9e6189144a63d6cddfe717d21f5f92bec53618",
+      "sha256": "1c9fb9d9372d7071ff29261d38466026342affd3dcdeb43b1a0b904246bd88ba",
+      "size_bytes": 794
+    },
+    {
+      "repository_path": "05_Monitoring/Examples/Tesamorelin/valid_longitudinal_signal_review.example.json",
+      "git_blob": "33a34f5f9d9d7f30ed400db0474ca68a6d3860c1",
+      "sha256": "59e4c70fa9d1479a7359c34373fd2fb414ba03c6673fc3ba89c26e179e0bc1a1",
+      "size_bytes": 614
+    },
+    {
+      "repository_path": "05_Monitoring/Examples/Tesamorelin/valid_pilot_continuation.example.json",
+      "git_blob": "b8aa1d0967841d6f38355393853e9aee556b8705",
+      "sha256": "124e55e6e14eaa47f11d2659a867154c92f86ea60e8605f91691818e372869e2",
+      "size_bytes": 770
+    },
+    {
+      "repository_path": "05_Monitoring/Examples/Tesamorelin/valid_source_quality_assessment.example.json",
+      "git_blob": "414ebf612ec5aa83e0d2f940d9d021d4d9bdc37c",
+      "sha256": "23839403d80596dae9d4cb926534ef425886a161583147830aa7d631e011cb18",
+      "size_bytes": 1437
+    },
+    {
+      "repository_path": "13_Project_Genesis/Dashboards/generate_tesamorelin_longitudinal_review_summary.py",
+      "git_blob": "88570a8feef809401f82bfe34f959b8d6cf59e32",
+      "sha256": "a84c546615a84f7caf3fd6034a5d8aba41d2feee528f3ec90835b4fefd63f563",
+      "size_bytes": 797
+    },
+    {
+      "repository_path": "13_Project_Genesis/Import/run_build_0058_import.py",
+      "git_blob": "1ace13e332a329d6032b5dd4903c3c748df283b9",
+      "sha256": "527f938029c57f40155cfeb96f2129fc80d9727d7fbad29a02631795de2ac816",
+      "size_bytes": 25007
+    },
+    {
+      "repository_path": "13_Project_Genesis/Release/derive_build_0057_predecessor_evidence.py",
+      "git_blob": "c965622ab46c184c80706c8f3cdf784955547ada",
+      "sha256": "a191a61c0113d4abbcd62c4e5b293a2bb1437f8cd9a94fbab0ba29b8353b0cc4",
+      "size_bytes": 6089
+    },
+    {
+      "repository_path": "13_Project_Genesis/Release/run_build_0058_preflight.py",
+      "git_blob": "a98b1a3bf96efcd58271c26884f4c30e98129261",
+      "sha256": "4ec925902a4b8b7a70371ed3438d8221e244fed2cc26b05e5f0edec027ee57fd",
+      "size_bytes": 3465
+    },
+    {
+      "repository_path": "13_Project_Genesis/Tests/test_build_0058_cross_asset_coherence.py",
+      "git_blob": "6c3fd2a2930d783c6b4251594bf9301c171ab482",
+      "sha256": "6bf42505b3bc002415f3fccfa00e5f4aa29cb86646ca263ea581bd3a7d8f3e1c",
+      "size_bytes": 1190
+    },
+    {
+      "repository_path": "13_Project_Genesis/Tests/test_build_0058_git_guard_carryforward.py",
+      "git_blob": "78810f0c79c9c17e21c26273f7ac7f0e84dd66f6",
+      "sha256": "52d4a1bd897a265110b9f2815a5b87fbb8fa0c99eb00b4aa9eb729dc3d20fb17",
+      "size_bytes": 857
+    },
+    {
+      "repository_path": "13_Project_Genesis/Tests/test_build_0058_multi_source_quality.py",
+      "git_blob": "07d43898bb6609f7c4cd4218fa05893d9e1a2425",
+      "sha256": "6b50662e14c3df70126c53c1acbf05b61f973e925fbc617384fd57d830d7023a",
+      "size_bytes": 1633
+    },
+    {
+      "repository_path": "13_Project_Genesis/Tests/test_build_0058_predecessor_evidence.py",
+      "git_blob": "0c8d9e4fca9a29e854477888d45fe705ebf93e18",
+      "sha256": "a7b8f099a53dc6df7ea020e4707a3c901ccb35a6a94b56752970d0649c4856c5",
+      "size_bytes": 1126
+    },
+    {
+      "repository_path": "13_Project_Genesis/Tests/test_build_0058_repository.py",
+      "git_blob": "0ed49555488faee33ccc95a338d8f91e435ddb5b",
+      "sha256": "e833fe718a6a50319d303b218c2f7849706a2c9015da19ccc4d17e1a39f7d236",
+      "size_bytes": 2681
+    },
+    {
+      "repository_path": "13_Project_Genesis/Tests/test_build_0058_transactional_import.py",
+      "git_blob": "9cf4dedd8f0ca49e180569499a2e4daa534acb04",
+      "sha256": "eedf8b703936966bc3258ab00fe47fd2fe1f7b4eb3eec1fc4cbbd41a186c8be2",
+      "size_bytes": 672
+    },
+    {
+      "repository_path": "13_Project_Genesis/Validators/build_0058_asset_ownership.py",
+      "git_blob": "1cc5d779aa71c8aa92dbc3908f6e40c2f69eaff9",
+      "sha256": "2a549caea281625d55eb3f86df917dae308ebd083d819019b1ee0acb07725c6a",
+      "size_bytes": 1019
+    },
+    {
+      "repository_path": "13_Project_Genesis/Validators/tesamorelin_longitudinal_review_common.py",
+      "git_blob": "67c290ad16c3bd8b70f591e23af871551f99eb50",
+      "sha256": "a200a901fc271a4d2d6a5d424d6de09f9ca898e41c83b99efc11cdf7f7ce1b7c",
+      "size_bytes": 8512
+    },
+    {
+      "repository_path": "13_Project_Genesis/Validators/validate_build_0058_repository.py",
+      "git_blob": "74017431557eff0787e0572c5871c142949ab28c",
+      "sha256": "1bf00732fc2c52bb5390f740c9ede921de57f8e50458527649a72f79e6650ddf",
+      "size_bytes": 3564
+    },
+    {
+      "repository_path": "13_Project_Genesis/Validators/validate_tesamorelin_longitudinal_review.py",
+      "git_blob": "0f0673d815d32ed05647667d627b0002aaa8ce4a",
+      "sha256": "b865f450347004480cc2daf77d618670b03acaaf83690c686860e380791adb6e",
+      "size_bytes": 740
+    },
+    {
+      "repository_path": "Database/Registers/Tesamorelin_Conflicting_Evidence_Register.csv",
+      "git_blob": "57430213d51b92312c0da578a0a7dcaa6ddeb3f2",
+      "sha256": "e722270ebe4b3b5570e84deb53a741db63311f8d9969ba6ef1afb6fe1e155690",
+      "size_bytes": 62
+    },
+    {
+      "repository_path": "Database/Registers/Tesamorelin_Controlled_Amendment_Register.csv",
+      "git_blob": "5ebbf5fa2cd847bbdba100f14f97c1271cee30dc",
+      "sha256": "85dbdafaa2f0e8ab50f976076afdfa2152e4fe6519d9f4c98d85b005ef2f8c18",
+      "size_bytes": 97
+    },
+    {
+      "repository_path": "Database/Registers/Tesamorelin_Longitudinal_Signal_Review_Register.csv",
+      "git_blob": "29f07790226dd304689882fe9fd7480b932e1982",
+      "sha256": "b34b2001bdc8256872b36cafbab978f9f94ecc1304b3412f3c22626a9fc34a8c",
+      "size_bytes": 87
+    },
+    {
+      "repository_path": "Database/Registers/Tesamorelin_Pilot_Continuation_Register.csv",
+      "git_blob": "35b4f086ff24b95f2e25cd9ed043a586fab39b0a",
+      "sha256": "31c3f4648d0ee82f1644e9152a862cd2b7a6489188199fa1deab1261571734f5",
+      "size_bytes": 107
+    },
+    {
+      "repository_path": "Database/Registers/Tesamorelin_Source_Quality_Assessment_Register.csv",
+      "git_blob": "721d794361a3c101f2b641015f83d6bfafd235db",
+      "sha256": "4c9426ee4ee39916cc49c83f1c656e331074057e7e8591e8179a3f00f7ea17a2",
+      "size_bytes": 77
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0058/ACCUMULATED_LESSONS_DELTA.json",
+      "git_blob": "1dd1aeecf01229209d006a661de7d0fa7ccb1339",
+      "sha256": "7eae70b02920b407060bdeba48f573eba263f79a4071638016fc3115c01ec3a9",
+      "size_bytes": 331
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0058/ASSET_INTENT_MANIFEST.json",
+      "git_blob": "d87864783e15f8546e108595e2439d4242d626b6",
+      "sha256": "f12e3c4602a8486c152822c353362c2ef056dab302a664c3605d7904ea776578",
+      "size_bytes": 22410
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0058/ASSET_REGISTER_RECONCILIATION_POLICY.json",
+      "git_blob": "a38b1305bd7c9c7b91462a9a2a1b2e3b2d5e87b3",
+      "sha256": "f2516d6f244dcf24cc9640eac4c7b9bd29ff5c3254869bb049270b4cfd97e196",
+      "size_bytes": 187
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0058/BUILD_MANIFEST.json",
+      "git_blob": "c471483eef2893b18d52e8aca4238d493c9c8269",
+      "sha256": "23412268d87e4a49e5b6d23050cffdc2ef4d185fa2852e8394ae81bfcfbda9f2",
+      "size_bytes": 679
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0058/CANDIDATE_DELIVERY.json",
+      "git_blob": "4388d7dfc5bb9dff5a6e00560bf0d006a1502707",
+      "sha256": "c8b1881d0b9dd00d1c459f052655862c8473ab9c349d3cd35f8338fadef71dab",
+      "size_bytes": 626
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0058/CHECKSUMS.sha256",
+      "git_blob": "9b12556c5e7a4aff4248736b1b758a2df2915b48",
+      "sha256": "a4c42d1843bcf916dcbe340b4dd28b72063f8680a4842d5da074b71f7959a8a5",
+      "size_bytes": 11188
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0058/COMMIT_MESSAGE.txt",
+      "git_blob": "3a40a6140866426ae1a40e86d4016e6fe1e48655",
+      "sha256": "f42a46953b639e0a91109022623bd76afa51795112d1f026fc3b829b0290b695",
+      "size_bytes": 210
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0058/CONFLICT_POLICY.json",
+      "git_blob": "70501af3337ba944d29a58ea5b17a42813fcea65",
+      "sha256": "9d6bd9fd93936ee6c73b3997c00c72aea8fa89fcafea723d29cef4f38d55df7e",
+      "size_bytes": 141
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0058/CONTINUITY_CHECKPOINT_DELTA.json",
+      "git_blob": "7b0ef8e4cf0b497c18a27da241f86f3318b4f35e",
+      "sha256": "b641e95085263209b4a825e4eef51ac584ee45021d7722047951330c4db0773b",
+      "size_bytes": 183
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0058/DECISION_RECORD_0058.md",
+      "git_blob": "46bfedbd2c2450f4795fc651cf3b7e1d43029f5d",
+      "sha256": "9432f41760d715cea7feaa5da9fcd42a52c9d50213da75c0056f67c5b4180427",
+      "size_bytes": 615
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0058/GITHUB_ACTIONS_CLOSURE_EVIDENCE_REQUIREMENTS.json",
+      "git_blob": "a01281c08c929c90dd1aae5fc234d58b891b5e6f",
+      "sha256": "6fa606049a10e354589ae566bd5baddb4a205e9c0c47c672f981de75e3e8f018",
+      "size_bytes": 401
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0058/LESSONS_LEARNED_CONTROL_MATRIX.json",
+      "git_blob": "7d24c8b5a369e8a0965a50a41230ceff842dcf6a",
+      "sha256": "fc8fdf2ac8ded6d16ed7a216a16bfb4ed4a4c74f248337a53b54b3a4212db2bd",
+      "size_bytes": 767
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0058/LESSONS_LEARNED_REVIEW.md",
+      "git_blob": "5d666e5ed833de73ad4b01e1c91b0ec35469f45b",
+      "sha256": "fb238f890da634b25defa8975a514e5babcc8eab61ed2b8cb13992071e291ff4",
+      "size_bytes": 646
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0058/OUTSIDE_CANONICAL_VALIDATION_REPORT.json",
+      "git_blob": "6116fc5e0680220a7798391fed173b791293bf79",
+      "sha256": "de551ef7f1fe4dda210d69d07e285831f011442eeff55b605dcf29cb6969e960",
+      "size_bytes": 384
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0058/PACKAGE_INVENTORY.csv",
+      "git_blob": "d2f3e3e6b2b6441a28ea1fb326fbd8995fd7005c",
+      "sha256": "18bc823afb26b4ecd68ec7e47339e7f2fddc7c01234c290741b00be263b4a9ff",
+      "size_bytes": 7230
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0058/PACKAGE_VERSION.json",
+      "git_blob": "ee482e0142d5354b7b81cb37aa5f4b2107957271",
+      "sha256": "80d66dad1abf1dd18592649b1fad6777bdfd90c0cf3215a82fe5d8445429df24",
+      "size_bytes": 116
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0058/PREDECESSOR_REQUIREMENTS.json",
+      "git_blob": "006e2b5bfb2049966d3cd515ae56eec22137c5a4",
+      "sha256": "4b9f46e850982b31b5dfa84efa28ea998b7880c92f0a4318f8371e5e574f57f7",
+      "size_bytes": 274
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0058/PRE_AUTHORISED_PRECURSOR_STATE.json",
+      "git_blob": "9f8f8061f81b7dc65f4d3e1760956fc7c4a793a3",
+      "sha256": "cc364ba2ea5f15e419e83916b4597486105e0bb1a71b88e973458eca4600a030",
+      "size_bytes": 218
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0058/PRE_RELEASE_VALIDATION_REPORT.json",
+      "git_blob": "a478f6d3da47d309304f3bfe9ee73acd6bd1ee93",
+      "sha256": "e34aa36c1488c89e8cfda4f573948805eda99ff079c2a241fa0c0b6ed36dc5bb",
+      "size_bytes": 289
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0058/PROJECT_GENESIS_IMPORT_HOOK.json",
+      "git_blob": "cdc8a1bec967aa31e6a9fc4148306416d4e11842",
+      "sha256": "07d1e92486487c6349a7937c7eac3cb71d1cbde116d8bc94d78ef1d2157266a5",
+      "size_bytes": 195
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0058/PROPOSED_NEXT_ACTION.md",
+      "git_blob": "98d015a1caeaec678f007b59c8e0c50af16f4fa5",
+      "sha256": "d97cf315d321703f02d4c2765d84c4ce3a5f711f3ef74cf151d8cd6d88bd4dc8",
+      "size_bytes": 360
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0058/READ_ME_FIRST.md",
+      "git_blob": "318d9c9e00c545b0c6bba8b458b226bcd41330fe",
+      "sha256": "cfd5386c5994b007fdf986b0388389c373ef061986c69b0c5712f7cd18c1e49e",
+      "size_bytes": 763
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0058/REAL_WORLD_OPERATOR_WORKFLOW_REGRESSION_REPORT.json",
+      "git_blob": "8f9cb17778935620d63df77a563d1d66f83d21bd",
+      "sha256": "9de80d105dedd51ae93c67cb56fc1531464ae66471367f3cbc248fa0f63193fd",
+      "size_bytes": 629
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0058/ROLLBACK_RUNBOOK.md",
+      "git_blob": "cbba9b56986eb36f62c4182a895a6c8a540179e1",
+      "sha256": "3ea8364573499ebb79471cacef464204bd41eb921da6285e03895e86dc5e0959",
+      "size_bytes": 274
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0058/ROUTING_MANIFEST.json",
+      "git_blob": "dfd17fc61cc89a28b5aa414f342f626672e9db11",
+      "sha256": "9f4ca132cf00a23eb0fca548af78d47dbaaf7b29a76572a91e6c46edd7f9d8bd",
+      "size_bytes": 238
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0058/SOURCE_INPUT_DEFECT_LOG.json",
+      "git_blob": "8d13cc2ab8e76ac54767f330cce092e4b8669846",
+      "sha256": "0780398d37cdb3d9e50dea5af2b25b119639f7fa3714cc69feffddb2672f9231",
+      "size_bytes": 1165
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0058/VALIDATION_REQUIREMENTS.json",
+      "git_blob": "38e877dea0bd289a2014f22dc5bf771f5656d275",
+      "sha256": "bdd99db26e2bc579ed0d957d43992d81fe1db0ae473b69d338b9be007b4abe9d",
+      "size_bytes": 958
+    },
+    {
+      "repository_path": "Schemas/tesamorelin_conflicting_evidence_decision.schema.json",
+      "git_blob": "c04985a54c0163362b72f43ab31dc10b83845f4b",
+      "sha256": "56e510ff0274324060cfaab56cd16983d65d59ca8fcc800e593f52a268524b13",
+      "size_bytes": 2317
+    },
+    {
+      "repository_path": "Schemas/tesamorelin_controlled_amendment_decision.schema.json",
+      "git_blob": "e8355489cff43eb9a0bd9ac778ce9fd5b05fbd62",
+      "sha256": "224fb02093ba461b53410aa1d8c30d4f031258852c12863c8498a7f332b68e86",
+      "size_bytes": 2083
+    },
+    {
+      "repository_path": "Schemas/tesamorelin_longitudinal_signal_review.schema.json",
+      "git_blob": "8ca6cc827df84f04326067fbf1dbcede517fd0b7",
+      "sha256": "161828105711ab1edbe62cf8958d2358025a7d781010dcc5acacd6fc1e9f614d",
+      "size_bytes": 2232
+    },
+    {
+      "repository_path": "Schemas/tesamorelin_pilot_continuation_decision.schema.json",
+      "git_blob": "57f0b577dffc9b767f9665e409cf8bd11e92ce03",
+      "sha256": "30c0d422fbc619ac79c45cec495665085a1540fe35455571ed9326bb04f544ba",
+      "size_bytes": 2419
+    },
+    {
+      "repository_path": "Schemas/tesamorelin_source_quality_assessment.schema.json",
+      "git_blob": "3e4f27d59f20a6244341062298512c9a8d5958e3",
+      "sha256": "ddf7d69182a6463a24c81765b80453753d75e28271b2957da94294defdc5285d",
+      "size_bytes": 3069
+    },
+    {
+      "repository_path": "Scripts/Close_Certiaura_Build_0058.ps1",
+      "git_blob": "e8251ca5de44cc0533b871616b4dd0ad65ecff29",
+      "sha256": "2932acc49599922ae16251179c20ea5c638051b4ad0c1f19f63ee9fcda132503",
+      "size_bytes": 5549
+    },
+    {
+      "repository_path": "Scripts/Invoke_Certiaura_Build_0058_Import.ps1",
+      "git_blob": "248da9d580a57ff8e382f5e7c598ef6762818bdc",
+      "sha256": "fae983a9e973a2674ff38336f2e5c1e5d38100f03d8cc92f74cc04344b241126",
+      "size_bytes": 1241
+    },
+    {
+      "repository_path": "Scripts/Invoke_Certiaura_Build_0058_Preflight.ps1",
+      "git_blob": "9308de96fc825c979e48f71119729b1a527c7ada",
+      "sha256": "faf97f6061c97e7bf7c7f7ea3381d6e5db7055655535071e469eb5fcdc627269",
+      "size_bytes": 652
+    },
+    {
+      "repository_path": "Scripts/Invoke_Certiaura_Build_0058_Windows_PS51_Regression.ps1",
+      "git_blob": "9eba2c8ee47504bed474045c6a8c38e96f238038",
+      "sha256": "360164f049b89cf5d9fcabc9078bc42bde22dd2585d06f4b2fb0537343b63f48",
+      "size_bytes": 11263
+    },
+    {
+      "repository_path": "Scripts/Run_Certiaura_Build_0058.ps1",
+      "git_blob": "73167e183ce49892f5b58cb0cca84d1b00026b5a",
+      "sha256": "84867879bb5985c34013f07e8cf01c59884140b825e8283b6c9413e97c535663",
+      "size_bytes": 12862
+    },
+    {
+      "repository_path": "Scripts/START_BUILD_0058.cmd",
+      "git_blob": "e9a91568fd9dc65738baf10f6f2235b2c35783fb",
+      "sha256": "149ea658066f29bf0c0f1446e06e25c9f6dfedf9af62db8695789846064c90f0",
+      "size_bytes": 105
+    },
+    {
+      "repository_path": "Scripts/update_certiaura_build_0058_controls.py",
+      "git_blob": "1799cbe3ccc32d3f020c6e5dc0c60a74da1a8df8",
+      "sha256": "26bc3331031bbb6a834db9e89dcfd43f244dafe983c6edd3410072029be8a99c",
+      "size_bytes": 2389
+    },
+    {
+      "repository_path": "Standards/TESAMORELIN_CONFLICTING_EVIDENCE_ADJUDICATION_MATRIX.json",
+      "git_blob": "546e2c842ff109baa1083d26b306f513912801fb",
+      "sha256": "97e00d018792869540f1b3e3869d0b190494107fec6e52f457065b6e122af044",
+      "size_bytes": 658
+    },
+    {
+      "repository_path": "Standards/TESAMORELIN_CONTROLLED_AMENDMENT_STANDARD.md",
+      "git_blob": "d66ccb52e395845b8174d8c6d6c08785f808972f",
+      "sha256": "df2b9b25f9f59a7eeb1fe2ac61ca641e43a796b8b66df395a4dea834caadb4ef",
+      "size_bytes": 546
+    },
+    {
+      "repository_path": "Standards/TESAMORELIN_LONGITUDINAL_SIGNAL_RECURRENCE_MODEL.json",
+      "git_blob": "bc708bed868bf76b84c99d78c381a30d96775ff9",
+      "sha256": "e49003afe71ca86fc010a5b107f4289ccc44b76c62210004d51062a05789258b",
+      "size_bytes": 566
+    },
+    {
+      "repository_path": "Standards/TESAMORELIN_MULTI_SOURCE_EVIDENCE_ASSESSMENT_MODEL.json",
+      "git_blob": "44a2c05435f4ee635516a9eb0f5448da8c2fdafc",
+      "sha256": "a2c8c84f4503f6e338f104d75395c7e8091da9aedce59a214c446983093fff58",
+      "size_bytes": 499
+    },
+    {
+      "repository_path": "Standards/TESAMORELIN_PILOT_CONTINUATION_AND_SUSPENSION_MATRIX.json",
+      "git_blob": "469645447a089fe5c0209b1f8df55d5d6b8f9715",
+      "sha256": "bcfc721e99e5c7a78b4dd91156ed9dcb2c7f892568682643b3a858b5d1e619a5",
+      "size_bytes": 684
+    },
+    {
+      "repository_path": "Standards/TESAMORELIN_SOURCE_QUALITY_SCORING_STANDARD.md",
+      "git_blob": "79926b0fb0b7694f1c840b5746620bc30eb327ee",
+      "sha256": "e1abd4058536bdec3b80cab0e1ba9ad0c0df2a02d18fd04b8ea6a36574e8ba00",
+      "size_bytes": 544
+    },
+    {
+      "repository_path": "Templates/TESAMORELIN_CONFLICTING_EVIDENCE_DECISION_TEMPLATE.json",
+      "git_blob": "2374c0091d0c0ead36bce477407902a25e9343a7",
+      "sha256": "010b558eee7d67eda58b261b5e369ddae15ba8aba46e441a06bd0fa8ee434b48",
+      "size_bytes": 592
+    },
+    {
+      "repository_path": "Templates/TESAMORELIN_CONTROLLED_AMENDMENT_DECISION_TEMPLATE.json",
+      "git_blob": "0b8b594eb1021d88fbab88d352357429f249865f",
+      "sha256": "cb60d447437b70084202a3a3594f7a6d8202a28b424bc5f6bc1323f70f3eaed8",
+      "size_bytes": 529
+    },
+    {
+      "repository_path": "Templates/TESAMORELIN_LONGITUDINAL_REVIEW_EXECUTIVE_SUMMARY_TEMPLATE.md",
+      "git_blob": "6bfe50500aa32123e2fa214d05c9a260bb1e1488",
+      "sha256": "425d2d717f1d8773a0038802896f39c6aa30dfc0dd09df1f086ada08d6af609f",
+      "size_bytes": 297
+    },
+    {
+      "repository_path": "Templates/TESAMORELIN_LONGITUDINAL_SIGNAL_REVIEW_TEMPLATE.json",
+      "git_blob": "6366c934176384a1456964c2ba9fa76eced0d931",
+      "sha256": "9d21edbcebe7b466913cbaf71642e6009e917ce0d94a720992bfcc45088d8256",
+      "size_bytes": 515
+    },
+    {
+      "repository_path": "Templates/TESAMORELIN_PILOT_CONTINUATION_DECISION_TEMPLATE.json",
+      "git_blob": "ebd6be8ad618e4c4fc34a5930c3f82b7bb6c6e56",
+      "sha256": "f41ed8133646e02b09aa317ea44fc7b9de5628a5f1b1f4f7b937dc571b72a27b",
+      "size_bytes": 672
+    },
+    {
+      "repository_path": "Templates/TESAMORELIN_SOURCE_QUALITY_ASSESSMENT_TEMPLATE.json",
+      "git_blob": "dbc9c056083137ca8960a5368340b39b5687ab10",
+      "sha256": "25a4994a1aa48424d8fe9cc2a180abc74019ac8f703937ef9c6e51251454db30",
+      "size_bytes": 398
+    }
+  ],
+  "result": "PREDECESSOR_CANONICAL_SOURCE_VERIFIED"
+}

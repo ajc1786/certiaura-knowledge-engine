@@ -1,0 +1,7 @@
+{
+  "build_number": "0059",
+  "candidate": "RC1",
+  "package_preflight": "CANDIDATE_RELEASE_VALIDATED",
+  "synthetic_canonical_regression": "PASS",
+  "result": "CANDIDATE_RELEASE_VALIDATED"
+}

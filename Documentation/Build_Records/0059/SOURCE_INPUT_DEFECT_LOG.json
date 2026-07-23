@@ -1,0 +1,25 @@
+{
+  "build_number": "0059",
+  "defects": [
+    {
+      "id": "0059-D01",
+      "description": "Review decisions can be made without complete role separation or quorum",
+      "resolution": "Mandatory four-role board, independence and quorum validation"
+    },
+    {
+      "id": "0059-D02",
+      "description": "Evidence packs can be silently mutated after approval",
+      "resolution": "Version, source hash and immutable snapshot controls"
+    },
+    {
+      "id": "0059-D03",
+      "description": "Appeals can be decided by the original decision maker",
+      "resolution": "Disjoint independent appeal panel"
+    },
+    {
+      "id": "0059-D04",
+      "description": "PowerShell closure output can omit evidence needed for founder confirmation",
+      "resolution": "Delimited complete copy-ready block and dual persisted JSON evidence"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "build_number": "0059",
+  "requirements": [
+    "package paths equal manifest files",
+    "all JSON parses",
+    "all Python compiles",
+    "valid and conditional examples pass",
+    "invalid examples fail",
+    "review board role separation and quorum",
+    "immutable evidence-pack versioning",
+    "independent challenge and appeal panel",
+    "suspension recovery fail-closed",
+    "periodic reassessment fail-closed",
+    "reusable model excludes cross-peptide clinical equivalence",
+    "copy-ready closure evidence block",
+    "recoverable external and local closure JSON",
+    "predecessor evidence from canonical Git objects",
+    "zero predecessor/current package intersection",
+    "forced rollback exact",
+    "clean reapply",
+    "Master Asset Register reconciliation",
+    "repository validation",
+    "both Git diff checks",
+    "staged byte equality",
+    "non-interactive Git guard and config restoration",
+    "exact commit subject",
+    "push simulation",
+    "exact GitHub Actions run ID before closure"
+  ]
+}

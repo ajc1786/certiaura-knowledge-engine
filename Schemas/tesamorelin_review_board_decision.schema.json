@@ -1,0 +1,145 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://certiaura.invalid/schemas/tesamorelin_review_board_decision.schema.json",
+  "title": "tesamorelin_review_board_decision",
+  "type": "object",
+  "required": [
+    "build_number",
+    "candidate",
+    "record_type",
+    "record_id",
+    "peptide",
+    "clinical_recommendation_authorised",
+    "clinical_decision_support_authorised",
+    "evidence_pack_id",
+    "evidence_pack_version",
+    "decision_id",
+    "roles",
+    "quorum",
+    "conflicts_disclosed",
+    "decision",
+    "rationale",
+    "conditions",
+    "approvers"
+  ],
+  "properties": {
+    "build_number": {
+      "const": "0059"
+    },
+    "candidate": {
+      "const": "RC1"
+    },
+    "peptide": {
+      "const": "Tesamorelin"
+    },
+    "clinical_recommendation_authorised": {
+      "const": false
+    },
+    "clinical_decision_support_authorised": {
+      "const": false
+    },
+    "record_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "approvers": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "record_type": {
+      "const": "tesamorelin_review_board_decision"
+    },
+    "evidence_pack_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "evidence_pack_version": {
+      "type": "string",
+      "minLength": 1
+    },
+    "decision_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "roles": {
+      "type": "array",
+      "minItems": 4,
+      "items": {
+        "type": "object",
+        "required": [
+          "role",
+          "reviewer_id",
+          "independence_confirmed",
+          "vote"
+        ],
+        "properties": {
+          "role": {
+            "enum": [
+              "CHAIR",
+              "EVIDENCE_REVIEWER",
+              "SAFETY_REVIEWER",
+              "GOVERNANCE_REVIEWER",
+              "OBSERVER"
+            ]
+          },
+          "reviewer_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "independence_confirmed": {
+            "type": "boolean"
+          },
+          "vote": {
+            "enum": [
+              "APPROVE",
+              "CONDITIONAL_HOLD",
+              "REJECT",
+              "ABSTAIN"
+            ]
+          }
+        }
+      }
+    },
+    "quorum": {
+      "type": "object",
+      "required": [
+        "required",
+        "present"
+      ],
+      "properties": {
+        "required": {
+          "type": "integer",
+          "minimum": 4
+        },
+        "present": {
+          "type": "integer",
+          "minimum": 0
+        }
+      }
+    },
+    "conflicts_disclosed": {
+      "type": "boolean"
+    },
+    "decision": {
+      "enum": [
+        "APPROVE_SIMULATION",
+        "CONDITIONAL_HOLD",
+        "REJECT",
+        "SUSPEND"
+      ]
+    },
+    "rationale": {
+      "type": "string",
+      "minLength": 1
+    },
+    "conditions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "additionalProperties": true
+}

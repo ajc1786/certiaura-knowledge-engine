@@ -1,0 +1,120 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://certiaura.invalid/schemas/tesamorelin_suspension_recovery_decision.schema.json",
+  "title": "tesamorelin_suspension_recovery_decision",
+  "type": "object",
+  "required": [
+    "build_number",
+    "candidate",
+    "record_type",
+    "record_id",
+    "peptide",
+    "clinical_recommendation_authorised",
+    "clinical_decision_support_authorised",
+    "suspension_id",
+    "suspension_reason",
+    "recovery_criteria",
+    "criteria_results",
+    "residual_risks",
+    "reentry_decision",
+    "approvers"
+  ],
+  "properties": {
+    "build_number": {
+      "const": "0059"
+    },
+    "candidate": {
+      "const": "RC1"
+    },
+    "peptide": {
+      "const": "Tesamorelin"
+    },
+    "clinical_recommendation_authorised": {
+      "const": false
+    },
+    "clinical_decision_support_authorised": {
+      "const": false
+    },
+    "record_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "approvers": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "record_type": {
+      "const": "tesamorelin_suspension_recovery_decision"
+    },
+    "suspension_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "suspension_reason": {
+      "type": "string",
+      "minLength": 1
+    },
+    "recovery_criteria": {
+      "type": "array",
+      "minItems": 2,
+      "items": {
+        "type": "string"
+      }
+    },
+    "criteria_results": {
+      "type": "array",
+      "minItems": 2,
+      "items": {
+        "type": "object",
+        "required": [
+          "criterion",
+          "state",
+          "evidence_ref"
+        ],
+        "properties": {
+          "criterion": {
+            "type": "string",
+            "minLength": 1
+          },
+          "state": {
+            "enum": [
+              "MET",
+              "PARTIAL",
+              "NOT_MET"
+            ]
+          },
+          "evidence_ref": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    },
+    "residual_risks": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "residual_risk_severity": {
+      "enum": [
+        "NONE",
+        "LOW",
+        "MODERATE",
+        "HIGH",
+        "CRITICAL"
+      ]
+    },
+    "reentry_decision": {
+      "enum": [
+        "RECOVER_TO_SIMULATION",
+        "CONDITIONAL_RECOVERY",
+        "REMAIN_SUSPENDED",
+        "TERMINATE"
+      ]
+    }
+  },
+  "additionalProperties": true
+}

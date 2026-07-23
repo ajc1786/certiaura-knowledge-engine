@@ -1,0 +1,14 @@
+{
+  "build_number": "0059",
+  "allowed_roots": [
+    "05_Monitoring",
+    "13_Project_Genesis",
+    "Database",
+    "Documentation",
+    "Schemas",
+    "Scripts",
+    "Standards",
+    "Templates"
+  ],
+  "flat_repository_relative": true
+}

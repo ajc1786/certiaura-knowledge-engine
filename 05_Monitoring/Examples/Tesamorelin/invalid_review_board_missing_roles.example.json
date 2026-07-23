@@ -1,0 +1,37 @@
+{
+  "build_number": "0059",
+  "candidate": "RC1",
+  "peptide": "Tesamorelin",
+  "clinical_recommendation_authorised": false,
+  "clinical_decision_support_authorised": false,
+  "record_type": "tesamorelin_review_board_decision",
+  "record_id": "RB-INVALID-001",
+  "evidence_pack_id": "EP-X",
+  "evidence_pack_version": "1.0.0",
+  "decision_id": "DEC-X",
+  "roles": [
+    {
+      "role": "CHAIR",
+      "reviewer_id": "R-CHAIR",
+      "independence_confirmed": true,
+      "vote": "APPROVE"
+    },
+    {
+      "role": "EVIDENCE_REVIEWER",
+      "reviewer_id": "R-EVIDENCE",
+      "independence_confirmed": true,
+      "vote": "APPROVE"
+    }
+  ],
+  "quorum": {
+    "required": 4,
+    "present": 2
+  },
+  "conflicts_disclosed": false,
+  "decision": "APPROVE_SIMULATION",
+  "rationale": "Invalid approval.",
+  "conditions": [],
+  "approvers": [
+    "R-CHAIR"
+  ]
+}

@@ -2390,3 +2390,7 @@ A founder `GREEN` cannot substitute for the exact successful Actions run tied to
 <!-- CERTIAURA_BUILD_0058_LESSONS_START -->
 Build 0058 lessons: aggregate scores must not hide rejected provenance; conflicting evidence must be explicitly adjudicated or held; recurrent signals must route by severity; amendments require validation and rollback; pilot continuation is fail-closed; the non-interactive Git guard remains mandatory; Windows generated-report self-exclusion must normalise each single backslash before owned-path comparison.
 <!-- CERTIAURA_BUILD_0058_LESSONS_END -->
+
+<!-- CERTIAURA_BUILD_0059_LESSONS_START -->
+Build 0059 lessons: review approvals require role separation, quorum, conflict disclosure and a version-locked evidence pack; appeals require an independent panel; recovery is fail-closed until every criterion is met; reassessment cannot ignore open challenges or suspension; reusable operating models transfer governance mechanics but never peptide-specific clinical assumptions; every close script must print and persist a complete copy-ready evidence block; the Build 0058 single-backslash report-path correction and non-interactive Git guard remain mandatory.
+<!-- CERTIAURA_BUILD_0059_LESSONS_END -->

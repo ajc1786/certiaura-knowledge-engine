@@ -1,0 +1,106 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://certiaura.invalid/schemas/tesamorelin_periodic_reassessment.schema.json",
+  "title": "tesamorelin_periodic_reassessment",
+  "type": "object",
+  "required": [
+    "build_number",
+    "candidate",
+    "record_type",
+    "record_id",
+    "peptide",
+    "clinical_recommendation_authorised",
+    "clinical_decision_support_authorised",
+    "review_cycle_id",
+    "prior_decision_id",
+    "due_date",
+    "completed_at",
+    "evidence_pack_version",
+    "new_signals",
+    "open_challenges",
+    "suspension_state",
+    "outcome",
+    "next_review_due",
+    "approvers"
+  ],
+  "properties": {
+    "build_number": {
+      "const": "0059"
+    },
+    "candidate": {
+      "const": "RC1"
+    },
+    "peptide": {
+      "const": "Tesamorelin"
+    },
+    "clinical_recommendation_authorised": {
+      "const": false
+    },
+    "clinical_decision_support_authorised": {
+      "const": false
+    },
+    "record_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "approvers": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "record_type": {
+      "const": "tesamorelin_periodic_reassessment"
+    },
+    "review_cycle_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "prior_decision_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "due_date": {
+      "type": "string",
+      "minLength": 10
+    },
+    "completed_at": {
+      "type": "string",
+      "minLength": 10
+    },
+    "evidence_pack_version": {
+      "type": "string",
+      "minLength": 1
+    },
+    "new_signals": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "open_challenges": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "suspension_state": {
+      "enum": [
+        "NONE",
+        "ACTIVE",
+        "RECOVERY_REVIEW"
+      ]
+    },
+    "outcome": {
+      "enum": [
+        "CONTINUE",
+        "CONTINUE_WITH_CONDITIONS",
+        "SUSPEND",
+        "TERMINATE"
+      ]
+    },
+    "next_review_due": {
+      "type": "string",
+      "minLength": 10
+    }
+  },
+  "additionalProperties": true
+}

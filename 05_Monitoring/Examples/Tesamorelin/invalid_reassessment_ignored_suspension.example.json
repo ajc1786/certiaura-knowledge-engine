@@ -1,0 +1,24 @@
+{
+  "build_number": "0059",
+  "candidate": "RC1",
+  "peptide": "Tesamorelin",
+  "clinical_recommendation_authorised": false,
+  "clinical_decision_support_authorised": false,
+  "record_type": "tesamorelin_periodic_reassessment",
+  "record_id": "PRA-INVALID-001",
+  "review_cycle_id": "CYCLE-X",
+  "prior_decision_id": "DEC-X",
+  "due_date": "2026-10-23",
+  "completed_at": "2026-11-30",
+  "evidence_pack_version": "1.0.0",
+  "new_signals": [
+    "Critical signal"
+  ],
+  "open_challenges": 2,
+  "suspension_state": "ACTIVE",
+  "outcome": "CONTINUE",
+  "next_review_due": "2027-01-01",
+  "approvers": [
+    "R-CHAIR"
+  ]
+}

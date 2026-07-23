@@ -1,0 +1,51 @@
+{
+  "build_number": "0059",
+  "candidate": "RC1",
+  "peptide": "Tesamorelin",
+  "clinical_recommendation_authorised": false,
+  "clinical_decision_support_authorised": false,
+  "record_type": "tesamorelin_review_board_decision",
+  "record_id": "RB-COND-001",
+  "evidence_pack_id": "EP-0059-002",
+  "evidence_pack_version": "1.0.0-rc1",
+  "decision_id": "DEC-0059-002",
+  "roles": [
+    {
+      "role": "CHAIR",
+      "reviewer_id": "R-CHAIR",
+      "independence_confirmed": true,
+      "vote": "APPROVE"
+    },
+    {
+      "role": "EVIDENCE_REVIEWER",
+      "reviewer_id": "R-EVIDENCE",
+      "independence_confirmed": true,
+      "vote": "APPROVE"
+    },
+    {
+      "role": "SAFETY_REVIEWER",
+      "reviewer_id": "R-SAFETY",
+      "independence_confirmed": true,
+      "vote": "APPROVE"
+    },
+    {
+      "role": "GOVERNANCE_REVIEWER",
+      "reviewer_id": "R-GOV",
+      "independence_confirmed": true,
+      "vote": "CONDITIONAL_HOLD"
+    }
+  ],
+  "quorum": {
+    "required": 4,
+    "present": 4
+  },
+  "conflicts_disclosed": true,
+  "decision": "CONDITIONAL_HOLD",
+  "rationale": "Governance review requires one correction.",
+  "conditions": [
+    "Correct evidence-pack index"
+  ],
+  "approvers": [
+    "R-CHAIR"
+  ]
+}

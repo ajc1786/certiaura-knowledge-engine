@@ -1,0 +1,20 @@
+{
+  "build_number": "0059",
+  "candidate": "RC1",
+  "peptide": "Tesamorelin",
+  "clinical_recommendation_authorised": false,
+  "clinical_decision_support_authorised": false,
+  "record_type": "tesamorelin_periodic_reassessment",
+  "record_id": "",
+  "review_cycle_id": "",
+  "prior_decision_id": "",
+  "due_date": "",
+  "completed_at": "",
+  "evidence_pack_version": "",
+  "new_signals": [],
+  "open_challenges": 0,
+  "suspension_state": "NONE",
+  "outcome": "CONTINUE_WITH_CONDITIONS",
+  "next_review_due": "",
+  "approvers": []
+}

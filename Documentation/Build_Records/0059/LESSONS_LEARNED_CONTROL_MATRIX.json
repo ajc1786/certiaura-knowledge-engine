@@ -1,0 +1,45 @@
+{
+  "build_number": "0059",
+  "controls": [
+    {
+      "id": "0059-C01",
+      "control": "review-board roles, independence, conflicts and quorum"
+    },
+    {
+      "id": "0059-C02",
+      "control": "immutable versioned evidence packs"
+    },
+    {
+      "id": "0059-C03",
+      "control": "independent challenge and appeal"
+    },
+    {
+      "id": "0059-C04",
+      "control": "suspension recovery criteria"
+    },
+    {
+      "id": "0059-C05",
+      "control": "periodic reassessment fail-closed routing"
+    },
+    {
+      "id": "0059-C06",
+      "control": "reusable governance model with peptide-specific boundary"
+    },
+    {
+      "id": "0059-C07",
+      "control": "copy-ready PowerShell closure evidence"
+    },
+    {
+      "id": "0059-C08",
+      "control": "external and ignored local JSON evidence persistence"
+    },
+    {
+      "id": "0059-C09",
+      "control": "non-interactive Git guard retained"
+    },
+    {
+      "id": "0059-C10",
+      "control": "Windows single-backslash report-path normalisation retained"
+    }
+  ]
+}

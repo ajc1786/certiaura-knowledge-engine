@@ -1,0 +1,29 @@
+{
+  "build_number": "0059",
+  "candidate": "RC1",
+  "peptide": "Tesamorelin",
+  "clinical_recommendation_authorised": false,
+  "clinical_decision_support_authorised": false,
+  "record_type": "tesamorelin_suspension_recovery_decision",
+  "record_id": "SR-INVALID-001",
+  "suspension_id": "SUSP-X",
+  "suspension_reason": "Critical risk.",
+  "recovery_criteria": [
+    "One criterion"
+  ],
+  "criteria_results": [
+    {
+      "criterion": "One criterion",
+      "state": "NOT_MET",
+      "evidence_ref": "E-X"
+    }
+  ],
+  "residual_risks": [
+    "Critical unresolved risk"
+  ],
+  "residual_risk_severity": "CRITICAL",
+  "reentry_decision": "RECOVER_TO_SIMULATION",
+  "approvers": [
+    "R-GOV"
+  ]
+}

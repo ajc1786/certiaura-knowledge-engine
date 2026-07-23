@@ -1,0 +1,13 @@
+{
+  "build_number": "0059",
+  "peptide": "Tesamorelin",
+  "states": {
+    "ACTIVE_SUSPENSION": "REMAIN_SUSPENDED",
+    "CRITERIA_PARTIAL": "CONDITIONAL_RECOVERY or REMAIN_SUSPENDED",
+    "ALL_CRITERIA_MET_WITHOUT_HIGH_RISK": "RECOVER_TO_SIMULATION",
+    "CRITICAL_RESIDUAL_RISK": "TERMINATE or REMAIN_SUSPENDED"
+  },
+  "minimum_recovery_criteria": 2,
+  "human_approval_required": true,
+  "clinical_recommendation_authorised": false
+}

@@ -1,0 +1,19 @@
+{
+  "build_number": "0059",
+  "peptide": "Tesamorelin",
+  "required_inputs": [
+    "prior decision",
+    "current evidence pack",
+    "new signals",
+    "open challenges",
+    "suspension state"
+  ],
+  "fail_closed_routes": {
+    "open_challenge": "CONTINUE_WITH_CONDITIONS or SUSPEND",
+    "active_suspension": "SUSPEND",
+    "critical_new_signal": "SUSPEND or TERMINATE",
+    "overdue_review": "HOLD_PENDING_REASSESSMENT"
+  },
+  "next_review_date_required": true,
+  "clinical_decision_support_authorised": false
+}

@@ -1,0 +1,20 @@
+{
+  "build_number": "0059",
+  "candidate": "RC1",
+  "peptide": "Tesamorelin",
+  "clinical_recommendation_authorised": false,
+  "clinical_decision_support_authorised": false,
+  "record_type": "tesamorelin_evidence_pack_version",
+  "record_id": "",
+  "pack_id": "",
+  "version": "",
+  "predecessor_version": null,
+  "source_refs": [],
+  "source_hashes": {},
+  "change_summary": "",
+  "immutable_snapshot_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+  "validation_state": "PARTIAL",
+  "supersedes": [],
+  "status": "DRAFT",
+  "approvers": []
+}

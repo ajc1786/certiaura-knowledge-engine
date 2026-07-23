@@ -1,0 +1,35 @@
+{
+  "build_number": "0059",
+  "candidate": "RC1",
+  "peptide": "Tesamorelin",
+  "clinical_recommendation_authorised": false,
+  "clinical_decision_support_authorised": false,
+  "record_type": "tesamorelin_suspension_recovery_decision",
+  "record_id": "SR-COND-001",
+  "suspension_id": "SUSP-002",
+  "suspension_reason": "Appeal remains open.",
+  "recovery_criteria": [
+    "Appeal closed",
+    "Pack validated"
+  ],
+  "criteria_results": [
+    {
+      "criterion": "Appeal closed",
+      "state": "PARTIAL",
+      "evidence_ref": "E-3"
+    },
+    {
+      "criterion": "Pack validated",
+      "state": "MET",
+      "evidence_ref": "E-4"
+    }
+  ],
+  "residual_risks": [
+    "Open appeal"
+  ],
+  "residual_risk_severity": "MODERATE",
+  "reentry_decision": "REMAIN_SUSPENDED",
+  "approvers": [
+    "R-GOV"
+  ]
+}

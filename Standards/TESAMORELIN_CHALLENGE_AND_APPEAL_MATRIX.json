@@ -1,0 +1,32 @@
+{
+  "build_number": "0059",
+  "peptide": "Tesamorelin",
+  "challenge_states": {
+    "PROCEDURAL": [
+      "INDEPENDENT_PANEL",
+      "UPHOLD or MODIFY or OVERTURN"
+    ],
+    "EVIDENCE_OMISSION": [
+      "VERSIONED_PACK_REVIEW",
+      "MODIFY or HOLD"
+    ],
+    "SAFETY_CONCERN": [
+      "IMMEDIATE_HOLD",
+      "INDEPENDENT_SAFETY_REVIEW"
+    ],
+    "CONFLICT_OF_INTEREST": [
+      "RECUSE_ORIGINAL_DECIDER",
+      "NEW_PANEL"
+    ]
+  },
+  "requirements": [
+    "challenge basis",
+    "original decision",
+    "independent panel",
+    "versioned evidence pack",
+    "rationale",
+    "audit references"
+  ],
+  "same_decider_appeal_prohibited": true,
+  "clinical_decision_support_authorised": false
+}

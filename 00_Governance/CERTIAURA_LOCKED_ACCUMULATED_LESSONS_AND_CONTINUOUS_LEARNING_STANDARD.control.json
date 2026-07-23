@@ -7598,7 +7598,7 @@
       ]
     }
   ],
-  "latest_build": "0058",
+  "latest_build": "0059",
   "build_0058_controls": [
     "source quality scoring",
     "conflict adjudication",
@@ -7607,5 +7607,17 @@
     "pilot continuation fail-closed",
     "non-interactive Git guard",
     "Windows single-backslash report-path normalisation"
+  ],
+  "build_0059_controls": [
+    "role-based review board",
+    "immutable evidence pack versions",
+    "independent challenge and appeal",
+    "suspension recovery fail-closed",
+    "periodic reassessment",
+    "reusable operating model boundary",
+    "copy-ready closure evidence output",
+    "recoverable closure evidence JSON",
+    "non-interactive Git guard",
+    "Windows single-backslash normalisation"
   ]
 }

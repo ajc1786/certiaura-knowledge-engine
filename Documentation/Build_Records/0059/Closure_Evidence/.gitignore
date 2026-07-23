@@ -1,0 +1,3 @@
+# Runtime closure evidence is retained locally and externally without dirtying Git.
+*.json
+!.gitignore

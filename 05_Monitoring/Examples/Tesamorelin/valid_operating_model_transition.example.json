@@ -1,0 +1,33 @@
+{
+  "build_number": "0059",
+  "candidate": "RC1",
+  "peptide": "Tesamorelin",
+  "clinical_recommendation_authorised": false,
+  "clinical_decision_support_authorised": false,
+  "record_type": "peptide_review_operating_model_transition",
+  "record_id": "OMT-VALID-001",
+  "transition_id": "TRANS-001",
+  "source_pilot": "Tesamorelin",
+  "reusable_controls": [
+    "role separation",
+    "immutable evidence packs",
+    "independent appeal",
+    "suspension recovery",
+    "periodic reassessment",
+    "audit replay",
+    "fail-closed routing"
+  ],
+  "peptide_specific_controls": [
+    "Tesamorelin biological and safety boundaries"
+  ],
+  "prohibited_assumptions": [
+    "cross-peptide clinical equivalence",
+    "automatic transfer of Tesamorelin biology"
+  ],
+  "validation_state": "COMPLETE",
+  "decision": "APPROVE_REUSABLE_MODEL",
+  "approvers": [
+    "R-GOV",
+    "R-CHAIR"
+  ]
+}
