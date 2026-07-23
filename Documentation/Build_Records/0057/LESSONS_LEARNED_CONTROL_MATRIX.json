@@ -1,0 +1,21 @@
+{
+  "build_number": "0057",
+  "controls": [
+    {
+      "id": "0057-C01",
+      "control": "source provenance hash required"
+    },
+    {
+      "id": "0057-C02",
+      "control": "safety signals stop and escalate"
+    },
+    {
+      "id": "0057-C03",
+      "control": "audit replay required"
+    },
+    {
+      "id": "0057-C04",
+      "control": "non-interactive Git guard and restoration"
+    }
+  ]
+}

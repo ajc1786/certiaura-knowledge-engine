@@ -1,0 +1,13 @@
+{
+  "build_number": "0057",
+  "candidate": "RC1",
+  "title": "tesamorelin governed evidence ingestion, provenance validation, monitoring workflow simulation, safety escalation, audit replay and controlled acceptance baseline",
+  "predecessor_build": "0056",
+  "predecessor_candidate": "RC1",
+  "predecessor_commit": "2e6fe434bf1d0566bf3d1afa33bae24ce13b3b44",
+  "predecessor_github_actions_run_id": 29999430792,
+  "capability": "Governed Tesamorelin evidence ingestion and monitoring workflow simulation with non-interactive Git closure control",
+  "package_file_count": 84,
+  "generated_file_count": 8,
+  "owned_path_count": 92
+}

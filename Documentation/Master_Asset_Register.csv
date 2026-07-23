@@ -2958,3 +2958,9 @@ CERT-EKS-000785,,EKS,Controlled Matrix,ACTIVE,Certiaura Governance,,,,Standards/
 CERT-MKS-000216,,MKS,Controlled Model,ACTIVE,Certiaura Governance,,,,Standards/TESAMORELIN_MONITORING_MODEL.json,,1.0.0,,,,,,,,,Build 0056,,,,,Tesamorelin Monitoring Model
 CERT-MKS-000217,,MKS,Controlled Matrix,ACTIVE,Certiaura Governance,,,,Standards/TESAMORELIN_SAFETY_BOUNDARY_AND_ESCALATION_MATRIX.json,,1.0.0,,,,,,,,,Build 0056,,,,,Tesamorelin Safety Boundary and Escalation Matrix
 CERT-SYS-000867,,SYS,Controlled Standard,ACTIVE,Certiaura Governance,,,,Standards/TESAMORELIN_TARGET_SPECIFIC_DATA_CONTRACT_STANDARD.md,,1.0.0,,,,,,,,,Build 0056,,,,,Tesamorelin Target-Specific Data Contract Standard
+CERT-SYS-000868,,SYS,Controlled Standard,ACTIVE,Certiaura Governance,,,,Standards/CERTIAURA_NON_INTERACTIVE_GIT_MAINTENANCE_STANDARD.md,,1.0.0,,,,,,,,,Build 0057,,,,,Certiaura Non-Interactive Git Maintenance Standard
+CERT-EKS-000786,,EKS,Controlled Standard,ACTIVE,Certiaura Governance,,,,Standards/TESAMORELIN_AUDIT_TRAIL_AND_REPLAY_STANDARD.md,,1.0.0,,,,,,,,,Build 0057,,,,,Tesamorelin Audit Trail and Replay Standard
+CERT-SYS-000869,,SYS,Controlled Standard,ACTIVE,Certiaura Governance,,,,Standards/TESAMORELIN_EVIDENCE_INGESTION_AND_PROVENANCE_STANDARD.md,,1.0.0,,,,,,,,,Build 0057,,,,,Tesamorelin Evidence Ingestion and Provenance Standard
+CERT-MKS-000218,,MKS,Controlled Model,ACTIVE,Certiaura Governance,,,,Standards/TESAMORELIN_MONITORING_WORKFLOW_SIMULATION_MODEL.json,,1.0.0,,,,,,,,,Build 0057,,,,,Tesamorelin Monitoring Workflow Simulation Model
+CERT-MKS-000219,,MKS,Controlled Matrix,ACTIVE,Certiaura Governance,,,,Standards/TESAMORELIN_SAFETY_ESCALATION_ROUTING_MATRIX.json,,1.0.0,,,,,,,,,Build 0057,,,,,Tesamorelin Safety Escalation Routing Matrix
+CERT-PKS-000437,,PKS,Controlled Matrix,ACTIVE,Certiaura Governance,,,,Standards/TESAMORELIN_SIMULATION_ACCEPTANCE_MATRIX.json,,1.0.0,,,,,,,,,Build 0057,,,,,Tesamorelin Simulation Acceptance Matrix

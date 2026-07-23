@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0.0",
+  "build_number": "0057",
+  "peptide": "Tesamorelin",
+  "acceptance_requirements": {
+    "minimum_ingested_sources": 3,
+    "all_ingested_sources_verified": true,
+    "open_critical_gaps": 0,
+    "unresolved_safety_signals": 0,
+    "workflow_replay_state": "COMPLETE",
+    "audit_trail_complete": true,
+    "human_approval_required": true
+  },
+  "decisions": [
+    "ACCEPT_SIMULATION_BASELINE",
+    "CONDITIONAL_REVIEW_ONLY",
+    "HOLD"
+  ],
+  "clinical_use_prohibited": true
+}

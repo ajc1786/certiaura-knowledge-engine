@@ -1,0 +1,98 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://certiaura.invalid/schemas/tesamorelin_simulation_acceptance_decision.schema.json",
+  "title": "tesamorelin_simulation_acceptance_decision",
+  "type": "object",
+  "required": [
+    "build_number",
+    "record_type",
+    "record_id",
+    "peptide",
+    "clinical_recommendation_authorised",
+    "clinical_decision_support_authorised",
+    "ingested_source_count",
+    "verified_source_count",
+    "open_critical_gaps",
+    "unresolved_safety_signals",
+    "workflow_replay_state",
+    "audit_trail_complete",
+    "prohibited_scope",
+    "decision",
+    "approvers"
+  ],
+  "properties": {
+    "build_number": {
+      "const": "0057"
+    },
+    "candidate": {
+      "const": "RC1"
+    },
+    "peptide": {
+      "const": "Tesamorelin"
+    },
+    "clinical_recommendation_authorised": {
+      "const": false
+    },
+    "clinical_decision_support_authorised": {
+      "const": false
+    },
+    "record_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "approvers": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "record_type": {
+      "const": "tesamorelin_simulation_acceptance_decision"
+    },
+    "ingested_source_count": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "verified_source_count": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "open_critical_gaps": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "unresolved_safety_signals": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "workflow_replay_state": {
+      "enum": [
+        "COMPLETE",
+        "PARTIAL",
+        "FAILED"
+      ]
+    },
+    "audit_trail_complete": {
+      "type": "boolean"
+    },
+    "prohibited_scope": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    },
+    "decision": {
+      "enum": [
+        "ACCEPT_SIMULATION_BASELINE",
+        "CONDITIONAL_REVIEW_ONLY",
+        "HOLD"
+      ]
+    }
+  },
+  "additionalProperties": true
+}

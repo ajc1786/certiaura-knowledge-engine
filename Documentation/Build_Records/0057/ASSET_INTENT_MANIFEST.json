@@ -1,0 +1,621 @@
+{
+  "schema_version": "2.1.0",
+  "build_number": "0057",
+  "candidate": "RC1",
+  "title": "tesamorelin governed evidence ingestion, provenance validation, monitoring workflow simulation, safety escalation, audit replay and controlled acceptance baseline",
+  "predecessor": {
+    "build_number": "0056",
+    "candidate": "RC1",
+    "commit": "2e6fe434bf1d0566bf3d1afa33bae24ce13b3b44",
+    "expected_path_count": 91,
+    "github_actions_run_id": 29999430792
+  },
+  "package_file_count": 84,
+  "generated_file_count": 8,
+  "ownership_rule": "EXACT_PACKAGE_AND_GENERATED_PATH_SET",
+  "files": [
+    {
+      "repository_path": "05_Monitoring/Examples/Tesamorelin/conditional_evidence_ingestion.example.json",
+      "classification": "EXAMPLE",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "05_Monitoring/Examples/Tesamorelin/conditional_monitoring_hold.example.json",
+      "classification": "EXAMPLE",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "05_Monitoring/Examples/Tesamorelin/conditional_safety_hold.example.json",
+      "classification": "EXAMPLE",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "05_Monitoring/Examples/Tesamorelin/conditional_simulation_acceptance.example.json",
+      "classification": "EXAMPLE",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "05_Monitoring/Examples/Tesamorelin/invalid_acceptance_incomplete_audit.example.json",
+      "classification": "EXAMPLE",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "05_Monitoring/Examples/Tesamorelin/invalid_acceptance_open_gap.example.json",
+      "classification": "EXAMPLE",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "05_Monitoring/Examples/Tesamorelin/invalid_critical_without_stop.example.json",
+      "classification": "EXAMPLE",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "05_Monitoring/Examples/Tesamorelin/invalid_ingestion_clinical_claim.example.json",
+      "classification": "EXAMPLE",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "05_Monitoring/Examples/Tesamorelin/invalid_ingestion_missing_hash.example.json",
+      "classification": "EXAMPLE",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "05_Monitoring/Examples/Tesamorelin/invalid_monitoring_no_reviewer.example.json",
+      "classification": "EXAMPLE",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "05_Monitoring/Examples/Tesamorelin/invalid_monitoring_signal_continue.example.json",
+      "classification": "EXAMPLE",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "05_Monitoring/Examples/Tesamorelin/invalid_safety_without_evidence.example.json",
+      "classification": "EXAMPLE",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "05_Monitoring/Examples/Tesamorelin/valid_evidence_ingestion.example.json",
+      "classification": "EXAMPLE",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "05_Monitoring/Examples/Tesamorelin/valid_monitoring_workflow_event.example.json",
+      "classification": "EXAMPLE",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "05_Monitoring/Examples/Tesamorelin/valid_safety_escalation.example.json",
+      "classification": "EXAMPLE",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "05_Monitoring/Examples/Tesamorelin/valid_simulation_acceptance.example.json",
+      "classification": "EXAMPLE",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "13_Project_Genesis/Dashboards/generate_tesamorelin_workflow_simulation_summary.py",
+      "classification": "IMPLEMENTATION",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "13_Project_Genesis/Import/run_build_0057_import.py",
+      "classification": "IMPLEMENTATION",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "13_Project_Genesis/Release/derive_build_0056_predecessor_evidence.py",
+      "classification": "IMPLEMENTATION",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "13_Project_Genesis/Release/run_build_0057_preflight.py",
+      "classification": "IMPLEMENTATION",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "13_Project_Genesis/Tests/test_build_0057_cross_asset_coherence.py",
+      "classification": "TEST",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "13_Project_Genesis/Tests/test_build_0057_git_noninteractive_guard.py",
+      "classification": "TEST",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "13_Project_Genesis/Tests/test_build_0057_predecessor_evidence.py",
+      "classification": "TEST",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "13_Project_Genesis/Tests/test_build_0057_repository.py",
+      "classification": "TEST",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "13_Project_Genesis/Tests/test_build_0057_transactional_import.py",
+      "classification": "TEST",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "13_Project_Genesis/Tests/test_build_0057_workflow_simulation.py",
+      "classification": "TEST",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "13_Project_Genesis/Validators/build_0057_asset_ownership.py",
+      "classification": "IMPLEMENTATION",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "13_Project_Genesis/Validators/tesamorelin_workflow_simulation_common.py",
+      "classification": "IMPLEMENTATION",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "13_Project_Genesis/Validators/validate_build_0057_repository.py",
+      "classification": "IMPLEMENTATION",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "13_Project_Genesis/Validators/validate_tesamorelin_workflow_simulation.py",
+      "classification": "IMPLEMENTATION",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Database/Registers/Tesamorelin_Evidence_Ingestion_Register.csv",
+      "classification": "REGISTER",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Database/Registers/Tesamorelin_Monitoring_Workflow_Register.csv",
+      "classification": "REGISTER",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Database/Registers/Tesamorelin_Safety_Escalation_Register.csv",
+      "classification": "REGISTER",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Database/Registers/Tesamorelin_Simulation_Acceptance_Register.csv",
+      "classification": "REGISTER",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0057/ACCUMULATED_LESSONS_DELTA.json",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0057/ASSET_INTENT_MANIFEST.json",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0057/ASSET_REGISTER_RECONCILIATION_POLICY.json",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0057/BUILD_MANIFEST.json",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0057/CANDIDATE_DELIVERY.json",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0057/CHECKSUMS.sha256",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0057/COMMIT_MESSAGE.txt",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0057/CONFLICT_POLICY.json",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0057/CONTINUITY_CHECKPOINT_DELTA.json",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0057/DECISION_RECORD_0057.md",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0057/GITHUB_ACTIONS_CLOSURE_EVIDENCE_REQUIREMENTS.json",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0057/LESSONS_LEARNED_CONTROL_MATRIX.json",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0057/LESSONS_LEARNED_REVIEW.md",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0057/OUTSIDE_CANONICAL_VALIDATION_REPORT.json",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0057/PACKAGE_INVENTORY.csv",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0057/PACKAGE_VERSION.json",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0057/PREDECESSOR_REQUIREMENTS.json",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0057/PRE_AUTHORISED_PRECURSOR_STATE.json",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0057/PRE_RELEASE_VALIDATION_REPORT.json",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0057/PROJECT_GENESIS_IMPORT_HOOK.json",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0057/PROPOSED_NEXT_ACTION.md",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0057/READ_ME_FIRST.md",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0057/REAL_WORLD_OPERATOR_WORKFLOW_REGRESSION_REPORT.json",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0057/ROLLBACK_RUNBOOK.md",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0057/ROUTING_MANIFEST.json",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0057/SOURCE_INPUT_DEFECT_LOG.json",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0057/VALIDATION_REQUIREMENTS.json",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Schemas/tesamorelin_evidence_ingestion_record.schema.json",
+      "classification": "SCHEMA",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Schemas/tesamorelin_monitoring_workflow_event.schema.json",
+      "classification": "SCHEMA",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Schemas/tesamorelin_safety_escalation_decision.schema.json",
+      "classification": "SCHEMA",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Schemas/tesamorelin_simulation_acceptance_decision.schema.json",
+      "classification": "SCHEMA",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Scripts/Close_Certiaura_Build_0057.ps1",
+      "classification": "OPERATOR_SCRIPT",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Scripts/Invoke_Certiaura_Build_0057_Import.ps1",
+      "classification": "OPERATOR_SCRIPT",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Scripts/Invoke_Certiaura_Build_0057_Preflight.ps1",
+      "classification": "OPERATOR_SCRIPT",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Scripts/Invoke_Certiaura_Build_0057_Windows_PS51_Regression.ps1",
+      "classification": "OPERATOR_SCRIPT",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Scripts/Invoke_Certiaura_Git_NonInteractive_Guard.ps1",
+      "classification": "OPERATOR_SCRIPT",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Scripts/Run_Certiaura_Build_0057.ps1",
+      "classification": "OPERATOR_SCRIPT",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Scripts/START_BUILD_0057.cmd",
+      "classification": "OPERATOR_SCRIPT",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Scripts/update_certiaura_build_0057_controls.py",
+      "classification": "OPERATOR_SCRIPT",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Standards/CERTIAURA_NON_INTERACTIVE_GIT_MAINTENANCE_STANDARD.md",
+      "classification": "FORMAL_ASSET",
+      "intended_action": "CREATE",
+      "package_member": true,
+      "asset_title": "Certiaura Non-Interactive Git Maintenance Standard",
+      "knowledge_system": "SYS",
+      "asset_type": "Controlled Standard",
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "owner": "Certiaura Governance",
+      "master_asset_register_action": "CREATE"
+    },
+    {
+      "repository_path": "Standards/TESAMORELIN_AUDIT_TRAIL_AND_REPLAY_STANDARD.md",
+      "classification": "FORMAL_ASSET",
+      "intended_action": "CREATE",
+      "package_member": true,
+      "asset_title": "Tesamorelin Audit Trail and Replay Standard",
+      "knowledge_system": "EKS",
+      "asset_type": "Controlled Standard",
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "owner": "Certiaura Governance",
+      "master_asset_register_action": "CREATE"
+    },
+    {
+      "repository_path": "Standards/TESAMORELIN_EVIDENCE_INGESTION_AND_PROVENANCE_STANDARD.md",
+      "classification": "FORMAL_ASSET",
+      "intended_action": "CREATE",
+      "package_member": true,
+      "asset_title": "Tesamorelin Evidence Ingestion and Provenance Standard",
+      "knowledge_system": "SYS",
+      "asset_type": "Controlled Standard",
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "owner": "Certiaura Governance",
+      "master_asset_register_action": "CREATE"
+    },
+    {
+      "repository_path": "Standards/TESAMORELIN_MONITORING_WORKFLOW_SIMULATION_MODEL.json",
+      "classification": "FORMAL_ASSET",
+      "intended_action": "CREATE",
+      "package_member": true,
+      "asset_title": "Tesamorelin Monitoring Workflow Simulation Model",
+      "knowledge_system": "MKS",
+      "asset_type": "Controlled Model",
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "owner": "Certiaura Governance",
+      "master_asset_register_action": "CREATE"
+    },
+    {
+      "repository_path": "Standards/TESAMORELIN_SAFETY_ESCALATION_ROUTING_MATRIX.json",
+      "classification": "FORMAL_ASSET",
+      "intended_action": "CREATE",
+      "package_member": true,
+      "asset_title": "Tesamorelin Safety Escalation Routing Matrix",
+      "knowledge_system": "MKS",
+      "asset_type": "Controlled Matrix",
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "owner": "Certiaura Governance",
+      "master_asset_register_action": "CREATE"
+    },
+    {
+      "repository_path": "Standards/TESAMORELIN_SIMULATION_ACCEPTANCE_MATRIX.json",
+      "classification": "FORMAL_ASSET",
+      "intended_action": "CREATE",
+      "package_member": true,
+      "asset_title": "Tesamorelin Simulation Acceptance Matrix",
+      "knowledge_system": "PKS",
+      "asset_type": "Controlled Matrix",
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "owner": "Certiaura Governance",
+      "master_asset_register_action": "CREATE"
+    },
+    {
+      "repository_path": "Templates/TESAMORELIN_EVIDENCE_INGESTION_TEMPLATE.json",
+      "classification": "TEMPLATE",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Templates/TESAMORELIN_MONITORING_WORKFLOW_EVENT_TEMPLATE.json",
+      "classification": "TEMPLATE",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Templates/TESAMORELIN_SAFETY_ESCALATION_TEMPLATE.json",
+      "classification": "TEMPLATE",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Templates/TESAMORELIN_SIMULATION_ACCEPTANCE_TEMPLATE.json",
+      "classification": "TEMPLATE",
+      "intended_action": "CREATE",
+      "package_member": true
+    },
+    {
+      "repository_path": "Templates/TESAMORELIN_WORKFLOW_SIMULATION_EXECUTIVE_SUMMARY_TEMPLATE.md",
+      "classification": "TEMPLATE",
+      "intended_action": "CREATE",
+      "package_member": true
+    }
+  ],
+  "generated_files": [
+    {
+      "repository_path": "00_Governance/CERTIAURA_LOCKED_ACCUMULATED_LESSONS_AND_CONTINUOUS_LEARNING_STANDARD.control.json",
+      "classification": "NON_ASSET_ADMIN",
+      "intended_action": "UPDATE",
+      "package_member": false,
+      "approved_predecessor_overlap": true,
+      "master_asset_register_action": "NO_CHANGE"
+    },
+    {
+      "repository_path": "00_Governance/CERTIAURA_LOCKED_ACCUMULATED_LESSONS_AND_CONTINUOUS_LEARNING_STANDARD.md",
+      "classification": "NON_ASSET_ADMIN",
+      "intended_action": "UPDATE",
+      "package_member": false,
+      "approved_predecessor_overlap": true,
+      "master_asset_register_action": "NO_CHANGE"
+    },
+    {
+      "repository_path": "00_Governance/CERTIAURA_LOCKED_BUILD_CONTINUITY_AND_CHECKPOINT.md",
+      "classification": "NON_ASSET_ADMIN",
+      "intended_action": "UPDATE",
+      "package_member": false,
+      "approved_predecessor_overlap": true,
+      "master_asset_register_action": "NO_CHANGE"
+    },
+    {
+      "repository_path": "Documentation/Master_Asset_Register.csv",
+      "classification": "CANONICAL_REGISTER",
+      "intended_action": "UPDATE",
+      "package_member": false,
+      "approved_predecessor_overlap": true
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0057/ASSET_REGISTER_CHANGE_REPORT.json",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE",
+      "package_member": false
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0057/CANONICAL_IMPORT_REPORT.json",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE",
+      "package_member": false
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0057/POST_IMPORT_REPOSITORY_VALIDATION.json",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE",
+      "package_member": false
+    },
+    {
+      "repository_path": "Documentation/Build_Records/0057/PREDECESSOR_CANONICAL_EVIDENCE.json",
+      "classification": "BUILD_RECORD",
+      "intended_action": "CREATE",
+      "package_member": false
+    }
+  ]
+}

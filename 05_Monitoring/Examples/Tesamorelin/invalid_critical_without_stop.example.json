@@ -1,0 +1,24 @@
+{
+  "build_number": "0057",
+  "candidate": "RC1",
+  "created_at": "2026-07-23T12:00:00Z",
+  "created_by": "Certiaura Governance",
+  "source_baseline_build": "0056",
+  "source_baseline_commit": "2e6fe434bf1d0566bf3d1afa33bae24ce13b3b44",
+  "peptide": "Tesamorelin",
+  "clinical_recommendation_authorised": false,
+  "clinical_decision_support_authorised": false,
+  "record_type": "tesamorelin_safety_escalation_decision",
+  "record_id": "TES-SAFE-0057-X01",
+  "signal_id": "TES-SIGNAL-X01",
+  "severity": "CRITICAL",
+  "evidence_refs": [
+    "TES-MON-X"
+  ],
+  "route": "review later",
+  "emergency_route": false,
+  "decision": "LOG_AND_REVIEW",
+  "approvers": [
+    "Reviewer"
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://certiaura.invalid/schemas/tesamorelin_safety_escalation_decision.schema.json",
+  "title": "tesamorelin_safety_escalation_decision",
+  "type": "object",
+  "required": [
+    "build_number",
+    "record_type",
+    "record_id",
+    "peptide",
+    "clinical_recommendation_authorised",
+    "clinical_decision_support_authorised",
+    "signal_id",
+    "severity",
+    "evidence_refs",
+    "route",
+    "emergency_route",
+    "decision",
+    "approvers"
+  ],
+  "properties": {
+    "build_number": {
+      "const": "0057"
+    },
+    "candidate": {
+      "const": "RC1"
+    },
+    "peptide": {
+      "const": "Tesamorelin"
+    },
+    "clinical_recommendation_authorised": {
+      "const": false
+    },
+    "clinical_decision_support_authorised": {
+      "const": false
+    },
+    "record_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "approvers": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "record_type": {
+      "const": "tesamorelin_safety_escalation_decision"
+    },
+    "signal_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "severity": {
+      "enum": [
+        "LOW",
+        "MODERATE",
+        "HIGH",
+        "CRITICAL"
+      ]
+    },
+    "evidence_refs": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    },
+    "route": {
+      "type": "string",
+      "minLength": 1
+    },
+    "emergency_route": {
+      "type": "boolean"
+    },
+    "decision": {
+      "enum": [
+        "LOG_AND_REVIEW",
+        "HOLD_AND_ESCALATE",
+        "STOP_AND_ESCALATE"
+      ]
+    }
+  },
+  "additionalProperties": true
+}

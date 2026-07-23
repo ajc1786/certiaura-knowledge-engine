@@ -1,0 +1,19 @@
+{
+  "build_number": "0057",
+  "candidate": "RC1",
+  "peptide": "Tesamorelin",
+  "clinical_recommendation_authorised": false,
+  "clinical_decision_support_authorised": false,
+  "approvers": [],
+  "record_type": "tesamorelin_evidence_ingestion_record",
+  "record_id": "",
+  "source_id": "",
+  "source_type": "REGULATORY_LABEL",
+  "source_locator": "",
+  "source_sha256": "",
+  "retrieved_at": "",
+  "evidence_scope": [],
+  "provenance_state": "CONDITIONAL",
+  "open_gaps": [],
+  "decision": "CONDITIONAL_HOLD"
+}

@@ -1,0 +1,10 @@
+{
+  "build_number": "0057",
+  "defects": [
+    {
+      "id": "0057-D01",
+      "description": "Repeated interactive Git object cleanup prompts during Build 0056 closure",
+      "resolution": "Non-interactive Git maintenance guard with local config restoration and regression endpoint"
+    }
+  ]
+}

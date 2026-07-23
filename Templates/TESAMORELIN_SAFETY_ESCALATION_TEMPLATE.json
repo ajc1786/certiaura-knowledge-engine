@@ -1,0 +1,16 @@
+{
+  "build_number": "0057",
+  "candidate": "RC1",
+  "peptide": "Tesamorelin",
+  "clinical_recommendation_authorised": false,
+  "clinical_decision_support_authorised": false,
+  "approvers": [],
+  "record_type": "tesamorelin_safety_escalation_decision",
+  "record_id": "",
+  "signal_id": "",
+  "severity": "MODERATE",
+  "evidence_refs": [],
+  "route": "",
+  "emergency_route": false,
+  "decision": "HOLD_AND_ESCALATE"
+}

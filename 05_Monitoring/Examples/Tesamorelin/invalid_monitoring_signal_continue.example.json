@@ -1,0 +1,25 @@
+{
+  "build_number": "0057",
+  "candidate": "RC1",
+  "created_at": "2026-07-23T12:00:00Z",
+  "created_by": "Certiaura Governance",
+  "source_baseline_build": "0056",
+  "source_baseline_commit": "2e6fe434bf1d0566bf3d1afa33bae24ce13b3b44",
+  "peptide": "Tesamorelin",
+  "clinical_recommendation_authorised": false,
+  "clinical_decision_support_authorised": false,
+  "record_type": "tesamorelin_monitoring_workflow_event",
+  "record_id": "TES-MON-0057-X01",
+  "ingestion_record_id": "TES-ING-0057-001",
+  "event_type": "SAFETY_SIGNAL",
+  "data_quality": "COMPLETE",
+  "observations": [
+    "material safety signal"
+  ],
+  "trigger": "safety signal",
+  "action": "CONTINUE_SIMULATION",
+  "automation_limit": "No autonomous clinical decisions.",
+  "approvers": [
+    "Reviewer"
+  ]
+}

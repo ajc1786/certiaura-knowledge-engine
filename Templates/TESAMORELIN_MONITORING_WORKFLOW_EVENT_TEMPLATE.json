@@ -1,0 +1,17 @@
+{
+  "build_number": "0057",
+  "candidate": "RC1",
+  "peptide": "Tesamorelin",
+  "clinical_recommendation_authorised": false,
+  "clinical_decision_support_authorised": false,
+  "approvers": [],
+  "record_type": "tesamorelin_monitoring_workflow_event",
+  "record_id": "",
+  "ingestion_record_id": "",
+  "event_type": "BASELINE_REVIEW",
+  "data_quality": "PARTIAL",
+  "observations": [],
+  "trigger": "",
+  "action": "HOLD_AND_REVIEW",
+  "automation_limit": "No autonomous clinical decisions."
+}

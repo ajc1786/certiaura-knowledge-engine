@@ -1,0 +1,13 @@
+{
+  "build_number": "0057",
+  "candidate": "RC1",
+  "package_files": 84,
+  "generated_files": 8,
+  "owned_paths": 92,
+  "formal_assets": 6,
+  "examples": 16,
+  "automated_tests": 26,
+  "synthetic_regression": "BUILD_0057_SYNTHETIC_CANONICAL_REGRESSION_PASS",
+  "git_guard_config_restored": true,
+  "result": "OUTSIDE_CANONICAL_VALIDATED"
+}

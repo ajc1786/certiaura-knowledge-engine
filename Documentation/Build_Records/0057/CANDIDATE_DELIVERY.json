@@ -1,0 +1,9 @@
+{
+  "build_number": "0057",
+  "candidate": "RC1",
+  "status": "DELIVERED",
+  "title": "tesamorelin governed evidence ingestion, provenance validation, monitoring workflow simulation, safety escalation, audit replay and controlled acceptance baseline",
+  "predecessor_commit": "2e6fe434bf1d0566bf3d1afa33bae24ce13b3b44",
+  "predecessor_run_id": 29999430792,
+  "clinical_boundary": "NON_CLINICAL_ONLY"
+}

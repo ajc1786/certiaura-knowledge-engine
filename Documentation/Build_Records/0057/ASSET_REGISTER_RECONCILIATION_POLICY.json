@@ -1,0 +1,7 @@
+{
+  "build_number": "0057",
+  "canonical_register": "Documentation/Master_Asset_Register.csv",
+  "preserve_existing_uais": true,
+  "one_uai_per_formal_asset": true,
+  "create_count": 6
+}

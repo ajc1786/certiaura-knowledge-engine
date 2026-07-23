@@ -1,0 +1,95 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://certiaura.invalid/schemas/tesamorelin_monitoring_workflow_event.schema.json",
+  "title": "tesamorelin_monitoring_workflow_event",
+  "type": "object",
+  "required": [
+    "build_number",
+    "record_type",
+    "record_id",
+    "peptide",
+    "clinical_recommendation_authorised",
+    "clinical_decision_support_authorised",
+    "ingestion_record_id",
+    "event_type",
+    "data_quality",
+    "observations",
+    "trigger",
+    "action",
+    "automation_limit",
+    "approvers"
+  ],
+  "properties": {
+    "build_number": {
+      "const": "0057"
+    },
+    "candidate": {
+      "const": "RC1"
+    },
+    "peptide": {
+      "const": "Tesamorelin"
+    },
+    "clinical_recommendation_authorised": {
+      "const": false
+    },
+    "clinical_decision_support_authorised": {
+      "const": false
+    },
+    "record_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "approvers": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "record_type": {
+      "const": "tesamorelin_monitoring_workflow_event"
+    },
+    "ingestion_record_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "event_type": {
+      "enum": [
+        "BASELINE_REVIEW",
+        "ROUTINE_REVIEW",
+        "SAFETY_SIGNAL",
+        "DATA_QUALITY_HOLD"
+      ]
+    },
+    "data_quality": {
+      "enum": [
+        "COMPLETE",
+        "PARTIAL",
+        "INSUFFICIENT"
+      ]
+    },
+    "observations": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    },
+    "trigger": {
+      "type": "string",
+      "minLength": 1
+    },
+    "action": {
+      "enum": [
+        "CONTINUE_SIMULATION",
+        "HOLD_AND_REVIEW",
+        "STOP_AND_ESCALATE",
+        "DO_NOT_ADVANCE"
+      ]
+    },
+    "automation_limit": {
+      "type": "string",
+      "minLength": 1
+    }
+  },
+  "additionalProperties": true
+}

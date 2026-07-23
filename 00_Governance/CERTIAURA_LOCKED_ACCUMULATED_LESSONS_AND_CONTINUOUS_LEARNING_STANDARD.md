@@ -2374,3 +2374,15 @@ A founder `GREEN` cannot substitute for the exact successful Actions run tied to
 ### CERT-LESSON-0056-008 - Exact GitHub Actions run ID remains mandatory for canonical closure
 
 <!-- CERTIAURA_BUILD_0056_LESSONS_END -->
+
+<!-- CERTIAURA_BUILD_0057_LESSONS_START -->
+### CERT-LESSON-0057-001 - Evidence ingestion requires immutable provenance identifiers and source hashes
+### CERT-LESSON-0057-002 - Monitoring workflow simulation must route safety signals to stop and escalation
+### CERT-LESSON-0057-003 - Accepted simulation requires complete deterministic audit replay
+### CERT-LESSON-0057-004 - Critical gaps and unresolved safety signals block acceptance
+### CERT-LESSON-0057-005 - Simulation remains non-clinical and cannot authorise dosing, diagnosis, prescribing or treatment
+### CERT-LESSON-0057-006 - Canonical Git operations must disable automatic maintenance non-interactively and restore prior config
+### CERT-LESSON-0057-007 - Locked object-directory prompts must never require repeated operator responses
+### CERT-LESSON-0057-008 - Exact GitHub Actions run ID remains mandatory before closure
+
+<!-- CERTIAURA_BUILD_0057_LESSONS_END -->

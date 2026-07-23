@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0.0",
+  "build_number": "0057",
+  "peptide": "Tesamorelin",
+  "workflow_states": [
+    "INGESTED",
+    "REVIEWED",
+    "MONITORED",
+    "HELD",
+    "ESCALATED",
+    "ACCEPTED"
+  ],
+  "event_types": [
+    "BASELINE_REVIEW",
+    "ROUTINE_REVIEW",
+    "SAFETY_SIGNAL",
+    "DATA_QUALITY_HOLD"
+  ],
+  "mandatory_routes": {
+    "SAFETY_SIGNAL": "STOP_AND_ESCALATE",
+    "INSUFFICIENT_DATA": "DO_NOT_ADVANCE"
+  },
+  "audit_replay_required": true,
+  "autonomous_clinical_decisions_prohibited": true
+}

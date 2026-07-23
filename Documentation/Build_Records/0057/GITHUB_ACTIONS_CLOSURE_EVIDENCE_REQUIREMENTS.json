@@ -1,0 +1,20 @@
+{
+  "build_number": "0057",
+  "mandatory": true,
+  "workflow_name": "Certiaura Repository Validation",
+  "fields": [
+    "run_id",
+    "workflow_name",
+    "status",
+    "conclusion",
+    "run_attempt",
+    "head_sha",
+    "head_branch",
+    "event",
+    "created_at",
+    "updated_at"
+  ],
+  "must_match_canonical_commit": true,
+  "required_status": "completed",
+  "required_conclusion": "success"
+}
